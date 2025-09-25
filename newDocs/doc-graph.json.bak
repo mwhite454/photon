@@ -1,0 +1,451 @@
+{
+  "nodes": [
+    {
+      "id": "makerjs.basic-drawing.index",
+      "title": "Basic Drawing",
+      "path": "maker.js/newDocs/basic-drawing/index.md",
+      "summary": "Next: learn more in [Intermediate drawing](../intermediate-drawing/#content).",
+      "tags": []
+    },
+    {
+      "id": "makerjs.getting-started.for-nodejs",
+      "title": "For Node.js",
+      "path": "maker.js/newDocs/getting-started/for-nodejs.md",
+      "summary": "To depend on Maker.js in Node.js, install via npm:",
+      "tags": []
+    },
+    {
+      "id": "makerjs.getting-started.for-the-browser",
+      "title": "For the browser",
+      "path": "maker.js/newDocs/getting-started/for-the-browser.md",
+      "summary": "Download the browser-based version of Maker.js and upload it to your website:",
+      "tags": []
+    },
+    {
+      "id": "makerjs.getting-started.index",
+      "title": "Getting Started",
+      "path": "maker.js/newDocs/getting-started/index.md",
+      "summary": "This section contains the Getting Started snippets extracted from the original site. Use the links below to open each topic as its own Markdown file.",
+      "tags": []
+    },
+    {
+      "id": "makerjs.getting-started.try-it-now",
+      "title": "Try it now",
+      "path": "maker.js/newDocs/getting-started/try-it-now.md",
+      "summary": "Visit the Maker.js Playground to edit and run JavaScript from your browser:",
+      "tags": []
+    },
+    {
+      "id": "makerjs.index",
+      "title": "Create parametric CNC drawings using JavaScript",
+      "path": "maker.js/newDocs/index.md",
+      "summary": "Create line drawings using familiar constructs from geometry and drafting. Initially designated for CNC and laser cutters, Maker.js can also help you programmatically draw shapes for any purpose. It runs in both Node.js and web browsers.",
+      "tags": []
+    },
+    {
+      "id": "makerjs.snippets.$-function",
+      "title": "The $ function",
+      "path": "maker.js/newDocs/snippets/$-function.md",
+      "summary": "As an alternative to cascading functions, Maker.js offers a handy way to modify your drawing in an object-oriented style, inspired by jQuery.",
+      "tags": []
+    },
+    {
+      "id": "makerjs.snippets.aliasing",
+      "title": "Aliasing",
+      "path": "maker.js/newDocs/snippets/aliasing.md",
+      "summary": "(No snippet body found in the original file.)",
+      "tags": []
+    },
+    {
+      "id": "makerjs.snippets.basic-modeling",
+      "title": "Basic modeling",
+      "path": "maker.js/newDocs/snippets/basic-modeling.md",
+      "summary": "Examples showing how to compose models from primitives (e.g., ConnectTheDots, Square, RoundRectangle, Ring) and combine them into larger assemblies like a house, tablet mount, or skateboard deck.",
+      "tags": []
+    },
+    {
+      "id": "makerjs.snippets.basic-rendering-in-svg",
+      "title": "Basic rendering in SVG",
+      "path": "maker.js/newDocs/snippets/basic-rendering-in-svg.md",
+      "summary": "Call `makerjs.exporter.toSVG` and pass your path or an array of paths.",
+      "tags": []
+    },
+    {
+      "id": "makerjs.snippets.bezier-curves",
+      "title": "Bezier curves",
+      "path": "maker.js/newDocs/snippets/bezier-curves.md",
+      "summary": "Bezier curves are a complex topic; see A Primer on Bezier Curves by Pomax for background. Maker.js uses Pomax's Bezier.js and approximates Bezier curves as a series of circular arc paths.",
+      "tags": []
+    },
+    {
+      "id": "makerjs.snippets.breaking",
+      "title": "Breaking paths",
+      "path": "maker.js/newDocs/snippets/breaking.md",
+      "summary": "You can break paths into two pieces at a point on the path using `makerjs.path.breakAtPoint(path, point)`.",
+      "tags": []
+    },
+    {
+      "id": "makerjs.snippets.built-in-models",
+      "title": "Built-in models",
+      "path": "maker.js/newDocs/snippets/built-in-models.md",
+      "summary": "Maker.js provides these built-in models (links point to the Playground scripts on the site):",
+      "tags": []
+    },
+    {
+      "id": "makerjs.snippets.captions",
+      "title": "Captions",
+      "path": "maker.js/newDocs/snippets/captions.md",
+      "summary": "Captions are fragments of text positioned by an anchor line. Captions are a single line of text (no wrapping) centered on the anchor and can be rotated by the anchor slope. They differ from the Text model (glyph outlines).",
+      "tags": []
+    },
+    {
+      "id": "makerjs.snippets.cascading-functions",
+      "title": "Cascading functions",
+      "path": "maker.js/newDocs/snippets/cascading-functions.md",
+      "summary": "Cascading calls pass the output of one function into another allowing multiple operations in one statement. Example:",
+      "tags": []
+    },
+    {
+      "id": "makerjs.snippets.chain-dogbone",
+      "title": "Chain dogbone",
+      "path": "maker.js/newDocs/snippets/chain-dogbone.md",
+      "summary": "Add a dogbone fillet between all line paths in a chain with `makerjs.chain.dogbone(chain, filletRadiusOrRadii)`.",
+      "tags": []
+    },
+    {
+      "id": "makerjs.snippets.chain-fillet",
+      "title": "Chain fillet",
+      "path": "maker.js/newDocs/snippets/chain-fillet.md",
+      "summary": "Add fillets to all joints in a chain with `makerjs.chain.fillet(chain, filletRadius)`. The function modifies the chain paths to accommodate arcs and returns a model of the fillets which you should add to your tree.",
+      "tags": []
+    },
+    {
+      "id": "makerjs.snippets.chain-links",
+      "title": "Chain links",
+      "path": "maker.js/newDocs/snippets/chain-links.md",
+      "summary": "Each path in a chain is represented by a ChainLink wrapper object in the `links` array. The ChainLink tells how a path relates to the rest of the chain: each element connects to the next and previous element. For endless chains the last ...",
+      "tags": []
+    },
+    {
+      "id": "makerjs.snippets.chain-multiple",
+      "title": "Find multiple chains",
+      "path": "maker.js/newDocs/snippets/chain-multiple.md",
+      "summary": "You can find multiple chains with `makerjs.model.findChains(model)`. It returns an array of chains sorted by `pathLength` (largest to smallest). Example: two concentric rectangles.",
+      "tags": []
+    },
+    {
+      "id": "makerjs.snippets.chain-order",
+      "title": "Order of chain links",
+      "path": "maker.js/newDocs/snippets/chain-order.md",
+      "summary": "The order of `links` in a chain is arbitrary and not guaranteed to be stable across JS runtimes. If you need to reverse a chain use `makerjs.chain.reverse(chain)`.",
+      "tags": []
+    },
+    {
+      "id": "makerjs.snippets.chain-single",
+      "title": "Find a single chain",
+      "path": "maker.js/newDocs/snippets/chain-single.md",
+      "summary": "Use `makerjs.model.findSingleChain(model)` to return one chain from a model. For example, a rectangle comprises a chain of 4 paths:",
+      "tags": []
+    },
+    {
+      "id": "makerjs.snippets.chain-theory",
+      "title": "Chain theory",
+      "path": "maker.js/newDocs/snippets/chain-theory.md",
+      "summary": "When two or more paths connect end-to-end, they form a chain. A chain can be \"endless\" (no loose ends) — commonly used to represent closed geometry. Circles are endless chains with a single link.",
+      "tags": []
+    },
+    {
+      "id": "makerjs.snippets.chain-to-key-points",
+      "title": "Chain to key points",
+      "path": "maker.js/newDocs/snippets/chain-to-key-points.md",
+      "summary": "Convert a chain to a low-poly representation by using `makerjs.chain.toKeyPoints(chain, maxArcFacet)` where `maxArcFacet` is the maximum facet length used to approximate arcs/circles.",
+      "tags": []
+    },
+    {
+      "id": "makerjs.snippets.chain-to-new-model",
+      "title": "Chain to new model",
+      "path": "maker.js/newDocs/snippets/chain-to-new-model.md",
+      "summary": "Convert a chain back to a model object using `makerjs.chain.toNewModel(chain, detachFromOldModel)` so you can operate on it with the model API. Pass `true` to detach from the old model if needed.",
+      "tags": []
+    },
+    {
+      "id": "makerjs.snippets.chain-to-points",
+      "title": "Chain to points",
+      "path": "maker.js/newDocs/snippets/chain-to-points.md",
+      "summary": "Get points evenly spaced along a chain with `makerjs.chain.toPoints(chain, distance)`. Example:",
+      "tags": []
+    },
+    {
+      "id": "makerjs.snippets.chains",
+      "title": "Finding chains and loose paths",
+      "path": "maker.js/newDocs/snippets/chains.md",
+      "summary": "You can find chains and also detect \"loose\" paths (paths not part of any chain). Maker.js calls your callback for each logical layer with `(chains, loose, layer)` so you can inspect the results.",
+      "tags": []
+    },
+    {
+      "id": "makerjs.snippets.cloning",
+      "title": "Cloning",
+      "path": "maker.js/newDocs/snippets/cloning.md",
+      "summary": "Models and paths are plain JS objects and can be cloned. Maker.js provides helpers:",
+      "tags": []
+    },
+    {
+      "id": "makerjs.snippets.combining",
+      "title": "Combining with Boolean operations",
+      "path": "maker.js/newDocs/snippets/combining.md",
+      "summary": "Combine models using `makerjs.model.combine(modelA, modelB, aInsideB, aOutsideB, bInsideA, bOutsideA)`.",
+      "tags": []
+    },
+    {
+      "id": "makerjs.snippets.converging",
+      "title": "Converging lines",
+      "path": "maker.js/newDocs/snippets/converging.md",
+      "summary": "Use `makerjs.path.converge(lineA, lineB, [useOriginA], [useOriginB])` to make lines meet at their slope intersection point. It only works with lines (not arcs).",
+      "tags": []
+    },
+    {
+      "id": "makerjs.snippets.distorting",
+      "title": "Distorting",
+      "path": "maker.js/newDocs/snippets/distorting.md",
+      "summary": "Distort points with `makerjs.point.distort`. Distort a path with `makerjs.path.distort(path, scaleX, scaleY)` — returns a new object (type depends on path type). Distort a model with `makerjs.model.distort(model, scaleX, scaleY)`.",
+      "tags": []
+    },
+    {
+      "id": "makerjs.snippets.dogbones",
+      "title": "Dogbone Fillets",
+      "path": "maker.js/newDocs/snippets/dogbones.md",
+      "summary": "Dogbone fillets clear the apex of interior corners for CNC tooling. Use `makerjs.path.dogbone(lineA, lineB, radius)` between two lines that meet at a point. The function clips the two lines and returns an arc to clear the corner (or `nul...",
+      "tags": []
+    },
+    {
+      "id": "makerjs.snippets.expanding",
+      "title": "Expanding paths",
+      "path": "maker.js/newDocs/snippets/expanding.md",
+      "summary": "Expand a path to produce a surrounding closed geometry with `makerjs.path.expand(path, distance)`. You can expand all paths in a model with `makerjs.model.expandPaths(model, distance, [jointCorners])` where `jointCorners` controls corner...",
+      "tags": []
+    },
+    {
+      "id": "makerjs.snippets.exporting-dxf",
+      "title": "DXF",
+      "path": "maker.js/newDocs/snippets/exporting-dxf.md",
+      "summary": "Call `makerjs.exporter.toDXF(model)` to export DXF (returns a string). Layers named with reserved color names will get automatic stroke colors. You can pass options like `units`, `fontSize`, and `layerOptions` to control rendering.",
+      "tags": []
+    },
+    {
+      "id": "makerjs.snippets.exporting-openjscad",
+      "title": "OpenJScad",
+      "path": "maker.js/newDocs/snippets/exporting-openjscad.md",
+      "summary": "Call `makerjs.exporter.toOpenJsCad(model)` to generate JavaScript code for OpenJsCad environments. You can pass an `options` object for advanced behavior; see the API docs for details.",
+      "tags": []
+    },
+    {
+      "id": "makerjs.snippets.exporting-pdf",
+      "title": "PDF",
+      "path": "maker.js/newDocs/snippets/exporting-pdf.md",
+      "summary": "PDF export placeholder (no inline content in snippet). See exporter API for PDF-specific options if available.",
+      "tags": []
+    },
+    {
+      "id": "makerjs.snippets.exporting-stl",
+      "title": "STL",
+      "path": "maker.js/newDocs/snippets/exporting-stl.md",
+      "summary": "To export STL you'll need the `openjscad-csg` library. In the browser you can load `csg.js` and `formats.js` (or use a worker). In Node.js `npm install openjscad-csg` and then `fs.writeFileSync('star.stl', makerjs.exporter.toSTL(model))`.",
+      "tags": []
+    },
+    {
+      "id": "makerjs.snippets.exporting-svg-path-data",
+      "title": "SVG Path Data",
+      "path": "maker.js/newDocs/snippets/exporting-svg-path-data.md",
+      "summary": "Convert SVG path `d` data into a Maker.js model with `makerjs.importer.fromSVGPathData(pathData)`. Curve commands map to Bezier curves and can be approximated per `bezierAccuracy` options.",
+      "tags": []
+    },
+    {
+      "id": "makerjs.snippets.exporting-svg",
+      "title": "SVG",
+      "path": "maker.js/newDocs/snippets/exporting-svg.md",
+      "summary": "Call `makerjs.exporter.toSVG(model)` to get an SVG string. Two modes: Path-only (default) which emits one `<path>` per layer containing combined path data; or Separate mode which outputs SVG elements per primitive. Several options exist ...",
+      "tags": []
+    },
+    {
+      "id": "makerjs.snippets.fillets",
+      "title": "Fillets",
+      "path": "maker.js/newDocs/snippets/fillets.md",
+      "summary": "Use `makerjs.path.fillet(pathA, pathB, radius)` to create a rounded corner between two paths (lines/arcs). It clips the two paths and returns an arc fitting between the clipped ends, or `null` if the fillet cannot be created. Works with ...",
+      "tags": []
+    },
+    {
+      "id": "makerjs.snippets.fonts-and-text",
+      "title": "Fonts and text",
+      "path": "maker.js/newDocs/snippets/fonts-and-text.md",
+      "summary": "Use `new makerjs.models.Text(font, text, size)` to create text models; Maker.js uses `opentype.js` to read font files. In the browser use `opentype.load(url, cb)` (async); in Node use `opentype.loadSync(file)`.",
+      "tags": []
+    },
+    {
+      "id": "makerjs.snippets.frequently-used-functions",
+      "title": "Frequently used functions",
+      "path": "maker.js/newDocs/snippets/frequently-used-functions.md",
+      "summary": "Reference of commonly used helper functions across modules (points, angle, measure). Examples include `point.add`, `point.subtract`, `angle.toDegrees`, `measure.pointDistance`, `measure.pathLength`, and more. See the API docs for full de...",
+      "tags": []
+    },
+    {
+      "id": "makerjs.snippets.importing-svg-path-data",
+      "title": "SVG path data (import)",
+      "path": "maker.js/newDocs/snippets/importing-svg-path-data.md",
+      "summary": "Call `makerjs.importer.fromSVGPathData(pathData, options)` to import an SVG path `d` string as a model. Option `bezierAccuracy` controls how accurately Bezier curves are approximated by arcs.",
+      "tags": []
+    },
+    {
+      "id": "makerjs.snippets.importing-svg-points",
+      "title": "SVG points (import)",
+      "path": "maker.js/newDocs/snippets/importing-svg-points.md",
+      "summary": "Import points from SVG `polyline`/`polygon` `points` attributes. Remember SVG Y-axis is inverted compared to Maker.js; mirror points (or mirror the model) to correct. Use `makerjs.models.ConnectTheDots(isClosed, points)`.",
+      "tags": []
+    },
+    {
+      "id": "makerjs.snippets.intersection",
+      "title": "Intersection",
+      "path": "maker.js/newDocs/snippets/intersection.md",
+      "summary": "Find intersections with `makerjs.path.intersection(pathA, pathB)`. Returns `null` or an object with `intersectionPoints` and (for arcs/circles) `path1Angles`/`path2Angles`. Examples: line-line, circle-circle, line-arc.",
+      "tags": []
+    },
+    {
+      "id": "makerjs.snippets.just-json",
+      "title": "It's Just JSON",
+      "path": "maker.js/newDocs/snippets/just-json.md",
+      "summary": "Maker.js models are plain JSON-compatible objects. You can `JSON.stringify` a model and later reuse that blob as a model. This is useful for serialization or transporting models between tools.",
+      "tags": []
+    },
+    {
+      "id": "makerjs.snippets.layers",
+      "title": "Layers",
+      "path": "maker.js/newDocs/snippets/layers.md",
+      "summary": "Assign a `layer` property to paths or models to group them logically. Paths inherit their parent model's layer unless overridden. Layer names can be any string; using a reserved color name yields automatic stroke color in DXF/SVG exports.",
+      "tags": []
+    },
+    {
+      "id": "makerjs.snippets.layout-on-chain",
+      "title": "Layout on a chain",
+      "path": "maker.js/newDocs/snippets/layout-on-chain.md",
+      "summary": "Similar to [layout on a path](/docs/advanced-drawing/#Layout on a path), you can use a chain as a layout guide for a row of child models within a model. Call `makerjs.layout.childrenOnChain(parentModel: Model, onChain: chain)`, the x-axi...",
+      "tags": []
+    },
+    {
+      "id": "makerjs.snippets.layout-on-path",
+      "title": "Layout on a path",
+      "path": "maker.js/newDocs/snippets/layout-on-path.md",
+      "summary": "You can use a path as a layout guide for a row of child models within a model. Call `makerjs.layout.childrenOnPath(parentModel: Model, onPath: Path)`, the x-axis will be projected onto your onPath:",
+      "tags": []
+    },
+    {
+      "id": "makerjs.snippets.layout-repeating",
+      "title": "Repeating layouts",
+      "path": "maker.js/newDocs/snippets/layout-repeating.md",
+      "summary": "Maker.js provides several functions which will clone your paths or models and repeat them in various layouts.",
+      "tags": []
+    },
+    {
+      "id": "makerjs.snippets.measuring",
+      "title": "Measuring",
+      "path": "maker.js/newDocs/snippets/measuring.md",
+      "summary": "Use the `makerjs.measure` module to measure paths and models. Useful functions:",
+      "tags": []
+    },
+    {
+      "id": "makerjs.snippets.mirroring",
+      "title": "Mirroring",
+      "path": "maker.js/newDocs/snippets/mirroring.md",
+      "summary": "Use `makerjs.angle.mirror` to get a mirror of an angle, and `makerjs.point.mirror` to get a mirror of a simple point.",
+      "tags": []
+    },
+    {
+      "id": "makerjs.snippets.models",
+      "title": "Models",
+      "path": "maker.js/newDocs/snippets/models.md",
+      "summary": "Models are objects that can contain `origin`, `paths` (map), and `models` (map). Models are the primary composition unit in Maker.js. You can pass models to `makerjs.exporter.toSVG`.",
+      "tags": []
+    },
+    {
+      "id": "makerjs.snippets.modifying-models",
+      "title": "Modifying models",
+      "path": "maker.js/newDocs/snippets/modifying-models.md",
+      "summary": "Models are simple objects with a recursive structure. You can modify them for different purposes. This snippet demonstrates modifying and combining models.",
+      "tags": []
+    },
+    {
+      "id": "makerjs.snippets.moving",
+      "title": "Moving",
+      "path": "maker.js/newDocs/snippets/moving.md",
+      "summary": "Models and paths can be moved absolutely (set `origin`) or relatively. Use `makerjs.model.move` to set an absolute origin or `makerjs.model.moveRelative` to move by an offset. For paths use `makerjs.path.move` and `makerjs.path.moveRelat...",
+      "tags": []
+    },
+    {
+      "id": "makerjs.snippets.open-vs-closed-geometry",
+      "title": "Open vs Closed Geometry",
+      "path": "maker.js/newDocs/snippets/open-vs-closed-geometry.md",
+      "summary": "An open geometry is when any path in a drawing is a dead end. A closed geometry is when all path ends meet and there are no dead end paths. A closed geometry forms an enclosed shape.",
+      "tags": []
+    },
+    {
+      "id": "makerjs.snippets.path-constructors",
+      "title": "Path constructors",
+      "path": "maker.js/newDocs/snippets/path-constructors.md",
+      "summary": "You can construct paths as plain JS objects or use Maker.js constructors. Maker.js provides constructors for primitive paths:",
+      "tags": []
+    },
+    {
+      "id": "makerjs.snippets.path-independence",
+      "title": "Path independence and Chains",
+      "path": "maker.js/newDocs/snippets/path-independence.md",
+      "summary": "Paths are atomic elements (line, arc, circle). When two paths meet at the same endpoint they form a chain. Chains may be endless (closed) or open. Chains are discovered by Maker.js; you don't explicitly define them.",
+      "tags": []
+    },
+    {
+      "id": "makerjs.snippets.paths",
+      "title": "Paths",
+      "path": "maker.js/newDocs/snippets/paths.md",
+      "summary": "A path is an object with mandatory properties like `type` and `origin`. Common path types:",
+      "tags": []
+    },
+    {
+      "id": "makerjs.snippets.points",
+      "title": "Points",
+      "path": "maker.js/newDocs/snippets/points.md",
+      "summary": "A point is an array with two elements: [x, y]. Maker.js uses a Cartesian coordinate system where x increases left→right and y increases bottom→top. Negative values are allowed.",
+      "tags": []
+    },
+    {
+      "id": "makerjs.snippets.units",
+      "title": "Units",
+      "path": "maker.js/newDocs/snippets/units.md",
+      "summary": "Paths are unitless. Models may specify `units` (e.g., `makerjs.unitType.Inch`, `makerjs.unitType.Centimeter`, `makerjs.unitType.Millimeter`). You can also specify units during export or convert units with `makerjs.model.convertUnits(mode...",
+      "tags": []
+    },
+    {
+      "id": "makerjs.snippets-checklist",
+      "title": "Snippets conversion checklist",
+      "path": "maker.js/newDocs/snippets-checklist.md",
+      "summary": "This file lists all files under `maker.js/docs/_snippets/`, the conversion status to Markdown, and counts.",
+      "tags": []
+    }
+  ],
+  "edges": [
+    {
+      "from": "makerjs.getting-started.index",
+      "to": "makerjs.getting-started.try-it-now",
+      "type": "example-of",
+      "text": "Try it now"
+    },
+    {
+      "from": "makerjs.getting-started.index",
+      "to": "makerjs.getting-started.for-the-browser",
+      "type": "references",
+      "text": "For the browser"
+    },
+    {
+      "from": "makerjs.getting-started.index",
+      "to": "makerjs.getting-started.for-nodejs",
+      "type": "references",
+      "text": "For Node.js"
+    }
+  ]
+}

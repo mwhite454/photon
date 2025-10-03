@@ -61,6 +61,12 @@ watcher
 app.use(express.json());
 app.use(express.static('docs'));
 
+// Redirect old /docs/* paths to the new root-mounted paths
+app.get('/docs/*', (req, res) => {
+    const target = req.path.replace(/^\/docs\//, '');
+    res.redirect('/' + target);
+});
+
 // API endpoint to list available models
 app.get('/api/models', (req, res) => {
     res.json({

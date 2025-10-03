@@ -1,468 +1,232 @@
 /**
  * Root module for Maker.js.
- * 
- * Example: get a reference to Maker.js
- * ```
- * var makerjs = require('makerjs');
- * ```
- * 
  */
-namespace MakerJs {
+import { IModel, IPath, IPoint, IPathLine, IPathCircle, IPathArc, IPathArcInBezierCurve } from './schema.js';
 
-    /**
-     * Version info
-     */
-    export var version = 'debug';
+/** Version info */
+export const version = 'debug';
 
-    /**
-     * Enumeration of environment types.
-     */
-    export var environmentTypes = {
-        BrowserUI: 'browser',
-        NodeJs: 'node',
-        WebWorker: 'worker',
-        Unknown: 'unknown'
+/** Enumeration of environment types. */
+export const environmentTypes = {
+    BrowserUI: 'browser',
+    NodeJs: 'node',
+    WebWorker: 'worker',
+    Unknown: 'unknown'
+} as const;
+
+const EPSILON = Number.EPSILON || Math.pow(2, -52);
+
+function tryEval(name: string) {
+    try {
+        const value = eval(name);
+        return value;
+    }
+    catch (e) { }
+    return;
+}
+
+function detectEnvironment() {
+    if (tryEval('WorkerGlobalScope') && tryEval('self')) {
+        return environmentTypes.WebWorker;
+    }
+    if (tryEval('window') && tryEval('document')) {
+        return environmentTypes.BrowserUI;
+    }
+    //put node last since packagers usually add shims for it
+    if (tryEval('global') && tryEval('process')) {
+        return environmentTypes.NodeJs;
+    }
+    return environmentTypes.Unknown;
+}
+
+/** Current execution environment type, should be one of environmentTypes. */
+export const environment = detectEnvironment();
+
+/** String-based enumeration of unit types. */
+export const unitType = {
+    Centimeter: 'cm',
+    Foot: 'foot',
+    Inch: 'inch',
+    Meter: 'm',
+    Millimeter: 'mm'
+} as const;
+
+function split(s: string, char: string) {
+    const p = s.indexOf(char);
+    if (p < 0) {
+        return [s];
+    } else if (p > 0) {
+        return [s.substr(0, p), s.substr(p + 1)];
+    } else {
+        return ['', s];
+    }
+}
+
+/** Split a decimal into its whole and fractional parts as strings. */
+export function splitDecimal(n: number) {
+    let s = n.toString();
+    if (s.indexOf('e') > 0) {
+        s = n.toFixed(20).match(/.*[^(0+$)]/)[0];
+    }
+    return split(s, '.');
+}
+
+/** Numeric rounding */
+export function round(n: number, accuracy = .0000001): number {
+    if (n % 1 === 0) return n;
+    const temp = 1 / accuracy;
+    return Math.round((n + EPSILON) * temp) / temp;
+}
+
+/** Create a string representation of a route array. */
+export function createRouteKey(route: string[]) {
+    const converted: string[] = [];
+    for (let i = 0; i < route.length; i++) {
+        const element = route[i];
+        const newElement = i % 2 === 0 ? (i > 0 ? '.' : '') + element : JSON.stringify([element]);
+        converted.push(newElement);
+    }
+    return converted.join('');
+}
+
+/** Travel along a route inside of a model to extract a specific node in its tree. */
+export function travel(modelContext: IModel, route: string | string[]) {
+    if (!modelContext || !route) return null;
+    const routeArray = Array.isArray(route) ? route : JSON.parse(route);
+    const props = routeArray.slice();
+    let ref: any = modelContext;
+    let origin = modelContext.origin || [0, 0];
+    while (props.length) {
+        const prop = props.shift();
+        ref = ref[prop];
+        if (!ref) return null;
+        // TEMP: point.add will be available after point.ts is converted
+        // if (ref.origin && props.length) {
+        //     origin = point.add(origin, ref.origin);
+        // }
+    }
+    return {
+        result: ref as IPath | IModel,
+        offset: origin
     };
+}
 
-    /**
-     * @private
-     */
-    var EPSILON = Number.EPSILON || Math.pow(2, -52);
+const clone = require('clone');
 
-    /**
-     * @private
-     */
-    function tryEval(name: string) {
-        try {
-            var value = eval(name);
-            return value;
-        }
-        catch (e) { }
-        return;
-    }
+/** Clone an object. */
+export function cloneObject<T>(objectToClone: T): T {
+    return clone(objectToClone);
+}
 
-    /**
-     * @private
-     */
-    function detectEnvironment() {
-
-        if (tryEval('WorkerGlobalScope') && tryEval('self')) {
-            return environmentTypes.WebWorker;
-        }
-
-        if (tryEval('window') && tryEval('document')) {
-            return environmentTypes.BrowserUI;
-        }
-
-        //put node last since packagers usually add shims for it
-        if (tryEval('global') && tryEval('process')) {
-            return environmentTypes.NodeJs;
-        }
-
-        return environmentTypes.Unknown;
-    }
-
-    /**
-     * Current execution environment type, should be one of environmentTypes.
-     */
-    export var environment = detectEnvironment();
-
-    //units
-
-    /**
-     * String-based enumeration of unit types: imperial, metric or otherwise. 
-     * A model may specify the unit system it is using, if any. When importing a model, it may have different units. 
-     * Unit conversion function is makerjs.units.conversionScale().
-     * Important: If you add to this, you must also add a corresponding conversion ratio in the unit.ts file!
-     */
-    export var unitType = {
-        Centimeter: 'cm',
-        Foot: 'foot',
-        Inch: 'inch',
-        Meter: 'm',
-        Millimeter: 'mm'
-    };
-
-    /**
-     * @private
-     */
-    function split(s: string, char: string) {
-        var p = s.indexOf(char);
-        if (p < 0) {
-            return [s];
-        } else if (p > 0) {
-            return [s.substr(0, p), s.substr(p + 1)];
-        } else {
-            return ['', s];
-        }
-    }
-
-    /**
-     * Split a decimal into its whole and fractional parts as strings.
-     * 
-     * Example: get whole and fractional parts of 42.056
-     * ```
-     * makerjs.splitDecimal(42.056); //returns ["42", "056"]
-     * ```
-     * 
-     * @param n The number to split.
-     * @returns Array of 2 strings when n contains a decimal point, or an array of one string when n is an integer.
-     */
-    export function splitDecimal(n: number) {
-        let s = n.toString();
-        if (s.indexOf('e') > 0) {
-            //max digits is 20 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed
-            s = n.toFixed(20).match(/.*[^(0+$)]/)[0];   //regex trims trailing zeros
-        }
-        return split(s, '.');
-    }
-
-    /**
-     * Numeric rounding
-     * 
-     * Example: round to 3 decimal places
-     * ```
-     * makerjs.round(3.14159, .001); //returns 3.142
-     * ```
-     * 
-     * @param n The number to round off.
-     * @param accuracy Optional exemplar of number of decimal places.
-     * @returns Rounded number.
-     */
-    export function round(n: number, accuracy = .0000001): number {
-
-        //optimize for early exit for integers
-        if (n % 1 === 0) return n;
-
-        var temp = 1 / accuracy;
-
-        return Math.round((n + EPSILON) * temp) / temp;
-    }
-
-    /**
-     * Create a string representation of a route array.
-     * 
-     * @param route Array of strings which are segments of a route.
-     * @returns String of the flattened array.
-     */
-    export function createRouteKey(route: string[]) {
-        var converted: string[] = [];
-        for (var i = 0; i < route.length; i++) {
-            var element = route[i];
-            var newElement: string;
-            if (i % 2 === 0) {
-                newElement = (i > 0 ? '.' : '') + element;
-            } else {
-                newElement = JSON.stringify([element]);
-            }
-            converted.push(newElement);
-        }
-        return converted.join('');
-    }
-
-    /**
-     * Travel along a route inside of a model to extract a specific node in its tree.
-     * 
-     * @param modelContext Model to travel within.
-     * @param route String of a flattened route, or a string array of route segments.
-     * @returns Model or Path object within the modelContext tree.
-     */
-    export function travel(modelContext: IModel, route: string | string[]) {
-        if (!modelContext || !route) return null;
-
-        var routeArray: string[];
-        if (Array.isArray(route)) {
-            routeArray = route;
-        } else {
-            routeArray = JSON.parse(route);
-        }
-
-        var props = routeArray.slice();
-        var ref: any = modelContext;
-        var origin = modelContext.origin || [0, 0];
-
-        while (props.length) {
-            var prop = props.shift();
-            ref = ref[prop];
-
-            if (!ref) return null;
-
-            if (ref.origin && props.length) {
-                origin = point.add(origin, ref.origin);
+/** Copy the properties from one object to another object. */
+export function extendObject(target: any, other: any) {
+    if (target && other) {
+        for (const key in other) {
+            if (typeof other[key] !== 'undefined') {
+                target[key] = other[key];
             }
         }
-
-        return {
-            result: <IPath | IModel>ref,
-            offset: origin
-        };
-
     }
+    return target;
+}
 
-    /**
-     * @private
-     */
-    var clone = require('clone');
+/** Test to see if a variable is a function. */
+export function isFunction(value: any): boolean {
+    return typeof value === 'function';
+}
 
-    /**
-     * Clone an object.
-     * 
-     * @param objectToClone The object to clone.
-     * @returns A new clone of the original object.
-     */
-    export function cloneObject<T>(objectToClone: T): T {
-        return clone(objectToClone);
-    }
+/** Test to see if a variable is a number. */
+export function isNumber(value: any): boolean {
+    return typeof value === 'number';
+}
 
-    /**
-     * Copy the properties from one object to another object.
-     * 
-     * Example:
-     * ```
-     * makerjs.extendObject({ abc: 123 }, { xyz: 789 }); //returns { abc: 123, xyz: 789 }
-     * ```
-     * 
-     * @param target The object to extend. It will receive the new properties.
-     * @param other An object containing properties to merge in.
-     * @returns The original object after merging.
-     */
-    export function extendObject(target: Object, other: Object) {
-        if (target && other) {
-            for (var key in other) {
-                if (typeof other[key] !== 'undefined') {
-                    target[key] = other[key];
-                }
-            }
-        }
-        return target;
-    }
+/** Test to see if a variable is an object. */
+export function isObject(value: any): boolean {
+    return typeof value === 'object';
+}
 
-    /**
-     * Test to see if a variable is a function.
-     * 
-     * @param value The object to test.
-     * @returns True if the object is a function type.
-     */
-    export function isFunction(value: any): boolean {
-        return typeof value === 'function';
-    }
+/** Test to see if an object implements the required properties of a point. */
+export function isPoint(item: any) {
+    return item && Array.isArray(item) && (item as Array<number>).length == 2 && isNumber(item[0]) && isNumber(item[1]);
+}
 
-    /**
-     * Test to see if a variable is a number.
-     * 
-     * @param value The object to test.
-     * @returns True if the object is a number type.
-     */
-    export function isNumber(value: any): boolean {
-        return typeof value === 'number';
-    }
+/** A measurement of extents, the high and low points. */
+export interface IMeasure {
+    low: IPoint;
+    high: IPoint;
+}
 
-    /**
-     * Test to see if a variable is an object.
-     * 
-     * @param value The object to test.
-     * @returns True if the object is an object type.
-     */
-    export function isObject(value: any): boolean {
-        return typeof value === 'object';
-    }
+/** A measurement of extents, with a center point. */
+export interface IMeasureWithCenter extends IMeasure {
+    center: IPoint;
+    width: number;
+    height: number;
+}
 
-    //points
+/** A map of measurements. */
+export interface IMeasureMap {
+    [key: string]: IMeasure;
+}
 
-    /**
-     * Test to see if an object implements the required properties of a point.
-     * 
-     * @param item The item to test.
-     */
-    export function isPoint(item: any) {
-        return item && Array.isArray(item) && (item as Array<number>).length == 2 && isNumber(item[0]) && isNumber(item[1]);
-    }
+/** A path that was removed in a combine operation. */
+export interface IPathRemoved extends IPath {
+    reason: string;
+    routeKey: string;
+}
 
-    /**
-     * A measurement of extents, the high and low points.
-     */
-    export interface IMeasure {
+/** Options to pass to measure.isPointInsideModel(). */
+export interface IMeasurePointInsideOptions {
+    farPoint?: IPoint;
+    // measureAtlas?: measure.Atlas; // TEMP: will be available after measure.ts is converted
+    out_intersectionPoints?: IPoint[];
+}
 
-        /**
-         * The point containing both the lowest x and y values of the rectangle containing the item being measured.
-         */
-        low: IPoint;
+/** Test to see if an object implements the required properties of a path. */
+export function isPath(item: any): boolean {
+    return item && (item as IPath).type && isPoint((item as IPath).origin);
+}
 
-        /**
-         * The point containing both the highest x and y values of the rectangle containing the item being measured.
-         */
-        high: IPoint;
-    }
+/** Test to see if an object implements the required properties of a line. */
+export function isPathLine(item: any): boolean {
+    return isPath(item) && (<IPath>item).type == 'line' && isPoint((<IPathLine>item).end);
+}
 
-    /**
-     * A measurement of extents, with a center point.
-     */
-    export interface IMeasureWithCenter extends IMeasure {
+/** Test to see if an object implements the required properties of a circle. */
+export function isPathCircle(item: any): boolean {
+    return isPath(item) && (<IPath>item).type == 'circle' && isNumber((<IPathCircle>item).radius);
+}
 
-        /**
-         * The center point of the rectangle containing the item being measured.
-         */
-        center: IPoint;
+/** Test to see if an object implements the required properties of an arc. */
+export function isPathArc(item: any): boolean {
+    return isPath(item) && (<IPath>item).type == 'arc' && isNumber((<IPathArc>item).radius) && isNumber((<IPathArc>item).startAngle) && isNumber((<IPathArc>item).endAngle);
+}
 
-        /**
-         * The width of the rectangle containing the item being measured.
-         */
-        width: number;
+/** Test to see if an object implements the required properties of an arc in a bezier curve. */
+export function isPathArcInBezierCurve(item: any): boolean {
+    return isPathArc(item) && isObject((<IPathArcInBezierCurve>item).bezierData) && isNumber((<IPathArcInBezierCurve>item).bezierData.startT) && isNumber((<IPathArcInBezierCurve>item).bezierData.endT);
+}
 
-        /**
-         * The height of the rectangle containing the item being measured.
-         */
-        height: number;
-    }
+/** String-based enumeration of all paths types. */
+export const pathType = {
+    Line: "line",
+    Circle: "circle",
+    Arc: "arc",
+    BezierSeed: "bezier-seed"
+} as const;
 
-    /**
-     * A map of measurements.
-     */
-    export interface IMeasureMap {
-        [key: string]: IMeasure;
-    }
+/** Slope and y-intercept of a line. */
+export interface ISlope {
+    hasSlope: boolean;
+    slope?: number;
+    line: IPathLine;
+    yIntercept?: number;
+}
 
-    //paths
-
-    /**
-     * A path that was removed in a combine operation.
-     */
-    export interface IPathRemoved extends IPath {
-
-        /**
-         * Reason the path was removed.
-         */
-        reason: string;
-
-        /**
-         * Original routekey of the path, to identify where it came from.
-         */
-        routeKey: string;
-    }
-
-    /**
-     * Options to pass to measure.isPointInsideModel().
-     */
-    export interface IMeasurePointInsideOptions {
-
-        /**
-         * Optional point of reference which is outside the bounds of the modelContext.
-         */
-        farPoint?: IPoint;
-
-        /**
-         * Optional atlas of measurements of paths within the model (to prevent intersection calculations).
-         */
-        measureAtlas?: measure.Atlas;
-
-        /**
-         * Output variable which will contain an array of points where the ray intersected the model. The ray is a line from pointToCheck to options.farPoint.
-         */
-        out_intersectionPoints?: IPoint[];
-    }
-
-    /**
-     * Test to see if an object implements the required properties of a path.
-     * 
-     * @param item The item to test.
-     */
-    export function isPath(item: any): boolean {
-        return item && (item as IPath).type && isPoint((item as IPath).origin);
-    }
-
-    /**
-     * Test to see if an object implements the required properties of a line.
-     * 
-     * @param item The item to test.
-     */
-    export function isPathLine(item: any): boolean {
-        return isPath(item) && (<IPath>item).type == pathType.Line && isPoint((<IPathLine>item).end);
-    }
-
-    /**
-     * Test to see if an object implements the required properties of a circle.
-     * 
-     * @param item The item to test.
-     */
-    export function isPathCircle(item: any): boolean {
-        return isPath(item) && (<IPath>item).type == pathType.Circle && isNumber((<IPathCircle>item).radius);
-    }
-
-    /**
-     * Test to see if an object implements the required properties of an arc.
-     * 
-     * @param item The item to test.
-     */
-    export function isPathArc(item: any): boolean {
-        return isPath(item) && (<IPath>item).type == pathType.Arc && isNumber((<IPathArc>item).radius) && isNumber((<IPathArc>item).startAngle) && isNumber((<IPathArc>item).endAngle);
-    }
-
-    /**
-     * Test to see if an object implements the required properties of an arc in a bezier curve.
-     * 
-     * @param item The item to test.
-     */
-    export function isPathArcInBezierCurve(item: any): boolean {
-        return isPathArc(item) && isObject((<IPathArcInBezierCurve>item).bezierData) && isNumber((<IPathArcInBezierCurve>item).bezierData.startT) && isNumber((<IPathArcInBezierCurve>item).bezierData.endT);
-    }
-
-    /**
-     * String-based enumeration of all paths types.
-     * 
-     * Examples: use pathType instead of string literal when creating a circle.
-     * ```
-     * var circle: IPathCircle = { type: pathType.Circle, origin: [0, 0], radius: 7 };   //typescript
-     * var circle = { type: pathType.Circle, origin: [0, 0], radius: 7 };   //javascript
-     * ```
-     */
-    export var pathType = {
-        Line: "line",
-        Circle: "circle",
-        Arc: "arc",
-        BezierSeed: "bezier-seed"
-    };
-
-    /**
-     * Slope and y-intercept of a line.
-     */
-    export interface ISlope {
-
-        /**
-         * Boolean to see if line has slope or is vertical.
-         */
-        hasSlope: boolean;
-
-        /**
-         * Optional value of non-vertical slope.
-         */
-        slope?: number;
-
-        /**
-         * Line used to calculate this slope.
-         */
-        line: IPathLine;
-
-        /**
-         * Optional value of y when x = 0.
-         */
-        yIntercept?: number;
-    }
-
-    /**
-     * Options to pass to path.intersection()
-     */
-    export interface IPathIntersectionBaseOptions {
-
-        /**
-         * Optional boolean to only return deep intersections, i.e. not on an end point or tangent.
-         */
-        excludeTangents?: boolean;
-
-        /**
-         * Optional output variable which will be set to true if the paths are overlapped.
-         */
-        out_AreOverlapped?: boolean;
-    }
+/** Options to pass to path.intersection() */
+export interface IPathIntersectionBaseOptions {
+    excludeTangents?: boolean;
+    out_AreOverlapped?: boolean;
+}
 
     /**
      * Options to pass to path.intersection()
@@ -941,59 +705,16 @@ namespace MakerJs {
         }
     }
 
-    /**
-     * Create a container to cascade a series of functions upon a model. This allows JQuery-style method chaining, e.g.:
-     * ```
-     * makerjs.$(shape).center().rotate(45).$result
-     * ```
-     * The output of each function call becomes the first parameter input to the next function call.
-     * The returned value of the last function call is available via the `.$result` property.
-     * 
-     * @param modelContext The initial model to execute functions upon.
-     * @returns A new cascade container with ICascadeModel methods.
-     */
-    export function $(modelContext: IModel): ICascadeModel;
-
-    /**
-     * Create a container to cascade a series of functions upon a path. This allows JQuery-style method chaining, e.g.:
-     * ```
-     * makerjs.$(path).center().rotate(90).$result
-     * ```
-     * The output of each function call becomes the first parameter input to the next function call.
-     * The returned value of the last function call is available via the `.$result` property.
-     * 
-     * @param pathContext The initial path to execute functions upon.
-     * @returns A new cascade container with ICascadePath methods.
-     */
-    export function $(pathContext: IModel): ICascadePath;
-
-    /**
-     * Create a container to cascade a series of functions upon a point. This allows JQuery-style method chaining, e.g.:
-     * ```
-     * makerjs.$([1,0]).scale(5).rotate(60).$result
-     * ```
-     * The output of each function call becomes the first parameter input to the next function call.
-     * The returned value of the last function call is available via the `.$result` property.
-     * 
-     * @param pointContext The initial point to execute functions upon.
-     * @returns A new cascade container with ICascadePoint methods.
-     */
-    export function $(pointContext: IPoint): ICascadePoint;
-
-    export function $(context: any): ICascade {
-        if (isModel(context)) {
-            return new Cascade<IModel>(model, context);
-        } else if (isPath(context)) {
-            return new Cascade<IPath>(path, context);
-        } else if (isPoint(context)) {
-            return new Cascade<IPoint>(point, context);
-        }
-    }
-}
-
-//CommonJs
-module.exports = MakerJs;
-
-declare module "makerjs" {
-    export = MakerJs;
-}
+// TEMP: Cascade functions will be re-enabled after model/path/point modules are converted
+// export function $(modelContext: IModel): ICascadeModel;
+// export function $(pathContext: IModel): ICascadePath;
+// export function $(pointContext: IPoint): ICascadePoint;
+// export function $(context: any): ICascade {
+//     if (isModel(context)) {
+//         return new Cascade<IModel>(model, context);
+//     } else if (isPath(context)) {
+//         return new Cascade<IPath>(path, context);
+//     } else if (isPoint(context)) {
+//         return new Cascade<IPoint>(point, context);
+//     }
+// }

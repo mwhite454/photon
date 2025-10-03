@@ -4,9 +4,8 @@ import { resolve } from 'path';
 export default defineConfig({
   build: {
     lib: {
-      // Temporarily bundle from the current CJS build output.
-      // After refactor, switch this to 'src/index.ts'.
-      entry: resolve(__dirname, 'dist/index.js'),
+      // ES module entry (WIP: progressively exporting modules)
+      entry: resolve(__dirname, 'src/index.ts'),
       name: 'MakerJs',
       formats: ['es', 'umd', 'iife'],
       fileName: (format) => `maker.${format}.js`,

@@ -1,4 +1,7 @@
-﻿namespace MakerJsPlayground {
+
+/// <reference path="monaco-editor-adapter.ts" />
+
+namespace MakerJsPlayground {
 
     //classes
 
@@ -71,7 +74,7 @@
         paramValues: []
     };
     var init = true;
-    var errorMarker: CodeMirror.TextMarker;
+    var errorMarker: MonacoEditorAdapter.TextMarker;
     var exportWorker: Worker = null;
     var paramActiveTimeout: NodeJS.Timer;
     var longHoldTimeout: NodeJS.Timer;
@@ -415,13 +418,13 @@
 
             var editorLine = error.lineno - 1;
 
-            var from: CodeMirror.Position = {
+            var from: MonacoEditorAdapter.Position = {
                 line: editorLine, ch: error.colno - 1
             };
 
             var line = codeMirrorEditor.getDoc().getLine(editorLine);
 
-            var to: CodeMirror.Position = {
+            var to: MonacoEditorAdapter.Position = {
                 line: editorLine, ch: line ? line.length : 0
             };
 
@@ -1078,8 +1081,8 @@
     export var onViewportChange: Function;
     export var fullScreen: boolean
     export var dockMode: string;
-    export var codeMirrorEditor: CodeMirror.Editor;
-    export var codeMirrorOptions: CodeMirror.EditorConfiguration = {
+    export var codeMirrorEditor: MonacoEditorAdapter.Editor;
+    export var codeMirrorOptions: MonacoEditorAdapter.EditorConfiguration = {
         extraKeys: {
             "Ctrl-Enter": () => { runCodeFromEditor() },
             "Ctrl-I": () => { toggleClass('collapse-insert-menu') }
@@ -1718,8 +1721,7 @@
 
     //execution
 
-    window.onload = function (ev) {
-
+    function initializePlayground() {
         //hide the customize menu when booting on small screens
         //if (document.body.clientWidth < 540) {
         //    document.body.classList.add('collapse-rendering-options');
@@ -1749,12 +1751,15 @@
         codeMirrorOptions.value = pre.innerText;
         codeMirrorOptions["styleActiveLine"] = true;    //TODO use addons in declaration
 
-        codeMirrorEditor = CodeMirror(
+        codeMirrorEditor = MonacoEditorAdapter.createEditor(
             function (elt) {
                 pre.parentNode.replaceChild(elt, pre);
             },
             codeMirrorOptions
         );
+
+        // Load available models after editor is initialized
+        loadAvailableModels();
 
         if (fullScreen) {
             dockEditor(dockModes.FullScreen);
@@ -1808,6 +1813,98 @@
                 runCodeFromEditor();
             }
         }
+    };
+
+    // Model loading functionality
+    export function loadAvailableModels() {
+        fetch('/api/models')
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    populateModelsDropdown(data.models);
+                } else {
+                    console.error('Failed to load models:', data.error);
+                }
+            })
+            .catch(error => {
+                console.error('Error fetching models:', error);
+            });
+    }
+
+    function populateModelsDropdown(models: any[]) {
+        const dropdown = document.getElementById('models-dropdown') as HTMLSelectElement;
+        if (!dropdown) return;
+
+        // Clear existing options except the first one
+        dropdown.innerHTML = '<option value="">-- Select a model --</option>';
+
+        // Add model options
+        models.forEach(model => {
+            const option = document.createElement('option');
+            option.value = model.filename;
+            option.textContent = model.name.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+            dropdown.appendChild(option);
+        });
+    }
+
+    export function loadSelectedModel() {
+        const dropdown = document.getElementById('models-dropdown') as HTMLSelectElement;
+        if (!dropdown || !dropdown.value) return;
+
+        const filename = dropdown.value;
+        fetch(`/api/models/${filename}`)
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    // Load the model content into the editor
+                    if (codeMirrorEditor) {
+                        const doc = codeMirrorEditor.getDoc();
+                        const cursor = doc.getCursor();
+                        const insertText = (function () {
+                            const before = doc.getLine(cursor.line) || '';
+                            const needsLeadingNewline = before.trim().length > 0 && cursor.ch !== 0;
+                            const prefix = needsLeadingNewline ? "\n" : "";
+                            const suffix = "\n"; // ensure a trailing newline after inserted model
+                            return prefix + data.content + suffix;
+                        })();
+                        doc.replaceRange(insertText, cursor);
+                        // Optionally focus editor after insert
+                        codeMirrorEditor.focus();
+                        // Do not auto-run here; user can choose when to run after composing code
+                    }
+                } else {
+                    console.error('Failed to load model:', data.error);
+                    alert('Failed to load model: ' + data.error);
+                }
+            })
+            .catch(error => {
+                console.error('Error loading model:', error);
+                alert('Error loading model: ' + error.message);
+            });
+    }
+
+    // Wait for Monaco Editor to load before initializing
+    window.onload = function (ev) {
+        function tryInitialize() {
+            if (typeof monaco !== 'undefined' || (window as any).monacoLoaded) {
+                console.log('Monaco Editor is ready, initializing playground...');
+                initializePlayground();
+            } else {
+                console.log('Waiting for Monaco Editor to load...');
+                setTimeout(tryInitialize, 100);
+            }
+        }
+        
+        // Listen for Monaco ready event
+        if (typeof window.addEventListener !== 'undefined') {
+            window.addEventListener('monacoReady', function() {
+                console.log('Monaco ready event received');
+                initializePlayground();
+            });
+        }
+        
+        // Also try polling in case the event was missed
+        tryInitialize();
     };
 
 }

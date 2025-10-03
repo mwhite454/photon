@@ -1,3 +1,4 @@
+/// <reference path="monaco-editor-adapter.ts" />
 var MakerJsPlayground;
 (function (MakerJsPlayground) {
     //classes
@@ -1343,7 +1344,7 @@ var MakerJsPlayground;
     }
     MakerJsPlayground.command = command;
     //execution
-    window.onload = function (ev) {
+    function initializePlayground() {
         //hide the customize menu when booting on small screens
         //if (document.body.clientWidth < 540) {
         //    document.body.classList.add('collapse-rendering-options');
@@ -1368,9 +1369,11 @@ var MakerJsPlayground;
         var pre = document.getElementById('init-javascript-code');
         MakerJsPlayground.codeMirrorOptions.value = pre.innerText;
         MakerJsPlayground.codeMirrorOptions["styleActiveLine"] = true; //TODO use addons in declaration
-        MakerJsPlayground.codeMirrorEditor = CodeMirror(function (elt) {
+        MakerJsPlayground.codeMirrorEditor = MonacoEditorAdapter.createEditor(function (elt) {
             pre.parentNode.replaceChild(elt, pre);
         }, MakerJsPlayground.codeMirrorOptions);
+        // Load available models after editor is initialized
+        loadAvailableModels();
         if (MakerJsPlayground.fullScreen) {
             dockEditor(dockModes.FullScreen);
         }
@@ -1415,6 +1418,95 @@ var MakerJsPlayground;
                 runCodeFromEditor();
             }
         }
+    }
+    ;
+    // Model loading functionality
+    function loadAvailableModels() {
+        fetch('/api/models')
+            .then(function (response) { return response.json(); })
+            .then(function (data) {
+            if (data.success) {
+                populateModelsDropdown(data.models);
+            }
+            else {
+                console.error('Failed to load models:', data.error);
+            }
+        })["catch"](function (error) {
+            console.error('Error fetching models:', error);
+        });
+    }
+    MakerJsPlayground.loadAvailableModels = loadAvailableModels;
+    function populateModelsDropdown(models) {
+        var dropdown = document.getElementById('models-dropdown');
+        if (!dropdown)
+            return;
+        // Clear existing options except the first one
+        dropdown.innerHTML = '<option value="">-- Select a model --</option>';
+        // Add model options
+        models.forEach(function (model) {
+            var option = document.createElement('option');
+            option.value = model.filename;
+            option.textContent = model.name.replace(/-/g, ' ').replace(/\b\w/g, function (l) { return l.toUpperCase(); });
+            dropdown.appendChild(option);
+        });
+    }
+    function loadSelectedModel() {
+        var dropdown = document.getElementById('models-dropdown');
+        if (!dropdown || !dropdown.value)
+            return;
+        var filename = dropdown.value;
+        fetch("/api/models/".concat(filename))
+            .then(function (response) { return response.json(); })
+            .then(function (data) {
+            if (data.success) {
+                // Load the model content into the editor
+                if (MakerJsPlayground.codeMirrorEditor) {
+                    var doc_1 = MakerJsPlayground.codeMirrorEditor.getDoc();
+                    var cursor_1 = doc_1.getCursor();
+                    var insertText = (function () {
+                        var before = doc_1.getLine(cursor_1.line) || '';
+                        var needsLeadingNewline = before.trim().length > 0 && cursor_1.ch !== 0;
+                        var prefix = needsLeadingNewline ? "\n" : "";
+                        var suffix = "\n"; // ensure a trailing newline after inserted model
+                        return prefix + data.content + suffix;
+                    })();
+                    doc_1.replaceRange(insertText, cursor_1);
+                    // Optionally focus editor after insert
+                    MakerJsPlayground.codeMirrorEditor.focus();
+                    // Do not auto-run here; user can choose when to run after composing code
+                }
+            }
+            else {
+                console.error('Failed to load model:', data.error);
+                alert('Failed to load model: ' + data.error);
+            }
+        })["catch"](function (error) {
+            console.error('Error loading model:', error);
+            alert('Error loading model: ' + error.message);
+        });
+    }
+    MakerJsPlayground.loadSelectedModel = loadSelectedModel;
+    // Wait for Monaco Editor to load before initializing
+    window.onload = function (ev) {
+        function tryInitialize() {
+            if (typeof monaco !== 'undefined' || window.monacoLoaded) {
+                console.log('Monaco Editor is ready, initializing playground...');
+                initializePlayground();
+            }
+            else {
+                console.log('Waiting for Monaco Editor to load...');
+                setTimeout(tryInitialize, 100);
+            }
+        }
+        // Listen for Monaco ready event
+        if (typeof window.addEventListener !== 'undefined') {
+            window.addEventListener('monacoReady', function () {
+                console.log('Monaco ready event received');
+                initializePlayground();
+            });
+        }
+        // Also try polling in case the event was missed
+        tryInitialize();
     };
 })(MakerJsPlayground || (MakerJsPlayground = {}));
 //# sourceMappingURL=playground.js.map

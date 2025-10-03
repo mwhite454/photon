@@ -157,12 +157,12 @@
     </script>
  -->
 
-    <!-- comment out below for local development -->
-    <script src="../target/js/browser.maker.js"></script>
+    <!-- Use modern IIFE bundle built by Vite -->
+    <script src="../../packages/maker.js/dist/maker.iife.js"></script>
     <script>
-        var makerjs = require('makerjs');
+        // The IIFE build exposes global MakerJs; align to existing var name used by playground.
+        var makerjs = MakerJs;
     </script>
-    <!-- comment out above for local development -->
 
     <script src="js/iexport.js"></script>
     <script src="js/pointer.js"></script>

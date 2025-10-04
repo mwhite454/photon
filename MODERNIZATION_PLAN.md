@@ -8,18 +8,19 @@
 - [x] Modern bundles building: maker.es.js, maker.umd.js, maker.iife.js
 
 ## Phase 2: Core Module Conversion (IN PROGRESS)
-### Completed:
-- [x] schema.ts → ES module exports with temp global type aliases
-- [x] base.ts → Created with core utilities (version, environment, unitType, pathType, round, splitDecimal, etc.)
-- [x] maker.ts → Partially converted (interfaces, utilities, type guards exported as ES modules)
-- [x] src/index.ts → Created, exports schema + base
 
-### Next Batch (point, angle, path, measure):
-- [x] Convert point.ts to ES module
-- [x] Convert angle.ts to ES module  
-- [x] Convert path.ts to ES module
-- [x] Convert measure.ts to ES module
-- [x] Export all four from src/index.ts
+### ✅ Completed:
+- [x] schema.ts → ES module exports with temp global type aliases
+- [x] maker.ts → Partially converted (interfaces, utilities, type guards exported as ES modules)
+- [x] point.ts → Fully converted to ES module
+- [x] angle.ts → Fully converted to ES module
+- [x] src/index.ts → Exports schema, maker, angle, point
+- [x] Vite builds successfully (maker.es.js, maker.umd.js, maker.iife.js)
+
+### 🔄 Next Batch (path, measure):
+- [ ] Convert path.ts to ES module
+- [ ] Convert measure.ts to ES module
+- [ ] Export from src/index.ts
 
 ### Remaining Core Files:
 - [ ] model.ts

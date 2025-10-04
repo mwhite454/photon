@@ -37,14 +37,14 @@
 - **Dependencies**: Uses point, angle, path modules (all converted ✅)
 - **Build**: Successful with expected warning about missing path.intersection
 
-### 🔄 Phase 2: Status & Next Steps
-- **Interfaces**: ✅ All verified and exported from maker.ts (IMeasure, IChain, IWalkPath, etc.)
-- **Current Blocker**: model.ts (643 lines) has many dependencies on unconverted modules
-- **Dependencies Found**:
-  - Needs: models namespace (BezierCurve, etc.), units module, isPath function
-  - Circular refs: model → measure, measure → model
-- **Recommendation**: Focus on completing smaller utility modules first (units, equal, etc.)
-- **Alternative**: Export model functions incrementally as they're converted
+### 🔄 Phase 3: Continuing with Remaining Core Files
+- **Strategy**: Convert files with minimal dependencies first
+- **Next targets**: Files that don't have circular dependencies
+- **Current approach**: 
+  - ✅ units.ts completed
+  - ⏭️ Continue with simpler utility files
+  - 🔄 Save complex interdependent files (model, measure, chain) for coordinated conversion
+- **Progress**: 1,215 / ~5,000 lines converted (24% of core functionality)
 
 ### 🔄 Remaining Core Files After measure.ts:
 - [ ] model.ts (model manipulation and traversal)

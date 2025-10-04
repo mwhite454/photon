@@ -26,15 +26,15 @@
 - **Total converted**: 757 lines of core functionality
 - **TypeScript errors**: ~550+ (expected - remaining files still reference old namespaces)
 
-### 🔄 Next Module: measure.ts
-- **Status**: ⚠️ Blocked - requires additional interfaces
-- **Size**: 913 lines (largest and most complex core module)
-- **Dependencies**: Uses point, angle, path modules (all now converted ✅)
-- **Blocking Issues**: 
-  - Missing IMeasure, IMeasureWithCenter interfaces in schema.ts
-  - Needs IModel, IChain, IWalkPath, IWalkOptions interfaces
-  - Requires model, chain, solvers modules to be converted first
-- **Recommendation**: Convert schema.ts interfaces first, then model.ts, then measure.ts
+### 🔄 Strategy Change: Converting paths.ts Next
+- **Reason**: measure.ts blocked by too many dependencies
+- **Discovery**: IMeasure, IMeasureWithCenter already in maker.ts ✅
+- **New Plan**: Convert paths.ts (path constructors) - simpler, fewer dependencies
+- **paths.ts Details**:
+  - Size: ~200 lines (path constructor classes)
+  - Dependencies: Only needs point, angle, path modules (all converted ✅)
+  - Exports: Line, Circle, Arc, BezierSeed constructor classes
+  - No complex dependencies on model/chain/solvers
 
 ### 🔄 Remaining Core Files After measure.ts:
 - [ ] model.ts (model manipulation and traversal)

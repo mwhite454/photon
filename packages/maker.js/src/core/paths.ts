@@ -1,19 +1,21 @@
-namespace MakerJs.paths {
+import { IPoint, IPathLine, IPathCircle, IPathArc } from './schema.js';
+import { pathType, round, isNumber, isPoint } from './maker.js';
+import * as point from './point.js';
+import * as angle from './angle.js';
+import * as path from './path.js';
 
-    /**
-     * @private
-     */
-    interface IArcSpan {
-        origin: IPoint;
-        startAngle: number;
-        endAngle: number;
-        size: number;
-    }
+// TEMP: These will be available after respective modules are converted
+declare const measure: any;
 
-    /**
-     * Class for arc path.
-     */
-    export class Arc implements IPathArc {
+interface IArcSpan {
+    origin: IPoint;
+    startAngle: number;
+    endAngle: number;
+    size: number;
+}
+
+/** Class for arc path. */
+export class Arc implements IPathArc {
         public origin: IPoint;
         public radius: number;
         public startAngle: number;
@@ -388,5 +390,3 @@ namespace MakerJs.paths {
             path.move(this, newOrigin);
         }
     }
-
-}

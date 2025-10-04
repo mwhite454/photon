@@ -20,18 +20,24 @@
 - [x] **7 commits** → Progress tracked in git history
 
 ### 📊 Current Build Status:
-- **ESM pipeline**: ✅ Working
-- **Bundles**: ✅ Building (maker.es.js, maker.umd.js, maker.iife.js)
-- **Converted modules**: schema, maker (partial), point, angle
-- **TypeScript errors**: ~600+ (expected - other files still reference old namespaces)
+- **ESM pipeline**: ✅ Working perfectly
+- **Bundles**: ✅ Building successfully (23.73 kB ES, 26.15 kB UMD, 25.89 kB IIFE)
+- **Converted modules**: schema, maker (partial), point (199 lines), angle (143 lines), path (415 lines)
+- **Total converted**: 757 lines of core functionality
+- **TypeScript errors**: ~550+ (expected - remaining files still reference old namespaces)
 
-### 🔄 Next Batch (Remaining - path, measure, model, paths, chain):
-- [ ] Convert path.ts to ES module (621 lines - complex)
-- [ ] Convert measure.ts to ES module (913 lines - complex)
-- [ ] Convert model.ts to ES module
-- [ ] Convert paths.ts to ES module (path constructors)
-- [ ] Convert chain.ts to ES module
-- [ ] Export all from src/index.ts
+### 🔄 Next Module: measure.ts
+- **Status**: Starting conversion now
+- **Size**: 913 lines (largest and most complex core module)
+- **Dependencies**: Uses point, angle, path modules (all now converted ✅)
+- **Exports**: Distance calculations, measurements, extents, intersections
+
+### 🔄 Remaining Core Files After measure.ts:
+- [ ] model.ts (model manipulation and traversal)
+- [ ] chain.ts (path chaining and connectivity)
+- [ ] paths.ts (path constructors - Line, Circle, Arc classes)
+- [ ] break.ts, combine.ts, collect.ts, simplify.ts, expand.ts
+- [ ] units.ts, equal.ts
 
 ### Remaining Core Files:
 - [ ] model.ts

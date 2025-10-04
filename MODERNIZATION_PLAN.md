@@ -12,11 +12,12 @@
 ### ✅ Completed (Session Summary):
 - [x] **schema.ts** → ES module exports with temp global type aliases
 - [x] **maker.ts** → Partially converted (interfaces, utilities, type guards exported as ES modules)
-- [x] **point.ts** → ✅ FULLY converted to ES module with modern syntax
-- [x] **angle.ts** → ✅ FULLY converted to ES module with modern syntax
-- [x] **src/index.ts** → Exports schema, maker, angle, point
-- [x] **Vite builds** → ✅ Successfully generating ES/UMD/IIFE bundles
-- [x] **4 commits** → Progress tracked in git history
+- [x] **point.ts** → ✅ FULLY converted to ES module with modern syntax (199 lines)
+- [x] **angle.ts** → ✅ FULLY converted to ES module with modern syntax (143 lines)
+- [x] **path.ts** → ✅ FULLY converted to ES module with modern syntax (415 lines)
+- [x] **src/index.ts** → Exports schema, maker, angle, point, path
+- [x] **Vite builds** → ✅ Successfully generating ES/UMD/IIFE bundles (23.73 kB ES)
+- [x] **7 commits** → Progress tracked in git history
 
 ### 📊 Current Build Status:
 - **ESM pipeline**: ✅ Working

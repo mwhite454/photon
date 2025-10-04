@@ -35,6 +35,11 @@
 - **Dependencies**: Uses point, angle, path modules (all converted ✅)
 - **Build**: Successful with expected warning about missing path.intersection
 
+### 🔄 Phase 2: Adding Missing Interfaces & Converting Remaining Modules
+- **Current Task**: Verify all interfaces are exported from maker.ts
+- **Next**: Convert model.ts, chain.ts, then measure.ts
+- **Strategy**: Work through dependency chain to unblock measure.ts
+
 ### 🔄 Remaining Core Files After measure.ts:
 - [ ] model.ts (model manipulation and traversal)
 - [ ] chain.ts (path chaining and connectivity)

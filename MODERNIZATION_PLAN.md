@@ -1,12 +1,36 @@
-# Maker.js Modernization Plan
+# Maker.js ES6 Module Modernization Plan
 
-## Overview
-Migrating from TypeScript namespaces + Browserify to modern ES6 modules + Vite/Rollup bundling.
+## Phase 1: Build Infrastructure ✅
+- [x] Add Vite for modern bundling
+- [x] Configure TypeScript for ES modules (ES2020, outDir: dist/esm)
+- [x] Set up build scripts (build:lib in maker.js package)
+- [x] Vite entry points to src/index.ts
+- [x] Modern bundles building: maker.es.js, maker.umd.js, maker.iife.js
 
-**Key Decision**: No backwards compatibility required - we can be aggressive with modernization!
+## Phase 2: Core Module Conversion (IN PROGRESS)
+### Completed:
+- [x] schema.ts → ES module exports with temp global type aliases
+- [x] base.ts → Created with core utilities (version, environment, unitType, pathType, round, splitDecimal, etc.)
+- [x] maker.ts → Partially converted (interfaces, utilities, type guards exported as ES modules)
+- [x] src/index.ts → Created, exports schema + base
 
-## Phase 1: TypeScript Configuration ✅ (Starting Now)
+### Next Batch (point, angle, path, measure):
+- [x] Convert point.ts to ES module
+- [x] Convert angle.ts to ES module  
+- [x] Convert path.ts to ES module
+- [x] Convert measure.ts to ES module
+- [x] Export all four from src/index.ts
 
+### Remaining Core Files:
+- [ ] model.ts
+- [ ] chain.ts
+- [ ] paths.ts (path constructors)
+- [ ] break.ts, combine.ts, collect.ts, simplify.ts, expand.ts
+- [ ] units.ts, equal.ts
+- [ ] exporter.ts, importer.ts
+- [ ] dxf.ts, xml.ts, svg.ts, pdf.ts, openjscad.ts
+- [ ] solvers.ts, intersect.ts, fillet.ts
+- [ ] kit.ts, layout.ts, deadend.ts, cascades.ts
 ### 1.1 Update Main Library TypeScript Config
 **File**: `packages/maker.js/target/tsconfig.json`
 

@@ -27,10 +27,14 @@
 - **TypeScript errors**: ~550+ (expected - remaining files still reference old namespaces)
 
 ### 🔄 Next Module: measure.ts
-- **Status**: Starting conversion now
+- **Status**: ⚠️ Blocked - requires additional interfaces
 - **Size**: 913 lines (largest and most complex core module)
 - **Dependencies**: Uses point, angle, path modules (all now converted ✅)
-- **Exports**: Distance calculations, measurements, extents, intersections
+- **Blocking Issues**: 
+  - Missing IMeasure, IMeasureWithCenter interfaces in schema.ts
+  - Needs IModel, IChain, IWalkPath, IWalkOptions interfaces
+  - Requires model, chain, solvers modules to be converted first
+- **Recommendation**: Convert schema.ts interfaces first, then model.ts, then measure.ts
 
 ### 🔄 Remaining Core Files After measure.ts:
 - [ ] model.ts (model manipulation and traversal)

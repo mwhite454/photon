@@ -16,17 +16,19 @@
 - [x] **angle.ts** → ✅ FULLY converted to ES module with modern syntax (143 lines)
 - [x] **path.ts** → ✅ FULLY converted to ES module with modern syntax (415 lines)
 - [x] **paths.ts** → ✅ FULLY converted to ES module (393 lines) - Arc, Circle, Line, Chord, Parallel classes
-- [x] **src/index.ts** → Exports schema, maker, angle, point, path, paths
-- [x] **Vite builds** → ✅ Successfully generating ES/UMD/IIFE bundles (28.82 kB ES)
-- [x] **11 commits** → Progress tracked in git history
+- [x] **units.ts** → ✅ FULLY converted to ES module (65 lines) - Unit conversion utilities
+- [x] **src/index.ts** → Exports schema, maker, angle, point, path, paths, units
+- [x] **Vite builds** → ✅ Successfully generating ES/UMD/IIFE bundles (30.16 kB ES)
+- [x] **15 commits** → Progress tracked in git history
 
 ### 📊 Current Build Status:
 - **ESM pipeline**: ✅ Working perfectly
-- **Bundles**: ✅ Building successfully (28.82 kB ES, 31.59 kB UMD, 31.32 kB IIFE)
-- **Converted modules**: schema, maker (partial), point (199), angle (143), path (415), paths (393)
-- **Total converted**: 1,150 lines of core functionality
-- **TypeScript errors**: ~500+ (expected - remaining files still reference old namespaces)
-- **Build warnings**: 1 warning about path.intersection not exported (expected, will be fixed when path module is fully converted)
+- **Bundles**: ✅ Building successfully (30.16 kB ES, 33.03 kB UMD, 32.76 kB IIFE)
+- **Converted modules**: schema, maker (partial), point (199), angle (143), path (415), paths (393), units (65)
+- **Total converted**: 1,215 lines of core functionality
+- **TypeScript errors**: ~480+ (expected - remaining files still reference old namespaces)
+- **Build warnings**: 1 warning about path.intersection not exported (expected)
+- **Type guards**: ✅ isPath, isModel, isPoint, etc. already exported from maker.ts
 
 ### ✅ paths.ts Conversion Complete
 - **Result**: Successfully converted all path constructor classes

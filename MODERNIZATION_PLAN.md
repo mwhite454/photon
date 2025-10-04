@@ -37,18 +37,18 @@
 - **Dependencies**: Uses point, angle, path modules (all converted ✅)
 - **Build**: Successful with expected warning about missing path.intersection
 
-### 🔄 Phase 3: Analysis Complete - Next Steps Identified
-- **Strategy**: Convert files with minimal dependencies first
-- **Completed Analysis**: model.ts (643 lines)
-- **Blocking Dependencies Found**:
-  - IPathLine, IPathBezierSeed interfaces need to be added to schema.ts
-  - IWalkModel interface needs to be exported from maker.ts
-  - models namespace (BezierCurve, Ellipse, EllipticArc) needs conversion
-  - measure module functions (modelExtents) needed
-- **Recommendation**: 
-  - ✅ Add missing interfaces to schema.ts first
-  - 🔄 Convert models/ directory classes
-  - 🔄 Then tackle model.ts, measure.ts, chain.ts together
+### 🔄 Phase 3: Deep Analysis - model.ts Conversion Strategy
+- **Analysis Complete**: model.ts (643 lines, 17 exported functions)
+- **Interfaces Verified**: ✅ IPathLine, IPathBezierSeed, IWalkModel all exist
+- **Critical Blocker**: models namespace (BezierCurve class) - referenced in 5 locations
+- **Circular Reference**: model.walk() calls itself recursively
+- **measure Dependencies**: modelExtents() used in 3 functions (center, zero)
+- **Conversion Complexity**: 
+  - 643 lines with deep interdependencies
+  - Requires models/ directory conversion first
+  - Needs measure.modelExtents() function
+  - Self-referential walk() function needs careful handling
+- **Recommendation**: Convert simpler independent modules first, save model.ts for coordinated batch
 - **Progress**: 1,215 / ~5,000 lines converted (24% of core functionality)
 
 ### 🔄 Remaining Core Files After measure.ts:

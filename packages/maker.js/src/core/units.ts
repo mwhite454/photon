@@ -1,94 +1,64 @@
-namespace MakerJs.units {
+import { unitType } from './maker.js';
 
-    /**
-     * The base type is arbitrary. Other conversions are then based off of this.
-     * @private
-     */
-    var base = unitType.Millimeter;
+/** The base type is arbitrary. Other conversions are then based off of this. */
+const base = unitType.Millimeter;
 
-    /**
-     * Initialize all known conversions here.
-     * @private
-     */
-    function init() {
-        addBaseConversion(unitType.Centimeter, 10);
-        addBaseConversion(unitType.Meter, 1000);
-        addBaseConversion(unitType.Inch, 25.4);
-        addBaseConversion(unitType.Foot, 25.4 * 12);
+/** Table of conversions. Lazy load upon first conversion. */
+let table: { [unitType: string]: { [unitType: string]: number }; };
+
+/** Initialize all known conversions. */
+function init() {
+    addBaseConversion(unitType.Centimeter, 10);
+    addBaseConversion(unitType.Meter, 1000);
+    addBaseConversion(unitType.Inch, 25.4);
+    addBaseConversion(unitType.Foot, 25.4 * 12);
+}
+
+/** Add a conversion, and its inversion. */
+function addConversion(srcUnitType: string, destUnitType: string, value: number) {
+    const row = (unitType: string) => {
+        if (!table[unitType]) {
+            table[unitType] = {};
+        }
+        return table[unitType];
+    };
+
+    row(srcUnitType)[destUnitType] = value;
+    row(destUnitType)[srcUnitType] = 1 / value;
+}
+
+/** Add a conversion of the base unit. */
+function addBaseConversion(destUnitType: string, value: number) {
+    addConversion(destUnitType, base, value);
+}
+
+/** Get a conversion ratio between a source unit and a destination unit. */
+export function conversionScale(srcUnitType: string, destUnitType: string): number {
+    if (srcUnitType == destUnitType) {
+        return 1;
     }
 
-    /**
-     * Table of conversions. Lazy load upon first conversion.
-     * @private
-     */
-    var table: { [unitType: string]: { [unitType: string]: number }; };
-
-    /**
-     * Add a conversion, and its inversion.
-     * @private
-     */
-    function addConversion(srcUnitType: string, destUnitType: string, value: number) {
-
-        function row(unitType) {
-            if (!table[unitType]) {
-                table[unitType] = {};
-            }
-            return table[unitType];
-        }
-
-        row(srcUnitType)[destUnitType] = value;
-        row(destUnitType)[srcUnitType] = 1 / value;
+    // Lazy load the table with initial conversions
+    if (!table) {
+        table = {};
+        init();
     }
 
-    /**
-     * Add a conversion of the base unit.
-     * @private
-     */
-    function addBaseConversion(destUnitType: string, value: number) {
-        addConversion(destUnitType, base, value);
+    // Look for a cached conversion in the table
+    if (!table[srcUnitType][destUnitType]) {
+        // Create a new conversion and cache it in the table
+        addConversion(srcUnitType, destUnitType, table[srcUnitType][base] * table[base][destUnitType]);
     }
 
-    /**
-     * Get a conversion ratio between a source unit and a destination unit. 
-     * 
-     * @param srcUnitType unitType converting from.
-     * @param destUnitType unitType converting to.
-     * @returns Numeric ratio of the conversion.
-     */
-    export function conversionScale(srcUnitType: string, destUnitType: string): number {
+    return table[srcUnitType] && table[srcUnitType][destUnitType];
+}
 
-        if (srcUnitType == destUnitType) {
-            return 1;
+/** Check to see if unit type is a valid Maker.js unit. */
+export function isValidUnit(tryUnit: string) {
+    for (const id in unitType) {
+        if (unitType[id] == tryUnit) {
+            return true;
         }
-
-        //This will lazy load the table with initial conversions.
-        if (!table) {
-            table = {};
-            init();
-        }
-
-        //look for a cached conversion in the table.
-        if (!table[srcUnitType][destUnitType]) {
-
-            //create a new conversionsand cache it in the table.
-            addConversion(srcUnitType, destUnitType, table[srcUnitType][base] * table[base][destUnitType]);
-        }
-
-        return table[srcUnitType] && table[srcUnitType][destUnitType];
     }
-
-    /**
-     * Check to see if unit type is a valid Maker.js unit. 
-     * 
-     * @param tryUnit unit type to check.
-     * @returns Boolean true if unit type is valid.
-     */
-    export function isValidUnit(tryUnit: string) {
-        for (let id in unitType) {
-            if (unitType[id] == tryUnit) {
-                return true;
-            }
-        }
-        return false;
-    }
+    return false;
 }

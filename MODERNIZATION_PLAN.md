@@ -9,18 +9,28 @@
 
 ## Phase 2: Core Module Conversion (IN PROGRESS)
 
-### ✅ Completed:
-- [x] schema.ts → ES module exports with temp global type aliases
-- [x] maker.ts → Partially converted (interfaces, utilities, type guards exported as ES modules)
-- [x] point.ts → Fully converted to ES module
-- [x] angle.ts → Fully converted to ES module
-- [x] src/index.ts → Exports schema, maker, angle, point
-- [x] Vite builds successfully (maker.es.js, maker.umd.js, maker.iife.js)
+### ✅ Completed (Session Summary):
+- [x] **schema.ts** → ES module exports with temp global type aliases
+- [x] **maker.ts** → Partially converted (interfaces, utilities, type guards exported as ES modules)
+- [x] **point.ts** → ✅ FULLY converted to ES module with modern syntax
+- [x] **angle.ts** → ✅ FULLY converted to ES module with modern syntax
+- [x] **src/index.ts** → Exports schema, maker, angle, point
+- [x] **Vite builds** → ✅ Successfully generating ES/UMD/IIFE bundles
+- [x] **4 commits** → Progress tracked in git history
 
-### 🔄 Next Batch (path, measure):
-- [ ] Convert path.ts to ES module
-- [ ] Convert measure.ts to ES module
-- [ ] Export from src/index.ts
+### 📊 Current Build Status:
+- **ESM pipeline**: ✅ Working
+- **Bundles**: ✅ Building (maker.es.js, maker.umd.js, maker.iife.js)
+- **Converted modules**: schema, maker (partial), point, angle
+- **TypeScript errors**: ~600+ (expected - other files still reference old namespaces)
+
+### 🔄 Next Batch (Remaining - path, measure, model, paths, chain):
+- [ ] Convert path.ts to ES module (621 lines - complex)
+- [ ] Convert measure.ts to ES module (913 lines - complex)
+- [ ] Convert model.ts to ES module
+- [ ] Convert paths.ts to ES module (path constructors)
+- [ ] Convert chain.ts to ES module
+- [ ] Export all from src/index.ts
 
 ### Remaining Core Files:
 - [ ] model.ts

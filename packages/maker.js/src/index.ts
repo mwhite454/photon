@@ -9,6 +9,9 @@ export * as path from './core/path.js';
 export * as paths from './core/paths.js';
 export * as units from './core/units.js';
 
+// Model classes converted to ES modules
+export * as models from './models/index.js';
+
 // TODO: progressively export remaining modules
 // export * as measure from './core/measure.js';
 // export * as model from './core/model.js';

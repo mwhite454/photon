@@ -9,9 +9,13 @@ export * as path from './core/path.js';
 export * as paths from './core/paths.js';
 export * as units from './core/units.js';
 export * as solvers from './core/solvers.js';
+export * as kit from './core/kit.js';
 
 // Partial measure module (equal.ts) - comparison functions
 export * as equal from './core/equal.js';
+
+// XML utilities
+export { XmlTag, type IXmlTagAttrs } from './core/xml.js';
 
 // Model classes converted to ES modules
 export * as models from './models/index.js';

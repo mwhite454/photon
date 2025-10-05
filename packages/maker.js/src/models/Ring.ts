@@ -1,26 +1,26 @@
-namespace MakerJs.models {
+import { IModel, IPathMap } from '../core/schema.js';
+import type { IKit } from '../core/maker.js';
+import * as point from '../core/point.js';
+import * as paths from '../core/paths.js';
 
-    export class Ring implements IModel {
+export class Ring implements IModel {
+    public paths: IPathMap = {};
 
-        public paths: IPathMap = {};
+    constructor(outerRadius: number, innerRadius?: number) {
+        const radii = {
+            "Ring_outer": outerRadius,
+            "Ring_inner": innerRadius
+        };
 
-        constructor(outerRadius: number, innerRadius?: number) {
-
-            var radii = {
-                "Ring_outer": outerRadius,
-                "Ring_inner": innerRadius
-            };
-
-            for (var id in radii) {
-                let r = radii[id];
-                if (r === undefined || r <= 0) continue;
-                this.paths[id] = new paths.Circle(point.zero(), r);
-            }
+        for (const id in radii) {
+            const r = radii[id];
+            if (r === undefined || r <= 0) continue;
+            this.paths[id] = new paths.Circle(point.zero(), r);
         }
     }
-
-    (<IKit>Ring).metaParameters = [
-        { title: "outer radius", type: "range", min: 0, max: 100, step: 1, value: 50 },
-        { title: "inner radius", type: "range", min: 0, max: 100, step: 1, value: 20 }
-    ];
 }
+
+(Ring as any as IKit).metaParameters = [
+    { title: "outer radius", type: "range", min: 0, max: 100, step: 1, value: 50 },
+    { title: "inner radius", type: "range", min: 0, max: 100, step: 1, value: 20 }
+];

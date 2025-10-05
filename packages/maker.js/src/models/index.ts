@@ -1,10 +1,18 @@
 // ES module exports for models directory
 export { ConnectTheDots } from './ConnectTheDots.js';
+export { Holes } from './Holes.js';
 export { Rectangle } from './Rectangle.js';
 export { Square } from './Square.js';
+export { Polygon } from './Polygon.js';
+export { Ring } from './Ring.js';
+export { Star } from './Star.js';
+export { Dome } from './Dome.js';
+export { BoltCircle } from './BoltCircle.js';
+export { BoltRectangle } from './BoltRectangle.js';
 
 // TODO: Export remaining models as they are converted
 // export { BezierCurve } from './BezierCurve.js';
 // export { Ellipse } from './Ellipse.js';
-// export { Polygon } from './Polygon.js';
+// export { RoundRectangle } from './RoundRectangle.js';
+// export { Oval } from './Oval.js';
 // etc.

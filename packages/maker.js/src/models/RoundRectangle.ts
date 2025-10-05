@@ -1,8 +1,14 @@
-namespace MakerJs.models {
+import { IModel, IPoint, IPathMap } from '../core/schema.js';
+import type { IKit, IMeasure } from '../core/maker.js';
+import * as point from '../core/point.js';
+import * as paths from '../core/paths.js';
 
-    export class RoundRectangle implements IModel {
-        public origin: IPoint;
-        public paths: IPathMap = {};
+// TEMP: These will be available after respective modules are converted
+declare const measure: any;
+
+export class RoundRectangle implements IModel {
+    public origin: IPoint;
+    public paths: IPathMap = {};
 
         /**
          * Create a round rectangle from width, height, and corner radius.
@@ -33,12 +39,11 @@ namespace MakerJs.models {
         constructor(modelToSurround: IModel, margin: number);
 
         constructor(...args: any[]) {
-            var width: number;
-            var height: number;
-            var radius = 0;
+            let width: number;
+            let height: number;
+            let radius = 0;
 
             switch (args.length) {
-
                 case 3:
                     width = args[0] as number;
                     height = args[1] as number;
@@ -47,24 +52,22 @@ namespace MakerJs.models {
 
                 case 2:
                     radius = args[1] as number;
-                    //fall through to 1
+                    // fall through to 1
 
                 case 1:
-                    var m = measure.modelExtents(args[0] as IModel);
+                    const m = measure.modelExtents(args[0] as IModel);
                     this.origin = point.subtract(m.low, [radius, radius]);
 
                     width = m.high[0] - m.low[0] + 2 * radius;
                     height = m.high[1] - m.low[1] + 2 * radius;
-
                     break;
             }
 
-            var maxRadius = Math.min(height, width) / 2;
-
+            const maxRadius = Math.min(height, width) / 2;
             radius = Math.min(radius, maxRadius);
 
-            var wr = width - radius;
-            var hr = height - radius;
+            const wr = width - radius;
+            const hr = height - radius;
 
             if (radius > 0) {
                 this.paths["BottomLeft"] = new paths.Arc([radius, radius], radius, 180, 270);
@@ -82,13 +85,11 @@ namespace MakerJs.models {
                 this.paths["Right"] = new paths.Line([width, radius], [width, hr]);
                 this.paths["Left"] = new paths.Line([0, hr], [0, radius]);
             }
-
         }
     }
 
-    (<IKit>RoundRectangle).metaParameters = [
-        { title: "width", type: "range", min: 1, max: 100, value: 50 },
-        { title: "height", type: "range", min: 1, max: 100, value: 100 },
-        { title: "radius", type: "range", min: 0, max: 50, value: 11 }
-    ];
-}
+(RoundRectangle as any as IKit).metaParameters = [
+    { title: "width", type: "range", min: 1, max: 100, value: 50 },
+    { title: "height", type: "range", min: 1, max: 100, value: 100 },
+    { title: "radius", type: "range", min: 0, max: 50, value: 11 }
+];

@@ -3,9 +3,7 @@ import { round } from './maker.js';
 import * as angle from './angle.js';
 import * as path from './path.js';
 import * as paths from './paths.js';
-
-// TEMP: These will be available after respective modules are converted
-declare const measure: any;
+import * as measure from './measure-minimal.js';
 
 const equilateral = Math.sqrt(3) / 2;
 

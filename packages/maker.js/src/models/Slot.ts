@@ -2,9 +2,9 @@ import { IModel, IPoint, IPath, IPathMap, IModelMap } from '../core/schema.js';
 import type { IKit } from '../core/maker.js';
 import * as angle from '../core/angle.js';
 import * as paths from '../core/paths.js';
+import * as measure from '../core/measure-minimal.js';
 
 // TEMP: These will be available after respective modules are converted
-declare const measure: any;
 declare const model: any;
 
 export class Slot implements IModel {

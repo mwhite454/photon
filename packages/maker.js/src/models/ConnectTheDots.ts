@@ -2,9 +2,9 @@ import { IModel, IPoint, IPathMap } from '../core/schema.js';
 import { isPoint } from '../core/maker.js';
 import type { IKit } from '../core/maker.js';
 import * as paths from '../core/paths.js';
+import * as measure from '../core/measure-minimal.js';
 
 // TEMP: These will be available after respective modules are converted
-declare const measure: any;
 declare const importer: any;
 
 function getPoints(arg: IPoint[] | number[] | string) {

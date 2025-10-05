@@ -2,10 +2,8 @@ import { IModel, IPoint, IPathMap } from '../core/schema.js';
 import { isObject, isModel } from '../core/maker.js';
 import type { IKit, IMeasure } from '../core/maker.js';
 import * as point from '../core/point.js';
+import * as measure from '../core/measure-minimal.js';
 import { ConnectTheDots } from './ConnectTheDots.js';
-
-// TEMP: These will be available after respective modules are converted
-declare const measure: any;
 
 export class Rectangle implements IModel {
     public paths: IPathMap = {};

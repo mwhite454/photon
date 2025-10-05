@@ -2,9 +2,7 @@ import { IModel, IPoint, IPathMap } from '../core/schema.js';
 import type { IKit, IMeasure } from '../core/maker.js';
 import * as point from '../core/point.js';
 import * as paths from '../core/paths.js';
-
-// TEMP: These will be available after respective modules are converted
-declare const measure: any;
+import * as measure from '../core/measure-minimal.js';
 
 export class RoundRectangle implements IModel {
     public origin: IPoint;

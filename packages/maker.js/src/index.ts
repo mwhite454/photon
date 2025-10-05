@@ -8,6 +8,7 @@ export * as point from './core/point.js';
 export * as path from './core/path.js';
 export * as paths from './core/paths.js';
 export * as units from './core/units.js';
+export * as solvers from './core/solvers.js';
 
 // Model classes converted to ES modules
 export * as models from './models/index.js';
@@ -15,3 +16,4 @@ export * as models from './models/index.js';
 // TODO: progressively export remaining modules
 // export * as measure from './core/measure.js';
 // export * as model from './core/model.js';
+// export * as chain from './core/chain.js';

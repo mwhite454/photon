@@ -13,11 +13,12 @@ export { RoundRectangle } from './RoundRectangle.js';
 export { Oval } from './Oval.js';
 export { Slot } from './Slot.js';
 export { SCurve } from './SCurve.js';
+export { Dogbone } from './Dogbone.js';
 
-// TODO: Export remaining models as they are converted
+// TODO: Export remaining complex models (depend on BezierCurve, solvers, etc.)
 // export { BezierCurve } from './BezierCurve.js';
 // export { Ellipse } from './Ellipse.js';
+// export { EllipticArc } from './Ellipse.js';
 // export { OvalArc } from './OvalArc.js';
 // export { Belt } from './Belt.js';
-// export { Dogbone } from './Dogbone.js';
 // export { Text } from './Text.js';

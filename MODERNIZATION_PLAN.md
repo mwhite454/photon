@@ -26,11 +26,13 @@
 
 ### 📊 Current Build Status:
 - **ESM pipeline**: ✅ Working perfectly
-- **Bundles**: ✅ Building successfully (45.28 kB ES, 49.12 kB UMD, 48.85 kB IIFE)
-- **Converted modules**: schema, maker (partial), point (199), angle (143), path (415), paths (393), units (65), models (15 classes, ~450 lines)
-- **Total converted**: ~1,665 lines of core functionality
-- **TypeScript errors**: ~400+ (expected - remaining files still reference old namespaces)
-- **Build warnings**: 1 warning about path.intersection not exported (expected)
+- **Bundles**: ✅ Building successfully (56.19 kB ES, 60.68 kB UMD, 60.41 kB IIFE)
+- **Converted modules**: 
+  - Core: schema, maker (partial), point (199), angle (143), path (415), paths (393), units (65), solvers (96), equal (243), measure-minimal (260)
+  - Models: 17/20 classes (~550 lines)
+- **Total converted**: ~2,214 lines of core functionality (44%)
+- **TypeScript errors**: ~300+ (expected - remaining files still reference old namespaces)
+- **Build warnings**: 3 warnings about path.intersection not exported (expected)
 - **Type guards**: ✅ isPath, isModel, isPoint, etc. already exported from maker.ts
 
 ### ✅ paths.ts Conversion Complete
@@ -40,8 +42,8 @@
 - **Dependencies**: Uses point, angle, path modules (all converted ✅)
 - **Build**: Successful with expected warning about missing path.intersection
 
-### ✅ models/ Directory: 15/20 Classes Converted
-- **Converted Classes** (15):
+### ✅ models/ Directory: 17/20 Classes Converted (85%)
+- **Converted Classes** (17):
   - ✅ ConnectTheDots (139 lines) - Polyline/polygon from points
   - ✅ Holes (41 lines) - Array of circles
   - ✅ Rectangle (97 lines) - Basic rectangle with measurement support
@@ -57,14 +59,14 @@
   - ✅ Slot (64 lines) - Rounded slot between two points
   - ✅ SCurve (44 lines) - S-shaped curve
   - ✅ Dogbone (96 lines) - Dogbone corners for CNC
+  - ✅ Belt (38 lines) - Belt between two circles
+  - ✅ OvalArc (94 lines) - Oval-shaped arc
 
-- **Remaining Classes** (5) - Blocked by dependencies:
-  - ⏸️ BezierCurve (587 lines) - Needs chain, measure, Bezier.js library
+- **Remaining Classes** (3) - Blocked by dependencies:
+  - ⏸️ BezierCurve (587 lines) - Needs chain module, Bezier.js library, model.walk
   - ⏸️ Ellipse (268 lines) - Needs BezierCurve
   - ⏸️ EllipticArc (in Ellipse.ts) - Needs BezierCurve
-  - ⏸️ OvalArc (94 lines) - Needs measure, path.intersection
-  - ⏸️ Belt (38 lines) - Needs solvers.circleTangentAngles
-  - ⏸️ Text (144 lines) - Needs opentype, measure, model, combine
+  - ⏸️ Text (144 lines) - Needs opentype, model, combine modules
 
 ### 🔄 Phase 3: model.ts Conversion Strategy
 - **Analysis Complete**: model.ts (643 lines, 17 exported functions)
@@ -73,7 +75,7 @@
   - models.BezierCurve class - referenced in 5 locations
   - measure.modelExtents() - used in 3 functions (center, zero)
   - Circular reference: model.walk() calls itself recursively
-- **Progress**: ~1,665 / ~5,000 lines converted (33% of core functionality)
+- **Progress**: ~2,214 / ~5,000 lines converted (44% of core functionality)
 
 ### 🔄 Remaining Core Files After measure.ts:
 - [ ] model.ts (model manipulation and traversal)

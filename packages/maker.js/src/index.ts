@@ -10,6 +10,9 @@ export * as paths from './core/paths.js';
 export * as units from './core/units.js';
 export * as solvers from './core/solvers.js';
 
+// Partial measure module (equal.ts) - comparison functions
+export * as equal from './core/equal.js';
+
 // Model classes converted to ES modules
 export * as models from './models/index.js';
 

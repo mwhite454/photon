@@ -17,16 +17,19 @@
 - [x] **path.ts** → ✅ FULLY converted to ES module with modern syntax (415 lines)
 - [x] **paths.ts** → ✅ FULLY converted to ES module (393 lines) - Arc, Circle, Line, Chord, Parallel classes
 - [x] **units.ts** → ✅ FULLY converted to ES module (65 lines) - Unit conversion utilities
-- [x] **src/index.ts** → Exports schema, maker, angle, point, path, paths, units
-- [x] **Vite builds** → ✅ Successfully generating ES/UMD/IIFE bundles (30.16 kB ES)
-- [x] **15 commits** → Progress tracked in git history
+- [x] **models/** → ✅ 15/20 model classes converted to ES modules (~450 lines)
+  - ConnectTheDots, Holes, Rectangle, Square, Polygon, Ring, Star, Dome
+  - BoltCircle, BoltRectangle, RoundRectangle, Oval, Slot, SCurve, Dogbone
+- [x] **src/index.ts** → Exports schema, maker, angle, point, path, paths, units, models
+- [x] **Vite builds** → ✅ Successfully generating ES/UMD/IIFE bundles (45.28 kB ES)
+- [x] **23 commits** → Progress tracked in git history
 
 ### 📊 Current Build Status:
 - **ESM pipeline**: ✅ Working perfectly
-- **Bundles**: ✅ Building successfully (30.16 kB ES, 33.03 kB UMD, 32.76 kB IIFE)
-- **Converted modules**: schema, maker (partial), point (199), angle (143), path (415), paths (393), units (65)
-- **Total converted**: 1,215 lines of core functionality
-- **TypeScript errors**: ~480+ (expected - remaining files still reference old namespaces)
+- **Bundles**: ✅ Building successfully (45.28 kB ES, 49.12 kB UMD, 48.85 kB IIFE)
+- **Converted modules**: schema, maker (partial), point (199), angle (143), path (415), paths (393), units (65), models (15 classes, ~450 lines)
+- **Total converted**: ~1,665 lines of core functionality
+- **TypeScript errors**: ~400+ (expected - remaining files still reference old namespaces)
 - **Build warnings**: 1 warning about path.intersection not exported (expected)
 - **Type guards**: ✅ isPath, isModel, isPoint, etc. already exported from maker.ts
 
@@ -37,19 +40,40 @@
 - **Dependencies**: Uses point, angle, path modules (all converted ✅)
 - **Build**: Successful with expected warning about missing path.intersection
 
-### 🔄 Phase 3: Deep Analysis - model.ts Conversion Strategy
+### ✅ models/ Directory: 15/20 Classes Converted
+- **Converted Classes** (15):
+  - ✅ ConnectTheDots (139 lines) - Polyline/polygon from points
+  - ✅ Holes (41 lines) - Array of circles
+  - ✅ Rectangle (97 lines) - Basic rectangle with measurement support
+  - ✅ Square (15 lines) - Square using Rectangle
+  - ✅ Polygon (39 lines) - Regular polygon
+  - ✅ Ring (27 lines) - Concentric circles
+  - ✅ Star (50 lines) - Star polygon
+  - ✅ Dome (46 lines) - Rounded top rectangle
+  - ✅ BoltCircle (24 lines) - Holes on a circle
+  - ✅ BoltRectangle (22 lines) - Holes at rectangle corners
+  - ✅ RoundRectangle (95 lines) - Rectangle with rounded corners
+  - ✅ Oval (18 lines) - Oval using RoundRectangle
+  - ✅ Slot (64 lines) - Rounded slot between two points
+  - ✅ SCurve (44 lines) - S-shaped curve
+  - ✅ Dogbone (96 lines) - Dogbone corners for CNC
+
+- **Remaining Classes** (5) - Blocked by dependencies:
+  - ⏸️ BezierCurve (587 lines) - Needs chain, measure, Bezier.js library
+  - ⏸️ Ellipse (268 lines) - Needs BezierCurve
+  - ⏸️ EllipticArc (in Ellipse.ts) - Needs BezierCurve
+  - ⏸️ OvalArc (94 lines) - Needs measure, path.intersection
+  - ⏸️ Belt (38 lines) - Needs solvers.circleTangentAngles
+  - ⏸️ Text (144 lines) - Needs opentype, measure, model, combine
+
+### 🔄 Phase 3: model.ts Conversion Strategy
 - **Analysis Complete**: model.ts (643 lines, 17 exported functions)
 - **Interfaces Verified**: ✅ IPathLine, IPathBezierSeed, IWalkModel all exist
-- **Critical Blocker**: models namespace (BezierCurve class) - referenced in 5 locations
-- **Circular Reference**: model.walk() calls itself recursively
-- **measure Dependencies**: modelExtents() used in 3 functions (center, zero)
-- **Conversion Complexity**: 
-  - 643 lines with deep interdependencies
-  - Requires models/ directory conversion first
-  - Needs measure.modelExtents() function
-  - Self-referential walk() function needs careful handling
-- **Recommendation**: Convert simpler independent modules first, save model.ts for coordinated batch
-- **Progress**: 1,215 / ~5,000 lines converted (24% of core functionality)
+- **Critical Blockers**: 
+  - models.BezierCurve class - referenced in 5 locations
+  - measure.modelExtents() - used in 3 functions (center, zero)
+  - Circular reference: model.walk() calls itself recursively
+- **Progress**: ~1,665 / ~5,000 lines converted (33% of core functionality)
 
 ### 🔄 Remaining Core Files After measure.ts:
 - [ ] model.ts (model manipulation and traversal)

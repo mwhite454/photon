@@ -20,6 +20,9 @@ export * as measure from './core/measure-minimal.js';
 // Model manipulation and traversal
 export * as model from './core/model.js';
 
+// Collection utilities (Collector, PointGraph)
+export * as collect from './core/collect.js';
+
 // XML utilities
 export { XmlTag, type IXmlTagAttrs } from './core/xml.js';
 

@@ -26,12 +26,12 @@
 
 ### 📊 Current Build Status:
 - **ESM pipeline**: ✅ Working perfectly
-- **Bundles**: ✅ Building successfully (56.19 kB ES, 60.68 kB UMD, 60.41 kB IIFE)
+- **Bundles**: ✅ Building successfully (75.56 kB ES, 81.29 kB UMD, 81.03 kB IIFE)
 - **Converted modules**: 
-  - Core: schema, maker (partial), point (199), angle (143), path (415), paths (393), units (65), solvers (96), equal (243), measure-minimal (260)
-  - Models: 17/20 classes (~550 lines)
-- **Total converted**: ~2,214 lines of core functionality (44%)
-- **TypeScript errors**: ~300+ (expected - remaining files still reference old namespaces)
+  - Core: schema, maker (partial), point (199), angle (143), path (415), paths (393), units (65), solvers (96), equal (243), measure-minimal (260), kit (40), xml (122), **model (643)** ✅
+  - Models: 17/20 classes (85%)
+- **Total converted**: ~3,019 lines of core functionality (60%)
+- **TypeScript errors**: ~200+ (expected - remaining files still reference old namespaces)
 - **Build warnings**: 3 warnings about path.intersection not exported (expected)
 - **Type guards**: ✅ isPath, isModel, isPoint, etc. already exported from maker.ts
 

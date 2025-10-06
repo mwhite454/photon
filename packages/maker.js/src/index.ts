@@ -14,6 +14,12 @@ export * as kit from './core/kit.js';
 // Partial measure module (equal.ts) - comparison functions
 export * as equal from './core/equal.js';
 
+// Measure module (minimal version with essential functions)
+export * as measure from './core/measure-minimal.js';
+
+// Model manipulation and traversal
+export * as model from './core/model.js';
+
 // XML utilities
 export { XmlTag, type IXmlTagAttrs } from './core/xml.js';
 
@@ -21,6 +27,4 @@ export { XmlTag, type IXmlTagAttrs } from './core/xml.js';
 export * as models from './models/index.js';
 
 // TODO: progressively export remaining modules
-// export * as measure from './core/measure.js';
-// export * as model from './core/model.js';
 // export * as chain from './core/chain.js';

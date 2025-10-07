@@ -1,21 +1,27 @@
-﻿{
+{
   "compilerOptions": {
-    "lib": ["dom", "es2015"],
+    "target": "ES2020",
+    "module": "ES2020",
+    "lib": ["dom", "es2015", "es2017", "ES2020"],
     "outDir": "../../docs/playground/js",
     "sourceMap": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
     "types": [
-      "codemirror",
-      "makerjs",
-      "marked"
+      "node"
     ]
   },
   "files": [
+    "src/globals.d.ts",
     "src/iexport.ts",
     "src/irender.ts",
     "src/pointer.ts",
     "src/fontloader.ts",
     "src/playground.ts",
     "src/format-options.ts",
-    "src/require-iframe.ts"
+    "src/require-iframe.ts",
+    "src/monaco-editor-adapter.ts"
   ]
 }

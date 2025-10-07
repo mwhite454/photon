@@ -1,63 +1,67 @@
-﻿namespace MakerJs.models {
+import { IModel, IPoint, IPath, IPathMap, IModelMap } from '../core/schema.js';
+import type { IKit } from '../core/maker.js';
+import * as angle from '../core/angle.js';
+import * as paths from '../core/paths.js';
+import * as measure from '../core/measure-minimal.js';
 
-    export class Slot implements IModel {
+// TEMP: These will be available after respective modules are converted
+declare const model: any;
 
-        public paths: IPathMap = {};
-        public origin: IPoint;
-        public models: IModelMap;
+export class Slot implements IModel {
+    public paths: IPathMap = {};
+    public origin: IPoint;
+    public models: IModelMap;
 
-        constructor(origin: IPoint, endPoint: IPoint, radius: number, isolateCaps = false) {
+    constructor(origin: IPoint, endPoint: IPoint, radius: number, isolateCaps = false) {
+        let capRoot: IModel;
 
-            var capRoot: IModel;
+        if (isolateCaps) {
+            capRoot = { models: {} };
+            this.models = { 'Caps': capRoot };
+        }
+
+        const addCap = (id: string, capPath: IPath) => {
+            let capModel: IModel;
 
             if (isolateCaps) {
-                capRoot = { models: {} };
-                this.models = { 'Caps': capRoot };
+                capModel = { paths: {} };
+                capRoot.models[id] = capModel;
+            } else {
+                capModel = this;
             }
 
-            var addCap = (id: string, capPath: IPath) => {
-                var capModel: IModel;
+            capModel.paths[id] = capPath;
+        };
 
-                if (isolateCaps) {
-                    capModel = { paths: {} };
-                    capRoot.models[id] = capModel;
-                } else {
-                    capModel = this;
-                }
+        const a = angle.ofPointInDegrees(origin, endPoint);
+        const len = measure.pointDistance(origin, endPoint);
 
-                capModel.paths[id] = capPath;
-            }
+        this.paths['Top'] = new paths.Line([0, radius], [len, radius]);
+        this.paths['Bottom'] = new paths.Line([0, -radius], [len, -radius]);
 
-            var a = angle.ofPointInDegrees(origin, endPoint);
-            var len = measure.pointDistance(origin, endPoint);
+        addCap('StartCap', new paths.Arc([0, 0], radius, 90, 270));
+        addCap('EndCap', new paths.Arc([len, 0], radius, 270, 90));
 
-            this.paths['Top'] = new paths.Line([0, radius], [len, radius]);
-            this.paths['Bottom'] = new paths.Line([0, -radius], [len, -radius]);
+        model.rotate(this, a, [0, 0]);
 
-            addCap('StartCap', new paths.Arc([0, 0], radius, 90, 270));
-            addCap('EndCap', new paths.Arc([len, 0], radius, 270, 90));
-
-            model.rotate(this, a, [0, 0]);
-
-            this.origin = origin;
-        }
+        this.origin = origin;
     }
-
-    (<IKit>Slot).metaParameters = [
-        {
-            title: "origin", type: "select", value: [
-                [0, 0],
-                [10, 0],
-                [10, 10]
-            ]
-        },
-        {
-            title: "end", type: "select", value: [
-                [80, 0],
-                [0, 30],
-                [10, 30]
-            ]
-        },
-        { title: "radius", type: "range", min: 1, max: 50, value: 10 }
-    ];
 }
+
+(Slot as any as IKit).metaParameters = [
+    {
+        title: "origin", type: "select", value: [
+            [0, 0],
+            [10, 0],
+            [10, 10]
+        ]
+    },
+    {
+        title: "end", type: "select", value: [
+            [80, 0],
+            [0, 30],
+            [10, 30]
+        ]
+    },
+    { title: "radius", type: "range", min: 1, max: 50, value: 10 }
+];

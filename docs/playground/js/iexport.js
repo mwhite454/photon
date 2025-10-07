@@ -1,43 +1,43 @@
-var MakerJsPlaygroundExport;
-(function (MakerJsPlaygroundExport) {
-    var ExportFormat;
-    (function (ExportFormat) {
-        ExportFormat[ExportFormat["Json"] = 0] = "Json";
-        ExportFormat[ExportFormat["Dxf"] = 1] = "Dxf";
-        ExportFormat[ExportFormat["Svg"] = 2] = "Svg";
-        ExportFormat[ExportFormat["SvgPathData"] = 3] = "SvgPathData";
-        ExportFormat[ExportFormat["OpenJsCad"] = 4] = "OpenJsCad";
-        ExportFormat[ExportFormat["Stl"] = 5] = "Stl";
-        ExportFormat[ExportFormat["Pdf"] = 6] = "Pdf";
-    })(ExportFormat = MakerJsPlaygroundExport.ExportFormat || (MakerJsPlaygroundExport.ExportFormat = {}));
-    MakerJsPlaygroundExport.formatMap = {};
-    MakerJsPlaygroundExport.formatMap[ExportFormat.Json] = {
+// Export format enumeration
+export var ExportFormat;
+(function (ExportFormat) {
+    ExportFormat[ExportFormat["Json"] = 0] = "Json";
+    ExportFormat[ExportFormat["Dxf"] = 1] = "Dxf";
+    ExportFormat[ExportFormat["Svg"] = 2] = "Svg";
+    ExportFormat[ExportFormat["SvgPathData"] = 3] = "SvgPathData";
+    ExportFormat[ExportFormat["OpenJsCad"] = 4] = "OpenJsCad";
+    ExportFormat[ExportFormat["Stl"] = 5] = "Stl";
+    ExportFormat[ExportFormat["Pdf"] = 6] = "Pdf";
+})(ExportFormat || (ExportFormat = {}));
+// Format map with media types and file extensions
+export const formatMap = {
+    [ExportFormat.Json]: {
         mediaType: 'application/json',
         fileExtension: 'json'
-    };
-    MakerJsPlaygroundExport.formatMap[ExportFormat.Dxf] = {
+    },
+    [ExportFormat.Dxf]: {
         mediaType: 'application/dxf',
         fileExtension: 'dxf'
-    };
-    MakerJsPlaygroundExport.formatMap[ExportFormat.Svg] = {
+    },
+    [ExportFormat.Svg]: {
         mediaType: 'image/svg+xml',
         fileExtension: 'svg'
-    };
-    MakerJsPlaygroundExport.formatMap[ExportFormat.SvgPathData] = {
+    },
+    [ExportFormat.SvgPathData]: {
         mediaType: 'text/plain',
         fileExtension: 'txt'
-    };
-    MakerJsPlaygroundExport.formatMap[ExportFormat.OpenJsCad] = {
+    },
+    [ExportFormat.OpenJsCad]: {
         mediaType: 'text/plain',
         fileExtension: 'txt'
-    };
-    MakerJsPlaygroundExport.formatMap[ExportFormat.Stl] = {
+    },
+    [ExportFormat.Stl]: {
         mediaType: 'application/stl',
         fileExtension: 'stl'
-    };
-    MakerJsPlaygroundExport.formatMap[ExportFormat.Pdf] = {
+    },
+    [ExportFormat.Pdf]: {
         mediaType: 'application/pdf',
         fileExtension: 'pdf'
-    };
-})(MakerJsPlaygroundExport || (MakerJsPlaygroundExport = {}));
+    }
+};
 //# sourceMappingURL=iexport.js.map

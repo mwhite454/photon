@@ -1,8 +1,13 @@
-﻿namespace MakerJsPlayground {
+/// <reference path="monaco-editor-adapter.ts" />
 
-    //classes
+import { FontLoader } from './fontloader.js';
+import { ExportFormat, IExportRequest, IExportResponse, formatMap, IJavaScriptErrorDetails } from './iexport.js';
+import { IRenderRequest, IRenderResponse } from './irender.js';
+import * as FormatOptions from './format-options.js';
+import { Pointer } from './pointer.js';
 
-    class QueryStringParams {
+// QueryStringParams class for parsing URL parameters
+class QueryStringParams {
 
         constructor(querystring: string = document.location.search.substring(1)) {
             if (querystring) {
@@ -15,36 +20,28 @@
         }
     }
 
-    //interfaces
+// Internal interfaces
+interface ILockedPath {
+    route: string[];
+    notes: string;
+}
 
-    interface ILockedPath {
-        route: string[];
-        notes: string;
-    }
+interface IProcessedResult {
+    html: string;
+    kit: any;
+    model: any;
+    measurement: any;
+    paramValues: any[],
+    lockedPath?: ILockedPath;
+    error?: string;
+}
 
-    interface IProcessedResult {
-        html: string;
-        kit: MakerJs.IKit;
-        model: MakerJs.IModel;
-        measurement: MakerJs.IMeasure;
-        paramValues: any[],
-        lockedPath?: ILockedPath;
-        error?: string;
-    }
+interface RuntimeError {
+    stack: string;
+}
 
-    interface RuntimeError {
-        stack: string;
-    }
-
-    export interface IJavaScriptErrorDetails {
-        colno: number;
-        lineno: number;
-        message: string;
-        name: string;
-    }
-
-    //private members
-    var minDockSideBySide = 1024;
+// Module-level variables (private)
+let minDockSideBySide = 1024;
     var pixelsPerInch = 100;
     var iframe: HTMLIFrameElement;
     var customizeMenu: HTMLDivElement;
@@ -71,7 +68,7 @@
         paramValues: []
     };
     var init = true;
-    var errorMarker: CodeMirror.TextMarker;
+    var errorMarker: MonacoEditorAdapter.TextMarker;
     var exportWorker: Worker = null;
     var paramActiveTimeout: NodeJS.Timer;
     var longHoldTimeout: NodeJS.Timer;
@@ -415,13 +412,13 @@
 
             var editorLine = error.lineno - 1;
 
-            var from: CodeMirror.Position = {
+            var from: MonacoEditorAdapter.Position = {
                 line: editorLine, ch: error.colno - 1
             };
 
             var line = codeMirrorEditor.getDoc().getLine(editorLine);
 
-            var to: CodeMirror.Position = {
+            var to: MonacoEditorAdapter.Position = {
                 line: editorLine, ch: line ? line.length : 0
             };
 
@@ -811,7 +808,7 @@
         };
 
         fontLoader.failureCb = function (id) {
-            var errorDetails: MakerJsPlayground.IJavaScriptErrorDetails = {
+            var errorDetails: IJavaScriptErrorDetails = {
                 colno: 0,
                 lineno: 0,
                 message: 'error loading font ' + fontLoader.baseUrl + playgroundFonts[id].path,
@@ -840,7 +837,7 @@
         } catch (e) {
             var error = e as RuntimeError;
 
-            var errorDetails: MakerJsPlayground.IJavaScriptErrorDetails = {
+            var errorDetails: IJavaScriptErrorDetails = {
                 colno: 0,
                 lineno: 0,
                 message: 'Parameters=' + JSON.stringify(processed.paramValues),
@@ -871,7 +868,7 @@
 
         renderInWorker.worker = new Worker('js/worker/render-worker.js');
         renderInWorker.worker.onmessage = function (ev: MessageEvent) {
-            var response = ev.data as MakerJsPlaygroundRender.IRenderResponse;
+            var response = ev.data as IRenderResponse;
             if (response.error) {
                 errorHandler();
             } else {
@@ -887,7 +884,7 @@
             idToUrlMap[orderedDependencies[i]] = '../../' + filenameFromRequireId(orderedDependencies[i], true);
         }
 
-        var options: MakerJsPlaygroundRender.IRenderRequest = {
+        var options: IRenderRequest = {
             fontDir: '../../' + fontDir,
             requestId: 0,
             javaScript: javaScript,
@@ -905,7 +902,7 @@
         if (!renderInWorker.hasKit) return;
 
         renderInWorker.worker.onmessage = function (ev: MessageEvent) {
-            var response = ev.data as MakerJsPlaygroundRender.IRenderResponse;
+            var response = ev.data as IRenderResponse;
             if (response.requestId == renderInWorker.requestId) {
 
                 if (response.error) {
@@ -919,7 +916,7 @@
 
         renderInWorker.requestId = new Date().valueOf();
 
-        var options: MakerJsPlaygroundRender.IRenderRequest = {
+        var options: IRenderRequest = {
             fontDir: '../../' + fontDir,
             requestId: renderInWorker.requestId,
             paramValues: processed.paramValues
@@ -1078,8 +1075,8 @@
     export var onViewportChange: Function;
     export var fullScreen: boolean
     export var dockMode: string;
-    export var codeMirrorEditor: CodeMirror.Editor;
-    export var codeMirrorOptions: CodeMirror.EditorConfiguration = {
+    export var codeMirrorEditor: MonacoEditorAdapter.Editor;
+    export var codeMirrorOptions: MonacoEditorAdapter.EditorConfiguration = {
         extraKeys: {
             "Ctrl-Enter": () => { runCodeFromEditor() },
             "Ctrl-I": () => { toggleClass('collapse-insert-menu') }
@@ -1471,7 +1468,7 @@
         var timeout = setTimeout(function () {
             x.onreadystatechange = null;
 
-            var errorDetails: MakerJsPlayground.IJavaScriptErrorDetails = {
+            var errorDetails: IJavaScriptErrorDetails = {
                 colno: 0,
                 lineno: 0,
                 message: 'Could not load script "' + url + '". Possibly a network error, or the file does not exist.',
@@ -1514,7 +1511,7 @@
     }
 
     function getExport(ev: MessageEvent) {
-        var response = ev.data as MakerJsPlaygroundExport.IExportResponse;
+        var response = ev.data as IExportResponse;
 
         progress.style.width = response.percentComplete + '%';
 
@@ -1528,7 +1525,7 @@
         }
     }
 
-    function setExportText(format: MakerJsPlaygroundExport.ExportFormat, title: string, text: string, error: string) {
+    function setExportText(format: ExportFormat, title: string, text: string, error: string) {
         if (error) {
             downloadError.innerText = error;
 
@@ -1539,7 +1536,7 @@
             return;
         }
 
-        var fe = MakerJsPlaygroundExport.formatMap[format];
+        var fe = formatMap[format];
 
         var encoded = encodeURIComponent(text);
         var uriPrefix = 'data:' + fe.mediaType + ',';
@@ -1560,7 +1557,7 @@
         toggleClass('download-ready');
     }
 
-    export function downloadClick(a: HTMLAnchorElement, format: MakerJsPlaygroundExport.ExportFormat) {
+    export function downloadClick(a: HTMLAnchorElement, format: ExportFormat) {
         //show options
         FormatOptions.activateOption(format, a.innerText, processed.model);
         toggleClass('download-options');
@@ -1568,12 +1565,12 @@
 
     export function getFormatOptions() {
 
-        var formatOption = MakerJsPlayground.FormatOptions.current;
+        var formatOption = FormatOptions.current;
         if (!formatOption) {
             return;
         }
 
-        var request: MakerJsPlaygroundExport.IExportRequest = {
+        var request: IExportRequest = {
             format: formatOption.format,
             formatTitle: formatOption.formatTitle,
             model: processed.model,
@@ -1594,29 +1591,29 @@
         }
     }
 
-    function exportOnUIThread(request: MakerJsPlaygroundExport.IExportRequest) {
+    function exportOnUIThread(request: IExportRequest) {
         var text: string;
         var error: string;
 
         try {
             switch (request.format) {
-                case MakerJsPlaygroundExport.ExportFormat.Dxf:
+                case ExportFormat.Dxf:
                     text = makerjs.exporter.toDXF(processed.model, request.options);
                     break;
 
-                case MakerJsPlaygroundExport.ExportFormat.Json:
+                case ExportFormat.Json:
                     text = JSON.stringify(processed.model, null, 2);
                     break;
 
-                case MakerJsPlaygroundExport.ExportFormat.OpenJsCad:
+                case ExportFormat.OpenJsCad:
                     text = makerjs.exporter.toJscadScript(processed.model, request.options);
                     break;
 
-                case MakerJsPlaygroundExport.ExportFormat.Svg:
+                case ExportFormat.Svg:
                     text = makerjs.exporter.toSVG(processed.model, request.options);
                     break;
 
-                case MakerJsPlaygroundExport.ExportFormat.SvgPathData:
+                case ExportFormat.SvgPathData:
                     text = makerjs.exporter.toSVGPathData(processed.model, request.options) as string;
                     break;
 
@@ -1631,7 +1628,7 @@
         return true;
     }
 
-    function exportOnWorkerThread(request: MakerJsPlaygroundExport.IExportRequest) {
+    function exportOnWorkerThread(request: IExportRequest) {
 
         //initialize a worker - this will download scripts into the worker
         if (!exportWorker) {
@@ -1718,8 +1715,7 @@
 
     //execution
 
-    window.onload = function (ev) {
-
+    function initializePlayground() {
         //hide the customize menu when booting on small screens
         //if (document.body.clientWidth < 540) {
         //    document.body.classList.add('collapse-rendering-options');
@@ -1749,12 +1745,15 @@
         codeMirrorOptions.value = pre.innerText;
         codeMirrorOptions["styleActiveLine"] = true;    //TODO use addons in declaration
 
-        codeMirrorEditor = CodeMirror(
+        codeMirrorEditor = MonacoEditorAdapter.createEditor(
             function (elt) {
                 pre.parentNode.replaceChild(elt, pre);
             },
             codeMirrorOptions
         );
+
+        // Load available models after editor is initialized
+        loadAvailableModels();
 
         if (fullScreen) {
             dockEditor(dockModes.FullScreen);
@@ -1810,4 +1809,106 @@
         }
     };
 
-}
+    // Model loading functionality
+    export function loadAvailableModels() {
+        fetch('/api/models')
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    populateModelsDropdown(data.models);
+                } else {
+                    console.error('Failed to load models:', data.error);
+                }
+            })
+            .catch(error => {
+                console.error('Error fetching models:', error);
+            });
+    }
+
+    function populateModelsDropdown(models: any[]) {
+        const dropdown = document.getElementById('models-dropdown') as HTMLSelectElement;
+        if (!dropdown) return;
+
+        // Clear existing options except the first one
+        dropdown.innerHTML = '<option value="">-- Select a model --</option>';
+
+        // Add model options
+        models.forEach(model => {
+            const option = document.createElement('option');
+            option.value = model.filename;
+            option.textContent = model.name.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+            dropdown.appendChild(option);
+        });
+    }
+
+    export function loadSelectedModel() {
+        const dropdown = document.getElementById('models-dropdown') as HTMLSelectElement;
+        if (!dropdown || !dropdown.value) return;
+
+        const filename = dropdown.value;
+        fetch(`/api/models/${filename}`)
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    // Load the model content into the editor
+                    if (codeMirrorEditor) {
+                        const doc = codeMirrorEditor.getDoc();
+                        const cursor = doc.getCursor();
+                        const insertText = (function () {
+                            const before = doc.getLine(cursor.line) || '';
+                            const needsLeadingNewline = before.trim().length > 0 && cursor.ch !== 0;
+                            const prefix = needsLeadingNewline ? "\n" : "";
+                            const suffix = "\n"; // ensure a trailing newline after inserted model
+                            return prefix + data.content + suffix;
+                        })();
+                        doc.replaceRange(insertText, cursor);
+                        // Optionally focus editor after insert
+                        codeMirrorEditor.focus();
+                        // Do not auto-run here; user can choose when to run after composing code
+                    }
+                } else {
+                    console.error('Failed to load model:', data.error);
+                    alert('Failed to load model: ' + data.error);
+                }
+            })
+            .catch(error => {
+                console.error('Error loading model:', error);
+                alert('Error loading model: ' + error.message);
+            });
+    }
+
+    // Wait for Monaco Editor to load before initializing
+    window.onload = function (ev) {
+        function tryInitialize() {
+            if (typeof monaco !== 'undefined' || (window as any).monacoLoaded) {
+                console.log('Monaco Editor is ready, initializing playground...');
+                initializePlayground();
+            } else {
+                console.log('Waiting for Monaco Editor to load...');
+                setTimeout(tryInitialize, 100);
+            }
+        }
+        
+        // Listen for Monaco ready event
+        if (typeof window.addEventListener !== 'undefined') {
+            window.addEventListener('monacoReady', function() {
+                console.log('Monaco ready event received');
+                initializePlayground();
+            });
+        }
+        
+        // Also try polling in case the event was missed
+        tryInitialize();
+    };
+
+// Export functions that need to be accessible globally
+(window as any).MakerJsPlayground = {
+    processResult,
+    filenameFromRequireId,
+    codeMirrorEditor,
+    setParam,
+    activateParam,
+    deActivateParam,
+    isSmallDevice,
+    mainThreadConstructor: null // Will be set by require-iframe
+};

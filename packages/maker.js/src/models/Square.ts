@@ -1,14 +1,15 @@
-namespace MakerJs.models {
-    export class Square implements IModel {
+import { IModel, IPathMap } from '../core/schema.js';
+import type { IKit } from '../core/maker.js';
+import { Rectangle } from './Rectangle.js';
 
-        public paths: IPathMap = {};
+export class Square implements IModel {
+    public paths: IPathMap = {};
 
-        constructor(side: number) {
-            this.paths =  new Rectangle(side, side).paths;
-        }
+    constructor(side: number) {
+        this.paths = new Rectangle(side, side).paths;
     }
-
-    (<IKit>Square).metaParameters = [
-        { title: "side", type: "range", min: 1, max: 100, value: 100 }
-    ];
 }
+
+(Square as any as IKit).metaParameters = [
+    { title: "side", type: "range", min: 1, max: 100, value: 100 }
+];

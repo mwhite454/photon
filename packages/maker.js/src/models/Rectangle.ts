@@ -1,8 +1,13 @@
-namespace MakerJs.models {
-    export class Rectangle implements IModel {
+import { IModel, IPoint, IPathMap } from '../core/schema.js';
+import { isObject, isModel } from '../core/maker.js';
+import type { IKit, IMeasure } from '../core/maker.js';
+import * as point from '../core/point.js';
+import * as measure from '../core/measure-minimal.js';
+import { ConnectTheDots } from './ConnectTheDots.js';
 
-        public paths: IPathMap = {};
-        public origin: IPoint;
+export class Rectangle implements IModel {
+    public paths: IPathMap = {};
+    public origin: IPoint;
 
         /**
          * Create a rectangle from width and height.
@@ -58,16 +63,15 @@ namespace MakerJs.models {
         constructor(measurement: IMeasure);
 
         constructor(...args: any[]) {
-            var width: number;
-            var height: number;
+            let width: number;
+            let height: number;
 
             if (args.length === 2 && !isObject(args[0])) {
                 width = args[0] as number;
                 height = args[1] as number;
             } else {
-
-                var margin = 0;
-                var m: IMeasure;
+                let margin = 0;
+                let m: IMeasure;
 
                 if (isModel(args[0])) {
                     m = measure.modelExtents(args[0] as IModel);
@@ -75,7 +79,7 @@ namespace MakerJs.models {
                         margin = args[1] as number;
                     }
                 } else {
-                    //use measurement
+                    // use measurement
                     m = args[0] as IMeasure;
                 }
 
@@ -89,8 +93,7 @@ namespace MakerJs.models {
         }
     }
 
-    (<IKit>Rectangle).metaParameters = [
-        { title: "width", type: "range", min: 1, max: 100, value: 50 },
-        { title: "height", type: "range", min: 1, max: 100, value: 100 }
-    ];
-}
+(Rectangle as any as IKit).metaParameters = [
+    { title: "width", type: "range", min: 1, max: 100, value: 50 },
+    { title: "height", type: "range", min: 1, max: 100, value: 100 }
+];

@@ -1,8 +1,11 @@
-﻿{
+{
   "compilerOptions": {
     "declaration": true,
-    "outFile": "../dist/index.js",
-    "lib": ["dom", "es2015"],
+    "lib": ["dom", "es2020"],
+    "module": "ES2020",
+    "target": "ES2020",
+    "moduleResolution": "node",
+    "outDir": "../dist/esm",
     "sourceMap": false,
     "types": [
       "dxf-parser",

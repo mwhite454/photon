@@ -1,4 +1,4 @@
-﻿html, body {
+html, body {
     height: 100%;
     margin: 0;
 }
@@ -554,6 +554,23 @@ svg#pointers line {
 .code-header button.run {
     background-color: green;
     color: white;
+}
+
+#models-dropdown-container {
+    display: inline-block;
+    margin-right: 1em;
+}
+
+#models-dropdown-container label {
+    margin-right: 0.5em;
+    font-size: inherit;
+}
+
+#models-dropdown {
+    font-family: inherit;
+    padding: 2px 4px;
+    border: 1px solid #999;
+    background-color: white;
 }
 
 .CodeMirror {

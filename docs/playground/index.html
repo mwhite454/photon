@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <title>Maker.js Playground</title>
@@ -26,18 +26,64 @@
 
     -->
 
-    <link href="../external/codemirror/lib/codemirror.css" rel="stylesheet" />
-    <link href="../external/codemirror/theme/twilight.css" rel="stylesheet" />
-    <link href="../external/codemirror/addon/lint/lint.css" rel="stylesheet" />
     <link href="css/playground.css" rel="stylesheet" />
     <script src="../external/pep/pep.js"></script>
     <script src="../external/marked/marked.js"></script>
-    <script src="../external/codemirror/lib/codemirror.js"></script>
-    <script src="../external/codemirror/addon/active-line.js"></script>
-    <script src="../external/codemirror/addon/lint/jshint.js"></script>
-    <script src="../external/codemirror/addon/lint/lint.js"></script>
-    <script src="../external/codemirror/addon/lint/javascript-lint.js"></script>
-    <script src="../external/codemirror/mode/javascript/javascript.js"></script>
+    <!-- Load Monaco Editor CSS -->
+    <link rel="stylesheet" href="../external/monaco-editor/vs/editor/editor.main.css">
+    
+    <!-- Load Monaco Editor with complete AMD isolation -->
+    <script>
+        // Create a completely isolated context for Monaco
+        (function() {
+            // Save any existing AMD globals
+            var savedRequire = window.require;
+            var savedDefine = window.define;
+            var savedRequireJS = window.requirejs;
+            
+            // Clear AMD globals completely
+            delete window.require;
+            delete window.define;
+            delete window.requirejs;
+            
+            // Load Monaco's loader in isolation
+            var script = document.createElement('script');
+            script.src = '../external/monaco-editor/vs/loader.js';
+            script.onload = function() {
+                // Configure Monaco's require
+                require.config({ 
+                    paths: { 'vs': '../external/monaco-editor/vs' },
+                    // Use a unique context to avoid conflicts
+                    context: 'monaco-isolated'
+                });
+                
+                // Load Monaco Editor
+                require(['vs/editor/editor.main'], function() {
+                    // Make Monaco globally available
+                    window.monaco = monaco;
+                    window.monacoLoaded = true;
+                    
+                    // Completely remove Monaco's AMD system
+                    delete window.require;
+                    delete window.define;
+                    delete window.requirejs;
+                    
+                    // Restore original AMD globals for browser.maker.js
+                    if (savedRequire) window.require = savedRequire;
+                    if (savedDefine) window.define = savedDefine;
+                    if (savedRequireJS) window.requirejs = savedRequireJS;
+                    
+                    console.log('Monaco Editor loaded and AMD system restored');
+                    
+                    // Notify that Monaco is ready
+                    if (typeof CustomEvent !== 'undefined') {
+                        window.dispatchEvent(new CustomEvent('monacoReady'));
+                    }
+                });
+            };
+            document.head.appendChild(script);
+        })();
+    </script>
     <script src="../external/bezier-js/bezier.js"></script>
     <script src="../external/opentype/opentype.js"></script>
 
@@ -111,17 +157,18 @@
     </script>
  -->
 
-    <!-- comment out below for local development -->
-    <script src="../target/js/browser.maker.js"></script>
+    <!-- Use modern IIFE bundle built by Vite -->
+    <script src="../../packages/maker.js/dist/maker.iife.js"></script>
     <script>
-        var makerjs = require('makerjs');
+        // The IIFE build exposes global MakerJs; align to existing var name used by playground.
+        var makerjs = MakerJs;
     </script>
-    <!-- comment out above for local development -->
 
     <script src="js/iexport.js"></script>
     <script src="js/pointer.js"></script>
     <script src="../fonts/fonts.js"></script>
     <script src="js/fontloader.js"></script>
+    <script src="js/monaco-editor-adapter.js"></script>
     <script src="js/playground.js"></script>
     <script src="js/format-options.js"></script>
     <script>
@@ -136,7 +183,7 @@
 
     <main>
         <header class="logo">
-            <a href="http://maker.js.org/"><img src="img/m.png" /><h1>Maker.js</h1></a>
+            <a href="/"><img src="img/m.png" /><h1>Maker.js</h1></a>
 
             <div id="rendering-options-top">
                 <button onclick="MakerJsPlayground.toggleClassAndResize('collapse-rendering-options');">customize <span class="icon dropup">&#x25B4;</span><span class="icon dropdown">&#x25BE;</span></button>
@@ -462,6 +509,12 @@
                     <span>
                         JavaScript <span id="code-editor-title">code editor</span>
                     </span>
+                    <div id="models-dropdown-container">
+                        <label for="models-dropdown">Load Model:</label>
+                        <select id="models-dropdown" onchange="MakerJsPlayground.loadSelectedModel()">
+                            <option value="">-- Select a model --</option>
+                        </select>
+                    </div>
                     <div id="insert-top">
                         <button onclick="MakerJsPlayground.loadInsertPage()" title="Insert (CTRL + i)">Insert <span class="icon dropup">&#x25B4;</span><span class="icon dropdown">&#x25BE;</span></button>
                         <div id="insert-menu"></div>
@@ -492,32 +545,6 @@ this.notes = '# Welcome to the Maker.js playground \n You can edit the JavaScrip
             <span><a href="#top" onclick="document.querySelector('a[name=top]').scrollIntoView();return false;">top</a></span>
         </div>
 
-        <div class="about">
-
-            <blockquote>
-                The <b>Maker.js Playground</b> is a sample app demonstrating the features of the Maker.js core library.
-                You can build your own apps using Maker.js, or it can be used command-line style with <a href="https://nodejs.org/" target="_blank">Node.js</a>.
-            </blockquote>
-
-            <h4>Credits:</h4>
-
-            <ul>
-                <li>Bezier curve calculation by <a href="https://pomax.github.io/bezierjs/" target="_blank">Bezier.js</a></li>
-                <li>Font file parsing by <a href="http://opentype.js.org/" target="_blank">Opentype.js</a></li>
-                <li>JavaScript editor by <a href="https://codemirror.net/" target="_blank">CodeMirror</a></li>
-                <li>Markdown rendering by <a href="https://github.com/chjj/marked" target="_blank">Marked</a></li>
-                <li>3D generation by <a href="https://joostn.github.io/OpenJsCad/" target="_blank">OpenJSCAD</a></li>
-                <li>PDF generation by <a href="http://pdfkit.org/" target="_blank">PDFKit</a></li>
-                <li>Multitouch pointer events polyfill by <a href="https://github.com/jquery/PEP" target="_blank">Jquery PEP</a></li>
-                <li>Binary data polyfill by <a href="https://github.com/inexorabletash/text-encoding" target="_blank">text-encoding</a></li>
-                <li>Fonts provided by <a href="https://fonts.google.com/" target="_blank">Google Fonts</a></li>
-            </ul>
-        </div>
-
-        <footer>
-            <a href="https://github.com/Microsoft"><img src="img/microsoft.png" height="16" /> Open source, from Microsoft with love.</a> 
-            This site does not collect any personal information or use cookies. <a href="http://aka.ms/privacy">Microsoft Privacy Statement</a> ©2015-2020 Microsoft
-        </footer>
 
     </main>
 

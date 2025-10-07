@@ -1,4 +1,22 @@
-﻿namespace MakerJs.exporter {
+namespace MakerJs.exporter {
+
+    /**
+     * Attempt to delegate to ES module implementation in MakerJs.pdf if available.
+     * @private
+     */
+    function tryDelegateToEsmToPDF(doc: PDFKit.PDFDocument, modelToExport: IModel, options?: IPDFRenderOptions): boolean {
+        const anyMaker: any = MakerJs as any;
+        const esm = anyMaker && anyMaker.pdf;
+        if (esm && typeof esm.toPDF === 'function') {
+            try {
+                esm.toPDF(doc, modelToExport, options);
+                return true;
+            } catch (e) {
+                // fall back to legacy implementation
+            }
+        }
+        return false;
+    }
 
     /**
      * Injects drawing into a PDFKit document.
@@ -9,6 +27,8 @@
      * @returns String of PDF file contents.
      */
     export function toPDF(doc: PDFKit.PDFDocument, modelToExport: IModel, options?: IPDFRenderOptions) {
+        // Delegate to ES module if available
+        if (tryDelegateToEsmToPDF(doc, modelToExport, options)) return;
         if (!modelToExport) return;
 
         //fixup options

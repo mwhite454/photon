@@ -1,15 +1,18 @@
-﻿namespace MakerJsPlayground {
+import { IFont } from './iexport.js';
 
-    interface IFontLoad {
-        paramIndexes: number[];
-        font?: opentype.Font;
-    }
+// Internal interface for font loading state
+interface IFontLoad {
+    paramIndexes: number[];
+    font?: opentype.Font;
+}
 
-    interface IFontMap {
-        [fontId: string]: IFontLoad;
-    }
+// Font map type
+interface IFontMap {
+    [fontId: string]: IFontLoad;
+}
 
-    export class FontLoader {
+// FontLoader class for managing font loading
+export class FontLoader {
 
         private fontParameters: IFontMap = {};
         private fontRefs = 0;
@@ -74,8 +77,8 @@
         }
 
         private findFirstFontIdMatching(spec: string) {
-            for (var fontId in playgroundFonts) {
-                var font = playgroundFonts[fontId];
+            for (const fontId in playgroundFonts) {
+                const font = playgroundFonts[fontId];
                 if (FontLoader.fontMatches(font, spec)) return fontId;
             }
             return null;
@@ -89,8 +92,8 @@
 
                 this.paramValuesCopy = this.paramValues.slice(0);
 
-                for (var spec in this.fontParameters) {
-                    var firstFont = this.findFirstFontIdMatching(spec);
+                for (const spec in this.fontParameters) {
+                    const firstFont = this.findFirstFontIdMatching(spec);
 
                     //substitute font ids with fonts
                     this.fontParameters[spec].paramIndexes.forEach(index => this.paramValuesCopy[index] = firstFont);
@@ -108,7 +111,7 @@
 
                 this.paramValuesCopy = this.paramValues.slice(0);
 
-                for (var fontId in this.fontParameters) {
+                for (const fontId in this.fontParameters) {
                     this.loadFont(fontId);
                 }
             }
@@ -138,4 +141,3 @@
         }
 
     }
-}

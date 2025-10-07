@@ -2,18 +2,30 @@
   "name": "makerjs",
   "version": "0.18.1",
   "description": "Maker.js, a Microsoft Garage project, is a JavaScript library for creating and sharing modular line drawings for CNC and laser cutters.",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "type": "module",
+  "main": "dist/maker.umd.js",
+  "module": "dist/maker.es.js",
+  "types": "dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/types/index.d.ts",
+      "import": "./dist/maker.es.js",
+      "require": "./dist/maker.umd.js",
+      "default": "./dist/maker.umd.js"
+    },
+    "./dist/*": "./dist/*"
+  },
   "scripts": {
-    "build-jscad-csg": "browserify -p licensify -r @jscad/csg -o external/jscad/csg.js",
-    "build-jscad-stl": "browserify -p licensify -r @jscad/stl-serializer --ignore @jscad/csg -o external/jscad/stl-serializer.js",
     "build-debug": "tsc",
     "build-model-schema": "typescript-json-schema \"src/core/schema.ts\" MakerJs.IModel > schemas/makerjs-model.json",
     "build-schemas": "npm run build-model-schema",
     "project": "typedoc ./src --json ./dist/project.json",
     "gen-cascades": "npm run project && node ./target/cascadable.js > ./src/core/cascades.ts",
     "prebuild": "npm run gen-cascades",
-    "build": "tsc -p target && node ./target/build.js",
+    "build": "npm run build:types && npm run build:lib",
+    "build:types": "tsc -p target/tsconfig.esm.json",
+    "build:lib": "vite build",
+    "dev:lib": "vite",
     "test": "mocha --timeout 15000",
     "prepublish": "node ./target/prepublish.js"
   },
@@ -113,8 +125,6 @@
   "files": [
     "LICENSE",
     "README.md",
-    "dist/browser.maker.js",
-    "dist/index.d.ts",
-    "dist/index.js"
+    "dist/"
   ]
 }

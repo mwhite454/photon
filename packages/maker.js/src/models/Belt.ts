@@ -1,37 +1,38 @@
-namespace MakerJs.models {
+import { IModel, IPathMap } from '../core/schema.js';
+import type { IKit } from '../core/maker.js';
+import * as point from '../core/point.js';
+import * as paths from '../core/paths.js';
+import * as solvers from '../core/solvers.js';
 
-    export class Belt implements IModel {
+export class Belt implements IModel {
+    public paths: IPathMap = {};
 
-        public paths: IPathMap = {};
+    constructor(leftRadius: number, distance: number, rightRadius: number) {
+        const left = new paths.Arc([0, 0], leftRadius, 0, 360);
+        const right = new paths.Arc([distance, 0], rightRadius, 0, 360);
+        const angles = solvers.circleTangentAngles(left, right);
 
-        constructor(leftRadius: number, distance: number, rightRadius: number) {
-            var left = new paths.Arc([0, 0], leftRadius, 0, 360);
-            var right = new paths.Arc([distance, 0], rightRadius, 0, 360);
-            var angles = solvers.circleTangentAngles(left, right);
+        if (!angles) {
+            this.paths["Belt"] = new paths.Circle(Math.max(leftRadius, rightRadius));
+        } else {
+            angles.sort((a, b) => a - b);
 
-            if (!angles) {
-                this.paths["Belt"] = new paths.Circle(Math.max(leftRadius, rightRadius));
-            } else {
+            left.startAngle = angles[0];
+            left.endAngle = angles[1];
 
-                angles = angles.sort((a, b) => a - b);
+            right.startAngle = angles[1];
+            right.endAngle = angles[0];
 
-                left.startAngle = angles[0];
-                left.endAngle = angles[1];
-
-                right.startAngle = angles[1];
-                right.endAngle = angles[0];
-
-                this.paths["Left"] = left;
-                this.paths["Right"] = right;
-                this.paths["Top"] = new paths.Line(point.fromAngleOnCircle(angles[0], left), point.fromAngleOnCircle(angles[0], right));
-                this.paths["Bottom"] = new paths.Line(point.fromAngleOnCircle(angles[1], left), point.fromAngleOnCircle(angles[1], right));
-            }
+            this.paths["Left"] = left;
+            this.paths["Right"] = right;
+            this.paths["Top"] = new paths.Line(point.fromAngleOnCircle(angles[0], left), point.fromAngleOnCircle(angles[0], right));
+            this.paths["Bottom"] = new paths.Line(point.fromAngleOnCircle(angles[1], left), point.fromAngleOnCircle(angles[1], right));
         }
     }
-
-    (<IKit>Belt).metaParameters = [
-        { title: "left radius", type: "range", min: 0, max: 100, value: 30 },
-        { title: "distance between centers", type: "range", min: 0, max: 100, value: 50 },
-        { title: "right radius", type: "range", min: 0, max: 100, value: 15 }
-    ];
 }
+
+(Belt as any as IKit).metaParameters = [
+    { title: "left radius", type: "range", min: 0, max: 100, value: 30 },
+    { title: "distance between centers", type: "range", min: 0, max: 100, value: 50 },
+    { title: "right radius", type: "range", min: 0, max: 100, value: 15 }
+];

@@ -21,9 +21,8 @@ var Pointer;
         }
         return [x / all.length, y / all.length];
     }
-    var Manager = /** @class */ (function () {
-        function Manager(view, pointersSelector, margin, getZoom, setZoom, onClick, onReset) {
-            var _this = this;
+    class Manager {
+        constructor(view, pointersSelector, margin, getZoom, setZoom, onClick, onReset) {
             this.view = view;
             this.pointersSelector = pointersSelector;
             this.margin = margin;
@@ -35,20 +34,20 @@ var Pointer;
             this.previousAveragePointFromCanvas = null;
             this.wheelTimeout = 250;
             this.down = {};
-            view.addEventListener('wheel', function (e) { _this.viewWheel(e); });
-            view.addEventListener('pointerdown', function (e) { _this.viewPointerDown(e); });
-            view.addEventListener('pointermove', function (e) { _this.viewPointerMove(e); });
-            view.addEventListener('pointerup', function (e) { _this.viewPointerUp(e); });
+            view.addEventListener('wheel', (e) => { this.viewWheel(e); });
+            view.addEventListener('pointerdown', (e) => { this.viewPointerDown(e); });
+            view.addEventListener('pointermove', (e) => { this.viewPointerMove(e); });
+            view.addEventListener('pointerup', (e) => { this.viewPointerUp(e); });
             //listen to touchend on entire document since we do not always get a pointerup event, as when pointer is released outside of view
-            document.addEventListener('touchend', function (e) {
+            document.addEventListener('touchend', (e) => {
                 if (e.touches.length)
                     return;
-                _this.reset();
+                this.reset();
             });
-            document.addEventListener('mouseup', function (e) { _this.reset(); });
-            document.addEventListener('MSPointerUp', function (e) { _this.reset(); });
+            document.addEventListener('mouseup', (e) => { this.reset(); });
+            document.addEventListener('MSPointerUp', (e) => { this.reset(); });
         }
-        Manager.prototype.getPointRelative = function (ev) {
+        getPointRelative(ev) {
             var p = makerjs.point;
             var panZoom = this.getZoom();
             var fromCanvas = p.subtract([ev.pageX, ev.pageY], Pointer.pageOffset(this.view));
@@ -60,28 +59,28 @@ var Pointer;
                 fromDrawingOrigin: fromDrawingOrigin,
                 panZoom: panZoom
             };
-        };
-        Manager.prototype.reset = function () {
+        }
+        reset() {
             document.body.classList.remove('pointing');
             this.erase();
             this.down = {};
             this.count = 0;
             this.onReset();
-        };
-        Manager.prototype.asArray = function () {
+        }
+        asArray() {
             var result = [];
             for (var id in this.down) {
                 result.push(this.down[id]);
             }
             return result;
-        };
-        Manager.prototype.erase = function () {
+        }
+        erase() {
             var oldNode = document.querySelector(this.pointersSelector);
             var domPointers = oldNode.cloneNode(false);
             oldNode.parentNode.replaceChild(domPointers, oldNode);
             return domPointers;
-        };
-        Manager.prototype.drawPointer = function (ns, point, id, isCrossHair) {
+        }
+        drawPointer(ns, point, id, isCrossHair) {
             function createElement(tagName, attrs) {
                 var el = document.createElementNS(ns, tagName);
                 for (var attrName in attrs) {
@@ -119,8 +118,8 @@ var Pointer;
                 g.appendChild(c);
             }
             return g;
-        };
-        Manager.prototype.draw = function (pointers) {
+        }
+        draw(pointers) {
             //erase all pointers
             var domPointers = this.erase();
             var ns = domPointers.getAttribute('xmlns');
@@ -132,15 +131,15 @@ var Pointer;
                 domPointers.appendChild(this.drawPointer(ns, this.previousAveragePointFromCanvas, 'pointer' + i, true));
             }
             document.body.classList.add('pointing');
-        };
-        Manager.prototype.isWithinMargin = function (p) {
+        }
+        isWithinMargin(p) {
             if (!makerjs.measure.isBetween(p.fromCanvas[0], this.margin[0], this.view.offsetWidth - this.margin[0], false))
                 return false;
             if (!makerjs.measure.isBetween(p.fromCanvas[1], this.margin[1], this.view.offsetHeight - this.margin[1], false))
                 return false;
             return true;
-        };
-        Manager.prototype.viewPointerDown = function (e) {
+        }
+        viewPointerDown(e) {
             clearTimeout(this.wheelTimer);
             var pointRelative = this.getPointRelative(e);
             if (!this.isWithinMargin(pointRelative))
@@ -174,8 +173,8 @@ var Pointer;
                     this.erase();
                     break;
             }
-        };
-        Manager.prototype.viewPointerMove = function (e) {
+        }
+        viewPointerMove(e) {
             var pointer = this.down[e.pointerId];
             if (!pointer)
                 return;
@@ -210,8 +209,8 @@ var Pointer;
             }
             panZoom.pan = p.add(panZoom.pan, panDelta);
             this.setZoom(panZoom);
-        };
-        Manager.prototype.viewPointerUp = function (e) {
+        }
+        viewPointerUp(e) {
             clearTimeout(this.wheelTimer);
             var pointer = this.down[e.pointerId];
             if (pointer) {
@@ -232,8 +231,8 @@ var Pointer;
                     this.draw(this.asArray());
                 }
             }
-        };
-        Manager.prototype.scaleCenterPoint = function (panZoom, newZoom, centerPointFromDrawingOrigin) {
+        }
+        scaleCenterPoint(panZoom, newZoom, centerPointFromDrawingOrigin) {
             var p = makerjs.point;
             var previousZoom = panZoom.zoom;
             var zoomDiff = newZoom / previousZoom;
@@ -242,9 +241,8 @@ var Pointer;
             var centerPointDiff = p.subtract(previousScaledCenter, currentScaledCenter);
             panZoom.zoom = newZoom;
             panZoom.pan = p.add(panZoom.pan, centerPointDiff);
-        };
-        Manager.prototype.viewWheel = function (e) {
-            var _this = this;
+        }
+        viewWheel(e) {
             this.isClick = false;
             var pointRelative = this.getPointRelative(e);
             if (!this.isWithinMargin(pointRelative))
@@ -264,12 +262,11 @@ var Pointer;
             this.setZoom(pointRelative.panZoom);
             this.draw([pointer]);
             clearTimeout(this.wheelTimer);
-            this.wheelTimer = setTimeout(function () {
-                _this.erase();
+            this.wheelTimer = setTimeout(() => {
+                this.erase();
             }, this.wheelTimeout);
-        };
-        return Manager;
-    }());
+        }
+    }
     Pointer.Manager = Manager;
     // Find out where an element is on the page
     // From http://www.quirksmode.org/js/findpos.html

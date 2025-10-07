@@ -1,11 +1,13 @@
-
 /// <reference path="monaco-editor-adapter.ts" />
 
-namespace MakerJsPlayground {
+import { FontLoader } from './fontloader.js';
+import { ExportFormat, IExportRequest, IExportResponse, formatMap, IJavaScriptErrorDetails } from './iexport.js';
+import { IRenderRequest, IRenderResponse } from './irender.js';
+import * as FormatOptions from './format-options.js';
+import { Pointer } from './pointer.js';
 
-    //classes
-
-    class QueryStringParams {
+// QueryStringParams class for parsing URL parameters
+class QueryStringParams {
 
         constructor(querystring: string = document.location.search.substring(1)) {
             if (querystring) {
@@ -18,36 +20,28 @@ namespace MakerJsPlayground {
         }
     }
 
-    //interfaces
+// Internal interfaces
+interface ILockedPath {
+    route: string[];
+    notes: string;
+}
 
-    interface ILockedPath {
-        route: string[];
-        notes: string;
-    }
+interface IProcessedResult {
+    html: string;
+    kit: any;
+    model: any;
+    measurement: any;
+    paramValues: any[],
+    lockedPath?: ILockedPath;
+    error?: string;
+}
 
-    interface IProcessedResult {
-        html: string;
-        kit: MakerJs.IKit;
-        model: MakerJs.IModel;
-        measurement: MakerJs.IMeasure;
-        paramValues: any[],
-        lockedPath?: ILockedPath;
-        error?: string;
-    }
+interface RuntimeError {
+    stack: string;
+}
 
-    interface RuntimeError {
-        stack: string;
-    }
-
-    export interface IJavaScriptErrorDetails {
-        colno: number;
-        lineno: number;
-        message: string;
-        name: string;
-    }
-
-    //private members
-    var minDockSideBySide = 1024;
+// Module-level variables (private)
+let minDockSideBySide = 1024;
     var pixelsPerInch = 100;
     var iframe: HTMLIFrameElement;
     var customizeMenu: HTMLDivElement;
@@ -814,7 +808,7 @@ namespace MakerJsPlayground {
         };
 
         fontLoader.failureCb = function (id) {
-            var errorDetails: MakerJsPlayground.IJavaScriptErrorDetails = {
+            var errorDetails: IJavaScriptErrorDetails = {
                 colno: 0,
                 lineno: 0,
                 message: 'error loading font ' + fontLoader.baseUrl + playgroundFonts[id].path,
@@ -843,7 +837,7 @@ namespace MakerJsPlayground {
         } catch (e) {
             var error = e as RuntimeError;
 
-            var errorDetails: MakerJsPlayground.IJavaScriptErrorDetails = {
+            var errorDetails: IJavaScriptErrorDetails = {
                 colno: 0,
                 lineno: 0,
                 message: 'Parameters=' + JSON.stringify(processed.paramValues),
@@ -874,7 +868,7 @@ namespace MakerJsPlayground {
 
         renderInWorker.worker = new Worker('js/worker/render-worker.js');
         renderInWorker.worker.onmessage = function (ev: MessageEvent) {
-            var response = ev.data as MakerJsPlaygroundRender.IRenderResponse;
+            var response = ev.data as IRenderResponse;
             if (response.error) {
                 errorHandler();
             } else {
@@ -890,7 +884,7 @@ namespace MakerJsPlayground {
             idToUrlMap[orderedDependencies[i]] = '../../' + filenameFromRequireId(orderedDependencies[i], true);
         }
 
-        var options: MakerJsPlaygroundRender.IRenderRequest = {
+        var options: IRenderRequest = {
             fontDir: '../../' + fontDir,
             requestId: 0,
             javaScript: javaScript,
@@ -908,7 +902,7 @@ namespace MakerJsPlayground {
         if (!renderInWorker.hasKit) return;
 
         renderInWorker.worker.onmessage = function (ev: MessageEvent) {
-            var response = ev.data as MakerJsPlaygroundRender.IRenderResponse;
+            var response = ev.data as IRenderResponse;
             if (response.requestId == renderInWorker.requestId) {
 
                 if (response.error) {
@@ -922,7 +916,7 @@ namespace MakerJsPlayground {
 
         renderInWorker.requestId = new Date().valueOf();
 
-        var options: MakerJsPlaygroundRender.IRenderRequest = {
+        var options: IRenderRequest = {
             fontDir: '../../' + fontDir,
             requestId: renderInWorker.requestId,
             paramValues: processed.paramValues
@@ -1474,7 +1468,7 @@ namespace MakerJsPlayground {
         var timeout = setTimeout(function () {
             x.onreadystatechange = null;
 
-            var errorDetails: MakerJsPlayground.IJavaScriptErrorDetails = {
+            var errorDetails: IJavaScriptErrorDetails = {
                 colno: 0,
                 lineno: 0,
                 message: 'Could not load script "' + url + '". Possibly a network error, or the file does not exist.',
@@ -1517,7 +1511,7 @@ namespace MakerJsPlayground {
     }
 
     function getExport(ev: MessageEvent) {
-        var response = ev.data as MakerJsPlaygroundExport.IExportResponse;
+        var response = ev.data as IExportResponse;
 
         progress.style.width = response.percentComplete + '%';
 
@@ -1531,7 +1525,7 @@ namespace MakerJsPlayground {
         }
     }
 
-    function setExportText(format: MakerJsPlaygroundExport.ExportFormat, title: string, text: string, error: string) {
+    function setExportText(format: ExportFormat, title: string, text: string, error: string) {
         if (error) {
             downloadError.innerText = error;
 
@@ -1542,7 +1536,7 @@ namespace MakerJsPlayground {
             return;
         }
 
-        var fe = MakerJsPlaygroundExport.formatMap[format];
+        var fe = formatMap[format];
 
         var encoded = encodeURIComponent(text);
         var uriPrefix = 'data:' + fe.mediaType + ',';
@@ -1563,7 +1557,7 @@ namespace MakerJsPlayground {
         toggleClass('download-ready');
     }
 
-    export function downloadClick(a: HTMLAnchorElement, format: MakerJsPlaygroundExport.ExportFormat) {
+    export function downloadClick(a: HTMLAnchorElement, format: ExportFormat) {
         //show options
         FormatOptions.activateOption(format, a.innerText, processed.model);
         toggleClass('download-options');
@@ -1571,12 +1565,12 @@ namespace MakerJsPlayground {
 
     export function getFormatOptions() {
 
-        var formatOption = MakerJsPlayground.FormatOptions.current;
+        var formatOption = FormatOptions.current;
         if (!formatOption) {
             return;
         }
 
-        var request: MakerJsPlaygroundExport.IExportRequest = {
+        var request: IExportRequest = {
             format: formatOption.format,
             formatTitle: formatOption.formatTitle,
             model: processed.model,
@@ -1597,29 +1591,29 @@ namespace MakerJsPlayground {
         }
     }
 
-    function exportOnUIThread(request: MakerJsPlaygroundExport.IExportRequest) {
+    function exportOnUIThread(request: IExportRequest) {
         var text: string;
         var error: string;
 
         try {
             switch (request.format) {
-                case MakerJsPlaygroundExport.ExportFormat.Dxf:
+                case ExportFormat.Dxf:
                     text = makerjs.exporter.toDXF(processed.model, request.options);
                     break;
 
-                case MakerJsPlaygroundExport.ExportFormat.Json:
+                case ExportFormat.Json:
                     text = JSON.stringify(processed.model, null, 2);
                     break;
 
-                case MakerJsPlaygroundExport.ExportFormat.OpenJsCad:
+                case ExportFormat.OpenJsCad:
                     text = makerjs.exporter.toJscadScript(processed.model, request.options);
                     break;
 
-                case MakerJsPlaygroundExport.ExportFormat.Svg:
+                case ExportFormat.Svg:
                     text = makerjs.exporter.toSVG(processed.model, request.options);
                     break;
 
-                case MakerJsPlaygroundExport.ExportFormat.SvgPathData:
+                case ExportFormat.SvgPathData:
                     text = makerjs.exporter.toSVGPathData(processed.model, request.options) as string;
                     break;
 
@@ -1634,7 +1628,7 @@ namespace MakerJsPlayground {
         return true;
     }
 
-    function exportOnWorkerThread(request: MakerJsPlaygroundExport.IExportRequest) {
+    function exportOnWorkerThread(request: IExportRequest) {
 
         //initialize a worker - this will download scripts into the worker
         if (!exportWorker) {
@@ -1907,4 +1901,14 @@ namespace MakerJsPlayground {
         tryInitialize();
     };
 
-}
+// Export functions that need to be accessible globally
+(window as any).MakerJsPlayground = {
+    processResult,
+    filenameFromRequireId,
+    codeMirrorEditor,
+    setParam,
+    activateParam,
+    deActivateParam,
+    isSmallDevice,
+    mainThreadConstructor: null // Will be set by require-iframe
+};

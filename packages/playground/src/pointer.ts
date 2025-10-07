@@ -1,6 +1,5 @@
-﻿declare var makerjs: typeof MakerJs;
-
-module Pointer {
+// Pointer module for handling touch/mouse interactions
+export module Pointer {
     export var wheelZoomDelta = 0.1;
     export var clickDistance = 2;
 

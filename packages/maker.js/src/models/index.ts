@@ -17,8 +17,7 @@ export { Dogbone } from './Dogbone.js';
 export { Belt } from './Belt.js';
 export { OvalArc } from './OvalArc.js';
 
-// TODO: Export remaining complex models (depend on BezierCurve, etc.)
-// export { BezierCurve } from './BezierCurve.js';
-// export { Ellipse } from './Ellipse.js';
-// export { EllipticArc } from './Ellipse.js';
-// export { Text } from './Text.js';
+// Complex models with external dependencies
+export { BezierCurve, BezierSeed } from './BezierCurve-esm.js';
+export { Ellipse, EllipticArc } from './Ellipse.js';
+export { Text } from './Text.js';

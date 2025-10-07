@@ -6,7 +6,7 @@
 - [x] Configure TypeScript for ES modules (ES2020, outDir: dist/esm)
 - [x] Set up build scripts (build:lib in maker.js package)
 - [x] Vite entry points to src/index.ts
-- [x] Modern bundles building: maker.es.js, maker.umd.js, maker.iife.js
+- [x] Modern ESM bundle building: maker.es.js (tree-shakable, no legacy CommonJS/UMD artifacts)
 
 ## Phase 2: Core Module Conversion (IN PROGRESS)
 
@@ -25,12 +25,12 @@
   - BoltCircle, BoltRectangle, RoundRectangle, Oval, Slot, SCurve, Dogbone, Belt, OvalArc
 - [x] **model.ts** → ✅ FULLY converted to ES module (643 lines) - Model manipulation and traversal
 - [x] **src/index.ts** → Exports schema, maker, angle, point, path, paths, units, models, equal, collect, model
-- [x] **Vite builds** → ✅ Successfully generating ES/UMD/IIFE bundles (75.56 kB ES)
+- [x] **Vite builds** → ✅ Generating modern ESM bundle (`maker.es.js`) with sourcemaps; legacy bundle targets removed
 - [x] **Git commits** → Progress tracked in git history
 
 ### 📊 Current Build Status (Updated 2025-10-06)
-- **ESM pipeline**: ✅ Working (incremental scope)
-- **Bundles**: ✅ Building successfully in prior scope (**107.41 kB ES**, 115.29 kB UMD, 115.02 kB IIFE)
+- **ESM pipeline**: ✅ Working (tree-shakable distribution targeting modern bundlers)
+- **Legacy bundles**: 🚫 Retired (Browserify/UMD/IIFE outputs removed from modernization scope)
 - **Converted modules**:
   - Core: schema, maker, point (199), angle (143), path (415), paths (393), units (65), equal (243), collect, **model (643)** ✅, solvers (96), **measure (928)** ✅, kit (40), xml (122), **exporter (94)** ✅, **importer (28)** ✅
   - Serialization helpers: **svg-helpers.ts** ✅ (ES module with `pathToSVGPathData`, `chainToSVGPathData`)
@@ -224,7 +224,7 @@ export * from './core/path.js';
 - Built-in TypeScript support
 - Great dev experience
 - Tree-shaking out of the box
-- Multiple output formats (ESM, UMD, IIFE)
+- Optimized ES module library builds (native tree-shaking)
 
 ### 3.2 New Build Scripts
 ```json
@@ -348,7 +348,7 @@ npm install -D typescript@^5.3.0
 
 ### 6.3 Build Validation
 - Verify ESM output works in modern browsers
-- Verify UMD output works for legacy compatibility
+- Verify ESM bundle loads in Node (native ESM) and browser module scripts
 - Check bundle sizes
 
 ## Migration Steps (Recommended Order)
@@ -433,7 +433,7 @@ Start with one file to test the pattern:
 3. ✅ Core module conversion - 70% complete (Phase 2)
    - 17/20 model classes converted
    - Core utilities: point, angle, path, paths, units, equal, collect, model
-   - ES/UMD/IIFE bundles building successfully
+   - ESM bundle building successfully
 
 ### 🔄 In Progress
 
@@ -476,20 +476,21 @@ Start with one file to test the pattern:
 4. **svg-helpers.ts** - New ES module with `pathToSVGPathData` and `chainToSVGPathData`
 5. **svg-esm.ts** - New ES module exposing `toSVGPathData` built on helpers and `chain.findChains`
 6. **src/index.ts** - Re-exports `export * as svg from './core/svg-esm.js'`
-7. **svg.ts bridge** - Added delegation helpers (`tryDelegateToEsmToSVGPathData`, `tryDelegateToEsmToSVG`) so legacy namespace uses ESM when available; maintains backwards compatibility.
-7. **tsconfig updates** - Included `src/core/svg-helpers.ts` and `src/core/svg-esm.ts` in both debug and ESM builds
+7. **svg.ts deprecation** - Identified remaining namespace bridge slated for removal once ESM parity tests pass (no backward compatibility requirement)
+8. **tsconfig updates** - Included `src/core/svg-helpers.ts` and `src/core/svg-esm.ts` in both debug and ESM builds
 
 ### 📈 Build Progress
 
 ### 🔍 Remaining High-Priority Modules
-  1. ~~**fillet.ts** - Filleting operations~~
-     - ✅ Migrated via new ES modules: `fillet-core.ts`, `fillet-path.ts`, `fillet-chain.ts`
-     - ✅ Exported from `src/index.ts` as `fillet` and `filletChain`
-     - ✅ Added UMD smoke test `packages/maker.js/test/fillet.spec.js`
-     - ✅ Updated `packages/maker.js/tsconfig.json` to include new files and exclude legacy `core/fillet.ts`
-  2. **Serialization modules**: dxf.ts, svg.ts (Phase 2 delegation added), pdf.ts, openjscad.ts
-     - Added UMD exposure bridge: `exporter-index.ts` re-exports `toSVG` and `toSVGPathData` from `core/svg-esm.ts` so UMD global exposes `maker.exporter.toSVG` alongside `maker.svg.toSVG`.
-  3. **Layout modules**: layout.ts, deadend.ts, cascades.ts
+
+- **Fillet APIs**
+  - ✅ Migrated via new ES modules: `fillet-core.ts`, `fillet-path.ts`, `fillet-chain.ts`
+  - ✅ Exported from `src/index.ts` as `fillet` and `filletChain`
+  - ✅ Updated `packages/maker.js/tsconfig.json` to include new files and exclude legacy `core/fillet.ts`
+  - 🔄 Pending: finalize parity tests that exercise ESM-only entry point (`dist/maker.es.js`)
+- **Serialization modules**: `dxf.ts`, `svg.ts` (Phase 2 delegation added), `pdf.ts`, `openjscad.ts`
+  - 🔄 Goal: complete native ES module implementations and delete temporary delegation helpers once parity verified
+- **Layout modules**: `layout.ts`, `deadend.ts`, `cascades.ts`
 
 
 ### 🧭 Proposed Plan: Serialization & Layout Migration
@@ -502,8 +503,8 @@ Start with one file to test the pattern:
   - **DXF (`core/dxf.ts`)**: Export `toDXF(...)`. Use `unitType`, `colors`, `round`, `point`, `angle`. Keep `outputDocument(...)` internal. Options via `IExportOptions` + `IPointMatchOptions`.
   - **SVG (`core/svg.ts`)**:
     - Phase 1 (done): Extract path/chain generation into `core/svg-helpers.ts` (ES module) and implement `core/svg-esm.ts` with `toSVGPathData(...)` that consumes helpers and `chain.findChains`.
-    - Phase 2 (in progress): Added safe delegation in legacy `core/svg.ts` so `toSVGPathData(...)` and `toSVG(...)` (path-only) forward to ESM `svg-esm.ts` when available. Fallback remains legacy implementation. Next, add parity tests for sample models to validate outputs.
-    - Phase 3 (next): Convert remaining legacy-only SVG rendering (non-path elements, annotations) and importer `fromSVGPathData(...)` into ES modules; remove namespace wrapper once parity is confirmed.
+    - Phase 2 (current): Stand up parity tests directly against `core/svg-esm.ts`; remove temporary delegation once tests confirm coverage for path-only consumers.
+    - Phase 3 (next): Convert remaining legacy-only SVG rendering (non-path elements, annotations) and importer `fromSVGPathData(...)` into ES modules; delete namespace wrapper once parity is confirmed.
   - **PDF (`core/pdf.ts`)**: Export `toPDF(doc, model, options)`. Use `measure.modelExtents`, `chainToSVGPathData`/`pathToSVGPathData` for stroking, and caption rendering. Types via `@types/pdfkit`.
   - **OpenJsCad (`core/openjscad.ts`)**: Export `toJscadCAG`, `toJscadCSG`, `toJscadScript`, `toJscadSTL`. Preserve options (`byLayers`, `pointMatchingDistance`, `maxArcFacet`, `layerOptions`, `statusCallback`). Keep conversion helpers internal.
   - **API stability**: Preserve function names and parameter shapes; re-export via `src/index.ts` under `exporter`.
@@ -530,31 +531,23 @@ Start with one file to test the pattern:
 -- **[execution checklist]**
   1) Finish `core/dxf.ts` ES conversion and verify with a DXF sample.
   2) `core/svg.ts`:
-     - [x] Phase 2 delegation: bridge legacy `toSVGPathData`/`toSVG` to ESM versions when present.
      - [ ] Add parity unit tests for `toSVGPathData()` against `svg-esm.ts` over lines, arcs, circles, beziers, nested layers.
      - [ ] Phase 3: convert non-path rendering and importer; remove namespace wrapper.
-  2a) UMD bundle smoke check:
-     - [x] Expose `toSVG`/`toSVGPathData` via `maker.exporter` in UMD by adding `src/core/exporter-index.ts` and updating `src/index.ts` to export from it.
-     - [x] Add `packages/maker.js/test/umd-svg.spec.js` to validate `MakerJs.svg.toSVG` and `MakerJs.exporter.toSVG` both render SVG from `dist/maker.umd.js`.
-     - [x] Run `npm run build:lib` then `npx mocha packages/maker.js/test/umd-svg.spec.js` and record results.
-       - Result: PASS. Initial runtime error (`paths is not defined`) traced to `core/path.ts` using legacy global; fixed by importing `paths` as ES module. Also injected `require` into VM sandbox for UMD externals.
-       - Vite warnings observed: `BezierCurve` not exported by `src/models/index.ts` (used by `core/measure.ts`); `findChains` not exported by `src/core/model.ts` (used by `core/dxf.ts`).
 
-  2b) Parity and round-trip tests:
+  2a) Parity and round-trip tests:
      - [x] Added `packages/maker.js/test/svg-pathdata.spec.js` covering `svg.toSVGPathData()` basics (byLayers, primitives) and `svg.fromSVGPathData()` -> `toSVGPathData()` round-trips for simple commands.
      - [ ] Expand parity to cover arcs, circles, beziers, nested layers, nonzero fill rule, scalingStroke, and caption layers.
      - [ ] Add round-trips for Q, C, S, T with Bezier approximations and elliptic arc decomposition.
 
   Notes / Findings:
-  - Fixed UMD runtime by ES-importing `paths` in `core/path.ts`; defer importing `model/measure/chain/models` until types are aligned to avoid TS errors.
-  - Ensure tests that require `../dist/index.js` run by executing package `npm run build` (legacy CJS) in addition to `vite build`.
+  - Removed reliance on UMD runtime by focusing on ESM entry point; ensure tests execute against `dist/maker.es.js` only.
   - Track Vite warnings and expose missing exports:
     - TODO: export `BezierCurve` from `src/models/index.ts`.
     - TODO: export `findChains` from `src/core/model.ts` or refactor `core/dxf.ts` to import from `core/chain.ts`.
   3) Convert `core/pdf.ts` and sanity-check a simple page render (circle, line, caption).
   4) Convert `core/openjscad.ts` and validate CAG/CSG/Script/STL flows.
   5) Convert `core/layout.ts` and test all clone helpers; keep `cascades.ts` generated.
-  6) Re-run `npm run build:lib` and `mocha` smoke tests; update plan status.
+  6) Re-run `pnpm run build:lib` (Vite ESM output) and targeted ESM parity tests; update plan status.
 
 
 ### 🛠️ Fillet ES6 Migration: Test-First Modular Plan (Updated 2025-10-06)
@@ -563,7 +556,7 @@ To avoid repeated breakage from direct conversion, we will migrate `fillet` via 
 #### Goals
 - **Stability-first**: Keep legacy API working during migration.
 - **Small, pure helpers**: Minimal deps, easy to test.
-- **UMD smoke test**: Validate public surface via `maker.umd.js`.
+- **ESM smoke test**: Validate public surface via  in Node and browser module scripts.maker.umd.js`.
 
 #### Steps
 - **Revert legacy file**: Reset `packages/maker.js/src/core/fillet.ts` to the last committed state to remove duplicate/strict-mode issues.
@@ -582,26 +575,28 @@ To avoid repeated breakage from direct conversion, we will migrate `fillet` via 
 - **Exports**: Update `packages/maker.js/src/index.ts`
   - `export * as fillet from './core/fillet-path.js'`
   - `export * as filletChain from './core/fillet-chain.js'`
+- **Entry points**: Downstream modules should import via the ESM surface (`import { fillet, filletChain } from 'maker.js/dist/maker.es.js'`) or the namespace re-exports in the UMD bundle (`window.makerjs.fillet`). Remove references to `MakerJs.fillet.pathFillet` once parity tests finish.
 - **Smoke test**: `packages/maker.js/test/fillet.spec.js`
   - Build with `vite build`.
-  - Load `../dist/maker.umd.js` and exercise `maker.fillet.pathFillet()` and `maker.filletChain.chainFillet()` on simple inputs.
+  - Import from `dist/maker.es.js` and exercise `fillet.pathFillet()` and `filletChain.chainFillet()` on simple inputs under Node (ESM) and browser module scripts.
   - Assert arc created with positive radius and inputs clipped appropriately.
 - **Build & test**: Run `npm run build:lib` then `npm test` in `packages/maker.js`.
 
 #### Rationale
 - **No risky edits** to the legacy file until new code passes smoke tests.
 - **Smaller modules** reduce surface area for strict mode and duplicate identifier issues.
-- **UMD validation** ensures backwards-compatible distribution works.
+- **ESM validation** ensures the ESM distribution works across Node (native import) and browser module environments.
 
 #### Acceptance Criteria
 - New modules compile and export from `src/index.ts`.
-- `vite build` succeeds and produces `maker.umd.js` including `fillet` and `filletChain` namespaces.
+- `vite build` emits `dist/maker.es.js` including `fillet` and `filletChain` namespaces exported from the ESM bundle.
 - `mocha` smoke test loads `maker.umd.js` and passes basic fillet/dogbone scenarios.
 
 #### Risks & Mitigations
 - **Circular deps (chain ↔ fillet)**: Use `any` for chain in the interim; tighten types once migration is stable.
 - **Model references (BezierCurve)**: Avoid adding model deps in fillet modules until model conversions are complete.
 - **Legacy API drift**: Keep signatures aligned and verify via UMD smoke tests.
+- **Typedoc compatibility**: Existing `npm run build` pipeline still drives Typedoc with TypeScript 4.1.3, which cannot parse `import { type Foo }` syntax. Either down-level the syntax for legacy builds or finish the TypeScript upgrade before re-running cascades generation.
 
 #### Execution Checklist
 - [x] Revert `core/fillet.ts` to last committed state (left untouched; excluded from tsconfig)

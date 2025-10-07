@@ -1,7 +1,8 @@
-namespace MakerJsPlayground.FormatOptions {
+import { ExportFormat } from './iexport.js';
 
-    class BaseOptions {
-        constructor(public format: MakerJsPlaygroundExport.ExportFormat, public formatTitle: string, public div: HTMLDivElement, public model: MakerJs.IModel) {
+// Base options class for export format configuration
+class BaseOptions {
+        constructor(public format: ExportFormat, public formatTitle: string, public div: HTMLDivElement, public model: MakerJs.IModel) {
         }
 
         $(selector: string) {
@@ -42,8 +43,9 @@ namespace MakerJsPlayground.FormatOptions {
         }
     }
 
-    class DxfOptions extends BaseOptions {
-        constructor(format: MakerJsPlaygroundExport.ExportFormat, formatTitle: string, div: HTMLDivElement, model: MakerJs.IModel) {
+// DXF export options
+class DxfOptions extends BaseOptions {
+        constructor(format: ExportFormat, formatTitle: string, div: HTMLDivElement, model: MakerJs.IModel) {
             super(format, formatTitle, div, model);
 
             // TODO:
@@ -60,7 +62,8 @@ namespace MakerJsPlayground.FormatOptions {
         }
     }
 
-    class SvgOptions extends BaseOptions {
+// SVG export options
+class SvgOptions extends BaseOptions {
         getOptionObject() {
             const options: MakerJs.exporter.ISVGRenderOptions = {
                 svgAttrs: { xmlns: "http://www.w3.org/2000/svg" }
@@ -70,7 +73,8 @@ namespace MakerJsPlayground.FormatOptions {
         }
     }
 
-    class SvgPathDataOptions extends BaseOptions {
+// SVG path data export options
+class SvgPathDataOptions extends BaseOptions {
         getOptionObject() {
             const options: MakerJs.exporter.ISVGPathDataRenderOptions = {
                 byLayers: false,
@@ -83,7 +87,8 @@ namespace MakerJsPlayground.FormatOptions {
         }
     }
 
-    class JsonOptions extends BaseOptions {
+// JSON export options
+class JsonOptions extends BaseOptions {
         getOptionObject() {
             const options: MakerJs.exporter.IJsonExportOptions = {
                 indentation: +this.$selectValue('#json-indent')
@@ -93,7 +98,8 @@ namespace MakerJsPlayground.FormatOptions {
         }
     }
 
-    class JscadScriptOptions extends BaseOptions {
+// OpenJSCAD script export options
+class JscadScriptOptions extends BaseOptions {
         getOptionObject() {
             const extrude = this.$number('#openjscad-extrusion');
             if (extrude <= 0) {
@@ -113,8 +119,9 @@ namespace MakerJsPlayground.FormatOptions {
         }
     }
 
-    class StlOptions extends BaseOptions {
-        constructor(format: MakerJsPlaygroundExport.ExportFormat, formatTitle: string, div: HTMLDivElement, model: MakerJs.IModel) {
+// STL export options
+class StlOptions extends BaseOptions {
+        constructor(format: ExportFormat, formatTitle: string, div: HTMLDivElement, model: MakerJs.IModel) {
             super(format, formatTitle, div, model);
 
             //modelToExport.exporterOptions['toJscadCSG'])
@@ -132,7 +139,8 @@ namespace MakerJsPlayground.FormatOptions {
         }
     }
 
-    class PdfOptions extends BaseOptions {
+// PDF export options
+class PdfOptions extends BaseOptions {
         getOptionObject() {
             const options: MakerJs.exporter.IPDFRenderOptions = {
                 origin: [
@@ -144,30 +152,32 @@ namespace MakerJsPlayground.FormatOptions {
         }
     }
 
-    let classes: { [format: number]: typeof BaseOptions } = {};
-    classes[MakerJsPlaygroundExport.ExportFormat.Dxf] = DxfOptions;
-    classes[MakerJsPlaygroundExport.ExportFormat.Json] = JsonOptions;
-    classes[MakerJsPlaygroundExport.ExportFormat.OpenJsCad] = JscadScriptOptions;
-    classes[MakerJsPlaygroundExport.ExportFormat.Pdf] = PdfOptions;
-    classes[MakerJsPlaygroundExport.ExportFormat.Stl] = StlOptions;
-    classes[MakerJsPlaygroundExport.ExportFormat.Svg] = SvgOptions;
-    classes[MakerJsPlaygroundExport.ExportFormat.SvgPathData] = SvgPathDataOptions;
+// Map of format types to option classes
+const classes: { [format: number]: typeof BaseOptions } = {
+    [ExportFormat.Dxf]: DxfOptions,
+    [ExportFormat.Json]: JsonOptions,
+    [ExportFormat.OpenJsCad]: JscadScriptOptions,
+    [ExportFormat.Pdf]: PdfOptions,
+    [ExportFormat.Stl]: StlOptions,
+    [ExportFormat.Svg]: SvgOptions,
+    [ExportFormat.SvgPathData]: SvgPathDataOptions
+};
 
-    export var current: BaseOptions;
+// Current active options
+export let current: BaseOptions;
 
-    export function activateOption(format: MakerJsPlaygroundExport.ExportFormat, formatTitle: string, model: MakerJs.IModel) {
-        const formatId = MakerJsPlaygroundExport.ExportFormat[format];
+// Activate export format options
+export function activateOption(format: ExportFormat, formatTitle: string, model: MakerJs.IModel) {
+    const formatId = ExportFormat[format];
 
-        //deselect all
-        const all = document.querySelectorAll(`.download-option`);
-        for (let i = 0; i < all.length; i++) all[i].classList.remove('selected');
+    //deselect all
+    const all = document.querySelectorAll(`.download-option`);
+    for (let i = 0; i < all.length; i++) all[i].classList.remove('selected');
 
-        //select current
-        const div = document.querySelector(`.download-option[data-format="${formatId}"]`) as HTMLDivElement;
-        div.classList.add('selected');
+    //select current
+    const div = document.querySelector(`.download-option[data-format="${formatId}"]`) as HTMLDivElement;
+    div.classList.add('selected');
 
-        let formatClass = classes[format];
-        current = new formatClass(format, formatTitle, div, model);
-    }
-
+    const formatClass = classes[format];
+    current = new formatClass(format, formatTitle, div, model);
 }

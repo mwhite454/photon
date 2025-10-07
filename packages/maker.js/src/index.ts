@@ -33,9 +33,15 @@ export { XmlTag, type IXmlTagAttrs } from './core/xml.js';
 // Serializers (ES module migration in progress)
 export * as dxf from './core/dxf.js';
 export * as svg from './core/svg-esm.js';
+export * as pdf from './core/pdf-esm.js';
+export * as openjscad from './core/openjscad-esm.js';
 
 // Model classes converted to ES modules
 export * as models from './models/index.js';
 
+// Layout utilities (ES module migration)
+export * as layout from './core/layout.js';
+
 // TODO: progressively export remaining modules
 // export * as break from './core/break.js';
+// export * as cascades from './core/cascades.js'; // Generated file - needs build script update

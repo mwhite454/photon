@@ -1,8 +1,27 @@
-namespace MakerJs.exporter {
+import type { IModel, IPath, IPoint, IPathLine, IPathCircle, IPathArc, ICaption } from './schema.js';
+import {
+  extendObject,
+  isModel,
+  pathType,
+  round,
+  unitType,
+  type IWalkPath,
+  type IFindChainsOptions,
+  type IWalkOptions,
+  type IChain,
+  type IChainCallback,
+  type IPointMatchOptions
+} from './maker.js';
+import { tryGetModelUnits, colors, type IExportOptions } from './exporter.js';
+import * as point from './point.js';
+import * as angle from './angle.js';
+import * as paths from './paths.js';
+import * as model from './model.js';
+import * as measure from './measure.js';
 
-    export function toDXF(modelToExport: IModel, options?: IDXFRenderOptions): string;
-    export function toDXF(pathsToExport: IPath[], options?: IDXFRenderOptions): string;
-    export function toDXF(pathToExport: IPath, options?: IDXFRenderOptions): string;
+export function toDXF(modelToExport: IModel, options?: IDXFRenderOptions): string;
+export function toDXF(pathsToExport: IPath[], options?: IDXFRenderOptions): string;
+export function toDXF(pathToExport: IPath, options?: IDXFRenderOptions): string;
 
     /**
      * Renders an item in AutoDesk DFX file format.
@@ -12,7 +31,7 @@ namespace MakerJs.exporter {
      * @param options.units String of the unit system. May be omitted. See makerjs.unitType for possible values.
      * @returns String of DXF content.
      */
-    export function toDXF(itemToExport: any, options: IDXFRenderOptions = {}): string {
+export function toDXF(itemToExport: any, options: IDXFRenderOptions = {}): string {
 
         //DXF format documentation:
         //http://images.autodesk.com/adsk/files/acad_dxf0.pdf
@@ -512,7 +531,7 @@ namespace MakerJs.exporter {
     /**
      * DXF layer options.
      */
-    export interface IDXFLayerOptions {
+export interface IDXFLayerOptions {
 
         /**
          * DXF layer color.
@@ -528,7 +547,7 @@ namespace MakerJs.exporter {
     /**
      * DXF rendering options.
      */
-    export interface IDXFRenderOptions extends IExportOptions, IPointMatchOptions {
+export interface IDXFRenderOptions extends IExportOptions, IPointMatchOptions {
 
         /**
          * Text size for TEXT entities.
@@ -549,8 +568,8 @@ namespace MakerJs.exporter {
     /**
      * @private
      */
-    interface IChainOnLayer {
+interface IChainOnLayer {
         chain: IChain;
         layer: string;
     }
-}
+

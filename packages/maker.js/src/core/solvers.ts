@@ -1,9 +1,9 @@
 import { IPathCircle } from './schema.js';
 import { round } from './maker.js';
 import * as angle from './angle.js';
-import * as path from './path.js';
 import * as paths from './paths.js';
-import * as measure from './measure-minimal.js';
+import * as measure from './measure.js';
+import { intersection } from './intersect.js';
 
 const equilateral = Math.sqrt(3) / 2;
 
@@ -48,7 +48,7 @@ export function circleTangentAngles(a: IPathCircle, b: IPathCircle, inner = fals
         const d2 = distance / 2;
         const between = new paths.Circle([d2, 0], d2);
         const diff = new paths.Circle(a.radius > b.radius ? [0, 0] : [distance, 0], inner ? (a.radius + b.radius) : Math.abs(a.radius - b.radius));
-        const int = path.intersection(diff, between);
+        const int = intersection(diff, between);
 
         if (!int || !int.path1Angles) return null;
 

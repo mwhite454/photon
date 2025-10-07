@@ -3,9 +3,9 @@ import { round } from '../core/maker.js';
 import type { IKit } from '../core/maker.js';
 import * as angle from '../core/angle.js';
 import * as point from '../core/point.js';
-import * as path from '../core/path.js';
 import * as paths from '../core/paths.js';
 import * as measure from '../core/measure-minimal.js';
+import { intersection } from '../core/intersect.js';
 
 export class OvalArc implements IModel {
     public paths: IPathMap = {};
@@ -69,7 +69,7 @@ export class OvalArc implements IModel {
 
         if ((d / 2) < slotRadius) {
             // the caps intersect
-            const int = path.intersection(caps[0], caps[1]);
+            const int = intersection(caps[0], caps[1]);
             if (int) {
                 if (!hasInner || !selfIntersect) {
                     caps[0].startAngle = int.path1Angles[0];

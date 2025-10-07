@@ -7,6 +7,8 @@ namespace MakerJs.exporter {
         [layer: string]: string;
     }
 
+    
+
     /**
      * @private
      */
@@ -234,6 +236,42 @@ namespace MakerJs.exporter {
     }
 
     /**
+     * Attempt to delegate to ES module implementation in MakerJs.svg if available.
+     * This enables gradual migration while preserving the legacy namespace API.
+     * @private
+     */
+    function tryDelegateToEsmToSVGPathData(modelToExport: IModel, args: any[]): IPathDataByLayerMap | string {
+        const anyMaker: any = MakerJs as any;
+        const esm = anyMaker && anyMaker.svg;
+        if (esm && typeof esm.toSVGPathData === 'function') {
+            try {
+                return esm.toSVGPathData(modelToExport, ...args);
+            } catch (e) {
+                // fall back to legacy implementation
+            }
+        }
+        return null;
+    }
+
+    /**
+     * Attempt to delegate to ES module implementation of toSVG if available.
+     * Only used for path-only rendering flow; otherwise legacy remains in place.
+     * @private
+     */
+    function tryDelegateToEsmToSVG(itemToExport: any, options?: ISVGRenderOptions): string {
+        const anyMaker: any = MakerJs as any;
+        const esm = anyMaker && anyMaker.svg;
+        if (esm && typeof esm.toSVG === 'function') {
+            try {
+                return esm.toSVG(itemToExport, options);
+            } catch (e) {
+                // fall back to legacy implementation
+            }
+        }
+        return null;
+    }
+
+    /**
      * Convert a model to SVG path data.
      *
      * @param modelToExport Model to export.
@@ -258,6 +296,10 @@ namespace MakerJs.exporter {
     export function toSVGPathData(modelToExport: IModel, byLayers?: boolean, origin?: IPoint, accuracy?: number): IPathDataByLayerMap | string;
 
     export function toSVGPathData(modelToExport: IModel, ...args: any[]): IPathDataByLayerMap | string {
+
+        // Phase 2 migration: delegate to ES module if present
+        const delegated = tryDelegateToEsmToSVGPathData(modelToExport, args);
+        if (delegated != null) return delegated;
 
         var options: ISVGPathDataRenderOptions = {
             fillRule: 'evenodd'
@@ -316,6 +358,10 @@ namespace MakerJs.exporter {
      * @returns String of XML / SVG content.
      */
     export function toSVG(itemToExport: any, options?: ISVGRenderOptions): string {
+
+        // Phase 3: ESM implementation fully supports rendering. Always delegate when available.
+        const delegated = tryDelegateToEsmToSVG(itemToExport, options);
+        if (delegated != null) return delegated;
 
         function append(value: string, layer?: string, forcePush = false) {
             if (!forcePush && typeof layer == "string" && layer.length > 0) {
@@ -973,6 +1019,23 @@ namespace MakerJs.importer {
     }
 
     /**
+     * Attempt to delegate importer to ES module implementation in MakerJs.svg if available.
+     * @private
+     */
+    function tryDelegateToEsmFromSVGPathData(pathData: string, options?: ISVGImportOptions): IModel {
+        const anyMaker: any = MakerJs as any;
+        const esm = anyMaker && anyMaker.svg;
+        if (esm && typeof esm.fromSVGPathData === 'function') {
+            try {
+                return esm.fromSVGPathData(pathData, options);
+            } catch (e) {
+                // fall back to legacy implementation
+            }
+        }
+        return null;
+    }
+
+    /**
      * Create a model from SVG path data.
      *
      * @param pathData SVG path data.
@@ -981,6 +1044,9 @@ namespace MakerJs.importer {
      * @returns An IModel object.
      */
     export function fromSVGPathData(pathData: string, options: ISVGImportOptions = {}): IModel {
+        // Phase 3 migration: delegate to ESM importer if present
+        const delegated = tryDelegateToEsmFromSVGPathData(pathData, options);
+        if (delegated) return delegated;
         var result: IModel = {};
 
         function addPath(p: IPath) {

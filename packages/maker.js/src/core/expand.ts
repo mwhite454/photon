@@ -1,282 +1,201 @@
-﻿namespace MakerJs.path {
+import type { IChain, ICombineOptions, IWalkOptions, IWalkPath } from './maker.js';
+import type { IModel, IModelMap, IPath, IPathArc, IPathCircle, IPathLine } from './schema.js';
+import { pathType } from './maker.js';
+import * as angle from './angle.js';
+import * as point from './point.js';
+import * as pathUtils from './path.js';
+import * as modelUtils from './model.js';
+import { combine } from './combine.js';
+import { simplify } from './simplify.js';
+import * as measure from './measure-minimal.js';
+import { findChains, toNewModel } from './chain.js';
+import { OvalArc } from '../models/OvalArc.js';
+import { Ring } from '../models/Ring.js';
+import { Slot } from '../models/Slot.js';
+import { ConnectTheDots } from '../models/ConnectTheDots.js';
 
-    /**
-     * @private
-     */
-    var map: { [type: string]: (pathValue: IPath, expansion: number, isolateCaps: boolean) => IModel } = {};
+type PathExpansionFactory = (pathValue: IPath, expansion: number, isolateCaps: boolean) => IModel | null;
 
-    map[pathType.Arc] = function (arc: IPathArc, expansion: number, isolateCaps: boolean) {
-        return new models.OvalArc(arc.startAngle, arc.endAngle, arc.radius, expansion, false, isolateCaps);
-    };
-
-    map[pathType.Circle] = function (circle: IPathCircle, expansion: number, isolateCaps: boolean) {
-        return new models.Ring(circle.radius + expansion, circle.radius - expansion);
+const pathExpansionMap: Record<string, PathExpansionFactory> = {
+    [pathType.Arc](arc: IPathArc, expansion: number, isolateCaps: boolean) {
+        return new OvalArc(arc.startAngle, arc.endAngle, arc.radius, expansion, false, isolateCaps);
+    },
+    [pathType.Circle](circle: IPathCircle, expansion: number) {
+        return new Ring(circle.radius + expansion, circle.radius - expansion);
+    },
+    [pathType.Line](line: IPathLine, expansion: number, isolateCaps: boolean) {
+        return new Slot(line.origin, line.end, expansion, isolateCaps);
     }
+};
 
-    map[pathType.Line] = function (line: IPathLine, expansion: number, isolateCaps: boolean) {
-        return new models.Slot(line.origin, line.end, expansion, isolateCaps);
-    }
-
-    /**
-     * Expand path by creating a model which surrounds it.
-     *
-     * @param pathToExpand Path to expand.
-     * @param expansion Distance to expand.
-     * @param isolateCaps Optional flag to put the end caps into a separate model named "caps".
-     * @returns Model which surrounds the path.
-     */
-    export function expand(pathToExpand: IPath, expansion: number, isolateCaps?: boolean): IModel {
-
-        if (!pathToExpand) return null;
-
-        var result: IModel = null;
-
-        var fn = map[pathToExpand.type];
-        if (fn) {
-            result = fn(pathToExpand, expansion, isolateCaps);
-            result.origin = pathToExpand.origin;
-        }
-
-        return result;
-    }
-
-    /**
-     * Represent an arc using straight lines.
-     *
-     * @param arc Arc to straighten.
-     * @param bevel Optional flag to bevel the angle to prevent it from being too sharp.
-     * @param prefix Optional string prefix to apply to path ids.
-     * @param close Optional flag to make a closed geometry by connecting the endpoints.
-     * @returns Model of straight lines with same endpoints as the arc.
-     */
-    export function straighten(arc: IPathArc, bevel?: boolean, prefix?: string, close?: boolean): IModel {
-
-        var arcSpan = angle.ofArcSpan(arc);
-        var joints = 1;
-
-        if (arcSpan >= 270) {
-            joints = 4;
-        } else if (arcSpan > 180) {
-            joints = 3;
-        } else if (arcSpan > 150 || bevel) {   //30 degrees is the sharpest
-            joints = 2;
-        }
-
-        var jointAngleInRadians = angle.toRadians(arcSpan / joints);
-        var circumscribedRadius = models.Polygon.circumscribedRadius(arc.radius, jointAngleInRadians);
-        var ends = point.fromArc(arc);
-        var points: IPoint[] = [point.subtract(ends[0], arc.origin)];
-        var a = angle.toRadians(arc.startAngle) + jointAngleInRadians / 2;
-
-        for (var i = 0; i < joints; i++) {
-            points.push(point.fromPolar(a, circumscribedRadius));
-            a += jointAngleInRadians;
-        }
-
-        points.push(point.subtract(ends[1], arc.origin));
-
-        var result = new models.ConnectTheDots(close, points);
-        (<IModel>result).origin = arc.origin;
-
-        if (typeof prefix === 'string' && prefix.length) {
-            model.prefixPathIds(result, prefix);
-        }
-
-        return result;
-    }
-
+export function expand(pathToExpand: IPath, expansion: number, isolateCaps = false): IModel | null {
+    if (!pathToExpand) return null;
+    const factory = pathExpansionMap[pathToExpand.type];
+    if (!factory) return null;
+    const expanded = factory(pathToExpand, expansion, isolateCaps);
+    if (!expanded) return null;
+    expanded.origin = pathToExpand.origin ? point.clone(pathToExpand.origin) : undefined;
+    return expanded;
 }
 
-namespace MakerJs.model {
+export function straighten(arc: IPathArc, bevel?: boolean, prefix?: string, close?: boolean): IModel {
+    const arcSpan = angle.ofArcSpan(arc);
+    let joints = 1;
 
-    /**
-     * Expand all paths in a model, then combine the resulting expansions.
-     *
-     * @param modelToExpand Model to expand.
-     * @param distance Distance to expand.
-     * @param joints Number of points at a joint between paths. Use 0 for round joints, 1 for pointed joints, 2 for beveled joints.
-     * @param combineOptions Optional object containing combine options.
-     * @returns Model which surrounds the paths of the original model.
-     */
-    export function expandPaths(modelToExpand: IModel, distance: number, joints = 0, combineOptions: ICombineOptions = {}): IModel {
+    if (arcSpan >= 270) {
+        joints = 4;
+    } else if (arcSpan > 180) {
+        joints = 3;
+    } else if (arcSpan > 150 || bevel) {
+        joints = 2;
+    }
 
-        if (distance <= 0) return null;
+    const jointAngleInRadians = angle.toRadians(arcSpan / joints);
+    const circumscribedRadius = Slot.circumscribedRadius?.(arc.radius, jointAngleInRadians) ?? 0;
+    const ends = point.fromArc(arc);
+    const points: point.IPoint[] = [point.subtract(ends[0], arc.origin)];
+    let a = angle.toRadians(arc.startAngle) + jointAngleInRadians / 2;
 
-        var result: IModel = {
-            models: {
-                expansions: { models: {} },
-                caps: { models: {} }
+    for (let i = 0; i < joints; i += 1) {
+        points.push(point.fromPolar(a, circumscribedRadius));
+        a += jointAngleInRadians;
+    }
+
+    points.push(point.subtract(ends[1], arc.origin));
+
+    const result = new ConnectTheDots(close ?? false, points) as IModel;
+    result.origin = arc.origin;
+
+    if (typeof prefix === 'string' && prefix.length) {
+        modelUtils.prefixPathIds(result, prefix);
+    }
+
+    return result;
+}
+
+export function expandPaths(modelToExpand: IModel, distance: number, joints = 0, combineOptions: ICombineOptions = {}): IModel | null {
+    if (distance <= 0) return null;
+
+    const result: IModel = {
+        models: {
+            expansions: { models: {} } as IModel,
+            caps: { models: {} } as IModel
+        }
+    };
+
+    let first = true;
+    let lastFarPoint = combineOptions.farPoint;
+
+    const walkOptions: IWalkOptions = {
+        onPath: (walkedPath: IWalkPath) => {
+            if (combineOptions.pointMatchingDistance && measure.pathLength(walkedPath.pathContext) < combineOptions.pointMatchingDistance) return;
+
+            const expandedPathModel = expand(walkedPath.pathContext, distance, true);
+            if (!expandedPathModel) return;
+
+            modelUtils.moveRelative(expandedPathModel, walkedPath.offset);
+
+            const expansions = (result.models as Record<string, IModel>).expansions.models as IModelMap;
+            const newId = modelUtils.getSimilarModelId(expansions, walkedPath.pathId);
+
+            modelUtils.prefixPathIds(expandedPathModel, `${walkedPath.pathId}_`);
+            modelUtils.originate(expandedPathModel);
+
+            if (!first) {
+                combine(result, expandedPathModel, false, true, false, true, combineOptions);
+                if (combineOptions.measureA) {
+                    combineOptions.measureA.modelsMeasured = false;
+                }
+
+                lastFarPoint = combineOptions.farPoint;
+                delete combineOptions.farPoint;
+                delete combineOptions.measureB;
             }
-        };
 
-        var first = true;
-        var lastFarPoint = combineOptions.farPoint;
+            expansions[newId] = expandedPathModel;
 
-        var walkOptions: IWalkOptions = {
-            onPath: function (walkedPath: IWalkPath) {
-
-                //don't expand paths shorter than the tolerance for combine operations
-                if (combineOptions.pointMatchingDistance && measure.pathLength(walkedPath.pathContext) < combineOptions.pointMatchingDistance) return;
-
-                var expandedPathModel = path.expand(walkedPath.pathContext, distance, true);
-
-                if (expandedPathModel) {
-                    moveRelative(expandedPathModel, walkedPath.offset);
-
-                    var newId = getSimilarModelId(result.models['expansions'], walkedPath.pathId);
-
-                    prefixPathIds(expandedPathModel, walkedPath.pathId + '_');
-                    originate(expandedPathModel);
-
-                    if (!first) {
-                        combine(result, expandedPathModel, false, true, false, true, combineOptions);
-                        combineOptions.measureA.modelsMeasured = false;
-
-                        lastFarPoint = combineOptions.farPoint;
-                        delete combineOptions.farPoint;
-                        delete combineOptions.measureB;
-                    }
-
-                    result.models['expansions'].models[newId] = expandedPathModel;
-
-                    if (expandedPathModel.models) {
-                        var caps = expandedPathModel.models['Caps'];
-
-                        if (caps) {
-                            delete expandedPathModel.models['Caps'];
-
-                            result.models['caps'].models[newId] = caps;
-                        }
-                    }
-
-                    first = false;
+            if (expandedPathModel.models) {
+                const caps = expandedPathModel.models['Caps'];
+                if (caps) {
+                    delete expandedPathModel.models['Caps'];
+                    (result.models as Record<string, IModel>).caps.models[newId] = caps;
                 }
             }
-        };
 
-        walk(modelToExpand, walkOptions);
+            first = false;
+        }
+    };
 
-        if (joints) {
+    modelUtils.walk(modelToExpand, walkOptions);
 
-            var roundCaps = result.models['caps'];
-            var straightCaps: IModel = { models: {} };
-            result.models['straightcaps'] = straightCaps;
+    if (joints) {
+        const roundCaps = (result.models as Record<string, IModel>).caps;
+        const straightCaps: IModel = { models: {} };
+        (result.models as Record<string, IModel>).straightcaps = straightCaps;
 
-            simplify(roundCaps);
+        simplify(roundCaps);
 
-            //straighten each cap, optionally beveling
-            for (var id in roundCaps.models) {
+        modelUtils.walk(roundCaps, {
+            onPath(walkedPath: IWalkPath) {
+                const arc = walkedPath.pathContext as IPathArc;
+                const straightened = pathUtils.straighten(arc, joints === 2, `${walkedPath.pathId}_`, true);
+                combine(result, straightened, false, true, false, true, combineOptions);
+                if (combineOptions.measureA) {
+                    combineOptions.measureA.modelsMeasured = false;
+                }
 
-                //add a model container to the straight caps
-                straightCaps.models[id] = { models: {} };
+                lastFarPoint = combineOptions.farPoint;
+                delete combineOptions.farPoint;
+                delete combineOptions.measureB;
 
-                walk(roundCaps.models[id], {
-
-                    onPath: function (walkedPath: IWalkPath) {
-
-                        var arc = <IPathArc>walkedPath.pathContext;
-
-                        //make a small closed shape using the straightened arc
-                        var straightened = path.straighten(arc, joints == 2, walkedPath.pathId + '_', true);
-
-                        //union this little pointy shape with the rest of the result
-                        combine(result, straightened, false, true, false, true, combineOptions);
-                        combineOptions.measureA.modelsMeasured = false;
-
-                        lastFarPoint = combineOptions.farPoint;
-
-                        delete combineOptions.farPoint;
-                        delete combineOptions.measureB;
-
-                        //replace the rounded path with the straightened model
-                        straightCaps.models[id].models[walkedPath.pathId] = straightened;
-
-                        //delete this path in the parent model
-                        delete walkedPath.modelContext.paths[walkedPath.pathId];
-                    }
-                });
+                straightCaps.models[walkedPath.pathId] = straightened;
+                delete walkedPath.modelContext.paths[walkedPath.pathId];
             }
-
-            //delete the round caps
-            delete result.models['caps'];
-        }
-
-        combineOptions.farPoint = lastFarPoint;
-
-        return result;
-    }
-
-    /**
-     * @private
-     */
-    function getEndlessChains(modelContext: IModel) {
-        var endlessChains: IChain[] = [];
-        model.findChains(modelContext, function (chains, loose, layer) {
-            endlessChains = chains.filter(chain => chain.endless);
-        });
-        return endlessChains;
-    }
-
-    /**
-     * @private
-     */
-    function getClosedGeometries(modelContext: IModel) {
-
-        //get endless chains from the model
-        var endlessChains = getEndlessChains(modelContext);
-        if (endlessChains.length == 0) return null;
-
-        //make a new model with only closed geometries
-        var closed: IModel = { models: {} };
-        endlessChains.forEach((c, i) => {
-            closed.models[i] = chain.toNewModel(c);
         });
 
-        return closed;
+        delete (result.models as Record<string, IModel>).caps;
     }
 
-    /**
-     * Outline a model by a specified distance. Useful for accommodating for kerf.
-     *
-     * @param modelToOutline Model to outline.
-     * @param distance Distance to outline.
-     * @param joints Number of points at a joint between paths. Use 0 for round joints, 1 for pointed joints, 2 for beveled joints.
-     * @param inside Optional boolean to draw lines inside the model instead of outside.
-     * @param options Options to send to combine() function.
-     * @returns Model which surrounds the paths outside of the original model.
-     */
-    export function outline(modelToOutline: IModel, distance: number, joints = 0, inside = false, options: ICombineOptions = {}): IModel {
-        var expanded = expandPaths(modelToOutline, distance, joints, options);
+    combineOptions.farPoint = lastFarPoint;
 
-        if (!expanded) return null;
+    return result;
+}
 
-        //get closed geometries from the model
-        var closed = getClosedGeometries(modelToOutline);
-        if (closed) {
+function getEndlessChains(modelContext: IModel): IChain[] {
+    return findChains(modelContext, chains => chains.filter(chain => chain.endless)) ?? [];
+}
 
-            var childCount = 0;
-            var result: IModel = { models: {} };
+function getClosedGeometries(modelContext: IModel): IModel | null {
+    const endlessChains = getEndlessChains(modelContext);
+    if (endlessChains.length === 0) return null;
 
-            //get closed geometries from the expansion
-            var chains = getEndlessChains(expanded);
+    const closed: IModel = { models: {} };
+    endlessChains.forEach((c, i) => {
+        closed.models[i] = toNewModel(c);
+    });
+    return closed;
+}
 
-            chains.forEach(c => {
-                //sample one link from the chain
-                var wp = c.links[0].walkedPath;
+export function outline(modelToOutline: IModel, distance: number, joints = 0, inside = false, options: ICombineOptions = {}): IModel | null {
+    const expanded = expandPaths(modelToOutline, distance, joints, options);
+    if (!expanded) return null;
 
-                //see if it is inside the original model
-                var isInside = measure.isPointInsideModel(point.middle(wp.pathContext), closed, wp.offset);
+    const closed = getClosedGeometries(modelToOutline);
+    if (!closed) {
+        return expanded;
+    }
 
-                //save the ones we want
-                if (inside && isInside || !inside && !isInside) {
-                    result.models[childCount++] = chain.toNewModel(c);
-                };
-            });
+    let childCount = 0;
+    const result: IModel = { models: {} };
 
-            return result;
-        } else {
-            return expanded;
+    const chains = getEndlessChains(expanded);
+    chains.forEach(c => {
+        const wp = c.links[0].walkedPath;
+        const isInside = measure.isPointInsideModel(point.middle(wp.pathContext), closed, wp.offset);
+        if ((inside && isInside) || (!inside && !isInside)) {
+            result.models[childCount++] = toNewModel(c);
         }
-    }
+    });
 
+    return result;
 }

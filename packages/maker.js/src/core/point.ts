@@ -2,9 +2,10 @@ import { IPoint, IPath, IPathLine, IPathCircle, IPathArc, IPathBezierSeed } from
 import { round, pathType } from './maker.js';
 import type { ISlope, IPathIntersectionBaseOptions } from './maker.js';
 import * as angle from './angle.js';
+import * as measure from './measure.js';
+import * as equal from './equal.js';
 
 // TEMP: These will be available after respective modules are converted
-declare const measure: any;
 declare const models: any;
 
 /** Add two points together and return the result as a new point object. */
@@ -102,8 +103,8 @@ export function fromSlopeIntersection(lineA: IPathLine, lineB: IPathLine, option
     const slopeA = measure.lineSlope(lineA);
     const slopeB = measure.lineSlope(lineB);
 
-    if (measure.isSlopeParallel(slopeA, slopeB)) {
-        if (measure.isSlopeEqual(slopeA, slopeB)) {
+    if (equal.isSlopeParallel(slopeA, slopeB)) {
+        if (equal.isSlopeEqual(slopeA, slopeB)) {
             options.out_AreOverlapped = measure.isLineOverlapping(lineA, lineB, options.excludeTangents);
         }
         return null;

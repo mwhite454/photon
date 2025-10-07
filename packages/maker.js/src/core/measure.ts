@@ -1,23 +1,44 @@
-namespace MakerJs.measure {
+// ES Module imports
+import type {
+    IModel, IModelMap, IPath, IPathArc, IPathBezierSeed, IPathCircle, IPathLine, IPoint
+} from './schema.js';
+import type {
+    IMeasure, IMeasureWithCenter, IMeasureMap, ISlope, IBoundingHex,
+    IPathIntersectionOptions, IMeasurePointInsideOptions, IWalkOptions, IWalkPath, IWalkModel, IChain
+} from './maker.js';
+import { pathType, cloneObject, createRouteKey, round } from './maker.js';
+import * as angle from './angle.js';
+import * as point from './point.js';
+import * as path from './path.js';
+import * as paths from './paths.js';
+import * as model from './model.js';
+import * as chain from './chain.js';
+import * as solvers from './solvers.js';
+import * as models from '../models/index.js';
+import { isPointEqual, isPointDistinct, isPointOnSlope } from './equal.js';
+import { intersection } from './intersect.js';
 
-    /**
-     * Interface to Math.min and Math.max functions.
-     * 
-     * @private
-     */
-    interface IMathMinMax {
-        (...values: number[]): number;
-    }
+// @ts-ignore - graham_scan doesn't have types
+const graham_scan = require('graham_scan') as typeof ConvexHullGrahamScan;
 
-    /**
-     * Increase a measurement by an additional measurement.
-     * 
-     * @param baseMeasure The measurement to increase.
-     * @param addMeasure The additional measurement.
-     * @param augmentBaseMeasure Optional flag to call measure.augment on the measurement.
-     * @returns The increased original measurement (for cascading).
-     */
-    export function increase(baseMeasure: IMeasure, addMeasure: IMeasure, augmentBaseMeasure?: boolean): IMeasure {
+/**
+ * Interface to Math.min and Math.max functions.
+ * 
+ * @private
+ */
+interface IMathMinMax {
+    (...values: number[]): number;
+}
+
+/**
+ * Increase a measurement by an additional measurement.
+ * 
+ * @param baseMeasure The measurement to increase.
+ * @param addMeasure The additional measurement.
+ * @param augmentBaseMeasure Optional flag to call measure.augment on the measurement.
+ * @returns The increased original measurement (for cascading).
+ */
+export function increase(baseMeasure: IMeasure, addMeasure: IMeasure, augmentBaseMeasure?: boolean): IMeasure {
 
         function getExtreme(basePoint: IPoint, newPoint: IPoint, fn: IMathMinMax) {
 
@@ -62,7 +83,7 @@ namespace MakerJs.measure {
 
         var midPointToNearPoint = new paths.Line(point.middle(arc), towardsPoint);
         var options: IPathIntersectionOptions = {};
-        var intersectionPoint = path.intersection(midPointToNearPoint, new paths.Chord(arc), options);
+        const intersectionPoint = intersection(midPointToNearPoint, new paths.Chord(arc), options);
 
         if (intersectionPoint || options.out_AreOverlapped) {
             return true;
@@ -183,10 +204,6 @@ namespace MakerJs.measure {
         return true;
     }
 
-    /**
-     * @private
-     */
-    const graham_scan = require('graham_scan') as typeof ConvexHullGrahamScan;
 
     /**
      * @private
@@ -435,7 +452,11 @@ namespace MakerJs.measure {
     }
 
     pathLengthMap[pathType.BezierSeed] = function (seed: IPathBezierSeed) {
-        return models.BezierCurve.computeLength(seed);
+        // BezierCurve not yet converted to ES modules
+        if ('BezierCurve' in models && (models as any).BezierCurve?.computeLength) {
+            return (models as any).BezierCurve.computeLength(seed);
+        }
+        return 0;
     }
 
     /**
@@ -882,8 +903,7 @@ namespace MakerJs.measure {
                 }
 
                 var intersectOptions: IPathIntersectionOptions = { path2Offset: walkedPath.offset };
-
-                var farInt = path.intersection(lineToFarPoint, walkedPath.pathContext, intersectOptions);
+                const farInt = intersection(lineToFarPoint, walkedPath.pathContext, intersectOptions);
 
                 if (farInt) {
                     var added = addUniquePoints(options.out_intersectionPoints, farInt.intersectionPoints);
@@ -909,4 +929,3 @@ namespace MakerJs.measure {
 
         return !!isInside;
     }
-}

@@ -177,7 +177,7 @@ export interface IPathRemoved extends IPath {
 /** Options to pass to measure.isPointInsideModel(). */
 export interface IMeasurePointInsideOptions {
     farPoint?: IPoint;
-    // measureAtlas?: measure.Atlas; // TEMP: will be available after measure.ts is converted
+    measureAtlas?: any; // measure.Atlas - typed as any to avoid circular dependency
     out_intersectionPoints?: IPoint[];
 }
 
@@ -298,12 +298,12 @@ export interface IPathIntersectionBaseOptions {
         /**
          * Cached measurements for model A.
          */
-        measureA?: measure.Atlas;
+        measureA?: any; // measure.Atlas - typed as any to avoid circular dependency
 
         /**
          * Cached measurements for model B.
          */
-        measureB?: measure.Atlas;
+        measureB?: any; // measure.Atlas - typed as any to avoid circular dependency
 
         /**
          * Output array of 2 models (corresponding to the input models) containing paths that were deleted in the combination.

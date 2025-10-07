@@ -3,9 +3,14 @@ import { pathType, round, isNumber, isPoint } from './maker.js';
 import * as point from './point.js';
 import * as angle from './angle.js';
 import * as path from './path.js';
+import { intersection } from './intersect.js';
+import * as measure from './measure.js';
 
-// TEMP: These will be available after respective modules are converted
-declare const measure: any;
+const distance2D = (a: IPoint, b: IPoint) => {
+    const dx = b[0] - a[0];
+    const dy = b[1] - a[1];
+    return Math.sqrt(dx * dx + dy * dy);
+};
 
 interface IArcSpan {
     origin: IPoint;
@@ -92,7 +97,7 @@ export class Arc implements IPathArc {
                     var span: IArcSpan;
 
                     //make sure arc can reach. if not, scale up.
-                    var smallestRadius = measure.pointDistance(pointA, pointB) / 2;
+                    var smallestRadius = distance2D(pointA, pointB) / 2;
                     if (round(this.radius - smallestRadius) <= 0) {
                         this.radius = smallestRadius;
 
@@ -101,7 +106,7 @@ export class Arc implements IPathArc {
                     } else {
 
                         //find the 2 potential origins
-                        let intersectionPoints = path.intersection(
+                        let intersectionPoints = intersection(
                             new Circle(pointA, this.radius),
                             new Circle(pointB, this.radius)
                         )?.intersectionPoints ?? [pointA, pointB];
@@ -152,7 +157,7 @@ export class Arc implements IPathArc {
                         this.endAngle = angles[2];
 
                         //swap start and end angles if this arc does not contain the midpoint
-                        if (!measure.isBetweenArcAngles(angles[1], this, false)) {
+                        if (!measure.isBetweenArcAngles(angles[1], this as any, false)) {
                             this.startAngle = angles[2];
                             this.endAngle = angles[0];
                         }
@@ -258,7 +263,7 @@ export class Arc implements IPathArc {
                     } else {
                         //Circle from 2 points
                         this.origin = point.average(args[0], args[1]);
-                        this.radius = measure.pointDistance(this.origin, args[0]);
+                        this.radius = distance2D(this.origin, args[0]);
                     }
                     break;
 
@@ -380,7 +385,7 @@ export class Arc implements IPathArc {
                 var origin = point.add(toLine.origin, point.fromPolar(angle.toRadians(angleOfLine + offsetAngle), distance));
                 return {
                     origin: origin,
-                    nearness: measure.pointDistance(origin, nearPoint)
+                    nearness: distance2D(origin, nearPoint)
                 };
             }
 

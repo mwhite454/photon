@@ -109,6 +109,30 @@ export interface IModel {
   exporterOptions?: { [exporterName: string]: any };
 }
 
+// intersections
+
+/** An intersection of two paths. */
+export interface IPathIntersection {
+  /** The points of intersection. */
+  intersectionPoints: IPoint[];
+  /** The angle of the first path at the point of intersection. */
+  path1Angles?: number[];
+  /** The angle of the second path at the point of intersection. */
+  path2Angles?: number[];
+}
+
+/** Options for path intersection. */
+export interface IPathIntersectionOptions {
+  /** Optional boolean to only return deep intersections, i.e. not tangent. */
+  excludeTangents?: boolean;
+  /** Optional output variable which will be true if the paths are overlapped. */
+  out_AreOverlapped?: boolean;
+  /** Optional offset of the first path. */
+  path1Offset?: IPoint;
+  /** Optional offset of the second path. */
+  path2Offset?: IPoint;
+}
+
 // TEMP: Provide legacy global namespace type aliases during migration
 declare global {
   namespace MakerJs {
@@ -124,5 +148,7 @@ declare global {
     type IPathMap = import('./schema').IPathMap;
     type IModelMap = import('./schema').IModelMap;
     type IModel = import('./schema').IModel;
+    type IPathIntersection = import('./schema').IPathIntersection;
+    type IPathIntersectionOptions = import('./schema').IPathIntersectionOptions;
   }
 }

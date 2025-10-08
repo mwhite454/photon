@@ -1,5 +1,5 @@
-var assert = require('assert');
-var makerjs = require('../dist/index.js')
+import assert from 'assert';
+import * as makerjs from '../src/index.js';
 
 describe('Beziers', function () {
 

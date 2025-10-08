@@ -1,5 +1,5 @@
 import type { IModel, IPoint, IPath, IPathCircle, IPathLine, IPathArc } from './schema.js';
-import type { IChain, IChainLink, IFindChainsOptions, IPointMatchOptions, IFindLoopsOptions } from './maker.js';
+import type { IChain, IChainLink, IChainsMap, IFindChainsOptions, IPointMatchOptions, IFindLoopsOptions } from './maker.js';
 import { extendObject, isNumber, round, pathType } from './maker.js';
 import * as point from './point.js';
 import * as angle from './angle.js';
@@ -8,65 +8,20 @@ import * as measure from './measure.js';
 import * as chain from './chain.js';
 import * as model from './model.js';
 import type { IExportOptions } from './exporter.js';
-
-// Type definitions for jscad (external library)
-declare namespace jscad {
-  export class CAG {
-    static fromPoints(points: IPoint[]): CAG;
-    union(other: CAG): CAG;
-    subtract(other: CAG): CAG;
-    extrude(options: { offset: number[] }): CSG;
-  }
-  export class CSG {
-    union(other: CSG): CSG;
-    translate(offset: number[]): CSG;
-    namespace Path2D {
-      export function arc(options: CSG.IArcOptions): any;
-    }
-  }
-  export namespace CSG {
-    export interface ICircleOptions {
-      center: number[];
-      radius: number;
-      resolution?: number;
-    }
-    export interface IArcOptions {
-      center: number[];
-      radius: number;
-      startangle: number;
-      endangle: number;
-      resolution?: number;
-    }
-    export interface IEllpiticalArcOptions {
-      radius: number;
-      clockwise: boolean;
-      large: boolean;
-      resolution?: number;
-    }
-  }
-  export interface StlSerializer {
-    serialize(csg: CSG, options: { binary: boolean; statusCallback?: IStatusCallback }): string;
-  }
-}
+import type * as jscad from '../types/jscad.js';
 
 export interface IStatusCallback {
   (status: { progress: number }): void;
 }
 
-interface IChainLinkFunction {
-  (pathValue: IPath, link: IChainLink): void;
-}
-
-interface IChainLinkFunctionMap {
-  [type: string]: IChainLinkFunction;
-}
+type ChainHandler = (pathValue: IPath, link: IChainLink) => void;
 
 function wrap(prefix: string, content: string, condition?: any): string {
+  if (!prefix) return content;
   if (condition) {
     return prefix + '(' + content + ')';
-  } else {
-    return content;
   }
+  return prefix + content;
 }
 
 function facetSizeToResolution(arcOrCircle: IPathCircle, facetSize?: number): number | undefined {
@@ -86,9 +41,10 @@ function chainToJscadScript(chainContext: IChain, facetSize?: number, accuracy?:
   let exit = false;
   let reverseTail = false;
 
-  const beginMap: IChainLinkFunctionMap = {};
+  const beginMap: Partial<Record<string, ChainHandler>> = {};
 
-  beginMap[pathType.Circle] = function (circle: IPathCircle, link: IChainLink) {
+  beginMap[pathType.Circle] = function (circlePath: IPath, link: IChainLink) {
+    const circle = circlePath as IPathCircle;
     const circleOptions: jscad.CSG.ICircleOptions = {
       center: point.rounded(point.add(circle.origin, link.walkedPath.offset), accuracy) as number[],
       radius: round(circle.radius, accuracy),
@@ -98,7 +54,7 @@ function chainToJscadScript(chainContext: IChain, facetSize?: number, accuracy?:
     exit = true;
   };
 
-  beginMap[pathType.Line] = function (line: IPathLine, link: IChainLink) {
+  beginMap[pathType.Line] = function (linePath: IPath, link: IChainLink) {
     let points = link.endPoints.map(p => point.rounded(p, accuracy));
     if (link.reversed) {
       points.reverse();
@@ -106,7 +62,8 @@ function chainToJscadScript(chainContext: IChain, facetSize?: number, accuracy?:
     head = wrap('new CSG.Path2D', JSON.stringify(points), true);
   };
 
-  beginMap[pathType.Arc] = function (arc: IPathArc, link: IChainLink) {
+  beginMap[pathType.Arc] = function (arcPath: IPath, link: IChainLink) {
+    const arc = arcPath as IPathArc;
     const endAngle = angle.ofArcEnd(arc);
     if (link.reversed) {
       reverseTail = true;
@@ -121,15 +78,16 @@ function chainToJscadScript(chainContext: IChain, facetSize?: number, accuracy?:
     head = wrap('new CSG.Path2D.arc', JSON.stringify(arcOptions), true);
   };
 
-  const appendMap: IChainLinkFunctionMap = {};
+  const appendMap: Partial<Record<string, ChainHandler>> = {};
 
-  appendMap[pathType.Line] = function (line: IPathLine, link: IChainLink) {
+  appendMap[pathType.Line] = function (_linePath: IPath, link: IChainLink) {
     const reverse = reverseTail != link.reversed;
     const endPoint = point.rounded(link.endPoints[reverse ? 0 : 1], accuracy);
     append(wrap('.appendPoint', JSON.stringify(endPoint), true));
   };
 
-  appendMap[pathType.Arc] = function (arc: IPathArc, link: IChainLink) {
+  appendMap[pathType.Arc] = function (arcPath: IPath, link: IChainLink) {
+    const arc = arcPath as IPathArc;
     const reverse = reverseTail != link.reversed;
     const endAngle = angle.ofArcEnd(arc);
     const arcOptions: jscad.CSG.IEllpiticalArcOptions = {
@@ -154,7 +112,7 @@ function chainToJscadScript(chainContext: IChain, facetSize?: number, accuracy?:
     const link = chainContext.links[i];
     const pathContext = link.walkedPath.pathContext;
 
-    const fn = first ? beginMap[pathContext.type] : appendMap[pathContext.type];
+    const fn = (first ? beginMap[pathContext.type] : appendMap[pathContext.type]) as ChainHandler | undefined;
 
     if (fn) {
       fn(pathContext, link);
@@ -197,8 +155,10 @@ function convertChainsTo2D<T>(
   const status = { total: 0, complete: 0 };
 
   function unionize(phaseStart: number, phaseSpan: number, arr: T[]) {
-    let result = arr.shift()!;
-    arr.forEach(el => (result = union(result, el)));
+    let result = arr[0];
+    for (let i = 1; i < arr.length; i += 1) {
+      result = union(result, arr[i]);
+    }
     status.complete++;
 
     jsCadCagOptions.statusCallback &&
@@ -246,13 +206,19 @@ function convertChainsTo2D<T>(
 
   jsCadCagOptions.statusCallback && jsCadCagOptions.statusCallback({ progress: 25 });
 
-  const chainsResult = model.findChains(modelToExport, options);
+  const chainsResult = chain.findChains(modelToExport, options);
+  if (!chainsResult) {
+    jsCadCagOptions.statusCallback && jsCadCagOptions.statusCallback({ progress: 100 });
+    throw new Error('No closed geometries found.');
+  }
+
   if (Array.isArray(chainsResult)) {
     addChains('', chainsResult);
   } else {
-    for (const layerId in chainsResult) {
-      addChains(layerId, chainsResult[layerId]);
-    }
+    const chainsByLayer = chainsResult as IChainsMap;
+    Object.keys(chainsByLayer).forEach(layerId => {
+      addChains(layerId, chainsByLayer[layerId] ?? []);
+    });
   }
 
   jsCadCagOptions.statusCallback && jsCadCagOptions.statusCallback({ progress: 50 });
@@ -312,9 +278,11 @@ export function toJscadCAG(
   jsCadCagOptions?: IJscadCagOptions
 ): jscad.CAG | { [layerId: string]: jscad.CAG } {
   function chainToJscadCag(c: IChain, maxArcFacet: number) {
-    const keyPoints = chain.toKeyPoints(c, maxArcFacet);
-    keyPoints.push(keyPoints[0]);
-    return jscadCAG.fromPoints(keyPoints);
+    const keyPoints = chain.toKeyPoints(c, maxArcFacet).map(pt => [pt[0], pt[1]] as number[]);
+    if (keyPoints.length > 0) {
+      keyPoints.push([keyPoints[0][0], keyPoints[0][1]]);
+    }
+    return jscadCAG.fromPoints(keyPoints as number[][]);
   }
 
   function jscadCagUnion(augend: jscad.CAG, addend: jscad.CAG) {
@@ -353,9 +321,11 @@ function convert2Dto3D<T2D, T3D>(
   const csgs: T3D[] = [];
 
   if (options.byLayers) {
-    for (const layerId in result2D as { [layerId: string]: T2D }) {
-      const layerOptions = options.layerOptions![layerId];
-      const csg = to3D(result2D[layerId], layerOptions.extrude || options.extrude!, getDefinedNumber(layerOptions.z, options.z)!);
+    const map = result2D as { [layerId: string]: T2D };
+    for (const layerId in map) {
+      if (!Object.prototype.hasOwnProperty.call(map, layerId)) continue;
+      const layerOptions = (options.layerOptions && options.layerOptions[layerId]) || {};
+      const csg = to3D(map[layerId], layerOptions.extrude ?? options.extrude!, getDefinedNumber(layerOptions.z, options.z)!);
       csgs.push(csg);
     }
   } else {
@@ -365,14 +335,18 @@ function convert2Dto3D<T2D, T3D>(
 
   options.statusCallback = makePhasedCallback(originalCb, 50, 100);
 
-  const status = { total: csgs.length - 1, complete: 0 };
+  if (csgs.length === 0) {
+    throw new Error('No extrusions generated.');
+  }
 
-  let result = csgs.shift()!;
-  csgs.forEach((el, i) => {
-    result = union3D(result, el);
+  const status = { total: Math.max(csgs.length - 1, 1), complete: 0 };
+
+  let result = csgs[0];
+  for (let i = 1; i < csgs.length; i += 1) {
+    result = union3D(result, csgs[i]);
     status.complete++;
-    options.statusCallback!({ progress: status.complete / status.total });
-  });
+    options.statusCallback && options.statusCallback({ progress: status.complete / status.total });
+  }
 
   return result;
 }
@@ -435,7 +409,7 @@ export function toJscadCSG(jscadCAG: typeof jscad.CAG, modelToExport: IModel, op
  */
 export function toJscadScript(modelToExport: IModel, options: IJscadScriptOptions = {}) {
   function _chainToJscadScript(c: IChain, maxArcFacet: number) {
-    return wrap(chainToJscadScript(c, maxArcFacet, options.accuracy));
+    return wrap('', chainToJscadScript(c, maxArcFacet, options.accuracy));
   }
 
   function scriptUnion(augend: string, addend: string) {

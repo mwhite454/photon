@@ -262,13 +262,13 @@ export function childrenOnChain(parentModel: IModel, onChain: IChain, baseline =
  * Example:
  * ```
  * //daisy petals
- * var makerjs = require('makerjs');
+ * import * as makerjs from 'maker.js';
  *
- * var belt = new makerjs.models.Belt(5, 50, 20);
+ * const belt = new makerjs.models.Belt(5, 50, 20);
  *
  * makerjs.model.move(belt, [25, 0]);
  * 
- * var petals = makerjs.layout.cloneToRadial(belt, 8, 45);
+ * const petals = makerjs.layout.cloneToRadial(belt, 8, 45);
  * 
  * document.write(makerjs.exporter.toSVG(petals));
  * ```
@@ -335,13 +335,13 @@ function cloneTo(dimension: number, itemToClone: IModel | IPath, count: number, 
  * Example:
  * ```
  * //Grooves for a finger joint
- * var m = require('makerjs');
+ * import * as makerjs from 'maker.js';
  * 
- * var dogbone = new m.models.Dogbone(50, 20, 2, -1, false);
+ * const dogbone = new makerjs.models.Dogbone(50, 20, 2, -1, false);
  * 
- * var grooves = m.layout.cloneToColumn(dogbone, 5, 20);
+ * const grooves = makerjs.layout.cloneToColumn(dogbone, 5, 20);
  * 
- * document.write(m.exporter.toSVG(grooves));
+ * document.write(makerjs.exporter.toSVG(grooves));
  * ```
  * 
  * @param itemToClone: Either a model or a path object.
@@ -359,18 +359,18 @@ export function cloneToColumn(itemToClone: IModel | IPath, count: number, margin
  * Example:
  * ```
  * //Tongue and grooves for a box joint
- * var m = require('makerjs');
- * var tongueWidth = 60;
- * var grooveWidth = 50;
- * var grooveDepth = 30;
- * var groove = new m.models.Dogbone(grooveWidth, grooveDepth, 5, 0, true);
+ * import * as makerjs from 'maker.js';
+ * const tongueWidth = 60;
+ * const grooveWidth = 50;
+ * const grooveDepth = 30;
+ * const groove = new makerjs.models.Dogbone(grooveWidth, grooveDepth, 5, 0, true);
  * 
- * groove.paths['leftTongue'] = new m.paths.Line([-tongueWidth / 2, 0], [0, 0]);
- * groove.paths['rightTongue'] = new m.paths.Line([grooveWidth, 0], [grooveWidth + tongueWidth / 2, 0]);
+ * groove.paths['leftTongue'] = new makerjs.paths.Line([-tongueWidth / 2, 0], [0, 0]);
+ * groove.paths['rightTongue'] = new makerjs.paths.Line([grooveWidth, 0], [grooveWidth + tongueWidth / 2, 0]);
  * 
- * var tongueAndGrooves = m.layout.cloneToRow(groove, 3);
+ * const tongueAndGrooves = makerjs.layout.cloneToRow(groove, 3);
  * 
- * document.write(m.exporter.toSVG(tongueAndGrooves));
+ * document.write(makerjs.exporter.toSVG(tongueAndGrooves));
  * ```
  * 
  * @param itemToClone: Either a model or a path object.
@@ -388,10 +388,10 @@ export function cloneToRow(itemToClone: IModel | IPath, count: number, margin = 
  * Example:
  * ```
  * //Grid of squares
- * var m = require('makerjs');
- * var square = new m.models.Square(43);
- * var grid = m.layout.cloneToGrid(square, 5, 5, 7);
- * document.write(m.exporter.toSVG(grid));
+ * import * as makerjs from 'maker.js';
+ * const square = new makerjs.models.Square(43);
+ * const grid = makerjs.layout.cloneToGrid(square, 5, 5, 7);
+ * document.write(makerjs.exporter.toSVG(grid));
  * ```
  * 
  * @param itemToClone: Either a model or a path object.
@@ -453,18 +453,18 @@ function cloneToAlternatingRows(itemToClone: IModel | IPath, xCount: number, yCo
  * Examples:
  * ```
  * //Brick wall
- * var m = require('makerjs');
- * var brick = new m.models.RoundRectangle(50, 30, 4);
- * var wall = m.layout.cloneToBrick(brick, 8, 6, 3);
- * document.write(m.exporter.toSVG(wall));
+ * import * as makerjs from 'maker.js';
+ * const brick = new makerjs.models.RoundRectangle(50, 30, 4);
+ * const wall = makerjs.layout.cloneToBrick(brick, 8, 6, 3);
+ * document.write(makerjs.exporter.toSVG(wall));
  * ```
  * 
  * ```
  * //Fish scales
- * var m = require('makerjs');
- * var arc = new m.paths.Arc([0, 0], 50, 20, 160);
- * var scales = m.layout.cloneToBrick(arc, 8, 20);
- * document.write(m.exporter.toSVG(scales));
+ * import * as makerjs from 'maker.js';
+ * const arc = new makerjs.paths.Arc([0, 0], 50, 20, 160);
+ * const scales = makerjs.layout.cloneToBrick(arc, 8, 20);
+ * document.write(makerjs.exporter.toSVG(scales));
  * ```
  * 
  * @param itemToClone: Either a model or a path object.
@@ -493,10 +493,10 @@ export function cloneToBrick(itemToClone: IModel | IPath, xCount: number, yCount
  * Examples:
  * ```
  * //Honeycomb
- * var m = require('makerjs');
- * var hex = new m.models.Polygon(6, 50, 30);
- * var pattern = m.layout.cloneToHoneycomb(hex, 8, 9, 10);
- * document.write(m.exporter.toSVG(pattern));
+ * import * as makerjs from 'maker.js';
+ * const hex = new makerjs.models.Polygon(6, 50, 30);
+ * const pattern = makerjs.layout.cloneToHoneycomb(hex, 8, 9, 10);
+ * document.write(makerjs.exporter.toSVG(pattern));
  * ```
  * 
  * @param itemToClone: Either a model or a path object.

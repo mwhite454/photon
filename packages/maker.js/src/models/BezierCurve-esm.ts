@@ -10,25 +10,9 @@ import * as chain from '../core/chain.js';
 import * as model from '../core/model.js';
 import * as paths from '../core/paths.js';
 
-// External Bezier.js library types
-declare const Bezier: typeof BezierJs.Bezier;
-
-let hasLib = false;
-
-function ensureBezierLib() {
-  if (hasLib) return;
-
-  try {
-    const lib = Bezier.prototype;
-    hasLib = true;
-  } catch (e) {
-    throw new Error(
-      "Bezier library not found. If you are using Node, try running 'npm install' or if you are in the browser, download http://pomax.github.io/bezierjs/bezier.js to your website and add a script tag."
-    );
-  }
-}
-
-let scratch: BezierJs.Bezier;
+// Import Bezier.js via default export for CJS compatibility, and namespace for types
+import BezierJsDefault, * as BezierJs from 'bezier-js';
+const Bezier: any = BezierJsDefault;
 
 function getScratch(seed: IPathBezierSeed) {
   const points: IPoint[] = [seed.origin];
@@ -43,15 +27,9 @@ function getScratch(seed: IPathBezierSeed) {
     return bp;
   });
 
-  if (!scratch) {
-    ensureBezierLib();
-    scratch = new Bezier(bezierJsPoints);
-  } else {
-    // invoke the constructor on the same object
-    Bezier.apply(scratch, bezierJsPoints);
-  }
-
-  return scratch;
+  // Construct a fresh Bezier instance each time. This avoids relying on global state
+  // or attempting to re-invoke a class constructor via apply.
+  return new Bezier(bezierJsPoints);
 }
 
 function BezierToSeed(b: BezierJs.Bezier, range?: IBezierRange): IPathBezierSeed {
@@ -73,7 +51,6 @@ function seedToBezier(seed: IPathBezierSeed): BezierJs.Bezier {
   }
   coords.push(seed.end[0], seed.end[1]);
 
-  ensureBezierLib();
   return new Bezier(coords);
 }
 

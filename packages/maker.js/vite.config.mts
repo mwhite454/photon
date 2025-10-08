@@ -3,6 +3,7 @@ import { resolve } from 'path';
 
 export default defineConfig({
   build: {
+    emptyOutDir: false,
     lib: {
       // ES module entry (WIP: progressively exporting modules)
       entry: resolve(__dirname, 'src/index.ts'),

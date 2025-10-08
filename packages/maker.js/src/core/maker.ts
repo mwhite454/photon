@@ -111,11 +111,13 @@ export function travel(modelContext: IModel, route: string | string[]) {
     };
 }
 
-const clone = require('clone');
-
 /** Clone an object. */
 export function cloneObject<T>(objectToClone: T): T {
-    return clone(objectToClone);
+    const anyGlobal: any = globalThis as any;
+    if (typeof anyGlobal.structuredClone === 'function') {
+        return anyGlobal.structuredClone(objectToClone);
+    }
+    return JSON.parse(JSON.stringify(objectToClone));
 }
 
 /** Copy the properties from one object to another object. */

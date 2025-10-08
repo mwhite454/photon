@@ -1,0 +1,28 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "entryPoints": ["./src"],
+  "entryPointStrategy": "expand",
+  "out": "./dist/docs",
+  "json": "./dist/project.json",
+  "exclude": [
+    "**/*+(index|.spec|.test).ts",
+    "**/node_modules/**",
+    "**/debug/**",
+    "**/dist/**"
+  ],
+  "excludeExternals": true,
+  "excludePrivate": true,
+  "excludeProtected": false,
+  "includeVersion": true,
+  "readme": "../../README.md",
+  "name": "Maker.js",
+  "tsconfig": "./target/tsconfig.typedoc.json",
+  "plugin": [],
+  "logLevel": "Info",
+  "treatWarningsAsErrors": false,
+  "validation": {
+    "notExported": false,
+    "invalidLink": true,
+    "notDocumented": false
+  }
+}

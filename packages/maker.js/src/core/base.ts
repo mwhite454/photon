@@ -80,9 +80,12 @@ export function createRouteKey(route: string[]) {
 }
 
 export function cloneObject<T>(objectToClone: T): T {
-  // eslint-disable-next-line @typescript-eslint/no-var-requires
-  const clone = require('clone');
-  return clone(objectToClone);
+  // Prefer native structuredClone when available (Node >=17, modern browsers)
+  // Fallback to JSON for plain data structures used in Maker.js (objects/arrays of numbers/strings)
+  if (typeof (globalThis as any).structuredClone === 'function') {
+    return (globalThis as any).structuredClone(objectToClone);
+  }
+  return JSON.parse(JSON.stringify(objectToClone));
 }
 
 export function extendObject(target: Record<string, any>, other: Record<string, any>) {

@@ -1,49 +1,51 @@
 import * as fs from "fs";
 import * as path from "path";
-import * as changeCase from "change-case";
+import { capitalCase } from "change-case";
 
-//TypeScript can't resolve import :(
-var sortKeys = require("sort-keys");
-var fontRoot = "../../docs/fonts/";
-var tags = require(fontRoot + "tags");
+import sortKeys from "sort-keys";
+const fontRoot = "../../docs/fonts/";
+const tags: Record<string, string[]> = JSON.parse(
+    fs.readFileSync(path.join(fontRoot, "tags.json"), "utf8")
+);
 
-var out = {};
+const out: Record<string, { displayName: string; path: string; tags?: unknown }> = {};
 
-var dirs = fs.readdirSync(fontRoot).filter(function (file) {
+const dirs = fs.readdirSync(fontRoot).filter(function (file) {
     return fs.statSync(path.join(fontRoot, file)).isDirectory();
 });
 
 dirs.forEach(function (dir) {
-    var ext = '.ttf';
+    const ext = '.ttf';
 
-    var fonts = fs.readdirSync(path.join(fontRoot, dir)).filter(function (file) {
-        return path.extname(file).toLowerCase() == ext;
+    const fonts = fs.readdirSync(path.join(fontRoot, dir)).filter(function (file) {
+        return path.extname(file).toLowerCase() === ext;
     });
 
     fonts.forEach(function (font) {
-        var name = font.substring(0, font.length - ext.length);
-        var display = changeCase.capitalCase(name.replace(/-regular/i, '').replace('-', ''));
-        var key = name.toLowerCase();
+        const name = font.substring(0, font.length - ext.length);
+        const display = capitalCase(name.replace(/-regular/i, '').replace('-', ''));
+        const key = name.toLowerCase();
         out[key] = { displayName: display, path: [dir, font].join('/') };
     });
 })
 
 function write(fileName, content) {
-    var fd = fs.openSync(path.join(fontRoot, fileName), 'w');
+    const fd = fs.openSync(path.join(fontRoot, fileName), 'w');
     fs.writeSync(fd, content);
     fs.closeSync(fd);
 }
 
-var sorted = sortKeys(out, {
+const sorted = sortKeys(out, {
     compare: (a, b) => out[a].displayName.localeCompare(out[b].displayName)
 });
 
-for (var id in sorted) {
-    sorted[id].tags = tags[id];
+for (const id in sorted) {
+    if (!Object.prototype.hasOwnProperty.call(sorted, id)) continue;
+    sorted[id].tags = tags[id] ?? [];
 }
 
-var json = JSON.stringify(sorted, null, '  ');
+const json = JSON.stringify(sorted, null, '  ');
 
-write('../../docs/fonts/fonts.js', 'var playgroundFonts = ' + json + ';\n');
+write('fonts.js', 'var playgroundFonts = ' + json + '\n');
 
 console.log('playgroundFonts written successfully')

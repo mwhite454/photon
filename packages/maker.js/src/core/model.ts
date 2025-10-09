@@ -1,14 +1,24 @@
 import { IModel, IPoint, IPath, ICaption, IPathLine, IPathBezierSeed } from './schema.js';
 import { cloneObject, isPath, pathType } from './maker.js';
-import type { IWalkOptions, IModelPathCallback, IWalkPath, IWalkModel } from './maker.js';
+import type { IWalkOptions, IModelPathCallback, IWalkPath, IWalkModel, IChain, IChainCallback, IFindChainsOptions, IChainsMap } from './maker.js';
 import * as point from './point.js';
 import * as path from './path.js';
 import * as paths from './paths.js';
 import * as units from './units.js';
 import * as measure from './measure-minimal.js';
+import { BezierCurve } from '../models/BezierCurve-esm.js';
+import { findChains as chainFindChains, findSingleChain as chainFindSingleChain } from './chain.js';
 
-// TEMP: model references will be self-referential
-declare const models: any;
+export function findChains(modelContext: IModel, callbackOrOptions?: IChainCallback | IFindChainsOptions, maybeOptions?: IFindChainsOptions): IChain[] | IChainsMap {
+    if (typeof callbackOrOptions === 'function') {
+        return chainFindChains(modelContext, callbackOrOptions as IChainCallback, maybeOptions);
+    }
+    return chainFindChains(modelContext, callbackOrOptions as IFindChainsOptions);
+}
+
+export function findSingleChain(modelContext: IModel): IChain {
+    return chainFindSingleChain(modelContext);
+}
 
 /** Add a Caption object to a model. */
 export function addCaption(modelContext: IModel, text: string, leftAnchorPoint?: IPoint, rightAnchorPoint?: IPoint) {
@@ -193,8 +203,8 @@ export function originate(modelToOriginate: IModel, origin?: IPoint) {
 
             const newOrigin = point.add(m.origin, o);
 
-            if (m.type === models.BezierCurve.typeName) {
-                path.moveRelative((m as models.BezierCurve).seed, newOrigin);
+            if (m.type === BezierCurve.typeName) {
+                path.moveRelative((m as BezierCurve).seed, newOrigin);
             }
 
             if (m.paths) {
@@ -271,9 +281,9 @@ export function mirror(modelToMirror: IModel, mirrorX: boolean, mirrorY: boolean
             newModel.units = modelToMirror.units;
         }
 
-        if (modelToMirror.type === models.BezierCurve.typeName) {
-            newModel.type = models.BezierCurve.typeName;
-            (newModel as models.BezierCurve).seed = path.mirror((modelToMirror as models.BezierCurve).seed, mirrorX, mirrorY) as IPathBezierSeed;
+        if (modelToMirror.type === BezierCurve.typeName) {
+            newModel.type = BezierCurve.typeName;
+            (newModel as BezierCurve).seed = path.mirror((modelToMirror as BezierCurve).seed, mirrorX, mirrorY) as IPathBezierSeed;
         }
 
         if (modelToMirror.paths) {
@@ -375,8 +385,8 @@ export function rotate(modelToRotate: IModel, angleInDegrees: number, rotationOr
 
         const offsetOrigin = point.subtract(rotationOrigin, modelToRotate.origin);
 
-        if (modelToRotate.type === models.BezierCurve.typeName) {
-            path.rotate((modelToRotate as models.BezierCurve).seed, angleInDegrees, offsetOrigin);
+        if (modelToRotate.type === BezierCurve.typeName) {
+            path.rotate((modelToRotate as BezierCurve).seed, angleInDegrees, offsetOrigin);
         }
 
         if (modelToRotate.paths) {
@@ -412,8 +422,8 @@ export function scale(modelToScale: IModel, scaleValue: number, scaleOrigin = fa
             modelToScale.origin = point.scale(modelToScale.origin, scaleValue);
         }
 
-        if (modelToScale.type === models.BezierCurve.typeName) {
-            path.scale((modelToScale as models.BezierCurve).seed, scaleValue);
+        if (modelToScale.type === BezierCurve.typeName) {
+            path.scale((modelToScale as BezierCurve).seed, scaleValue);
         }
 
         if (modelToScale.paths) {
@@ -446,7 +456,7 @@ export function scale(modelToScale: IModel, scaleValue: number, scaleOrigin = fa
         }
         if (isPath(distortedPath)) {
             if (distortedPath.type === pathType.BezierSeed) {
-                const curve = new models.BezierCurve(distortedPath as IPathBezierSeed, bezierAccuracy);
+                const curve = new BezierCurve(distortedPath as IPathBezierSeed, bezierAccuracy);
                 addModel(parentModel, curve, pathId);
             } else {
                 addPath(parentModel, distortedPath as IPath, pathId);
@@ -476,9 +486,9 @@ export function distort(modelToDistort: IModel, scaleX: number, scaleY: number, 
             distorted.origin = point.distort(modelToDistort.origin, scaleX, scaleY);
         }
 
-        if (modelToDistort.type === models.BezierCurve.typeName) {
-            const b = modelToDistort as models.BezierCurve;
-            const bezierPartsByLayer = models.BezierCurve.getBezierSeeds(b, { byLayers: true, pointMatchingDistance: bezierAccuracy });
+        if (modelToDistort.type === BezierCurve.typeName) {
+            const b = modelToDistort as BezierCurve;
+            const bezierPartsByLayer = BezierCurve.getBezierSeeds(b, { byLayers: true, pointMatchingDistance: bezierAccuracy });
             for (let layer in bezierPartsByLayer) {
                 let pathArray = bezierPartsByLayer[layer]
                 pathArray.forEach((p, i) => {

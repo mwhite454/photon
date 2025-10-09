@@ -17,9 +17,15 @@ import * as solvers from './solvers.js';
 import * as models from '../models/index.js';
 import { isPointEqual, isPointDistinct, isPointOnSlope } from './equal.js';
 import { intersection } from './intersect.js';
+import grahamScanModule from 'graham_scan';
 
-// @ts-ignore - graham_scan doesn't have types
-const graham_scan = require('graham_scan') as typeof ConvexHullGrahamScan;
+interface IGrahamScan {
+    addPoint(x: number, y: number): void;
+    getHull(): { x: number; y: number }[];
+}
+
+type GrahamScanConstructor = new () => IGrahamScan;
+const GrahamScan = (grahamScanModule as unknown as { default?: GrahamScanConstructor }).default ?? (grahamScanModule as unknown as GrahamScanConstructor);
 
 /**
  * Interface to Math.min and Math.max functions.
@@ -239,7 +245,7 @@ export function increase(baseMeasure: IMeasure, addMeasure: IMeasure, augmentBas
      * @returns Boolean true if points flow clockwise.
      */
     export function isPointArrayClockwise(points: IPoint[], out_result?: { hullPoints?: IPoint[], keyPoints?: IPoint[] }) {
-        var convexHull = new graham_scan();
+        const convexHull = new GrahamScan();
         var pointsInOrder: string[] = [];
 
         function add(endPoint: IPoint) {

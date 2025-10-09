@@ -26,7 +26,7 @@
     "build:types": "tsc -p target/tsconfig.esm.json",
     "build:lib": "vite build",
     "dev:lib": "vite",
-    "test": "mocha --timeout 15000",
+    "test": "npm run build && mocha --timeout 15000",
     "prepublish": "node ./target/prepublish.js"
   },
   "maintainers": [

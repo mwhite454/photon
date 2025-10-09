@@ -1,6 +1,7 @@
 import { IPoint } from './schema.js';
 import { round } from './maker.js';
 import * as measure from './measure-minimal.js';
+import KDBush from 'kdbush';
 
 /** Compare keys to see if they are equal. */
 export interface ICollectionKeyComparer<K> {
@@ -86,27 +87,7 @@ export class Collector<K, T> {
     /**
      * @private
      */
-    declare class KDBush {
-        range(minX: number, minY: number, maxX: number, maxY: number): number[];
-        within(x: number, y: number, r: number): number[];
-    }
-
-    /**
-     * @private
-     */
-    interface kdbushLib {
-        (points: IPoint[]): KDBush;
-    }
-
-    /**
-     * @private
-     */
-    const _kdbush = require('kdbush');
-
-    /**
-     * @private
-     */
-    const kdbush = (_kdbush.default || _kdbush) as kdbushLib;
+    // using typed KDBush from the ESM package
 
     /**
      * The element type stored in the index of a PointGraph.
@@ -172,7 +153,7 @@ export class PointGraph<T> {
         /**
          * KD tree object.
          */
-        private kdbush: KDBush;
+        private kdbush: KDBush<IPoint>;
 
         constructor() {
             this.reset();
@@ -246,7 +227,7 @@ export class PointGraph<T> {
                 points.push(p);
                 kEls.push(el);
             }
-            this.kdbush = kdbush(points);
+            this.kdbush = new KDBush(points, (pt) => pt[0], (pt) => pt[1]);
             for (let pointId in this.index) {
                 if (pointId in this.merged) continue;
                 let el = this.index[pointId];
@@ -271,7 +252,7 @@ export class PointGraph<T> {
                     singles.push(el);
                 }
             }
-            this.kdbush = kdbush(singles.map(el => el.point));
+            this.kdbush = new KDBush(singles.map(el => el.point), (pt) => pt[0], (pt) => pt[1]);
             singles.forEach(el => {
                 if (el.pointId in this.merged) return;
                 let mergeIds = this.kdbush.within(el.point[0], el.point[1], withinDistance);

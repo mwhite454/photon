@@ -1,6 +1,6 @@
 # Maker.js Modernization Inventory
 
-**Last Updated:** 2025-10-07
+**Last Updated:** 2025-10-08
 
 This document tracks the progress of converting Maker.js from TypeScript namespaces to modern ES6 modules with import/export statements.
 
@@ -91,7 +91,7 @@ This document tracks the progress of converting Maker.js from TypeScript namespa
 ### ⏳ Remaining Namespace Files (7 files)
 
 #### Core Modules (1 file)
-- ⏳ `src/core/cascades.ts` - Uses `namespace MakerJs` (generated file - needs build script update)
+- ⏳ `src/core/cascades.ts` - Uses `namespace MakerJs` (generated). Generator now runs under ESM (`target/cascadable.js`) during `npm run build` and updates this file.
 
 ---
 
@@ -226,6 +226,9 @@ When converting a file from namespace to ES6 modules:
 - ✅ **Layout Module Modernized** - All layout functions (radial, grid, brick, honeycomb) in ES6
 - ✅ **All Major Exporters Modernized** - SVG, PDF, and OpenJSCAD in ES6 modules
 - ✅ **BezierCurve Model Modernized** - Complex Bezier curve support in ES6 modules
+ - ✅ **Test Harness Stabilized** - Converted offending CommonJS tests to ESM; added `createRequire` for UMD checks
+ - ✅ **Types Emission Fixed** - `dist/types/index.d.ts` now generated; Vite no longer clears it (`emptyOutDir: false`)
+ - ✅ **Browser Bundle Clean** - Removed `clone` dependency to avoid Buffer usage in browser bundle
 
 ---
 

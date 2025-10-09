@@ -1,0 +1,11 @@
+{
+  "extension": ["ts"],
+  "spec": "test/**/*.spec.ts",
+  "require": ["tsx/cjs"],
+  "node-option": [
+    "import=tsx"
+  ],
+  "timeout": 15000,
+  "color": true,
+  "reporter": "spec"
+}

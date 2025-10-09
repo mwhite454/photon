@@ -1,17 +1,11 @@
 {
+  "extends": "./tsconfig.base.json",
   "compilerOptions": {
+    "target": "ES2015",
+    "module": "ES2015",
     "lib": ["dom", "es2015"],
     "outDir": "debug/",
-    "sourceMap": true,
-    "types": [
-      "dxf-parser",
-      "@danmarshall/jscad-typings",
-      "bezier-js",
-      "graham_scan",
-      "node",
-      "opentype.js",
-      "pdfkit"
-    ]
+    "sourceMap": true
   },
 "files": [
     "src/core/schema.ts",
@@ -42,13 +36,9 @@
     "src/core/chain.ts",
     "src/core/deadend.ts",
     "src/core/xml.ts",
-    "src/core/openjscad.ts",
-    "src/core/pdf.ts",
-    "src/core/svg.ts",
     "src/core/svg-helpers.ts",
     "src/core/svg-esm.ts",
     "src/core/layout.ts",
-    "src/models/BezierCurve.ts",
     "src/models/Ellipse.ts",
     "src/models/ConnectTheDots.ts",
     "src/models/Polygon.ts",

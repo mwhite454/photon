@@ -1,8 +1,8 @@
-const fs = require('fs');
+import fs from 'fs';
 const utf8 = 'utf8';
 
 function copyFromRoot(filename) {
-    var content = fs.readFileSync(`../../${filename}`, utf8);
+    const content = fs.readFileSync(`../../${filename}`, utf8);
     fs.writeFileSync(`./${filename}`, content, utf8);
 }
 

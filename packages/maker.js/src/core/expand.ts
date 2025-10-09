@@ -1,5 +1,5 @@
 import type { IChain, ICombineOptions, IWalkOptions, IWalkPath } from './maker.js';
-import type { IModel, IModelMap, IPath, IPathArc, IPathCircle, IPathLine } from './schema.js';
+import type { IModel, IModelMap, IPath, IPathArc, IPathCircle, IPathLine, IPoint } from './schema.js';
 import { pathType } from './maker.js';
 import * as angle from './angle.js';
 import * as point from './point.js';
@@ -8,14 +8,19 @@ import * as modelUtils from './model.js';
 import { combine } from './combine.js';
 import { simplify } from './simplify.js';
 import * as measure from './measure-minimal.js';
+import * as measureFull from './measure.js';
 import { findChains, toNewModel } from './chain.js';
 import { OvalArc } from '../models/OvalArc.js';
 import { Ring } from '../models/Ring.js';
 import { Slot } from '../models/Slot.js';
 import { ConnectTheDots } from '../models/ConnectTheDots.js';
 
-type PathExpansionFactory = (pathValue: IPath, expansion: number, isolateCaps: boolean) => IModel | null;
+function circumscribedRadius(radius: number, angleInRadians: number): number {
+    if (angleInRadians === 0) return radius;
+    return radius / Math.cos(angleInRadians / 2);
+}
 
+type PathExpansionFactory = (pathValue: IPath, expansion: number, isolateCaps: boolean) => IModel | null;
 const pathExpansionMap: Record<string, PathExpansionFactory> = {
     [pathType.Arc](arc: IPathArc, expansion: number, isolateCaps: boolean) {
         return new OvalArc(arc.startAngle, arc.endAngle, arc.radius, expansion, false, isolateCaps);
@@ -51,13 +56,13 @@ export function straighten(arc: IPathArc, bevel?: boolean, prefix?: string, clos
     }
 
     const jointAngleInRadians = angle.toRadians(arcSpan / joints);
-    const circumscribedRadius = Slot.circumscribedRadius?.(arc.radius, jointAngleInRadians) ?? 0;
+    const jointRadius = circumscribedRadius(arc.radius, jointAngleInRadians);
     const ends = point.fromArc(arc);
-    const points: point.IPoint[] = [point.subtract(ends[0], arc.origin)];
+    const points: IPoint[] = [point.subtract(ends[0], arc.origin)];
     let a = angle.toRadians(arc.startAngle) + jointAngleInRadians / 2;
 
     for (let i = 0; i < joints; i += 1) {
-        points.push(point.fromPolar(a, circumscribedRadius));
+        points.push(point.fromPolar(a, jointRadius));
         a += jointAngleInRadians;
     }
 
@@ -138,7 +143,7 @@ export function expandPaths(modelToExpand: IModel, distance: number, joints = 0,
         modelUtils.walk(roundCaps, {
             onPath(walkedPath: IWalkPath) {
                 const arc = walkedPath.pathContext as IPathArc;
-                const straightened = pathUtils.straighten(arc, joints === 2, `${walkedPath.pathId}_`, true);
+                const straightened = straighten(arc, joints === 2, `${walkedPath.pathId}_`, true);
                 combine(result, straightened, false, true, false, true, combineOptions);
                 if (combineOptions.measureA) {
                     combineOptions.measureA.modelsMeasured = false;
@@ -162,7 +167,19 @@ export function expandPaths(modelToExpand: IModel, distance: number, joints = 0,
 }
 
 function getEndlessChains(modelContext: IModel): IChain[] {
-    return findChains(modelContext, chains => chains.filter(chain => chain.endless)) ?? [];
+    const chainsResult = findChains(modelContext);
+    if (!chainsResult) return [];
+    const filterEndless = (chains: IChain[]) => chains.filter(chain => chain.endless);
+    if (Array.isArray(chainsResult)) {
+        return filterEndless(chainsResult);
+    }
+    const result: IChain[] = [];
+    const chainsByLayer = chainsResult as Record<string, IChain[]>;
+    for (const layerId in chainsByLayer) {
+        if (!Object.prototype.hasOwnProperty.call(chainsByLayer, layerId)) continue;
+        result.push(...filterEndless(chainsByLayer[layerId] ?? []));
+    }
+    return result;
 }
 
 function getClosedGeometries(modelContext: IModel): IModel | null {
@@ -191,7 +208,7 @@ export function outline(modelToOutline: IModel, distance: number, joints = 0, in
     const chains = getEndlessChains(expanded);
     chains.forEach(c => {
         const wp = c.links[0].walkedPath;
-        const isInside = measure.isPointInsideModel(point.middle(wp.pathContext), closed, wp.offset);
+        const isInside = measureFull.isPointInsideModel(point.middle(wp.pathContext), closed, wp.offset);
         if ((inside && isInside) || (!inside && !isInside)) {
             result.models[childCount++] = toNewModel(c);
         }

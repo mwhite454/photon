@@ -98,40 +98,38 @@ Each of the [demos](https://maker.js.org/demos/#content) will also open in the p
 
 ### To use in a web browser
 
-Download the browser-based version of Maker.js, then upload it to your website:
-[https://maker.js.org/target/js/browser.maker.js](https://maker.js.org/target/js/browser.maker.js)
+Use the ES module build (recommended):
 
-Add a script tag in your HTML:
 ```html
-<script src="https://maker.js.org/target/js/browser.maker.js" type="text/javascript"></script>
+<script type="module">
+  import * as makerjs from "https://cdn.jsdelivr.net/npm/makerjs@0/dist/maker.es.js";
+  // use makerjs...
+</script>
 ```
 
-*Note: You may also need [additional libraries](https://maker.js.org/docs/getting-started/#For+the+browser)*
+Or use the UMD bundle for a global `makerjs` variable:
 
-In your JavaScript, use the require function to get a reference:
- 
-```javascript
-var makerjs = require('makerjs');
+```html
+<script src="https://cdn.jsdelivr.net/npm/makerjs@0/dist/maker.umd.js"></script>
+<script>
+  const { models, paths, exporter } = window.makerjs;
+  // use makerjs globals...
+</script>
 ```
 
 ### To use via CDN
 
-Add a script tag to your HTML:
-```
-<script src="https://cdn.jsdelivr.net/npm/makerjs@0/target/js/browser.maker.js"></script>
-```
-To work with Bezier Curves, you will also need a copy of [Bezier.js by Pomax](http://pomax.github.io/bezierjs/)
-```
-<script src="https://cdn.jsdelivr.net/npm/bezier-js@2/bezier.js"></script>
-```
-To work with fonts, you will need both Bezier.js(above) and a copy of [Opentype.js by Frederik De Bleser](https://github.com/nodebox/opentype.js)
-```
-<script src="https://cdn.jsdelivr.net/npm/opentype.js@0/dist/opentype.js"></script>
-```
+- ES module: `https://cdn.jsdelivr.net/npm/makerjs@0/dist/maker.es.js`
+- UMD global: `https://cdn.jsdelivr.net/npm/makerjs@0/dist/maker.umd.js`
 
-In your JavaScript, use the `require` function to get a reference:
-```
-var makerjs = require('makerjs');
+Optional dependencies:
+
+```html
+<!-- Bezier support (required for BezierCurve model) -->
+<script src="https://cdn.jsdelivr.net/npm/bezier-js@2/bezier.js"></script>
+
+<!-- Font support for Text model -->
+<script src="https://cdn.jsdelivr.net/npm/opentype.js@0/dist/opentype.js"></script>
 ```
 
 ### To use in Node.js
@@ -141,10 +139,16 @@ To depend on Maker.js, run this from the command line:
 npm install makerjs --save
 ```
 
-In your JavaScript, use the `require` function to get a reference:
- 
-```javascript
-var makerjs = require('makerjs');
+In ESM code (recommended):
+
+```js
+import * as makerjs from 'makerjs';
+```
+
+In CommonJS code:
+
+```js
+const makerjs = require('makerjs');
 ```
 
 ## Contributing
@@ -163,7 +167,6 @@ Some of these may require a [contributor agreement](https://github.com/Microsoft
 
 ### Credits
 Maker.js depends on:
-* [clone](https://github.com/pvorb/node-clone) by Paul Vorbach
 * [bezier-js](https://github.com/Pomax/bezierjs) by Pomax
 * [graham_scan](https://github.com/brian3kb/graham_scan_js) by Brian Barnett
 * [kdbush](https://github.com/mourner/kdbush) by Vladimir Agafonkin

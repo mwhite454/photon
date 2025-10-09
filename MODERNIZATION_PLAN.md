@@ -1,5 +1,15 @@
 # Maker.js ES6 Module Modernization Plan
 
+## Status Update (2025-10-08)
+
+- All library builds (ES/UMD/IIFE) succeed via Vite.
+- Test harness stabilized; entire suite passing under ESM Mocha.
+- BezierCurve ESM integration verified at runtime; `bezier-js` default import used.
+- Cascades generator (`packages/maker.js/target/cascadable.js`) runs under ESM during `npm run build` and updates `src/core/cascades.ts`.
+- Type declarations are emitted to `dist/types/` and preserved (Vite `emptyOutDir: false`).
+- Browser bundle free of Node-only APIs (removed `clone` dep; using `structuredClone`/JSON fallback).
+- Documentation updated: `README.md` (ESM usage, CDN), `INVENTORY.md` (progress + achievements).
+
 ## Phase 1: Build Infrastructure ✅
 
 - [x] Add Vite for modern bundling

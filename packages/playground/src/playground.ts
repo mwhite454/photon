@@ -58,7 +58,7 @@ let minDockSideBySide = 1024;
     var checkFitToScreen: HTMLInputElement;
     var checkShowGrid: HTMLInputElement;
     var checkNotes: HTMLInputElement;
-    var margin: MakerJs.IPoint;
+    var margin: Photon.IPoint;
     var processed: IProcessedResult = {
         error: '',
         html: '',
@@ -73,8 +73,8 @@ let minDockSideBySide = 1024;
     var paramActiveTimeout: NodeJS.Timer;
     var longHoldTimeout: NodeJS.Timer;
     var viewModelRootSelector = 'svg#drawing > g > g';
-    var viewOrigin: MakerJs.IPoint;
-    var viewPanOffset: MakerJs.IPoint = [0, 0];
+    var viewOrigin: Photon.IPoint;
+    var viewPanOffset: Photon.IPoint = [0, 0];
     var keepEventElement: HTMLElement = null;
     var renderInWorker = {
         requestId: 0,
@@ -113,7 +113,7 @@ let minDockSideBySide = 1024;
         return true;
     }
 
-    function populateParams(metaParameters: MakerJs.IMetaParameter[]) {
+    function populateParams(metaParameters: Photon.IMetaParameter[]) {
 
         var paramValues = [];
         var paramHtml: string[] = [];
@@ -127,8 +127,8 @@ let minDockSideBySide = 1024;
 
                 var id = 'input_param_' + i;
                 var prepend = false;
-                var input: MakerJs.exporter.XmlTag = null;
-                var numberBox: MakerJs.exporter.XmlTag = null;
+                var input: Photon.exporter.XmlTag = null;
+                var numberBox: Photon.exporter.XmlTag = null;
 
                 switch (attrs.type) {
 
@@ -136,11 +136,11 @@ let minDockSideBySide = 1024;
                         sliders++;
 
                         attrs['id'] = id;
-                        attrs['onchange'] = 'MakerJsPlayground.setParam(' + i + ', makerjs.round(this.valueAsNumber, .001)); if (MakerJsPlayground.isSmallDevice()) { MakerJsPlayground.activateParam(this); MakerJsPlayground.deActivateParam(this, 1000); }';
-                        attrs['ontouchstart'] = 'MakerJsPlayground.activateParam(this)';
-                        attrs['ontouchend'] = 'MakerJsPlayground.deActivateParam(this, 1000)';
-                        attrs['onmousedown'] = 'if (MakerJsPlayground.isSmallDevice()) { MakerJsPlayground.activateParam(this); }';
-                        attrs['onmouseup'] = 'if (MakerJsPlayground.isSmallDevice()) { MakerJsPlayground.deActivateParam(this, 1000); }';
+                        attrs['onchange'] = 'PhotonPlayground.setParam(' + i + ', makerjs.round(this.valueAsNumber, .001)); if (PhotonPlayground.isSmallDevice()) { PhotonPlayground.activateParam(this); PhotonPlayground.deActivateParam(this, 1000); }';
+                        attrs['ontouchstart'] = 'PhotonPlayground.activateParam(this)';
+                        attrs['ontouchend'] = 'PhotonPlayground.deActivateParam(this, 1000)';
+                        attrs['onmousedown'] = 'if (PhotonPlayground.isSmallDevice()) { PhotonPlayground.activateParam(this); }';
+                        attrs['onmouseup'] = 'if (PhotonPlayground.isSmallDevice()) { PhotonPlayground.deActivateParam(this, 1000); }';
 
                         input = new makerjs.exporter.XmlTag('input', attrs);
 
@@ -150,14 +150,14 @@ let minDockSideBySide = 1024;
                             "type": 'number',
                             "step": 'any',
                             "value": attrs.value,
-                            "onfocus": 'if (MakerJsPlayground.isSmallDevice()) { MakerJsPlayground.activateParam(this.parentElement); }',
-                            "onblur": 'if (MakerJsPlayground.isSmallDevice()) { MakerJsPlayground.deActivateParam(this.parentElement, 0); }',
-                            "onchange": 'MakerJsPlayground.setParam(' + i + ', makerjs.round(this.valueAsNumber, .001))'
+                            "onfocus": 'if (PhotonPlayground.isSmallDevice()) { PhotonPlayground.activateParam(this.parentElement); }',
+                            "onblur": 'if (PhotonPlayground.isSmallDevice()) { PhotonPlayground.deActivateParam(this.parentElement, 0); }',
+                            "onchange": 'PhotonPlayground.setParam(' + i + ', makerjs.round(this.valueAsNumber, .001))'
                         };
 
                         var formAttrs = {
                             "action": 'javascript:void(0);',
-                            "onsubmit": 'MakerJsPlayground.setParam(' + i + ', makerjs.round(this.elements[0].valueAsNumber, .001))'
+                            "onsubmit": 'PhotonPlayground.setParam(' + i + ', makerjs.round(this.elements[0].valueAsNumber, .001))'
                         };
 
                         numberBox = new makerjs.exporter.XmlTag('form', formAttrs);
@@ -172,7 +172,7 @@ let minDockSideBySide = 1024;
 
                         var checkboxAttrs = {
                             type: 'checkbox',
-                            onchange: 'MakerJsPlayground.setParam(' + i + ', this.checked)'
+                            onchange: 'PhotonPlayground.setParam(' + i + ', this.checked)'
                         };
 
                         if (attrs.value) {
@@ -191,7 +191,7 @@ let minDockSideBySide = 1024;
 
                         var selectFontAttrs = {
                             id: id,
-                            onchange: 'MakerJsPlayground.setParam(' + i + ', this.options[this.selectedIndex].value)'
+                            onchange: 'PhotonPlayground.setParam(' + i + ', this.options[this.selectedIndex].value)'
                         };
 
                         input = new makerjs.exporter.XmlTag('select', selectFontAttrs);
@@ -222,7 +222,7 @@ let minDockSideBySide = 1024;
 
                         var selectAttrs = {
                             id: id,
-                            onchange: 'MakerJsPlayground.setParam(' + i + ', JSON.parse(this.options[this.selectedIndex].innerText))'
+                            onchange: 'PhotonPlayground.setParam(' + i + ', JSON.parse(this.options[this.selectedIndex].innerText))'
                         };
 
                         input = new makerjs.exporter.XmlTag('select', selectAttrs);
@@ -245,7 +245,7 @@ let minDockSideBySide = 1024;
                     case 'text':
 
                         attrs['id'] = id;
-                        attrs['onchange'] = 'MakerJsPlayground.setParam(' + i + ', this.value)';
+                        attrs['onchange'] = 'PhotonPlayground.setParam(' + i + ', this.value)';
 
                         input = new makerjs.exporter.XmlTag('input', attrs);
 
@@ -280,7 +280,7 @@ let minDockSideBySide = 1024;
             }
 
             //if (sliders) {
-            //var button = new makerjs.exporter.XmlTag('input', { type: 'button', onclick:'MakerJsPlayground.animate()', value: 'animate'});
+            //var button = new makerjs.exporter.XmlTag('input', { type: 'button', onclick:'PhotonPlayground.animate()', value: 'animate'});
             //paramHtml.push(button.toString());
             //}
         }
@@ -300,11 +300,11 @@ let minDockSideBySide = 1024;
         paramsDiv.setAttribute('disabled', 'true');
     }
 
-    function safeParamName(m: MakerJs.IMetaParameter) {
+    function safeParamName(m: Photon.IMetaParameter) {
         return m.title.replace(/\(.*\)/gi, '').trim().replace(/\s/gi, '_');
     }
 
-    function metaParameterAsString(m: MakerJs.IMetaParameter) {
+    function metaParameterAsString(m: Photon.IMetaParameter) {
         var result: string[] = [];
         for (var prop in m) {
             result.push(prop + ': ' + JSON.stringify(m[prop]));
@@ -312,7 +312,7 @@ let minDockSideBySide = 1024;
         return '{ ' + result.join(', ') + ' }';
     }
 
-    function generateCodeFromKit(id: string, kit: MakerJs.IKit): string {
+    function generateCodeFromKit(id: string, kit: Photon.IKit): string {
         var code: string[] = [];
         var safeParamNames = kit.metaParameters.map(safeParamName).join(', ');
 
@@ -341,53 +341,47 @@ let minDockSideBySide = 1024;
         document.body.classList.remove('download-ready');
     }
 
-    class Frown implements MakerJs.IModel {
-        public paths: MakerJs.IPathMap;
+    class Frown implements Photon.IModel {
+        public paths: Photon.IPathMap;
 
         constructor() {
             this.paths = {
-                head: new makerjs.paths.Circle([0, 0], 85),
-                eye1: new makerjs.paths.Circle([-25, 25], 10),
-                eye2: new makerjs.paths.Circle([25, 25], 10),
-                frown: new makerjs.paths.Arc([0, -75], 50, 45, 135)
+                face: new makerjs.paths.Circle([0, 0], 100),
+                mouth: new makerjs.paths.Arc([0, 0], 70, 210, 330)
             };
         }
     }
 
-    class StraightFace implements MakerJs.IModel {
-        public paths: MakerJs.IPathMap;
+    class StraightFace implements Photon.IModel {
+        public paths: Photon.IPathMap;
 
         constructor() {
             this.paths = {
-                head: new makerjs.paths.Circle([0, 0], 85),
-                eye1: new makerjs.paths.Circle([-25, 25], 10),
-                eye2: new makerjs.paths.Circle([25, 25], 10),
-                mouth: new makerjs.paths.Line([-30, -30], [30, -30])
+                face: new makerjs.paths.Circle([0, 0], 100),
+                mouth: new makerjs.paths.Line([-50, -30], [50, -30])
             };
         }
     }
 
-    class Wait implements MakerJs.IModel {
-        public models: MakerJs.IModelMap;
+    class Wait implements Photon.IModel {
+        public models: Photon.IModelMap;
 
         constructor() {
-            var wireFrame: MakerJs.IModel = {
+            var wireFrame: Photon.IModel = {
                 paths: {
                     rim: new makerjs.paths.Circle([0, 0], 85),
                     hand1: new makerjs.paths.Line([0, 0], [40, 30]),
-                    hand2: new makerjs.paths.Line([0, 0], [0, 60])
+                    hand2: new makerjs.paths.Line([0, 0], [30, -40])
                 }
             };
 
-            this.models = {
-                x: makerjs.model.expandPaths(wireFrame, 5)
-            }
+            this.models = { wireFrame };
         }
     }
 
-    class Warning implements MakerJs.IModel {
-        public models: MakerJs.IModelMap;
-        public paths: MakerJs.IPathMap;
+    class Warning implements Photon.IModel {
+        public models: Photon.IModelMap;
+        public paths: Photon.IPathMap;
 
         constructor() {
 
@@ -529,7 +523,7 @@ let minDockSideBySide = 1024;
     function updateLockedPathNotes() {
         if (processed.model && processed.lockedPath) {
             const pathAndOffset = getLockedPathAndOffset();
-            const endpoints = makerjs.point.fromPathEnds(pathAndOffset.result as MakerJs.IPath, pathAndOffset.offset);
+            const endpoints = makerjs.point.fromPathEnds(pathAndOffset.result as Photon.IPath, pathAndOffset.offset);
             if (pathAndOffset) {
                 setNotes([
                     processed.lockedPath.notes + mdCode(pathAndOffset.result),
@@ -548,25 +542,25 @@ let minDockSideBySide = 1024;
         return "``` " + (typeof s === 'string' ? s : JSON.stringify(s)) + " ```";
     }
 
-    function measureLockedPath(): MakerJs.IMeasure {
+    function measureLockedPath(): Photon.IMeasure {
         var pathAndOffset = getLockedPathAndOffset();
         if (!pathAndOffset) return null;
 
-        var measure = makerjs.measure.pathExtents(pathAndOffset.result as MakerJs.IPath);
+        var measure = makerjs.measure.pathExtents(pathAndOffset.result as Photon.IPath);
         measure.high = makerjs.point.add(measure.high, pathAndOffset.offset);
         measure.low = makerjs.point.add(measure.low, pathAndOffset.offset);
 
         return measure;
     }
 
-    function getModelNaturalSize(): MakerJs.IPoint {
+    function getModelNaturalSize(): Photon.IPoint {
         var measure = processed.measurement;
         var modelWidthNatural = measure.high[0] - measure.low[0];
         var modelHeightNatural = measure.high[1] - measure.low[1];
         return [modelWidthNatural, modelHeightNatural];
     }
 
-    function getViewSize(): MakerJs.IPoint {
+    function getViewSize(): Photon.IPoint {
         var viewHeight = view.offsetHeight - 2 * margin[1];
         var viewWidth = view.offsetWidth - 2 * margin[0];
         var menuLeft = customizeMenu.offsetLeft - 2 * margin[0];
@@ -581,7 +575,7 @@ let minDockSideBySide = 1024;
         return [width, viewHeight];
     }
 
-    function areSameHeightMeasurement(a: MakerJs.IMeasure, b: MakerJs.IMeasure) {
+    function areSameHeightMeasurement(a: Photon.IMeasure, b: Photon.IMeasure) {
         return a.high[1] == b.high[1] && a.low[1] == b.low[1];
     }
 
@@ -701,7 +695,7 @@ let minDockSideBySide = 1024;
         return null;
     }
 
-    function isMeasurementEqual(m1: MakerJs.IMeasure, m2: MakerJs.IMeasure): boolean {
+    function isMeasurementEqual(m1: Photon.IMeasure, m2: Photon.IMeasure): boolean {
         if (!m1 && !m2) return true;
         if (!m1 || !m2) return false;
         if (!makerjs.measure.isPointEqual(m1.low, m2.low)) return false;
@@ -709,7 +703,7 @@ let minDockSideBySide = 1024;
         return true;
     }
 
-    export function setProcessedModel(model: MakerJs.IModel, error?: string) {
+    export function setProcessedModel(model: Photon.IModel, error?: string) {
         clearTimeout(setProcessedModelTimer);
 
         var oldUnits = getUnits();
@@ -739,7 +733,7 @@ let minDockSideBySide = 1024;
 
         //todo: find minimum viewScale
 
-        if (!makerjs.isPoint(processed.model.origin)) processed.model.origin = [0, 0];
+        if (!makerjs.point.isPoint(processed.model.origin)) processed.model.origin = [0, 0];
         var newMeasurement = makerjs.measure.modelExtents(processed.model);
         makerjs.model.getAllCaptionsOffset(processed.model).forEach(caption => {
             makerjs.measure.increase(newMeasurement, makerjs.measure.pathExtents(caption.anchor), true);
@@ -856,7 +850,7 @@ let minDockSideBySide = 1024;
         }
     }
 
-    function constructInWorker(javaScript: string, orderedDependencies: string[], successHandler: (model: MakerJs.IModel) => void, errorHandler: () => void) {
+    function constructInWorker(javaScript: string, orderedDependencies: string[], successHandler: (model: Photon.IModel) => void, errorHandler: () => void) {
 
         var idToUrlMap: { [id: string]: string };
 
@@ -897,7 +891,7 @@ let minDockSideBySide = 1024;
         renderInWorker.worker.postMessage(options);
     }
 
-    function reConstructInWorker(successHandler: (model: MakerJs.IModel) => void, errorHandler: () => void) {
+    function reConstructInWorker(successHandler: (model: Photon.IModel) => void, errorHandler: () => void) {
 
         if (!renderInWorker.hasKit) return;
 
@@ -1175,7 +1169,7 @@ let minDockSideBySide = 1024;
     }
 
     export interface IConstructOnMainThread {
-        (kit: MakerJs.IKit, params: any[]): { model: MakerJs.IModel, html: string };
+        (kit: Photon.IKit, params: any[]): { model: Photon.IModel, html: string };
     }
 
     export interface IProcessResult {
@@ -1195,7 +1189,7 @@ let minDockSideBySide = 1024;
 
         setProcessedModel(null);
 
-        //see if output is either a Node module, or a MakerJs.IModel
+        //see if output is either a Node module, or a Photon.IModel
         if (typeof result === 'function') {
 
             processed.kit = result;
@@ -1218,7 +1212,7 @@ let minDockSideBySide = 1024;
                 constructInWorker(
                     codeMirrorEditor.getDoc().getValue(),
                     value.orderedDependencies,
-                    function (model: MakerJs.IModel) {
+                    function (model: Photon.IModel) {
                         enableKit();
                         setProcessedModel(model);
                     },
@@ -1230,7 +1224,7 @@ let minDockSideBySide = 1024;
             }
 
 
-        } else if (makerjs.isModel(result)) {
+        } else if (makerjs.maker.isModel(result)) {
             processed.kit = null;
             populateParams(null);
 
@@ -1417,7 +1411,7 @@ let minDockSideBySide = 1024;
 
             var fontSize = svgFontSize;
 
-            var renderOptions: MakerJs.exporter.ISVGRenderOptions = {
+            var renderOptions: Photon.exporter.ISVGRenderOptions = {
                 origin: viewOrigin,
                 annotate: true,
                 flow: { size: 8 },
@@ -1902,7 +1896,7 @@ let minDockSideBySide = 1024;
     };
 
 // Export functions that need to be accessible globally
-(window as any).MakerJsPlayground = {
+(window as any).PhotonPlayground = {
     processResult,
     filenameFromRequireId,
     codeMirrorEditor,

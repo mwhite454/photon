@@ -1,0 +1,74 @@
+name: Rebrand Verification
+
+on:
+  push:
+    branches:
+      - 001-rebrand-from-maker
+  pull_request:
+    branches:
+      - main
+      - master
+
+jobs:
+  verify-rebrand:
+    name: Verify Photon Rebrand
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      
+      - name: Install dependencies
+        run: npm ci
+      
+      - name: Make verification scripts executable
+        run: chmod +x specs/001-rebrand-from-maker/verification/*.sh
+      
+      - name: Verify package names
+        run: ./specs/001-rebrand-from-maker/verification/verify-package-names.sh
+      
+      - name: Verify TypeScript namespaces
+        run: ./specs/001-rebrand-from-maker/verification/verify-namespaces.sh
+      
+      - name: Build project
+        run: npm run build
+      
+      - name: Verify distribution files
+        run: ./specs/001-rebrand-from-maker/verification/verify-dist-files.sh
+      
+      - name: Verify documentation
+        run: ./specs/001-rebrand-from-maker/verification/verify-docs.sh
+      
+      - name: Check for broken links
+        uses: lycheeverse/lychee-action@v1
+        with:
+          args: --verbose --no-progress 'docs/**/*.md' 'README.md' 'ROADMAP.md' --exclude-path 'node_modules'
+          fail: true
+      
+      - name: Verify build performance
+        run: |
+          START_TIME=$(date +%s)
+          npm run build
+          END_TIME=$(date +%s)
+          BUILD_TIME=$((END_TIME - START_TIME))
+          echo "Build time: ${BUILD_TIME}s"
+          if [ $BUILD_TIME -gt 120 ]; then
+            echo "❌ Build time exceeded 2 minutes (${BUILD_TIME}s)"
+            exit 1
+          fi
+          echo "✅ Build time within limits (${BUILD_TIME}s < 120s)"
+      
+      - name: Upload verification results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: verification-results
+          path: |
+            specs/001-rebrand-from-maker/verification/*.log
+          retention-days: 30

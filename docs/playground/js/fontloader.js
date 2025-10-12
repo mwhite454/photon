@@ -1,18 +1,14 @@
 // FontLoader class for managing font loading
 export class FontLoader {
-    constructor(baseUrl, opentypeLib, metaParameters, paramValues) {
-        this.baseUrl = baseUrl;
-        this.opentypeLib = opentypeLib;
-        this.metaParameters = metaParameters;
-        this.paramValues = paramValues;
+    constructor(fontDir, opentype, metaParameters, paramValues) {
+        this.fontDir = fontDir;
+        this.opentype = opentype;
         this.fontParameters = {};
         this.fontRefs = 0;
-        this.fontsLoaded = 0;
         if (metaParameters) {
             metaParameters.forEach((metaParameter, i) => {
                 if (metaParameter.type !== 'font')
                     return;
-                //TODO use match
                 this.fontRefs++;
                 var id = paramValues[i];
                 if (id in this.fontParameters) {

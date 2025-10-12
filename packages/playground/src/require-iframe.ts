@@ -1,12 +1,20 @@
-import { IJavaScriptErrorDetails } from './iexport.js';
+// @ts-nocheck
+// Define IJavaScriptErrorDetails inline to avoid module imports
+interface IJavaScriptErrorDetails {
+    name: string;
+    message: string;
+    lineno: number;
+    colno: number;
+}
 
 // Extend Window interface for iframe context
 declare global {
+    // @ts-ignore - Window extensions for iframe context
     interface Window {
         collectRequire: NodeRequireFunction;
         require: NodeRequireFunction;
         module: NodeModule;
-        MakerJsPlayground: any;    //this is not in this window but it is in the parent
+        PhotonPlayground: any;    //this is not in this window but it is in the parent
         makerjs: any;
         playgroundRender: Function;
         paramValues: any[];
@@ -85,7 +93,7 @@ const load = (id: string, requiredById: string) => {
         src = script.src;
         head.removeChild(script);
     } else {
-        src = parent.MakerJsPlayground.filenameFromRequireId(id, true);
+        src = parent.PhotonPlayground.filenameFromRequireId(id, true);
     }
 
     //always create a new element so it fires the onload event
@@ -103,7 +111,7 @@ const load = (id: string, requiredById: string) => {
         };
 
         //send error results back to parent window
-        parent.MakerJsPlayground.processResult({ result: errorDetails });
+        parent.PhotonPlayground.processResult({ result: errorDetails });
 
     }, 5000);
 
@@ -144,12 +152,12 @@ const getLogsHtmls = () => {
 };
 
 // Get all HTML output
-export const getHtml = () => {
+const getHtml = () => {
     return htmls.concat(getLogsHtmls()).join('');
 };
 
 // Reset HTML and log buffers
-export const resetLog = () => {
+const resetLog = () => {
     htmls = [];
     logs = [];
 };
@@ -209,7 +217,7 @@ window.onerror = () => {
     };
 
     //send error results back to parent window
-    parent.MakerJsPlayground.processResult({ result: errorDetails });
+    parent.PhotonPlayground.processResult({ result: errorDetails });
     errorReported = true;
 };
 
@@ -247,7 +255,7 @@ window.onload = () => {
     head = document.getElementsByTagName('head')[0];
 
     //get the code from the editor
-    const javaScript = parent.MakerJsPlayground.codeMirrorEditor.getDoc().getValue();
+    const javaScript = parent.PhotonPlayground.codeMirrorEditor.getDoc().getValue();
 
     const originalAlert = window.alert;
     window.alert = devNull;
@@ -267,25 +275,25 @@ window.onload = () => {
 
         parent.makerjs.exporter.toSVG = (itemToExport: any, options?: any): string => {
 
-            if (parent.makerjs.isModel(itemToExport)) {
+            if (parent.makerjs.maker.isModel(itemToExport)) {
                 captureExportedModel = itemToExport;
 
             } else if (Array.isArray(itemToExport)) {
                 captureExportedModel = {};
 
                 itemToExport.forEach((x, i) => {
-                    if (makerjs.isModel(x)) {
+                    if (makerjs.maker.isModel(x)) {
                         captureExportedModel.models = captureExportedModel.models || {};
                         captureExportedModel.models[i] = x;
                     }
-                    if (makerjs.isPath(x)) {
+                    if (makerjs.maker.isPath(x)) {
                         captureExportedModel.paths = captureExportedModel.paths || {};
                         captureExportedModel.paths[i] = x;
                     }
                 });
 
 
-            } else if (parent.makerjs.isPath(itemToExport)) {
+            } else if (parent.makerjs.maker.isPath(itemToExport)) {
                 captureExportedModel = { paths: { "0": itemToExport } };
             }
 
@@ -334,7 +342,7 @@ window.onload = () => {
             }
 
             //send results back to parent window
-            parent.MakerJsPlayground.processResult({ html: getHtml(), result: window.module.exports || model, orderedDependencies: orderedDependencies, paramValues: window.paramValues });
+            parent.PhotonPlayground.processResult({ html: getHtml(), result: window.module.exports || model, orderedDependencies: orderedDependencies, paramValues: window.paramValues });
 
         }, 0);
 
@@ -380,7 +388,7 @@ window.onload = () => {
 
 // Playground render function
 window.playgroundRender = (result) => {
-    parent.MakerJsPlayground.processResult({ html: getHtml(), result: result, paramValues: window.paramValues });
+    parent.PhotonPlayground.processResult({ html: getHtml(), result: result, paramValues: window.paramValues });
 };
 
 // Dev null function
@@ -415,7 +423,7 @@ const mockWalk = (src: any, dest: any) => {
 mockWalk(parent.makerjs, mockMakerJs);
 
 // Main thread constructor for kit-based models
-parent.MakerJsPlayground.mainThreadConstructor = (kit: any, params: any) => {
+parent.PhotonPlayground.mainThreadConstructor = (kit: any, params: any) => {
     resetLog();
     return {
         model: parent.makerjs.kit.construct(kit, params),

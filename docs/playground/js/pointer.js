@@ -1,4 +1,5 @@
-var Pointer;
+// Pointer module for handling touch/mouse interactions
+export var Pointer;
 (function (Pointer) {
     Pointer.wheelZoomDelta = 0.1;
     Pointer.clickDistance = 2;
@@ -19,7 +20,6 @@ var Pointer;
             x += point[0];
             y += point[1];
         }
-        return [x / all.length, y / all.length];
     }
     class Manager {
         constructor(view, pointersSelector, margin, getZoom, setZoom, onClick, onReset) {
@@ -33,7 +33,9 @@ var Pointer;
             this.initialAveragePointFromDrawingOrigin = null;
             this.previousAveragePointFromCanvas = null;
             this.wheelTimeout = 250;
-            this.down = {};
+            this.all = [];
+            this.map = {};
+            this.count = 0;
             view.addEventListener('wheel', (e) => { this.viewWheel(e); });
             view.addEventListener('pointerdown', (e) => { this.viewPointerDown(e); });
             view.addEventListener('pointermove', (e) => { this.viewPointerMove(e); });

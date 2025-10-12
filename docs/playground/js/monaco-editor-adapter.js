@@ -52,7 +52,7 @@ var MonacoEditorAdapter;
             if (!position)
                 return { line: 0, ch: 0 };
             return {
-                line: position.lineNumber - 1,
+                line: position.lineNumber - 1, // Convert to 0-based
                 ch: position.column - 1
             };
         }

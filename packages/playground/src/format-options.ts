@@ -2,7 +2,7 @@ import { ExportFormat } from './iexport.js';
 
 // Base options class for export format configuration
 class BaseOptions {
-        constructor(public format: ExportFormat, public formatTitle: string, public div: HTMLDivElement, public model: MakerJs.IModel) {
+        constructor(public format: ExportFormat, public formatTitle: string, public div: HTMLDivElement, public model: Photon.IModel) {
         }
 
         $(selector: string) {
@@ -27,14 +27,14 @@ class BaseOptions {
             return select.value;
         }
 
-        addAccuracy(selector: string, options: MakerJs.exporter.IExportOptions) {
+        addAccuracy(selector: string, options: Photon.exporter.IExportOptions) {
             const accuracy = +this.$selectValue(selector);
             if (accuracy >= 0) {
                 options.accuracy = accuracy;
             }
         }
 
-        getOptionObject(): MakerJs.exporter.IExportOptions {
+        getOptionObject(): Photon.exporter.IExportOptions {
             throw 'not implemented';
         }
 
@@ -45,7 +45,7 @@ class BaseOptions {
 
 // DXF export options
 class DxfOptions extends BaseOptions {
-        constructor(format: ExportFormat, formatTitle: string, div: HTMLDivElement, model: MakerJs.IModel) {
+        constructor(format: ExportFormat, formatTitle: string, div: HTMLDivElement, model: Photon.IModel) {
             super(format, formatTitle, div, model);
 
             // TODO:
@@ -54,7 +54,7 @@ class DxfOptions extends BaseOptions {
         }
 
         getOptionObject() {
-            const options: MakerJs.exporter.IDXFRenderOptions = {
+            const options: Photon.exporter.IDXFRenderOptions = {
                 usePOLYLINE: this.$checked('#dxf-usepolyline')
             };
             this.addAccuracy('#dxf-accuracy', options);
@@ -65,7 +65,7 @@ class DxfOptions extends BaseOptions {
 // SVG export options
 class SvgOptions extends BaseOptions {
         getOptionObject() {
-            const options: MakerJs.exporter.ISVGRenderOptions = {
+            const options: Photon.exporter.ISVGRenderOptions = {
                 svgAttrs: { xmlns: "http://www.w3.org/2000/svg" }
             };
             this.addAccuracy('#svg-accuracy', options);
@@ -76,7 +76,7 @@ class SvgOptions extends BaseOptions {
 // SVG path data export options
 class SvgPathDataOptions extends BaseOptions {
         getOptionObject() {
-            const options: MakerJs.exporter.ISVGPathDataRenderOptions = {
+            const options: Photon.exporter.ISVGPathDataRenderOptions = {
                 byLayers: false,
                 fillRule: this.$selectValue('#svgpathdata-fillrule') as 'evenodd' | 'nonzero',
                 origin: this.$selectValue('#svgpathdata-origin') === 'zero' ? [0, 0] : undefined
@@ -90,7 +90,7 @@ class SvgPathDataOptions extends BaseOptions {
 // JSON export options
 class JsonOptions extends BaseOptions {
         getOptionObject() {
-            const options: MakerJs.exporter.IJsonExportOptions = {
+            const options: Photon.exporter.IJsonExportOptions = {
                 indentation: +this.$selectValue('#json-indent')
             };
             this.addAccuracy('#json-accuracy', options);
@@ -108,7 +108,7 @@ class JscadScriptOptions extends BaseOptions {
             } else {
                 //hide the ui
             }
-            const options: MakerJs.exporter.IJscadScriptOptions = {
+            const options: Photon.exporter.IJscadScriptOptions = {
                 extrude,
                 functionName: this.$selectValue('#openjscad-name'),
                 indent: this.$number('#openjscad-indent'),
@@ -121,7 +121,7 @@ class JscadScriptOptions extends BaseOptions {
 
 // STL export options
 class StlOptions extends BaseOptions {
-        constructor(format: ExportFormat, formatTitle: string, div: HTMLDivElement, model: MakerJs.IModel) {
+        constructor(format: ExportFormat, formatTitle: string, div: HTMLDivElement, model: Photon.IModel) {
             super(format, formatTitle, div, model);
 
             //modelToExport.exporterOptions['toJscadCSG'])
@@ -131,7 +131,7 @@ class StlOptions extends BaseOptions {
         }
 
         getOptionObject() {
-            const options: MakerJs.exporter.IJscadCsgOptions = {
+            const options: Photon.exporter.IJscadCsgOptions = {
                 maxArcFacet: +this.$selectValue('#stl-facetsize'),
                 extrude: this.$number('#stl-extrude')
             };
@@ -142,7 +142,7 @@ class StlOptions extends BaseOptions {
 // PDF export options
 class PdfOptions extends BaseOptions {
         getOptionObject() {
-            const options: MakerJs.exporter.IPDFRenderOptions = {
+            const options: Photon.exporter.IPDFRenderOptions = {
                 origin: [
                     +this.$selectValue('#pdf-leftmargin') * 72,
                     +this.$selectValue('#pdf-topmargin') * 72
@@ -167,7 +167,7 @@ const classes: { [format: number]: typeof BaseOptions } = {
 export let current: BaseOptions;
 
 // Activate export format options
-export function activateOption(format: ExportFormat, formatTitle: string, model: MakerJs.IModel) {
+export function activateOption(format: ExportFormat, formatTitle: string, model: Photon.IModel) {
     const formatId = ExportFormat[format];
 
     //deselect all

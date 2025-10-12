@@ -1,8 +1,8 @@
 {
-  "name": "playground",
+  "name": "@photon/playground",
   "private": true,
   "version": "1.0.0",
-  "description": "Maker.js playground",
+  "description": "Photon playground",
   "main": "playground.js",
   "scripts": {
     "build": "tsc -p . && tsc -p src/worker"
@@ -15,6 +15,6 @@
     "@types/node": "^7.0.5",
     "@types/opentype.js": "^0.7.0",
     "monaco-editor": "^0.44.0",
-    "makerjs": "*"
+    "@photon/core": "*"
   }
 }

@@ -1,8 +1,8 @@
 {
-  "name": "makerjs-dev",
+  "name": "photon-dev",
   "private": true,
   "version": "1.0.0",
-  "description": "Maker.js monorepo",
+  "description": "Photon monorepo",
   "main": "index.js",
   "directories": {
     "doc": "docs"

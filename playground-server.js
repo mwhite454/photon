@@ -4,7 +4,7 @@ const fs = require('fs');
 const chokidar = require('chokidar');
 
 const app = express();
-const PORT = 8020;
+const PORT = 3000;
 
 // Store available models
 let availableModels = [];
@@ -60,6 +60,9 @@ watcher
 // Middleware
 app.use(express.json());
 app.use(express.static('docs'));
+
+// Serve packages directory for accessing built files
+app.use('/packages', express.static('packages'));
 
 // Redirect old /docs/* paths to the new root-mounted paths
 app.get('/docs/*', (req, res) => {

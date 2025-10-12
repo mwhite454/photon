@@ -17,8 +17,8 @@ interface IExportMessage {
 
 // Export request interface
 export interface IExportRequest extends IExportMessage {
-    model: MakerJs.IModel;
-    options: MakerJs.exporter.IExportOptions;
+    model: Photon.IModel;
+    options: Photon.exporter.IExportOptions;
 }
 
 // File export metadata

@@ -16,19 +16,16 @@ export class FontLoader {
 
         private fontParameters: IFontMap = {};
         private fontRefs = 0;
-        private fontsLoaded = 0;
         private paramValuesCopy: any[];
 
         public successCb: (values: any[]) => void;
         public failureCb: (failedFontId: string) => void;
 
-        constructor(public baseUrl: string, private opentypeLib: typeof opentype, private metaParameters: MakerJs.IMetaParameter[], private paramValues: any[]) {
+        constructor(public fontDir: string, private opentype: any, metaParameters: Photon.IMetaParameter[], paramValues: any[]) {
 
             if (metaParameters) {
                 metaParameters.forEach((metaParameter, i) => {
                     if (metaParameter.type !== 'font') return;
-
-                    //TODO use match
 
                     this.fontRefs++;
 

@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Maker.js Playground</title>
+    <title>Photon Playground</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Interactive playground for Photon - Create 2D line drawings for CNC and laser cutters using JavaScript">
+    <meta property="og:title" content="Photon Playground">
+    <meta property="og:description" content="Interactive playground for Photon - Create 2D line drawings for CNC and laser cutters using JavaScript">
+    <meta property="og:type" content="website">
 
     <!--
 
@@ -86,6 +90,15 @@
     </script>
     <script src="../external/bezier-js/bezier.js"></script>
     <script src="../external/opentype/opentype.js"></script>
+    
+    <!-- Load dependencies required by photon.iife.js -->
+    <script src="/packages/photon/node_modules/kdbush/kdbush.js"></script>
+    <script src="/packages/photon/node_modules/graham_scan/graham_scan.min.js"></script>
+    <script>
+        // Map library exports to names expected by photon.iife.js
+        var KDBush = window.kdbush;
+        var GrahamScan = ConvexHullGrahamScan;
+    </script>
 
     <!-- Uncomment below for local development -->
     <!-- 
@@ -158,24 +171,48 @@
  -->
 
     <!-- Use modern IIFE bundle built by Vite -->
-    <script src="../../packages/maker.js/dist/maker.iife.js"></script>
+    <script src="/packages/photon/dist/photon.iife.js"></script>
     <script>
-        // The IIFE build exposes global MakerJs; align to existing var name used by playground.
-        var makerjs = MakerJs;
+        // Expose Photon as both 'makerjs' and 'Photon' for compatibility
+        // User code can use modern Photon.maker.isModel() or legacy makerjs.maker.isModel()
+        var makerjs = Photon;
+        var MakerJs = Photon;
     </script>
 
-    <script src="js/iexport.js"></script>
-    <script src="js/pointer.js"></script>
-    <script src="../fonts/fonts.js"></script>
-    <script src="js/fontloader.js"></script>
+    <!-- Load monaco adapter as regular script to make namespace global -->
     <script src="js/monaco-editor-adapter.js"></script>
-    <script src="js/playground.js"></script>
-    <script src="js/format-options.js"></script>
-    <script>
-        //config
-        MakerJsPlayground.relativePath = '../demos/js/';
-        MakerJsPlayground.fontDir = '../fonts/';
+    
+    <!-- Load playground modules -->
+    <script type="module">
+        // Import playground modules
+        import './js/iexport.js';
+        import './js/pointer.js';
+        import './js/fontloader.js';
+        import * as PlaygroundModule from './js/playground.js';
+        import './js/format-options.js';
+        
+        // Make playground globally available for inline event handlers
+        window.MakerJsPlayground = PlaygroundModule;
+        window.PhotonPlayground = PlaygroundModule;
+        
+        // Set config - these are exported as let variables, so we can reassign
+        try {
+            PlaygroundModule.relativePath = '../demos/js/';
+            PlaygroundModule.fontDir = '../fonts/';
+        } catch (e) {
+            console.warn('Could not set playground config:', e);
+        }
+        
+        // Initialize when DOM is ready
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', () => {
+                if (PlaygroundModule.onInit) PlaygroundModule.onInit();
+            });
+        } else {
+            if (PlaygroundModule.onInit) PlaygroundModule.onInit();
+        }
     </script>
+    <script src="../fonts/fonts.js"></script>
 
 </head>
 <body class="no-notes collapse-annotation collapse-flow collapse-insert-menu">
@@ -183,7 +220,7 @@
 
     <main>
         <header class="logo">
-            <a href="/"><img src="img/m.png" /><h1>Maker.js</h1></a>
+            <a href="/"><img src="img/m.png" /><h1>Photon</h1></a>
 
             <div id="rendering-options-top">
                 <button onclick="MakerJsPlayground.toggleClassAndResize('collapse-rendering-options');">customize <span class="icon dropup">&#x25B4;</span><span class="icon dropdown">&#x25BE;</span></button>

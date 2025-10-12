@@ -2,6 +2,7 @@
 import { FontLoader } from './fontloader.js';
 import { ExportFormat, formatMap } from './iexport.js';
 import * as FormatOptions from './format-options.js';
+import { Pointer } from './pointer.js';
 // QueryStringParams class for parsing URL parameters
 class QueryStringParams {
     constructor(querystring = document.location.search.substring(1)) {
@@ -97,11 +98,11 @@ function populateParams(metaParameters) {
                 case 'range':
                     sliders++;
                     attrs['id'] = id;
-                    attrs['onchange'] = 'MakerJsPlayground.setParam(' + i + ', makerjs.round(this.valueAsNumber, .001)); if (MakerJsPlayground.isSmallDevice()) { MakerJsPlayground.activateParam(this); MakerJsPlayground.deActivateParam(this, 1000); }';
-                    attrs['ontouchstart'] = 'MakerJsPlayground.activateParam(this)';
-                    attrs['ontouchend'] = 'MakerJsPlayground.deActivateParam(this, 1000)';
-                    attrs['onmousedown'] = 'if (MakerJsPlayground.isSmallDevice()) { MakerJsPlayground.activateParam(this); }';
-                    attrs['onmouseup'] = 'if (MakerJsPlayground.isSmallDevice()) { MakerJsPlayground.deActivateParam(this, 1000); }';
+                    attrs['onchange'] = 'PhotonPlayground.setParam(' + i + ', makerjs.round(this.valueAsNumber, .001)); if (PhotonPlayground.isSmallDevice()) { PhotonPlayground.activateParam(this); PhotonPlayground.deActivateParam(this, 1000); }';
+                    attrs['ontouchstart'] = 'PhotonPlayground.activateParam(this)';
+                    attrs['ontouchend'] = 'PhotonPlayground.deActivateParam(this, 1000)';
+                    attrs['onmousedown'] = 'if (PhotonPlayground.isSmallDevice()) { PhotonPlayground.activateParam(this); }';
+                    attrs['onmouseup'] = 'if (PhotonPlayground.isSmallDevice()) { PhotonPlayground.deActivateParam(this, 1000); }';
                     input = new makerjs.exporter.XmlTag('input', attrs);
                     //note: we could also apply the min and max of the range to the number field. however, the useage of the textbox is to deliberately "go out of bounds" when the example range is insufficient.
                     var numberBoxAttrs = {
@@ -109,13 +110,13 @@ function populateParams(metaParameters) {
                         "type": 'number',
                         "step": 'any',
                         "value": attrs.value,
-                        "onfocus": 'if (MakerJsPlayground.isSmallDevice()) { MakerJsPlayground.activateParam(this.parentElement); }',
-                        "onblur": 'if (MakerJsPlayground.isSmallDevice()) { MakerJsPlayground.deActivateParam(this.parentElement, 0); }',
-                        "onchange": 'MakerJsPlayground.setParam(' + i + ', makerjs.round(this.valueAsNumber, .001))'
+                        "onfocus": 'if (PhotonPlayground.isSmallDevice()) { PhotonPlayground.activateParam(this.parentElement); }',
+                        "onblur": 'if (PhotonPlayground.isSmallDevice()) { PhotonPlayground.deActivateParam(this.parentElement, 0); }',
+                        "onchange": 'PhotonPlayground.setParam(' + i + ', makerjs.round(this.valueAsNumber, .001))'
                     };
                     var formAttrs = {
                         "action": 'javascript:void(0);',
-                        "onsubmit": 'MakerJsPlayground.setParam(' + i + ', makerjs.round(this.elements[0].valueAsNumber, .001))'
+                        "onsubmit": 'PhotonPlayground.setParam(' + i + ', makerjs.round(this.elements[0].valueAsNumber, .001))'
                     };
                     numberBox = new makerjs.exporter.XmlTag('form', formAttrs);
                     numberBox.innerText = new makerjs.exporter.XmlTag('input', numberBoxAttrs).toString();
@@ -125,7 +126,7 @@ function populateParams(metaParameters) {
                 case 'bool':
                     var checkboxAttrs = {
                         type: 'checkbox',
-                        onchange: 'MakerJsPlayground.setParam(' + i + ', this.checked)'
+                        onchange: 'PhotonPlayground.setParam(' + i + ', this.checked)'
                     };
                     if (attrs.value) {
                         checkboxAttrs['checked'] = true;
@@ -137,7 +138,7 @@ function populateParams(metaParameters) {
                 case 'font':
                     var selectFontAttrs = {
                         id: id,
-                        onchange: 'MakerJsPlayground.setParam(' + i + ', this.options[this.selectedIndex].value)'
+                        onchange: 'PhotonPlayground.setParam(' + i + ', this.options[this.selectedIndex].value)'
                     };
                     input = new makerjs.exporter.XmlTag('select', selectFontAttrs);
                     var fontOptions = '';
@@ -160,7 +161,7 @@ function populateParams(metaParameters) {
                 case 'select':
                     var selectAttrs = {
                         id: id,
-                        onchange: 'MakerJsPlayground.setParam(' + i + ', JSON.parse(this.options[this.selectedIndex].innerText))'
+                        onchange: 'PhotonPlayground.setParam(' + i + ', JSON.parse(this.options[this.selectedIndex].innerText))'
                     };
                     input = new makerjs.exporter.XmlTag('select', selectAttrs);
                     var options = '';
@@ -175,7 +176,7 @@ function populateParams(metaParameters) {
                     break;
                 case 'text':
                     attrs['id'] = id;
-                    attrs['onchange'] = 'MakerJsPlayground.setParam(' + i + ', this.value)';
+                    attrs['onchange'] = 'PhotonPlayground.setParam(' + i + ', this.value)';
                     input = new makerjs.exporter.XmlTag('input', attrs);
                     paramValues.push(attrs.value);
                     break;
@@ -203,7 +204,7 @@ function populateParams(metaParameters) {
             paramHtml.push(div.toString());
         }
         //if (sliders) {
-        //var button = new makerjs.exporter.XmlTag('input', { type: 'button', onclick:'MakerJsPlayground.animate()', value: 'animate'});
+        //var button = new makerjs.exporter.XmlTag('input', { type: 'button', onclick:'PhotonPlayground.animate()', value: 'animate'});
         //paramHtml.push(button.toString());
         //}
     }
@@ -256,20 +257,16 @@ function resetDownload() {
 class Frown {
     constructor() {
         this.paths = {
-            head: new makerjs.paths.Circle([0, 0], 85),
-            eye1: new makerjs.paths.Circle([-25, 25], 10),
-            eye2: new makerjs.paths.Circle([25, 25], 10),
-            frown: new makerjs.paths.Arc([0, -75], 50, 45, 135)
+            face: new makerjs.paths.Circle([0, 0], 100),
+            mouth: new makerjs.paths.Arc([0, 0], 70, 210, 330)
         };
     }
 }
 class StraightFace {
     constructor() {
         this.paths = {
-            head: new makerjs.paths.Circle([0, 0], 85),
-            eye1: new makerjs.paths.Circle([-25, 25], 10),
-            eye2: new makerjs.paths.Circle([25, 25], 10),
-            mouth: new makerjs.paths.Line([-30, -30], [30, -30])
+            face: new makerjs.paths.Circle([0, 0], 100),
+            mouth: new makerjs.paths.Line([-50, -30], [50, -30])
         };
     }
 }
@@ -279,12 +276,10 @@ class Wait {
             paths: {
                 rim: new makerjs.paths.Circle([0, 0], 85),
                 hand1: new makerjs.paths.Line([0, 0], [40, 30]),
-                hand2: new makerjs.paths.Line([0, 0], [0, 60])
+                hand2: new makerjs.paths.Line([0, 0], [30, -40])
             }
         };
-        this.models = {
-            x: makerjs.model.expandPaths(wireFrame, 5)
-        };
+        this.models = { wireFrame };
     }
 }
 class Warning {
@@ -563,7 +558,7 @@ export function setProcessedModel(model, error) {
         initialize();
     }
     //todo: find minimum viewScale
-    if (!makerjs.isPoint(processed.model.origin))
+    if (!makerjs.maker.isPoint(processed.model.origin))
         processed.model.origin = [0, 0];
     var newMeasurement = makerjs.measure.modelExtents(processed.model);
     makerjs.model.getAllCaptionsOffset(processed.model).forEach(caption => {
@@ -914,7 +909,7 @@ export function processResult(value) {
     resetDownload();
     processed.html = value.html || '';
     setProcessedModel(null);
-    //see if output is either a Node module, or a MakerJs.IModel
+    //see if output is either a Node module, or a Photon.IModel
     if (typeof result === 'function') {
         processed.kit = result;
         populateParams(processed.kit.metaParameters);
@@ -937,7 +932,7 @@ export function processResult(value) {
             setKitOnMainThread();
         }
     }
-    else if (makerjs.isModel(result)) {
+    else if (makerjs.maker.isModel(result)) {
         processed.kit = null;
         populateParams(null);
         setProcessedModel(result);
@@ -1485,7 +1480,7 @@ window.onload = function (ev) {
     tryInitialize();
 };
 // Export functions that need to be accessible globally
-window.MakerJsPlayground = {
+window.PhotonPlayground = {
     processResult,
     filenameFromRequireId,
     codeMirrorEditor,

@@ -1,4 +1,4 @@
-var Photon = (function(exports, KDBush, BezierJsDefault, grahamScanModule) {
+var Photon = (function(exports, KDBush, bezierJs, grahamScanModule) {
   "use strict";
   const models$2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
     __proto__: null,
@@ -1110,7 +1110,11 @@ var Photon = (function(exports, KDBush, BezierJsDefault, grahamScanModule) {
         points.push(p);
         kEls.push(el);
       }
-      this.kdbush = new KDBush(points, (pt) => pt[0], (pt) => pt[1]);
+      this.kdbush = new KDBush(points.length);
+      for (const point2 of points) {
+        this.kdbush.add(point2[0], point2[1]);
+      }
+      this.kdbush.finish();
       for (let pointId in this.index) {
         if (pointId in this.merged) continue;
         let el = this.index[pointId];
@@ -1134,7 +1138,11 @@ var Photon = (function(exports, KDBush, BezierJsDefault, grahamScanModule) {
           singles.push(el);
         }
       }
-      this.kdbush = new KDBush(singles.map((el) => el.point), (pt) => pt[0], (pt) => pt[1]);
+      this.kdbush = new KDBush(singles.length);
+      for (const single of singles) {
+        this.kdbush.add(single.point[0], single.point[1]);
+      }
+      this.kdbush.finish();
       singles.forEach((el) => {
         if (el.pointId in this.merged) return;
         let mergeIds = this.kdbush.within(el.point[0], el.point[1], withinDistance);
@@ -1607,7 +1615,6 @@ var Photon = (function(exports, KDBush, BezierJsDefault, grahamScanModule) {
     toNewModel,
     toPoints
   }, Symbol.toStringTag, { value: "Module" }));
-  const Bezier = BezierJsDefault;
   function getScratch(seed) {
     const points = [seed.origin];
     points.push(...seed.controls);
@@ -1619,7 +1626,7 @@ var Photon = (function(exports, KDBush, BezierJsDefault, grahamScanModule) {
       };
       return bp;
     });
-    return new Bezier(bezierJsPoints);
+    return new bezierJs.Bezier(bezierJsPoints);
   }
   function BezierToSeed(b, range) {
     const points = b.points.map(getIPoint);
@@ -1634,7 +1641,7 @@ var Photon = (function(exports, KDBush, BezierJsDefault, grahamScanModule) {
       coords.push(seed.controls[1][0], seed.controls[1][1]);
     }
     coords.push(seed.end[0], seed.end[1]);
-    return new Bezier(coords);
+    return new bezierJs.Bezier(coords);
   }
   function getExtrema(b) {
     const extrema = b.extrema().values.map((m) => round(m)).filter((value2, index, self) => self.indexOf(value2) === index).sort();

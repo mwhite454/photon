@@ -153,7 +153,7 @@ export class PointGraph<T> {
         /**
          * KD tree object.
          */
-        private kdbush: KDBush<IPoint>;
+        private kdbush: KDBush;
 
         constructor() {
             this.reset();
@@ -227,7 +227,12 @@ export class PointGraph<T> {
                 points.push(p);
                 kEls.push(el);
             }
-            this.kdbush = new KDBush(points, (pt) => pt[0], (pt) => pt[1]);
+            // kdbush v4.x API: pre-allocate, add points, then finish
+            this.kdbush = new KDBush(points.length);
+            for (const point of points) {
+                this.kdbush.add(point[0], point[1]);
+            }
+            this.kdbush.finish();
             for (let pointId in this.index) {
                 if (pointId in this.merged) continue;
                 let el = this.index[pointId];
@@ -252,7 +257,12 @@ export class PointGraph<T> {
                     singles.push(el);
                 }
             }
-            this.kdbush = new KDBush(singles.map(el => el.point), (pt) => pt[0], (pt) => pt[1]);
+            // kdbush v4.x API: pre-allocate, add points, then finish
+            this.kdbush = new KDBush(singles.length);
+            for (const single of singles) {
+                this.kdbush.add(single.point[0], single.point[1]);
+            }
+            this.kdbush.finish();
             singles.forEach(el => {
                 if (el.pointId in this.merged) return;
                 let mergeIds = this.kdbush.within(el.point[0], el.point[1], withinDistance);

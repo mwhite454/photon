@@ -1111,7 +1111,11 @@ class PointGraph {
       points.push(p);
       kEls.push(el);
     }
-    this.kdbush = new KDBush(points, (pt) => pt[0], (pt) => pt[1]);
+    this.kdbush = new KDBush(points.length);
+    for (const point2 of points) {
+      this.kdbush.add(point2[0], point2[1]);
+    }
+    this.kdbush.finish();
     for (let pointId in this.index) {
       if (pointId in this.merged) continue;
       let el = this.index[pointId];
@@ -1135,7 +1139,11 @@ class PointGraph {
         singles.push(el);
       }
     }
-    this.kdbush = new KDBush(singles.map((el) => el.point), (pt) => pt[0], (pt) => pt[1]);
+    this.kdbush = new KDBush(singles.length);
+    for (const single of singles) {
+      this.kdbush.add(single.point[0], single.point[1]);
+    }
+    this.kdbush.finish();
     singles.forEach((el) => {
       if (el.pointId in this.merged) return;
       let mergeIds = this.kdbush.within(el.point[0], el.point[1], withinDistance);

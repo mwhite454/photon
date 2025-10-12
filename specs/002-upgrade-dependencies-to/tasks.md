@@ -119,41 +119,41 @@ Monorepo structure:
 
 **NOTE: Existing test suite provides coverage - run tests BEFORE and AFTER upgrade**
 
-- [ ] T034 [US3] Run existing tests for spatial indexing: `npm test -- --grep "spatial|index|collect"` in `packages/photon/`
-- [ ] T035 [US3] Verify test results match baseline from T002
+- [X] T034 [US3] Run existing tests for spatial indexing: `npm test -- --grep "spatial|index|collect"` in `packages/photon/`
+- [X] T035 [US3] Verify test results match baseline from T002
 
 ### Implementation for User Story 3
 
 #### Code Refactoring (Breaking API Changes)
 
-- [ ] T036 [US3] Locate all kdbush usage in `packages/photon/src/core/collect.ts`
-- [ ] T037 [US3] Identify current v2.x initialization patterns (constructor with accessor functions)
-- [ ] T038 [US3] Refactor to v4.x pattern: Replace `new KDBush(points, p => p.x, p => p.y, nodeSize, ArrayType)` with pre-allocation pattern
-- [ ] T039 [US3] Add loop to populate index with `index.add(x, y)` for each point
-- [ ] T040 [US3] Add `index.finish()` call before first query operation
-- [ ] T041 [US3] Verify all query operations (`range()`, `within()`) remain unchanged
-- [ ] T042 [US3] Add inline comments documenting v4.x API pattern and rationale
+- [X] T036 [US3] Locate all kdbush usage in `packages/photon/src/core/collect.ts`
+- [X] T037 [US3] Identify current v2.x initialization patterns (constructor with accessor functions)
+- [X] T038 [US3] Refactor to v4.x pattern: Replace `new KDBush(points, p => p.x, p => p.y, nodeSize, ArrayType)` with pre-allocation pattern
+- [X] T039 [US3] Add loop to populate index with `index.add(x, y)` for each point
+- [X] T040 [US3] Add `index.finish()` call before first query operation
+- [X] T041 [US3] Verify all query operations (`range()`, `within()`) remain unchanged
+- [X] T042 [US3] Add inline comments documenting v4.x API pattern and rationale
 
 #### Dependency Update
 
-- [ ] T043 [US3] Update `packages/photon/package.json`: Change `"kdbush": "^2.0.1"` to `"kdbush": "^4.0.2"`
-- [ ] T044 [US3] Remove `@types/kdbush` from devDependencies if present (v4.x includes built-in types)
-- [ ] T045 [US3] Run `npm install` in `packages/photon/`
+- [X] T043 [US3] Update `packages/photon/package.json`: Change `"kdbush": "^2.0.1"` to `"kdbush": "^4.0.2"`
+- [X] T044 [US3] Remove `@types/kdbush` from devDependencies if present (v4.x includes built-in types)
+- [X] T045 [US3] Run `npm install` in `packages/photon/`
 
 #### Validation
 
-- [ ] T046 [US3] Run TypeScript compilation: `npm run build:types` in `packages/photon/`
-- [ ] T047 [US3] Verify no type errors related to kdbush
-- [ ] T048 [US3] Test point insertion operations
-- [ ] T049 [US3] Test range query operations
-- [ ] T050 [US3] Test radius query operations
-- [ ] T051 [US3] Run full test suite: `npm test` in `packages/photon/`
-- [ ] T052 [US3] Verify all tests pass without modification
-- [ ] T053 [US3] Build library: `npm run build` in `packages/photon/`
-- [ ] T054 [US3] Verify build completes with zero errors and zero new warnings
-- [ ] T055 [US3] Measure memory usage for spatial indexing (compare with T004 baseline)
-- [ ] T056 [US3] Verify memory usage decreased by at least 10% (per SC-004)
-- [ ] T057 [US3] Document API changes and memory improvements in commit message
+- [X] T046 [US3] Run TypeScript compilation: `npm run build:types` in `packages/photon/`
+- [X] T047 [US3] Verify no type errors related to kdbush
+- [X] T048 [US3] Test point insertion operations
+- [X] T049 [US3] Test range query operations
+- [X] T050 [US3] Test radius query operations
+- [X] T051 [US3] Run full test suite: `npm test` in `packages/photon/`
+- [X] T052 [US3] Verify all tests pass without modification
+- [X] T053 [US3] Build library: `npm run build` in `packages/photon/`
+- [X] T054 [US3] Verify build completes with zero errors and zero new warnings
+- [X] T055 [US3] Measure memory usage for spatial indexing (compare with T004 baseline)
+- [X] T056 [US3] Verify memory usage decreased by at least 10% (per SC-004)
+- [X] T057 [US3] Document API changes and memory improvements in commit message
 
 **Checkpoint**: kdbush upgraded successfully - spatial indexing validated with improved performance
 
@@ -163,21 +163,21 @@ Monorepo structure:
 
 **Purpose**: Final validation and documentation across all dependency upgrades
 
-- [ ] T058 [P] Run complete test suite: `npm test` in `packages/photon/`
-- [ ] T059 [P] Verify all tests pass (SC-001)
-- [ ] T060 [P] Build complete library: `npm run build` in `packages/photon/`
-- [ ] T061 [P] Verify build completes with zero errors and zero new warnings (SC-002)
-- [ ] T062 [P] Measure final bundle size and compare with T003 baseline
-- [ ] T063 [P] Verify bundle size within 5% of baseline or smaller (SC-003)
-- [ ] T064 [P] Verify memory usage improvement from T056 (SC-004)
-- [ ] T065 [P] Verify no breaking changes to public Photon API (SC-005)
-- [ ] T066 [P] Update `packages/photon/package.json` with all three dependency versions
-- [ ] T067 [P] Update `packages/docs/package.json` with type definition versions
-- [ ] T068 Document all changes in commit message with rationale
-- [ ] T069 Create summary of metrics: baseline vs final (tests, bundle size, memory)
-- [ ] T070 Verify quickstart.md procedures match actual implementation
-- [ ] T071 Run linting: verify code style compliance
-- [ ] T072 Final validation: all success criteria (SC-001 through SC-007) met
+- [X] T058 [P] Run complete test suite: `npm test` in `packages/photon/`
+- [X] T059 [P] Verify all tests pass (SC-001)
+- [X] T060 [P] Build complete library: `npm run build` in `packages/photon/`
+- [X] T061 [P] Verify build completes with zero errors and zero new warnings (SC-002)
+- [X] T062 [P] Measure final bundle size and compare with T003 baseline
+- [X] T063 [P] Verify bundle size within 5% of baseline or smaller (SC-003)
+- [X] T064 [P] Verify memory usage improvement from T056 (SC-004)
+- [X] T065 [P] Verify no breaking changes to public Photon API (SC-005)
+- [X] T066 [P] Update `packages/photon/package.json` with all three dependency versions
+- [X] T067 [P] Update `packages/docs/package.json` with type definition versions
+- [X] T068 Document all changes in commit message with rationale
+- [X] T069 Create summary of metrics: baseline vs final (tests, bundle size, memory)
+- [X] T070 Verify quickstart.md procedures match actual implementation
+- [X] T071 Run linting: verify code style compliance
+- [X] T072 Final validation: all success criteria (SC-001 through SC-007) met
 
 ---
 

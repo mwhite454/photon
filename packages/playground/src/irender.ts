@@ -1,17 +1,17 @@
 // Render request interface
 export interface IRenderRequest {
-    fontDir: string;
     requestId: number;
+    javaScript?: string;
     orderedDependencies?: string[];
     dependencyUrls?: { [id: string]: string };
-    javaScript?: string;
-    paramValues: any[]
+    paramValues?: any[];
+    kit?: Photon.IKit;
+    fontDir?: string;
 }
 
-// Render response interface
 export interface IRenderResponse {
     requestId: number;
-    model?: MakerJs.IModel;
+    model?: Photon.IModel;
     html?: string;
     error?: string;
 }

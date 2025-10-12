@@ -1,4 +1,4 @@
-﻿interface WorkerGlobalScope {
+interface WorkerGlobalScope {
     require: NodeRequireFunction;
 }
 
@@ -46,7 +46,7 @@ importScripts(
     '../../../external/bezier-js/bezier.js',
     '../../../external/opentype/opentype.js'
 );
-var makerjs: typeof MakerJs = self.require('makerjs');
+var makerjs: typeof Photon = self.require('makerjs');
 module['makerjs'] = makerjs;
 module['./../target/js/node.maker.js'] = makerjs;
 
@@ -57,9 +57,9 @@ function runCodeIsolated(javaScript: string) {
     return module.exports || result;
 }
 
-function playgroundRender(model: MakerJs.IModel) {
+function playgroundRender(model: Photon.IModel) {
 
-    var response: MakerJsPlaygroundRender.IRenderResponse = {
+    var response: PhotonPlaygroundRender.IRenderResponse = {
         requestId: activeRequestId,
         model: model,
         html: getHtml()
@@ -70,7 +70,7 @@ function playgroundRender(model: MakerJs.IModel) {
 
 function postError(requestId: number, error: string) {
 
-    var response: MakerJsPlaygroundRender.IRenderResponse = {
+    var response: PhotonPlaygroundRender.IRenderResponse = {
         requestId: requestId,
         error: error
     };
@@ -128,12 +128,12 @@ var baseHtmlLength: number;
 var baseLogLength: number;
 var htmls: string[];
 var logs: string[];
-var kit: MakerJs.IKit;
+var kit: Photon.IKit;
 var activeRequestId: number;
 
 onmessage = (ev: MessageEvent) => {
 
-    var request = ev.data as MakerJsPlaygroundRender.IRenderRequest;
+    var request = ev.data as PhotonPlaygroundRender.IRenderRequest;
 
     if (request.orderedDependencies) {
 
@@ -180,13 +180,13 @@ onmessage = (ev: MessageEvent) => {
         htmls.length = baseHtmlLength;
         logs.length = baseLogLength;
 
-        var fontLoader = new MakerJsPlayground.FontLoader(request.fontDir, window['opentype'], kit.metaParameters, request.paramValues);
+        var fontLoader = new PhotonPlayground.FontLoader(request.fontDir, window['opentype'], kit.metaParameters, request.paramValues);
 
         fontLoader.successCb = function (realValues: any[]) {
             try {
                 var model = makerjs.kit.construct(kit, realValues);
 
-                var response: MakerJsPlaygroundRender.IRenderResponse = {
+                var response: PhotonPlaygroundRender.IRenderResponse = {
                     requestId: request.requestId,
                     model: model,
                     html: getHtml()

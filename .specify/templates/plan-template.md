@@ -31,7 +31,18 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+Verify compliance with Maker.js Constitution (`.specify/memory/constitution.md`):
+
+- [ ] **Test-Driven Development**: Tests will be written before implementation
+- [ ] **Specification-Driven**: User stories defined with acceptance criteria
+- [ ] **ES6+ Compatibility**: Modern JavaScript features supported
+- [ ] **Experiment-Friendly**: Playground/UX considerations addressed
+- [ ] **User Experience First**: Documentation and error messages are clear
+- [ ] **Living Documentation**: Documentation updates included in plan
+- [ ] **CNC/Laser Focus**: Precision and export format requirements considered
+- [ ] **Code Quality**: Linting, TypeScript, and code review process defined
+- [ ] **Performance Standards**: Performance goals documented if applicable
+- [ ] **Versioning**: Semantic versioning impact assessed (MAJOR/MINOR/PATCH)
 
 ## Project Structure
 

@@ -1,0 +1,117 @@
+name: Publish to NPM
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version to publish (e.g., 2.0.0)'
+        required: true
+        type: string
+      tag:
+        description: 'NPM tag (latest, beta, next)'
+        required: true
+        default: 'latest'
+        type: choice
+        options:
+          - latest
+          - beta
+          - next
+
+jobs:
+  publish:
+    name: Publish Photon to NPM
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: read
+      id-token: write
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          registry-url: 'https://registry.npmjs.org'
+      
+      - name: Install dependencies
+        run: npm ci
+      
+      - name: Run verification
+        run: |
+          chmod +x specs/001-rebrand-from-maker/verification/*.sh
+          ./specs/001-rebrand-from-maker/verification/verify-package-names.sh
+          ./specs/001-rebrand-from-maker/verification/verify-namespaces.sh
+          ./specs/001-rebrand-from-maker/verification/verify-docs.sh
+      
+      - name: Build all packages
+        run: npm run build
+      
+      - name: Verify distribution files
+        run: ./specs/001-rebrand-from-maker/verification/verify-dist-files.sh
+      
+      - name: Set version (if manual trigger)
+        if: github.event_name == 'workflow_dispatch'
+        run: |
+          npm version ${{ inputs.version }} --no-git-tag-version --workspaces
+          npm version ${{ inputs.version }} --no-git-tag-version
+      
+      - name: Publish @photon/core
+        working-directory: packages/photon
+        run: npm publish --access public --tag ${{ inputs.tag || 'latest' }}
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      
+      - name: Publish @photon/playground
+        working-directory: packages/playground
+        run: npm publish --access public --tag ${{ inputs.tag || 'latest' }}
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      
+      - name: Publish @photon/fonts
+        working-directory: packages/fonts
+        run: npm publish --access public --tag ${{ inputs.tag || 'latest' }}
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      
+      - name: Publish @photon/docs
+        working-directory: packages/docs
+        run: npm publish --access public --tag ${{ inputs.tag || 'latest' }}
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      
+      - name: Create GitHub Release (if manual)
+        if: github.event_name == 'workflow_dispatch'
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: v${{ inputs.version }}
+          release_name: Photon v${{ inputs.version }}
+          body: |
+            ## Photon v${{ inputs.version }}
+            
+            Published to npm with tag: `${{ inputs.tag }}`
+            
+            ### Installation
+            ```bash
+            npm install @photon/core@${{ inputs.version }}
+            ```
+            
+            See [ROADMAP.md](ROADMAP.md) for future plans.
+          draft: false
+          prerelease: ${{ inputs.tag != 'latest' }}
+      
+      - name: Notify on success
+        if: success()
+        run: |
+          echo "✅ Successfully published Photon packages to npm!"
+          echo "📦 @photon/core"
+          echo "📦 @photon/playground"
+          echo "📦 @photon/fonts"
+          echo "📦 @photon/docs"

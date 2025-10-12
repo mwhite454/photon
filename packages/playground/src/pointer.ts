@@ -4,14 +4,14 @@ export module Pointer {
     export var clickDistance = 2;
 
     export interface IPanZoom {
-        origin: MakerJs.IPoint;
-        pan: MakerJs.IPoint;
+        origin: Photon.IPoint;
+        pan: Photon.IPoint;
         zoom: number;
     }
 
     interface IPointRelative {
-        fromCanvas: MakerJs.IPoint;
-        fromDrawingOrigin: MakerJs.IPoint;
+        fromCanvas: Photon.IPoint;
+        fromDrawingOrigin: Photon.IPoint;
         panZoom: IPanZoom;
     }
 
@@ -35,7 +35,7 @@ export module Pointer {
         return makerjs.measure.pointDistance(all[0].current.fromCanvas, all[1].current.fromCanvas);
     }
 
-    function average(all: IPointer[], fromCanvas: boolean): MakerJs.IPoint {
+    function average(all: IPointer[], fromCanvas: boolean): Photon.IPoint {
 
         if (all.length == 0) return null;
 
@@ -49,25 +49,24 @@ export module Pointer {
             y += point[1];
         }
 
-        return [x / all.length, y / all.length];
     }
 
     export class Manager {
         private initialDistance: number;
         private initialZoom: number;
-        private initialAveragePointFromDrawingOrigin: MakerJs.IPoint = null;
-        private previousAveragePointFromCanvas: MakerJs.IPoint = null;
+        private initialAveragePointFromDrawingOrigin: Photon.IPoint = null;
+        private previousAveragePointFromCanvas: Photon.IPoint = null;
         private isClick: boolean;
         private wheelTimer: NodeJS.Timer;
         private wheelTimeout = 250;
-
-        public down: IPointerMap = {};
-        public count: number;
+        private all: IPointer[] = [];
+        private map: IPointerMap = {};
+        private count = 0;
 
         constructor(
             private view: HTMLDivElement,
             private pointersSelector: string,
-            private margin: MakerJs.IPoint,
+            private margin: Photon.IPoint,
             private getZoom: () => IPanZoom,
             private setZoom: (panZoom: IPanZoom) => void,
             private onClick: (target: EventTarget) => any,
@@ -131,7 +130,7 @@ export module Pointer {
             return domPointers;
         }
 
-        private drawPointer(ns: string, point: MakerJs.IPoint, id: string, isCrossHair: boolean): SVGGElement {
+        private drawPointer(ns: string, point: Photon.IPoint, id: string, isCrossHair: boolean): SVGGElement {
 
             function createElement(tagName: string, attrs: any) {
                 var el = document.createElementNS(ns, tagName);
@@ -275,7 +274,7 @@ export module Pointer {
 
             var panZoom = pointer.current.panZoom;
             var p = makerjs.point;
-            var panDelta: MakerJs.IPoint;
+            var panDelta: Photon.IPoint;
 
             if (this.count == 1) {
                 //simple pan
@@ -345,7 +344,7 @@ export module Pointer {
             }
         }
 
-        public scaleCenterPoint(panZoom: IPanZoom, newZoom: number, centerPointFromDrawingOrigin: MakerJs.IPoint) {
+        public scaleCenterPoint(panZoom: IPanZoom, newZoom: number, centerPointFromDrawingOrigin: Photon.IPoint) {
             var p = makerjs.point;
             var previousZoom = panZoom.zoom;
             var zoomDiff = newZoom / previousZoom;
@@ -394,7 +393,7 @@ export module Pointer {
 
     // Find out where an element is on the page
     // From http://www.quirksmode.org/js/findpos.html
-    export function pageOffset(el: HTMLElement): MakerJs.IPoint {
+    export function pageOffset(el: HTMLElement): Photon.IPoint {
         var curleft = 0, curtop = 0;
         if (el.offsetParent) {
             do {

@@ -1,8 +1,8 @@
-# Maker.js
+# Photon
 
 Your compass and straightedge, in JavaScript.
 
-Create line drawings using familiar constructs from geometry and drafting. Initially designated for CNC and laser cutters, Maker.js can also help you programmatically draw shapes for any purpose. It runs in both Node.js and web browsers.
+Create line drawings using familiar constructs from geometry and drafting. Initially designated for CNC and laser cutters, Photon can also help you programmatically draw shapes for any purpose. It runs in both Node.js and web browsers.
 
 2D Export formats: 
 [DXF](https://maker.js.org/docs/api/modules/makerjs.exporter.html#todxf), 
@@ -18,6 +18,16 @@ Create line drawings using familiar constructs from geometry and drafting. Initi
 [Demos](https://maker.js.org/demos/) - [Documentation](http://maker.js.org/docs/)
 
 ![Sample animation](https://maker.js.org/images/anim-wheel.gif)
+
+## Origins
+
+Photon is a modern continuation of Microsoft's Maker.js project. When Microsoft archived the original Maker.js repository, we forked it to ensure this valuable tool continues to evolve and serve the maker community.
+
+**Original Project**: [Microsoft Maker.js](https://github.com/Microsoft/maker.js) (archived)  
+**License**: Apache 2.0  
+**Original Author**: Dan Marshall / Microsoft Corporation
+
+We're grateful to Microsoft and the original contributors for creating and open-sourcing this excellent library. Photon maintains full backward compatibility while adding modern features and active maintenance.
 
 ## Core concepts
 
@@ -90,37 +100,66 @@ Learn more in [the tutorial](https://maker.js.org/docs/basic-drawing/) or [API d
 
 ## Getting Started
 
-### Try it now
+### Installation
 
-Visit the [Maker.js Playground](https://maker.js.org/playground/) a sample app to edit and run JavaScript from your browser.
+Install Photon via npm:
 
-Each of the [demos](https://maker.js.org/demos/#content) will also open in the playground so that you can explore and modify their code.
+```bash
+npm install @photon/core
+```
 
-### To use in a web browser
+### Usage in Node.js
+
+In ESM code (recommended):
+
+```js
+import * as photon from '@photon/core';
+
+// Create a simple rectangle
+const rect = new photon.models.Rectangle(100, 50);
+
+// Export to SVG
+const svg = photon.exporter.toSVG(rect);
+```
+
+In CommonJS code:
+
+```js
+const photon = require('@photon/core');
+
+// Create a simple rectangle
+const rect = new photon.models.Rectangle(100, 50);
+```
+
+### Usage in Web Browser
 
 Use the ES module build (recommended):
 
 ```html
 <script type="module">
-  import * as makerjs from "https://cdn.jsdelivr.net/npm/makerjs@0/dist/maker.es.js";
-  // use makerjs...
+  import * as photon from "https://cdn.jsdelivr.net/npm/@photon/core@latest/dist/photon.es.js";
+  
+  // Create a simple star
+  const star = new photon.models.Star(5, 50, 25);
+  const svg = photon.exporter.toSVG(star);
+  document.body.innerHTML = svg;
 </script>
 ```
 
-Or use the UMD bundle for a global `makerjs` variable:
+Or use the UMD bundle for a global `Photon` variable:
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/makerjs@0/dist/maker.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@photon/core@latest/dist/photon.umd.js"></script>
 <script>
-  const { models, paths, exporter } = window.makerjs;
-  // use makerjs globals...
+  const { models, paths, exporter } = window.Photon;
+  const circle = new models.Circle([0, 0], 50);
 </script>
 ```
 
-### To use via CDN
+### CDN Links
 
-- ES module: `https://cdn.jsdelivr.net/npm/makerjs@0/dist/maker.es.js`
-- UMD global: `https://cdn.jsdelivr.net/npm/makerjs@0/dist/maker.umd.js`
+- ES module: `https://cdn.jsdelivr.net/npm/@photon/core@latest/dist/photon.es.js`
+- UMD global: `https://cdn.jsdelivr.net/npm/@photon/core@latest/dist/photon.umd.js`
 
 Optional dependencies:
 
@@ -132,44 +171,70 @@ Optional dependencies:
 <script src="https://cdn.jsdelivr.net/npm/opentype.js@0/dist/opentype.js"></script>
 ```
 
-### To use in Node.js
+### Try it now
 
-To depend on Maker.js, run this from the command line:
-```bash
-npm install makerjs --save
-```
+Visit the [Photon Playground](https://maker.js.org/playground/) to edit and run JavaScript from your browser.
 
-In ESM code (recommended):
+Each of the [demos](https://maker.js.org/demos/#content) will also open in the playground so that you can explore and modify their code.
 
-```js
-import * as makerjs from 'makerjs';
-```
+## Migrating from Maker.js
 
-In CommonJS code:
+Photon maintains API compatibility with Maker.js. To migrate:
 
-```js
-const makerjs = require('makerjs');
-```
+1. **Update package name**:
+   ```bash
+   npm uninstall makerjs
+   npm install @photon/core
+   ```
+
+2. **Update imports**:
+   ```js
+   // Old (Maker.js)
+   import * as makerjs from 'makerjs';
+   
+   // New (Photon)
+   import * as photon from '@photon/core';
+   ```
+
+3. **Update variable names** (optional but recommended):
+   ```js
+   // Old
+   const rect = new makerjs.models.Rectangle(100, 50);
+   const svg = makerjs.exporter.toSVG(rect);
+   
+   // New
+   const rect = new photon.models.Rectangle(100, 50);
+   const svg = photon.exporter.toSVG(rect);
+   ```
+
+4. **Update global namespace** (if using UMD/browser builds):
+   - Old: `window.MakerJs` or `window.makerjs`
+   - New: `window.Photon`
+
+All APIs, models, and functionality remain the same. The core library is fully compatible.
 
 ## Contributing
-There are many ways to contribute to Maker.js:
-* [★ Star Maker.js on GitHub](https://github.com/Microsoft/maker.js)
-* Submit bugs and feature requests [on GitHub](https://github.com/Microsoft/maker.js/issues).
-* Create a demo for the [gallery](http://maker.js.org/demos/#content).
-* Create lessons or videos for the [documentation](http://maker.js.org/docs/#content).
-* Enhance the [website](https://github.com/Microsoft/maker.js/tree/gh-pages).
-* Add features to the [Playground app](https://maker.js.org/playground/).
-* Create a new Maker.js app, and we will link to it here.
-* Find some TODO's in the [core source code](https://github.com/Microsoft/maker.js/tree/master).
-* Create unit tests for the core.
 
-Some of these may require a [contributor agreement](https://github.com/Microsoft/maker.js/blob/master/CONTRIBUTING.md).
+There are many ways to contribute to Photon:
+* [★ Star Photon on GitHub](https://github.com/mwhite454/photon)
+* Submit bugs and feature requests [on GitHub](https://github.com/mwhite454/photon/issues)
+* Create a demo for the [gallery](http://maker.js.org/demos/#content)
+* Create lessons or videos for the [documentation](http://maker.js.org/docs/#content)
+* Enhance the [website](https://github.com/mwhite454/photon/tree/gh-pages)
+* Add features to the [Playground app](https://maker.js.org/playground/)
+* Create a new Photon app, and we will link to it here
+* Find TODOs in the [core source code](https://github.com/mwhite454/photon/tree/main/packages/photon/src)
+* Create unit tests for the core
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ### Credits
-Maker.js depends on:
+
+Photon depends on:
 * [bezier-js](https://github.com/Pomax/bezierjs) by Pomax
 * [graham_scan](https://github.com/brian3kb/graham_scan_js) by Brian Barnett
 * [kdbush](https://github.com/mourner/kdbush) by Vladimir Agafonkin
+
 ---
 
-Maker.js is a Microsoft Garage project. The Microsoft Garage turns fresh ideas into real projects. Learn more at [http://microsoft.com/garage](http://microsoft.com/garage).
+**Original Project**: Maker.js was a Microsoft Garage project. We're grateful to Microsoft and Dan Marshall for creating and open-sourcing this excellent library under the Apache 2.0 license.

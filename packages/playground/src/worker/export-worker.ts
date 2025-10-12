@@ -1,4 +1,4 @@
-﻿
+
 //this is here for compilation in a web worker
 interface CanvasRenderingContext2D {
 }
@@ -24,31 +24,31 @@ importScripts(
     '../../../external/bezier-js/bezier.js',
     '../iexport.js');
 
-var makerjs: typeof MakerJs = require('makerjs');
+var makerjs: typeof Photon = require('makerjs');
 
 var deps: { [format: number]: boolean } = {};
 
-deps[MakerJsPlaygroundExport.ExportFormat.Dxf] = true;
-deps[MakerJsPlaygroundExport.ExportFormat.Json] = true;
-deps[MakerJsPlaygroundExport.ExportFormat.OpenJsCad] = true;
-deps[MakerJsPlaygroundExport.ExportFormat.Svg] = true;
-deps[MakerJsPlaygroundExport.ExportFormat.Stl] = false;
-deps[MakerJsPlaygroundExport.ExportFormat.Pdf] = false;
+deps[PhotonPlaygroundExport.ExportFormat.Dxf] = true;
+deps[PhotonPlaygroundExport.ExportFormat.Json] = true;
+deps[PhotonPlaygroundExport.ExportFormat.OpenJsCad] = true;
+deps[PhotonPlaygroundExport.ExportFormat.Svg] = true;
+deps[PhotonPlaygroundExport.ExportFormat.Stl] = false;
+deps[PhotonPlaygroundExport.ExportFormat.Pdf] = false;
 
 interface IExporter {
-    (modelToExport: MakerJs.IModel | any, options?: MakerJs.exporter.IExportOptions | any): any;
+    (modelToExport: Photon.IModel | any, options?: Photon.exporter.IExportOptions | any): any;
 }
 
-function getExporter(format: MakerJsPlaygroundExport.ExportFormat, result: MakerJsPlaygroundExport.IExportResponse): IExporter {
+function getExporter(format: PhotonPlaygroundExport.ExportFormat, result: PhotonPlaygroundExport.IExportResponse): IExporter {
 
-    var f = MakerJsPlaygroundExport.ExportFormat;
+    var f = PhotonPlaygroundExport.ExportFormat;
 
     switch (format) {
         case f.Json:
             return makerjs.exporter.toJson;
 
         case f.Dxf:
-            function toDXF(model: MakerJs.IModel, options: MakerJs.exporter.IDXFRenderOptions) {
+            function toDXF(model: Photon.IModel, options: Photon.exporter.IDXFRenderOptions) {
                 if (!options.units) {
                     options.units = model.units || makerjs.unitType.Millimeter;
                 }
@@ -66,14 +66,14 @@ function getExporter(format: MakerJsPlaygroundExport.ExportFormat, result: Maker
             return makerjs.exporter.toJscadScript;
 
         case f.Stl:
-            function toStl(model: MakerJs.IModel, options: MakerJs.exporter.IJscadCsgOptions) {
+            function toStl(model: Photon.IModel, options: Photon.exporter.IJscadCsgOptions) {
 
-                if (!deps[MakerJsPlaygroundExport.ExportFormat.Stl]) {
+                if (!deps[PhotonPlaygroundExport.ExportFormat.Stl]) {
                     importScripts(
                         '../../../external/jscad/csg.js',
                         '../../../external/jscad/stl-serializer.js'
                     );
-                    deps[MakerJsPlaygroundExport.ExportFormat.Stl] = true;
+                    deps[PhotonPlaygroundExport.ExportFormat.Stl] = true;
                 }
 
                 //make sure size is in mm for STL
@@ -92,16 +92,16 @@ function getExporter(format: MakerJsPlaygroundExport.ExportFormat, result: Maker
             return toStl;
 
         case f.Pdf:
-            function toPdf(model: MakerJs.IModel, exportOptions: MakerJs.exporter.IPDFRenderOptions) {
+            function toPdf(model: Photon.IModel, exportOptions: Photon.exporter.IPDFRenderOptions) {
 
-                if (!deps[MakerJsPlaygroundExport.ExportFormat.Pdf]) {
+                if (!deps[PhotonPlaygroundExport.ExportFormat.Pdf]) {
                     importScripts(
                         '../../../external/text-encoding/encoding-indexes.js',
                         '../../../external/text-encoding/encoding.js',
                         '../../../external/PDFKit/pdfkit.js',
                         'string-reader.js'
                     );
-                    deps[MakerJsPlaygroundExport.ExportFormat.Pdf] = true;
+                    deps[PhotonPlaygroundExport.ExportFormat.Pdf] = true;
                 }
 
                 function complete(pdfDataString: string) {
@@ -137,9 +137,9 @@ function getExporter(format: MakerJsPlaygroundExport.ExportFormat, result: Maker
 
 onmessage = (ev: MessageEvent) => {
 
-    var request = ev.data as MakerJsPlaygroundExport.IExportRequest;
+    var request = ev.data as PhotonPlaygroundExport.IExportRequest;
 
-    var result: MakerJsPlaygroundExport.IExportResponse = {
+    var result: PhotonPlaygroundExport.IExportResponse = {
         format: request.format,
         formatTitle: request.formatTitle,
         error: null,

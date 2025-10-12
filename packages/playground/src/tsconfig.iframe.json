@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "None",
+    "lib": ["dom", "es2015", "es2017", "ES2020"],
+    "outFile": "../../docs/playground/js/require-iframe.js",
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "types": [
+      "node"
+    ]
+  },
+  "files": [
+    "globals.d.ts",
+    "iexport.ts",
+    "require-iframe.ts"
+  ]
+}

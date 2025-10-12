@@ -1,6 +1,6 @@
 (function(global, factory) {
   typeof exports === "object" && typeof module !== "undefined" ? factory(exports, require("kdbush"), require("bezier-js"), require("graham_scan")) : typeof define === "function" && define.amd ? define(["exports", "kdbush", "bezier-js", "graham_scan"], factory) : (global = typeof globalThis !== "undefined" ? globalThis : global || self, factory(global.Photon = {}, global.KDBush, global.Bezier, global.GrahamScan));
-})(this, (function(exports, KDBush, BezierJsDefault, grahamScanModule) {
+})(this, (function(exports, KDBush, bezierJs, grahamScanModule) {
   "use strict";
   const models$2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
     __proto__: null,
@@ -1609,7 +1609,6 @@
     toNewModel,
     toPoints
   }, Symbol.toStringTag, { value: "Module" }));
-  const Bezier = BezierJsDefault;
   function getScratch(seed) {
     const points = [seed.origin];
     points.push(...seed.controls);
@@ -1621,7 +1620,7 @@
       };
       return bp;
     });
-    return new Bezier(bezierJsPoints);
+    return new bezierJs.Bezier(bezierJsPoints);
   }
   function BezierToSeed(b, range) {
     const points = b.points.map(getIPoint);
@@ -1636,7 +1635,7 @@
       coords.push(seed.controls[1][0], seed.controls[1][1]);
     }
     coords.push(seed.end[0], seed.end[1]);
-    return new Bezier(coords);
+    return new bezierJs.Bezier(coords);
   }
   function getExtrema(b) {
     const extrema = b.extrema().values.map((m) => round(m)).filter((value2, index, self2) => self2.indexOf(value2) === index).sort();

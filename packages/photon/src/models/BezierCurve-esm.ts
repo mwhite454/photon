@@ -10,9 +10,26 @@ import * as chain from '../core/chain.js';
 import * as model from '../core/model.js';
 import * as paths from '../core/paths.js';
 
-// Import Bezier.js via default export for CJS compatibility, and namespace for types
-import BezierJsDefault, * as BezierJs from 'bezier-js';
-const Bezier: any = BezierJsDefault;
+// Import Bezier.js v6.x - uses named export at runtime
+// @ts-ignore - type definitions expect default export but runtime uses named export
+import { Bezier } from 'bezier-js';
+
+// Define types locally since @types/bezier-js doesn't match v6.x export pattern
+declare namespace BezierJs {
+  interface Point {
+    x: number;
+    y: number;
+    z?: number;
+  }
+  interface Bezier {
+    points: Point[];
+    extrema(): { values: number[] };
+    get(t: number): Point;
+    split(t1: number, t2: number): Bezier;
+    length(): number;
+    compute(t: number): Point;
+  }
+}
 
 function getScratch(seed: IPathBezierSeed) {
   const points: IPoint[] = [seed.origin];

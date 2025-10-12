@@ -1,5 +1,5 @@
 import KDBush from "kdbush";
-import BezierJsDefault from "bezier-js";
+import { Bezier } from "bezier-js";
 import grahamScanModule from "graham_scan";
 const models$2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
@@ -1608,7 +1608,6 @@ const chain$1 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.definePrope
   toNewModel,
   toPoints
 }, Symbol.toStringTag, { value: "Module" }));
-const Bezier = BezierJsDefault;
 function getScratch(seed) {
   const points = [seed.origin];
   points.push(...seed.controls);

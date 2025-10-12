@@ -160,10 +160,10 @@ There are many ways to contribute to Maker.js:
 * Enhance the [website](https://github.com/Microsoft/maker.js/tree/gh-pages).
 * Add features to the [Playground app](https://maker.js.org/playground/).
 * Create a new Maker.js app, and we will link to it here.
-* Find some TODO's in the [core source code](https://github.com/Microsoft/maker.js/tree/master).
+* Find some TODO's in the [core source code](https://github.com/Microsoft/maker.js/tree/main).
 * Create unit tests for the core.
 
-Some of these may require a [contributor agreement](https://github.com/Microsoft/maker.js/blob/master/CONTRIBUTING.md).
+Some of these may require a [contributor agreement](https://github.com/Microsoft/maker.js/blob/main/CONTRIBUTING.md).
 
 ### Credits
 Maker.js depends on:

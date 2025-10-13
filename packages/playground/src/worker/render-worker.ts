@@ -38,7 +38,7 @@ function load(id, src) {
     return loadedModule;
 }
 
-//add the makerjs module
+//add the photon module
 importScripts(
     '../../../fonts/fonts.js',
     '../fontloader.js',
@@ -46,13 +46,19 @@ importScripts(
     '../../../external/bezier-js/bezier.js',
     '../../../external/opentype/opentype.js'
 );
-var makerjs: typeof Photon = self.require('makerjs');
-module['makerjs'] = makerjs;
-module['./../target/js/node.maker.js'] = makerjs;
+var photon: any = self.require('photon');
+module['photon'] = photon;
+module['./../target/js/node.maker.js'] = photon;
+
+// Make photon available globally for ES6-style imports
+(self as any).photon = photon;
 
 function runCodeIsolated(javaScript: string) {
-    var Fn: any = new Function('require', 'module', 'document', 'console', 'alert', 'playgroundRender', 'opentype', javaScript);
-    var result: any = new Fn(module.require, module, mockDocument, mockConsole, devNull, playgroundRender, window['opentype']); //call function with the "new" keyword so the "this" keyword is an instance
+    // Strip ES6 import statements and inject photon as a variable
+    var processedCode = javaScript.replace(/import\s+\*\s+as\s+photon\s+from\s+['"]photon['"];?\s*/g, '');
+    
+    var Fn: any = new Function('require', 'module', 'document', 'console', 'alert', 'playgroundRender', 'opentype', 'photon', processedCode);
+    var result: any = new Fn(module.require, module, mockDocument, mockConsole, devNull, playgroundRender, window['opentype'], photon); //call function with the "new" keyword so the "this" keyword is an instance
 
     return module.exports || result;
 }
@@ -86,7 +92,7 @@ function getLogsHtmls() {
         logHtmls.push('<div class="section"><div class="separator"><span class="console">console:</span></div>');
 
         logs.forEach(function (log) {
-            var logDiv = new makerjs.exporter.XmlTag('div', { "class": "console" });
+            var logDiv = new photon.exporter.XmlTag('div', { "class": "console" });
             logDiv.innerText = log;
             logHtmls.push(logDiv.toString());
         });
@@ -184,7 +190,7 @@ onmessage = (ev: MessageEvent) => {
 
         fontLoader.successCb = function (realValues: any[]) {
             try {
-                var model = makerjs.kit.construct(kit, realValues);
+                var model = photon.kit.construct(kit, realValues);
 
                 var response: PhotonPlaygroundRender.IRenderResponse = {
                     requestId: request.requestId,

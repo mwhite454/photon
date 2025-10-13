@@ -1,8 +1,7 @@
 // Global type declarations for playground
 
 // Photon global (loaded via script tag)
-// Note: Still referenced as 'makerjs' in many places - needs rebrand cleanup
-declare var makerjs: any;
+declare var photon: any;
 declare namespace Photon {
     interface IModel {
         [key: string]: any;

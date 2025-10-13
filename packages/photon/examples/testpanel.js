@@ -1,4 +1,4 @@
-var makerjs = require('./../target/js/node.maker.js');
+import * as photon from 'photon';
 
 function testPanel(count, height, width, radius, angle) {
 
@@ -6,30 +6,30 @@ function testPanel(count, height, width, radius, angle) {
         this.paths = {};
         this.models = {};
 
-        var circle = new makerjs.paths.Circle([0, 0], Math.min(height, width) / 2 - .5);
+       const circle = new photon.paths.Circle([0, 0], Math.min(height, width) / 2 - .5);
 
         if (radius < 0.5) {
-            this.models['boltrect'] = makerjs.model.move(new makerjs.models.BoltRectangle(width - .4, height - .4, .07), [.2, .2]);
+            this.models['boltrect'] = photon.model.move(new photon.models.BoltRectangle(width - .4, height - .4, .07), [.2, .2]);
         }
 
-        this.paths['c1'] = makerjs.path.moveRelative(circle, [width / 2, height / 2]);
+        this.paths['c1'] = photon.path.moveRelative(circle, [width / 2, height / 2]);
 
-        this.models['panel'] = new makerjs.models.RoundRectangle(width, height, radius);
+        this.models['panel'] = new photon.models.RoundRectangle(width, height, radius);
 
-        this.models['boltcircle'] = makerjs.model.move(new makerjs.models.BoltCircle(circle.radius + 0.25, .05, 6), [width / 2, height / 2]);
+        this.models['boltcircle'] = photon.model.move(new photon.models.BoltCircle(circle.radius + 0.25, .05, 6), [width / 2, height / 2]);
 
-        makerjs.model.rotate(this, angle, makerjs.point.zero());
+        photon.model.rotate(this, angle, photon.point.zero());
     }
 
     //modeling
-    this.units = makerjs.unitType.Inch;
+    this.units = photon.unitType.Inch;
     this.models = {'0': new myModelFactory()};
 
-    var m = makerjs.measure.modelExtents(this.models['0']);
-    var x = m.high[0] - m.low[0] + .025;
+   const m = photon.measure.modelExtents(this.models['0']);
+   const x = m.high[0] - m.low[0] + .025;
 
     for (var i = 1; i < count; i++) {
-        this.models[i + ''] = makerjs.model.move(new myModelFactory(), [x * i, 0]);
+        this.models[i + ''] = photon.model.move(new myModelFactory(), [x * i, 0]);
     }
 
 }
@@ -42,4 +42,4 @@ testPanel.metaParameters =[
     { title: "angle", type: "range", min: -90, max: 90, step: 2.5, value: 0 }
 ];
 
-module.exports = testPanel;
+export default testPanel;

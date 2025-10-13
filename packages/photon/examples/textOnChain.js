@@ -1,14 +1,14 @@
-﻿var makerjs = require('makerjs');
+﻿import * as photon from 'photon';
 
 function TextOnChain(font, text, fontSize, baseline, reversed, contain, rotate, svgPathData, showPath) {
 
-    var textModel = new makerjs.models.Text(font, text, fontSize);
+   const textModel = new photon.models.Text(font, text, fontSize);
 
-    var svgPath = makerjs.importer.fromSVGPathData(svgPathData);
+   const svgPath = photon.importer.fromSVGPathData(svgPathData);
     
-    var chain = makerjs.model.findSingleChain(svgPath);
+   const chain = photon.model.findSingleChain(svgPath);
 
-    makerjs.layout.childrenOnChain(textModel, chain, baseline, reversed, contain, rotate);
+    photon.layout.childrenOnChain(textModel, chain, baseline, reversed, contain, rotate);
 
     this.models = {
         text: textModel
@@ -31,4 +31,4 @@ TextOnChain.metaParameters = [
     { title: "show path", type: "bool", value: true },
 ];
 
-module.exports = TextOnChain;
+export default TextOnChain;

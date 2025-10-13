@@ -1,9 +1,12 @@
 {
   "compilerOptions": {
+    "target": "ES2020",
+    "module": "ES2020",
     "lib": ["webworker", "es5", "scripthost"],
     "outDir": "../../../../docs/playground/js",
     "skipLibCheck": true,
-    "sourceMap": true
+    "sourceMap": true,
+    "moduleResolution": "node"
   },
   "files": [
     "../globals.d.ts",

@@ -1,13 +1,20 @@
-# Maker.js Playground Models
+# Photon Playground Models
 
-This folder contains model files that can be loaded into the Maker.js playground. The server automatically watches this directory and makes all `.js` files available in the "Load Model" dropdown in the playground interface.
+This folder contains model files that can be loaded into the Photon playground. The server automatically watches this directory and makes all `.js` files available in the "Load Model" dropdown in the playground interface.
+
+## Modern ES6+ Syntax
+
+All models in this directory use modern JavaScript (ES6+) syntax:
+- **ES6 imports** instead of `require()`
+- **const/let** instead of `var`
+- **photon** namespace instead of `makerjs`
 
 ## How to Add Models
 
 1. Create a new `.js` file in this directory
-2. Follow the standard Maker.js model format:
+2. Follow the modern Photon model format:
    ```javascript
-   var makerjs = require('makerjs');
+   import * as photon from 'photon';
    
    // Define your paths, models, etc.
    this.paths = {

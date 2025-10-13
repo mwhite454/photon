@@ -1,47 +1,47 @@
-///<reference path="../target/ts/makerjs.d.ts"/>
+///<reference path="../target/ts/photon.d.ts"/>
 ///<reference path="ventgrid.d.ts"/>
 
-var makerjs: typeof MakerJs = require('../target/js/node.maker.js');
-var ventgrid: typeof Ventgrid = require('./ventgrid.js');
+import * as photon from 'photon';
+import ventgrid from './ventgrid.js';
 
 class VentgridCircle implements MakerJs.IModel {
 		
-	public units = makerjs.unitType.Millimeter;
+	public units = photon.unitType.Millimeter;
     public paths: MakerJs.IPathMap = {};
 	private rim: MakerJs.IPathCircle;
 	
 	constructor(public filterRadius: number, public spacing: number, public radius: number) {
 		
-		this.rim = new makerjs.paths.Circle([0,0], radius);
+		this.rim = new photon.paths.Circle([0,0], radius);
 		
-		var ventgridInstance = new ventgrid(filterRadius, spacing, radius, radius);
+	const ventgridInstance = new ventgrid(filterRadius, spacing, radius, radius);
 		
-		for (var id in ventgridInstance.paths) {
-			var circle = <MakerJs.IPathCircle>ventgridInstance.paths[id];
+		for (let id in ventgridInstance.paths) {
+	const circle = <MakerJs.IPathCircle>ventgridInstance.paths[id];
 			this.checkCircle(id, circle);
 		}		
 			
 	}
 	
 	private checkCircle (id:string, circle: MakerJs.IPathCircle) {
-		var distanceToCenter = makerjs.measure.pointDistance([0,0], circle.origin);
+	const distanceToCenter = photon.measure.pointDistance([0,0], circle.origin);
 		
-		if (makerjs.round(distanceToCenter + circle.radius) <= this.radius) {
+		if (photon.round(distanceToCenter + circle.radius) <= this.radius) {
 			//inside
 			this.paths[id] = circle;
 			
-		} else if (makerjs.round(distanceToCenter - circle.radius) > this.radius) {
+		} else if (photon.round(distanceToCenter - circle.radius) > this.radius) {
 			//outside, don't add
 			
 		} else {
 			//border
-			var arcIntersection = makerjs.tools.pathIntersection(circle, this.rim);
+	const arcIntersection = photon.tools.pathIntersection(circle, this.rim);
 			
             if (arcIntersection && arcIntersection.path1Angles.length == 2) {
-				var filterArc = new makerjs.paths.Arc(circle.origin, circle.radius, arcIntersection.path1Angles[1], arcIntersection.path1Angles[0]);
+	const filterArc = new photon.paths.Arc(circle.origin, circle.radius, arcIntersection.path1Angles[1], arcIntersection.path1Angles[0]);
 				this.paths[id] = filterArc;
 				
-				var rimArc = new makerjs.paths.Arc([0,0], this.radius, arcIntersection.path2Angles[0], arcIntersection.path2Angles[1]);
+	const rimArc = new photon.paths.Arc([0,0], this.radius, arcIntersection.path2Angles[0], arcIntersection.path2Angles[1]);
 				this.paths[id + '_rim'] = rimArc;
 			}
 		}
@@ -55,7 +55,7 @@ class VentgridCircle implements MakerJs.IModel {
 	{ title: "radius", type: "range", min: 20, max: 200, value: 100 }
 ];
 
-module.exports = VentgridCircle;
+export default = VentgridCircle;
 
  //To compile this: go to the root and:
  //   cd examples

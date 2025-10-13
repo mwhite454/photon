@@ -3185,7 +3185,10 @@
     isLineOverlapping,
     isMeasurementOverlapping,
     isPointArrayClockwise,
+    isPointDistinct,
+    isPointEqual,
     isPointInsideModel,
+    isPointOnSlope,
     lineSlope,
     modelExtents,
     modelPathLength,
@@ -3348,6 +3351,7 @@
     fromPathEnds,
     fromPolar,
     fromSlopeIntersection,
+    isPoint,
     middle,
     mirror,
     rotate,
@@ -6963,6 +6967,7 @@
   exports.paths = paths$1;
   exports.pdf = pdfEsm;
   exports.point = point;
+  exports.round = round;
   exports.schema = schema;
   exports.svg = svgEsm;
   exports.units = units;

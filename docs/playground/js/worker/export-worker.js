@@ -1,16 +1,15 @@
-var _this = this;
 // dependency libraries
-var PDFDocument;
+let PDFDocument;
 /* module system */
 var module = this;
-module.require = function (id) {
+module.require = (id) => {
     if (id in module) {
         return module[id];
     }
-    return _this;
+    return this;
 };
 importScripts('../../../target/js/browser.maker.js?' + new Date().valueOf(), '../../../external/bezier-js/bezier.js', '../iexport.js');
-var makerjs = require('makerjs');
+var photon = require('photon');
 var deps = {};
 deps[PhotonPlaygroundExport.ExportFormat.Dxf] = true;
 deps[PhotonPlaygroundExport.ExportFormat.Json] = true;
@@ -22,21 +21,21 @@ function getExporter(format, result) {
     var f = PhotonPlaygroundExport.ExportFormat;
     switch (format) {
         case f.Json:
-            return makerjs.exporter.toJson;
+            return photon.exporter.toJson;
         case f.Dxf:
             function toDXF(model, options) {
                 if (!options.units) {
-                    options.units = model.units || makerjs.unitType.Millimeter;
+                    options.units = model.units || photon.unitType.Millimeter;
                 }
-                return makerjs.exporter.toDXF(model, options);
+                return photon.exporter.toDXF(model, options);
             }
             return toDXF;
         case f.Svg:
-            return makerjs.exporter.toSVG;
+            return photon.exporter.toSVG;
         case f.SvgPathData:
-            return makerjs.exporter.toSVGPathData;
+            return photon.exporter.toSVGPathData;
         case f.OpenJsCad:
-            return makerjs.exporter.toJscadScript;
+            return photon.exporter.toJscadScript;
         case f.Stl:
             function toStl(model, options) {
                 if (!deps[PhotonPlaygroundExport.ExportFormat.Stl]) {
@@ -44,14 +43,14 @@ function getExporter(format, result) {
                     deps[PhotonPlaygroundExport.ExportFormat.Stl] = true;
                 }
                 //make sure size is in mm for STL
-                model = makerjs.model.convertUnits(model, makerjs.unitType.Millimeter);
-                var CAG = require('@jscad/csg').CAG;
-                var stlSerializer = require('@jscad/stl-serializer');
+                model = photon.model.convertUnits(model, photon.unitType.Millimeter);
+                const { CAG } = require('@jscad/csg');
+                const stlSerializer = require('@jscad/stl-serializer');
                 options.statusCallback = function (status) {
                     result.percentComplete = status.progress;
                     postMessage(result);
                 };
-                return makerjs.exporter.toJscadSTL(CAG, stlSerializer, model, options);
+                return photon.exporter.toJscadSTL(CAG, stlSerializer, model, options);
             }
             return toStl;
         case f.Pdf:
@@ -78,14 +77,14 @@ function getExporter(format, result) {
                 var reader = new StringReader(complete);
                 var stream = doc.pipe(reader);
                 //TODO: break up model across pages
-                makerjs.exporter.toPDF(doc, model, exportOptions);
+                photon.exporter.toPDF(doc, model, exportOptions);
                 doc.end();
             }
             return toPdf;
     }
 }
 /* events */
-onmessage = function (ev) {
+onmessage = (ev) => {
     var request = ev.data;
     var result = {
         format: request.format,

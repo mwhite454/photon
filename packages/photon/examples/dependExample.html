@@ -21,12 +21,12 @@
     <script src="dependExample_forBrowser.js"></script>
 
     <script>
-        var makerjs = require('makerjs');
+        var photon = require('photon');
 
         var _require = window["require"];
         var require = function(x) {
-            if (x == '../target/js/node.maker.js' || x == 'makerjs') {
-                return makerjs;
+            if (x == '../target/js/node.maker.js' || x == 'photon') {
+                return photon;
             } else {
                 return _require(x);
             }
@@ -37,12 +37,12 @@
 <body>
 
     <script>
-        var makerjs = require('makerjs');
+        var photon = require('photon');
         var dependExample = require('dependExample');
 
         var model = new dependExample();
 
-        var svg = makerjs.exporter.toSVG(model);
+        var svg = photon.exporter.toSVG(model);
         document.write(svg);
     </script>
 

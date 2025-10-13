@@ -1,70 +1,61 @@
-var StringReader = /** @class */ (function () {
-    function StringReader(complete) {
+class StringReader {
+    constructor(complete) {
         this.complete = complete;
         this.data = [];
     }
-    StringReader.prototype.addListener = function (event, listener) {
+    addListener(event, listener) {
         return this;
-    };
-    StringReader.prototype.off = function (event, listener) {
+    }
+    off(event, listener) {
         return this;
-    };
+    }
     ;
-    StringReader.prototype.on = function (event, listener) {
+    on(event, listener) {
         return this;
-    };
-    StringReader.prototype.once = function (event, listener) {
+    }
+    once(event, listener) {
         return this;
-    };
-    StringReader.prototype.eventNames = function () {
+    }
+    eventNames() {
         return [];
-    };
-    StringReader.prototype.prependListener = function () {
+    }
+    prependListener() {
         return this;
-    };
-    StringReader.prototype.prependOnceListener = function () {
+    }
+    prependOnceListener() {
         return this;
-    };
-    StringReader.prototype.rawListeners = function (event) {
+    }
+    rawListeners(event) {
         return [];
-    };
-    StringReader.prototype.removeListener = function (event, listener) {
+    }
+    removeListener(event, listener) {
         return this;
-    };
-    StringReader.prototype.removeAllListeners = function (event) {
+    }
+    removeAllListeners(event) {
         return this;
-    };
-    StringReader.prototype.getMaxListeners = function () {
+    }
+    getMaxListeners() {
         return 1;
-    };
-    StringReader.prototype.setMaxListeners = function (n) {
+    }
+    setMaxListeners(n) {
         return this;
-    };
-    StringReader.prototype.listeners = function (event) {
+    }
+    listeners(event) {
         return [];
-    };
-    StringReader.prototype.listenerCount = function (type) {
+    }
+    listenerCount(type) {
         return 1;
-    };
-    StringReader.prototype.emit = function (event) {
-        var args = [];
-        for (var _i = 1; _i < arguments.length; _i++) {
-            args[_i - 1] = arguments[_i];
-        }
+    }
+    emit(event, ...args) {
         return true;
-    };
-    StringReader.prototype.write = function () {
-        var any = [];
-        for (var _i = 0; _i < arguments.length; _i++) {
-            any[_i] = arguments[_i];
-        }
+    }
+    write(...any) {
         var string = new TextDecoder("utf-8").decode(arguments[0]);
         this.data.push(string);
         return true;
-    };
-    StringReader.prototype.end = function () {
+    }
+    end() {
         this.complete(this.data.join(''));
-    };
-    return StringReader;
-}());
+    }
+}
 //# sourceMappingURL=string-reader.js.map

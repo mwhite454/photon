@@ -1,13 +1,13 @@
-var makerjs = require('./../target/js/node.maker.js');
+import * as photon from 'photon';
 
 function M(height, columnSpace, columnWidth, dropHigh, dropLow, dropConnect, innerSerifWidth, serifWidth, serifHeight) {
 
-    var columnRef = serifWidth + columnWidth;
-    var halfColumnSpace = columnSpace / 2;
-    var center = columnRef + halfColumnSpace;
-    var serifH = Math.min(height / 2, serifHeight);
+   const columnRef = serifWidth + columnWidth;
+   const halfColumnSpace = columnSpace / 2;
+   const center = columnRef + halfColumnSpace;
+   const serifH = Math.min(height / 2, serifHeight);
 
-    var points = [];
+   const points = [];
 
     points.push([center, height * dropHigh]);
     points.push([columnRef, height]);
@@ -23,10 +23,10 @@ function M(height, columnSpace, columnWidth, dropHigh, dropLow, dropConnect, inn
     points.push([columnRef, serifH + (height - serifH) * dropConnect]);
     points.push([center, height * dropLow]);
 
-    var halfModel = new makerjs.models.ConnectTheDots(false, points);
-    var otherHalf = makerjs.model.move(makerjs.model.mirror(halfModel, true, false), [center * 2, 0])
+   const halfModel = new photon.models.ConnectTheDots(false, points);
+   const otherHalf = photon.model.move(photon.model.mirror(halfModel, true, false), [center * 2, 0])
 
-    this.units = makerjs.unitType.Inch;
+    this.units = photon.unitType.Inch;
     this.models = [halfModel, otherHalf];
 }
 
@@ -42,4 +42,4 @@ M.metaParameters = [
     { title: "serifHeight", type: "range", min: 0, max: 2, step: .01, value: 0.2 },
 ];
 
-module.exports = M;
+export default M;

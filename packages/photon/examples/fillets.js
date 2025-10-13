@@ -1,9 +1,9 @@
-﻿var makerjs = require('./../target/js/node.maker.js');
+﻿import * as photon from 'photon';
 
 function fillets(radius) {
-    var Line = makerjs.paths.Line;
-    var Arc = makerjs.paths.Arc;
-    var fillet = makerjs.path.fillet;
+   const Line = photon.paths.Line;
+   const Arc = photon.paths.Arc;
+   const fillet = photon.path.fillet;
 
     this.paths = {};
 
@@ -32,18 +32,18 @@ function fillets(radius) {
 
     this.paths.line3 = new Line([25, 90], [50, 90]);
     this.paths.line4 = new Line([25, 110], [50, 110]);
-    this.paths.line5 = new Line(makerjs.point.clone(this.paths.line3.origin), makerjs.point.clone(this.paths.line4.origin));
+    this.paths.line5 = new Line(photon.point.clone(this.paths.line3.origin), photon.point.clone(this.paths.line4.origin));
 
-    this.paths.dogbone1 = makerjs.path.dogbone(this.paths.line3, this.paths.line5, radius);
-    this.paths.dogbone2 = makerjs.path.dogbone(this.paths.line4, this.paths.line5, radius);
+    this.paths.dogbone1 = photon.path.dogbone(this.paths.line3, this.paths.line5, radius);
+    this.paths.dogbone2 = photon.path.dogbone(this.paths.line4, this.paths.line5, radius);
 
-    var intersect3 = makerjs.path.intersection(this.paths.line3, this.paths.arc4);
-    var intersect4 = makerjs.path.intersection(this.paths.line4, this.paths.arc4);
+   const intersect3 = photon.path.intersection(this.paths.line3, this.paths.arc4);
+   const intersect4 = photon.path.intersection(this.paths.line4, this.paths.arc4);
 
     this.paths.line3.end = intersect3.intersectionPoints[0];
     this.paths.line4.end = intersect4.intersectionPoints[0];
 
-    this.paths.arc6 = makerjs.cloneObject(this.paths.arc4);
+    this.paths.arc6 = photon.cloneObject(this.paths.arc4);
     this.paths.arc6.startAngle = intersect4.path2Angles[0];
 
     this.paths.arc4.endAngle = intersect3.path2Angles[0];
@@ -54,4 +54,4 @@ fillets.metaParameters = [
     { title: "fillet radius", type: "range", min: 0, max: 20, step: 0.2, value: 3 }
 ];
 
-module.exports = fillets;
+export default fillets;

@@ -21,18 +21,24 @@ class Temp {
 }
 // Run code in isolated scope
 const runCodeIsolated = (javaScript) => {
+    // Strip ES6 import statements - photon is available globally via window.photon
+    const processedCode = javaScript.replace(/import\s+\*\s+as\s+photon\s+from\s+['"]photon['"];?\s*/g, '');
     const mockDocument = {
         write: devNull
     };
-    const Fn = new Function('require', 'module', 'document', 'console', 'alert', 'playgroundRender', javaScript);
-    const result = new Fn(window.require, window.module, mockDocument, (parent).console, devNull, devNull); //call function with the "new" keyword so the "this" keyword is an instance
+    const Fn = new Function('require', 'module', 'document', 'console', 'alert', 'playgroundRender', 'photon', processedCode);
+    const result = new Fn(window.require, window.module, mockDocument, (parent).console, devNull, devNull, window.photon); //call function with the "new" keyword so the "this" keyword is an instance
     return window.module.exports || result;
 };
 // Run code in global scope
 const runCodeGlobal = (javaScript) => {
+    // Strip ES6 import statements - photon is available globally via window.photon
+    const processedCode = javaScript.replace(/import\s+\*\s+as\s+photon\s+from\s+['"]photon['"];?\s*/g, '');
+    // Make photon available in global scope for the script
+    window.photon = parent.photon;
     const script = document.createElement('script');
     const fragment = document.createDocumentFragment();
-    fragment.textContent = javaScript;
+    fragment.textContent = processedCode;
     script.appendChild(fragment);
     head.appendChild(script);
 };
@@ -83,7 +89,7 @@ const getLogsHtmls = () => {
     if (logs.length > 0) {
         logHtmls.push('<div class="section"><div class="separator"><span class="console">console:</span></div>');
         logs.forEach((log) => {
-            const logDiv = new makerjs.exporter.XmlTag('div', { "class": "console" });
+            const logDiv = new photon.exporter.XmlTag('div', { "class": "console" });
             logDiv.innerText = log;
             logHtmls.push(logDiv.toString());
         });
@@ -112,8 +118,9 @@ let logs = [];
 let error = null;
 let errorReported = false;
 const required = {
-    'makerjs': parent.makerjs,
-    './../target/js/node.maker.js': parent.makerjs
+    'photon': parent.photon,
+    'makerjs': parent.photon, // Legacy support
+    './../target/js/node.maker.js': parent.photon
 };
 // Override document.write
 document.write = (html) => {
@@ -151,7 +158,7 @@ window.onerror = () => {
 };
 // Custom require function
 window.require = ((id) => {
-    if (collection && id === 'makerjs') {
+    if (collection && (id === 'photon' || id === 'makerjs')) {
         return mockMakerJs;
     }
     if (id in required) {
@@ -182,33 +189,33 @@ window.onload = () => {
         resetLog();
         //reinstate alert
         window.alert = originalAlert;
-        const originalFn = parent.makerjs.exporter.toSVG;
+        const originalFn = parent.photon.exporter.toSVG;
         let captureExportedModel;
-        parent.makerjs.exporter.toSVG = (itemToExport, options) => {
-            if (parent.makerjs.maker.isModel(itemToExport)) {
+        parent.photon.exporter.toSVG = (itemToExport, options) => {
+            if (parent.photon.maker.isModel(itemToExport)) {
                 captureExportedModel = itemToExport;
             }
             else if (Array.isArray(itemToExport)) {
                 captureExportedModel = {};
                 itemToExport.forEach((x, i) => {
-                    if (makerjs.maker.isModel(x)) {
+                    if (photon.maker.isModel(x)) {
                         captureExportedModel.models = captureExportedModel.models || {};
                         captureExportedModel.models[i] = x;
                     }
-                    if (makerjs.maker.isPath(x)) {
+                    if (photon.maker.isPath(x)) {
                         captureExportedModel.paths = captureExportedModel.paths || {};
                         captureExportedModel.paths[i] = x;
                     }
                 });
             }
-            else if (parent.makerjs.maker.isPath(itemToExport)) {
+            else if (parent.photon.maker.isPath(itemToExport)) {
                 captureExportedModel = { paths: { "0": itemToExport } };
             }
             return originalFn(itemToExport, options);
         };
         //when all requirements are collected, run the code again, using its requirements
         runCodeGlobal(javaScript);
-        parent.makerjs.exporter.toSVG = originalFn;
+        parent.photon.exporter.toSVG = originalFn;
         if (errorReported)
             return;
         //yield thread for the script tag to execute
@@ -296,12 +303,12 @@ const mockWalk = (src, dest) => {
         }
     }
 };
-mockWalk(parent.makerjs, mockMakerJs);
+mockWalk(parent.photon, mockMakerJs);
 // Main thread constructor for kit-based models
 parent.PhotonPlayground.mainThreadConstructor = (kit, params) => {
     resetLog();
     return {
-        model: parent.makerjs.kit.construct(kit, params),
+        model: parent.photon.kit.construct(kit, params),
         html: getHtml()
     };
 };

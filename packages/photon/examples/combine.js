@@ -1,10 +1,10 @@
-﻿var makerjs = require('./../target/js/node.maker.js');
+import * as photon from 'photon';
 
 function combine(angle, add) {
 
-    var star1 = new makerjs.models.Oval(50, 100);
+    const star1 = new photon.models.Oval(50, 100);
 
-    makerjs.model.walkPaths(star1, function (modelContext, pathId, path) {
+    photon.model.walkPaths(star1, function (modelContext, pathId, path) {
         delete modelContext.paths[pathId];
         modelContext.paths['star1' + pathId] = path;
     });
@@ -18,21 +18,21 @@ function combine(angle, add) {
     //delete star1.paths.ShapeLine8;
     //delete star1.paths.ShapeLine9;
 
-    //star1.paths.c = new makerjs.paths.Line(star1.paths.ShapeLine10.origin, star1.paths.ShapeLine1.end);
+    //star1.paths.c = new photon.paths.Line(star1.paths.ShapeLine10.origin, star1.paths.ShapeLine1.end);
 
-    var star2 = new makerjs.models.Oval(50, 100);
+    const star2 = new photon.models.Oval(50, 100);
 
     star1.origin = [-25, -25];
     star2.origin = [-25, -25];
 
-    makerjs.model.rotate(star2, angle);
+    photon.model.rotate(star2, angle);
 
     this.models = {
         star1: star1,
         star2: star2
     };
 
-    makerjs.model.combine(star1, star2, false, true, !add, add, add);
+    photon.model.combine(star1, star2, false, true, !add, add, add);
 }
 
 combine.metaParameters = [
@@ -41,4 +41,4 @@ combine.metaParameters = [
 ];
 
 
-module.exports = combine;
+export default combine;

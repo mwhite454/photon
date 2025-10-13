@@ -1,38 +1,38 @@
-///<reference path="../target/ts/makerjs.d.ts"/>
-var makerjs = require('./../target/js/node.maker.js');
-var Ventgrid = (function () {
+///<reference path="../target/ts/photon.d.ts"/>
+import * as photon from 'photon';
+const Ventgrid = (function () {
     function Ventgrid(filterRadius, spacing, width, height) {
-        var _this = this;
+       const _this = this;
         this.filterRadius = filterRadius;
         this.spacing = spacing;
         this.width = width;
         this.height = height;
-        this.units = makerjs.unitType.Millimeter;
+        this.units = photon.unitType.Millimeter;
         this.paths = {};
-        var alternate = false;
-        var xDistance = 2 * filterRadius * (1 + spacing / 100);
-        var countX = Math.ceil(width / xDistance);
-        var yDistance = makerjs.solvers.solveTriangleASA(60, xDistance / 2, 90);
-        var countY = Math.ceil(height / yDistance) + 1;
+       const alternate = false;
+       const xDistance = 2 * filterRadius * (1 + spacing / 100);
+       const countX = Math.ceil(width / xDistance);
+       const yDistance = photon.solvers.solveTriangleASA(60, xDistance / 2, 90);
+       const countY = Math.ceil(height / yDistance) + 1;
         function checkBoundary(x, y) {
             return y - filterRadius < height && x - filterRadius < width;
         }
-        var row = function (iy) {
-            var total = countX;
+       const row = function (iy) {
+           const total = countX;
             if (!alternate) {
                 total++;
             }
             for (var i = 0; i < total; i++) {
-                var x = i * xDistance;
-                var y = iy * yDistance;
+               const x = i * xDistance;
+               const y = iy * yDistance;
                 if (alternate) {
                     x += xDistance / 2;
                 }
                 if (checkBoundary(Math.abs(x), Math.abs(y))) {
-                    var id = 'filter_' + i + '_' + iy;
-                    _this.paths[id] = new makerjs.paths.Circle([x, y], filterRadius);
+                   const id = 'filter_' + i + '_' + iy;
+                    _this.paths[id] = new photon.paths.Circle([x, y], filterRadius);
                     if (alternate || (!alternate && i > 0)) {
-                        _this.paths[id + '_alt'] = new makerjs.paths.Circle([-x, y], filterRadius);
+                        _this.paths[id + '_alt'] = new photon.paths.Circle([-x, y], filterRadius);
                     }
                 }
             }
@@ -53,7 +53,7 @@ Ventgrid.metaParameters = [
     { title: "width", type: "range", min: 20, max: 200, value: 37 },
     { title: "height", type: "range", min: 20, max: 200, value: 50 },
 ];
-module.exports = Ventgrid;
+export default Ventgrid;
 //To compile this: go to the root and:
 // cd examples
 // tsc ventgrid.ts --declaration

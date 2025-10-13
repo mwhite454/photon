@@ -1,34 +1,35 @@
-///<reference path="../target/ts/makerjs.d.ts"/>
+///<reference path="../target/ts/photon.d.ts"/>
 
-var makerjs: typeof MakerJs = require('../target/js/node.maker.js');
+import * as photon from 'photon';
+const Photon = photon as any as typeof MakerJs;
 
 class Ventgrid implements MakerJs.IModel {
 		
-	public units = makerjs.unitType.Millimeter;
+	public units = photon.unitType.Millimeter;
     public paths: MakerJs.IPathMap = {};
 	
 	constructor(public filterRadius: number, public spacing: number, public width: number, public height: number) {
 		
-		var alternate = false;
-		var xDistance = 2 * filterRadius * (1 + spacing / 100);
-		var countX = Math.ceil(width / xDistance);
-		var yDistance = makerjs.tools.solveTriangleASA(60, xDistance / 2, 90);
-		var countY = Math.ceil(height / yDistance) + 1;
+		let alternate = false;
+		const xDistance = 2 * filterRadius * (1 + spacing / 100);
+		const countX = Math.ceil(width / xDistance);
+		const yDistance = photon.tools.solveTriangleASA(60, xDistance / 2, 90);
+		const countY = Math.ceil(height / yDistance) + 1;
 		
 		function checkBoundary(x: number, y: number) : boolean {		
 			return y - filterRadius < height && x - filterRadius < width;
 		}
 
-		var row = (iy: number) => {
+		const row = (iy: number) => {
 			
-			var total = countX;
+			let total = countX;
 			if (!alternate) {
 				total++;
 			}
 			
-			for (var i = 0; i < total; i++) {
-				var x = i * xDistance;
-				var y = iy * yDistance;
+			for (let i = 0; i < total; i++) {
+				let x = i * xDistance;
+				const y = iy * yDistance;
 				
 				if (alternate) {
 					x += xDistance / 2;
@@ -36,18 +37,18 @@ class Ventgrid implements MakerJs.IModel {
 				
                 if (checkBoundary(Math.abs(x), Math.abs(y))) {
 
-                    var id = 'filter_' + i + '_' + iy;
+                    const id = 'filter_' + i + '_' + iy;
 
-                    this.paths[id] = new makerjs.paths.Circle([x, y], filterRadius);
+                    this.paths[id] = new photon.paths.Circle([x, y], filterRadius);
 					
 					if (alternate || (!alternate && i > 0)) {
-                        this.paths[id + '_alt'] = new makerjs.paths.Circle([-x, y], filterRadius);
+                        this.paths[id + '_alt'] = new photon.paths.Circle([-x, y], filterRadius);
 					}
 				}
 			}
 		};
 		
-		for (var i = 0; i < countY; i++) {
+		for (let i = 0; i < countY; i++) {
 			row(i);
 			
 			if (i > 0) {
@@ -68,7 +69,7 @@ class Ventgrid implements MakerJs.IModel {
 	{ title: "height", type: "range", min: 20, max: 200, value: 50 },
 ];
 
-module.exports = Ventgrid;
+export default Ventgrid;
 
   //To compile this: go to the root and:
 

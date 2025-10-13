@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Changed
+- **Modernized all 28 example and playground model files to ES6+ syntax**
+  - Migrated from `require()` to ES6 `import` statements
+  - Replaced all `var` declarations with `const`/`let`
+  - Updated all `makerjs` namespace references to `photon`
+  - All 23 examples in `packages/photon/examples/` now use modern JavaScript
+  - All 5 playground models in `packages/playground/models/` now use modern JavaScript
 - Upgraded Lerna from v6.0.3 to v8.2.4 for improved security, performance, and compatibility
 - Upgraded TypeDoc from v0.26.0 to v0.28.14 for enhanced documentation generation
 - Migrated from deprecated `lerna bootstrap` to npm workspaces for package management

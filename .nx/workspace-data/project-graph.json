@@ -4994,6 +4994,15 @@
         "hash": "sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw=="
       }
     },
+    "npm:fsevents@2.3.2": {
+      "type": "npm",
+      "name": "npm:fsevents@2.3.2",
+      "data": {
+        "version": "2.3.2",
+        "packageName": "fsevents",
+        "hash": "sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA=="
+      }
+    },
     "npm:function-bind": {
       "type": "npm",
       "name": "npm:function-bind",
@@ -7359,6 +7368,24 @@
         "version": "4.2.0",
         "packageName": "pkg-dir",
         "hash": "sha512-HRDzbaKjC+AOWVXxAU/x54COGeIv9eb+6CkDSQoNTt4XyWoIJvuPsXizxu/Fr23EiekbtZwmh1IcIG/l/a10GQ=="
+      }
+    },
+    "npm:playwright": {
+      "type": "npm",
+      "name": "npm:playwright",
+      "data": {
+        "version": "1.56.0",
+        "packageName": "playwright",
+        "hash": "sha512-X5Q1b8lOdWIE4KAoHpW3SE8HvUB+ZZsUoN64ZhjnN8dOb1UpujxBtENGiZFE+9F/yhzJwYa+ca3u43FeLbboHA=="
+      }
+    },
+    "npm:playwright-core": {
+      "type": "npm",
+      "name": "npm:playwright-core",
+      "data": {
+        "version": "1.56.0",
+        "packageName": "playwright-core",
+        "hash": "sha512-1SXl7pMfemAMSDn5rkPeZljxOCYAmQnYLBTExuh6E8USHXGSX3dx6lYZN/xPpTz1vimXmPA9CDnILvmJaB8aSQ=="
       }
     },
     "npm:possible-typed-array-names": {
@@ -16951,6 +16978,18 @@
         "type": "static"
       }
     ],
+    "npm:playwright": [
+      {
+        "source": "npm:playwright",
+        "target": "npm:playwright-core",
+        "type": "static"
+      },
+      {
+        "source": "npm:playwright",
+        "target": "npm:fsevents@2.3.2",
+        "type": "static"
+      }
+    ],
     "npm:postcss": [
       {
         "source": "npm:postcss",
@@ -19182,5 +19221,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1760325980358
+  "computedAt": 1760373892001
 }

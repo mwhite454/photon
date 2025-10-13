@@ -1,15 +1,15 @@
-﻿var makerjs = require('makerjs');
+﻿import * as photon from 'photon';
 
 function TextOnPath(font, fontSize, topText, topSpan, bottomText, bottomSpan, baseline, contain, rotate, showPath) {
 
-    var topTextModel = new makerjs.models.Text(font, topText, fontSize);
-    var bottomTextModel = new makerjs.models.Text(font, bottomText, fontSize);
+   const topTextModel = new photon.models.Text(font, topText, fontSize);
+   const bottomTextModel = new photon.models.Text(font, bottomText, fontSize);
 
-    var topArc = new makerjs.paths.Arc([0, 0], 100, 90 - topSpan / 2, 90 + topSpan / 2);
-    var bottomArc = new makerjs.paths.Arc([0, 0], 100, 270 - bottomSpan / 2, 270 + bottomSpan / 2);
+   const topArc = new photon.paths.Arc([0, 0], 100, 90 - topSpan / 2, 90 + topSpan / 2);
+   const bottomArc = new photon.paths.Arc([0, 0], 100, 270 - bottomSpan / 2, 270 + bottomSpan / 2);
 
-    makerjs.layout.childrenOnPath(topTextModel, topArc, baseline, true, contain, rotate);
-    makerjs.layout.childrenOnPath(bottomTextModel, bottomArc, baseline, false, contain, rotate);
+    photon.layout.childrenOnPath(topTextModel, topArc, baseline, true, contain, rotate);
+    photon.layout.childrenOnPath(bottomTextModel, bottomArc, baseline, false, contain, rotate);
 
     this.models = {
         topText: topTextModel,
@@ -37,4 +37,4 @@ TextOnPath.metaParameters = [
     { title: "show path", type: "bool", value: true }
 ];
 
-module.exports = TextOnPath;
+export default TextOnPath;

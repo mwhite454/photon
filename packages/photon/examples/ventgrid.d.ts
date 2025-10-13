@@ -1,5 +1,5 @@
-/// <reference path="../target/ts/makerjs.d.ts" />
-declare var makerjs: typeof MakerJs;
+/// <reference path="../target/ts/photon.d.ts" />
+declare const photon: typeof MakerJs;
 declare class Ventgrid implements MakerJs.IModel {
     filterRadius: number;
     spacing: number;

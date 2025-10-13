@@ -107,7 +107,7 @@ app.get('/api/models/:filename', (req, res) => {
 
 // Start server
 app.listen(PORT, () => {
-    console.log(`Maker.js Playground server running on http://localhost:${PORT}`);
+    console.log(`PhotonPlayground server running on http://localhost:${PORT}`);
     console.log(`Watching models directory: ${modelsPath}`);
 });
 

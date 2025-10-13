@@ -1,0 +1,43 @@
+{
+  "run": {
+    "command": "lerna run build",
+    "startTime": "2025-10-13T03:13:59.887Z",
+    "endTime": "2025-10-13T03:14:01.212Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "@photon/core:build",
+      "target": "build",
+      "projectName": "@photon/core",
+      "hash": "3256807734214483481",
+      "startTime": "2025-10-13T03:13:59.927Z",
+      "endTime": "2025-10-13T03:13:59.936Z",
+      "params": "",
+      "cacheStatus": "local-cache-hit",
+      "status": 0
+    },
+    {
+      "taskId": "@photon/fonts:build",
+      "target": "build",
+      "projectName": "@photon/fonts",
+      "hash": "7433114574466428692",
+      "startTime": "2025-10-13T03:13:59.927Z",
+      "endTime": "2025-10-13T03:13:59.936Z",
+      "params": "",
+      "cacheStatus": "local-cache-hit",
+      "status": 0
+    },
+    {
+      "taskId": "@photon/playground:build",
+      "target": "build",
+      "projectName": "@photon/playground",
+      "hash": "8843711949677606026",
+      "startTime": "2025-10-13T03:13:59.945Z",
+      "endTime": "2025-10-13T03:14:01.211Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    }
+  ]
+}

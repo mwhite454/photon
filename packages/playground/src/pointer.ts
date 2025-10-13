@@ -61,6 +61,7 @@ export module Pointer {
         private wheelTimeout = 250;
         private all: IPointer[] = [];
         private map: IPointerMap = {};
+        private down: IPointerMap = {};
         private count = 0;
 
         constructor(

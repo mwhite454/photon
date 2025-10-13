@@ -16,7 +16,7 @@
   "scripts": {
     "cleandocs": "rimraf ../../docs/docs/api",
     "predocs": "npm run cleandocs",
-    "docs": "typedoc ../photon/src --entryPointStrategy expand --excludeExternals --excludePrivate --gitRevision main --name Photon --readme none --theme ./typedoc-theme --out ../../docs/docs/api"
+    "docs": "typedoc ../photon/src --entryPointStrategy expand --excludeExternals --excludePrivate --gitRevision main --name Photon --readme none --out ../../docs/docs/api --tsconfig ../photon/target/tsconfig.typedoc.json"
   },
   "author": "Dan Marshall",
   "license": "Apache-2.0"

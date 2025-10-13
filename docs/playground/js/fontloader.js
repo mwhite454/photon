@@ -1,30 +1,38 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.FontLoader = void 0;
 // FontLoader class for managing font loading
-export class FontLoader {
-    constructor(fontDir, opentype, metaParameters, paramValues) {
+var FontLoader = /** @class */ (function () {
+    function FontLoader(fontDir, opentype, metaParameters, paramValues) {
+        var _this = this;
         this.fontDir = fontDir;
         this.opentype = opentype;
         this.fontParameters = {};
         this.fontRefs = 0;
+        this.fontsLoaded = 0;
+        this.paramValues = paramValues;
+        this.baseUrl = fontDir;
+        this.opentypeLib = opentype;
         if (metaParameters) {
-            metaParameters.forEach((metaParameter, i) => {
+            metaParameters.forEach(function (metaParameter, i) {
                 if (metaParameter.type !== 'font')
                     return;
-                this.fontRefs++;
+                _this.fontRefs++;
                 var id = paramValues[i];
-                if (id in this.fontParameters) {
-                    this.fontParameters[id].paramIndexes.push(i);
+                if (id in _this.fontParameters) {
+                    _this.fontParameters[id].paramIndexes.push(i);
                 }
                 else {
-                    this.fontParameters[id] = { paramIndexes: [i] };
+                    _this.fontParameters[id] = { paramIndexes: [i] };
                 }
             });
         }
     }
-    static getConstraints(spec) {
-        const specs = spec.split(' ');
-        const add = [];
-        const remove = [];
-        specs.forEach(s => {
+    FontLoader.getConstraints = function (spec) {
+        var specs = spec.split(' ');
+        var add = [];
+        var remove = [];
+        specs.forEach(function (s) {
             if (!s)
                 return;
             if (s[0] === '!') {
@@ -37,74 +45,82 @@ export class FontLoader {
                 add.push(s.substring(1));
             }
         });
-        return { add, remove };
-    }
-    static hasTags(font, tags) {
+        return { add: add, remove: remove };
+    };
+    FontLoader.hasTags = function (font, tags) {
         for (var i = 0; i < tags.length; i++) {
             if (tags[i] === '*')
                 return true;
             if (font.tags.indexOf(tags[i]) >= 0)
                 return true;
         }
-    }
-    static fontMatches(font, spec) {
-        const constraints = FontLoader.getConstraints(spec);
+    };
+    FontLoader.fontMatches = function (font, spec) {
+        var constraints = FontLoader.getConstraints(spec);
         if (FontLoader.hasTags(font, constraints.remove))
             return false;
         return FontLoader.hasTags(font, constraints.add);
-    }
-    findFirstFontIdMatching(spec) {
-        for (const fontId in playgroundFonts) {
-            const font = playgroundFonts[fontId];
+    };
+    FontLoader.prototype.findFirstFontIdMatching = function (spec) {
+        for (var fontId in playgroundFonts) {
+            var font = playgroundFonts[fontId];
             if (FontLoader.fontMatches(font, spec))
                 return fontId;
         }
         return null;
-    }
-    getParamValuesWithFontSpec() {
+    };
+    FontLoader.prototype.getParamValuesWithFontSpec = function () {
+        var _this = this;
         if (this.fontRefs === 0) {
             return this.paramValues;
         }
         else {
             this.paramValuesCopy = this.paramValues.slice(0);
-            for (const spec in this.fontParameters) {
-                const firstFont = this.findFirstFontIdMatching(spec);
+            var _loop_1 = function (spec) {
+                var firstFont = this_1.findFirstFontIdMatching(spec);
                 //substitute font ids with fonts
-                this.fontParameters[spec].paramIndexes.forEach(index => this.paramValuesCopy[index] = firstFont);
+                this_1.fontParameters[spec].paramIndexes.forEach(function (index) { return _this.paramValuesCopy[index] = firstFont; });
+            };
+            var this_1 = this;
+            for (var spec in this.fontParameters) {
+                _loop_1(spec);
             }
             return this.paramValuesCopy;
         }
-    }
-    load() {
+    };
+    FontLoader.prototype.load = function () {
         if (this.fontRefs === 0) {
             this.successCb(this.paramValues);
         }
         else {
             this.paramValuesCopy = this.paramValues.slice(0);
-            for (const fontId in this.fontParameters) {
+            for (var fontId in this.fontParameters) {
                 this.loadFont(fontId);
             }
         }
-    }
-    loaded() {
+    };
+    FontLoader.prototype.loaded = function () {
         this.fontsLoaded++;
         if (this.fontsLoaded === this.fontRefs) {
             this.successCb(this.paramValuesCopy);
         }
-    }
-    loadFont(fontId) {
+    };
+    FontLoader.prototype.loadFont = function (fontId) {
+        var _this = this;
         //load a font asynchronously
-        this.opentypeLib.load(this.baseUrl + playgroundFonts[fontId].path, (err, font) => {
+        this.opentypeLib.load(this.baseUrl + playgroundFonts[fontId].path, function (err, font) {
             if (err) {
-                this.failureCb(fontId);
+                _this.failureCb(fontId);
             }
             else {
                 //substitute font ids with fonts
-                this.fontParameters[fontId].font = font;
-                this.fontParameters[fontId].paramIndexes.forEach(index => this.paramValuesCopy[index] = font);
-                this.loaded();
+                _this.fontParameters[fontId].font = font;
+                _this.fontParameters[fontId].paramIndexes.forEach(function (index) { return _this.paramValuesCopy[index] = font; });
+                _this.loaded();
             }
         });
-    }
-}
+    };
+    return FontLoader;
+}());
+exports.FontLoader = FontLoader;
 //# sourceMappingURL=fontloader.js.map

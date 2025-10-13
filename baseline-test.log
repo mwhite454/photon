@@ -1,0 +1,153 @@
+
+> photon-dev@1.0.0 test
+> npm run bootstrap && npm run build && npm run build-tools && lerna run test --parallel && npm run docs
+
+
+> photon-dev@1.0.0 bootstrap
+> lerna bootstrap
+
+lerna notice cli v6.6.2
+lerna info Bootstrapping 5 packages
+lerna info Symlinking packages and binaries
+lerna info lifecycle @photon/core@0.18.1~prepublish: @photon/core@0.18.1
+
+> @photon/core@0.18.1 prepublish /Users/mykawhite/Documents/GitHub/photon/packages/photon
+> node ./target/prepublish.js
+
+
+lerna success Bootstrapped 5 packages
+
+> photon-dev@1.0.0 build
+> lerna run build
+
+lerna notice cli v6.6.2
+
+ >  Lerna (powered by Nx)   Running target build for 3 projects:
+
+    - @photon/fonts
+    - @photon/core
+    - @photon/playground
+
+ 
+
+> @photon/fonts:build
+
+
+> @photon/fonts@1.0.0 build
+> tsc -p .
+
+
+> @photon/core:build
+
+
+> @photon/core@0.18.1 prebuild
+> npm run gen-cascades
+
+
+> @photon/core@0.18.1 gen-cascades
+> npm run project && node ./target/cascadable.js > ./src/core/cascades.ts
+
+
+> @photon/core@0.18.1 project
+> typedoc ./src --json ./dist/project.json
+
+[93m[warning][0m The signature core/chain.toPoints has an @param with name "distance", which was not used
+[93m[warning][0m The signature core/collect.PointGraph.insertValueIdAtPoint has an @param with name "value", which was not used
+[93m[warning][0m The signature core/exporter.toJson has an @param with name "options.accuracy", which was not used
+[93m[warning][0m The signature core/exporter.toJson has an @param with name "options.indentation", which was not used
+[93m[warning][0m The signature core/layout.childrenOnChain has an @param with name "rotate", which was not used
+[93m[warning][0m The signature core/layout.cloneToRadial has an @param with name "itemToClone:", which was not used
+[93m[warning][0m The signature core/layout.cloneToColumn has an @param with name "itemToClone:", which was not used
+[93m[warning][0m The signature core/layout.cloneToRow has an @param with name "itemToClone:", which was not used
+[93m[warning][0m The signature core/layout.cloneToGrid has an @param with name "itemToClone:", which was not used
+[93m[warning][0m The signature core/layout.cloneToBrick has an @param with name "itemToClone:", which was not used
+[93m[warning][0m The signature core/layout.cloneToHoneycomb has an @param with name "itemToClone:", which was not used
+[93m[warning][0m The signature core/openjscad-esm.toJscadCAG has an @param with name "options", which was not used
+[93m[warning][0m The signature core/openjscad-esm.toJscadCAG has an @param with name "options.byLayers", which was not used
+[93m[warning][0m The signature core/openjscad-esm.toJscadCAG has an @param with name "options.pointMatchingDistance", which was not used
+[93m[warning][0m The signature core/openjscad-esm.toJscadCAG has an @param with name "options.maxArcFacet", which was not used
+[93m[warning][0m The signature core/openjscad-esm.toJscadCAG has an @param with name "options.statusCallback", which was not used
+[93m[warning][0m The signature core/openjscad-esm.toJscadCSG has an @param with name "options.byLayers", which was not used
+[93m[warning][0m The signature core/openjscad-esm.toJscadCSG has an @param with name "options.pointMatchingDistance", which was not used
+[93m[warning][0m The signature core/openjscad-esm.toJscadCSG has an @param with name "options.maxArcFacet", which was not used
+[93m[warning][0m The signature core/openjscad-esm.toJscadCSG has an @param with name "options.statusCallback", which was not used
+[93m[warning][0m The signature core/openjscad-esm.toJscadCSG has an @param with name "options.extrude", which was not used
+[93m[warning][0m The signature core/openjscad-esm.toJscadCSG has an @param with name "options.layerOptions", which was not used
+[93m[warning][0m The signature core/openjscad-esm.toJscadScript has an @param with name "options.byLayers", which was not used
+[93m[warning][0m The signature core/openjscad-esm.toJscadScript has an @param with name "options.pointMatchingDistance", which was not used
+[93m[warning][0m The signature core/openjscad-esm.toJscadScript has an @param with name "options.maxArcFacet", which was not used
+[93m[warning][0m The signature core/openjscad-esm.toJscadScript has an @param with name "options.statusCallback", which was not used
+[93m[warning][0m The signature core/openjscad-esm.toJscadScript has an @param with name "options.extrude", which was not used
+[93m[warning][0m The signature core/openjscad-esm.toJscadScript has an @param with name "options.layerOptions", which was not used
+[93m[warning][0m The signature core/openjscad-esm.toJscadSTL has an @param with name "jscadCAG", which was not used
+[93m[warning][0m The signature core/openjscad-esm.toJscadSTL has an @param with name "options.byLayers", which was not used
+[93m[warning][0m The signature core/openjscad-esm.toJscadSTL has an @param with name "options.pointMatchingDistance", which was not used
+[93m[warning][0m The signature core/openjscad-esm.toJscadSTL has an @param with name "options.maxArcFacet", which was not used
+[93m[warning][0m The signature core/openjscad-esm.toJscadSTL has an @param with name "options.statusCallback", which was not used
+[93m[warning][0m The signature core/openjscad-esm.toJscadSTL has an @param with name "options.extrude", which was not used
+[93m[warning][0m The signature core/openjscad-esm.toJscadSTL has an @param with name "options.layerOptions", which was not used
+[93m[warning][0m The signature models/Ellipse.Ellipse.constructor has an @param with name "rX", which was not used
+[93m[warning][0m The signature models/Ellipse.Ellipse.constructor has an @param with name "rY", which was not used
+[93m[warning][0m The signature models/Ellipse.EllipticArc.constructor has an @param with name "arc", which was not used
+[96m[info][0m Documentation generated at ./dist/docs
+[96m[info][0m JSON written to ./dist/project.json
+[93m[warning][0m Found 0 errors and 38 warnings
+
+> @photon/core@0.18.1 build
+> npm run build:types && npm run build:lib
+
+
+> @photon/core@0.18.1 build:types
+> tsc -p target/tsconfig.esm.json
+
+
+> @photon/core@0.18.1 build:lib
+> vite build
+
+[33mYou are using Node.js 20.13.1. Vite requires Node.js version 20.19+ or 22.12+. Please upgrade your Node.js version.[39m
+[36mvite v7.1.9 [32mbuilding for production...[36m[39m
+transforming...
+[32m✓[39m 54 modules transformed.
+[33msrc/core/maker.ts (21:22): Use of eval in "src/core/maker.ts" is strongly discouraged as it poses security risks and may cause issues with minification.[39m
+rendering chunks...
+computing gzip size...
+[2mdist/[22m[36mphoton.es.js  [39m[1m[2m220.78 kB[22m[1m[22m[2m │ gzip: 49.44 kB[22m[2m │ map: 570.37 kB[22m
+[2mdist/[22m[36mphoton.umd.js  [39m[1m[2m235.85 kB[22m[1m[22m[2m │ gzip: 50.37 kB[22m[2m │ map: 572.90 kB[22m
+[2mdist/[22m[36mphoton.iife.js  [39m[1m[2m235.45 kB[22m[1m[22m[2m │ gzip: 50.25 kB[22m[2m │ map: 572.88 kB[22m
+[32m✓ built in 448ms[39m
+
+> @photon/playground:build
+
+
+> @photon/playground@1.0.0 build
+> tsc -p . && tsc -p src/worker
+
+src/fontloader.ts(87,29): error TS2339: Property 'paramValues' does not exist on type 'FontLoader'.
+src/fontloader.ts(90,45): error TS2339: Property 'paramValues' does not exist on type 'FontLoader'.
+src/fontloader.ts(106,37): error TS2339: Property 'paramValues' does not exist on type 'FontLoader'.
+src/fontloader.ts(109,45): error TS2339: Property 'paramValues' does not exist on type 'FontLoader'.
+src/fontloader.ts(118,18): error TS2339: Property 'fontsLoaded' does not exist on type 'FontLoader'.
+src/fontloader.ts(119,22): error TS2339: Property 'fontsLoaded' does not exist on type 'FontLoader'.
+src/fontloader.ts(127,18): error TS2551: Property 'opentypeLib' does not exist on type 'FontLoader'. Did you mean 'opentype'?
+src/fontloader.ts(127,40): error TS2339: Property 'baseUrl' does not exist on type 'FontLoader'.
+src/playground.ts(808,61): error TS2339: Property 'baseUrl' does not exist on type 'FontLoader'.
+src/pointer.ts(109,18): error TS2339: Property 'down' does not exist on type 'Manager'.
+src/pointer.ts(119,33): error TS2339: Property 'down' does not exist on type 'Manager'.
+src/pointer.ts(120,34): error TS2339: Property 'down' does not exist on type 'Manager'.
+src/pointer.ts(232,18): error TS2339: Property 'down' does not exist on type 'Manager'.
+src/pointer.ts(261,32): error TS2339: Property 'down' does not exist on type 'Manager'.
+src/pointer.ts(319,32): error TS2339: Property 'down' does not exist on type 'Manager'.
+src/pointer.ts(325,29): error TS2339: Property 'down' does not exist on type 'Manager'.
+
+ 
+
+ >  Lerna (powered by Nx)   Running target build for 3 projects failed
+
+   Failed tasks:
+   
+   - @photon/playground:build
+
+
+real	0m6.468s
+user	0m11.512s
+sys	0m1.159s

@@ -1,5 +1,9 @@
+"use strict";
+var _a;
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.formatMap = exports.ExportFormat = void 0;
 // Export format enumeration
-export var ExportFormat;
+var ExportFormat;
 (function (ExportFormat) {
     ExportFormat[ExportFormat["Json"] = 0] = "Json";
     ExportFormat[ExportFormat["Dxf"] = 1] = "Dxf";
@@ -8,36 +12,36 @@ export var ExportFormat;
     ExportFormat[ExportFormat["OpenJsCad"] = 4] = "OpenJsCad";
     ExportFormat[ExportFormat["Stl"] = 5] = "Stl";
     ExportFormat[ExportFormat["Pdf"] = 6] = "Pdf";
-})(ExportFormat || (ExportFormat = {}));
+})(ExportFormat || (exports.ExportFormat = ExportFormat = {}));
 // Format map with media types and file extensions
-export const formatMap = {
-    [ExportFormat.Json]: {
+exports.formatMap = (_a = {},
+    _a[ExportFormat.Json] = {
         mediaType: 'application/json',
         fileExtension: 'json'
     },
-    [ExportFormat.Dxf]: {
+    _a[ExportFormat.Dxf] = {
         mediaType: 'application/dxf',
         fileExtension: 'dxf'
     },
-    [ExportFormat.Svg]: {
+    _a[ExportFormat.Svg] = {
         mediaType: 'image/svg+xml',
         fileExtension: 'svg'
     },
-    [ExportFormat.SvgPathData]: {
+    _a[ExportFormat.SvgPathData] = {
         mediaType: 'text/plain',
         fileExtension: 'txt'
     },
-    [ExportFormat.OpenJsCad]: {
+    _a[ExportFormat.OpenJsCad] = {
         mediaType: 'text/plain',
         fileExtension: 'txt'
     },
-    [ExportFormat.Stl]: {
+    _a[ExportFormat.Stl] = {
         mediaType: 'application/stl',
         fileExtension: 'stl'
     },
-    [ExportFormat.Pdf]: {
+    _a[ExportFormat.Pdf] = {
         mediaType: 'application/pdf',
         fileExtension: 'pdf'
-    }
-};
+    },
+    _a);
 //# sourceMappingURL=iexport.js.map

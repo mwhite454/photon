@@ -1,4 +1,4 @@
-﻿import fs = require('fs');
+import fs = require('fs');
 import packageJson from './package.json';
 import makerjs = require('makerjs');
 import { marked } from 'marked';
@@ -202,7 +202,7 @@ function homePage() {
 
         console.log('writing about markdown');
 
-        var readmeMarkdown = fs.readFileSync('../../README.md', 'UTF8');
+        var readmeMarkdown = fs.readFileSync('../../README.md', 'utf8');
 
         var sections = readmeMarkdown.split('\n## ');
 
@@ -257,7 +257,7 @@ function copyRequire(hint: string, root: string, key: string, copyTo: string) {
 
     try {
         console.log(`trying ${dirpath}`);
-        dirjson = fs.readFileSync(dirpath + 'package.json', 'UTF8');
+        dirjson = fs.readFileSync(dirpath + 'package.json', 'utf8');
     }
     catch (e) {
         return false;
@@ -269,14 +269,14 @@ function copyRequire(hint: string, root: string, key: string, copyTo: string) {
     var main = djson.main;
 
     console.log(`src ${dirpath + main}`);
-    var src = fs.readFileSync(dirpath + main, 'UTF8');
+    var src = fs.readFileSync(dirpath + main, 'utf8');
 
     allRequires[key] = 1;
 
     const name = removeOrg(key);
 
     console.log(`write copyTo:${copyTo} name:${name}`);
-    fs.writeFileSync('./js/' + copyTo + name + '.js', src, 'UTF8');
+    fs.writeFileSync('./js/' + copyTo + name + '.js', src, 'utf8');
 
     var requires = <string[]>detective(src);
 

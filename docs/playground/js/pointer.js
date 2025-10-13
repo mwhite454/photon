@@ -35,6 +35,7 @@ export var Pointer;
             this.wheelTimeout = 250;
             this.all = [];
             this.map = {};
+            this.down = {};
             this.count = 0;
             view.addEventListener('wheel', (e) => { this.viewWheel(e); });
             view.addEventListener('pointerdown', (e) => { this.viewPointerDown(e); });

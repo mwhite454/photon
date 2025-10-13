@@ -1,0 +1,9 @@
+
+> @photon/playground@1.0.0 build
+> tsc -p . && tsc -p src/worker
+
+src/playground.ts(808,61): error TS2341: Property 'baseUrl' is private and only accessible within class 'FontLoader'.
+npm ERR! Lifecycle script `build` failed with error: 
+npm ERR! Error: command failed 
+npm ERR!   in workspace: @photon/playground@1.0.0 
+npm ERR!   at location: /Users/mykawhite/Documents/GitHub/photon/packages/playground 

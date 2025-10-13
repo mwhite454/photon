@@ -1,14 +1,12 @@
-﻿{
+{
   "compilerOptions": {
     "lib": ["webworker", "es5", "scripthost"],
     "outDir": "../../../../docs/playground/js",
     "skipLibCheck": true,
-    "sourceMap": true,
-    "types": [
-      "makerjs"
-    ]
+    "sourceMap": true
   },
   "files": [
+    "../globals.d.ts",
     "../iexport.ts",
     "../irender.ts",
     "../fontloader.ts",

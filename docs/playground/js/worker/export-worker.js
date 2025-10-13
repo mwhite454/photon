@@ -12,14 +12,14 @@ module.require = function (id) {
 importScripts('../../../target/js/browser.maker.js?' + new Date().valueOf(), '../../../external/bezier-js/bezier.js', '../iexport.js');
 var makerjs = require('makerjs');
 var deps = {};
-deps[MakerJsPlaygroundExport.ExportFormat.Dxf] = true;
-deps[MakerJsPlaygroundExport.ExportFormat.Json] = true;
-deps[MakerJsPlaygroundExport.ExportFormat.OpenJsCad] = true;
-deps[MakerJsPlaygroundExport.ExportFormat.Svg] = true;
-deps[MakerJsPlaygroundExport.ExportFormat.Stl] = false;
-deps[MakerJsPlaygroundExport.ExportFormat.Pdf] = false;
+deps[PhotonPlaygroundExport.ExportFormat.Dxf] = true;
+deps[PhotonPlaygroundExport.ExportFormat.Json] = true;
+deps[PhotonPlaygroundExport.ExportFormat.OpenJsCad] = true;
+deps[PhotonPlaygroundExport.ExportFormat.Svg] = true;
+deps[PhotonPlaygroundExport.ExportFormat.Stl] = false;
+deps[PhotonPlaygroundExport.ExportFormat.Pdf] = false;
 function getExporter(format, result) {
-    var f = MakerJsPlaygroundExport.ExportFormat;
+    var f = PhotonPlaygroundExport.ExportFormat;
     switch (format) {
         case f.Json:
             return makerjs.exporter.toJson;
@@ -39,9 +39,9 @@ function getExporter(format, result) {
             return makerjs.exporter.toJscadScript;
         case f.Stl:
             function toStl(model, options) {
-                if (!deps[MakerJsPlaygroundExport.ExportFormat.Stl]) {
+                if (!deps[PhotonPlaygroundExport.ExportFormat.Stl]) {
                     importScripts('../../../external/jscad/csg.js', '../../../external/jscad/stl-serializer.js');
-                    deps[MakerJsPlaygroundExport.ExportFormat.Stl] = true;
+                    deps[PhotonPlaygroundExport.ExportFormat.Stl] = true;
                 }
                 //make sure size is in mm for STL
                 model = makerjs.model.convertUnits(model, makerjs.unitType.Millimeter);
@@ -56,9 +56,9 @@ function getExporter(format, result) {
             return toStl;
         case f.Pdf:
             function toPdf(model, exportOptions) {
-                if (!deps[MakerJsPlaygroundExport.ExportFormat.Pdf]) {
+                if (!deps[PhotonPlaygroundExport.ExportFormat.Pdf]) {
                     importScripts('../../../external/text-encoding/encoding-indexes.js', '../../../external/text-encoding/encoding.js', '../../../external/PDFKit/pdfkit.js', 'string-reader.js');
-                    deps[MakerJsPlaygroundExport.ExportFormat.Pdf] = true;
+                    deps[PhotonPlaygroundExport.ExportFormat.Pdf] = true;
                 }
                 function complete(pdfDataString) {
                     result.text = pdfDataString;

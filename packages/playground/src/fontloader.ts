@@ -17,11 +17,18 @@ export class FontLoader {
         private fontParameters: IFontMap = {};
         private fontRefs = 0;
         private paramValuesCopy: any[];
+        private paramValues: any[];
+        private fontsLoaded = 0;
+        public baseUrl: string;
+        private opentypeLib: any;
 
         public successCb: (values: any[]) => void;
         public failureCb: (failedFontId: string) => void;
 
         constructor(public fontDir: string, private opentype: any, metaParameters: Photon.IMetaParameter[], paramValues: any[]) {
+            this.paramValues = paramValues;
+            this.baseUrl = fontDir;
+            this.opentypeLib = opentype;
 
             if (metaParameters) {
                 metaParameters.forEach((metaParameter, i) => {

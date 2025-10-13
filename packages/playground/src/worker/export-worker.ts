@@ -24,7 +24,7 @@ importScripts(
     '../../../external/bezier-js/bezier.js',
     '../iexport.js');
 
-var makerjs: typeof Photon = require('makerjs');
+var photon: any = require('photon');
 
 var deps: { [format: number]: boolean } = {};
 
@@ -45,25 +45,25 @@ function getExporter(format: PhotonPlaygroundExport.ExportFormat, result: Photon
 
     switch (format) {
         case f.Json:
-            return makerjs.exporter.toJson;
+            return photon.exporter.toJson;
 
         case f.Dxf:
             function toDXF(model: Photon.IModel, options: Photon.exporter.IDXFRenderOptions) {
                 if (!options.units) {
-                    options.units = model.units || makerjs.unitType.Millimeter;
+                    options.units = model.units || photon.unitType.Millimeter;
                 }
-                return makerjs.exporter.toDXF(model, options);
+                return photon.exporter.toDXF(model, options);
             }
             return toDXF;
 
         case f.Svg:
-            return makerjs.exporter.toSVG;
+            return photon.exporter.toSVG;
 
         case f.SvgPathData:
-            return makerjs.exporter.toSVGPathData;
+            return photon.exporter.toSVGPathData;
 
         case f.OpenJsCad:
-            return makerjs.exporter.toJscadScript;
+            return photon.exporter.toJscadScript;
 
         case f.Stl:
             function toStl(model: Photon.IModel, options: Photon.exporter.IJscadCsgOptions) {
@@ -77,17 +77,17 @@ function getExporter(format: PhotonPlaygroundExport.ExportFormat, result: Photon
                 }
 
                 //make sure size is in mm for STL
-                model = makerjs.model.convertUnits(model, makerjs.unitType.Millimeter);
+                model = photon.model.convertUnits(model, photon.unitType.Millimeter);
 
-                const { CAG }: { CAG: typeof jscad.CAG } = require('@jscad/csg');
-                const stlSerializer: jscad.StlSerializer = require('@jscad/stl-serializer');
+                const { CAG }: { CAG: any } = require('@jscad/csg');
+                const stlSerializer: any = require('@jscad/stl-serializer');
 
                 options.statusCallback = function (status) {
                     result.percentComplete = status.progress;
                     postMessage(result);
                 }
 
-                return makerjs.exporter.toJscadSTL(CAG, stlSerializer, model, options);
+                return photon.exporter.toJscadSTL(CAG, stlSerializer, model, options);
             }
             return toStl;
 
@@ -125,7 +125,7 @@ function getExporter(format: PhotonPlaygroundExport.ExportFormat, result: Photon
 
                 //TODO: break up model across pages
 
-                makerjs.exporter.toPDF(doc, model, exportOptions);
+                photon.exporter.toPDF(doc, model, exportOptions);
 
                 doc.end();
             }

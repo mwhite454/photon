@@ -173,10 +173,10 @@
     <!-- Use modern IIFE bundle built by Vite -->
     <script src="/packages/photon/dist/photon.iife.js"></script>
     <script>
-        // Expose Photon as both 'makerjs' and 'Photon' for compatibility
-        // User code can use modern Photon.maker.isModel() or legacy makerjs.maker.isModel()
-        var makerjs = Photon;
-        var MakerJs = Photon;
+        // Expose Photon as both 'photon' (modern) and 'makerjs' (legacy) for compatibility
+        var photon = Photon;
+        var makerjs = Photon;  // Legacy compatibility
+        var MakerJs = Photon;  // Legacy compatibility
     </script>
 
     <!-- Load monaco adapter as regular script to make namespace global -->
@@ -563,14 +563,16 @@
                 <a name="code"></a>
 
                 <pre id="init-javascript-code">
-var makerjs = require('makerjs');
+import * as photon from 'photon';
+
 this.paths = {
-    head: new makerjs.paths.Circle([0, 0], 90),
-    eye: new makerjs.paths.Circle([25, 25], 10),
-    mouth: new makerjs.paths.Arc([0, 0], 50, 225, 315),
-    wink: new makerjs.paths.Line([-35, 20], [-15, 20])
+    head: new photon.paths.Circle([0, 0], 90),
+    eye: new photon.paths.Circle([25, 25], 10),
+    mouth: new photon.paths.Arc([0, 0], 50, 225, 315),
+    wink: new photon.paths.Line([-35, 20], [-15, 20])
 };
-this.notes = '# Welcome to the Maker.js playground \n You can edit the JavaScript code, then click **Run** (or CTRL + Enter) to see your drawing.';
+
+this.notes = '# Welcome to the Photon Playground \n You can edit the JavaScript code, then click **Run** (or CTRL + Enter) to see your drawing.';
 //press enter here to add more blank lines
 </pre>
             </div>

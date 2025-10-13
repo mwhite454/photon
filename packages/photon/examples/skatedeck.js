@@ -1,12 +1,12 @@
-var makerjs = require('./../target/js/node.maker.js');
+import * as photon from 'photon';
 
 function truckBolts() {
-    var tx = 1 + 5 / 8;
-    var ty = 1 + 1 / 8;
-    var bolts = new makerjs.models.BoltRectangle(tx, ty, 7 / 32 / 2);
+   const tx = 1 + 5 / 8;
+   const ty = 1 + 1 / 8;
+   const bolts = new photon.models.BoltRectangle(tx, ty, 7 / 32 / 2);
     bolts.origin = [tx / -2, ty / -2];
 
-    this.units = makerjs.unitType.Inch;
+    this.units = photon.unitType.Inch;
     this.models = {
         bolts: bolts
     };
@@ -14,15 +14,15 @@ function truckBolts() {
 
 function skatedeck(width, length, truckOffset) {
     
-    this.units = makerjs.unitType.Centimeter;
+    this.units = photon.unitType.Centimeter;
 
-    var board = new makerjs.models.Oval(length, width);
+   const board = new photon.models.Oval(length, width);
     board.origin = [0, width / -2];
 
-    var truck1 = makerjs.model.convertUnits(new truckBolts(), this.units);
+   const truck1 = photon.model.convertUnits(new truckBolts(), this.units);
     truck1.origin = [truckOffset, 0];
 
-    var truck2 = makerjs.model.convertUnits(new truckBolts(), this.units);
+   const truck2 = photon.model.convertUnits(new truckBolts(), this.units);
     truck2.origin = [length - truckOffset, 0];
 
     this.models = {
@@ -36,4 +36,4 @@ skatedeck.metaParameters = [
     { title: "truck offset", type: "range", min: 4, max: 20, value: 18 },
 ];
 
-module.exports = skatedeck;
+export default skatedeck;

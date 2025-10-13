@@ -197,3 +197,6 @@ export function subtract(a: IPoint, b: IPoint): IPoint {
 export function zero(): IPoint {
     return [0, 0];
 }
+
+/** Test to see if an object implements the required properties of a point. */
+export { isPoint } from './maker.js';

@@ -6,1252 +6,364 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "nx.json",
-        "hash": "10652969438848521880"
+        "file": "docs/external/monaco-editor/vs/basic-languages/restructuredtext/restructuredtext.js",
+        "hash": "10278976413205558520"
       },
       {
-        "file": ".specify/scripts/bash/setup-plan.sh",
-        "hash": "5120951083671294932"
-      },
-      {
-        "file": "docs/_snippets/combining.html",
-        "hash": "9044217230268636535"
-      },
-      {
-        "file": "docs/fonts/vampiroone/OFL.txt",
-        "hash": "284698651163297783"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/base/common/worker/simpleWorker.nls.de.js",
-        "hash": "5561315306014446638"
-      },
-      {
-        "file": "docs/images/anim-wheel.gif",
-        "hash": "12625452641924164841"
-      },
-      {
-        "file": "docs/_snippets/exporting-stl.html",
-        "hash": "3654028749711764845"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/lexon/lexon.js",
-        "hash": "5645241450042605701"
-      },
-      {
-        "file": "docs/fonts/emblemaone/EmblemaOne-Regular.ttf",
-        "hash": "8434083846681529088"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/editor/editor.main.css",
-        "hash": "16839357160075498456"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/hcl/hcl.js",
-        "hash": "11430093483866241288"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/fsharp/fsharp.js",
-        "hash": "2077434503927080707"
-      },
-      {
-        "file": "docs/_snippets/scaling.html",
-        "hash": "4589826954726093740"
-      },
-      {
-        "file": "docs/images/github-button.png",
-        "hash": "14531357675940485025"
-      },
-      {
-        "file": "docs/fonts/montserratsubrayada/MontserratSubrayada-Bold.ttf",
-        "hash": "15631441258281308815"
-      },
-      {
-        "file": "specs/002-upgrade-dependencies-to/research.md",
-        "hash": "13931751529064893103"
-      },
-      {
-        "file": "docs/external/pep/LICENSE.txt",
-        "hash": "5573825168475572035"
-      },
-      {
-        "file": "docs/_layouts/demo.html",
-        "hash": "16089415008308188274"
-      },
-      {
-        "file": "docs/images/download-button.png",
-        "hash": "3591941497177052994"
-      },
-      {
-        "file": "specs/002-upgrade-dependencies-to/graham-scan-upgrade-summary.md",
-        "hash": "3392205585512726853"
-      },
-      {
-        "file": "docs/_snippets/importing-svg-path-data.html",
-        "hash": "14785355826210006268"
-      },
-      {
-        "file": "docs/_snippets/importing-svg-points.html",
-        "hash": "4102342525757267631"
-      },
-      {
-        "file": ".windsurf/workflows/speckit.tasks.md",
-        "hash": "14643355181227993126"
-      },
-      {
-        "file": "docs/favicon.ico",
-        "hash": "17244423834611968"
-      },
-      {
-        "file": "ROADMAP.md",
-        "hash": "9557696462252102102"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/rust/rust.js",
-        "hash": "4605313085398434952"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/sparql/sparql.js",
-        "hash": "11492138215248120364"
-      },
-      {
-        "file": ".specify/memory/constitution.md",
-        "hash": "314669630298862439"
-      },
-      {
-        "file": "docs/_posts/2015-06-29-hello world.html",
-        "hash": "10074939647416681512"
-      },
-      {
-        "file": "specs/003-upgrade-lerna-typedoc/tasks-revision-summary.md",
-        "hash": "292427082138859901"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/editor/editor.main.js",
-        "hash": "5930897160337580190"
-      },
-      {
-        "file": "docs/docs/node-apps/node server.html",
-        "hash": "6545875210624564424"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/solidity/solidity.js",
-        "hash": "18075823211302857299"
-      },
-      {
-        "file": "docs/docs/livedoc.js",
-        "hash": "14947807423315232290"
-      },
-      {
-        "file": "specs/002-upgrade-dependencies-to/baseline-metrics.md",
-        "hash": "5636614941152914059"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/lua/lua.js",
-        "hash": "18061139264550572262"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/azcli/azcli.js",
-        "hash": "8340413915718096013"
-      },
-      {
-        "file": "docs/playground/img/microsoft.png",
-        "hash": "14819534196515142543"
-      },
-      {
-        "file": "docs/external/codemirror/addon/active-line.js",
-        "hash": "4299631209034892526"
-      },
-      {
-        "file": "docs/_snippets/points.html",
-        "hash": "16354712973063734409"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/editor/editor.main.nls.de.js",
-        "hash": "9913772597289535800"
-      },
-      {
-        "file": "docs/_snippets/layout-repeating.html",
-        "hash": "5579815866330282744"
-      },
-      {
-        "file": "docs/_snippets/modeling.html",
-        "hash": "18070053901141975496"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/protobuf/protobuf.js",
-        "hash": "6251605602246929782"
-      },
-      {
-        "file": "docs/_snippets/path-independence.html",
-        "hash": "13178495342861130497"
-      },
-      {
-        "file": "specs/001-rebrand-from-maker/verification/verify-docs.sh",
-        "hash": "12699011823861836745"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/bat/bat.js",
-        "hash": "16414861104519415723"
-      },
-      {
-        "file": "scripts/check-npm-scope.sh",
-        "hash": "6230399847337714842"
-      },
-      {
-        "file": "specs/001-rebrand-from-maker/PLANNING_COMPLETE.md",
-        "hash": "8470212101485126066"
-      },
-      {
-        "file": "docs/_config.yml",
-        "hash": "15370164860221570000"
-      },
-      {
-        "file": "docs/_snippets/breaking.html",
-        "hash": "2535734853385637298"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/bicep/bicep.js",
-        "hash": "3308230286053364892"
-      },
-      {
-        "file": "docs/_snippets/aliasing.html",
-        "hash": "3522305872152675369"
-      },
-      {
-        "file": ".windsurf/workflows/speckit.specify.md",
-        "hash": "2211642763110882888"
-      },
-      {
-        "file": "docs/index.html",
-        "hash": "14947732098467133780"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/go/go.js",
-        "hash": "234823118385178084"
-      },
-      {
-        "file": "specs/001-rebrand-from-maker/tasks.md",
-        "hash": "14436373278412903523"
-      },
-      {
-        "file": "docs/_posts/2015-06-30-thanks microsoft.md",
-        "hash": "4068521350989442469"
-      },
-      {
-        "file": "specs/002-upgrade-dependencies-to/bezier-js-upgrade-summary.md",
-        "hash": "17659934743352644075"
-      },
-      {
-        "file": "docs/docs/advanced-drawing/index.html",
-        "hash": "4109948895596165928"
-      },
-      {
-        "file": "specs/003-upgrade-lerna-typedoc/tasks-original-backup.md",
-        "hash": "3051254392467682612"
-      },
-      {
-        "file": ".specify/scripts/bash/create-new-feature.sh",
-        "hash": "18266389118054970082"
-      },
-      {
-        "file": ".github/workflows/rebrand-verification.yml",
-        "hash": "796488362510012162"
-      },
-      {
-        "file": "docs/fonts/keaniaone/DESCRIPTION.en_us.html",
-        "hash": "11884016865372158234"
-      },
-      {
-        "file": "docs/stylesheets/tsd.css",
-        "hash": "3751254938206689721"
-      },
-      {
-        "file": "docs/_snippets/expanding.html",
-        "hash": "12100476094321220445"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/elixir/elixir.js",
-        "hash": "1039326511893257529"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/markdown/markdown.js",
-        "hash": "17229764381881209309"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/editor/editor.main.nls.ja.js",
-        "hash": "16407278080939109538"
-      },
-      {
-        "file": "docs/fonts/vampiroone/VampiroOne-Regular.ttf",
-        "hash": "1802289288098371489"
-      },
-      {
-        "file": "specs/002-upgrade-dependencies-to/final-metrics-summary.md",
-        "hash": "16258216535737686642"
-      },
-      {
-        "file": "docs/_snippets/exporting-svg.html",
-        "hash": "660019814243947894"
-      },
-      {
-        "file": "docs/fonts/newrocker/OFL.txt",
-        "hash": "15462420688853658040"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/base/worker/workerMain.js",
-        "hash": "6716563607190669931"
-      },
-      {
-        "file": "docs/_layouts/posts.html",
-        "hash": "6728331733260646437"
-      },
-      {
-        "file": "docs/_layouts/post.html",
-        "hash": "9379361809454977323"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/php/php.js",
-        "hash": "18303421980033970691"
-      },
-      {
-        "file": "docs/fonts/kumarone/KumarOne-Regular.ttf",
-        "hash": "17494193375112696356"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/ini/ini.js",
-        "hash": "17617203776849866733"
-      },
-      {
-        "file": "docs/_snippets/chain-to-key-points.html",
-        "hash": "2332398510198103717"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/html/html.js",
-        "hash": "17170381022067275215"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/base/common/worker/simpleWorker.nls.fr.js",
-        "hash": "5950860201000403479"
-      },
-      {
-        "file": "specs/003-upgrade-lerna-typedoc/build-investigation-findings.md",
-        "hash": "3322217780826495624"
-      },
-      {
-        "file": "docs/external/opentype/LICENSE.txt",
-        "hash": "6178490747794669044"
-      },
-      {
-        "file": "specs/003-upgrade-lerna-typedoc/checklists/requirements.md",
-        "hash": "4826564721161930499"
-      },
-      {
-        "file": "docs/external/codemirror/addon/lint/lint.css",
-        "hash": "8923298935075902877"
-      },
-      {
-        "file": "docs/BingSiteAuth.xml",
-        "hash": "4739571158448337135"
-      },
-      {
-        "file": "docs/docs/browser-apps/embed.html",
-        "hash": "1975876290248850531"
-      },
-      {
-        "file": "docs/images/makerjs.png",
-        "hash": "10870110923430500346"
-      },
-      {
-        "file": "baseline-audit.json",
-        "hash": "2006317122664775333"
-      },
-      {
-        "file": "docs/images/header-bg.jpg",
-        "hash": "9465756197199928372"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/st/st.js",
-        "hash": "17942614375550873607"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/base/common/worker/simpleWorker.nls.it.js",
-        "hash": "977129820749708434"
-      },
-      {
-        "file": "lerna.json",
-        "hash": "14983687598948829148"
-      },
-      {
-        "file": "docs/fonts/mavenpro/MavenPro-Medium.ttf",
-        "hash": "8757551928882433759"
-      },
-      {
-        "file": "specs/001-rebrand-from-maker/plan.md",
-        "hash": "5826731413658270983"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/cypher/cypher.js",
-        "hash": "10646230638706544121"
-      },
-      {
-        "file": "docs/_snippets/originating.html",
-        "hash": "8699753056149147052"
-      },
-      {
-        "file": "package.json",
-        "hash": "17026494227272873674"
-      },
-      {
-        "file": "specs/002-upgrade-dependencies-to/quickstart.md",
-        "hash": "8254882807850155320"
-      },
-      {
-        "file": "docs/external/PDFKit/pdfkit.js",
-        "hash": "11417944868346191887"
-      },
-      {
-        "file": "CHANGELOG.md",
-        "hash": "16949444157043441527"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/liquid/liquid.js",
-        "hash": "8061123454218508877"
-      },
-      {
-        "file": ".specify/templates/tasks-template.md",
-        "hash": "766425677534777391"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/cpp/cpp.js",
-        "hash": "12445889750029229457"
-      },
-      {
-        "file": "docs/fonts/goblinone/GoblinOne.ttf",
-        "hash": "1620977025051376791"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/julia/julia.js",
-        "hash": "3484057480791070835"
-      },
-      {
-        "file": "docs/external/text-encoding/encoding.js",
-        "hash": "338847371894239869"
-      },
-      {
-        "file": "specs/003-upgrade-lerna-typedoc/tasks.md",
-        "hash": "4220659623188100447"
-      },
-      {
-        "file": "docs/fonts/keaniaone/OFL.txt",
-        "hash": "13229238531011126389"
-      },
-      {
-        "file": "docs/external/jscad/csg.js",
-        "hash": "8441728038112372847"
-      },
-      {
-        "file": "docs/_snippets/tree.html",
-        "hash": "4489742515483119505"
-      },
-      {
-        "file": "playground-server.js",
-        "hash": "15862699855014386909"
-      },
-      {
-        "file": "specs/003-upgrade-lerna-typedoc/t047-t056-completion-summary.md",
-        "hash": "14839474143579534449"
-      },
-      {
-        "file": "docs/fonts/mavenpro/MavenPro-Black.ttf",
-        "hash": "3165978935516666666"
-      },
-      {
-        "file": "specs/001-rebrand-from-maker/verification/verify-package-names.sh",
-        "hash": "2453621168014686508"
-      },
-      {
-        "file": "docs/external/text-encoding/encoding-indexes.js",
-        "hash": "15262385199215648585"
-      },
-      {
-        "file": "docs/_includes/friendly-name.html",
-        "hash": "3296486792760624127"
-      },
-      {
-        "file": "docs/playground/js/playground.js",
-        "hash": "5739388643396292711"
-      },
-      {
-        "file": ".windsurf/workflows/speckit.implement.md",
-        "hash": "12080790503098115604"
-      },
-      {
-        "file": "docs/images/icons.png",
-        "hash": "8246042610464841086"
-      },
-      {
-        "file": ".windsurf/workflows/speckit.plan.md",
-        "hash": "10578536336885354839"
-      },
-      {
-        "file": "docs/docs/exporting/index.html",
-        "hash": "9355905333839056495"
-      },
-      {
-        "file": ".specify/templates/plan-template.md",
-        "hash": "9084851189981834196"
-      },
-      {
-        "file": "docs/external/bezier-js/bezier.js",
-        "hash": "3100712184544985481"
-      },
-      {
-        "file": "docs/_posts/2015-06-30-What can you do with Maker.js.html",
-        "hash": "4845948391998108088"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/mdx/mdx.js",
-        "hash": "7823057681460389667"
-      },
-      {
-        "file": "docs/fonts/plaster/OFL.txt",
-        "hash": "1248362409357971010"
-      },
-      {
-        "file": "specs/001-rebrand-from-maker/research.md",
-        "hash": "14089895350222130374"
-      },
-      {
-        "file": "docs/fonts/montserratsubrayada/MontserratSubrayada-Regular.ttf",
-        "hash": "9271964990994486029"
-      },
-      {
-        "file": "specs/002-upgrade-dependencies-to/spec.md",
-        "hash": "6113455935642042870"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/csp/csp.js",
-        "hash": "8021441072086065719"
-      },
-      {
-        "file": "docs/stylesheets/stylesheet.css",
-        "hash": "7911085270154458116"
-      },
-      {
-        "file": "docs/target/js/browser.maker.js",
-        "hash": "9650843744019493333"
-      },
-      {
-        "file": "test-modern-js.js",
-        "hash": "11763885059814799291"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/base/common/worker/simpleWorker.nls.es.js",
-        "hash": "13824203547717601637"
-      },
-      {
-        "file": "docs/_snippets/cloning.html",
-        "hash": "6873555822833276681"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/less/less.js",
-        "hash": "7430514698577157522"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/editor/editor.main.nls.js",
-        "hash": "10419769827482299939"
-      },
-      {
-        "file": "docs/fonts/blackopsone/BlackOpsOne-Regular.ttf",
-        "hash": "6484367442025636866"
-      },
-      {
-        "file": "specs/002-upgrade-dependencies-to/t046-t057-validation-summary.md",
-        "hash": "2635494085452337149"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/base/common/worker/simpleWorker.nls.ko.js",
-        "hash": "8746055098698867482"
-      },
-      {
-        "file": "docs/_snippets/paths.html",
-        "hash": "7532947996881931817"
-      },
-      {
-        "file": "docs/stylesheets/highlight.css",
-        "hash": "4947550159016627359"
-      },
-      {
-        "file": ".github/workflows/publish-npm.yml",
-        "hash": "14534233925178569668"
-      },
-      {
-        "file": ".specify/scripts/bash/update-agent-context.sh",
-        "hash": "1663801160762415919"
-      },
-      {
-        "file": "docs/_snippets/path-constructors.html",
-        "hash": "3603098704938428257"
-      },
-      {
-        "file": "docs/fonts/graduate/Graduate-Regular.ttf",
-        "hash": "17971939644282790461"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/loader.js",
-        "hash": "10571272771551486677"
-      },
-      {
-        "file": "docs/_snippets/chain-to-new-model.html",
-        "hash": "16788806872087609618"
-      },
-      {
-        "file": "docs/images/body-bg.jpg",
-        "hash": "1775246064694330959"
-      },
-      {
-        "file": "docs/playground/js/monaco-editor-adapter.js",
-        "hash": "15825981275631184331"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/base/common/worker/simpleWorker.nls.ja.js",
-        "hash": "7068623064691554926"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/perl/perl.js",
-        "hash": "16517177501174650826"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/xml/xml.js",
-        "hash": "9934789349638263858"
-      },
-      {
-        "file": "docs/docs/working-with-chains/index.html",
-        "hash": "13158849484923030539"
-      },
-      {
-        "file": "docs/_snippets/dogbones.html",
-        "hash": "11388053964804154750"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/clojure/clojure.js",
-        "hash": "14403536719056065768"
-      },
-      {
-        "file": "docs/fonts/allertastencil/AllertaStencil-Regular.ttf",
-        "hash": "13456352343317484005"
-      },
-      {
-        "file": "docs/external/OpenJsCad/LICENSE",
-        "hash": "13826756745655881568"
-      },
-      {
-        "file": "specs/002-upgrade-dependencies-to/contracts/README.md",
-        "hash": "3972496196228083742"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/mysql/mysql.js",
-        "hash": "8350266453185415194"
-      },
-      {
-        "file": "docs/playground/insert/detail.html",
-        "hash": "17008126616906650868"
-      },
-      {
-        "file": "docs/stylesheets/github-light.css",
-        "hash": "17704323149906024029"
-      },
-      {
-        "file": "docs/fonts/tags.json",
-        "hash": "2574788642650654865"
-      },
-      {
-        "file": "docs/_layouts/snippetlist.html",
-        "hash": "14575966870431000398"
-      },
-      {
-        "file": "specs/003-upgrade-lerna-typedoc/t057-t062-completion-summary.md",
-        "hash": "14412684929210938174"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/razor/razor.js",
-        "hash": "10551819339657042242"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/scss/scss.js",
-        "hash": "9960591374949617706"
-      },
-      {
-        "file": "docs/external/OpenJsCad/formats.js",
-        "hash": "6548359485641875565"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/editor/editor.main.nls.ru.js",
-        "hash": "17435177891915792617"
-      },
-      {
-        "file": "docs/stylesheets/print.css",
-        "hash": "881297454586586416"
-      },
-      {
-        "file": "docs/_posts/2015-07-05-basic-drawing-documentation.html",
-        "hash": "15188459483604617039"
-      },
-      {
-        "file": "README.md",
-        "hash": "3057512270238219740"
-      },
-      {
-        "file": "specs/003-upgrade-lerna-typedoc/build-repair-summary.md",
-        "hash": "17288283087114357650"
-      },
-      {
-        "file": "docs/fonts/keaniaone/KeaniaOne-Regular.ttf",
-        "hash": "2619548349912311030"
-      },
-      {
-        "file": "docs/_snippets/chain-dogbone.html",
-        "hash": "9898517660302063343"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/typescript/typescript.js",
-        "hash": "10334037352774146687"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/scheme/scheme.js",
-        "hash": "5624097479418697715"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/postiats/postiats.js",
-        "hash": "10114562562752325152"
-      },
-      {
-        "file": "docs/_snippets/try-it-now.html",
-        "hash": "7230640629812076567"
-      },
-      {
-        "file": "docs/fonts/goblinone/OFL.txt",
-        "hash": "6247101819265696775"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/redshift/redshift.js",
-        "hash": "10920720264781063146"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/java/java.js",
-        "hash": "12209594485055395824"
-      },
-      {
-        "file": "docs/external/codemirror/LICENSE",
-        "hash": "14106709768258327268"
-      },
-      {
-        "file": "docs/_snippets/bezier-curves.html",
-        "hash": "310292779509938129"
-      },
-      {
-        "file": "docs/external/PDFKit/LICENSE.txt",
-        "hash": "10448552870315516805"
-      },
-      {
-        "file": "specs/003-upgrade-lerna-typedoc/T036-T038-completion-summary.md",
-        "hash": "11932190760797123076"
-      },
-      {
-        "file": "specs/003-upgrade-lerna-typedoc/baseline-summary.md",
-        "hash": "8058827353492349447"
-      },
-      {
-        "file": "docs/_snippets/mirroring.html",
-        "hash": "7019320346639162863"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/m3/m3.js",
-        "hash": "16480620546804096344"
-      },
-      {
-        "file": "docs/playground/js/iexport.js",
-        "hash": "138938761265439340"
-      },
-      {
-        "file": "LICENSE",
-        "hash": "4089810182257292815"
-      },
-      {
-        "file": "docs/docs/importing/index.html",
-        "hash": "16238215455067008951"
-      },
-      {
-        "file": "specs/003-upgrade-lerna-typedoc/spec-update-summary.md",
-        "hash": "13463829095411186136"
-      },
-      {
-        "file": "docs/external/jscad/index.html",
-        "hash": "7050374810930299389"
+        "file": "specs/004-all-examples-housed/verification/gear-wheel-final.png",
+        "hash": "10752677075420869769"
       },
       {
         "file": "docs/external/monaco-editor/vs/basic-languages/pgsql/pgsql.js",
         "hash": "17036158856764581797"
       },
       {
-        "file": "specs/001-rebrand-from-maker/SUMMARY.md",
-        "hash": "9867757880453745928"
+        "file": "docs/feed.xml",
+        "hash": "4529819417822075905"
       },
       {
-        "file": "docs/docs/intermediate-drawing/index.html",
-        "hash": "16636722114564772849"
+        "file": "docs/_snippets/chain-to-new-model.html",
+        "hash": "16788806872087609618"
       },
       {
-        "file": "docs/_snippets/fonts-and-text.html",
-        "hash": "3107568248759906514"
+        "file": "specs/003-upgrade-lerna-typedoc/plan-update-summary.md",
+        "hash": "10494935832114201235"
       },
       {
-        "file": ".windsurf/workflows/speckit.clarify.md",
-        "hash": "8193326644572465110"
+        "file": "specs/004-all-examples-housed/verification/verify-all.sh",
+        "hash": "6052460919580342204"
       },
       {
-        "file": "scripts/build_doc_graph.js",
-        "hash": "3257805377773015567"
+        "file": "docs/external/bezier-js/LICENSE.txt",
+        "hash": "3884396634287153478"
       },
       {
-        "file": "docs/fonts/pirataone/OFL.txt",
-        "hash": "18339723698947741837"
+        "file": "docs/fonts/montserratsubrayada/MontserratSubrayada-Bold.ttf",
+        "hash": "15631441258281308815"
       },
       {
-        "file": "docs/_snippets/chain-to-points.html",
-        "hash": "2403307052520462402"
+        "file": "docs/stylesheets/tsd.css",
+        "hash": "3751254938206689721"
       },
       {
-        "file": "docs/_snippets/intersection.html",
-        "hash": "10668691907365129207"
+        "file": "docs/external/monaco-editor/vs/basic-languages/liquid/liquid.js",
+        "hash": "8061123454218508877"
       },
       {
-        "file": "docs/playground/js/pointer.js",
-        "hash": "737212378807396338"
+        "file": "docs/external/monaco-editor/vs/basic-languages/lexon/lexon.js",
+        "hash": "5645241450042605701"
       },
       {
-        "file": "specs/003-upgrade-lerna-typedoc/phase3-status.md",
-        "hash": "15759209032084675573"
+        "file": "docs/external/codemirror/addon/lint/lint.css",
+        "hash": "8923298935075902877"
       },
       {
-        "file": "docs/fonts/sirinstencil/OFL.txt",
-        "hash": "8151488286537651176"
+        "file": "specs/004-all-examples-housed/verification/verify-namespace.sh",
+        "hash": "11973278140795549598"
       },
       {
-        "file": "docs/_layouts/default.html",
-        "hash": "11505900889292686183"
-      },
-      {
-        "file": "docs/_snippets/layout-on-path.html",
-        "hash": "17737814979825699894"
-      },
-      {
-        "file": "docs/fonts/arbutusslab/ArbutusSlab-Regular.ttf",
-        "hash": "2188758496979356141"
-      },
-      {
-        "file": "docs/_snippets/template.html",
-        "hash": "17529110917558027768"
-      },
-      {
-        "file": "docs/_snippets/simplifying.html",
-        "hash": "1410955290037409187"
-      },
-      {
-        "file": "docs/playground/js/worker/render-worker.js",
-        "hash": "9320216401345617602"
-      },
-      {
-        "file": "specs/001-rebrand-from-maker/contracts/verification-checklist.md",
-        "hash": "8120339027980404958"
-      },
-      {
-        "file": "docs/external/codemirror/addon/lint/jshint.js",
-        "hash": "17460711374114523230"
-      },
-      {
-        "file": "docs/playground/js/require-iframe.js",
-        "hash": "15874984493177169812"
-      },
-      {
-        "file": "docs/playground/js/fontloader.js",
-        "hash": "16167245150118513411"
-      },
-      {
-        "file": "specs/001-rebrand-from-maker/quickstart.md",
-        "hash": "16639818670670774110"
-      },
-      {
-        "file": "docs/images/highlight-bg.jpg",
-        "hash": "5210281493486438795"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/editor/editor.main.nls.fr.js",
-        "hash": "3571282431610588322"
-      },
-      {
-        "file": "docs/fonts/blackopsone/FONTLOG.txt",
-        "hash": "11668503730320972599"
-      },
-      {
-        "file": "docs/fonts/fonts.js",
-        "hash": "13846085709293248922"
-      },
-      {
-        "file": "docs/_snippets/layers.html",
-        "hash": "18361904845635573317"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/csharp/csharp.js",
-        "hash": "14236683643388193635"
-      },
-      {
-        "file": "specs/003-upgrade-lerna-typedoc/quickstart.md",
-        "hash": "8822207630470042219"
-      },
-      {
-        "file": "docs/_posts/2015-07-19-intermediate-drawing-documentation.html",
-        "hash": "4511895648153085529"
-      },
-      {
-        "file": "baseline-docs-build.log",
-        "hash": "10502713139860282716"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/base/common/worker/simpleWorker.nls.js",
-        "hash": "18274356552569624068"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/editor/editor.main.nls.ko.js",
-        "hash": "16244400859951994607"
-      },
-      {
-        "file": "docs/_snippets/exporting-openjscad.html",
-        "hash": "12754635910495919410"
-      },
-      {
-        "file": "specs/003-upgrade-lerna-typedoc/spec.md",
-        "hash": "13363642064484239014"
-      },
-      {
-        "file": "docs/fonts/sirinstencil/SirinStencil-Regular.ttf",
-        "hash": "15266804683936256534"
-      },
-      {
-        "file": "docs/external/marked/marked.js",
-        "hash": "6748732079832286493"
-      },
-      {
-        "file": "docs/_snippets/chain-multiple.html",
-        "hash": "21194036487625178"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/sb/sb.js",
-        "hash": "109835191785766602"
-      },
-      {
-        "file": "docs/schemas/makerjs-model.json",
-        "hash": "4215678057575250836"
-      },
-      {
-        "file": "scripts/publish-photon.sh",
-        "hash": "3372718809285908111"
-      },
-      {
-        "file": ".specify/templates/spec-template.md",
-        "hash": "14313948622703320118"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/powerquery/powerquery.js",
-        "hash": "7057017064457879520"
-      },
-      {
-        "file": "specs/003-upgrade-lerna-typedoc/plan.md",
-        "hash": "1948757045149651970"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/base/common/worker/simpleWorker.nls.zh-cn.js",
-        "hash": "5835332274197763300"
-      },
-      {
-        "file": "docs/fonts/blackopsone/OFL.txt",
-        "hash": "9669709593271431407"
-      },
-      {
-        "file": "docs/playground/index.html",
-        "hash": "14698687336901539988"
-      },
-      {
-        "file": "baseline-versions.txt",
-        "hash": "7384741044144571013"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/dockerfile/dockerfile.js",
-        "hash": "17017617888613613008"
-      },
-      {
-        "file": "docs/fonts/pirataone/PirataOne-Regular.ttf",
-        "hash": "269443731056570442"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/css/css.js",
-        "hash": "5490610454770931481"
-      },
-      {
-        "file": "docs/fonts/kumarone/OFL.txt",
-        "hash": "5973475149929673429"
-      },
-      {
-        "file": "docs/_snippets/exporting-svg-path-data.html",
-        "hash": "13650227183075901612"
-      },
-      {
-        "file": "specs/001-rebrand-from-maker/verification/verify-build.sh",
-        "hash": "4593284474901200499"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/vb/vb.js",
-        "hash": "14949458581055324189"
-      },
-      {
-        "file": "docs/_snippets/getting-started-browser.html",
-        "hash": "4431834170672163446"
-      },
-      {
-        "file": "docs/_snippets/layout-on-chain.html",
-        "hash": "13736858285002312475"
-      },
-      {
-        "file": ".specify/memory/constitution-summary.md",
-        "hash": "6483440777858379040"
-      },
-      {
-        "file": "docs/playground/img/blueprint.png",
-        "hash": "2332184538227738928"
-      },
-      {
-        "file": "docs/playground/js/format-options.js",
-        "hash": "11392031913721763323"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/wgsl/wgsl.js",
-        "hash": "4710557923144210619"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/restructuredtext/restructuredtext.js",
-        "hash": "10278976413205558520"
-      },
-      {
-        "file": "docs/external/codemirror/lib/codemirror.js",
-        "hash": "18129166558201698056"
-      },
-      {
-        "file": "docs/_snippets/solvers.html",
-        "hash": "16773037372588926511"
-      },
-      {
-        "file": "docs/playground/js/worker/string-reader.js",
-        "hash": "3697941680100930508"
-      },
-      {
-        "file": "docs/_snippets/order-of-operations.html",
-        "hash": "172741233026201984"
-      },
-      {
-        "file": "docs/fonts/mavenpro/MavenPro-Regular.ttf",
-        "hash": "16606561285484406654"
-      },
-      {
-        "file": "docs/fonts/mavenpro/OFL.txt",
-        "hash": "7871997693710224692"
-      },
-      {
-        "file": "docs/fonts/plaster/Plaster-Regular.ttf",
-        "hash": "9425235182509103766"
-      },
-      {
-        "file": "specs/002-upgrade-dependencies-to/research-findings.md",
-        "hash": "1373741989308418851"
-      },
-      {
-        "file": "docs/_posts/2015-07-12-A-business-card.html",
-        "hash": "8771848509385786558"
-      },
-      {
-        "file": "docs/_snippets/chains.html",
-        "hash": "17773331691786659987"
-      },
-      {
-        "file": "docs/playground/embed.html",
-        "hash": "11969165324354275839"
-      },
-      {
-        "file": "specs/002-upgrade-dependencies-to/t043-t045-dependency-update-summary.md",
-        "hash": "6926472267968894800"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/coffee/coffee.js",
-        "hash": "16970926634263770200"
-      },
-      {
-        "file": "specs/003-upgrade-lerna-typedoc/changelog-review.md",
-        "hash": "8650094415236482183"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/mips/mips.js",
-        "hash": "11142721891783972619"
-      },
-      {
-        "file": "docs/playground/css/playground.css",
-        "hash": "12754370078335527678"
-      },
-      {
-        "file": ".specify/scripts/bash/check-prerequisites.sh",
-        "hash": "5256461918727886206"
-      },
-      {
-        "file": "docs/fonts/newrocker/NewRocker-Regular.ttf",
-        "hash": "14116526488095074836"
-      },
-      {
-        "file": "docs/images/makerjs-card.jpg",
-        "hash": "16672484563204905682"
-      },
-      {
-        "file": "docs/fonts/stardosstencil/StardosStencil-Bold.ttf",
-        "hash": "7392374034690539899"
-      },
-      {
-        "file": "docs/fonts/montserratsubrayada/DESCRIPTION.en_us.html",
-        "hash": "12040513976427993977"
-      },
-      {
-        "file": "docs/_snippets/$-function.html",
-        "hash": "7120579631354423608"
-      },
-      {
-        "file": "docs/fonts/montserratsubrayada/OFL.txt",
-        "hash": "13705336072244968751"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/scala/scala.js",
-        "hash": "8349594380979919765"
-      },
-      {
-        "file": "docs/fonts/plaster/DESCRIPTION.en_us.html",
-        "hash": "5949939545716733199"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/language/json/jsonMode.js",
-        "hash": "1570078886614265073"
-      },
-      {
-        "file": "docs/_snippets/chain-fillet.html",
-        "hash": "2614660903948706322"
-      },
-      {
-        "file": "docs/_posts/2015-08-09-Added-fillet-capability.html",
-        "hash": "11597044911260937474"
-      },
-      {
-        "file": "docs/_snippets/converging.html",
-        "hash": "58376992587979939"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/javascript/javascript.js",
-        "hash": "8593341658583152560"
-      },
-      {
-        "file": "specs/002-upgrade-dependencies-to/checklists/requirements.md",
-        "hash": "1622724360309395488"
-      },
-      {
-        "file": "docs/playground/insert/insert.css",
-        "hash": "3234572444849249132"
-      },
-      {
-        "file": "docs/docs/index.html",
-        "hash": "5441057950949764360"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/sql/sql.js",
-        "hash": "2905735061596082866"
+        "file": "docs/_snippets/try-it-now.html",
+        "hash": "7230640629812076567"
       },
       {
         "file": "docs/external/codemirror/lib/codemirror.css",
         "hash": "4936420365588571269"
       },
       {
-        "file": "docs/external/monaco-editor/vs/basic-languages/kotlin/kotlin.js",
-        "hash": "8353771790616633940"
+        "file": ".gitignore",
+        "hash": "9630074962346627018"
       },
       {
-        "file": "specs/003-upgrade-lerna-typedoc/t039-t041-completion-summary.md",
-        "hash": "8637541788173286144"
+        "file": "docs/external/monaco-editor/vs/editor/editor.main.nls.ja.js",
+        "hash": "16407278080939109538"
       },
       {
-        "file": "specs/002-upgrade-dependencies-to/data-model.md",
-        "hash": "13754952638272222879"
+        "file": "docs/external/monaco-editor/vs/base/common/worker/simpleWorker.nls.es.js",
+        "hash": "13824203547717601637"
       },
       {
-        "file": "docs/fonts/allertastencil/OFL.txt",
-        "hash": "17454383913912611724"
+        "file": "specs/004-all-examples-housed/verification/playground-smiley-face-rendering.png",
+        "hash": "11915592497721357473"
       },
       {
-        "file": "docs/external/text-encoding/LICENSE.md",
-        "hash": "5240568861402212458"
+        "file": "docs/_snippets/chain-to-key-points.html",
+        "hash": "2332398510198103717"
       },
       {
-        "file": "docs/fonts/emblemaone/OFL.txt",
-        "hash": "11357713701937056103"
+        "file": "docs/docs/livedoc.js",
+        "hash": "14947807423315232290"
       },
       {
-        "file": "docs/external/monaco-editor/vs/language/css/cssWorker.js",
-        "hash": "902645184354268505"
+        "file": "docs/external/monaco-editor/vs/editor/editor.main.css",
+        "hash": "16839357160075498456"
       },
       {
-        "file": "docs/external/monaco-editor/vs/base/common/worker/simpleWorker.nls.zh-tw.js",
-        "hash": "15328834632105623362"
+        "file": "docs/external/monaco-editor/vs/basic-languages/razor/razor.js",
+        "hash": "10551819339657042242"
       },
       {
-        "file": "docs/images/icons@2x.png",
-        "hash": "8657408018067256422"
+        "file": "docs/_snippets/layout-on-chain.html",
+        "hash": "13736858285002312475"
       },
       {
-        "file": "docs/playground/js/irender.js",
-        "hash": "17441273496895215402"
+        "file": "docs/fonts/emblemaone/EmblemaOne-Regular.ttf",
+        "hash": "8434083846681529088"
       },
       {
-        "file": "docs/feed.xml",
-        "hash": "4529819417822075905"
+        "file": "specs/004-all-examples-housed/verification/final-test.mjs",
+        "hash": "5597252613723102361"
       },
       {
-        "file": "docs/_snippets/moving.html",
-        "hash": "6289563295214204884"
+        "file": "baseline-docs-build.log",
+        "hash": "10502713139860282716"
+      },
+      {
+        "file": "specs/001-rebrand-from-maker/checklists/requirements.md",
+        "hash": "11776829349703566414"
+      },
+      {
+        "file": "docs/images/header-bg.jpg",
+        "hash": "9465756197199928372"
+      },
+      {
+        "file": "specs/004-all-examples-housed/library-export-audit.md",
+        "hash": "5307770189281034186"
+      },
+      {
+        "file": ".specify/templates/spec-template.md",
+        "hash": "14313948622703320118"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/cpp/cpp.js",
+        "hash": "12445889750029229457"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/powershell/powershell.js",
+        "hash": "7726444965281906881"
       },
       {
         "file": "docs/_snippets/exporting-pdf.html",
         "hash": "15448413908306116255"
       },
       {
+        "file": "specs/003-upgrade-lerna-typedoc/data-model.md",
+        "hash": "12616118989158273923"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/dockerfile/dockerfile.js",
+        "hash": "17017617888613613008"
+      },
+      {
+        "file": "docs/_snippets/measuring.html",
+        "hash": "4763624667017258712"
+      },
+      {
+        "file": "docs/fonts/vampiroone/OFL.txt",
+        "hash": "284698651163297783"
+      },
+      {
+        "file": "specs/002-upgrade-dependencies-to/spec.md",
+        "hash": "6113455935642042870"
+      },
+      {
+        "file": "docs/playground/js/pointer.js",
+        "hash": "17365190066079382080"
+      },
+      {
+        "file": "docs/images/icons@2x.png",
+        "hash": "8657408018067256422"
+      },
+      {
+        "file": "specs/003-upgrade-lerna-typedoc/T036-T038-completion-summary.md",
+        "hash": "11932190760797123076"
+      },
+      {
+        "file": "specs/004-all-examples-housed/verification/smiley-face-final.png",
+        "hash": "11891446224436678493"
+      },
+      {
+        "file": "docs/fonts/allertastencil/OFL.txt",
+        "hash": "17454383913912611724"
+      },
+      {
+        "file": "specs/004-all-examples-housed/verification/simple-square-success.png",
+        "hash": "15258671772119222979"
+      },
+      {
+        "file": "docs/_snippets/frequently-used-functions.html",
+        "hash": "11400212156176451690"
+      },
+      {
+        "file": "docs/fonts/mavenpro/OFL.txt",
+        "hash": "7871997693710224692"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/handlebars/handlebars.js",
+        "hash": "3496830296020979931"
+      },
+      {
+        "file": "specs/003-upgrade-lerna-typedoc/tasks-revision-summary.md",
+        "hash": "292427082138859901"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/sql/sql.js",
+        "hash": "2905735061596082866"
+      },
+      {
+        "file": "docs/_snippets/cloning.html",
+        "hash": "6873555822833276681"
+      },
+      {
+        "file": "specs/002-upgrade-dependencies-to/research-findings.md",
+        "hash": "1373741989308418851"
+      },
+      {
+        "file": "specs/004-all-examples-housed/verification/inspect-playground.mjs",
+        "hash": "14959467328911772031"
+      },
+      {
+        "file": "specs/003-upgrade-lerna-typedoc/changelog-review.md",
+        "hash": "8650094415236482183"
+      },
+      {
+        "file": "specs/003-upgrade-lerna-typedoc/tasks.md",
+        "hash": "4220659623188100447"
+      },
+      {
+        "file": "specs/004-all-examples-housed/verification/test-simple-square.mjs",
+        "hash": "9695144283130068326"
+      },
+      {
+        "file": "docs/fonts/montserratsubrayada/DESCRIPTION.en_us.html",
+        "hash": "12040513976427993977"
+      },
+      {
+        "file": "docs/_snippets/open-vs-closed-geometry.html",
+        "hash": "7042051510497996860"
+      },
+      {
+        "file": "specs/004-all-examples-housed/phase-4.8-SUCCESS.md",
+        "hash": "6913259719670954728"
+      },
+      {
+        "file": "specs/003-upgrade-lerna-typedoc/t042-t046-completion-summary.md",
+        "hash": "15470357425499407936"
+      },
+      {
+        "file": "docs/_posts/2015-07-05-basic-drawing-documentation.html",
+        "hash": "15188459483604617039"
+      },
+      {
+        "file": "specs/004-all-examples-housed/verification/verify-var-usage.sh",
+        "hash": "54477003466881492"
+      },
+      {
+        "file": "specs/003-upgrade-lerna-typedoc/plan.md",
+        "hash": "1948757045149651970"
+      },
+      {
+        "file": "docs/external/PDFKit/LICENSE.txt",
+        "hash": "10448552870315516805"
+      },
+      {
+        "file": "specs/001-rebrand-from-maker/verification/verify-build.sh",
+        "hash": "4593284474901200499"
+      },
+      {
+        "file": ".specify/scripts/bash/create-new-feature.sh",
+        "hash": "18266389118054970082"
+      },
+      {
+        "file": "docs/external/codemirror/addon/lint/lint.js",
+        "hash": "13875544756097026631"
+      },
+      {
+        "file": "specs/004-all-examples-housed/verification/verify-imports.sh",
+        "hash": "8274912288122757884"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/r/r.js",
+        "hash": "1783481652484909677"
+      },
+      {
+        "file": "docs/target/js/browser.maker.js",
+        "hash": "9650843744019493333"
+      },
+      {
+        "file": "docs/_snippets/layout-on-path.html",
+        "hash": "17737814979825699894"
+      },
+      {
+        "file": "specs/003-upgrade-lerna-typedoc/contracts/upgrade-procedure.md",
+        "hash": "2780669925567592661"
+      },
+      {
+        "file": "docs/fonts/goblinone/OFL.txt",
+        "hash": "6247101819265696775"
+      },
+      {
+        "file": "docs/fonts/arbutusslab/OFL.txt",
+        "hash": "16016168084040526855"
+      },
+      {
+        "file": "specs/002-upgrade-dependencies-to/final-metrics-summary.md",
+        "hash": "16258216535737686642"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/sb/sb.js",
+        "hash": "109835191785766602"
+      },
+      {
+        "file": "docs/fonts/keaniaone/KeaniaOne-Regular.ttf",
+        "hash": "2619548349912311030"
+      },
+      {
+        "file": "docs/_includes/object-type.html",
+        "hash": "9709919038880418192"
+      },
+      {
+        "file": "docs/stylesheets/highlight.css",
+        "hash": "4947550159016627359"
+      },
+      {
+        "file": ".specify/scripts/bash/common.sh",
+        "hash": "883054024752384093"
+      },
+      {
+        "file": "docs/_snippets/exporting-svg.html",
+        "hash": "660019814243947894"
+      },
+      {
+        "file": "docs/docs/node-apps/node server.html",
+        "hash": "6545875210624564424"
+      },
+      {
+        "file": "specs/004-all-examples-housed/checklists/requirements.md",
+        "hash": "3081311187814894068"
+      },
+      {
+        "file": "docs/fonts/graduate/OFL.txt",
+        "hash": "14812727238278266649"
+      },
+      {
+        "file": "docs/playground/insert/index.html",
+        "hash": "2919655188860312481"
+      },
+      {
+        "file": "docs/external/codemirror/addon/lint/javascript-lint.js",
+        "hash": "2099051643057508440"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/xml/xml.js",
+        "hash": "9934789349638263858"
+      },
+      {
         "file": ".specify/templates/agent-file-template.md",
         "hash": "10268955517144499404"
       },
       {
-        "file": "docs/fonts/sirinstencil/DESCRIPTION.en_us.html",
-        "hash": "3014700279398577176"
-      },
-      {
-        "file": "docs/fonts/wallpoet/Wallpoet-Regular.ttf",
-        "hash": "5656901372129704790"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/python/python.js",
-        "hash": "11697543126612580207"
-      },
-      {
-        "file": "docs/_snippets/modifying-models.html",
-        "hash": "16587125066198854715"
+        "file": "docs/_snippets/chains.html",
+        "hash": "17773331691786659987"
       },
       {
         "file": "docs/_snippets/rotating.html",
@@ -1262,512 +374,1584 @@
         "hash": "14322409072532266744"
       },
       {
-        "file": "docs/_snippets/chain-theory.html",
-        "hash": "12629939168325612284"
-      },
-      {
-        "file": "docs/_layouts/page.html",
-        "hash": "9168043654841050618"
-      },
-      {
-        "file": "docs/_snippets/getting-started-node.html",
-        "hash": "10069892695721488112"
-      },
-      {
-        "file": "specs/003-upgrade-lerna-typedoc/gitignore-update-summary.md",
-        "hash": "3921344876808780863"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/editor/editor.main.nls.zh-tw.js",
-        "hash": "17271420007872237346"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/freemarker2/freemarker2.js",
-        "hash": "11733753077459978618"
-      },
-      {
-        "file": "specs/003-upgrade-lerna-typedoc/research.md",
-        "hash": "14731451339107204628"
-      },
-      {
-        "file": "specs/002-upgrade-dependencies-to/t034-t035-test-findings.md",
-        "hash": "14315866002673756985"
-      },
-      {
-        "file": "specs/001-rebrand-from-maker/spec.md",
-        "hash": "7898149396179208165"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/objective-c/objective-c.js",
-        "hash": "13536976552380795628"
-      },
-      {
-        "file": "docs/_snippets/walking.html",
-        "hash": "3490760222770736606"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/base/browser/ui/codicons/codicon/codicon.ttf",
-        "hash": "14748684473435115374"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/cameligo/cameligo.js",
-        "hash": "854471780739823606"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/twig/twig.js",
-        "hash": "5661648397826594884"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/pug/pug.js",
-        "hash": "4083763643536723505"
-      },
-      {
-        "file": "specs/002-upgrade-dependencies-to/tasks.md",
-        "hash": "635086430987591012"
-      },
-      {
-        "file": "docs/docs/getting-started/index.html",
-        "hash": "13719023055994236581"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/graphql/graphql.js",
-        "hash": "10650340761311166111"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/abap/abap.js",
-        "hash": "18432439085019810277"
-      },
-      {
-        "file": "docs/_snippets/basic-rendering-in-svg.html",
-        "hash": "9132267420623408971"
-      },
-      {
-        "file": "docs/_snippets/captions.html",
-        "hash": "2262151369242587121"
-      },
-      {
-        "file": "docs/_snippets/just-json.html",
-        "hash": "9934079802970420284"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/language/css/cssMode.js",
-        "hash": "13004551402291845744"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/r/r.js",
-        "hash": "1783481652484909677"
-      },
-      {
-        "file": "docs/fonts/emblemaone/FONTLOG.txt",
-        "hash": "8867105889462121044"
-      },
-      {
-        "file": "docs/external/codemirror/mode/javascript/javascript.js",
-        "hash": "8084018582627945431"
-      },
-      {
-        "file": "docs/_snippets/cascading-functions.html",
-        "hash": "1613499287492859503"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/language/html/htmlMode.js",
-        "hash": "10091050850906006676"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/msdax/msdax.js",
-        "hash": "13225319754718326306"
-      },
-      {
-        "file": "docs/fonts/wallpoet/OFL.txt",
-        "hash": "7474088992355935030"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/ruby/ruby.js",
-        "hash": "13480146353981717528"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/language/html/htmlWorker.js",
-        "hash": "15485158048130350726"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/swift/swift.js",
-        "hash": "14138004104862076868"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/pascal/pascal.js",
-        "hash": "17465024904574811812"
-      },
-      {
-        "file": "docs/_snippets/chain-order.html",
-        "hash": "10202037884097014442"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/language/json/jsonWorker.js",
-        "hash": "3012093781887841713"
-      },
-      {
-        "file": "docs/_snippets/chain-links.html",
-        "hash": "10375132622320769276"
-      },
-      {
-        "file": "specs/003-upgrade-lerna-typedoc/plan-update-summary.md",
-        "hash": "10494935832114201235"
-      },
-      {
-        "file": "docs/playground/insert/index.html",
-        "hash": "2919655188860312481"
-      },
-      {
-        "file": "docs/fonts/wallpoet/FONTLOG.txt",
-        "hash": "16570004828308033789"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/flow9/flow9.js",
-        "hash": "14171340903622879250"
-      },
-      {
-        "file": "docs/_snippets/chain-single.html",
-        "hash": "2323035607793029977"
-      },
-      {
-        "file": "docs/images/makerjs-blue.png",
-        "hash": "13623574928842693620"
-      },
-      {
-        "file": "specs/003-upgrade-lerna-typedoc/NEXT-STEPS.md",
-        "hash": "14343002175501851743"
-      },
-      {
-        "file": ".github/workflows/ci.yml",
-        "hash": "14797017024262754253"
-      },
-      {
-        "file": "specs/001-rebrand-from-maker/verification/verify-dist-files.sh",
-        "hash": "16812088478466160847"
-      },
-      {
-        "file": ".specify/scripts/bash/common.sh",
-        "hash": "883054024752384093"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/language/typescript/tsWorker.js",
-        "hash": "6836520258272969818"
-      },
-      {
-        "file": "docs/_snippets/frequently-used-functions.html",
-        "hash": "11400212156176451690"
-      },
-      {
-        "file": "docs/_snippets/units.html",
-        "hash": "6549622274612310127"
-      },
-      {
-        "file": "baseline-test.log",
-        "hash": "17623271631815307303"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/systemverilog/systemverilog.js",
-        "hash": "12174514656501376818"
-      },
-      {
-        "file": "docs/_includes/object-type.html",
-        "hash": "9709919038880418192"
-      },
-      {
-        "file": "docs/external/codemirror/addon/lint/lint.js",
-        "hash": "13875544756097026631"
-      },
-      {
-        "file": "docs/external/marked/LICENSE.txt",
-        "hash": "17201370318613806017"
-      },
-      {
-        "file": "docs/docs/publishing/publishing.html",
-        "hash": "2473069724460070906"
-      },
-      {
-        "file": "docs/external/jscad/stl-serializer.js",
-        "hash": "6782465751033163921"
-      },
-      {
-        "file": "docs/_snippets/built-in-models.html",
-        "hash": "12619397427655409865"
-      },
-      {
-        "file": "docs/playground/js/worker/export-worker.js",
-        "hash": "5762387305371075926"
-      },
-      {
-        "file": ".specify/templates/checklist-template.md",
-        "hash": "15483271829369269776"
-      },
-      {
-        "file": "docs/fonts/stardosstencil/OFL.txt",
-        "hash": "2867568525959686173"
-      },
-      {
-        "file": "docs/external/bezier-js/LICENSE.txt",
-        "hash": "3884396634287153478"
-      },
-      {
-        "file": "docs/fonts/wallpoet/DESCRIPTION.en_us.html",
-        "hash": "5311841998689422154"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/editor/editor.main.nls.it.js",
-        "hash": "5496058892014951142"
-      },
-      {
-        "file": "NOTICE",
-        "hash": "7680418366860798910"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/pla/pla.js",
-        "hash": "12284228420154374644"
-      },
-      {
-        "file": "docs/_snippets/open-vs-closed-geometry.html",
-        "hash": "7042051510497996860"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/language/typescript/tsMode.js",
-        "hash": "8354493285472570186"
-      },
-      {
-        "file": "docs/fonts/stardosstencil/DESCRIPTION.en_us.html",
-        "hash": "1941634192956068783"
-      },
-      {
-        "file": "specs/003-upgrade-lerna-typedoc/t042-t046-completion-summary.md",
-        "hash": "15470357425499407936"
-      },
-      {
-        "file": "CONTRIBUTING.md",
-        "hash": "17572256011294595561"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/editor/editor.main.nls.es.js",
-        "hash": "535908484906457499"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/shell/shell.js",
-        "hash": "8161474232576503096"
-      },
-      {
-        "file": "docs/fonts/stardosstencil/StardosStencil-Regular.ttf",
-        "hash": "5529596996747246469"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/redis/redis.js",
-        "hash": "9478448236252045443"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/qsharp/qsharp.js",
-        "hash": "1459827661327724737"
-      },
-      {
-        "file": "specs/003-upgrade-lerna-typedoc/contracts/upgrade-procedure.md",
-        "hash": "2780669925567592661"
-      },
-      {
-        "file": "specs/003-upgrade-lerna-typedoc/new-features.md",
-        "hash": "12665650989075900725"
-      },
-      {
-        "file": "docs/external/codemirror/addon/lint/javascript-lint.js",
-        "hash": "2099051643057508440"
-      },
-      {
-        "file": "docs/external/pep/pep.js",
-        "hash": "5538108870868381551"
-      },
-      {
-        "file": "docs/external/codemirror/theme/twilight.css",
-        "hash": "6758177283409270124"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/handlebars/handlebars.js",
-        "hash": "3496830296020979931"
-      },
-      {
-        "file": "docs/fonts/arbutusslab/OFL.txt",
-        "hash": "16016168084040526855"
-      },
-      {
-        "file": ".windsurf/workflows/speckit.analyze.md",
-        "hash": "1196216930321133682"
-      },
-      {
-        "file": "docs/docs/basic-drawing/index.html",
-        "hash": "17677995140381031220"
-      },
-      {
-        "file": "docs/fonts/mavenpro/MavenPro-Bold.ttf",
-        "hash": "481919658684392414"
-      },
-      {
-        "file": "docs/_snippets/outlining.html",
-        "hash": "15676630905343599520"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "10940203661001007337"
-      },
-      {
-        "file": "docs/_snippets/svg-styling.html",
-        "hash": "8453582950770286803"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/pascaligo/pascaligo.js",
-        "hash": "12139946752124981945"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/powershell/powershell.js",
-        "hash": "7726444965281906881"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/tcl/tcl.js",
-        "hash": "173003349326572142"
-      },
-      {
-        "file": "docs/_snippets/zeroing-and-centering.html",
-        "hash": "8187630389899286082"
-      },
-      {
-        "file": "specs/002-upgrade-dependencies-to/t036-t042-refactoring-summary.md",
-        "hash": "6676350121200728335"
-      },
-      {
-        "file": "docs/_snippets/models.html",
-        "hash": "16256786042691263672"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/ecl/ecl.js",
-        "hash": "13453586972998215082"
-      },
-      {
-        "file": "docs/playground/img/m.png",
-        "hash": "509179101868661995"
-      },
-      {
-        "file": "docs/external/monaco-editor/vs/basic-languages/apex/apex.js",
-        "hash": "7569065008932863265"
-      },
-      {
-        "file": "docs/fonts/emblemaone/DESCRIPTION.en_us.html",
-        "hash": "12941210969945906582"
+        "file": "docs/external/monaco-editor/vs/basic-languages/bicep/bicep.js",
+        "hash": "3308230286053364892"
       },
       {
         "file": "specs/001-rebrand-from-maker/verification/verify-namespaces.sh",
         "hash": "12617616907063499053"
       },
       {
-        "file": "docs/external/OpenJsCad/csg.d.ts",
-        "hash": "1905236362171581122"
+        "file": "specs/004-all-examples-housed/verification/playground-simple-square-rendering.png",
+        "hash": "5717778461261155386"
       },
       {
-        "file": "docs/external/monaco-editor/vs/basic-languages/sophia/sophia.js",
-        "hash": "16381934401020408976"
+        "file": "docs/external/monaco-editor/vs/basic-languages/m3/m3.js",
+        "hash": "16480620546804096344"
+      },
+      {
+        "file": "docs/images/download-button.png",
+        "hash": "3591941497177052994"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/vb/vb.js",
+        "hash": "14949458581055324189"
+      },
+      {
+        "file": "specs/004-all-examples-housed/migrate-batch.sh",
+        "hash": "14376156919223562541"
+      },
+      {
+        "file": "specs/002-upgrade-dependencies-to/t036-t042-refactoring-summary.md",
+        "hash": "6676350121200728335"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/language/json/jsonWorker.js",
+        "hash": "3012093781887841713"
+      },
+      {
+        "file": "docs/external/codemirror/addon/lint/jshint.js",
+        "hash": "17460711374114523230"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/postiats/postiats.js",
+        "hash": "10114562562752325152"
+      },
+      {
+        "file": "docs/playground/index.html",
+        "hash": "5245898497916255544"
+      },
+      {
+        "file": "specs/001-rebrand-from-maker/quickstart.md",
+        "hash": "16639818670670774110"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/flow9/flow9.js",
+        "hash": "14171340903622879250"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/base/common/worker/simpleWorker.nls.zh-cn.js",
+        "hash": "5835332274197763300"
+      },
+      {
+        "file": "scripts/build_doc_graph.js",
+        "hash": "3257805377773015567"
+      },
+      {
+        "file": "baseline-test.log",
+        "hash": "17623271631815307303"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/redshift/redshift.js",
+        "hash": "10920720264781063146"
       },
       {
         "file": "specs/002-upgrade-dependencies-to/plan.md",
         "hash": "13862057781026320340"
       },
       {
-        "file": "docs/docs/publishing/packaging.html",
-        "hash": "4718063363628017278"
+        "file": "docs/external/monaco-editor/vs/basic-languages/hcl/hcl.js",
+        "hash": "11430093483866241288"
       },
       {
-        "file": "specs/001-rebrand-from-maker/checklists/requirements.md",
-        "hash": "11776829349703566414"
+        "file": "docs/external/monaco-editor/vs/basic-languages/qsharp/qsharp.js",
+        "hash": "1459827661327724737"
       },
       {
-        "file": ".gitignore",
-        "hash": "9630074962346627018"
+        "file": "docs/fonts/montserratsubrayada/MontserratSubrayada-Regular.ttf",
+        "hash": "9271964990994486029"
       },
       {
-        "file": "docs/_snippets/exporting-dxf.html",
-        "hash": "2673407372184573563"
+        "file": "specs/004-all-examples-housed/iframe-module-research.md",
+        "hash": "17380341884837414378"
       },
       {
-        "file": "docs/external/monaco-editor/vs/basic-languages/dart/dart.js",
-        "hash": "7088207391280392115"
+        "file": "docs/images/body-bg.jpg",
+        "hash": "1775246064694330959"
       },
       {
-        "file": "docs/external/monaco-editor/vs/editor/editor.main.nls.zh-cn.js",
-        "hash": "17275299582597359909"
+        "file": "docs/fonts/graduate/Graduate-Regular.ttf",
+        "hash": "17971939644282790461"
       },
       {
-        "file": "specs/001-rebrand-from-maker/data-model.md",
-        "hash": "14944017943331234011"
+        "file": "docs/fonts/sirinstencil/SirinStencil-Regular.ttf",
+        "hash": "15266804683936256534"
       },
       {
-        "file": ".windsurf/rules/specify-rules.md",
-        "hash": "16650816695590999537"
+        "file": ".windsurf/workflows/speckit.implement.md",
+        "hash": "12080790503098115604"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/rust/rust.js",
+        "hash": "4605313085398434952"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/language/css/cssWorker.js",
+        "hash": "902645184354268505"
+      },
+      {
+        "file": "docs/_snippets/originating.html",
+        "hash": "8699753056149147052"
+      },
+      {
+        "file": "docs/_snippets/exporting-stl.html",
+        "hash": "3654028749711764845"
+      },
+      {
+        "file": "specs/004-all-examples-housed/MIGRATION-SUMMARY.md",
+        "hash": "14469336717822620229"
+      },
+      {
+        "file": "nx.json",
+        "hash": "10652969438848521880"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/protobuf/protobuf.js",
+        "hash": "6251605602246929782"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/base/common/worker/simpleWorker.nls.zh-tw.js",
+        "hash": "15328834632105623362"
+      },
+      {
+        "file": "docs/playground/img/m.png",
+        "hash": "509179101868661995"
+      },
+      {
+        "file": "docs/images/makerjs-card.jpg",
+        "hash": "16672484563204905682"
+      },
+      {
+        "file": "docs/_snippets/aliasing.html",
+        "hash": "3522305872152675369"
+      },
+      {
+        "file": "docs/docs/importing/index.html",
+        "hash": "16238215455067008951"
+      },
+      {
+        "file": "docs/images/makerjs.png",
+        "hash": "10870110923430500346"
+      },
+      {
+        "file": "docs/_posts/2015-07-12-A-business-card.html",
+        "hash": "8771848509385786558"
+      },
+      {
+        "file": "specs/003-upgrade-lerna-typedoc/t057-t062-completion-summary.md",
+        "hash": "14412684929210938174"
+      },
+      {
+        "file": "docs/_snippets/svg-styling.html",
+        "hash": "8453582950770286803"
+      },
+      {
+        "file": ".github/workflows/examples-verification.yml",
+        "hash": "17273154187680692086"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/base/common/worker/simpleWorker.nls.it.js",
+        "hash": "977129820749708434"
+      },
+      {
+        "file": "docs/docs/index.html",
+        "hash": "5441057950949764360"
       },
       {
         "file": "docs/_snippets/fillets.html",
         "hash": "12762793698706285760"
       },
       {
+        "file": "docs/external/text-encoding/LICENSE.md",
+        "hash": "5240568861402212458"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/mdx/mdx.js",
+        "hash": "7823057681460389667"
+      },
+      {
+        "file": "docs/_snippets/layers.html",
+        "hash": "18361904845635573317"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/abap/abap.js",
+        "hash": "18432439085019810277"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/azcli/azcli.js",
+        "hash": "8340413915718096013"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/javascript/javascript.js",
+        "hash": "8593341658583152560"
+      },
+      {
+        "file": "docs/_layouts/demo.html",
+        "hash": "717531062267078486"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "18239113260321613719"
+      },
+      {
+        "file": "specs/001-rebrand-from-maker/verification/verify-dist-files.sh",
+        "hash": "16812088478466160847"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/dart/dart.js",
+        "hash": "7088207391280392115"
+      },
+      {
+        "file": "docs/_snippets/chain-multiple.html",
+        "hash": "21194036487625178"
+      },
+      {
+        "file": "docs/fonts/kumarone/KumarOne-Regular.ttf",
+        "hash": "17494193375112696356"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/editor/editor.main.nls.zh-cn.js",
+        "hash": "17275299582597359909"
+      },
+      {
+        "file": ".specify/templates/plan-template.md",
+        "hash": "9084851189981834196"
+      },
+      {
+        "file": "docs/fonts/wallpoet/DESCRIPTION.en_us.html",
+        "hash": "5311841998689422154"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/wgsl/wgsl.js",
+        "hash": "4710557923144210619"
+      },
+      {
+        "file": "docs/fonts/wallpoet/Wallpoet-Regular.ttf",
+        "hash": "5656901372129704790"
+      },
+      {
+        "file": "docs/playground/img/blueprint.png",
+        "hash": "2332184538227738928"
+      },
+      {
+        "file": "specs/004-all-examples-housed/baseline.md",
+        "hash": "9920246115367975425"
+      },
+      {
+        "file": "docs/_snippets/exporting-svg-path-data.html",
+        "hash": "13650227183075901612"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/editor/editor.main.nls.js",
+        "hash": "10419769827482299939"
+      },
+      {
+        "file": "specs/003-upgrade-lerna-typedoc/t047-t056-completion-summary.md",
+        "hash": "14839474143579534449"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/scss/scss.js",
+        "hash": "9960591374949617706"
+      },
+      {
+        "file": "ROADMAP.md",
+        "hash": "9557696462252102102"
+      },
+      {
+        "file": "docs/fonts/blackopsone/BlackOpsOne-Regular.ttf",
+        "hash": "6484367442025636866"
+      },
+      {
+        "file": "docs/external/text-encoding/encoding-indexes.js",
+        "hash": "15262385199215648585"
+      },
+      {
+        "file": "specs/001-rebrand-from-maker/plan.md",
+        "hash": "5826731413658270983"
+      },
+      {
+        "file": "docs/_snippets/modifying-models.html",
+        "hash": "16587125066198854715"
+      },
+      {
+        "file": "docs/fonts/blackopsone/FONTLOG.txt",
+        "hash": "11668503730320972599"
+      },
+      {
+        "file": "docs/_snippets/built-in-models.html",
+        "hash": "12619397427655409865"
+      },
+      {
+        "file": "docs/_snippets/chain-order.html",
+        "hash": "10202037884097014442"
+      },
+      {
+        "file": "specs/004-all-examples-housed/git-protection-setup.md",
+        "hash": "2607418799533834484"
+      },
+      {
+        "file": "docs/docs/working-with-chains/index.html",
+        "hash": "13158849484923030539"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/editor/editor.main.nls.zh-tw.js",
+        "hash": "17271420007872237346"
+      },
+      {
         "file": "docs/_snippets/wireframe.html",
         "hash": "6068448514080691010"
       },
       {
-        "file": "specs/003-upgrade-lerna-typedoc/data-model.md",
-        "hash": "12616118989158273923"
+        "file": "docs/_snippets/converging.html",
+        "hash": "58376992587979939"
       },
       {
-        "file": ".windsurf/workflows/speckit.constitution.md",
-        "hash": "17709203821473611745"
+        "file": "docs/fonts/keaniaone/OFL.txt",
+        "hash": "13229238531011126389"
       },
       {
-        "file": "docs/external/OpenJsCad/csg.js",
-        "hash": "14081357512877632021"
+        "file": "specs/001-rebrand-from-maker/verification/verify-package-names.sh",
+        "hash": "2453621168014686508"
       },
       {
-        "file": "docs/external/opentype/opentype.js",
-        "hash": "12228501855287341099"
+        "file": ".windsurf/workflows/speckit.plan.md",
+        "hash": "10578536336885354839"
       },
       {
-        "file": "docs/fonts/allertastencil/DESCRIPTION.en_us.html",
-        "hash": "14137518805631738075"
+        "file": "docs/external/jscad/stl-serializer.js",
+        "hash": "6782465751033163921"
       },
       {
-        "file": "docs/_snippets/routes.html",
-        "hash": "3712252098937598529"
+        "file": "docs/external/monaco-editor/vs/basic-languages/php/php.js",
+        "hash": "18303421980033970691"
       },
       {
-        "file": "docs/CNAME",
-        "hash": "2892936555609671866"
+        "file": "docs/fonts/pirataone/PirataOne-Regular.ttf",
+        "hash": "269443731056570442"
       },
       {
-        "file": "scripts/rebuild_doc_graph_with_mappings.js",
-        "hash": "7178168876480782994"
+        "file": "package.json",
+        "hash": "8684390128339793558"
       },
       {
-        "file": "docs/fonts/graduate/OFL.txt",
-        "hash": "14812727238278266649"
+        "file": "docs/external/codemirror/addon/active-line.js",
+        "hash": "4299631209034892526"
       },
       {
-        "file": "docs/fonts/blackopsone/DESCRIPTION.en_us.html",
-        "hash": "394835977921781058"
+        "file": "docs/index.html",
+        "hash": "14947732098467133780"
       },
       {
-        "file": ".windsurf/workflows/speckit.checklist.md",
-        "hash": "15565345478315633992"
+        "file": "docs/_snippets/walking.html",
+        "hash": "3490760222770736606"
+      },
+      {
+        "file": "specs/004-all-examples-housed/verification/test-all-models.mjs",
+        "hash": "9372641636023438646"
+      },
+      {
+        "file": "docs/_snippets/mirroring.html",
+        "hash": "7019320346639162863"
+      },
+      {
+        "file": "docs/_snippets/layout-repeating.html",
+        "hash": "5579815866330282744"
+      },
+      {
+        "file": "docs/_posts/2015-08-09-Added-fillet-capability.html",
+        "hash": "11597044911260937474"
+      },
+      {
+        "file": "specs/004-all-examples-housed/verification/playground-rpi-case-rendering.png",
+        "hash": "14986134523213055690"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/graphql/graphql.js",
+        "hash": "10650340761311166111"
+      },
+      {
+        "file": "specs/003-upgrade-lerna-typedoc/gitignore-update-summary.md",
+        "hash": "3921344876808780863"
+      },
+      {
+        "file": "specs/004-all-examples-housed/verification/rpi-case-final.png",
+        "hash": "4291228504205449730"
+      },
+      {
+        "file": "docs/_snippets/moving.html",
+        "hash": "6289563295214204884"
+      },
+      {
+        "file": "docs/playground/embed.html",
+        "hash": "11969165324354275839"
+      },
+      {
+        "file": "docs/_snippets/getting-started-browser.html",
+        "hash": "4431834170672163446"
+      },
+      {
+        "file": "docs/external/pep/LICENSE.txt",
+        "hash": "5573825168475572035"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/base/common/worker/simpleWorker.nls.de.js",
+        "hash": "5561315306014446638"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/clojure/clojure.js",
+        "hash": "14403536719056065768"
+      },
+      {
+        "file": "specs/001-rebrand-from-maker/spec.md",
+        "hash": "7898149396179208165"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/language/html/htmlWorker.js",
+        "hash": "15485158048130350726"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/editor/editor.main.nls.it.js",
+        "hash": "5496058892014951142"
+      },
+      {
+        "file": "docs/_snippets/chain-fillet.html",
+        "hash": "2614660903948706322"
+      },
+      {
+        "file": "NOTICE",
+        "hash": "7680418366860798910"
+      },
+      {
+        "file": ".windsurf/workflows/speckit.specify.md",
+        "hash": "2211642763110882888"
+      },
+      {
+        "file": "specs/004-all-examples-housed/contracts/migration-contract.md",
+        "hash": "5894336087885140067"
+      },
+      {
+        "file": "docs/stylesheets/print.css",
+        "hash": "881297454586586416"
+      },
+      {
+        "file": "specs/001-rebrand-from-maker/verification/verify-docs.sh",
+        "hash": "12699011823861836745"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/editor/editor.main.nls.es.js",
+        "hash": "535908484906457499"
+      },
+      {
+        "file": "docs/fonts/kumarone/OFL.txt",
+        "hash": "5973475149929673429"
       },
       {
         "file": "docs/external/monaco-editor/vs/basic-languages/yaml/yaml.js",
         "hash": "2289947792716707450"
       },
       {
+        "file": "specs/004-all-examples-housed/verification/simple-square-final.png",
+        "hash": "15258671772119222979"
+      },
+      {
+        "file": "docs/_layouts/post.html",
+        "hash": "9379361809454977323"
+      },
+      {
+        "file": "specs/003-upgrade-lerna-typedoc/spec.md",
+        "hash": "13363642064484239014"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/systemverilog/systemverilog.js",
+        "hash": "12174514656501376818"
+      },
+      {
+        "file": "docs/playground/js/require-iframe.js",
+        "hash": "6073186715206341370"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/editor/editor.main.nls.ko.js",
+        "hash": "16244400859951994607"
+      },
+      {
+        "file": "docs/_snippets/fonts-and-text.html",
+        "hash": "3107568248759906514"
+      },
+      {
         "file": "docs/external/monaco-editor/vs/base/common/worker/simpleWorker.nls.ru.js",
         "hash": "12173150761148317693"
       },
       {
-        "file": "docs/_snippets/measuring.html",
-        "hash": "4763624667017258712"
+        "file": "docs/stylesheets/stylesheet.css",
+        "hash": "7911085270154458116"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/editor/editor.main.nls.de.js",
+        "hash": "9913772597289535800"
+      },
+      {
+        "file": "baseline-versions.txt",
+        "hash": "7384741044144571013"
+      },
+      {
+        "file": "docs/fonts/stardosstencil/OFL.txt",
+        "hash": "2867568525959686173"
+      },
+      {
+        "file": "docs/playground/insert/insert.css",
+        "hash": "3234572444849249132"
+      },
+      {
+        "file": "docs/docs/publishing/publishing.html",
+        "hash": "2473069724460070906"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/julia/julia.js",
+        "hash": "3484057480791070835"
+      },
+      {
+        "file": "docs/fonts/mavenpro/MavenPro-Black.ttf",
+        "hash": "3165978935516666666"
+      },
+      {
+        "file": "docs/fonts/stardosstencil/DESCRIPTION.en_us.html",
+        "hash": "1941634192956068783"
+      },
+      {
+        "file": "specs/004-all-examples-housed/tasks.md",
+        "hash": "8533127022341884326"
+      },
+      {
+        "file": "specs/004-all-examples-housed/IMPLEMENTATION-SUMMARY.md",
+        "hash": "17400299369626488212"
+      },
+      {
+        "file": "docs/_snippets/modeling.html",
+        "hash": "18070053901141975496"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/language/json/jsonMode.js",
+        "hash": "1570078886614265073"
+      },
+      {
+        "file": "docs/favicon.ico",
+        "hash": "17244423834611968"
+      },
+      {
+        "file": ".specify/scripts/bash/setup-plan.sh",
+        "hash": "5120951083671294932"
+      },
+      {
+        "file": "docs/_snippets/chain-single.html",
+        "hash": "2323035607793029977"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/apex/apex.js",
+        "hash": "7569065008932863265"
+      },
+      {
+        "file": "docs/fonts/fonts.js",
+        "hash": "13846085709293248922"
+      },
+      {
+        "file": "specs/004-all-examples-housed/library-export-fixes.md",
+        "hash": "10248206961815329410"
+      },
+      {
+        "file": "specs/004-all-examples-housed/library-verification-results.md",
+        "hash": "4019003016900241648"
+      },
+      {
+        "file": "README.md",
+        "hash": "3057512270238219740"
+      },
+      {
+        "file": "docs/fonts/plaster/OFL.txt",
+        "hash": "1248362409357971010"
+      },
+      {
+        "file": ".specify/templates/checklist-template.md",
+        "hash": "15483271829369269776"
+      },
+      {
+        "file": "docs/_layouts/default.html",
+        "hash": "13023405526608375066"
+      },
+      {
+        "file": "docs/_snippets/combining.html",
+        "hash": "9044217230268636535"
+      },
+      {
+        "file": "specs/003-upgrade-lerna-typedoc/build-investigation-findings.md",
+        "hash": "3322217780826495624"
+      },
+      {
+        "file": ".windsurf/workflows/speckit.analyze.md",
+        "hash": "1196216930321133682"
+      },
+      {
+        "file": "docs/images/github-button.png",
+        "hash": "14531357675940485025"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/editor/editor.main.nls.ru.js",
+        "hash": "17435177891915792617"
+      },
+      {
+        "file": "docs/_snippets/zeroing-and-centering.html",
+        "hash": "8187630389899286082"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/solidity/solidity.js",
+        "hash": "18075823211302857299"
+      },
+      {
+        "file": "specs/004-all-examples-housed/verification/basic-shapes-final.png",
+        "hash": "5400363646015273421"
+      },
+      {
+        "file": "docs/_snippets/exporting-openjscad.html",
+        "hash": "12754635910495919410"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/freemarker2/freemarker2.js",
+        "hash": "11733753077459978618"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/base/common/worker/simpleWorker.nls.js",
+        "hash": "18274356552569624068"
+      },
+      {
+        "file": "docs/docs/advanced-drawing/index.html",
+        "hash": "4109948895596165928"
+      },
+      {
+        "file": "docs/CNAME",
+        "hash": "2892936555609671866"
+      },
+      {
+        "file": "docs/external/jscad/csg.js",
+        "hash": "8441728038112372847"
+      },
+      {
+        "file": "docs/playground/js/worker/string-reader.js",
+        "hash": "7036840444778477886"
+      },
+      {
+        "file": "docs/fonts/wallpoet/OFL.txt",
+        "hash": "7474088992355935030"
+      },
+      {
+        "file": "docs/docs/browser-apps/embed.html",
+        "hash": "1975876290248850531"
+      },
+      {
+        "file": "specs/001-rebrand-from-maker/data-model.md",
+        "hash": "14944017943331234011"
+      },
+      {
+        "file": "docs/fonts/vampiroone/VampiroOne-Regular.ttf",
+        "hash": "1802289288098371489"
+      },
+      {
+        "file": "docs/_snippets/models.html",
+        "hash": "16256786042691263672"
+      },
+      {
+        "file": "docs/_snippets/expanding.html",
+        "hash": "12100476094321220445"
+      },
+      {
+        "file": "docs/fonts/wallpoet/FONTLOG.txt",
+        "hash": "16570004828308033789"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/csharp/csharp.js",
+        "hash": "14236683643388193635"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/shell/shell.js",
+        "hash": "8161474232576503096"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/objective-c/objective-c.js",
+        "hash": "13536976552380795628"
+      },
+      {
+        "file": ".github/workflows/publish-npm.yml",
+        "hash": "14534233925178569668"
+      },
+      {
+        "file": "docs/fonts/mavenpro/MavenPro-Bold.ttf",
+        "hash": "481919658684392414"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/fsharp/fsharp.js",
+        "hash": "2077434503927080707"
+      },
+      {
+        "file": "docs/fonts/arbutusslab/ArbutusSlab-Regular.ttf",
+        "hash": "2188758496979356141"
+      },
+      {
+        "file": "docs/BingSiteAuth.xml",
+        "hash": "4739571158448337135"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/base/worker/workerMain.js",
+        "hash": "6716563607190669931"
+      },
+      {
+        "file": "docs/playground/js/iexport.js",
+        "hash": "16703140128572171316"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/mips/mips.js",
+        "hash": "11142721891783972619"
+      },
+      {
+        "file": "docs/fonts/tags.json",
+        "hash": "2574788642650654865"
+      },
+      {
+        "file": "docs/_snippets/simplifying.html",
+        "hash": "1410955290037409187"
+      },
+      {
+        "file": "docs/_snippets/$-function.html",
+        "hash": "7120579631354423608"
+      },
+      {
+        "file": "docs/playground/css/playground.css",
+        "hash": "12754370078335527678"
+      },
+      {
+        "file": "docs/_snippets/intersection.html",
+        "hash": "10668691907365129207"
+      },
+      {
+        "file": "docs/_snippets/bezier-curves.html",
+        "hash": "310292779509938129"
+      },
+      {
+        "file": "docs/_snippets/cascading-functions.html",
+        "hash": "1613499287492859503"
+      },
+      {
+        "file": "specs/002-upgrade-dependencies-to/checklists/requirements.md",
+        "hash": "1622724360309395488"
+      },
+      {
+        "file": "docs/_posts/2015-07-19-intermediate-drawing-documentation.html",
+        "hash": "4511895648153085529"
+      },
+      {
+        "file": ".windsurf/workflows/speckit.checklist.md",
+        "hash": "15565345478315633992"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/css/css.js",
+        "hash": "5490610454770931481"
+      },
+      {
+        "file": "specs/002-upgrade-dependencies-to/graham-scan-upgrade-summary.md",
+        "hash": "3392205585512726853"
+      },
+      {
+        "file": "specs/004-all-examples-housed/verification/playground-basic-shapes-rendering.png",
+        "hash": "6781852900500208235"
+      },
+      {
+        "file": ".windsurf/workflows/speckit.constitution.md",
+        "hash": "17709203821473611745"
+      },
+      {
+        "file": "docs/external/marked/LICENSE.txt",
+        "hash": "17201370318613806017"
+      },
+      {
+        "file": "docs/fonts/goblinone/GoblinOne.ttf",
+        "hash": "1620977025051376791"
+      },
+      {
+        "file": "docs/docs/publishing/packaging.html",
+        "hash": "4718063363628017278"
+      },
+      {
+        "file": "specs/002-upgrade-dependencies-to/contracts/README.md",
+        "hash": "3972496196228083742"
+      },
+      {
+        "file": "specs/004-all-examples-housed/playground-rendering-success.md",
+        "hash": "2671585047841044869"
+      },
+      {
+        "file": "specs/003-upgrade-lerna-typedoc/phase3-status.md",
+        "hash": "15759209032084675573"
+      },
+      {
+        "file": "docs/fonts/blackopsone/DESCRIPTION.en_us.html",
+        "hash": "394835977921781058"
+      },
+      {
+        "file": ".github/workflows/rebrand-verification.yml",
+        "hash": "796488362510012162"
+      },
+      {
+        "file": "specs/004-all-examples-housed/playground-typescript-audit.md",
+        "hash": "18328894333347124863"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/go/go.js",
+        "hash": "234823118385178084"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/sparql/sparql.js",
+        "hash": "11492138215248120364"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/editor/editor.main.js",
+        "hash": "5930897160337580190"
+      },
+      {
+        "file": "docs/_snippets/breaking.html",
+        "hash": "2535734853385637298"
+      },
+      {
+        "file": "specs/001-rebrand-from-maker/PLANNING_COMPLETE.md",
+        "hash": "8470212101485126066"
+      },
+      {
+        "file": "docs/external/OpenJsCad/csg.js",
+        "hash": "14081357512877632021"
+      },
+      {
+        "file": "docs/fonts/newrocker/NewRocker-Regular.ttf",
+        "hash": "14116526488095074836"
+      },
+      {
+        "file": "docs/_posts/2015-06-30-thanks microsoft.md",
+        "hash": "4068521350989442469"
+      },
+      {
+        "file": "docs/_snippets/tree.html",
+        "hash": "4489742515483119505"
+      },
+      {
+        "file": "test-modern-js.js",
+        "hash": "11763885059814799291"
+      },
+      {
+        "file": "docs/external/text-encoding/encoding.js",
+        "hash": "338847371894239869"
+      },
+      {
+        "file": "specs/001-rebrand-from-maker/research.md",
+        "hash": "14089895350222130374"
+      },
+      {
+        "file": "baseline-audit.json",
+        "hash": "2006317122664775333"
+      },
+      {
+        "file": "docs/_snippets/outlining.html",
+        "hash": "15676630905343599520"
+      },
+      {
+        "file": "docs/external/OpenJsCad/formats.js",
+        "hash": "6548359485641875565"
+      },
+      {
+        "file": "scripts/check-npm-scope.sh",
+        "hash": "6230399847337714842"
+      },
+      {
+        "file": "docs/_posts/2015-06-30-What can you do with Maker.js.html",
+        "hash": "4845948391998108088"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/redis/redis.js",
+        "hash": "9478448236252045443"
+      },
+      {
+        "file": "docs/fonts/emblemaone/OFL.txt",
+        "hash": "11357713701937056103"
+      },
+      {
+        "file": ".windsurf/workflows/speckit.clarify.md",
+        "hash": "8193326644572465110"
+      },
+      {
+        "file": "docs/images/icons.png",
+        "hash": "8246042610464841086"
+      },
+      {
+        "file": "docs/_snippets/importing-svg-path-data.html",
+        "hash": "14785355826210006268"
+      },
+      {
+        "file": "docs/_snippets/units.html",
+        "hash": "6549622274612310127"
+      },
+      {
+        "file": "specs/004-all-examples-housed/verification/verify-svg-content.mjs",
+        "hash": "15012520526003113763"
+      },
+      {
+        "file": "docs/_snippets/path-independence.html",
+        "hash": "13178495342861130497"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/loader.js",
+        "hash": "10571272771551486677"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/cameligo/cameligo.js",
+        "hash": "854471780739823606"
+      },
+      {
+        "file": "docs/external/OpenJsCad/csg.d.ts",
+        "hash": "1905236362171581122"
+      },
+      {
+        "file": "specs/004-all-examples-housed/playground-source-audit.md",
+        "hash": "12128394930989732889"
+      },
+      {
+        "file": "docs/playground/js/fontloader.js",
+        "hash": "3726412436900953583"
+      },
+      {
+        "file": "docs/docs/exporting/index.html",
+        "hash": "9355905333839056495"
+      },
+      {
+        "file": "docs/_snippets/getting-started-node.html",
+        "hash": "10069892695721488112"
+      },
+      {
+        "file": "docs/docs/getting-started/index.html",
+        "hash": "13719023055994236581"
+      },
+      {
+        "file": ".specify/scripts/bash/update-agent-context.sh",
+        "hash": "1663801160762415919"
+      },
+      {
+        "file": "docs/_snippets/exporting-dxf.html",
+        "hash": "2673407372184573563"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/python/python.js",
+        "hash": "11697543126612580207"
+      },
+      {
+        "file": "scripts/rebuild_doc_graph_with_mappings.js",
+        "hash": "7178168876480782994"
+      },
+      {
+        "file": "docs/external/opentype/LICENSE.txt",
+        "hash": "6178490747794669044"
+      },
+      {
+        "file": "docs/images/makerjs-blue.png",
+        "hash": "13623574928842693620"
+      },
+      {
+        "file": "docs/_snippets/template.html",
+        "hash": "17529110917558027768"
+      },
+      {
+        "file": "docs/_snippets/order-of-operations.html",
+        "hash": "172741233026201984"
+      },
+      {
+        "file": "specs/004-all-examples-housed/data-model.md",
+        "hash": "7264446224782708473"
+      },
+      {
+        "file": "docs/fonts/blackopsone/OFL.txt",
+        "hash": "9669709593271431407"
+      },
+      {
+        "file": "specs/003-upgrade-lerna-typedoc/spec-update-summary.md",
+        "hash": "13463829095411186136"
+      },
+      {
+        "file": "specs/002-upgrade-dependencies-to/baseline-metrics.md",
+        "hash": "5636614941152914059"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/ini/ini.js",
+        "hash": "17617203776849866733"
+      },
+      {
+        "file": "docs/fonts/sirinstencil/DESCRIPTION.en_us.html",
+        "hash": "3014700279398577176"
+      },
+      {
+        "file": "docs/images/anim-wheel.gif",
+        "hash": "12625452641924164841"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/mysql/mysql.js",
+        "hash": "8350266453185415194"
+      },
+      {
+        "file": "specs/004-all-examples-housed/quickstart.md",
+        "hash": "3197511963637256400"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/swift/swift.js",
+        "hash": "14138004104862076868"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/ecl/ecl.js",
+        "hash": "13453586972998215082"
+      },
+      {
+        "file": "specs/002-upgrade-dependencies-to/t046-t057-validation-summary.md",
+        "hash": "2635494085452337149"
+      },
+      {
+        "file": ".specify/templates/tasks-template.md",
+        "hash": "766425677534777391"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/twig/twig.js",
+        "hash": "5661648397826594884"
+      },
+      {
+        "file": "docs/schemas/makerjs-model.json",
+        "hash": "4215678057575250836"
+      },
+      {
+        "file": "docs/playground/js/monaco-editor-adapter.js",
+        "hash": "15825981275631184331"
+      },
+      {
+        "file": "lerna.json",
+        "hash": "14983687598948829148"
+      },
+      {
+        "file": "docs/_snippets/chain-links.html",
+        "hash": "10375132622320769276"
+      },
+      {
+        "file": "docs/fonts/stardosstencil/StardosStencil-Bold.ttf",
+        "hash": "7392374034690539899"
+      },
+      {
+        "file": "docs/fonts/emblemaone/DESCRIPTION.en_us.html",
+        "hash": "12941210969945906582"
+      },
+      {
+        "file": "docs/playground/js/format-options.js",
+        "hash": "12076885102838511759"
+      },
+      {
+        "file": "docs/_snippets/chain-dogbone.html",
+        "hash": "9898517660302063343"
+      },
+      {
+        "file": "docs/external/codemirror/theme/twilight.css",
+        "hash": "6758177283409270124"
+      },
+      {
+        "file": "specs/003-upgrade-lerna-typedoc/NEXT-STEPS.md",
+        "hash": "14343002175501851743"
+      },
+      {
+        "file": "specs/002-upgrade-dependencies-to/t034-t035-test-findings.md",
+        "hash": "14315866002673756985"
+      },
+      {
+        "file": "docs/fonts/allertastencil/AllertaStencil-Regular.ttf",
+        "hash": "13456352343317484005"
+      },
+      {
+        "file": "docs/playground/img/microsoft.png",
+        "hash": "14819534196515142543"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/coffee/coffee.js",
+        "hash": "16970926634263770200"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/language/html/htmlMode.js",
+        "hash": "10091050850906006676"
+      },
+      {
+        "file": ".windsurf/rules/specify-rules.md",
+        "hash": "1869209088227859997"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/base/common/worker/simpleWorker.nls.fr.js",
+        "hash": "5950860201000403479"
+      },
+      {
+        "file": "docs/_layouts/page.html",
+        "hash": "9168043654841050618"
+      },
+      {
+        "file": ".specify/memory/constitution-summary.md",
+        "hash": "6483440777858379040"
+      },
+      {
+        "file": "docs/fonts/mavenpro/MavenPro-Regular.ttf",
+        "hash": "16606561285484406654"
+      },
+      {
+        "file": "specs/004-all-examples-housed/research.md",
+        "hash": "18363879608196967006"
+      },
+      {
+        "file": "specs/004-all-examples-housed/IMPLEMENTATION-COMPLETE.md",
+        "hash": "17105722734604455558"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/typescript/typescript.js",
+        "hash": "10334037352774146687"
+      },
+      {
+        "file": "docs/_snippets/points.html",
+        "hash": "16354712973063734409"
+      },
+      {
+        "file": "docs/fonts/allertastencil/DESCRIPTION.en_us.html",
+        "hash": "14137518805631738075"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/powerquery/powerquery.js",
+        "hash": "7057017064457879520"
+      },
+      {
+        "file": "docs/_snippets/routes.html",
+        "hash": "3712252098937598529"
+      },
+      {
+        "file": "specs/003-upgrade-lerna-typedoc/new-features.md",
+        "hash": "12665650989075900725"
+      },
+      {
+        "file": "docs/_snippets/dogbones.html",
+        "hash": "11388053964804154750"
+      },
+      {
+        "file": "LICENSE",
+        "hash": "4089810182257292815"
+      },
+      {
+        "file": "docs/_snippets/just-json.html",
+        "hash": "9934079802970420284"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/cypher/cypher.js",
+        "hash": "10646230638706544121"
+      },
+      {
+        "file": "specs/002-upgrade-dependencies-to/quickstart.md",
+        "hash": "8254882807850155320"
+      },
+      {
+        "file": "specs/001-rebrand-from-maker/contracts/verification-checklist.md",
+        "hash": "8120339027980404958"
+      },
+      {
+        "file": "docs/playground/js/worker/export-worker.js",
+        "hash": "11795207188848041903"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/markdown/markdown.js",
+        "hash": "17229764381881209309"
+      },
+      {
+        "file": "docs/external/PDFKit/pdfkit.js",
+        "hash": "11417944868346191887"
+      },
+      {
+        "file": "docs/fonts/pirataone/OFL.txt",
+        "hash": "18339723698947741837"
+      },
+      {
+        "file": "specs/003-upgrade-lerna-typedoc/checklists/requirements.md",
+        "hash": "4826564721161930499"
+      },
+      {
+        "file": "docs/_snippets/basic-rendering-in-svg.html",
+        "hash": "9132267420623408971"
+      },
+      {
+        "file": "docs/_snippets/chain-theory.html",
+        "hash": "12629939168325612284"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/pla/pla.js",
+        "hash": "12284228420154374644"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/scheme/scheme.js",
+        "hash": "5624097479418697715"
+      },
+      {
+        "file": "specs/002-upgrade-dependencies-to/t043-t045-dependency-update-summary.md",
+        "hash": "6926472267968894800"
+      },
+      {
+        "file": "docs/fonts/mavenpro/MavenPro-Medium.ttf",
+        "hash": "8757551928882433759"
+      },
+      {
+        "file": "docs/stylesheets/github-light.css",
+        "hash": "17704323149906024029"
+      },
+      {
+        "file": "specs/004-all-examples-housed/verification/debug-execution.mjs",
+        "hash": "2580805377947433540"
+      },
+      {
+        "file": "docs/_snippets/path-constructors.html",
+        "hash": "3603098704938428257"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/ruby/ruby.js",
+        "hash": "13480146353981717528"
+      },
+      {
+        "file": "docs/external/jscad/index.html",
+        "hash": "7050374810930299389"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/pug/pug.js",
+        "hash": "4083763643536723505"
+      },
+      {
+        "file": "docs/external/bezier-js/bezier.js",
+        "hash": "3100712184544985481"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/csp/csp.js",
+        "hash": "8021441072086065719"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/base/common/worker/simpleWorker.nls.ja.js",
+        "hash": "7068623064691554926"
+      },
+      {
+        "file": "docs/_includes/friendly-name.html",
+        "hash": "3296486792760624127"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/msdax/msdax.js",
+        "hash": "13225319754718326306"
+      },
+      {
+        "file": "specs/002-upgrade-dependencies-to/data-model.md",
+        "hash": "13754952638272222879"
+      },
+      {
+        "file": "specs/002-upgrade-dependencies-to/tasks.md",
+        "hash": "635086430987591012"
+      },
+      {
+        "file": "docs/fonts/plaster/Plaster-Regular.ttf",
+        "hash": "9425235182509103766"
+      },
+      {
+        "file": "docs/images/highlight-bg.jpg",
+        "hash": "5210281493486438795"
+      },
+      {
+        "file": "docs/_layouts/posts.html",
+        "hash": "6728331733260646437"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/sophia/sophia.js",
+        "hash": "16381934401020408976"
+      },
+      {
+        "file": "docs/_snippets/chain-to-points.html",
+        "hash": "2403307052520462402"
+      },
+      {
+        "file": "docs/docs/intermediate-drawing/index.html",
+        "hash": "16636722114564772849"
+      },
+      {
+        "file": "docs/fonts/stardosstencil/StardosStencil-Regular.ttf",
+        "hash": "5529596996747246469"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/base/browser/ui/codicons/codicon/codicon.ttf",
+        "hash": "14748684473435115374"
+      },
+      {
+        "file": "specs/004-all-examples-housed/verification/playground-loaded.png",
+        "hash": "1218744412771309322"
+      },
+      {
+        "file": "scripts/publish-photon.sh",
+        "hash": "3372718809285908111"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/lua/lua.js",
+        "hash": "18061139264550572262"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/st/st.js",
+        "hash": "17942614375550873607"
+      },
+      {
+        "file": "docs/_snippets/importing-svg-points.html",
+        "hash": "4102342525757267631"
+      },
+      {
+        "file": "docs/external/codemirror/LICENSE",
+        "hash": "14106709768258327268"
+      },
+      {
+        "file": "docs/playground/js/playground.js",
+        "hash": "16569386300169032290"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/kotlin/kotlin.js",
+        "hash": "8353771790616633940"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/scala/scala.js",
+        "hash": "8349594380979919765"
+      },
+      {
+        "file": "specs/003-upgrade-lerna-typedoc/baseline-summary.md",
+        "hash": "8058827353492349447"
+      },
+      {
+        "file": ".specify/scripts/bash/check-prerequisites.sh",
+        "hash": "5256461918727886206"
+      },
+      {
+        "file": "docs/docs/basic-drawing/index.html",
+        "hash": "17677995140381031220"
+      },
+      {
+        "file": "docs/external/pep/pep.js",
+        "hash": "5538108870868381551"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/language/typescript/tsMode.js",
+        "hash": "8354493285472570186"
+      },
+      {
+        "file": "docs/playground/js/irender.js",
+        "hash": "14030364270435130849"
+      },
+      {
+        "file": "specs/004-all-examples-housed/verification/test-playground-rendering.mjs",
+        "hash": "14553940441017378870"
+      },
+      {
+        "file": "docs/_snippets/paths.html",
+        "hash": "7532947996881931817"
+      },
+      {
+        "file": ".github/workflows/ci.yml",
+        "hash": "14797017024262754253"
+      },
+      {
+        "file": "docs/_snippets/captions.html",
+        "hash": "2262151369242587121"
+      },
+      {
+        "file": ".windsurf/workflows/speckit.tasks.md",
+        "hash": "14643355181227993126"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/pascal/pascal.js",
+        "hash": "17465024904574811812"
+      },
+      {
+        "file": "docs/fonts/montserratsubrayada/OFL.txt",
+        "hash": "13705336072244968751"
+      },
+      {
+        "file": "specs/004-all-examples-housed/plan.md",
+        "hash": "14609718357658093121"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/tcl/tcl.js",
+        "hash": "173003349326572142"
+      },
+      {
+        "file": "docs/_snippets/solvers.html",
+        "hash": "16773037372588926511"
+      },
+      {
+        "file": "docs/fonts/keaniaone/DESCRIPTION.en_us.html",
+        "hash": "11884016865372158234"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/java/java.js",
+        "hash": "12209594485055395824"
+      },
+      {
+        "file": "specs/002-upgrade-dependencies-to/bezier-js-upgrade-summary.md",
+        "hash": "17659934743352644075"
+      },
+      {
+        "file": "docs/fonts/emblemaone/FONTLOG.txt",
+        "hash": "8867105889462121044"
+      },
+      {
+        "file": "docs/_snippets/scaling.html",
+        "hash": "4589826954726093740"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/language/typescript/tsWorker.js",
+        "hash": "6836520258272969818"
+      },
+      {
+        "file": "specs/003-upgrade-lerna-typedoc/build-repair-summary.md",
+        "hash": "17288283087114357650"
+      },
+      {
+        "file": "docs/playground/js/worker/render-worker.js",
+        "hash": "9526365019421182984"
+      },
+      {
+        "file": "docs/external/codemirror/mode/javascript/javascript.js",
+        "hash": "8084018582627945431"
+      },
+      {
+        "file": "CHANGELOG.md",
+        "hash": "12984830640337369350"
+      },
+      {
+        "file": "specs/003-upgrade-lerna-typedoc/tasks-original-backup.md",
+        "hash": "3051254392467682612"
+      },
+      {
+        "file": "docs/_config.yml",
+        "hash": "15370164860221570000"
+      },
+      {
+        "file": "docs/playground/insert/detail.html",
+        "hash": "17008126616906650868"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/language/css/cssMode.js",
+        "hash": "13004551402291845744"
+      },
+      {
+        "file": "docs/fonts/newrocker/OFL.txt",
+        "hash": "15462420688853658040"
+      },
+      {
+        "file": "specs/004-all-examples-housed/verification/playground-gear-wheel-rendering.png",
+        "hash": "1952547729874787450"
+      },
+      {
+        "file": "CONTRIBUTING.md",
+        "hash": "17572256011294595561"
+      },
+      {
+        "file": "specs/003-upgrade-lerna-typedoc/t039-t041-completion-summary.md",
+        "hash": "8637541788173286144"
+      },
+      {
+        "file": "docs/_posts/2015-06-29-hello world.html",
+        "hash": "10074939647416681512"
+      },
+      {
+        "file": "docs/external/opentype/opentype.js",
+        "hash": "12228501855287341099"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/html/html.js",
+        "hash": "17170381022067275215"
+      },
+      {
+        "file": "specs/003-upgrade-lerna-typedoc/research.md",
+        "hash": "14731451339107204628"
+      },
+      {
+        "file": "specs/004-all-examples-housed/spec.md",
+        "hash": "8994391468202277302"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/bat/bat.js",
+        "hash": "16414861104519415723"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/less/less.js",
+        "hash": "7430514698577157522"
+      },
+      {
+        "file": "specs/001-rebrand-from-maker/SUMMARY.md",
+        "hash": "9867757880453745928"
+      },
+      {
+        "file": "specs/004-all-examples-housed/contracts/verification-scripts.md",
+        "hash": "6469977950363320414"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/editor/editor.main.nls.fr.js",
+        "hash": "3571282431610588322"
+      },
+      {
+        "file": "playground-server.js",
+        "hash": "8348202861789036176"
+      },
+      {
+        "file": "specs/002-upgrade-dependencies-to/research.md",
+        "hash": "13931751529064893103"
+      },
+      {
+        "file": "docs/external/OpenJsCad/LICENSE",
+        "hash": "13826756745655881568"
+      },
+      {
+        "file": "docs/fonts/sirinstencil/OFL.txt",
+        "hash": "8151488286537651176"
+      },
+      {
+        "file": "specs/004-all-examples-housed/playground-execution-fix.md",
+        "hash": "11095364436440644548"
+      },
+      {
+        "file": "docs/external/codemirror/lib/codemirror.js",
+        "hash": "18129166558201698056"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/perl/perl.js",
+        "hash": "16517177501174650826"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/elixir/elixir.js",
+        "hash": "1039326511893257529"
+      },
+      {
+        "file": "specs/003-upgrade-lerna-typedoc/quickstart.md",
+        "hash": "8822207630470042219"
+      },
+      {
+        "file": "docs/fonts/plaster/DESCRIPTION.en_us.html",
+        "hash": "5949939545716733199"
+      },
+      {
+        "file": "docs/_layouts/snippetlist.html",
+        "hash": "14575966870431000398"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/basic-languages/pascaligo/pascaligo.js",
+        "hash": "12139946752124981945"
+      },
+      {
+        "file": "docs/external/monaco-editor/vs/base/common/worker/simpleWorker.nls.ko.js",
+        "hash": "8746055098698867482"
+      },
+      {
+        "file": "specs/001-rebrand-from-maker/tasks.md",
+        "hash": "14436373278412903523"
       },
       {
         "file": "docs/docs/model-trees/index.html",
@@ -1776,9 +1960,191 @@
       {
         "file": "docs/playground/img/microsoft_logo_footer.png",
         "hash": "2547455092528475540"
+      },
+      {
+        "file": ".specify/memory/constitution.md",
+        "hash": "314669630298862439"
+      },
+      {
+        "file": "docs/external/marked/marked.js",
+        "hash": "6748732079832286493"
       }
     ],
     "projectFileMap": {
+      "demos": [
+        {
+          "file": "docs/demos/demoify.ts",
+          "hash": "12588936919105180026"
+        },
+        {
+          "file": "docs/demos/index.html",
+          "hash": "2534284194877683300"
+        },
+        {
+          "file": "docs/demos/package-lock.json",
+          "hash": "12791427155496255603"
+        },
+        {
+          "file": "docs/demos/package.json",
+          "hash": "16115937936765820951",
+          "deps": [
+            "npm:@types/detective@5.1.2",
+            "npm:@types/marked@4.0.3",
+            "npm:@types/node@20.19.21",
+            "npm:@types/opentype.js@0.7.2",
+            "npm:detective",
+            "npm:highlight.js@11.5.1",
+            "npm:makerjs@0.11.2",
+            "npm:marked@4.0.14",
+            "npm:opentype.js@0.9.0",
+            "npm:@danmarshall/makerjs-wrap-text@1.0.0",
+            "npm:makerjs-band-clamp@1.0.0",
+            "npm:makerjs-double-band-clamp@1.0.0",
+            "npm:makerjs-heart@1.0.1",
+            "npm:makerjs-logo@2.0.0",
+            "npm:makerjs-monotext@1.2.5",
+            "npm:makerjs-nameplate@1.1.2",
+            "npm:makerjs-polygon-rimbox@1.0.2",
+            "npm:makerjs-raster@1.0.1",
+            "npm:makerjs-rimbox@1.1.5",
+            "npm:makerjs-smile@1.2.1",
+            "npm:makerjs-spiral@1.0.2",
+            "npm:makerjs-spokes-flared@1.0.3",
+            "npm:makerjs-spokes-straight@1.1.1",
+            "npm:makerjs-ventgrid@1.1.1",
+            "npm:makerjs-ventgridcircle@1.1.3"
+          ]
+        },
+        {
+          "file": "docs/demos/tsconfig.json",
+          "hash": "14643407635358814691"
+        }
+      ],
+      "@photon/fonts": [
+        {
+          "file": "packages/fonts/gen.ts",
+          "hash": "6737619219906815916"
+        },
+        {
+          "file": "packages/fonts/package-lock.json",
+          "hash": "3432293375241650013"
+        },
+        {
+          "file": "packages/fonts/package.json",
+          "hash": "419851561042790086",
+          "deps": [
+            "npm:change-case@4.1.2",
+            "npm:sort-keys",
+            "npm:@types/node@20.19.21"
+          ]
+        },
+        {
+          "file": "packages/fonts/tsconfig.json",
+          "hash": "13265236255686233"
+        }
+      ],
+      "@photon/playground": [
+        {
+          "file": "packages/playground/models/README.md",
+          "hash": "17002043572033585196"
+        },
+        {
+          "file": "packages/playground/models/basic-shapes.js",
+          "hash": "2479592925183425630"
+        },
+        {
+          "file": "packages/playground/models/gear-wheel.js",
+          "hash": "13424188381125763597"
+        },
+        {
+          "file": "packages/playground/models/rpi-case.js",
+          "hash": "11622516398315302515"
+        },
+        {
+          "file": "packages/playground/models/simple-square.js",
+          "hash": "17236693835566624698"
+        },
+        {
+          "file": "packages/playground/models/smiley-face.js",
+          "hash": "16747610715736630471"
+        },
+        {
+          "file": "packages/playground/package-lock.json",
+          "hash": "15235196584091530652"
+        },
+        {
+          "file": "packages/playground/package.json",
+          "hash": "181683789156952613",
+          "deps": [
+            "npm:@types/codemirror@0.0.38",
+            "npm:@types/marked@0.0.28",
+            "npm:@types/node@7.10.14",
+            "npm:@types/opentype.js@0.7.2",
+            "npm:monaco-editor@0.44.0",
+            "@photon/core"
+          ]
+        },
+        {
+          "file": "packages/playground/src/fontloader.ts",
+          "hash": "12600493309199054843"
+        },
+        {
+          "file": "packages/playground/src/format-options.ts",
+          "hash": "15358932442525602137"
+        },
+        {
+          "file": "packages/playground/src/globals.d.ts",
+          "hash": "3023163741893250703"
+        },
+        {
+          "file": "packages/playground/src/iexport.ts",
+          "hash": "4409082572997523134"
+        },
+        {
+          "file": "packages/playground/src/irender.ts",
+          "hash": "10805094609521809375"
+        },
+        {
+          "file": "packages/playground/src/monaco-editor-adapter.ts",
+          "hash": "2732615550001209819"
+        },
+        {
+          "file": "packages/playground/src/playground.ts",
+          "hash": "8047102428375260316"
+        },
+        {
+          "file": "packages/playground/src/pointer.ts",
+          "hash": "4316088496830095803"
+        },
+        {
+          "file": "packages/playground/src/require-iframe.ts",
+          "hash": "17896149891856317512"
+        },
+        {
+          "file": "packages/playground/src/tsconfig.iframe.json",
+          "hash": "17425144877900451776"
+        },
+        {
+          "file": "packages/playground/src/worker/export-worker.ts",
+          "hash": "6338793757839095457"
+        },
+        {
+          "file": "packages/playground/src/worker/render-worker.ts",
+          "hash": "9340024144979122789"
+        },
+        {
+          "file": "packages/playground/src/worker/string-reader.ts",
+          "hash": "3070544185042448135"
+        },
+        {
+          "file": "packages/playground/src/worker/tsconfig.json",
+          "hash": "10991051699239458584"
+        },
+        {
+          "file": "packages/playground/tsconfig.json",
+          "hash": "2517268534391778640"
+        }
+      ],
       "@photon/docs": [
         {
           "file": "packages/docs/INVENTORY.md",
@@ -1946,29 +2312,6 @@
           "hash": "16677083303053899975"
         }
       ],
-      "@photon/fonts": [
-        {
-          "file": "packages/fonts/gen.ts",
-          "hash": "6737619219906815916"
-        },
-        {
-          "file": "packages/fonts/package-lock.json",
-          "hash": "3432293375241650013"
-        },
-        {
-          "file": "packages/fonts/package.json",
-          "hash": "419851561042790086",
-          "deps": [
-            "npm:change-case@4.1.2",
-            "npm:sort-keys",
-            "npm:@types/node@20.19.21"
-          ]
-        },
-        {
-          "file": "packages/fonts/tsconfig.json",
-          "hash": "13265236255686233"
-        }
-      ],
       "@photon/core": [
         {
           "file": "packages/photon/.mocharc.json",
@@ -1983,20 +2326,44 @@
           "hash": "3057512270238219740"
         },
         {
+          "file": "packages/photon/examples/.!66677!ventgridcircle.js",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "packages/photon/examples/.!66678!ventgridcircle.js",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "packages/photon/examples/.!66679!ventgridcircle.js",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "packages/photon/examples/.!66680!ventgridcircle.js",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "packages/photon/examples/.!66681!ventgridcircle.js",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "packages/photon/examples/README.md",
+          "hash": "17956320721502361393"
+        },
+        {
           "file": "packages/photon/examples/Rimbox.js",
-          "hash": "9055856613300893525"
+          "hash": "15041884397312138642"
         },
         {
           "file": "packages/photon/examples/Text.js",
-          "hash": "5285643506407040884"
+          "hash": "1286180042462047913"
         },
         {
           "file": "packages/photon/examples/combine.js",
-          "hash": "5360832781047899350"
+          "hash": "15221977099714164211"
         },
         {
           "file": "packages/photon/examples/dependExample.html",
-          "hash": "5668749170677476509"
+          "hash": "17443032961128438090"
         },
         {
           "file": "packages/photon/examples/dependExample_forBrowser.js",
@@ -2004,79 +2371,135 @@
         },
         {
           "file": "packages/photon/examples/dependExample_forNode.js",
+          "hash": "7464487270376170319"
+        },
+        {
+          "file": "packages/photon/examples/dependExample_forNode.js.bak",
           "hash": "16443791181209463289"
         },
         {
           "file": "packages/photon/examples/fillets.js",
+          "hash": "16698075061248854499"
+        },
+        {
+          "file": "packages/photon/examples/fillets.js.bak",
           "hash": "18353256536067661404"
         },
         {
           "file": "packages/photon/examples/filletstar.js",
+          "hash": "4075839997078398104"
+        },
+        {
+          "file": "packages/photon/examples/filletstar.js.bak",
           "hash": "8302580152820369565"
         },
         {
           "file": "packages/photon/examples/logo.js",
+          "hash": "8537826859308691405"
+        },
+        {
+          "file": "packages/photon/examples/logo.js.bak",
           "hash": "6740006581515759254"
         },
         {
           "file": "packages/photon/examples/m.js",
+          "hash": "1230495211664548862"
+        },
+        {
+          "file": "packages/photon/examples/m.js.bak",
           "hash": "8362374157480689902"
         },
         {
           "file": "packages/photon/examples/polygonstackbox.js",
+          "hash": "17934387465246578937"
+        },
+        {
+          "file": "packages/photon/examples/polygonstackbox.js.bak",
           "hash": "13245352701719553459"
         },
         {
           "file": "packages/photon/examples/skatedeck.js",
+          "hash": "3936124203597184514"
+        },
+        {
+          "file": "packages/photon/examples/skatedeck.js.bak",
           "hash": "2062152177928163378"
         },
         {
           "file": "packages/photon/examples/smile.js",
-          "hash": "5377836833494516754"
+          "hash": "6009324600286000403"
         },
         {
           "file": "packages/photon/examples/spiral.js",
-          "hash": "407508169669000786"
+          "hash": "10528915785894102288"
         },
         {
           "file": "packages/photon/examples/starbox.js",
+          "hash": "13535707061382904715"
+        },
+        {
+          "file": "packages/photon/examples/starbox.js.bak",
           "hash": "3497593765684143998"
         },
         {
           "file": "packages/photon/examples/testpanel.js",
+          "hash": "3480016803938338466"
+        },
+        {
+          "file": "packages/photon/examples/testpanel.js.bak",
           "hash": "18064855744942177260"
         },
         {
           "file": "packages/photon/examples/textOnChain.js",
+          "hash": "8271460528050832634"
+        },
+        {
+          "file": "packages/photon/examples/textOnChain.js.bak",
           "hash": "4817010918996640810"
         },
         {
           "file": "packages/photon/examples/textOnPath.js",
+          "hash": "1002314758297661345"
+        },
+        {
+          "file": "packages/photon/examples/textOnPath.js.bak",
           "hash": "17624129682505557243"
         },
         {
           "file": "packages/photon/examples/tubeclamp.js",
+          "hash": "10056396391150002219"
+        },
+        {
+          "file": "packages/photon/examples/tubeclamp.js.bak",
           "hash": "10631416647685667499"
         },
         {
           "file": "packages/photon/examples/ventgrid.d.ts",
-          "hash": "4298063933142682874"
+          "hash": "3134880414929603531"
         },
         {
           "file": "packages/photon/examples/ventgrid.js",
+          "hash": "309125901600010327"
+        },
+        {
+          "file": "packages/photon/examples/ventgrid.js.bak",
           "hash": "7241448103192987984"
         },
         {
           "file": "packages/photon/examples/ventgrid.ts",
-          "hash": "8967406043565988294"
+          "hash": "14716840237175431339"
         },
         {
           "file": "packages/photon/examples/ventgridcircle.js",
           "hash": "7127174144524529668"
         },
         {
+          "file": "packages/photon/examples/ventgridcircle.js.bak",
+          "hash": "7127174144524529668"
+        },
+        {
           "file": "packages/photon/examples/ventgridcircle.ts",
-          "hash": "7557543855316602712"
+          "hash": "9895753116524727890"
         },
         {
           "file": "packages/photon/package-lock.json",
@@ -2195,7 +2618,7 @@
         },
         {
           "file": "packages/photon/src/core/measure.ts",
-          "hash": "15376417928358951427"
+          "hash": "527389246485111746"
         },
         {
           "file": "packages/photon/src/core/model.ts",
@@ -2219,7 +2642,7 @@
         },
         {
           "file": "packages/photon/src/core/point.ts",
-          "hash": "13326699318927430498"
+          "hash": "17237638788792592833"
         },
         {
           "file": "packages/photon/src/core/schema.ts",
@@ -2251,7 +2674,7 @@
         },
         {
           "file": "packages/photon/src/index.ts",
-          "hash": "5537295693846100280"
+          "hash": "15797676119991322087"
         },
         {
           "file": "packages/photon/src/models/Belt.ts",
@@ -2378,6 +2801,10 @@
           "hash": "17244673650894382400"
         },
         {
+          "file": "packages/photon/test-exports.mjs",
+          "hash": "13469231582036288522"
+        },
+        {
           "file": "packages/photon/test/angle.js",
           "hash": "3788586347710575620"
         },
@@ -2500,157 +2927,6 @@
         {
           "file": "packages/photon/vite.config.mts",
           "hash": "9012388194166438097"
-        }
-      ],
-      "@photon/playground": [
-        {
-          "file": "packages/playground/models/README.md",
-          "hash": "15875793852120790209"
-        },
-        {
-          "file": "packages/playground/models/basic-shapes.js",
-          "hash": "11905211185147447976"
-        },
-        {
-          "file": "packages/playground/models/gear-wheel.js",
-          "hash": "3024781160386767430"
-        },
-        {
-          "file": "packages/playground/models/rpi-case.js",
-          "hash": "11732526271905300528"
-        },
-        {
-          "file": "packages/playground/models/simple-square.js",
-          "hash": "6198263065632792480"
-        },
-        {
-          "file": "packages/playground/models/smiley-face.js",
-          "hash": "2829687851692159904"
-        },
-        {
-          "file": "packages/playground/package-lock.json",
-          "hash": "15235196584091530652"
-        },
-        {
-          "file": "packages/playground/package.json",
-          "hash": "181683789156952613",
-          "deps": [
-            "npm:@types/codemirror@0.0.38",
-            "npm:@types/marked@0.0.28",
-            "npm:@types/node@7.10.14",
-            "npm:@types/opentype.js@0.7.2",
-            "npm:monaco-editor@0.44.0",
-            "@photon/core"
-          ]
-        },
-        {
-          "file": "packages/playground/src/fontloader.ts",
-          "hash": "12600493309199054843"
-        },
-        {
-          "file": "packages/playground/src/format-options.ts",
-          "hash": "1224710947512241537"
-        },
-        {
-          "file": "packages/playground/src/globals.d.ts",
-          "hash": "217162302134939153"
-        },
-        {
-          "file": "packages/playground/src/iexport.ts",
-          "hash": "4409082572997523134"
-        },
-        {
-          "file": "packages/playground/src/irender.ts",
-          "hash": "10805094609521809375"
-        },
-        {
-          "file": "packages/playground/src/monaco-editor-adapter.ts",
-          "hash": "2732615550001209819"
-        },
-        {
-          "file": "packages/playground/src/playground.ts",
-          "hash": "16725060158617762665"
-        },
-        {
-          "file": "packages/playground/src/pointer.ts",
-          "hash": "11549547750266619714"
-        },
-        {
-          "file": "packages/playground/src/require-iframe.ts",
-          "hash": "3532787145937738004"
-        },
-        {
-          "file": "packages/playground/src/tsconfig.iframe.json",
-          "hash": "17425144877900451776"
-        },
-        {
-          "file": "packages/playground/src/worker/export-worker.ts",
-          "hash": "11480240723337128654"
-        },
-        {
-          "file": "packages/playground/src/worker/render-worker.ts",
-          "hash": "15921365861572750937"
-        },
-        {
-          "file": "packages/playground/src/worker/string-reader.ts",
-          "hash": "3070544185042448135"
-        },
-        {
-          "file": "packages/playground/src/worker/tsconfig.json",
-          "hash": "16958550000544130413"
-        },
-        {
-          "file": "packages/playground/tsconfig.json",
-          "hash": "2517268534391778640"
-        }
-      ],
-      "demos": [
-        {
-          "file": "docs/demos/demoify.ts",
-          "hash": "12588936919105180026"
-        },
-        {
-          "file": "docs/demos/index.html",
-          "hash": "2534284194877683300"
-        },
-        {
-          "file": "docs/demos/package-lock.json",
-          "hash": "12791427155496255603"
-        },
-        {
-          "file": "docs/demos/package.json",
-          "hash": "16115937936765820951",
-          "deps": [
-            "npm:@types/detective@5.1.2",
-            "npm:@types/marked@4.0.3",
-            "npm:@types/node@20.19.21",
-            "npm:@types/opentype.js@0.7.2",
-            "npm:detective",
-            "npm:highlight.js@11.5.1",
-            "npm:makerjs@0.11.2",
-            "npm:marked@4.0.14",
-            "npm:opentype.js@0.9.0",
-            "npm:@danmarshall/makerjs-wrap-text@1.0.0",
-            "npm:makerjs-band-clamp@1.0.0",
-            "npm:makerjs-double-band-clamp@1.0.0",
-            "npm:makerjs-heart@1.0.1",
-            "npm:makerjs-logo@2.0.0",
-            "npm:makerjs-monotext@1.2.5",
-            "npm:makerjs-nameplate@1.1.2",
-            "npm:makerjs-polygon-rimbox@1.0.2",
-            "npm:makerjs-raster@1.0.1",
-            "npm:makerjs-rimbox@1.1.5",
-            "npm:makerjs-smile@1.2.1",
-            "npm:makerjs-spiral@1.0.2",
-            "npm:makerjs-spokes-flared@1.0.3",
-            "npm:makerjs-spokes-straight@1.1.1",
-            "npm:makerjs-ventgrid@1.1.1",
-            "npm:makerjs-ventgridcircle@1.1.3"
-          ]
-        },
-        {
-          "file": "docs/demos/tsconfig.json",
-          "hash": "14643407635358814691"
         }
       ]
     }

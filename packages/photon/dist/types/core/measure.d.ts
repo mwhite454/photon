@@ -197,3 +197,5 @@ export declare function boundingHexagon(modelToMeasure: IModel): IBoundingHex;
  * @returns Boolean true if the path is inside of the modelContext.
  */
 export declare function isPointInsideModel(pointToCheck: IPoint, modelContext: IModel, options?: IMeasurePointInsideOptions): boolean;
+/** Re-export point equality functions for backward compatibility with makerjs API. */
+export { isPointEqual, isPointDistinct, isPointOnSlope } from './equal.js';

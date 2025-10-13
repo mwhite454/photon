@@ -1,8 +1,8 @@
-var makerjs = require('makerjs');
+import * as photon from 'photon';
 
 // Simple square model
 this.models = {
-    square: new makerjs.models.Rectangle(100, 100)
+    square: new photon.models.Rectangle(100, 100)
 };
 
 this.notes = '# Simple Square\nA basic 100x100 square.';

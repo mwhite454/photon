@@ -34,3 +34,5 @@ export declare function distort(pointToDistort: IPoint, scaleX: number, scaleY: 
 export declare function subtract(a: IPoint, b: IPoint): IPoint;
 /** A point at 0,0 coordinates. */
 export declare function zero(): IPoint;
+/** Test to see if an object implements the required properties of a point. */
+export { isPoint } from './maker.js';

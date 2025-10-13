@@ -3183,7 +3183,10 @@ var Photon = (function(exports, KDBush, bezierJs, grahamScanModule) {
     isLineOverlapping,
     isMeasurementOverlapping,
     isPointArrayClockwise,
+    isPointDistinct,
+    isPointEqual,
     isPointInsideModel,
+    isPointOnSlope,
     lineSlope,
     modelExtents,
     modelPathLength,
@@ -3346,6 +3349,7 @@ var Photon = (function(exports, KDBush, bezierJs, grahamScanModule) {
     fromPathEnds,
     fromPolar,
     fromSlopeIntersection,
+    isPoint,
     middle,
     mirror,
     rotate,
@@ -6961,6 +6965,7 @@ var Photon = (function(exports, KDBush, bezierJs, grahamScanModule) {
   exports.paths = paths$1;
   exports.pdf = pdfEsm;
   exports.point = point;
+  exports.round = round;
   exports.schema = schema;
   exports.svg = svgEsm;
   exports.units = units;

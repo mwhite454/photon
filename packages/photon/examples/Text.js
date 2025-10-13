@@ -1,8 +1,8 @@
-﻿var makerjs = require('makerjs');
+import * as photon from 'photon';
 
 function TextDemo(font, text, fontSize, combine, center) {
     this.models = {
-        text: new makerjs.models.Text(font, text, fontSize, combine, center)
+        text: new photon.models.Text(font, text, fontSize, combine, center)
     };
 }
 
@@ -14,4 +14,4 @@ TextDemo.metaParameters = [
     { title: "center character origin", type: "bool", value: false }
 ];
 
-module.exports = TextDemo;
+export default TextDemo;

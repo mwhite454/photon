@@ -1,29 +1,29 @@
-var makerjs = require('./../target/js/node.maker.js');
+import * as photon from 'photon';
 
 function filletstar(numberOfPoints, filletOutsideRadius, filletInsideRadius, innerRadiusPct, skip) {
-    var radius = 100;
+   const radius = 100;
 
-    var star = new makerjs.models.Star(numberOfPoints, radius, radius * innerRadiusPct / 100, skip);
+   const star = new photon.models.Star(numberOfPoints, radius, radius * innerRadiusPct / 100, skip);
 
     this.models = { star: star };
 
-    var paths = this.paths = {};
+   const paths = this.paths = {};
 
     function doFillet(id1, id2, isAlternate) {
-        var fillet;
+       const fillet;
         if (isAlternate) {
-            //fillet = makerjs.path.dogbone(star.paths[id1], star.paths[id2], filletInsideRadius);
-            fillet = makerjs.path.fillet(star.paths[id1], star.paths[id2], filletInsideRadius);
+            //fillet = photon.path.dogbone(star.paths[id1], star.paths[id2], filletInsideRadius);
+            fillet = photon.path.fillet(star.paths[id1], star.paths[id2], filletInsideRadius);
         } else {
-            fillet = makerjs.path.fillet(star.paths[id1], star.paths[id2], filletOutsideRadius);
+            fillet = photon.path.fillet(star.paths[id1], star.paths[id2], filletOutsideRadius);
         }
         paths[id1] = fillet;
     }
 
-    var isAlternate = false;
+   const isAlternate = false;
 
-    var firstId = null;
-    var prevId = null;
+   const firstId = null;
+   const prevId = null;
     for (var id in star.paths) {
         if (!firstId) {
             firstId = id;
@@ -46,4 +46,4 @@ filletstar.metaParameters = [
     { title: "skip", type: "range", min: 2, max: 12, value: 2 },
 ];
 
-module.exports = filletstar;
+export default filletstar;

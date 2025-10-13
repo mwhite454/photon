@@ -8,7 +8,7 @@ var window = {};
 /* module system */
 var module = {};
 var requireError = '';
-module.require = function (id) {
+module.require = (id) => {
     if (id in module) {
         return module[id];
     }
@@ -17,7 +17,7 @@ module.require = function (id) {
 };
 function load(id, src) {
     importScripts(src);
-    var loadedModule = module.exports;
+    let loadedModule = module.exports;
     if (!loadedModule) {
         //try to get browserified module
         loadedModule = require(id);
@@ -25,14 +25,18 @@ function load(id, src) {
     module[id] = loadedModule;
     return loadedModule;
 }
-//add the makerjs module
+//add the photon module
 importScripts('../../../fonts/fonts.js', '../fontloader.js', '../../../target/js/browser.maker.js', '../../../external/bezier-js/bezier.js', '../../../external/opentype/opentype.js');
-var makerjs = self.require('makerjs');
-module['makerjs'] = makerjs;
-module['./../target/js/node.maker.js'] = makerjs;
+var photon = self.require('photon');
+module['photon'] = photon;
+module['./../target/js/node.maker.js'] = photon;
+// Make photon available globally for ES6-style imports
+self.photon = photon;
 function runCodeIsolated(javaScript) {
-    var Fn = new Function('require', 'module', 'document', 'console', 'alert', 'playgroundRender', 'opentype', javaScript);
-    var result = new Fn(module.require, module, mockDocument, mockConsole, devNull, playgroundRender, window['opentype']); //call function with the "new" keyword so the "this" keyword is an instance
+    // Strip ES6 import statements and inject photon as a variable
+    var processedCode = javaScript.replace(/import\s+\*\s+as\s+photon\s+from\s+['"]photon['"];?\s*/g, '');
+    var Fn = new Function('require', 'module', 'document', 'console', 'alert', 'playgroundRender', 'opentype', 'photon', processedCode);
+    var result = new Fn(module.require, module, mockDocument, mockConsole, devNull, playgroundRender, window['opentype'], photon); //call function with the "new" keyword so the "this" keyword is an instance
     return module.exports || result;
 }
 function playgroundRender(model) {
@@ -55,7 +59,7 @@ function getLogsHtmls() {
     if (logs.length > 0) {
         logHtmls.push('<div class="section"><div class="separator"><span class="console">console:</span></div>');
         logs.forEach(function (log) {
-            var logDiv = new makerjs.exporter.XmlTag('div', { "class": "console" });
+            var logDiv = new photon.exporter.XmlTag('div', { "class": "console" });
             logDiv.innerText = log;
             logHtmls.push(logDiv.toString());
         });
@@ -91,21 +95,21 @@ var htmls;
 var logs;
 var kit;
 var activeRequestId;
-onmessage = function (ev) {
+onmessage = (ev) => {
     var request = ev.data;
     if (request.orderedDependencies) {
         self.require = module.require;
-        var loadErrors_1 = [];
+        const loadErrors = [];
         request.orderedDependencies.forEach(function (id) {
             try {
-                var loadedModule = load(id, request.dependencyUrls[id]);
+                const loadedModule = load(id, request.dependencyUrls[id]);
             }
             catch (e) {
-                loadErrors_1.push(id);
+                loadErrors.push(id);
             }
         });
-        if (loadErrors_1.length) {
-            postError(request.requestId, "errors loading these modules: ".concat(loadErrors_1.join()));
+        if (loadErrors.length) {
+            postError(request.requestId, `errors loading these modules: ${loadErrors.join()}`);
         }
     }
     if (requireError) {
@@ -133,7 +137,7 @@ onmessage = function (ev) {
         var fontLoader = new PhotonPlayground.FontLoader(request.fontDir, window['opentype'], kit.metaParameters, request.paramValues);
         fontLoader.successCb = function (realValues) {
             try {
-                var model = makerjs.kit.construct(kit, realValues);
+                var model = photon.kit.construct(kit, realValues);
                 var response = {
                     requestId: request.requestId,
                     model: model,

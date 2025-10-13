@@ -123,7 +123,7 @@ let minDockSideBySide = 1024;
             var sliders = 0;
 
             for (var i = 0; i < metaParameters.length; i++) {
-                var attrs = makerjs.cloneObject(metaParameters[i]);
+                var attrs = photon.cloneObject(metaParameters[i]);
 
                 var id = 'input_param_' + i;
                 var prepend = false;
@@ -136,13 +136,13 @@ let minDockSideBySide = 1024;
                         sliders++;
 
                         attrs['id'] = id;
-                        attrs['onchange'] = 'PhotonPlayground.setParam(' + i + ', makerjs.round(this.valueAsNumber, .001)); if (PhotonPlayground.isSmallDevice()) { PhotonPlayground.activateParam(this); PhotonPlayground.deActivateParam(this, 1000); }';
+                        attrs['onchange'] = 'PhotonPlayground.setParam(' + i + ', photon.round(this.valueAsNumber, .001)); if (PhotonPlayground.isSmallDevice()) { PhotonPlayground.activateParam(this); PhotonPlayground.deActivateParam(this, 1000); }';
                         attrs['ontouchstart'] = 'PhotonPlayground.activateParam(this)';
                         attrs['ontouchend'] = 'PhotonPlayground.deActivateParam(this, 1000)';
                         attrs['onmousedown'] = 'if (PhotonPlayground.isSmallDevice()) { PhotonPlayground.activateParam(this); }';
                         attrs['onmouseup'] = 'if (PhotonPlayground.isSmallDevice()) { PhotonPlayground.deActivateParam(this, 1000); }';
 
-                        input = new makerjs.exporter.XmlTag('input', attrs);
+                        input = new photon.exporter.XmlTag('input', attrs);
 
                         //note: we could also apply the min and max of the range to the number field. however, the useage of the textbox is to deliberately "go out of bounds" when the example range is insufficient.
                         var numberBoxAttrs = {
@@ -152,16 +152,16 @@ let minDockSideBySide = 1024;
                             "value": attrs.value,
                             "onfocus": 'if (PhotonPlayground.isSmallDevice()) { PhotonPlayground.activateParam(this.parentElement); }',
                             "onblur": 'if (PhotonPlayground.isSmallDevice()) { PhotonPlayground.deActivateParam(this.parentElement, 0); }',
-                            "onchange": 'PhotonPlayground.setParam(' + i + ', makerjs.round(this.valueAsNumber, .001))'
+                            "onchange": 'PhotonPlayground.setParam(' + i + ', photon.round(this.valueAsNumber, .001))'
                         };
 
                         var formAttrs = {
                             "action": 'javascript:void(0);',
-                            "onsubmit": 'PhotonPlayground.setParam(' + i + ', makerjs.round(this.elements[0].valueAsNumber, .001))'
+                            "onsubmit": 'PhotonPlayground.setParam(' + i + ', photon.round(this.elements[0].valueAsNumber, .001))'
                         };
 
-                        numberBox = new makerjs.exporter.XmlTag('form', formAttrs);
-                        numberBox.innerText = new makerjs.exporter.XmlTag('input', numberBoxAttrs).toString();
+                        numberBox = new photon.exporter.XmlTag('form', formAttrs);
+                        numberBox.innerText = new photon.exporter.XmlTag('input', numberBoxAttrs).toString();
                         numberBox.innerTextEscaped = true;
 
                         paramValues.push(attrs.value);
@@ -179,7 +179,7 @@ let minDockSideBySide = 1024;
                             checkboxAttrs['checked'] = true;
                         }
 
-                        input = new makerjs.exporter.XmlTag('input', checkboxAttrs);
+                        input = new photon.exporter.XmlTag('input', checkboxAttrs);
 
                         paramValues.push(attrs.value);
 
@@ -194,7 +194,7 @@ let minDockSideBySide = 1024;
                             onchange: 'PhotonPlayground.setParam(' + i + ', this.options[this.selectedIndex].value)'
                         };
 
-                        input = new makerjs.exporter.XmlTag('select', selectFontAttrs);
+                        input = new photon.exporter.XmlTag('select', selectFontAttrs);
                         var fontOptions = '';
 
                         var added = false;
@@ -208,7 +208,7 @@ let minDockSideBySide = 1024;
                                 paramValues.push(fontId);
                                 added = true;
                             }
-                            var option = new makerjs.exporter.XmlTag('option', { value: fontId });
+                            var option = new photon.exporter.XmlTag('option', { value: fontId });
                             option.innerText = font.displayName;
                             options += option.toString();
                         }
@@ -225,11 +225,11 @@ let minDockSideBySide = 1024;
                             onchange: 'PhotonPlayground.setParam(' + i + ', JSON.parse(this.options[this.selectedIndex].innerText))'
                         };
 
-                        input = new makerjs.exporter.XmlTag('select', selectAttrs);
+                        input = new photon.exporter.XmlTag('select', selectAttrs);
                         var options = '';
 
                         for (var j = 0; j < attrs.value.length; j++) {
-                            var option = new makerjs.exporter.XmlTag('option');
+                            var option = new photon.exporter.XmlTag('option');
                             option.innerText = JSON.stringify(attrs.value[j]);
 
                             options += option.toString();
@@ -247,7 +247,7 @@ let minDockSideBySide = 1024;
                         attrs['id'] = id;
                         attrs['onchange'] = 'PhotonPlayground.setParam(' + i + ', this.value)';
 
-                        input = new makerjs.exporter.XmlTag('input', attrs);
+                        input = new photon.exporter.XmlTag('input', attrs);
 
                         paramValues.push(attrs.value);
 
@@ -256,8 +256,8 @@ let minDockSideBySide = 1024;
 
                 if (!input) continue;
 
-                var div = new makerjs.exporter.XmlTag('div');
-                var label = new makerjs.exporter.XmlTag('label');
+                var div = new photon.exporter.XmlTag('div');
+                var label = new photon.exporter.XmlTag('label');
                 label.innerText = attrs.title;
 
                 if (prepend) {
@@ -280,7 +280,7 @@ let minDockSideBySide = 1024;
             }
 
             //if (sliders) {
-            //var button = new makerjs.exporter.XmlTag('input', { type: 'button', onclick:'PhotonPlayground.animate()', value: 'animate'});
+            //var button = new photon.exporter.XmlTag('input', { type: 'button', onclick:'PhotonPlayground.animate()', value: 'animate'});
             //paramHtml.push(button.toString());
             //}
         }
@@ -316,12 +316,12 @@ let minDockSideBySide = 1024;
         var code: string[] = [];
         var safeParamNames = kit.metaParameters.map(safeParamName).join(', ');
 
-        code.push("var makerjs = require('makerjs');");
+        code.push("import * as photon from 'photon';");
         code.push("");
         code.push("function demo(" + safeParamNames + ") {");
         code.push("");
         code.push("  this.models = {");
-        code.push("    example: new makerjs.models." + id + "(" + safeParamNames + ")");
+        code.push("    example: new photon.models." + id + "(" + safeParamNames + ")");
         code.push("  };");
         code.push("");
         code.push("}");
@@ -330,7 +330,7 @@ let minDockSideBySide = 1024;
         code.push(kit.metaParameters.map(m => '  ' + metaParameterAsString(m)).join(',\n'));
         code.push("];");
         code.push("");
-        code.push("module.exports = demo;");
+        code.push("export default demo;");
 
         return code.join('\n');
     }
@@ -346,8 +346,8 @@ let minDockSideBySide = 1024;
 
         constructor() {
             this.paths = {
-                face: new makerjs.paths.Circle([0, 0], 100),
-                mouth: new makerjs.paths.Arc([0, 0], 70, 210, 330)
+                face: new photon.paths.Circle([0, 0], 100),
+                mouth: new photon.paths.Arc([0, 0], 70, 210, 330)
             };
         }
     }
@@ -357,8 +357,8 @@ let minDockSideBySide = 1024;
 
         constructor() {
             this.paths = {
-                face: new makerjs.paths.Circle([0, 0], 100),
-                mouth: new makerjs.paths.Line([-50, -30], [50, -30])
+                face: new photon.paths.Circle([0, 0], 100),
+                mouth: new photon.paths.Line([-50, -30], [50, -30])
             };
         }
     }
@@ -369,9 +369,9 @@ let minDockSideBySide = 1024;
         constructor() {
             var wireFrame: Photon.IModel = {
                 paths: {
-                    rim: new makerjs.paths.Circle([0, 0], 85),
-                    hand1: new makerjs.paths.Line([0, 0], [40, 30]),
-                    hand2: new makerjs.paths.Line([0, 0], [30, -40])
+                    rim: new photon.paths.Circle([0, 0], 85),
+                    hand1: new photon.paths.Line([0, 0], [40, 30]),
+                    hand2: new photon.paths.Line([0, 0], [30, -40])
                 }
             };
 
@@ -386,12 +386,12 @@ let minDockSideBySide = 1024;
         constructor() {
 
             this.models = {
-                triangle: new makerjs.models.ConnectTheDots(true, [[-200, 0], [200, 0], [0, 346]]),
-                exclamation: new makerjs.models.ConnectTheDots(true, [[-10, 110], [10, 110], [16, 210], [-16, 210]])
+                triangle: new photon.models.ConnectTheDots(true, [[-200, 0], [200, 0], [0, 346]]),
+                exclamation: new photon.models.ConnectTheDots(true, [[-10, 110], [10, 110], [16, 210], [-16, 210]])
             }
 
             this.paths = {
-                point: new makerjs.paths.Circle([0, 75], 16)
+                point: new photon.paths.Circle([0, 75], 16)
             }
 
         }
@@ -517,13 +517,13 @@ let minDockSideBySide = 1024;
 
     function getLockedPathAndOffset() {
         if (!processed.lockedPath) return null;
-        return makerjs.travel(processed.model, processed.lockedPath.route);
+        return photon.travel(processed.model, processed.lockedPath.route);
     }
 
     function updateLockedPathNotes() {
         if (processed.model && processed.lockedPath) {
             const pathAndOffset = getLockedPathAndOffset();
-            const endpoints = makerjs.point.fromPathEnds(pathAndOffset.result as Photon.IPath, pathAndOffset.offset);
+            const endpoints = photon.point.fromPathEnds(pathAndOffset.result as Photon.IPath, pathAndOffset.offset);
             if (pathAndOffset) {
                 setNotes([
                     processed.lockedPath.notes + mdCode(pathAndOffset.result),
@@ -546,9 +546,9 @@ let minDockSideBySide = 1024;
         var pathAndOffset = getLockedPathAndOffset();
         if (!pathAndOffset) return null;
 
-        var measure = makerjs.measure.pathExtents(pathAndOffset.result as Photon.IPath);
-        measure.high = makerjs.point.add(measure.high, pathAndOffset.offset);
-        measure.low = makerjs.point.add(measure.low, pathAndOffset.offset);
+        var measure = photon.measure.pathExtents(pathAndOffset.result as Photon.IPath);
+        measure.high = photon.point.add(measure.high, pathAndOffset.offset);
+        measure.low = photon.point.add(measure.low, pathAndOffset.offset);
 
         return measure;
     }
@@ -682,8 +682,8 @@ let minDockSideBySide = 1024;
     }
 
     function panGrid() {
-        var p = makerjs.point.add(viewPanOffset, viewOrigin);
-        var op = makerjs.point.add(p, margin);
+        var p = photon.point.add(viewPanOffset, viewOrigin);
+        var op = photon.point.add(p, margin);
         gridPattern.setAttribute('patternTransform', 'translate(' + p[0] + ',' + p[1] + ')');
         crosshairs.setAttribute('transform', 'translate(' + op[0] + ',' + op[1] + ')');
     }
@@ -698,8 +698,8 @@ let minDockSideBySide = 1024;
     function isMeasurementEqual(m1: Photon.IMeasure, m2: Photon.IMeasure): boolean {
         if (!m1 && !m2) return true;
         if (!m1 || !m2) return false;
-        if (!makerjs.measure.isPointEqual(m1.low, m2.low)) return false;
-        if (!makerjs.measure.isPointEqual(m1.high, m2.high)) return false;
+        if (!photon.measure.isPointEqual(m1.low, m2.low)) return false;
+        if (!photon.measure.isPointEqual(m1.high, m2.high)) return false;
         return true;
     }
 
@@ -733,10 +733,10 @@ let minDockSideBySide = 1024;
 
         //todo: find minimum viewScale
 
-        if (!makerjs.point.isPoint(processed.model.origin)) processed.model.origin = [0, 0];
-        var newMeasurement = makerjs.measure.modelExtents(processed.model);
-        makerjs.model.getAllCaptionsOffset(processed.model).forEach(caption => {
-            makerjs.measure.increase(newMeasurement, makerjs.measure.pathExtents(caption.anchor), true);
+        if (!photon.maker.isPoint(processed.model.origin)) processed.model.origin = [0, 0];
+        var newMeasurement = photon.measure.modelExtents(processed.model);
+        photon.model.getAllCaptionsOffset(processed.model).forEach(caption => {
+            photon.measure.increase(newMeasurement, photon.measure.pathExtents(caption.anchor), true);
         });
 
         processed.measurement = newMeasurement;
@@ -968,7 +968,7 @@ let minDockSideBySide = 1024;
             paramValues = getHashParams();
         } else if (processed.kit) {
 
-            var fontLoader = new FontLoader(fontDir, null, processed.kit.metaParameters, makerjs.kit.getParameterValues(processed.kit));
+            var fontLoader = new FontLoader(fontDir, null, processed.kit.metaParameters, photon.kit.getParameterValues(processed.kit));
             paramValues = fontLoader.getParamValuesWithFontSpec();
         }
 
@@ -1153,7 +1153,7 @@ let minDockSideBySide = 1024;
             unitScale /= pixelsPerInch;
 
             //inch to units
-            unitScale *= makerjs.units.conversionScale(makerjs.unitType.Inch, processed.model.units);
+            unitScale *= photon.units.conversionScale(photon.unitType.Inch, processed.model.units);
         }
 
         var z = document.getElementById('zoom-display');
@@ -1161,7 +1161,7 @@ let minDockSideBySide = 1024;
 
         var g = document.getElementById('grid-unit');
         if (checkShowGrid.checked) {
-            var gridScale = makerjs.round(getGridScale());
+            var gridScale = photon.round(getGridScale());
             g.innerText = '[' + gridScale + ' ' + (processed.model.units || ('unit' + (gridScale < 10 ? '' : 's'))) + ']';
         } else {
             g.innerText = '';
@@ -1224,7 +1224,7 @@ let minDockSideBySide = 1024;
             }
 
 
-        } else if (makerjs.maker.isModel(result)) {
+        } else if (photon.maker.isModel(result)) {
             processed.kit = null;
             populateParams(null);
 
@@ -1333,7 +1333,7 @@ let minDockSideBySide = 1024;
 
         if (processed.model.units) {
             //convert from units to Inch
-            viewScale = makerjs.units.conversionScale(processed.model.units, makerjs.unitType.Inch);
+            viewScale = photon.units.conversionScale(processed.model.units, photon.unitType.Inch);
 
             //from inch to pixel
             viewScale *= pixelsPerInch;
@@ -1432,7 +1432,7 @@ let minDockSideBySide = 1024;
             var units = processed.model.units;
             delete processed.model.units;
 
-            html += makerjs.exporter.toSVG(processed.model, renderOptions);
+            html += photon.exporter.toSVG(processed.model, renderOptions);
 
             if (units) processed.model.units = units;
         }
@@ -1538,7 +1538,7 @@ let minDockSideBySide = 1024;
         var dataUri = uriPrefix + encoded;
 
         //create a download link
-        var a = new makerjs.exporter.XmlTag('a', { href: dataUri, download: filename });
+        var a = new photon.exporter.XmlTag('a', { href: dataUri, download: filename });
         a.innerText = 'download ' + title;
         document.getElementById('download-link-container').innerHTML = a.toString();
 
@@ -1592,7 +1592,7 @@ let minDockSideBySide = 1024;
         try {
             switch (request.format) {
                 case ExportFormat.Dxf:
-                    text = makerjs.exporter.toDXF(processed.model, request.options);
+                    text = photon.exporter.toDXF(processed.model, request.options);
                     break;
 
                 case ExportFormat.Json:
@@ -1600,15 +1600,15 @@ let minDockSideBySide = 1024;
                     break;
 
                 case ExportFormat.OpenJsCad:
-                    text = makerjs.exporter.toJscadScript(processed.model, request.options);
+                    text = photon.exporter.toJscadScript(processed.model, request.options);
                     break;
 
                 case ExportFormat.Svg:
-                    text = makerjs.exporter.toSVG(processed.model, request.options);
+                    text = photon.exporter.toSVG(processed.model, request.options);
                     break;
 
                 case ExportFormat.SvgPathData:
-                    text = makerjs.exporter.toSVGPathData(processed.model, request.options) as string;
+                    text = photon.exporter.toSVGPathData(processed.model, request.options) as string;
                     break;
 
                 default:
@@ -1784,9 +1784,9 @@ let minDockSideBySide = 1024;
                 } else {
                     var paramValues = getHashParams();
 
-                    if (scriptname in makerjs.models) {
+                    if (scriptname in photon.models) {
 
-                        var code = generateCodeFromKit(scriptname, makerjs.models[scriptname]);
+                        var code = generateCodeFromKit(scriptname, photon.models[scriptname]);
                         codeMirrorEditor.getDoc().setValue(code);
                         runCodeFromEditor(paramValues);
 
@@ -1844,19 +1844,12 @@ let minDockSideBySide = 1024;
             .then(response => response.json())
             .then(data => {
                 if (data.success) {
-                    // Load the model content into the editor
+                    // Load the model content into the editor (Monaco Editor via adapter)
                     if (codeMirrorEditor) {
+                        // Replace entire editor content with the model code
                         const doc = codeMirrorEditor.getDoc();
-                        const cursor = doc.getCursor();
-                        const insertText = (function () {
-                            const before = doc.getLine(cursor.line) || '';
-                            const needsLeadingNewline = before.trim().length > 0 && cursor.ch !== 0;
-                            const prefix = needsLeadingNewline ? "\n" : "";
-                            const suffix = "\n"; // ensure a trailing newline after inserted model
-                            return prefix + data.content + suffix;
-                        })();
-                        doc.replaceRange(insertText, cursor);
-                        // Optionally focus editor after insert
+                        doc.setValue(data.content);
+                        // Focus editor after loading
                         codeMirrorEditor.focus();
                         // Do not auto-run here; user can choose when to run after composing code
                     }

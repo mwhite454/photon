@@ -16,7 +16,7 @@ class BaseOptions {
 
         $number(selector: string) {
             const select = this.$(selector) as HTMLInputElement;
-            if (makerjs.isNumber(select.valueAsNumber)) {
+            if (photon.isNumber(select.valueAsNumber)) {
                 return select.valueAsNumber;
             }
             return +select.value;

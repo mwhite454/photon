@@ -1,6 +1,9 @@
 // Export models (all 17 converted classes)
 export * from './models/index.js';
 
+// Export commonly used utility functions at top level for convenience
+export { round } from './core/maker.js';
+
 // Export utilities
 export * as schema from './core/schema.js';
 export * as maker from './core/maker.js';

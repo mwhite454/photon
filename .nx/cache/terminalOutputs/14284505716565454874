@@ -1,0 +1,56 @@
+
+> @photon/core@0.18.1 prebuild
+> npm run gen-cascades
+
+
+> @photon/core@0.18.1 gen-cascades
+> npm run project && node ./target/cascadable.js > ./src/core/cascades.ts
+
+
+> @photon/core@0.18.1 project
+> typedoc ./src --json ./dist/project.json
+
+[93m[warning][0m The signature core/chain.toPoints has an @param with name "distance", which was not used
+[93m[warning][0m The signature core/collect.PointGraph.insertValueIdAtPoint has an @param with name "value", which was not used
+[93m[warning][0m The signature core/layout.childrenOnChain has an @param with name "rotate", which was not used
+[93m[warning][0m The signature core/layout.cloneToRadial has an @param with name "itemToClone:", which was not used
+[93m[warning][0m The signature core/layout.cloneToColumn has an @param with name "itemToClone:", which was not used
+[93m[warning][0m The signature core/layout.cloneToRow has an @param with name "itemToClone:", which was not used
+[93m[warning][0m The signature core/layout.cloneToGrid has an @param with name "itemToClone:", which was not used
+[93m[warning][0m The signature core/layout.cloneToBrick has an @param with name "itemToClone:", which was not used
+[93m[warning][0m The signature core/layout.cloneToHoneycomb has an @param with name "itemToClone:", which was not used
+[93m[warning][0m The signature core/openjscad-esm.toJscadCAG has an @param with name "options", which was not used
+[93m[warning][0m The signature core/openjscad-esm.toJscadCAG has an @param with name "options.byLayers", which was not used
+[93m[warning][0m The signature core/openjscad-esm.toJscadCAG has an @param with name "options.pointMatchingDistance", which was not used
+[93m[warning][0m The signature core/openjscad-esm.toJscadCAG has an @param with name "options.maxArcFacet", which was not used
+[93m[warning][0m The signature core/openjscad-esm.toJscadCAG has an @param with name "options.statusCallback", which was not used
+[93m[warning][0m The signature core/openjscad-esm.toJscadSTL has an @param with name "jscadCAG", which was not used
+[93m[warning][0m The signature models/Ellipse.Ellipse.constructor has an @param with name "rX", which was not used
+[93m[warning][0m The signature models/Ellipse.Ellipse.constructor has an @param with name "rY", which was not used
+[93m[warning][0m The signature models/Ellipse.EllipticArc.constructor has an @param with name "arc", which was not used
+[96m[info][0m html generated at ./dist/docs
+[96m[info][0m json generated at ./dist/project.json
+[93m[warning][0m Found 0 errors and 18 warnings
+
+> @photon/core@0.18.1 build
+> npm run build:types && npm run build:lib
+
+
+> @photon/core@0.18.1 build:types
+> tsc -p target/tsconfig.esm.json
+
+
+> @photon/core@0.18.1 build:lib
+> vite build
+
+[33mYou are using Node.js 20.13.1. Vite requires Node.js version 20.19+ or 22.12+. Please upgrade your Node.js version.[39m
+[36mvite v7.1.9 [32mbuilding for production...[36m[39m
+transforming...
+[32m✓[39m 54 modules transformed.
+[33msrc/core/maker.ts (21:22): Use of eval in "src/core/maker.ts" is strongly discouraged as it poses security risks and may cause issues with minification.[39m
+rendering chunks...
+computing gzip size...
+[2mdist/[22m[36mphoton.es.js  [39m[1m[2m220.78 kB[22m[1m[22m[2m │ gzip: 49.44 kB[22m[2m │ map: 570.37 kB[22m
+[2mdist/[22m[36mphoton.umd.js  [39m[1m[2m235.85 kB[22m[1m[22m[2m │ gzip: 50.37 kB[22m[2m │ map: 572.90 kB[22m
+[2mdist/[22m[36mphoton.iife.js  [39m[1m[2m235.45 kB[22m[1m[22m[2m │ gzip: 50.25 kB[22m[2m │ map: 572.88 kB[22m
+[32m✓ built in 417ms[39m

@@ -1,4 +1,4 @@
-var makerjs = require('./../target/js/node.maker.js');
+import * as photon from 'photon';
 
 function Spiral(loops, startRadius, spacing) {
 
@@ -7,17 +7,17 @@ function Spiral(loops, startRadius, spacing) {
     function revolution(r) {
 
         this.paths = {
-            arc1: new makerjs.paths.Arc([0, 0], r, 0, 90),
-            arc2: new makerjs.paths.Arc([0, -spacing], r + spacing, 90, 180),
-            arc3: new makerjs.paths.Arc([2 * spacing, -spacing], r + 3 * spacing, 180, 270),
-            arc4: new makerjs.paths.Arc([2 * spacing, 0], r + 4 * spacing, 270, 360)
+            arc1: new photon.paths.Arc([0, 0], r, 0, 90),
+            arc2: new photon.paths.Arc([0, -spacing], r + spacing, 90, 180),
+            arc3: new photon.paths.Arc([2 * spacing, -spacing], r + 3 * spacing, 180, 270),
+            arc4: new photon.paths.Arc([2 * spacing, 0], r + 4 * spacing, 270, 360)
         };
 
     }
 
     this.models = {};
 
-    for (var i = 0; i < loops; i++) {
+    for (let i = 0; i < loops; i++) {
         this.models['loop' + i] = new revolution(startRadius + i * spacing * 6);
     }
 }
@@ -29,4 +29,4 @@ Spiral.metaParameters = [
     { title: "spacing", type: "range", min: 0, max: 1, step: .01, value: 1 }
 ];
 
-module.exports = Spiral;
+export default Spiral;

@@ -1,34 +1,34 @@
-var makerjs = require('./../target/js/node.maker.js');
+import * as photon from 'photon';
 
 function tubeClamp(tubediameter, thickness, distance, open, wing, lid, lidclearance) {
 
     this.paths = {};
     this.models = {};
 
-    var line = makerjs.paths.Line;
-    var arc = makerjs.paths.Arc;
-    var point = makerjs.point;
+   const line = photon.paths.Line;
+   const arc = photon.paths.Arc;
+   const point = photon.point;
 
-    var radius = tubediameter / 2;
-    var d2 = distance / 2;
-    var t2 = thickness / 2;
-    var cy = distance + radius;
-    var outer = radius + wing;
-    var mtop = distance + tubediameter - open;
-    var drop = 0;//radius / 4;
+   const radius = tubediameter / 2;
+   const d2 = distance / 2;
+   const t2 = thickness / 2;
+   const cy = distance + radius;
+   const outer = radius + wing;
+   const mtop = distance + tubediameter - open;
+   const drop = 0;//radius / 4;
 
-    var z = Math.max(thickness + .125 - radius, 0);
-    var bottom = Math.max(radius, thickness * 1.2);
+   const z = Math.max(thickness + .125 - radius, 0);
+   const bottom = Math.max(radius, thickness * 1.2);
 
-    //this.paths.push(new makerjs.paths.Circle('tube', [0, cy], radius));
+    //this.paths.push(new photon.paths.Circle('tube', [0, cy], radius));
 
-    var thicknessAngle = 360 - makerjs.angle.toDegrees(Math.acos(t2 / radius));
-    var arc1 = new arc([0, cy], radius, thicknessAngle, 0);
-    var arc1Points = point.fromArc(arc1);
+   const thicknessAngle = 360 - photon.angle.toDegrees(Math.acos(t2 / radius));
+   const arc1 = new arc([0, cy], radius, thicknessAngle, 0);
+   const arc1Points = point.fromArc(arc1);
 
-    var halfBody = {
+   const halfBody = {
         models: {
-            scurve: makerjs.model.move(new makerjs.models.SCurve(wing - (bottom - radius), cy - drop), [bottom, 0])
+            scurve: photon.model.move(new photon.models.SCurve(wing - (bottom - radius), cy - drop), [bottom, 0])
         },
         paths: {
             bottom: new line([0, 0], [bottom, 0]),
@@ -42,33 +42,33 @@ function tubeClamp(tubediameter, thickness, distance, open, wing, lid, lidcleara
         }
     };
 
-    halfBody.paths.dogbone = makerjs.path.dogbone(halfBody.paths.boxottom, halfBody.paths.boxside, .03);
+    halfBody.paths.dogbone = photon.path.dogbone(halfBody.paths.boxottom, halfBody.paths.boxside, .03);
 
-    var lidAngle = makerjs.angle.toDegrees(Math.acos((radius - lidclearance) / radius));
-    var arc2 = new arc([0, -radius], radius, lidAngle, 90);
-    var arc2Points = point.fromArc(arc2);
+   const lidAngle = photon.angle.toDegrees(Math.acos((radius - lidclearance) / radius));
+   const arc2 = new arc([0, -radius], radius, lidAngle, 90);
+   const arc2Points = point.fromArc(arc2);
 
-    var halfLid = new makerjs.models.ConnectTheDots(false, [arc2Points[0], [arc2Points[0][0], 0], [outer, 0], [outer, lid], [0, lid]]);
+   const halfLid = new photon.models.ConnectTheDots(false, [arc2Points[0], [arc2Points[0][0], 0], [outer, 0], [outer, lid], [0, lid]]);
     halfLid.paths['lid'] = arc2;
 
-    var lid = {
+   const lid = {
         id: 'lid',
         //                origin: [ 0, cy + radius - arc2Points[0].y - open ],
         origin: [0, cy + radius],
         models: {
             halflid: halfLid, 
-            halfLidMirror: makerjs.model.mirror(halfLid, true, false)
+            halfLidMirror: photon.model.mirror(halfLid, true, false)
         }
     };
 
-    var body = {
-        models: {'halfBody': halfBody, 'mirror': makerjs.model.mirror(halfBody, true, false)}
+   const body = {
+        models: {'halfBody': halfBody, 'mirror': photon.model.mirror(halfBody, true, false)}
     };
 
     this.models.body = body;
     this.models.lid = lid;
 
-    this.units = makerjs.unitType.Inch;
+    this.units = photon.unitType.Inch;
     this.origin = [0, -cy];
 };
 
@@ -82,4 +82,4 @@ tubeClamp.metaParameters = [
     { title: "lidclearance", type: "range", min: 0, max: .13, step: .01, value: .01 }
 ];
 
-module.exports = tubeClamp;
+export default tubeClamp;

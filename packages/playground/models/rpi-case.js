@@ -1,10 +1,10 @@
-var makerjs = require('makerjs');
+import * as photon from 'photon';
 
 // Parametric Raspberry Pi 4 Case with 10.1" Touchscreen
 // Demonstrates: Basic rectangle with corner holes, RPi mounting, screen cutout
 
 // Parametric dimensions (easily adjustable)
-var params = {
+const params = {
     // Basic case dimensions (mm)
     caseWidth: 200,
     caseHeight: 150,
@@ -27,24 +27,24 @@ var params = {
 
 // Create basic rectangle with corner mounting holes
 function createBasicCase(width, height, holeDiameter, holeOffset) {
-    var model = {
+    const model = {
         paths: {},
         models: {}
     };
     
     // Main rectangle outline
-    model.paths.outline = new makerjs.paths.Rectangle(width, height);
+    model.models.outline = new photon.models.Rectangle(width, height);
     
     // Corner mounting holes (3mm diameter, 2.5mm from corners)
-    var holes = [
+    const holes = [
         [holeOffset, holeOffset],                    // Bottom-left
         [width - holeOffset, holeOffset],            // Bottom-right  
         [width - holeOffset, height - holeOffset],   // Top-right
         [holeOffset, height - holeOffset]            // Top-left
     ];
     
-    for (var i = 0; i < holes.length; i++) {
-        model.paths['cornerHole' + (i + 1)] = new makerjs.paths.Circle(holes[i], holeDiameter / 2);
+    for (let i = 0; i < holes.length; i++) {
+        model.paths['cornerHole' + (i + 1)] = new photon.paths.Circle(holes[i], holeDiameter / 2);
     }
     
     return model;
@@ -53,24 +53,24 @@ function createBasicCase(width, height, holeDiameter, holeOffset) {
 // Add Raspberry Pi mounting holes
 function addRaspberryPiMounting(model, rpiX, rpiY) {
     // Standard RPi mounting hole positions (relative to bottom-left of board)
-    var rpiHoles = [
+    const rpiHoles = [
         [3.5, 3.5],
         [61.5, 3.5], 
         [3.5, 52.5],
         [61.5, 52.5]
     ];
     
-    for (var i = 0; i < rpiHoles.length; i++) {
-        var center = [rpiX + rpiHoles[i][0], rpiY + rpiHoles[i][1]];
-        model.paths['rpiHole' + (i + 1)] = new makerjs.paths.Circle(center, params.rpiMountHoleDiameter / 2);
+    for (let i = 0; i < rpiHoles.length; i++) {
+        const center = [rpiX + rpiHoles[i][0], rpiY + rpiHoles[i][1]];
+        model.paths['rpiHole' + (i + 1)] = new photon.paths.Circle(center, params.rpiMountHoleDiameter / 2);
     }
     
     // Add RPi outline for reference
-    model.paths.rpiOutline = new makerjs.paths.Rectangle(
+    model.models.rpiOutline = new photon.models.Rectangle(
         params.rpiWidth, 
-        params.rpiHeight, 
-        [rpiX, rpiY]
+        params.rpiHeight
     );
+    model.models.rpiOutline.origin = [rpiX, rpiY];
     
     return model;
 }
@@ -78,25 +78,27 @@ function addRaspberryPiMounting(model, rpiX, rpiY) {
 // Add touchscreen cutout
 function addScreenCutout(model, screenX, screenY) {
     // Screen cutout rectangle
-    model.paths.screenCutout = new makerjs.paths.Rectangle(
+    model.models.screenCutout = new photon.models.Rectangle(
         params.screenCutoutWidth,
-        params.screenCutoutHeight,
-        [screenX, screenY]
+        params.screenCutoutHeight
     );
+    model.models.screenCutout.origin = [screenX, screenY];
     
     // Screen outline for reference
-    model.paths.screenOutline = new makerjs.paths.Rectangle(
+    model.models.screenOutline = new photon.models.Rectangle(
         params.screenWidth,
-        params.screenHeight, 
-        [screenX - (params.screenWidth - params.screenCutoutWidth) / 2, 
-         screenY - (params.screenHeight - params.screenCutoutHeight) / 2]
+        params.screenHeight
     );
+    model.models.screenOutline.origin = [
+        screenX - (params.screenWidth - params.screenCutoutWidth) / 2, 
+        screenY - (params.screenHeight - params.screenCutoutHeight) / 2
+    ];
     
     return model;
 }
 
 // Build the complete case
-var basicCase = createBasicCase(
+const basicCase = createBasicCase(
     params.caseWidth, 
     params.caseHeight, 
     params.cornerHoleDiameter, 
@@ -104,14 +106,14 @@ var basicCase = createBasicCase(
 );
 
 // Position RPi in the case (centered horizontally, 20mm from bottom)
-var rpiX = (params.caseWidth - params.rpiWidth) / 2;
-var rpiY = 20;
-var caseWithRpi = addRaspberryPiMounting(basicCase, rpiX, rpiY);
+const rpiX = (params.caseWidth - params.rpiWidth) / 2;
+const rpiY = 20;
+const caseWithRpi = addRaspberryPiMounting(basicCase, rpiX, rpiY);
 
 // Position screen cutout (centered horizontally, 15mm from top)
-var screenX = (params.caseWidth - params.screenCutoutWidth) / 2;
-var screenY = params.caseHeight - params.screenCutoutHeight - 15;
-var completeCase = addScreenCutout(caseWithRpi, screenX, screenY);
+const screenX = (params.caseWidth - params.screenCutoutWidth) / 2;
+const screenY = params.caseHeight - params.screenCutoutHeight - 15;
+const completeCase = addScreenCutout(caseWithRpi, screenX, screenY);
 
 // Export the complete model
 this.paths = completeCase.paths;

@@ -935,3 +935,6 @@ export function increase(baseMeasure: IMeasure, addMeasure: IMeasure, augmentBas
 
         return !!isInside;
     }
+
+    /** Re-export point equality functions for backward compatibility with makerjs API. */
+    export { isPointEqual, isPointDistinct, isPointOnSlope } from './equal.js';

@@ -42,7 +42,6 @@ var makerjs = require("makerjs");
 var marked_1 = require("marked");
 var detective = require("detective");
 var opentypeLib = __importStar(require("opentype.js"));
-// Test comment for cache invalidation
 var QueryStringParams = /** @class */ (function () {
     function QueryStringParams(querystring) {
         if (querystring === void 0) { querystring = document.location.search.substring(1); }

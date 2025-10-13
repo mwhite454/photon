@@ -32,7 +32,7 @@ export module Pointer {
         if (!all[0].current || !all[1].current) {
             return null;
         }
-        return makerjs.measure.pointDistance(all[0].current.fromCanvas, all[1].current.fromCanvas);
+        return photon.measure.pointDistance(all[0].current.fromCanvas, all[1].current.fromCanvas);
     }
 
     function average(all: IPointer[], fromCanvas: boolean): Photon.IPoint {
@@ -89,7 +89,7 @@ export module Pointer {
         }
 
         public getPointRelative(ev: MouseEvent): IPointRelative {
-            var p = makerjs.point;
+            var p = photon.point;
             var panZoom = this.getZoom();
             var fromCanvas = p.subtract([ev.pageX, ev.pageY], Pointer.pageOffset(this.view));
             var fromView = p.subtract(fromCanvas, this.margin);
@@ -204,8 +204,8 @@ export module Pointer {
 
         public isWithinMargin(p: IPointRelative): boolean {
 
-            if (!makerjs.measure.isBetween(p.fromCanvas[0], this.margin[0], this.view.offsetWidth - this.margin[0], false)) return false;
-            if (!makerjs.measure.isBetween(p.fromCanvas[1], this.margin[1], this.view.offsetHeight - this.margin[1], false)) return false;
+            if (!photon.measure.isBetween(p.fromCanvas[0], this.margin[0], this.view.offsetWidth - this.margin[0], false)) return false;
+            if (!photon.measure.isBetween(p.fromCanvas[1], this.margin[1], this.view.offsetHeight - this.margin[1], false)) return false;
 
             return true;
         }
@@ -274,7 +274,7 @@ export module Pointer {
             pointer.current = pointRelative;
 
             var panZoom = pointer.current.panZoom;
-            var p = makerjs.point;
+            var p = photon.point;
             var panDelta: Photon.IPoint;
 
             if (this.count == 1) {
@@ -330,7 +330,7 @@ export module Pointer {
 
                     if (this.isClick) {
 
-                        var clickTravel = makerjs.measure.pointDistance(pointer.initial.fromCanvas, pointer.current.fromCanvas);
+                        var clickTravel = photon.measure.pointDistance(pointer.initial.fromCanvas, pointer.current.fromCanvas);
 
                         if (clickTravel <= clickDistance) {
                             this.onClick(pointer.eventTarget);
@@ -346,7 +346,7 @@ export module Pointer {
         }
 
         public scaleCenterPoint(panZoom: IPanZoom, newZoom: number, centerPointFromDrawingOrigin: Photon.IPoint) {
-            var p = makerjs.point;
+            var p = photon.point;
             var previousZoom = panZoom.zoom;
             var zoomDiff = newZoom / previousZoom;
             var previousScaledCenter = p.scale(centerPointFromDrawingOrigin, previousZoom);

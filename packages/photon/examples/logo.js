@@ -1,23 +1,23 @@
-var makerjs = require('./../target/js/node.maker.js');
+import * as photon from 'photon';
 
 function logo(or, ir, ear, outline, mHeight, serifHeight, speed, drop, columnWidth, spacing, step) {
 
-    var point = makerjs.point;
-    var path = makerjs.path;
-    var paths = makerjs.paths;
+   const point = photon.point;
+   const path = photon.path;
+   const paths = photon.paths;
 
     function bend(r, bendTop, x, trimTo, outer) {
 
         outer = outer || 0;
 
-        var hguide = new paths.Line([0, bendTop - r], [100, bendTop - r]);
-        var vguide = path.rotate(new paths.Line([x, 0], [x, 100]), -speed, [x, 0]);
-        var intersectionPoint = path.intersection(hguide, vguide).intersectionPoints[0];
-        var center = point.subtract(intersectionPoint, [makerjs.solvers.solveTriangleASA(90, r, speed), 0]);
+       const hguide = new paths.Line([0, bendTop - r], [100, bendTop - r]);
+       const vguide = path.rotate(new paths.Line([x, 0], [x, 100]), -speed, [x, 0]);
+       const intersectionPoint = path.intersection(hguide, vguide).intersectionPoints[0];
+       const center = point.subtract(intersectionPoint, [photon.solvers.solveTriangleASA(90, r, speed), 0]);
 
-        var arc = new paths.Arc(center, r + outer, - speed, 90 + drop);
+       const arc = new paths.Arc(center, r + outer, - speed, 90 + drop);
 
-        var Horizontal = path.rotate(
+       const Horizontal = path.rotate(
                 new paths.Line([-10, arc.origin[1] + r + outer], point.add(arc.origin, [0, r + outer])),
                 drop,
                 arc.origin
@@ -27,9 +27,9 @@ function logo(or, ir, ear, outline, mHeight, serifHeight, speed, drop, columnWid
             trimLine(Horizontal, 'origin', trimTo);
         }
 
-        var arcPoints = point.fromArc(arc);
+       const arcPoints = point.fromArc(arc);
 
-        var Vertical = new paths.Line([x + makerjs.solvers.solveTriangleASA(90, outer, speed), 0], arcPoints[0]);
+       const Vertical = new paths.Line([x + photon.solvers.solveTriangleASA(90, outer, speed), 0], arcPoints[0]);
 
         if (!outer) {
             trimLine(Vertical, 'origin', bottomGuide);
@@ -55,22 +55,22 @@ function logo(or, ir, ear, outline, mHeight, serifHeight, speed, drop, columnWid
         };
     }
 
-    var speedOutline = makerjs.solvers.solveTriangleASA(90, outline, speed);
+   const speedOutline = photon.solvers.solveTriangleASA(90, outline, speed);
 
-    var bottomGuide = new paths.Line([0, outline], [100, outline]);
+   const bottomGuide = new paths.Line([0, outline], [100, outline]);
 
-    var earline = path.rotate(new paths.Line([-ear, 0], [-ear, 100]), -speed, [-ear, 0]);
+   const earline = path.rotate(new paths.Line([-ear, 0], [-ear, 100]), -speed, [-ear, 0]);
 
-    var leg1 = new leg(mHeight, 0, earline);
-    var leg2 = new leg(mHeight - step, columnWidth + spacing, leg1.models.b2.paths.Vertical);
-    var leg3 = new leg(mHeight - 2 * step, 2 * (columnWidth + spacing), leg2.models.b2.paths.Vertical);
+   const leg1 = new leg(mHeight, 0, earline);
+   const leg2 = new leg(mHeight - step, columnWidth + spacing, leg1.models.b2.paths.Vertical);
+   const leg3 = new leg(mHeight - 2 * step, 2 * (columnWidth + spacing), leg2.models.b2.paths.Vertical);
 
-    var outBottom = new paths.Line([0, 0], leg3.models.b3.paths.Vertical.origin);
+   const outBottom = new paths.Line([0, 0], leg3.models.b3.paths.Vertical.origin);
 
-    var earPivot = leg1.models.b1.paths.Horizontal.origin;
-    var earH = path.rotate(new paths.Line(point.subtract(earPivot, [100, outline]), point.subtract(earPivot, [-100, outline])), drop, earPivot);
-    var outHome = trimLine(path.rotate(new paths.Line([0, 0], [0, 100]), -speed, [0, 0]), 'end', earH);
-    var earOutline = trimLine(path.rotate(new paths.Line([-ear - speedOutline, 0], [-ear - speedOutline, 100]), -speed, [-ear - speedOutline, 0]), 'origin', earH);
+   const earPivot = leg1.models.b1.paths.Horizontal.origin;
+   const earH = path.rotate(new paths.Line(point.subtract(earPivot, [100, outline]), point.subtract(earPivot, [-100, outline])), drop, earPivot);
+   const outHome = trimLine(path.rotate(new paths.Line([0, 0], [0, 100]), -speed, [0, 0]), 'end', earH);
+   const earOutline = trimLine(path.rotate(new paths.Line([-ear - speedOutline, 0], [-ear - speedOutline, 100]), -speed, [-ear - speedOutline, 0]), 'origin', earH);
 
     trimLines(earOutline, 'end', leg1.models.b3.paths.Horizontal, 'origin');
 
@@ -98,7 +98,7 @@ function logo(or, ir, ear, outline, mHeight, serifHeight, speed, drop, columnWid
 }
 
 function trimLine(line, propertyName, trimToPath) {
-    var intersection = makerjs.path.intersection(line, trimToPath);
+   const intersection = photon.path.intersection(line, trimToPath);
     if (intersection) {
         line[propertyName] = intersection.intersectionPoints[0];
     }
@@ -106,7 +106,7 @@ function trimLine(line, propertyName, trimToPath) {
 }
 
 function trimLines(line1, propertyName1, line2, propertyName2) {
-    var intersection = makerjs.path.intersection(line1, line2);
+   const intersection = photon.path.intersection(line1, line2);
     if (intersection) {
         line1[propertyName1] = intersection.intersectionPoints[0];
         line2[propertyName2] = intersection.intersectionPoints[0];
@@ -115,10 +115,10 @@ function trimLines(line1, propertyName1, line2, propertyName2) {
 }
 
 function trimBends(b1, b2) {
-    var intersection = trimLines(b1.paths.Vertical, 'origin', b2.paths.Horizontal, 'origin');
+   const intersection = trimLines(b1.paths.Vertical, 'origin', b2.paths.Horizontal, 'origin');
     if (intersection) return;
 
-    intersection = makerjs.path.intersection(b1.paths.arc, b2.paths.Horizontal);
+    intersection = photon.path.intersection(b1.paths.arc, b2.paths.Horizontal);
     if (intersection) {
         b1.paths.arc.startAngle = intersection.path1Angles[0];
         b2.paths.Horizontal.origin = intersection.intersectionPoints[0];
@@ -126,7 +126,7 @@ function trimBends(b1, b2) {
         return;
     }
 
-    intersection = makerjs.path.intersection(b1.paths.arc, b2.paths.arc);
+    intersection = photon.path.intersection(b1.paths.arc, b2.paths.arc);
     if (intersection) {
         b1.paths.arc.startAngle = intersection.path1Angles[0];
         b2.paths.arc.endAngle = intersection.path2Angles[0];
@@ -150,4 +150,4 @@ logo.metaParameters = [
     { title: "step", type: "range", min: 1.5, max: 2.7, step: .1, value: 2.31 },
 ];
 
-module.exports = logo;
+export default logo;

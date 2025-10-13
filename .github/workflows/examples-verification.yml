@@ -1,0 +1,24 @@
+name: Examples Verification
+
+on:
+  push:
+    branches:
+      - 004-all-examples-housed
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  verify-examples:
+    name: Verify Examples Modernization
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Make verification scripts executable
+        run: chmod +x specs/004-all-examples-housed/verification/*.sh
+      
+      - name: Run verification suite
+        run: ./specs/004-all-examples-housed/verification/verify-all.sh

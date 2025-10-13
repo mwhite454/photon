@@ -15,23 +15,34 @@ var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (
 }) : function(o, v) {
     o["default"] = v;
 });
-var __importStar = (this && this.__importStar) || function (mod) {
-    if (mod && mod.__esModule) return mod;
-    var result = {};
-    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
-    __setModuleDefault(result, mod);
-    return result;
-};
+var __importStar = (this && this.__importStar) || (function () {
+    var ownKeys = function(o) {
+        ownKeys = Object.getOwnPropertyNames || function (o) {
+            var ar = [];
+            for (var k in o) if (Object.prototype.hasOwnProperty.call(o, k)) ar[ar.length] = k;
+            return ar;
+        };
+        return ownKeys(o);
+    };
+    return function (mod) {
+        if (mod && mod.__esModule) return mod;
+        var result = {};
+        if (mod != null) for (var k = ownKeys(mod), i = 0; i < k.length; i++) if (k[i] !== "default") __createBinding(result, mod, k[i]);
+        __setModuleDefault(result, mod);
+        return result;
+    };
+})();
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 var fs = require("fs");
 var package_json_1 = __importDefault(require("./package.json"));
 var makerjs = require("makerjs");
 var marked_1 = require("marked");
 var detective = require("detective");
 var opentypeLib = __importStar(require("opentype.js"));
+// Test comment for cache invalidation
 var QueryStringParams = /** @class */ (function () {
     function QueryStringParams(querystring) {
         if (querystring === void 0) { querystring = document.location.search.substring(1); }
@@ -111,7 +122,7 @@ function getRequireKit(spec) {
     var key = split[0];
     var kvp = split[1];
     var result;
-    if (key in package_json_1["default"].dependencies) {
+    if (key in package_json_1.default.dependencies) {
         result = {
             ctor: require(key)
         };
@@ -157,8 +168,8 @@ function demoIndexPage() {
         stream.write(section(yourDemoHtml));
         stream.write(st.getOpeningTag(false));
         writeHeading(2, 'Models published on ' + anchor('NPM', 'https://www.npmjs.com/search?q=makerjs', 'search NPM for keyword "makerjs"'));
-        for (var i = 0; i < package_json_1["default"].ordered_demo_list.length; i++) {
-            var key = package_json_1["default"].ordered_demo_list[i];
+        for (var i = 0; i < package_json_1.default.ordered_demo_list.length; i++) {
+            var key = package_json_1.default.ordered_demo_list[i];
             var kit = getRequireKit(key);
             writeThumbnail(key, kit, '../');
         }
@@ -183,7 +194,7 @@ function homePage() {
     stream.once('open', function (fd) {
         stream.write(jekyll('default', 'Create parametric CNC drawings using JavaScript'));
         console.log('writing about markdown');
-        var readmeMarkdown = fs.readFileSync('../../README.md', 'UTF8');
+        var readmeMarkdown = fs.readFileSync('../../README.md', 'utf8');
         var sections = readmeMarkdown.split('\n## ');
         //remove H1 tag and make the slogan an H2
         var topSection = sections[0].replace('# Maker.js\r\n\r\n', '## ');
@@ -192,8 +203,8 @@ function homePage() {
         h2.innerText = 'Latest demos';
         var demos = [h2.toString()];
         var max = 6;
-        for (var i = 0; i < package_json_1["default"].ordered_demo_list.length && i < max; i++) {
-            var key = package_json_1["default"].ordered_demo_list[i];
+        for (var i = 0; i < package_json_1.default.ordered_demo_list.length && i < max; i++) {
+            var key = package_json_1.default.ordered_demo_list[i];
             var kit = getRequireKit(key);
             demos.push(thumbnail(key, kit, ''));
         }
@@ -216,7 +227,7 @@ function copyRequire(hint, root, key, copyTo) {
     var dirjson = null;
     try {
         console.log("trying ".concat(dirpath));
-        dirjson = fs.readFileSync(dirpath + 'package.json', 'UTF8');
+        dirjson = fs.readFileSync(dirpath + 'package.json', 'utf8');
     }
     catch (e) {
         return false;
@@ -226,11 +237,11 @@ function copyRequire(hint, root, key, copyTo) {
     var djson = JSON.parse(dirjson);
     var main = djson.main;
     console.log("src ".concat(dirpath + main));
-    var src = fs.readFileSync(dirpath + main, 'UTF8');
+    var src = fs.readFileSync(dirpath + main, 'utf8');
     allRequires[key] = 1;
     var name = removeOrg(key);
     console.log("write copyTo:".concat(copyTo, " name:").concat(name));
-    fs.writeFileSync('./js/' + copyTo + name + '.js', src, 'UTF8');
+    fs.writeFileSync('./js/' + copyTo + name + '.js', src, 'utf8');
     var requires = detective(src);
     console.log('...requires ' + requires.length + ' libraries');
     for (var i = 0; i < requires.length; i++) {
@@ -253,7 +264,7 @@ function removeOrg(key) {
 }
 function copyDependencies() {
     var root = './';
-    for (var key in package_json_1["default"].dependencies) {
+    for (var key in package_json_1.default.dependencies) {
         copyRequire('dependency', './node_modules', key, '');
     }
 }

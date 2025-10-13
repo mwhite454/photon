@@ -17,26 +17,31 @@ Photon will be the **go-to library** for makers, hobbyists, and professionals wh
 ## Near-Term (3-6 months) - Foundation
 
 ### ✅ Completed
+
 - [x] Monaco Editor integration (VS Code-like experience)
 - [x] ES6+ syntax support in playground
 - [x] Project constitution established
 - [x] TypeScript 5.x upgrade
 
 ### 🎯 In Progress
-- [ ] **Rebrand to Photon** (Current focus - see specs/001-rebrand-from-maker/)
+
+- [x] **Rebrand to Photon** (Current focus - see specs/001-rebrand-from-maker/)
   - Core identity and legal attribution
   - Documentation and web presence
   - Migration guide for Maker.js users
   - This roadmap document
 
 ### 📋 Planned
+
 - [ ] **Modern Build System**
+
   - Migrate from Browserify to Vite
   - ES modules as primary distribution format
   - Tree-shaking support for smaller bundles
   - Source maps for better debugging
 
 - [ ] **Enhanced Playground**
+
   - Live preview with real-time updates
   - Share/save designs (local storage + optional cloud)
   - Export preview before download
@@ -55,13 +60,16 @@ Photon will be the **go-to library** for makers, hobbyists, and professionals wh
 ## Mid-Term (6-12 months) - Growth
 
 ### Developer Experience
+
 - [ ] **TypeScript-First Development**
+
   - Rewrite core library in TypeScript (currently compiled from TS but uses namespace pattern)
   - Proper ES module exports
   - Enhanced IntelliSense and type safety
   - Generic types for extensibility
 
 - [ ] **Plugin System**
+
   - Official plugin API for custom models
   - Community plugin registry
   - Hot-reload plugins in playground
@@ -74,13 +82,16 @@ Photon will be the **go-to library** for makers, hobbyists, and professionals wh
   - CI/CD pipeline with automated releases
 
 ### User Features
+
 - [ ] **Observable-Style Notebooks** (Constitutional goal)
+
   - Reactive cells for iterative design
   - Inline visualization
   - Export to standalone HTML
   - Integration with Observable HQ
 
 - [ ] **Enhanced Export Formats**
+
   - G-code generation for CNC
   - Improved DXF with layer support
   - PDF with multiple pages
@@ -94,7 +105,9 @@ Photon will be the **go-to library** for makers, hobbyists, and professionals wh
   - Feed rate recommendations
 
 ### Community Building
+
 - [ ] **Community Gallery**
+
   - User-submitted designs
   - Voting and favorites
   - Remix/fork functionality
@@ -109,13 +122,16 @@ Photon will be the **go-to library** for makers, hobbyists, and professionals wh
 ## Long-Term (1-2 years) - Innovation
 
 ### Advanced Features
+
 - [ ] **3D Extrusion & Visualization**
+
   - Preview 3D extrusions from 2D paths
   - STL import/export improvements
   - WebGL-based 3D viewer
   - Assembly modeling (multiple parts)
 
 - [ ] **AI-Assisted Design**
+
   - Natural language to design ("create a gear with 20 teeth")
   - Design optimization suggestions
   - Automatic constraint solving
@@ -128,13 +144,16 @@ Photon will be the **go-to library** for makers, hobbyists, and professionals wh
   - Team workspaces
 
 ### Platform Expansion
+
 - [ ] **Desktop Application**
+
   - Electron-based standalone app
   - Offline-first functionality
   - Native file system integration
   - Hardware integration (direct machine control)
 
 - [ ] **Mobile Apps**
+
   - iOS/Android apps for design viewing
   - Simple editing on tablets
   - AR preview (hold phone over material)
@@ -147,7 +166,9 @@ Photon will be the **go-to library** for makers, hobbyists, and professionals wh
   - Integration with fabrication services
 
 ### Ecosystem
+
 - [ ] **Photon Studio** (Visual Editor)
+
   - Drag-and-drop interface for non-coders
   - Code generation from visual designs
   - Hybrid visual + code workflow
@@ -162,12 +183,14 @@ Photon will be the **go-to library** for makers, hobbyists, and professionals wh
 ## What Makes Photon Different
 
 ### From Maker.js (Original)
+
 - ✅ **Active Maintenance**: Regular updates, bug fixes, community support
 - ✅ **Modern Tooling**: Monaco Editor, ES6+, modern build system
 - ✅ **Better UX**: Welcoming playground, clear docs, helpful errors
 - ✅ **Community-Driven**: Open governance, responsive to user needs
 
 ### From Other CAD Tools
+
 - **Programmatic**: Code-first approach for parametric designs
 - **Lightweight**: Runs in browser, no installation required
 - **Open Source**: Free, transparent, extensible
@@ -209,4 +232,4 @@ This roadmap is a living document. We want to hear from you:
 
 **Photon: Illuminate your designs. ✨**
 
-*This roadmap will be finalized and moved to the root directory as part of the rebrand implementation.*
+_This roadmap will be finalized and moved to the root directory as part of the rebrand implementation._

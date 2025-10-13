@@ -558,7 +558,7 @@ export function setProcessedModel(model, error) {
         initialize();
     }
     //todo: find minimum viewScale
-    if (!makerjs.maker.isPoint(processed.model.origin))
+    if (!makerjs.point.isPoint(processed.model.origin))
         processed.model.origin = [0, 0];
     var newMeasurement = makerjs.measure.modelExtents(processed.model);
     makerjs.model.getAllCaptionsOffset(processed.model).forEach(caption => {

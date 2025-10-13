@@ -8,10 +8,7 @@
     "moduleResolution": "node",
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "skipLibCheck": true,
-    "types": [
-      "node"
-    ]
+    "skipLibCheck": true
   },
   "files": [
     "src/globals.d.ts",

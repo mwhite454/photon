@@ -1,7 +1,8 @@
 // Global type declarations for playground
 
 // Photon global (loaded via script tag)
-declare const makerjs: any;
+// Note: Still referenced as 'makerjs' in many places - needs rebrand cleanup
+declare var makerjs: any;
 declare namespace Photon {
     interface IModel {
         [key: string]: any;
@@ -85,3 +86,69 @@ declare namespace MonacoEditorAdapter {
 
 // Marked library (loaded via script tag)
 declare function marked(markdown: string): string;
+
+// PDFKit library (loaded via script tag in workers)
+declare namespace PDFKit {
+    interface PDFDocumentOptions {
+        [key: string]: any;
+    }
+    interface PDFDocument {
+        new(options?: PDFDocumentOptions): PDFDocument;
+        [key: string]: any;
+    }
+}
+
+// jscad library (loaded via script tag in workers)
+declare const jscad: {
+    CAG: any;
+    StlSerializer: any;
+    [key: string]: any;
+};
+
+// Playground Export types (defined in iexport.ts)
+declare namespace PhotonPlaygroundExport {
+    enum ExportFormat {
+        Json,
+        Dxf,
+        Svg,
+        SvgPathData,
+        OpenJsCad,
+        Stl,
+        Pdf
+    }
+    interface IExportRequest {
+        format: ExportFormat;
+        formatTitle: string;
+        model: Photon.IModel;
+        options: Photon.exporter.IExportOptions;
+    }
+    interface IExportResponse {
+        format: ExportFormat;
+        formatTitle: string;
+        error: string;
+        text: string;
+        percentComplete: number;
+    }
+}
+
+// Playground Render types (defined in irender.ts)
+declare namespace PhotonPlaygroundRender {
+    interface IRenderRequest {
+        requestId: number;
+        javaScript?: string;
+        orderedDependencies?: string[];
+        dependencyUrls?: { [id: string]: string };
+        paramValues?: any[];
+        kit?: Photon.IKit;
+        fontDir?: string;
+    }
+    interface IRenderResponse {
+        requestId: number;
+        model?: Photon.IModel;
+        html?: string;
+        error?: string;
+    }
+}
+
+// Playground global (used in render-worker)
+declare const PhotonPlayground: any;

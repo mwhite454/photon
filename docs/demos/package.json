@@ -12,7 +12,7 @@
   "devDependencies": {
     "@types/detective": "^5.1.2",
     "@types/marked": "^4.0.3",
-    "@types/node": "^10.5.7",
+    "@types/node": "^20.0.0",
     "@types/opentype.js": "^0.7.0",
     "detective": "^5.2.0",
     "highlight.js": "^11.5.1",

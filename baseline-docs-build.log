@@ -1,0 +1,91 @@
+
+> photon-dev@1.0.0 docs
+> lerna run docs --parallel
+
+lerna notice cli v6.6.2
+
+> @photon/docs:docs
+
+> @photon/docs@1.0.0 predocs
+> npm run cleandocs
+> @photon/docs@1.0.0 cleandocs
+> rimraf ../../docs/docs/api
+> @photon/docs@1.0.0 docs
+> typedoc ../photon/src --entryPointStrategy expand --excludeExternals --excludePrivate --gitRevision main --name Photon --readme none --theme ./typedoc-theme --out ../../docs/docs/api
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/core/angle.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/core/base.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/core/boolean-utils.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/core/break.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/core/cascades.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/core/chain.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/core/collect.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/core/combine.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/core/deadend.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/core/dxf.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/core/equal.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/core/expand.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/core/exporter-index.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/core/exporter.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/core/fillet-chain.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/core/fillet-core.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/core/fillet-path.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/core/importer.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/core/intersect.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/core/kit.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/core/layout.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/core/maker.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/core/measure-minimal.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/core/measure.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/core/model.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/core/openjscad-esm.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/core/path.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/core/paths.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/core/pdf-esm.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/core/point.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/core/schema.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/core/simplify.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/core/solvers.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/core/svg-esm.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/core/svg-helpers.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/core/units.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/core/xml.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/index.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/models/Belt.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/models/BezierCurve-esm.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/models/BoltCircle.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/models/BoltRectangle.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/models/ConnectTheDots.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/models/Dogbone.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/models/Dome.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/models/Ellipse.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/models/Holes.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/models/Oval.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/models/OvalArc.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/models/Polygon.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/models/Rectangle.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/models/Ring.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/models/RoundRectangle.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/models/SCurve.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/models/Slot.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/models/Square.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/models/Star.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/models/Text.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/models/index.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[93m[warning][0m The entry point /Users/mykawhite/Documents/GitHub/photon/packages/photon/src/types/jscad.d.ts is not referenced by the 'files' or 'include' option in your tsconfig
+[91m[error][0m Unable to find any entry points. See previous warnings
+[91m[error][0m Found 1 errors and 60 warnings
+
+ 
+
+ >  Lerna (powered by Nx)   Running target docs for project @photon/docs failed
+
+   Failed tasks:
+   
+   - @photon/docs:docs
+   
+   Hint: run the command with --verbose for more details.
+
+
+real	0m2.349s
+user	0m2.929s
+sys	0m0.635s

@@ -1,19 +1,38 @@
+# Dependencies
 node_modules
+
+# Build outputs
+**/dist/
+*.js.map
+packages/photon/dist/
+packages/fonts/gen.js
+packages/playground/dist/
+docs/demos/demoify.js
+docs/demos/js/
+
+# Generated documentation
+docs/docs/api/
+
+# IDE and OS
 web.config
 *.sln
 .vs
 .vscode
-docs/docs/api/assets
+.DS_Store
+Thumbs.db
+
+# Debug and logs
 debug.log
-packages/docs/dist
 packages/maker.js/debug
-packages/maker.js/dist
+packages/*/debug/
+
+# Legacy/deprecated
 packages/maker.js/LICENSE
 packages/maker.js/README.md
+
+# Jekyll
 Gemfile
 Gemfile.lock
 _site
 .jekyll-metadata
 .jekyll-cache
-.DS_Store
-Thumbs.db

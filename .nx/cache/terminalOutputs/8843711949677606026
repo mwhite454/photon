@@ -1,0 +1,11 @@
+
+> @photon/playground@1.0.0 build
+> tsc -p . && tsc -p src/worker
+
+src/worker/export-worker.ts(27,5): error TS2403: Subsequent variable declarations must have the same type.  Variable 'makerjs' must be of type 'any', but here has type 'typeof Photon'.
+src/worker/export-worker.ts(83,38): error TS2503: Cannot find namespace 'jscad'.
+src/worker/render-worker.ts(49,5): error TS2403: Subsequent variable declarations must have the same type.  Variable 'makerjs' must be of type 'any', but here has type 'typeof Photon'.
+npm ERR! Lifecycle script `build` failed with error: 
+npm ERR! Error: command failed 
+npm ERR!   in workspace: @photon/playground@1.0.0 
+npm ERR!   at location: /Users/mykawhite/Documents/GitHub/photon/packages/playground 

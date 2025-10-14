@@ -5,26 +5,26 @@ source: docs/docs/api/functions/core_angle.ofChainLinkJoint.html
 
 ofChainLinkJoint | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/angle](../modules/core_angle.html)
+* [core/angle](../modules/core_angle.md)
 * ofChainLinkJoint
 
 # Function ofChainLinkJoint
 
-* ofChainLinkJoint(linkA: [IChainLink](../interfaces/core_angle.IChainLink.html), linkB: [IChainLink](../interfaces/core_angle.IChainLink.html)): number
+* ofChainLinkJoint(linkA: [IChainLink](../interfaces/core_angle.IChainLink.md), linkB: [IChainLink](../interfaces/core_angle.IChainLink.md)): number
 
   Get the angle of a joint between 2 chain links.
 
   #### Parameters
 
-  + linkA: [IChainLink](../interfaces/core_angle.IChainLink.html)
-  + linkB: [IChainLink](../interfaces/core_angle.IChainLink.html)
+  + linkA: [IChainLink](../interfaces/core_angle.IChainLink.md)
+  + linkB: [IChainLink](../interfaces/core_angle.IChainLink.md)
 
   #### Returns number
 
@@ -39,7 +39,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

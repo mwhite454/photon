@@ -5,14 +5,14 @@ source: docs/docs/api/functions/core_base.extendObject.html
 
 extendObject | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/base](../modules/core_base.html)
+* [core/base](../modules/core_base.md)
 * extendObject
 
 # Function extendObject
@@ -40,7 +40,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

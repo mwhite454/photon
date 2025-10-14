@@ -5,14 +5,14 @@ source: docs/docs/api/interfaces/core_maker.IContainChainsOptions.html
 
 IContainChainsOptions | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.html)
+* [core/maker](../modules/core_maker.md)
 * IContainChainsOptions
 
 # Interface IContainChainsOptions
@@ -56,7 +56,7 @@ Properties
 
 [alternateDirection](#alternatedirection)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

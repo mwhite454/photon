@@ -5,28 +5,28 @@ source: docs/docs/api/functions/core_measure.pointDistance.html
 
 pointDistance | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/measure](../modules/core_measure.html)
+* [core/measure](../modules/core_measure.md)
 * pointDistance
 
 # Function pointDistance
 
-* pointDistance(a: [IPoint](../interfaces/core_schema.IPoint.html), b: [IPoint](../interfaces/core_schema.IPoint.html)): number
+* pointDistance(a: [IPoint](../interfaces/core_schema.IPoint.md), b: [IPoint](../interfaces/core_schema.IPoint.md)): number
 
   Calculates the distance between two points.
 
   #### Parameters
 
-  + a: [IPoint](../interfaces/core_schema.IPoint.html)
+  + a: [IPoint](../interfaces/core_schema.IPoint.md)
 
     First point.
-  + b: [IPoint](../interfaces/core_schema.IPoint.html)
+  + b: [IPoint](../interfaces/core_schema.IPoint.md)
 
     Second point.
 
@@ -45,7 +45,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

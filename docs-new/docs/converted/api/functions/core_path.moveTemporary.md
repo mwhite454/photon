@@ -5,26 +5,26 @@ source: docs/docs/api/functions/core_path.moveTemporary.html
 
 moveTemporary | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/path](../modules/core_path.html)
+* [core/path](../modules/core_path.md)
 * moveTemporary
 
 # Function moveTemporary
 
-* moveTemporary(pathsToMove: [IPath](../interfaces/core_schema.IPath.html)[], deltas: [IPoint](../interfaces/core_schema.IPoint.html)[], task: Function): void
+* moveTemporary(pathsToMove: [IPath](../interfaces/core_schema.IPath.md)[], deltas: [IPoint](../interfaces/core_schema.IPoint.md)[], task: Function): void
 
   Move some paths relatively during a task execution, then unmove them.
 
   #### Parameters
 
-  + pathsToMove: [IPath](../interfaces/core_schema.IPath.html)[]
-  + deltas: [IPoint](../interfaces/core_schema.IPoint.html)[]
+  + pathsToMove: [IPath](../interfaces/core_schema.IPath.md)[]
+  + deltas: [IPoint](../interfaces/core_schema.IPoint.md)[]
   + task: Function
 
   #### Returns void
@@ -40,7 +40,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

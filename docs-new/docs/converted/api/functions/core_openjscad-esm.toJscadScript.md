@@ -5,28 +5,28 @@ source: docs/docs/api/functions/core_openjscad-esm.toJscadScript.html
 
 toJscadScript | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/openjscad-esm](../modules/core_openjscad-esm.html)
+* [core/openjscad-esm](../modules/core_openjscad-esm.md)
 * toJscadScript
 
 # Function toJscadScript
 
-* toJscadScript(modelToExport: [IModel](../interfaces/core_schema.IModel.html), options?: [IJscadScriptOptions](../interfaces/core_openjscad-esm.IJscadScriptOptions.html)): string
+* toJscadScript(modelToExport: [IModel](../interfaces/core_schema.IModel.md), options?: [IJscadScriptOptions](../interfaces/core_openjscad-esm.IJscadScriptOptions.md)): string
 
   Creates a string of JavaScript code for execution with a Jscad environment.
 
   #### Parameters
 
-  + modelToExport: [IModel](../interfaces/core_schema.IModel.html)
+  + modelToExport: [IModel](../interfaces/core_schema.IModel.md)
 
     Model object to export.
-  + options: [IJscadScriptOptions](../interfaces/core_openjscad-esm.IJscadScriptOptions.html) = {}
+  + options: [IJscadScriptOptions](../interfaces/core_openjscad-esm.IJscadScriptOptions.md) = {}
 
     Export options object.
 
@@ -47,7 +47,7 @@ Preparing search index...
     - ##### `Optional`indent?: number
 
       Optional number of spaces to indent.
-    - ##### `Optional`layerOptions?: { [layerId: string]: [IJscadExtrudeOptions](../interfaces/core_openjscad-esm.IJscadExtrudeOptions.html) }
+    - ##### `Optional`layerOptions?: { [layerId: string]: [IJscadExtrudeOptions](../interfaces/core_openjscad-esm.IJscadExtrudeOptions.md) }
 
       SVG options per layer.
     - ##### `Optional`maxArcFacet?: number
@@ -56,7 +56,7 @@ Preparing search index...
     - ##### `Optional`pointMatchingDistance?: number
 
       Max distance to consider two points as the same.
-    - ##### `Optional`statusCallback?: [IStatusCallback](../interfaces/core_openjscad-esm.IStatusCallback.html)
+    - ##### `Optional`statusCallback?: [IStatusCallback](../interfaces/core_openjscad-esm.IStatusCallback.md)
 
       Optional callback to get status during the export.
     - ##### `Optional`units?: string
@@ -81,7 +81,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

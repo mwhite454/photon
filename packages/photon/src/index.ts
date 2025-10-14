@@ -4,6 +4,12 @@ export * from './models/index.js';
 // Export commonly used utility functions at top level for convenience
 export { round } from './core/maker.js';
 
+// Export functional composition utilities
+export { pipe, compose } from './core/functional.js';
+
+// Export legacy cascade API (deprecated - use pipe/compose for new code)
+export { $ } from './core/maker.js';
+
 // Export utilities
 export * as schema from './core/schema.js';
 export * as maker from './core/maker.js';
@@ -11,6 +17,13 @@ export * as angle from './core/angle.js';
 export * as point from './core/point.js';
 export * as path from './core/path.js';
 export * as paths from './core/paths.js';
+
+// Register modules for cascade functionality (must be after imports)
+import { registerCascadeModules } from './core/maker.js';
+import * as _model from './core/model.js';
+import * as _path from './core/path.js';
+import * as _point from './core/point.js';
+registerCascadeModules(_model, _path, _point);
 export * as units from './core/units.js';
 export * as equal from './core/equal.js';
 export * as collect from './core/collect.js';

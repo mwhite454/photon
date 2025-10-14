@@ -5,25 +5,25 @@ source: docs/docs/api/functions/core_measure.isBezierSeedLinear.html
 
 isBezierSeedLinear | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/measure](../modules/core_measure.html)
+* [core/measure](../modules/core_measure.md)
 * isBezierSeedLinear
 
 # Function isBezierSeedLinear
 
-* isBezierSeedLinear(seed: [IPathBezierSeed](../interfaces/core_schema.IPathBezierSeed.html), exclusive?: boolean): boolean
+* isBezierSeedLinear(seed: [IPathBezierSeed](../interfaces/core_schema.IPathBezierSeed.md), exclusive?: boolean): boolean
 
   Check if a given bezier seed has all points on the same slope.
 
   #### Parameters
 
-  + seed: [IPathBezierSeed](../interfaces/core_schema.IPathBezierSeed.html)
+  + seed: [IPathBezierSeed](../interfaces/core_schema.IPathBezierSeed.md)
 
     The bezier seed to test.
   + `Optional`exclusive: boolean
@@ -45,7 +45,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

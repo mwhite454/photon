@@ -5,14 +5,14 @@ source: docs/docs/api/interfaces/core_maker.ISlope.html
 
 ISlope | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.html)
+* [core/maker](../modules/core_maker.md)
 * ISlope
 
 # Interface ISlope
@@ -21,7 +21,7 @@ Slope and y-intercept of a line.
 
 interface ISlope {
     [hasSlope](#hasslope): boolean;
-    [line](#line): [IPathLine](core_schema.IPathLine.html);
+    [line](#line): [IPathLine](core_schema.IPathLine.md);
     [slope](#slope)?: number;
     [yIntercept](#yintercept)?: number;
 }
@@ -47,7 +47,7 @@ hasSlope: boolean
 
 ### line
 
-line: [IPathLine](core_schema.IPathLine.html)
+line: [IPathLine](core_schema.IPathLine.md)
 
 * Defined in [core/maker.ts:223](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L223)
 
@@ -78,7 +78,7 @@ Properties
 
 [hasSlope](#hasslope)[line](#line)[slope](#slope)[yIntercept](#yintercept)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

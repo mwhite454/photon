@@ -5,14 +5,14 @@ source: docs/docs/api/interfaces/core_maker.IMeasure.html
 
 IMeasure | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.html)
+* [core/maker](../modules/core_maker.md)
 * IMeasure
 
 # Interface IMeasure
@@ -20,14 +20,14 @@ Preparing search index...
 A measurement of extents, the high and low points.
 
 interface IMeasure {
-    [high](#high): [IPoint](core_schema.IPoint.html);
-    [low](#low): [IPoint](core_schema.IPoint.html);
+    [high](#high): [IPoint](core_schema.IPoint.md);
+    [low](#low): [IPoint](core_schema.IPoint.md);
 }
 
-#### Hierarchy ([View Summary](../hierarchy.html#core/maker.IMeasure))
+#### Hierarchy ([View Summary](../hierarchy.md#core/maker.IMeasure))
 
 * IMeasure
-  + [IMeasureWithCenter](core_maker.IMeasureWithCenter.html)
+  + [IMeasureWithCenter](core_maker.IMeasureWithCenter.md)
 
 * Defined in [core/maker.ts:156](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L156)
 
@@ -42,13 +42,13 @@ interface IMeasure {
 
 ### high
 
-high: [IPoint](core_schema.IPoint.html)
+high: [IPoint](core_schema.IPoint.md)
 
 * Defined in [core/maker.ts:158](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L158)
 
 ### low
 
-low: [IPoint](core_schema.IPoint.html)
+low: [IPoint](core_schema.IPoint.md)
 
 * Defined in [core/maker.ts:157](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L157)
 
@@ -67,7 +67,7 @@ Properties
 
 [high](#high)[low](#low)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

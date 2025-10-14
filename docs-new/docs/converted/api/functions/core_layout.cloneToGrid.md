@@ -5,24 +5,24 @@ source: docs/docs/api/functions/core_layout.cloneToGrid.html
 
 cloneToGrid | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/layout](../modules/core_layout.html)
+* [core/layout](../modules/core_layout.md)
 * cloneToGrid
 
 # Function cloneToGrid
 
 * cloneToGrid(
-      itemToClone: [IPath](../interfaces/core_schema.IPath.html) | [IModel](../interfaces/core_schema.IModel.html),
+      itemToClone: [IPath](../interfaces/core_schema.IPath.md) | [IModel](../interfaces/core_schema.IModel.md),
       xCount: number,
       yCount: number,
-      margin?: number | [IPoint](../interfaces/core_schema.IPoint.html),
-  ): [IModel](../interfaces/core_schema.IModel.html)
+      margin?: number | [IPoint](../interfaces/core_schema.IPoint.md),
+  ): [IModel](../interfaces/core_schema.IModel.md)
 
   Layout clones in a grid format.
 
@@ -30,27 +30,27 @@ Preparing search index...
 
   ```
   //Grid of squares
-  import * as makerjs from 'maker.js';
-  const square = new makerjs.models.Square(43);
-  const grid = makerjs.layout.cloneToGrid(square, 5, 5, 7);
-  document.write(makerjs.exporter.toSVG(grid));
+  import { exporter, layout, models } from 'photon/core';
+  const square = new models.Square(43);
+  const grid = layout.cloneToGrid(square, 5, 5, 7);
+  document.write(exporter.toSVG(grid));
   Copy
   ```
 
   #### Parameters
 
-  + itemToClone: [IPath](../interfaces/core_schema.IPath.html) | [IModel](../interfaces/core_schema.IModel.html)
+  + itemToClone: [IPath](../interfaces/core_schema.IPath.md) | [IModel](../interfaces/core_schema.IModel.md)
   + xCount: number
 
     Number of columns in the grid.
   + yCount: number
 
     Number of rows in the grid.
-  + `Optional`margin: number | [IPoint](../interfaces/core_schema.IPoint.html)
+  + `Optional`margin: number | [IPoint](../interfaces/core_schema.IPoint.md)
 
     Optional numeric distance between each clone. Can also be a 2 dimensional array of numbers, to specify distances in x and y dimensions.
 
-  #### Returns [IModel](../interfaces/core_schema.IModel.html)
+  #### Returns [IModel](../interfaces/core_schema.IModel.md)
 
   A new model with clones in a grid layout.
 
@@ -65,7 +65,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

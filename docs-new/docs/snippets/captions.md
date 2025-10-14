@@ -3,13 +3,9 @@ title: Captions
 source: docs/_snippets/captions.html
 ---
 
----
-title: Captions
----
-
 Captions are fragments of text that can be positioned anywhere in your model,
 useful for adding documentation within your drawing.
-Captions are unlike the [Text model](/docs/advanced-drawing/#Fonts%20and%20text), which is a line drawing of glyphs in a given font.
+Captions are unlike the [Text model](/docs/advanced-drawing/index.md#Fonts%20and%20text), which is a line drawing of glyphs in a given font.
 
 A caption is aligned to an invisible line called an anchor.
 The caption text is centered both horizontally and vertically at the center point of the anchor line.
@@ -18,7 +14,7 @@ The text and anchor line do not need to be the same length, the anchor line is o
 The anchor line may be rotated to angle the caption text.
 Anchor lines are moved, originated, scaled, distorted and rotated accoordingly within a model.
 The font size of caption text is determined when you export your model.
-A caption can be put on a different [layer](/docs/intermediate-drawing/#Layers) from it's model by setting the layer of it's anchor.
+A caption can be put on a different [layer](/docs/intermediate-drawing/index.md#Layers) from it's model by setting the layer of it's anchor.
 Note: In the Playground, caption text does not scale when you zoom in or out.
 
 #### Creating a caption object
@@ -32,26 +28,26 @@ Add this to a model via the **caption** property:
 
 ```javascript
 //add a caption to a model
-var makerjs = require('makerjs');
-var square = new makerjs.models.Square(100);
+import { exporter, model, models, paths } from 'photon/core';
+const square = new models.Square(100);
 square.caption = {
 text: "a square",
-anchor: new makerjs.paths.Line([0, 50], [100, 50])
+anchor: new paths.Line([0, 50], [100, 50])
 };
-var svg = makerjs.exporter.toSVG(square);
+const svg = exporter.toSVG(square);
 document.write(svg);
 ```
 
-There is a helper function [makerjs.model.addCaption(text, [optional] leftAnchorPoint, [optional] rightAnchorPoint)](/docs/api/modules/makerjs.model.html#addcaption)
+There is a helper function [model.addCaption(text, [optional] leftAnchorPoint, [optional] rightAnchorPoint)](/docs/api/modules/model.html#addcaption)
 which lets you add a caption on one line of code:
 
 ```javascript
 //add a caption to a model with the helper
-var makerjs = require('makerjs');
-var square = new makerjs.models.Square(100);
-makerjs.model.addPath(square, new makerjs.paths.Line([10, 10], [90, 90]));
-makerjs.model.addCaption(square, 'fold here', [10, 20], [80, 90]);
-var svg = makerjs.exporter.toSVG(square);
+import { exporter, model, models, paths } from 'photon/core';
+const square = new models.Square(100);
+model.addPath(square, new paths.Line([10, 10], [90, 90]));
+model.addCaption(square, 'fold here', [10, 20], [80, 90]);
+const svg = exporter.toSVG(square);
 document.write(svg);
 ```
 
@@ -60,11 +56,11 @@ which will remain horizontally aligned regardless of model rotation:
 
 ```javascript
 //add a caption that will not rotate
-var makerjs = require('makerjs');
-var square = makerjs.$(new makerjs.models.Square(100))
+import { exporter, model, models, paths } from 'photon/core';
+const square = makerjs.$(new models.Square(100))
 .addCaption('always aligned', [50, 50], [50, 50])
 .rotate(22)
 .$result;
-var svg = makerjs.exporter.toSVG(square);
+const svg = exporter.toSVG(square);
 document.write(svg);
 ```

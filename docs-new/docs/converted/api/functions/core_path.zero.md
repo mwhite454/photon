@@ -5,27 +5,27 @@ source: docs/docs/api/functions/core_path.zero.html
 
 zero | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/path](../modules/core_path.html)
+* [core/path](../modules/core_path.md)
 * zero
 
 # Function zero
 
-* zero(pathToZero: [IPath](../interfaces/core_schema.IPath.html)): [IPath](../interfaces/core_schema.IPath.html)
+* zero(pathToZero: [IPath](../interfaces/core_schema.IPath.md)): [IPath](../interfaces/core_schema.IPath.md)
 
   Move a path so its bounding box begins at [0, 0].
 
   #### Parameters
 
-  + pathToZero: [IPath](../interfaces/core_schema.IPath.html)
+  + pathToZero: [IPath](../interfaces/core_schema.IPath.md)
 
-  #### Returns [IPath](../interfaces/core_schema.IPath.html)
+  #### Returns [IPath](../interfaces/core_schema.IPath.md)
 
   + Defined in [core/path.ts:412](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/path.ts#L412)
 
@@ -38,7 +38,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

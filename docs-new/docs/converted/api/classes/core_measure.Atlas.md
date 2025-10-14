@@ -5,14 +5,14 @@ source: docs/docs/api/classes/core_measure.Atlas.html
 
 Atlas | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/measure](../modules/core_measure.html)
+* [core/measure](../modules/core_measure.md)
 * Atlas
 
 # Class Atlas
@@ -54,13 +54,13 @@ object with low and high points.
 
 ### constructor
 
-* new Atlas(modelContext: [IModel](../interfaces/core_schema.IModel.html)): Atlas
+* new Atlas(modelContext: [IModel](../interfaces/core_schema.IModel.md)): Atlas
 
   Constructor.
 
   #### Parameters
 
-  + modelContext: [IModel](../interfaces/core_schema.IModel.html)
+  + modelContext: [IModel](../interfaces/core_schema.IModel.md)
 
     The model to measure.
 
@@ -72,7 +72,7 @@ object with low and high points.
 
 ### modelContext
 
-modelContext: [IModel](../interfaces/core_schema.IModel.html)
+modelContext: [IModel](../interfaces/core_schema.IModel.md)
 
 The model to measure.
 
@@ -80,7 +80,7 @@ The model to measure.
 
 ### modelMap
 
-modelMap: [IMeasureMap](../interfaces/core_maker.IMeasureMap.html) = {}
+modelMap: [IMeasureMap](../interfaces/core_maker.IMeasureMap.md) = {}
 
 Map of model measurements, mapped by routeKey.
 
@@ -96,7 +96,7 @@ Flag that models have been measured.
 
 ### pathMap
 
-pathMap: [IMeasureMap](../interfaces/core_maker.IMeasureMap.html) = {}
+pathMap: [IMeasureMap](../interfaces/core_maker.IMeasureMap.md) = {}
 
 Map of path measurements, mapped by routeKey.
 
@@ -135,7 +135,7 @@ Methods
 
 [measureModels](#measuremodels)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

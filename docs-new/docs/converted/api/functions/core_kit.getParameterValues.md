@@ -5,25 +5,25 @@ source: docs/docs/api/functions/core_kit.getParameterValues.html
 
 getParameterValues | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/kit](../modules/core_kit.html)
+* [core/kit](../modules/core_kit.md)
 * getParameterValues
 
 # Function getParameterValues
 
-* getParameterValues(ctor: [IKit](../interfaces/core_maker.IKit.html)): any[]
+* getParameterValues(ctor: [IKit](../interfaces/core_maker.IKit.md)): any[]
 
   Extract just the initial sample values from a kit.
 
   #### Parameters
 
-  + ctor: [IKit](../interfaces/core_maker.IKit.html)
+  + ctor: [IKit](../interfaces/core_maker.IKit.md)
 
   #### Returns any[]
 
@@ -38,7 +38,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

@@ -5,29 +5,29 @@ source: docs/docs/api/functions/core_model.walkPaths.html
 
 walkPaths | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/model](../modules/core_model.html)
+* [core/model](../modules/core_model.md)
 * walkPaths
 
 # Function walkPaths
 
-* walkPaths(modelContext: [IModel](../interfaces/core_schema.IModel.html), callback: [IModelPathCallback](../interfaces/core_maker.IModelPathCallback.html)): void
+* walkPaths(modelContext: [IModel](../interfaces/core_schema.IModel.md), callback: [IModelPathCallback](../interfaces/core_maker.IModelPathCallback.md)): void
 
   DEPRECATED - use model.walk instead.
   Recursively walk through all paths for a given model.
 
   #### Parameters
 
-  + modelContext: [IModel](../interfaces/core_schema.IModel.html)
+  + modelContext: [IModel](../interfaces/core_schema.IModel.md)
 
     The model to walk.
-  + callback: [IModelPathCallback](../interfaces/core_maker.IModelPathCallback.html)
+  + callback: [IModelPathCallback](../interfaces/core_maker.IModelPathCallback.md)
 
     Callback for each path.
 
@@ -44,7 +44,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

@@ -5,35 +5,35 @@ source: docs/docs/api/functions/core_measure.isPointInsideModel.html
 
 isPointInsideModel | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/measure](../modules/core_measure.html)
+* [core/measure](../modules/core_measure.md)
 * isPointInsideModel
 
 # Function isPointInsideModel
 
 * isPointInsideModel(
-      pointToCheck: [IPoint](../interfaces/core_schema.IPoint.html),
-      modelContext: [IModel](../interfaces/core_schema.IModel.html),
-      options?: [IMeasurePointInsideOptions](../interfaces/core_maker.IMeasurePointInsideOptions.html),
+      pointToCheck: [IPoint](../interfaces/core_schema.IPoint.md),
+      modelContext: [IModel](../interfaces/core_schema.IModel.md),
+      options?: [IMeasurePointInsideOptions](../interfaces/core_maker.IMeasurePointInsideOptions.md),
   ): boolean
 
   Check to see if a point is inside of a model.
 
   #### Parameters
 
-  + pointToCheck: [IPoint](../interfaces/core_schema.IPoint.html)
+  + pointToCheck: [IPoint](../interfaces/core_schema.IPoint.md)
 
     The point to check.
-  + modelContext: [IModel](../interfaces/core_schema.IModel.html)
+  + modelContext: [IModel](../interfaces/core_schema.IModel.md)
 
     The model to check against.
-  + options: [IMeasurePointInsideOptions](../interfaces/core_maker.IMeasurePointInsideOptions.html) = {}
+  + options: [IMeasurePointInsideOptions](../interfaces/core_maker.IMeasurePointInsideOptions.md) = {}
 
     Optional IMeasurePointInsideOptions object.
 
@@ -52,7 +52,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

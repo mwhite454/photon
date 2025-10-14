@@ -5,7 +5,7 @@ source: docs/docs/api/modules/core_boolean-utils.html
 
 core/boolean-utils | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
@@ -18,52 +18,52 @@ Preparing search index...
 
 ## Interfaces
 
-[DeletedPathInfo](../interfaces/core_boolean-utils.DeletedPathInfo.html)
+[DeletedPathInfo](../interfaces/core_boolean-utils.DeletedPathInfo.md)
 
 
-[SegmentClassification](../interfaces/core_boolean-utils.SegmentClassification.html)
+[SegmentClassification](../interfaces/core_boolean-utils.SegmentClassification.md)
 
 ## Type Aliases
 
-[SegmentClassifier](../types/core_boolean-utils.SegmentClassifier.html)
+[SegmentClassifier](../types/core_boolean-utils.SegmentClassifier.md)
 
 ## Variables
 
-[DEFAULT\_POINT\_MATCHING\_DISTANCE](../variables/core_boolean-utils.DEFAULT_POINT_MATCHING_DISTANCE.html)
+[DEFAULT\_POINT\_MATCHING\_DISTANCE](../variables/core_boolean-utils.DEFAULT_POINT_MATCHING_DISTANCE.md)
 
 ## Functions
 
-[addPathToModel](../functions/core_boolean-utils.addPathToModel.html)
+[addPathToModel](../functions/core_boolean-utils.addPathToModel.md)
 
 
-[ensurePathLayer](../functions/core_boolean-utils.ensurePathLayer.html)
+[ensurePathLayer](../functions/core_boolean-utils.ensurePathLayer.md)
 
 
-[findPointsOnPath](../functions/core_boolean-utils.findPointsOnPath.html)
+[findPointsOnPath](../functions/core_boolean-utils.findPointsOnPath.md)
 
 
-[isArcEnclosingAngle](../functions/core_boolean-utils.isArcEnclosingAngle.html)
+[isArcEnclosingAngle](../functions/core_boolean-utils.isArcEnclosingAngle.md)
 
 
-[isBetween](../functions/core_boolean-utils.isBetween.html)
+[isBetween](../functions/core_boolean-utils.isBetween.md)
 
 
-[isBetweenArcAngles](../functions/core_boolean-utils.isBetweenArcAngles.html)
+[isBetweenArcAngles](../functions/core_boolean-utils.isBetweenArcAngles.md)
 
 
-[isBetweenPoints](../functions/core_boolean-utils.isBetweenPoints.html)
+[isBetweenPoints](../functions/core_boolean-utils.isBetweenPoints.md)
 
 
-[isCircleOrArc](../functions/core_boolean-utils.isCircleOrArc.html)
+[isCircleOrArc](../functions/core_boolean-utils.isCircleOrArc.md)
 
 
-[isZeroLength](../functions/core_boolean-utils.isZeroLength.html)
+[isZeroLength](../functions/core_boolean-utils.isZeroLength.md)
 
 
-[pathBoundingBox](../functions/core_boolean-utils.pathBoundingBox.html)
+[pathBoundingBox](../functions/core_boolean-utils.pathBoundingBox.md)
 
 
-[trackDeletedPath](../functions/core_boolean-utils.trackDeletedPath.html)
+[trackDeletedPath](../functions/core_boolean-utils.trackDeletedPath.md)
 
 ### Settings
 
@@ -92,7 +92,7 @@ Functions
 
 [addPathToModel](#addpathtomodel)[ensurePathLayer](#ensurepathlayer)[findPointsOnPath](#findpointsonpath)[isArcEnclosingAngle](#isarcenclosingangle)[isBetween](#isbetween)[isBetweenArcAngles](#isbetweenarcangles)[isBetweenPoints](#isbetweenpoints)[isCircleOrArc](#iscircleorarc)[isZeroLength](#iszerolength)[pathBoundingBox](#pathboundingbox)[trackDeletedPath](#trackdeletedpath)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

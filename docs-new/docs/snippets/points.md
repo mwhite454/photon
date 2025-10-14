@@ -3,14 +3,10 @@ title: Points
 source: docs/_snippets/points.html
 ---
 
----
-title: Points
----
-
 A point is represented by an array with 2 elements. The first element is x, the second element is y.
 
 ```javascript
-var p = [0, 0];
+const p = [0, 0];
 ```
 
 #### Coordinates

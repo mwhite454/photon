@@ -5,7 +5,7 @@ source: docs/docs/api/modules/models_Ellipse.html
 
 models/Ellipse | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
@@ -18,10 +18,10 @@ Preparing search index...
 
 ## Classes
 
-[Ellipse](../classes/models_Ellipse.Ellipse.html)
+[Ellipse](../classes/models_Ellipse.Ellipse.md)
 
 
-[EllipticArc](../classes/models_Ellipse.EllipticArc.html)
+[EllipticArc](../classes/models_Ellipse.EllipticArc.md)
 
 ### Settings
 
@@ -38,7 +38,7 @@ Classes
 
 [Ellipse](#ellipse)[EllipticArc](#ellipticarc)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

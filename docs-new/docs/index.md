@@ -1,7 +1,7 @@
 ---
 title: Photon Documentation
 description: A JavaScript library for creating and designing 2D vector graphics, drawings, and laser-cuttable models.
-keywords: [photon, maker.js, vector graphics, drawings, laser cutting, modeling]
+keywords: [photon, photon/core, vector graphics, drawings, laser cutting, modeling]
 ---
 
 # Welcome to Photon

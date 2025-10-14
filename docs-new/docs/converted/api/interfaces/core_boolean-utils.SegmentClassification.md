@@ -5,14 +5,14 @@ source: docs/docs/api/interfaces/core_boolean-utils.SegmentClassification.html
 
 SegmentClassification | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/boolean-utils](../modules/core_boolean-utils.html)
+* [core/boolean-utils](../modules/core_boolean-utils.md)
 * SegmentClassification
 
 # Interface SegmentClassification
@@ -60,7 +60,7 @@ Properties
 
 [isDuplicate](#isduplicate)[isInside](#isinside)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

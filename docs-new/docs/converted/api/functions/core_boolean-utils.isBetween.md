@@ -5,14 +5,14 @@ source: docs/docs/api/functions/core_boolean-utils.isBetween.html
 
 isBetween | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/boolean-utils](../modules/core_boolean-utils.html)
+* [core/boolean-utils](../modules/core_boolean-utils.md)
 * isBetween
 
 # Function isBetween
@@ -46,7 +46,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

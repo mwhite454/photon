@@ -5,14 +5,14 @@ source: docs/docs/api/classes/models_Ellipse.Ellipse.html
 
 Ellipse | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [models/Ellipse](../modules/models_Ellipse.html)
+* [models/Ellipse](../modules/models_Ellipse.md)
 * Ellipse
 
 # Class Ellipse
@@ -21,7 +21,7 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
 #### Implements
 
-* [IModel](../interfaces/core_schema.IModel.html)
+* [IModel](../interfaces/core_schema.IModel.md)
 
 * Defined in [models/Ellipse.ts:65](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Ellipse.ts#L65)
 
@@ -60,7 +60,7 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
   + Defined in [models/Ellipse.ts:77](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Ellipse.ts#L77)
 * new Ellipse(
-      origin: [IPoint](../interfaces/core_schema.IPoint.html),
+      origin: [IPoint](../interfaces/core_schema.IPoint.md),
       radiusX: number,
       radiusY: number,
       accuracy?: number,
@@ -70,7 +70,7 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
   #### Parameters
 
-  + origin: [IPoint](../interfaces/core_schema.IPoint.html)
+  + origin: [IPoint](../interfaces/core_schema.IPoint.md)
 
     The center of the ellipse.
   + radiusX: number
@@ -118,21 +118,21 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
 ### models
 
-models: [IModelMap](../interfaces/core_schema.IModelMap.html) = {}
+models: [IModelMap](../interfaces/core_schema.IModelMap.md) = {}
 
 Optional map of models within this model.
 
-Implementation of [IModel](../interfaces/core_schema.IModel.html).[models](../interfaces/core_schema.IModel.html#models)
+Implementation of [IModel](../interfaces/core_schema.IModel.md).[models](../interfaces/core_schema.IModel.md#models)
 
 * Defined in [models/Ellipse.ts:67](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Ellipse.ts#L67)
 
 ### origin
 
-origin: [IPoint](../interfaces/core_schema.IPoint.html)
+origin: [IPoint](../interfaces/core_schema.IPoint.md)
 
 Optional origin location of this model.
 
-Implementation of [IModel](../interfaces/core_schema.IModel.html).[origin](../interfaces/core_schema.IModel.html#origin)
+Implementation of [IModel](../interfaces/core_schema.IModel.md).[origin](../interfaces/core_schema.IModel.md#origin)
 
 * Defined in [models/Ellipse.ts:68](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Ellipse.ts#L68)
 
@@ -155,7 +155,7 @@ Properties
 
 [models](#models)[origin](#origin)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

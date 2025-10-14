@@ -5,25 +5,25 @@ source: docs/docs/api/interfaces/core_maker.IWalkModelCancellableCallback.html
 
 IWalkModelCancellableCallback | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.html)
+* [core/maker](../modules/core_maker.md)
 * IWalkModelCancellableCallback
 
 # Interface IWalkModelCancellableCallback
 
 Callback signature for model.walk(), which may return false to halt any further walking.
 
-* IWalkModelCancellableCallback(context: [IWalkModel](core_maker.IWalkModel.html)): boolean
+* IWalkModelCancellableCallback(context: [IWalkModel](core_maker.IWalkModel.md)): boolean
 
   #### Parameters
 
-  + context: [IWalkModel](core_maker.IWalkModel.html)
+  + context: [IWalkModel](core_maker.IWalkModel.md)
 
   #### Returns boolean
 
@@ -38,7 +38,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

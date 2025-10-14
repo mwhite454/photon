@@ -5,21 +5,21 @@ source: docs/docs/api/functions/core_boolean-utils.isBetweenArcAngles.html
 
 isBetweenArcAngles | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/boolean-utils](../modules/core_boolean-utils.html)
+* [core/boolean-utils](../modules/core_boolean-utils.md)
 * isBetweenArcAngles
 
 # Function isBetweenArcAngles
 
 * isBetweenArcAngles(
       angleInQuestion: number,
-      arc: [IPathArc](../interfaces/core_schema.IPathArc.html),
+      arc: [IPathArc](../interfaces/core_schema.IPathArc.md),
       exclusive: boolean,
       tolerance?: number,
   ): boolean
@@ -27,7 +27,7 @@ Preparing search index...
   #### Parameters
 
   + angleInQuestion: number
-  + arc: [IPathArc](../interfaces/core_schema.IPathArc.html)
+  + arc: [IPathArc](../interfaces/core_schema.IPathArc.md)
   + exclusive: boolean
   + tolerance: number = DEFAULT\_POINT\_MATCHING\_DISTANCE
 
@@ -44,7 +44,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

@@ -5,29 +5,29 @@ source: docs/docs/api/functions/core_boolean-utils.isBetweenPoints.html
 
 isBetweenPoints | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/boolean-utils](../modules/core_boolean-utils.html)
+* [core/boolean-utils](../modules/core_boolean-utils.md)
 * isBetweenPoints
 
 # Function isBetweenPoints
 
 * isBetweenPoints(
-      pointInQuestion: [IPoint](../interfaces/core_schema.IPoint.html),
-      line: [IPathLine](../interfaces/core_schema.IPathLine.html),
+      pointInQuestion: [IPoint](../interfaces/core_schema.IPoint.md),
+      line: [IPathLine](../interfaces/core_schema.IPathLine.md),
       exclusive: boolean,
       tolerance?: number,
   ): boolean
 
   #### Parameters
 
-  + pointInQuestion: [IPoint](../interfaces/core_schema.IPoint.html)
-  + line: [IPathLine](../interfaces/core_schema.IPathLine.html)
+  + pointInQuestion: [IPoint](../interfaces/core_schema.IPoint.md)
+  + line: [IPathLine](../interfaces/core_schema.IPathLine.md)
   + exclusive: boolean
   + tolerance: number = DEFAULT\_POINT\_MATCHING\_DISTANCE
 
@@ -44,7 +44,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

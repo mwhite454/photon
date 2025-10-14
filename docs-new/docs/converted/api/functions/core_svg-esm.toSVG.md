@@ -5,24 +5,24 @@ source: docs/docs/api/functions/core_svg-esm.toSVG.html
 
 toSVG | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/svg-esm](../modules/core_svg-esm.html)
+* [core/svg-esm](../modules/core_svg-esm.md)
 * toSVG
 
 # Function toSVG
 
-* toSVG(itemToExport: any, options?: [ISVGRenderOptions](../interfaces/core_svg-esm.ISVGRenderOptions.html)): string
+* toSVG(itemToExport: any, options?: [ISVGRenderOptions](../interfaces/core_svg-esm.ISVGRenderOptions.md)): string
 
   #### Parameters
 
   + itemToExport: any
-  + options: [ISVGRenderOptions](../interfaces/core_svg-esm.ISVGRenderOptions.html) = {}
+  + options: [ISVGRenderOptions](../interfaces/core_svg-esm.ISVGRenderOptions.md) = {}
 
   #### Returns string
 
@@ -37,7 +37,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

@@ -5,7 +5,7 @@ source: docs/docs/api/modules/models_Dome.html
 
 models/Dome | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
@@ -18,7 +18,7 @@ Preparing search index...
 
 ## Classes
 
-[Dome](../classes/models_Dome.Dome.html)
+[Dome](../classes/models_Dome.Dome.md)
 
 ### Settings
 
@@ -35,7 +35,7 @@ Classes
 
 [Dome](#dome)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

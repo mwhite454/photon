@@ -5,7 +5,7 @@ source: docs/docs/api/modules/core_intersect.html
 
 core/intersect | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
@@ -18,7 +18,7 @@ Preparing search index...
 
 ## Functions
 
-[intersection](../functions/core_intersect.intersection.html)
+[intersection](../functions/core_intersect.intersection.md)
 
 ### Settings
 
@@ -35,7 +35,7 @@ Functions
 
 [intersection](#intersection)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

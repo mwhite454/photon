@@ -28,9 +28,9 @@ npm test [ONLY COMMANDS FOR ACTIVE TECHNOLOGIES][ONLY COMMANDS FOR ACTIVE TECHNO
 TypeScript 5.6.3 / JavaScript ES2020+: Follow standard conventions
 
 ## Recent Changes
+- 006-migration-from-jekyll: Added [if applicable, e.g., PostgreSQL, CoreData, files or N/A]
 - 006-migration-from-jekyll: Added Python 3.8+ (for MkDocs), JavaScript/Node.js (for migration scripts and Playwright tests)
 - 005-as-a-photon: Added Node.js (current LTS), Ruby (for Jekyll)
-- 004-all-examples-housed: Added JavaScript ES6+ / TypeScript 5.6.3 / Node.js 18.x+ + @photon/core (the library being demonstrated), TypeScript compiler
 
 <!-- MANUAL ADDITIONS START -->
 <!-- MANUAL ADDITIONS END -->

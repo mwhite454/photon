@@ -5,31 +5,31 @@ source: docs/docs/api/functions/core_measure.isPointArrayClockwise.html
 
 isPointArrayClockwise | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/measure](../modules/core_measure.html)
+* [core/measure](../modules/core_measure.md)
 * isPointArrayClockwise
 
 # Function isPointArrayClockwise
 
 * isPointArrayClockwise(
-      points: [IPoint](../interfaces/core_schema.IPoint.html)[],
-      out\_result?: { hullPoints?: [IPoint](../interfaces/core_schema.IPoint.html)[]; keyPoints?: [IPoint](../interfaces/core_schema.IPoint.html)[] },
+      points: [IPoint](../interfaces/core_schema.IPoint.md)[],
+      out\_result?: { hullPoints?: [IPoint](../interfaces/core_schema.IPoint.md)[]; keyPoints?: [IPoint](../interfaces/core_schema.IPoint.md)[] },
   ): boolean
 
   Check for array of points being clockwise or not.
 
   #### Parameters
 
-  + points: [IPoint](../interfaces/core_schema.IPoint.html)[]
+  + points: [IPoint](../interfaces/core_schema.IPoint.md)[]
 
     The array of points to test.
-  + `Optional`out\_result: { hullPoints?: [IPoint](../interfaces/core_schema.IPoint.html)[]; keyPoints?: [IPoint](../interfaces/core_schema.IPoint.html)[] }
+  + `Optional`out\_result: { hullPoints?: [IPoint](../interfaces/core_schema.IPoint.md)[]; keyPoints?: [IPoint](../interfaces/core_schema.IPoint.md)[] }
 
     Optional output object, if provided, will be populated with convex hull results.
 
@@ -48,7 +48,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

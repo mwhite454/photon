@@ -5,7 +5,7 @@ source: docs/docs/api/modules/core_xml.html
 
 core/xml | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
@@ -18,11 +18,11 @@ Preparing search index...
 
 ## Classes
 
-[XmlTag](../classes/core_xml.XmlTag.html)
+[XmlTag](../classes/core_xml.XmlTag.md)
 
 ## Interfaces
 
-[IXmlTagAttrs](../interfaces/core_xml.IXmlTagAttrs.html)
+[IXmlTagAttrs](../interfaces/core_xml.IXmlTagAttrs.md)
 
 ### Settings
 
@@ -43,7 +43,7 @@ Interfaces
 
 [IXmlTagAttrs](#ixmltagattrs)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

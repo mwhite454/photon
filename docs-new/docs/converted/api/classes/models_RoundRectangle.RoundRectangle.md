@@ -5,14 +5,14 @@ source: docs/docs/api/classes/models_RoundRectangle.RoundRectangle.html
 
 RoundRectangle | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [models/RoundRectangle](../modules/models_RoundRectangle.html)
+* [models/RoundRectangle](../modules/models_RoundRectangle.md)
 * RoundRectangle
 
 # Class RoundRectangle
@@ -21,7 +21,7 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
 #### Implements
 
-* [IModel](../interfaces/core_schema.IModel.html)
+* [IModel](../interfaces/core_schema.IModel.md)
 
 * Defined in [models/RoundRectangle.ts:7](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/RoundRectangle.ts#L7)
 
@@ -51,7 +51,7 @@ A model is a composite object which may contain a map of paths, or a map of mode
   Example:
 
   ```
-  var r = new makerjs.models.RoundRectangle(100, 50, 5);
+  const r = new makerjs.models.RoundRectangle(100, 50, 5);
   Copy
   ```
 
@@ -70,21 +70,21 @@ A model is a composite object which may contain a map of paths, or a map of mode
   #### Returns RoundRectangle
 
   + Defined in [models/RoundRectangle.ts:23](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/RoundRectangle.ts#L23)
-* new RoundRectangle(modelToSurround: [IModel](../interfaces/core_schema.IModel.html), margin: number): RoundRectangle
+* new RoundRectangle(modelToSurround: [IModel](../interfaces/core_schema.IModel.md), margin: number): RoundRectangle
 
   Create a round rectangle which will surround a model.
 
   Example:
 
   ```
-  var b = new makerjs.models.BoltRectangle(30, 20, 1); //draw a bolt rectangle so we have something to surround
-  var r = new makerjs.models.RoundRectangle(b, 2.5);   //surround it
+  const b = new makerjs.models.BoltRectangle(30, 20, 1); //draw a bolt rectangle so we have something to surround
+  const r = new makerjs.models.RoundRectangle(b, 2.5);   //surround it
   Copy
   ```
 
   #### Parameters
 
-  + modelToSurround: [IModel](../interfaces/core_schema.IModel.html)
+  + modelToSurround: [IModel](../interfaces/core_schema.IModel.md)
 
     IModel object.
   + margin: number
@@ -99,21 +99,21 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
 ### origin
 
-origin: [IPoint](../interfaces/core_schema.IPoint.html)
+origin: [IPoint](../interfaces/core_schema.IPoint.md)
 
 Optional origin location of this model.
 
-Implementation of [IModel](../interfaces/core_schema.IModel.html).[origin](../interfaces/core_schema.IModel.html#origin)
+Implementation of [IModel](../interfaces/core_schema.IModel.md).[origin](../interfaces/core_schema.IModel.md#origin)
 
 * Defined in [models/RoundRectangle.ts:8](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/RoundRectangle.ts#L8)
 
 ### paths
 
-paths: [IPathMap](../interfaces/core_schema.IPathMap.html) = {}
+paths: [IPathMap](../interfaces/core_schema.IPathMap.md) = {}
 
 Optional map of path objects in this model.
 
-Implementation of [IModel](../interfaces/core_schema.IModel.html).[paths](../interfaces/core_schema.IModel.html#paths)
+Implementation of [IModel](../interfaces/core_schema.IModel.md).[paths](../interfaces/core_schema.IModel.md#paths)
 
 * Defined in [models/RoundRectangle.ts:9](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/RoundRectangle.ts#L9)
 
@@ -136,7 +136,7 @@ Properties
 
 [origin](#origin)[paths](#paths)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

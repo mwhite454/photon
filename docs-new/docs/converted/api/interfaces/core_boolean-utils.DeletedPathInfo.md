@@ -5,14 +5,14 @@ source: docs/docs/api/interfaces/core_boolean-utils.DeletedPathInfo.html
 
 DeletedPathInfo | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/boolean-utils](../modules/core_boolean-utils.html)
+* [core/boolean-utils](../modules/core_boolean-utils.md)
 * DeletedPathInfo
 
 # Interface DeletedPathInfo
@@ -21,15 +21,15 @@ A line, curved line or other simple two dimensional shape.
 
 interface DeletedPathInfo {
     [layer](#layer)?: string;
-    [origin](#origin): [IPoint](core_schema.IPoint.html);
+    [origin](#origin): [IPoint](core_schema.IPoint.md);
     [reason](#reason): string;
     [routeKey](#routekey): string;
     [type](#type): string;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.html#core/boolean-utils.DeletedPathInfo))
+#### Hierarchy ([View Summary](../hierarchy.md#core/boolean-utils.DeletedPathInfo))
 
-* [IPath](core_schema.IPath.html)
+* [IPath](core_schema.IPath.md)
   + DeletedPathInfo
 
 * Defined in [core/boolean-utils.ts:91](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/boolean-utils.ts#L91)
@@ -52,17 +52,17 @@ layer?: string
 
 Optional layer of this path.
 
-Inherited from [IPath](core_schema.IPath.html).[layer](core_schema.IPath.html#layer)
+Inherited from [IPath](core_schema.IPath.md).[layer](core_schema.IPath.md#layer)
 
 * Defined in [core/schema.ts:24](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/schema.ts#L24)
 
 ### origin
 
-origin: [IPoint](core_schema.IPoint.html)
+origin: [IPoint](core_schema.IPoint.md)
 
 The main point of reference for this path.
 
-Inherited from [IPath](core_schema.IPath.html).[origin](core_schema.IPath.html#origin)
+Inherited from [IPath](core_schema.IPath.md).[origin](core_schema.IPath.md#origin)
 
 * Defined in [core/schema.ts:22](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/schema.ts#L22)
 
@@ -84,7 +84,7 @@ type: string
 
 The type of the path, e.g. "line", "circle", or "arc". These strings are enumerated in pathType.
 
-Inherited from [IPath](core_schema.IPath.html).[type](core_schema.IPath.html#type)
+Inherited from [IPath](core_schema.IPath.md).[type](core_schema.IPath.md#type)
 
 * Defined in [core/schema.ts:20](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/schema.ts#L20)
 
@@ -103,7 +103,7 @@ Properties
 
 [layer](#layer)[origin](#origin)[reason](#reason)[routeKey](#routekey)[type](#type)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

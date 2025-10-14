@@ -5,14 +5,14 @@ source: docs/docs/api/functions/core_maker.cloneObject.html
 
 cloneObject | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.html)
+* [core/maker](../modules/core_maker.md)
 * cloneObject
 
 # Function cloneObject
@@ -42,7 +42,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

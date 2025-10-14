@@ -5,7 +5,7 @@ source: docs/docs/api/modules/core_measure-minimal.html
 
 core/measure-minimal | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
@@ -18,29 +18,29 @@ Preparing search index...
 
 ## Functions
 
-[augment](../functions/core_measure-minimal.augment.html)
+[augment](../functions/core_measure-minimal.augment.md)
 
 
-[isBezierSeedLinear](../functions/core_measure-minimal.isBezierSeedLinear.html)
+[isBezierSeedLinear](../functions/core_measure-minimal.isBezierSeedLinear.md)
 
 
-[lineSlope](../functions/core_measure-minimal.lineSlope.html)
+[lineSlope](../functions/core_measure-minimal.lineSlope.md)
 
 
-[modelExtents](../functions/core_measure-minimal.modelExtents.html)
+[modelExtents](../functions/core_measure-minimal.modelExtents.md)
 
 
-[pathExtents](../functions/core_measure-minimal.pathExtents.html)
+[pathExtents](../functions/core_measure-minimal.pathExtents.md)
 
 
-[pathLength](../functions/core_measure-minimal.pathLength.html)
+[pathLength](../functions/core_measure-minimal.pathLength.md)
 
 
-[pointDistance](../functions/core_measure-minimal.pointDistance.html)
+[pointDistance](../functions/core_measure-minimal.pointDistance.md)
 
 ## References
 
-isPointEqual → [isPointEqual](../functions/core_equal.isPointEqual.html)
+isPointEqual → [isPointEqual](../functions/core_equal.isPointEqual.md)
 
 ### Settings
 
@@ -61,7 +61,7 @@ References
 
 [isPointEqual](#ispointequal)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

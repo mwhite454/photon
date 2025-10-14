@@ -5,25 +5,25 @@ source: docs/docs/api/functions/core_measure-minimal.isBezierSeedLinear.html
 
 isBezierSeedLinear | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/measure-minimal](../modules/core_measure-minimal.html)
+* [core/measure-minimal](../modules/core_measure-minimal.md)
 * isBezierSeedLinear
 
 # Function isBezierSeedLinear
 
-* isBezierSeedLinear(seed: [IPathBezierSeed](../interfaces/core_schema.IPathBezierSeed.html), exclusive?: boolean): boolean
+* isBezierSeedLinear(seed: [IPathBezierSeed](../interfaces/core_schema.IPathBezierSeed.md), exclusive?: boolean): boolean
 
   Check if a bezier seed has control points on the line slope and between the line endpoints.
 
   #### Parameters
 
-  + seed: [IPathBezierSeed](../interfaces/core_schema.IPathBezierSeed.html)
+  + seed: [IPathBezierSeed](../interfaces/core_schema.IPathBezierSeed.md)
   + `Optional`exclusive: boolean
 
   #### Returns boolean
@@ -39,7 +39,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

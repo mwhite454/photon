@@ -5,7 +5,7 @@ source: docs/docs/api/modules/core_measure.html
 
 core/measure | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
@@ -18,71 +18,71 @@ Preparing search index...
 
 ## Classes
 
-[Atlas](../classes/core_measure.Atlas.html)
+[Atlas](../classes/core_measure.Atlas.md)
 
 ## Functions
 
-[augment](../functions/core_measure.augment.html)
+[augment](../functions/core_measure.augment.md)
 
 
-[boundingHexagon](../functions/core_measure.boundingHexagon.html)
+[boundingHexagon](../functions/core_measure.boundingHexagon.md)
 
 
-[increase](../functions/core_measure.increase.html)
+[increase](../functions/core_measure.increase.md)
 
 
-[isArcConcaveTowardsPoint](../functions/core_measure.isArcConcaveTowardsPoint.html)
+[isArcConcaveTowardsPoint](../functions/core_measure.isArcConcaveTowardsPoint.md)
 
 
-[isArcOverlapping](../functions/core_measure.isArcOverlapping.html)
+[isArcOverlapping](../functions/core_measure.isArcOverlapping.md)
 
 
-[isArcSpanOverlapping](../functions/core_measure.isArcSpanOverlapping.html)
+[isArcSpanOverlapping](../functions/core_measure.isArcSpanOverlapping.md)
 
 
-[isBetween](../functions/core_measure.isBetween.html)
+[isBetween](../functions/core_measure.isBetween.md)
 
 
-[isBetweenArcAngles](../functions/core_measure.isBetweenArcAngles.html)
+[isBetweenArcAngles](../functions/core_measure.isBetweenArcAngles.md)
 
 
-[isBetweenPoints](../functions/core_measure.isBetweenPoints.html)
+[isBetweenPoints](../functions/core_measure.isBetweenPoints.md)
 
 
-[isBezierSeedLinear](../functions/core_measure.isBezierSeedLinear.html)
+[isBezierSeedLinear](../functions/core_measure.isBezierSeedLinear.md)
 
 
-[isChainClockwise](../functions/core_measure.isChainClockwise.html)
+[isChainClockwise](../functions/core_measure.isChainClockwise.md)
 
 
-[isLineOverlapping](../functions/core_measure.isLineOverlapping.html)
+[isLineOverlapping](../functions/core_measure.isLineOverlapping.md)
 
 
-[isMeasurementOverlapping](../functions/core_measure.isMeasurementOverlapping.html)
+[isMeasurementOverlapping](../functions/core_measure.isMeasurementOverlapping.md)
 
 
-[isPointArrayClockwise](../functions/core_measure.isPointArrayClockwise.html)
+[isPointArrayClockwise](../functions/core_measure.isPointArrayClockwise.md)
 
 
-[isPointInsideModel](../functions/core_measure.isPointInsideModel.html)
+[isPointInsideModel](../functions/core_measure.isPointInsideModel.md)
 
 
-[lineSlope](../functions/core_measure.lineSlope.html)
+[lineSlope](../functions/core_measure.lineSlope.md)
 
 
-[modelExtents](../functions/core_measure.modelExtents.html)
+[modelExtents](../functions/core_measure.modelExtents.md)
 
 
-[modelPathLength](../functions/core_measure.modelPathLength.html)
+[modelPathLength](../functions/core_measure.modelPathLength.md)
 
 
-[pathExtents](../functions/core_measure.pathExtents.html)
+[pathExtents](../functions/core_measure.pathExtents.md)
 
 
-[pathLength](../functions/core_measure.pathLength.html)
+[pathLength](../functions/core_measure.pathLength.md)
 
 
-[pointDistance](../functions/core_measure.pointDistance.html)
+[pointDistance](../functions/core_measure.pointDistance.md)
 
 ### Settings
 
@@ -103,7 +103,7 @@ Functions
 
 [augment](#augment)[boundingHexagon](#boundinghexagon)[increase](#increase)[isArcConcaveTowardsPoint](#isarcconcavetowardspoint)[isArcOverlapping](#isarcoverlapping)[isArcSpanOverlapping](#isarcspanoverlapping)[isBetween](#isbetween)[isBetweenArcAngles](#isbetweenarcangles)[isBetweenPoints](#isbetweenpoints)[isBezierSeedLinear](#isbezierseedlinear)[isChainClockwise](#ischainclockwise)[isLineOverlapping](#islineoverlapping)[isMeasurementOverlapping](#ismeasurementoverlapping)[isPointArrayClockwise](#ispointarrayclockwise)[isPointInsideModel](#ispointinsidemodel)[lineSlope](#lineslope)[modelExtents](#modelextents)[modelPathLength](#modelpathlength)[pathExtents](#pathextents)[pathLength](#pathlength)[pointDistance](#pointdistance)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

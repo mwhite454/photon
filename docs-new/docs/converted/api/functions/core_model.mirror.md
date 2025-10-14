@@ -5,25 +5,25 @@ source: docs/docs/api/functions/core_model.mirror.html
 
 mirror | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/model](../modules/core_model.html)
+* [core/model](../modules/core_model.md)
 * mirror
 
 # Function mirror
 
-* mirror(modelToMirror: [IModel](../interfaces/core_schema.IModel.html), mirrorX: boolean, mirrorY: boolean): [IModel](../interfaces/core_schema.IModel.html)
+* mirror(modelToMirror: [IModel](../interfaces/core_schema.IModel.md), mirrorX: boolean, mirrorY: boolean): [IModel](../interfaces/core_schema.IModel.md)
 
   Create a clone of a model, mirrored on either or both x and y axes.
 
   #### Parameters
 
-  + modelToMirror: [IModel](../interfaces/core_schema.IModel.html)
+  + modelToMirror: [IModel](../interfaces/core_schema.IModel.md)
 
     The model to mirror.
   + mirrorX: boolean
@@ -33,7 +33,7 @@ Preparing search index...
 
     Boolean to mirror on the y axis.
 
-  #### Returns [IModel](../interfaces/core_schema.IModel.html)
+  #### Returns [IModel](../interfaces/core_schema.IModel.md)
 
   Mirrored model.
 
@@ -48,7 +48,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

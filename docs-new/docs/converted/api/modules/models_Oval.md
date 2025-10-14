@@ -5,7 +5,7 @@ source: docs/docs/api/modules/models_Oval.html
 
 models/Oval | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
@@ -18,7 +18,7 @@ Preparing search index...
 
 ## Classes
 
-[Oval](../classes/models_Oval.Oval.html)
+[Oval](../classes/models_Oval.Oval.md)
 
 ### Settings
 
@@ -35,7 +35,7 @@ Classes
 
 [Oval](#oval)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

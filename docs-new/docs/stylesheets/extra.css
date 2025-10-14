@@ -1,2 +1,41 @@
 /* Custom overrides */
 :root { --md-primary-fg-color: #4f46e5; }
+
+/* Collapsible Navigation Accordion */
+/* Hide all nested navigation items by default */
+.md-nav__list .md-nav__list {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+/* Show nested items when parent has active class */
+.md-nav__item--active > .md-nav__list,
+.md-nav__item.md-nav__item--section.md-nav__item--active > .md-nav__list {
+  max-height: 2000px;
+  transition: max-height 0.5s ease-in;
+}
+
+/* Add toggle indicator for sections */
+.md-nav__item--section > .md-nav__link {
+  position: relative;
+  cursor: pointer;
+}
+
+.md-nav__item--section > .md-nav__link::after {
+  content: '›';
+  position: absolute;
+  right: 1rem;
+  transform: rotate(0deg);
+  transition: transform 0.3s ease;
+  font-size: 1.2em;
+}
+
+.md-nav__item--active.md-nav__item--section > .md-nav__link::after {
+  transform: rotate(90deg);
+}
+
+/* Improve spacing for collapsed sections */
+.md-nav__item--section {
+  margin-bottom: 0.25rem;
+}

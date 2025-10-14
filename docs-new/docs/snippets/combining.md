@@ -3,10 +3,7 @@ title: Combining
 source: docs/_snippets/combining.html
 ---
 
----
-title: Combining with Boolean operations
----
-You can combine models using the [makerjs.model.combine](/docs/api/modules/makerjs.model.html#combine) function, passing these parameters:
+You can combine models using the [model.combine](/docs/api/modules/model.md#combine) function, passing these parameters:
 
 * first model to combine, we'll call it "modelA"
 * second model to combine, we'll call it "modelB"
@@ -18,15 +15,15 @@ You can combine models using the [makerjs.model.combine](/docs/api/modules/maker
 Each model must be a closed geometry, and should not be self-intersecting. The effect of the 4 boolean parameters is shown in these examples:
 ```javascript
 //combine a rectangle and an oval, several ways
-var makerjs = require('makerjs');
+import { exporter, model, models } from 'photon/core';
 function example(origin) {
 this.models = {
-rect: new makerjs.models.Rectangle(100, 50),
-oval: makerjs.model.move(new makerjs.models.Oval(100, 50), [50, 25])
+rect: new models.Rectangle(100, 50),
+oval: model.move(new models.Oval(100, 50), [50, 25])
 };
 this.origin = origin;
 }
-var examples = {
+const examples = {
 models: {
 x1: new example([0, 0]),
 x2: new example([200, 0]),
@@ -35,11 +32,11 @@ x4: new example([500, 0])
 }
 };
 //save us some typing :)
-var x = examples.models;
-makerjs.model.combine(x.x2.models.rect, x.x2.models.oval, false, true, false, true);
-makerjs.model.combine(x.x3.models.rect, x.x3.models.oval, false, true, true, false);
-makerjs.model.combine(x.x4.models.rect, x.x4.models.oval, true, false, true, false);
-var svg = makerjs.exporter.toSVG(examples);
+const x = examples.models;
+model.combine(x.x2.models.rect, x.x2.models.oval, false, true, false, true);
+model.combine(x.x3.models.rect, x.x3.models.oval, false, true, true, false);
+model.combine(x.x4.models.rect, x.x4.models.oval, true, false, true, false);
+const svg = exporter.toSVG(examples);
 document.write(svg);
 ```
 
@@ -48,21 +45,21 @@ document.write(svg);
 
 Instead of remembering the boolean flag combinations, shortcuts are provided for:
 
-* [makerjs.model.combineIntersection](/docs/api/modules/makerjs.model.html#combineintersection)
-* [makerjs.model.combineSubtraction](/docs/api/modules/makerjs.model.html#combinesubtraction)
-* [makerjs.model.combineUnion](/docs/api/modules/makerjs.model.html#combineunion)
+* [model.combineIntersection](/docs/api/modules/model.md#combineintersection)
+* [model.combineSubtraction](/docs/api/modules/model.md#combinesubtraction)
+* [model.combineUnion](/docs/api/modules/model.md#combineunion)
 
 ```javascript
 //combine a rectangle and an oval, several ways
-var makerjs = require('makerjs');
+import { exporter, model, models } from 'photon/core';
 function example(origin) {
 this.models = {
-rect: new makerjs.models.Rectangle(100, 50),
-oval: makerjs.model.move(new makerjs.models.Oval(100, 50), [50, 25])
+rect: new models.Rectangle(100, 50),
+oval: model.move(new models.Oval(100, 50), [50, 25])
 };
 this.origin = origin;
 }
-var examples = {
+const examples = {
 models: {
 x1: new example([0, 0]),
 x2: new example([200, 0]),
@@ -71,11 +68,11 @@ x4: new example([500, 0])
 }
 };
 //save us some typing :)
-var x = examples.models;
-makerjs.model.combineUnion(x.x2.models.rect, x.x2.models.oval);
-makerjs.model.combineSubtraction(x.x3.models.rect, x.x3.models.oval);
-makerjs.model.combineIntersection(x.x4.models.rect, x.x4.models.oval);
-var svg = makerjs.exporter.toSVG(examples);
+const x = examples.models;
+model.combineUnion(x.x2.models.rect, x.x2.models.oval);
+model.combineSubtraction(x.x3.models.rect, x.x3.models.oval);
+model.combineIntersection(x.x4.models.rect, x.x4.models.oval);
+const svg = exporter.toSVG(examples);
 document.write(svg);
 ```
 Now it is apparent why we need a closed geometry - because we need to know what is considered the inside of a model.

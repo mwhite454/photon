@@ -5,39 +5,39 @@ source: docs/docs/api/functions/core_measure.increase.html
 
 increase | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/measure](../modules/core_measure.html)
+* [core/measure](../modules/core_measure.md)
 * increase
 
 # Function increase
 
 * increase(
-      baseMeasure: [IMeasure](../interfaces/core_maker.IMeasure.html),
-      addMeasure: [IMeasure](../interfaces/core_maker.IMeasure.html),
+      baseMeasure: [IMeasure](../interfaces/core_maker.IMeasure.md),
+      addMeasure: [IMeasure](../interfaces/core_maker.IMeasure.md),
       augmentBaseMeasure?: boolean,
-  ): [IMeasure](../interfaces/core_maker.IMeasure.html)
+  ): [IMeasure](../interfaces/core_maker.IMeasure.md)
 
   Increase a measurement by an additional measurement.
 
   #### Parameters
 
-  + baseMeasure: [IMeasure](../interfaces/core_maker.IMeasure.html)
+  + baseMeasure: [IMeasure](../interfaces/core_maker.IMeasure.md)
 
     The measurement to increase.
-  + addMeasure: [IMeasure](../interfaces/core_maker.IMeasure.html)
+  + addMeasure: [IMeasure](../interfaces/core_maker.IMeasure.md)
 
     The additional measurement.
   + `Optional`augmentBaseMeasure: boolean
 
     Optional flag to call measure.augment on the measurement.
 
-  #### Returns [IMeasure](../interfaces/core_maker.IMeasure.html)
+  #### Returns [IMeasure](../interfaces/core_maker.IMeasure.md)
 
   The increased original measurement (for cascading).
 
@@ -52,7 +52,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

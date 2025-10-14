@@ -5,14 +5,14 @@ source: docs/docs/api/interfaces/core_maker.IChainLink.html
 
 IChainLink | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.html)
+* [core/maker](../modules/core_maker.md)
 * IChainLink
 
 # Interface IChainLink
@@ -20,10 +20,10 @@ Preparing search index...
 A link in a chain, with direction of flow.
 
 interface IChainLink {
-    [endPoints](#endpoints): [IPoint](core_schema.IPoint.html)[];
+    [endPoints](#endpoints): [IPoint](core_schema.IPoint.md)[];
     [pathLength](#pathlength): number;
     [reversed](#reversed): boolean;
-    [walkedPath](#walkedpath): [IWalkPath](core_maker.IWalkPath.html);
+    [walkedPath](#walkedpath): [IWalkPath](core_maker.IWalkPath.md);
 }
 
 * Defined in [core/maker.ts:425](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L425)
@@ -41,7 +41,7 @@ interface IChainLink {
 
 ### endPoints
 
-endPoints: [IPoint](core_schema.IPoint.html)[]
+endPoints: [IPoint](core_schema.IPoint.md)[]
 
 The endpoints of the path, in absolute coords.
 
@@ -65,7 +65,7 @@ Path flows forwards or reverse.
 
 ### walkedPath
 
-walkedPath: [IWalkPath](core_maker.IWalkPath.html)
+walkedPath: [IWalkPath](core_maker.IWalkPath.md)
 
 Reference to the path.
 
@@ -86,7 +86,7 @@ Properties
 
 [endPoints](#endpoints)[pathLength](#pathlength)[reversed](#reversed)[walkedPath](#walkedpath)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

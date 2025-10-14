@@ -5,28 +5,28 @@ source: docs/docs/api/functions/core_measure.isArcConcaveTowardsPoint.html
 
 isArcConcaveTowardsPoint | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/measure](../modules/core_measure.html)
+* [core/measure](../modules/core_measure.md)
 * isArcConcaveTowardsPoint
 
 # Function isArcConcaveTowardsPoint
 
-* isArcConcaveTowardsPoint(arc: [IPathArc](../interfaces/core_schema.IPathArc.html), towardsPoint: [IPoint](../interfaces/core_schema.IPoint.html)): boolean
+* isArcConcaveTowardsPoint(arc: [IPathArc](../interfaces/core_schema.IPathArc.md), towardsPoint: [IPoint](../interfaces/core_schema.IPoint.md)): boolean
 
   Check for arc being concave or convex towards a given point.
 
   #### Parameters
 
-  + arc: [IPathArc](../interfaces/core_schema.IPathArc.html)
+  + arc: [IPathArc](../interfaces/core_schema.IPathArc.md)
 
     The arc to test.
-  + towardsPoint: [IPoint](../interfaces/core_schema.IPoint.html)
+  + towardsPoint: [IPoint](../interfaces/core_schema.IPoint.md)
 
     The point to test.
 
@@ -45,7 +45,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

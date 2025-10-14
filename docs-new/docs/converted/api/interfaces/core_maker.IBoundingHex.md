@@ -5,14 +5,14 @@ source: docs/docs/api/interfaces/core_maker.IBoundingHex.html
 
 IBoundingHex | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.html)
+* [core/maker](../modules/core_maker.md)
 * IBoundingHex
 
 # Interface IBoundingHex
@@ -20,21 +20,21 @@ Preparing search index...
 A hexagon which surrounds a model.
 
 interface IBoundingHex {
-    [caption](#caption)?: [ICaption](core_schema.ICaption.html);
+    [caption](#caption)?: [ICaption](core_schema.ICaption.md);
     [exporterOptions](#exporteroptions)?: { [exporterName: string]: any };
     [layer](#layer)?: string;
-    [models](#models)?: [IModelMap](core_schema.IModelMap.html);
+    [models](#models)?: [IModelMap](core_schema.IModelMap.md);
     [notes](#notes)?: string;
-    [origin](#origin)?: [IPoint](core_schema.IPoint.html);
-    [paths](#paths)?: [IPathMap](core_schema.IPathMap.html);
+    [origin](#origin)?: [IPoint](core_schema.IPoint.md);
+    [paths](#paths)?: [IPathMap](core_schema.IPathMap.md);
     [radius](#radius): number;
     [type](#type)?: string;
     [units](#units)?: string;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.html#core/maker.IBoundingHex))
+#### Hierarchy ([View Summary](../hierarchy.md#core/maker.IBoundingHex))
 
-* [IModel](core_schema.IModel.html)
+* [IModel](core_schema.IModel.md)
   + IBoundingHex
 
 * Defined in [core/maker.ts:588](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L588)
@@ -58,11 +58,11 @@ interface IBoundingHex {
 
 ### `Optional`caption
 
-caption?: [ICaption](core_schema.ICaption.html)
+caption?: [ICaption](core_schema.ICaption.md)
 
 Optional Caption object.
 
-Inherited from [IModel](core_schema.IModel.html).[caption](core_schema.IModel.html#caption)
+Inherited from [IModel](core_schema.IModel.md).[caption](core_schema.IModel.md#caption)
 
 * Defined in [core/schema.ts:107](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/schema.ts#L107)
 
@@ -72,7 +72,7 @@ exporterOptions?: { [exporterName: string]: any }
 
 Optional exporter options for this model.
 
-Inherited from [IModel](core_schema.IModel.html).[exporterOptions](core_schema.IModel.html#exporteroptions)
+Inherited from [IModel](core_schema.IModel.md).[exporterOptions](core_schema.IModel.md#exporteroptions)
 
 * Defined in [core/schema.ts:109](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/schema.ts#L109)
 
@@ -82,17 +82,17 @@ layer?: string
 
 Optional layer of this model.
 
-Inherited from [IModel](core_schema.IModel.html).[layer](core_schema.IModel.html#layer)
+Inherited from [IModel](core_schema.IModel.md).[layer](core_schema.IModel.md#layer)
 
 * Defined in [core/schema.ts:105](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/schema.ts#L105)
 
 ### `Optional`models
 
-models?: [IModelMap](core_schema.IModelMap.html)
+models?: [IModelMap](core_schema.IModelMap.md)
 
 Optional map of models within this model.
 
-Inherited from [IModel](core_schema.IModel.html).[models](core_schema.IModel.html#models)
+Inherited from [IModel](core_schema.IModel.md).[models](core_schema.IModel.md#models)
 
 * Defined in [core/schema.ts:99](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/schema.ts#L99)
 
@@ -102,27 +102,27 @@ notes?: string
 
 An author may wish to add notes to this model instance.
 
-Inherited from [IModel](core_schema.IModel.html).[notes](core_schema.IModel.html#notes)
+Inherited from [IModel](core_schema.IModel.md).[notes](core_schema.IModel.md#notes)
 
 * Defined in [core/schema.ts:103](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/schema.ts#L103)
 
 ### `Optional`origin
 
-origin?: [IPoint](core_schema.IPoint.html)
+origin?: [IPoint](core_schema.IPoint.md)
 
 Optional origin location of this model.
 
-Inherited from [IModel](core_schema.IModel.html).[origin](core_schema.IModel.html#origin)
+Inherited from [IModel](core_schema.IModel.md).[origin](core_schema.IModel.md#origin)
 
 * Defined in [core/schema.ts:93](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/schema.ts#L93)
 
 ### `Optional`paths
 
-paths?: [IPathMap](core_schema.IPathMap.html)
+paths?: [IPathMap](core_schema.IPathMap.md)
 
 Optional map of path objects in this model.
 
-Inherited from [IModel](core_schema.IModel.html).[paths](core_schema.IModel.html#paths)
+Inherited from [IModel](core_schema.IModel.md).[paths](core_schema.IModel.md#paths)
 
 * Defined in [core/schema.ts:97](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/schema.ts#L97)
 
@@ -140,7 +140,7 @@ type?: string
 
 A model may want to specify its type, but this value is not employed yet.
 
-Inherited from [IModel](core_schema.IModel.html).[type](core_schema.IModel.html#type)
+Inherited from [IModel](core_schema.IModel.md).[type](core_schema.IModel.md#type)
 
 * Defined in [core/schema.ts:95](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/schema.ts#L95)
 
@@ -150,7 +150,7 @@ units?: string
 
 Optional unit system of this model. See UnitType for possible values.
 
-Inherited from [IModel](core_schema.IModel.html).[units](core_schema.IModel.html#units)
+Inherited from [IModel](core_schema.IModel.md).[units](core_schema.IModel.md#units)
 
 * Defined in [core/schema.ts:101](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/schema.ts#L101)
 
@@ -169,7 +169,7 @@ Properties
 
 [caption](#caption)[exporterOptions](#exporteroptions)[layer](#layer)[models](#models)[notes](#notes)[origin](#origin)[paths](#paths)[radius](#radius)[type](#type)[units](#units)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

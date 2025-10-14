@@ -5,14 +5,14 @@ source: docs/docs/api/interfaces/core_pdf-esm.IPDFRenderOptions.html
 
 IPDFRenderOptions | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/pdf-esm](../modules/core_pdf-esm.html)
+* [core/pdf-esm](../modules/core_pdf-esm.md)
 * IPDFRenderOptions
 
 # Interface IPDFRenderOptions
@@ -23,7 +23,7 @@ interface IPDFRenderOptions {
     [accuracy](#accuracy)?: number;
     [fontName](#fontname)?: string;
     [fontSize](#fontsize)?: number;
-    [origin](#origin)?: [IPoint](core_schema.IPoint.html);
+    [origin](#origin)?: [IPoint](core_schema.IPoint.md);
     [stroke](#stroke)?: string;
     [units](#units)?: string;
 }
@@ -71,7 +71,7 @@ Font size.
 
 ### `Optional`origin
 
-origin?: [IPoint](core_schema.IPoint.html)
+origin?: [IPoint](core_schema.IPoint.md)
 
 Rendered reference origin.
 
@@ -110,7 +110,7 @@ Properties
 
 [accuracy](#accuracy)[fontName](#fontname)[fontSize](#fontsize)[origin](#origin)[stroke](#stroke)[units](#units)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

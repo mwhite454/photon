@@ -5,28 +5,28 @@ source: docs/docs/api/functions/core_path.toKeyPoints.html
 
 toKeyPoints | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/path](../modules/core_path.html)
+* [core/path](../modules/core_path.md)
 * toKeyPoints
 
 # Function toKeyPoints
 
-* toKeyPoints(pathContext: [IPath](../interfaces/core_schema.IPath.html), maxArcFacet?: number): [IPoint](../interfaces/core_schema.IPoint.html)[]
+* toKeyPoints(pathContext: [IPath](../interfaces/core_schema.IPath.md), maxArcFacet?: number): [IPoint](../interfaces/core_schema.IPoint.md)[]
 
   Get key points (a minimal a number of points) along a path.
 
   #### Parameters
 
-  + pathContext: [IPath](../interfaces/core_schema.IPath.html)
+  + pathContext: [IPath](../interfaces/core_schema.IPath.md)
   + `Optional`maxArcFacet: number
 
-  #### Returns [IPoint](../interfaces/core_schema.IPoint.html)[]
+  #### Returns [IPoint](../interfaces/core_schema.IPoint.md)[]
 
   + Defined in [core/path.ts:370](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/path.ts#L370)
 
@@ -39,7 +39,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

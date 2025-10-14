@@ -5,7 +5,7 @@ source: docs/docs/api/modules/core_base.html
 
 core/base | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
@@ -18,47 +18,47 @@ Preparing search index...
 
 ## Variables
 
-[environment](../variables/core_base.environment.html)
+[environment](../variables/core_base.environment.md)
 
 
-[environmentTypes](../variables/core_base.environmentTypes.html)
+[environmentTypes](../variables/core_base.environmentTypes.md)
 
 
-[pathType](../variables/core_base.pathType.html)
+[pathType](../variables/core_base.pathType.md)
 
 
-[unitType](../variables/core_base.unitType.html)
+[unitType](../variables/core_base.unitType.md)
 
 
-[version](../variables/core_base.version.html)
+[version](../variables/core_base.version.md)
 
 ## Functions
 
-[cloneObject](../functions/core_base.cloneObject.html)
+[cloneObject](../functions/core_base.cloneObject.md)
 
 
-[createRouteKey](../functions/core_base.createRouteKey.html)
+[createRouteKey](../functions/core_base.createRouteKey.md)
 
 
-[extendObject](../functions/core_base.extendObject.html)
+[extendObject](../functions/core_base.extendObject.md)
 
 
-[isFunction](../functions/core_base.isFunction.html)
+[isFunction](../functions/core_base.isFunction.md)
 
 
-[isNumber](../functions/core_base.isNumber.html)
+[isNumber](../functions/core_base.isNumber.md)
 
 
-[isObject](../functions/core_base.isObject.html)
+[isObject](../functions/core_base.isObject.md)
 
 
-[isPoint](../functions/core_base.isPoint.html)
+[isPoint](../functions/core_base.isPoint.md)
 
 
-[round](../functions/core_base.round.html)
+[round](../functions/core_base.round.md)
 
 
-[splitDecimal](../functions/core_base.splitDecimal.html)
+[splitDecimal](../functions/core_base.splitDecimal.md)
 
 ### Settings
 
@@ -79,7 +79,7 @@ Functions
 
 [cloneObject](#cloneobject)[createRouteKey](#createroutekey)[extendObject](#extendobject)[isFunction](#isfunction)[isNumber](#isnumber)[isObject](#isobject)[isPoint](#ispoint)[round](#round)[splitDecimal](#splitdecimal)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

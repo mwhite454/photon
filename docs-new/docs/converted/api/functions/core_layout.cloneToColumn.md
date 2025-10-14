@@ -5,23 +5,23 @@ source: docs/docs/api/functions/core_layout.cloneToColumn.html
 
 cloneToColumn | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/layout](../modules/core_layout.html)
+* [core/layout](../modules/core_layout.md)
 * cloneToColumn
 
 # Function cloneToColumn
 
 * cloneToColumn(
-      itemToClone: [IPath](../interfaces/core_schema.IPath.html) | [IModel](../interfaces/core_schema.IModel.html),
+      itemToClone: [IPath](../interfaces/core_schema.IPath.md) | [IModel](../interfaces/core_schema.IModel.md),
       count: number,
       margin?: number,
-  ): [IModel](../interfaces/core_schema.IModel.html)
+  ): [IModel](../interfaces/core_schema.IModel.md)
 
   Layout clones in a column format.
 
@@ -29,19 +29,19 @@ Preparing search index...
 
   ```
   //Grooves for a finger joint
-  import * as makerjs from 'maker.js';
+  import { exporter, layout, models } from 'photon/core';
 
-  const dogbone = new makerjs.models.Dogbone(50, 20, 2, -1, false);
+  const dogbone = new models.Dogbone(50, 20, 2, -1, false);
 
-  const grooves = makerjs.layout.cloneToColumn(dogbone, 5, 20);
+  const grooves = layout.cloneToColumn(dogbone, 5, 20);
 
-  document.write(makerjs.exporter.toSVG(grooves));
+  document.write(exporter.toSVG(grooves));
   Copy
   ```
 
   #### Parameters
 
-  + itemToClone: [IPath](../interfaces/core_schema.IPath.html) | [IModel](../interfaces/core_schema.IModel.html)
+  + itemToClone: [IPath](../interfaces/core_schema.IPath.md) | [IModel](../interfaces/core_schema.IModel.md)
   + count: number
 
     Number of clones in the column.
@@ -49,7 +49,7 @@ Preparing search index...
 
     Optional distance between each clone.
 
-  #### Returns [IModel](../interfaces/core_schema.IModel.html)
+  #### Returns [IModel](../interfaces/core_schema.IModel.md)
 
   A new model with clones in a column.
 
@@ -64,7 +64,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

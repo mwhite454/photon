@@ -5,7 +5,7 @@ source: docs/docs/api/modules/models_Text.html
 
 models/Text | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
@@ -18,7 +18,7 @@ Preparing search index...
 
 ## Classes
 
-[Text](../classes/models_Text.Text.html)
+[Text](../classes/models_Text.Text.md)
 
 ### Settings
 
@@ -35,7 +35,7 @@ Classes
 
 [Text](#text)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

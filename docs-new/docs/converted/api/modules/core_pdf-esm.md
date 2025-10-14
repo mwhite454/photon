@@ -5,7 +5,7 @@ source: docs/docs/api/modules/core_pdf-esm.html
 
 core/pdf-esm | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
@@ -18,11 +18,11 @@ Preparing search index...
 
 ## Interfaces
 
-[IPDFRenderOptions](../interfaces/core_pdf-esm.IPDFRenderOptions.html)
+[IPDFRenderOptions](../interfaces/core_pdf-esm.IPDFRenderOptions.md)
 
 ## Functions
 
-[toPDF](../functions/core_pdf-esm.toPDF.html)
+[toPDF](../functions/core_pdf-esm.toPDF.md)
 
 ### Settings
 
@@ -43,7 +43,7 @@ Functions
 
 [toPDF](#topdf)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

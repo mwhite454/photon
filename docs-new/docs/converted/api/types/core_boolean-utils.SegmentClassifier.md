@@ -5,28 +5,28 @@ source: docs/docs/api/types/core_boolean-utils.SegmentClassifier.html
 
 SegmentClassifier | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/boolean-utils](../modules/core_boolean-utils.html)
+* [core/boolean-utils](../modules/core_boolean-utils.md)
 * SegmentClassifier
 
 # Type Alias SegmentClassifier
 
-SegmentClassifier: (segmentPath: [IPath](../interfaces/core_schema.IPath.html)) => [SegmentClassification](../interfaces/core_boolean-utils.SegmentClassification.html)
+SegmentClassifier: (segmentPath: [IPath](../interfaces/core_schema.IPath.md)) => [SegmentClassification](../interfaces/core_boolean-utils.SegmentClassification.md)
 
 #### Type Declaration
 
-* + (segmentPath: [IPath](../interfaces/core_schema.IPath.html)): [SegmentClassification](../interfaces/core_boolean-utils.SegmentClassification.html)
+* + (segmentPath: [IPath](../interfaces/core_schema.IPath.md)): [SegmentClassification](../interfaces/core_boolean-utils.SegmentClassification.md)
   + #### Parameters
 
-    - segmentPath: [IPath](../interfaces/core_schema.IPath.html)
+    - segmentPath: [IPath](../interfaces/core_schema.IPath.md)
 
-    #### Returns [SegmentClassification](../interfaces/core_boolean-utils.SegmentClassification.html)
+    #### Returns [SegmentClassification](../interfaces/core_boolean-utils.SegmentClassification.md)
 
 * Defined in [core/boolean-utils.ts:16](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/boolean-utils.ts#L16)
 
@@ -39,7 +39,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

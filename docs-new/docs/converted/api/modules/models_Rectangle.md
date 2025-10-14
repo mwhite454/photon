@@ -5,7 +5,7 @@ source: docs/docs/api/modules/models_Rectangle.html
 
 models/Rectangle | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
@@ -18,7 +18,7 @@ Preparing search index...
 
 ## Classes
 
-[Rectangle](../classes/models_Rectangle.Rectangle.html)
+[Rectangle](../classes/models_Rectangle.Rectangle.md)
 
 ### Settings
 
@@ -35,7 +35,7 @@ Classes
 
 [Rectangle](#rectangle)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

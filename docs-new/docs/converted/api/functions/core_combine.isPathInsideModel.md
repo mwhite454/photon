@@ -5,32 +5,32 @@ source: docs/docs/api/functions/core_combine.isPathInsideModel.html
 
 isPathInsideModel | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/combine](../modules/core_combine.html)
+* [core/combine](../modules/core_combine.md)
 * isPathInsideModel
 
 # Function isPathInsideModel
 
 * isPathInsideModel(
-      pathContext: [IPath](../interfaces/core_schema.IPath.html),
-      modelContext: [IModel](../interfaces/core_schema.IModel.html),
-      pathOffset?: [IPoint](../interfaces/core_schema.IPoint.html),
-      farPoint?: [IPoint](../interfaces/core_schema.IPoint.html),
+      pathContext: [IPath](../interfaces/core_schema.IPath.md),
+      modelContext: [IModel](../interfaces/core_schema.IModel.md),
+      pathOffset?: [IPoint](../interfaces/core_schema.IPoint.md),
+      farPoint?: [IPoint](../interfaces/core_schema.IPoint.md),
       measureAtlas?: any,
   ): boolean
 
   #### Parameters
 
-  + pathContext: [IPath](../interfaces/core_schema.IPath.html)
-  + modelContext: [IModel](../interfaces/core_schema.IModel.html)
-  + `Optional`pathOffset: [IPoint](../interfaces/core_schema.IPoint.html)
-  + `Optional`farPoint: [IPoint](../interfaces/core_schema.IPoint.html)
+  + pathContext: [IPath](../interfaces/core_schema.IPath.md)
+  + modelContext: [IModel](../interfaces/core_schema.IModel.md)
+  + `Optional`pathOffset: [IPoint](../interfaces/core_schema.IPoint.md)
+  + `Optional`farPoint: [IPoint](../interfaces/core_schema.IPoint.md)
   + `Optional`measureAtlas: any
 
   #### Returns boolean
@@ -46,7 +46,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

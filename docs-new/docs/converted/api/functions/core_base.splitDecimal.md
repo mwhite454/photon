@@ -5,14 +5,14 @@ source: docs/docs/api/functions/core_base.splitDecimal.html
 
 splitDecimal | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/base](../modules/core_base.html)
+* [core/base](../modules/core_base.md)
 * splitDecimal
 
 # Function splitDecimal
@@ -36,7 +36,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

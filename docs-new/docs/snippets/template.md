@@ -6,7 +6,9 @@ source: docs/_snippets/template.html
 Example:
 
 ```javascript
-var makerjs = require('makerjs');
+import { models, paths, exporter } from 'photon/core';
+// Your code here
+const svg = exporter.toSVG(yourModel);
 document.write(svg);
 ```
 [try it in JsFiddle ⇗](https://jsfiddle.net/danmarshall//)

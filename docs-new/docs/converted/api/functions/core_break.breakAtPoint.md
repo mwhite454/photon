@@ -5,19 +5,19 @@ source: docs/docs/api/functions/core_break.breakAtPoint.html
 
 breakAtPoint | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/break](../modules/core_break.html)
+* [core/break](../modules/core_break.md)
 * breakAtPoint
 
 # Function breakAtPoint
 
-* breakAtPoint(pathToBreak: [IPath](../interfaces/core_schema.IPath.html), pointOfBreak: [IPoint](../interfaces/core_schema.IPoint.html)): [IPath](../interfaces/core_schema.IPath.html)
+* breakAtPoint(pathToBreak: [IPath](../interfaces/core_schema.IPath.md), pointOfBreak: [IPoint](../interfaces/core_schema.IPoint.md)): [IPath](../interfaces/core_schema.IPath.md)
 
   Breaks a path in two. The supplied path will end at the supplied pointOfBreak,
   a new path is returned which begins at the pointOfBreak and ends at the supplied path's initial end point.
@@ -25,14 +25,14 @@ Preparing search index...
 
   #### Parameters
 
-  + pathToBreak: [IPath](../interfaces/core_schema.IPath.html)
+  + pathToBreak: [IPath](../interfaces/core_schema.IPath.md)
 
     The path to break.
-  + pointOfBreak: [IPoint](../interfaces/core_schema.IPoint.html)
+  + pointOfBreak: [IPoint](../interfaces/core_schema.IPoint.md)
 
     The point at which to break the path.
 
-  #### Returns [IPath](../interfaces/core_schema.IPath.html)
+  #### Returns [IPath](../interfaces/core_schema.IPath.md)
 
   A new path of the same type, when path type is line or arc. Returns null for circle.
 
@@ -47,7 +47,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

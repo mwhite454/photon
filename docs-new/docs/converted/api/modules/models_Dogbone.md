@@ -5,7 +5,7 @@ source: docs/docs/api/modules/models_Dogbone.html
 
 models/Dogbone | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
@@ -18,7 +18,7 @@ Preparing search index...
 
 ## Classes
 
-[Dogbone](../classes/models_Dogbone.Dogbone.html)
+[Dogbone](../classes/models_Dogbone.Dogbone.md)
 
 ### Settings
 
@@ -35,7 +35,7 @@ Classes
 
 [Dogbone](#dogbone)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

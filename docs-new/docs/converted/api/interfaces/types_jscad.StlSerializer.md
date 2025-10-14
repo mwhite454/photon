@@ -5,14 +5,14 @@ source: docs/docs/api/interfaces/types_jscad.StlSerializer.html
 
 StlSerializer | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [types/jscad](../modules/types_jscad.html)
+* [types/jscad](../modules/types_jscad.md)
 * StlSerializer
 
 # Interface StlSerializer
@@ -21,7 +21,7 @@ STL serializer interface
 
 interface StlSerializer {
     [serialize](#serialize-1)(
-        csg: [export=](../modules/types_jscad.export_.html).[CSG](../classes/types_jscad.export_.CSG.html),
+        csg: [export=](../modules/types_jscad.export_.md).[CSG](../classes/types_jscad.export_.CSG.md),
         options: {
             binary: boolean;
             statusCallback?: (status: { progress: number }) => void;
@@ -42,7 +42,7 @@ interface StlSerializer {
 ### serialize
 
 * serialize(
-      csg: [export=](../modules/types_jscad.export_.html).[CSG](../classes/types_jscad.export_.CSG.html),
+      csg: [export=](../modules/types_jscad.export_.md).[CSG](../classes/types_jscad.export_.CSG.md),
       options: {
           binary: boolean;
           statusCallback?: (status: { progress: number }) => void;
@@ -51,7 +51,7 @@ interface StlSerializer {
 
   #### Parameters
 
-  + csg: [export=](../modules/types_jscad.export_.html).[CSG](../classes/types_jscad.export_.CSG.html)
+  + csg: [export=](../modules/types_jscad.export_.md).[CSG](../classes/types_jscad.export_.CSG.md)
   + options: { binary: boolean; statusCallback?: (status: { progress: number }) => void }
 
   #### Returns string
@@ -73,7 +73,7 @@ Methods
 
 [serialize](#serialize)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

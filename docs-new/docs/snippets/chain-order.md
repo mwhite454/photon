@@ -3,27 +3,24 @@ title: Chain Order
 source: docs/_snippets/chain-order.html
 ---
 
----
-title: Order of chain links
----
 You may have already noticed that we have not specified the order of the links array. For example,
 given a chain with 3 links A, B, C - the order may also be C, B, A. So, what is the order of the links in a chain?
 The answer is: it is quite arbitrary. There is no guarantee that the order will be the same each time across JavaScript runtime environments.
 
 #### Reverse a chain
 
-If you have deduced that your chain needs to be reversed, you can call [makerjs.chain.reverse(chain)](/docs/api/modules/makerjs.chain.html#reverse).
+If you have deduced that your chain needs to be reversed, you can call [makerjs.chain.reverse(chain)](/docs/api/modules/makerjs.chain.md#reverse).
 
 #### Beginning of a chain
 
 Another issue with endless chains is, which link is at the beginning of the links array? The answer once again, is that it is unpredictable.
 If you need to specify which link is at the beginning of an endless chain, you have 2 functions at your disposal:
 
-* [makerjs.chain.cycle(chain, amount)](/docs/api/modules/makerjs.chain.html#cycle) - Shift the links of an endless chain.
-* [makerjs.chain.startAt(chain, routeKey)](/docs/api/modules/makerjs.chain.html#startat) - Set the beginning of an endless chain to a known routeKey of a path.
+* [makerjs.chain.cycle(chain, amount)](/docs/api/modules/makerjs.chain.md#cycle) - Shift the links of an endless chain.
+* [makerjs.chain.startAt(chain, routeKey)](/docs/api/modules/makerjs.chain.md#startat) - Set the beginning of an endless chain to a known routeKey of a path.
 
 #### Clockwise
 
 If you have an endless chain, you also have the option to see if your links flow in a clockwise direction.
-Call [makerjs.measure.isChainClockwise(chain)](/docs/api/modules/makerjs.measure.html#ischainclockwise)
+Call [makerjs.measure.isChainClockwise(chain)](/docs/api/modules/makerjs.measure.md#ischainclockwise)
 which returns a boolean, unless your chain has one link which is a circle - in which case it will return null.

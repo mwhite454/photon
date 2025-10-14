@@ -1,0 +1,27 @@
+{
+  "timestamp": "2025-10-14T15:53:00Z",
+  "docs_directory": "docs-new",
+  "build": {
+    "time_seconds": 34.28,
+    "target_seconds": 10,
+    "status": "exceeds_target",
+    "notes": "Build completes successfully but exceeds 10s target. Large number of pages (633) contributes to build time."
+  },
+  "site": {
+    "size": "129M",
+    "page_count": 633,
+    "notes": "Includes converted API documentation (413 pages) and snippets (71 pages)"
+  },
+  "search": {
+    "index_size": "1.4M",
+    "status": "available",
+    "notes": "Search index successfully generated"
+  },
+  "overall_status": "functional_with_performance_notes",
+  "recommendations": [
+    "Build time exceeds 10s target due to large API documentation set (633 pages)",
+    "Consider splitting API docs into separate section or using lazy loading",
+    "Search index is substantial (1.4M) but functional",
+    "Hot-reload and dev server performance acceptable for local development"
+  ]
+}

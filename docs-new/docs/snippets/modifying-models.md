@@ -3,10 +3,6 @@ title: Modifying Models
 source: docs/_snippets/modifying-models.html
 ---
 
----
-title: Modifying models
----
-
 We know that models are relatively simple objects with a well known recursive structure.
 This allows us to modify them for different purposes. Let's modify and combine two different models
 in one drawing.
@@ -15,15 +11,15 @@ For this example we will use ovals to make an oval L shape. We begin by creating
 
 ```javascript
 //render two ovals which overlap
-var makerjs = require('makerjs');
+import { exporter, model, models } from 'photon/core';
 function ovalL(width, height, thickness) {
-var ovalH = new makerjs.models.Oval(width, thickness);
-var ovalV = new makerjs.models.Oval(thickness, height);
+const ovalH = new models.Oval(width, thickness);
+const ovalV = new models.Oval(thickness, height);
 this.models = {
 h: ovalH, v: ovalV
 };
 }
-var svg = makerjs.exporter.toSVG(new ovalL(100, 100, 37));
+const svg = exporter.toSVG(new ovalL(100, 100, 37));
 document.write(svg);
 ```
 
@@ -44,10 +40,10 @@ To remove a path we use the JavaScript **delete** keyword:
 
 ```javascript
 //render two ovals which overlap
-var makerjs = require('makerjs');
+import { exporter, model, models } from 'photon/core';
 function ovalL(width, height, thickness) {
-var ovalH = new makerjs.models.Oval(width, thickness);
-var ovalV = new makerjs.models.Oval(thickness, height);
+const ovalH = new models.Oval(width, thickness);
+const ovalV = new models.Oval(thickness, height);
 //delete the lower arcs from the vertical oval
 delete ovalV.paths.BottomLeft;
 delete ovalV.paths.BottomRight;
@@ -57,7 +53,7 @@ this.models = {
 h: ovalH, v: ovalV
 };
 }
-var svg = makerjs.exporter.toSVG(new ovalL(100, 100, 37));
+const svg = exporter.toSVG(new ovalL(100, 100, 37));
 document.write(svg);
 ```
 
@@ -67,10 +63,10 @@ Adjust only the x or y component of the point:
 
 ```javascript
 //render an L shape, modifying points by their x and y
-var makerjs = require('makerjs');
+import { exporter, model, models } from 'photon/core';
 function ovalL(width, height, thickness) {
-var ovalH = new makerjs.models.Oval(width, thickness);
-var ovalV = new makerjs.models.Oval(thickness, height);
+const ovalH = new models.Oval(width, thickness);
+const ovalV = new models.Oval(thickness, height);
 delete ovalV.paths.BottomLeft;
 delete ovalV.paths.BottomRight;
 delete ovalH.paths.TopLeft;
@@ -82,7 +78,7 @@ this.models = {
 h: ovalH, v: ovalV
 };
 }
-var svg = makerjs.exporter.toSVG(new ovalL(100, 100, 37));
+const svg = exporter.toSVG(new ovalL(100, 100, 37));
 document.write(svg);
 ```
 
@@ -90,10 +86,10 @@ Share a point on both lines:
 
 ```javascript
 //render an L shape, sharing a point
-var makerjs = require('makerjs');
+import { exporter, model, models } from 'photon/core';
 function ovalL(width, height, thickness) {
-var ovalH = new makerjs.models.Oval(width, thickness);
-var ovalV = new makerjs.models.Oval(thickness, height);
+const ovalH = new models.Oval(width, thickness);
+const ovalV = new models.Oval(thickness, height);
 delete ovalV.paths.BottomLeft;
 delete ovalV.paths.BottomRight;
 delete ovalH.paths.TopLeft;
@@ -105,7 +101,7 @@ this.models = {
 h: ovalH, v: ovalV
 };
 }
-var svg = makerjs.exporter.toSVG(new ovalL(100, 100, 37));
+const svg = exporter.toSVG(new ovalL(100, 100, 37));
 document.write(svg);
 ```
 
@@ -117,10 +113,10 @@ The C may create a new *models* object for itself, and nest the L inside; altern
 
 ```javascript
 //render an L with an oval over it
-var makerjs = require('makerjs');
+import { exporter, model, models } from 'photon/core';
 function ovalL(width, height, thickness) {
-var ovalH = new makerjs.models.Oval(width, thickness);
-var ovalV = new makerjs.models.Oval(thickness, height);
+const ovalH = new models.Oval(width, thickness);
+const ovalV = new models.Oval(thickness, height);
 delete ovalV.paths.BottomLeft;
 delete ovalV.paths.BottomRight;
 delete ovalH.paths.TopLeft;
@@ -133,12 +129,12 @@ function ovalC(width, height, thickness) {
 //assume the same models as L
 this.models = new ovalL(width, height, thickness).models;
 //add another oval
-this.models.h2 = new makerjs.models.Oval(width, thickness);
+this.models.h2 = new models.Oval(width, thickness);
 //move it to the top
 this.models.h2.origin = [0, height - thickness];
 }
 //using C instead of L
-var svg = makerjs.exporter.toSVG(new ovalC(100, 100, 37));
+const svg = exporter.toSVG(new ovalC(100, 100, 37));
 document.write(svg);
 ```
 
@@ -146,10 +142,10 @@ Just as before, we need to delete the overlapping paths using the **delete** key
 
 ```javascript
 //render an L and form a C
-var makerjs = require('makerjs');
+import { exporter, model, models } from 'photon/core';
 function ovalL(width, height, thickness) {
-var ovalH = new makerjs.models.Oval(width, thickness);
-var ovalV = new makerjs.models.Oval(thickness, height);
+const ovalH = new models.Oval(width, thickness);
+const ovalV = new models.Oval(thickness, height);
 delete ovalV.paths.BottomLeft;
 delete ovalV.paths.BottomRight;
 delete ovalH.paths.TopLeft;
@@ -160,17 +156,17 @@ this.models = { h: ovalH, v: ovalV };
 }
 function ovalC(width, height, thickness) {
 //set local var m for easy typing
-var m =
+const m =
 this.models =
 new ovalL(width, height, thickness).models;
-m.h2 = new makerjs.models.Oval(width, thickness);
+m.h2 = new models.Oval(width, thickness);
 m.h2.origin = [0, height - thickness];
 //delete overlapping arcs again
 delete m.h2.paths.TopLeft;
 delete m.h2.paths.BottomLeft;
 delete m.v.paths.TopRight;
 }
-var svg = makerjs.exporter.toSVG(new ovalC(100, 100, 37));
+const svg = exporter.toSVG(new ovalC(100, 100, 37));
 document.write(svg);
 ```
 
@@ -181,10 +177,10 @@ In the Play editor, try removing the call to originate to see the results withou
 
 ```javascript
 //render a C shape
-var makerjs = require('makerjs');
+import { exporter, model, models } from 'photon/core';
 function ovalL(width, height, thickness) {
-var ovalH = new makerjs.models.Oval(width, thickness);
-var ovalV = new makerjs.models.Oval(thickness, height);
+const ovalH = new models.Oval(width, thickness);
+const ovalV = new models.Oval(thickness, height);
 delete ovalV.paths.BottomLeft;
 delete ovalV.paths.BottomRight;
 delete ovalH.paths.TopLeft;
@@ -194,22 +190,22 @@ ovalV.paths.Right.origin =
 this.models = { h: ovalH, v: ovalV };
 }
 function ovalC(width, height, thickness) {
-var m =
+const m =
 this.models =
 new ovalL(width, height, thickness).models;
-m.h2 = new makerjs.models.Oval(width, thickness);
+m.h2 = new models.Oval(width, thickness);
 m.h2.origin = [0, height - thickness];
 delete m.h2.paths.TopLeft;
 delete m.h2.paths.BottomLeft;
 delete m.v.paths.TopRight;
 //h2 has paths relative to h2 origin,
 //we need to originate to share the point
-makerjs.model.originate(this);
+model.originate(this);
 //share the point
 m.h2.paths.Bottom.origin =
 m.v.paths.Right.end =
 [thickness, height - thickness];
 }
-var svg = makerjs.exporter.toSVG(new ovalC(100, 100, 37));
+const svg = exporter.toSVG(new ovalC(100, 100, 37));
 document.write(svg);
 ```

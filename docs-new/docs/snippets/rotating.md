@@ -3,17 +3,13 @@ title: Rotating
 source: docs/_snippets/rotating.html
 ---
 
----
-title: Rotating
----
-
-To rotate a single point, see [makerjs.point.fromPolar](../api/modules/makerjs.point.html#frompolar)
-and [makerjs.point.rotate](../api/modules/makerjs.point.html#rotate) depending on what you are trying to achieve.
+To rotate a single point, see [point.fromPolar](../api/modules/point.md#frompolar)
+and [point.rotate](../api/modules/point.md#rotate) depending on what you are trying to achieve.
 
 You can rotate paths and models with these functions:
 
-* [makerjs.path.rotate](../api/modules/makerjs.path.html#rotate)(path: object, angleInDegrees: number, rotationOrigin: point)
-* [makerjs.model.rotate](../api/modules/makerjs.model.html#rotate)(model: object, angleInDegrees: number, rotationOrigin: point)
+* [path.rotate](../api/modules/path.md#rotate)(path: object, angleInDegrees: number, rotationOrigin: point)
+* [model.rotate](../api/modules/model.md#rotate)(model: object, angleInDegrees: number, rotationOrigin: point)
 
 Each of these functions return the original object, so that we can "chain" on the same line of code.
 
@@ -21,11 +17,11 @@ Rotate path example:
 
 ```javascript
 //render a rotated line
-var makerjs = require('makerjs');
-var line1 = new makerjs.paths.Line([0, 0], [100, 0]);
-var line2 = new makerjs.paths.Line([0, 0], [100, 0]);
-var paths = [line1, makerjs.path.rotate(line2, -30, [100, 0])];
-var svg = makerjs.exporter.toSVG(paths);
+import { exporter, model, models, path, paths, point } from 'photon/core';
+const line1 = new paths.Line([0, 0], [100, 0]);
+const line2 = new paths.Line([0, 0], [100, 0]);
+const paths = [line1, path.rotate(line2, -30, [100, 0])];
+const svg = exporter.toSVG(paths);
 document.write(svg);
 ```
 
@@ -33,9 +29,9 @@ Rotate model example:
 
 ```javascript
 //render a rotated rectangle
-var makerjs = require('makerjs');
-var rect1 = new makerjs.models.Rectangle(40, 80);
-makerjs.model.rotate(rect1, 45, [0, 0]);
-var svg = makerjs.exporter.toSVG(rect1);
+import { exporter, model, models, path, paths, point } from 'photon/core';
+const rect1 = new models.Rectangle(40, 80);
+model.rotate(rect1, 45, [0, 0]);
+const svg = exporter.toSVG(rect1);
 document.write(svg);
 ```

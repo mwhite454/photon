@@ -5,21 +5,21 @@ source: docs/docs/api/functions/core_equal.isPointDistinct.html
 
 isPointDistinct | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/equal](../modules/core_equal.html)
+* [core/equal](../modules/core_equal.md)
 * isPointDistinct
 
 # Function isPointDistinct
 
 * isPointDistinct(
-      pointToCheck: [IPoint](../interfaces/core_schema.IPoint.html),
-      pointArray: [IPoint](../interfaces/core_schema.IPoint.html)[],
+      pointToCheck: [IPoint](../interfaces/core_schema.IPoint.md),
+      pointArray: [IPoint](../interfaces/core_schema.IPoint.md)[],
       withinDistance?: number,
   ): boolean
 
@@ -27,8 +27,8 @@ Preparing search index...
 
   #### Parameters
 
-  + pointToCheck: [IPoint](../interfaces/core_schema.IPoint.html)
-  + pointArray: [IPoint](../interfaces/core_schema.IPoint.html)[]
+  + pointToCheck: [IPoint](../interfaces/core_schema.IPoint.md)
+  + pointArray: [IPoint](../interfaces/core_schema.IPoint.md)[]
   + `Optional`withinDistance: number
 
   #### Returns boolean
@@ -44,7 +44,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

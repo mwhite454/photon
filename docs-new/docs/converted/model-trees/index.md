@@ -1,12 +1,8 @@
 ---
 title: Index
 source: docs/docs/model-trees/index.html
----
-
----
 layout: snippetlist
-title: Model trees
 snippet\_titles: [Model tree structures, Routes, Walking a model tree]
 ---
 
-Next: [Working with chains](../working-with-chains/#content).
+Next: [Working with chains](../working-with-chains/index.md#content).

@@ -5,26 +5,26 @@ source: docs/docs/api/functions/core_layout.childrenOnPath.html
 
 childrenOnPath | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/layout](../modules/core_layout.html)
+* [core/layout](../modules/core_layout.md)
 * childrenOnPath
 
 # Function childrenOnPath
 
 * childrenOnPath(
-      parentModel: [IModel](../interfaces/core_schema.IModel.html),
-      onPath: [IPath](../interfaces/core_schema.IPath.html),
+      parentModel: [IModel](../interfaces/core_schema.IModel.md),
+      onPath: [IPath](../interfaces/core_schema.IPath.md),
       baseline?: number,
       reversed?: boolean,
       contain?: boolean,
       rotate?: boolean,
-  ): [IModel](../interfaces/core_schema.IModel.html)
+  ): [IModel](../interfaces/core_schema.IModel.md)
 
   Layout the children of a model along a path.
   The x-position of each child will be projected onto the path so that the proportion between children is maintained.
@@ -32,10 +32,10 @@ Preparing search index...
 
   #### Parameters
 
-  + parentModel: [IModel](../interfaces/core_schema.IModel.html)
+  + parentModel: [IModel](../interfaces/core_schema.IModel.md)
 
     The model containing children to lay out.
-  + onPath: [IPath](../interfaces/core_schema.IPath.html)
+  + onPath: [IPath](../interfaces/core_schema.IPath.md)
 
     The path on which to lay out.
   + baseline: number = 0
@@ -51,7 +51,7 @@ Preparing search index...
 
     Flag to rotate the child to perpendicular. Default is true.
 
-  #### Returns [IModel](../interfaces/core_schema.IModel.html)
+  #### Returns [IModel](../interfaces/core_schema.IModel.md)
 
   The parentModel, for cascading.
 
@@ -66,7 +66,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

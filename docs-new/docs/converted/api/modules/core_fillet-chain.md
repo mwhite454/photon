@@ -5,7 +5,7 @@ source: docs/docs/api/modules/core_fillet-chain.html
 
 core/fillet-chain | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
@@ -18,10 +18,10 @@ Preparing search index...
 
 ## Functions
 
-[chainDogbone](../functions/core_fillet-chain.chainDogbone.html)
+[chainDogbone](../functions/core_fillet-chain.chainDogbone.md)
 
 
-[chainFillet](../functions/core_fillet-chain.chainFillet.html)
+[chainFillet](../functions/core_fillet-chain.chainFillet.md)
 
 ### Settings
 
@@ -38,7 +38,7 @@ Functions
 
 [chainDogbone](#chaindogbone)[chainFillet](#chainfillet)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

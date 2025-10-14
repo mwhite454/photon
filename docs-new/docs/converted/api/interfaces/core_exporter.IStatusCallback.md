@@ -5,14 +5,14 @@ source: docs/docs/api/interfaces/core_exporter.IStatusCallback.html
 
 IStatusCallback | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/exporter](../modules/core_exporter.html)
+* [core/exporter](../modules/core_exporter.md)
 * IStatusCallback
 
 # Interface IStatusCallback
@@ -36,7 +36,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

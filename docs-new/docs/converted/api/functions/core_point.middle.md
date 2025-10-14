@@ -5,28 +5,28 @@ source: docs/docs/api/functions/core_point.middle.html
 
 middle | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/point](../modules/core_point.html)
+* [core/point](../modules/core_point.md)
 * middle
 
 # Function middle
 
-* middle(pathContext: [IPath](../interfaces/core_schema.IPath.html), ratio?: number): [IPoint](../interfaces/core_schema.IPoint.html)
+* middle(pathContext: [IPath](../interfaces/core_schema.IPath.md), ratio?: number): [IPoint](../interfaces/core_schema.IPoint.md)
 
   Get the middle point of a path.
 
   #### Parameters
 
-  + pathContext: [IPath](../interfaces/core_schema.IPath.html)
+  + pathContext: [IPath](../interfaces/core_schema.IPath.md)
   + ratio: number = .5
 
-  #### Returns [IPoint](../interfaces/core_schema.IPoint.html)
+  #### Returns [IPoint](../interfaces/core_schema.IPoint.md)
 
   + Defined in [core/point.ts:147](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/point.ts#L147)
 
@@ -39,7 +39,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

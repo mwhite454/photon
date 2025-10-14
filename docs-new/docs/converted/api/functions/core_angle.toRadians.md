@@ -5,14 +5,14 @@ source: docs/docs/api/functions/core_angle.toRadians.html
 
 toRadians | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/angle](../modules/core_angle.html)
+* [core/angle](../modules/core_angle.md)
 * toRadians
 
 # Function toRadians
@@ -38,7 +38,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

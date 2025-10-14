@@ -1,7 +1,7 @@
 # Implementation Tasks: Functional Composition + Cascade APIs
 
 **Feature**: 007 - Modern Functional Composition + Legacy Cascade Support  
-**Status**: Ready for Implementation  
+**Status**: In Progress (Phase 4 Complete - Pipe & Compose ✅)  
 **Branch**: `007-functional-composition` (from `006-migration-from-jekyll`)  
 **Estimated Time**: 2-3 days (16-24 hours)  
 **Priority**: High
@@ -21,14 +21,14 @@ This feature implements two complementary APIs for function composition:
 
 ## Task Summary
 
-- **Total Tasks**: 24
-- **Completed**: 2/24
-- **Setup**: 2 tasks (T001-T002)
-- **Foundational**: 1 task (T003)
-- **User Story 1 (pipe)**: 6 tasks (T004-T009)
-- **User Story 2 (compose)**: 5 tasks (T010-T014)
-- **User Story 3 (cascade)**: 8 tasks (T015-T022)
-- **Polish & Integration**: 2 tasks (T023-T024)
+- **Total Tasks**: 25
+- **Completed**: 14/25
+- **Setup**: 2 tasks (T001-T002) ✅
+- **Foundational**: 1 task (T003) ✅
+- **User Story 1 (pipe)**: 6 tasks (T004-T009) ✅
+- **User Story 2 (compose)**: 5 tasks (T010-T014) ✅
+- **User Story 3 (cascade)**: 8 tasks (T015-T022) ✅
+- **Polish & Integration**: 3 tasks (T023-T025)
 
 **Parallel Opportunities**: 15+ tasks can run in parallel
 
@@ -45,40 +45,41 @@ This feature implements two complementary APIs for function composition:
 
 ### Phase 2: Foundational Tasks
 
-- [ ] T003: Create Functional Module File
+- [X] T003: Create Functional Module File
 
 ### Phase 3: User Story 1 - Pipe Function
 
-- [ ] T004: [US1] Write Pipe Function Tests [P]
-- [ ] T005: [US1] Implement Pipe TypeScript Overloads
-- [ ] T006: [US1] Implement Pipe Function Body
-- [ ] T007: [US1] Export Pipe from Core Index [P]
-- [ ] T008: [US1] Verify Pipe Integration Tests Pass [P]
-- [ ] T009: [US1] Refactor Pipe Implementation (if needed)
+- [X] T004: [US1] Write Pipe Function Tests [P]
+- [X] T005: [US1] Implement Pipe TypeScript Overloads
+- [X] T006: [US1] Implement Pipe Function Body
+- [X] T007: [US1] Export Pipe from Core Index [P]
+- [X] T008: [US1] Verify Pipe Integration Tests Pass [P]
+- [X] T009: [US1] Refactor Pipe Implementation (if needed)
 
 ### Phase 4: User Story 2 - Compose Function
 
-- [ ] T010: [US2] Write Compose Function Tests [P]
-- [ ] T011: [US2] Implement Compose TypeScript Overloads
-- [ ] T012: [US2] Implement Compose Function Body
-- [ ] T013: [US2] Export Compose from Core Index [P]
-- [ ] T014: [US2] Verify Compose Tests Pass [P]
+- [X] T010: [US2] Write Compose Function Tests [P]
+- [X] T011: [US2] Implement Compose TypeScript Overloads
+- [X] T012: [US2] Implement Compose Function Body
+- [X] T013: [US2] Export Compose from Core Index [P]
+- [X] T014: [US2] Verify Compose Tests Pass [P]
 
 ### Phase 5: User Story 3 - Cascade Modernization
 
-- [ ] T015: [US3] Write Cascade Tests (Model/Path/Point) [P]
-- [ ] T016: [US3] Modernize Cascade Class - Replace var with const/let
-- [ ] T017: [US3] Modernize Cascade Class - Replace function with Arrow Functions
-- [ ] T018: [US3] Modernize Cascade Class - Replace arguments with Rest Parameters
-- [ ] T019: [US3] Remove makerjs Branding from Cascade Comments
-- [ ] T020: [US3] Uncomment and Update Cascade Export Function
-- [ ] T021: [US3] Export $ from Core Index [P]
-- [ ] T022: [US3] Verify Cascade Tests Pass [P]
+- [X] T015: [US3] Write Cascade Tests (Model/Path/Point) [P]
+- [X] T016: [US3] Modernize Cascade Class - Replace var with const/let
+- [X] T017: [US3] Modernize Cascade Class - Replace function with Arrow Functions
+- [X] T018: [US3] Modernize Cascade Class - Replace arguments with Rest Parameters
+- [X] T019: [US3] Remove makerjs Branding from Cascade Comments
+- [X] T020: [US3] Uncomment and Update Cascade Export Function
+- [X] T021: [US3] Export $ from Core Index [P]
+- [X] T022: [US3] Verify Cascade Tests Pass [P]
 
 ### Phase 6: Polish & Integration
 
-- [ ] T023: [Polish] Update Documentation with Functional Composition Examples [P]
-- [ ] T024: [Polish] Run Full Test Suite and Performance Benchmarks [P]
+- [X] T023: [Polish] Update Documentation with Functional Composition Examples [P]
+- [X] T024: [Polish] Run Full Test Suite and Performance Benchmarks [P]
+- [ ] T025: [Polish] Rename maker.ts to core.ts for Better Semantics
 
 ---
 
@@ -1182,6 +1183,104 @@ npm run lint
 **Files Verified**: Complete test suite + build artifacts
 
 **Final Checkpoint**: US3 Complete - Cascade modernized with Photon branding
+
+---
+
+### T025: [Polish] Rename maker.ts to core.ts for Better Semantics
+
+**Priority**: P3  
+**Estimated Time**: 1 hour  
+**Dependencies**: T024 (all tests passing)  
+**Parallelizable**: No
+
+**Description**: Rename `maker.ts` to `core.ts` to better reflect its role as the foundational core module for Photon, completing the Maker.js → Photon rebrand.
+
+**Rationale**: 
+- `maker.ts` is a legacy filename from Maker.js days
+- `core.ts` better describes the file's role as the foundational utility module
+- Aligns with modern naming conventions and project branding
+
+**Actions**:
+
+1. **Rename the file**:
+```bash
+cd packages/photon/src/core
+git mv maker.ts core.ts
+```
+
+2. **Update all imports** (estimated 50+ files):
+```bash
+# Find all files importing maker.ts
+grep -r "from './core/maker.js'" packages/photon/src/
+grep -r "from '../core/maker.js'" packages/photon/
+
+# Update imports: './core/maker.js' → './core/core.js'
+# Update imports: '../core/maker.js' → '../core/core.js'
+```
+
+3. **Update exports in index.ts**:
+```typescript
+// BEFORE
+export * as maker from './core/maker.js';
+
+// AFTER
+export * as core from './core/core.js';
+```
+
+4. **Update test imports**:
+```bash
+# Update test files
+grep -r "from '../src/core/maker.js'" packages/photon/test/
+```
+
+5. **Update build configuration** (if any references exist):
+- Check `vite.config.ts`
+- Check `tsconfig.json`
+- Check any build scripts
+
+6. **Update documentation references**:
+```bash
+# Find documentation referencing maker.ts
+grep -r "maker.ts" docs-new/
+grep -r "core/maker" docs-new/
+```
+
+**Files to Update** (estimated):
+- `packages/photon/src/core/maker.ts` → `packages/photon/src/core/core.ts`
+- `packages/photon/src/index.ts` - Update export statement
+- `packages/photon/src/core/*.ts` - Update ~10 imports
+- `packages/photon/test/*.ts` - Update ~5 test imports
+- `packages/photon/src/models/*.ts` - Update ~17 model imports
+- `docs-new/docs/**/*.md` - Update documentation references
+
+**Acceptance Criteria**:
+- ✅ File renamed: `maker.ts` → `core.ts`
+- ✅ All imports updated across codebase
+- ✅ Export namespace updated in `index.ts`
+- ✅ All tests pass after rename
+- ✅ TypeScript compilation succeeds
+- ✅ Build succeeds
+- ✅ No remaining references to `maker.ts` in source code
+- ✅ Documentation updated
+- ✅ Git history preserved (using `git mv`)
+
+**Verification Commands**:
+```bash
+# Verify no remaining maker.ts references
+grep -r "maker\.ts" packages/photon/src/
+grep -r "from.*maker\.js" packages/photon/src/
+
+# Run tests
+cd packages/photon
+npm test
+
+# Build
+npm run build
+```
+
+**Important**: No backward compatibility - completely remove `maker` namespace. Photon is a distinct product with a new architecture.
+
+**Files Modified**: 50+ files estimated
 
 ---
 

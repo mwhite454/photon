@@ -5,28 +5,28 @@ source: docs/docs/api/functions/core_point.fromAngleOnCircle.html
 
 fromAngleOnCircle | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/point](../modules/core_point.html)
+* [core/point](../modules/core_point.md)
 * fromAngleOnCircle
 
 # Function fromAngleOnCircle
 
-* fromAngleOnCircle(angleInDegrees: number, circle: [IPathCircle](../interfaces/core_schema.IPathCircle.html)): [IPoint](../interfaces/core_schema.IPoint.html)
+* fromAngleOnCircle(angleInDegrees: number, circle: [IPathCircle](../interfaces/core_schema.IPathCircle.md)): [IPoint](../interfaces/core_schema.IPoint.md)
 
   Get a point on a circle or arc path, at a given angle.
 
   #### Parameters
 
   + angleInDegrees: number
-  + circle: [IPathCircle](../interfaces/core_schema.IPathCircle.html)
+  + circle: [IPathCircle](../interfaces/core_schema.IPathCircle.md)
 
-  #### Returns [IPoint](../interfaces/core_schema.IPoint.html)
+  #### Returns [IPoint](../interfaces/core_schema.IPoint.md)
 
   + Defined in [core/point.ts:67](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/point.ts#L67)
 
@@ -39,7 +39,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

@@ -5,21 +5,21 @@ source: docs/docs/api/functions/core_measure.isArcSpanOverlapping.html
 
 isArcSpanOverlapping | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/measure](../modules/core_measure.html)
+* [core/measure](../modules/core_measure.md)
 * isArcSpanOverlapping
 
 # Function isArcSpanOverlapping
 
 * isArcSpanOverlapping(
-      arcA: [IPathArc](../interfaces/core_schema.IPathArc.html),
-      arcB: [IPathArc](../interfaces/core_schema.IPathArc.html),
+      arcA: [IPathArc](../interfaces/core_schema.IPathArc.md),
+      arcB: [IPathArc](../interfaces/core_schema.IPathArc.md),
       excludeTangents: boolean,
   ): boolean
 
@@ -27,10 +27,10 @@ Preparing search index...
 
   #### Parameters
 
-  + arcA: [IPathArc](../interfaces/core_schema.IPathArc.html)
+  + arcA: [IPathArc](../interfaces/core_schema.IPathArc.md)
 
     The arc to test.
-  + arcB: [IPathArc](../interfaces/core_schema.IPathArc.html)
+  + arcB: [IPathArc](../interfaces/core_schema.IPathArc.md)
 
     The arc to check for overlap.
   + excludeTangents: boolean
@@ -52,7 +52,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

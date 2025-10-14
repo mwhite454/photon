@@ -5,7 +5,7 @@ source: docs/docs/api/modules/core_cascades.html
 
 core/cascades | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
@@ -18,7 +18,7 @@ Preparing search index...
 
 ## Namespaces
 
-[MakerJs](core_cascades.MakerJs.html)
+[MakerJs](core_cascades.MakerJs.md)
 
 ### Settings
 
@@ -35,7 +35,7 @@ Namespaces
 
 [MakerJs](#makerjs)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

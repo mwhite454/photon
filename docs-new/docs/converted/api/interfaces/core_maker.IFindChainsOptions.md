@@ -5,14 +5,14 @@ source: docs/docs/api/interfaces/core_maker.IFindChainsOptions.html
 
 IFindChainsOptions | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.html)
+* [core/maker](../modules/core_maker.md)
 * IFindChainsOptions
 
 # Interface IFindChainsOptions
@@ -21,15 +21,15 @@ Options to pass to model.findChains.
 
 interface IFindChainsOptions {
     [byLayers](#bylayers)?: boolean;
-    [contain](#contain)?: boolean | [IContainChainsOptions](core_maker.IContainChainsOptions.html);
+    [contain](#contain)?: boolean | [IContainChainsOptions](core_maker.IContainChainsOptions.md);
     [pointMatchingDistance](#pointmatchingdistance)?: number;
     [shallow](#shallow)?: boolean;
     [unifyBeziers](#unifybeziers)?: boolean;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.html#core/maker.IFindChainsOptions))
+#### Hierarchy ([View Summary](../hierarchy.md#core/maker.IFindChainsOptions))
 
-* [IPointMatchOptions](core_maker.IPointMatchOptions.html)
+* [IPointMatchOptions](core_maker.IPointMatchOptions.md)
   + IFindChainsOptions
 
 * Defined in [core/maker.ts:501](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L501)
@@ -56,7 +56,7 @@ Flag to separate chains by layers.
 
 ### `Optional`contain
 
-contain?: boolean | [IContainChainsOptions](core_maker.IContainChainsOptions.html)
+contain?: boolean | [IContainChainsOptions](core_maker.IContainChainsOptions.md)
 
 Flag to order chains in a heirarchy by their paths being within one another.
 
@@ -68,7 +68,7 @@ pointMatchingDistance?: number
 
 Max distance to consider two points as the same.
 
-Inherited from [IPointMatchOptions](core_maker.IPointMatchOptions.html).[pointMatchingDistance](core_maker.IPointMatchOptions.html#pointmatchingdistance)
+Inherited from [IPointMatchOptions](core_maker.IPointMatchOptions.md).[pointMatchingDistance](core_maker.IPointMatchOptions.md#pointmatchingdistance)
 
 * Defined in [core/maker.ts:282](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L282)
 
@@ -103,7 +103,7 @@ Properties
 
 [byLayers](#bylayers)[contain](#contain)[pointMatchingDistance](#pointmatchingdistance)[shallow](#shallow)[unifyBeziers](#unifybeziers)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

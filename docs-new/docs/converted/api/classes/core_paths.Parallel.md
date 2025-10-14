@@ -5,14 +5,14 @@ source: docs/docs/api/classes/core_paths.Parallel.html
 
 Parallel | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/paths](../modules/core_paths.html)
+* [core/paths](../modules/core_paths.md)
 * Parallel
 
 # Class Parallel
@@ -33,7 +33,7 @@ Any point to determine which side of the line to place the parallel.
 
 #### Implements
 
-* [IPathLine](../interfaces/core_schema.IPathLine.html)
+* [IPathLine](../interfaces/core_schema.IPathLine.md)
 
 * Defined in [core/paths.ts:372](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/paths.ts#L372)
 
@@ -53,13 +53,13 @@ Any point to determine which side of the line to place the parallel.
 
 ### constructor
 
-* new Parallel(toLine: [IPathLine](../interfaces/core_schema.IPathLine.html), distance: number, nearPoint: [IPoint](../interfaces/core_schema.IPoint.html)): Parallel
+* new Parallel(toLine: [IPathLine](../interfaces/core_schema.IPathLine.md), distance: number, nearPoint: [IPoint](../interfaces/core_schema.IPoint.md)): Parallel
 
   #### Parameters
 
-  + toLine: [IPathLine](../interfaces/core_schema.IPathLine.html)
+  + toLine: [IPathLine](../interfaces/core_schema.IPathLine.md)
   + distance: number
-  + nearPoint: [IPoint](../interfaces/core_schema.IPoint.html)
+  + nearPoint: [IPoint](../interfaces/core_schema.IPoint.md)
 
   #### Returns Parallel
 
@@ -69,21 +69,21 @@ Any point to determine which side of the line to place the parallel.
 
 ### end
 
-end: [IPoint](../interfaces/core_schema.IPoint.html)
+end: [IPoint](../interfaces/core_schema.IPoint.md)
 
 The end point defining the line. The start point is the origin.
 
-Implementation of [IPathLine](../interfaces/core_schema.IPathLine.html).[end](../interfaces/core_schema.IPathLine.html#end)
+Implementation of [IPathLine](../interfaces/core_schema.IPathLine.md).[end](../interfaces/core_schema.IPathLine.md#end)
 
 * Defined in [core/paths.ts:375](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/paths.ts#L375)
 
 ### origin
 
-origin: [IPoint](../interfaces/core_schema.IPoint.html)
+origin: [IPoint](../interfaces/core_schema.IPoint.md)
 
 The main point of reference for this path.
 
-Implementation of [IPathLine](../interfaces/core_schema.IPathLine.html).[origin](../interfaces/core_schema.IPathLine.html#origin)
+Implementation of [IPathLine](../interfaces/core_schema.IPathLine.md).[origin](../interfaces/core_schema.IPathLine.md#origin)
 
 * Defined in [core/paths.ts:374](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/paths.ts#L374)
 
@@ -93,7 +93,7 @@ type: string
 
 The type of the path, e.g. "line", "circle", or "arc". These strings are enumerated in pathType.
 
-Implementation of [IPathLine](../interfaces/core_schema.IPathLine.html).[type](../interfaces/core_schema.IPathLine.html#type)
+Implementation of [IPathLine](../interfaces/core_schema.IPathLine.md).[type](../interfaces/core_schema.IPathLine.md#type)
 
 * Defined in [core/paths.ts:373](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/paths.ts#L373)
 
@@ -116,7 +116,7 @@ Properties
 
 [end](#end)[origin](#origin)[type](#type)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

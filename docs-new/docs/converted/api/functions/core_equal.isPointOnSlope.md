@@ -5,26 +5,26 @@ source: docs/docs/api/functions/core_equal.isPointOnSlope.html
 
 isPointOnSlope | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/equal](../modules/core_equal.html)
+* [core/equal](../modules/core_equal.md)
 * isPointOnSlope
 
 # Function isPointOnSlope
 
-* isPointOnSlope(p: [IPoint](../interfaces/core_schema.IPoint.html), slope: [ISlope](../interfaces/core_maker.ISlope.html), withinDistance?: number): boolean
+* isPointOnSlope(p: [IPoint](../interfaces/core_schema.IPoint.md), slope: [ISlope](../interfaces/core_maker.ISlope.md), withinDistance?: number): boolean
 
   Find out if point is on a slope.
 
   #### Parameters
 
-  + p: [IPoint](../interfaces/core_schema.IPoint.html)
-  + slope: [ISlope](../interfaces/core_maker.ISlope.html)
+  + p: [IPoint](../interfaces/core_schema.IPoint.md)
+  + slope: [ISlope](../interfaces/core_maker.ISlope.md)
   + withinDistance: number = 0
 
   #### Returns boolean
@@ -40,7 +40,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

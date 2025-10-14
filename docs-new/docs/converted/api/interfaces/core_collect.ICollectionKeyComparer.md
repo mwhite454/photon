@@ -5,14 +5,14 @@ source: docs/docs/api/interfaces/core_collect.ICollectionKeyComparer.html
 
 ICollectionKeyComparer | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/collect](../modules/core_collect.html)
+* [core/collect](../modules/core_collect.md)
 * ICollectionKeyComparer
 
 # Interface ICollectionKeyComparer<K>
@@ -43,7 +43,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

@@ -5,14 +5,14 @@ source: docs/docs/api/classes/models_Slot.Slot.html
 
 Slot | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [models/Slot](../modules/models_Slot.html)
+* [models/Slot](../modules/models_Slot.md)
 * Slot
 
 # Class Slot
@@ -21,7 +21,7 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
 #### Implements
 
-* [IModel](../interfaces/core_schema.IModel.html)
+* [IModel](../interfaces/core_schema.IModel.md)
 
 * Defined in [models/Slot.ts:10](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Slot.ts#L10)
 
@@ -42,16 +42,16 @@ A model is a composite object which may contain a map of paths, or a map of mode
 ### constructor
 
 * new Slot(
-      origin: [IPoint](../interfaces/core_schema.IPoint.html),
-      endPoint: [IPoint](../interfaces/core_schema.IPoint.html),
+      origin: [IPoint](../interfaces/core_schema.IPoint.md),
+      endPoint: [IPoint](../interfaces/core_schema.IPoint.md),
       radius: number,
       isolateCaps?: boolean,
   ): Slot
 
   #### Parameters
 
-  + origin: [IPoint](../interfaces/core_schema.IPoint.html)
-  + endPoint: [IPoint](../interfaces/core_schema.IPoint.html)
+  + origin: [IPoint](../interfaces/core_schema.IPoint.md)
+  + endPoint: [IPoint](../interfaces/core_schema.IPoint.md)
   + radius: number
   + isolateCaps: boolean = false
 
@@ -63,31 +63,31 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
 ### models
 
-models: [IModelMap](../interfaces/core_schema.IModelMap.html)
+models: [IModelMap](../interfaces/core_schema.IModelMap.md)
 
 Optional map of models within this model.
 
-Implementation of [IModel](../interfaces/core_schema.IModel.html).[models](../interfaces/core_schema.IModel.html#models)
+Implementation of [IModel](../interfaces/core_schema.IModel.md).[models](../interfaces/core_schema.IModel.md#models)
 
 * Defined in [models/Slot.ts:13](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Slot.ts#L13)
 
 ### origin
 
-origin: [IPoint](../interfaces/core_schema.IPoint.html)
+origin: [IPoint](../interfaces/core_schema.IPoint.md)
 
 Optional origin location of this model.
 
-Implementation of [IModel](../interfaces/core_schema.IModel.html).[origin](../interfaces/core_schema.IModel.html#origin)
+Implementation of [IModel](../interfaces/core_schema.IModel.md).[origin](../interfaces/core_schema.IModel.md#origin)
 
 * Defined in [models/Slot.ts:12](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Slot.ts#L12)
 
 ### paths
 
-paths: [IPathMap](../interfaces/core_schema.IPathMap.html) = {}
+paths: [IPathMap](../interfaces/core_schema.IPathMap.md) = {}
 
 Optional map of path objects in this model.
 
-Implementation of [IModel](../interfaces/core_schema.IModel.html).[paths](../interfaces/core_schema.IModel.html#paths)
+Implementation of [IModel](../interfaces/core_schema.IModel.md).[paths](../interfaces/core_schema.IModel.md#paths)
 
 * Defined in [models/Slot.ts:11](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Slot.ts#L11)
 
@@ -110,7 +110,7 @@ Properties
 
 [models](#models)[origin](#origin)[paths](#paths)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

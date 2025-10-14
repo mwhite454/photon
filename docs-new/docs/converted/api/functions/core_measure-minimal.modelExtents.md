@@ -5,27 +5,27 @@ source: docs/docs/api/functions/core_measure-minimal.modelExtents.html
 
 modelExtents | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/measure-minimal](../modules/core_measure-minimal.html)
+* [core/measure-minimal](../modules/core_measure-minimal.md)
 * modelExtents
 
 # Function modelExtents
 
-* modelExtents(modelToMeasure: [IModel](../interfaces/core_schema.IModel.html)): [IMeasureWithCenter](../interfaces/core_maker.IMeasureWithCenter.html)
+* modelExtents(modelToMeasure: [IModel](../interfaces/core_schema.IModel.md)): [IMeasureWithCenter](../interfaces/core_maker.IMeasureWithCenter.md)
 
   Measures the smallest rectangle which contains a model.
 
   #### Parameters
 
-  + modelToMeasure: [IModel](../interfaces/core_schema.IModel.html)
+  + modelToMeasure: [IModel](../interfaces/core_schema.IModel.md)
 
-  #### Returns [IMeasureWithCenter](../interfaces/core_maker.IMeasureWithCenter.html)
+  #### Returns [IMeasureWithCenter](../interfaces/core_maker.IMeasureWithCenter.md)
 
   + Defined in [core/measure-minimal.ts:251](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure-minimal.ts#L251)
 
@@ -38,7 +38,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

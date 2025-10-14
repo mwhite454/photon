@@ -1,0 +1,15 @@
+﻿{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "lib": ["dom", "es2015"],
+    "types": [
+      "makerjs",
+      "marked",
+      "node"
+    ]
+  },
+  "files": [
+    "demoify.ts"
+  ]
+}

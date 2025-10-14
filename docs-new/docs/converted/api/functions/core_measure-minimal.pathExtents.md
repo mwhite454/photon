@@ -5,28 +5,28 @@ source: docs/docs/api/functions/core_measure-minimal.pathExtents.html
 
 pathExtents | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/measure-minimal](../modules/core_measure-minimal.html)
+* [core/measure-minimal](../modules/core_measure-minimal.md)
 * pathExtents
 
 # Function pathExtents
 
-* pathExtents(pathToMeasure: [IPath](../interfaces/core_schema.IPath.html), addOffset?: [IPoint](../interfaces/core_schema.IPoint.html)): [IMeasure](../interfaces/core_maker.IMeasure.html)
+* pathExtents(pathToMeasure: [IPath](../interfaces/core_schema.IPath.md), addOffset?: [IPoint](../interfaces/core_schema.IPoint.md)): [IMeasure](../interfaces/core_maker.IMeasure.md)
 
   Calculates the smallest rectangle which contains a path.
 
   #### Parameters
 
-  + pathToMeasure: [IPath](../interfaces/core_schema.IPath.html)
-  + `Optional`addOffset: [IPoint](../interfaces/core_schema.IPoint.html)
+  + pathToMeasure: [IPath](../interfaces/core_schema.IPath.md)
+  + `Optional`addOffset: [IPoint](../interfaces/core_schema.IPoint.md)
 
-  #### Returns [IMeasure](../interfaces/core_maker.IMeasure.html)
+  #### Returns [IMeasure](../interfaces/core_maker.IMeasure.md)
 
   + Defined in [core/measure-minimal.ts:167](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure-minimal.ts#L167)
 
@@ -39,7 +39,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

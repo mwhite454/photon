@@ -5,7 +5,7 @@ source: docs/docs/api/modules/core_dxf.html
 
 core/dxf | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
@@ -18,14 +18,14 @@ Preparing search index...
 
 ## Interfaces
 
-[IDXFLayerOptions](../interfaces/core_dxf.IDXFLayerOptions.html)
+[IDXFLayerOptions](../interfaces/core_dxf.IDXFLayerOptions.md)
 
 
-[IDXFRenderOptions](../interfaces/core_dxf.IDXFRenderOptions.html)
+[IDXFRenderOptions](../interfaces/core_dxf.IDXFRenderOptions.md)
 
 ## Functions
 
-[toDXF](../functions/core_dxf.toDXF.html)
+[toDXF](../functions/core_dxf.toDXF.md)
 
 ### Settings
 
@@ -46,7 +46,7 @@ Functions
 
 [toDXF](#todxf)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

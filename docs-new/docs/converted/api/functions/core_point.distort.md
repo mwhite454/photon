@@ -5,29 +5,29 @@ source: docs/docs/api/functions/core_point.distort.html
 
 distort | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/point](../modules/core_point.html)
+* [core/point](../modules/core_point.md)
 * distort
 
 # Function distort
 
-* distort(pointToDistort: [IPoint](../interfaces/core_schema.IPoint.html), scaleX: number, scaleY: number): [IPoint](../interfaces/core_schema.IPoint.html)
+* distort(pointToDistort: [IPoint](../interfaces/core_schema.IPoint.md), scaleX: number, scaleY: number): [IPoint](../interfaces/core_schema.IPoint.md)
 
   Distort a point's coordinates.
 
   #### Parameters
 
-  + pointToDistort: [IPoint](../interfaces/core_schema.IPoint.html)
+  + pointToDistort: [IPoint](../interfaces/core_schema.IPoint.md)
   + scaleX: number
   + scaleY: number
 
-  #### Returns [IPoint](../interfaces/core_schema.IPoint.html)
+  #### Returns [IPoint](../interfaces/core_schema.IPoint.md)
 
   + Defined in [core/point.ts:187](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/point.ts#L187)
 
@@ -40,7 +40,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

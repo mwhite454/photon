@@ -5,35 +5,35 @@ source: docs/docs/api/functions/core_path.addTo.html
 
 addTo | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/path](../modules/core_path.html)
+* [core/path](../modules/core_path.md)
 * addTo
 
 # Function addTo
 
 * addTo(
-      childPath: [IPath](../interfaces/core_schema.IPath.html),
-      parentModel: [IModel](../interfaces/core_schema.IModel.html),
+      childPath: [IPath](../interfaces/core_schema.IPath.md),
+      parentModel: [IModel](../interfaces/core_schema.IModel.md),
       pathId: string,
       overwrite?: boolean,
-  ): [IPath](../interfaces/core_schema.IPath.html)
+  ): [IPath](../interfaces/core_schema.IPath.md)
 
   Add a path to a model.
 
   #### Parameters
 
-  + childPath: [IPath](../interfaces/core_schema.IPath.html)
-  + parentModel: [IModel](../interfaces/core_schema.IModel.html)
+  + childPath: [IPath](../interfaces/core_schema.IPath.md)
+  + parentModel: [IModel](../interfaces/core_schema.IModel.md)
   + pathId: string
   + overwrite: boolean = false
 
-  #### Returns [IPath](../interfaces/core_schema.IPath.html)
+  #### Returns [IPath](../interfaces/core_schema.IPath.md)
 
   + Defined in [core/path.ts:24](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/path.ts#L24)
 
@@ -46,7 +46,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

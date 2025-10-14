@@ -5,14 +5,14 @@ source: docs/docs/api/interfaces/core_schema.IPath.html
 
 IPath | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/schema](../modules/core_schema.html)
+* [core/schema](../modules/core_schema.md)
 * IPath
 
 # Interface IPath
@@ -21,19 +21,19 @@ A line, curved line or other simple two dimensional shape.
 
 interface IPath {
     [layer](#layer)?: string;
-    [origin](#origin): [IPoint](core_schema.IPoint.html);
+    [origin](#origin): [IPoint](core_schema.IPoint.md);
     [type](#type): string;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.html#core/schema.IPath))
+#### Hierarchy ([View Summary](../hierarchy.md#core/schema.IPath))
 
 * IPath
-  + [DeletedPathInfo](core_boolean-utils.DeletedPathInfo.html)
-  + [IPathRemoved](core_maker.IPathRemoved.html)
-  + [IPathDirectional](core_maker.IPathDirectional.html)
-  + [IPathLine](core_schema.IPathLine.html)
-  + [IPathCircle](core_schema.IPathCircle.html)
-  + [IPathArcInBezierCurve](core_schema.IPathArcInBezierCurve.html)
+  + [DeletedPathInfo](core_boolean-utils.DeletedPathInfo.md)
+  + [IPathRemoved](core_maker.IPathRemoved.md)
+  + [IPathDirectional](core_maker.IPathDirectional.md)
+  + [IPathLine](core_schema.IPathLine.md)
+  + [IPathCircle](core_schema.IPathCircle.md)
+  + [IPathArcInBezierCurve](core_schema.IPathArcInBezierCurve.md)
 
 * Defined in [core/schema.ts:18](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/schema.ts#L18)
 
@@ -57,7 +57,7 @@ Optional layer of this path.
 
 ### origin
 
-origin: [IPoint](core_schema.IPoint.html)
+origin: [IPoint](core_schema.IPoint.md)
 
 The main point of reference for this path.
 
@@ -86,7 +86,7 @@ Properties
 
 [layer](#layer)[origin](#origin)[type](#type)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

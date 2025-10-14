@@ -5,6 +5,7 @@ node_modules
 **/dist/
 *.js.map
 packages/photon/dist/
+photon/dist/**
 packages/fonts/gen.js
 packages/playground/dist/
 docs/demos/demoify.js
@@ -20,6 +21,13 @@ web.config
 .vscode
 .DS_Store
 Thumbs.db
+
+# Temporary and local files
+*.backup
+*.bak
+*.tmp
+*.swp
+*~
 
 # Debug and logs
 debug.log

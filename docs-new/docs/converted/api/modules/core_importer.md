@@ -5,7 +5,7 @@ source: docs/docs/api/modules/core_importer.html
 
 core/importer | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
@@ -18,7 +18,7 @@ Preparing search index...
 
 ## Functions
 
-[parseNumericList](../functions/core_importer.parseNumericList.html)
+[parseNumericList](../functions/core_importer.parseNumericList.md)
 
 ### Settings
 
@@ -35,7 +35,7 @@ Functions
 
 [parseNumericList](#parsenumericlist)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

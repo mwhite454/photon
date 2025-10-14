@@ -5,22 +5,22 @@ source: docs/docs/api/functions/core_pdf-esm.toPDF.html
 
 toPDF | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/pdf-esm](../modules/core_pdf-esm.html)
+* [core/pdf-esm](../modules/core_pdf-esm.md)
 * toPDF
 
 # Function toPDF
 
 * toPDF(
       doc: PDFDocument,
-      modelToExport: [IModel](../interfaces/core_schema.IModel.html),
-      options?: [IPDFRenderOptions](../interfaces/core_pdf-esm.IPDFRenderOptions.html),
+      modelToExport: [IModel](../interfaces/core_schema.IModel.md),
+      options?: [IPDFRenderOptions](../interfaces/core_pdf-esm.IPDFRenderOptions.md),
   ): void
 
   Injects drawing into a PDFKit document.
@@ -30,10 +30,10 @@ Preparing search index...
   + doc: PDFDocument
 
     PDFKit.PDFDocument object. See <https://pdfkit.org/>
-  + modelToExport: [IModel](../interfaces/core_schema.IModel.html)
+  + modelToExport: [IModel](../interfaces/core_schema.IModel.md)
 
     Model object to export.
-  + `Optional`options: [IPDFRenderOptions](../interfaces/core_pdf-esm.IPDFRenderOptions.html)
+  + `Optional`options: [IPDFRenderOptions](../interfaces/core_pdf-esm.IPDFRenderOptions.md)
 
     Export options object.
 
@@ -52,7 +52,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

@@ -5,14 +5,14 @@ source: docs/docs/api/interfaces/core_maker.ISimplifyOptions.html
 
 ISimplifyOptions | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.html)
+* [core/maker](../modules/core_maker.md)
 * ISimplifyOptions
 
 # Interface ISimplifyOptions
@@ -24,9 +24,9 @@ interface ISimplifyOptions {
     [scalarMatchingDistance](#scalarmatchingdistance)?: number;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.html#core/maker.ISimplifyOptions))
+#### Hierarchy ([View Summary](../hierarchy.md#core/maker.ISimplifyOptions))
 
-* [IPointMatchOptions](core_maker.IPointMatchOptions.html)
+* [IPointMatchOptions](core_maker.IPointMatchOptions.md)
   + ISimplifyOptions
 
 * Defined in [core/maker.ts:342](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L342)
@@ -46,7 +46,7 @@ pointMatchingDistance?: number
 
 Max distance to consider two points as the same.
 
-Inherited from [IPointMatchOptions](core_maker.IPointMatchOptions.html).[pointMatchingDistance](core_maker.IPointMatchOptions.html#pointmatchingdistance)
+Inherited from [IPointMatchOptions](core_maker.IPointMatchOptions.md).[pointMatchingDistance](core_maker.IPointMatchOptions.md#pointmatchingdistance)
 
 * Defined in [core/maker.ts:282](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L282)
 
@@ -73,7 +73,7 @@ Properties
 
 [pointMatchingDistance](#pointmatchingdistance)[scalarMatchingDistance](#scalarmatchingdistance)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

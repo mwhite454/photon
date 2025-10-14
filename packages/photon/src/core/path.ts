@@ -5,9 +5,9 @@ import * as angle from './angle.js';
 
 // Import only 'paths' to avoid runtime ReferenceError in UMD bundle
 import * as paths from './paths.js';
+import * as model from './model.js';
 
 // TEMP: These will be available after respective modules are converted
-declare const model: any;
 declare const models: any;
 declare const measure: any;
 declare const chain: any;

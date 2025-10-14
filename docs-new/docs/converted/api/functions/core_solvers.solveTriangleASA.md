@@ -5,14 +5,14 @@ source: docs/docs/api/functions/core_solvers.solveTriangleASA.html
 
 solveTriangleASA | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/solvers](../modules/core_solvers.html)
+* [core/solvers](../modules/core_solvers.md)
 * solveTriangleASA
 
 # Function solveTriangleASA
@@ -44,7 +44,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

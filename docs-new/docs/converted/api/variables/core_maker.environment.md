@@ -5,14 +5,14 @@ source: docs/docs/api/variables/core_maker.environment.html
 
 environment | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.html)
+* [core/maker](../modules/core_maker.md)
 * environment
 
 # Variable environment`Const`
@@ -32,7 +32,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

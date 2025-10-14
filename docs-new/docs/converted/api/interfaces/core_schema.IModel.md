@@ -5,14 +5,14 @@ source: docs/docs/api/interfaces/core_schema.IModel.html
 
 IModel | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/schema](../modules/core_schema.html)
+* [core/schema](../modules/core_schema.md)
 * IModel
 
 # Interface IModel
@@ -20,45 +20,45 @@ Preparing search index...
 A model is a composite object which may contain a map of paths, or a map of models recursively.
 
 interface IModel {
-    [caption](#caption)?: [ICaption](core_schema.ICaption.html);
+    [caption](#caption)?: [ICaption](core_schema.ICaption.md);
     [exporterOptions](#exporteroptions)?: { [exporterName: string]: any };
     [layer](#layer)?: string;
-    [models](#models)?: [IModelMap](core_schema.IModelMap.html);
+    [models](#models)?: [IModelMap](core_schema.IModelMap.md);
     [notes](#notes)?: string;
-    [origin](#origin)?: [IPoint](core_schema.IPoint.html);
-    [paths](#paths)?: [IPathMap](core_schema.IPathMap.html);
+    [origin](#origin)?: [IPoint](core_schema.IPoint.md);
+    [paths](#paths)?: [IPathMap](core_schema.IPathMap.md);
     [type](#type)?: string;
     [units](#units)?: string;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.html#core/schema.IModel))
+#### Hierarchy ([View Summary](../hierarchy.md#core/schema.IModel))
 
 * IModel
-  + [IBoundingHex](core_maker.IBoundingHex.html)
+  + [IBoundingHex](core_maker.IBoundingHex.md)
 
 #### Implemented by
 
-* [Belt](../classes/models_Belt.Belt.html)
-* [BezierCurve](../classes/models_BezierCurve-esm.BezierCurve.html)
-* [BoltCircle](../classes/models_BoltCircle.BoltCircle.html)
-* [BoltRectangle](../classes/models_BoltRectangle.BoltRectangle.html)
-* [ConnectTheDots](../classes/models_ConnectTheDots.ConnectTheDots.html)
-* [Dogbone](../classes/models_Dogbone.Dogbone.html)
-* [Dome](../classes/models_Dome.Dome.html)
-* [Ellipse](../classes/models_Ellipse.Ellipse.html)
-* [EllipticArc](../classes/models_Ellipse.EllipticArc.html)
-* [Holes](../classes/models_Holes.Holes.html)
-* [Oval](../classes/models_Oval.Oval.html)
-* [OvalArc](../classes/models_OvalArc.OvalArc.html)
-* [Polygon](../classes/models_Polygon.Polygon.html)
-* [Rectangle](../classes/models_Rectangle.Rectangle.html)
-* [Ring](../classes/models_Ring.Ring.html)
-* [RoundRectangle](../classes/models_RoundRectangle.RoundRectangle.html)
-* [SCurve](../classes/models_SCurve.SCurve.html)
-* [Slot](../classes/models_Slot.Slot.html)
-* [Square](../classes/models_Square.Square.html)
-* [Star](../classes/models_Star.Star.html)
-* [Text](../classes/models_Text.Text.html)
+* [Belt](../classes/models_Belt.Belt.md)
+* [BezierCurve](../classes/models_BezierCurve-esm.BezierCurve.md)
+* [BoltCircle](../classes/models_BoltCircle.BoltCircle.md)
+* [BoltRectangle](../classes/models_BoltRectangle.BoltRectangle.md)
+* [ConnectTheDots](../classes/models_ConnectTheDots.ConnectTheDots.md)
+* [Dogbone](../classes/models_Dogbone.Dogbone.md)
+* [Dome](../classes/models_Dome.Dome.md)
+* [Ellipse](../classes/models_Ellipse.Ellipse.md)
+* [EllipticArc](../classes/models_Ellipse.EllipticArc.md)
+* [Holes](../classes/models_Holes.Holes.md)
+* [Oval](../classes/models_Oval.Oval.md)
+* [OvalArc](../classes/models_OvalArc.OvalArc.md)
+* [Polygon](../classes/models_Polygon.Polygon.md)
+* [Rectangle](../classes/models_Rectangle.Rectangle.md)
+* [Ring](../classes/models_Ring.Ring.md)
+* [RoundRectangle](../classes/models_RoundRectangle.RoundRectangle.md)
+* [SCurve](../classes/models_SCurve.SCurve.md)
+* [Slot](../classes/models_Slot.Slot.md)
+* [Square](../classes/models_Square.Square.md)
+* [Star](../classes/models_Star.Star.md)
+* [Text](../classes/models_Text.Text.md)
 
 * Defined in [core/schema.ts:91](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/schema.ts#L91)
 
@@ -80,7 +80,7 @@ interface IModel {
 
 ### `Optional`caption
 
-caption?: [ICaption](core_schema.ICaption.html)
+caption?: [ICaption](core_schema.ICaption.md)
 
 Optional Caption object.
 
@@ -104,7 +104,7 @@ Optional layer of this model.
 
 ### `Optional`models
 
-models?: [IModelMap](core_schema.IModelMap.html)
+models?: [IModelMap](core_schema.IModelMap.md)
 
 Optional map of models within this model.
 
@@ -120,7 +120,7 @@ An author may wish to add notes to this model instance.
 
 ### `Optional`origin
 
-origin?: [IPoint](core_schema.IPoint.html)
+origin?: [IPoint](core_schema.IPoint.md)
 
 Optional origin location of this model.
 
@@ -128,7 +128,7 @@ Optional origin location of this model.
 
 ### `Optional`paths
 
-paths?: [IPathMap](core_schema.IPathMap.html)
+paths?: [IPathMap](core_schema.IPathMap.md)
 
 Optional map of path objects in this model.
 
@@ -165,7 +165,7 @@ Properties
 
 [caption](#caption)[exporterOptions](#exporteroptions)[layer](#layer)[models](#models)[notes](#notes)[origin](#origin)[paths](#paths)[type](#type)[units](#units)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

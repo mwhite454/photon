@@ -5,25 +5,25 @@ source: docs/docs/api/functions/core_model.center.html
 
 center | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/model](../modules/core_model.html)
+* [core/model](../modules/core_model.md)
 * center
 
 # Function center
 
-* center(modelToCenter: [IModel](../interfaces/core_schema.IModel.html), centerX?: boolean, centerY?: boolean): [IModel](../interfaces/core_schema.IModel.html)
+* center(modelToCenter: [IModel](../interfaces/core_schema.IModel.md), centerX?: boolean, centerY?: boolean): [IModel](../interfaces/core_schema.IModel.md)
 
   Center a model at [0, 0].
 
   #### Parameters
 
-  + modelToCenter: [IModel](../interfaces/core_schema.IModel.html)
+  + modelToCenter: [IModel](../interfaces/core_schema.IModel.md)
 
     The model to center.
   + centerX: boolean = true
@@ -33,7 +33,7 @@ Preparing search index...
 
     Boolean to center on the y axis. Default is true.
 
-  #### Returns [IModel](../interfaces/core_schema.IModel.html)
+  #### Returns [IModel](../interfaces/core_schema.IModel.md)
 
   The original model (for cascading).
 
@@ -48,7 +48,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

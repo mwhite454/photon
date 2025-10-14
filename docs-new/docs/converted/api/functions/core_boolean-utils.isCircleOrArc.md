@@ -5,25 +5,25 @@ source: docs/docs/api/functions/core_boolean-utils.isCircleOrArc.html
 
 isCircleOrArc | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/boolean-utils](../modules/core_boolean-utils.html)
+* [core/boolean-utils](../modules/core_boolean-utils.md)
 * isCircleOrArc
 
 # Function isCircleOrArc
 
-* isCircleOrArc(pathContext: [IPath](../interfaces/core_schema.IPath.html)): pathContext is [IPathCircle](../interfaces/core_schema.IPathCircle.html) | [IPathArc](../interfaces/core_schema.IPathArc.html)
+* isCircleOrArc(pathContext: [IPath](../interfaces/core_schema.IPath.md)): pathContext is [IPathCircle](../interfaces/core_schema.IPathCircle.md) | [IPathArc](../interfaces/core_schema.IPathArc.md)
 
   #### Parameters
 
-  + pathContext: [IPath](../interfaces/core_schema.IPath.html)
+  + pathContext: [IPath](../interfaces/core_schema.IPath.md)
 
-  #### Returns pathContext is [IPathCircle](../interfaces/core_schema.IPathCircle.html) | [IPathArc](../interfaces/core_schema.IPathArc.html)
+  #### Returns pathContext is [IPathCircle](../interfaces/core_schema.IPathCircle.md) | [IPathArc](../interfaces/core_schema.IPathArc.md)
 
   + Defined in [core/boolean-utils.ts:22](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/boolean-utils.ts#L22)
 
@@ -36,7 +36,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

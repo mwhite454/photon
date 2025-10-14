@@ -5,25 +5,25 @@ source: docs/docs/api/functions/core_measure.modelPathLength.html
 
 modelPathLength | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/measure](../modules/core_measure.html)
+* [core/measure](../modules/core_measure.md)
 * modelPathLength
 
 # Function modelPathLength
 
-* modelPathLength(modelToMeasure: [IModel](../interfaces/core_schema.IModel.html)): number
+* modelPathLength(modelToMeasure: [IModel](../interfaces/core_schema.IModel.md)): number
 
   Measures the length of all paths in a model.
 
   #### Parameters
 
-  + modelToMeasure: [IModel](../interfaces/core_schema.IModel.html)
+  + modelToMeasure: [IModel](../interfaces/core_schema.IModel.md)
 
     The model containing paths to measure.
 
@@ -42,7 +42,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

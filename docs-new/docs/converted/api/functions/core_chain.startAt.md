@@ -5,32 +5,32 @@ source: docs/docs/api/functions/core_chain.startAt.html
 
 startAt | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/chain](../modules/core_chain.html)
+* [core/chain](../modules/core_chain.md)
 * startAt
 
 # Function startAt
 
-* startAt(chainContext: [IChain](../interfaces/core_maker.IChain.html), routeKey: string): [IChain](../interfaces/core_maker.IChain.html)
+* startAt(chainContext: [IChain](../interfaces/core_maker.IChain.md), routeKey: string): [IChain](../interfaces/core_maker.IChain.md)
 
   Set the beginning of an endless chain to a known routeKey of a path.
 
   #### Parameters
 
-  + chainContext: [IChain](../interfaces/core_maker.IChain.html)
+  + chainContext: [IChain](../interfaces/core_maker.IChain.md)
 
     Chain to cycle through. Must be endless.
   + routeKey: string
 
     RouteKey of the desired path to start the chain with.
 
-  #### Returns [IChain](../interfaces/core_maker.IChain.html)
+  #### Returns [IChain](../interfaces/core_maker.IChain.md)
 
   The chainContext for cascading.
 
@@ -45,7 +45,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

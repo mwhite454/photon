@@ -5,33 +5,33 @@ source: docs/docs/api/functions/core_expand.expandPaths.html
 
 expandPaths | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/expand](../modules/core_expand.html)
+* [core/expand](../modules/core_expand.md)
 * expandPaths
 
 # Function expandPaths
 
 * expandPaths(
-      modelToExpand: [IModel](../interfaces/core_schema.IModel.html),
+      modelToExpand: [IModel](../interfaces/core_schema.IModel.md),
       distance: number,
       joints?: number,
-      combineOptions?: [ICombineOptions](../interfaces/core_maker.ICombineOptions.html),
-  ): [IModel](../interfaces/core_schema.IModel.html)
+      combineOptions?: [ICombineOptions](../interfaces/core_maker.ICombineOptions.md),
+  ): [IModel](../interfaces/core_schema.IModel.md)
 
   #### Parameters
 
-  + modelToExpand: [IModel](../interfaces/core_schema.IModel.html)
+  + modelToExpand: [IModel](../interfaces/core_schema.IModel.md)
   + distance: number
   + joints: number = 0
-  + combineOptions: [ICombineOptions](../interfaces/core_maker.ICombineOptions.html) = {}
+  + combineOptions: [ICombineOptions](../interfaces/core_maker.ICombineOptions.md) = {}
 
-  #### Returns [IModel](../interfaces/core_schema.IModel.html)
+  #### Returns [IModel](../interfaces/core_schema.IModel.md)
 
   + Defined in [core/expand.ts:81](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/expand.ts#L81)
 
@@ -44,7 +44,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

@@ -3,36 +3,32 @@ title: Dogbones
 source: docs/_snippets/dogbones.html
 ---
 
----
-title: Dogbone Fillets
----
-
 Many CNC tools are not able to cut a sharp interior corner. The way to clear the apex of an interior corner is by encompassing the corner with a circular cut known as a dogbone fillet.
-Use [makerjs.path.dogbone](/docs/api/modules/makerjs.path.html#dogbone) to round a corner at the junction between two lines.
+Use [path.dogbone](/docs/api/modules/path.md#dogbone) to round a corner at the junction between two lines.
 This function will only work for two lines which must meet at one point. It will clip the two lines that you pass it, and will return a new arc path which clears the corner where the lines meet.
 It will return null if a dogbone fillet cannot be created at the radius you specify.
 
 ```javascript
 //dogbone fillet between lines.
-var makerjs = require('makerjs');
-var model = {
+import { exporter, models, path, paths } from 'photon/core';
+const model = {
 paths: {
-line1: new makerjs.paths.Line([0, 0], [0, 5]),
-line2: new makerjs.paths.Line([0, 5], [10, 5])
+line1: new paths.Line([0, 0], [0, 5]),
+line2: new paths.Line([0, 5], [10, 5])
 }
 };
 //create dogbone fillet
-var arc1 = makerjs.path.dogbone(model.paths.line1, model.paths.line2, 1);
+const arc1 = path.dogbone(model.paths.line1, model.paths.line2, 1);
 //add the fillet to the model
 model.paths.arc1 = arc1;
-var svg = makerjs.exporter.toSVG(model);
+const svg = exporter.toSVG(model);
 document.write(svg);
 ```
 
 #### Dogbone models
 
 If you need a rectangle with dogbones at each corner, you can use
-[makerjs.models.Dogbone(width, height, radius*, optional style, optional bottomless*)](api/classes/makerjs.models.dogbone.html#constructor).
+[models.Dogbone(width, height, radius*, optional style, optional bottomless*)](api/classes/models.dogbone.md#constructor).
 There are a 3 styles of a Dogbone model:
 
 * 0 : (default) rounded
@@ -43,34 +39,34 @@ Dogbone model corner styles:
 
 ```javascript
 //dogbone corner styles.
-var makerjs = require('makerjs');
-var dogbones = {
+import { exporter, models, path, paths } from 'photon/core';
+const dogbones = {
 models: {
-round: new makerjs.models.Dogbone(100,50, 5, 0),
-horizontal: new makerjs.models.Dogbone(100,50, 5, -1),
-vertical: new makerjs.models.Dogbone(100,50, 5, 1)
+round: new models.Dogbone(100,50, 5, 0),
+horizontal: new models.Dogbone(100,50, 5, -1),
+vertical: new models.Dogbone(100,50, 5, 1)
 }
 };
 dogbones.models.horizontal.origin = [115, 0];
 dogbones.models.vertical.origin = [230, 0];
-var svg = makerjs.exporter.toSVG(dogbones);
+const svg = exporter.toSVG(dogbones);
 document.write(svg);
 ```
 
-Making them bottomless is useful for creating [tongue-and-groove shapes](/playground/?script=tongue-and-groove):
+Making them bottomless is useful for creating [tongue-and-groove shapes](/playground/index.md?script=tongue-and-groove):
 
 ```javascript
 //bottomless dogbones.
-var makerjs = require('makerjs');
-var dogbones = {
+import { exporter, models, path, paths } from 'photon/core';
+const dogbones = {
 models: {
-O: new makerjs.models.Dogbone(100,50, 5, 0, true),
-horizontal: new makerjs.models.Dogbone(100,50, 5, -1, true),
-vertical: new makerjs.models.Dogbone(100,50, 5, 1, true)
+O: new models.Dogbone(100,50, 5, 0, true),
+horizontal: new models.Dogbone(100,50, 5, -1, true),
+vertical: new models.Dogbone(100,50, 5, 1, true)
 }
 };
 dogbones.models.horizontal.origin = [115, 0];
 dogbones.models.vertical.origin = [230, 0];
-var svg = makerjs.exporter.toSVG(dogbones);
+const svg = exporter.toSVG(dogbones);
 document.write(svg);
 ```

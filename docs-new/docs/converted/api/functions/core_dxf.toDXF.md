@@ -5,14 +5,14 @@ source: docs/docs/api/functions/core_dxf.toDXF.html
 
 toDXF | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/dxf](../modules/core_dxf.html)
+* [core/dxf](../modules/core_dxf.md)
 * toDXF
 
 # Function toDXF
@@ -35,32 +35,32 @@ String of the unit system. May be omitted. See makerjs.unitType for possible val
 
 String of DXF content.
 
-* toDXF(modelToExport: [IModel](../interfaces/core_schema.IModel.html), options?: [IDXFRenderOptions](../interfaces/core_dxf.IDXFRenderOptions.html)): string
+* toDXF(modelToExport: [IModel](../interfaces/core_schema.IModel.md), options?: [IDXFRenderOptions](../interfaces/core_dxf.IDXFRenderOptions.md)): string
 
   #### Parameters
 
-  + modelToExport: [IModel](../interfaces/core_schema.IModel.html)
-  + `Optional`options: [IDXFRenderOptions](../interfaces/core_dxf.IDXFRenderOptions.html)
+  + modelToExport: [IModel](../interfaces/core_schema.IModel.md)
+  + `Optional`options: [IDXFRenderOptions](../interfaces/core_dxf.IDXFRenderOptions.md)
 
   #### Returns string
 
   + Defined in [core/dxf.ts:22](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/dxf.ts#L22)
-* toDXF(pathsToExport: [IPath](../interfaces/core_schema.IPath.html)[], options?: [IDXFRenderOptions](../interfaces/core_dxf.IDXFRenderOptions.html)): string
+* toDXF(pathsToExport: [IPath](../interfaces/core_schema.IPath.md)[], options?: [IDXFRenderOptions](../interfaces/core_dxf.IDXFRenderOptions.md)): string
 
   #### Parameters
 
-  + pathsToExport: [IPath](../interfaces/core_schema.IPath.html)[]
-  + `Optional`options: [IDXFRenderOptions](../interfaces/core_dxf.IDXFRenderOptions.html)
+  + pathsToExport: [IPath](../interfaces/core_schema.IPath.md)[]
+  + `Optional`options: [IDXFRenderOptions](../interfaces/core_dxf.IDXFRenderOptions.md)
 
   #### Returns string
 
   + Defined in [core/dxf.ts:23](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/dxf.ts#L23)
-* toDXF(pathToExport: [IPath](../interfaces/core_schema.IPath.html), options?: [IDXFRenderOptions](../interfaces/core_dxf.IDXFRenderOptions.html)): string
+* toDXF(pathToExport: [IPath](../interfaces/core_schema.IPath.md), options?: [IDXFRenderOptions](../interfaces/core_dxf.IDXFRenderOptions.md)): string
 
   #### Parameters
 
-  + pathToExport: [IPath](../interfaces/core_schema.IPath.html)
-  + `Optional`options: [IDXFRenderOptions](../interfaces/core_dxf.IDXFRenderOptions.html)
+  + pathToExport: [IPath](../interfaces/core_schema.IPath.md)
+  + `Optional`options: [IDXFRenderOptions](../interfaces/core_dxf.IDXFRenderOptions.md)
 
   #### Returns string
 
@@ -75,7 +75,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

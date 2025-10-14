@@ -5,26 +5,26 @@ source: docs/docs/api/functions/core_simplify.simplify.html
 
 simplify | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/simplify](../modules/core_simplify.html)
+* [core/simplify](../modules/core_simplify.md)
 * simplify
 
 # Function simplify
 
-* simplify(modelToSimplify: [IModel](../interfaces/core_schema.IModel.html), options?: [ISimplifyOptions](../interfaces/core_maker.ISimplifyOptions.html)): [IModel](../interfaces/core_schema.IModel.html)
+* simplify(modelToSimplify: [IModel](../interfaces/core_schema.IModel.md), options?: [ISimplifyOptions](../interfaces/core_maker.ISimplifyOptions.md)): [IModel](../interfaces/core_schema.IModel.md)
 
   #### Parameters
 
-  + modelToSimplify: [IModel](../interfaces/core_schema.IModel.html)
-  + `Optional`options: [ISimplifyOptions](../interfaces/core_maker.ISimplifyOptions.html)
+  + modelToSimplify: [IModel](../interfaces/core_schema.IModel.md)
+  + `Optional`options: [ISimplifyOptions](../interfaces/core_maker.ISimplifyOptions.md)
 
-  #### Returns [IModel](../interfaces/core_schema.IModel.html)
+  #### Returns [IModel](../interfaces/core_schema.IModel.md)
 
   + Defined in [core/simplify.ts:53](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/simplify.ts#L53)
 
@@ -37,7 +37,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

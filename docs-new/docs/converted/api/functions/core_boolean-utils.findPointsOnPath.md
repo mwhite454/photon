@@ -5,31 +5,31 @@ source: docs/docs/api/functions/core_boolean-utils.findPointsOnPath.html
 
 findPointsOnPath | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/boolean-utils](../modules/core_boolean-utils.html)
+* [core/boolean-utils](../modules/core_boolean-utils.md)
 * findPointsOnPath
 
 # Function findPointsOnPath
 
 * findPointsOnPath(
-      points: [IPoint](../interfaces/core_schema.IPoint.html)[],
-      pathContext: [IPath](../interfaces/core_schema.IPath.html),
+      points: [IPoint](../interfaces/core_schema.IPoint.md)[],
+      pathContext: [IPath](../interfaces/core_schema.IPath.md),
       tolerance?: number,
-  ): [IPoint](../interfaces/core_schema.IPoint.html)[]
+  ): [IPoint](../interfaces/core_schema.IPoint.md)[]
 
   #### Parameters
 
-  + points: [IPoint](../interfaces/core_schema.IPoint.html)[]
-  + pathContext: [IPath](../interfaces/core_schema.IPath.html)
+  + points: [IPoint](../interfaces/core_schema.IPoint.md)[]
+  + pathContext: [IPath](../interfaces/core_schema.IPath.md)
   + tolerance: number = DEFAULT\_POINT\_MATCHING\_DISTANCE
 
-  #### Returns [IPoint](../interfaces/core_schema.IPoint.html)[]
+  #### Returns [IPoint](../interfaces/core_schema.IPoint.md)[]
 
   + Defined in [core/boolean-utils.ts:109](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/boolean-utils.ts#L109)
 
@@ -42,7 +42,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

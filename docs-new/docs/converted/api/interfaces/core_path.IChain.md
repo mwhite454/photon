@@ -5,20 +5,20 @@ source: docs/docs/api/interfaces/core_path.IChain.html
 
 IChain | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/path](../modules/core_path.html)
+* [core/path](../modules/core_path.md)
 * IChain
 
 # Interface IChain
 
 interface IChain {
-    [links](#links): { walkedPath: { pathContext: [IPath](core_schema.IPath.html); pathId: string } }[];
+    [links](#links): { walkedPath: { pathContext: [IPath](core_schema.IPath.md); pathId: string } }[];
 }
 
 * Defined in [core/path.ts:16](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/path.ts#L16)
@@ -33,7 +33,7 @@ interface IChain {
 
 ### links
 
-links: { walkedPath: { pathContext: [IPath](core_schema.IPath.html); pathId: string } }[]
+links: { walkedPath: { pathContext: [IPath](core_schema.IPath.md); pathId: string } }[]
 
 * Defined in [core/path.ts:17](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/path.ts#L17)
 
@@ -52,7 +52,7 @@ Properties
 
 [links](#links)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

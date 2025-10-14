@@ -5,14 +5,14 @@ source: docs/docs/api/interfaces/core_maker.IMeasureWithCenter.html
 
 IMeasureWithCenter | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.html)
+* [core/maker](../modules/core_maker.md)
 * IMeasureWithCenter
 
 # Interface IMeasureWithCenter
@@ -20,16 +20,16 @@ Preparing search index...
 A measurement of extents, with a center point.
 
 interface IMeasureWithCenter {
-    [center](#center): [IPoint](core_schema.IPoint.html);
+    [center](#center): [IPoint](core_schema.IPoint.md);
     [height](#height): number;
-    [high](#high): [IPoint](core_schema.IPoint.html);
-    [low](#low): [IPoint](core_schema.IPoint.html);
+    [high](#high): [IPoint](core_schema.IPoint.md);
+    [low](#low): [IPoint](core_schema.IPoint.md);
     [width](#width): number;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.html#core/maker.IMeasureWithCenter))
+#### Hierarchy ([View Summary](../hierarchy.md#core/maker.IMeasureWithCenter))
 
-* [IMeasure](core_maker.IMeasure.html)
+* [IMeasure](core_maker.IMeasure.md)
   + IMeasureWithCenter
 
 * Defined in [core/maker.ts:162](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L162)
@@ -48,7 +48,7 @@ interface IMeasureWithCenter {
 
 ### center
 
-center: [IPoint](core_schema.IPoint.html)
+center: [IPoint](core_schema.IPoint.md)
 
 * Defined in [core/maker.ts:163](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L163)
 
@@ -60,17 +60,17 @@ height: number
 
 ### high
 
-high: [IPoint](core_schema.IPoint.html)
+high: [IPoint](core_schema.IPoint.md)
 
-Inherited from [IMeasure](core_maker.IMeasure.html).[high](core_maker.IMeasure.html#high)
+Inherited from [IMeasure](core_maker.IMeasure.md).[high](core_maker.IMeasure.md#high)
 
 * Defined in [core/maker.ts:158](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L158)
 
 ### low
 
-low: [IPoint](core_schema.IPoint.html)
+low: [IPoint](core_schema.IPoint.md)
 
-Inherited from [IMeasure](core_maker.IMeasure.html).[low](core_maker.IMeasure.html#low)
+Inherited from [IMeasure](core_maker.IMeasure.md).[low](core_maker.IMeasure.md#low)
 
 * Defined in [core/maker.ts:157](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L157)
 
@@ -95,7 +95,7 @@ Properties
 
 [center](#center)[height](#height)[high](#high)[low](#low)[width](#width)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

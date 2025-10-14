@@ -5,7 +5,7 @@ source: docs/docs/api/modules/models_Ring.html
 
 models/Ring | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
@@ -18,7 +18,7 @@ Preparing search index...
 
 ## Classes
 
-[Ring](../classes/models_Ring.Ring.html)
+[Ring](../classes/models_Ring.Ring.md)
 
 ### Settings
 
@@ -35,7 +35,7 @@ Classes
 
 [Ring](#ring)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

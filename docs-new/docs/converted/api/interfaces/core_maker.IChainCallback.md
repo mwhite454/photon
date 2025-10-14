@@ -5,14 +5,14 @@ source: docs/docs/api/interfaces/core_maker.IChainCallback.html
 
 IChainCallback | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.html)
+* [core/maker](../modules/core_maker.md)
 * IChainCallback
 
 # Interface IChainCallback
@@ -20,18 +20,18 @@ Preparing search index...
 Callback to model.findChains() with resulting array of chains and unchained paths.
 
 * IChainCallback(
-      chains: [IChain](core_maker.IChain.html)[],
-      loose: [IWalkPath](core_maker.IWalkPath.html)[],
+      chains: [IChain](core_maker.IChain.md)[],
+      loose: [IWalkPath](core_maker.IWalkPath.md)[],
       layer: string,
-      ignored?: [IWalkPath](core_maker.IWalkPath.html)[],
+      ignored?: [IWalkPath](core_maker.IWalkPath.md)[],
   ): void
 
   #### Parameters
 
-  + chains: [IChain](core_maker.IChain.html)[]
-  + loose: [IWalkPath](core_maker.IWalkPath.html)[]
+  + chains: [IChain](core_maker.IChain.md)[]
+  + loose: [IWalkPath](core_maker.IWalkPath.md)[]
   + layer: string
-  + `Optional`ignored: [IWalkPath](core_maker.IWalkPath.html)[]
+  + `Optional`ignored: [IWalkPath](core_maker.IWalkPath.md)[]
 
   #### Returns void
 
@@ -46,7 +46,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

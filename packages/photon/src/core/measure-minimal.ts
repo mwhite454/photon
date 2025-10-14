@@ -8,10 +8,10 @@ import type { IMeasure, IMeasureWithCenter, ISlope } from './maker.js';
 import * as angle from './angle.js';
 import * as point from './point.js';
 import * as path from './path.js';
+import * as model from './model.js';
 import { isPointEqual } from './equal.js';
 
 // TEMP: These will be available after full measure.ts conversion
-declare const model: any;
 declare const models: any;
 
 /** Measures the distance between two points. */

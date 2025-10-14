@@ -5,14 +5,14 @@ source: docs/docs/api/interfaces/core_schema.IModelMap.html
 
 IModelMap | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/schema](../modules/core_schema.html)
+* [core/schema](../modules/core_schema.md)
 * IModelMap
 
 # Interface IModelMap
@@ -21,7 +21,7 @@ Model objects by id.
 
 #### Indexable
 
-* [id: string]: [IModel](core_schema.IModel.html)
+* [id: string]: [IModel](core_schema.IModel.md)
 
 * Defined in [core/schema.ts:86](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/schema.ts#L86)
 
@@ -34,7 +34,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

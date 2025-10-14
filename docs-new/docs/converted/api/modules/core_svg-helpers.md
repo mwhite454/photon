@@ -5,7 +5,7 @@ source: docs/docs/api/modules/core_svg-helpers.html
 
 core/svg-helpers | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
@@ -18,10 +18,10 @@ Preparing search index...
 
 ## Functions
 
-[chainToSVGPathData](../functions/core_svg-helpers.chainToSVGPathData.html)
+[chainToSVGPathData](../functions/core_svg-helpers.chainToSVGPathData.md)
 
 
-[pathToSVGPathData](../functions/core_svg-helpers.pathToSVGPathData.html)
+[pathToSVGPathData](../functions/core_svg-helpers.pathToSVGPathData.md)
 
 ### Settings
 
@@ -38,7 +38,7 @@ Functions
 
 [chainToSVGPathData](#chaintosvgpathdata)[pathToSVGPathData](#pathtosvgpathdata)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

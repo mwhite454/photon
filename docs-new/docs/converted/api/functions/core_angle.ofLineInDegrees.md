@@ -5,25 +5,25 @@ source: docs/docs/api/functions/core_angle.ofLineInDegrees.html
 
 ofLineInDegrees | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/angle](../modules/core_angle.html)
+* [core/angle](../modules/core_angle.md)
 * ofLineInDegrees
 
 # Function ofLineInDegrees
 
-* ofLineInDegrees(line: [IPathLine](../interfaces/core_schema.IPathLine.html)): number
+* ofLineInDegrees(line: [IPathLine](../interfaces/core_schema.IPathLine.md)): number
 
   Angle of a line path.
 
   #### Parameters
 
-  + line: [IPathLine](../interfaces/core_schema.IPathLine.html)
+  + line: [IPathLine](../interfaces/core_schema.IPathLine.md)
 
   #### Returns number
 
@@ -38,7 +38,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

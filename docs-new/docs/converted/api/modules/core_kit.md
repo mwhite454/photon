@@ -5,7 +5,7 @@ source: docs/docs/api/modules/core_kit.html
 
 core/kit | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
@@ -18,10 +18,10 @@ Preparing search index...
 
 ## Functions
 
-[construct](../functions/core_kit.construct.html)
+[construct](../functions/core_kit.construct.md)
 
 
-[getParameterValues](../functions/core_kit.getParameterValues.html)
+[getParameterValues](../functions/core_kit.getParameterValues.md)
 
 ### Settings
 
@@ -38,7 +38,7 @@ Functions
 
 [construct](#construct)[getParameterValues](#getparametervalues)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

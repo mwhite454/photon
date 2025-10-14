@@ -5,22 +5,22 @@ source: docs/docs/api/functions/core_svg-helpers.pathToSVGPathData.html
 
 pathToSVGPathData | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/svg-helpers](../modules/core_svg-helpers.html)
+* [core/svg-helpers](../modules/core_svg-helpers.md)
 * pathToSVGPathData
 
 # Function pathToSVGPathData
 
 * pathToSVGPathData(
-      pathToExport: [IPath](../interfaces/core_schema.IPath.html),
-      pathOffset: [IPoint](../interfaces/core_schema.IPoint.html),
-      exportOffset: [IPoint](../interfaces/core_schema.IPoint.html),
+      pathToExport: [IPath](../interfaces/core_schema.IPath.md),
+      pathOffset: [IPoint](../interfaces/core_schema.IPoint.md),
+      exportOffset: [IPoint](../interfaces/core_schema.IPoint.md),
       accuracy?: number,
       clockwiseCircle?: boolean,
   ): string
@@ -29,9 +29,9 @@ Preparing search index...
 
   #### Parameters
 
-  + pathToExport: [IPath](../interfaces/core_schema.IPath.html)
-  + pathOffset: [IPoint](../interfaces/core_schema.IPoint.html)
-  + exportOffset: [IPoint](../interfaces/core_schema.IPoint.html)
+  + pathToExport: [IPath](../interfaces/core_schema.IPath.md)
+  + pathOffset: [IPoint](../interfaces/core_schema.IPoint.md)
+  + exportOffset: [IPoint](../interfaces/core_schema.IPoint.md)
   + accuracy: number = 0.001
   + `Optional`clockwiseCircle: boolean
 
@@ -48,7 +48,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

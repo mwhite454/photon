@@ -5,14 +5,14 @@ source: docs/docs/api/interfaces/core_schema.IPathMap.html
 
 IPathMap | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/schema](../modules/core_schema.html)
+* [core/schema](../modules/core_schema.md)
 * IPathMap
 
 # Interface IPathMap
@@ -21,7 +21,7 @@ Path objects by id.
 
 #### Indexable
 
-* [id: string]: [IPath](core_schema.IPath.html) | [IPathLine](core_schema.IPathLine.html) | [IPathCircle](core_schema.IPathCircle.html) | [IPathArc](core_schema.IPathArc.html)
+* [id: string]: [IPath](core_schema.IPath.md) | [IPathLine](core_schema.IPathLine.md) | [IPathCircle](core_schema.IPathCircle.md) | [IPathArc](core_schema.IPathArc.md)
 
 * Defined in [core/schema.ts:81](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/schema.ts#L81)
 
@@ -34,7 +34,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

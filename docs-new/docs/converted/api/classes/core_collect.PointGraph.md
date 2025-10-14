@@ -5,14 +5,14 @@ source: docs/docs/api/classes/core_collect.PointGraph.html
 
 PointGraph | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/collect](../modules/core_collect.html)
+* [core/collect](../modules/core_collect.md)
 * PointGraph
 
 # Class PointGraph<T>
@@ -76,7 +76,7 @@ Map of unique points by x, then y, to a point id. This will remain intact even a
 
 ### index
 
-index: { [pointId: number]: [IPointGraphIndexElement](../interfaces/core_collect.IPointGraphIndexElement.html) }
+index: { [pointId: number]: [IPointGraphIndexElement](../interfaces/core_collect.IPointGraphIndexElement.md) }
 
 Index of points by id.
 
@@ -112,10 +112,10 @@ List of values inserted at points.
 
 * forEachPoint(
       cb: (
-          p: [IPoint](../interfaces/core_schema.IPoint.html),
+          p: [IPoint](../interfaces/core_schema.IPoint.md),
           values: [T](#constructorpointgrapht)[],
           pointId?: number,
-          el?: [IPointGraphIndexElement](../interfaces/core_collect.IPointGraphIndexElement.html),
+          el?: [IPointGraphIndexElement](../interfaces/core_collect.IPointGraphIndexElement.md),
       ) => void,
   ): void
 
@@ -123,7 +123,7 @@ List of values inserted at points.
 
   #### Parameters
 
-  + cb: (p: [IPoint](../interfaces/core_schema.IPoint.html), values: [T](#constructorpointgrapht)[], pointId?: number, el?: [IPointGraphIndexElement](../interfaces/core_collect.IPointGraphIndexElement.html)) => void
+  + cb: (p: [IPoint](../interfaces/core_schema.IPoint.md), values: [T](#constructorpointgrapht)[], pointId?: number, el?: [IPointGraphIndexElement](../interfaces/core_collect.IPointGraphIndexElement.md)) => void
 
     Callback for each point in the index.
 
@@ -133,29 +133,29 @@ List of values inserted at points.
 
 ### getElementAtPoint
 
-* getElementAtPoint(p: [IPoint](../interfaces/core_schema.IPoint.html)): [IPointGraphIndexElement](../interfaces/core_collect.IPointGraphIndexElement.html)
+* getElementAtPoint(p: [IPoint](../interfaces/core_schema.IPoint.md)): [IPointGraphIndexElement](../interfaces/core_collect.IPointGraphIndexElement.md)
 
   Get the index element of a point, after merging.
 
   #### Parameters
 
-  + p: [IPoint](../interfaces/core_schema.IPoint.html)
+  + p: [IPoint](../interfaces/core_schema.IPoint.md)
 
     Point to look up index element.
 
-  #### Returns [IPointGraphIndexElement](../interfaces/core_collect.IPointGraphIndexElement.html)
+  #### Returns [IPointGraphIndexElement](../interfaces/core_collect.IPointGraphIndexElement.md)
 
   + Defined in [core/collect.ts:335](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/collect.ts#L335)
 
 ### getIdOfPoint
 
-* getIdOfPoint(p: [IPoint](../interfaces/core_schema.IPoint.html)): number
+* getIdOfPoint(p: [IPoint](../interfaces/core_schema.IPoint.md)): number
 
   Gets the id of a point, after merging.
 
   #### Parameters
 
-  + p: [IPoint](../interfaces/core_schema.IPoint.html)
+  + p: [IPoint](../interfaces/core_schema.IPoint.md)
 
     Point to look up id.
 
@@ -185,7 +185,7 @@ List of values inserted at points.
 
 * insertValueIdAtPoint(
       valueId: number,
-      p: [IPoint](../interfaces/core_schema.IPoint.html),
+      p: [IPoint](../interfaces/core_schema.IPoint.md),
   ): { existed: boolean; pointId: number }
 
   Insert a value at a point.
@@ -193,7 +193,7 @@ List of values inserted at points.
   #### Parameters
 
   + valueId: number
-  + p: [IPoint](../interfaces/core_schema.IPoint.html)
+  + p: [IPoint](../interfaces/core_schema.IPoint.md)
 
     Point.
 
@@ -267,7 +267,7 @@ Methods
 
 [forEachPoint](#foreachpoint)[getElementAtPoint](#getelementatpoint)[getIdOfPoint](#getidofpoint)[insertValue](#insertvalue)[insertValueIdAtPoint](#insertvalueidatpoint)[mergeNearestSinglePoints](#mergenearestsinglepoints)[mergePoints](#mergepoints)[reset](#reset)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

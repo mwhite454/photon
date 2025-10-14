@@ -5,7 +5,7 @@ source: docs/docs/api/modules/models_Square.html
 
 models/Square | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
@@ -18,7 +18,7 @@ Preparing search index...
 
 ## Classes
 
-[Square](../classes/models_Square.Square.html)
+[Square](../classes/models_Square.Square.md)
 
 ### Settings
 
@@ -35,7 +35,7 @@ Classes
 
 [Square](#square)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

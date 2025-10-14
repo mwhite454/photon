@@ -5,35 +5,35 @@ source: docs/docs/api/functions/core_equal.isPathEqual.html
 
 isPathEqual | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/equal](../modules/core_equal.html)
+* [core/equal](../modules/core_equal.md)
 * isPathEqual
 
 # Function isPathEqual
 
 * isPathEqual(
-      pathA: [IPath](../interfaces/core_schema.IPath.html),
-      pathB: [IPath](../interfaces/core_schema.IPath.html),
+      pathA: [IPath](../interfaces/core_schema.IPath.md),
+      pathB: [IPath](../interfaces/core_schema.IPath.md),
       withinPointDistance?: number,
-      pathAOffset?: [IPoint](../interfaces/core_schema.IPoint.html),
-      pathBOffset?: [IPoint](../interfaces/core_schema.IPoint.html),
+      pathAOffset?: [IPoint](../interfaces/core_schema.IPoint.md),
+      pathBOffset?: [IPoint](../interfaces/core_schema.IPoint.md),
   ): boolean
 
   Find out if two paths are equal.
 
   #### Parameters
 
-  + pathA: [IPath](../interfaces/core_schema.IPath.html)
-  + pathB: [IPath](../interfaces/core_schema.IPath.html)
+  + pathA: [IPath](../interfaces/core_schema.IPath.md)
+  + pathB: [IPath](../interfaces/core_schema.IPath.md)
   + `Optional`withinPointDistance: number
-  + `Optional`pathAOffset: [IPoint](../interfaces/core_schema.IPoint.html)
-  + `Optional`pathBOffset: [IPoint](../interfaces/core_schema.IPoint.html)
+  + `Optional`pathAOffset: [IPoint](../interfaces/core_schema.IPoint.md)
+  + `Optional`pathBOffset: [IPoint](../interfaces/core_schema.IPoint.md)
 
   #### Returns boolean
 
@@ -48,7 +48,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

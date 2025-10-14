@@ -1,0 +1,1870 @@
+{
+  "timestamp": "2025-10-14T11:50:43.657219",
+  "docs_directory": "docs-new/docs/",
+  "total_files": 578,
+  "total_links": 5818,
+  "internal_links": 3547,
+  "external_links": 2222,
+  "asset_links": 49,
+  "broken_internal": 183,
+  "broken_external": 0,
+  "broken_assets": 49,
+  "issues": [
+    {
+      "file": "snippets/distorting.md",
+      "line": 6,
+      "type": "broken_internal",
+      "link": "../api/modules/makerjs.point.md#distort",
+      "text": "makerjs.point.distort",
+      "message": "Internal link not found: ../api/modules/makerjs.point.md#distort"
+    },
+    {
+      "file": "snippets/distorting.md",
+      "line": 9,
+      "type": "broken_internal",
+      "link": "../api/modules/makerjs.path.md#distort",
+      "text": "makerjs.path.distort",
+      "message": "Internal link not found: ../api/modules/makerjs.path.md#distort"
+    },
+    {
+      "file": "snippets/distorting.md",
+      "line": 46,
+      "type": "broken_internal",
+      "link": "../api/modules/makerjs.model.md#distort",
+      "text": "makerjs.model.distort",
+      "message": "Internal link not found: ../api/modules/makerjs.model.md#distort"
+    },
+    {
+      "file": "snippets/simplifying.md",
+      "line": 8,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.model.md#simplify",
+      "text": "makerjs.model.simplify",
+      "message": "Internal link not found: /docs/api/modules/makerjs.model.md#simplify"
+    },
+    {
+      "file": "snippets/$-function.md",
+      "line": 9,
+      "type": "broken_internal",
+      "link": "/docs/api/index.md#_",
+      "text": "makerjs.$(x)",
+      "message": "Internal link not found: /docs/api/index.md#_"
+    },
+    {
+      "file": "snippets/$-function.md",
+      "line": 31,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.model.md",
+      "text": "**model** module",
+      "message": "Internal link not found: /docs/api/modules/makerjs.model.md"
+    },
+    {
+      "file": "snippets/$-function.md",
+      "line": 31,
+      "type": "broken_internal",
+      "link": "/docs/api/interfaces/makerjs.icascademodel.md",
+      "text": "*cascade-safe functions*",
+      "message": "Internal link not found: /docs/api/interfaces/makerjs.icascademodel.md"
+    },
+    {
+      "file": "snippets/$-function.md",
+      "line": 32,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.path.md",
+      "text": "**path** module",
+      "message": "Internal link not found: /docs/api/modules/makerjs.path.md"
+    },
+    {
+      "file": "snippets/$-function.md",
+      "line": 32,
+      "type": "broken_internal",
+      "link": "/docs/api/interfaces/makerjs.icascadepath.md",
+      "text": "*cascade-safe functions*",
+      "message": "Internal link not found: /docs/api/interfaces/makerjs.icascadepath.md"
+    },
+    {
+      "file": "snippets/$-function.md",
+      "line": 33,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.point.md",
+      "text": "**point** module",
+      "message": "Internal link not found: /docs/api/modules/makerjs.point.md"
+    },
+    {
+      "file": "snippets/$-function.md",
+      "line": 33,
+      "type": "broken_internal",
+      "link": "/docs/api/interfaces/makerjs.icascadepoint.md",
+      "text": "*cascade-safe functions*",
+      "message": "Internal link not found: /docs/api/interfaces/makerjs.icascadepoint.md"
+    },
+    {
+      "file": "snippets/$-function.md",
+      "line": 65,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.path.md#addto",
+      "text": "add a path",
+      "message": "Internal link not found: /docs/api/modules/makerjs.path.md#addto"
+    },
+    {
+      "file": "snippets/$-function.md",
+      "line": 65,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.model.md#addto",
+      "text": "add a model",
+      "message": "Internal link not found: /docs/api/modules/makerjs.model.md#addto"
+    },
+    {
+      "file": "snippets/captions.md",
+      "line": 8,
+      "type": "broken_internal",
+      "link": "/docs/advanced-drawing/index.md#Fonts%20and%20text",
+      "text": "Text model",
+      "message": "Internal link not found: /docs/advanced-drawing/index.md#Fonts%20and%20text"
+    },
+    {
+      "file": "snippets/captions.md",
+      "line": 17,
+      "type": "broken_internal",
+      "link": "/docs/intermediate-drawing/index.md#Layers",
+      "text": "layer",
+      "message": "Internal link not found: /docs/intermediate-drawing/index.md#Layers"
+    },
+    {
+      "file": "snippets/dogbones.md",
+      "line": 7,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.path.md#dogbone",
+      "text": "makerjs.path.dogbone",
+      "message": "Internal link not found: /docs/api/modules/makerjs.path.md#dogbone"
+    },
+    {
+      "file": "snippets/dogbones.md",
+      "line": 31,
+      "type": "broken_internal",
+      "link": "api/classes/makerjs.models.dogbone.md#constructor",
+      "text": "makerjs.models.Dogbone(width, height, radius*, optional style, optional bottomless*)",
+      "message": "Internal link not found: api/classes/makerjs.models.dogbone.md#constructor"
+    },
+    {
+      "file": "snippets/dogbones.md",
+      "line": 56,
+      "type": "broken_internal",
+      "link": "/playground/index.md?script=tongue-and-groove",
+      "text": "tongue-and-groove shapes",
+      "message": "Internal link not found: /playground/index.md?script=tongue-and-groove"
+    },
+    {
+      "file": "snippets/path-constructors.md",
+      "line": 43,
+      "type": "broken_internal",
+      "link": "/docs/api/classes/makerjs.paths.line.md#constructor",
+      "text": "makerjs.paths.Line",
+      "message": "Internal link not found: /docs/api/classes/makerjs.paths.line.md#constructor"
+    },
+    {
+      "file": "snippets/path-constructors.md",
+      "line": 44,
+      "type": "broken_internal",
+      "link": "/docs/api/classes/makerjs.paths.circle.md#constructor",
+      "text": "makerjs.paths.Circle",
+      "message": "Internal link not found: /docs/api/classes/makerjs.paths.circle.md#constructor"
+    },
+    {
+      "file": "snippets/path-constructors.md",
+      "line": 45,
+      "type": "broken_internal",
+      "link": "/docs/api/classes/makerjs.paths.arc.md#constructor",
+      "text": "makerjs.paths.Arc",
+      "message": "Internal link not found: /docs/api/classes/makerjs.paths.arc.md#constructor"
+    },
+    {
+      "file": "snippets/exporting-dxf.md",
+      "line": 17,
+      "type": "broken_internal",
+      "link": "/docs/intermediate-drawing/index.md#Captions",
+      "text": "caption",
+      "message": "Internal link not found: /docs/intermediate-drawing/index.md#Captions"
+    },
+    {
+      "file": "snippets/exporting-dxf.md",
+      "line": 26,
+      "type": "broken_internal",
+      "link": "/docs/api/interfaces/makerjs.exporter.idxfrenderoptions.md#units",
+      "text": "units",
+      "message": "Internal link not found: /docs/api/interfaces/makerjs.exporter.idxfrenderoptions.md#units"
+    },
+    {
+      "file": "snippets/exporting-dxf.md",
+      "line": 26,
+      "type": "broken_internal",
+      "link": "/docs/api/index.md#unittype",
+      "text": "Maker.js unit type",
+      "message": "Internal link not found: /docs/api/index.md#unittype"
+    },
+    {
+      "file": "snippets/exporting-dxf.md",
+      "line": 27,
+      "type": "broken_internal",
+      "link": "/docs/api/interfaces/makerjs.exporter.idxfrenderoptions.md#fontsize",
+      "text": "fontSize",
+      "message": "Internal link not found: /docs/api/interfaces/makerjs.exporter.idxfrenderoptions.md#fontsize"
+    },
+    {
+      "file": "snippets/exporting-dxf.md",
+      "line": 28,
+      "type": "broken_internal",
+      "link": "/docs/api/interfaces/makerjs.exporter.idxfrenderoptions.md#layeroptions",
+      "text": "layerOptions",
+      "message": "Internal link not found: /docs/api/interfaces/makerjs.exporter.idxfrenderoptions.md#layeroptions"
+    },
+    {
+      "file": "snippets/exporting-dxf.md",
+      "line": 28,
+      "type": "broken_internal",
+      "link": "/docs/api/interfaces/makerjs.exporter.idxflayeroptions.md#color",
+      "text": "color",
+      "message": "Internal link not found: /docs/api/interfaces/makerjs.exporter.idxflayeroptions.md#color"
+    },
+    {
+      "file": "snippets/exporting-dxf.md",
+      "line": 28,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.exporter.md#colors",
+      "text": "Maker.js color",
+      "message": "Internal link not found: /docs/api/modules/makerjs.exporter.md#colors"
+    },
+    {
+      "file": "snippets/exporting-dxf.md",
+      "line": 28,
+      "type": "broken_internal",
+      "link": "/docs/api/interfaces/makerjs.exporter.idxflayeroptions.md#fontsize",
+      "text": "fontSize",
+      "message": "Internal link not found: /docs/api/interfaces/makerjs.exporter.idxflayeroptions.md#fontsize"
+    },
+    {
+      "file": "snippets/outlining.md",
+      "line": 7,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.model.md#outline",
+      "text": "makerjs.model.outline",
+      "message": "Internal link not found: /docs/api/modules/makerjs.model.md#outline"
+    },
+    {
+      "file": "snippets/layout-on-path.md",
+      "line": 7,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.layout.md#childrenonpath",
+      "text": "makerjs.layout.childrenOnPath(parentModel: Model, onPath: Path)",
+      "message": "Internal link not found: /docs/api/modules/makerjs.layout.md#childrenonpath"
+    },
+    {
+      "file": "snippets/layout-on-path.md",
+      "line": 128,
+      "type": "broken_internal",
+      "link": "/playground/index.md?script=text-on-path",
+      "text": "See an example here",
+      "message": "Internal link not found: /playground/index.md?script=text-on-path"
+    },
+    {
+      "file": "snippets/fillets.md",
+      "line": 12,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.path.md#fillet",
+      "text": "makerjs.path.fillet",
+      "message": "Internal link not found: /docs/api/modules/makerjs.path.md#fillet"
+    },
+    {
+      "file": "snippets/built-in-models.md",
+      "line": 8,
+      "type": "broken_internal",
+      "link": "/playground/index.md?script=Belt",
+      "text": "Belt",
+      "message": "Internal link not found: /playground/index.md?script=Belt"
+    },
+    {
+      "file": "snippets/built-in-models.md",
+      "line": 9,
+      "type": "broken_internal",
+      "link": "/playground/index.md?script=BezierCurve",
+      "text": "Bezier Curve",
+      "message": "Internal link not found: /playground/index.md?script=BezierCurve"
+    },
+    {
+      "file": "snippets/built-in-models.md",
+      "line": 10,
+      "type": "broken_internal",
+      "link": "/playground/index.md?script=BoltCircle",
+      "text": "Bolt Circle",
+      "message": "Internal link not found: /playground/index.md?script=BoltCircle"
+    },
+    {
+      "file": "snippets/built-in-models.md",
+      "line": 11,
+      "type": "broken_internal",
+      "link": "/playground/index.md?script=BoltRectangle",
+      "text": "Bolt Rectangle",
+      "message": "Internal link not found: /playground/index.md?script=BoltRectangle"
+    },
+    {
+      "file": "snippets/built-in-models.md",
+      "line": 12,
+      "type": "broken_internal",
+      "link": "/playground/index.md?script=ConnectTheDots",
+      "text": "Connect the dots",
+      "message": "Internal link not found: /playground/index.md?script=ConnectTheDots"
+    },
+    {
+      "file": "snippets/built-in-models.md",
+      "line": 13,
+      "type": "broken_internal",
+      "link": "/playground/index.md?script=Dogbone",
+      "text": "Dogbone",
+      "message": "Internal link not found: /playground/index.md?script=Dogbone"
+    },
+    {
+      "file": "snippets/built-in-models.md",
+      "line": 14,
+      "type": "broken_internal",
+      "link": "/playground/index.md?script=Dome",
+      "text": "Dome",
+      "message": "Internal link not found: /playground/index.md?script=Dome"
+    },
+    {
+      "file": "snippets/built-in-models.md",
+      "line": 15,
+      "type": "broken_internal",
+      "link": "/playground/index.md?script=Ellipse",
+      "text": "Ellipse",
+      "message": "Internal link not found: /playground/index.md?script=Ellipse"
+    },
+    {
+      "file": "snippets/built-in-models.md",
+      "line": 16,
+      "type": "broken_internal",
+      "link": "/playground/index.md?script=EllipticArc",
+      "text": "Elliptic Arc",
+      "message": "Internal link not found: /playground/index.md?script=EllipticArc"
+    },
+    {
+      "file": "snippets/built-in-models.md",
+      "line": 17,
+      "type": "broken_internal",
+      "link": "/playground/index.md?script=Holes",
+      "text": "Holes",
+      "message": "Internal link not found: /playground/index.md?script=Holes"
+    },
+    {
+      "file": "snippets/built-in-models.md",
+      "line": 18,
+      "type": "broken_internal",
+      "link": "/playground/index.md?script=Oval",
+      "text": "Oval",
+      "message": "Internal link not found: /playground/index.md?script=Oval"
+    },
+    {
+      "file": "snippets/built-in-models.md",
+      "line": 19,
+      "type": "broken_internal",
+      "link": "/playground/index.md?script=OvalArc",
+      "text": "OvalArc",
+      "message": "Internal link not found: /playground/index.md?script=OvalArc"
+    },
+    {
+      "file": "snippets/built-in-models.md",
+      "line": 20,
+      "type": "broken_internal",
+      "link": "/playground/index.md?script=Polygon",
+      "text": "Polygon",
+      "message": "Internal link not found: /playground/index.md?script=Polygon"
+    },
+    {
+      "file": "snippets/built-in-models.md",
+      "line": 21,
+      "type": "broken_internal",
+      "link": "/docs/api/classes/makerjs.models.rectangle.md#constructor",
+      "text": "Rectangle",
+      "message": "Internal link not found: /docs/api/classes/makerjs.models.rectangle.md#constructor"
+    },
+    {
+      "file": "snippets/built-in-models.md",
+      "line": 22,
+      "type": "broken_internal",
+      "link": "/playground/index.md?script=Ring",
+      "text": "Ring",
+      "message": "Internal link not found: /playground/index.md?script=Ring"
+    },
+    {
+      "file": "snippets/built-in-models.md",
+      "line": 23,
+      "type": "broken_internal",
+      "link": "/playground/index.md?script=RoundRectangle",
+      "text": "RoundRectangle",
+      "message": "Internal link not found: /playground/index.md?script=RoundRectangle"
+    },
+    {
+      "file": "snippets/built-in-models.md",
+      "line": 24,
+      "type": "broken_internal",
+      "link": "/playground/index.md?script=SCurve",
+      "text": "S curve",
+      "message": "Internal link not found: /playground/index.md?script=SCurve"
+    },
+    {
+      "file": "snippets/built-in-models.md",
+      "line": 25,
+      "type": "broken_internal",
+      "link": "/playground/index.md?script=Slot",
+      "text": "Slot",
+      "message": "Internal link not found: /playground/index.md?script=Slot"
+    },
+    {
+      "file": "snippets/built-in-models.md",
+      "line": 26,
+      "type": "broken_internal",
+      "link": "/playground/index.md?script=Square",
+      "text": "Square",
+      "message": "Internal link not found: /playground/index.md?script=Square"
+    },
+    {
+      "file": "snippets/built-in-models.md",
+      "line": 27,
+      "type": "broken_internal",
+      "link": "/playground/index.md?script=Star",
+      "text": "Star",
+      "message": "Internal link not found: /playground/index.md?script=Star"
+    },
+    {
+      "file": "snippets/built-in-models.md",
+      "line": 28,
+      "type": "broken_internal",
+      "link": "/playground/index.md?script=Text",
+      "text": "Text",
+      "message": "Internal link not found: /playground/index.md?script=Text"
+    },
+    {
+      "file": "snippets/fonts-and-text.md",
+      "line": 6,
+      "type": "broken_internal",
+      "link": "/docs/api/classes/makerjs.models.text.md#constructor",
+      "text": "makerjs.models.Text",
+      "message": "Internal link not found: /docs/api/classes/makerjs.models.text.md#constructor"
+    },
+    {
+      "file": "snippets/fonts-and-text.md",
+      "line": 22,
+      "type": "broken_internal",
+      "link": "/playground/index.md?script=Text",
+      "text": "In the Maker.js Playground we can call playgroundRender()",
+      "message": "Internal link not found: /playground/index.md?script=Text"
+    },
+    {
+      "file": "snippets/exporting-svg.md",
+      "line": 17,
+      "type": "broken_internal",
+      "link": "/docs/intermediate-drawing/index.md#Captions",
+      "text": "Captions",
+      "message": "Internal link not found: /docs/intermediate-drawing/index.md#Captions"
+    },
+    {
+      "file": "snippets/exporting-svg.md",
+      "line": 37,
+      "type": "broken_internal",
+      "link": "/docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#usesvgpathonly",
+      "text": "useSvgPathOnly",
+      "message": "Internal link not found: /docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#usesvgpathonly"
+    },
+    {
+      "file": "snippets/exporting-svg.md",
+      "line": 38,
+      "type": "broken_internal",
+      "link": "/docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#accuracy",
+      "text": "accuracy",
+      "message": "Internal link not found: /docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#accuracy"
+    },
+    {
+      "file": "snippets/exporting-svg.md",
+      "line": 39,
+      "type": "broken_internal",
+      "link": "/docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#annotate",
+      "text": "annotate",
+      "message": "Internal link not found: /docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#annotate"
+    },
+    {
+      "file": "snippets/exporting-svg.md",
+      "line": 40,
+      "type": "broken_internal",
+      "link": "/docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#className",
+      "text": "className",
+      "message": "Internal link not found: /docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#className"
+    },
+    {
+      "file": "snippets/exporting-svg.md",
+      "line": 41,
+      "type": "broken_internal",
+      "link": "/docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#cssstyle",
+      "text": "cssStyle",
+      "message": "Internal link not found: /docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#cssstyle"
+    },
+    {
+      "file": "snippets/exporting-svg.md",
+      "line": 42,
+      "type": "broken_internal",
+      "link": "/docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#fill",
+      "text": "fill",
+      "message": "Internal link not found: /docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#fill"
+    },
+    {
+      "file": "snippets/exporting-svg.md",
+      "line": 43,
+      "type": "broken_internal",
+      "link": "/docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#fillrule",
+      "text": "fillRule",
+      "message": "Internal link not found: /docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#fillrule"
+    },
+    {
+      "file": "snippets/exporting-svg.md",
+      "line": 44,
+      "type": "broken_internal",
+      "link": "/docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#fontsize",
+      "text": "fontSize",
+      "message": "Internal link not found: /docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#fontsize"
+    },
+    {
+      "file": "snippets/exporting-svg.md",
+      "line": 45,
+      "type": "broken_internal",
+      "link": "/docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#layeroptions",
+      "text": "layerOptions",
+      "message": "Internal link not found: /docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#layeroptions"
+    },
+    {
+      "file": "snippets/exporting-svg.md",
+      "line": 45,
+      "type": "broken_internal",
+      "link": "/docs/api/interfaces/makerjs.exporter.isvgelementrenderoptions.md#className",
+      "text": "className",
+      "message": "Internal link not found: /docs/api/interfaces/makerjs.exporter.isvgelementrenderoptions.md#className"
+    },
+    {
+      "file": "snippets/exporting-svg.md",
+      "line": 45,
+      "type": "broken_internal",
+      "link": "/docs/api/interfaces/makerjs.exporter.isvgelementrenderoptions.md#cssstyle",
+      "text": "cssStyle",
+      "message": "Internal link not found: /docs/api/interfaces/makerjs.exporter.isvgelementrenderoptions.md#cssstyle"
+    },
+    {
+      "file": "snippets/exporting-svg.md",
+      "line": 45,
+      "type": "broken_internal",
+      "link": "/docs/api/interfaces/makerjs.exporter.isvgelementrenderoptions.md#fill",
+      "text": "fill",
+      "message": "Internal link not found: /docs/api/interfaces/makerjs.exporter.isvgelementrenderoptions.md#fill"
+    },
+    {
+      "file": "snippets/exporting-svg.md",
+      "line": 45,
+      "type": "broken_internal",
+      "link": "/docs/api/interfaces/makerjs.exporter.isvgelementrenderoptions.md#stroke",
+      "text": "stroke",
+      "message": "Internal link not found: /docs/api/interfaces/makerjs.exporter.isvgelementrenderoptions.md#stroke"
+    },
+    {
+      "file": "snippets/exporting-svg.md",
+      "line": 45,
+      "type": "broken_internal",
+      "link": "/docs/api/interfaces/makerjs.exporter.isvgelementrenderoptions.md#strokewidth",
+      "text": "strokeWidth",
+      "message": "Internal link not found: /docs/api/interfaces/makerjs.exporter.isvgelementrenderoptions.md#strokewidth"
+    },
+    {
+      "file": "snippets/exporting-svg.md",
+      "line": 46,
+      "type": "broken_internal",
+      "link": "/docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#origin",
+      "text": "origin",
+      "message": "Internal link not found: /docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#origin"
+    },
+    {
+      "file": "snippets/exporting-svg.md",
+      "line": 47,
+      "type": "broken_internal",
+      "link": "/docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#scale",
+      "text": "scale",
+      "message": "Internal link not found: /docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#scale"
+    },
+    {
+      "file": "snippets/exporting-svg.md",
+      "line": 48,
+      "type": "broken_internal",
+      "link": "/docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#stroke",
+      "text": "stroke",
+      "message": "Internal link not found: /docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#stroke"
+    },
+    {
+      "file": "snippets/exporting-svg.md",
+      "line": 49,
+      "type": "broken_internal",
+      "link": "/docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#strokewidth",
+      "text": "strokeWidth",
+      "message": "Internal link not found: /docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#strokewidth"
+    },
+    {
+      "file": "snippets/exporting-svg.md",
+      "line": 50,
+      "type": "broken_internal",
+      "link": "/docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#svgattrs",
+      "text": "svgAttrs",
+      "message": "Internal link not found: /docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#svgattrs"
+    },
+    {
+      "file": "snippets/exporting-svg.md",
+      "line": 51,
+      "type": "broken_internal",
+      "link": "/docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#units",
+      "text": "units",
+      "message": "Internal link not found: /docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#units"
+    },
+    {
+      "file": "snippets/exporting-svg.md",
+      "line": 51,
+      "type": "broken_internal",
+      "link": "/docs/api/index.md#unittype",
+      "text": "Maker.js unit type",
+      "message": "Internal link not found: /docs/api/index.md#unittype"
+    },
+    {
+      "file": "snippets/exporting-svg.md",
+      "line": 52,
+      "type": "broken_internal",
+      "link": "/docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#viewbox",
+      "text": "viewbox",
+      "message": "Internal link not found: /docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#viewbox"
+    },
+    {
+      "file": "snippets/expanding.md",
+      "line": 22,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.path.md#expand",
+      "text": "makerjs.path.expand",
+      "message": "Internal link not found: /docs/api/modules/makerjs.path.md#expand"
+    },
+    {
+      "file": "snippets/expanding.md",
+      "line": 66,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.model.md#expandpaths",
+      "text": "makerjs.model.expandPaths",
+      "message": "Internal link not found: /docs/api/modules/makerjs.model.md#expandpaths"
+    },
+    {
+      "file": "snippets/expanding.md",
+      "line": 88,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.model.md#expandpaths",
+      "text": "makerjs.model.expandPaths",
+      "message": "Internal link not found: /docs/api/modules/makerjs.model.md#expandpaths"
+    },
+    {
+      "file": "snippets/frequently-used-functions.md",
+      "line": 8,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.point.md#content",
+      "text": "makerjs.point",
+      "message": "Internal link not found: /docs/api/modules/makerjs.point.md#content"
+    },
+    {
+      "file": "snippets/frequently-used-functions.md",
+      "line": 10,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.point.md#add",
+      "text": "point.add",
+      "message": "Internal link not found: /docs/api/modules/makerjs.point.md#add"
+    },
+    {
+      "file": "snippets/frequently-used-functions.md",
+      "line": 13,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.point.md#subtract",
+      "text": "point.subtract",
+      "message": "Internal link not found: /docs/api/modules/makerjs.point.md#subtract"
+    },
+    {
+      "file": "snippets/frequently-used-functions.md",
+      "line": 16,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.point.md#average",
+      "text": "point.average",
+      "message": "Internal link not found: /docs/api/modules/makerjs.point.md#average"
+    },
+    {
+      "file": "snippets/frequently-used-functions.md",
+      "line": 19,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.point.md#frompolar",
+      "text": "point.fromPolar",
+      "message": "Internal link not found: /docs/api/modules/makerjs.point.md#frompolar"
+    },
+    {
+      "file": "snippets/frequently-used-functions.md",
+      "line": 22,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.point.md#closest",
+      "text": "point.closest",
+      "message": "Internal link not found: /docs/api/modules/makerjs.point.md#closest"
+    },
+    {
+      "file": "snippets/frequently-used-functions.md",
+      "line": 25,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.point.md#scale",
+      "text": "point.scale",
+      "message": "Internal link not found: /docs/api/modules/makerjs.point.md#scale"
+    },
+    {
+      "file": "snippets/frequently-used-functions.md",
+      "line": 28,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.point.md#distort",
+      "text": "point.distort",
+      "message": "Internal link not found: /docs/api/modules/makerjs.point.md#distort"
+    },
+    {
+      "file": "snippets/frequently-used-functions.md",
+      "line": 31,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.point.md#rotate",
+      "text": "point.rotate",
+      "message": "Internal link not found: /docs/api/modules/makerjs.point.md#rotate"
+    },
+    {
+      "file": "snippets/frequently-used-functions.md",
+      "line": 34,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.point.md#frompathends",
+      "text": "point.fromPathEnds",
+      "message": "Internal link not found: /docs/api/modules/makerjs.point.md#frompathends"
+    },
+    {
+      "file": "snippets/frequently-used-functions.md",
+      "line": 38,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.angle.md#content",
+      "text": "makerjs.angle",
+      "message": "Internal link not found: /docs/api/modules/makerjs.angle.md#content"
+    },
+    {
+      "file": "snippets/frequently-used-functions.md",
+      "line": 40,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.angle.md#todegrees",
+      "text": "angle.toDegrees",
+      "message": "Internal link not found: /docs/api/modules/makerjs.angle.md#todegrees"
+    },
+    {
+      "file": "snippets/frequently-used-functions.md",
+      "line": 43,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.angle.md#toradians",
+      "text": "angle.toRadians",
+      "message": "Internal link not found: /docs/api/modules/makerjs.angle.md#toradians"
+    },
+    {
+      "file": "snippets/frequently-used-functions.md",
+      "line": 46,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.angle.md#oflineindegrees",
+      "text": "angle.ofLineInDegrees",
+      "message": "Internal link not found: /docs/api/modules/makerjs.angle.md#oflineindegrees"
+    },
+    {
+      "file": "snippets/frequently-used-functions.md",
+      "line": 49,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.angle.md#ofpointindegrees",
+      "text": "angle.ofPointInDegrees",
+      "message": "Internal link not found: /docs/api/modules/makerjs.angle.md#ofpointindegrees"
+    },
+    {
+      "file": "snippets/frequently-used-functions.md",
+      "line": 52,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.angle.md#ofpointinradians",
+      "text": "angle.ofPointInRadians",
+      "message": "Internal link not found: /docs/api/modules/makerjs.angle.md#ofpointinradians"
+    },
+    {
+      "file": "snippets/frequently-used-functions.md",
+      "line": 55,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.angle.md#norevolutions",
+      "text": "angle.noRevolutions",
+      "message": "Internal link not found: /docs/api/modules/makerjs.angle.md#norevolutions"
+    },
+    {
+      "file": "snippets/frequently-used-functions.md",
+      "line": 58,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.angle.md#ofarcspan",
+      "text": "angle.ofArcSpan",
+      "message": "Internal link not found: /docs/api/modules/makerjs.angle.md#ofarcspan"
+    },
+    {
+      "file": "snippets/frequently-used-functions.md",
+      "line": 62,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.measure.md#content",
+      "text": "makerjs.measure",
+      "message": "Internal link not found: /docs/api/modules/makerjs.measure.md#content"
+    },
+    {
+      "file": "snippets/frequently-used-functions.md",
+      "line": 64,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.measure.md#pointdistance",
+      "text": "measure.pointDistance",
+      "message": "Internal link not found: /docs/api/modules/makerjs.measure.md#pointdistance"
+    },
+    {
+      "file": "snippets/frequently-used-functions.md",
+      "line": 67,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.measure.md#pathlength",
+      "text": "measure.pathLength",
+      "message": "Internal link not found: /docs/api/modules/makerjs.measure.md#pathlength"
+    },
+    {
+      "file": "snippets/frequently-used-functions.md",
+      "line": 70,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.measure.md#ispointequal",
+      "text": "measure.isPointEqual",
+      "message": "Internal link not found: /docs/api/modules/makerjs.measure.md#ispointequal"
+    },
+    {
+      "file": "snippets/frequently-used-functions.md",
+      "line": 73,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.measure.md#ismeasurementoverlapping",
+      "text": "measure.isMeasurementOverlapping",
+      "message": "Internal link not found: /docs/api/modules/makerjs.measure.md#ismeasurementoverlapping"
+    },
+    {
+      "file": "snippets/frequently-used-functions.md",
+      "line": 76,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.measure.md#isangleequal",
+      "text": "measure.isAngleEqual",
+      "message": "Internal link not found: /docs/api/modules/makerjs.measure.md#isangleequal"
+    },
+    {
+      "file": "snippets/breaking.md",
+      "line": 6,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.path.md#breakatpoint",
+      "text": "makerjs.path.breakAtPoint",
+      "message": "Internal link not found: /docs/api/modules/makerjs.path.md#breakatpoint"
+    },
+    {
+      "file": "snippets/try-it-now.md",
+      "line": 6,
+      "type": "broken_internal",
+      "link": "/playground/index.md",
+      "text": "Maker.js Playground",
+      "message": "Internal link not found: /playground/index.md"
+    },
+    {
+      "file": "snippets/try-it-now.md",
+      "line": 8,
+      "type": "broken_internal",
+      "link": "/demos/index.md#content",
+      "text": "demos",
+      "message": "Internal link not found: /demos/index.md#content"
+    },
+    {
+      "file": "snippets/routes.md",
+      "line": 30,
+      "type": "broken_internal",
+      "link": "/docs/api/index.md#travel",
+      "text": "makerjs.travel(rootModel, route)",
+      "message": "Internal link not found: /docs/api/index.md#travel"
+    },
+    {
+      "file": "snippets/routes.md",
+      "line": 112,
+      "type": "broken_internal",
+      "link": "/docs/api/index.md#createroutekey",
+      "text": "makerjs.createRouteKey(route)",
+      "message": "Internal link not found: /docs/api/index.md#createroutekey"
+    },
+    {
+      "file": "snippets/exporting-stl.md",
+      "line": 59,
+      "type": "broken_internal",
+      "link": "/docs/api/interfaces/makerjs.exporter.iopenjscadoptions.md#content",
+      "text": "API documentation for OpenJsCad export options",
+      "message": "Internal link not found: /docs/api/interfaces/makerjs.exporter.iopenjscadoptions.md#content"
+    },
+    {
+      "file": "snippets/chain-links.md",
+      "line": 15,
+      "type": "broken_internal",
+      "link": "/docs/model-trees/index.md#Walking a model tree",
+      "text": "walking a model tree",
+      "message": "Internal link not found: /docs/model-trees/index.md#Walking a model tree"
+    },
+    {
+      "file": "snippets/zeroing-and-centering.md",
+      "line": 6,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.model.md#zero",
+      "text": "model.zero",
+      "message": "Internal link not found: /docs/api/modules/makerjs.model.md#zero"
+    },
+    {
+      "file": "snippets/zeroing-and-centering.md",
+      "line": 35,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.model.md#center",
+      "text": "model.center",
+      "message": "Internal link not found: /docs/api/modules/makerjs.model.md#center"
+    },
+    {
+      "file": "snippets/chain-theory.md",
+      "line": 29,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.model.md#findsinglechain",
+      "text": "makerjs.model.findSingleChain(model)",
+      "message": "Internal link not found: /docs/api/modules/makerjs.model.md#findsinglechain"
+    },
+    {
+      "file": "snippets/chain-theory.md",
+      "line": 30,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.model.md#findchains",
+      "text": "makerjs.model.findChains(model)",
+      "message": "Internal link not found: /docs/api/modules/makerjs.model.md#findchains"
+    },
+    {
+      "file": "snippets/chain-theory.md",
+      "line": 34,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.model.md#findsinglechain",
+      "text": "makerjs.model.findSingleChain(model)",
+      "message": "Internal link not found: /docs/api/modules/makerjs.model.md#findsinglechain"
+    },
+    {
+      "file": "snippets/chain-theory.md",
+      "line": 35,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.model.md#findchains",
+      "text": "makerjs.model.findChains(model)",
+      "message": "Internal link not found: /docs/api/modules/makerjs.model.md#findchains"
+    },
+    {
+      "file": "snippets/originating.md",
+      "line": 37,
+      "type": "broken_internal",
+      "link": "../api/modules/makerjs.model.md#originate",
+      "text": "makerjs.model.originate",
+      "message": "Internal link not found: ../api/modules/makerjs.model.md#originate"
+    },
+    {
+      "file": "snippets/importing-svg-points.md",
+      "line": 7,
+      "type": "broken_internal",
+      "link": "/docs/basic-drawing/index.md#Points",
+      "text": "Maker.js points",
+      "message": "Internal link not found: /docs/basic-drawing/index.md#Points"
+    },
+    {
+      "file": "snippets/importing-svg-points.md",
+      "line": 8,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.point.md#mirror",
+      "text": "makerjs.point.mirror",
+      "message": "Internal link not found: /docs/api/modules/makerjs.point.md#mirror"
+    },
+    {
+      "file": "snippets/importing-svg-points.md",
+      "line": 9,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.model.md#mirror",
+      "text": "makerjs.model.mirror",
+      "message": "Internal link not found: /docs/api/modules/makerjs.model.md#mirror"
+    },
+    {
+      "file": "snippets/importing-svg-points.md",
+      "line": 20,
+      "type": "broken_internal",
+      "link": "/docs/api/classes/makerjs.models.connectthedots.md#constructor",
+      "text": "makerjs.models.ConnectTheDots",
+      "message": "Internal link not found: /docs/api/classes/makerjs.models.connectthedots.md#constructor"
+    },
+    {
+      "file": "snippets/bezier-curves.md",
+      "line": 6,
+      "type": "broken_internal",
+      "link": "//pomax.github.io/bezierinfo/index.md",
+      "text": "A Primer on Bezier Curves by Mike Kamermans (aka Pomax)",
+      "message": "Internal link not found: //pomax.github.io/bezierinfo/index.md"
+    },
+    {
+      "file": "snippets/bezier-curves.md",
+      "line": 7,
+      "type": "broken_internal",
+      "link": "//pomax.github.io/bezierjs/index.md",
+      "text": "Bezier.js",
+      "message": "Internal link not found: //pomax.github.io/bezierjs/index.md"
+    },
+    {
+      "file": "snippets/bezier-curves.md",
+      "line": 16,
+      "type": "broken_internal",
+      "link": "//pomax.github.io/bezierjs/index.md#extrema",
+      "text": "extrema",
+      "message": "Internal link not found: //pomax.github.io/bezierjs/index.md#extrema"
+    },
+    {
+      "file": "snippets/bezier-curves.md",
+      "line": 18,
+      "type": "broken_internal",
+      "link": "/docs/api/classes/makerjs.models.beziercurve.md#content",
+      "text": "makerjs.models.BezierCurve",
+      "message": "Internal link not found: /docs/api/classes/makerjs.models.beziercurve.md#content"
+    },
+    {
+      "file": "snippets/chain-order.md",
+      "line": 12,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.chain.md#reverse",
+      "text": "makerjs.chain.reverse(chain)",
+      "message": "Internal link not found: /docs/api/modules/makerjs.chain.md#reverse"
+    },
+    {
+      "file": "snippets/chain-order.md",
+      "line": 19,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.chain.md#cycle",
+      "text": "makerjs.chain.cycle(chain, amount)",
+      "message": "Internal link not found: /docs/api/modules/makerjs.chain.md#cycle"
+    },
+    {
+      "file": "snippets/chain-order.md",
+      "line": 20,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.chain.md#startat",
+      "text": "makerjs.chain.startAt(chain, routeKey)",
+      "message": "Internal link not found: /docs/api/modules/makerjs.chain.md#startat"
+    },
+    {
+      "file": "snippets/chain-order.md",
+      "line": 25,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.measure.md#ischainclockwise",
+      "text": "makerjs.measure.isChainClockwise(chain)",
+      "message": "Internal link not found: /docs/api/modules/makerjs.measure.md#ischainclockwise"
+    },
+    {
+      "file": "snippets/intersection.md",
+      "line": 6,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.path.md#intersection",
+      "text": "makerjs.path.intersection",
+      "message": "Internal link not found: /docs/api/modules/makerjs.path.md#intersection"
+    },
+    {
+      "file": "snippets/intersection.md",
+      "line": 7,
+      "type": "broken_internal",
+      "link": "/docs/api/interfaces/makerjs.ipathintersection.md#content",
+      "text": "object with a property named intersectionPoints",
+      "message": "Internal link not found: /docs/api/interfaces/makerjs.ipathintersection.md#content"
+    },
+    {
+      "file": "snippets/importing-svg-path-data.md",
+      "line": 18,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.importer.md#fromsvgpathdata",
+      "text": "makerjs.importer.fromSVGPathData",
+      "message": "Internal link not found: /docs/api/modules/makerjs.importer.md#fromsvgpathdata"
+    },
+    {
+      "file": "snippets/importing-svg-path-data.md",
+      "line": 22,
+      "type": "broken_internal",
+      "link": "/docs/advanced-drawing/index.md#Bezier curves",
+      "text": "Bezier curves",
+      "message": "Internal link not found: /docs/advanced-drawing/index.md#Bezier curves"
+    },
+    {
+      "file": "snippets/units.md",
+      "line": 9,
+      "type": "broken_internal",
+      "link": "/docs/exporting/index.md#content",
+      "text": "[See exporting for details per format.",
+      "message": "Internal link not found: /docs/exporting/index.md#content"
+    },
+    {
+      "file": "snippets/moving.md",
+      "line": 30,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.model.md#move",
+      "text": "makerjs.model.move",
+      "message": "Internal link not found: /docs/api/modules/makerjs.model.md#move"
+    },
+    {
+      "file": "snippets/moving.md",
+      "line": 32,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.model.md#moverelative",
+      "text": "makerjs.model.moveRelative",
+      "message": "Internal link not found: /docs/api/modules/makerjs.model.md#moverelative"
+    },
+    {
+      "file": "snippets/moving.md",
+      "line": 53,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.path.md#move",
+      "text": "makerjs.path.move",
+      "message": "Internal link not found: /docs/api/modules/makerjs.path.md#move"
+    },
+    {
+      "file": "snippets/moving.md",
+      "line": 54,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.path.md#moverelative",
+      "text": "makerjs.path.moveRelative",
+      "message": "Internal link not found: /docs/api/modules/makerjs.path.md#moverelative"
+    },
+    {
+      "file": "snippets/chain-to-new-model.md",
+      "line": 6,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.model.md",
+      "text": "model API",
+      "message": "Internal link not found: /docs/api/modules/makerjs.model.md"
+    },
+    {
+      "file": "snippets/chain-to-new-model.md",
+      "line": 7,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.chain.md#tonewmodel",
+      "text": "makerjs.chain.toNewModel(chain, detachFromOldModel: boolean)",
+      "message": "Internal link not found: /docs/api/modules/makerjs.chain.md#tonewmodel"
+    },
+    {
+      "file": "snippets/exporting-openjscad.md",
+      "line": 15,
+      "type": "broken_internal",
+      "link": "/docs/api/interfaces/makerjs.exporter.iopenjscadoptions.md#content",
+      "text": "API documentation for OpenJsCad export options",
+      "message": "Internal link not found: /docs/api/interfaces/makerjs.exporter.iopenjscadoptions.md#content"
+    },
+    {
+      "file": "snippets/scaling.md",
+      "line": 6,
+      "type": "broken_internal",
+      "link": "../api/modules/makerjs.point.md#scale",
+      "text": "makerjs.point.scale",
+      "message": "Internal link not found: ../api/modules/makerjs.point.md#scale"
+    },
+    {
+      "file": "snippets/scaling.md",
+      "line": 9,
+      "type": "broken_internal",
+      "link": "../api/modules/makerjs.path.md#scale",
+      "text": "makerjs.path.scale",
+      "message": "Internal link not found: ../api/modules/makerjs.path.md#scale"
+    },
+    {
+      "file": "snippets/scaling.md",
+      "line": 10,
+      "type": "broken_internal",
+      "link": "../api/modules/makerjs.model.md#scale",
+      "text": "makerjs.model.scale",
+      "message": "Internal link not found: ../api/modules/makerjs.model.md#scale"
+    },
+    {
+      "file": "snippets/chain-multiple.md",
+      "line": 6,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.model.md#findchains",
+      "text": "makerjs.model.findChains(model)",
+      "message": "Internal link not found: /docs/api/modules/makerjs.model.md#findchains"
+    },
+    {
+      "file": "snippets/chain-multiple.md",
+      "line": 28,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.model.md#findchains",
+      "text": "makerjs.model.findChains(model, options)",
+      "message": "Internal link not found: /docs/api/modules/makerjs.model.md#findchains"
+    },
+    {
+      "file": "snippets/chain-fillet.md",
+      "line": 6,
+      "type": "broken_internal",
+      "link": "/docs/intermediate-drawing/index.md#Fillets",
+      "text": "fillet",
+      "message": "Internal link not found: /docs/intermediate-drawing/index.md#Fillets"
+    },
+    {
+      "file": "snippets/chain-fillet.md",
+      "line": 7,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.chain.md#fillet",
+      "text": "makerjs.chain.fillet",
+      "message": "Internal link not found: /docs/api/modules/makerjs.chain.md#fillet"
+    },
+    {
+      "file": "snippets/chain-single.md",
+      "line": 7,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.model.md#findsinglechain",
+      "text": "makerjs.model.findSingleChain(model)",
+      "message": "Internal link not found: /docs/api/modules/makerjs.model.md#findsinglechain"
+    },
+    {
+      "file": "snippets/solvers.md",
+      "line": 6,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.solvers.md#content",
+      "text": "solvers",
+      "message": "Internal link not found: /docs/api/modules/makerjs.solvers.md#content"
+    },
+    {
+      "file": "snippets/cloning.md",
+      "line": 8,
+      "type": "broken_internal",
+      "link": "/docs/api/index.md#cloneobject",
+      "text": "makerjs.cloneObject",
+      "message": "Internal link not found: /docs/api/index.md#cloneobject"
+    },
+    {
+      "file": "snippets/cloning.md",
+      "line": 9,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.path.md#clone",
+      "text": "makerjs.path.clone",
+      "message": "Internal link not found: /docs/api/modules/makerjs.path.md#clone"
+    },
+    {
+      "file": "snippets/cloning.md",
+      "line": 10,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.point.md#clone",
+      "text": "makerjs.point.clone",
+      "message": "Internal link not found: /docs/api/modules/makerjs.point.md#clone"
+    },
+    {
+      "file": "snippets/rotating.md",
+      "line": 6,
+      "type": "broken_internal",
+      "link": "../api/modules/makerjs.point.md#frompolar",
+      "text": "makerjs.point.fromPolar",
+      "message": "Internal link not found: ../api/modules/makerjs.point.md#frompolar"
+    },
+    {
+      "file": "snippets/rotating.md",
+      "line": 7,
+      "type": "broken_internal",
+      "link": "../api/modules/makerjs.point.md#rotate",
+      "text": "makerjs.point.rotate",
+      "message": "Internal link not found: ../api/modules/makerjs.point.md#rotate"
+    },
+    {
+      "file": "snippets/rotating.md",
+      "line": 11,
+      "type": "broken_internal",
+      "link": "../api/modules/makerjs.path.md#rotate",
+      "text": "makerjs.path.rotate",
+      "message": "Internal link not found: ../api/modules/makerjs.path.md#rotate"
+    },
+    {
+      "file": "snippets/rotating.md",
+      "line": 12,
+      "type": "broken_internal",
+      "link": "../api/modules/makerjs.model.md#rotate",
+      "text": "makerjs.model.rotate",
+      "message": "Internal link not found: ../api/modules/makerjs.model.md#rotate"
+    },
+    {
+      "file": "snippets/combining.md",
+      "line": 6,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.model.md#combine",
+      "text": "makerjs.model.combine",
+      "message": "Internal link not found: /docs/api/modules/makerjs.model.md#combine"
+    },
+    {
+      "file": "snippets/combining.md",
+      "line": 48,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.model.md#combineintersection",
+      "text": "makerjs.model.combineIntersection",
+      "message": "Internal link not found: /docs/api/modules/makerjs.model.md#combineintersection"
+    },
+    {
+      "file": "snippets/combining.md",
+      "line": 49,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.model.md#combinesubtraction",
+      "text": "makerjs.model.combineSubtraction",
+      "message": "Internal link not found: /docs/api/modules/makerjs.model.md#combinesubtraction"
+    },
+    {
+      "file": "snippets/combining.md",
+      "line": 50,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.model.md#combineunion",
+      "text": "makerjs.model.combineUnion",
+      "message": "Internal link not found: /docs/api/modules/makerjs.model.md#combineunion"
+    },
+    {
+      "file": "snippets/mirroring.md",
+      "line": 6,
+      "type": "broken_internal",
+      "link": "../api/modules/makerjs.angle.md#mirror",
+      "text": "makerjs.angle.mirror",
+      "message": "Internal link not found: ../api/modules/makerjs.angle.md#mirror"
+    },
+    {
+      "file": "snippets/mirroring.md",
+      "line": 7,
+      "type": "broken_internal",
+      "link": "../api/modules/makerjs.point.md#mirror",
+      "text": "makerjs.point.mirror",
+      "message": "Internal link not found: ../api/modules/makerjs.point.md#mirror"
+    },
+    {
+      "file": "snippets/mirroring.md",
+      "line": 12,
+      "type": "broken_internal",
+      "link": "../api/modules/makerjs.path.md#mirror",
+      "text": "makerjs.path.mirror",
+      "message": "Internal link not found: ../api/modules/makerjs.path.md#mirror"
+    },
+    {
+      "file": "snippets/mirroring.md",
+      "line": 13,
+      "type": "broken_internal",
+      "link": "../api/modules/makerjs.model.md#mirror",
+      "text": "makerjs.model.mirror",
+      "message": "Internal link not found: ../api/modules/makerjs.model.md#mirror"
+    },
+    {
+      "file": "snippets/converging.md",
+      "line": 6,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.path.md#converge",
+      "text": "makerjs.path.converge",
+      "message": "Internal link not found: /docs/api/modules/makerjs.path.md#converge"
+    },
+    {
+      "file": "snippets/chain-dogbone.md",
+      "line": 6,
+      "type": "broken_internal",
+      "link": "/docs/intermediate-drawing/index.md#Dogbone%20Fillet",
+      "text": "dogbone fillet",
+      "message": "Internal link not found: /docs/intermediate-drawing/index.md#Dogbone%20Fillet"
+    },
+    {
+      "file": "snippets/chain-dogbone.md",
+      "line": 7,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.chain.md#dogbone",
+      "text": "makerjs.chain.dogbone",
+      "message": "Internal link not found: /docs/api/modules/makerjs.chain.md#dogbone"
+    },
+    {
+      "file": "snippets/measuring.md",
+      "line": 6,
+      "type": "broken_internal",
+      "link": "../api/modules/makerjs.measure.md",
+      "text": "makerjs.measure",
+      "message": "Internal link not found: ../api/modules/makerjs.measure.md"
+    },
+    {
+      "file": "snippets/layout-on-chain.md",
+      "line": 6,
+      "type": "broken_internal",
+      "link": "/docs/advanced-drawing/index.md#Layout on a path",
+      "text": "layout on a path",
+      "message": "Internal link not found: /docs/advanced-drawing/index.md#Layout on a path"
+    },
+    {
+      "file": "snippets/layout-on-chain.md",
+      "line": 7,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.layout.md#childrenonchain",
+      "text": "makerjs.layout.childrenOnChain(parentModel: Model, onChain: chain)",
+      "message": "Internal link not found: /docs/api/modules/makerjs.layout.md#childrenonchain"
+    },
+    {
+      "file": "snippets/layout-on-chain.md",
+      "line": 35,
+      "type": "broken_internal",
+      "link": "/docs/advanced-drawing/index.md#Layout on a path",
+      "text": "layout on a path",
+      "message": "Internal link not found: /docs/advanced-drawing/index.md#Layout on a path"
+    },
+    {
+      "file": "snippets/layout-on-chain.md",
+      "line": 41,
+      "type": "broken_internal",
+      "link": "/playground/index.md?script=text-on-chain",
+      "text": "See an example here",
+      "message": "Internal link not found: /playground/index.md?script=text-on-chain"
+    },
+    {
+      "file": "snippets/chain-to-points.md",
+      "line": 7,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.chain.md#topoints",
+      "text": "makerjs.model.toPoints(chain, distance)",
+      "message": "Internal link not found: /docs/api/modules/makerjs.chain.md#topoints"
+    },
+    {
+      "file": "snippets/walking.md",
+      "line": 6,
+      "type": "broken_internal",
+      "link": "/docs/api/modules/makerjs.model.md#walk",
+      "text": "makerjs.model.walk",
+      "message": "Internal link not found: /docs/api/modules/makerjs.model.md#walk"
+    },
+    {
+      "file": "snippets/walking.md",
+      "line": 10,
+      "type": "broken_internal",
+      "link": "/docs/api/interfaces/makerjs.iwalkpath.md#content",
+      "text": "walkPath",
+      "message": "Internal link not found: /docs/api/interfaces/makerjs.iwalkpath.md#content"
+    },
+    {
+      "file": "snippets/walking.md",
+      "line": 11,
+      "type": "broken_internal",
+      "link": "/docs/api/interfaces/makerjs.iwalkmodel.md#content",
+      "text": "walkModel",
+      "message": "Internal link not found: /docs/api/interfaces/makerjs.iwalkmodel.md#content"
+    },
+    {
+      "file": "snippets/walking.md",
+      "line": 12,
+      "type": "broken_internal",
+      "link": "/docs/api/interfaces/makerjs.iwalkmodel.md#content",
+      "text": "walkModel",
+      "message": "Internal link not found: /docs/api/interfaces/makerjs.iwalkmodel.md#content"
+    },
+    {
+      "file": "demos/node_modules/word-wrapper/README.md",
+      "line": 3,
+      "type": "broken_asset",
+      "link": "http://badges.github.io/stability-badges/dist/stable.svg",
+      "text": "Image: stable",
+      "message": "Asset not found: http://badges.github.io/stability-badges/dist/stable.svg"
+    },
+    {
+      "file": "demos/node_modules/word-wrapper/README.md",
+      "line": 5,
+      "type": "broken_asset",
+      "link": "http://i.imgur.com/LqQyHSg.png",
+      "text": "Image: img",
+      "message": "Asset not found: http://i.imgur.com/LqQyHSg.png"
+    },
+    {
+      "file": "demos/node_modules/word-wrapper/README.md",
+      "line": 46,
+      "type": "broken_asset",
+      "link": "https://nodei.co/npm/word-wrapper.png",
+      "text": "Image: NPM",
+      "message": "Asset not found: https://nodei.co/npm/word-wrapper.png"
+    },
+    {
+      "file": "demos/node_modules/opentype.js/README.md",
+      "line": 3,
+      "type": "broken_asset",
+      "link": "https://badges.gitter.im/nodebox/opentype.js.svg",
+      "text": "Image: Gitter",
+      "message": "Asset not found: https://badges.gitter.im/nodebox/opentype.js.svg"
+    },
+    {
+      "file": "demos/node_modules/opentype.js/README.md",
+      "line": 4,
+      "type": "broken_asset",
+      "link": "https://img.shields.io/npm/v/opentype.js.svg",
+      "text": "Image: npm",
+      "message": "Asset not found: https://img.shields.io/npm/v/opentype.js.svg"
+    },
+    {
+      "file": "demos/node_modules/opentype.js/README.md",
+      "line": 5,
+      "type": "broken_asset",
+      "link": "https://david-dm.org/nodebox/opentype.js.svg",
+      "text": "Image: david-dm",
+      "message": "Asset not found: https://david-dm.org/nodebox/opentype.js.svg"
+    },
+    {
+      "file": "demos/node_modules/opentype.js/README.md",
+      "line": 11,
+      "type": "broken_asset",
+      "link": "https://raw.github.com/nodebox/opentype.js/master/g/hello-world.png",
+      "text": "Image: Example of opentype.js",
+      "message": "Asset not found: https://raw.github.com/nodebox/opentype.js/master/g/hello-world.png"
+    },
+    {
+      "file": "demos/node_modules/makerjs/README.md",
+      "line": 20,
+      "type": "broken_asset",
+      "link": "https://maker.js.org/images/anim-wheel.gif",
+      "text": "Image: Sample animation",
+      "message": "Asset not found: https://maker.js.org/images/anim-wheel.gif"
+    },
+    {
+      "file": "demos/node_modules/marked/README.md",
+      "line": 7,
+      "type": "broken_asset",
+      "link": "https://badgen.net/npm/v/marked",
+      "text": "Image: npm",
+      "message": "Asset not found: https://badgen.net/npm/v/marked"
+    },
+    {
+      "file": "demos/node_modules/marked/README.md",
+      "line": 8,
+      "type": "broken_asset",
+      "link": "https://badgen.net/badgesize/gzip/https://cdn.jsdelivr.net/npm/marked/marked.min.js",
+      "text": "Image: gzip size",
+      "message": "Asset not found: https://badgen.net/badgesize/gzip/https://cdn.jsdelivr.net/npm/marked/marked.min.js"
+    },
+    {
+      "file": "demos/node_modules/marked/README.md",
+      "line": 9,
+      "type": "broken_asset",
+      "link": "https://badgen.net/packagephobia/install/marked",
+      "text": "Image: install size",
+      "message": "Asset not found: https://badgen.net/packagephobia/install/marked"
+    },
+    {
+      "file": "demos/node_modules/marked/README.md",
+      "line": 10,
+      "type": "broken_asset",
+      "link": "https://badgen.net/npm/dt/marked",
+      "text": "Image: downloads",
+      "message": "Asset not found: https://badgen.net/npm/dt/marked"
+    },
+    {
+      "file": "demos/node_modules/marked/README.md",
+      "line": 11,
+      "type": "broken_asset",
+      "link": "https://github.com/markedjs/marked/workflows/Tests/badge.svg",
+      "text": "Image: github actions",
+      "message": "Asset not found: https://github.com/markedjs/marked/workflows/Tests/badge.svg"
+    },
+    {
+      "file": "demos/node_modules/marked/README.md",
+      "line": 12,
+      "type": "broken_asset",
+      "link": "https://snyk.io/test/npm/marked/badge.svg",
+      "text": "Image: snyk",
+      "message": "Asset not found: https://snyk.io/test/npm/marked/badge.svg"
+    },
+    {
+      "file": "demos/node_modules/marked/README.md",
+      "line": 2,
+      "type": "broken_asset",
+      "link": "https://marked.js.org/img/logo-black.svg",
+      "text": "HTML image",
+      "message": "Asset not found: https://marked.js.org/img/logo-black.svg"
+    },
+    {
+      "file": "demos/node_modules/makerjs-rimbox/README.md",
+      "line": 9,
+      "type": "broken_asset",
+      "link": "sample.png",
+      "text": "sample",
+      "message": "Asset not found: sample.png"
+    },
+    {
+      "file": "demos/node_modules/makerjs-rimbox/README.md",
+      "line": 9,
+      "type": "broken_asset",
+      "link": "sample.png",
+      "text": "Image: sample",
+      "message": "Asset not found: sample.png"
+    },
+    {
+      "file": "demos/node_modules/highlight.js/README.md",
+      "line": 3,
+      "type": "broken_asset",
+      "link": "https://badgen.net/npm/v/highlight.js?label=latest",
+      "text": "Image: latest version",
+      "message": "Asset not found: https://badgen.net/npm/v/highlight.js?label=latest"
+    },
+    {
+      "file": "demos/node_modules/highlight.js/README.md",
+      "line": 4,
+      "type": "broken_asset",
+      "link": "https://badgen.net/github/license/highlightjs/highlight.js?color=cyan",
+      "text": "Image: license",
+      "message": "Asset not found: https://badgen.net/github/license/highlightjs/highlight.js?color=cyan"
+    },
+    {
+      "file": "demos/node_modules/highlight.js/README.md",
+      "line": 5,
+      "type": "broken_asset",
+      "link": "https://badgen.net/packagephobia/install/highlight.js?label=npm+install",
+      "text": "Image: install size",
+      "message": "Asset not found: https://badgen.net/packagephobia/install/highlight.js?label=npm+install"
+    },
+    {
+      "file": "demos/node_modules/highlight.js/README.md",
+      "line": 6,
+      "type": "broken_asset",
+      "link": "https://img.shields.io/github/size/highlightjs/cdn-release/build/highlight.min.js?label=minified",
+      "text": "Image: minified",
+      "message": "Asset not found: https://img.shields.io/github/size/highlightjs/cdn-release/build/highlight.min.js?label=minified"
+    },
+    {
+      "file": "demos/node_modules/highlight.js/README.md",
+      "line": 7,
+      "type": "broken_asset",
+      "link": "https://badgen.net/npm/dw/highlight.js?label=npm+downloads&color=purple",
+      "text": "Image: NPM downloads weekly",
+      "message": "Asset not found: https://badgen.net/npm/dw/highlight.js?label=npm+downloads&color=purple"
+    },
+    {
+      "file": "demos/node_modules/highlight.js/README.md",
+      "line": 8,
+      "type": "broken_asset",
+      "link": "https://badgen.net/jsdelivr/hits/gh/highlightjs/cdn-release?label=jsDelivr+CDN&color=purple",
+      "text": "Image: jsDelivr CDN downloads",
+      "message": "Asset not found: https://badgen.net/jsdelivr/hits/gh/highlightjs/cdn-release?label=jsDelivr+CDN&color=purple"
+    },
+    {
+      "file": "demos/node_modules/highlight.js/README.md",
+      "line": 10,
+      "type": "broken_asset",
+      "link": "https://badgen.net/github/checks/highlightjs/highlight.js?label=build",
+      "text": "Image: build and CI status",
+      "message": "Asset not found: https://badgen.net/github/checks/highlightjs/highlight.js?label=build"
+    },
+    {
+      "file": "demos/node_modules/highlight.js/README.md",
+      "line": 11,
+      "type": "broken_asset",
+      "link": "https://badgen.net/github/checks/highlightjs/highlight.js/main?label=build",
+      "text": "Image: build and CI status",
+      "message": "Asset not found: https://badgen.net/github/checks/highlightjs/highlight.js/main?label=build"
+    },
+    {
+      "file": "demos/node_modules/highlight.js/README.md",
+      "line": 12,
+      "type": "broken_asset",
+      "link": "https://badgen.net/lgtm/grade/g/highlightjs/highlight.js/js?label=code+quality",
+      "text": "Image: code quality",
+      "message": "Asset not found: https://badgen.net/lgtm/grade/g/highlightjs/highlight.js/js?label=code+quality"
+    },
+    {
+      "file": "demos/node_modules/highlight.js/README.md",
+      "line": 13,
+      "type": "broken_asset",
+      "link": "https://badgen.net/snyk/highlightjs/highlight.js",
+      "text": "Image: vulnerabilities",
+      "message": "Asset not found: https://badgen.net/snyk/highlightjs/highlight.js"
+    },
+    {
+      "file": "demos/node_modules/highlight.js/README.md",
+      "line": 14,
+      "type": "broken_asset",
+      "link": "https://badgen.net/david/dev/highlightjs/highlight.js?label=dev+deps",
+      "text": "Image: dev deps",
+      "message": "Asset not found: https://badgen.net/david/dev/highlightjs/highlight.js?label=dev+deps"
+    },
+    {
+      "file": "demos/node_modules/highlight.js/README.md",
+      "line": 17,
+      "type": "broken_asset",
+      "link": "https://badgen.net/badge/icon/discord?icon=discord&label&color=pink",
+      "text": "Image: discord",
+      "message": "Asset not found: https://badgen.net/badge/icon/discord?icon=discord&label&color=pink"
+    },
+    {
+      "file": "demos/node_modules/highlight.js/README.md",
+      "line": 18,
+      "type": "broken_asset",
+      "link": "https://badgen.net/github/open-issues/highlightjs/highlight.js?label=issues",
+      "text": "Image: open issues",
+      "message": "Asset not found: https://badgen.net/github/open-issues/highlightjs/highlight.js?label=issues"
+    },
+    {
+      "file": "demos/node_modules/highlight.js/README.md",
+      "line": 19,
+      "type": "broken_asset",
+      "link": "https://badgen.net/github/label-issues/highlightjs/highlight.js/help%20welcome/open",
+      "text": "Image: help welcome issues",
+      "message": "Asset not found: https://badgen.net/github/label-issues/highlightjs/highlight.js/help%20welcome/open"
+    },
+    {
+      "file": "demos/node_modules/highlight.js/README.md",
+      "line": 20,
+      "type": "broken_asset",
+      "link": "https://badgen.net/github/label-issues/highlightjs/highlight.js/good%20first%20issue/open",
+      "text": "Image: good first issue",
+      "message": "Asset not found: https://badgen.net/github/label-issues/highlightjs/highlight.js/good%20first%20issue/open"
+    },
+    {
+      "file": "demos/node_modules/highlight.js/README.md",
+      "line": 22,
+      "type": "broken_asset",
+      "link": "https://img.shields.io/github/workflow/status/highlightjs/highlight.js/Node.js%20CI",
+      "text": "Image: Build CI",
+      "message": "Asset not found: https://img.shields.io/github/workflow/status/highlightjs/highlight.js/Node.js%20CI"
+    },
+    {
+      "file": "demos/node_modules/highlight.js/README.md",
+      "line": 23,
+      "type": "broken_asset",
+      "link": "https://img.shields.io/github/commits-since/highlightjs/highlight.js/latest?label=commits+since",
+      "text": "Image: commits since release",
+      "message": "Asset not found: https://img.shields.io/github/commits-since/highlightjs/highlight.js/latest?label=commits+since"
+    },
+    {
+      "file": "demos/node_modules/highlight.js/README.md",
+      "line": 24,
+      "type": "broken_asset",
+      "link": "https://data.jsdelivr.com/v1/package/gh/highlightjs/cdn-release/badge?style=rounded",
+      "text": "Image: no alt",
+      "message": "Asset not found: https://data.jsdelivr.com/v1/package/gh/highlightjs/cdn-release/badge?style=rounded"
+    },
+    {
+      "file": "demos/node_modules/highlight.js/README.md",
+      "line": 25,
+      "type": "broken_asset",
+      "link": "https://img.shields.io/tokei/lines/github/highlightjs/highlight.js",
+      "text": "Image: Total Lines",
+      "message": "Asset not found: https://img.shields.io/tokei/lines/github/highlightjs/highlight.js"
+    },
+    {
+      "file": "demos/node_modules/highlight.js/README.md",
+      "line": 26,
+      "type": "broken_asset",
+      "link": "https://img.shields.io/bundlephobia/minzip/highlight.js.svg",
+      "text": "Image: npm bundle size (minified + gzip)",
+      "message": "Asset not found: https://img.shields.io/bundlephobia/minzip/highlight.js.svg"
+    },
+    {
+      "file": "demos/node_modules/highlight.js/CHANGES.md",
+      "line": 1343,
+      "type": "broken_internal",
+      "link": "docs/building-testing.rst#building-a-bundle-from-the-command-line",
+      "text": "building from command line",
+      "message": "Internal link not found: docs/building-testing.rst#building-a-bundle-from-the-command-line"
+    },
+    {
+      "file": "demos/node_modules/highlight.js/SECURITY.md",
+      "line": 18,
+      "type": "broken_internal",
+      "link": "mailto:security@highlightjs.org",
+      "text": "security@highlightjs.org",
+      "message": "Internal link not found: mailto:security@highlightjs.org"
+    },
+    {
+      "file": "demos/node_modules/makerjs-nameplate/README.md",
+      "line": 4,
+      "type": "broken_asset",
+      "link": "hello-world.png",
+      "text": "hello world",
+      "message": "Asset not found: hello-world.png"
+    },
+    {
+      "file": "demos/node_modules/makerjs-nameplate/README.md",
+      "line": 4,
+      "type": "broken_asset",
+      "link": "hello-world.png",
+      "text": "Image: hello world",
+      "message": "Asset not found: hello-world.png"
+    },
+    {
+      "file": "demos/node_modules/object-assign/readme.md",
+      "line": 1,
+      "type": "broken_asset",
+      "link": "https://travis-ci.org/sindresorhus/object-assign.svg?branch=master",
+      "text": "Image: Build Status",
+      "message": "Asset not found: https://travis-ci.org/sindresorhus/object-assign.svg?branch=master"
+    },
+    {
+      "file": "demos/node_modules/kdbush/README.md",
+      "line": 1,
+      "type": "broken_asset",
+      "link": "https://travis-ci.org/mourner/kdbush.svg?branch=master",
+      "text": "Image: Build Status",
+      "message": "Asset not found: https://travis-ci.org/mourner/kdbush.svg?branch=master"
+    },
+    {
+      "file": "demos/node_modules/kdbush/README.md",
+      "line": 1,
+      "type": "broken_asset",
+      "link": "https://img.shields.io/badge/simply-awesome-brightgreen.svg",
+      "text": "Image: Simply Awesome",
+      "message": "Asset not found: https://img.shields.io/badge/simply-awesome-brightgreen.svg"
+    },
+    {
+      "file": "demos/node_modules/makerjs-raster/node_modules/makerjs/README.md",
+      "line": 20,
+      "type": "broken_asset",
+      "link": "https://maker.js.org/images/anim-wheel.gif",
+      "text": "Image: Sample animation",
+      "message": "Asset not found: https://maker.js.org/images/anim-wheel.gif"
+    },
+    {
+      "file": "demos/node_modules/makerjs-double-band-clamp/node_modules/makerjs/README.md",
+      "line": 20,
+      "type": "broken_asset",
+      "link": "https://maker.js.org/images/anim-wheel.gif",
+      "text": "Image: Sample animation",
+      "message": "Asset not found: https://maker.js.org/images/anim-wheel.gif"
+    },
+    {
+      "file": "demos/node_modules/makerjs-nameplate/node_modules/opentype.js/README.md",
+      "line": 3,
+      "type": "broken_asset",
+      "link": "https://badges.gitter.im/nodebox/opentype.js.svg",
+      "text": "Image: Gitter",
+      "message": "Asset not found: https://badges.gitter.im/nodebox/opentype.js.svg"
+    },
+    {
+      "file": "demos/node_modules/makerjs-nameplate/node_modules/opentype.js/README.md",
+      "line": 4,
+      "type": "broken_asset",
+      "link": "https://img.shields.io/npm/v/opentype.js.svg",
+      "text": "Image: npm",
+      "message": "Asset not found: https://img.shields.io/npm/v/opentype.js.svg"
+    },
+    {
+      "file": "demos/node_modules/makerjs-nameplate/node_modules/opentype.js/README.md",
+      "line": 5,
+      "type": "broken_asset",
+      "link": "https://david-dm.org/nodebox/opentype.js.svg",
+      "text": "Image: david-dm",
+      "message": "Asset not found: https://david-dm.org/nodebox/opentype.js.svg"
+    },
+    {
+      "file": "demos/node_modules/makerjs-nameplate/node_modules/opentype.js/README.md",
+      "line": 11,
+      "type": "broken_asset",
+      "link": "https://raw.github.com/nodebox/opentype.js/master/g/hello-world.png",
+      "text": "Image: Example of opentype.js",
+      "message": "Asset not found: https://raw.github.com/nodebox/opentype.js/master/g/hello-world.png"
+    },
+    {
+      "file": "demos/node_modules/makerjs-nameplate/node_modules/makerjs/README.md",
+      "line": 20,
+      "type": "broken_asset",
+      "link": "https://maker.js.org/images/anim-wheel.gif",
+      "text": "Image: Sample animation",
+      "message": "Asset not found: https://maker.js.org/images/anim-wheel.gif"
+    }
+  ]
+}

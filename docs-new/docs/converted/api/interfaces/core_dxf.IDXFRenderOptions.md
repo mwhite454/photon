@@ -5,14 +5,14 @@ source: docs/docs/api/interfaces/core_dxf.IDXFRenderOptions.html
 
 IDXFRenderOptions | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/dxf](../modules/core_dxf.html)
+* [core/dxf](../modules/core_dxf.md)
 * IDXFRenderOptions
 
 # Interface IDXFRenderOptions
@@ -22,15 +22,15 @@ DXF rendering options.
 interface IDXFRenderOptions {
     [accuracy](#accuracy)?: number;
     [fontSize](#fontsize)?: number;
-    [layerOptions](#layeroptions)?: { [layerId: string]: [IDXFLayerOptions](core_dxf.IDXFLayerOptions.html) };
+    [layerOptions](#layeroptions)?: { [layerId: string]: [IDXFLayerOptions](core_dxf.IDXFLayerOptions.md) };
     [pointMatchingDistance](#pointmatchingdistance)?: number;
     [units](#units)?: string;
     [usePOLYLINE](#usepolyline)?: boolean;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.html#core/dxf.IDXFRenderOptions))
+#### Hierarchy ([View Summary](../hierarchy.md#core/dxf.IDXFRenderOptions))
 
-* [IPointMatchOptions](core_maker.IPointMatchOptions.html)
+* [IPointMatchOptions](core_maker.IPointMatchOptions.md)
   + IDXFRenderOptions
 
 * Defined in [core/dxf.ts:550](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/dxf.ts#L550)
@@ -68,7 +68,7 @@ Text size for TEXT entities.
 
 ### `Optional`layerOptions
 
-layerOptions?: { [layerId: string]: [IDXFLayerOptions](core_dxf.IDXFLayerOptions.html) }
+layerOptions?: { [layerId: string]: [IDXFLayerOptions](core_dxf.IDXFLayerOptions.md) }
 
 DXF options per layer.
 
@@ -80,7 +80,7 @@ pointMatchingDistance?: number
 
 Max distance to consider two points as the same.
 
-Inherited from [IPointMatchOptions](core_maker.IPointMatchOptions.html).[pointMatchingDistance](core_maker.IPointMatchOptions.html#pointmatchingdistance)
+Inherited from [IPointMatchOptions](core_maker.IPointMatchOptions.md).[pointMatchingDistance](core_maker.IPointMatchOptions.md#pointmatchingdistance)
 
 * Defined in [core/maker.ts:282](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L282)
 
@@ -117,7 +117,7 @@ Properties
 
 [accuracy](#accuracy)[fontSize](#fontsize)[layerOptions](#layeroptions)[pointMatchingDistance](#pointmatchingdistance)[units](#units)[usePOLYLINE](#usepolyline)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

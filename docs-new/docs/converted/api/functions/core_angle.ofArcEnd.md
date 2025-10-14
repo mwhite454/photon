@@ -5,25 +5,25 @@ source: docs/docs/api/functions/core_angle.ofArcEnd.html
 
 ofArcEnd | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/angle](../modules/core_angle.html)
+* [core/angle](../modules/core_angle.md)
 * ofArcEnd
 
 # Function ofArcEnd
 
-* ofArcEnd(arc: [IPathArc](../interfaces/core_schema.IPathArc.html)): number
+* ofArcEnd(arc: [IPathArc](../interfaces/core_schema.IPathArc.md)): number
 
   Get an arc's end angle, ensured to be greater than its start angle.
 
   #### Parameters
 
-  + arc: [IPathArc](../interfaces/core_schema.IPathArc.html)
+  + arc: [IPathArc](../interfaces/core_schema.IPathArc.md)
 
   #### Returns number
 
@@ -38,7 +38,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

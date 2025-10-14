@@ -5,32 +5,32 @@ source: docs/docs/api/functions/core_chain.cycle.html
 
 cycle | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/chain](../modules/core_chain.html)
+* [core/chain](../modules/core_chain.md)
 * cycle
 
 # Function cycle
 
-* cycle(chainContext: [IChain](../interfaces/core_maker.IChain.html), amount?: number): [IChain](../interfaces/core_maker.IChain.html)
+* cycle(chainContext: [IChain](../interfaces/core_maker.IChain.md), amount?: number): [IChain](../interfaces/core_maker.IChain.md)
 
   Shift the links of an endless chain.
 
   #### Parameters
 
-  + chainContext: [IChain](../interfaces/core_maker.IChain.html)
+  + chainContext: [IChain](../interfaces/core_maker.IChain.md)
 
     Chain to cycle through. Must be endless.
   + amount: number = 1
 
     Optional number of links to shift. May be negative to cycle backwards.
 
-  #### Returns [IChain](../interfaces/core_maker.IChain.html)
+  #### Returns [IChain](../interfaces/core_maker.IChain.md)
 
   The chainContext for cascading.
 
@@ -45,7 +45,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

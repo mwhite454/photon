@@ -5,14 +5,14 @@ source: docs/docs/api/interfaces/core_schema.IPathIntersection.html
 
 IPathIntersection | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/schema](../modules/core_schema.html)
+* [core/schema](../modules/core_schema.md)
 * IPathIntersection
 
 # Interface IPathIntersection
@@ -20,7 +20,7 @@ Preparing search index...
 An intersection of two paths.
 
 interface IPathIntersection {
-    [intersectionPoints](#intersectionpoints): [IPoint](core_schema.IPoint.html)[];
+    [intersectionPoints](#intersectionpoints): [IPoint](core_schema.IPoint.md)[];
     [path1Angles](#path1angles)?: number[];
     [path2Angles](#path2angles)?: number[];
 }
@@ -39,7 +39,7 @@ interface IPathIntersection {
 
 ### intersectionPoints
 
-intersectionPoints: [IPoint](core_schema.IPoint.html)[]
+intersectionPoints: [IPoint](core_schema.IPoint.md)[]
 
 The points of intersection.
 
@@ -76,7 +76,7 @@ Properties
 
 [intersectionPoints](#intersectionpoints)[path1Angles](#path1angles)[path2Angles](#path2angles)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

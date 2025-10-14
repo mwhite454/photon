@@ -5,14 +5,14 @@ source: docs/docs/api/interfaces/core_schema.IPoint.html
 
 IPoint | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/schema](../modules/core_schema.html)
+* [core/schema](../modules/core_schema.md)
 * IPoint
 
 # Interface IPoint
@@ -35,7 +35,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

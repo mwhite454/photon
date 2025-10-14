@@ -5,14 +5,14 @@ source: docs/docs/api/classes/core_collect.Collector.html
 
 Collector | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/collect](../modules/core_collect.html)
+* [core/collect](../modules/core_collect.md)
 * Collector
 
 # Class Collector<K, T>
@@ -48,7 +48,7 @@ Collects items that share a common key.
 
 ### constructor
 
-* new Collector<[K](#constructorcollectork), [T](#constructorcollectort)>(comparer?: [ICollectionKeyComparer](../interfaces/core_collect.ICollectionKeyComparer.html)<[K](#constructorcollectork)>): Collector<[K](#constructorcollectork), [T](#constructorcollectort)>
+* new Collector<[K](#constructorcollectork), [T](#constructorcollectort)>(comparer?: [ICollectionKeyComparer](../interfaces/core_collect.ICollectionKeyComparer.md)<[K](#constructorcollectork)>): Collector<[K](#constructorcollectork), [T](#constructorcollectort)>
 
   #### Type Parameters
 
@@ -57,7 +57,7 @@ Collects items that share a common key.
 
   #### Parameters
 
-  + `Optional`comparer: [ICollectionKeyComparer](../interfaces/core_collect.ICollectionKeyComparer.html)<[K](#constructorcollectork)>
+  + `Optional`comparer: [ICollectionKeyComparer](../interfaces/core_collect.ICollectionKeyComparer.md)<[K](#constructorcollectork)>
 
   #### Returns Collector<[K](#constructorcollectork), [T](#constructorcollectort)>
 
@@ -67,7 +67,7 @@ Collects items that share a common key.
 
 ### collections
 
-collections: [ICollection](../interfaces/core_collect.ICollection.html)<[K](#constructorcollectork), [T](#constructorcollectort)>[] = []
+collections: [ICollection](../interfaces/core_collect.ICollection.md)<[K](#constructorcollectork), [T](#constructorcollectort)>[] = []
 
 * Defined in [core/collect.ts:23](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/collect.ts#L23)
 
@@ -159,7 +159,7 @@ Methods
 
 [addItemToCollection](#additemtocollection)[findCollection](#findcollection)[getCollectionsOfMultiple](#getcollectionsofmultiple)[removeCollection](#removecollection)[removeItemFromCollection](#removeitemfromcollection)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

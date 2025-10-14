@@ -5,29 +5,29 @@ source: docs/docs/api/functions/core_chain.findSingleChain.html
 
 findSingleChain | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/chain](../modules/core_chain.html)
+* [core/chain](../modules/core_chain.md)
 * findSingleChain
 
 # Function findSingleChain
 
-* findSingleChain(modelContext: [IModel](../interfaces/core_schema.IModel.html)): [IChain](../interfaces/core_maker.IChain.html)
+* findSingleChain(modelContext: [IModel](../interfaces/core_schema.IModel.md)): [IChain](../interfaces/core_maker.IChain.md)
 
   Find a single chain within a model, across all layers. Shorthand of findChains; useful when you know there is only one chain to find in your model.
 
   #### Parameters
 
-  + modelContext: [IModel](../interfaces/core_schema.IModel.html)
+  + modelContext: [IModel](../interfaces/core_schema.IModel.md)
 
     The model to search for a chain.
 
-  #### Returns [IChain](../interfaces/core_maker.IChain.html)
+  #### Returns [IChain](../interfaces/core_maker.IChain.md)
 
   A chain object or null if chains were not found.
 
@@ -42,7 +42,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

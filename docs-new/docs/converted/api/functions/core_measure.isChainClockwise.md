@@ -5,31 +5,31 @@ source: docs/docs/api/functions/core_measure.isChainClockwise.html
 
 isChainClockwise | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/measure](../modules/core_measure.html)
+* [core/measure](../modules/core_measure.md)
 * isChainClockwise
 
 # Function isChainClockwise
 
 * isChainClockwise(
-      chainContext: [IChain](../interfaces/core_maker.IChain.html),
-      out\_result?: { hullPoints?: [IPoint](../interfaces/core_schema.IPoint.html)[]; keyPoints?: [IPoint](../interfaces/core_schema.IPoint.html)[] },
+      chainContext: [IChain](../interfaces/core_maker.IChain.md),
+      out\_result?: { hullPoints?: [IPoint](../interfaces/core_schema.IPoint.md)[]; keyPoints?: [IPoint](../interfaces/core_schema.IPoint.md)[] },
   ): boolean
 
   Check for flow of paths in a chain being clockwise or not.
 
   #### Parameters
 
-  + chainContext: [IChain](../interfaces/core_maker.IChain.html)
+  + chainContext: [IChain](../interfaces/core_maker.IChain.md)
 
     The chain to test.
-  + `Optional`out\_result: { hullPoints?: [IPoint](../interfaces/core_schema.IPoint.html)[]; keyPoints?: [IPoint](../interfaces/core_schema.IPoint.html)[] }
+  + `Optional`out\_result: { hullPoints?: [IPoint](../interfaces/core_schema.IPoint.md)[]; keyPoints?: [IPoint](../interfaces/core_schema.IPoint.md)[] }
 
     Optional output object, if provided, will be populated with convex hull results.
 
@@ -48,7 +48,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

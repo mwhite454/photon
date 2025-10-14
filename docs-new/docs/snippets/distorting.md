@@ -3,14 +3,10 @@ title: Distorting
 source: docs/_snippets/distorting.html
 ---
 
----
-title: Distorting
----
-
-To disproportionately scale a simple point, use [makerjs.point.distort](../api/modules/makerjs.point.html#distort).
+To disproportionately scale a simple point, use [point.distort](../api/modules/point.md#distort).
 
 To disproportionately scale a path, use
-[makerjs.path.distort](../api/modules/makerjs.path.html#distort)(path: object, scaleX: number, scaleY: number)
+[path.distort](../api/modules/path.md#distort)(path: object, scaleX: number, scaleY: number)
 which returns a new object and does not modify the original.
 The type of returned object is dependent on the type of path being distorted:
 
@@ -22,14 +18,14 @@ Distort path example:
 
 ```javascript
 //render distorted paths
-var makerjs = require('makerjs');
-var circle = new makerjs.paths.Circle(50);
-var line = new makerjs.paths.Line([-50,-50], [50, 50]);
+import { exporter, model, models, path, paths, point } from 'photon/core';
+const circle = new paths.Circle(50);
+const line = new paths.Line([-50,-50], [50, 50]);
 //a distorted line is a path, so it should be added to paths
-var distortedLine = makerjs.path.distort(line, 4, 1.5);
+const distortedLine = path.distort(line, 4, 1.5);
 //a distorted circle is a model, so it should be added to models
-var ellipse = makerjs.path.distort(circle, 4, 1.5);
-var model = {
+const ellipse = path.distort(circle, 4, 1.5);
+const model = {
 paths: {
 circle: circle,
 line: line,
@@ -39,7 +35,7 @@ models: {
 ellipse: ellipse
 }
 };
-var svg = makerjs.exporter.toSVG(model);
+const svg = exporter.toSVG(model);
 document.write(svg);
 ```
 
@@ -47,24 +43,24 @@ document.write(svg);
 ---
 
 To disproportionately scale a model, use
-[makerjs.model.distort](../api/modules/makerjs.model.html#distort)(model: object, scaleX: number, scaleY: number)
+[model.distort](../api/modules/model.md#distort)(model: object, scaleX: number, scaleY: number)
 which returns a new *IModel* object and does not modify the original.
 
 Distort model example:
 
 ```javascript
 //render a distorted star
-var makerjs = require('makerjs');
-var star = new makerjs.models.Star(5, 100);
-makerjs.model.rotate(star, 18);
+import { exporter, model, models, path, paths, point } from 'photon/core';
+const star = new models.Star(5, 100);
+model.rotate(star, 18);
 //make the star 4 times wider, and 2 times taller
-var wideStar = makerjs.model.distort(star, 4, 2);
-var model = {
+const wideStar = model.distort(star, 4, 2);
+const model = {
 models: {
 star: star,
 wideStar: wideStar
 }
 };
-var svg = makerjs.exporter.toSVG(model);
+const svg = exporter.toSVG(model);
 document.write(svg);
 ```

@@ -1,12 +1,8 @@
 ---
 title: Index
 source: docs/docs/basic-drawing/index.html
----
-
----
 layout: snippetlist
-title: Basic Drawing
 snippet\_titles: [Points, Paths, Basic rendering in SVG, Models, Path constructors, Path independence and Chains, Built-in models, Moving, Basic modeling, It's Just JSON, Units, Measuring, Frequently used functions ]
 ---
 
-Next: learn more in [Intermediate drawing](../intermediate-drawing/#content).
+Next: learn more in [Intermediate drawing](../intermediate-drawing/index.md#content).

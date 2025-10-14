@@ -5,14 +5,14 @@ source: docs/docs/api/interfaces/core_openjscad-esm.IJscadExtrudeOptions.html
 
 IJscadExtrudeOptions | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/openjscad-esm](../modules/core_openjscad-esm.html)
+* [core/openjscad-esm](../modules/core_openjscad-esm.md)
 * IJscadExtrudeOptions
 
 # Interface IJscadExtrudeOptions
@@ -24,10 +24,10 @@ interface IJscadExtrudeOptions {
     [z](#z)?: number;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.html#core/openjscad-esm.IJscadExtrudeOptions))
+#### Hierarchy ([View Summary](../hierarchy.md#core/openjscad-esm.IJscadExtrudeOptions))
 
 * IJscadExtrudeOptions
-  + [IJscadCsgOptions](core_openjscad-esm.IJscadCsgOptions.html)
+  + [IJscadCsgOptions](core_openjscad-esm.IJscadCsgOptions.md)
 
 * Defined in [core/openjscad-esm.ts:529](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/openjscad-esm.ts#L529)
 
@@ -71,7 +71,7 @@ Properties
 
 [extrude](#extrude)[z](#z)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

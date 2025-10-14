@@ -5,33 +5,33 @@ source: docs/docs/api/functions/core_point.rotate.html
 
 rotate | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/point](../modules/core_point.html)
+* [core/point](../modules/core_point.md)
 * rotate
 
 # Function rotate
 
 * rotate(
-      pointToRotate: [IPoint](../interfaces/core_schema.IPoint.html),
+      pointToRotate: [IPoint](../interfaces/core_schema.IPoint.md),
       angleInDegrees: number,
-      rotationOrigin?: [IPoint](../interfaces/core_schema.IPoint.html),
-  ): [IPoint](../interfaces/core_schema.IPoint.html)
+      rotationOrigin?: [IPoint](../interfaces/core_schema.IPoint.md),
+  ): [IPoint](../interfaces/core_schema.IPoint.md)
 
   Rotate a point.
 
   #### Parameters
 
-  + pointToRotate: [IPoint](../interfaces/core_schema.IPoint.html)
+  + pointToRotate: [IPoint](../interfaces/core_schema.IPoint.md)
   + angleInDegrees: number
-  + rotationOrigin: [IPoint](../interfaces/core_schema.IPoint.html) = ...
+  + rotationOrigin: [IPoint](../interfaces/core_schema.IPoint.md) = ...
 
-  #### Returns [IPoint](../interfaces/core_schema.IPoint.html)
+  #### Returns [IPoint](../interfaces/core_schema.IPoint.md)
 
   + Defined in [core/point.ts:170](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/point.ts#L170)
 
@@ -44,7 +44,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

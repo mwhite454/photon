@@ -5,7 +5,7 @@ source: docs/docs/api/modules/core_openjscad-esm.html
 
 core/openjscad-esm | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
@@ -18,38 +18,38 @@ Preparing search index...
 
 ## Interfaces
 
-[IJscadCagOptions](../interfaces/core_openjscad-esm.IJscadCagOptions.html)
+[IJscadCagOptions](../interfaces/core_openjscad-esm.IJscadCagOptions.md)
 
 
-[IJscadCsgOptions](../interfaces/core_openjscad-esm.IJscadCsgOptions.html)
+[IJscadCsgOptions](../interfaces/core_openjscad-esm.IJscadCsgOptions.md)
 
 
-[IJscadExtrudeOptions](../interfaces/core_openjscad-esm.IJscadExtrudeOptions.html)
+[IJscadExtrudeOptions](../interfaces/core_openjscad-esm.IJscadExtrudeOptions.md)
 
 
-[IJscadScriptOptions](../interfaces/core_openjscad-esm.IJscadScriptOptions.html)
+[IJscadScriptOptions](../interfaces/core_openjscad-esm.IJscadScriptOptions.md)
 
 
-[IOpenJsCadOptions](../interfaces/core_openjscad-esm.IOpenJsCadOptions.html)
+[IOpenJsCadOptions](../interfaces/core_openjscad-esm.IOpenJsCadOptions.md)
 
 
-[IOpenJsCadOptionsMap](../interfaces/core_openjscad-esm.IOpenJsCadOptionsMap.html)
+[IOpenJsCadOptionsMap](../interfaces/core_openjscad-esm.IOpenJsCadOptionsMap.md)
 
 
-[IStatusCallback](../interfaces/core_openjscad-esm.IStatusCallback.html)
+[IStatusCallback](../interfaces/core_openjscad-esm.IStatusCallback.md)
 
 ## Functions
 
-[toJscadCAG](../functions/core_openjscad-esm.toJscadCAG.html)
+[toJscadCAG](../functions/core_openjscad-esm.toJscadCAG.md)
 
 
-[toJscadCSG](../functions/core_openjscad-esm.toJscadCSG.html)
+[toJscadCSG](../functions/core_openjscad-esm.toJscadCSG.md)
 
 
-[toJscadScript](../functions/core_openjscad-esm.toJscadScript.html)
+[toJscadScript](../functions/core_openjscad-esm.toJscadScript.md)
 
 
-[toJscadSTL](../functions/core_openjscad-esm.toJscadSTL.html)
+[toJscadSTL](../functions/core_openjscad-esm.toJscadSTL.md)
 
 ### Settings
 
@@ -70,7 +70,7 @@ Functions
 
 [toJscadCAG](#tojscadcag)[toJscadCSG](#tojscadcsg)[toJscadScript](#tojscadscript)[toJscadSTL](#tojscadstl)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

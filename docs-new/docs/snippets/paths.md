@@ -3,10 +3,6 @@ title: Paths
 source: docs/_snippets/paths.html
 ---
 
----
-title: Paths
----
-
 A path is represented by an object with these mandatory properties:
 
 * type: string - "line", "circle", or "arc"
@@ -19,7 +15,7 @@ A line is a path with the type **"line"** and this additional property:
 * end: point
 
 ```javascript
-var line = {
+const line = {
 type: 'line',
 origin: [0, 0],
 end: [1, 1]
@@ -33,7 +29,7 @@ A circle is a path with the type **"circle"** and this additional property:
 * radius: number
 
 ```javascript
-var circle = {
+const circle = {
 type: 'circle',
 origin: [0, 0],
 radius: 1
@@ -51,7 +47,7 @@ An arc is a path with the type **"arc"** and these additional properties:
 Note: Property names are case-sensitive.
 
 ```javascript
-var arc = {
+const arc = {
 type: 'arc',
 origin: [0, 0],
 radius: 1,

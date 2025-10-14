@@ -5,14 +5,14 @@ source: docs/docs/api/classes/models_ConnectTheDots.ConnectTheDots.html
 
 ConnectTheDots | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [models/ConnectTheDots](../modules/models_ConnectTheDots.html)
+* [models/ConnectTheDots](../modules/models_ConnectTheDots.md)
 * ConnectTheDots
 
 # Class ConnectTheDots
@@ -21,7 +21,7 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
 #### Implements
 
-* [IModel](../interfaces/core_schema.IModel.html)
+* [IModel](../interfaces/core_schema.IModel.md)
 
 * Defined in [models/ConnectTheDots.ts:30](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/ConnectTheDots.ts#L30)
 
@@ -46,7 +46,7 @@ A model is a composite object which may contain a map of paths, or a map of mode
   Example:
 
   ```
-  var c = new makerjs.models.ConnectTheDots('-10 0 10 0 0 20'); // 3 coordinates to form a triangle
+  const c = new makerjs.models.ConnectTheDots('-10 0 10 0 0 20'); // 3 coordinates to form a triangle
   Copy
   ```
 
@@ -66,7 +66,7 @@ A model is a composite object which may contain a map of paths, or a map of mode
   Example:
 
   ```
-  var c = new makerjs.models.ConnectTheDots(false, '-10 0 10 0 0 20'); // 3 coordinates to form a polyline
+  const c = new makerjs.models.ConnectTheDots(false, '-10 0 10 0 0 20'); // 3 coordinates to form a polyline
   Copy
   ```
 
@@ -89,7 +89,7 @@ A model is a composite object which may contain a map of paths, or a map of mode
   Example:
 
   ```
-  var c = new makerjs.models.ConnectTheDots([-10, 0, 10, 0, 0, 20]); // 3 coordinates to form a triangle
+  const c = new makerjs.models.ConnectTheDots([-10, 0, 10, 0, 0, 20]); // 3 coordinates to form a triangle
   Copy
   ```
 
@@ -109,7 +109,7 @@ A model is a composite object which may contain a map of paths, or a map of mode
   Example:
 
   ```
-  var c = new makerjs.models.ConnectTheDots(false, [-10, 0, 10, 0, 0, 20]); // 3 coordinates to form a polyline
+  const c = new makerjs.models.ConnectTheDots(false, [-10, 0, 10, 0, 0, 20]); // 3 coordinates to form a polyline
   Copy
   ```
 
@@ -125,14 +125,14 @@ A model is a composite object which may contain a map of paths, or a map of mode
   #### Returns ConnectTheDots
 
   + Defined in [models/ConnectTheDots.ts:81](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/ConnectTheDots.ts#L81)
-* new ConnectTheDots(isClosed: boolean, points: [IPoint](../interfaces/core_schema.IPoint.html)[]): ConnectTheDots
+* new ConnectTheDots(isClosed: boolean, points: [IPoint](../interfaces/core_schema.IPoint.md)[]): ConnectTheDots
 
   Create a model by connecting points designated in an array of points. The model may be closed, or left open.
 
   Example:
 
   ```
-  var c = new makerjs.models.ConnectTheDots(false, [[-10, 0], [10, 0], [0, 20]]); // 3 coordinates left open
+  const c = new makerjs.models.ConnectTheDots(false, [[-10, 0], [10, 0], [0, 20]]); // 3 coordinates left open
   Copy
   ```
 
@@ -141,7 +141,7 @@ A model is a composite object which may contain a map of paths, or a map of mode
   + isClosed: boolean
 
     Flag to specify if last point should connect to the first point.
-  + points: [IPoint](../interfaces/core_schema.IPoint.html)[]
+  + points: [IPoint](../interfaces/core_schema.IPoint.md)[]
 
     Array of IPoints.
 
@@ -153,11 +153,11 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
 ### paths
 
-paths: [IPathMap](../interfaces/core_schema.IPathMap.html) = {}
+paths: [IPathMap](../interfaces/core_schema.IPathMap.md) = {}
 
 Optional map of path objects in this model.
 
-Implementation of [IModel](../interfaces/core_schema.IModel.html).[paths](../interfaces/core_schema.IModel.html#paths)
+Implementation of [IModel](../interfaces/core_schema.IModel.md).[paths](../interfaces/core_schema.IModel.md#paths)
 
 * Defined in [models/ConnectTheDots.ts:31](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/ConnectTheDots.ts#L31)
 
@@ -180,7 +180,7 @@ Properties
 
 [paths](#paths)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

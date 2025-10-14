@@ -5,28 +5,28 @@ source: docs/docs/api/functions/core_path.move.html
 
 move | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/path](../modules/core_path.html)
+* [core/path](../modules/core_path.md)
 * move
 
 # Function move
 
-* move(pathToMove: [IPath](../interfaces/core_schema.IPath.html), origin: [IPoint](../interfaces/core_schema.IPoint.html)): [IPath](../interfaces/core_schema.IPath.html)
+* move(pathToMove: [IPath](../interfaces/core_schema.IPath.md), origin: [IPoint](../interfaces/core_schema.IPoint.md)): [IPath](../interfaces/core_schema.IPath.md)
 
   Move a path to an absolute point.
 
   #### Parameters
 
-  + pathToMove: [IPath](../interfaces/core_schema.IPath.html)
-  + origin: [IPoint](../interfaces/core_schema.IPoint.html)
+  + pathToMove: [IPath](../interfaces/core_schema.IPath.md)
+  + origin: [IPoint](../interfaces/core_schema.IPoint.md)
 
-  #### Returns [IPath](../interfaces/core_schema.IPath.html)
+  #### Returns [IPath](../interfaces/core_schema.IPath.md)
 
   + Defined in [core/path.ts:133](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/path.ts#L133)
 
@@ -39,7 +39,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

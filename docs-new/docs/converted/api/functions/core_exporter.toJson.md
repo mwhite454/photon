@@ -5,19 +5,19 @@ source: docs/docs/api/functions/core_exporter.toJson.html
 
 toJson | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/exporter](../modules/core_exporter.html)
+* [core/exporter](../modules/core_exporter.md)
 * toJson
 
 # Function toJson
 
-* toJson(itemToExport: any, options?: [IJsonExportOptions](../interfaces/core_exporter.IJsonExportOptions.html)): string
+* toJson(itemToExport: any, options?: [IJsonExportOptions](../interfaces/core_exporter.IJsonExportOptions.md)): string
 
   Renders an item in JSON.
 
@@ -26,7 +26,7 @@ Preparing search index...
   + itemToExport: any
 
     Item to render: may be a path, an array of paths, or a model object.
-  + options: [IJsonExportOptions](../interfaces/core_exporter.IJsonExportOptions.html) = {}
+  + options: [IJsonExportOptions](../interfaces/core_exporter.IJsonExportOptions.md) = {}
 
     Rendering options object.
 
@@ -57,7 +57,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

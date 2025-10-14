@@ -5,26 +5,26 @@ source: docs/docs/api/functions/core_layout.childrenOnChain.html
 
 childrenOnChain | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/layout](../modules/core_layout.html)
+* [core/layout](../modules/core_layout.md)
 * childrenOnChain
 
 # Function childrenOnChain
 
 * childrenOnChain(
-      parentModel: [IModel](../interfaces/core_schema.IModel.html),
-      onChain: [IChain](../interfaces/core_maker.IChain.html),
+      parentModel: [IModel](../interfaces/core_schema.IModel.md),
+      onChain: [IChain](../interfaces/core_maker.IChain.md),
       baseline?: number,
       reversed?: boolean,
       contain?: boolean,
       rotated?: boolean,
-  ): [IModel](../interfaces/core_schema.IModel.html)
+  ): [IModel](../interfaces/core_schema.IModel.md)
 
   Layout the children of a model along a chain.
   The x-position of each child will be projected onto the chain so that the proportion between children is maintained.
@@ -33,10 +33,10 @@ Preparing search index...
 
   #### Parameters
 
-  + parentModel: [IModel](../interfaces/core_schema.IModel.html)
+  + parentModel: [IModel](../interfaces/core_schema.IModel.md)
 
     The model containing children to lay out.
-  + onChain: [IChain](../interfaces/core_maker.IChain.html)
+  + onChain: [IChain](../interfaces/core_maker.IChain.md)
 
     The chain on which to lay out.
   + baseline: number = 0
@@ -50,7 +50,7 @@ Preparing search index...
     Flag to contain the children layout within the length of the chain. Default is false.
   + rotated: boolean = true
 
-  #### Returns [IModel](../interfaces/core_schema.IModel.html)
+  #### Returns [IModel](../interfaces/core_schema.IModel.md)
 
   The parentModel, for cascading.
 
@@ -65,7 +65,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

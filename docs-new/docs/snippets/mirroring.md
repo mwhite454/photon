@@ -3,18 +3,14 @@ title: Mirroring
 source: docs/_snippets/mirroring.html
 ---
 
----
-title: Mirroring
----
-
-Use [makerjs.angle.mirror](../api/modules/makerjs.angle.html#mirror) to get a mirror of an angle, and
-[makerjs.point.mirror](../api/modules/makerjs.point.html#mirror) to get a mirror of a simple point.
+Use [angle.mirror](../api/modules/angle.md#mirror) to get a mirror of an angle, and
+[point.mirror](../api/modules/point.md#mirror) to get a mirror of a simple point.
 
 You can create a mirrored copy of paths and models with the following functions.
 The mirroring can occur on the x axis, the y axis, or both.
 
-* [makerjs.path.mirror](../api/modules/makerjs.path.html#mirror)(path: object, mirrorX: boolean, mirrorY: boolean)
-* [makerjs.model.mirror](../api/modules/makerjs.model.html#mirror)(model: object, mirrorX: boolean, mirrorY: boolean)
+* [path.mirror](../api/modules/path.md#mirror)(path: object, mirrorX: boolean, mirrorY: boolean)
+* [model.mirror](../api/modules/model.md#mirror)(model: object, mirrorX: boolean, mirrorY: boolean)
 
 Each of these functions returns a new object and does not modify the original.
 
@@ -22,11 +18,11 @@ Mirror path example:
 
 ```javascript
 //render a line mirrored in the x dimension
-var makerjs = require('makerjs');
-var line1 = new makerjs.paths.Line([0, 0], [100, 100]);
-var line2 = makerjs.path.mirror(line1, true, false);
-var paths = [line1, line2];
-var svg = makerjs.exporter.toSVG(paths);
+import { angle, exporter, model, models, path, paths, point } from 'photon/core';
+const line1 = new paths.Line([0, 0], [100, 100]);
+const line2 = path.mirror(line1, true, false);
+const paths = [line1, line2];
+const svg = exporter.toSVG(paths);
 document.write(svg);
 ```
 
@@ -34,15 +30,15 @@ Mirror model example:
 
 ```javascript
 //render a model mirrored in the y dimension
-var makerjs = require('makerjs');
-var ovalArc1 = new makerjs.models.OvalArc(45, 135, 50, 10);
-var model = {
+import { angle, exporter, model, models, path, paths, point } from 'photon/core';
+const ovalArc1 = new models.OvalArc(45, 135, 50, 10);
+const model = {
 models: {
 ovalArc1: ovalArc1,
-ovalArc2: makerjs.model.mirror(ovalArc1, false, true)
+ovalArc2: model.mirror(ovalArc1, false, true)
 }
 };
-var svg = makerjs.exporter.toSVG(model);
+const svg = exporter.toSVG(model);
 document.write(svg);
 ```
 

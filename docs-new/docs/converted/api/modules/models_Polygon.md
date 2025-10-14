@@ -5,7 +5,7 @@ source: docs/docs/api/modules/models_Polygon.html
 
 models/Polygon | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
@@ -18,7 +18,7 @@ Preparing search index...
 
 ## Classes
 
-[Polygon](../classes/models_Polygon.Polygon.html)
+[Polygon](../classes/models_Polygon.Polygon.md)
 
 ### Settings
 
@@ -35,7 +35,7 @@ Classes
 
 [Polygon](#polygon)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

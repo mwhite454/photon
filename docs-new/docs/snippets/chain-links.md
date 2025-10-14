@@ -3,9 +3,6 @@ title: Chain Links
 source: docs/_snippets/chain-links.html
 ---
 
----
-title: Chain links
----
 Each path in the chain is represented by a ChainLink wrapper object in the links array.
 This ChainLink wrapper tells us how the path relates to the rest of the chain.
 Each ChainLink array element is connected to the next and previous element.
@@ -15,7 +12,7 @@ If the chain is endless, then the last array element is connected to the first, 
 
  
 The path itself can be found in the **walkedPath** property which is a *WalkPath* object,
-the same type of object used in [walking a model tree](/docs/model-trees/#Walking a model tree).
+the same type of object used in [walking a model tree](/docs/model-trees/index.md#Walking a model tree).
 
 #### Natural path flow
 

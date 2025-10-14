@@ -5,24 +5,24 @@ source: docs/docs/api/functions/core_layout.cloneToRadial.html
 
 cloneToRadial | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/layout](../modules/core_layout.html)
+* [core/layout](../modules/core_layout.md)
 * cloneToRadial
 
 # Function cloneToRadial
 
 * cloneToRadial(
-      itemToClone: [IPath](../interfaces/core_schema.IPath.html) | [IModel](../interfaces/core_schema.IModel.html),
+      itemToClone: [IPath](../interfaces/core_schema.IPath.md) | [IModel](../interfaces/core_schema.IModel.md),
       count: number,
       angleInDegrees: number,
-      rotationOrigin?: [IPoint](../interfaces/core_schema.IPoint.html),
-  ): [IModel](../interfaces/core_schema.IModel.html)
+      rotationOrigin?: [IPoint](../interfaces/core_schema.IPoint.md),
+  ): [IModel](../interfaces/core_schema.IModel.md)
 
   Layout clones in a radial format.
 
@@ -30,30 +30,30 @@ Preparing search index...
 
   ```
   //daisy petals
-  import * as makerjs from 'maker.js';
+  import { exporter, layout, model, models } from 'photon/core';
 
-  const belt = new makerjs.models.Belt(5, 50, 20);
+  const belt = new models.Belt(5, 50, 20);
 
-  makerjs.model.move(belt, [25, 0]);
+  model.move(belt, [25, 0]);
 
-  const petals = makerjs.layout.cloneToRadial(belt, 8, 45);
+  const petals = layout.cloneToRadial(belt, 8, 45);
 
-  document.write(makerjs.exporter.toSVG(petals));
+  document.write(exporter.toSVG(petals));
   Copy
   ```
 
   #### Parameters
 
-  + itemToClone: [IPath](../interfaces/core_schema.IPath.html) | [IModel](../interfaces/core_schema.IModel.html)
+  + itemToClone: [IPath](../interfaces/core_schema.IPath.md) | [IModel](../interfaces/core_schema.IModel.md)
   + count: number
 
     Number of clones in the radial result.
   + angleInDegrees: number
 
     angle of rotation between clones..
-  + `Optional`rotationOrigin: [IPoint](../interfaces/core_schema.IPoint.html)
+  + `Optional`rotationOrigin: [IPoint](../interfaces/core_schema.IPoint.md)
 
-  #### Returns [IModel](../interfaces/core_schema.IModel.html)
+  #### Returns [IModel](../interfaces/core_schema.IModel.md)
 
   A new model with clones in a radial format.
 
@@ -68,7 +68,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

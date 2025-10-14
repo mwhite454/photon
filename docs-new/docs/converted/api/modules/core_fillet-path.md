@@ -5,7 +5,7 @@ source: docs/docs/api/modules/core_fillet-path.html
 
 core/fillet-path | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
@@ -18,10 +18,10 @@ Preparing search index...
 
 ## Functions
 
-[pathDogbone](../functions/core_fillet-path.pathDogbone.html)
+[pathDogbone](../functions/core_fillet-path.pathDogbone.md)
 
 
-[pathFillet](../functions/core_fillet-path.pathFillet.html)
+[pathFillet](../functions/core_fillet-path.pathFillet.md)
 
 ### Settings
 
@@ -38,7 +38,7 @@ Functions
 
 [pathDogbone](#pathdogbone)[pathFillet](#pathfillet)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

@@ -5,32 +5,32 @@ source: docs/docs/api/functions/core_model.moveRelative.html
 
 moveRelative | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/model](../modules/core_model.html)
+* [core/model](../modules/core_model.md)
 * moveRelative
 
 # Function moveRelative
 
-* moveRelative(modelToMove: [IModel](../interfaces/core_schema.IModel.html), delta: [IPoint](../interfaces/core_schema.IPoint.html)): [IModel](../interfaces/core_schema.IModel.html)
+* moveRelative(modelToMove: [IModel](../interfaces/core_schema.IModel.md), delta: [IPoint](../interfaces/core_schema.IPoint.md)): [IModel](../interfaces/core_schema.IModel.md)
 
   Move a model's origin by a relative amount.
 
   #### Parameters
 
-  + modelToMove: [IModel](../interfaces/core_schema.IModel.html)
+  + modelToMove: [IModel](../interfaces/core_schema.IModel.md)
 
     The model to move.
-  + delta: [IPoint](../interfaces/core_schema.IPoint.html)
+  + delta: [IPoint](../interfaces/core_schema.IPoint.md)
 
     The x & y adjustments as a point object.
 
-  #### Returns [IModel](../interfaces/core_schema.IModel.html)
+  #### Returns [IModel](../interfaces/core_schema.IModel.md)
 
   The original model (for cascading).
 
@@ -45,7 +45,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

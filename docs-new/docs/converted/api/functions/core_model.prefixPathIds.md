@@ -5,32 +5,32 @@ source: docs/docs/api/functions/core_model.prefixPathIds.html
 
 prefixPathIds | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/model](../modules/core_model.html)
+* [core/model](../modules/core_model.md)
 * prefixPathIds
 
 # Function prefixPathIds
 
-* prefixPathIds(modelToPrefix: [IModel](../interfaces/core_schema.IModel.html), prefix: string): [IModel](../interfaces/core_schema.IModel.html)
+* prefixPathIds(modelToPrefix: [IModel](../interfaces/core_schema.IModel.md), prefix: string): [IModel](../interfaces/core_schema.IModel.md)
 
   Prefix the ids of paths in a model.
 
   #### Parameters
 
-  + modelToPrefix: [IModel](../interfaces/core_schema.IModel.html)
+  + modelToPrefix: [IModel](../interfaces/core_schema.IModel.md)
 
     The model to prefix.
   + prefix: string
 
     The prefix to prepend on paths ids.
 
-  #### Returns [IModel](../interfaces/core_schema.IModel.html)
+  #### Returns [IModel](../interfaces/core_schema.IModel.md)
 
   The original model (for cascading).
 
@@ -45,7 +45,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

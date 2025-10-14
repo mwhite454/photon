@@ -3,45 +3,42 @@ title: Chain To Points
 source: docs/_snippets/chain-to-points.html
 ---
 
----
-title: Chain to points
----
 To get points consistently spaced along a chains, call
-[makerjs.model.toPoints(chain, distance)](/docs/api/modules/makerjs.chain.html#topoints)
+[model.toPoints(chain, distance)](/docs/api/modules/chain.md#topoints)
 passing your chain, and the distance between points:
 ```javascript
 //convert a round rectangle to points
-var makerjs = require('makerjs');
-var rect = new makerjs.models.RoundRectangle(100, 50, 10);
-var chain = makerjs.model.findSingleChain(rect);
-var spacing = 10;
-var keyPoints = makerjs.chain.toPoints(chain, spacing);
-var model = {
+import { chain, exporter, model, models } from 'photon/core';
+const rect = new models.RoundRectangle(100, 50, 10);
+const chain = model.findSingleChain(rect);
+const spacing = 10;
+const keyPoints = chain.toPoints(chain, spacing);
+const model = {
 models: {
 rect: rect,
-dots: new makerjs.models.Holes(1, keyPoints)
+dots: new models.Holes(1, keyPoints)
 }
 };
-var svg = makerjs.exporter.toSVG(model);
+const svg = exporter.toSVG(model);
 document.write(svg);
 ```
 Hint: you can use the **pathLength** property of the chain to make sure your distance divides equally on the entire chain:
 ```javascript
 //convert a round rectangle to points
-var makerjs = require('makerjs');
-var rect = new makerjs.models.RoundRectangle(100, 50, 10);
-var chain = makerjs.model.findSingleChain(rect);
-var minimumSpacing = 10;
-var divisions = Math.floor(chain.pathLength / minimumSpacing);
-var spacing = chain.pathLength / divisions;
+import { chain, exporter, model, models } from 'photon/core';
+const rect = new models.RoundRectangle(100, 50, 10);
+const chain = model.findSingleChain(rect);
+const minimumSpacing = 10;
+const divisions = Math.floor(chain.pathLength / minimumSpacing);
+const spacing = chain.pathLength / divisions;
 console.log(spacing);
-var keyPoints = makerjs.chain.toPoints(chain, spacing);
-var model = {
+const keyPoints = chain.toPoints(chain, spacing);
+const model = {
 models: {
 rect: rect,
-dots: new makerjs.models.Holes(1, keyPoints)
+dots: new models.Holes(1, keyPoints)
 }
 };
-var svg = makerjs.exporter.toSVG(model);
+const svg = exporter.toSVG(model);
 document.write(svg);
 ```

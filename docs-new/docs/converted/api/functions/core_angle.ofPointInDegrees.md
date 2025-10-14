@@ -5,26 +5,26 @@ source: docs/docs/api/functions/core_angle.ofPointInDegrees.html
 
 ofPointInDegrees | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/angle](../modules/core_angle.html)
+* [core/angle](../modules/core_angle.md)
 * ofPointInDegrees
 
 # Function ofPointInDegrees
 
-* ofPointInDegrees(origin: [IPoint](../interfaces/core_schema.IPoint.html), pointToFindAngle: [IPoint](../interfaces/core_schema.IPoint.html)): number
+* ofPointInDegrees(origin: [IPoint](../interfaces/core_schema.IPoint.md), pointToFindAngle: [IPoint](../interfaces/core_schema.IPoint.md)): number
 
   Angle of a line through a point, in degrees.
 
   #### Parameters
 
-  + origin: [IPoint](../interfaces/core_schema.IPoint.html)
-  + pointToFindAngle: [IPoint](../interfaces/core_schema.IPoint.html)
+  + origin: [IPoint](../interfaces/core_schema.IPoint.md)
+  + pointToFindAngle: [IPoint](../interfaces/core_schema.IPoint.md)
 
   #### Returns number
 
@@ -39,7 +39,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

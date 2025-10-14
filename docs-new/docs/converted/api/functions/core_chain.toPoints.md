@@ -5,29 +5,29 @@ source: docs/docs/api/functions/core_chain.toPoints.html
 
 toPoints | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/chain](../modules/core_chain.html)
+* [core/chain](../modules/core_chain.md)
 * toPoints
 
 # Function toPoints
 
 * toPoints(
-      chainContext: [IChain](../interfaces/core_maker.IChain.html),
+      chainContext: [IChain](../interfaces/core_maker.IChain.md),
       distanceOrDistances: number | number[],
       maxPoints?: number,
-  ): [IPoint](../interfaces/core_schema.IPoint.html)[]
+  ): [IPoint](../interfaces/core_schema.IPoint.md)[]
 
   Get points along a chain of paths.
 
   #### Parameters
 
-  + chainContext: [IChain](../interfaces/core_maker.IChain.html)
+  + chainContext: [IChain](../interfaces/core_maker.IChain.md)
 
     Chain of paths to get points from.
   + distanceOrDistances: number | number[]
@@ -35,7 +35,7 @@ Preparing search index...
 
     Maximum number of points to retrieve.
 
-  #### Returns [IPoint](../interfaces/core_schema.IPoint.html)[]
+  #### Returns [IPoint](../interfaces/core_schema.IPoint.md)[]
 
   Array of points which are on the chain spread at a uniform interval.
 
@@ -50,7 +50,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

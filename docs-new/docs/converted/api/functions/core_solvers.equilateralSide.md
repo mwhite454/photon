@@ -5,14 +5,14 @@ source: docs/docs/api/functions/core_solvers.equilateralSide.html
 
 equilateralSide | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/solvers](../modules/core_solvers.html)
+* [core/solvers](../modules/core_solvers.md)
 * equilateralSide
 
 # Function equilateralSide
@@ -38,7 +38,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

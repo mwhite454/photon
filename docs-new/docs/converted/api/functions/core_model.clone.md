@@ -5,29 +5,29 @@ source: docs/docs/api/functions/core_model.clone.html
 
 clone | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/model](../modules/core_model.html)
+* [core/model](../modules/core_model.md)
 * clone
 
 # Function clone
 
-* clone(modelToClone: [IModel](../interfaces/core_schema.IModel.html)): [IModel](../interfaces/core_schema.IModel.html)
+* clone(modelToClone: [IModel](../interfaces/core_schema.IModel.md)): [IModel](../interfaces/core_schema.IModel.md)
 
   Clone a model. Alias of makerjs.cloneObject(modelToClone)
 
   #### Parameters
 
-  + modelToClone: [IModel](../interfaces/core_schema.IModel.html)
+  + modelToClone: [IModel](../interfaces/core_schema.IModel.md)
 
     The model to clone.
 
-  #### Returns [IModel](../interfaces/core_schema.IModel.html)
+  #### Returns [IModel](../interfaces/core_schema.IModel.md)
 
   A clone of the model you passed.
 
@@ -42,7 +42,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

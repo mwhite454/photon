@@ -5,14 +5,14 @@ source: docs/docs/api/interfaces/core_maker.IPointMatchOptions.html
 
 IPointMatchOptions | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.html)
+* [core/maker](../modules/core_maker.md)
 * IPointMatchOptions
 
 # Interface IPointMatchOptions
@@ -23,15 +23,15 @@ interface IPointMatchOptions {
     [pointMatchingDistance](#pointmatchingdistance)?: number;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.html#core/maker.IPointMatchOptions))
+#### Hierarchy ([View Summary](../hierarchy.md#core/maker.IPointMatchOptions))
 
 * IPointMatchOptions
-  + [IDXFRenderOptions](core_dxf.IDXFRenderOptions.html)
-  + [ICombineOptions](core_maker.ICombineOptions.html)
-  + [IFindLoopsOptions](core_maker.IFindLoopsOptions.html)
-  + [ISimplifyOptions](core_maker.ISimplifyOptions.html)
-  + [IFindChainsOptions](core_maker.IFindChainsOptions.html)
-  + [IJscadCagOptions](core_openjscad-esm.IJscadCagOptions.html)
+  + [IDXFRenderOptions](core_dxf.IDXFRenderOptions.md)
+  + [ICombineOptions](core_maker.ICombineOptions.md)
+  + [IFindLoopsOptions](core_maker.IFindLoopsOptions.md)
+  + [ISimplifyOptions](core_maker.ISimplifyOptions.md)
+  + [IFindChainsOptions](core_maker.IFindChainsOptions.md)
+  + [IJscadCagOptions](core_openjscad-esm.IJscadCagOptions.md)
 
 * Defined in [core/maker.ts:277](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L277)
 
@@ -66,7 +66,7 @@ Properties
 
 [pointMatchingDistance](#pointmatchingdistance)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

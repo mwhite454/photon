@@ -5,14 +5,14 @@ source: docs/docs/api/classes/models_Ellipse.EllipticArc.html
 
 EllipticArc | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [models/Ellipse](../modules/models_Ellipse.html)
+* [models/Ellipse](../modules/models_Ellipse.md)
 * EllipticArc
 
 # Class EllipticArc
@@ -21,7 +21,7 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
 #### Implements
 
-* [IModel](../interfaces/core_schema.IModel.html)
+* [IModel](../interfaces/core_schema.IModel.md)
 
 * Defined in [models/Ellipse.ts:208](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Ellipse.ts#L208)
 
@@ -67,7 +67,7 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
   + Defined in [models/Ellipse.ts:219](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Ellipse.ts#L219)
 * new EllipticArc(
-      arc: [IPathArc](../interfaces/core_schema.IPathArc.html),
+      arc: [IPathArc](../interfaces/core_schema.IPathArc.md),
       distortX: number,
       distortY: number,
       accuracy?: number,
@@ -77,7 +77,7 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
   #### Parameters
 
-  + arc: [IPathArc](../interfaces/core_schema.IPathArc.html)
+  + arc: [IPathArc](../interfaces/core_schema.IPathArc.md)
 
     The circular arc to use as the basis of the elliptic arc.
   + distortX: number
@@ -98,11 +98,11 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
 ### models
 
-models: [IModelMap](../interfaces/core_schema.IModelMap.html) = {}
+models: [IModelMap](../interfaces/core_schema.IModelMap.md) = {}
 
 Optional map of models within this model.
 
-Implementation of [IModel](../interfaces/core_schema.IModel.html).[models](../interfaces/core_schema.IModel.html#models)
+Implementation of [IModel](../interfaces/core_schema.IModel.md).[models](../interfaces/core_schema.IModel.md#models)
 
 * Defined in [models/Ellipse.ts:209](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Ellipse.ts#L209)
 
@@ -125,7 +125,7 @@ Properties
 
 [models](#models)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

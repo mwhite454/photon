@@ -1,5 +1,7 @@
 export * from './models/index.js';
 export { round } from './core/maker.js';
+export { pipe, compose } from './core/functional.js';
+export { $ } from './core/maker.js';
 export * as schema from './core/schema.js';
 export * as maker from './core/maker.js';
 export * as angle from './core/angle.js';

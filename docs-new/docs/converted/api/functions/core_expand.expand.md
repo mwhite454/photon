@@ -5,27 +5,27 @@ source: docs/docs/api/functions/core_expand.expand.html
 
 expand | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/expand](../modules/core_expand.html)
+* [core/expand](../modules/core_expand.md)
 * expand
 
 # Function expand
 
-* expand(pathToExpand: [IPath](../interfaces/core_schema.IPath.html), expansion: number, isolateCaps?: boolean): [IModel](../interfaces/core_schema.IModel.html)
+* expand(pathToExpand: [IPath](../interfaces/core_schema.IPath.md), expansion: number, isolateCaps?: boolean): [IModel](../interfaces/core_schema.IModel.md)
 
   #### Parameters
 
-  + pathToExpand: [IPath](../interfaces/core_schema.IPath.html)
+  + pathToExpand: [IPath](../interfaces/core_schema.IPath.md)
   + expansion: number
   + isolateCaps: boolean = false
 
-  #### Returns [IModel](../interfaces/core_schema.IModel.html)
+  #### Returns [IModel](../interfaces/core_schema.IModel.md)
 
   + Defined in [core/expand.ts:36](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/expand.ts#L36)
 
@@ -38,7 +38,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

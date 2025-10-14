@@ -5,14 +5,14 @@ source: docs/docs/api/functions/core_solvers.solveTriangleSSS.html
 
 solveTriangleSSS | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/solvers](../modules/core_solvers.html)
+* [core/solvers](../modules/core_solvers.md)
 * solveTriangleSSS
 
 # Function solveTriangleSSS
@@ -40,7 +40,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

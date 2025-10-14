@@ -5,14 +5,14 @@ source: docs/docs/api/variables/core_maker.environmentTypes.html
 
 environmentTypes | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.html)
+* [core/maker](../modules/core_maker.md)
 * environmentTypes
 
 # Variable environmentTypes`Const`
@@ -44,7 +44,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

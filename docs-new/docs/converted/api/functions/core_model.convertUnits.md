@@ -5,32 +5,32 @@ source: docs/docs/api/functions/core_model.convertUnits.html
 
 convertUnits | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/model](../modules/core_model.html)
+* [core/model](../modules/core_model.md)
 * convertUnits
 
 # Function convertUnits
 
-* convertUnits(modeltoConvert: [IModel](../interfaces/core_schema.IModel.html), destUnitType: string): [IModel](../interfaces/core_schema.IModel.html)
+* convertUnits(modeltoConvert: [IModel](../interfaces/core_schema.IModel.md), destUnitType: string): [IModel](../interfaces/core_schema.IModel.md)
 
   Convert a model to match a different unit system.
 
   #### Parameters
 
-  + modeltoConvert: [IModel](../interfaces/core_schema.IModel.html)
+  + modeltoConvert: [IModel](../interfaces/core_schema.IModel.md)
 
     The model to convert.
   + destUnitType: string
 
     The unit system.
 
-  #### Returns [IModel](../interfaces/core_schema.IModel.html)
+  #### Returns [IModel](../interfaces/core_schema.IModel.md)
 
   The scaled model (for cascading).
 
@@ -45,7 +45,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

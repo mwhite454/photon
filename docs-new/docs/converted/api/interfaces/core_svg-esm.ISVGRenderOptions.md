@@ -5,14 +5,14 @@ source: docs/docs/api/interfaces/core_svg-esm.ISVGRenderOptions.html
 
 ISVGRenderOptions | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/svg-esm](../modules/core_svg-esm.html)
+* [core/svg-esm](../modules/core_svg-esm.md)
 * ISVGRenderOptions
 
 # Interface ISVGRenderOptions
@@ -24,23 +24,23 @@ interface ISVGRenderOptions {
     [cssStyle](#cssstyle)?: string;
     [fill](#fill)?: string;
     [fillRule](#fillrule)?: "evenodd" | "nonzero";
-    [flow](#flow)?: [IFlowAnnotation](core_svg-esm.IFlowAnnotation.html);
+    [flow](#flow)?: [IFlowAnnotation](core_svg-esm.IFlowAnnotation.md);
     [fontSize](#fontsize)?: string;
-    [layerOptions](#layeroptions)?: Record<string, [ISVGElementRenderOptions](core_svg-esm.ISVGElementRenderOptions.html)>;
-    [origin](#origin)?: [IPoint](core_schema.IPoint.html);
+    [layerOptions](#layeroptions)?: Record<string, [ISVGElementRenderOptions](core_svg-esm.ISVGElementRenderOptions.md)>;
+    [origin](#origin)?: [IPoint](core_schema.IPoint.md);
     [scale](#scale)?: number;
     [scalingStroke](#scalingstroke)?: boolean;
     [stroke](#stroke)?: string;
     [strokeWidth](#strokewidth)?: string;
-    [svgAttrs](#svgattrs)?: [IXmlTagAttrs](core_xml.IXmlTagAttrs.html);
+    [svgAttrs](#svgattrs)?: [IXmlTagAttrs](core_xml.IXmlTagAttrs.md);
     [units](#units)?: string;
     [useSvgPathOnly](#usesvgpathonly)?: boolean;
     [viewBox](#viewbox)?: boolean;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.html#core/svg-esm.ISVGRenderOptions))
+#### Hierarchy ([View Summary](../hierarchy.md#core/svg-esm.ISVGRenderOptions))
 
-* [ISVGElementRenderOptions](core_svg-esm.ISVGElementRenderOptions.html)
+* [ISVGElementRenderOptions](core_svg-esm.ISVGElementRenderOptions.md)
   + ISVGRenderOptions
 
 * Defined in [core/svg-esm.ts:364](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/svg-esm.ts#L364)
@@ -90,7 +90,7 @@ annotate?: boolean
 
 className?: string
 
-Inherited from [ISVGElementRenderOptions](core_svg-esm.ISVGElementRenderOptions.html).[className](core_svg-esm.ISVGElementRenderOptions.html#classname)
+Inherited from [ISVGElementRenderOptions](core_svg-esm.ISVGElementRenderOptions.md).[className](core_svg-esm.ISVGElementRenderOptions.md#classname)
 
 * Defined in [core/svg-esm.ts:357](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/svg-esm.ts#L357)
 
@@ -98,7 +98,7 @@ Inherited from [ISVGElementRenderOptions](core_svg-esm.ISVGElementRenderOptions.
 
 cssStyle?: string
 
-Inherited from [ISVGElementRenderOptions](core_svg-esm.ISVGElementRenderOptions.html).[cssStyle](core_svg-esm.ISVGElementRenderOptions.html#cssstyle)
+Inherited from [ISVGElementRenderOptions](core_svg-esm.ISVGElementRenderOptions.md).[cssStyle](core_svg-esm.ISVGElementRenderOptions.md#cssstyle)
 
 * Defined in [core/svg-esm.ts:356](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/svg-esm.ts#L356)
 
@@ -106,7 +106,7 @@ Inherited from [ISVGElementRenderOptions](core_svg-esm.ISVGElementRenderOptions.
 
 fill?: string
 
-Inherited from [ISVGElementRenderOptions](core_svg-esm.ISVGElementRenderOptions.html).[fill](core_svg-esm.ISVGElementRenderOptions.html#fill)
+Inherited from [ISVGElementRenderOptions](core_svg-esm.ISVGElementRenderOptions.md).[fill](core_svg-esm.ISVGElementRenderOptions.md#fill)
 
 * Defined in [core/svg-esm.ts:353](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/svg-esm.ts#L353)
 
@@ -118,7 +118,7 @@ fillRule?: "evenodd" | "nonzero"
 
 ### `Optional`flow
 
-flow?: [IFlowAnnotation](core_svg-esm.IFlowAnnotation.html)
+flow?: [IFlowAnnotation](core_svg-esm.IFlowAnnotation.md)
 
 * Defined in [core/svg-esm.ts:370](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/svg-esm.ts#L370)
 
@@ -130,13 +130,13 @@ fontSize?: string
 
 ### `Optional`layerOptions
 
-layerOptions?: Record<string, [ISVGElementRenderOptions](core_svg-esm.ISVGElementRenderOptions.html)>
+layerOptions?: Record<string, [ISVGElementRenderOptions](core_svg-esm.ISVGElementRenderOptions.md)>
 
 * Defined in [core/svg-esm.ts:375](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/svg-esm.ts#L375)
 
 ### `Optional`origin
 
-origin?: [IPoint](core_schema.IPoint.html)
+origin?: [IPoint](core_schema.IPoint.md)
 
 * Defined in [core/svg-esm.ts:371](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/svg-esm.ts#L371)
 
@@ -156,7 +156,7 @@ scalingStroke?: boolean
 
 stroke?: string
 
-Inherited from [ISVGElementRenderOptions](core_svg-esm.ISVGElementRenderOptions.html).[stroke](core_svg-esm.ISVGElementRenderOptions.html#stroke)
+Inherited from [ISVGElementRenderOptions](core_svg-esm.ISVGElementRenderOptions.md).[stroke](core_svg-esm.ISVGElementRenderOptions.md#stroke)
 
 * Defined in [core/svg-esm.ts:354](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/svg-esm.ts#L354)
 
@@ -164,13 +164,13 @@ Inherited from [ISVGElementRenderOptions](core_svg-esm.ISVGElementRenderOptions.
 
 strokeWidth?: string
 
-Inherited from [ISVGElementRenderOptions](core_svg-esm.ISVGElementRenderOptions.html).[strokeWidth](core_svg-esm.ISVGElementRenderOptions.html#strokewidth)
+Inherited from [ISVGElementRenderOptions](core_svg-esm.ISVGElementRenderOptions.md).[strokeWidth](core_svg-esm.ISVGElementRenderOptions.md#strokewidth)
 
 * Defined in [core/svg-esm.ts:355](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/svg-esm.ts#L355)
 
 ### `Optional`svgAttrs
 
-svgAttrs?: [IXmlTagAttrs](core_xml.IXmlTagAttrs.html)
+svgAttrs?: [IXmlTagAttrs](core_xml.IXmlTagAttrs.md)
 
 * Defined in [core/svg-esm.ts:366](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/svg-esm.ts#L366)
 
@@ -211,7 +211,7 @@ Properties
 
 [accuracy](#accuracy)[annotate](#annotate)[className](#classname)[cssStyle](#cssstyle)[fill](#fill)[fillRule](#fillrule)[flow](#flow)[fontSize](#fontsize)[layerOptions](#layeroptions)[origin](#origin)[scale](#scale)[scalingStroke](#scalingstroke)[stroke](#stroke)[strokeWidth](#strokewidth)[svgAttrs](#svgattrs)[units](#units)[useSvgPathOnly](#usesvgpathonly)[viewBox](#viewbox)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

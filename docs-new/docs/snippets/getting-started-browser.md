@@ -3,13 +3,9 @@ title: Getting Started Browser
 source: docs/_snippets/getting-started-browser.html
 ---
 
----
-title: For the browser
----
-
 Download the browser-based version of Maker.js, then upload it to your website:
 
-<http://maker.js.org/target/js/browser.maker.js>
+<http:// photon/core.org/target/js/browser.photon/core>
 
 Or you can link to it:
 
@@ -27,10 +23,14 @@ To work with fonts, you will need both Bezier.js (above) and a copy of [Opentype
 
 ---
 
-Then, in your JavaScript, use the require function to get a reference:
+Then, in your JavaScript, import the modules you need:
 
 ```javascript
-var makerjs = require('makerjs');
+// Import specific modules (recommended)
+import { models, paths, exporter } from 'photon/core';
+
+// Or import all (if needed)
+// import * as photon from 'photon/core';
 ```
 
 ### Including via CDN
@@ -47,8 +47,12 @@ To work with fonts, you will need both Bezier.js (above) and a copy of [Opentype
 
 ```
 
-Then, in your JavaScript, use the require function to get a reference:
+Then, in your JavaScript, import the modules you need:
 
 ```javascript
-var makerjs = require('makerjs');
+// Import specific modules (recommended)
+import { models, paths, exporter } from 'photon/core';
+
+// Or import all (if needed)
+// import * as photon from 'photon/core';
 ```

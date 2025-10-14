@@ -5,28 +5,28 @@ source: docs/docs/api/functions/core_path.toPoints.html
 
 toPoints | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/path](../modules/core_path.html)
+* [core/path](../modules/core_path.md)
 * toPoints
 
 # Function toPoints
 
-* toPoints(pathContext: [IPath](../interfaces/core_schema.IPath.html), numberOfPoints: number): [IPoint](../interfaces/core_schema.IPoint.html)[]
+* toPoints(pathContext: [IPath](../interfaces/core_schema.IPath.md), numberOfPoints: number): [IPoint](../interfaces/core_schema.IPoint.md)[]
 
   Get points along a path.
 
   #### Parameters
 
-  + pathContext: [IPath](../interfaces/core_schema.IPath.html)
+  + pathContext: [IPath](../interfaces/core_schema.IPath.md)
   + numberOfPoints: number
 
-  #### Returns [IPoint](../interfaces/core_schema.IPoint.html)[]
+  #### Returns [IPoint](../interfaces/core_schema.IPoint.md)[]
 
   + Defined in [core/path.ts:338](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/path.ts#L338)
 
@@ -39,7 +39,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

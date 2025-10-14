@@ -1,0 +1,39 @@
+---
+title: Converging
+source: docs/_snippets/converging.html
+---
+
+---
+title: Converging lines
+---
+
+To make lines meet at their slope intersection point, use [makerjs.path.converge](/docs/api/modules/makerjs.path.html#converge).
+This function will only work with lines, it will not work with arcs.
+
+The converge function will try to use the end of the line that is closest to the convergence point. If you need to specify which ends of your lines should be converged,
+pass two additional boolean values. The boolean value is true to use the line's origin, false to use the end.
+
+Converge example:
+
+```javascript
+//converge lines
+var makerjs = require('makerjs');
+var model = {
+origin: [0, 0],
+paths: {
+line1: new makerjs.paths.Line([0, 0], [10, 5]),
+line2: new makerjs.paths.Line([0, 10], [10, 4]),
+line3: new makerjs.paths.Line([1, 0], [5, -2])
+}
+};
+var clone1 = makerjs.cloneObject(model);
+clone1.origin = [10, 0];
+var clone2 = makerjs.cloneObject(model);
+clone2.origin = [20, 0];
+makerjs.path.converge(clone1.paths.line1, clone1.paths.line2);
+makerjs.path.converge(clone1.paths.line1, clone1.paths.line3);
+makerjs.path.converge(clone2.paths.line1, clone2.paths.line2, false, true);
+makerjs.path.converge(clone2.paths.line1, clone2.paths.line3, true, false);
+var svg = makerjs.exporter.toSVG({ models: { before: clone1, after: model, x: clone2 } });
+document.write(svg);
+```

@@ -1,0 +1,46 @@
+---
+title: middle | Photon
+source: docs/docs/api/functions/core_point.middle.html
+---
+
+middle | Photon
+
+[Photon](../index.html)
+
+
+
+
+Preparing search index...
+
+* [core/point](../modules/core_point.html)
+* middle
+
+# Function middle
+
+* middle(pathContext: [IPath](../interfaces/core_schema.IPath.html), ratio?: number): [IPoint](../interfaces/core_schema.IPoint.html)
+
+  Get the middle point of a path.
+
+  #### Parameters
+
+  + pathContext: [IPath](../interfaces/core_schema.IPath.html)
+  + ratio: number = .5
+
+  #### Returns [IPoint](../interfaces/core_schema.IPoint.html)
+
+  + Defined in [core/point.ts:147](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/point.ts#L147)
+
+### Settings
+
+Member Visibility
+
+* Protected
+* Inherited
+
+ThemeOSLightDark
+
+[Photon](../index.html)
+
+* Loading...
+
+Generated using [TypeDoc](https://typedoc.org/)

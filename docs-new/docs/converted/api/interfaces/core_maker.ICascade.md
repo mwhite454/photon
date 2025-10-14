@@ -1,0 +1,83 @@
+---
+title: ICascade | Photon
+source: docs/docs/api/interfaces/core_maker.ICascade.html
+---
+
+ICascade | Photon
+
+[Photon](../index.html)
+
+
+
+
+Preparing search index...
+
+* [core/maker](../modules/core_maker.html)
+* ICascade
+
+# Interface ICascade
+
+A container that allows a series of functions to be called upon an object.
+
+interface ICascade {
+    [$initial](#initial): any;
+    [$reset](#reset): () => this;
+    [$result](#result): any;
+}
+
+* Defined in [core/maker.ts:661](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L661)
+
+##### Index
+
+### Properties
+
+[$initial](#initial)
+[$reset](#reset)
+[$result](#result)
+
+## Properties
+
+### $initial
+
+$initial: any
+
+The initial context object of the cascade.
+
+* Defined in [core/maker.ts:666](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L666)
+
+### $reset
+
+$reset: () => this
+
+Use the $original as the $result.
+
+* Defined in [core/maker.ts:676](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L676)
+
+### $result
+
+$result: any
+
+The current final value of the cascade.
+
+* Defined in [core/maker.ts:671](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L671)
+
+### Settings
+
+Member Visibility
+
+* Protected
+* Inherited
+
+ThemeOSLightDark
+
+### On This Page
+
+Properties
+
+[$initial](#initial)[$reset](#reset)[$result](#result)
+
+[Photon](../index.html)
+
+* Loading...
+
+Generated using [TypeDoc](https://typedoc.org/)

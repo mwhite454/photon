@@ -1,0 +1,2490 @@
+{
+  "source": "/Users/mykawhite/Documents/GitHub/photon/docs/docs",
+  "target": "/Users/mykawhite/Documents/GitHub/photon/docs-new/docs/converted",
+  "converted": [
+    {
+      "source": "docs/docs/advanced-drawing/index.html",
+      "target": "docs-new/docs/converted/advanced-drawing/index.md",
+      "title": "Index",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/classes/core_collect.Collector.html",
+      "target": "docs-new/docs/converted/api/classes/core_collect.Collector.md",
+      "title": "Collector | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/classes/core_collect.PointGraph.html",
+      "target": "docs-new/docs/converted/api/classes/core_collect.PointGraph.md",
+      "title": "PointGraph | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/classes/core_measure.Atlas.html",
+      "target": "docs-new/docs/converted/api/classes/core_measure.Atlas.md",
+      "title": "Atlas | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/classes/core_paths.Arc.html",
+      "target": "docs-new/docs/converted/api/classes/core_paths.Arc.md",
+      "title": "Arc | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/classes/core_paths.Chord.html",
+      "target": "docs-new/docs/converted/api/classes/core_paths.Chord.md",
+      "title": "Chord | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/classes/core_paths.Circle.html",
+      "target": "docs-new/docs/converted/api/classes/core_paths.Circle.md",
+      "title": "Circle | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/classes/core_paths.Line.html",
+      "target": "docs-new/docs/converted/api/classes/core_paths.Line.md",
+      "title": "Line | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/classes/core_paths.Parallel.html",
+      "target": "docs-new/docs/converted/api/classes/core_paths.Parallel.md",
+      "title": "Parallel | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/classes/core_xml.XmlTag.html",
+      "target": "docs-new/docs/converted/api/classes/core_xml.XmlTag.md",
+      "title": "XmlTag | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/classes/models_Belt.Belt.html",
+      "target": "docs-new/docs/converted/api/classes/models_Belt.Belt.md",
+      "title": "Belt | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/classes/models_BezierCurve-esm.BezierCurve.html",
+      "target": "docs-new/docs/converted/api/classes/models_BezierCurve-esm.BezierCurve.md",
+      "title": "BezierCurve | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/classes/models_BezierCurve-esm.BezierSeed.html",
+      "target": "docs-new/docs/converted/api/classes/models_BezierCurve-esm.BezierSeed.md",
+      "title": "BezierSeed | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/classes/models_BoltCircle.BoltCircle.html",
+      "target": "docs-new/docs/converted/api/classes/models_BoltCircle.BoltCircle.md",
+      "title": "BoltCircle | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/classes/models_BoltRectangle.BoltRectangle.html",
+      "target": "docs-new/docs/converted/api/classes/models_BoltRectangle.BoltRectangle.md",
+      "title": "BoltRectangle | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/classes/models_ConnectTheDots.ConnectTheDots.html",
+      "target": "docs-new/docs/converted/api/classes/models_ConnectTheDots.ConnectTheDots.md",
+      "title": "ConnectTheDots | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/classes/models_Dogbone.Dogbone.html",
+      "target": "docs-new/docs/converted/api/classes/models_Dogbone.Dogbone.md",
+      "title": "Dogbone | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/classes/models_Dome.Dome.html",
+      "target": "docs-new/docs/converted/api/classes/models_Dome.Dome.md",
+      "title": "Dome | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/classes/models_Ellipse.Ellipse.html",
+      "target": "docs-new/docs/converted/api/classes/models_Ellipse.Ellipse.md",
+      "title": "Ellipse | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/classes/models_Ellipse.EllipticArc.html",
+      "target": "docs-new/docs/converted/api/classes/models_Ellipse.EllipticArc.md",
+      "title": "EllipticArc | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/classes/models_Holes.Holes.html",
+      "target": "docs-new/docs/converted/api/classes/models_Holes.Holes.md",
+      "title": "Holes | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/classes/models_Oval.Oval.html",
+      "target": "docs-new/docs/converted/api/classes/models_Oval.Oval.md",
+      "title": "Oval | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/classes/models_OvalArc.OvalArc.html",
+      "target": "docs-new/docs/converted/api/classes/models_OvalArc.OvalArc.md",
+      "title": "OvalArc | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/classes/models_Polygon.Polygon.html",
+      "target": "docs-new/docs/converted/api/classes/models_Polygon.Polygon.md",
+      "title": "Polygon | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/classes/models_Rectangle.Rectangle.html",
+      "target": "docs-new/docs/converted/api/classes/models_Rectangle.Rectangle.md",
+      "title": "Rectangle | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/classes/models_Ring.Ring.html",
+      "target": "docs-new/docs/converted/api/classes/models_Ring.Ring.md",
+      "title": "Ring | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/classes/models_RoundRectangle.RoundRectangle.html",
+      "target": "docs-new/docs/converted/api/classes/models_RoundRectangle.RoundRectangle.md",
+      "title": "RoundRectangle | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/classes/models_SCurve.SCurve.html",
+      "target": "docs-new/docs/converted/api/classes/models_SCurve.SCurve.md",
+      "title": "SCurve | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/classes/models_Slot.Slot.html",
+      "target": "docs-new/docs/converted/api/classes/models_Slot.Slot.md",
+      "title": "Slot | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/classes/models_Square.Square.html",
+      "target": "docs-new/docs/converted/api/classes/models_Square.Square.md",
+      "title": "Square | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/classes/models_Star.Star.html",
+      "target": "docs-new/docs/converted/api/classes/models_Star.Star.md",
+      "title": "Star | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/classes/models_Text.Text.html",
+      "target": "docs-new/docs/converted/api/classes/models_Text.Text.md",
+      "title": "Text | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/classes/types_jscad.export_.CAG.html",
+      "target": "docs-new/docs/converted/api/classes/types_jscad.export_.CAG.md",
+      "title": "CAG | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/classes/types_jscad.export_.CSG.html",
+      "target": "docs-new/docs/converted/api/classes/types_jscad.export_.CSG.md",
+      "title": "CSG | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_angle.mirror.html",
+      "target": "docs-new/docs/converted/api/functions/core_angle.mirror.md",
+      "title": "mirror | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_angle.noRevolutions.html",
+      "target": "docs-new/docs/converted/api/functions/core_angle.noRevolutions.md",
+      "title": "noRevolutions | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_angle.ofArcEnd.html",
+      "target": "docs-new/docs/converted/api/functions/core_angle.ofArcEnd.md",
+      "title": "ofArcEnd | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_angle.ofArcMiddle.html",
+      "target": "docs-new/docs/converted/api/functions/core_angle.ofArcMiddle.md",
+      "title": "ofArcMiddle | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_angle.ofArcSpan.html",
+      "target": "docs-new/docs/converted/api/functions/core_angle.ofArcSpan.md",
+      "title": "ofArcSpan | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_angle.ofChainLinkJoint.html",
+      "target": "docs-new/docs/converted/api/functions/core_angle.ofChainLinkJoint.md",
+      "title": "ofChainLinkJoint | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_angle.ofLineInDegrees.html",
+      "target": "docs-new/docs/converted/api/functions/core_angle.ofLineInDegrees.md",
+      "title": "ofLineInDegrees | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_angle.ofPointInDegrees.html",
+      "target": "docs-new/docs/converted/api/functions/core_angle.ofPointInDegrees.md",
+      "title": "ofPointInDegrees | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_angle.ofPointInRadians.html",
+      "target": "docs-new/docs/converted/api/functions/core_angle.ofPointInRadians.md",
+      "title": "ofPointInRadians | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_angle.toDegrees.html",
+      "target": "docs-new/docs/converted/api/functions/core_angle.toDegrees.md",
+      "title": "toDegrees | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_angle.toRadians.html",
+      "target": "docs-new/docs/converted/api/functions/core_angle.toRadians.md",
+      "title": "toRadians | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_base.cloneObject.html",
+      "target": "docs-new/docs/converted/api/functions/core_base.cloneObject.md",
+      "title": "cloneObject | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_base.createRouteKey.html",
+      "target": "docs-new/docs/converted/api/functions/core_base.createRouteKey.md",
+      "title": "createRouteKey | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_base.extendObject.html",
+      "target": "docs-new/docs/converted/api/functions/core_base.extendObject.md",
+      "title": "extendObject | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_base.isFunction.html",
+      "target": "docs-new/docs/converted/api/functions/core_base.isFunction.md",
+      "title": "isFunction | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_base.isNumber.html",
+      "target": "docs-new/docs/converted/api/functions/core_base.isNumber.md",
+      "title": "isNumber | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_base.isObject.html",
+      "target": "docs-new/docs/converted/api/functions/core_base.isObject.md",
+      "title": "isObject | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_base.isPoint.html",
+      "target": "docs-new/docs/converted/api/functions/core_base.isPoint.md",
+      "title": "isPoint | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_base.round.html",
+      "target": "docs-new/docs/converted/api/functions/core_base.round.md",
+      "title": "round | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_base.splitDecimal.html",
+      "target": "docs-new/docs/converted/api/functions/core_base.splitDecimal.md",
+      "title": "splitDecimal | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_boolean-utils.addPathToModel.html",
+      "target": "docs-new/docs/converted/api/functions/core_boolean-utils.addPathToModel.md",
+      "title": "addPathToModel | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_boolean-utils.ensurePathLayer.html",
+      "target": "docs-new/docs/converted/api/functions/core_boolean-utils.ensurePathLayer.md",
+      "title": "ensurePathLayer | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_boolean-utils.findPointsOnPath.html",
+      "target": "docs-new/docs/converted/api/functions/core_boolean-utils.findPointsOnPath.md",
+      "title": "findPointsOnPath | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_boolean-utils.isArcEnclosingAngle.html",
+      "target": "docs-new/docs/converted/api/functions/core_boolean-utils.isArcEnclosingAngle.md",
+      "title": "isArcEnclosingAngle | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_boolean-utils.isBetween.html",
+      "target": "docs-new/docs/converted/api/functions/core_boolean-utils.isBetween.md",
+      "title": "isBetween | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_boolean-utils.isBetweenArcAngles.html",
+      "target": "docs-new/docs/converted/api/functions/core_boolean-utils.isBetweenArcAngles.md",
+      "title": "isBetweenArcAngles | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_boolean-utils.isBetweenPoints.html",
+      "target": "docs-new/docs/converted/api/functions/core_boolean-utils.isBetweenPoints.md",
+      "title": "isBetweenPoints | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_boolean-utils.isCircleOrArc.html",
+      "target": "docs-new/docs/converted/api/functions/core_boolean-utils.isCircleOrArc.md",
+      "title": "isCircleOrArc | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_boolean-utils.isZeroLength.html",
+      "target": "docs-new/docs/converted/api/functions/core_boolean-utils.isZeroLength.md",
+      "title": "isZeroLength | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_boolean-utils.pathBoundingBox.html",
+      "target": "docs-new/docs/converted/api/functions/core_boolean-utils.pathBoundingBox.md",
+      "title": "pathBoundingBox | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_boolean-utils.trackDeletedPath.html",
+      "target": "docs-new/docs/converted/api/functions/core_boolean-utils.trackDeletedPath.md",
+      "title": "trackDeletedPath | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_break.breakAtPoint.html",
+      "target": "docs-new/docs/converted/api/functions/core_break.breakAtPoint.md",
+      "title": "breakAtPoint | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_chain.cycle.html",
+      "target": "docs-new/docs/converted/api/functions/core_chain.cycle.md",
+      "title": "cycle | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_chain.findChains.html",
+      "target": "docs-new/docs/converted/api/functions/core_chain.findChains.md",
+      "title": "findChains | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_chain.findSingleChain.html",
+      "target": "docs-new/docs/converted/api/functions/core_chain.findSingleChain.md",
+      "title": "findSingleChain | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_chain.reverse.html",
+      "target": "docs-new/docs/converted/api/functions/core_chain.reverse.md",
+      "title": "reverse | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_chain.startAt.html",
+      "target": "docs-new/docs/converted/api/functions/core_chain.startAt.md",
+      "title": "startAt | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_chain.toKeyPoints.html",
+      "target": "docs-new/docs/converted/api/functions/core_chain.toKeyPoints.md",
+      "title": "toKeyPoints | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_chain.toNewModel.html",
+      "target": "docs-new/docs/converted/api/functions/core_chain.toNewModel.md",
+      "title": "toNewModel | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_chain.toPoints.html",
+      "target": "docs-new/docs/converted/api/functions/core_chain.toPoints.md",
+      "title": "toPoints | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_combine.breakPathsAtIntersections.html",
+      "target": "docs-new/docs/converted/api/functions/core_combine.breakPathsAtIntersections.md",
+      "title": "breakPathsAtIntersections | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_combine.combine.html",
+      "target": "docs-new/docs/converted/api/functions/core_combine.combine.md",
+      "title": "combine | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_combine.combineIntersection.html",
+      "target": "docs-new/docs/converted/api/functions/core_combine.combineIntersection.md",
+      "title": "combineIntersection | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_combine.combineSubtraction.html",
+      "target": "docs-new/docs/converted/api/functions/core_combine.combineSubtraction.md",
+      "title": "combineSubtraction | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_combine.combineUnion.html",
+      "target": "docs-new/docs/converted/api/functions/core_combine.combineUnion.md",
+      "title": "combineUnion | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_combine.isPathInsideModel.html",
+      "target": "docs-new/docs/converted/api/functions/core_combine.isPathInsideModel.md",
+      "title": "isPathInsideModel | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_deadend.removeDeadEnds.html",
+      "target": "docs-new/docs/converted/api/functions/core_deadend.removeDeadEnds.md",
+      "title": "removeDeadEnds | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_dxf.toDXF.html",
+      "target": "docs-new/docs/converted/api/functions/core_dxf.toDXF.md",
+      "title": "toDXF | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_equal.isAngleEqual.html",
+      "target": "docs-new/docs/converted/api/functions/core_equal.isAngleEqual.md",
+      "title": "isAngleEqual | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_equal.isPathEqual.html",
+      "target": "docs-new/docs/converted/api/functions/core_equal.isPathEqual.md",
+      "title": "isPathEqual | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_equal.isPointDistinct.html",
+      "target": "docs-new/docs/converted/api/functions/core_equal.isPointDistinct.md",
+      "title": "isPointDistinct | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_equal.isPointEqual.html",
+      "target": "docs-new/docs/converted/api/functions/core_equal.isPointEqual.md",
+      "title": "isPointEqual | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_equal.isPointOnCircle.html",
+      "target": "docs-new/docs/converted/api/functions/core_equal.isPointOnCircle.md",
+      "title": "isPointOnCircle | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_equal.isPointOnPath.html",
+      "target": "docs-new/docs/converted/api/functions/core_equal.isPointOnPath.md",
+      "title": "isPointOnPath | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_equal.isPointOnSlope.html",
+      "target": "docs-new/docs/converted/api/functions/core_equal.isPointOnSlope.md",
+      "title": "isPointOnSlope | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_equal.isSlopeEqual.html",
+      "target": "docs-new/docs/converted/api/functions/core_equal.isSlopeEqual.md",
+      "title": "isSlopeEqual | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_equal.isSlopeParallel.html",
+      "target": "docs-new/docs/converted/api/functions/core_equal.isSlopeParallel.md",
+      "title": "isSlopeParallel | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_expand.expand.html",
+      "target": "docs-new/docs/converted/api/functions/core_expand.expand.md",
+      "title": "expand | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_expand.expandPaths.html",
+      "target": "docs-new/docs/converted/api/functions/core_expand.expandPaths.md",
+      "title": "expandPaths | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_expand.outline.html",
+      "target": "docs-new/docs/converted/api/functions/core_expand.outline.md",
+      "title": "outline | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_expand.straighten.html",
+      "target": "docs-new/docs/converted/api/functions/core_expand.straighten.md",
+      "title": "straighten | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_exporter.toJson.html",
+      "target": "docs-new/docs/converted/api/functions/core_exporter.toJson.md",
+      "title": "toJson | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_fillet-chain.chainDogbone.html",
+      "target": "docs-new/docs/converted/api/functions/core_fillet-chain.chainDogbone.md",
+      "title": "chainDogbone | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_fillet-chain.chainFillet.html",
+      "target": "docs-new/docs/converted/api/functions/core_fillet-chain.chainFillet.md",
+      "title": "chainFillet | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_fillet-path.pathDogbone.html",
+      "target": "docs-new/docs/converted/api/functions/core_fillet-path.pathDogbone.md",
+      "title": "pathDogbone | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_fillet-path.pathFillet.html",
+      "target": "docs-new/docs/converted/api/functions/core_fillet-path.pathFillet.md",
+      "title": "pathFillet | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_importer.parseNumericList.html",
+      "target": "docs-new/docs/converted/api/functions/core_importer.parseNumericList.md",
+      "title": "parseNumericList | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_intersect.intersection.html",
+      "target": "docs-new/docs/converted/api/functions/core_intersect.intersection.md",
+      "title": "intersection | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_kit.construct.html",
+      "target": "docs-new/docs/converted/api/functions/core_kit.construct.md",
+      "title": "construct | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_kit.getParameterValues.html",
+      "target": "docs-new/docs/converted/api/functions/core_kit.getParameterValues.md",
+      "title": "getParameterValues | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_layout.childrenOnChain.html",
+      "target": "docs-new/docs/converted/api/functions/core_layout.childrenOnChain.md",
+      "title": "childrenOnChain | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_layout.childrenOnPath.html",
+      "target": "docs-new/docs/converted/api/functions/core_layout.childrenOnPath.md",
+      "title": "childrenOnPath | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_layout.cloneToBrick.html",
+      "target": "docs-new/docs/converted/api/functions/core_layout.cloneToBrick.md",
+      "title": "cloneToBrick | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_layout.cloneToColumn.html",
+      "target": "docs-new/docs/converted/api/functions/core_layout.cloneToColumn.md",
+      "title": "cloneToColumn | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_layout.cloneToGrid.html",
+      "target": "docs-new/docs/converted/api/functions/core_layout.cloneToGrid.md",
+      "title": "cloneToGrid | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_layout.cloneToHoneycomb.html",
+      "target": "docs-new/docs/converted/api/functions/core_layout.cloneToHoneycomb.md",
+      "title": "cloneToHoneycomb | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_layout.cloneToRadial.html",
+      "target": "docs-new/docs/converted/api/functions/core_layout.cloneToRadial.md",
+      "title": "cloneToRadial | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_layout.cloneToRow.html",
+      "target": "docs-new/docs/converted/api/functions/core_layout.cloneToRow.md",
+      "title": "cloneToRow | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_maker.cloneObject.html",
+      "target": "docs-new/docs/converted/api/functions/core_maker.cloneObject.md",
+      "title": "cloneObject | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_maker.createRouteKey.html",
+      "target": "docs-new/docs/converted/api/functions/core_maker.createRouteKey.md",
+      "title": "createRouteKey | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_maker.extendObject.html",
+      "target": "docs-new/docs/converted/api/functions/core_maker.extendObject.md",
+      "title": "extendObject | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_maker.isChain.html",
+      "target": "docs-new/docs/converted/api/functions/core_maker.isChain.md",
+      "title": "isChain | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_maker.isFunction.html",
+      "target": "docs-new/docs/converted/api/functions/core_maker.isFunction.md",
+      "title": "isFunction | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_maker.isModel.html",
+      "target": "docs-new/docs/converted/api/functions/core_maker.isModel.md",
+      "title": "isModel | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_maker.isNumber.html",
+      "target": "docs-new/docs/converted/api/functions/core_maker.isNumber.md",
+      "title": "isNumber | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_maker.isObject.html",
+      "target": "docs-new/docs/converted/api/functions/core_maker.isObject.md",
+      "title": "isObject | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_maker.isPath.html",
+      "target": "docs-new/docs/converted/api/functions/core_maker.isPath.md",
+      "title": "isPath | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_maker.isPathArc.html",
+      "target": "docs-new/docs/converted/api/functions/core_maker.isPathArc.md",
+      "title": "isPathArc | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_maker.isPathArcInBezierCurve.html",
+      "target": "docs-new/docs/converted/api/functions/core_maker.isPathArcInBezierCurve.md",
+      "title": "isPathArcInBezierCurve | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_maker.isPathCircle.html",
+      "target": "docs-new/docs/converted/api/functions/core_maker.isPathCircle.md",
+      "title": "isPathCircle | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_maker.isPathLine.html",
+      "target": "docs-new/docs/converted/api/functions/core_maker.isPathLine.md",
+      "title": "isPathLine | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_maker.isPoint.html",
+      "target": "docs-new/docs/converted/api/functions/core_maker.isPoint.md",
+      "title": "isPoint | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_maker.round.html",
+      "target": "docs-new/docs/converted/api/functions/core_maker.round.md",
+      "title": "round | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_maker.splitDecimal.html",
+      "target": "docs-new/docs/converted/api/functions/core_maker.splitDecimal.md",
+      "title": "splitDecimal | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_maker.travel.html",
+      "target": "docs-new/docs/converted/api/functions/core_maker.travel.md",
+      "title": "travel | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_measure-minimal.augment.html",
+      "target": "docs-new/docs/converted/api/functions/core_measure-minimal.augment.md",
+      "title": "augment | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_measure-minimal.isBezierSeedLinear.html",
+      "target": "docs-new/docs/converted/api/functions/core_measure-minimal.isBezierSeedLinear.md",
+      "title": "isBezierSeedLinear | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_measure-minimal.lineSlope.html",
+      "target": "docs-new/docs/converted/api/functions/core_measure-minimal.lineSlope.md",
+      "title": "lineSlope | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_measure-minimal.modelExtents.html",
+      "target": "docs-new/docs/converted/api/functions/core_measure-minimal.modelExtents.md",
+      "title": "modelExtents | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_measure-minimal.pathExtents.html",
+      "target": "docs-new/docs/converted/api/functions/core_measure-minimal.pathExtents.md",
+      "title": "pathExtents | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_measure-minimal.pathLength.html",
+      "target": "docs-new/docs/converted/api/functions/core_measure-minimal.pathLength.md",
+      "title": "pathLength | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_measure-minimal.pointDistance.html",
+      "target": "docs-new/docs/converted/api/functions/core_measure-minimal.pointDistance.md",
+      "title": "pointDistance | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_measure.augment.html",
+      "target": "docs-new/docs/converted/api/functions/core_measure.augment.md",
+      "title": "augment | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_measure.boundingHexagon.html",
+      "target": "docs-new/docs/converted/api/functions/core_measure.boundingHexagon.md",
+      "title": "boundingHexagon | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_measure.increase.html",
+      "target": "docs-new/docs/converted/api/functions/core_measure.increase.md",
+      "title": "increase | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_measure.isArcConcaveTowardsPoint.html",
+      "target": "docs-new/docs/converted/api/functions/core_measure.isArcConcaveTowardsPoint.md",
+      "title": "isArcConcaveTowardsPoint | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_measure.isArcOverlapping.html",
+      "target": "docs-new/docs/converted/api/functions/core_measure.isArcOverlapping.md",
+      "title": "isArcOverlapping | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_measure.isArcSpanOverlapping.html",
+      "target": "docs-new/docs/converted/api/functions/core_measure.isArcSpanOverlapping.md",
+      "title": "isArcSpanOverlapping | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_measure.isBetween.html",
+      "target": "docs-new/docs/converted/api/functions/core_measure.isBetween.md",
+      "title": "isBetween | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_measure.isBetweenArcAngles.html",
+      "target": "docs-new/docs/converted/api/functions/core_measure.isBetweenArcAngles.md",
+      "title": "isBetweenArcAngles | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_measure.isBetweenPoints.html",
+      "target": "docs-new/docs/converted/api/functions/core_measure.isBetweenPoints.md",
+      "title": "isBetweenPoints | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_measure.isBezierSeedLinear.html",
+      "target": "docs-new/docs/converted/api/functions/core_measure.isBezierSeedLinear.md",
+      "title": "isBezierSeedLinear | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_measure.isChainClockwise.html",
+      "target": "docs-new/docs/converted/api/functions/core_measure.isChainClockwise.md",
+      "title": "isChainClockwise | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_measure.isLineOverlapping.html",
+      "target": "docs-new/docs/converted/api/functions/core_measure.isLineOverlapping.md",
+      "title": "isLineOverlapping | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_measure.isMeasurementOverlapping.html",
+      "target": "docs-new/docs/converted/api/functions/core_measure.isMeasurementOverlapping.md",
+      "title": "isMeasurementOverlapping | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_measure.isPointArrayClockwise.html",
+      "target": "docs-new/docs/converted/api/functions/core_measure.isPointArrayClockwise.md",
+      "title": "isPointArrayClockwise | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_measure.isPointInsideModel.html",
+      "target": "docs-new/docs/converted/api/functions/core_measure.isPointInsideModel.md",
+      "title": "isPointInsideModel | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_measure.lineSlope.html",
+      "target": "docs-new/docs/converted/api/functions/core_measure.lineSlope.md",
+      "title": "lineSlope | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_measure.modelExtents.html",
+      "target": "docs-new/docs/converted/api/functions/core_measure.modelExtents.md",
+      "title": "modelExtents | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_measure.modelPathLength.html",
+      "target": "docs-new/docs/converted/api/functions/core_measure.modelPathLength.md",
+      "title": "modelPathLength | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_measure.pathExtents.html",
+      "target": "docs-new/docs/converted/api/functions/core_measure.pathExtents.md",
+      "title": "pathExtents | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_measure.pathLength.html",
+      "target": "docs-new/docs/converted/api/functions/core_measure.pathLength.md",
+      "title": "pathLength | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_measure.pointDistance.html",
+      "target": "docs-new/docs/converted/api/functions/core_measure.pointDistance.md",
+      "title": "pointDistance | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_model.addCaption.html",
+      "target": "docs-new/docs/converted/api/functions/core_model.addCaption.md",
+      "title": "addCaption | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_model.addModel.html",
+      "target": "docs-new/docs/converted/api/functions/core_model.addModel.md",
+      "title": "addModel | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_model.addPath.html",
+      "target": "docs-new/docs/converted/api/functions/core_model.addPath.md",
+      "title": "addPath | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_model.addTo.html",
+      "target": "docs-new/docs/converted/api/functions/core_model.addTo.md",
+      "title": "addTo | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_model.center.html",
+      "target": "docs-new/docs/converted/api/functions/core_model.center.md",
+      "title": "center | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_model.clone.html",
+      "target": "docs-new/docs/converted/api/functions/core_model.clone.md",
+      "title": "clone | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_model.convertUnits.html",
+      "target": "docs-new/docs/converted/api/functions/core_model.convertUnits.md",
+      "title": "convertUnits | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_model.countChildModels.html",
+      "target": "docs-new/docs/converted/api/functions/core_model.countChildModels.md",
+      "title": "countChildModels | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_model.distort.html",
+      "target": "docs-new/docs/converted/api/functions/core_model.distort.md",
+      "title": "distort | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_model.findChains.html",
+      "target": "docs-new/docs/converted/api/functions/core_model.findChains.md",
+      "title": "findChains | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_model.findSingleChain.html",
+      "target": "docs-new/docs/converted/api/functions/core_model.findSingleChain.md",
+      "title": "findSingleChain | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_model.getAllCaptionsOffset.html",
+      "target": "docs-new/docs/converted/api/functions/core_model.getAllCaptionsOffset.md",
+      "title": "getAllCaptionsOffset | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_model.getSimilarModelId.html",
+      "target": "docs-new/docs/converted/api/functions/core_model.getSimilarModelId.md",
+      "title": "getSimilarModelId | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_model.getSimilarPathId.html",
+      "target": "docs-new/docs/converted/api/functions/core_model.getSimilarPathId.md",
+      "title": "getSimilarPathId | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_model.layer.html",
+      "target": "docs-new/docs/converted/api/functions/core_model.layer.md",
+      "title": "layer | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_model.mirror.html",
+      "target": "docs-new/docs/converted/api/functions/core_model.mirror.md",
+      "title": "mirror | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_model.move.html",
+      "target": "docs-new/docs/converted/api/functions/core_model.move.md",
+      "title": "move | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_model.moveRelative.html",
+      "target": "docs-new/docs/converted/api/functions/core_model.moveRelative.md",
+      "title": "moveRelative | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_model.originate.html",
+      "target": "docs-new/docs/converted/api/functions/core_model.originate.md",
+      "title": "originate | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_model.prefixPathIds.html",
+      "target": "docs-new/docs/converted/api/functions/core_model.prefixPathIds.md",
+      "title": "prefixPathIds | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_model.rotate.html",
+      "target": "docs-new/docs/converted/api/functions/core_model.rotate.md",
+      "title": "rotate | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_model.scale.html",
+      "target": "docs-new/docs/converted/api/functions/core_model.scale.md",
+      "title": "scale | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_model.walk.html",
+      "target": "docs-new/docs/converted/api/functions/core_model.walk.md",
+      "title": "walk | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_model.walkPaths.html",
+      "target": "docs-new/docs/converted/api/functions/core_model.walkPaths.md",
+      "title": "walkPaths | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_model.zero.html",
+      "target": "docs-new/docs/converted/api/functions/core_model.zero.md",
+      "title": "zero | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_openjscad-esm.toJscadCAG.html",
+      "target": "docs-new/docs/converted/api/functions/core_openjscad-esm.toJscadCAG.md",
+      "title": "toJscadCAG | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_openjscad-esm.toJscadCSG.html",
+      "target": "docs-new/docs/converted/api/functions/core_openjscad-esm.toJscadCSG.md",
+      "title": "toJscadCSG | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_openjscad-esm.toJscadSTL.html",
+      "target": "docs-new/docs/converted/api/functions/core_openjscad-esm.toJscadSTL.md",
+      "title": "toJscadSTL | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_openjscad-esm.toJscadScript.html",
+      "target": "docs-new/docs/converted/api/functions/core_openjscad-esm.toJscadScript.md",
+      "title": "toJscadScript | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_path.addTo.html",
+      "target": "docs-new/docs/converted/api/functions/core_path.addTo.md",
+      "title": "addTo | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_path.alterLength.html",
+      "target": "docs-new/docs/converted/api/functions/core_path.alterLength.md",
+      "title": "alterLength | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_path.center.html",
+      "target": "docs-new/docs/converted/api/functions/core_path.center.md",
+      "title": "center | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_path.clone.html",
+      "target": "docs-new/docs/converted/api/functions/core_path.clone.md",
+      "title": "clone | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_path.converge.html",
+      "target": "docs-new/docs/converted/api/functions/core_path.converge.md",
+      "title": "converge | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_path.copyProps.html",
+      "target": "docs-new/docs/converted/api/functions/core_path.copyProps.md",
+      "title": "copyProps | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_path.distort.html",
+      "target": "docs-new/docs/converted/api/functions/core_path.distort.md",
+      "title": "distort | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_path.layer.html",
+      "target": "docs-new/docs/converted/api/functions/core_path.layer.md",
+      "title": "layer | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_path.mirror.html",
+      "target": "docs-new/docs/converted/api/functions/core_path.mirror.md",
+      "title": "mirror | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_path.move.html",
+      "target": "docs-new/docs/converted/api/functions/core_path.move.md",
+      "title": "move | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_path.moveRelative.html",
+      "target": "docs-new/docs/converted/api/functions/core_path.moveRelative.md",
+      "title": "moveRelative | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_path.moveTemporary.html",
+      "target": "docs-new/docs/converted/api/functions/core_path.moveTemporary.md",
+      "title": "moveTemporary | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_path.rotate.html",
+      "target": "docs-new/docs/converted/api/functions/core_path.rotate.md",
+      "title": "rotate | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_path.scale.html",
+      "target": "docs-new/docs/converted/api/functions/core_path.scale.md",
+      "title": "scale | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_path.toKeyPoints.html",
+      "target": "docs-new/docs/converted/api/functions/core_path.toKeyPoints.md",
+      "title": "toKeyPoints | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_path.toPoints.html",
+      "target": "docs-new/docs/converted/api/functions/core_path.toPoints.md",
+      "title": "toPoints | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_path.zero.html",
+      "target": "docs-new/docs/converted/api/functions/core_path.zero.md",
+      "title": "zero | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_pdf-esm.toPDF.html",
+      "target": "docs-new/docs/converted/api/functions/core_pdf-esm.toPDF.md",
+      "title": "toPDF | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_point.add.html",
+      "target": "docs-new/docs/converted/api/functions/core_point.add.md",
+      "title": "add | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_point.average.html",
+      "target": "docs-new/docs/converted/api/functions/core_point.average.md",
+      "title": "average | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_point.clone.html",
+      "target": "docs-new/docs/converted/api/functions/core_point.clone.md",
+      "title": "clone | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_point.closest.html",
+      "target": "docs-new/docs/converted/api/functions/core_point.closest.md",
+      "title": "closest | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_point.distort.html",
+      "target": "docs-new/docs/converted/api/functions/core_point.distort.md",
+      "title": "distort | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_point.fromAngleOnCircle.html",
+      "target": "docs-new/docs/converted/api/functions/core_point.fromAngleOnCircle.md",
+      "title": "fromAngleOnCircle | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_point.fromArc.html",
+      "target": "docs-new/docs/converted/api/functions/core_point.fromArc.md",
+      "title": "fromArc | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_point.fromPathEnds.html",
+      "target": "docs-new/docs/converted/api/functions/core_point.fromPathEnds.md",
+      "title": "fromPathEnds | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_point.fromPolar.html",
+      "target": "docs-new/docs/converted/api/functions/core_point.fromPolar.md",
+      "title": "fromPolar | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_point.fromSlopeIntersection.html",
+      "target": "docs-new/docs/converted/api/functions/core_point.fromSlopeIntersection.md",
+      "title": "fromSlopeIntersection | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_point.middle.html",
+      "target": "docs-new/docs/converted/api/functions/core_point.middle.md",
+      "title": "middle | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_point.mirror.html",
+      "target": "docs-new/docs/converted/api/functions/core_point.mirror.md",
+      "title": "mirror | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_point.rotate.html",
+      "target": "docs-new/docs/converted/api/functions/core_point.rotate.md",
+      "title": "rotate | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_point.rounded.html",
+      "target": "docs-new/docs/converted/api/functions/core_point.rounded.md",
+      "title": "rounded | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_point.scale.html",
+      "target": "docs-new/docs/converted/api/functions/core_point.scale.md",
+      "title": "scale | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_point.subtract.html",
+      "target": "docs-new/docs/converted/api/functions/core_point.subtract.md",
+      "title": "subtract | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_point.zero.html",
+      "target": "docs-new/docs/converted/api/functions/core_point.zero.md",
+      "title": "zero | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_simplify.simplify.html",
+      "target": "docs-new/docs/converted/api/functions/core_simplify.simplify.md",
+      "title": "simplify | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_solvers.circleTangentAngles.html",
+      "target": "docs-new/docs/converted/api/functions/core_solvers.circleTangentAngles.md",
+      "title": "circleTangentAngles | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_solvers.equilateralAltitude.html",
+      "target": "docs-new/docs/converted/api/functions/core_solvers.equilateralAltitude.md",
+      "title": "equilateralAltitude | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_solvers.equilateralSide.html",
+      "target": "docs-new/docs/converted/api/functions/core_solvers.equilateralSide.md",
+      "title": "equilateralSide | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_solvers.solveTriangleASA.html",
+      "target": "docs-new/docs/converted/api/functions/core_solvers.solveTriangleASA.md",
+      "title": "solveTriangleASA | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_solvers.solveTriangleSSS.html",
+      "target": "docs-new/docs/converted/api/functions/core_solvers.solveTriangleSSS.md",
+      "title": "solveTriangleSSS | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_svg-esm.fromSVGPathData.html",
+      "target": "docs-new/docs/converted/api/functions/core_svg-esm.fromSVGPathData.md",
+      "title": "fromSVGPathData | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_svg-esm.toSVG.html",
+      "target": "docs-new/docs/converted/api/functions/core_svg-esm.toSVG.md",
+      "title": "toSVG | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_svg-esm.toSVGPathData.html",
+      "target": "docs-new/docs/converted/api/functions/core_svg-esm.toSVGPathData.md",
+      "title": "toSVGPathData | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_svg-helpers.chainToSVGPathData.html",
+      "target": "docs-new/docs/converted/api/functions/core_svg-helpers.chainToSVGPathData.md",
+      "title": "chainToSVGPathData | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_svg-helpers.pathToSVGPathData.html",
+      "target": "docs-new/docs/converted/api/functions/core_svg-helpers.pathToSVGPathData.md",
+      "title": "pathToSVGPathData | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_units.conversionScale.html",
+      "target": "docs-new/docs/converted/api/functions/core_units.conversionScale.md",
+      "title": "conversionScale | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/core_units.isValidUnit.html",
+      "target": "docs-new/docs/converted/api/functions/core_units.isValidUnit.md",
+      "title": "isValidUnit | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/functions/types_jscad.export_.CSG.Path2D.arc.html",
+      "target": "docs-new/docs/converted/api/functions/types_jscad.export_.CSG.Path2D.arc.md",
+      "title": "arc | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/hierarchy.html",
+      "target": "docs-new/docs/converted/api/hierarchy.md",
+      "title": "Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/index.html",
+      "target": "docs-new/docs/converted/api/index.md",
+      "title": "Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_angle.IChainLink.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_angle.IChainLink.md",
+      "title": "IChainLink | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_boolean-utils.DeletedPathInfo.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_boolean-utils.DeletedPathInfo.md",
+      "title": "DeletedPathInfo | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_boolean-utils.SegmentClassification.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_boolean-utils.SegmentClassification.md",
+      "title": "SegmentClassification | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_cascades.MakerJs.ICascade.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_cascades.MakerJs.ICascade.md",
+      "title": "ICascade | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_cascades.MakerJs.ICascadeModel.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_cascades.MakerJs.ICascadeModel.md",
+      "title": "ICascadeModel | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_cascades.MakerJs.ICascadePath.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_cascades.MakerJs.ICascadePath.md",
+      "title": "ICascadePath | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_cascades.MakerJs.ICascadePoint.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_cascades.MakerJs.ICascadePoint.md",
+      "title": "ICascadePoint | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_collect.ICollection.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_collect.ICollection.md",
+      "title": "ICollection | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_collect.ICollectionKeyComparer.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_collect.ICollectionKeyComparer.md",
+      "title": "ICollectionKeyComparer | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_collect.IPointGraphIndexElement.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_collect.IPointGraphIndexElement.md",
+      "title": "IPointGraphIndexElement | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_dxf.IDXFLayerOptions.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_dxf.IDXFLayerOptions.md",
+      "title": "IDXFLayerOptions | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_dxf.IDXFRenderOptions.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_dxf.IDXFRenderOptions.md",
+      "title": "IDXFRenderOptions | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_exporter.IJsonExportOptions.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_exporter.IJsonExportOptions.md",
+      "title": "IJsonExportOptions | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_exporter.IStatusCallback.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_exporter.IStatusCallback.md",
+      "title": "IStatusCallback | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IBoundingHex.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IBoundingHex.md",
+      "title": "IBoundingHex | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.ICascade.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.ICascade.md",
+      "title": "ICascade | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IChain.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IChain.md",
+      "title": "IChain | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IChainCallback.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IChainCallback.md",
+      "title": "IChainCallback | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IChainLink.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IChainLink.md",
+      "title": "IChainLink | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IChainsMap.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IChainsMap.md",
+      "title": "IChainsMap | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.ICombineOptions.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.ICombineOptions.md",
+      "title": "ICombineOptions | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IContainChainsOptions.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IContainChainsOptions.md",
+      "title": "IContainChainsOptions | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IFindChainsOptions.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IFindChainsOptions.md",
+      "title": "IFindChainsOptions | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IFindLoopsOptions.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IFindLoopsOptions.md",
+      "title": "IFindLoopsOptions | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IIsPointOnPathOptions.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IIsPointOnPathOptions.md",
+      "title": "IIsPointOnPathOptions | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IKit.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IKit.md",
+      "title": "IKit | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IMeasure.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IMeasure.md",
+      "title": "IMeasure | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IMeasureMap.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IMeasureMap.md",
+      "title": "IMeasureMap | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IMeasurePointInsideOptions.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IMeasurePointInsideOptions.md",
+      "title": "IMeasurePointInsideOptions | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IMeasureWithCenter.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IMeasureWithCenter.md",
+      "title": "IMeasureWithCenter | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IMetaParameter.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IMetaParameter.md",
+      "title": "IMetaParameter | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IModelPathCallback.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IModelPathCallback.md",
+      "title": "IModelPathCallback | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IPathDirectional.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IPathDirectional.md",
+      "title": "IPathDirectional | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IPathIntersection.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IPathIntersection.md",
+      "title": "IPathIntersection | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IPathIntersectionBaseOptions.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IPathIntersectionBaseOptions.md",
+      "title": "IPathIntersectionBaseOptions | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IPathIntersectionOptions.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IPathIntersectionOptions.md",
+      "title": "IPathIntersectionOptions | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IPathRemoved.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IPathRemoved.md",
+      "title": "IPathRemoved | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IPointMatchOptions.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IPointMatchOptions.md",
+      "title": "IPointMatchOptions | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IRefModelInModel.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IRefModelInModel.md",
+      "title": "IRefModelInModel | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IRefPathIdInModel.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IRefPathIdInModel.md",
+      "title": "IRefPathIdInModel | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IRouteOffset.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IRouteOffset.md",
+      "title": "IRouteOffset | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.ISimplifyOptions.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.ISimplifyOptions.md",
+      "title": "ISimplifyOptions | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.ISlope.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.ISlope.md",
+      "title": "ISlope | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IWalkModel.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IWalkModel.md",
+      "title": "IWalkModel | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IWalkModelCallback.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IWalkModelCallback.md",
+      "title": "IWalkModelCallback | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IWalkModelCancellableCallback.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IWalkModelCancellableCallback.md",
+      "title": "IWalkModelCancellableCallback | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IWalkOptions.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IWalkOptions.md",
+      "title": "IWalkOptions | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IWalkPath.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IWalkPath.md",
+      "title": "IWalkPath | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IWalkPathBooleanCallback.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IWalkPathBooleanCallback.md",
+      "title": "IWalkPathBooleanCallback | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IWalkPathCallback.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IWalkPathCallback.md",
+      "title": "IWalkPathCallback | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_openjscad-esm.IJscadCagOptions.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_openjscad-esm.IJscadCagOptions.md",
+      "title": "IJscadCagOptions | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_openjscad-esm.IJscadCsgOptions.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_openjscad-esm.IJscadCsgOptions.md",
+      "title": "IJscadCsgOptions | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_openjscad-esm.IJscadExtrudeOptions.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_openjscad-esm.IJscadExtrudeOptions.md",
+      "title": "IJscadExtrudeOptions | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_openjscad-esm.IJscadScriptOptions.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_openjscad-esm.IJscadScriptOptions.md",
+      "title": "IJscadScriptOptions | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_openjscad-esm.IOpenJsCadOptions.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_openjscad-esm.IOpenJsCadOptions.md",
+      "title": "IOpenJsCadOptions | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_openjscad-esm.IOpenJsCadOptionsMap.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_openjscad-esm.IOpenJsCadOptionsMap.md",
+      "title": "IOpenJsCadOptionsMap | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_openjscad-esm.IStatusCallback.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_openjscad-esm.IStatusCallback.md",
+      "title": "IStatusCallback | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_path.IChain.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_path.IChain.md",
+      "title": "IChain | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_path.IWalkPath.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_path.IWalkPath.md",
+      "title": "IWalkPath | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_pdf-esm.IPDFRenderOptions.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_pdf-esm.IPDFRenderOptions.md",
+      "title": "IPDFRenderOptions | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_schema.IBezierRange.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_schema.IBezierRange.md",
+      "title": "IBezierRange | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_schema.ICaption.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_schema.ICaption.md",
+      "title": "ICaption | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_schema.IModel.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_schema.IModel.md",
+      "title": "IModel | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_schema.IModelMap.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_schema.IModelMap.md",
+      "title": "IModelMap | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_schema.IPath.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_schema.IPath.md",
+      "title": "IPath | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_schema.IPathArc.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_schema.IPathArc.md",
+      "title": "IPathArc | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_schema.IPathArcInBezierCurve.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_schema.IPathArcInBezierCurve.md",
+      "title": "IPathArcInBezierCurve | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_schema.IPathBezierSeed.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_schema.IPathBezierSeed.md",
+      "title": "IPathBezierSeed | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_schema.IPathCircle.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_schema.IPathCircle.md",
+      "title": "IPathCircle | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_schema.IPathIntersection.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_schema.IPathIntersection.md",
+      "title": "IPathIntersection | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_schema.IPathIntersectionOptions.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_schema.IPathIntersectionOptions.md",
+      "title": "IPathIntersectionOptions | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_schema.IPathLine.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_schema.IPathLine.md",
+      "title": "IPathLine | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_schema.IPathMap.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_schema.IPathMap.md",
+      "title": "IPathMap | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_schema.IPoint.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_schema.IPoint.md",
+      "title": "IPoint | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_svg-esm.IFlowAnnotation.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_svg-esm.IFlowAnnotation.md",
+      "title": "IFlowAnnotation | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_svg-esm.IPathDataByLayerMap.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_svg-esm.IPathDataByLayerMap.md",
+      "title": "IPathDataByLayerMap | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_svg-esm.ISVGElementRenderOptions.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_svg-esm.ISVGElementRenderOptions.md",
+      "title": "ISVGElementRenderOptions | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_svg-esm.ISVGImportOptions.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_svg-esm.ISVGImportOptions.md",
+      "title": "ISVGImportOptions | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_svg-esm.ISVGPathDataRenderOptions.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_svg-esm.ISVGPathDataRenderOptions.md",
+      "title": "ISVGPathDataRenderOptions | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_svg-esm.ISVGRenderOptions.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_svg-esm.ISVGRenderOptions.md",
+      "title": "ISVGRenderOptions | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_svg-esm.SvgUnitConversion.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_svg-esm.SvgUnitConversion.md",
+      "title": "SvgUnitConversion | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_xml.IXmlTagAttrs.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_xml.IXmlTagAttrs.md",
+      "title": "IXmlTagAttrs | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/types_jscad.StlSerializer.html",
+      "target": "docs-new/docs/converted/api/interfaces/types_jscad.StlSerializer.md",
+      "title": "StlSerializer | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/types_jscad.export_.CSG.IArcOptions.html",
+      "target": "docs-new/docs/converted/api/interfaces/types_jscad.export_.CSG.IArcOptions.md",
+      "title": "IArcOptions | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/types_jscad.export_.CSG.ICircleOptions.html",
+      "target": "docs-new/docs/converted/api/interfaces/types_jscad.export_.CSG.ICircleOptions.md",
+      "title": "ICircleOptions | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/interfaces/types_jscad.export_.CSG.IEllpiticalArcOptions.html",
+      "target": "docs-new/docs/converted/api/interfaces/types_jscad.export_.CSG.IEllpiticalArcOptions.md",
+      "title": "IEllpiticalArcOptions | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/core_angle.html",
+      "target": "docs-new/docs/converted/api/modules/core_angle.md",
+      "title": "core/angle | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/core_base.html",
+      "target": "docs-new/docs/converted/api/modules/core_base.md",
+      "title": "core/base | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/core_boolean-utils.html",
+      "target": "docs-new/docs/converted/api/modules/core_boolean-utils.md",
+      "title": "core/boolean-utils | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/core_break.html",
+      "target": "docs-new/docs/converted/api/modules/core_break.md",
+      "title": "core/break | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/core_cascades.MakerJs.html",
+      "target": "docs-new/docs/converted/api/modules/core_cascades.MakerJs.md",
+      "title": "MakerJs | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/core_cascades.html",
+      "target": "docs-new/docs/converted/api/modules/core_cascades.md",
+      "title": "core/cascades | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/core_chain.html",
+      "target": "docs-new/docs/converted/api/modules/core_chain.md",
+      "title": "core/chain | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/core_collect.html",
+      "target": "docs-new/docs/converted/api/modules/core_collect.md",
+      "title": "core/collect | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/core_combine.html",
+      "target": "docs-new/docs/converted/api/modules/core_combine.md",
+      "title": "core/combine | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/core_deadend.html",
+      "target": "docs-new/docs/converted/api/modules/core_deadend.md",
+      "title": "core/deadend | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/core_dxf.html",
+      "target": "docs-new/docs/converted/api/modules/core_dxf.md",
+      "title": "core/dxf | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/core_equal.html",
+      "target": "docs-new/docs/converted/api/modules/core_equal.md",
+      "title": "core/equal | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/core_expand.html",
+      "target": "docs-new/docs/converted/api/modules/core_expand.md",
+      "title": "core/expand | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/core_exporter-index.html",
+      "target": "docs-new/docs/converted/api/modules/core_exporter-index.md",
+      "title": "core/exporter-index | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/core_exporter.html",
+      "target": "docs-new/docs/converted/api/modules/core_exporter.md",
+      "title": "core/exporter | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/core_fillet-chain.html",
+      "target": "docs-new/docs/converted/api/modules/core_fillet-chain.md",
+      "title": "core/fillet-chain | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/core_fillet-core.html",
+      "target": "docs-new/docs/converted/api/modules/core_fillet-core.md",
+      "title": "core/fillet-core | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/core_fillet-path.html",
+      "target": "docs-new/docs/converted/api/modules/core_fillet-path.md",
+      "title": "core/fillet-path | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/core_importer.html",
+      "target": "docs-new/docs/converted/api/modules/core_importer.md",
+      "title": "core/importer | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/core_intersect.html",
+      "target": "docs-new/docs/converted/api/modules/core_intersect.md",
+      "title": "core/intersect | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/core_kit.html",
+      "target": "docs-new/docs/converted/api/modules/core_kit.md",
+      "title": "core/kit | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/core_layout.html",
+      "target": "docs-new/docs/converted/api/modules/core_layout.md",
+      "title": "core/layout | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/core_maker.html",
+      "target": "docs-new/docs/converted/api/modules/core_maker.md",
+      "title": "core/maker | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/core_measure-minimal.html",
+      "target": "docs-new/docs/converted/api/modules/core_measure-minimal.md",
+      "title": "core/measure-minimal | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/core_measure.html",
+      "target": "docs-new/docs/converted/api/modules/core_measure.md",
+      "title": "core/measure | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/core_model.html",
+      "target": "docs-new/docs/converted/api/modules/core_model.md",
+      "title": "core/model | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/core_openjscad-esm.html",
+      "target": "docs-new/docs/converted/api/modules/core_openjscad-esm.md",
+      "title": "core/openjscad-esm | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/core_path.html",
+      "target": "docs-new/docs/converted/api/modules/core_path.md",
+      "title": "core/path | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/core_paths.html",
+      "target": "docs-new/docs/converted/api/modules/core_paths.md",
+      "title": "core/paths | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/core_pdf-esm.html",
+      "target": "docs-new/docs/converted/api/modules/core_pdf-esm.md",
+      "title": "core/pdf-esm | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/core_point.html",
+      "target": "docs-new/docs/converted/api/modules/core_point.md",
+      "title": "core/point | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/core_schema.html",
+      "target": "docs-new/docs/converted/api/modules/core_schema.md",
+      "title": "core/schema | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/core_simplify.html",
+      "target": "docs-new/docs/converted/api/modules/core_simplify.md",
+      "title": "core/simplify | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/core_solvers.html",
+      "target": "docs-new/docs/converted/api/modules/core_solvers.md",
+      "title": "core/solvers | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/core_svg-esm.html",
+      "target": "docs-new/docs/converted/api/modules/core_svg-esm.md",
+      "title": "core/svg-esm | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/core_svg-helpers.html",
+      "target": "docs-new/docs/converted/api/modules/core_svg-helpers.md",
+      "title": "core/svg-helpers | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/core_units.html",
+      "target": "docs-new/docs/converted/api/modules/core_units.md",
+      "title": "core/units | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/core_xml.html",
+      "target": "docs-new/docs/converted/api/modules/core_xml.md",
+      "title": "core/xml | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/index.html",
+      "target": "docs-new/docs/converted/api/modules/index.md",
+      "title": "index | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/models.html",
+      "target": "docs-new/docs/converted/api/modules/models.md",
+      "title": "models | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/models_Belt.html",
+      "target": "docs-new/docs/converted/api/modules/models_Belt.md",
+      "title": "models/Belt | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/models_BezierCurve-esm.html",
+      "target": "docs-new/docs/converted/api/modules/models_BezierCurve-esm.md",
+      "title": "models/BezierCurve-esm | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/models_BoltCircle.html",
+      "target": "docs-new/docs/converted/api/modules/models_BoltCircle.md",
+      "title": "models/BoltCircle | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/models_BoltRectangle.html",
+      "target": "docs-new/docs/converted/api/modules/models_BoltRectangle.md",
+      "title": "models/BoltRectangle | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/models_ConnectTheDots.html",
+      "target": "docs-new/docs/converted/api/modules/models_ConnectTheDots.md",
+      "title": "models/ConnectTheDots | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/models_Dogbone.html",
+      "target": "docs-new/docs/converted/api/modules/models_Dogbone.md",
+      "title": "models/Dogbone | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/models_Dome.html",
+      "target": "docs-new/docs/converted/api/modules/models_Dome.md",
+      "title": "models/Dome | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/models_Ellipse.html",
+      "target": "docs-new/docs/converted/api/modules/models_Ellipse.md",
+      "title": "models/Ellipse | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/models_Holes.html",
+      "target": "docs-new/docs/converted/api/modules/models_Holes.md",
+      "title": "models/Holes | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/models_Oval.html",
+      "target": "docs-new/docs/converted/api/modules/models_Oval.md",
+      "title": "models/Oval | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/models_OvalArc.html",
+      "target": "docs-new/docs/converted/api/modules/models_OvalArc.md",
+      "title": "models/OvalArc | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/models_Polygon.html",
+      "target": "docs-new/docs/converted/api/modules/models_Polygon.md",
+      "title": "models/Polygon | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/models_Rectangle.html",
+      "target": "docs-new/docs/converted/api/modules/models_Rectangle.md",
+      "title": "models/Rectangle | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/models_Ring.html",
+      "target": "docs-new/docs/converted/api/modules/models_Ring.md",
+      "title": "models/Ring | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/models_RoundRectangle.html",
+      "target": "docs-new/docs/converted/api/modules/models_RoundRectangle.md",
+      "title": "models/RoundRectangle | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/models_SCurve.html",
+      "target": "docs-new/docs/converted/api/modules/models_SCurve.md",
+      "title": "models/SCurve | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/models_Slot.html",
+      "target": "docs-new/docs/converted/api/modules/models_Slot.md",
+      "title": "models/Slot | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/models_Square.html",
+      "target": "docs-new/docs/converted/api/modules/models_Square.md",
+      "title": "models/Square | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/models_Star.html",
+      "target": "docs-new/docs/converted/api/modules/models_Star.md",
+      "title": "models/Star | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/models_Text.html",
+      "target": "docs-new/docs/converted/api/modules/models_Text.md",
+      "title": "models/Text | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/types_jscad.export_.CSG.Path2D.html",
+      "target": "docs-new/docs/converted/api/modules/types_jscad.export_.CSG.Path2D.md",
+      "title": "Path2D | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/types_jscad.export_.CSG.html",
+      "target": "docs-new/docs/converted/api/modules/types_jscad.export_.CSG.md",
+      "title": "CSG | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/types_jscad.export_.html",
+      "target": "docs-new/docs/converted/api/modules/types_jscad.export_.md",
+      "title": "export= | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/modules/types_jscad.html",
+      "target": "docs-new/docs/converted/api/modules/types_jscad.md",
+      "title": "types/jscad | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/types/core_boolean-utils.SegmentClassifier.html",
+      "target": "docs-new/docs/converted/api/types/core_boolean-utils.SegmentClassifier.md",
+      "title": "SegmentClassifier | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/variables/core_base.environment.html",
+      "target": "docs-new/docs/converted/api/variables/core_base.environment.md",
+      "title": "environment | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/variables/core_base.environmentTypes.html",
+      "target": "docs-new/docs/converted/api/variables/core_base.environmentTypes.md",
+      "title": "environmentTypes | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/variables/core_base.pathType.html",
+      "target": "docs-new/docs/converted/api/variables/core_base.pathType.md",
+      "title": "pathType | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/variables/core_base.unitType.html",
+      "target": "docs-new/docs/converted/api/variables/core_base.unitType.md",
+      "title": "unitType | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/variables/core_base.version.html",
+      "target": "docs-new/docs/converted/api/variables/core_base.version.md",
+      "title": "version | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/variables/core_boolean-utils.DEFAULT_POINT_MATCHING_DISTANCE.html",
+      "target": "docs-new/docs/converted/api/variables/core_boolean-utils.DEFAULT_POINT_MATCHING_DISTANCE.md",
+      "title": "DEFAULT_POINT_MATCHING_DISTANCE | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/variables/core_exporter.colors.html",
+      "target": "docs-new/docs/converted/api/variables/core_exporter.colors.md",
+      "title": "colors | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/variables/core_maker.environment.html",
+      "target": "docs-new/docs/converted/api/variables/core_maker.environment.md",
+      "title": "environment | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/variables/core_maker.environmentTypes.html",
+      "target": "docs-new/docs/converted/api/variables/core_maker.environmentTypes.md",
+      "title": "environmentTypes | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/variables/core_maker.pathType.html",
+      "target": "docs-new/docs/converted/api/variables/core_maker.pathType.md",
+      "title": "pathType | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/variables/core_maker.unitType.html",
+      "target": "docs-new/docs/converted/api/variables/core_maker.unitType.md",
+      "title": "unitType | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/variables/core_maker.version.html",
+      "target": "docs-new/docs/converted/api/variables/core_maker.version.md",
+      "title": "version | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/api/variables/core_svg-esm.svgUnit.html",
+      "target": "docs-new/docs/converted/api/variables/core_svg-esm.svgUnit.md",
+      "title": "svgUnit | Photon",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/basic-drawing/index.html",
+      "target": "docs-new/docs/converted/basic-drawing/index.md",
+      "title": "Index",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/browser-apps/embed.html",
+      "target": "docs-new/docs/converted/browser-apps/embed.md",
+      "title": "embed in page",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/exporting/index.html",
+      "target": "docs-new/docs/converted/exporting/index.md",
+      "title": "Index",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/getting-started/index.html",
+      "target": "docs-new/docs/converted/getting-started/index.md",
+      "title": "Index",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/importing/index.html",
+      "target": "docs-new/docs/converted/importing/index.md",
+      "title": "Index",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/index.html",
+      "target": "docs-new/docs/converted/index.md",
+      "title": "Index",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/intermediate-drawing/index.html",
+      "target": "docs-new/docs/converted/intermediate-drawing/index.md",
+      "title": "Index",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/model-trees/index.html",
+      "target": "docs-new/docs/converted/model-trees/index.md",
+      "title": "Index",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/node-apps/node server.html",
+      "target": "docs-new/docs/converted/node-apps/node server.md",
+      "title": "command line to download",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/publishing/packaging.html",
+      "target": "docs-new/docs/converted/publishing/packaging.md",
+      "title": "npm install browserify",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/publishing/publishing.html",
+      "target": "docs-new/docs/converted/publishing/publishing.md",
+      "title": "get node",
+      "status": "ok"
+    },
+    {
+      "source": "docs/docs/working-with-chains/index.html",
+      "target": "docs-new/docs/converted/working-with-chains/index.md",
+      "title": "Index",
+      "status": "ok"
+    }
+  ],
+  "errors": [],
+  "summary": {
+    "total": 413,
+    "converted": 413,
+    "errors": 0
+  }
+}

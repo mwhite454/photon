@@ -1,0 +1,12 @@
+---
+title: Index
+source: docs/docs/intermediate-drawing/index.html
+---
+
+---
+layout: snippetlist
+title: Intermediate drawing
+snippet\_titles: [Zeroing and Centering, Originating, Scaling, Distorting, Rotating, Cloning, Mirroring, Repeating layouts, Intersection, Converging lines, Modifying models, Breaking paths, Fillets, Dogbone Fillets, Layers, Cascading functions, The $ function, Captions]
+---
+
+Next: learn more in [Advanced drawing](../advanced-drawing/#content).

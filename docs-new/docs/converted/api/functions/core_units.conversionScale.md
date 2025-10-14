@@ -1,0 +1,46 @@
+---
+title: conversionScale | Photon
+source: docs/docs/api/functions/core_units.conversionScale.html
+---
+
+conversionScale | Photon
+
+[Photon](../index.html)
+
+
+
+
+Preparing search index...
+
+* [core/units](../modules/core_units.html)
+* conversionScale
+
+# Function conversionScale
+
+* conversionScale(srcUnitType: string, destUnitType: string): number
+
+  Get a conversion ratio between a source unit and a destination unit.
+
+  #### Parameters
+
+  + srcUnitType: string
+  + destUnitType: string
+
+  #### Returns number
+
+  + Defined in [core/units.ts:36](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/units.ts#L36)
+
+### Settings
+
+Member Visibility
+
+* Protected
+* Inherited
+
+ThemeOSLightDark
+
+[Photon](../index.html)
+
+* Loading...
+
+Generated using [TypeDoc](https://typedoc.org/)

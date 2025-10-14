@@ -1,0 +1,46 @@
+---
+title: average | Photon
+source: docs/docs/api/functions/core_point.average.html
+---
+
+average | Photon
+
+[Photon](../index.html)
+
+
+
+
+Preparing search index...
+
+* [core/point](../modules/core_point.html)
+* average
+
+# Function average
+
+* average(a: [IPoint](../interfaces/core_schema.IPoint.html), b: [IPoint](../interfaces/core_schema.IPoint.html)): [IPoint](../interfaces/core_schema.IPoint.html)
+
+  Get the average of two points.
+
+  #### Parameters
+
+  + a: [IPoint](../interfaces/core_schema.IPoint.html)
+  + b: [IPoint](../interfaces/core_schema.IPoint.html)
+
+  #### Returns [IPoint](../interfaces/core_schema.IPoint.html)
+
+  + Defined in [core/point.ts:26](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/point.ts#L26)
+
+### Settings
+
+Member Visibility
+
+* Protected
+* Inherited
+
+ThemeOSLightDark
+
+[Photon](../index.html)
+
+* Loading...
+
+Generated using [TypeDoc](https://typedoc.org/)

@@ -1,0 +1,26 @@
+---
+title: Outlining
+source: docs/_snippets/outlining.html
+---
+
+---
+title: Outlining a model
+---
+
+Expanding a model's path will surround every path, which sometimes can mean there is an inner and an outer surrounding chain. If you only want the outer surrounding chain, use
+[makerjs.model.outline](/docs/api/modules/makerjs.model.html#outline):
+
+```javascript
+//outline a star model
+var m = require('makerjs');
+var star = m.model.rotate(new m.models.Star(5, 100), 18);
+var outline = m.model.outline(star, 10);
+var model = {
+models: {
+star: star,
+outline: outline
+}
+};
+var svg = m.exporter.toSVG(model);
+document.write(svg);
+```

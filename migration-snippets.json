@@ -1,0 +1,438 @@
+{
+  "source": "/Users/mykawhite/Documents/GitHub/photon/docs/_snippets",
+  "target": "/Users/mykawhite/Documents/GitHub/photon/docs-new/docs/snippets",
+  "converted": [
+    {
+      "source": "docs/_snippets/$-function.html",
+      "target": "docs-new/docs/snippets/$-function.md",
+      "title": "$ Function",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/aliasing.html",
+      "target": "docs-new/docs/snippets/aliasing.md",
+      "title": "Aliasing",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/basic-rendering-in-svg.html",
+      "target": "docs-new/docs/snippets/basic-rendering-in-svg.md",
+      "title": "Basic Rendering In Svg",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/bezier-curves.html",
+      "target": "docs-new/docs/snippets/bezier-curves.md",
+      "title": "Bezier Curves",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/breaking.html",
+      "target": "docs-new/docs/snippets/breaking.md",
+      "title": "Breaking",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/built-in-models.html",
+      "target": "docs-new/docs/snippets/built-in-models.md",
+      "title": "Built In Models",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/captions.html",
+      "target": "docs-new/docs/snippets/captions.md",
+      "title": "Captions",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/cascading-functions.html",
+      "target": "docs-new/docs/snippets/cascading-functions.md",
+      "title": "Cascading Functions",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/chain-dogbone.html",
+      "target": "docs-new/docs/snippets/chain-dogbone.md",
+      "title": "Chain Dogbone",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/chain-fillet.html",
+      "target": "docs-new/docs/snippets/chain-fillet.md",
+      "title": "Chain Fillet",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/chain-links.html",
+      "target": "docs-new/docs/snippets/chain-links.md",
+      "title": "Chain Links",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/chain-multiple.html",
+      "target": "docs-new/docs/snippets/chain-multiple.md",
+      "title": "Chain Multiple",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/chain-order.html",
+      "target": "docs-new/docs/snippets/chain-order.md",
+      "title": "Chain Order",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/chain-single.html",
+      "target": "docs-new/docs/snippets/chain-single.md",
+      "title": "Chain Single",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/chain-theory.html",
+      "target": "docs-new/docs/snippets/chain-theory.md",
+      "title": "Chain Theory",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/chain-to-key-points.html",
+      "target": "docs-new/docs/snippets/chain-to-key-points.md",
+      "title": "Chain To Key Points",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/chain-to-new-model.html",
+      "target": "docs-new/docs/snippets/chain-to-new-model.md",
+      "title": "Chain To New Model",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/chain-to-points.html",
+      "target": "docs-new/docs/snippets/chain-to-points.md",
+      "title": "Chain To Points",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/chains.html",
+      "target": "docs-new/docs/snippets/chains.md",
+      "title": "Chains",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/cloning.html",
+      "target": "docs-new/docs/snippets/cloning.md",
+      "title": "Cloning",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/combining.html",
+      "target": "docs-new/docs/snippets/combining.md",
+      "title": "Combining",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/converging.html",
+      "target": "docs-new/docs/snippets/converging.md",
+      "title": "Converging",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/distorting.html",
+      "target": "docs-new/docs/snippets/distorting.md",
+      "title": "Distorting",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/dogbones.html",
+      "target": "docs-new/docs/snippets/dogbones.md",
+      "title": "Dogbones",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/expanding.html",
+      "target": "docs-new/docs/snippets/expanding.md",
+      "title": "Expanding",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/exporting-dxf.html",
+      "target": "docs-new/docs/snippets/exporting-dxf.md",
+      "title": "Exporting Dxf",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/exporting-openjscad.html",
+      "target": "docs-new/docs/snippets/exporting-openjscad.md",
+      "title": "Exporting Openjscad",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/exporting-pdf.html",
+      "target": "docs-new/docs/snippets/exporting-pdf.md",
+      "title": "Exporting Pdf",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/exporting-stl.html",
+      "target": "docs-new/docs/snippets/exporting-stl.md",
+      "title": "Exporting Stl",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/exporting-svg-path-data.html",
+      "target": "docs-new/docs/snippets/exporting-svg-path-data.md",
+      "title": "Exporting Svg Path Data",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/exporting-svg.html",
+      "target": "docs-new/docs/snippets/exporting-svg.md",
+      "title": "Exporting Svg",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/fillets.html",
+      "target": "docs-new/docs/snippets/fillets.md",
+      "title": "Fillets",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/fonts-and-text.html",
+      "target": "docs-new/docs/snippets/fonts-and-text.md",
+      "title": "Fonts And Text",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/frequently-used-functions.html",
+      "target": "docs-new/docs/snippets/frequently-used-functions.md",
+      "title": "Frequently Used Functions",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/getting-started-browser.html",
+      "target": "docs-new/docs/snippets/getting-started-browser.md",
+      "title": "Getting Started Browser",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/getting-started-node.html",
+      "target": "docs-new/docs/snippets/getting-started-node.md",
+      "title": "Getting Started Node",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/importing-svg-path-data.html",
+      "target": "docs-new/docs/snippets/importing-svg-path-data.md",
+      "title": "Importing Svg Path Data",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/importing-svg-points.html",
+      "target": "docs-new/docs/snippets/importing-svg-points.md",
+      "title": "Importing Svg Points",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/intersection.html",
+      "target": "docs-new/docs/snippets/intersection.md",
+      "title": "Intersection",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/just-json.html",
+      "target": "docs-new/docs/snippets/just-json.md",
+      "title": "Just Json",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/layers.html",
+      "target": "docs-new/docs/snippets/layers.md",
+      "title": "Layers",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/layout-on-chain.html",
+      "target": "docs-new/docs/snippets/layout-on-chain.md",
+      "title": "Layout On Chain",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/layout-on-path.html",
+      "target": "docs-new/docs/snippets/layout-on-path.md",
+      "title": "Layout On Path",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/layout-repeating.html",
+      "target": "docs-new/docs/snippets/layout-repeating.md",
+      "title": "Layout Repeating",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/measuring.html",
+      "target": "docs-new/docs/snippets/measuring.md",
+      "title": "Measuring",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/mirroring.html",
+      "target": "docs-new/docs/snippets/mirroring.md",
+      "title": "Mirroring",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/modeling.html",
+      "target": "docs-new/docs/snippets/modeling.md",
+      "title": "Modeling",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/models.html",
+      "target": "docs-new/docs/snippets/models.md",
+      "title": "Models",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/modifying-models.html",
+      "target": "docs-new/docs/snippets/modifying-models.md",
+      "title": "Modifying Models",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/moving.html",
+      "target": "docs-new/docs/snippets/moving.md",
+      "title": "Moving",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/open-vs-closed-geometry.html",
+      "target": "docs-new/docs/snippets/open-vs-closed-geometry.md",
+      "title": "Open Vs Closed Geometry",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/order-of-operations.html",
+      "target": "docs-new/docs/snippets/order-of-operations.md",
+      "title": "Order Of Operations",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/originating.html",
+      "target": "docs-new/docs/snippets/originating.md",
+      "title": "Originating",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/outlining.html",
+      "target": "docs-new/docs/snippets/outlining.md",
+      "title": "Outlining",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/path-constructors.html",
+      "target": "docs-new/docs/snippets/path-constructors.md",
+      "title": "Path Constructors",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/path-independence.html",
+      "target": "docs-new/docs/snippets/path-independence.md",
+      "title": "Path Independence",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/paths.html",
+      "target": "docs-new/docs/snippets/paths.md",
+      "title": "Paths",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/points.html",
+      "target": "docs-new/docs/snippets/points.md",
+      "title": "Points",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/rotating.html",
+      "target": "docs-new/docs/snippets/rotating.md",
+      "title": "Rotating",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/routes.html",
+      "target": "docs-new/docs/snippets/routes.md",
+      "title": "Routes",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/scaling.html",
+      "target": "docs-new/docs/snippets/scaling.md",
+      "title": "Scaling",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/simplifying.html",
+      "target": "docs-new/docs/snippets/simplifying.md",
+      "title": "Simplifying",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/solvers.html",
+      "target": "docs-new/docs/snippets/solvers.md",
+      "title": "Solvers",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/svg-styling.html",
+      "target": "docs-new/docs/snippets/svg-styling.md",
+      "title": "Svg Styling",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/template.html",
+      "target": "docs-new/docs/snippets/template.md",
+      "title": "Template",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/tree.html",
+      "target": "docs-new/docs/snippets/tree.md",
+      "title": "Tree",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/try-it-now.html",
+      "target": "docs-new/docs/snippets/try-it-now.md",
+      "title": "Try It Now",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/units.html",
+      "target": "docs-new/docs/snippets/units.md",
+      "title": "Units",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/walking.html",
+      "target": "docs-new/docs/snippets/walking.md",
+      "title": "Walking",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/wireframe.html",
+      "target": "docs-new/docs/snippets/wireframe.md",
+      "title": "Wireframe",
+      "status": "ok"
+    },
+    {
+      "source": "docs/_snippets/zeroing-and-centering.html",
+      "target": "docs-new/docs/snippets/zeroing-and-centering.md",
+      "title": "Zeroing And Centering",
+      "status": "ok"
+    }
+  ],
+  "errors": [],
+  "summary": {
+    "total": 71,
+    "converted": 71,
+    "errors": 0
+  }
+}

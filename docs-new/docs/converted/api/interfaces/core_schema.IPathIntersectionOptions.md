@@ -1,0 +1,93 @@
+---
+title: IPathIntersectionOptions | Photon
+source: docs/docs/api/interfaces/core_schema.IPathIntersectionOptions.html
+---
+
+IPathIntersectionOptions | Photon
+
+[Photon](../index.html)
+
+
+
+
+Preparing search index...
+
+* [core/schema](../modules/core_schema.html)
+* IPathIntersectionOptions
+
+# Interface IPathIntersectionOptions
+
+Options for path intersection.
+
+interface IPathIntersectionOptions {
+    [excludeTangents](#excludetangents)?: boolean;
+    [out\_AreOverlapped](#out_areoverlapped)?: boolean;
+    [path1Offset](#path1offset)?: [IPoint](core_schema.IPoint.html);
+    [path2Offset](#path2offset)?: [IPoint](core_schema.IPoint.html);
+}
+
+* Defined in [core/schema.ts:125](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/schema.ts#L125)
+
+##### Index
+
+### Properties
+
+[excludeTangents?](#excludetangents)
+[out\_AreOverlapped?](#out_areoverlapped)
+[path1Offset?](#path1offset)
+[path2Offset?](#path2offset)
+
+## Properties
+
+### `Optional`excludeTangents
+
+excludeTangents?: boolean
+
+Optional boolean to only return deep intersections, i.e. not tangent.
+
+* Defined in [core/schema.ts:127](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/schema.ts#L127)
+
+### `Optional`out\_AreOverlapped
+
+out\_AreOverlapped?: boolean
+
+Optional output variable which will be true if the paths are overlapped.
+
+* Defined in [core/schema.ts:129](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/schema.ts#L129)
+
+### `Optional`path1Offset
+
+path1Offset?: [IPoint](core_schema.IPoint.html)
+
+Optional offset of the first path.
+
+* Defined in [core/schema.ts:131](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/schema.ts#L131)
+
+### `Optional`path2Offset
+
+path2Offset?: [IPoint](core_schema.IPoint.html)
+
+Optional offset of the second path.
+
+* Defined in [core/schema.ts:133](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/schema.ts#L133)
+
+### Settings
+
+Member Visibility
+
+* Protected
+* Inherited
+
+ThemeOSLightDark
+
+### On This Page
+
+Properties
+
+[excludeTangents](#excludetangents)[out\_AreOverlapped](#out_areoverlapped)[path1Offset](#path1offset)[path2Offset](#path2offset)
+
+[Photon](../index.html)
+
+* Loading...
+
+Generated using [TypeDoc](https://typedoc.org/)

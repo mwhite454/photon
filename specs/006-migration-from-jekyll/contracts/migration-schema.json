@@ -1,0 +1,135 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Migration Result Schema",
+  "description": "Schema for Jekyll to MkDocs migration results",
+  "type": "object",
+  "required": ["migration_id", "source_file", "target_file", "status", "started_at"],
+  "properties": {
+    "migration_id": {
+      "type": "string",
+      "description": "Unique identifier for this migration",
+      "pattern": "^mig-[0-9]+$"
+    },
+    "source_file": {
+      "type": "string",
+      "description": "Original Jekyll file path"
+    },
+    "target_file": {
+      "type": "string",
+      "description": "Target MkDocs markdown file path",
+      "pattern": "\\.md$"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["pending", "in_progress", "complete", "failed", "retry", "validated"],
+      "description": "Current migration status"
+    },
+    "started_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Migration start timestamp (ISO-8601)"
+    },
+    "completed_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Migration completion timestamp (ISO-8601)"
+    },
+    "content_hash_before": {
+      "type": "string",
+      "description": "SHA-256 hash of original content",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "content_hash_after": {
+      "type": "string",
+      "description": "SHA-256 hash of converted content",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "validation_results": {
+      "$ref": "#/definitions/ValidationResult"
+    },
+    "errors": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Error messages if migration failed"
+    },
+    "warnings": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Warning messages"
+    },
+    "conversion_notes": {
+      "type": "string",
+      "description": "Notes about the conversion process"
+    }
+  },
+  "definitions": {
+    "ValidationResult": {
+      "type": "object",
+      "required": ["validation_id", "file_path", "overall_status", "validated_at"],
+      "properties": {
+        "validation_id": {
+          "type": "string",
+          "pattern": "^val-[0-9]+$"
+        },
+        "file_path": {
+          "type": "string"
+        },
+        "content_preserved": {
+          "type": "boolean"
+        },
+        "links_valid": {
+          "type": "boolean"
+        },
+        "code_blocks_valid": {
+          "type": "boolean"
+        },
+        "frontmatter_valid": {
+          "type": "boolean"
+        },
+        "validation_errors": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "error_type": {
+                "type": "string"
+              },
+              "message": {
+                "type": "string"
+              },
+              "location": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "validation_warnings": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "warning_type": {
+                "type": "string"
+              },
+              "message": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "validated_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "overall_status": {
+          "type": "string",
+          "enum": ["pass", "fail", "warning", "skipped"]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+---
+title: Path Constructors
+source: docs/_snippets/path-constructors.html
+---
+
+---
+title: Path constructors
+---
+
+In the example code above we used plain old JavaScript objects to create paths and models.
+Notice that we didn't need to use a special constructor provided by Maker.js to create either a path or a model.
+This is an intentional aspect of Maker.js, that you can decide how to create your objects.
+To make these plain objects work with Maker.js, they needed to use the property names specified above.
+
+We also illustrated 3 ways of defining an object: using a var, using a function that returns a var,
+and using a constructor function (for use by the **new** keyword). Let's revisit our simple line path example,
+and convert it to a constructor function.
+
+```javascript
+//render a line
+var makerjs = require('makerjs');
+var line = {
+type: 'line',
+origin: [0, 0],
+end: [50, 50]
+};
+var svg = makerjs.exporter.toSVG(line);
+document.write(svg);
+```
+```javascript
+//render a line created by a function
+var makerjs = require('makerjs');
+function line() {
+this.type = 'line',
+this.origin = [0, 0],
+this.end = [50, 50]
+};
+var svg = makerjs.exporter.toSVG(new line());
+document.write(svg);
+```
+
+Of course this example is not very useful because it only produces a line with the same origin and end every time.
+Instead, these should be passed as parameters.
+
+Since this is a common scenario, Maker.js provides constructors for all primitive paths: line, circle and arc:
+
+* [makerjs.paths.Line](/docs/api/classes/makerjs.paths.line.html#constructor)
+* [makerjs.paths.Circle](/docs/api/classes/makerjs.paths.circle.html#constructor)
+* [makerjs.paths.Arc](/docs/api/classes/makerjs.paths.arc.html#constructor)
+
+```javascript
+//render the basic paths
+var makerjs = require('makerjs');
+var line = new makerjs.paths.Line([0, 0], [50, 50]);
+var circle = new makerjs.paths.Circle([0, 0], 50);
+var arc = new makerjs.paths.Arc([0, 0], 25, 0, 90);
+var svg = makerjs.exporter.toSVG([line, circle, arc]);
+document.write(svg);
+```

@@ -1,0 +1,87 @@
+---
+title: Square | Photon
+source: docs/docs/api/classes/models_Square.Square.html
+---
+
+Square | Photon
+
+[Photon](../index.html)
+
+
+
+
+Preparing search index...
+
+* [models/Square](../modules/models_Square.html)
+* Square
+
+# Class Square
+
+A model is a composite object which may contain a map of paths, or a map of models recursively.
+
+#### Implements
+
+* [IModel](../interfaces/core_schema.IModel.html)
+
+* Defined in [models/Square.ts:5](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Square.ts#L5)
+
+##### Index
+
+### Constructors
+
+[constructor](#constructor)
+
+### Properties
+
+[paths](#paths)
+
+## Constructors
+
+### constructor
+
+* new Square(side: number): Square
+
+  #### Parameters
+
+  + side: number
+
+  #### Returns Square
+
+  + Defined in [models/Square.ts:8](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Square.ts#L8)
+
+## Properties
+
+### paths
+
+paths: [IPathMap](../interfaces/core_schema.IPathMap.html) = {}
+
+Optional map of path objects in this model.
+
+Implementation of [IModel](../interfaces/core_schema.IModel.html).[paths](../interfaces/core_schema.IModel.html#paths)
+
+* Defined in [models/Square.ts:6](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Square.ts#L6)
+
+### Settings
+
+Member Visibility
+
+* Protected
+* Inherited
+
+ThemeOSLightDark
+
+### On This Page
+
+Constructors
+
+[constructor](#constructor)
+
+Properties
+
+[paths](#paths)
+
+[Photon](../index.html)
+
+* Loading...
+
+Generated using [TypeDoc](https://typedoc.org/)

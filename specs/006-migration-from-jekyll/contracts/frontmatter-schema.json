@@ -1,0 +1,101 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "MkDocs Frontmatter Schema",
+  "description": "Standardized frontmatter format for MkDocs documentation pages",
+  "type": "object",
+  "required": ["title", "description"],
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Page title",
+      "minLength": 1,
+      "maxLength": 100
+    },
+    "description": {
+      "type": "string",
+      "description": "Brief description for search engines and AI (50-160 chars recommended)",
+      "minLength": 50,
+      "maxLength": 160
+    },
+    "keywords": {
+      "type": "array",
+      "description": "Search keywords",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 3,
+      "maxItems": 10
+    },
+    "category": {
+      "type": "string",
+      "description": "Documentation category",
+      "enum": [
+        "Getting Started",
+        "Basic Drawing",
+        "Advanced Drawing",
+        "Model Trees",
+        "Exporting",
+        "API Reference",
+        "Examples",
+        "Troubleshooting"
+      ]
+    },
+    "tags": {
+      "type": "array",
+      "description": "Topic tags",
+      "items": {
+        "type": "string"
+      }
+    },
+    "difficulty": {
+      "type": "string",
+      "description": "Content difficulty level",
+      "enum": ["beginner", "intermediate", "advanced", "expert"]
+    },
+    "prerequisites": {
+      "type": "array",
+      "description": "Required prior knowledge or pages",
+      "items": {
+        "type": "string"
+      }
+    },
+    "related": {
+      "type": "array",
+      "description": "Related documentation pages",
+      "items": {
+        "type": "string"
+      }
+    },
+    "created": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Creation date (ISO-8601)"
+    },
+    "last_updated": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Last update date (ISO-8601)"
+    },
+    "ai_summary": {
+      "type": "string",
+      "description": "Brief summary optimized for AI extraction",
+      "maxLength": 200
+    },
+    "primary_topic": {
+      "type": "string",
+      "description": "Main topic of the page"
+    },
+    "hide_navigation": {
+      "type": "boolean",
+      "description": "Whether to hide from navigation",
+      "default": false
+    },
+    "search_boost": {
+      "type": "number",
+      "description": "Search ranking boost (0.0-2.0)",
+      "minimum": 0.0,
+      "maximum": 2.0,
+      "default": 1.0
+    }
+  }
+}

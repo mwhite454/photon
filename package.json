@@ -8,6 +8,7 @@
     "doc": "docs"
   },
   "devDependencies": {
+    "@playwright/test": "latest",
     "@types/mocha": "^10.0.10",
     "browserify": "^17.0.0",
     "lerna": "^8.2.4",
@@ -39,16 +40,19 @@
     "start": "node playground-server.js",
     "start-simple": "npx http-server -p 8020 -o /docs/playground/",
     "test": "npm install && npm run build && npm run build-tools && lerna run test --parallel && npm run docs",
+    "test:playwright": "playwright test",
+    "test:playwright:headed": "playwright test --headed",
+    "test:playwright:report": "playwright show-report",
     "postinstall": ""
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Microsoft/maker.js.git"
+    "url": "git+https://github.com/mwhite454/photon.git"
   },
-  "author": "Dan Marshall",
+  "author": "Myka White",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/Microsoft/maker.js/issues"
+    "url": "https://github.com/mwhite454/photon/issues"
   },
-  "homepage": "https://github.com/Microsoft/maker.js#readme"
+  "homepage": "https://github.com/mwhite454/photon#readme"
 }

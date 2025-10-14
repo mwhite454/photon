@@ -1,0 +1,96 @@
+# Site information
+site_name: Photon
+site_description: A JavaScript library for creating and designing 2D vector graphics, drawings, and laser-cuttable models.
+site_author: Myka White
+site_url: https://github.com/mwhite454/photon
+
+# Repository
+repo_url: https://github.com/mwhite454/photon
+repo_name: mwhite454/photon
+edit_uri: edit/main/docs/
+
+# Copyright
+copyright: >
+  Copyright &copy; 2015 - 2025 Myka White.
+  Licensed under <a href="https://github.com/mwhite454/photon/blob/main/LICENSE">Apache-2.0</a> license.
+
+# Configuration
+use_directory_urls: true
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started/index.md
+  - Basic Drawing: basic-drawing/index.md
+  - Advanced Drawing: advanced-drawing/index.md
+  - Model Trees: model-trees/index.md
+  - Exporting: exporting/index.md
+  - API: api/index.md
+  - Converted: converted/index.md
+
+# Theme
+theme:
+  name: shadcn
+  language: en
+  show_title: true
+  show_stargazers: true
+  pygments_style:
+    light: shadcn-light
+    dark: github-dark
+  icon: heroicons:rocket-launch
+  topbar_sections: false
+  show_datetime: false
+
+# Plugins
+plugins:
+  - search:
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - awesome-pages
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: timeago
+  - minify:
+      minify_html: true
+
+# Customization
+extra:
+  version:
+    provider: mike
+    default: latest
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - attr_list
+  - fenced_code
+  - footnotes
+  - md_in_html
+  - meta
+  - tables
+  - toc
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.blocks.details
+  - pymdownx.blocks.tab
+  - pymdownx.progressbar
+  - shadcn.extensions.iconify
+  - shadcn.extensions.codexec
+
+# CSS
+extra_css:
+  - stylesheets/extra.css
+
+# JavaScript
+extra_javascript:
+  - javascripts/extra.js

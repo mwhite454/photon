@@ -5,7 +5,7 @@ source: docs/docs/api/modules/core_point.html
 
 core/point | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
@@ -18,55 +18,55 @@ Preparing search index...
 
 ## Functions
 
-[add](../functions/core_point.add.html)
+[add](../functions/core_point.add.md)
 
 
-[average](../functions/core_point.average.html)
+[average](../functions/core_point.average.md)
 
 
-[clone](../functions/core_point.clone.html)
+[clone](../functions/core_point.clone.md)
 
 
-[closest](../functions/core_point.closest.html)
+[closest](../functions/core_point.closest.md)
 
 
-[distort](../functions/core_point.distort.html)
+[distort](../functions/core_point.distort.md)
 
 
-[fromAngleOnCircle](../functions/core_point.fromAngleOnCircle.html)
+[fromAngleOnCircle](../functions/core_point.fromAngleOnCircle.md)
 
 
-[fromArc](../functions/core_point.fromArc.html)
+[fromArc](../functions/core_point.fromArc.md)
 
 
-[fromPathEnds](../functions/core_point.fromPathEnds.html)
+[fromPathEnds](../functions/core_point.fromPathEnds.md)
 
 
-[fromPolar](../functions/core_point.fromPolar.html)
+[fromPolar](../functions/core_point.fromPolar.md)
 
 
-[fromSlopeIntersection](../functions/core_point.fromSlopeIntersection.html)
+[fromSlopeIntersection](../functions/core_point.fromSlopeIntersection.md)
 
 
-[middle](../functions/core_point.middle.html)
+[middle](../functions/core_point.middle.md)
 
 
-[mirror](../functions/core_point.mirror.html)
+[mirror](../functions/core_point.mirror.md)
 
 
-[rotate](../functions/core_point.rotate.html)
+[rotate](../functions/core_point.rotate.md)
 
 
-[rounded](../functions/core_point.rounded.html)
+[rounded](../functions/core_point.rounded.md)
 
 
-[scale](../functions/core_point.scale.html)
+[scale](../functions/core_point.scale.md)
 
 
-[subtract](../functions/core_point.subtract.html)
+[subtract](../functions/core_point.subtract.md)
 
 
-[zero](../functions/core_point.zero.html)
+[zero](../functions/core_point.zero.md)
 
 ### Settings
 
@@ -83,7 +83,7 @@ Functions
 
 [add](#add)[average](#average)[clone](#clone)[closest](#closest)[distort](#distort)[fromAngleOnCircle](#fromangleoncircle)[fromArc](#fromarc)[fromPathEnds](#frompathends)[fromPolar](#frompolar)[fromSlopeIntersection](#fromslopeintersection)[middle](#middle)[mirror](#mirror)[rotate](#rotate)[rounded](#rounded)[scale](#scale)[subtract](#subtract)[zero](#zero)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

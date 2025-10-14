@@ -5,14 +5,14 @@ source: docs/docs/api/interfaces/core_schema.IPathCircle.html
 
 IPathCircle | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/schema](../modules/core_schema.html)
+* [core/schema](../modules/core_schema.md)
 * IPathCircle
 
 # Interface IPathCircle
@@ -21,20 +21,20 @@ A circle path.
 
 interface IPathCircle {
     [layer](#layer)?: string;
-    [origin](#origin): [IPoint](core_schema.IPoint.html);
+    [origin](#origin): [IPoint](core_schema.IPoint.md);
     [radius](#radius): number;
     [type](#type): string;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.html#core/schema.IPathCircle))
+#### Hierarchy ([View Summary](../hierarchy.md#core/schema.IPathCircle))
 
-* [IPath](core_schema.IPath.html)
+* [IPath](core_schema.IPath.md)
   + IPathCircle
-    - [IPathArc](core_schema.IPathArc.html)
+    - [IPathArc](core_schema.IPathArc.md)
 
 #### Implemented by
 
-* [Circle](../classes/core_paths.Circle.html)
+* [Circle](../classes/core_paths.Circle.md)
 
 * Defined in [core/schema.ts:34](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/schema.ts#L34)
 
@@ -55,17 +55,17 @@ layer?: string
 
 Optional layer of this path.
 
-Inherited from [IPath](core_schema.IPath.html).[layer](core_schema.IPath.html#layer)
+Inherited from [IPath](core_schema.IPath.md).[layer](core_schema.IPath.md#layer)
 
 * Defined in [core/schema.ts:24](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/schema.ts#L24)
 
 ### origin
 
-origin: [IPoint](core_schema.IPoint.html)
+origin: [IPoint](core_schema.IPoint.md)
 
 The main point of reference for this path.
 
-Inherited from [IPath](core_schema.IPath.html).[origin](core_schema.IPath.html#origin)
+Inherited from [IPath](core_schema.IPath.md).[origin](core_schema.IPath.md#origin)
 
 * Defined in [core/schema.ts:22](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/schema.ts#L22)
 
@@ -83,7 +83,7 @@ type: string
 
 The type of the path, e.g. "line", "circle", or "arc". These strings are enumerated in pathType.
 
-Inherited from [IPath](core_schema.IPath.html).[type](core_schema.IPath.html#type)
+Inherited from [IPath](core_schema.IPath.md).[type](core_schema.IPath.md#type)
 
 * Defined in [core/schema.ts:20](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/schema.ts#L20)
 
@@ -102,7 +102,7 @@ Properties
 
 [layer](#layer)[origin](#origin)[radius](#radius)[type](#type)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

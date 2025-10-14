@@ -5,7 +5,7 @@ source: docs/docs/api/modules/core_maker.html
 
 core/maker | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
@@ -18,180 +18,180 @@ Preparing search index...
 
 ## Interfaces
 
-[IBoundingHex](../interfaces/core_maker.IBoundingHex.html)
+[IBoundingHex](../interfaces/core_maker.IBoundingHex.md)
 
 
-[ICascade](../interfaces/core_maker.ICascade.html)
+[ICascade](../interfaces/core_maker.ICascade.md)
 
 
-[IChain](../interfaces/core_maker.IChain.html)
+[IChain](../interfaces/core_maker.IChain.md)
 
 
-[IChainCallback](../interfaces/core_maker.IChainCallback.html)
+[IChainCallback](../interfaces/core_maker.IChainCallback.md)
 
 
-[IChainLink](../interfaces/core_maker.IChainLink.html)
+[IChainLink](../interfaces/core_maker.IChainLink.md)
 
 
-[IChainsMap](../interfaces/core_maker.IChainsMap.html)
+[IChainsMap](../interfaces/core_maker.IChainsMap.md)
 
 
-[ICombineOptions](../interfaces/core_maker.ICombineOptions.html)
+[ICombineOptions](../interfaces/core_maker.ICombineOptions.md)
 
 
-[IContainChainsOptions](../interfaces/core_maker.IContainChainsOptions.html)
+[IContainChainsOptions](../interfaces/core_maker.IContainChainsOptions.md)
 
 
-[IFindChainsOptions](../interfaces/core_maker.IFindChainsOptions.html)
+[IFindChainsOptions](../interfaces/core_maker.IFindChainsOptions.md)
 
 
-[IFindLoopsOptions](../interfaces/core_maker.IFindLoopsOptions.html)
+[IFindLoopsOptions](../interfaces/core_maker.IFindLoopsOptions.md)
 
 
-[IIsPointOnPathOptions](../interfaces/core_maker.IIsPointOnPathOptions.html)
+[IIsPointOnPathOptions](../interfaces/core_maker.IIsPointOnPathOptions.md)
 
 
-[IKit](../interfaces/core_maker.IKit.html)
+[IKit](../interfaces/core_maker.IKit.md)
 
 
-[IMeasure](../interfaces/core_maker.IMeasure.html)
+[IMeasure](../interfaces/core_maker.IMeasure.md)
 
 
-[IMeasureMap](../interfaces/core_maker.IMeasureMap.html)
+[IMeasureMap](../interfaces/core_maker.IMeasureMap.md)
 
 
-[IMeasurePointInsideOptions](../interfaces/core_maker.IMeasurePointInsideOptions.html)
+[IMeasurePointInsideOptions](../interfaces/core_maker.IMeasurePointInsideOptions.md)
 
 
-[IMeasureWithCenter](../interfaces/core_maker.IMeasureWithCenter.html)
+[IMeasureWithCenter](../interfaces/core_maker.IMeasureWithCenter.md)
 
 
-[IMetaParameter](../interfaces/core_maker.IMetaParameter.html)
+[IMetaParameter](../interfaces/core_maker.IMetaParameter.md)
 
 
-[IModelPathCallback](../interfaces/core_maker.IModelPathCallback.html)
+[IModelPathCallback](../interfaces/core_maker.IModelPathCallback.md)
 
 
-[IPathDirectional](../interfaces/core_maker.IPathDirectional.html)
+[IPathDirectional](../interfaces/core_maker.IPathDirectional.md)
 
 
-[IPathIntersection](../interfaces/core_maker.IPathIntersection.html)
+[IPathIntersection](../interfaces/core_maker.IPathIntersection.md)
 
 
-[IPathIntersectionBaseOptions](../interfaces/core_maker.IPathIntersectionBaseOptions.html)
+[IPathIntersectionBaseOptions](../interfaces/core_maker.IPathIntersectionBaseOptions.md)
 
 
-[IPathIntersectionOptions](../interfaces/core_maker.IPathIntersectionOptions.html)
+[IPathIntersectionOptions](../interfaces/core_maker.IPathIntersectionOptions.md)
 
 
-[IPathRemoved](../interfaces/core_maker.IPathRemoved.html)
+[IPathRemoved](../interfaces/core_maker.IPathRemoved.md)
 
 
-[IPointMatchOptions](../interfaces/core_maker.IPointMatchOptions.html)
+[IPointMatchOptions](../interfaces/core_maker.IPointMatchOptions.md)
 
 
-[IRefModelInModel](../interfaces/core_maker.IRefModelInModel.html)
+[IRefModelInModel](../interfaces/core_maker.IRefModelInModel.md)
 
 
-[IRefPathIdInModel](../interfaces/core_maker.IRefPathIdInModel.html)
+[IRefPathIdInModel](../interfaces/core_maker.IRefPathIdInModel.md)
 
 
-[IRouteOffset](../interfaces/core_maker.IRouteOffset.html)
+[IRouteOffset](../interfaces/core_maker.IRouteOffset.md)
 
 
-[ISimplifyOptions](../interfaces/core_maker.ISimplifyOptions.html)
+[ISimplifyOptions](../interfaces/core_maker.ISimplifyOptions.md)
 
 
-[ISlope](../interfaces/core_maker.ISlope.html)
+[ISlope](../interfaces/core_maker.ISlope.md)
 
 
-[IWalkModel](../interfaces/core_maker.IWalkModel.html)
+[IWalkModel](../interfaces/core_maker.IWalkModel.md)
 
 
-[IWalkModelCallback](../interfaces/core_maker.IWalkModelCallback.html)
+[IWalkModelCallback](../interfaces/core_maker.IWalkModelCallback.md)
 
 
-[IWalkModelCancellableCallback](../interfaces/core_maker.IWalkModelCancellableCallback.html)
+[IWalkModelCancellableCallback](../interfaces/core_maker.IWalkModelCancellableCallback.md)
 
 
-[IWalkOptions](../interfaces/core_maker.IWalkOptions.html)
+[IWalkOptions](../interfaces/core_maker.IWalkOptions.md)
 
 
-[IWalkPath](../interfaces/core_maker.IWalkPath.html)
+[IWalkPath](../interfaces/core_maker.IWalkPath.md)
 
 
-[IWalkPathBooleanCallback](../interfaces/core_maker.IWalkPathBooleanCallback.html)
+[IWalkPathBooleanCallback](../interfaces/core_maker.IWalkPathBooleanCallback.md)
 
 
-[IWalkPathCallback](../interfaces/core_maker.IWalkPathCallback.html)
+[IWalkPathCallback](../interfaces/core_maker.IWalkPathCallback.md)
 
 ## Variables
 
-[environment](../variables/core_maker.environment.html)
+[environment](../variables/core_maker.environment.md)
 
 
-[environmentTypes](../variables/core_maker.environmentTypes.html)
+[environmentTypes](../variables/core_maker.environmentTypes.md)
 
 
-[pathType](../variables/core_maker.pathType.html)
+[pathType](../variables/core_maker.pathType.md)
 
 
-[unitType](../variables/core_maker.unitType.html)
+[unitType](../variables/core_maker.unitType.md)
 
 
-[version](../variables/core_maker.version.html)
+[version](../variables/core_maker.version.md)
 
 ## Functions
 
-[cloneObject](../functions/core_maker.cloneObject.html)
+[cloneObject](../functions/core_maker.cloneObject.md)
 
 
-[createRouteKey](../functions/core_maker.createRouteKey.html)
+[createRouteKey](../functions/core_maker.createRouteKey.md)
 
 
-[extendObject](../functions/core_maker.extendObject.html)
+[extendObject](../functions/core_maker.extendObject.md)
 
 
-[isChain](../functions/core_maker.isChain.html)
+[isChain](../functions/core_maker.isChain.md)
 
 
-[isFunction](../functions/core_maker.isFunction.html)
+[isFunction](../functions/core_maker.isFunction.md)
 
 
-[isModel](../functions/core_maker.isModel.html)
+[isModel](../functions/core_maker.isModel.md)
 
 
-[isNumber](../functions/core_maker.isNumber.html)
+[isNumber](../functions/core_maker.isNumber.md)
 
 
-[isObject](../functions/core_maker.isObject.html)
+[isObject](../functions/core_maker.isObject.md)
 
 
-[isPath](../functions/core_maker.isPath.html)
+[isPath](../functions/core_maker.isPath.md)
 
 
-[isPathArc](../functions/core_maker.isPathArc.html)
+[isPathArc](../functions/core_maker.isPathArc.md)
 
 
-[isPathArcInBezierCurve](../functions/core_maker.isPathArcInBezierCurve.html)
+[isPathArcInBezierCurve](../functions/core_maker.isPathArcInBezierCurve.md)
 
 
-[isPathCircle](../functions/core_maker.isPathCircle.html)
+[isPathCircle](../functions/core_maker.isPathCircle.md)
 
 
-[isPathLine](../functions/core_maker.isPathLine.html)
+[isPathLine](../functions/core_maker.isPathLine.md)
 
 
-[isPoint](../functions/core_maker.isPoint.html)
+[isPoint](../functions/core_maker.isPoint.md)
 
 
-[round](../functions/core_maker.round.html)
+[round](../functions/core_maker.round.md)
 
 
-[splitDecimal](../functions/core_maker.splitDecimal.html)
+[splitDecimal](../functions/core_maker.splitDecimal.md)
 
 
-[travel](../functions/core_maker.travel.html)
+[travel](../functions/core_maker.travel.md)
 
 ### Settings
 
@@ -216,7 +216,7 @@ Functions
 
 [cloneObject](#cloneobject)[createRouteKey](#createroutekey)[extendObject](#extendobject)[isChain](#ischain)[isFunction](#isfunction)[isModel](#ismodel)[isNumber](#isnumber)[isObject](#isobject)[isPath](#ispath)[isPathArc](#ispatharc)[isPathArcInBezierCurve](#ispatharcinbeziercurve)[isPathCircle](#ispathcircle)[isPathLine](#ispathline)[isPoint](#ispoint)[round](#round)[splitDecimal](#splitdecimal)[travel](#travel)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

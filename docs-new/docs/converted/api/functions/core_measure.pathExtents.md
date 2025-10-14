@@ -5,30 +5,30 @@ source: docs/docs/api/functions/core_measure.pathExtents.html
 
 pathExtents | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/measure](../modules/core_measure.html)
+* [core/measure](../modules/core_measure.md)
 * pathExtents
 
 # Function pathExtents
 
-* pathExtents(pathToMeasure: [IPath](../interfaces/core_schema.IPath.html), addOffset?: [IPoint](../interfaces/core_schema.IPoint.html)): [IMeasure](../interfaces/core_maker.IMeasure.html)
+* pathExtents(pathToMeasure: [IPath](../interfaces/core_schema.IPath.md), addOffset?: [IPoint](../interfaces/core_schema.IPoint.md)): [IMeasure](../interfaces/core_maker.IMeasure.md)
 
   Calculates the smallest rectangle which contains a path.
 
   #### Parameters
 
-  + pathToMeasure: [IPath](../interfaces/core_schema.IPath.html)
+  + pathToMeasure: [IPath](../interfaces/core_schema.IPath.md)
 
     The path to measure.
-  + `Optional`addOffset: [IPoint](../interfaces/core_schema.IPoint.html)
+  + `Optional`addOffset: [IPoint](../interfaces/core_schema.IPoint.md)
 
-  #### Returns [IMeasure](../interfaces/core_maker.IMeasure.html)
+  #### Returns [IMeasure](../interfaces/core_maker.IMeasure.md)
 
   object with low and high points.
 
@@ -43,7 +43,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

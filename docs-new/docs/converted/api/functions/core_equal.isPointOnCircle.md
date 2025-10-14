@@ -5,21 +5,21 @@ source: docs/docs/api/functions/core_equal.isPointOnCircle.html
 
 isPointOnCircle | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/equal](../modules/core_equal.html)
+* [core/equal](../modules/core_equal.md)
 * isPointOnCircle
 
 # Function isPointOnCircle
 
 * isPointOnCircle(
-      p: [IPoint](../interfaces/core_schema.IPoint.html),
-      circle: [IPathCircle](../interfaces/core_schema.IPathCircle.html),
+      p: [IPoint](../interfaces/core_schema.IPoint.md),
+      circle: [IPathCircle](../interfaces/core_schema.IPathCircle.md),
       withinDistance?: number,
   ): boolean
 
@@ -27,8 +27,8 @@ Preparing search index...
 
   #### Parameters
 
-  + p: [IPoint](../interfaces/core_schema.IPoint.html)
-  + circle: [IPathCircle](../interfaces/core_schema.IPathCircle.html)
+  + p: [IPoint](../interfaces/core_schema.IPoint.md)
+  + circle: [IPathCircle](../interfaces/core_schema.IPathCircle.md)
   + withinDistance: number = 0
 
   #### Returns boolean
@@ -44,7 +44,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

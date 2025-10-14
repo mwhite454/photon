@@ -5,7 +5,7 @@ source: docs/docs/api/modules/core_fillet-core.html
 
 core/fillet-core | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
@@ -25,7 +25,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

@@ -5,7 +5,7 @@ source: docs/docs/api/modules/core_paths.html
 
 core/paths | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
@@ -18,19 +18,19 @@ Preparing search index...
 
 ## Classes
 
-[Arc](../classes/core_paths.Arc.html)
+[Arc](../classes/core_paths.Arc.md)
 
 
-[Chord](../classes/core_paths.Chord.html)
+[Chord](../classes/core_paths.Chord.md)
 
 
-[Circle](../classes/core_paths.Circle.html)
+[Circle](../classes/core_paths.Circle.md)
 
 
-[Line](../classes/core_paths.Line.html)
+[Line](../classes/core_paths.Line.md)
 
 
-[Parallel](../classes/core_paths.Parallel.html)
+[Parallel](../classes/core_paths.Parallel.md)
 
 ### Settings
 
@@ -47,7 +47,7 @@ Classes
 
 [Arc](#arc)[Chord](#chord)[Circle](#circle)[Line](#line)[Parallel](#parallel)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

@@ -5,14 +5,14 @@ source: docs/docs/api/classes/models_OvalArc.OvalArc.html
 
 OvalArc | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [models/OvalArc](../modules/models_OvalArc.html)
+* [models/OvalArc](../modules/models_OvalArc.md)
 * OvalArc
 
 # Class OvalArc
@@ -21,7 +21,7 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
 #### Implements
 
-* [IModel](../interfaces/core_schema.IModel.html)
+* [IModel](../interfaces/core_schema.IModel.md)
 
 * Defined in [models/OvalArc.ts:10](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/OvalArc.ts#L10)
 
@@ -66,21 +66,21 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
 ### models
 
-models: [IModelMap](../interfaces/core_schema.IModelMap.html)
+models: [IModelMap](../interfaces/core_schema.IModelMap.md)
 
 Optional map of models within this model.
 
-Implementation of [IModel](../interfaces/core_schema.IModel.html).[models](../interfaces/core_schema.IModel.html#models)
+Implementation of [IModel](../interfaces/core_schema.IModel.md).[models](../interfaces/core_schema.IModel.md#models)
 
 * Defined in [models/OvalArc.ts:12](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/OvalArc.ts#L12)
 
 ### paths
 
-paths: [IPathMap](../interfaces/core_schema.IPathMap.html) = {}
+paths: [IPathMap](../interfaces/core_schema.IPathMap.md) = {}
 
 Optional map of path objects in this model.
 
-Implementation of [IModel](../interfaces/core_schema.IModel.html).[paths](../interfaces/core_schema.IModel.html#paths)
+Implementation of [IModel](../interfaces/core_schema.IModel.md).[paths](../interfaces/core_schema.IModel.md#paths)
 
 * Defined in [models/OvalArc.ts:11](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/OvalArc.ts#L11)
 
@@ -103,7 +103,7 @@ Properties
 
 [models](#models)[paths](#paths)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

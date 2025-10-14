@@ -5,14 +5,14 @@ source: docs/docs/api/interfaces/core_openjscad-esm.IJscadScriptOptions.html
 
 IJscadScriptOptions | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/openjscad-esm](../modules/core_openjscad-esm.html)
+* [core/openjscad-esm](../modules/core_openjscad-esm.md)
 * IJscadScriptOptions
 
 # Interface IJscadScriptOptions
@@ -25,17 +25,17 @@ interface IJscadScriptOptions {
     [extrude](#extrude)?: number;
     [functionName](#functionname)?: string;
     [indent](#indent)?: number;
-    [layerOptions](#layeroptions)?: { [layerId: string]: [IJscadExtrudeOptions](core_openjscad-esm.IJscadExtrudeOptions.html) };
+    [layerOptions](#layeroptions)?: { [layerId: string]: [IJscadExtrudeOptions](core_openjscad-esm.IJscadExtrudeOptions.md) };
     [maxArcFacet](#maxarcfacet)?: number;
     [pointMatchingDistance](#pointmatchingdistance)?: number;
-    [statusCallback](#statuscallback)?: [IStatusCallback](core_openjscad-esm.IStatusCallback.html);
+    [statusCallback](#statuscallback)?: [IStatusCallback](core_openjscad-esm.IStatusCallback.md);
     [units](#units)?: string;
     [z](#z)?: number;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.html#core/openjscad-esm.IJscadScriptOptions))
+#### Hierarchy ([View Summary](../hierarchy.md#core/openjscad-esm.IJscadScriptOptions))
 
-* [IJscadCsgOptions](core_openjscad-esm.IJscadCsgOptions.html)
+* [IJscadCsgOptions](core_openjscad-esm.IJscadCsgOptions.md)
   + IJscadScriptOptions
 
 * Defined in [core/openjscad-esm.ts:554](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/openjscad-esm.ts#L554)
@@ -64,7 +64,7 @@ accuracy?: number
 
 Optional exemplar of number of decimal places.
 
-Inherited from [IJscadCsgOptions](core_openjscad-esm.IJscadCsgOptions.html).[accuracy](core_openjscad-esm.IJscadCsgOptions.html#accuracy)
+Inherited from [IJscadCsgOptions](core_openjscad-esm.IJscadCsgOptions.md).[accuracy](core_openjscad-esm.IJscadCsgOptions.md#accuracy)
 
 * Defined in [core/exporter.ts:14](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/exporter.ts#L14)
 
@@ -74,7 +74,7 @@ byLayers?: boolean
 
 Flag to separate chains by layers.
 
-Inherited from [IJscadCsgOptions](core_openjscad-esm.IJscadCsgOptions.html).[byLayers](core_openjscad-esm.IJscadCsgOptions.html#bylayers)
+Inherited from [IJscadCsgOptions](core_openjscad-esm.IJscadCsgOptions.md).[byLayers](core_openjscad-esm.IJscadCsgOptions.md#bylayers)
 
 * Defined in [core/openjscad-esm.ts:513](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/openjscad-esm.ts#L513)
 
@@ -84,7 +84,7 @@ extrude?: number
 
 Optional depth of 3D extrusion.
 
-Inherited from [IJscadCsgOptions](core_openjscad-esm.IJscadCsgOptions.html).[extrude](core_openjscad-esm.IJscadCsgOptions.html#extrude)
+Inherited from [IJscadCsgOptions](core_openjscad-esm.IJscadCsgOptions.md).[extrude](core_openjscad-esm.IJscadCsgOptions.md#extrude)
 
 * Defined in [core/openjscad-esm.ts:533](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/openjscad-esm.ts#L533)
 
@@ -106,11 +106,11 @@ Optional number of spaces to indent.
 
 ### `Optional`layerOptions
 
-layerOptions?: { [layerId: string]: [IJscadExtrudeOptions](core_openjscad-esm.IJscadExtrudeOptions.html) }
+layerOptions?: { [layerId: string]: [IJscadExtrudeOptions](core_openjscad-esm.IJscadExtrudeOptions.md) }
 
 SVG options per layer.
 
-Inherited from [IJscadCsgOptions](core_openjscad-esm.IJscadCsgOptions.html).[layerOptions](core_openjscad-esm.IJscadCsgOptions.html#layeroptions)
+Inherited from [IJscadCsgOptions](core_openjscad-esm.IJscadCsgOptions.md).[layerOptions](core_openjscad-esm.IJscadCsgOptions.md#layeroptions)
 
 * Defined in [core/openjscad-esm.ts:548](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/openjscad-esm.ts#L548)
 
@@ -120,7 +120,7 @@ maxArcFacet?: number
 
 The maximum length between points on an arc or circle.
 
-Inherited from [IJscadCsgOptions](core_openjscad-esm.IJscadCsgOptions.html).[maxArcFacet](core_openjscad-esm.IJscadCsgOptions.html#maxarcfacet)
+Inherited from [IJscadCsgOptions](core_openjscad-esm.IJscadCsgOptions.md).[maxArcFacet](core_openjscad-esm.IJscadCsgOptions.md#maxarcfacet)
 
 * Defined in [core/openjscad-esm.ts:518](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/openjscad-esm.ts#L518)
 
@@ -130,17 +130,17 @@ pointMatchingDistance?: number
 
 Max distance to consider two points as the same.
 
-Inherited from [IJscadCsgOptions](core_openjscad-esm.IJscadCsgOptions.html).[pointMatchingDistance](core_openjscad-esm.IJscadCsgOptions.html#pointmatchingdistance)
+Inherited from [IJscadCsgOptions](core_openjscad-esm.IJscadCsgOptions.md).[pointMatchingDistance](core_openjscad-esm.IJscadCsgOptions.md#pointmatchingdistance)
 
 * Defined in [core/maker.ts:282](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L282)
 
 ### `Optional`statusCallback
 
-statusCallback?: [IStatusCallback](core_openjscad-esm.IStatusCallback.html)
+statusCallback?: [IStatusCallback](core_openjscad-esm.IStatusCallback.md)
 
 Optional callback to get status during the export.
 
-Inherited from [IJscadCsgOptions](core_openjscad-esm.IJscadCsgOptions.html).[statusCallback](core_openjscad-esm.IJscadCsgOptions.html#statuscallback)
+Inherited from [IJscadCsgOptions](core_openjscad-esm.IJscadCsgOptions.md).[statusCallback](core_openjscad-esm.IJscadCsgOptions.md#statuscallback)
 
 * Defined in [core/openjscad-esm.ts:523](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/openjscad-esm.ts#L523)
 
@@ -150,7 +150,7 @@ units?: string
 
 Optional unit system to embed in exported file, if the export format allows alternate unit systems.
 
-Inherited from [IJscadCsgOptions](core_openjscad-esm.IJscadCsgOptions.html).[units](core_openjscad-esm.IJscadCsgOptions.html#units)
+Inherited from [IJscadCsgOptions](core_openjscad-esm.IJscadCsgOptions.md).[units](core_openjscad-esm.IJscadCsgOptions.md#units)
 
 * Defined in [core/exporter.ts:19](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/exporter.ts#L19)
 
@@ -160,7 +160,7 @@ z?: number
 
 Optional depth of 3D extrusion.
 
-Inherited from [IJscadCsgOptions](core_openjscad-esm.IJscadCsgOptions.html).[z](core_openjscad-esm.IJscadCsgOptions.html#z)
+Inherited from [IJscadCsgOptions](core_openjscad-esm.IJscadCsgOptions.md).[z](core_openjscad-esm.IJscadCsgOptions.md#z)
 
 * Defined in [core/openjscad-esm.ts:538](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/openjscad-esm.ts#L538)
 
@@ -179,7 +179,7 @@ Properties
 
 [accuracy](#accuracy)[byLayers](#bylayers)[extrude](#extrude)[functionName](#functionname)[indent](#indent)[layerOptions](#layeroptions)[maxArcFacet](#maxarcfacet)[pointMatchingDistance](#pointmatchingdistance)[statusCallback](#statuscallback)[units](#units)[z](#z)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

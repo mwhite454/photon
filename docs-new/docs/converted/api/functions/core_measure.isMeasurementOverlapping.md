@@ -5,28 +5,28 @@ source: docs/docs/api/functions/core_measure.isMeasurementOverlapping.html
 
 isMeasurementOverlapping | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/measure](../modules/core_measure.html)
+* [core/measure](../modules/core_measure.md)
 * isMeasurementOverlapping
 
 # Function isMeasurementOverlapping
 
-* isMeasurementOverlapping(measureA: [IMeasure](../interfaces/core_maker.IMeasure.html), measureB: [IMeasure](../interfaces/core_maker.IMeasure.html)): boolean
+* isMeasurementOverlapping(measureA: [IMeasure](../interfaces/core_maker.IMeasure.md), measureB: [IMeasure](../interfaces/core_maker.IMeasure.md)): boolean
 
   Check for measurement overlapping another measurement.
 
   #### Parameters
 
-  + measureA: [IMeasure](../interfaces/core_maker.IMeasure.html)
+  + measureA: [IMeasure](../interfaces/core_maker.IMeasure.md)
 
     The measurement to test.
-  + measureB: [IMeasure](../interfaces/core_maker.IMeasure.html)
+  + measureB: [IMeasure](../interfaces/core_maker.IMeasure.md)
 
     The measurement to check for overlap.
 
@@ -45,7 +45,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

@@ -5,37 +5,37 @@ source: docs/docs/api/functions/core_openjscad-esm.toJscadSTL.html
 
 toJscadSTL | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/openjscad-esm](../modules/core_openjscad-esm.html)
+* [core/openjscad-esm](../modules/core_openjscad-esm.md)
 * toJscadSTL
 
 # Function toJscadSTL
 
 * toJscadSTL(
-      CAG: typeof [CAG](../classes/types_jscad.export_.CAG.html),
-      stlSerializer: [StlSerializer](../interfaces/types_jscad.StlSerializer.html),
-      modelToExport: [IModel](../interfaces/core_schema.IModel.html),
-      options?: [IJscadCsgOptions](../interfaces/core_openjscad-esm.IJscadCsgOptions.html),
+      CAG: typeof [CAG](../classes/types_jscad.export_.CAG.md),
+      stlSerializer: [StlSerializer](../interfaces/types_jscad.StlSerializer.md),
+      modelToExport: [IModel](../interfaces/core_schema.IModel.md),
+      options?: [IJscadCsgOptions](../interfaces/core_openjscad-esm.IJscadCsgOptions.md),
   ): string
 
   Exports a model in STL format - 2D to 3D.
 
   #### Parameters
 
-  + CAG: typeof [CAG](../classes/types_jscad.export_.CAG.html)
-  + stlSerializer: [StlSerializer](../interfaces/types_jscad.StlSerializer.html)
+  + CAG: typeof [CAG](../classes/types_jscad.export_.CAG.md)
+  + stlSerializer: [StlSerializer](../interfaces/types_jscad.StlSerializer.md)
 
     @jscad/stl-serializer, see <https://www.npmjs.com/package/@jscad/stl-serializer>
-  + modelToExport: [IModel](../interfaces/core_schema.IModel.html)
+  + modelToExport: [IModel](../interfaces/core_schema.IModel.md)
 
     Model object to export.
-  + options: [IJscadCsgOptions](../interfaces/core_openjscad-esm.IJscadCsgOptions.html) = {}
+  + options: [IJscadCsgOptions](../interfaces/core_openjscad-esm.IJscadCsgOptions.md) = {}
 
     Optional options object.
 
@@ -50,7 +50,7 @@ Preparing search index...
     - ##### `Optional`extrude?: number
 
       Optional depth of 3D extrusion.
-    - ##### `Optional`layerOptions?: { [layerId: string]: [IJscadExtrudeOptions](../interfaces/core_openjscad-esm.IJscadExtrudeOptions.html) }
+    - ##### `Optional`layerOptions?: { [layerId: string]: [IJscadExtrudeOptions](../interfaces/core_openjscad-esm.IJscadExtrudeOptions.md) }
 
       SVG options per layer.
     - ##### `Optional`maxArcFacet?: number
@@ -59,7 +59,7 @@ Preparing search index...
     - ##### `Optional`pointMatchingDistance?: number
 
       Max distance to consider two points as the same.
-    - ##### `Optional`statusCallback?: [IStatusCallback](../interfaces/core_openjscad-esm.IStatusCallback.html)
+    - ##### `Optional`statusCallback?: [IStatusCallback](../interfaces/core_openjscad-esm.IStatusCallback.md)
 
       Optional callback to get status during the export.
     - ##### `Optional`units?: string
@@ -84,7 +84,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

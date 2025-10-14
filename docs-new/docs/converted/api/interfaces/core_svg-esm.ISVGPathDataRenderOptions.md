@@ -5,14 +5,14 @@ source: docs/docs/api/interfaces/core_svg-esm.ISVGPathDataRenderOptions.html
 
 ISVGPathDataRenderOptions | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/svg-esm](../modules/core_svg-esm.html)
+* [core/svg-esm](../modules/core_svg-esm.md)
 * ISVGPathDataRenderOptions
 
 # Interface ISVGPathDataRenderOptions
@@ -21,7 +21,7 @@ interface ISVGPathDataRenderOptions {
     [accuracy](#accuracy)?: number;
     [byLayers](#bylayers)?: boolean;
     [fillRule](#fillrule)?: "evenodd" | "nonzero";
-    [origin](#origin)?: [IPoint](core_schema.IPoint.html);
+    [origin](#origin)?: [IPoint](core_schema.IPoint.md);
 }
 
 * Defined in [core/svg-esm.ts:267](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/svg-esm.ts#L267)
@@ -57,7 +57,7 @@ fillRule?: "evenodd" | "nonzero"
 
 ### `Optional`origin
 
-origin?: [IPoint](core_schema.IPoint.html)
+origin?: [IPoint](core_schema.IPoint.md)
 
 * Defined in [core/svg-esm.ts:271](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/svg-esm.ts#L271)
 
@@ -76,7 +76,7 @@ Properties
 
 [accuracy](#accuracy)[byLayers](#bylayers)[fillRule](#fillrule)[origin](#origin)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

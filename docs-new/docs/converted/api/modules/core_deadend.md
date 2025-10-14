@@ -5,7 +5,7 @@ source: docs/docs/api/modules/core_deadend.html
 
 core/deadend | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
@@ -18,7 +18,7 @@ Preparing search index...
 
 ## Functions
 
-[removeDeadEnds](../functions/core_deadend.removeDeadEnds.html)
+[removeDeadEnds](../functions/core_deadend.removeDeadEnds.md)
 
 ### Settings
 
@@ -35,7 +35,7 @@ Functions
 
 [removeDeadEnds](#removedeadends)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

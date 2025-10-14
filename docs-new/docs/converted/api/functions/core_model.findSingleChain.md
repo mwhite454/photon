@@ -5,25 +5,25 @@ source: docs/docs/api/functions/core_model.findSingleChain.html
 
 findSingleChain | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/model](../modules/core_model.html)
+* [core/model](../modules/core_model.md)
 * findSingleChain
 
 # Function findSingleChain
 
-* findSingleChain(modelContext: [IModel](../interfaces/core_schema.IModel.html)): [IChain](../interfaces/core_maker.IChain.html)
+* findSingleChain(modelContext: [IModel](../interfaces/core_schema.IModel.md)): [IChain](../interfaces/core_maker.IChain.md)
 
   #### Parameters
 
-  + modelContext: [IModel](../interfaces/core_schema.IModel.html)
+  + modelContext: [IModel](../interfaces/core_schema.IModel.md)
 
-  #### Returns [IChain](../interfaces/core_maker.IChain.html)
+  #### Returns [IChain](../interfaces/core_maker.IChain.md)
 
   + Defined in [core/model.ts:19](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/model.ts#L19)
 
@@ -36,7 +36,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

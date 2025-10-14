@@ -5,14 +5,14 @@ source: docs/docs/api/classes/models_Dome.Dome.html
 
 Dome | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [models/Dome](../modules/models_Dome.html)
+* [models/Dome](../modules/models_Dome.md)
 * Dome
 
 # Class Dome
@@ -21,7 +21,7 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
 #### Implements
 
-* [IModel](../interfaces/core_schema.IModel.html)
+* [IModel](../interfaces/core_schema.IModel.md)
 
 * Defined in [models/Dome.ts:5](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Dome.ts#L5)
 
@@ -61,11 +61,11 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
 ### paths
 
-paths: [IPathMap](../interfaces/core_schema.IPathMap.html) = {}
+paths: [IPathMap](../interfaces/core_schema.IPathMap.md) = {}
 
 Optional map of path objects in this model.
 
-Implementation of [IModel](../interfaces/core_schema.IModel.html).[paths](../interfaces/core_schema.IModel.html#paths)
+Implementation of [IModel](../interfaces/core_schema.IModel.md).[paths](../interfaces/core_schema.IModel.md#paths)
 
 * Defined in [models/Dome.ts:6](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Dome.ts#L6)
 
@@ -88,7 +88,7 @@ Properties
 
 [paths](#paths)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

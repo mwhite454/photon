@@ -3,10 +3,6 @@ title: Modeling
 source: docs/_snippets/modeling.html
 ---
 
----
-title: Basic modeling
----
-
 Given the fundamental models and ability to move instances of them, we can now start modeling.
 Here are a few examples to illustrate how you might use these:
 
@@ -14,20 +10,20 @@ House:
 
 ```javascript
 //render a simple house using ConnectTheDots and Square
-var makerjs = require('makerjs');
-var points = [
+import { exporter, models, paths } from 'photon/core';
+const points = [
 [100, 0], [100, 100], [0, 175], [-100, 100], [-100, 0],
 [-20, 0], [-20, 80], [20, 80], [20, 0]
 ];
-var house = new makerjs.models.ConnectTheDots(true, points);
-var window1 = new makerjs.models.Square(40);
+const house = new models.ConnectTheDots(true, points);
+const window1 = new models.Square(40);
 window1.origin = [40, 40];
-var window2 = new makerjs.models.Square(40);
+const window2 = new models.Square(40);
 window2.origin = [-80, 40];
-var houseWithWindows = {
+const houseWithWindows = {
 models: { "myHouse": house, "window1": window1, "window2": window2 }
 };
-var svg = makerjs.exporter.toSVG(houseWithWindows);
+const svg = exporter.toSVG(houseWithWindows);
 document.write(svg);
 ```
 
@@ -35,18 +31,18 @@ Tablet mount:
 
 ```javascript
 //render a tablet frame using BoltRectangle and RoundRectangle
-var makerjs = require('makerjs');
-var outer = new makerjs.models.RoundRectangle(200, 280, 8);
-var inner = new makerjs.models.RoundRectangle(160, 230, 8);
+import { exporter, models, paths } from 'photon/core';
+const outer = new models.RoundRectangle(200, 280, 8);
+const inner = new models.RoundRectangle(160, 230, 8);
 inner.origin = [20, 30];
-var buttonhole = new makerjs.paths.Circle([100, 15], 8);
-var bolts = new makerjs.models.BoltRectangle(180, 260, 2);
+const buttonhole = new paths.Circle([100, 15], 8);
+const bolts = new models.BoltRectangle(180, 260, 2);
 bolts.origin = [10, 10];
-var tabletFaceMount = {
+const tabletFaceMount = {
 paths: { buttonhole: buttonhole },
 models: { inner: inner, outer: outer, bolts: bolts }
 };
-var svg = makerjs.exporter.toSVG(tabletFaceMount);
+const svg = exporter.toSVG(tabletFaceMount);
 document.write(svg);
 ```
 
@@ -54,15 +50,15 @@ Circular adapter plate:
 
 ```javascript
 //render an adapter using Ring and BoltCircle
-var makerjs = require('makerjs');
-var model = {
+import { exporter, models, paths } from 'photon/core';
+const model = {
 models: {
-ring1: new makerjs.models.Ring(40, 100),
-bc1: new makerjs.models.BoltCircle(90, 4, 10),
-bc2: new makerjs.models.BoltCircle(55, 7, 6, 30)
+ring1: new models.Ring(40, 100),
+bc1: new models.BoltCircle(90, 4, 10),
+bc2: new models.BoltCircle(55, 7, 6, 30)
 }
 };
-var svg = makerjs.exporter.toSVG(model);
+const svg = exporter.toSVG(model);
 document.write(svg);
 ```
 
@@ -70,23 +66,23 @@ Skateboard deck:
 
 ```javascript
 //render a skateboard deck using BoltRectangle and Oval
-var makerjs = require('makerjs');
+import { exporter, models, paths } from 'photon/core';
 function truckBolts() {
-var tx = 1 + 5/8;
-var ty = 1 + 1/8;
-var bolts = new makerjs.models.BoltRectangle(tx, ty, 7/32 / 2);
+const tx = 1 + 5/8;
+const ty = 1 + 1/8;
+const bolts = new models.BoltRectangle(tx, ty, 7/32 / 2);
 bolts.origin = [tx / -2, ty / -2];
 this.models = [bolts];
 }
 function deck(width, length, truckOffset) {
-var board = new makerjs.models.Oval(length, width);
+const board = new models.Oval(length, width);
 board.origin = [0, width / -2];
-var truck1 = new truckBolts();
+const truck1 = new truckBolts();
 truck1.origin = [truckOffset, 0];
-var truck2 = new truckBolts();
+const truck2 = new truckBolts();
 truck2.origin = [length - truckOffset, 0];
 this.models = { board: board, truck1: truck1, truck2: truck2 };
 }
-var svg = makerjs.exporter.toSVG(new deck(8, 32, 7));
+const svg = exporter.toSVG(new deck(8, 32, 7));
 document.write(svg);
 ```

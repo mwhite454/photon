@@ -1,0 +1,56 @@
+{
+  "source_root": "/Users/mykawhite/Documents/GitHub/photon/docs",
+  "target_root": "/Users/mykawhite/Documents/GitHub/photon/docs-new/docs",
+  "dirs": [
+    "images",
+    "stylesheets",
+    "fonts",
+    "external",
+    "demos",
+    "playground"
+  ],
+  "results": [
+    {
+      "copied": 11,
+      "skipped": 0,
+      "bytes_copied": 2298581,
+      "dir": "images"
+    },
+    {
+      "copied": 5,
+      "skipped": 0,
+      "bytes_copied": 66784,
+      "dir": "stylesheets"
+    },
+    {
+      "copied": 53,
+      "skipped": 0,
+      "bytes_copied": 1403487,
+      "dir": "fonts"
+    },
+    {
+      "copied": 143,
+      "skipped": 0,
+      "bytes_copied": 16028593,
+      "dir": "external"
+    },
+    {
+      "copied": 2060,
+      "skipped": 0,
+      "bytes_copied": 24900156,
+      "dir": "demos"
+    },
+    {
+      "copied": 32,
+      "skipped": 0,
+      "bytes_copied": 285934,
+      "dir": "playground"
+    }
+  ],
+  "missing_sources": [],
+  "totals": {
+    "files_copied": 2304,
+    "files_skipped": 0,
+    "bytes_copied": 44983535
+  }
+}

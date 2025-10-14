@@ -5,29 +5,29 @@ source: docs/docs/api/functions/core_fillet-chain.chainFillet.html
 
 chainFillet | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/fillet-chain](../modules/core_fillet-chain.html)
+* [core/fillet-chain](../modules/core_fillet-chain.md)
 * chainFillet
 
 # Function chainFillet
 
 * chainFillet(
-      chainToFillet: [IChain](../interfaces/core_maker.IChain.html),
+      chainToFillet: [IChain](../interfaces/core_maker.IChain.md),
       filletSpec: number | { left?: number; right?: number },
-  ): [IModel](../interfaces/core_schema.IModel.html)
+  ): [IModel](../interfaces/core_schema.IModel.md)
 
   #### Parameters
 
-  + chainToFillet: [IChain](../interfaces/core_maker.IChain.html)
+  + chainToFillet: [IChain](../interfaces/core_maker.IChain.md)
   + filletSpec: number | { left?: number; right?: number }
 
-  #### Returns [IModel](../interfaces/core_schema.IModel.html)
+  #### Returns [IModel](../interfaces/core_schema.IModel.md)
 
   + Defined in [core/fillet-chain.ts:11](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/fillet-chain.ts#L11)
 
@@ -40,7 +40,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

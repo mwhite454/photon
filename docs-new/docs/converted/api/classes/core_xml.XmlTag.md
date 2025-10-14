@@ -5,14 +5,14 @@ source: docs/docs/api/classes/core_xml.XmlTag.html
 
 XmlTag | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/xml](../modules/core_xml.html)
+* [core/xml](../modules/core_xml.md)
 * XmlTag
 
 # Class XmlTag
@@ -47,12 +47,12 @@ Class for an XML tag.
 
 ### constructor
 
-* new XmlTag(name: string, attrs?: [IXmlTagAttrs](../interfaces/core_xml.IXmlTagAttrs.html)): XmlTag
+* new XmlTag(name: string, attrs?: [IXmlTagAttrs](../interfaces/core_xml.IXmlTagAttrs.md)): XmlTag
 
   #### Parameters
 
   + name: string
-  + `Optional`attrs: [IXmlTagAttrs](../interfaces/core_xml.IXmlTagAttrs.html)
+  + `Optional`attrs: [IXmlTagAttrs](../interfaces/core_xml.IXmlTagAttrs.md)
 
   #### Returns XmlTag
 
@@ -62,7 +62,7 @@ Class for an XML tag.
 
 ### `Optional`attrs
 
-attrs?: [IXmlTagAttrs](../interfaces/core_xml.IXmlTagAttrs.html)
+attrs?: [IXmlTagAttrs](../interfaces/core_xml.IXmlTagAttrs.md)
 
 * Defined in [core/xml.ts:34](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/xml.ts#L34)
 
@@ -179,7 +179,7 @@ Methods
 
 [getClosingTag](#getclosingtag)[getInnerText](#getinnertext)[getOpeningTag](#getopeningtag)[toString](#tostring)[escapeString](#escapestring)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

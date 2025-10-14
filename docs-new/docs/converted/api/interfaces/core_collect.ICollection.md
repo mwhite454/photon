@@ -5,14 +5,14 @@ source: docs/docs/api/interfaces/core_collect.ICollection.html
 
 ICollection | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/collect](../modules/core_collect.html)
+* [core/collect](../modules/core_collect.md)
 * ICollection
 
 # Interface ICollection<K, T>
@@ -67,7 +67,7 @@ Properties
 
 [items](#items)[key](#key)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

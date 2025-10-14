@@ -18,14 +18,88 @@ copyright: >
 use_directory_urls: true
 
 nav:
-  - Home: index.md
-  - Getting Started: getting-started/index.md
-  - Basic Drawing: basic-drawing/index.md
-  - Advanced Drawing: advanced-drawing/index.md
-  - Model Trees: model-trees/index.md
-  - Exporting: exporting/index.md
-  - API: api/index.md
-  - Converted: converted/index.md
+  - Photon Documentation: index.md
+  - Getting Started:
+    - Try It Now: snippets/try-it-now.md
+    - For the Browser: snippets/getting-started-browser.md
+    - For Node.js: snippets/getting-started-node.md
+    - Using the $ Function: snippets/$-function.md
+    - Frequently Used Functions: snippets/frequently-used-functions.md
+  - Basic Drawing:
+    - Paths: snippets/paths.md
+    - Models: snippets/models.md
+    - Modeling: snippets/modeling.md
+    - Built-in Models: snippets/built-in-models.md
+    - Rendering in SVG: snippets/basic-rendering-in-svg.md
+    - It's Just JSON: snippets/just-json.md
+    - Units: snippets/units.md
+    - Points: snippets/points.md
+    - Path Constructors: snippets/path-constructors.md
+    - Path Independence: snippets/path-independence.md
+    - Open vs Closed Geometry: snippets/open-vs-closed-geometry.md
+  - Intermediate Drawing:
+    - Cloning: snippets/cloning.md
+    - Moving: snippets/moving.md
+    - Rotating: snippets/rotating.md
+    - Scaling: snippets/scaling.md
+    - Mirroring: snippets/mirroring.md
+    - Modifying Models: snippets/modifying-models.md
+    - Measuring: snippets/measuring.md
+    - Zeroing and Centering: snippets/zeroing-and-centering.md
+    - Originating: snippets/originating.md
+    - Intersection: snippets/intersection.md
+    - Simplifying: snippets/simplifying.md
+    - Converging: snippets/converging.md
+    - Distorting: snippets/distorting.md
+    - Wireframe: snippets/wireframe.md
+    - Order of Operations: snippets/order-of-operations.md
+  - Advanced Drawing:
+    - Fillets: snippets/fillets.md
+    - Chain Fillet: snippets/chain-fillet.md
+    - Dogbones: snippets/dogbones.md
+    - Chain Dogbone: snippets/chain-dogbone.md
+    - Combining: snippets/combining.md
+    - Expanding: snippets/expanding.md
+    - Outlining: snippets/outlining.md
+    - Layers: snippets/layers.md
+    - Captions: snippets/captions.md
+    - Fonts and Text: snippets/fonts-and-text.md
+    - Breaking: snippets/breaking.md
+    - Routes: snippets/routes.md
+  - Working with Chains:
+    - Chains: snippets/chains.md
+    - Chain Theory: snippets/chain-theory.md
+    - Single Chain: snippets/chain-single.md
+    - Multiple Chains: snippets/chain-multiple.md
+    - Chain Links: snippets/chain-links.md
+    - Chain Order: snippets/chain-order.md
+    - Chain to Points: snippets/chain-to-points.md
+    - Chain to Key Points: snippets/chain-to-key-points.md
+    - Chain to New Model: snippets/chain-to-new-model.md
+  - Model Trees:
+    - Model Tree Navigation: snippets/tree.md
+    - Walking a Model: snippets/walking.md
+  - Layout:
+    - Repeating Layouts: snippets/layout-repeating.md
+    - Layout on Path: snippets/layout-on-path.md
+    - Layout on Chain: snippets/layout-on-chain.md
+  - Exporting:
+    - Exporting SVG: snippets/exporting-svg.md
+    - SVG Styling: snippets/svg-styling.md
+    - SVG Path Data: snippets/exporting-svg-path-data.md
+    - Exporting DXF: snippets/exporting-dxf.md
+    - Exporting PDF: snippets/exporting-pdf.md
+    - Exporting to OpenJSCAD: snippets/exporting-openjscad.md
+    - Exporting STL: snippets/exporting-stl.md
+  - Importing:
+    - SVG Path Data: snippets/importing-svg-path-data.md
+    - SVG Points: snippets/importing-svg-points.md
+  - Advanced Topics:
+    - Aliasing: snippets/aliasing.md
+    - Bezier Curves: snippets/bezier-curves.md
+    - Cascading Functions: snippets/cascading-functions.md
+    - Solvers: snippets/solvers.md
+  - API Reference: api/index.md
 
 # Theme
 theme:
@@ -39,6 +113,10 @@ theme:
   icon: heroicons:rocket-launch
   topbar_sections: false
   show_datetime: false
+  features:
+    - navigation.sections     # Render top-level sections as groups
+    - navigation.indexes      # Enable section index pages
+    - toc.integrate           # Integrate table of contents into navigation
 
 # Plugins
 plugins:

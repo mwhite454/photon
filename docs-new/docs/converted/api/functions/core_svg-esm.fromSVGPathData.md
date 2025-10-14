@@ -5,26 +5,26 @@ source: docs/docs/api/functions/core_svg-esm.fromSVGPathData.html
 
 fromSVGPathData | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/svg-esm](../modules/core_svg-esm.html)
+* [core/svg-esm](../modules/core_svg-esm.md)
 * fromSVGPathData
 
 # Function fromSVGPathData
 
-* fromSVGPathData(pathData: string, options?: [ISVGImportOptions](../interfaces/core_svg-esm.ISVGImportOptions.html)): [IModel](../interfaces/core_schema.IModel.html)
+* fromSVGPathData(pathData: string, options?: [ISVGImportOptions](../interfaces/core_svg-esm.ISVGImportOptions.md)): [IModel](../interfaces/core_schema.IModel.md)
 
   #### Parameters
 
   + pathData: string
-  + options: [ISVGImportOptions](../interfaces/core_svg-esm.ISVGImportOptions.html) = {}
+  + options: [ISVGImportOptions](../interfaces/core_svg-esm.ISVGImportOptions.md) = {}
 
-  #### Returns [IModel](../interfaces/core_schema.IModel.html)
+  #### Returns [IModel](../interfaces/core_schema.IModel.md)
 
   + Defined in [core/svg-esm.ts:49](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/svg-esm.ts#L49)
 
@@ -37,7 +37,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

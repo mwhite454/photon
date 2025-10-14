@@ -3,26 +3,22 @@ title: Tree
 source: docs/_snippets/tree.html
 ---
 
----
-title: Model tree structures
----
-
 A model is a tree structure which may contain paths, and it may also contain other models in a heirachy.
 Let's look at an example:
 
 ```javascript
 //mounting plate
-var makerjs = require('makerjs');
-var plate = {
+import { exporter, model, models, paths } from 'photon/core';
+const plate = {
 models: {
-outer: makerjs.model.center(new makerjs.models.RoundRectangle(120, 100, 10)),
-bolts: makerjs.model.center(new makerjs.models.BoltRectangle(100, 80, 5))
+outer: model.center(new models.RoundRectangle(120, 100, 10)),
+bolts: model.center(new models.BoltRectangle(100, 80, 5))
 },
 paths: {
-hole: new makerjs.paths.Circle(25)
+hole: new paths.Circle(25)
 }
 };
-var svg = makerjs.exporter.toSVG(plate);
+const svg = exporter.toSVG(plate);
 document.write(svg);
 ```
 
@@ -56,19 +52,19 @@ We can easily traverse the tree when starting at the root. For example, let's ch
 
 ```javascript
 //mounting plate
-var makerjs = require('makerjs');
-var plate = {
+import { exporter, model, models, paths } from 'photon/core';
+const plate = {
 models: {
-outer: makerjs.model.center(new makerjs.models.RoundRectangle(120, 100, 10)),
-bolts: makerjs.model.center(new makerjs.models.BoltRectangle(100, 80, 5))
+outer: model.center(new models.RoundRectangle(120, 100, 10)),
+bolts: model.center(new models.BoltRectangle(100, 80, 5))
 },
 paths: {
-hole: new makerjs.paths.Circle(25)
+hole: new paths.Circle(25)
 }
 };
 //change radius of BottomRight bolt hole
 plate.models.bolts.paths.BottomRight\_bolt.radius = 2;
-var svg = makerjs.exporter.toSVG(plate);
+const svg = exporter.toSVG(plate);
 document.write(svg);
 ```
 

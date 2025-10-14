@@ -5,14 +5,14 @@ source: docs/docs/api/interfaces/core_maker.IIsPointOnPathOptions.html
 
 IIsPointOnPathOptions | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.html)
+* [core/maker](../modules/core_maker.md)
 * IIsPointOnPathOptions
 
 # Interface IIsPointOnPathOptions
@@ -20,7 +20,7 @@ Preparing search index...
 Options to pass to measure.isPointOnPath.
 
 interface IIsPointOnPathOptions {
-    [cachedLineSlope](#cachedlineslope)?: [ISlope](core_maker.ISlope.html);
+    [cachedLineSlope](#cachedlineslope)?: [ISlope](core_maker.ISlope.md);
 }
 
 * Defined in [core/maker.ts:320](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L320)
@@ -35,7 +35,7 @@ interface IIsPointOnPathOptions {
 
 ### `Optional`cachedLineSlope
 
-cachedLineSlope?: [ISlope](core_maker.ISlope.html)
+cachedLineSlope?: [ISlope](core_maker.ISlope.md)
 
 The slope of the line, if applicable. This will be added to the options object if it did not exist.
 
@@ -56,7 +56,7 @@ Properties
 
 [cachedLineSlope](#cachedlineslope)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

@@ -5,20 +5,20 @@ source: docs/docs/api/interfaces/core_path.IWalkPath.html
 
 IWalkPath | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/path](../modules/core_path.html)
+* [core/path](../modules/core_path.md)
 * IWalkPath
 
 # Interface IWalkPath
 
 interface IWalkPath {
-    [pathContext](#pathcontext): [IPath](core_schema.IPath.html);
+    [pathContext](#pathcontext): [IPath](core_schema.IPath.md);
 }
 
 * Defined in [core/path.ts:19](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/path.ts#L19)
@@ -33,7 +33,7 @@ interface IWalkPath {
 
 ### pathContext
 
-pathContext: [IPath](core_schema.IPath.html)
+pathContext: [IPath](core_schema.IPath.md)
 
 * Defined in [core/path.ts:20](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/path.ts#L20)
 
@@ -52,7 +52,7 @@ Properties
 
 [pathContext](#pathcontext)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

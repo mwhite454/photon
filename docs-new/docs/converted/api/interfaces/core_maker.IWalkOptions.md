@@ -5,14 +5,14 @@ source: docs/docs/api/interfaces/core_maker.IWalkOptions.html
 
 IWalkOptions | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.html)
+* [core/maker](../modules/core_maker.md)
 * IWalkOptions
 
 # Interface IWalkOptions
@@ -20,9 +20,9 @@ Preparing search index...
 Options to pass to model.walk().
 
 interface IWalkOptions {
-    [afterChildWalk](#afterchildwalk)?: [IWalkModelCallback](core_maker.IWalkModelCallback.html);
-    [beforeChildWalk](#beforechildwalk)?: [IWalkModelCancellableCallback](core_maker.IWalkModelCancellableCallback.html);
-    [onPath](#onpath)?: [IWalkPathCallback](core_maker.IWalkPathCallback.html);
+    [afterChildWalk](#afterchildwalk)?: [IWalkModelCallback](core_maker.IWalkModelCallback.md);
+    [beforeChildWalk](#beforechildwalk)?: [IWalkModelCancellableCallback](core_maker.IWalkModelCancellableCallback.md);
+    [onPath](#onpath)?: [IWalkPathCallback](core_maker.IWalkPathCallback.md);
 }
 
 * Defined in [core/maker.ts:567](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L567)
@@ -39,7 +39,7 @@ interface IWalkOptions {
 
 ### `Optional`afterChildWalk
 
-afterChildWalk?: [IWalkModelCallback](core_maker.IWalkModelCallback.html)
+afterChildWalk?: [IWalkModelCallback](core_maker.IWalkModelCallback.md)
 
 Callback for every child model in every model, after all of its children have been walked.
 
@@ -47,7 +47,7 @@ Callback for every child model in every model, after all of its children have be
 
 ### `Optional`beforeChildWalk
 
-beforeChildWalk?: [IWalkModelCancellableCallback](core_maker.IWalkModelCancellableCallback.html)
+beforeChildWalk?: [IWalkModelCancellableCallback](core_maker.IWalkModelCancellableCallback.md)
 
 Callback for every child model in every model. Return false to stop walking down further models.
 
@@ -55,7 +55,7 @@ Callback for every child model in every model. Return false to stop walking down
 
 ### `Optional`onPath
 
-onPath?: [IWalkPathCallback](core_maker.IWalkPathCallback.html)
+onPath?: [IWalkPathCallback](core_maker.IWalkPathCallback.md)
 
 Callback for every path in every model.
 
@@ -76,7 +76,7 @@ Properties
 
 [afterChildWalk](#afterchildwalk)[beforeChildWalk](#beforechildwalk)[onPath](#onpath)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

@@ -5,25 +5,25 @@ source: docs/docs/api/interfaces/core_maker.IWalkPathBooleanCallback.html
 
 IWalkPathBooleanCallback | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.html)
+* [core/maker](../modules/core_maker.md)
 * IWalkPathBooleanCallback
 
 # Interface IWalkPathBooleanCallback
 
 Callback for returning a boolean from an IWalkPath.
 
-* IWalkPathBooleanCallback(context: [IWalkPath](core_maker.IWalkPath.html)): boolean
+* IWalkPathBooleanCallback(context: [IWalkPath](core_maker.IWalkPath.md)): boolean
 
   #### Parameters
 
-  + context: [IWalkPath](core_maker.IWalkPath.html)
+  + context: [IWalkPath](core_maker.IWalkPath.md)
 
   #### Returns boolean
 
@@ -38,7 +38,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

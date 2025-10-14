@@ -5,29 +5,29 @@ source: docs/docs/api/functions/core_model.getAllCaptionsOffset.html
 
 getAllCaptionsOffset | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/model](../modules/core_model.html)
+* [core/model](../modules/core_model.md)
 * getAllCaptionsOffset
 
 # Function getAllCaptionsOffset
 
-* getAllCaptionsOffset(modelContext: [IModel](../interfaces/core_schema.IModel.html)): ([ICaption](../interfaces/core_schema.ICaption.html) & { layer?: string })[]
+* getAllCaptionsOffset(modelContext: [IModel](../interfaces/core_schema.IModel.md)): ([ICaption](../interfaces/core_schema.ICaption.md) & { layer?: string })[]
 
   Gets all Caption objects, in absolute position, in this model and its children.
 
   #### Parameters
 
-  + modelContext: [IModel](../interfaces/core_schema.IModel.html)
+  + modelContext: [IModel](../interfaces/core_schema.IModel.md)
 
     The model to search for Caption objects.
 
-  #### Returns ([ICaption](../interfaces/core_schema.ICaption.html) & { layer?: string })[]
+  #### Returns ([ICaption](../interfaces/core_schema.ICaption.md) & { layer?: string })[]
 
   Array of Caption objects.
 
@@ -42,7 +42,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

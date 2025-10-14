@@ -5,25 +5,25 @@ source: docs/docs/api/functions/core_model.getSimilarPathId.html
 
 getSimilarPathId | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/model](../modules/core_model.html)
+* [core/model](../modules/core_model.md)
 * getSimilarPathId
 
 # Function getSimilarPathId
 
-* getSimilarPathId(modelContext: [IModel](../interfaces/core_schema.IModel.html), pathId: string): string
+* getSimilarPathId(modelContext: [IModel](../interfaces/core_schema.IModel.md), pathId: string): string
 
   Get an unused id in the paths map with the same prefix.
 
   #### Parameters
 
-  + modelContext: [IModel](../interfaces/core_schema.IModel.html)
+  + modelContext: [IModel](../interfaces/core_schema.IModel.md)
 
     The model containing the paths map.
   + pathId: string
@@ -43,7 +43,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

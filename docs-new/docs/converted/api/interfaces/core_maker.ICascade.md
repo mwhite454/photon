@@ -5,14 +5,14 @@ source: docs/docs/api/interfaces/core_maker.ICascade.html
 
 ICascade | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.html)
+* [core/maker](../modules/core_maker.md)
 * ICascade
 
 # Interface ICascade
@@ -76,7 +76,7 @@ Properties
 
 [$initial](#initial)[$reset](#reset)[$result](#result)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

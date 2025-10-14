@@ -5,60 +5,60 @@ source: docs/docs/api/functions/core_chain.findChains.html
 
 findChains | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/chain](../modules/core_chain.html)
+* [core/chain](../modules/core_chain.md)
 * findChains
 
 # Function findChains
 
 * findChains(
-      modelContext: [IModel](../interfaces/core_schema.IModel.html),
-      options?: [IFindChainsOptions](../interfaces/core_maker.IFindChainsOptions.html),
-  ): [IChain](../interfaces/core_maker.IChain.html)[] | [IChainsMap](../interfaces/core_maker.IChainsMap.html)
+      modelContext: [IModel](../interfaces/core_schema.IModel.md),
+      options?: [IFindChainsOptions](../interfaces/core_maker.IFindChainsOptions.md),
+  ): [IChain](../interfaces/core_maker.IChain.md)[] | [IChainsMap](../interfaces/core_maker.IChainsMap.md)
 
   Find paths that have common endpoints and form chains.
 
   #### Parameters
 
-  + modelContext: [IModel](../interfaces/core_schema.IModel.html)
+  + modelContext: [IModel](../interfaces/core_schema.IModel.md)
 
     The model to search for chains.
-  + `Optional`options: [IFindChainsOptions](../interfaces/core_maker.IFindChainsOptions.html)
+  + `Optional`options: [IFindChainsOptions](../interfaces/core_maker.IFindChainsOptions.md)
 
     Optional options object.
 
-  #### Returns [IChain](../interfaces/core_maker.IChain.html)[] | [IChainsMap](../interfaces/core_maker.IChainsMap.html)
+  #### Returns [IChain](../interfaces/core_maker.IChain.md)[] | [IChainsMap](../interfaces/core_maker.IChainsMap.md)
 
   An array of chains, or a map (keyed by layer id) of arrays of chains - if options.byLayers is true.
 
   + Defined in [core/chain.ts:160](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/chain.ts#L160)
 * findChains(
-      modelContext: [IModel](../interfaces/core_schema.IModel.html),
-      callback: [IChainCallback](../interfaces/core_maker.IChainCallback.html),
-      options?: [IFindChainsOptions](../interfaces/core_maker.IFindChainsOptions.html),
-  ): [IChain](../interfaces/core_maker.IChain.html)[] | [IChainsMap](../interfaces/core_maker.IChainsMap.html)
+      modelContext: [IModel](../interfaces/core_schema.IModel.md),
+      callback: [IChainCallback](../interfaces/core_maker.IChainCallback.md),
+      options?: [IFindChainsOptions](../interfaces/core_maker.IFindChainsOptions.md),
+  ): [IChain](../interfaces/core_maker.IChain.md)[] | [IChainsMap](../interfaces/core_maker.IChainsMap.md)
 
   Find paths that have common endpoints and form chains.
 
   #### Parameters
 
-  + modelContext: [IModel](../interfaces/core_schema.IModel.html)
+  + modelContext: [IModel](../interfaces/core_schema.IModel.md)
 
     The model to search for chains.
-  + callback: [IChainCallback](../interfaces/core_maker.IChainCallback.html)
+  + callback: [IChainCallback](../interfaces/core_maker.IChainCallback.md)
 
     Callback function when chains are found.
-  + `Optional`options: [IFindChainsOptions](../interfaces/core_maker.IFindChainsOptions.html)
+  + `Optional`options: [IFindChainsOptions](../interfaces/core_maker.IFindChainsOptions.md)
 
     Optional options object.
 
-  #### Returns [IChain](../interfaces/core_maker.IChain.html)[] | [IChainsMap](../interfaces/core_maker.IChainsMap.html)
+  #### Returns [IChain](../interfaces/core_maker.IChain.md)[] | [IChainsMap](../interfaces/core_maker.IChainsMap.md)
 
   An array of chains, or a map (keyed by layer id) of arrays of chains - if options.byLayers is true.
 
@@ -73,7 +73,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

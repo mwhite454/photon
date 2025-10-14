@@ -5,28 +5,28 @@ source: docs/docs/api/functions/core_point.subtract.html
 
 subtract | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/point](../modules/core_point.html)
+* [core/point](../modules/core_point.md)
 * subtract
 
 # Function subtract
 
-* subtract(a: [IPoint](../interfaces/core_schema.IPoint.html), b: [IPoint](../interfaces/core_schema.IPoint.html)): [IPoint](../interfaces/core_schema.IPoint.html)
+* subtract(a: [IPoint](../interfaces/core_schema.IPoint.md), b: [IPoint](../interfaces/core_schema.IPoint.md)): [IPoint](../interfaces/core_schema.IPoint.md)
 
   Subtract a point from another point, and return the result as a new point.
 
   #### Parameters
 
-  + a: [IPoint](../interfaces/core_schema.IPoint.html)
-  + b: [IPoint](../interfaces/core_schema.IPoint.html)
+  + a: [IPoint](../interfaces/core_schema.IPoint.md)
+  + b: [IPoint](../interfaces/core_schema.IPoint.md)
 
-  #### Returns [IPoint](../interfaces/core_schema.IPoint.html)
+  #### Returns [IPoint](../interfaces/core_schema.IPoint.md)
 
   + Defined in [core/point.ts:192](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/point.ts#L192)
 
@@ -39,7 +39,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

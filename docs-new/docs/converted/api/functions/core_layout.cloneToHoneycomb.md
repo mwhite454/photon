@@ -5,24 +5,24 @@ source: docs/docs/api/functions/core_layout.cloneToHoneycomb.html
 
 cloneToHoneycomb | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/layout](../modules/core_layout.html)
+* [core/layout](../modules/core_layout.md)
 * cloneToHoneycomb
 
 # Function cloneToHoneycomb
 
 * cloneToHoneycomb(
-      itemToClone: [IPath](../interfaces/core_schema.IPath.html) | [IModel](../interfaces/core_schema.IModel.html),
+      itemToClone: [IPath](../interfaces/core_schema.IPath.md) | [IModel](../interfaces/core_schema.IModel.md),
       xCount: number,
       yCount: number,
       margin?: number,
-  ): [IModel](../interfaces/core_schema.IModel.html)
+  ): [IModel](../interfaces/core_schema.IModel.md)
 
   Layout clones in a honeycomb format. Alternating rows will have an additional item in each row.
 
@@ -30,16 +30,16 @@ Preparing search index...
 
   ```
   //Honeycomb
-  import * as makerjs from 'maker.js';
-  const hex = new makerjs.models.Polygon(6, 50, 30);
-  const pattern = makerjs.layout.cloneToHoneycomb(hex, 8, 9, 10);
-  document.write(makerjs.exporter.toSVG(pattern));
+  import { exporter, layout, models } from 'photon/core';
+  const hex = new models.Polygon(6, 50, 30);
+  const pattern = layout.cloneToHoneycomb(hex, 8, 9, 10);
+  document.write(exporter.toSVG(pattern));
   Copy
   ```
 
   #### Parameters
 
-  + itemToClone: [IPath](../interfaces/core_schema.IPath.html) | [IModel](../interfaces/core_schema.IModel.html)
+  + itemToClone: [IPath](../interfaces/core_schema.IPath.md) | [IModel](../interfaces/core_schema.IModel.md)
   + xCount: number
 
     Number of columns in the honeycomb grid.
@@ -50,7 +50,7 @@ Preparing search index...
 
     Optional distance between each clone.
 
-  #### Returns [IModel](../interfaces/core_schema.IModel.html)
+  #### Returns [IModel](../interfaces/core_schema.IModel.md)
 
   A new model with clones in a honeycomb layout.
 
@@ -65,7 +65,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

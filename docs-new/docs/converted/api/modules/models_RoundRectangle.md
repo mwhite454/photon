@@ -5,7 +5,7 @@ source: docs/docs/api/modules/models_RoundRectangle.html
 
 models/RoundRectangle | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
@@ -18,7 +18,7 @@ Preparing search index...
 
 ## Classes
 
-[RoundRectangle](../classes/models_RoundRectangle.RoundRectangle.html)
+[RoundRectangle](../classes/models_RoundRectangle.RoundRectangle.md)
 
 ### Settings
 
@@ -35,7 +35,7 @@ Classes
 
 [RoundRectangle](#roundrectangle)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

@@ -5,14 +5,14 @@ source: docs/docs/api/functions/core_base.isObject.html
 
 isObject | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/base](../modules/core_base.html)
+* [core/base](../modules/core_base.md)
 * isObject
 
 # Function isObject
@@ -36,7 +36,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

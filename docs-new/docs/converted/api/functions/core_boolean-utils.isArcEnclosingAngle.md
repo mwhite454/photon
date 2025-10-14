@@ -5,27 +5,27 @@ source: docs/docs/api/functions/core_boolean-utils.isArcEnclosingAngle.html
 
 isArcEnclosingAngle | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/boolean-utils](../modules/core_boolean-utils.html)
+* [core/boolean-utils](../modules/core_boolean-utils.md)
 * isArcEnclosingAngle
 
 # Function isArcEnclosingAngle
 
 * isArcEnclosingAngle(
-      arc: [IPathArc](../interfaces/core_schema.IPathArc.html),
+      arc: [IPathArc](../interfaces/core_schema.IPathArc.md),
       angleInQuestion: number,
       exclusive?: boolean,
   ): boolean
 
   #### Parameters
 
-  + arc: [IPathArc](../interfaces/core_schema.IPathArc.html)
+  + arc: [IPathArc](../interfaces/core_schema.IPathArc.md)
   + angleInQuestion: number
   + exclusive: boolean = false
 
@@ -42,7 +42,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

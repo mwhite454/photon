@@ -3,42 +3,38 @@ title: Cloning
 source: docs/_snippets/cloning.html
 ---
 
----
-title: Cloning
----
-
 Models and paths are simple JavaScript objects, so they are easy to clone in a way that is standard to JavaScript. Maker.js provides a few functions for cloning:
 
-* [makerjs.cloneObject](/docs/api/index.html#cloneobject) - clones a model, or any other object.
-* [makerjs.path.clone](/docs/api/modules/makerjs.path.html#clone) - clones a path (quicker than cloneObject)
-* [makerjs.point.clone](/docs/api/modules/makerjs.point.html#clone) - clones a point (quicker than cloneObject)
+* [cloneObject](/docs/api/index.md#cloneobject) - clones a model, or any other object.
+* [path.clone](/docs/api/modules/path.md#clone) - clones a path (quicker than cloneObject)
+* [point.clone](/docs/api/modules/point.md#clone) - clones a point (quicker than cloneObject)
 
 Cloning is useful in many situations. For example, if you need many copies of a model for rotation:
 
 ```javascript
 //clone and rotate
-var makerjs = require('makerjs');
+import { angle, cloneObject, exporter, model, path, paths, point } from 'photon/core';
 function sawtooth(numTeeth, r1, rd, offset) {
-var a = 360 / numTeeth;
-var a1 = 90 - a / 2;
-var r2 = r1 + rd;
-var p1 = makerjs.point.fromPolar(makerjs.angle.toRadians(a1), r1);
-var p2 = makerjs.point.rotate(p1, a, [0, 0]);
-var p3 = [-offset, r2];
+const a = 360 / numTeeth;
+const a1 = 90 - a / 2;
+const r2 = r1 + rd;
+const p1 = point.fromPolar(angle.toRadians(a1), r1);
+const p2 = point.rotate(p1, a, [0, 0]);
+const p3 = [-offset, r2];
 this.paths = {
-outer: new makerjs.paths.Arc(p1, p3, r2 / 4, false, false),
-inner: new makerjs.paths.Arc(p2, p3, r1 / 4, false, false)
+outer: new paths.Arc(p1, p3, r2 / 4, false, false),
+inner: new paths.Arc(p2, p3, r1 / 4, false, false)
 };
 }
-var wheel = { models: {} };
-var numTeeth = 30;
-var tooth = new sawtooth(numTeeth, 100, 20, 10);
-for (var i = 0; i < numTeeth; i++ ) {
-var clone = makerjs.cloneObject(tooth);
-var a = 360 / numTeeth;
-makerjs.model.rotate(clone, a \* i, [0, 0]);
+const wheel = { models: {} };
+const numTeeth = 30;
+const tooth = new sawtooth(numTeeth, 100, 20, 10);
+for (const i = 0; i < numTeeth; i++ ) {
+const clone = cloneObject(tooth);
+const a = 360 / numTeeth;
+model.rotate(clone, a \* i, [0, 0]);
 wheel.models[i] = clone;
 }
-var svg = makerjs.exporter.toSVG(wheel);
+const svg = exporter.toSVG(wheel);
 document.write(svg);
 ```

@@ -5,14 +5,14 @@ source: docs/docs/api/classes/models_Text.Text.html
 
 Text | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [models/Text](../modules/models_Text.html)
+* [models/Text](../modules/models_Text.md)
 * Text
 
 # Class Text
@@ -21,7 +21,7 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
 #### Implements
 
-* [IModel](../interfaces/core_schema.IModel.html)
+* [IModel](../interfaces/core_schema.IModel.md)
 
 * Defined in [models/Text.ts:12](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Text.ts#L12)
 
@@ -89,11 +89,11 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
 ### models
 
-models: [IModelMap](../interfaces/core_schema.IModelMap.html) = {}
+models: [IModelMap](../interfaces/core_schema.IModelMap.md) = {}
 
 Optional map of models within this model.
 
-Implementation of [IModel](../interfaces/core_schema.IModel.html).[models](../interfaces/core_schema.IModel.html#models)
+Implementation of [IModel](../interfaces/core_schema.IModel.md).[models](../interfaces/core_schema.IModel.md#models)
 
 * Defined in [models/Text.ts:13](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Text.ts#L13)
 
@@ -101,7 +101,7 @@ Implementation of [IModel](../interfaces/core_schema.IModel.html).[models](../in
 
 ### `Static`glyphToModel
 
-* glyphToModel(glyph: Glyph, fontSize: number, bezierAccuracy?: number): [IModel](../interfaces/core_schema.IModel.html)
+* glyphToModel(glyph: Glyph, fontSize: number, bezierAccuracy?: number): [IModel](../interfaces/core_schema.IModel.md)
 
   Convert an opentype glyph to a model.
 
@@ -117,7 +117,7 @@ Implementation of [IModel](../interfaces/core_schema.IModel.html).[models](../in
 
     Optional accuracy of Bezier curves.
 
-  #### Returns [IModel](../interfaces/core_schema.IModel.html)
+  #### Returns [IModel](../interfaces/core_schema.IModel.md)
 
   Model of the glyph.
 
@@ -146,7 +146,7 @@ Methods
 
 [glyphToModel](#glyphtomodel)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

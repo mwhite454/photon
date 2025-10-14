@@ -5,7 +5,7 @@ source: docs/docs/api/modules/models_BoltCircle.html
 
 models/BoltCircle | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
@@ -18,7 +18,7 @@ Preparing search index...
 
 ## Classes
 
-[BoltCircle](../classes/models_BoltCircle.BoltCircle.html)
+[BoltCircle](../classes/models_BoltCircle.BoltCircle.md)
 
 ### Settings
 
@@ -35,7 +35,7 @@ Classes
 
 [BoltCircle](#boltcircle)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

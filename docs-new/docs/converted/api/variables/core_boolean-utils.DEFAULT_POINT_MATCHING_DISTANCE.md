@@ -5,14 +5,14 @@ source: docs/docs/api/variables/core_boolean-utils.DEFAULT_POINT_MATCHING_DISTAN
 
 DEFAULT\_POINT\_MATCHING\_DISTANCE | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/boolean-utils](../modules/core_boolean-utils.html)
+* [core/boolean-utils](../modules/core_boolean-utils.md)
 * DEFAULT\_POINT\_MATCHING\_DISTANCE
 
 # Variable DEFAULT\_POINT\_MATCHING\_DISTANCE`Const`
@@ -30,7 +30,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

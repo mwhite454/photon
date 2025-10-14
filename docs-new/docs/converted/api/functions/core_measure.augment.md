@@ -5,29 +5,29 @@ source: docs/docs/api/functions/core_measure.augment.html
 
 augment | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/measure](../modules/core_measure.html)
+* [core/measure](../modules/core_measure.md)
 * augment
 
 # Function augment
 
-* augment(measureToAugment: [IMeasure](../interfaces/core_maker.IMeasure.html)): [IMeasureWithCenter](../interfaces/core_maker.IMeasureWithCenter.html)
+* augment(measureToAugment: [IMeasure](../interfaces/core_maker.IMeasure.md)): [IMeasureWithCenter](../interfaces/core_maker.IMeasureWithCenter.md)
 
   Augment a measurement - add more properties such as center point, height and width.
 
   #### Parameters
 
-  + measureToAugment: [IMeasure](../interfaces/core_maker.IMeasure.html)
+  + measureToAugment: [IMeasure](../interfaces/core_maker.IMeasure.md)
 
     The measurement to augment.
 
-  #### Returns [IMeasureWithCenter](../interfaces/core_maker.IMeasureWithCenter.html)
+  #### Returns [IMeasureWithCenter](../interfaces/core_maker.IMeasureWithCenter.md)
 
   Measurement object with augmented properties.
 
@@ -42,7 +42,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

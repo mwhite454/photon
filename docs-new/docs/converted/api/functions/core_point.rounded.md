@@ -5,28 +5,28 @@ source: docs/docs/api/functions/core_point.rounded.html
 
 rounded | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/point](../modules/core_point.html)
+* [core/point](../modules/core_point.md)
 * rounded
 
 # Function rounded
 
-* rounded(pointContext: [IPoint](../interfaces/core_schema.IPoint.html), accuracy?: number): [IPoint](../interfaces/core_schema.IPoint.html)
+* rounded(pointContext: [IPoint](../interfaces/core_schema.IPoint.md), accuracy?: number): [IPoint](../interfaces/core_schema.IPoint.md)
 
   Round the values of a point.
 
   #### Parameters
 
-  + pointContext: [IPoint](../interfaces/core_schema.IPoint.html)
+  + pointContext: [IPoint](../interfaces/core_schema.IPoint.md)
   + `Optional`accuracy: number
 
-  #### Returns [IPoint](../interfaces/core_schema.IPoint.html)
+  #### Returns [IPoint](../interfaces/core_schema.IPoint.md)
 
   + Defined in [core/point.ts:165](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/point.ts#L165)
 
@@ -39,7 +39,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

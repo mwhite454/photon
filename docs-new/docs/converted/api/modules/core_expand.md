@@ -5,7 +5,7 @@ source: docs/docs/api/modules/core_expand.html
 
 core/expand | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
@@ -18,16 +18,16 @@ Preparing search index...
 
 ## Functions
 
-[expand](../functions/core_expand.expand.html)
+[expand](../functions/core_expand.expand.md)
 
 
-[expandPaths](../functions/core_expand.expandPaths.html)
+[expandPaths](../functions/core_expand.expandPaths.md)
 
 
-[outline](../functions/core_expand.outline.html)
+[outline](../functions/core_expand.outline.md)
 
 
-[straighten](../functions/core_expand.straighten.html)
+[straighten](../functions/core_expand.straighten.md)
 
 ### Settings
 
@@ -44,7 +44,7 @@ Functions
 
 [expand](#expand)[expandPaths](#expandpaths)[outline](#outline)[straighten](#straighten)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

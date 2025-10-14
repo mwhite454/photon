@@ -5,25 +5,25 @@ source: docs/docs/api/functions/core_model.scale.html
 
 scale | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/model](../modules/core_model.html)
+* [core/model](../modules/core_model.md)
 * scale
 
 # Function scale
 
-* scale(modelToScale: [IModel](../interfaces/core_schema.IModel.html), scaleValue: number, scaleOrigin?: boolean): [IModel](../interfaces/core_schema.IModel.html)
+* scale(modelToScale: [IModel](../interfaces/core_schema.IModel.md), scaleValue: number, scaleOrigin?: boolean): [IModel](../interfaces/core_schema.IModel.md)
 
   Scale a model.
 
   #### Parameters
 
-  + modelToScale: [IModel](../interfaces/core_schema.IModel.html)
+  + modelToScale: [IModel](../interfaces/core_schema.IModel.md)
 
     The model to scale.
   + scaleValue: number
@@ -33,7 +33,7 @@ Preparing search index...
 
     Optional boolean to scale the origin point. Typically false for the root model.
 
-  #### Returns [IModel](../interfaces/core_schema.IModel.html)
+  #### Returns [IModel](../interfaces/core_schema.IModel.md)
 
   The original model (for cascading).
 
@@ -48,7 +48,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

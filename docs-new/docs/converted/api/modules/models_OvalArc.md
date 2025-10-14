@@ -5,7 +5,7 @@ source: docs/docs/api/modules/models_OvalArc.html
 
 models/OvalArc | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
@@ -18,7 +18,7 @@ Preparing search index...
 
 ## Classes
 
-[OvalArc](../classes/models_OvalArc.OvalArc.html)
+[OvalArc](../classes/models_OvalArc.OvalArc.md)
 
 ### Settings
 
@@ -35,7 +35,7 @@ Classes
 
 [OvalArc](#ovalarc)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

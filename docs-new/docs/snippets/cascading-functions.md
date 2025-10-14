@@ -3,31 +3,28 @@ title: Cascading Functions
 source: docs/_snippets/cascading-functions.html
 ---
 
----
-title: Cascading functions
----
 When calling a function, you can pass its output directly into another function. This is called cascading.
 This lets you do multiple operations in one statement. Here we will center, rotate and move a square:
 ```javascript
 //cascade functions
-var makerjs = require('makerjs');
+import { exporter, model, models } from 'photon/core';
 //many operations in this one statement
-var square =
-makerjs.model.moveRelative(
-makerjs.model.rotate(
-makerjs.model.center(
-new makerjs.models.Square(10)
+const square =
+model.moveRelative(
+model.rotate(
+model.center(
+new models.Square(10)
 ),
 45),
 [0, 15])
 ;
-var drawing = {
+const drawing = {
 models: {
-dome: new makerjs.models.Dome(30, 30),
+dome: new models.Dome(30, 30),
 square: square
 }
 };
-var svg = makerjs.exporter.toSVG(drawing);
+const svg = exporter.toSVG(drawing);
 document.write(svg);
 ```
 This is convenient, but it also has the drawback of making the code less readable. As more function calls are added,

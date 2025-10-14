@@ -5,28 +5,28 @@ source: docs/docs/api/functions/core_kit.construct.html
 
 construct | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/kit](../modules/core_kit.html)
+* [core/kit](../modules/core_kit.md)
 * construct
 
 # Function construct
 
-* construct(ctor: [IKit](../interfaces/core_maker.IKit.html), args: any): [IModel](../interfaces/core_schema.IModel.html)
+* construct(ctor: [IKit](../interfaces/core_maker.IKit.md), args: any): [IModel](../interfaces/core_schema.IModel.md)
 
   Helper function to use the JavaScript "apply" function in conjunction with the "new" keyword.
 
   #### Parameters
 
-  + ctor: [IKit](../interfaces/core_maker.IKit.html)
+  + ctor: [IKit](../interfaces/core_maker.IKit.md)
   + args: any
 
-  #### Returns [IModel](../interfaces/core_schema.IModel.html)
+  #### Returns [IModel](../interfaces/core_schema.IModel.md)
 
   + Defined in [core/kit.ts:5](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/kit.ts#L5)
 
@@ -39,7 +39,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

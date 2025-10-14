@@ -5,14 +5,14 @@ source: docs/docs/api/classes/models_Holes.Holes.html
 
 Holes | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [models/Holes](../modules/models_Holes.html)
+* [models/Holes](../modules/models_Holes.md)
 * Holes
 
 # Class Holes
@@ -21,7 +21,7 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
 #### Implements
 
-* [IModel](../interfaces/core_schema.IModel.html)
+* [IModel](../interfaces/core_schema.IModel.md)
 
 * Defined in [models/Holes.ts:5](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Holes.ts#L5)
 
@@ -39,14 +39,14 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
 ### constructor
 
-* new Holes(holeRadius: number, points: [IPoint](../interfaces/core_schema.IPoint.html)[], ids?: string[]): Holes
+* new Holes(holeRadius: number, points: [IPoint](../interfaces/core_schema.IPoint.md)[], ids?: string[]): Holes
 
   Create an array of circles of the same radius from an array of center points.
 
   #### Parameters
 
   + holeRadius: number
-  + points: [IPoint](../interfaces/core_schema.IPoint.html)[]
+  + points: [IPoint](../interfaces/core_schema.IPoint.md)[]
   + `Optional`ids: string[]
 
   #### Returns Holes
@@ -57,11 +57,11 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
 ### paths
 
-paths: [IPathMap](../interfaces/core_schema.IPathMap.html) = {}
+paths: [IPathMap](../interfaces/core_schema.IPathMap.md) = {}
 
 Optional map of path objects in this model.
 
-Implementation of [IModel](../interfaces/core_schema.IModel.html).[paths](../interfaces/core_schema.IModel.html#paths)
+Implementation of [IModel](../interfaces/core_schema.IModel.md).[paths](../interfaces/core_schema.IModel.md#paths)
 
 * Defined in [models/Holes.ts:6](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Holes.ts#L6)
 
@@ -84,7 +84,7 @@ Properties
 
 [paths](#paths)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

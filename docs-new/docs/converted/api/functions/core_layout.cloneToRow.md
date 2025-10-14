@@ -5,19 +5,19 @@ source: docs/docs/api/functions/core_layout.cloneToRow.html
 
 cloneToRow | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/layout](../modules/core_layout.html)
+* [core/layout](../modules/core_layout.md)
 * cloneToRow
 
 # Function cloneToRow
 
-* cloneToRow(itemToClone: [IPath](../interfaces/core_schema.IPath.html) | [IModel](../interfaces/core_schema.IModel.html), count: number, margin?: number): [IModel](../interfaces/core_schema.IModel.html)
+* cloneToRow(itemToClone: [IPath](../interfaces/core_schema.IPath.md) | [IModel](../interfaces/core_schema.IModel.md), count: number, margin?: number): [IModel](../interfaces/core_schema.IModel.md)
 
   Layout clones in a row format.
 
@@ -25,24 +25,24 @@ Preparing search index...
 
   ```
   //Tongue and grooves for a box joint
-  import * as makerjs from 'maker.js';
+  import { exporter, layout, models, paths } from 'photon/core';
   const tongueWidth = 60;
   const grooveWidth = 50;
   const grooveDepth = 30;
-  const groove = new makerjs.models.Dogbone(grooveWidth, grooveDepth, 5, 0, true);
+  const groove = new models.Dogbone(grooveWidth, grooveDepth, 5, 0, true);
 
-  groove.paths['leftTongue'] = new makerjs.paths.Line([-tongueWidth / 2, 0], [0, 0]);
-  groove.paths['rightTongue'] = new makerjs.paths.Line([grooveWidth, 0], [grooveWidth + tongueWidth / 2, 0]);
+  groove.paths['leftTongue'] = new paths.Line([-tongueWidth / 2, 0], [0, 0]);
+  groove.paths['rightTongue'] = new paths.Line([grooveWidth, 0], [grooveWidth + tongueWidth / 2, 0]);
 
-  const tongueAndGrooves = makerjs.layout.cloneToRow(groove, 3);
+  const tongueAndGrooves = layout.cloneToRow(groove, 3);
 
-  document.write(makerjs.exporter.toSVG(tongueAndGrooves));
+  document.write(exporter.toSVG(tongueAndGrooves));
   Copy
   ```
 
   #### Parameters
 
-  + itemToClone: [IPath](../interfaces/core_schema.IPath.html) | [IModel](../interfaces/core_schema.IModel.html)
+  + itemToClone: [IPath](../interfaces/core_schema.IPath.md) | [IModel](../interfaces/core_schema.IModel.md)
   + count: number
 
     Number of clones in the row.
@@ -50,7 +50,7 @@ Preparing search index...
 
     Optional distance between each clone.
 
-  #### Returns [IModel](../interfaces/core_schema.IModel.html)
+  #### Returns [IModel](../interfaces/core_schema.IModel.md)
 
   A new model with clones in a row.
 
@@ -65,7 +65,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

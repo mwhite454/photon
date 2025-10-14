@@ -5,32 +5,32 @@ source: docs/docs/api/functions/core_model.originate.html
 
 originate | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/model](../modules/core_model.html)
+* [core/model](../modules/core_model.md)
 * originate
 
 # Function originate
 
-* originate(modelToOriginate: [IModel](../interfaces/core_schema.IModel.html), origin?: [IPoint](../interfaces/core_schema.IPoint.html)): [IModel](../interfaces/core_schema.IModel.html)
+* originate(modelToOriginate: [IModel](../interfaces/core_schema.IModel.md), origin?: [IPoint](../interfaces/core_schema.IPoint.md)): [IModel](../interfaces/core_schema.IModel.md)
 
   Moves all of a model's children (models and paths, recursively) in reference to a single common origin. Useful when points between children need to connect to each other.
 
   #### Parameters
 
-  + modelToOriginate: [IModel](../interfaces/core_schema.IModel.html)
+  + modelToOriginate: [IModel](../interfaces/core_schema.IModel.md)
 
     The model to originate.
-  + `Optional`origin: [IPoint](../interfaces/core_schema.IPoint.html)
+  + `Optional`origin: [IPoint](../interfaces/core_schema.IPoint.md)
 
     Optional offset reference point.
 
-  #### Returns [IModel](../interfaces/core_schema.IModel.html)
+  #### Returns [IModel](../interfaces/core_schema.IModel.md)
 
   The original model (for cascading).
 
@@ -45,7 +45,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

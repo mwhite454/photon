@@ -5,30 +5,30 @@ source: docs/docs/api/modules/core_cascades.MakerJs.html
 
 MakerJs | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/cascades](core_cascades.html)
+* [core/cascades](core_cascades.md)
 * MakerJs
 
 # Namespace MakerJs
 
 ## Interfaces
 
-[ICascade](../interfaces/core_cascades.MakerJs.ICascade.html)
+[ICascade](../interfaces/core_cascades.MakerJs.ICascade.md)
 
 
-[ICascadeModel](../interfaces/core_cascades.MakerJs.ICascadeModel.html)
+[ICascadeModel](../interfaces/core_cascades.MakerJs.ICascadeModel.md)
 
 
-[ICascadePath](../interfaces/core_cascades.MakerJs.ICascadePath.html)
+[ICascadePath](../interfaces/core_cascades.MakerJs.ICascadePath.md)
 
 
-[ICascadePoint](../interfaces/core_cascades.MakerJs.ICascadePoint.html)
+[ICascadePoint](../interfaces/core_cascades.MakerJs.ICascadePoint.md)
 
 ### Settings
 
@@ -45,7 +45,7 @@ Interfaces
 
 [ICascade](#icascade)[ICascadeModel](#icascademodel)[ICascadePath](#icascadepath)[ICascadePoint](#icascadepoint)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

@@ -1,5 +1,5 @@
 /**
- * Root module for Maker.js.
+ * Root module for Photon.
  */
 import { IModel, IPath, IPoint, IPathLine, IPathCircle, IPathArc, IPathArcInBezierCurve } from './schema.js';
 
@@ -657,6 +657,7 @@ export interface IPathIntersectionBaseOptions {
     //cascades
     /**
      * A container that allows a series of functions to be called upon an object.
+     * @deprecated Use pipe() or compose() for new code. This legacy API is provided for backward compatibility.
      */
     export interface ICascade {
 
@@ -677,27 +678,29 @@ export interface IPathIntersectionBaseOptions {
     }
 
     /**
+     * Cascade container for Photon operations.
+     * Provides jQuery-style method chaining for legacy code compatibility.
+     * @deprecated Use pipe() or compose() for new code
      * @private
      */
     class Cascade<T> implements ICascade {
         public $result: any;
 
         constructor(private _module: any, public $initial: T) {
-            for (var methodName in this._module) this._shadow(methodName);
-            this.$result = $initial;
+            for (const methodName in this._module) this._shadow(methodName);
+            // Clone initial value to prevent mutations
+            this.$result = cloneObject($initial);
         }
 
         private _shadow(methodName: string) {
-            var _this = this;
-            this[methodName] = function () {
-                return _this._apply(_this._module[methodName], arguments);
-            }
+            this[methodName] = (...args: any[]) => {
+                return this._apply(this._module[methodName], args);
+            };
         }
 
-        private _apply(fn: Function, carriedArguments: IArguments) {
-            var args = [].slice.call(carriedArguments);
-            args.unshift(this.$result);
-            this.$result = fn.apply(undefined, args);
+        private _apply(fn: Function, carriedArgs: any[]) {
+            const args = [this.$result, ...carriedArgs];
+            this.$result = fn(...args);
             return this;
         }
 
@@ -707,16 +710,48 @@ export interface IPathIntersectionBaseOptions {
         }
     }
 
-// TEMP: Cascade functions will be re-enabled after model/path/point modules are converted
-// export function $(modelContext: IModel): ICascadeModel;
-// export function $(pathContext: IModel): ICascadePath;
-// export function $(pointContext: IPoint): ICascadePoint;
-// export function $(context: any): ICascade {
-//     if (isModel(context)) {
-//         return new Cascade<IModel>(model, context);
-//     } else if (isPath(context)) {
-//         return new Cascade<IPath>(path, context);
-//     } else if (isPoint(context)) {
-//         return new Cascade<IPoint>(point, context);
-//     }
-// }
+    // Module registry for cascade to avoid circular dependencies
+    const _moduleRegistry: {
+        model?: any;
+        path?: any;
+        point?: any;
+    } = {};
+
+    /**
+     * Register modules for cascade use. Called automatically by index.ts.
+     * @private
+     */
+    export function registerCascadeModules(model: any, path: any, point: any) {
+        _moduleRegistry.model = model;
+        _moduleRegistry.path = path;
+        _moduleRegistry.point = point;
+    }
+
+    /**
+     * Create cascade container for fluent API (LEGACY)
+     * @deprecated Use pipe() or compose() for new code. This legacy API is provided for backward compatibility.
+     * @param context - Model, Path, or Point to wrap
+     * @returns Cascade container with chainable operations
+     */
+    export function $(modelContext: IModel): ICascade;
+    export function $(pathContext: IPath): ICascade;
+    export function $(pointContext: IPoint): ICascade;
+    export function $(context: any): ICascade {
+        if (isModel(context)) {
+            if (!_moduleRegistry.model) {
+                throw new Error('Model module not registered for cascade. This is likely a build or import order issue.');
+            }
+            return new Cascade<IModel>(_moduleRegistry.model, context);
+        } else if (isPath(context)) {
+            if (!_moduleRegistry.path) {
+                throw new Error('Path module not registered for cascade. This is likely a build or import order issue.');
+            }
+            return new Cascade<IPath>(_moduleRegistry.path, context);
+        } else if (isPoint(context)) {
+            if (!_moduleRegistry.point) {
+                throw new Error('Point module not registered for cascade. This is likely a build or import order issue.');
+            }
+            return new Cascade<IPoint>(_moduleRegistry.point, context);
+        }
+        throw new Error('Invalid context for Photon cascade function. Expected Model, Path, or Point.');
+    }

@@ -5,7 +5,7 @@ source: docs/docs/api/modules/models_Star.html
 
 models/Star | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
@@ -18,7 +18,7 @@ Preparing search index...
 
 ## Classes
 
-[Star](../classes/models_Star.Star.html)
+[Star](../classes/models_Star.Star.md)
 
 ### Settings
 
@@ -35,7 +35,7 @@ Classes
 
 [Star](#star)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

@@ -5,14 +5,14 @@ source: docs/docs/api/interfaces/core_collect.IPointGraphIndexElement.html
 
 IPointGraphIndexElement | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/collect](../modules/core_collect.html)
+* [core/collect](../modules/core_collect.md)
 * IPointGraphIndexElement
 
 # Interface IPointGraphIndexElement
@@ -22,7 +22,7 @@ The element type stored in the index of a PointGraph.
 interface IPointGraphIndexElement {
     [kdId](#kdid)?: number;
     [merged](#merged)?: number[];
-    [point](#point): [IPoint](core_schema.IPoint.html);
+    [point](#point): [IPoint](core_schema.IPoint.md);
     [pointId](#pointid): number;
     [valueIds](#valueids): number[];
 }
@@ -59,7 +59,7 @@ Array of other pointId's merged with this one.
 
 ### point
 
-point: [IPoint](core_schema.IPoint.html)
+point: [IPoint](core_schema.IPoint.md)
 
 The point.
 
@@ -96,7 +96,7 @@ Properties
 
 [kdId](#kdid)[merged](#merged)[point](#point)[pointId](#pointid)[valueIds](#valueids)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

@@ -5,31 +5,31 @@ source: docs/docs/api/functions/core_maker.travel.html
 
 travel | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.html)
+* [core/maker](../modules/core_maker.md)
 * travel
 
 # Function travel
 
 * travel(
-      modelContext: [IModel](../interfaces/core_schema.IModel.html),
+      modelContext: [IModel](../interfaces/core_schema.IModel.md),
       route: string | string[],
-  ): { offset: [IPoint](../interfaces/core_schema.IPoint.html); result: [IPath](../interfaces/core_schema.IPath.html) | [IModel](../interfaces/core_schema.IModel.html) }
+  ): { offset: [IPoint](../interfaces/core_schema.IPoint.md); result: [IPath](../interfaces/core_schema.IPath.md) | [IModel](../interfaces/core_schema.IModel.md) }
 
   Travel along a route inside of a model to extract a specific node in its tree.
 
   #### Parameters
 
-  + modelContext: [IModel](../interfaces/core_schema.IModel.html)
+  + modelContext: [IModel](../interfaces/core_schema.IModel.md)
   + route: string | string[]
 
-  #### Returns { offset: [IPoint](../interfaces/core_schema.IPoint.html); result: [IPath](../interfaces/core_schema.IPath.html) | [IModel](../interfaces/core_schema.IModel.html) }
+  #### Returns { offset: [IPoint](../interfaces/core_schema.IPoint.md); result: [IPath](../interfaces/core_schema.IPath.md) | [IModel](../interfaces/core_schema.IModel.md) }
 
   + Defined in [core/maker.ts:93](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L93)
 
@@ -42,7 +42,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

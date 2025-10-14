@@ -5,14 +5,14 @@ source: docs/docs/api/interfaces/core_openjscad-esm.IOpenJsCadOptionsMap.html
 
 IOpenJsCadOptionsMap | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/openjscad-esm](../modules/core_openjscad-esm.html)
+* [core/openjscad-esm](../modules/core_openjscad-esm.md)
 * IOpenJsCadOptionsMap
 
 # Interface IOpenJsCadOptionsMap
@@ -21,7 +21,7 @@ Map of OpenJsCad export options.
 
 #### Indexable
 
-* [modelId: string]: [IOpenJsCadOptions](core_openjscad-esm.IOpenJsCadOptions.html)
+* [modelId: string]: [IOpenJsCadOptions](core_openjscad-esm.IOpenJsCadOptions.md)
 
 * Defined in [core/openjscad-esm.ts:502](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/openjscad-esm.ts#L502)
 
@@ -34,7 +34,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

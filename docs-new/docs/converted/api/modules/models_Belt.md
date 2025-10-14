@@ -5,7 +5,7 @@ source: docs/docs/api/modules/models_Belt.html
 
 models/Belt | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
@@ -18,7 +18,7 @@ Preparing search index...
 
 ## Classes
 
-[Belt](../classes/models_Belt.Belt.html)
+[Belt](../classes/models_Belt.Belt.md)
 
 ### Settings
 
@@ -35,7 +35,7 @@ Classes
 
 [Belt](#belt)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

@@ -5,19 +5,19 @@ source: docs/docs/api/variables/core_svg-esm.svgUnit.html
 
 svgUnit | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/svg-esm](../modules/core_svg-esm.html)
+* [core/svg-esm](../modules/core_svg-esm.md)
 * svgUnit
 
 # Variable svgUnit`Const`
 
-svgUnit: [SvgUnitConversion](../interfaces/core_svg-esm.SvgUnitConversion.html) = ...
+svgUnit: [SvgUnitConversion](../interfaces/core_svg-esm.SvgUnitConversion.md) = ...
 
 * Defined in [core/svg-esm.ts:383](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/svg-esm.ts#L383)
 
@@ -30,7 +30,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

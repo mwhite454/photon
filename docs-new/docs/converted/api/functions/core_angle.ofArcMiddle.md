@@ -5,25 +5,25 @@ source: docs/docs/api/functions/core_angle.ofArcMiddle.html
 
 ofArcMiddle | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/angle](../modules/core_angle.html)
+* [core/angle](../modules/core_angle.md)
 * ofArcMiddle
 
 # Function ofArcMiddle
 
-* ofArcMiddle(arc: [IPathArc](../interfaces/core_schema.IPathArc.html), ratio?: number): number
+* ofArcMiddle(arc: [IPathArc](../interfaces/core_schema.IPathArc.md), ratio?: number): number
 
   Get the angle in the middle of an arc's start and end angles.
 
   #### Parameters
 
-  + arc: [IPathArc](../interfaces/core_schema.IPathArc.html)
+  + arc: [IPathArc](../interfaces/core_schema.IPathArc.md)
   + ratio: number = .5
 
   #### Returns number
@@ -39,7 +39,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

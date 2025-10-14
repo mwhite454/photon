@@ -5,24 +5,24 @@ source: docs/docs/api/functions/core_model.addPath.html
 
 addPath | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/model](../modules/core_model.html)
+* [core/model](../modules/core_model.md)
 * addPath
 
 # Function addPath
 
 * addPath(
-      modelContext: [IModel](../interfaces/core_schema.IModel.html),
-      pathContext: [IPath](../interfaces/core_schema.IPath.html),
+      modelContext: [IModel](../interfaces/core_schema.IModel.md),
+      pathContext: [IPath](../interfaces/core_schema.IPath.md),
       pathId: string,
       overWrite?: boolean,
-  ): [IModel](../interfaces/core_schema.IModel.html)
+  ): [IModel](../interfaces/core_schema.IModel.md)
 
   Add a path as a child. This is basically equivalent to:
 
@@ -35,10 +35,10 @@ Preparing search index...
 
   #### Parameters
 
-  + modelContext: [IModel](../interfaces/core_schema.IModel.html)
+  + modelContext: [IModel](../interfaces/core_schema.IModel.md)
 
     The model to add to.
-  + pathContext: [IPath](../interfaces/core_schema.IPath.html)
+  + pathContext: [IPath](../interfaces/core_schema.IPath.md)
 
     The path to add.
   + pathId: string
@@ -48,7 +48,7 @@ Preparing search index...
 
     Optional flag to overwrite any path referenced by pathId. Default is false, which will create an id similar to pathId.
 
-  #### Returns [IModel](../interfaces/core_schema.IModel.html)
+  #### Returns [IModel](../interfaces/core_schema.IModel.md)
 
   The original model (for cascading).
 
@@ -63,7 +63,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

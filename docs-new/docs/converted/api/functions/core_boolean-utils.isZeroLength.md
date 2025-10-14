@@ -5,23 +5,23 @@ source: docs/docs/api/functions/core_boolean-utils.isZeroLength.html
 
 isZeroLength | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/boolean-utils](../modules/core_boolean-utils.html)
+* [core/boolean-utils](../modules/core_boolean-utils.md)
 * isZeroLength
 
 # Function isZeroLength
 
-* isZeroLength(pathContext: [IPath](../interfaces/core_schema.IPath.html), tolerance?: number): boolean
+* isZeroLength(pathContext: [IPath](../interfaces/core_schema.IPath.md), tolerance?: number): boolean
 
   #### Parameters
 
-  + pathContext: [IPath](../interfaces/core_schema.IPath.html)
+  + pathContext: [IPath](../interfaces/core_schema.IPath.md)
   + tolerance: number = ...
 
   #### Returns boolean
@@ -37,7 +37,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

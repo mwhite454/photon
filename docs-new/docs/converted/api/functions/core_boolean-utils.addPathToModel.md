@@ -5,24 +5,24 @@ source: docs/docs/api/functions/core_boolean-utils.addPathToModel.html
 
 addPathToModel | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/boolean-utils](../modules/core_boolean-utils.html)
+* [core/boolean-utils](../modules/core_boolean-utils.md)
 * addPathToModel
 
 # Function addPathToModel
 
-* addPathToModel(modelContext: [IModel](../interfaces/core_schema.IModel.html), pathContext: [IPath](../interfaces/core_schema.IPath.html), pathId: string): void
+* addPathToModel(modelContext: [IModel](../interfaces/core_schema.IModel.md), pathContext: [IPath](../interfaces/core_schema.IPath.md), pathId: string): void
 
   #### Parameters
 
-  + modelContext: [IModel](../interfaces/core_schema.IModel.html)
-  + pathContext: [IPath](../interfaces/core_schema.IPath.html)
+  + modelContext: [IModel](../interfaces/core_schema.IModel.md)
+  + pathContext: [IPath](../interfaces/core_schema.IPath.md)
   + pathId: string
 
   #### Returns void
@@ -38,7 +38,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

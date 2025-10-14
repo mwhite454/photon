@@ -5,7 +5,7 @@ source: docs/docs/api/modules/models_Slot.html
 
 models/Slot | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
@@ -18,7 +18,7 @@ Preparing search index...
 
 ## Classes
 
-[Slot](../classes/models_Slot.Slot.html)
+[Slot](../classes/models_Slot.Slot.md)
 
 ### Settings
 
@@ -35,7 +35,7 @@ Classes
 
 [Slot](#slot)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

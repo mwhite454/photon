@@ -5,25 +5,25 @@ source: docs/docs/api/functions/core_measure.pathLength.html
 
 pathLength | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/measure](../modules/core_measure.html)
+* [core/measure](../modules/core_measure.md)
 * pathLength
 
 # Function pathLength
 
-* pathLength(pathToMeasure: [IPath](../interfaces/core_schema.IPath.html)): number
+* pathLength(pathToMeasure: [IPath](../interfaces/core_schema.IPath.md)): number
 
   Measures the length of a path.
 
   #### Parameters
 
-  + pathToMeasure: [IPath](../interfaces/core_schema.IPath.html)
+  + pathToMeasure: [IPath](../interfaces/core_schema.IPath.md)
 
     The path to measure.
 
@@ -42,7 +42,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

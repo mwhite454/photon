@@ -5,26 +5,26 @@ source: docs/docs/api/functions/core_combine.combineIntersection.html
 
 combineIntersection | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/combine](../modules/core_combine.html)
+* [core/combine](../modules/core_combine.md)
 * combineIntersection
 
 # Function combineIntersection
 
-* combineIntersection(modelA: [IModel](../interfaces/core_schema.IModel.html), modelB: [IModel](../interfaces/core_schema.IModel.html)): [IModel](../interfaces/core_schema.IModel.html)
+* combineIntersection(modelA: [IModel](../interfaces/core_schema.IModel.md), modelB: [IModel](../interfaces/core_schema.IModel.md)): [IModel](../interfaces/core_schema.IModel.md)
 
   #### Parameters
 
-  + modelA: [IModel](../interfaces/core_schema.IModel.html)
-  + modelB: [IModel](../interfaces/core_schema.IModel.html)
+  + modelA: [IModel](../interfaces/core_schema.IModel.md)
+  + modelB: [IModel](../interfaces/core_schema.IModel.md)
 
-  #### Returns [IModel](../interfaces/core_schema.IModel.html)
+  #### Returns [IModel](../interfaces/core_schema.IModel.md)
 
   + Defined in [core/combine.ts:385](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/combine.ts#L385)
 
@@ -37,7 +37,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

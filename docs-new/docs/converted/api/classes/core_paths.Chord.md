@@ -5,14 +5,14 @@ source: docs/docs/api/classes/core_paths.Chord.html
 
 Chord | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/paths](../modules/core_paths.html)
+* [core/paths](../modules/core_paths.md)
 * Chord
 
 # Class Chord
@@ -25,7 +25,7 @@ Arc to use as the basic for the chord.
 
 #### Implements
 
-* [IPathLine](../interfaces/core_schema.IPathLine.html)
+* [IPathLine](../interfaces/core_schema.IPathLine.md)
 
 * Defined in [core/paths.ts:351](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/paths.ts#L351)
 
@@ -45,11 +45,11 @@ Arc to use as the basic for the chord.
 
 ### constructor
 
-* new Chord(arc: [IPathArc](../interfaces/core_schema.IPathArc.html)): Chord
+* new Chord(arc: [IPathArc](../interfaces/core_schema.IPathArc.md)): Chord
 
   #### Parameters
 
-  + arc: [IPathArc](../interfaces/core_schema.IPathArc.html)
+  + arc: [IPathArc](../interfaces/core_schema.IPathArc.md)
 
   #### Returns Chord
 
@@ -59,21 +59,21 @@ Arc to use as the basic for the chord.
 
 ### end
 
-end: [IPoint](../interfaces/core_schema.IPoint.html)
+end: [IPoint](../interfaces/core_schema.IPoint.md)
 
 The end point defining the line. The start point is the origin.
 
-Implementation of [IPathLine](../interfaces/core_schema.IPathLine.html).[end](../interfaces/core_schema.IPathLine.html#end)
+Implementation of [IPathLine](../interfaces/core_schema.IPathLine.md).[end](../interfaces/core_schema.IPathLine.md#end)
 
 * Defined in [core/paths.ts:354](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/paths.ts#L354)
 
 ### origin
 
-origin: [IPoint](../interfaces/core_schema.IPoint.html)
+origin: [IPoint](../interfaces/core_schema.IPoint.md)
 
 The main point of reference for this path.
 
-Implementation of [IPathLine](../interfaces/core_schema.IPathLine.html).[origin](../interfaces/core_schema.IPathLine.html#origin)
+Implementation of [IPathLine](../interfaces/core_schema.IPathLine.md).[origin](../interfaces/core_schema.IPathLine.md#origin)
 
 * Defined in [core/paths.ts:353](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/paths.ts#L353)
 
@@ -83,7 +83,7 @@ type: string
 
 The type of the path, e.g. "line", "circle", or "arc". These strings are enumerated in pathType.
 
-Implementation of [IPathLine](../interfaces/core_schema.IPathLine.html).[type](../interfaces/core_schema.IPathLine.html#type)
+Implementation of [IPathLine](../interfaces/core_schema.IPathLine.md).[type](../interfaces/core_schema.IPathLine.md#type)
 
 * Defined in [core/paths.ts:352](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/paths.ts#L352)
 
@@ -106,7 +106,7 @@ Properties
 
 [end](#end)[origin](#origin)[type](#type)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

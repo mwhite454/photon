@@ -5,14 +5,14 @@ source: docs/docs/api/interfaces/core_svg-esm.IPathDataByLayerMap.html
 
 IPathDataByLayerMap | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/svg-esm](../modules/core_svg-esm.html)
+* [core/svg-esm](../modules/core_svg-esm.md)
 * IPathDataByLayerMap
 
 # Interface IPathDataByLayerMap
@@ -32,7 +32,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

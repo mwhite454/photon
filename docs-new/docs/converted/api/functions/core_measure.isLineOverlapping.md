@@ -5,21 +5,21 @@ source: docs/docs/api/functions/core_measure.isLineOverlapping.html
 
 isLineOverlapping | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/measure](../modules/core_measure.html)
+* [core/measure](../modules/core_measure.md)
 * isLineOverlapping
 
 # Function isLineOverlapping
 
 * isLineOverlapping(
-      lineA: [IPathLine](../interfaces/core_schema.IPathLine.html),
-      lineB: [IPathLine](../interfaces/core_schema.IPathLine.html),
+      lineA: [IPathLine](../interfaces/core_schema.IPathLine.md),
+      lineB: [IPathLine](../interfaces/core_schema.IPathLine.md),
       excludeTangents: boolean,
   ): boolean
 
@@ -27,10 +27,10 @@ Preparing search index...
 
   #### Parameters
 
-  + lineA: [IPathLine](../interfaces/core_schema.IPathLine.html)
+  + lineA: [IPathLine](../interfaces/core_schema.IPathLine.md)
 
     The line to test.
-  + lineB: [IPathLine](../interfaces/core_schema.IPathLine.html)
+  + lineB: [IPathLine](../interfaces/core_schema.IPathLine.md)
 
     The line to check for overlap.
   + excludeTangents: boolean
@@ -52,7 +52,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

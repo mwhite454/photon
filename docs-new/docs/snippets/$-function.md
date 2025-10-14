@@ -3,14 +3,19 @@ title: $ Function
 source: docs/_snippets/$-function.html
 ---
 
----
-title: The $ function
----
+!!! note "Legacy API"
+    The cascade (`$`) function is a legacy API provided for backward compatibility with maker.js.
 
-As an alternative to cascading functions, Maker.js offers a handy way to modify your drawing in an object-oriented style,
+    **For new code, use [functional composition](functional-composition.md) instead:**
+    - `pipe()` for left-to-right operations
+    - `compose()` for reusable transformations
+
+    Cascade will continue to work but is no longer the recommended approach. See [Migration from Cascade](functional-composition.md#migration-from-cascade) for examples.
+
+As an alternative to cascading functions, photon/core offers a handy way to modify your drawing in an object-oriented style,
 inspired by the [jQuery](http://www.jquery.com) library.
 
-Call [makerjs.$(x)](/docs/api/index.html#_) to get a **cascade container** object returned.
+Call [$(x)](/docs/api/index.md#_) from photon/core to get a **cascade container** object returned.
 You can then invoke a series of cascading functions upon x. The output of each function becomes the input of the next.
 A cascade container will only work with functions that output the same type of object that they input as their first parameter,
 which must be one of these types:
@@ -32,9 +37,9 @@ These are prefixed with $:
 
 Depending on the type of x, a cascade container will provide all of the functions from one of the corresponding modules.
 
-* [**model** module](/docs/api/modules/makerjs.model.html) / [*cascade-safe functions*](/docs/api/interfaces/makerjs.icascademodel.html)
-* [**path** module](/docs/api/modules/makerjs.path.html) / [*cascade-safe functions*](/docs/api/interfaces/makerjs.icascadepath.html)
-* [**point** module](/docs/api/modules/makerjs.point.html) / [*cascade-safe functions*](/docs/api/interfaces/makerjs.icascadepoint.html)
+* [**model** module](/docs/api/modules/model.md) / [*cascade-safe functions*](/docs/api/interfaces/makerjs.icascademodel.md)
+* [**path** module](/docs/api/modules/path.md) / [*cascade-safe functions*](/docs/api/interfaces/makerjs.icascadepath.md)
+* [**point** module](/docs/api/modules/point.md) / [*cascade-safe functions*](/docs/api/interfaces/makerjs.icascadepoint.md)
 
 These are the same functions that we've covered in previous lessons. One difference is that you do not need to provide the first parameter,
 since it will either be x or the cascaded result of the previous function call.
@@ -42,37 +47,39 @@ since it will either be x or the cascaded result of the previous function call.
 #### Example
 
 Let's rewrite the example from above to compare the readability of the code:
+
 ```javascript
 //cascade functions
-var makerjs = require('makerjs');
+import { $, exporter, models } from 'photon/core';
 //many operations in this one statement
-var square = makerjs.$(new makerjs.models.Square(10))
+const square = $(new models.Square(10))
 .center()
 .rotate(45)
 .moveRelative([0, 15])
 .$result;
-var drawing = {
+const drawing = {
 models: {
-dome: new makerjs.models.Dome(30, 30),
+dome: new models.Dome(30, 30),
 square: square
 }
 };
-var svg = makerjs.exporter.toSVG(drawing);
+const svg = exporter.toSVG(drawing);
 document.write(svg);
 ```
-This has saved us some typing - we didnt need to use *makerjs.model...* to access any functions.
+This has saved us some typing - we didnt need to use *model...* to access any functions.
 The order of operations makes more sense too: the first operation (*center()*) is at the top,
 the final operation (*moveRelative([0, 15])*) is at the bottom, and the function parameters are together with their call.
 
 #### Using addTo() instead of .$result
 
-In some cases, you can avoid using **.$result** and just [add a path](/docs/api/modules/makerjs.path.html#addto) or [add a model](/docs/api/modules/makerjs.model.html#addto) to a parent model by calling **addTo(model, id)**.
+In some cases, you can avoid using **.$result** and just [add a path](/docs/api/modules/path.md#addto) or [add a model](/docs/api/modules/model.md#addto) to a parent model by calling **addTo(model, id)**.
 This is particularly useful prior to a call that creates a clone (such as **mirror**):
+
 ```javascript
 //use addTo with mirror
-var makerjs = require('makerjs');
-var starburst = {};
-makerjs.$(new makerjs.paths.Arc([5, 5], 5, 180, 270))
+import { $, exporter, paths } from 'photon/core';
+const starburst = {};
+$(new paths.Arc([5, 5], 5, 180, 270))
 .addTo(starburst, 'arc1')
 .mirror(true, false)
 .addTo(starburst, 'arc2')
@@ -80,6 +87,6 @@ makerjs.$(new makerjs.paths.Arc([5, 5], 5, 180, 270))
 .addTo(starburst, 'arc3')
 .mirror(true, false)
 .addTo(starburst, 'arc4');
-var svg = makerjs.exporter.toSVG(starburst);
+const svg = exporter.toSVG(starburst);
 document.write(svg);
 ```

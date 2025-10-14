@@ -5,14 +5,14 @@ source: docs/docs/api/interfaces/core_svg-esm.ISVGImportOptions.html
 
 ISVGImportOptions | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/svg-esm](../modules/core_svg-esm.html)
+* [core/svg-esm](../modules/core_svg-esm.md)
 * ISVGImportOptions
 
 # Interface ISVGImportOptions
@@ -52,7 +52,7 @@ Properties
 
 [bezierAccuracy](#bezieraccuracy)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

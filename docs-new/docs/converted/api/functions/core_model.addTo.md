@@ -5,24 +5,24 @@ source: docs/docs/api/functions/core_model.addTo.html
 
 addTo | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/model](../modules/core_model.html)
+* [core/model](../modules/core_model.md)
 * addTo
 
 # Function addTo
 
 * addTo(
-      childModel: [IModel](../interfaces/core_schema.IModel.html),
-      parentModel: [IModel](../interfaces/core_schema.IModel.html),
+      childModel: [IModel](../interfaces/core_schema.IModel.md),
+      parentModel: [IModel](../interfaces/core_schema.IModel.md),
       childModelId: string,
       overWrite?: boolean,
-  ): [IModel](../interfaces/core_schema.IModel.html)
+  ): [IModel](../interfaces/core_schema.IModel.md)
 
   Add a model as a child of another model. This is basically equivalent to:
 
@@ -35,10 +35,10 @@ Preparing search index...
 
   #### Parameters
 
-  + childModel: [IModel](../interfaces/core_schema.IModel.html)
+  + childModel: [IModel](../interfaces/core_schema.IModel.md)
 
     The model to add.
-  + parentModel: [IModel](../interfaces/core_schema.IModel.html)
+  + parentModel: [IModel](../interfaces/core_schema.IModel.md)
 
     The model to add to.
   + childModelId: string
@@ -48,7 +48,7 @@ Preparing search index...
 
     Optional flag to overwrite any model referenced by childModelId. Default is false, which will create an id similar to childModelId.
 
-  #### Returns [IModel](../interfaces/core_schema.IModel.html)
+  #### Returns [IModel](../interfaces/core_schema.IModel.md)
 
   The original model (for cascading).
 
@@ -63,7 +63,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

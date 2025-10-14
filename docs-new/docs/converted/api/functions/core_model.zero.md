@@ -5,25 +5,25 @@ source: docs/docs/api/functions/core_model.zero.html
 
 zero | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/model](../modules/core_model.html)
+* [core/model](../modules/core_model.md)
 * zero
 
 # Function zero
 
-* zero(modelToZero: [IModel](../interfaces/core_schema.IModel.html), zeroX?: boolean, zeroY?: boolean): [IModel](../interfaces/core_schema.IModel.html)
+* zero(modelToZero: [IModel](../interfaces/core_schema.IModel.md), zeroX?: boolean, zeroY?: boolean): [IModel](../interfaces/core_schema.IModel.md)
 
   Move a model so its bounding box begins at [0, 0].
 
   #### Parameters
 
-  + modelToZero: [IModel](../interfaces/core_schema.IModel.html)
+  + modelToZero: [IModel](../interfaces/core_schema.IModel.md)
 
     The model to zero.
   + zeroX: boolean = true
@@ -33,7 +33,7 @@ Preparing search index...
 
     Boolean to zero on the y axis. Default is true.
 
-  #### Returns [IModel](../interfaces/core_schema.IModel.html)
+  #### Returns [IModel](../interfaces/core_schema.IModel.md)
 
   The original model (for cascading).
 
@@ -48,7 +48,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

@@ -5,25 +5,25 @@ source: docs/docs/api/functions/core_model.getSimilarModelId.html
 
 getSimilarModelId | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/model](../modules/core_model.html)
+* [core/model](../modules/core_model.md)
 * getSimilarModelId
 
 # Function getSimilarModelId
 
-* getSimilarModelId(modelContext: [IModel](../interfaces/core_schema.IModel.html), modelId: string): string
+* getSimilarModelId(modelContext: [IModel](../interfaces/core_schema.IModel.md), modelId: string): string
 
   Get an unused id in the models map with the same prefix.
 
   #### Parameters
 
-  + modelContext: [IModel](../interfaces/core_schema.IModel.html)
+  + modelContext: [IModel](../interfaces/core_schema.IModel.md)
 
     The model containing the models map.
   + modelId: string
@@ -43,7 +43,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

@@ -5,14 +5,14 @@ source: docs/docs/api/interfaces/core_schema.IPathIntersectionOptions.html
 
 IPathIntersectionOptions | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/schema](../modules/core_schema.html)
+* [core/schema](../modules/core_schema.md)
 * IPathIntersectionOptions
 
 # Interface IPathIntersectionOptions
@@ -22,8 +22,8 @@ Options for path intersection.
 interface IPathIntersectionOptions {
     [excludeTangents](#excludetangents)?: boolean;
     [out\_AreOverlapped](#out_areoverlapped)?: boolean;
-    [path1Offset](#path1offset)?: [IPoint](core_schema.IPoint.html);
-    [path2Offset](#path2offset)?: [IPoint](core_schema.IPoint.html);
+    [path1Offset](#path1offset)?: [IPoint](core_schema.IPoint.md);
+    [path2Offset](#path2offset)?: [IPoint](core_schema.IPoint.md);
 }
 
 * Defined in [core/schema.ts:125](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/schema.ts#L125)
@@ -57,7 +57,7 @@ Optional output variable which will be true if the paths are overlapped.
 
 ### `Optional`path1Offset
 
-path1Offset?: [IPoint](core_schema.IPoint.html)
+path1Offset?: [IPoint](core_schema.IPoint.md)
 
 Optional offset of the first path.
 
@@ -65,7 +65,7 @@ Optional offset of the first path.
 
 ### `Optional`path2Offset
 
-path2Offset?: [IPoint](core_schema.IPoint.html)
+path2Offset?: [IPoint](core_schema.IPoint.md)
 
 Optional offset of the second path.
 
@@ -86,7 +86,7 @@ Properties
 
 [excludeTangents](#excludetangents)[out\_AreOverlapped](#out_areoverlapped)[path1Offset](#path1offset)[path2Offset](#path2offset)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

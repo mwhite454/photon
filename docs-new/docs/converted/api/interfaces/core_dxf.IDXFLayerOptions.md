@@ -5,14 +5,14 @@ source: docs/docs/api/interfaces/core_dxf.IDXFLayerOptions.html
 
 IDXFLayerOptions | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/dxf](../modules/core_dxf.html)
+* [core/dxf](../modules/core_dxf.md)
 * IDXFLayerOptions
 
 # Interface IDXFLayerOptions
@@ -66,7 +66,7 @@ Properties
 
 [color](#color)[fontSize](#fontsize)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

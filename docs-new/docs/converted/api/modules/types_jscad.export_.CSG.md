@@ -5,15 +5,15 @@ source: docs/docs/api/modules/types_jscad.export_.CSG.html
 
 CSG | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [types/jscad](types_jscad.html)
-* [export=](types_jscad.export_.html)
+* [types/jscad](types_jscad.md)
+* [export=](types_jscad.export_.md)
 * CSG
 
 # Namespace CSG
@@ -22,17 +22,17 @@ CSG namespace containing nested types and utilities
 
 ## Namespaces
 
-[Path2D](types_jscad.export_.CSG.Path2D.html)
+[Path2D](types_jscad.export_.CSG.Path2D.md)
 
 ## Interfaces
 
-[IArcOptions](../interfaces/types_jscad.export_.CSG.IArcOptions.html)
+[IArcOptions](../interfaces/types_jscad.export_.CSG.IArcOptions.md)
 
 
-[ICircleOptions](../interfaces/types_jscad.export_.CSG.ICircleOptions.html)
+[ICircleOptions](../interfaces/types_jscad.export_.CSG.ICircleOptions.md)
 
 
-[IEllpiticalArcOptions](../interfaces/types_jscad.export_.CSG.IEllpiticalArcOptions.html)
+[IEllpiticalArcOptions](../interfaces/types_jscad.export_.CSG.IEllpiticalArcOptions.md)
 
 ### Settings
 
@@ -53,7 +53,7 @@ Interfaces
 
 [IArcOptions](#iarcoptions)[ICircleOptions](#icircleoptions)[IEllpiticalArcOptions](#iellpiticalarcoptions)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

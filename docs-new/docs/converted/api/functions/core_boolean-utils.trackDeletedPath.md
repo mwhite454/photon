@@ -5,21 +5,21 @@ source: docs/docs/api/functions/core_boolean-utils.trackDeletedPath.html
 
 trackDeletedPath | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/boolean-utils](../modules/core_boolean-utils.html)
+* [core/boolean-utils](../modules/core_boolean-utils.md)
 * trackDeletedPath
 
 # Function trackDeletedPath
 
 * trackDeletedPath(
-      container: { paths: Record<string, [IPath](../interfaces/core_schema.IPath.html)> },
-      deletedPath: [IPath](../interfaces/core_schema.IPath.html),
+      container: { paths: Record<string, [IPath](../interfaces/core_schema.IPath.md)> },
+      deletedPath: [IPath](../interfaces/core_schema.IPath.md),
       pathId: string,
       reason: string,
       routeKey?: string,
@@ -27,8 +27,8 @@ Preparing search index...
 
   #### Parameters
 
-  + container: { paths: Record<string, [IPath](../interfaces/core_schema.IPath.html)> }
-  + deletedPath: [IPath](../interfaces/core_schema.IPath.html)
+  + container: { paths: Record<string, [IPath](../interfaces/core_schema.IPath.md)> }
+  + deletedPath: [IPath](../interfaces/core_schema.IPath.md)
   + pathId: string
   + reason: string
   + `Optional`routeKey: string
@@ -46,7 +46,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

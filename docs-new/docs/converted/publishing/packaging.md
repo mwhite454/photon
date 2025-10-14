@@ -1,12 +1,9 @@
 ---
 title: npm install browserify
 source: docs/docs/publishing/packaging.html
+layout: posts
 ---
 
----
-layout: posts
-title: Packaging
----
 1. create a github repo named makerjs-DRAWING
 a. initialize with a README
 b. Add .gitignore: Node
@@ -23,17 +20,17 @@ test command: node test.js
 add test.js, with console.log('success')
 npm test
 10. add index.js
-11. var makerjs = require('makerjs');
+11. import { exporter, paths } from 'photon/core';
 function DRAWING() {
 this.paths = [
-new makerjs.paths.Circle('circle1', [0, 0], 7)
+new paths.Circle('circle1', [0, 0], 7)
 ];
 }
 module.exports = DRAWING;
 edit test.js
-var makerjs = require('makerjs');
-var DRAWING = require('./index.js');
-console.log(makerjs.exporter.toSVG(new DRAWING()));
+import { exporter, paths } from 'photon/core';
+const DRAWING = require('./index.js');
+console.log(exporter.toSVG(new DRAWING()));
 npm test
 \* git add .gitignore, package.json, index.js, test.js
 git commit -m "initial checkin"

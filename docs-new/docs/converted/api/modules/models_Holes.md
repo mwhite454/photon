@@ -5,7 +5,7 @@ source: docs/docs/api/modules/models_Holes.html
 
 models/Holes | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
@@ -18,7 +18,7 @@ Preparing search index...
 
 ## Classes
 
-[Holes](../classes/models_Holes.Holes.html)
+[Holes](../classes/models_Holes.Holes.md)
 
 ### Settings
 
@@ -35,7 +35,7 @@ Classes
 
 [Holes](#holes)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

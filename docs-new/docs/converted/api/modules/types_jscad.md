@@ -5,7 +5,7 @@ source: docs/docs/api/modules/types_jscad.html
 
 types/jscad | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
@@ -18,11 +18,11 @@ Preparing search index...
 
 ## Namespaces
 
-[export=](types_jscad.export_.html)
+[export=](types_jscad.export_.md)
 
 ## Interfaces
 
-[StlSerializer](../interfaces/types_jscad.StlSerializer.html)
+[StlSerializer](../interfaces/types_jscad.StlSerializer.md)
 
 ### Settings
 
@@ -43,7 +43,7 @@ Interfaces
 
 [StlSerializer](#stlserializer)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

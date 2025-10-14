@@ -5,7 +5,7 @@ source: docs/docs/api/modules/core_collect.html
 
 core/collect | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
@@ -18,20 +18,20 @@ Preparing search index...
 
 ## Classes
 
-[Collector](../classes/core_collect.Collector.html)
+[Collector](../classes/core_collect.Collector.md)
 
 
-[PointGraph](../classes/core_collect.PointGraph.html)
+[PointGraph](../classes/core_collect.PointGraph.md)
 
 ## Interfaces
 
-[ICollection](../interfaces/core_collect.ICollection.html)
+[ICollection](../interfaces/core_collect.ICollection.md)
 
 
-[ICollectionKeyComparer](../interfaces/core_collect.ICollectionKeyComparer.html)
+[ICollectionKeyComparer](../interfaces/core_collect.ICollectionKeyComparer.md)
 
 
-[IPointGraphIndexElement](../interfaces/core_collect.IPointGraphIndexElement.html)
+[IPointGraphIndexElement](../interfaces/core_collect.IPointGraphIndexElement.md)
 
 ### Settings
 
@@ -52,7 +52,7 @@ Interfaces
 
 [ICollection](#icollection)[ICollectionKeyComparer](#icollectionkeycomparer)[IPointGraphIndexElement](#ipointgraphindexelement)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

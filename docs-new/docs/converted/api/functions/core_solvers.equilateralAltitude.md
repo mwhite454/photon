@@ -5,14 +5,14 @@ source: docs/docs/api/functions/core_solvers.equilateralAltitude.html
 
 equilateralAltitude | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/solvers](../modules/core_solvers.html)
+* [core/solvers](../modules/core_solvers.md)
 * equilateralAltitude
 
 # Function equilateralAltitude
@@ -38,7 +38,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

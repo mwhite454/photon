@@ -5,14 +5,14 @@ source: docs/docs/api/interfaces/core_schema.IBezierRange.html
 
 IBezierRange | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/schema](../modules/core_schema.html)
+* [core/schema](../modules/core_schema.md)
 * IBezierRange
 
 # Interface IBezierRange
@@ -66,7 +66,7 @@ Properties
 
 [endT](#endt)[startT](#startt)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

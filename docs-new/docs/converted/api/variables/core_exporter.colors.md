@@ -5,14 +5,14 @@ source: docs/docs/api/variables/core_exporter.colors.html
 
 colors | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/exporter](../modules/core_exporter.html)
+* [core/exporter](../modules/core_exporter.md)
 * colors
 
 # Variable colors`Const`
@@ -71,7 +71,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

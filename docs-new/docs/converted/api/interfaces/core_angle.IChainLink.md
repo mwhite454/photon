@@ -5,21 +5,21 @@ source: docs/docs/api/interfaces/core_angle.IChainLink.html
 
 IChainLink | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/angle](../modules/core_angle.html)
+* [core/angle](../modules/core_angle.md)
 * IChainLink
 
 # Interface IChainLink
 
 interface IChainLink {
     [reversed](#reversed): boolean;
-    [walkedPath](#walkedpath): { pathContext: [IPath](core_schema.IPath.html) };
+    [walkedPath](#walkedpath): { pathContext: [IPath](core_schema.IPath.md) };
 }
 
 * Defined in [core/angle.ts:9](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/angle.ts#L9)
@@ -41,7 +41,7 @@ reversed: boolean
 
 ### walkedPath
 
-walkedPath: { pathContext: [IPath](core_schema.IPath.html) }
+walkedPath: { pathContext: [IPath](core_schema.IPath.md) }
 
 * Defined in [core/angle.ts:10](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/angle.ts#L10)
 
@@ -60,7 +60,7 @@ Properties
 
 [reversed](#reversed)[walkedPath](#walkedpath)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

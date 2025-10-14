@@ -5,25 +5,25 @@ source: docs/docs/api/functions/core_angle.ofArcSpan.html
 
 ofArcSpan | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/angle](../modules/core_angle.html)
+* [core/angle](../modules/core_angle.md)
 * ofArcSpan
 
 # Function ofArcSpan
 
-* ofArcSpan(arc: [IPathArc](../interfaces/core_schema.IPathArc.html)): number
+* ofArcSpan(arc: [IPathArc](../interfaces/core_schema.IPathArc.md)): number
 
   Total angle of an arc between its start and end angles.
 
   #### Parameters
 
-  + arc: [IPathArc](../interfaces/core_schema.IPathArc.html)
+  + arc: [IPathArc](../interfaces/core_schema.IPathArc.md)
 
   #### Returns number
 
@@ -38,7 +38,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

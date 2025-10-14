@@ -5,15 +5,15 @@ source: docs/docs/api/classes/types_jscad.export_.CSG.html
 
 CSG | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [types/jscad](../modules/types_jscad.html)
-* [export=](../modules/types_jscad.export_.html)
+* [types/jscad](../modules/types_jscad.md)
+* [export=](../modules/types_jscad.export_.md)
 * CSG
 
 # Class CSG
@@ -38,15 +38,15 @@ CSG (3D Constructive Solid Geometry) class
 
 ### constructor
 
-* new CSG(): [export=](../modules/types_jscad.export_.html).CSG
+* new CSG(): [export=](../modules/types_jscad.export_.md).CSG
 
-  #### Returns [export=](../modules/types_jscad.export_.html).CSG
+  #### Returns [export=](../modules/types_jscad.export_.md).CSG
 
 ## Methods
 
 ### translate
 
-* translate(offset: number[]): [export=](../modules/types_jscad.export_.html).CSG
+* translate(offset: number[]): [export=](../modules/types_jscad.export_.md).CSG
 
   Translate this CSG by an offset
 
@@ -54,21 +54,21 @@ CSG (3D Constructive Solid Geometry) class
 
   + offset: number[]
 
-  #### Returns [export=](../modules/types_jscad.export_.html).CSG
+  #### Returns [export=](../modules/types_jscad.export_.md).CSG
 
   + Defined in [types/jscad.d.ts:45](https://github.com/mwhite454/photon/blob/main/packages/photon/src/types/jscad.d.ts#L45)
 
 ### union
 
-* union(other: [export=](../modules/types_jscad.export_.html).CSG): [export=](../modules/types_jscad.export_.html).CSG
+* union(other: [export=](../modules/types_jscad.export_.md).CSG): [export=](../modules/types_jscad.export_.md).CSG
 
   Union this CSG with another
 
   #### Parameters
 
-  + other: [export=](../modules/types_jscad.export_.html).CSG
+  + other: [export=](../modules/types_jscad.export_.md).CSG
 
-  #### Returns [export=](../modules/types_jscad.export_.html).CSG
+  #### Returns [export=](../modules/types_jscad.export_.md).CSG
 
   + Defined in [types/jscad.d.ts:40](https://github.com/mwhite454/photon/blob/main/packages/photon/src/types/jscad.d.ts#L40)
 
@@ -91,7 +91,7 @@ Methods
 
 [translate](#translate)[union](#union)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

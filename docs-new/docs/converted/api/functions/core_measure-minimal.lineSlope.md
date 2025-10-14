@@ -5,27 +5,27 @@ source: docs/docs/api/functions/core_measure-minimal.lineSlope.html
 
 lineSlope | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/measure-minimal](../modules/core_measure-minimal.html)
+* [core/measure-minimal](../modules/core_measure-minimal.md)
 * lineSlope
 
 # Function lineSlope
 
-* lineSlope(line: [IPathLine](../interfaces/core_schema.IPathLine.html)): [ISlope](../interfaces/core_maker.ISlope.html)
+* lineSlope(line: [IPathLine](../interfaces/core_schema.IPathLine.md)): [ISlope](../interfaces/core_maker.ISlope.md)
 
   Gets the slope of a line.
 
   #### Parameters
 
-  + line: [IPathLine](../interfaces/core_schema.IPathLine.html)
+  + line: [IPathLine](../interfaces/core_schema.IPathLine.md)
 
-  #### Returns [ISlope](../interfaces/core_maker.ISlope.html)
+  #### Returns [ISlope](../interfaces/core_maker.ISlope.md)
 
   + Defined in [core/measure-minimal.ts:25](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure-minimal.ts#L25)
 
@@ -38,7 +38,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

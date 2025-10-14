@@ -3,10 +3,6 @@ title: Chain Theory
 source: docs/_snippets/chain-theory.html
 ---
 
----
-title: Chain theory
----
-
 When 2 or more paths connect end to end, we call this a **chain**.
 Here are 3 lines that connect end to end, forming a chain with 3 links;
 each line path is considered a link in the chain:
@@ -30,10 +26,10 @@ You do not explicitly define chains in your drawing, chains are something that M
 
 Call one of these two functions to find chains, which will return one or more **Chain** objects:
 
-* [makerjs.model.findSingleChain(model)](/docs/api/modules/makerjs.model.html#findsinglechain)
-* [makerjs.model.findChains(model)](/docs/api/modules/makerjs.model.html#findchains)
+* [makerjs.model.findSingleChain(model)](/docs/api/modules/makerjs.model.md#findsinglechain)
+* [makerjs.model.findChains(model)](/docs/api/modules/makerjs.model.md#findchains)
 
 #### Chain object type
 
-* [makerjs.model.findSingleChain(model)](/docs/api/modules/makerjs.model.html#findsinglechain)
-* [makerjs.model.findChains(model)](/docs/api/modules/makerjs.model.html#findchains)
+* [makerjs.model.findSingleChain(model)](/docs/api/modules/makerjs.model.md#findsinglechain)
+* [makerjs.model.findChains(model)](/docs/api/modules/makerjs.model.md#findchains)

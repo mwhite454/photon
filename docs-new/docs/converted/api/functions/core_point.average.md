@@ -5,28 +5,28 @@ source: docs/docs/api/functions/core_point.average.html
 
 average | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/point](../modules/core_point.html)
+* [core/point](../modules/core_point.md)
 * average
 
 # Function average
 
-* average(a: [IPoint](../interfaces/core_schema.IPoint.html), b: [IPoint](../interfaces/core_schema.IPoint.html)): [IPoint](../interfaces/core_schema.IPoint.html)
+* average(a: [IPoint](../interfaces/core_schema.IPoint.md), b: [IPoint](../interfaces/core_schema.IPoint.md)): [IPoint](../interfaces/core_schema.IPoint.md)
 
   Get the average of two points.
 
   #### Parameters
 
-  + a: [IPoint](../interfaces/core_schema.IPoint.html)
-  + b: [IPoint](../interfaces/core_schema.IPoint.html)
+  + a: [IPoint](../interfaces/core_schema.IPoint.md)
+  + b: [IPoint](../interfaces/core_schema.IPoint.md)
 
-  #### Returns [IPoint](../interfaces/core_schema.IPoint.html)
+  #### Returns [IPoint](../interfaces/core_schema.IPoint.md)
 
   + Defined in [core/point.ts:26](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/point.ts#L26)
 
@@ -39,7 +39,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

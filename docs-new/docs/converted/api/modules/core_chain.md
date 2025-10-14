@@ -5,7 +5,7 @@ source: docs/docs/api/modules/core_chain.html
 
 core/chain | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
@@ -18,28 +18,28 @@ Preparing search index...
 
 ## Functions
 
-[cycle](../functions/core_chain.cycle.html)
+[cycle](../functions/core_chain.cycle.md)
 
 
-[findChains](../functions/core_chain.findChains.html)
+[findChains](../functions/core_chain.findChains.md)
 
 
-[findSingleChain](../functions/core_chain.findSingleChain.html)
+[findSingleChain](../functions/core_chain.findSingleChain.md)
 
 
-[reverse](../functions/core_chain.reverse.html)
+[reverse](../functions/core_chain.reverse.md)
 
 
-[startAt](../functions/core_chain.startAt.html)
+[startAt](../functions/core_chain.startAt.md)
 
 
-[toKeyPoints](../functions/core_chain.toKeyPoints.html)
+[toKeyPoints](../functions/core_chain.toKeyPoints.md)
 
 
-[toNewModel](../functions/core_chain.toNewModel.html)
+[toNewModel](../functions/core_chain.toNewModel.md)
 
 
-[toPoints](../functions/core_chain.toPoints.html)
+[toPoints](../functions/core_chain.toPoints.md)
 
 ### Settings
 
@@ -56,7 +56,7 @@ Functions
 
 [cycle](#cycle)[findChains](#findchains)[findSingleChain](#findsinglechain)[reverse](#reverse)[startAt](#startat)[toKeyPoints](#tokeypoints)[toNewModel](#tonewmodel)[toPoints](#topoints)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

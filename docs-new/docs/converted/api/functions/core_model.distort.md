@@ -5,31 +5,31 @@ source: docs/docs/api/functions/core_model.distort.html
 
 distort | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/model](../modules/core_model.html)
+* [core/model](../modules/core_model.md)
 * distort
 
 # Function distort
 
 * distort(
-      modelToDistort: [IModel](../interfaces/core_schema.IModel.html),
+      modelToDistort: [IModel](../interfaces/core_schema.IModel.md),
       scaleX: number,
       scaleY: number,
       scaleOrigin?: boolean,
       bezierAccuracy?: number,
-  ): [IModel](../interfaces/core_schema.IModel.html)
+  ): [IModel](../interfaces/core_schema.IModel.md)
 
   Create a distorted copy of a model - scale x and y individually.
 
   #### Parameters
 
-  + modelToDistort: [IModel](../interfaces/core_schema.IModel.html)
+  + modelToDistort: [IModel](../interfaces/core_schema.IModel.md)
 
     The model to distort.
   + scaleX: number
@@ -45,7 +45,7 @@ Preparing search index...
 
     Optional accuracy of Bezier curves.
 
-  #### Returns [IModel](../interfaces/core_schema.IModel.html)
+  #### Returns [IModel](../interfaces/core_schema.IModel.md)
 
   New model (for cascading).
 
@@ -60,7 +60,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

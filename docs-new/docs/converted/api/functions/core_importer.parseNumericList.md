@@ -5,14 +5,14 @@ source: docs/docs/api/functions/core_importer.parseNumericList.html
 
 parseNumericList | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/importer](../modules/core_importer.html)
+* [core/importer](../modules/core_importer.md)
 * parseNumericList
 
 # Function parseNumericList
@@ -24,7 +24,7 @@ Preparing search index...
   Example:
 
   ```
-  var n = makerjs.importer.parseNumericList('5, 10, 15.20 25-30-35 4e1 .5');
+  const n = makerjs.importer.parseNumericList('5, 10, 15.20 25-30-35 4e1 .5');
   Copy
   ```
 
@@ -49,7 +49,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

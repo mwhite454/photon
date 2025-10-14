@@ -5,16 +5,16 @@ source: docs/docs/api/modules/types_jscad.export_.CSG.Path2D.html
 
 Path2D | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [types/jscad](types_jscad.html)
-* [export=](types_jscad.export_.html)
-* [CSG](types_jscad.export_.CSG.html)
+* [types/jscad](types_jscad.md)
+* [export=](types_jscad.export_.md)
+* [CSG](types_jscad.export_.CSG.md)
 * Path2D
 
 # Namespace Path2D
@@ -23,7 +23,7 @@ Path2D utilities for creating 2D paths
 
 ## Functions
 
-[arc](../functions/types_jscad.export_.CSG.Path2D.arc.html)
+[arc](../functions/types_jscad.export_.CSG.Path2D.arc.md)
 
 ### Settings
 
@@ -40,7 +40,7 @@ Functions
 
 [arc](#arc)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

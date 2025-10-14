@@ -5,32 +5,32 @@ source: docs/docs/api/functions/core_chain.toKeyPoints.html
 
 toKeyPoints | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/chain](../modules/core_chain.html)
+* [core/chain](../modules/core_chain.md)
 * toKeyPoints
 
 # Function toKeyPoints
 
-* toKeyPoints(chainContext: [IChain](../interfaces/core_maker.IChain.html), maxArcFacet?: number): [IPoint](../interfaces/core_schema.IPoint.html)[]
+* toKeyPoints(chainContext: [IChain](../interfaces/core_maker.IChain.md), maxArcFacet?: number): [IPoint](../interfaces/core_schema.IPoint.md)[]
 
   Get key points (a minimal a number of points) along a chain of paths.
 
   #### Parameters
 
-  + chainContext: [IChain](../interfaces/core_maker.IChain.html)
+  + chainContext: [IChain](../interfaces/core_maker.IChain.md)
 
     Chain of paths to get points from.
   + `Optional`maxArcFacet: number
 
     The maximum length between points on an arc or circle.
 
-  #### Returns [IPoint](../interfaces/core_schema.IPoint.html)[]
+  #### Returns [IPoint](../interfaces/core_schema.IPoint.md)[]
 
   Array of points which are on the chain.
 
@@ -45,7 +45,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

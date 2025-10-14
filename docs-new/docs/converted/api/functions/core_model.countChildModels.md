@@ -5,25 +5,25 @@ source: docs/docs/api/functions/core_model.countChildModels.html
 
 countChildModels | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/model](../modules/core_model.html)
+* [core/model](../modules/core_model.md)
 * countChildModels
 
 # Function countChildModels
 
-* countChildModels(modelContext: [IModel](../interfaces/core_schema.IModel.html)): number
+* countChildModels(modelContext: [IModel](../interfaces/core_schema.IModel.md)): number
 
   Count the number of child models within a given model.
 
   #### Parameters
 
-  + modelContext: [IModel](../interfaces/core_schema.IModel.html)
+  + modelContext: [IModel](../interfaces/core_schema.IModel.md)
 
     The model containing other models.
 
@@ -42,7 +42,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

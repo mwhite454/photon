@@ -5,26 +5,26 @@ source: docs/docs/api/functions/core_angle.ofPointInRadians.html
 
 ofPointInRadians | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/angle](../modules/core_angle.html)
+* [core/angle](../modules/core_angle.md)
 * ofPointInRadians
 
 # Function ofPointInRadians
 
-* ofPointInRadians(origin: [IPoint](../interfaces/core_schema.IPoint.html), pointToFindAngle: [IPoint](../interfaces/core_schema.IPoint.html)): number
+* ofPointInRadians(origin: [IPoint](../interfaces/core_schema.IPoint.md), pointToFindAngle: [IPoint](../interfaces/core_schema.IPoint.md)): number
 
   Angle of a line through a point, in radians.
 
   #### Parameters
 
-  + origin: [IPoint](../interfaces/core_schema.IPoint.html)
-  + pointToFindAngle: [IPoint](../interfaces/core_schema.IPoint.html)
+  + origin: [IPoint](../interfaces/core_schema.IPoint.md)
+  + pointToFindAngle: [IPoint](../interfaces/core_schema.IPoint.md)
 
   #### Returns number
 
@@ -39,7 +39,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

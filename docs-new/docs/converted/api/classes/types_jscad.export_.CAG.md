@@ -5,15 +5,15 @@ source: docs/docs/api/classes/types_jscad.export_.CAG.html
 
 CAG | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [types/jscad](../modules/types_jscad.html)
-* [export=](../modules/types_jscad.export_.html)
+* [types/jscad](../modules/types_jscad.md)
+* [export=](../modules/types_jscad.export_.md)
 * CAG
 
 # Class CAG
@@ -47,7 +47,7 @@ CAG (2D Constructive Area Geometry) class
 
 ### extrude
 
-* extrude(options: { offset: number[] }): [export=](../modules/types_jscad.export_.html).[CSG](types_jscad.export_.CSG.html)
+* extrude(options: { offset: number[] }): [export=](../modules/types_jscad.export_.md).[CSG](types_jscad.export_.CSG.md)
 
   Extrude this 2D CAG into a 3D CSG
 
@@ -55,7 +55,7 @@ CAG (2D Constructive Area Geometry) class
 
   + options: { offset: number[] }
 
-  #### Returns [export=](../modules/types_jscad.export_.html).[CSG](types_jscad.export_.CSG.html)
+  #### Returns [export=](../modules/types_jscad.export_.md).[CSG](types_jscad.export_.CSG.md)
 
   + Defined in [types/jscad.d.ts:30](https://github.com/mwhite454/photon/blob/main/packages/photon/src/types/jscad.d.ts#L30)
 
@@ -120,7 +120,7 @@ Methods
 
 [extrude](#extrude)[subtract](#subtract)[union](#union)[fromPoints](#frompoints)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

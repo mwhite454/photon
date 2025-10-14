@@ -5,25 +5,25 @@ source: docs/docs/api/interfaces/core_maker.IWalkPathCallback.html
 
 IWalkPathCallback | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.html)
+* [core/maker](../modules/core_maker.md)
 * IWalkPathCallback
 
 # Interface IWalkPathCallback
 
 Callback signature for path in model.walk().
 
-* IWalkPathCallback(context: [IWalkPath](core_maker.IWalkPath.html)): void
+* IWalkPathCallback(context: [IWalkPath](core_maker.IWalkPath.md)): void
 
   #### Parameters
 
-  + context: [IWalkPath](core_maker.IWalkPath.html)
+  + context: [IWalkPath](core_maker.IWalkPath.md)
 
   #### Returns void
 
@@ -38,7 +38,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

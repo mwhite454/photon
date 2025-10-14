@@ -5,7 +5,7 @@ source: docs/docs/api/modules/models_SCurve.html
 
 models/SCurve | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
@@ -18,7 +18,7 @@ Preparing search index...
 
 ## Classes
 
-[SCurve](../classes/models_SCurve.SCurve.html)
+[SCurve](../classes/models_SCurve.SCurve.md)
 
 ### Settings
 
@@ -35,7 +35,7 @@ Classes
 
 [SCurve](#scurve)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

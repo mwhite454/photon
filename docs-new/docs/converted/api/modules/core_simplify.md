@@ -5,7 +5,7 @@ source: docs/docs/api/modules/core_simplify.html
 
 core/simplify | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
@@ -18,7 +18,7 @@ Preparing search index...
 
 ## Functions
 
-[simplify](../functions/core_simplify.simplify.html)
+[simplify](../functions/core_simplify.simplify.md)
 
 ### Settings
 
@@ -35,7 +35,7 @@ Functions
 
 [simplify](#simplify)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

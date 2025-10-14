@@ -5,33 +5,33 @@ source: docs/docs/api/functions/core_expand.straighten.html
 
 straighten | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/expand](../modules/core_expand.html)
+* [core/expand](../modules/core_expand.md)
 * straighten
 
 # Function straighten
 
 * straighten(
-      arc: [IPathArc](../interfaces/core_schema.IPathArc.html),
+      arc: [IPathArc](../interfaces/core_schema.IPathArc.md),
       bevel?: boolean,
       prefix?: string,
       close?: boolean,
-  ): [IModel](../interfaces/core_schema.IModel.html)
+  ): [IModel](../interfaces/core_schema.IModel.md)
 
   #### Parameters
 
-  + arc: [IPathArc](../interfaces/core_schema.IPathArc.html)
+  + arc: [IPathArc](../interfaces/core_schema.IPathArc.md)
   + `Optional`bevel: boolean
   + `Optional`prefix: string
   + `Optional`close: boolean
 
-  #### Returns [IModel](../interfaces/core_schema.IModel.html)
+  #### Returns [IModel](../interfaces/core_schema.IModel.md)
 
   + Defined in [core/expand.ts:46](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/expand.ts#L46)
 
@@ -44,7 +44,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

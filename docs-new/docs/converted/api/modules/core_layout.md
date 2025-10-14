@@ -5,7 +5,7 @@ source: docs/docs/api/modules/core_layout.html
 
 core/layout | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
@@ -18,28 +18,28 @@ Preparing search index...
 
 ## Functions
 
-[childrenOnChain](../functions/core_layout.childrenOnChain.html)
+[childrenOnChain](../functions/core_layout.childrenOnChain.md)
 
 
-[childrenOnPath](../functions/core_layout.childrenOnPath.html)
+[childrenOnPath](../functions/core_layout.childrenOnPath.md)
 
 
-[cloneToBrick](../functions/core_layout.cloneToBrick.html)
+[cloneToBrick](../functions/core_layout.cloneToBrick.md)
 
 
-[cloneToColumn](../functions/core_layout.cloneToColumn.html)
+[cloneToColumn](../functions/core_layout.cloneToColumn.md)
 
 
-[cloneToGrid](../functions/core_layout.cloneToGrid.html)
+[cloneToGrid](../functions/core_layout.cloneToGrid.md)
 
 
-[cloneToHoneycomb](../functions/core_layout.cloneToHoneycomb.html)
+[cloneToHoneycomb](../functions/core_layout.cloneToHoneycomb.md)
 
 
-[cloneToRadial](../functions/core_layout.cloneToRadial.html)
+[cloneToRadial](../functions/core_layout.cloneToRadial.md)
 
 
-[cloneToRow](../functions/core_layout.cloneToRow.html)
+[cloneToRow](../functions/core_layout.cloneToRow.md)
 
 ### Settings
 
@@ -56,7 +56,7 @@ Functions
 
 [childrenOnChain](#childrenonchain)[childrenOnPath](#childrenonpath)[cloneToBrick](#clonetobrick)[cloneToColumn](#clonetocolumn)[cloneToGrid](#clonetogrid)[cloneToHoneycomb](#clonetohoneycomb)[cloneToRadial](#clonetoradial)[cloneToRow](#clonetorow)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

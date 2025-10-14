@@ -5,15 +5,15 @@ source: docs/docs/api/interfaces/core_cascades.MakerJs.ICascade.html
 
 ICascade | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/cascades](../modules/core_cascades.html)
-* [MakerJs](../modules/core_cascades.MakerJs.html)
+* [core/cascades](../modules/core_cascades.md)
+* [MakerJs](../modules/core_cascades.MakerJs.md)
 * ICascade
 
 # Interface ICascade
@@ -24,12 +24,12 @@ interface ICascade {
     [$result](#result): any;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.html#core/cascades.MakerJs.ICascade))
+#### Hierarchy ([View Summary](../hierarchy.md#core/cascades.MakerJs.ICascade))
 
 * ICascade
-  + [ICascadeModel](core_cascades.MakerJs.ICascadeModel.html)
-  + [ICascadePath](core_cascades.MakerJs.ICascadePath.html)
-  + [ICascadePoint](core_cascades.MakerJs.ICascadePoint.html)
+  + [ICascadeModel](core_cascades.MakerJs.ICascadeModel.md)
+  + [ICascadePath](core_cascades.MakerJs.ICascadePath.md)
+  + [ICascadePoint](core_cascades.MakerJs.ICascadePoint.md)
 
 * Defined in [core/cascades.ts:5](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/cascades.ts#L5)
 
@@ -76,7 +76,7 @@ Properties
 
 [$initial](#initial)[$reset](#reset)[$result](#result)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

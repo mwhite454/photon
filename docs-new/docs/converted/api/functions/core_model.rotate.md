@@ -5,39 +5,39 @@ source: docs/docs/api/functions/core_model.rotate.html
 
 rotate | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/model](../modules/core_model.html)
+* [core/model](../modules/core_model.md)
 * rotate
 
 # Function rotate
 
 * rotate(
-      modelToRotate: [IModel](../interfaces/core_schema.IModel.html),
+      modelToRotate: [IModel](../interfaces/core_schema.IModel.md),
       angleInDegrees: number,
-      rotationOrigin?: [IPoint](../interfaces/core_schema.IPoint.html),
-  ): [IModel](../interfaces/core_schema.IModel.html)
+      rotationOrigin?: [IPoint](../interfaces/core_schema.IPoint.md),
+  ): [IModel](../interfaces/core_schema.IModel.md)
 
   Rotate a model.
 
   #### Parameters
 
-  + modelToRotate: [IModel](../interfaces/core_schema.IModel.html)
+  + modelToRotate: [IModel](../interfaces/core_schema.IModel.md)
 
     The model to rotate.
   + angleInDegrees: number
 
     The amount of rotation, in degrees.
-  + rotationOrigin: [IPoint](../interfaces/core_schema.IPoint.html) = ...
+  + rotationOrigin: [IPoint](../interfaces/core_schema.IPoint.md) = ...
 
     The center point of rotation.
 
-  #### Returns [IModel](../interfaces/core_schema.IModel.html)
+  #### Returns [IModel](../interfaces/core_schema.IModel.md)
 
   The original model (for cascading).
 
@@ -52,7 +52,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

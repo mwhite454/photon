@@ -5,29 +5,29 @@ source: docs/docs/api/functions/core_chain.reverse.html
 
 reverse | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/chain](../modules/core_chain.html)
+* [core/chain](../modules/core_chain.md)
 * reverse
 
 # Function reverse
 
-* reverse(chainContext: [IChain](../interfaces/core_maker.IChain.html)): [IChain](../interfaces/core_maker.IChain.html)
+* reverse(chainContext: [IChain](../interfaces/core_maker.IChain.md)): [IChain](../interfaces/core_maker.IChain.md)
 
   Reverse the links of a chain.
 
   #### Parameters
 
-  + chainContext: [IChain](../interfaces/core_maker.IChain.html)
+  + chainContext: [IChain](../interfaces/core_maker.IChain.md)
 
     Chain to reverse.
 
-  #### Returns [IChain](../interfaces/core_maker.IChain.html)
+  #### Returns [IChain](../interfaces/core_maker.IChain.md)
 
   The chainContext for cascading.
 
@@ -42,7 +42,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

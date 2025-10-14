@@ -5,28 +5,28 @@ source: docs/docs/api/functions/core_path.layer.html
 
 layer | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/path](../modules/core_path.html)
+* [core/path](../modules/core_path.md)
 * layer
 
 # Function layer
 
-* layer(pathContext: [IPath](../interfaces/core_schema.IPath.html), layer: string): [IPath](../interfaces/core_schema.IPath.html)
+* layer(pathContext: [IPath](../interfaces/core_schema.IPath.md), layer: string): [IPath](../interfaces/core_schema.IPath.md)
 
   Set the layer of a path.
 
   #### Parameters
 
-  + pathContext: [IPath](../interfaces/core_schema.IPath.html)
+  + pathContext: [IPath](../interfaces/core_schema.IPath.md)
   + layer: string
 
-  #### Returns [IPath](../interfaces/core_schema.IPath.html)
+  #### Returns [IPath](../interfaces/core_schema.IPath.md)
 
   + Defined in [core/path.ts:106](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/path.ts#L106)
 
@@ -39,7 +39,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

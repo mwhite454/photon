@@ -5,31 +5,31 @@ source: docs/docs/api/functions/core_model.findChains.html
 
 findChains | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/model](../modules/core_model.html)
+* [core/model](../modules/core_model.md)
 * findChains
 
 # Function findChains
 
 * findChains(
-      modelContext: [IModel](../interfaces/core_schema.IModel.html),
-      callbackOrOptions?: [IChainCallback](../interfaces/core_maker.IChainCallback.html) | [IFindChainsOptions](../interfaces/core_maker.IFindChainsOptions.html),
-      maybeOptions?: [IFindChainsOptions](../interfaces/core_maker.IFindChainsOptions.html),
-  ): [IChain](../interfaces/core_maker.IChain.html)[] | [IChainsMap](../interfaces/core_maker.IChainsMap.html)
+      modelContext: [IModel](../interfaces/core_schema.IModel.md),
+      callbackOrOptions?: [IChainCallback](../interfaces/core_maker.IChainCallback.md) | [IFindChainsOptions](../interfaces/core_maker.IFindChainsOptions.md),
+      maybeOptions?: [IFindChainsOptions](../interfaces/core_maker.IFindChainsOptions.md),
+  ): [IChain](../interfaces/core_maker.IChain.md)[] | [IChainsMap](../interfaces/core_maker.IChainsMap.md)
 
   #### Parameters
 
-  + modelContext: [IModel](../interfaces/core_schema.IModel.html)
-  + `Optional`callbackOrOptions: [IChainCallback](../interfaces/core_maker.IChainCallback.html) | [IFindChainsOptions](../interfaces/core_maker.IFindChainsOptions.html)
-  + `Optional`maybeOptions: [IFindChainsOptions](../interfaces/core_maker.IFindChainsOptions.html)
+  + modelContext: [IModel](../interfaces/core_schema.IModel.md)
+  + `Optional`callbackOrOptions: [IChainCallback](../interfaces/core_maker.IChainCallback.md) | [IFindChainsOptions](../interfaces/core_maker.IFindChainsOptions.md)
+  + `Optional`maybeOptions: [IFindChainsOptions](../interfaces/core_maker.IFindChainsOptions.md)
 
-  #### Returns [IChain](../interfaces/core_maker.IChain.html)[] | [IChainsMap](../interfaces/core_maker.IChainsMap.html)
+  #### Returns [IChain](../interfaces/core_maker.IChain.md)[] | [IChainsMap](../interfaces/core_maker.IChainsMap.md)
 
   + Defined in [core/model.ts:12](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/model.ts#L12)
 
@@ -42,7 +42,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

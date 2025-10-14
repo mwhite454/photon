@@ -5,7 +5,7 @@ source: docs/docs/api/modules/core_angle.html
 
 core/angle | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
@@ -18,41 +18,41 @@ Preparing search index...
 
 ## Interfaces
 
-[IChainLink](../interfaces/core_angle.IChainLink.html)
+[IChainLink](../interfaces/core_angle.IChainLink.md)
 
 ## Functions
 
-[mirror](../functions/core_angle.mirror.html)
+[mirror](../functions/core_angle.mirror.md)
 
 
-[noRevolutions](../functions/core_angle.noRevolutions.html)
+[noRevolutions](../functions/core_angle.noRevolutions.md)
 
 
-[ofArcEnd](../functions/core_angle.ofArcEnd.html)
+[ofArcEnd](../functions/core_angle.ofArcEnd.md)
 
 
-[ofArcMiddle](../functions/core_angle.ofArcMiddle.html)
+[ofArcMiddle](../functions/core_angle.ofArcMiddle.md)
 
 
-[ofArcSpan](../functions/core_angle.ofArcSpan.html)
+[ofArcSpan](../functions/core_angle.ofArcSpan.md)
 
 
-[ofChainLinkJoint](../functions/core_angle.ofChainLinkJoint.html)
+[ofChainLinkJoint](../functions/core_angle.ofChainLinkJoint.md)
 
 
-[ofLineInDegrees](../functions/core_angle.ofLineInDegrees.html)
+[ofLineInDegrees](../functions/core_angle.ofLineInDegrees.md)
 
 
-[ofPointInDegrees](../functions/core_angle.ofPointInDegrees.html)
+[ofPointInDegrees](../functions/core_angle.ofPointInDegrees.md)
 
 
-[ofPointInRadians](../functions/core_angle.ofPointInRadians.html)
+[ofPointInRadians](../functions/core_angle.ofPointInRadians.md)
 
 
-[toDegrees](../functions/core_angle.toDegrees.html)
+[toDegrees](../functions/core_angle.toDegrees.md)
 
 
-[toRadians](../functions/core_angle.toRadians.html)
+[toRadians](../functions/core_angle.toRadians.md)
 
 ### Settings
 
@@ -73,7 +73,7 @@ Functions
 
 [mirror](#mirror)[noRevolutions](#norevolutions)[ofArcEnd](#ofarcend)[ofArcMiddle](#ofarcmiddle)[ofArcSpan](#ofarcspan)[ofChainLinkJoint](#ofchainlinkjoint)[ofLineInDegrees](#oflineindegrees)[ofPointInDegrees](#ofpointindegrees)[ofPointInRadians](#ofpointinradians)[toDegrees](#todegrees)[toRadians](#toradians)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

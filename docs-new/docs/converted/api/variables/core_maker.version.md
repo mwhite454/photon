@@ -5,14 +5,14 @@ source: docs/docs/api/variables/core_maker.version.html
 
 version | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.html)
+* [core/maker](../modules/core_maker.md)
 * version
 
 # Variable version`Const`
@@ -32,7 +32,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

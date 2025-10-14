@@ -5,14 +5,14 @@ source: docs/docs/api/interfaces/core_maker.IRouteOffset.html
 
 IRouteOffset | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.html)
+* [core/maker](../modules/core_maker.md)
 * IRouteOffset
 
 # Interface IRouteOffset
@@ -21,16 +21,16 @@ A route to either a path or a model, and the absolute offset of it.
 
 interface IRouteOffset {
     [layer](#layer): string;
-    [offset](#offset): [IPoint](core_schema.IPoint.html);
+    [offset](#offset): [IPoint](core_schema.IPoint.md);
     [route](#route): string[];
     [routeKey](#routekey): string;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.html#core/maker.IRouteOffset))
+#### Hierarchy ([View Summary](../hierarchy.md#core/maker.IRouteOffset))
 
 * IRouteOffset
-  + [IWalkPath](core_maker.IWalkPath.html)
-  + [IWalkModel](core_maker.IWalkModel.html)
+  + [IWalkPath](core_maker.IWalkPath.md)
+  + [IWalkModel](core_maker.IWalkModel.md)
 
 * Defined in [core/maker.ts:394](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L394)
 
@@ -53,7 +53,7 @@ layer: string
 
 ### offset
 
-offset: [IPoint](core_schema.IPoint.html)
+offset: [IPoint](core_schema.IPoint.md)
 
 * Defined in [core/maker.ts:396](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L396)
 
@@ -84,7 +84,7 @@ Properties
 
 [layer](#layer)[offset](#offset)[route](#route)[routeKey](#routekey)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

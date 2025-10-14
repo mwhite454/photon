@@ -5,7 +5,7 @@ source: docs/docs/api/modules/core_exporter.html
 
 core/exporter | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
@@ -18,18 +18,18 @@ Preparing search index...
 
 ## Interfaces
 
-[IJsonExportOptions](../interfaces/core_exporter.IJsonExportOptions.html)
+[IJsonExportOptions](../interfaces/core_exporter.IJsonExportOptions.md)
 
 
-[IStatusCallback](../interfaces/core_exporter.IStatusCallback.html)
+[IStatusCallback](../interfaces/core_exporter.IStatusCallback.md)
 
 ## Variables
 
-[colors](../variables/core_exporter.colors.html)
+[colors](../variables/core_exporter.colors.md)
 
 ## Functions
 
-[toJson](../functions/core_exporter.toJson.html)
+[toJson](../functions/core_exporter.toJson.md)
 
 ### Settings
 
@@ -54,7 +54,7 @@ Functions
 
 [toJson](#tojson)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

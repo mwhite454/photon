@@ -5,35 +5,35 @@ source: docs/docs/api/functions/core_expand.outline.html
 
 outline | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/expand](../modules/core_expand.html)
+* [core/expand](../modules/core_expand.md)
 * outline
 
 # Function outline
 
 * outline(
-      modelToOutline: [IModel](../interfaces/core_schema.IModel.html),
+      modelToOutline: [IModel](../interfaces/core_schema.IModel.md),
       distance: number,
       joints?: number,
       inside?: boolean,
-      options?: [ICombineOptions](../interfaces/core_maker.ICombineOptions.html),
-  ): [IModel](../interfaces/core_schema.IModel.html)
+      options?: [ICombineOptions](../interfaces/core_maker.ICombineOptions.md),
+  ): [IModel](../interfaces/core_schema.IModel.md)
 
   #### Parameters
 
-  + modelToOutline: [IModel](../interfaces/core_schema.IModel.html)
+  + modelToOutline: [IModel](../interfaces/core_schema.IModel.md)
   + distance: number
   + joints: number = 0
   + inside: boolean = false
-  + options: [ICombineOptions](../interfaces/core_maker.ICombineOptions.html) = {}
+  + options: [ICombineOptions](../interfaces/core_maker.ICombineOptions.md) = {}
 
-  #### Returns [IModel](../interfaces/core_schema.IModel.html)
+  #### Returns [IModel](../interfaces/core_schema.IModel.md)
 
   + Defined in [core/expand.ts:196](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/expand.ts#L196)
 
@@ -46,7 +46,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

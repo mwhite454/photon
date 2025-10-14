@@ -5,14 +5,14 @@ source: docs/docs/api/interfaces/core_openjscad-esm.IJscadCagOptions.html
 
 IJscadCagOptions | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/openjscad-esm](../modules/core_openjscad-esm.html)
+* [core/openjscad-esm](../modules/core_openjscad-esm.md)
 * IJscadCagOptions
 
 # Interface IJscadCagOptions
@@ -24,15 +24,15 @@ interface IJscadCagOptions {
     [byLayers](#bylayers)?: boolean;
     [maxArcFacet](#maxarcfacet)?: number;
     [pointMatchingDistance](#pointmatchingdistance)?: number;
-    [statusCallback](#statuscallback)?: [IStatusCallback](core_openjscad-esm.IStatusCallback.html);
+    [statusCallback](#statuscallback)?: [IStatusCallback](core_openjscad-esm.IStatusCallback.md);
     [units](#units)?: string;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.html#core/openjscad-esm.IJscadCagOptions))
+#### Hierarchy ([View Summary](../hierarchy.md#core/openjscad-esm.IJscadCagOptions))
 
-* [IPointMatchOptions](core_maker.IPointMatchOptions.html)
+* [IPointMatchOptions](core_maker.IPointMatchOptions.md)
   + IJscadCagOptions
-    - [IJscadCsgOptions](core_openjscad-esm.IJscadCsgOptions.html)
+    - [IJscadCsgOptions](core_openjscad-esm.IJscadCsgOptions.md)
 
 * Defined in [core/openjscad-esm.ts:509](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/openjscad-esm.ts#L509)
 
@@ -81,13 +81,13 @@ pointMatchingDistance?: number
 
 Max distance to consider two points as the same.
 
-Inherited from [IPointMatchOptions](core_maker.IPointMatchOptions.html).[pointMatchingDistance](core_maker.IPointMatchOptions.html#pointmatchingdistance)
+Inherited from [IPointMatchOptions](core_maker.IPointMatchOptions.md).[pointMatchingDistance](core_maker.IPointMatchOptions.md#pointmatchingdistance)
 
 * Defined in [core/maker.ts:282](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L282)
 
 ### `Optional`statusCallback
 
-statusCallback?: [IStatusCallback](core_openjscad-esm.IStatusCallback.html)
+statusCallback?: [IStatusCallback](core_openjscad-esm.IStatusCallback.md)
 
 Optional callback to get status during the export.
 
@@ -118,7 +118,7 @@ Properties
 
 [accuracy](#accuracy)[byLayers](#bylayers)[maxArcFacet](#maxarcfacet)[pointMatchingDistance](#pointmatchingdistance)[statusCallback](#statuscallback)[units](#units)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

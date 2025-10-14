@@ -5,7 +5,7 @@ source: docs/docs/api/modules/core_model.html
 
 core/model | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
@@ -18,79 +18,79 @@ Preparing search index...
 
 ## Functions
 
-[addCaption](../functions/core_model.addCaption.html)
+[addCaption](../functions/core_model.addCaption.md)
 
 
-[addModel](../functions/core_model.addModel.html)
+[addModel](../functions/core_model.addModel.md)
 
 
-[addPath](../functions/core_model.addPath.html)
+[addPath](../functions/core_model.addPath.md)
 
 
-[addTo](../functions/core_model.addTo.html)
+[addTo](../functions/core_model.addTo.md)
 
 
-[center](../functions/core_model.center.html)
+[center](../functions/core_model.center.md)
 
 
-[clone](../functions/core_model.clone.html)
+[clone](../functions/core_model.clone.md)
 
 
-[convertUnits](../functions/core_model.convertUnits.html)
+[convertUnits](../functions/core_model.convertUnits.md)
 
 
-[countChildModels](../functions/core_model.countChildModels.html)
+[countChildModels](../functions/core_model.countChildModels.md)
 
 
-[distort](../functions/core_model.distort.html)
+[distort](../functions/core_model.distort.md)
 
 
-[findChains](../functions/core_model.findChains.html)
+[findChains](../functions/core_model.findChains.md)
 
 
-[findSingleChain](../functions/core_model.findSingleChain.html)
+[findSingleChain](../functions/core_model.findSingleChain.md)
 
 
-[getAllCaptionsOffset](../functions/core_model.getAllCaptionsOffset.html)
+[getAllCaptionsOffset](../functions/core_model.getAllCaptionsOffset.md)
 
 
-[getSimilarModelId](../functions/core_model.getSimilarModelId.html)
+[getSimilarModelId](../functions/core_model.getSimilarModelId.md)
 
 
-[getSimilarPathId](../functions/core_model.getSimilarPathId.html)
+[getSimilarPathId](../functions/core_model.getSimilarPathId.md)
 
 
-[layer](../functions/core_model.layer.html)
+[layer](../functions/core_model.layer.md)
 
 
-[mirror](../functions/core_model.mirror.html)
+[mirror](../functions/core_model.mirror.md)
 
 
-[move](../functions/core_model.move.html)
+[move](../functions/core_model.move.md)
 
 
-[moveRelative](../functions/core_model.moveRelative.html)
+[moveRelative](../functions/core_model.moveRelative.md)
 
 
-[originate](../functions/core_model.originate.html)
+[originate](../functions/core_model.originate.md)
 
 
-[prefixPathIds](../functions/core_model.prefixPathIds.html)
+[prefixPathIds](../functions/core_model.prefixPathIds.md)
 
 
-[rotate](../functions/core_model.rotate.html)
+[rotate](../functions/core_model.rotate.md)
 
 
-[scale](../functions/core_model.scale.html)
+[scale](../functions/core_model.scale.md)
 
 
-[walk](../functions/core_model.walk.html)
+[walk](../functions/core_model.walk.md)
 
 
-[walkPaths](../functions/core_model.walkPaths.html)
+[walkPaths](../functions/core_model.walkPaths.md)
 
 
-[zero](../functions/core_model.zero.html)
+[zero](../functions/core_model.zero.md)
 
 ### Settings
 
@@ -107,7 +107,7 @@ Functions
 
 [addCaption](#addcaption)[addModel](#addmodel)[addPath](#addpath)[addTo](#addto)[center](#center)[clone](#clone)[convertUnits](#convertunits)[countChildModels](#countchildmodels)[distort](#distort)[findChains](#findchains)[findSingleChain](#findsinglechain)[getAllCaptionsOffset](#getallcaptionsoffset)[getSimilarModelId](#getsimilarmodelid)[getSimilarPathId](#getsimilarpathid)[layer](#layer)[mirror](#mirror)[move](#move)[moveRelative](#moverelative)[originate](#originate)[prefixPathIds](#prefixpathids)[rotate](#rotate)[scale](#scale)[walk](#walk)[walkPaths](#walkpaths)[zero](#zero)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

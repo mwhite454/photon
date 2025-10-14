@@ -5,7 +5,7 @@ source: docs/docs/api/modules/core_combine.html
 
 core/combine | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
@@ -18,22 +18,22 @@ Preparing search index...
 
 ## Functions
 
-[breakPathsAtIntersections](../functions/core_combine.breakPathsAtIntersections.html)
+[breakPathsAtIntersections](../functions/core_combine.breakPathsAtIntersections.md)
 
 
-[combine](../functions/core_combine.combine.html)
+[combine](../functions/core_combine.combine.md)
 
 
-[combineIntersection](../functions/core_combine.combineIntersection.html)
+[combineIntersection](../functions/core_combine.combineIntersection.md)
 
 
-[combineSubtraction](../functions/core_combine.combineSubtraction.html)
+[combineSubtraction](../functions/core_combine.combineSubtraction.md)
 
 
-[combineUnion](../functions/core_combine.combineUnion.html)
+[combineUnion](../functions/core_combine.combineUnion.md)
 
 
-[isPathInsideModel](../functions/core_combine.isPathInsideModel.html)
+[isPathInsideModel](../functions/core_combine.isPathInsideModel.md)
 
 ### Settings
 
@@ -50,7 +50,7 @@ Functions
 
 [breakPathsAtIntersections](#breakpathsatintersections)[combine](#combine)[combineIntersection](#combineintersection)[combineSubtraction](#combinesubtraction)[combineUnion](#combineunion)[isPathInsideModel](#ispathinsidemodel)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

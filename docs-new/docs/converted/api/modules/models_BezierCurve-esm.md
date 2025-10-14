@@ -5,7 +5,7 @@ source: docs/docs/api/modules/models_BezierCurve-esm.html
 
 models/BezierCurve-esm | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
@@ -18,10 +18,10 @@ Preparing search index...
 
 ## Classes
 
-[BezierCurve](../classes/models_BezierCurve-esm.BezierCurve.html)
+[BezierCurve](../classes/models_BezierCurve-esm.BezierCurve.md)
 
 
-[BezierSeed](../classes/models_BezierCurve-esm.BezierSeed.html)
+[BezierSeed](../classes/models_BezierCurve-esm.BezierSeed.md)
 
 ### Settings
 
@@ -38,7 +38,7 @@ Classes
 
 [BezierCurve](#beziercurve)[BezierSeed](#bezierseed)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

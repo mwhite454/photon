@@ -1,5 +1,5 @@
 /**
- * Root module for Maker.js.
+ * Root module for Photon.
  */
 import { IModel, IPath, IPoint, IPathLine } from './schema.js';
 /** Version info */
@@ -443,6 +443,7 @@ export interface IKit {
 }
 /**
  * A container that allows a series of functions to be called upon an object.
+ * @deprecated Use pipe() or compose() for new code. This legacy API is provided for backward compatibility.
  */
 export interface ICascade {
     /**
@@ -458,3 +459,17 @@ export interface ICascade {
      */
     $reset: () => this;
 }
+/**
+ * Register modules for cascade use. Called automatically by index.ts.
+ * @private
+ */
+export declare function registerCascadeModules(model: any, path: any, point: any): void;
+/**
+ * Create cascade container for fluent API (LEGACY)
+ * @deprecated Use pipe() or compose() for new code. This legacy API is provided for backward compatibility.
+ * @param context - Model, Path, or Point to wrap
+ * @returns Cascade container with chainable operations
+ */
+export declare function $(modelContext: IModel): ICascade;
+export declare function $(pathContext: IPath): ICascade;
+export declare function $(pointContext: IPoint): ICascade;

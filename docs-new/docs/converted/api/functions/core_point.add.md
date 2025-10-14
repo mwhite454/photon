@@ -5,29 +5,29 @@ source: docs/docs/api/functions/core_point.add.html
 
 add | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/point](../modules/core_point.html)
+* [core/point](../modules/core_point.md)
 * add
 
 # Function add
 
-* add(a: [IPoint](../interfaces/core_schema.IPoint.html), b: [IPoint](../interfaces/core_schema.IPoint.html), subtract?: boolean): [IPoint](../interfaces/core_schema.IPoint.html)
+* add(a: [IPoint](../interfaces/core_schema.IPoint.md), b: [IPoint](../interfaces/core_schema.IPoint.md), subtract?: boolean): [IPoint](../interfaces/core_schema.IPoint.md)
 
   Add two points together and return the result as a new point object.
 
   #### Parameters
 
-  + a: [IPoint](../interfaces/core_schema.IPoint.html)
-  + b: [IPoint](../interfaces/core_schema.IPoint.html)
+  + a: [IPoint](../interfaces/core_schema.IPoint.md)
+  + b: [IPoint](../interfaces/core_schema.IPoint.md)
   + `Optional`subtract: boolean
 
-  #### Returns [IPoint](../interfaces/core_schema.IPoint.html)
+  #### Returns [IPoint](../interfaces/core_schema.IPoint.md)
 
   + Defined in [core/point.ts:12](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/point.ts#L12)
 
@@ -40,7 +40,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

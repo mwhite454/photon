@@ -5,14 +5,14 @@ source: docs/docs/api/classes/models_SCurve.SCurve.html
 
 SCurve | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [models/SCurve](../modules/models_SCurve.html)
+* [models/SCurve](../modules/models_SCurve.md)
 * SCurve
 
 # Class SCurve
@@ -21,7 +21,7 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
 #### Implements
 
-* [IModel](../interfaces/core_schema.IModel.html)
+* [IModel](../interfaces/core_schema.IModel.md)
 
 * Defined in [models/SCurve.ts:7](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/SCurve.ts#L7)
 
@@ -54,11 +54,11 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
 ### paths
 
-paths: [IPathMap](../interfaces/core_schema.IPathMap.html) = {}
+paths: [IPathMap](../interfaces/core_schema.IPathMap.md) = {}
 
 Optional map of path objects in this model.
 
-Implementation of [IModel](../interfaces/core_schema.IModel.html).[paths](../interfaces/core_schema.IModel.html#paths)
+Implementation of [IModel](../interfaces/core_schema.IModel.md).[paths](../interfaces/core_schema.IModel.md#paths)
 
 * Defined in [models/SCurve.ts:8](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/SCurve.ts#L8)
 
@@ -81,7 +81,7 @@ Properties
 
 [paths](#paths)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

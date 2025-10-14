@@ -5,14 +5,14 @@ source: docs/docs/api/interfaces/core_svg-esm.IFlowAnnotation.html
 
 IFlowAnnotation | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/svg-esm](../modules/core_svg-esm.html)
+* [core/svg-esm](../modules/core_svg-esm.md)
 * IFlowAnnotation
 
 # Interface IFlowAnnotation
@@ -52,7 +52,7 @@ Properties
 
 [size](#size)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

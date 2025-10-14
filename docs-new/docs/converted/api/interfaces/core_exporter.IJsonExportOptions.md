@@ -5,14 +5,14 @@ source: docs/docs/api/interfaces/core_exporter.IJsonExportOptions.html
 
 IJsonExportOptions | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/exporter](../modules/core_exporter.html)
+* [core/exporter](../modules/core_exporter.md)
 * IJsonExportOptions
 
 # Interface IJsonExportOptions
@@ -80,7 +80,7 @@ Properties
 
 [accuracy](#accuracy)[indentation](#indentation)[units](#units)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

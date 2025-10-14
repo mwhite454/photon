@@ -5,7 +5,7 @@ source: docs/docs/api/modules/core_break.html
 
 core/break | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
@@ -18,7 +18,7 @@ Preparing search index...
 
 ## Functions
 
-[breakAtPoint](../functions/core_break.breakAtPoint.html)
+[breakAtPoint](../functions/core_break.breakAtPoint.md)
 
 ### Settings
 
@@ -35,7 +35,7 @@ Functions
 
 [breakAtPoint](#breakatpoint)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

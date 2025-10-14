@@ -5,32 +5,32 @@ source: docs/docs/api/functions/core_model.walk.html
 
 walk | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/model](../modules/core_model.html)
+* [core/model](../modules/core_model.md)
 * walk
 
 # Function walk
 
-* walk(modelContext: [IModel](../interfaces/core_schema.IModel.html), options: [IWalkOptions](../interfaces/core_maker.IWalkOptions.html)): [IModel](../interfaces/core_schema.IModel.html)
+* walk(modelContext: [IModel](../interfaces/core_schema.IModel.md), options: [IWalkOptions](../interfaces/core_maker.IWalkOptions.md)): [IModel](../interfaces/core_schema.IModel.md)
 
   Recursively walk through all child models and paths for a given model.
 
   #### Parameters
 
-  + modelContext: [IModel](../interfaces/core_schema.IModel.html)
+  + modelContext: [IModel](../interfaces/core_schema.IModel.md)
 
     The model to walk.
-  + options: [IWalkOptions](../interfaces/core_maker.IWalkOptions.html)
+  + options: [IWalkOptions](../interfaces/core_maker.IWalkOptions.md)
 
     Object containing callbacks.
 
-  #### Returns [IModel](../interfaces/core_schema.IModel.html)
+  #### Returns [IModel](../interfaces/core_schema.IModel.md)
 
   The original model (for cascading).
 
@@ -45,7 +45,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

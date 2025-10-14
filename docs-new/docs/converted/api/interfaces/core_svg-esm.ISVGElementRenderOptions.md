@@ -5,14 +5,14 @@ source: docs/docs/api/interfaces/core_svg-esm.ISVGElementRenderOptions.html
 
 ISVGElementRenderOptions | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/svg-esm](../modules/core_svg-esm.html)
+* [core/svg-esm](../modules/core_svg-esm.md)
 * ISVGElementRenderOptions
 
 # Interface ISVGElementRenderOptions
@@ -25,10 +25,10 @@ interface ISVGElementRenderOptions {
     [strokeWidth](#strokewidth)?: string;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.html#core/svg-esm.ISVGElementRenderOptions))
+#### Hierarchy ([View Summary](../hierarchy.md#core/svg-esm.ISVGElementRenderOptions))
 
 * ISVGElementRenderOptions
-  + [ISVGRenderOptions](core_svg-esm.ISVGRenderOptions.html)
+  + [ISVGRenderOptions](core_svg-esm.ISVGRenderOptions.md)
 
 * Defined in [core/svg-esm.ts:352](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/svg-esm.ts#L352)
 
@@ -89,7 +89,7 @@ Properties
 
 [className](#classname)[cssStyle](#cssstyle)[fill](#fill)[stroke](#stroke)[strokeWidth](#strokewidth)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

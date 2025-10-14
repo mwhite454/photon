@@ -5,14 +5,14 @@ source: docs/docs/api/interfaces/core_schema.ICaption.html
 
 ICaption | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/schema](../modules/core_schema.html)
+* [core/schema](../modules/core_schema.md)
 * ICaption
 
 # Interface ICaption
@@ -20,7 +20,7 @@ Preparing search index...
 Text annotation, diplayable natively to the output format.
 
 interface ICaption {
-    [anchor](#anchor): [IPathLine](core_schema.IPathLine.html);
+    [anchor](#anchor): [IPathLine](core_schema.IPathLine.md);
     [text](#text): string;
 }
 
@@ -37,7 +37,7 @@ interface ICaption {
 
 ### anchor
 
-anchor: [IPathLine](core_schema.IPathLine.html)
+anchor: [IPathLine](core_schema.IPathLine.md)
 
 Invisible line to which the text is aligned.
 
@@ -66,7 +66,7 @@ Properties
 
 [anchor](#anchor)[text](#text)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

@@ -5,29 +5,29 @@ source: docs/docs/api/functions/core_measure.boundingHexagon.html
 
 boundingHexagon | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/measure](../modules/core_measure.html)
+* [core/measure](../modules/core_measure.md)
 * boundingHexagon
 
 # Function boundingHexagon
 
-* boundingHexagon(modelToMeasure: [IModel](../interfaces/core_schema.IModel.html)): [IBoundingHex](../interfaces/core_maker.IBoundingHex.html)
+* boundingHexagon(modelToMeasure: [IModel](../interfaces/core_schema.IModel.md)): [IBoundingHex](../interfaces/core_maker.IBoundingHex.md)
 
   Measures the minimum bounding hexagon surrounding a model. The hexagon is oriented such that the right and left sides are vertical, and the top and bottom are pointed.
 
   #### Parameters
 
-  + modelToMeasure: [IModel](../interfaces/core_schema.IModel.html)
+  + modelToMeasure: [IModel](../interfaces/core_schema.IModel.md)
 
     The model to measure.
 
-  #### Returns [IBoundingHex](../interfaces/core_maker.IBoundingHex.html)
+  #### Returns [IBoundingHex](../interfaces/core_maker.IBoundingHex.md)
 
   IBoundingHex object which is a hexagon model, with an additional radius property.
 
@@ -42,7 +42,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

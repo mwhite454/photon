@@ -5,14 +5,14 @@ source: docs/docs/api/interfaces/core_maker.IChain.html
 
 IChain | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.html)
+* [core/maker](../modules/core_maker.md)
 * IChain
 
 # Interface IChain
@@ -22,7 +22,7 @@ A chain of paths which connect end to end.
 interface IChain {
     [contains](#contains)?: IChain[];
     [endless](#endless): boolean;
-    [links](#links): [IChainLink](core_maker.IChainLink.html)[];
+    [links](#links): [IChainLink](core_maker.IChainLink.md)[];
     [pathLength](#pathlength): number;
 }
 
@@ -57,7 +57,7 @@ Flag if this chain forms a loop end to end.
 
 ### links
 
-links: [IChainLink](core_maker.IChainLink.html)[]
+links: [IChainLink](core_maker.IChainLink.md)[]
 
 The links in this chain.
 
@@ -86,7 +86,7 @@ Properties
 
 [contains](#contains)[endless](#endless)[links](#links)[pathLength](#pathlength)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

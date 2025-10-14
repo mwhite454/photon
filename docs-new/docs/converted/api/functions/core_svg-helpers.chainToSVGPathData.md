@@ -5,26 +5,26 @@ source: docs/docs/api/functions/core_svg-helpers.chainToSVGPathData.html
 
 chainToSVGPathData | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/svg-helpers](../modules/core_svg-helpers.html)
+* [core/svg-helpers](../modules/core_svg-helpers.md)
 * chainToSVGPathData
 
 # Function chainToSVGPathData
 
-* chainToSVGPathData(chain: [IChain](../interfaces/core_maker.IChain.html), offset: [IPoint](../interfaces/core_schema.IPoint.html), accuracy?: number): string
+* chainToSVGPathData(chain: [IChain](../interfaces/core_maker.IChain.md), offset: [IPoint](../interfaces/core_schema.IPoint.md), accuracy?: number): string
 
   Convert a chain to SVG path-data string.
 
   #### Parameters
 
-  + chain: [IChain](../interfaces/core_maker.IChain.html)
-  + offset: [IPoint](../interfaces/core_schema.IPoint.html)
+  + chain: [IChain](../interfaces/core_maker.IChain.md)
+  + offset: [IPoint](../interfaces/core_schema.IPoint.md)
   + accuracy: number = 0.001
 
   #### Returns string
@@ -40,7 +40,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

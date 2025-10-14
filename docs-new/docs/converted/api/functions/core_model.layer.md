@@ -5,19 +5,19 @@ source: docs/docs/api/functions/core_model.layer.html
 
 layer | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/model](../modules/core_model.html)
+* [core/model](../modules/core_model.md)
 * layer
 
 # Function layer
 
-* layer(modelContext: [IModel](../interfaces/core_schema.IModel.html), layer: string): [IModel](../interfaces/core_schema.IModel.html)
+* layer(modelContext: [IModel](../interfaces/core_schema.IModel.md), layer: string): [IModel](../interfaces/core_schema.IModel.md)
 
   Set the layer of a model. This is equivalent to:
 
@@ -28,14 +28,14 @@ Preparing search index...
 
   #### Parameters
 
-  + modelContext: [IModel](../interfaces/core_schema.IModel.html)
+  + modelContext: [IModel](../interfaces/core_schema.IModel.md)
 
     The model to set the layer.
   + layer: string
 
     The layer name.
 
-  #### Returns [IModel](../interfaces/core_schema.IModel.html)
+  #### Returns [IModel](../interfaces/core_schema.IModel.md)
 
   The original model (for cascading).
 
@@ -50,7 +50,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

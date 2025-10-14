@@ -76,6 +76,24 @@ As a developer, I need automated Playwright tests that verify the documentation 
 
 ---
 
+### User Story 5 - Documentation Content Refactored to Photon/Core with ES6 Syntax (Priority: P2.5)
+
+As a documentation user, I need all code examples and references updated from maker.js to photon/core with modern ES6 syntax so that the documentation accurately reflects the current library and uses best practices.
+
+**Why this priority**: Content refactoring is essential after migration but before AI enhancement. The documentation structure is migrated (P2), but the content still references the old library. This must be corrected before adding AI-friendly enhancements to ensure we're enhancing accurate, up-to-date content.
+
+**Independent Test**: Review all documentation pages and verify that (1) no maker.js references remain, (2) all code examples use photon/core APIs, (3) all JavaScript code follows ES6+ syntax conventions, and (4) examples execute correctly with the new library.
+
+**Acceptance Scenarios**:
+
+1. **Given** documentation pages contain maker.js references, **When** refactoring is complete, **Then** all references are updated to photon or photon/core
+2. **Given** code examples use old maker.js API, **When** refactoring is complete, **Then** all examples use the current photon/core API with correct import statements
+3. **Given** code examples use older JavaScript syntax, **When** refactoring is complete, **Then** all examples use ES6+ syntax (const/let, arrow functions, destructuring, template literals)
+4. **Given** refactored code examples exist, **When** I test them in the playground, **Then** they execute without errors and produce expected results
+5. **Given** TypeDoc-generated API reference exists, **When** I review it, **Then** it correctly documents photon/core modules and links are not broken
+
+---
+
 ### Edge Cases
 
 - What happens when a Jekyll snippet contains complex liquid logic that doesn't translate directly to markdown?
@@ -85,6 +103,11 @@ As a developer, I need automated Playwright tests that verify the documentation 
 - What happens to Jekyll front matter fields that don't map to MkDocs front matter?
 - How are relative links between pages handled during migration to ensure they still work?
 - What happens when the mkdocs-shadcn theme has different configuration requirements than standard MkDocs themes?
+- What happens when maker.js API methods have no direct photon/core equivalent?
+- How do we handle deprecated maker.js features that are no longer supported in photon/core?
+- What happens when code examples rely on maker.js global namespace but photon/core uses ES6 modules?
+- How do we ensure refactored examples maintain the same visual output as the original maker.js examples?
+- What happens when TypeDoc-generated API documentation conflicts with manually written documentation?
 
 ## Requirements *(mandatory)*
 
@@ -104,6 +127,14 @@ As a developer, I need automated Playwright tests that verify the documentation 
 - **FR-012**: System MUST provide migration scripts or tools to automate the Jekyll-to-markdown conversion
 - **FR-013**: System MUST preserve all existing documentation content without loss during migration
 - **FR-014**: System MUST update the project build process to use MkDocs instead of Jekyll
+- **FR-015**: System MUST replace all maker.js namespace references with photon or photon/core references throughout documentation
+- **FR-016**: System MUST update all code examples to use photon/core API methods instead of maker.js API methods
+- **FR-017**: System MUST refactor all JavaScript code examples to use ES6+ syntax (const/let, arrow functions, modules, template literals)
+- **FR-018**: System MUST update import statements in code examples to use ES6 module syntax (import/export)
+- **FR-019**: System MUST validate that refactored code examples execute correctly with the photon/core library
+- **FR-020**: System MUST integrate TypeDoc-generated API reference into the MkDocs documentation
+- **FR-021**: System MUST ensure all links to API documentation point to the correct photon/core reference pages
+- **FR-022**: System MUST maintain backward compatibility notes where maker.js and photon/core APIs differ significantly
 
 ### Key Entities
 
@@ -112,6 +143,10 @@ As a developer, I need automated Playwright tests that verify the documentation 
 - **Navigation Structure**: The hierarchical organization of documentation pages defined in the MkDocs configuration file
 - **Theme Configuration**: Settings specific to the mkdocs-shadcn theme including colors, fonts, features, and layout options
 - **Playwright Test Suite**: A collection of automated tests that verify site functionality, theme application, and visual consistency
+- **Code Example**: A code block within documentation showing usage of photon/core API, following ES6+ syntax standards
+- **API Reference**: TypeDoc-generated documentation for photon/core modules, methods, and types
+- **API Mapping**: A reference document mapping maker.js API methods to their photon/core equivalents
+- **Refactoring Script**: An automated tool that identifies and replaces maker.js references with photon/core equivalents
 
 ## Success Criteria *(mandatory)*
 
@@ -125,3 +160,8 @@ As a developer, I need automated Playwright tests that verify the documentation 
 - **SC-006**: Visual comparison shows the mkdocs-shadcn theme provides equal or better user experience than the Jekyll theme
 - **SC-007**: All internal documentation links work correctly with zero broken links
 - **SC-008**: Site navigation allows users to access any documentation page within 3 clicks from the homepage
+- **SC-009**: Zero maker.js references remain in documentation (100% replaced with photon/core)
+- **SC-010**: All code examples use ES6+ syntax with no var declarations or pre-ES6 patterns
+- **SC-011**: All code examples execute successfully in the playground without errors
+- **SC-012**: TypeDoc-generated API reference is accessible and complete with zero broken links to core modules
+- **SC-013**: API mapping document covers 100% of commonly-used maker.js methods with photon/core equivalents

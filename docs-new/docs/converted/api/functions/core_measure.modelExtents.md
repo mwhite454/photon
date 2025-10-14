@@ -5,32 +5,32 @@ source: docs/docs/api/functions/core_measure.modelExtents.html
 
 modelExtents | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/measure](../modules/core_measure.html)
+* [core/measure](../modules/core_measure.md)
 * modelExtents
 
 # Function modelExtents
 
-* modelExtents(modelToMeasure: [IModel](../interfaces/core_schema.IModel.html), atlas?: [Atlas](../classes/core_measure.Atlas.html)): [IMeasureWithCenter](../interfaces/core_maker.IMeasureWithCenter.html)
+* modelExtents(modelToMeasure: [IModel](../interfaces/core_schema.IModel.md), atlas?: [Atlas](../classes/core_measure.Atlas.md)): [IMeasureWithCenter](../interfaces/core_maker.IMeasureWithCenter.md)
 
   Measures the smallest rectangle which contains a model.
 
   #### Parameters
 
-  + modelToMeasure: [IModel](../interfaces/core_schema.IModel.html)
+  + modelToMeasure: [IModel](../interfaces/core_schema.IModel.md)
 
     The model to measure.
-  + `Optional`atlas: [Atlas](../classes/core_measure.Atlas.html)
+  + `Optional`atlas: [Atlas](../classes/core_measure.Atlas.md)
 
     Optional atlas to save measurements.
 
-  #### Returns [IMeasureWithCenter](../interfaces/core_maker.IMeasureWithCenter.html)
+  #### Returns [IMeasureWithCenter](../interfaces/core_maker.IMeasureWithCenter.md)
 
   object with low and high points.
 
@@ -45,7 +45,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

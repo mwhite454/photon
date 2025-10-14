@@ -5,14 +5,14 @@ source: docs/docs/api/interfaces/core_maker.IMeasurePointInsideOptions.html
 
 IMeasurePointInsideOptions | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.html)
+* [core/maker](../modules/core_maker.md)
 * IMeasurePointInsideOptions
 
 # Interface IMeasurePointInsideOptions
@@ -20,9 +20,9 @@ Preparing search index...
 Options to pass to measure.isPointInsideModel().
 
 interface IMeasurePointInsideOptions {
-    [farPoint](#farpoint)?: [IPoint](core_schema.IPoint.html);
+    [farPoint](#farpoint)?: [IPoint](core_schema.IPoint.md);
     [measureAtlas](#measureatlas)?: any;
-    [out\_intersectionPoints](#out_intersectionpoints)?: [IPoint](core_schema.IPoint.html)[];
+    [out\_intersectionPoints](#out_intersectionpoints)?: [IPoint](core_schema.IPoint.md)[];
 }
 
 * Defined in [core/maker.ts:180](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L180)
@@ -39,7 +39,7 @@ interface IMeasurePointInsideOptions {
 
 ### `Optional`farPoint
 
-farPoint?: [IPoint](core_schema.IPoint.html)
+farPoint?: [IPoint](core_schema.IPoint.md)
 
 * Defined in [core/maker.ts:181](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L181)
 
@@ -51,7 +51,7 @@ measureAtlas?: any
 
 ### `Optional`out\_intersectionPoints
 
-out\_intersectionPoints?: [IPoint](core_schema.IPoint.html)[]
+out\_intersectionPoints?: [IPoint](core_schema.IPoint.md)[]
 
 * Defined in [core/maker.ts:183](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L183)
 
@@ -70,7 +70,7 @@ Properties
 
 [farPoint](#farpoint)[measureAtlas](#measureatlas)[out\_intersectionPoints](#out_intersectionpoints)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

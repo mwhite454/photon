@@ -5,14 +5,14 @@ source: docs/docs/api/interfaces/core_svg-esm.SvgUnitConversion.html
 
 SvgUnitConversion | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/svg-esm](../modules/core_svg-esm.html)
+* [core/svg-esm](../modules/core_svg-esm.md)
 * SvgUnitConversion
 
 # Interface SvgUnitConversion
@@ -32,7 +32,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

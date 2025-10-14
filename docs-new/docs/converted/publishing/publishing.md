@@ -1,11 +1,7 @@
 ---
 title: get node
 source: docs/docs/publishing/publishing.html
----
-
----
 layout: posts
-title: Publishing
 ---
 
 ## get node

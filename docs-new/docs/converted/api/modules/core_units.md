@@ -5,7 +5,7 @@ source: docs/docs/api/modules/core_units.html
 
 core/units | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
@@ -18,10 +18,10 @@ Preparing search index...
 
 ## Functions
 
-[conversionScale](../functions/core_units.conversionScale.html)
+[conversionScale](../functions/core_units.conversionScale.md)
 
 
-[isValidUnit](../functions/core_units.isValidUnit.html)
+[isValidUnit](../functions/core_units.isValidUnit.md)
 
 ### Settings
 
@@ -38,7 +38,7 @@ Functions
 
 [conversionScale](#conversionscale)[isValidUnit](#isvalidunit)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

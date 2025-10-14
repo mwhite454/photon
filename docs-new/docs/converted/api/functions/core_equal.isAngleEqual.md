@@ -5,14 +5,14 @@ source: docs/docs/api/functions/core_equal.isAngleEqual.html
 
 isAngleEqual | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/equal](../modules/core_equal.html)
+* [core/equal](../modules/core_equal.md)
 * isAngleEqual
 
 # Function isAngleEqual
@@ -40,7 +40,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

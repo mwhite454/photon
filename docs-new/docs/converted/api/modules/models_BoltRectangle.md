@@ -5,7 +5,7 @@ source: docs/docs/api/modules/models_BoltRectangle.html
 
 models/BoltRectangle | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
@@ -18,7 +18,7 @@ Preparing search index...
 
 ## Classes
 
-[BoltRectangle](../classes/models_BoltRectangle.BoltRectangle.html)
+[BoltRectangle](../classes/models_BoltRectangle.BoltRectangle.md)
 
 ### Settings
 
@@ -35,7 +35,7 @@ Classes
 
 [BoltRectangle](#boltrectangle)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

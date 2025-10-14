@@ -5,14 +5,14 @@ source: docs/docs/api/functions/core_measure.isBetween.html
 
 isBetween | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/measure](../modules/core_measure.html)
+* [core/measure](../modules/core_measure.md)
 * isBetween
 
 # Function isBetween
@@ -56,7 +56,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

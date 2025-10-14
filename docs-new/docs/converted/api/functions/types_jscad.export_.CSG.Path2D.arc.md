@@ -5,28 +5,28 @@ source: docs/docs/api/functions/types_jscad.export_.CSG.Path2D.arc.html
 
 arc | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [types/jscad](../modules/types_jscad.html)
-* [export=](../modules/types_jscad.export_.html)
-* [CSG](../modules/types_jscad.export_.CSG.html)
-* [Path2D](../modules/types_jscad.export_.CSG.Path2D.html)
+* [types/jscad](../modules/types_jscad.md)
+* [export=](../modules/types_jscad.export_.md)
+* [CSG](../modules/types_jscad.export_.CSG.md)
+* [Path2D](../modules/types_jscad.export_.CSG.Path2D.md)
 * arc
 
 # Function arc
 
-* arc(options: [IArcOptions](../interfaces/types_jscad.export_.CSG.IArcOptions.html)): any
+* arc(options: [IArcOptions](../interfaces/types_jscad.export_.CSG.IArcOptions.md)): any
 
   Create an arc path
 
   #### Parameters
 
-  + options: [IArcOptions](../interfaces/types_jscad.export_.CSG.IArcOptions.html)
+  + options: [IArcOptions](../interfaces/types_jscad.export_.CSG.IArcOptions.md)
 
   #### Returns any
 
@@ -41,7 +41,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

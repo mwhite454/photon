@@ -5,14 +5,14 @@ source: docs/docs/api/classes/models_Polygon.Polygon.html
 
 Polygon | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [models/Polygon](../modules/models_Polygon.html)
+* [models/Polygon](../modules/models_Polygon.md)
 * Polygon
 
 # Class Polygon
@@ -21,7 +21,7 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
 #### Implements
 
-* [IModel](../interfaces/core_schema.IModel.html)
+* [IModel](../interfaces/core_schema.IModel.md)
 
 * Defined in [models/Polygon.ts:7](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Polygon.ts#L7)
 
@@ -66,11 +66,11 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
 ### paths
 
-paths: [IPathMap](../interfaces/core_schema.IPathMap.html) = {}
+paths: [IPathMap](../interfaces/core_schema.IPathMap.md) = {}
 
 Optional map of path objects in this model.
 
-Implementation of [IModel](../interfaces/core_schema.IModel.html).[paths](../interfaces/core_schema.IModel.html#paths)
+Implementation of [IModel](../interfaces/core_schema.IModel.md).[paths](../interfaces/core_schema.IModel.md#paths)
 
 * Defined in [models/Polygon.ts:8](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Polygon.ts#L8)
 
@@ -96,7 +96,7 @@ Implementation of [IModel](../interfaces/core_schema.IModel.html).[paths](../int
       radius: number,
       firstCornerAngleInDegrees?: number,
       circumscribed?: boolean,
-  ): [IPoint](../interfaces/core_schema.IPoint.html)[]
+  ): [IPoint](../interfaces/core_schema.IPoint.md)[]
 
   #### Parameters
 
@@ -105,7 +105,7 @@ Implementation of [IModel](../interfaces/core_schema.IModel.html).[paths](../int
   + firstCornerAngleInDegrees: number = 0
   + circumscribed: boolean = false
 
-  #### Returns [IPoint](../interfaces/core_schema.IPoint.html)[]
+  #### Returns [IPoint](../interfaces/core_schema.IPoint.md)[]
 
   + Defined in [models/Polygon.ts:18](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Polygon.ts#L18)
 
@@ -132,7 +132,7 @@ Methods
 
 [circumscribedRadius](#circumscribedradius)[getPoints](#getpoints)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

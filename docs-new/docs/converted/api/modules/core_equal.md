@@ -5,7 +5,7 @@ source: docs/docs/api/modules/core_equal.html
 
 core/equal | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
@@ -18,31 +18,31 @@ Preparing search index...
 
 ## Functions
 
-[isAngleEqual](../functions/core_equal.isAngleEqual.html)
+[isAngleEqual](../functions/core_equal.isAngleEqual.md)
 
 
-[isPathEqual](../functions/core_equal.isPathEqual.html)
+[isPathEqual](../functions/core_equal.isPathEqual.md)
 
 
-[isPointDistinct](../functions/core_equal.isPointDistinct.html)
+[isPointDistinct](../functions/core_equal.isPointDistinct.md)
 
 
-[isPointEqual](../functions/core_equal.isPointEqual.html)
+[isPointEqual](../functions/core_equal.isPointEqual.md)
 
 
-[isPointOnCircle](../functions/core_equal.isPointOnCircle.html)
+[isPointOnCircle](../functions/core_equal.isPointOnCircle.md)
 
 
-[isPointOnPath](../functions/core_equal.isPointOnPath.html)
+[isPointOnPath](../functions/core_equal.isPointOnPath.md)
 
 
-[isPointOnSlope](../functions/core_equal.isPointOnSlope.html)
+[isPointOnSlope](../functions/core_equal.isPointOnSlope.md)
 
 
-[isSlopeEqual](../functions/core_equal.isSlopeEqual.html)
+[isSlopeEqual](../functions/core_equal.isSlopeEqual.md)
 
 
-[isSlopeParallel](../functions/core_equal.isSlopeParallel.html)
+[isSlopeParallel](../functions/core_equal.isSlopeParallel.md)
 
 ### Settings
 
@@ -59,7 +59,7 @@ Functions
 
 [isAngleEqual](#isangleequal)[isPathEqual](#ispathequal)[isPointDistinct](#ispointdistinct)[isPointEqual](#ispointequal)[isPointOnCircle](#ispointoncircle)[isPointOnPath](#ispointonpath)[isPointOnSlope](#ispointonslope)[isSlopeEqual](#isslopeequal)[isSlopeParallel](#isslopeparallel)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

@@ -5,14 +5,14 @@ source: docs/docs/api/interfaces/core_maker.IModelPathCallback.html
 
 IModelPathCallback | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.html)
+* [core/maker](../modules/core_maker.md)
 * IModelPathCallback
 
 # Interface IModelPathCallback
@@ -20,16 +20,16 @@ Preparing search index...
 Callback signature for model.walkPaths().
 
 * IModelPathCallback(
-      modelContext: [IModel](core_schema.IModel.html),
+      modelContext: [IModel](core_schema.IModel.md),
       pathId: string,
-      pathContext: [IPath](core_schema.IPath.html),
+      pathContext: [IPath](core_schema.IPath.md),
   ): void
 
   #### Parameters
 
-  + modelContext: [IModel](core_schema.IModel.html)
+  + modelContext: [IModel](core_schema.IModel.md)
   + pathId: string
-  + pathContext: [IPath](core_schema.IPath.html)
+  + pathContext: [IPath](core_schema.IPath.md)
 
   #### Returns void
 
@@ -44,7 +44,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

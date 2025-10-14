@@ -5,14 +5,14 @@ source: docs/docs/api/interfaces/core_xml.IXmlTagAttrs.html
 
 IXmlTagAttrs | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/xml](../modules/core_xml.html)
+* [core/xml](../modules/core_xml.md)
 * IXmlTagAttrs
 
 # Interface IXmlTagAttrs
@@ -34,7 +34,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

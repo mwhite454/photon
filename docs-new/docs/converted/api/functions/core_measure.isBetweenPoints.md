@@ -5,21 +5,21 @@ source: docs/docs/api/functions/core_measure.isBetweenPoints.html
 
 isBetweenPoints | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/measure](../modules/core_measure.html)
+* [core/measure](../modules/core_measure.md)
 * isBetweenPoints
 
 # Function isBetweenPoints
 
 * isBetweenPoints(
-      pointInQuestion: [IPoint](../interfaces/core_schema.IPoint.html),
-      line: [IPathLine](../interfaces/core_schema.IPathLine.html),
+      pointInQuestion: [IPoint](../interfaces/core_schema.IPoint.md),
+      line: [IPathLine](../interfaces/core_schema.IPathLine.md),
       exclusive: boolean,
   ): boolean
 
@@ -27,10 +27,10 @@ Preparing search index...
 
   #### Parameters
 
-  + pointInQuestion: [IPoint](../interfaces/core_schema.IPoint.html)
+  + pointInQuestion: [IPoint](../interfaces/core_schema.IPoint.md)
 
     The point to test.
-  + line: [IPathLine](../interfaces/core_schema.IPathLine.html)
+  + line: [IPathLine](../interfaces/core_schema.IPathLine.md)
 
     Line to test against.
   + exclusive: boolean
@@ -52,7 +52,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

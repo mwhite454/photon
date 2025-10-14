@@ -5,29 +5,29 @@ source: docs/docs/api/functions/core_path.distort.html
 
 distort | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/path](../modules/core_path.html)
+* [core/path](../modules/core_path.md)
 * distort
 
 # Function distort
 
-* distort(pathToDistort: [IPath](../interfaces/core_schema.IPath.html), scaleX: number, scaleY: number): [IPath](../interfaces/core_schema.IPath.html) | [IModel](../interfaces/core_schema.IModel.html)
+* distort(pathToDistort: [IPath](../interfaces/core_schema.IPath.md), scaleX: number, scaleY: number): [IPath](../interfaces/core_schema.IPath.md) | [IModel](../interfaces/core_schema.IModel.md)
 
   Distort a path - scale x and y individually.
 
   #### Parameters
 
-  + pathToDistort: [IPath](../interfaces/core_schema.IPath.html)
+  + pathToDistort: [IPath](../interfaces/core_schema.IPath.md)
   + scaleX: number
   + scaleY: number
 
-  #### Returns [IPath](../interfaces/core_schema.IPath.html) | [IModel](../interfaces/core_schema.IModel.html)
+  #### Returns [IPath](../interfaces/core_schema.IPath.md) | [IModel](../interfaces/core_schema.IModel.md)
 
   + Defined in [core/path.ts:263](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/path.ts#L263)
 
@@ -40,7 +40,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

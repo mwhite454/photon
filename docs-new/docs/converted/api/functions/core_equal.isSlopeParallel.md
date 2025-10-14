@@ -5,26 +5,26 @@ source: docs/docs/api/functions/core_equal.isSlopeParallel.html
 
 isSlopeParallel | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/equal](../modules/core_equal.html)
+* [core/equal](../modules/core_equal.md)
 * isSlopeParallel
 
 # Function isSlopeParallel
 
-* isSlopeParallel(slopeA: [ISlope](../interfaces/core_maker.ISlope.html), slopeB: [ISlope](../interfaces/core_maker.ISlope.html)): boolean
+* isSlopeParallel(slopeA: [ISlope](../interfaces/core_maker.ISlope.md), slopeB: [ISlope](../interfaces/core_maker.ISlope.md)): boolean
 
   Check for parallel slopes.
 
   #### Parameters
 
-  + slopeA: [ISlope](../interfaces/core_maker.ISlope.html)
-  + slopeB: [ISlope](../interfaces/core_maker.ISlope.html)
+  + slopeA: [ISlope](../interfaces/core_maker.ISlope.md)
+  + slopeB: [ISlope](../interfaces/core_maker.ISlope.md)
 
   #### Returns boolean
 
@@ -39,7 +39,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

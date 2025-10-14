@@ -5,7 +5,7 @@ source: docs/docs/api/modules/models_ConnectTheDots.html
 
 models/ConnectTheDots | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
@@ -18,7 +18,7 @@ Preparing search index...
 
 ## Classes
 
-[ConnectTheDots](../classes/models_ConnectTheDots.ConnectTheDots.html)
+[ConnectTheDots](../classes/models_ConnectTheDots.ConnectTheDots.md)
 
 ### Settings
 
@@ -35,7 +35,7 @@ Classes
 
 [ConnectTheDots](#connectthedots)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

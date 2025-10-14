@@ -5,7 +5,7 @@ source: docs/docs/api/modules/core_schema.html
 
 core/schema | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
@@ -18,46 +18,46 @@ Preparing search index...
 
 ## Interfaces
 
-[IBezierRange](../interfaces/core_schema.IBezierRange.html)
+[IBezierRange](../interfaces/core_schema.IBezierRange.md)
 
 
-[ICaption](../interfaces/core_schema.ICaption.html)
+[ICaption](../interfaces/core_schema.ICaption.md)
 
 
-[IModel](../interfaces/core_schema.IModel.html)
+[IModel](../interfaces/core_schema.IModel.md)
 
 
-[IModelMap](../interfaces/core_schema.IModelMap.html)
+[IModelMap](../interfaces/core_schema.IModelMap.md)
 
 
-[IPath](../interfaces/core_schema.IPath.html)
+[IPath](../interfaces/core_schema.IPath.md)
 
 
-[IPathArc](../interfaces/core_schema.IPathArc.html)
+[IPathArc](../interfaces/core_schema.IPathArc.md)
 
 
-[IPathArcInBezierCurve](../interfaces/core_schema.IPathArcInBezierCurve.html)
+[IPathArcInBezierCurve](../interfaces/core_schema.IPathArcInBezierCurve.md)
 
 
-[IPathBezierSeed](../interfaces/core_schema.IPathBezierSeed.html)
+[IPathBezierSeed](../interfaces/core_schema.IPathBezierSeed.md)
 
 
-[IPathCircle](../interfaces/core_schema.IPathCircle.html)
+[IPathCircle](../interfaces/core_schema.IPathCircle.md)
 
 
-[IPathIntersection](../interfaces/core_schema.IPathIntersection.html)
+[IPathIntersection](../interfaces/core_schema.IPathIntersection.md)
 
 
-[IPathIntersectionOptions](../interfaces/core_schema.IPathIntersectionOptions.html)
+[IPathIntersectionOptions](../interfaces/core_schema.IPathIntersectionOptions.md)
 
 
-[IPathLine](../interfaces/core_schema.IPathLine.html)
+[IPathLine](../interfaces/core_schema.IPathLine.md)
 
 
-[IPathMap](../interfaces/core_schema.IPathMap.html)
+[IPathMap](../interfaces/core_schema.IPathMap.md)
 
 
-[IPoint](../interfaces/core_schema.IPoint.html)
+[IPoint](../interfaces/core_schema.IPoint.md)
 
 ### Settings
 
@@ -74,7 +74,7 @@ Interfaces
 
 [IBezierRange](#ibezierrange)[ICaption](#icaption)[IModel](#imodel)[IModelMap](#imodelmap)[IPath](#ipath)[IPathArc](#ipatharc)[IPathArcInBezierCurve](#ipatharcinbeziercurve)[IPathBezierSeed](#ipathbezierseed)[IPathCircle](#ipathcircle)[IPathIntersection](#ipathintersection)[IPathIntersectionOptions](#ipathintersectionoptions)[IPathLine](#ipathline)[IPathMap](#ipathmap)[IPoint](#ipoint)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

@@ -5,24 +5,24 @@ source: docs/docs/api/functions/core_boolean-utils.ensurePathLayer.html
 
 ensurePathLayer | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/boolean-utils](../modules/core_boolean-utils.html)
+* [core/boolean-utils](../modules/core_boolean-utils.md)
 * ensurePathLayer
 
 # Function ensurePathLayer
 
-* ensurePathLayer(source: [IPath](../interfaces/core_schema.IPath.html), target: [IPath](../interfaces/core_schema.IPath.html)): void
+* ensurePathLayer(source: [IPath](../interfaces/core_schema.IPath.md), target: [IPath](../interfaces/core_schema.IPath.md)): void
 
   #### Parameters
 
-  + source: [IPath](../interfaces/core_schema.IPath.html)
-  + target: [IPath](../interfaces/core_schema.IPath.html)
+  + source: [IPath](../interfaces/core_schema.IPath.md)
+  + target: [IPath](../interfaces/core_schema.IPath.md)
 
   #### Returns void
 
@@ -37,7 +37,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

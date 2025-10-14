@@ -5,32 +5,32 @@ source: docs/docs/api/functions/core_model.move.html
 
 move | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/model](../modules/core_model.html)
+* [core/model](../modules/core_model.md)
 * move
 
 # Function move
 
-* move(modelToMove: [IModel](../interfaces/core_schema.IModel.html), origin: [IPoint](../interfaces/core_schema.IPoint.html)): [IModel](../interfaces/core_schema.IModel.html)
+* move(modelToMove: [IModel](../interfaces/core_schema.IModel.md), origin: [IPoint](../interfaces/core_schema.IPoint.md)): [IModel](../interfaces/core_schema.IModel.md)
 
   Move a model to an absolute point. Note that this is also accomplished by directly setting the origin property. This function exists for cascading.
 
   #### Parameters
 
-  + modelToMove: [IModel](../interfaces/core_schema.IModel.html)
+  + modelToMove: [IModel](../interfaces/core_schema.IModel.md)
 
     The model to move.
-  + origin: [IPoint](../interfaces/core_schema.IPoint.html)
+  + origin: [IPoint](../interfaces/core_schema.IPoint.md)
 
     The new position of the model.
 
-  #### Returns [IModel](../interfaces/core_schema.IModel.html)
+  #### Returns [IModel](../interfaces/core_schema.IModel.md)
 
   The original model (for cascading).
 
@@ -45,7 +45,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

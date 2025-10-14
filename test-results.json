@@ -1,0 +1,2395 @@
+{
+  "config": {
+    "configFile": "/Users/mykawhite/Documents/GitHub/photon/playwright.config.js",
+    "rootDir": "/Users/mykawhite/Documents/GitHub/photon/tests/docs-migration",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": "/Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/global-setup.js",
+    "globalTeardown": "/Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/global-teardown.js",
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 6
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "html",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "/Users/mykawhite/Documents/GitHub/photon/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 6
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/Users/mykawhite/Documents/GitHub/photon/tests/docs-migration",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/mykawhite/Documents/GitHub/photon/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 6
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "/Users/mykawhite/Documents/GitHub/photon/tests/docs-migration",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/mykawhite/Documents/GitHub/photon/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 6
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "/Users/mykawhite/Documents/GitHub/photon/tests/docs-migration",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/mykawhite/Documents/GitHub/photon/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 6
+        },
+        "id": "Mobile Chrome",
+        "name": "Mobile Chrome",
+        "testDir": "/Users/mykawhite/Documents/GitHub/photon/tests/docs-migration",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/mykawhite/Documents/GitHub/photon/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 6
+        },
+        "id": "Mobile Safari",
+        "name": "Mobile Safari",
+        "testDir": "/Users/mykawhite/Documents/GitHub/photon/tests/docs-migration",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.56.0",
+    "workers": 6,
+    "webServer": {
+      "command": "cd docs-new && ../.venv/bin/mkdocs serve",
+      "url": "http://localhost:8000",
+      "reuseExistingServer": true,
+      "timeout": 120000
+    }
+  },
+  "suites": [
+    {
+      "title": "accessibility.spec.js",
+      "file": "accessibility.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Accessibility",
+          "file": "accessibility.spec.js",
+          "line": 12,
+          "column": 6,
+          "specs": [
+            {
+              "title": "page has proper document structure",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 739,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-14T14:02:41.012Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d316df4bad39fab891ed-0f018c3f243388396199",
+              "file": "accessibility.spec.js",
+              "line": 14,
+              "column": 7
+            },
+            {
+              "title": "dark mode toggle exists",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 939,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-14T14:02:41.010Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d316df4bad39fab891ed-0c767718c95813568b8b",
+              "file": "accessibility.spec.js",
+              "line": 29,
+              "column": 7
+            },
+            {
+              "title": "dark mode can be toggled",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 930,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-14T14:02:41.021Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d316df4bad39fab891ed-a464144597bf778f56b8",
+              "file": "accessibility.spec.js",
+              "line": 40,
+              "column": 7
+            },
+            {
+              "title": "site is responsive on mobile viewport",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 513,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-14T14:02:41.008Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d316df4bad39fab891ed-b08f37349e1e25088fa4",
+              "file": "accessibility.spec.js",
+              "line": 62,
+              "column": 7
+            },
+            {
+              "title": "site is responsive on tablet viewport",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 4,
+                      "status": "failed",
+                      "duration": 5793,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('nav, [role=\"navigation\"]').first()\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('nav, [role=\"navigation\"]').first()\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('nav, [role=\"navigation\"]').first()\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('nav, [role=\"navigation\"]').first()\u001b[22m\n\n    at /Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/accessibility.spec.js:90:23",
+                        "location": {
+                          "file": "/Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/accessibility.spec.js",
+                          "column": 23,
+                          "line": 90
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 88 |\u001b[39m     \u001b[90m// Navigation should be accessible\u001b[39m\n \u001b[90m 89 |\u001b[39m     \u001b[36mconst\u001b[39m nav \u001b[33m=\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'nav, [role=\"navigation\"]'\u001b[39m)\u001b[33m.\u001b[39mfirst()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 90 |\u001b[39m     \u001b[36mawait\u001b[39m expect(nav)\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 91 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 92 |\u001b[39m\n \u001b[90m 93 |\u001b[39m   test(\u001b[32m'site is responsive on desktop viewport'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/accessibility.spec.js",
+                            "column": 23,
+                            "line": 90
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('nav, [role=\"navigation\"]').first()\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('nav, [role=\"navigation\"]').first()\u001b[22m\n\n\n\u001b[0m \u001b[90m 88 |\u001b[39m     \u001b[90m// Navigation should be accessible\u001b[39m\n \u001b[90m 89 |\u001b[39m     \u001b[36mconst\u001b[39m nav \u001b[33m=\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'nav, [role=\"navigation\"]'\u001b[39m)\u001b[33m.\u001b[39mfirst()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 90 |\u001b[39m     \u001b[36mawait\u001b[39m expect(nav)\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 91 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 92 |\u001b[39m\n \u001b[90m 93 |\u001b[39m   test(\u001b[32m'site is responsive on desktop viewport'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[2m    at /Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/accessibility.spec.js:90:23\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-14T14:02:41.012Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/mykawhite/Documents/GitHub/photon/test-results/accessibility-Accessibilit-225a8-sponsive-on-tablet-viewport-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/mykawhite/Documents/GitHub/photon/test-results/accessibility-Accessibilit-225a8-sponsive-on-tablet-viewport-chromium/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/mykawhite/Documents/GitHub/photon/test-results/accessibility-Accessibilit-225a8-sponsive-on-tablet-viewport-chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/accessibility.spec.js",
+                        "column": 23,
+                        "line": 90
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "d316df4bad39fab891ed-39c462325cf44770254b",
+              "file": "accessibility.spec.js",
+              "line": 79,
+              "column": 7
+            },
+            {
+              "title": "site is responsive on desktop viewport",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 758,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-14T14:02:41.008Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d316df4bad39fab891ed-0004e20eaac897fcdd4d",
+              "file": "accessibility.spec.js",
+              "line": 93,
+              "column": 7
+            },
+            {
+              "title": "keyboard navigation works",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 200,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-14T14:02:41.918Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d316df4bad39fab891ed-e188558fd9851a8870da",
+              "file": "accessibility.spec.js",
+              "line": 103,
+              "column": 7
+            },
+            {
+              "title": "images have alt text",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 194,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-14T14:02:42.124Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d316df4bad39fab891ed-32b377ad28a3e2257748",
+              "file": "accessibility.spec.js",
+              "line": 116,
+              "column": 7
+            },
+            {
+              "title": "buttons have accessible labels",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 227,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-14T14:02:42.145Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d316df4bad39fab891ed-8a70d2db1648a1cf2730",
+              "file": "accessibility.spec.js",
+              "line": 133,
+              "column": 7
+            },
+            {
+              "title": "headings are in logical order",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 212,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-14T14:02:42.179Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d316df4bad39fab891ed-0b7f6459bf22822c65cc",
+              "file": "accessibility.spec.js",
+              "line": 153,
+              "column": 7
+            },
+            {
+              "title": "links have discernible text",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "failed",
+                      "duration": 255,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m\n    at /Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/accessibility.spec.js:182:43",
+                        "location": {
+                          "file": "/Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/accessibility.spec.js",
+                          "column": 43,
+                          "line": 182
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 180 |\u001b[39m         \n \u001b[90m 181 |\u001b[39m         \u001b[90m// Link should have text or aria-label\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 182 |\u001b[39m         expect(text\u001b[33m?\u001b[39m\u001b[33m.\u001b[39mtrim() \u001b[33m||\u001b[39m ariaLabel)\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 183 |\u001b[39m       }\n \u001b[90m 184 |\u001b[39m     }\n \u001b[90m 185 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/accessibility.spec.js",
+                            "column": 43,
+                            "line": 182
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m\n\n\u001b[0m \u001b[90m 180 |\u001b[39m         \n \u001b[90m 181 |\u001b[39m         \u001b[90m// Link should have text or aria-label\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 182 |\u001b[39m         expect(text\u001b[33m?\u001b[39m\u001b[33m.\u001b[39mtrim() \u001b[33m||\u001b[39m ariaLabel)\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 183 |\u001b[39m       }\n \u001b[90m 184 |\u001b[39m     }\n \u001b[90m 185 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at /Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/accessibility.spec.js:182:43\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-14T14:02:42.326Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/mykawhite/Documents/GitHub/photon/test-results/accessibility-Accessibility-links-have-discernible-text-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/mykawhite/Documents/GitHub/photon/test-results/accessibility-Accessibility-links-have-discernible-text-chromium/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/mykawhite/Documents/GitHub/photon/test-results/accessibility-Accessibility-links-have-discernible-text-chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/accessibility.spec.js",
+                        "column": 43,
+                        "line": 182
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "d316df4bad39fab891ed-1596cbd042a3085e124d",
+              "file": "accessibility.spec.js",
+              "line": 167,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "content-rendering.spec.js",
+      "file": "content-rendering.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Content Rendering",
+          "file": "content-rendering.spec.js",
+          "line": 12,
+          "column": 6,
+          "specs": [
+            {
+              "title": "code blocks render correctly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 206,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-14T14:02:42.384Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "dc07ee5e9db0ff850384-a725506a2cc9b010e67c",
+              "file": "content-rendering.spec.js",
+              "line": 14,
+              "column": 7
+            },
+            {
+              "title": "code blocks have language tags",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 291,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-14T14:02:42.405Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "dc07ee5e9db0ff850384-f454cb88d1e662c28f8b",
+              "file": "content-rendering.spec.js",
+              "line": 29,
+              "column": 7
+            },
+            {
+              "title": "syntax highlighting is applied",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "failed",
+                      "duration": 207,
+                      "error": {
+                        "message": "Error: locator.count: SyntaxError: Failed to execute 'querySelectorAll' on 'Document': '.hljs-*' is not a valid selector.\n    at query (<anonymous>:5120:41)\n    at <anonymous>:5130:7\n    at SelectorEvaluatorImpl._cached (<anonymous>:4907:20)\n    at SelectorEvaluatorImpl._queryCSS (<anonymous>:5117:17)\n    at SelectorEvaluatorImpl._querySimple (<anonymous>:4997:19)\n    at <anonymous>:4945:29\n    at SelectorEvaluatorImpl._cached (<anonymous>:4907:20)\n    at SelectorEvaluatorImpl.query (<anonymous>:4938:19)\n    at Object.query (<anonymous>:5152:44)\n    at <anonymous>:5110:21",
+                        "stack": "Error: locator.count: SyntaxError: Failed to execute 'querySelectorAll' on 'Document': '.hljs-*' is not a valid selector.\n    at query (<anonymous>:5120:41)\n    at <anonymous>:5130:7\n    at SelectorEvaluatorImpl._cached (<anonymous>:4907:20)\n    at SelectorEvaluatorImpl._queryCSS (<anonymous>:5117:17)\n    at SelectorEvaluatorImpl._querySimple (<anonymous>:4997:19)\n    at <anonymous>:4945:29\n    at SelectorEvaluatorImpl._cached (<anonymous>:4907:20)\n    at SelectorEvaluatorImpl.query (<anonymous>:4938:19)\n    at Object.query (<anonymous>:5152:44)\n    at <anonymous>:5110:21\n    at query (<anonymous>:5120:41)\n    at <anonymous>:5130:7\n    at SelectorEvaluatorImpl._cached (<anonymous>:4907:20)\n    at SelectorEvaluatorImpl._queryCSS (<anonymous>:5117:17)\n    at SelectorEvaluatorImpl._querySimple (<anonymous>:4997:19)\n    at <anonymous>:4945:29\n    at SelectorEvaluatorImpl._cached (<anonymous>:4907:20)\n    at SelectorEvaluatorImpl.query (<anonymous>:4938:19)\n    at Object.query (<anonymous>:5152:44)\n    at <anonymous>:5110:21\n    at /Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/content-rendering.spec.js:47:43",
+                        "location": {
+                          "file": "<anonymous>",
+                          "column": 41,
+                          "line": 5120
+                        }
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "<anonymous>",
+                            "column": 41,
+                            "line": 5120
+                          },
+                          "message": "Error: locator.count: SyntaxError: Failed to execute 'querySelectorAll' on 'Document': '.hljs-*' is not a valid selector.\n\u001b[2m    at query (<anonymous>:5120:41)\u001b[22m\n\u001b[2m    at <anonymous>:5130:7\u001b[22m\n\u001b[2m    at SelectorEvaluatorImpl._cached (<anonymous>:4907:20)\u001b[22m\n\u001b[2m    at SelectorEvaluatorImpl._queryCSS (<anonymous>:5117:17)\u001b[22m\n\u001b[2m    at SelectorEvaluatorImpl._querySimple (<anonymous>:4997:19)\u001b[22m\n\u001b[2m    at <anonymous>:4945:29\u001b[22m\n\u001b[2m    at SelectorEvaluatorImpl._cached (<anonymous>:4907:20)\u001b[22m\n\u001b[2m    at SelectorEvaluatorImpl.query (<anonymous>:4938:19)\u001b[22m\n\u001b[2m    at Object.query (<anonymous>:5152:44)\u001b[22m\n\u001b[2m    at <anonymous>:5110:21\u001b[22m\n\u001b[2m    at query (<anonymous>:5120:41)\u001b[22m\n\u001b[2m    at <anonymous>:5130:7\u001b[22m\n\u001b[2m    at SelectorEvaluatorImpl._cached (<anonymous>:4907:20)\u001b[22m\n\u001b[2m    at SelectorEvaluatorImpl._queryCSS (<anonymous>:5117:17)\u001b[22m\n\u001b[2m    at SelectorEvaluatorImpl._querySimple (<anonymous>:4997:19)\u001b[22m\n\u001b[2m    at <anonymous>:4945:29\u001b[22m\n\u001b[2m    at SelectorEvaluatorImpl._cached (<anonymous>:4907:20)\u001b[22m\n\u001b[2m    at SelectorEvaluatorImpl.query (<anonymous>:4938:19)\u001b[22m\n\u001b[2m    at Object.query (<anonymous>:5152:44)\u001b[22m\n\u001b[2m    at <anonymous>:5110:21\u001b[22m\n\u001b[2m    at /Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/content-rendering.spec.js:47:43\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-14T14:02:42.431Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/mykawhite/Documents/GitHub/photon/test-results/content-rendering-Content--17558-tax-highlighting-is-applied-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/mykawhite/Documents/GitHub/photon/test-results/content-rendering-Content--17558-tax-highlighting-is-applied-chromium/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/mykawhite/Documents/GitHub/photon/test-results/content-rendering-Content--17558-tax-highlighting-is-applied-chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "<anonymous>",
+                        "column": 41,
+                        "line": 5120
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "dc07ee5e9db0ff850384-92d18f11b6c76d6f3ca1",
+              "file": "content-rendering.spec.js",
+              "line": 42,
+              "column": 7
+            },
+            {
+              "title": "headings are properly structured",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "failed",
+                      "duration": 267,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m\n    at /Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/content-rendering.spec.js:66:21",
+                        "location": {
+                          "file": "/Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/content-rendering.spec.js",
+                          "column": 21,
+                          "line": 66
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 64 |\u001b[39m     \n \u001b[90m 65 |\u001b[39m     \u001b[90m// Page should have some structure (h2 or h3)\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 66 |\u001b[39m     expect(h2 \u001b[33m+\u001b[39m h3)\u001b[33m.\u001b[39mtoBeGreaterThan(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 67 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 68 |\u001b[39m\n \u001b[90m 69 |\u001b[39m   test(\u001b[32m'tables render correctly'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/content-rendering.spec.js",
+                            "column": 21,
+                            "line": 66
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m\n\n\u001b[0m \u001b[90m 64 |\u001b[39m     \n \u001b[90m 65 |\u001b[39m     \u001b[90m// Page should have some structure (h2 or h3)\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 66 |\u001b[39m     expect(h2 \u001b[33m+\u001b[39m h3)\u001b[33m.\u001b[39mtoBeGreaterThan(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 67 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 68 |\u001b[39m\n \u001b[90m 69 |\u001b[39m   test(\u001b[32m'tables render correctly'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[2m    at /Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/content-rendering.spec.js:66:21\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-14T14:02:42.447Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/mykawhite/Documents/GitHub/photon/test-results/content-rendering-Content--0dd4f-ngs-are-properly-structured-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/mykawhite/Documents/GitHub/photon/test-results/content-rendering-Content--0dd4f-ngs-are-properly-structured-chromium/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/mykawhite/Documents/GitHub/photon/test-results/content-rendering-Content--0dd4f-ngs-are-properly-structured-chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/content-rendering.spec.js",
+                        "column": 21,
+                        "line": 66
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "dc07ee5e9db0ff850384-7c6745e65fa198d04c4e",
+              "file": "content-rendering.spec.js",
+              "line": 54,
+              "column": 7
+            },
+            {
+              "title": "tables render correctly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 171,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-14T14:02:42.600Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "dc07ee5e9db0ff850384-be9b3b2f978226499879",
+              "file": "content-rendering.spec.js",
+              "line": 69,
+              "column": 7
+            },
+            {
+              "title": "lists are formatted properly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 320,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-14T14:02:43.086Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "dc07ee5e9db0ff850384-16a4e8ced5199c11a5bd",
+              "file": "content-rendering.spec.js",
+              "line": 88,
+              "column": 7
+            },
+            {
+              "title": "links are properly styled",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 323,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-14T14:02:43.106Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "dc07ee5e9db0ff850384-d303d065203edb04ac36",
+              "file": "content-rendering.spec.js",
+              "line": 104,
+              "column": 7
+            },
+            {
+              "title": "images load correctly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 171,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-14T14:02:42.708Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "dc07ee5e9db0ff850384-afded484042c097e169c",
+              "file": "content-rendering.spec.js",
+              "line": 119,
+              "column": 7
+            },
+            {
+              "title": "blockquotes render correctly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 203,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-14T14:02:43.179Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "dc07ee5e9db0ff850384-b7c2b2c4335969407374",
+              "file": "content-rendering.spec.js",
+              "line": 135,
+              "column": 7
+            },
+            {
+              "title": "inline code is styled differently from regular text",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 182,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-14T14:02:42.783Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "dc07ee5e9db0ff850384-e5002a892afd9e34e17e",
+              "file": "content-rendering.spec.js",
+              "line": 149,
+              "column": 7
+            },
+            {
+              "title": "page content has proper spacing",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 5,
+                      "status": "failed",
+                      "duration": 313,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: not \u001b[32m\"0px\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: not \u001b[32m\"0px\"\u001b[39m\n    at /Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/content-rendering.spec.js:181:25",
+                        "location": {
+                          "file": "/Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/content-rendering.spec.js",
+                          "column": 25,
+                          "line": 181
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 179 |\u001b[39m     \n \u001b[90m 180 |\u001b[39m     \u001b[90m// Should have some padding (not \"0px 0px 0px 0px\")\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 181 |\u001b[39m     expect(padding)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoBe(\u001b[32m'0px'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 182 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 183 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 184 |\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/content-rendering.spec.js",
+                            "column": 25,
+                            "line": 181
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: not \u001b[32m\"0px\"\u001b[39m\n\n\u001b[0m \u001b[90m 179 |\u001b[39m     \n \u001b[90m 180 |\u001b[39m     \u001b[90m// Should have some padding (not \"0px 0px 0px 0px\")\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 181 |\u001b[39m     expect(padding)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoBe(\u001b[32m'0px'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 182 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 183 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 184 |\u001b[39m\u001b[0m\n\u001b[2m    at /Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/content-rendering.spec.js:181:25\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-14T14:02:42.890Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/mykawhite/Documents/GitHub/photon/test-results/content-rendering-Content--eebce--content-has-proper-spacing-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/mykawhite/Documents/GitHub/photon/test-results/content-rendering-Content--eebce--content-has-proper-spacing-chromium/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/mykawhite/Documents/GitHub/photon/test-results/content-rendering-Content--eebce--content-has-proper-spacing-chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/content-rendering.spec.js",
+                        "column": 25,
+                        "line": 181
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "dc07ee5e9db0ff850384-dc75a1b27a936d12a4de",
+              "file": "content-rendering.spec.js",
+              "line": 169,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "navigation.spec.js",
+      "file": "navigation.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Navigation Structure",
+          "file": "navigation.spec.js",
+          "line": 12,
+          "column": 6,
+          "specs": [
+            {
+              "title": "navigation UI is visible",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 5284,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('nav, [role=\"navigation\"]').first()\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('nav, [role=\"navigation\"]').first()\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('nav, [role=\"navigation\"]').first()\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('nav, [role=\"navigation\"]').first()\u001b[22m\n\n    at /Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/navigation.spec.js:19:23",
+                        "location": {
+                          "file": "/Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/navigation.spec.js",
+                          "column": 23,
+                          "line": 19
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 17 |\u001b[39m     \u001b[90m// Look for navigation elements (adjust selectors for shadcn theme)\u001b[39m\n \u001b[90m 18 |\u001b[39m     \u001b[36mconst\u001b[39m nav \u001b[33m=\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'nav, [role=\"navigation\"]'\u001b[39m)\u001b[33m.\u001b[39mfirst()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 19 |\u001b[39m     \u001b[36mawait\u001b[39m expect(nav)\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 20 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 21 |\u001b[39m\n \u001b[90m 22 |\u001b[39m   test(\u001b[32m'navigation has multiple items'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/navigation.spec.js",
+                            "column": 23,
+                            "line": 19
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('nav, [role=\"navigation\"]').first()\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('nav, [role=\"navigation\"]').first()\u001b[22m\n\n\n\u001b[0m \u001b[90m 17 |\u001b[39m     \u001b[90m// Look for navigation elements (adjust selectors for shadcn theme)\u001b[39m\n \u001b[90m 18 |\u001b[39m     \u001b[36mconst\u001b[39m nav \u001b[33m=\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'nav, [role=\"navigation\"]'\u001b[39m)\u001b[33m.\u001b[39mfirst()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 19 |\u001b[39m     \u001b[36mawait\u001b[39m expect(nav)\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 20 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 21 |\u001b[39m\n \u001b[90m 22 |\u001b[39m   test(\u001b[32m'navigation has multiple items'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[2m    at /Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/navigation.spec.js:19:23\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-14T14:02:42.975Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/mykawhite/Documents/GitHub/photon/test-results/navigation-Navigation-Structure-navigation-UI-is-visible-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/mykawhite/Documents/GitHub/photon/test-results/navigation-Navigation-Structure-navigation-UI-is-visible-chromium/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/mykawhite/Documents/GitHub/photon/test-results/navigation-Navigation-Structure-navigation-UI-is-visible-chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/navigation.spec.js",
+                        "column": 23,
+                        "line": 19
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "ce7c070a851ea64285fd-629a3248f092d6aaf23f",
+              "file": "navigation.spec.js",
+              "line": 14,
+              "column": 7
+            },
+            {
+              "title": "navigation has multiple items",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 5,
+                      "status": "failed",
+                      "duration": 218,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: >= \u001b[32m5\u001b[39m\nReceived:    \u001b[31m0\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: >= \u001b[32m5\u001b[39m\nReceived:    \u001b[31m0\u001b[39m\n    at /Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/navigation.spec.js:30:19",
+                        "location": {
+                          "file": "/Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/navigation.spec.js",
+                          "column": 19,
+                          "line": 30
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 28 |\u001b[39m     \n \u001b[90m 29 |\u001b[39m     \u001b[90m// Should have at least 5 major sections\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 30 |\u001b[39m     expect(count)\u001b[33m.\u001b[39mtoBeGreaterThanOrEqual(\u001b[35m5\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 31 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 32 |\u001b[39m\n \u001b[90m 33 |\u001b[39m   test(\u001b[32m'major sections are accessible'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/navigation.spec.js",
+                            "column": 19,
+                            "line": 30
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: >= \u001b[32m5\u001b[39m\nReceived:    \u001b[31m0\u001b[39m\n\n\u001b[0m \u001b[90m 28 |\u001b[39m     \n \u001b[90m 29 |\u001b[39m     \u001b[90m// Should have at least 5 major sections\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 30 |\u001b[39m     expect(count)\u001b[33m.\u001b[39mtoBeGreaterThanOrEqual(\u001b[35m5\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 31 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 32 |\u001b[39m\n \u001b[90m 33 |\u001b[39m   test(\u001b[32m'major sections are accessible'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[2m    at /Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/navigation.spec.js:30:19\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-14T14:02:43.878Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/mykawhite/Documents/GitHub/photon/test-results/navigation-Navigation-Stru-89dff-vigation-has-multiple-items-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/mykawhite/Documents/GitHub/photon/test-results/navigation-Navigation-Stru-89dff-vigation-has-multiple-items-chromium/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/mykawhite/Documents/GitHub/photon/test-results/navigation-Navigation-Stru-89dff-vigation-has-multiple-items-chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/navigation.spec.js",
+                        "column": 19,
+                        "line": 30
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "ce7c070a851ea64285fd-75930d3479387de89169",
+              "file": "navigation.spec.js",
+              "line": 22,
+              "column": 7
+            },
+            {
+              "title": "major sections are accessible",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 401,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-14T14:02:43.577Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "ce7c070a851ea64285fd-9a5fd9ac419f875cba8c",
+              "file": "navigation.spec.js",
+              "line": 33,
+              "column": 7
+            },
+            {
+              "title": "clicking navigation items works",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 497,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-14T14:02:43.575Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "ce7c070a851ea64285fd-f630995ed01edc380569",
+              "file": "navigation.spec.js",
+              "line": 53,
+              "column": 7
+            },
+            {
+              "title": "breadcrumbs are present on sub-pages",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 143,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-14T14:02:43.584Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "ce7c070a851ea64285fd-aece31f738f6bb50cf04",
+              "file": "navigation.spec.js",
+              "line": 65,
+              "column": 7
+            },
+            {
+              "title": "navigation persists across pages",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 1,
+                      "status": "failed",
+                      "duration": 5417,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('nav, [role=\"navigation\"]').first()\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('nav, [role=\"navigation\"]').first()\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('nav, [role=\"navigation\"]').first()\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('nav, [role=\"navigation\"]').first()\u001b[22m\n\n    at /Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/navigation.spec.js:83:30",
+                        "location": {
+                          "file": "/Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/navigation.spec.js",
+                          "column": 30,
+                          "line": 83
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 81 |\u001b[39m     \u001b[90m// Get initial navigation structure\u001b[39m\n \u001b[90m 82 |\u001b[39m     \u001b[36mconst\u001b[39m navInitial \u001b[33m=\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'nav, [role=\"navigation\"]'\u001b[39m)\u001b[33m.\u001b[39mfirst()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 83 |\u001b[39m     \u001b[36mawait\u001b[39m expect(navInitial)\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 84 |\u001b[39m     \n \u001b[90m 85 |\u001b[39m     \u001b[90m// Navigate to another page\u001b[39m\n \u001b[90m 86 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'/getting-started/'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/navigation.spec.js",
+                            "column": 30,
+                            "line": 83
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('nav, [role=\"navigation\"]').first()\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('nav, [role=\"navigation\"]').first()\u001b[22m\n\n\n\u001b[0m \u001b[90m 81 |\u001b[39m     \u001b[90m// Get initial navigation structure\u001b[39m\n \u001b[90m 82 |\u001b[39m     \u001b[36mconst\u001b[39m navInitial \u001b[33m=\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'nav, [role=\"navigation\"]'\u001b[39m)\u001b[33m.\u001b[39mfirst()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 83 |\u001b[39m     \u001b[36mawait\u001b[39m expect(navInitial)\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 84 |\u001b[39m     \n \u001b[90m 85 |\u001b[39m     \u001b[90m// Navigate to another page\u001b[39m\n \u001b[90m 86 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'/getting-started/'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at /Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/navigation.spec.js:83:30\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-14T14:02:43.735Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/mykawhite/Documents/GitHub/photon/test-results/navigation-Navigation-Stru-8c915-ation-persists-across-pages-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/mykawhite/Documents/GitHub/photon/test-results/navigation-Navigation-Stru-8c915-ation-persists-across-pages-chromium/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/mykawhite/Documents/GitHub/photon/test-results/navigation-Navigation-Stru-8c915-ation-persists-across-pages-chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/navigation.spec.js",
+                        "column": 30,
+                        "line": 83
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "ce7c070a851ea64285fd-8518808ce18ee6e7fde6",
+              "file": "navigation.spec.js",
+              "line": 78,
+              "column": 7
+            },
+            {
+              "title": "active page is highlighted in navigation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 129,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-14T14:02:43.986Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "ce7c070a851ea64285fd-08ab1712f1aa2f0f9399",
+              "file": "navigation.spec.js",
+              "line": 93,
+              "column": 7
+            },
+            {
+              "title": "navigation is keyboard accessible",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 178,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-14T14:02:44.079Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "ce7c070a851ea64285fd-49f59cea4f01114360c2",
+              "file": "navigation.spec.js",
+              "line": 105,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "search.spec.js",
+      "file": "search.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Search Functionality",
+          "file": "search.spec.js",
+          "line": 12,
+          "column": 6,
+          "specs": [
+            {
+              "title": "search input is present",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 179,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-14T14:02:44.127Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9e6ea2b6d72fedbaa223-27c2fdc6961a50ab4e64",
+              "file": "search.spec.js",
+              "line": 14,
+              "column": 7
+            },
+            {
+              "title": "search can be opened/focused",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 175,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-14T14:02:44.265Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9e6ea2b6d72fedbaa223-80e9380839544788c8ac",
+              "file": "search.spec.js",
+              "line": 28,
+              "column": 7
+            },
+            {
+              "title": "search accepts input",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 10,
+                      "parallelIndex": 5,
+                      "status": "timedOut",
+                      "duration": 30748,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "/Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/search.spec.js",
+                            "column": 23,
+                            "line": 60
+                          },
+                          "message": "Error: locator.fill: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[type=\"search\"], [role=\"searchbox\"]').first()\u001b[22m\n\n\n\u001b[0m \u001b[90m 58 |\u001b[39m     \u001b[90m// Type in search input\u001b[39m\n \u001b[90m 59 |\u001b[39m     \u001b[36mconst\u001b[39m searchInput \u001b[33m=\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'input[type=\"search\"], [role=\"searchbox\"]'\u001b[39m)\u001b[33m.\u001b[39mfirst()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 60 |\u001b[39m     \u001b[36mawait\u001b[39m searchInput\u001b[33m.\u001b[39mfill(\u001b[32m'rectangle'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 61 |\u001b[39m     \n \u001b[90m 62 |\u001b[39m     \u001b[90m// Verify text was entered\u001b[39m\n \u001b[90m 63 |\u001b[39m     \u001b[36mconst\u001b[39m value \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m searchInput\u001b[33m.\u001b[39minputValue()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at /Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/search.spec.js:60:23\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-14T14:02:44.631Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/mykawhite/Documents/GitHub/photon/test-results/search-Search-Functionality-search-accepts-input-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/mykawhite/Documents/GitHub/photon/test-results/search-Search-Functionality-search-accepts-input-chromium/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/mykawhite/Documents/GitHub/photon/test-results/search-Search-Functionality-search-accepts-input-chromium/error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "9e6ea2b6d72fedbaa223-fc901a4b21c643723d28",
+              "file": "search.spec.js",
+              "line": 48,
+              "column": 7
+            },
+            {
+              "title": "search returns results for valid query",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 3,
+                      "status": "timedOut",
+                      "duration": 30726,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "/Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/search.spec.js",
+                            "column": 23,
+                            "line": 79
+                          },
+                          "message": "Error: locator.fill: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[type=\"search\"], [role=\"searchbox\"]').first()\u001b[22m\n\n\n\u001b[0m \u001b[90m 77 |\u001b[39m     \u001b[90m// Type search query\u001b[39m\n \u001b[90m 78 |\u001b[39m     \u001b[36mconst\u001b[39m searchInput \u001b[33m=\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'input[type=\"search\"], [role=\"searchbox\"]'\u001b[39m)\u001b[33m.\u001b[39mfirst()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 79 |\u001b[39m     \u001b[36mawait\u001b[39m searchInput\u001b[33m.\u001b[39mfill(\u001b[32m'rectangle'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 80 |\u001b[39m     \n \u001b[90m 81 |\u001b[39m     \u001b[90m// Wait for results to appear\u001b[39m\n \u001b[90m 82 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForTimeout(\u001b[35m1000\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Wait for search indexing\u001b[39m\u001b[0m\n\u001b[2m    at /Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/search.spec.js:79:23\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-14T14:02:44.313Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/mykawhite/Documents/GitHub/photon/test-results/search-Search-Functionalit-914ca-rns-results-for-valid-query-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/mykawhite/Documents/GitHub/photon/test-results/search-Search-Functionalit-914ca-rns-results-for-valid-query-chromium/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/mykawhite/Documents/GitHub/photon/test-results/search-Search-Functionalit-914ca-rns-results-for-valid-query-chromium/error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "9e6ea2b6d72fedbaa223-dc6462a35e6622865b8c",
+              "file": "search.spec.js",
+              "line": 67,
+              "column": 7
+            },
+            {
+              "title": "search results are clickable",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 2,
+                      "status": "timedOut",
+                      "duration": 30730,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "/Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/search.spec.js",
+                            "column": 23,
+                            "line": 104
+                          },
+                          "message": "Error: locator.fill: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[type=\"search\"], [role=\"searchbox\"]').first()\u001b[22m\n\n\n\u001b[0m \u001b[90m 102 |\u001b[39m     \u001b[90m// Type search query\u001b[39m\n \u001b[90m 103 |\u001b[39m     \u001b[36mconst\u001b[39m searchInput \u001b[33m=\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'input[type=\"search\"], [role=\"searchbox\"]'\u001b[39m)\u001b[33m.\u001b[39mfirst()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 104 |\u001b[39m     \u001b[36mawait\u001b[39m searchInput\u001b[33m.\u001b[39mfill(\u001b[32m'rectangle'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 105 |\u001b[39m     \n \u001b[90m 106 |\u001b[39m     \u001b[90m// Wait for results\u001b[39m\n \u001b[90m 107 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForTimeout(\u001b[35m1000\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at /Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/search.spec.js:104:23\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-14T14:02:44.446Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/mykawhite/Documents/GitHub/photon/test-results/search-Search-Functionality-search-results-are-clickable-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/mykawhite/Documents/GitHub/photon/test-results/search-Search-Functionality-search-results-are-clickable-chromium/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/mykawhite/Documents/GitHub/photon/test-results/search-Search-Functionality-search-results-are-clickable-chromium/error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "9e6ea2b6d72fedbaa223-842d49bd1201e191e730",
+              "file": "search.spec.js",
+              "line": 92,
+              "column": 7
+            },
+            {
+              "title": "search can be closed/cleared",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 4,
+                      "status": "timedOut",
+                      "duration": 30682,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "/Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/search.spec.js",
+                            "column": 23,
+                            "line": 138
+                          },
+                          "message": "Error: locator.fill: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[type=\"search\"], [role=\"searchbox\"]').first()\u001b[22m\n\n\n\u001b[0m \u001b[90m 136 |\u001b[39m     \u001b[90m// Type search query\u001b[39m\n \u001b[90m 137 |\u001b[39m     \u001b[36mconst\u001b[39m searchInput \u001b[33m=\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'input[type=\"search\"], [role=\"searchbox\"]'\u001b[39m)\u001b[33m.\u001b[39mfirst()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 138 |\u001b[39m     \u001b[36mawait\u001b[39m searchInput\u001b[33m.\u001b[39mfill(\u001b[32m'test'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 139 |\u001b[39m     \n \u001b[90m 140 |\u001b[39m     \u001b[90m// Try to close search (Escape key)\u001b[39m\n \u001b[90m 141 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mkeyboard\u001b[33m.\u001b[39mpress(\u001b[32m'Escape'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at /Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/search.spec.js:138:23\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-14T14:02:47.576Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/mykawhite/Documents/GitHub/photon/test-results/search-Search-Functionality-search-can-be-closed-cleared-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/mykawhite/Documents/GitHub/photon/test-results/search-Search-Functionality-search-can-be-closed-cleared-chromium/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/mykawhite/Documents/GitHub/photon/test-results/search-Search-Functionality-search-can-be-closed-cleared-chromium/error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "9e6ea2b6d72fedbaa223-6113a48f5c285e1c3ea6",
+              "file": "search.spec.js",
+              "line": 126,
+              "column": 7
+            },
+            {
+              "title": "search is keyboard accessible",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 12,
+                      "parallelIndex": 0,
+                      "status": "timedOut",
+                      "duration": 30664,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "/Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/search.spec.js",
+                            "column": 41,
+                            "line": 165
+                          },
+                          "message": "Error: locator.evaluate: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[type=\"search\"], [role=\"searchbox\"]').first()\u001b[22m\n\n\n\u001b[0m \u001b[90m 163 |\u001b[39m     \n \u001b[90m 164 |\u001b[39m     \u001b[90m// Search should be activated by keyboard\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 165 |\u001b[39m     \u001b[36mconst\u001b[39m isFocused \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m searchInput\u001b[33m.\u001b[39mevaluate(el \u001b[33m=>\u001b[39m \n \u001b[90m     |\u001b[39m                                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 166 |\u001b[39m       document\u001b[33m.\u001b[39mactiveElement \u001b[33m===\u001b[39m el\n \u001b[90m 167 |\u001b[39m     )\u001b[33m;\u001b[39m\n \u001b[90m 168 |\u001b[39m     \u001b[0m\n\u001b[2m    at /Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/search.spec.js:165:41\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-14T14:02:48.577Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/mykawhite/Documents/GitHub/photon/test-results/search-Search-Functionality-search-is-keyboard-accessible-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/mykawhite/Documents/GitHub/photon/test-results/search-Search-Functionality-search-is-keyboard-accessible-chromium/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/mykawhite/Documents/GitHub/photon/test-results/search-Search-Functionality-search-is-keyboard-accessible-chromium/error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "9e6ea2b6d72fedbaa223-e283029db53555fb9ed9",
+              "file": "search.spec.js",
+              "line": 154,
+              "column": 7
+            },
+            {
+              "title": "empty search shows no results or placeholder",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 13,
+                      "parallelIndex": 1,
+                      "status": "timedOut",
+                      "duration": 30670,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "/Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/search.spec.js",
+                            "column": 23,
+                            "line": 185
+                          },
+                          "message": "Error: locator.fill: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[type=\"search\"], [role=\"searchbox\"]').first()\u001b[22m\n\n\n\u001b[0m \u001b[90m 183 |\u001b[39m     \u001b[90m// Type and then clear search\u001b[39m\n \u001b[90m 184 |\u001b[39m     \u001b[36mconst\u001b[39m searchInput \u001b[33m=\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'input[type=\"search\"], [role=\"searchbox\"]'\u001b[39m)\u001b[33m.\u001b[39mfirst()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 185 |\u001b[39m     \u001b[36mawait\u001b[39m searchInput\u001b[33m.\u001b[39mfill(\u001b[32m'test'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 186 |\u001b[39m     \u001b[36mawait\u001b[39m searchInput\u001b[33m.\u001b[39mclear()\u001b[33m;\u001b[39m\n \u001b[90m 187 |\u001b[39m     \n \u001b[90m 188 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForTimeout(\u001b[35m500\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at /Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/search.spec.js:185:23\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-14T14:02:49.474Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/mykawhite/Documents/GitHub/photon/test-results/search-Search-Functionalit-83ece-s-no-results-or-placeholder-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/mykawhite/Documents/GitHub/photon/test-results/search-Search-Functionalit-83ece-s-no-results-or-placeholder-chromium/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/mykawhite/Documents/GitHub/photon/test-results/search-Search-Functionalit-83ece-s-no-results-or-placeholder-chromium/error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "9e6ea2b6d72fedbaa223-08eb146879b03addb2f0",
+              "file": "search.spec.js",
+              "line": 173,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "visual-verification.spec.js",
+      "file": "visual-verification.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Visual Verification",
+          "file": "visual-verification.spec.js",
+          "line": 12,
+          "column": 6,
+          "specs": [
+            {
+              "title": "homepage loads successfully",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 14,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 187,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-14T14:03:15.403Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "510cd36c455fc717ed37-acec4bf951f0261fa8f7",
+              "file": "visual-verification.spec.js",
+              "line": 14,
+              "column": 7
+            },
+            {
+              "title": "shadcn theme is applied",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 15,
+                      "parallelIndex": 2,
+                      "status": "failed",
+                      "duration": 5449,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('html')\nExpected: have attribute\nReceived: attribute not present\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('html')\u001b[22m\n\u001b[2m    9 × locator resolved to <html lang=\"en\" class=\"layout-fixed\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"attribute not present\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('html')\nExpected: have attribute\nReceived: attribute not present\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('html')\u001b[22m\n\u001b[2m    9 × locator resolved to <html lang=\"en\" class=\"layout-fixed\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"attribute not present\"\u001b[22m\n\n    at /Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/visual-verification.spec.js:29:24",
+                        "location": {
+                          "file": "/Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/visual-verification.spec.js",
+                          "column": 24,
+                          "line": 29
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 27 |\u001b[39m     \u001b[90m// shadcn themes typically have specific data attributes or classes\u001b[39m\n \u001b[90m 28 |\u001b[39m     \u001b[36mconst\u001b[39m html \u001b[33m=\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'html'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 29 |\u001b[39m     \u001b[36mawait\u001b[39m expect(html)\u001b[33m.\u001b[39mtoHaveAttribute(\u001b[32m'data-theme'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 30 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 31 |\u001b[39m\n \u001b[90m 32 |\u001b[39m   test(\u001b[32m'site header is visible'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/visual-verification.spec.js",
+                            "column": 24,
+                            "line": 29
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('html')\nExpected: have attribute\nReceived: attribute not present\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('html')\u001b[22m\n\u001b[2m    9 × locator resolved to <html lang=\"en\" class=\"layout-fixed\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"attribute not present\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 27 |\u001b[39m     \u001b[90m// shadcn themes typically have specific data attributes or classes\u001b[39m\n \u001b[90m 28 |\u001b[39m     \u001b[36mconst\u001b[39m html \u001b[33m=\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'html'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 29 |\u001b[39m     \u001b[36mawait\u001b[39m expect(html)\u001b[33m.\u001b[39mtoHaveAttribute(\u001b[32m'data-theme'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 30 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 31 |\u001b[39m\n \u001b[90m 32 |\u001b[39m   test(\u001b[32m'site header is visible'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[2m    at /Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/visual-verification.spec.js:29:24\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-14T14:03:15.542Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/mykawhite/Documents/GitHub/photon/test-results/visual-verification-Visual-a0a75-ion-shadcn-theme-is-applied-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/mykawhite/Documents/GitHub/photon/test-results/visual-verification-Visual-a0a75-ion-shadcn-theme-is-applied-chromium/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/mykawhite/Documents/GitHub/photon/test-results/visual-verification-Visual-a0a75-ion-shadcn-theme-is-applied-chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/visual-verification.spec.js",
+                        "column": 24,
+                        "line": 29
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "510cd36c455fc717ed37-d1ee835ff2157f01bd28",
+              "file": "visual-verification.spec.js",
+              "line": 19,
+              "column": 7
+            },
+            {
+              "title": "site header is visible",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 16,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 177,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-14T14:03:15.908Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "510cd36c455fc717ed37-e59d297923c8b22683ec",
+              "file": "visual-verification.spec.js",
+              "line": 32,
+              "column": 7
+            },
+            {
+              "title": "no console errors on page load",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 14,
+                      "parallelIndex": 3,
+                      "status": "failed",
+                      "duration": 895,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoHaveLength\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected length: \u001b[32m0\u001b[39m\nReceived length: \u001b[31m2\u001b[39m\nReceived array:  \u001b[31m[\"Failed to construct 'Worker': Script at 'http://127.0.0.1:8000/mwhite454/photon/search/worker.js' cannot be accessed from origin 'http://localhost:8000'.\", \"Line: 7, column: 7, Unexpected token.\"]\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoHaveLength\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected length: \u001b[32m0\u001b[39m\nReceived length: \u001b[31m2\u001b[39m\nReceived array:  \u001b[31m[\"Failed to construct 'Worker': Script at 'http://127.0.0.1:8000/mwhite454/photon/search/worker.js' cannot be accessed from origin 'http://localhost:8000'.\", \"Line: 7, column: 7, Unexpected token.\"]\u001b[39m\n    at /Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/visual-verification.spec.js:59:20",
+                        "location": {
+                          "file": "/Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/visual-verification.spec.js",
+                          "column": 20,
+                          "line": 59
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 57 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForLoadState(\u001b[32m'networkidle'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 58 |\u001b[39m     \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 59 |\u001b[39m     expect(errors)\u001b[33m.\u001b[39mtoHaveLength(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 60 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 61 |\u001b[39m\n \u001b[90m 62 |\u001b[39m   test(\u001b[32m'theme CSS is loaded'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/visual-verification.spec.js",
+                            "column": 20,
+                            "line": 59
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoHaveLength\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected length: \u001b[32m0\u001b[39m\nReceived length: \u001b[31m2\u001b[39m\nReceived array:  \u001b[31m[\"Failed to construct 'Worker': Script at 'http://127.0.0.1:8000/mwhite454/photon/search/worker.js' cannot be accessed from origin 'http://localhost:8000'.\", \"Line: 7, column: 7, Unexpected token.\"]\u001b[39m\n\n\u001b[0m \u001b[90m 57 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForLoadState(\u001b[32m'networkidle'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 58 |\u001b[39m     \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 59 |\u001b[39m     expect(errors)\u001b[33m.\u001b[39mtoHaveLength(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 60 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 61 |\u001b[39m\n \u001b[90m 62 |\u001b[39m   test(\u001b[32m'theme CSS is loaded'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[2m    at /Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/visual-verification.spec.js:59:20\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-14T14:03:15.708Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/mykawhite/Documents/GitHub/photon/test-results/visual-verification-Visual-86304-console-errors-on-page-load-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/mykawhite/Documents/GitHub/photon/test-results/visual-verification-Visual-86304-console-errors-on-page-load-chromium/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/mykawhite/Documents/GitHub/photon/test-results/visual-verification-Visual-86304-console-errors-on-page-load-chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/visual-verification.spec.js",
+                        "column": 20,
+                        "line": 59
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "510cd36c455fc717ed37-f4fcf6e7426866c1f6c6",
+              "file": "visual-verification.spec.js",
+              "line": 41,
+              "column": 7
+            },
+            {
+              "title": "theme CSS is loaded",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 16,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 204,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-14T14:03:16.200Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "510cd36c455fc717ed37-efcb38d4361c0549b92f",
+              "file": "visual-verification.spec.js",
+              "line": 62,
+              "column": 7
+            },
+            {
+              "title": "page content is rendered",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 16,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 167,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-14T14:03:16.432Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "510cd36c455fc717ed37-0021c5245a5b0a3483a7",
+              "file": "visual-verification.spec.js",
+              "line": 70,
+              "column": 7
+            },
+            {
+              "title": "captures screenshot for visual regression",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 16,
+                      "parallelIndex": 5,
+                      "status": "failed",
+                      "duration": 921,
+                      "error": {
+                        "message": "Error: A snapshot doesn't exist at /Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/visual-verification.spec.js-snapshots/homepage-chromium-darwin.png, writing actual.",
+                        "stack": "Error: A snapshot doesn't exist at /Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/visual-verification.spec.js-snapshots/homepage-chromium-darwin.png, writing actual.\n    at /Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/visual-verification.spec.js:88:5",
+                        "location": {
+                          "file": "/Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/visual-verification.spec.js",
+                          "column": 5,
+                          "line": 88
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 86 |\u001b[39m     \n \u001b[90m 87 |\u001b[39m     \u001b[90m// Take screenshot for visual regression testing\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 88 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveScreenshot(\u001b[32m'homepage.png'\u001b[39m\u001b[33m,\u001b[39m {\n \u001b[90m    |\u001b[39m     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 89 |\u001b[39m       fullPage\u001b[33m:\u001b[39m \u001b[36mfalse\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 90 |\u001b[39m       maxDiffPixels\u001b[33m:\u001b[39m \u001b[35m100\u001b[39m\n \u001b[90m 91 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/visual-verification.spec.js",
+                            "column": 5,
+                            "line": 88
+                          },
+                          "message": "Error: A snapshot doesn't exist at /Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/visual-verification.spec.js-snapshots/homepage-chromium-darwin.png, writing actual.\n\n\u001b[0m \u001b[90m 86 |\u001b[39m     \n \u001b[90m 87 |\u001b[39m     \u001b[90m// Take screenshot for visual regression testing\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 88 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveScreenshot(\u001b[32m'homepage.png'\u001b[39m\u001b[33m,\u001b[39m {\n \u001b[90m    |\u001b[39m     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 89 |\u001b[39m       fullPage\u001b[33m:\u001b[39m \u001b[36mfalse\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 90 |\u001b[39m       maxDiffPixels\u001b[33m:\u001b[39m \u001b[35m100\u001b[39m\n \u001b[90m 91 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at /Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/visual-verification.spec.js:88:5\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-14T14:03:16.609Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "homepage-expected.png",
+                          "contentType": "image/png",
+                          "path": "/Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/visual-verification.spec.js-snapshots/homepage-chromium-darwin.png"
+                        },
+                        {
+                          "name": "homepage-actual.png",
+                          "contentType": "image/png",
+                          "path": "/Users/mykawhite/Documents/GitHub/photon/test-results/visual-verification-Visual-93753-nshot-for-visual-regression-chromium/homepage-actual.png"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/mykawhite/Documents/GitHub/photon/test-results/visual-verification-Visual-93753-nshot-for-visual-regression-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/mykawhite/Documents/GitHub/photon/test-results/visual-verification-Visual-93753-nshot-for-visual-regression-chromium/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/mykawhite/Documents/GitHub/photon/test-results/visual-verification-Visual-93753-nshot-for-visual-regression-chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/mykawhite/Documents/GitHub/photon/tests/docs-migration/visual-verification.spec.js",
+                        "column": 5,
+                        "line": 88
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "510cd36c455fc717ed37-a9cc56f39d1748c9143d",
+              "file": "visual-verification.spec.js",
+              "line": 81,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-10-14T14:01:33.445Z",
+    "duration": 107684.226,
+    "expected": 28,
+    "skipped": 0,
+    "unexpected": 17,
+    "flaky": 0
+  }
+}

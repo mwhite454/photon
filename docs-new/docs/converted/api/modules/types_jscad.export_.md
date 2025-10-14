@@ -5,14 +5,14 @@ source: docs/docs/api/modules/types_jscad.export_.html
 
 export= | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [types/jscad](types_jscad.html)
+* [types/jscad](types_jscad.md)
 * export=
 
 # Namespace export=
@@ -23,18 +23,18 @@ without requiring the actual library at compile time.
 
 ## Namespaces
 
-[CSG](types_jscad.export_.CSG.html)
+[CSG](types_jscad.export_.CSG.md)
 
 ## Classes
 
-[CAG](../classes/types_jscad.export_.CAG.html)
+[CAG](../classes/types_jscad.export_.CAG.md)
 
 
-[CSG](../classes/types_jscad.export_.CSG.html)
+[CSG](../classes/types_jscad.export_.CSG.md)
 
 ## References
 
-StlSerializer → [StlSerializer](../interfaces/types_jscad.StlSerializer.html)
+StlSerializer → [StlSerializer](../interfaces/types_jscad.StlSerializer.md)
 
 ### Settings
 
@@ -59,7 +59,7 @@ References
 
 [StlSerializer](#stlserializer)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

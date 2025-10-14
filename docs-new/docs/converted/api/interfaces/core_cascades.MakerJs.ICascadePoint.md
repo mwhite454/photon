@@ -5,15 +5,15 @@ source: docs/docs/api/interfaces/core_cascades.MakerJs.ICascadePoint.html
 
 ICascadePoint | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/cascades](../modules/core_cascades.html)
-* [MakerJs](../modules/core_cascades.MakerJs.html)
+* [core/cascades](../modules/core_cascades.md)
+* [MakerJs](../modules/core_cascades.MakerJs.md)
 * ICascadePoint
 
 # Interface ICascadePoint
@@ -24,9 +24,9 @@ interface ICascadePoint {
     [$result](#result): any;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.html#core/cascades.MakerJs.ICascadePoint))
+#### Hierarchy ([View Summary](../hierarchy.md#core/cascades.MakerJs.ICascadePoint))
 
-* [MakerJs](../modules/core_cascades.MakerJs.html).[ICascade](core_cascades.MakerJs.ICascade.html)
+* [MakerJs](../modules/core_cascades.MakerJs.md).[ICascade](core_cascades.MakerJs.ICascade.md)
   + ICascadePoint
 
 * Defined in [core/cascades.ts:19](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/cascades.ts#L19)
@@ -45,7 +45,7 @@ interface ICascadePoint {
 
 $initial: any
 
-Inherited from [ICascade](core_cascades.MakerJs.ICascade.html).[$initial](core_cascades.MakerJs.ICascade.html#initial)
+Inherited from [ICascade](core_cascades.MakerJs.ICascade.md).[$initial](core_cascades.MakerJs.ICascade.md#initial)
 
 * Defined in [core/cascades.ts:6](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/cascades.ts#L6)
 
@@ -53,7 +53,7 @@ Inherited from [ICascade](core_cascades.MakerJs.ICascade.html).[$initial](core_c
 
 $reset: () => this
 
-Inherited from [ICascade](core_cascades.MakerJs.ICascade.html).[$reset](core_cascades.MakerJs.ICascade.html#reset)
+Inherited from [ICascade](core_cascades.MakerJs.ICascade.md).[$reset](core_cascades.MakerJs.ICascade.md#reset)
 
 * Defined in [core/cascades.ts:8](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/cascades.ts#L8)
 
@@ -61,7 +61,7 @@ Inherited from [ICascade](core_cascades.MakerJs.ICascade.html).[$reset](core_cas
 
 $result: any
 
-Inherited from [ICascade](core_cascades.MakerJs.ICascade.html).[$result](core_cascades.MakerJs.ICascade.html#result)
+Inherited from [ICascade](core_cascades.MakerJs.ICascade.md).[$result](core_cascades.MakerJs.ICascade.md#result)
 
 * Defined in [core/cascades.ts:7](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/cascades.ts#L7)
 
@@ -80,7 +80,7 @@ Properties
 
 [$initial](#initial)[$reset](#reset)[$result](#result)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

@@ -5,14 +5,14 @@ source: docs/docs/api/functions/core_units.isValidUnit.html
 
 isValidUnit | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/units](../modules/core_units.html)
+* [core/units](../modules/core_units.md)
 * isValidUnit
 
 # Function isValidUnit
@@ -38,7 +38,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

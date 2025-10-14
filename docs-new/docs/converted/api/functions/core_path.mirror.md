@@ -5,29 +5,29 @@ source: docs/docs/api/functions/core_path.mirror.html
 
 mirror | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
 
 Preparing search index...
 
-* [core/path](../modules/core_path.html)
+* [core/path](../modules/core_path.md)
 * mirror
 
 # Function mirror
 
-* mirror(pathToMirror: [IPath](../interfaces/core_schema.IPath.html), mirrorX: boolean, mirrorY: boolean): [IPath](../interfaces/core_schema.IPath.html)
+* mirror(pathToMirror: [IPath](../interfaces/core_schema.IPath.md), mirrorX: boolean, mirrorY: boolean): [IPath](../interfaces/core_schema.IPath.md)
 
   Create a clone of a path, mirrored on either or both x and y axes.
 
   #### Parameters
 
-  + pathToMirror: [IPath](../interfaces/core_schema.IPath.html)
+  + pathToMirror: [IPath](../interfaces/core_schema.IPath.md)
   + mirrorX: boolean
   + mirrorY: boolean
 
-  #### Returns [IPath](../interfaces/core_schema.IPath.html)
+  #### Returns [IPath](../interfaces/core_schema.IPath.md)
 
   + Defined in [core/path.ts:112](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/path.ts#L112)
 
@@ -40,7 +40,7 @@ Member Visibility
 
 ThemeOSLightDark
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

@@ -3,17 +3,13 @@ title: Walking
 source: docs/_snippets/walking.html
 ---
 
----
-title: Walking a model tree
----
-
-You can traverse a model tree by calling [makerjs.model.walk](/docs/api/modules/makerjs.model.html#walk) with your model and an object with these optional properties:
+You can traverse a model tree by calling [model.walk](/docs/api/modules/model.md#walk) with your model and an object with these optional properties:
 
 | property name | property type | description |
 | --- | --- | --- |
-| onPath | function([walkPath](/docs/api/interfaces/makerjs.iwalkpath.html#content) object) | called for every path (in every model) in your tree. |
-| beforeChildWalk | function([walkModel](/docs/api/interfaces/makerjs.iwalkmodel.html#content)) | called for every model in your tree, prior to diving deeper down the tree. **Return false if you wish to not dive deeper.** |
-| afterChildWalk | function([walkModel](/docs/api/interfaces/makerjs.iwalkmodel.html#content)) | called for every model in your tree, after returning from a deep dive down the tree. |
+| onPath | function([walkPath](/docs/api/interfaces/makerjs.iwalkpath.md#content) object) | called for every path (in every model) in your tree. |
+| beforeChildWalk | function([walkModel](/docs/api/interfaces/makerjs.iwalkmodel.md#content)) | called for every model in your tree, prior to diving deeper down the tree. **Return false if you wish to not dive deeper.** |
+| afterChildWalk | function([walkModel](/docs/api/interfaces/makerjs.iwalkmodel.md#content)) | called for every model in your tree, after returning from a deep dive down the tree. |
 
 #### walkPath object
 
@@ -45,21 +41,21 @@ In this example we will create a RoundRectangle and walk its tree. We have an `o
 
 ```javascript
 //render a model using mixed units
-var makerjs = require('makerjs');
+import { exporter, model, models, path, paths, point } from 'photon/core';
 function invertArc(arc) {
-var chord = new makerjs.paths.Chord(arc);
-var midPoint = makerjs.point.middle(chord);
-makerjs.path.rotate(arc, 180, midPoint);
+const chord = new paths.Chord(arc);
+const midPoint = point.middle(chord);
+path.rotate(arc, 180, midPoint);
 }
-var shape = new makerjs.models.RoundRectangle(100, 50, 10);
-var walkOptions = {
-onPath: function (wp) {
+const shape = new models.RoundRectangle(100, 50, 10);
+const walkOptions = {
+onPath: (wp) => {
 if (wp.pathContext.type === 'arc') {
 invertArc(wp.pathContext);
 }
 }
 };
-makerjs.model.walk(shape, walkOptions);
-var svg = makerjs.exporter.toSVG(shape);
+model.walk(shape, walkOptions);
+const svg = exporter.toSVG(shape);
 document.write(svg);
 ```

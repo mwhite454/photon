@@ -5,7 +5,7 @@ source: docs/docs/api/modules/core_exporter-index.html
 
 core/exporter-index | Photon
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 
 
@@ -18,22 +18,22 @@ Preparing search index...
 
 ## References
 
-colors → [colors](../variables/core_exporter.colors.html)
+colors → [colors](../variables/core_exporter.colors.md)
 
 
-IJsonExportOptions → [IJsonExportOptions](../interfaces/core_exporter.IJsonExportOptions.html)
+IJsonExportOptions → [IJsonExportOptions](../interfaces/core_exporter.IJsonExportOptions.md)
 
 
-IStatusCallback → [IStatusCallback](../interfaces/core_exporter.IStatusCallback.html)
+IStatusCallback → [IStatusCallback](../interfaces/core_exporter.IStatusCallback.md)
 
 
-toJson → [toJson](../functions/core_exporter.toJson.html)
+toJson → [toJson](../functions/core_exporter.toJson.md)
 
 
-toSVG → [toSVG](../functions/core_svg-esm.toSVG.html)
+toSVG → [toSVG](../functions/core_svg-esm.toSVG.md)
 
 
-toSVGPathData → [toSVGPathData](../functions/core_svg-esm.toSVGPathData.html)
+toSVGPathData → [toSVGPathData](../functions/core_svg-esm.toSVGPathData.md)
 
 ### Settings
 
@@ -50,7 +50,7 @@ References
 
 [colors](#colors)[IJsonExportOptions](#ijsonexportoptions)[IStatusCallback](#istatuscallback)[toJson](#tojson)[toSVG](#tosvg)[toSVGPathData](#tosvgpathdata)
 
-[Photon](../index.html)
+[Photon](../index.md)
 
 * Loading...
 

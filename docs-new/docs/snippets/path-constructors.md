@@ -3,10 +3,6 @@ title: Path Constructors
 source: docs/_snippets/path-constructors.html
 ---
 
----
-title: Path constructors
----
-
 In the example code above we used plain old JavaScript objects to create paths and models.
 Notice that we didn't need to use a special constructor provided by Maker.js to create either a path or a model.
 This is an intentional aspect of Maker.js, that you can decide how to create your objects.
@@ -18,24 +14,24 @@ and convert it to a constructor function.
 
 ```javascript
 //render a line
-var makerjs = require('makerjs');
-var line = {
+import { exporter, paths } from 'photon/core';
+const line = {
 type: 'line',
 origin: [0, 0],
 end: [50, 50]
 };
-var svg = makerjs.exporter.toSVG(line);
+const svg = exporter.toSVG(line);
 document.write(svg);
 ```
 ```javascript
 //render a line created by a function
-var makerjs = require('makerjs');
+import { exporter, paths } from 'photon/core';
 function line() {
 this.type = 'line',
 this.origin = [0, 0],
 this.end = [50, 50]
 };
-var svg = makerjs.exporter.toSVG(new line());
+const svg = exporter.toSVG(new line());
 document.write(svg);
 ```
 
@@ -44,16 +40,16 @@ Instead, these should be passed as parameters.
 
 Since this is a common scenario, Maker.js provides constructors for all primitive paths: line, circle and arc:
 
-* [makerjs.paths.Line](/docs/api/classes/makerjs.paths.line.html#constructor)
-* [makerjs.paths.Circle](/docs/api/classes/makerjs.paths.circle.html#constructor)
-* [makerjs.paths.Arc](/docs/api/classes/makerjs.paths.arc.html#constructor)
+* [paths.Line](/docs/api/classes/paths.line.md#constructor)
+* [paths.Circle](/docs/api/classes/paths.circle.md#constructor)
+* [paths.Arc](/docs/api/classes/paths.arc.md#constructor)
 
 ```javascript
 //render the basic paths
-var makerjs = require('makerjs');
-var line = new makerjs.paths.Line([0, 0], [50, 50]);
-var circle = new makerjs.paths.Circle([0, 0], 50);
-var arc = new makerjs.paths.Arc([0, 0], 25, 0, 90);
-var svg = makerjs.exporter.toSVG([line, circle, arc]);
+import { exporter, paths } from 'photon/core';
+const line = new paths.Line([0, 0], [50, 50]);
+const circle = new paths.Circle([0, 0], 50);
+const arc = new paths.Arc([0, 0], 25, 0, 90);
+const svg = exporter.toSVG([line, circle, arc]);
 document.write(svg);
 ```

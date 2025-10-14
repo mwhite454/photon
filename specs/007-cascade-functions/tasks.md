@@ -22,6 +22,7 @@ This feature implements two complementary APIs for function composition:
 ## Task Summary
 
 - **Total Tasks**: 24
+- **Completed**: 2/24
 - **Setup**: 2 tasks (T001-T002)
 - **Foundational**: 1 task (T003)
 - **User Story 1 (pipe)**: 6 tasks (T004-T009)
@@ -32,6 +33,52 @@ This feature implements two complementary APIs for function composition:
 **Parallel Opportunities**: 15+ tasks can run in parallel
 
 **TDD Approach**: Tests written before implementation per Constitution Principle I
+
+---
+
+## Task Checklist
+
+### Phase 1: Setup & Infrastructure
+
+- [X] T001: Create Feature Branch from 006-migration-from-jekyll
+- [X] T002: Verify Test Environment Setup
+
+### Phase 2: Foundational Tasks
+
+- [ ] T003: Create Functional Module File
+
+### Phase 3: User Story 1 - Pipe Function
+
+- [ ] T004: [US1] Write Pipe Function Tests [P]
+- [ ] T005: [US1] Implement Pipe TypeScript Overloads
+- [ ] T006: [US1] Implement Pipe Function Body
+- [ ] T007: [US1] Export Pipe from Core Index [P]
+- [ ] T008: [US1] Verify Pipe Integration Tests Pass [P]
+- [ ] T009: [US1] Refactor Pipe Implementation (if needed)
+
+### Phase 4: User Story 2 - Compose Function
+
+- [ ] T010: [US2] Write Compose Function Tests [P]
+- [ ] T011: [US2] Implement Compose TypeScript Overloads
+- [ ] T012: [US2] Implement Compose Function Body
+- [ ] T013: [US2] Export Compose from Core Index [P]
+- [ ] T014: [US2] Verify Compose Tests Pass [P]
+
+### Phase 5: User Story 3 - Cascade Modernization
+
+- [ ] T015: [US3] Write Cascade Tests (Model/Path/Point) [P]
+- [ ] T016: [US3] Modernize Cascade Class - Replace var with const/let
+- [ ] T017: [US3] Modernize Cascade Class - Replace function with Arrow Functions
+- [ ] T018: [US3] Modernize Cascade Class - Replace arguments with Rest Parameters
+- [ ] T019: [US3] Remove makerjs Branding from Cascade Comments
+- [ ] T020: [US3] Uncomment and Update Cascade Export Function
+- [ ] T021: [US3] Export $ from Core Index [P]
+- [ ] T022: [US3] Verify Cascade Tests Pass [P]
+
+### Phase 6: Polish & Integration
+
+- [ ] T023: [Polish] Update Documentation with Functional Composition Examples [P]
+- [ ] T024: [Polish] Run Full Test Suite and Performance Benchmarks [P]
 
 ---
 

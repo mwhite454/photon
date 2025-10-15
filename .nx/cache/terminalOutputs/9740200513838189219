@@ -1,4 +1,0 @@
-
-> @photon/playground@1.0.0 build
-> tsc -p . && tsc -p src/worker
-

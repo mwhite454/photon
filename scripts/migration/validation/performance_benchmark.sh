@@ -6,7 +6,7 @@
 set -e
 
 DOCS_DIR="${1:-docs-new}"
-RESULTS_FILE="${2:-performance-benchmark.json}"
+RESULTS_FILE="${2:-reports/migration/performance-benchmark.json}"
 
 echo "🔬 MkDocs Performance Benchmarking"
 echo "==================================="
@@ -135,6 +135,9 @@ fi
 # Generate JSON report
 echo ""
 echo "💾 Generating JSON report..."
+
+# Ensure output directory exists at repo root
+mkdir -p "../../../$(dirname "$RESULTS_FILE")"
 
 cat > "../../../$RESULTS_FILE" << EOF
 {

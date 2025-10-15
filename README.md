@@ -5,25 +5,24 @@ Your compass and straightedge, in JavaScript.
 Create line drawings using familiar constructs from geometry and drafting. Initially designated for CNC and laser cutters, Photon can also help you programmatically draw shapes for any purpose. It runs in both Node.js and web browsers.
 
 2D Export formats: 
-[DXF](https://maker.js.org/docs/api/modules/makerjs.exporter.html#todxf), 
-[SVG](https://maker.js.org/docs/api/modules/makerjs.exporter.html#tosvg),
-[PDF](https://maker.js.org/docs/api/modules/makerjs.exporter.html#topdf),
-[Jscad CAG object](https://maker.js.org/docs/api/modules/makerjs.exporter.html#tojscadcag)
+[DXF](https://mwhite454.github.io/photon/docs/snippets/exporting-dxf/), 
+[SVG](https://mwhite454.github.io/photon/docs/snippets/exporting-svg/),
+[PDF](https://mwhite454.github.io/photon/docs/snippets/exporting-pdf/),
+[OpenJSCAD](https://mwhite454.github.io/photon/docs/snippets/exporting-openjscad/)
 
 3D Export formats:
-[Jscad Script](https://maker.js.org/docs/api/modules/makerjs.exporter.html#tojscadscript),
-[Jscad CSG object](https://maker.js.org/docs/api/modules/makerjs.exporter.html#tojscadcsg),
-[STL](https://maker.js.org/docs/api/modules/makerjs.exporter.html#tojscadstl)
+[OpenJSCAD Script](https://mwhite454.github.io/photon/docs/snippets/exporting-openjscad/),
+[OpenJSCAD CSG](https://mwhite454.github.io/photon/docs/snippets/exporting-openjscad/),
+[STL](https://mwhite454.github.io/photon/docs/snippets/exporting-stl/)
 
-[Demos](https://maker.js.org/demos/) - [Documentation](http://maker.js.org/docs/)
+[Documentation](https://mwhite454.github.io/photon/docs/) · Playground (coming soon)
 
-![Sample animation](https://maker.js.org/images/anim-wheel.gif)
 
 ## Origins
 
 Photon is a modern continuation of Microsoft's Maker.js project. When Microsoft archived the original Maker.js repository, we forked it to ensure this valuable tool continues to evolve and serve the maker community.
 
-**Original Project**: [Microsoft Maker.js](https://github.com/Microsoft/maker.js) (archived)  
+**Original Project**: [Microsoft Maker.js](https://github.com/Microsoft/maker.js) 
 **License**: Apache 2.0  
 **Original Author**: Dan Marshall / Microsoft Corporation
 
@@ -31,72 +30,52 @@ We're grateful to Microsoft and the original contributors for creating and open-
 
 ## Core concepts
 
-* [paths](https://maker.js.org/docs/basic-drawing/#Paths) - The primitive elements of a drawing are lines, arcs, and circles.
-* [models](https://maker.js.org/docs/basic-drawing/#Models) - Groups of paths to compose a shape.
-* [layers](https://maker.js.org/docs/advanced-drawing/#Layers) - Organization of models, such as by color or tool type.
-* [chains](https://maker.js.org/docs/working-with-chains/#content) - A series of lines and arcs that connect end-to-end continuously.
+* [paths](https://mwhite454.github.io/photon/docs/snippets/paths/) - The primitive elements of a drawing are lines, arcs, and circles.
+* [models](https://mwhite454.github.io/photon/docs/snippets/models/) - Groups of paths to compose a shape.
+* [layers](https://mwhite454.github.io/photon/docs/snippets/layers/) - Organization of models, such as by color or tool type.
+* [chains](https://mwhite454.github.io/photon/docs/snippets/chains/) - A series of lines and arcs that connect end-to-end continuously.
 
-Learn more in [the tutorial](https://maker.js.org/docs/basic-drawing/) or [API documentation](https://maker.js.org/docs/api/).
+Learn more in [Getting Started](https://mwhite454.github.io/photon/docs/getting-started/) or the [API reference](https://mwhite454.github.io/photon/docs/api/).
 
 ## Features
 
-* Drawings are a [simple JavaScript object](https://maker.js.org/docs/basic-drawing/#It%27s%20Just%20JSON) which can be serialized / deserialized conventionally with JSON. This also makes a drawing easy to [clone](https://maker.js.org/docs/intermediate-drawing/#Cloning).
+* Drawings are a [simple JavaScript object](https://mwhite454.github.io/photon/docs/snippets/just-json/) which can be serialized / deserialized conventionally with JSON. This also makes a drawing easy to [clone](https://mwhite454.github.io/photon/docs/snippets/cloning/).
 
-* Other people's Models can be required the Node.js way, [modified](https://maker.js.org/docs/intermediate-drawing/#Modifying%20models), and re-exported.
+* Other people's Models can be required the Node.js way, [modified](https://mwhite454.github.io/photon/docs/snippets/modifying-models/), and re-exported.
 
-* Models can be [scaled](https://maker.js.org/docs/intermediate-drawing/#Scaling), [distorted](https://maker.js.org/docs/intermediate-drawing/#Distorting), [measured](https://maker.js.org/docs/api/modules/makerjs.measure.html#modelextents), and [converted to different unit systems](https://maker.js.org/docs/basic-drawing/#Units).
+* Models can be [scaled](https://mwhite454.github.io/photon/docs/snippets/scaling/), [distorted](https://mwhite454.github.io/photon/docs/snippets/distorting/), [measured](https://mwhite454.github.io/photon/docs/snippets/measuring/), and [converted to different unit systems](https://mwhite454.github.io/photon/docs/snippets/units/).
 
-* Paths can be [distorted](https://maker.js.org/docs/api/modules/makerjs.path.html#distort).
+* Paths can be [distorted](https://mwhite454.github.io/photon/docs/snippets/distorting/).
 
-* Models can be [rotated](https://maker.js.org/docs/intermediate-drawing/#Rotating) or [mirrored](https://maker.js.org/docs/intermediate-drawing/#Mirroring).
+* Models can be [rotated](https://mwhite454.github.io/photon/docs/snippets/rotating/) or [mirrored](https://mwhite454.github.io/photon/docs/snippets/mirroring/).
 
-* Find [intersection points or intersection angles](https://maker.js.org/docs/intermediate-drawing/#Intersection) of paths.
+* Find [intersection points or intersection angles](https://mwhite454.github.io/photon/docs/snippets/intersection/) of paths.
 
-* [Traverse a model tree](https://maker.js.org/docs/model-trees/#content) to reason over its children.
+* [Traverse a model tree](https://mwhite454.github.io/photon/docs/snippets/tree/) to reason over its children.
 
-* Detect [chains](https://maker.js.org/docs/api/modules/makerjs.model.html#findchains) formed by paths connecting end to end.
+* Detect [chains](https://mwhite454.github.io/photon/docs/snippets/chains/) formed by paths connecting end to end.
 
-* Get the [points along a path](https://maker.js.org/docs/api/modules/makerjs.path.html#topoints) or along a [chain of paths](https://maker.js.org/docs/api/modules/makerjs.chain.html#topoints).
+* Get the [points along a path](https://mwhite454.github.io/photon/docs/snippets/points/) or along a [chain of paths](https://mwhite454.github.io/photon/docs/snippets/chain-to-points/).
 
-* Easily add a curvature at the joint between any 2 paths, using a [traditional or a dogbone fillet](https://maker.js.org/docs/intermediate-drawing/#Fillets).
+* Easily add a curvature at the joint between any 2 paths, using a [traditional or a dogbone fillet](https://mwhite454.github.io/photon/docs/snippets/fillets/).
 
-* [Combine models](https://maker.js.org/docs/advanced-drawing/#Combining%20with%20Boolean%20operations) with boolean operations to get unions, intersections, or punches.
+* [Combine models](https://mwhite454.github.io/photon/docs/snippets/combining/) with boolean operations to get unions, intersections, or punches.
 
-* [Expand paths](https://maker.js.org/docs/advanced-drawing/#Expanding%20paths) to simulate a stroke thickness, with the option to bevel joints.
+* [Expand paths](https://mwhite454.github.io/photon/docs/snippets/expanding/) to simulate a stroke thickness, with the option to bevel joints.
 
-* [Outline model](https://maker.js.org/docs/advanced-drawing/#Outlining%20a%20model) to create a surrounding outline, with the option to bevel joints.
+* [Outline model](https://mwhite454.github.io/photon/docs/snippets/outlining/) to create a surrounding outline, with the option to bevel joints.
 
-* Layout clones into [rows](http://maker.js.org/docs/api/modules/makerjs.layout.html#clonetorow), [columns](https://maker.js.org/docs/api/modules/makerjs.layout.html#clonetocolumn), [grids](https://maker.js.org/docs/api/modules/makerjs.layout.html#clonetogrid), [bricks](https://maker.js.org/docs/api/modules/makerjs.layout.html#clonetobrick), or [honeycombs](https://maker.js.org/docs/api/modules/makerjs.layout.html#clonetohoneycomb)
+* Layout clones into [repeating layouts](https://mwhite454.github.io/photon/docs/snippets/layout-repeating/), on a [path](https://mwhite454.github.io/photon/docs/snippets/layout-on-path/), or on a [chain](https://mwhite454.github.io/photon/docs/snippets/layout-on-chain/)
 
-#### Built-in models
+#### Playground
 
-* [Belt](https://maker.js.org/playground/?script=Belt)
-* [Bezier Curve](https://maker.js.org/playground/?script=BezierCurve)
-* [Bolt Circle](https://maker.js.org/playground/?script=BoltCircle)
-* [Bolt Rectangle](https://maker.js.org/playground/?script=BoltRectangle)
-* [Connect the dots](https://maker.js.org/playground/?script=ConnectTheDots)
-* [Dogbone](https://maker.js.org/playground/?script=Dogbone)
-* [Dome](https://maker.js.org/playground/?script=Dome)
-* [Ellipse](https://maker.js.org/playground/?script=Ellipse)
-* [Elliptic Arc](https://maker.js.org/playground/?script=EllipticArc)
-* [Holes](https://maker.js.org/playground/?script=Holes)
-* [Oval](https://maker.js.org/playground/?script=Oval)
-* [OvalArc](https://maker.js.org/playground/?script=OvalArc)
-* [Polygon](https://maker.js.org/playground/?script=Polygon)
-* [Rectangle](https://maker.js.org/playground/?script=Rectangle)
-* [Ring](https://maker.js.org/playground/?script=Ring)
-* [RoundRectangle](https://maker.js.org/playground/?script=RoundRectangle)
-* [S curve](https://maker.js.org/playground/?script=SCurve)
-* [Slot](https://maker.js.org/playground/?script=Slot)
-* [Square](https://maker.js.org/playground/?script=Square)
-* [Star](https://maker.js.org/playground/?script=Star)
-* [Text](https://maker.js.org/playground/?script=Text)
+Playground (coming soon) — browse examples in the docs under [Snippets](https://mwhite454.github.io/photon/docs/)
 
 #### Import formats
 
-* [Fonts](https://maker.js.org/playground/?script=Text) (Requires [opentype.js](https://opentype.js.org/))
-* [SVG Path Data](https://maker.js.org/docs/importing/#SVG+path+data)
-* [SVG Points](https://maker.js.org/docs/importing/#SVG+points)
+* [Fonts and Text](https://mwhite454.github.io/photon/docs/snippets/fonts-and-text/) (Requires [opentype.js](https://opentype.js.org/))
+* [SVG Path Data](https://mwhite454.github.io/photon/docs/snippets/importing-svg-path-data/)
+* [SVG Points](https://mwhite454.github.io/photon/docs/snippets/importing-svg-points/)
 
 ## Getting Started
 
@@ -105,7 +84,7 @@ Learn more in [the tutorial](https://maker.js.org/docs/basic-drawing/) or [API d
 Install Photon via npm:
 
 ```bash
-npm install @photon/core
+npm install @7syllable/photon-core
 ```
 
 ### Usage in Node.js
@@ -113,7 +92,7 @@ npm install @photon/core
 In ESM code (recommended):
 
 ```js
-import * as photon from '@photon/core';
+import * as photon from '@7syllable/photon-core';
 
 // Create a simple rectangle
 const rect = new photon.models.Rectangle(100, 50);
@@ -125,7 +104,7 @@ const svg = photon.exporter.toSVG(rect);
 In CommonJS code:
 
 ```js
-const photon = require('@photon/core');
+const photon = require('@7syllable/photon-core');
 
 // Create a simple rectangle
 const rect = new photon.models.Rectangle(100, 50);
@@ -133,49 +112,38 @@ const rect = new photon.models.Rectangle(100, 50);
 
 ### Usage in Web Browser
 
-Use the ES module build (recommended):
+Photon does not provide a public CDN build yet. Use a bundler (Vite, Webpack, Parcel) to import from npm:
 
-```html
-<script type="module">
-  import * as photon from "https://cdn.jsdelivr.net/npm/@photon/core@latest/dist/photon.es.js";
-  
-  // Create a simple star
-  const star = new photon.models.Star(5, 50, 25);
-  const svg = photon.exporter.toSVG(star);
-  document.body.innerHTML = svg;
-</script>
+```js
+// main.ts / main.js (bundled by Vite/Webpack)
+import * as photon from '@7syllable/photon-core';
+
+const star = new photon.models.Star(5, 50, 25);
+document.body.innerHTML = photon.exporter.toSVG(star);
 ```
 
-Or use the UMD bundle for a global `Photon` variable:
+Alternatively, you can build a local UMD/ESM bundle and serve it from your app's public folder.
 
-```html
-<script src="https://cdn.jsdelivr.net/npm/@photon/core@latest/dist/photon.umd.js"></script>
-<script>
-  const { models, paths, exporter } = window.Photon;
-  const circle = new models.Circle([0, 0], 50);
-</script>
-```
+### Optional dependencies
 
-### CDN Links
+Some models rely on optional libraries:
 
-- ES module: `https://cdn.jsdelivr.net/npm/@photon/core@latest/dist/photon.es.js`
-- UMD global: `https://cdn.jsdelivr.net/npm/@photon/core@latest/dist/photon.umd.js`
+- Bezier support for `BezierCurve` model: `bezier-js`
+- Font support for `Text` model: `opentype.js`
 
-Optional dependencies:
+Install via npm and let your bundler include them as needed:
 
-```html
-<!-- Bezier support (required for BezierCurve model) -->
-<script src="https://cdn.jsdelivr.net/npm/bezier-js@2/bezier.js"></script>
-
-<!-- Font support for Text model -->
-<script src="https://cdn.jsdelivr.net/npm/opentype.js@0/dist/opentype.js"></script>
+```bash
+npm install bezier-js opentype.js
 ```
 
 ### Try it now
 
-Visit the [Photon Playground](https://maker.js.org/playground/) to edit and run JavaScript from your browser.
+Playground (coming soon). In the meantime, try code from the docs:
 
-Each of the [demos](https://maker.js.org/demos/#content) will also open in the playground so that you can explore and modify their code.
+* [Try It Now](https://mwhite454.github.io/photon/docs/snippets/try-it-now/)
+* [Getting started for the browser](https://mwhite454.github.io/photon/docs/snippets/getting-started-browser/)
+* [Getting started for Node.js](https://mwhite454.github.io/photon/docs/snippets/getting-started-node/)
 
 ## Migrating from Maker.js
 
@@ -218,15 +186,50 @@ All APIs, models, and functionality remain the same. The core library is fully c
 There are many ways to contribute to Photon:
 * [★ Star Photon on GitHub](https://github.com/mwhite454/photon)
 * Submit bugs and feature requests [on GitHub](https://github.com/mwhite454/photon/issues)
-* Create a demo for the [gallery](http://maker.js.org/demos/#content)
-* Create lessons or videos for the [documentation](http://maker.js.org/docs/#content)
+* Improve the [documentation](https://mwhite454.github.io/photon/docs/)
 * Enhance the [website](https://github.com/mwhite454/photon/tree/gh-pages)
-* Add features to the [Playground app](https://maker.js.org/playground/)
+* Add features to the Playground app (coming soon)
 * Create a new Photon app, and we will link to it here
 * Find TODOs in the [core source code](https://github.com/mwhite454/photon/tree/main/packages/photon/src)
 * Create unit tests for the core
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+## Documentation
+
+The Photon documentation is built with [MkDocs](https://www.mkdocs.org/) using the [shadcn theme](https://mkdocs-shadcn.namuan.tech/).
+
+### Building the documentation
+
+1. **Install Python dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. **Build the documentation**:
+   ```bash
+   cd docs
+   mkdocs build
+   ```
+   
+   The built site will be in `docs/site/`.
+
+3. **Serve the documentation locally**:
+   ```bash
+   cd docs
+   mkdocs serve
+   ```
+   
+   Visit [http://localhost:8000](http://localhost:8000) to view the docs. The site will auto-reload when you make changes.
+
+### Deploy to GitHub Pages
+
+```bash
+cd docs
+mkdocs gh-deploy
+```
+
+This builds the documentation and pushes it to the `gh-pages` branch.
 
 ### Credits
 

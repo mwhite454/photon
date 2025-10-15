@@ -32,18 +32,22 @@ class ExampleValidator:
     def validate_code(self, code: str) -> Dict:
         """Execute code in Node.js"""
         try:
-            with tempfile.NamedTemporaryFile(mode='w', suffix='.mjs', delete=False) as f:
-                f.write(code)
-                temp_file = f.name
+            # Create temp file in project directory to access node_modules
+            temp_dir = Path.cwd() / '.temp_validation'
+            temp_dir.mkdir(exist_ok=True)
+            
+            temp_file = temp_dir / f'test_{os.getpid()}.mjs'
+            temp_file.write_text(code)
             
             result = subprocess.run(
-                ['node', temp_file],
+                ['node', str(temp_file)],
                 capture_output=True,
                 text=True,
-                timeout=5
+                timeout=5,
+                cwd=Path.cwd()
             )
             
-            os.unlink(temp_file)
+            temp_file.unlink()
             
             if result.returncode == 0:
                 self.passed += 1
@@ -92,13 +96,20 @@ class ExampleValidator:
             'files': []
         }
         
-        for file_path in md_files:
-            file_result = self.process_file(file_path)
-            results['files'].append(file_result)
-            print(f"✓ {file_result['file']}: {file_result['total_blocks']} blocks")
-        
-        results['passed'] = self.passed
-        results['failed'] = self.failed
+        try:
+            for file_path in md_files:
+                file_result = self.process_file(file_path)
+                results['files'].append(file_result)
+                print(f"✓ {file_result['file']}: {file_result['total_blocks']} blocks")
+            
+            results['passed'] = self.passed
+            results['failed'] = self.failed
+        finally:
+            # Clean up temp directory
+            temp_dir = Path.cwd() / '.temp_validation'
+            if temp_dir.exists():
+                import shutil
+                shutil.rmtree(temp_dir)
         
         return results
 

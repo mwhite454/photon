@@ -1,5 +1,5 @@
 {
-  "name": "@photon/core",
+  "name": "@7syllable/photon-core",
   "version": "0.18.1",
   "description": "Photon is a modern JavaScript library for creating and sharing modular line drawings for CNC and laser cutters. Resurrected from Microsoft's Maker.js.",
   "type": "module",
@@ -125,6 +125,10 @@
   "files": [
     "LICENSE",
     "README.md",
-    "dist/"
+    "dist/photon.es.js",
+    "dist/photon.es.js.map",
+    "dist/photon.umd.js",
+    "dist/photon.umd.js.map",
+    "dist/types/"
   ]
 }

@@ -8,6 +8,7 @@
     "doc": "docs"
   },
   "devDependencies": {
+    "@7syllable/photon-core": "^0.18.1",
     "@playwright/test": "latest",
     "@types/mocha": "^10.0.10",
     "browserify": "^17.0.0",

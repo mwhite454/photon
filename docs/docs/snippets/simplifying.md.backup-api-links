@@ -1,0 +1,63 @@
+---
+ai_summary: If you Play the wireframe example above, and click on 'show path names'
+  you will see that many lines have been created as a result of the expansion.
+category: General
+description: If you Play the wireframe example above, and click on 'show path names'
+  you will see that many lines have been created as a result of the expansion.
+difficulty: intermediate
+keywords:
+- export
+- general
+- javascript
+- models
+- paths
+- simplifying
+- svg
+primary_topic: simplification
+source: docs/_snippets/simplifying.html
+tags:
+- simplification
+- general
+- intermediate
+title: Simplifying
+---
+
+!!! warning "Known Issue - API Not Yet Available"
+    This page uses `model.expandPaths()` which is **not yet available** in `@7syllable/photon-core@0.18.1`. 
+    
+    While `model.simplify()` exists in the package, the example on this page cannot execute because it depends on `expandPaths()`. 
+    
+    **Status**: See [GitHub Issue #3](https://github.com/mwhite454/photon/issues/3) for updates.
+
+If you Play the wireframe example above, and click on 'show path names' you will see that many lines have been created as a result of the expansion.
+This is an artefact of all of the boolean operations with **combine**. The outmost chain for example, should be able to represented with only four lines.
+To remedy this, there is [makerjs.model.simplify](/docs/api/modules/makerjs.model.md#simplify) - however there is an important caveat:
+**your model must be originated before you can call the simplify function.**
+This is to make sure that all of the segmented paths share the same coordinate space.
+
+```javascript
+import { exporter, model, models, point } from '@7syllable/photon-core';
+//expand a truss wireframe
+function trussWireframe(w, h) {
+this.models = {
+frame: new models.ConnectTheDots(true, [ [0, h], [w, 0], [0, 0] ])
+};
+const angled = this.models.frame.paths.ShapeLine1;
+const bracepoints = [
+[0, 0],
+point.middle(angled, 1/3),
+[w/2 , 0],
+point.middle(angled, 2/3)
+];
+this.models.brace = new models.ConnectTheDots(false, bracepoints);
+}
+const truss = new trussWireframe(200, 50);
+const expansion = model.expandPaths(truss, 3, 1);
+//call originate before calling simplify:
+model.originate(expansion);
+model.simplify(expansion);
+const svg = exporter.toSVG(expansion);
+document.write(svg);
+```
+
+Be sure to play this example, and click 'show path names' for comparison.

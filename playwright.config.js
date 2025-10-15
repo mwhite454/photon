@@ -16,7 +16,7 @@ export default defineConfig({
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: [
     ['html'],
-    ['json', { outputFile: 'test-results.json' }]
+    ['json', { outputFile: 'reports/tests/test-results.json' }]
   ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {

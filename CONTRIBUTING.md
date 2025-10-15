@@ -51,6 +51,42 @@ This project maintains a welcoming and inclusive environment for all contributor
 
 See the [build documentation](https://github.com/mwhite454/photon/wiki/Contributors-Build) for detailed setup instructions.
 
+### Contributing to Documentation
+
+The Photon documentation is built with MkDocs and hosted on GitHub Pages.
+
+1. **Install documentation dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. **Edit documentation files** in `docs/docs/`:
+   * Documentation is written in Markdown
+   * Code examples use ES6 imports from `@7syllable/photon-core`
+   * Follow existing formatting and structure
+
+3. **Preview your changes locally**:
+   ```bash
+   cd docs
+   mkdocs serve
+   ```
+   Visit [http://localhost:8000](http://localhost:8000) - changes auto-reload.
+
+4. **Build to verify** (optional):
+   ```bash
+   cd docs
+   mkdocs build
+   ```
+
+5. **Submit your PR** with documentation changes
+
+**Documentation Guidelines**:
+* Use clear, concise language
+* Include code examples for all features
+* Use proper markdown formatting
+* Add frontmatter (title, description, keywords) to new pages
+* Test code examples to ensure they work
+
 ### Testing
 
 We need more unit tests! Contributions that add test coverage are especially welcome.
@@ -58,6 +94,7 @@ We need more unit tests! Contributions that add test coverage are especially wel
 * Run tests: `npm test`
 * Run build: `npm run build`
 * Start playground: `npm start`
+* Serve docs: `cd docs && mkdocs serve`
 
 ### Pull Request Guidelines
 

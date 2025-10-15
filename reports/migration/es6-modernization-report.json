@@ -1,0 +1,6848 @@
+{
+  "timestamp": "2025-10-14T12:11:12.873676",
+  "docs_directory": "docs-new/docs",
+  "dry_run": false,
+  "total_files_scanned": 579,
+  "files_modernized": 57,
+  "total_modernizations": 543,
+  "files": [
+    {
+      "file": "index.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/distorting.md",
+      "status": "modernized",
+      "code_blocks": 2,
+      "modernizations": 10,
+      "changes": [
+        {
+          "type": "var_to_const",
+          "original": "var star =",
+          "replacement": "const star =",
+          "variable": "star"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var wideStar =",
+          "replacement": "const wideStar =",
+          "variable": "wideStar"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var circle =",
+          "replacement": "const circle =",
+          "variable": "circle"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var line =",
+          "replacement": "const line =",
+          "variable": "line"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var distortedLine =",
+          "replacement": "const distortedLine =",
+          "variable": "distortedLine"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var ellipse =",
+          "replacement": "const ellipse =",
+          "variable": "ellipse"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        }
+      ]
+    },
+    {
+      "file": "snippets/simplifying.md",
+      "status": "modernized",
+      "code_blocks": 1,
+      "modernizations": 6,
+      "changes": [
+        {
+          "type": "var_to_const",
+          "original": "var m =",
+          "replacement": "const m =",
+          "variable": "m"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var angled =",
+          "replacement": "const angled =",
+          "variable": "angled"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var bracepoints =",
+          "replacement": "const bracepoints =",
+          "variable": "bracepoints"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var truss =",
+          "replacement": "const truss =",
+          "variable": "truss"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var expansion =",
+          "replacement": "const expansion =",
+          "variable": "expansion"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        }
+      ]
+    },
+    {
+      "file": "snippets/$-function.md",
+      "status": "modernized",
+      "code_blocks": 2,
+      "modernizations": 5,
+      "changes": [
+        {
+          "type": "var_to_const",
+          "original": "var starburst =",
+          "replacement": "const starburst =",
+          "variable": "starburst"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var square =",
+          "replacement": "const square =",
+          "variable": "square"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var drawing =",
+          "replacement": "const drawing =",
+          "variable": "drawing"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        }
+      ]
+    },
+    {
+      "file": "snippets/svg-styling.md",
+      "status": "modernized",
+      "code_blocks": 1,
+      "modernizations": 2,
+      "changes": [
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        }
+      ]
+    },
+    {
+      "file": "snippets/captions.md",
+      "status": "modernized",
+      "code_blocks": 3,
+      "modernizations": 6,
+      "changes": [
+        {
+          "type": "var_to_const",
+          "original": "var square =",
+          "replacement": "const square =",
+          "variable": "square"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var square =",
+          "replacement": "const square =",
+          "variable": "square"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var square =",
+          "replacement": "const square =",
+          "variable": "square"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        }
+      ]
+    },
+    {
+      "file": "snippets/template.md",
+      "status": "no_changes",
+      "code_blocks": 1,
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/aliasing.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/dogbones.md",
+      "status": "modernized",
+      "code_blocks": 3,
+      "modernizations": 7,
+      "changes": [
+        {
+          "type": "var_to_const",
+          "original": "var dogbones =",
+          "replacement": "const dogbones =",
+          "variable": "dogbones"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var dogbones =",
+          "replacement": "const dogbones =",
+          "variable": "dogbones"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var arc1 =",
+          "replacement": "const arc1 =",
+          "variable": "arc1"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        }
+      ]
+    },
+    {
+      "file": "snippets/path-constructors.md",
+      "status": "modernized",
+      "code_blocks": 3,
+      "modernizations": 7,
+      "changes": [
+        {
+          "type": "var_to_const",
+          "original": "var line =",
+          "replacement": "const line =",
+          "variable": "line"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var circle =",
+          "replacement": "const circle =",
+          "variable": "circle"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var arc =",
+          "replacement": "const arc =",
+          "variable": "arc"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var line =",
+          "replacement": "const line =",
+          "variable": "line"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        }
+      ]
+    },
+    {
+      "file": "snippets/exporting-dxf.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/basic-rendering-in-svg.md",
+      "status": "modernized",
+      "code_blocks": 2,
+      "modernizations": 6,
+      "changes": [
+        {
+          "type": "var_to_const",
+          "original": "var line =",
+          "replacement": "const line =",
+          "variable": "line"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var circle =",
+          "replacement": "const circle =",
+          "variable": "circle"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var pathArray =",
+          "replacement": "const pathArray =",
+          "variable": "pathArray"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var line =",
+          "replacement": "const line =",
+          "variable": "line"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        }
+      ]
+    },
+    {
+      "file": "snippets/outlining.md",
+      "status": "modernized",
+      "code_blocks": 1,
+      "modernizations": 5,
+      "changes": [
+        {
+          "type": "var_to_const",
+          "original": "var m =",
+          "replacement": "const m =",
+          "variable": "m"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var star =",
+          "replacement": "const star =",
+          "variable": "star"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var outline =",
+          "replacement": "const outline =",
+          "variable": "outline"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        }
+      ]
+    },
+    {
+      "file": "snippets/layout-on-path.md",
+      "status": "modernized",
+      "code_blocks": 6,
+      "modernizations": 24,
+      "changes": [
+        {
+          "type": "var_to_const",
+          "original": "var square =",
+          "replacement": "const square =",
+          "variable": "square"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var row =",
+          "replacement": "const row =",
+          "variable": "row"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var arc =",
+          "replacement": "const arc =",
+          "variable": "arc"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var square =",
+          "replacement": "const square =",
+          "variable": "square"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var row =",
+          "replacement": "const row =",
+          "variable": "row"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var arc =",
+          "replacement": "const arc =",
+          "variable": "arc"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var square =",
+          "replacement": "const square =",
+          "variable": "square"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var row =",
+          "replacement": "const row =",
+          "variable": "row"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var arc =",
+          "replacement": "const arc =",
+          "variable": "arc"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var square =",
+          "replacement": "const square =",
+          "variable": "square"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var row =",
+          "replacement": "const row =",
+          "variable": "row"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var arc =",
+          "replacement": "const arc =",
+          "variable": "arc"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var square =",
+          "replacement": "const square =",
+          "variable": "square"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var row =",
+          "replacement": "const row =",
+          "variable": "row"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var arc =",
+          "replacement": "const arc =",
+          "variable": "arc"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var square =",
+          "replacement": "const square =",
+          "variable": "square"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var row =",
+          "replacement": "const row =",
+          "variable": "row"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var arc =",
+          "replacement": "const arc =",
+          "variable": "arc"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        }
+      ]
+    },
+    {
+      "file": "snippets/fillets.md",
+      "status": "modernized",
+      "code_blocks": 3,
+      "modernizations": 9,
+      "changes": [
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var arc2 =",
+          "replacement": "const arc2 =",
+          "variable": "arc2"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var arc =",
+          "replacement": "const arc =",
+          "variable": "arc"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var arc =",
+          "replacement": "const arc =",
+          "variable": "arc"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        }
+      ]
+    },
+    {
+      "file": "snippets/built-in-models.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/fonts-and-text.md",
+      "status": "modernized",
+      "code_blocks": 2,
+      "modernizations": 6,
+      "changes": [
+        {
+          "type": "var_to_const",
+          "original": "var opentype =",
+          "replacement": "const opentype =",
+          "variable": "opentype"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var font =",
+          "replacement": "const font =",
+          "variable": "font"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var textModel =",
+          "replacement": "const textModel =",
+          "variable": "textModel"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var textModel =",
+          "replacement": "const textModel =",
+          "variable": "textModel"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "function_to_arrow",
+          "original": "function (err, font) {\nif (err) {\ndocument.getElementById('render-text').innerText = 'the font could not be loaded :(';\n}",
+          "replacement": "(err, font) => {\nif (err) {\ndocument.getElementById('render-text').innerText = 'the font could not be loaded :(';\n}"
+        }
+      ]
+    },
+    {
+      "file": "snippets/getting-started-browser.md",
+      "status": "no_changes",
+      "code_blocks": 2,
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/exporting-svg.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/expanding.md",
+      "status": "modernized",
+      "code_blocks": 5,
+      "modernizations": 19,
+      "changes": [
+        {
+          "type": "var_to_const",
+          "original": "var m =",
+          "replacement": "const m =",
+          "variable": "m"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var star =",
+          "replacement": "const star =",
+          "variable": "star"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var rounded =",
+          "replacement": "const rounded =",
+          "variable": "rounded"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var pointed =",
+          "replacement": "const pointed =",
+          "variable": "pointed"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var beveled =",
+          "replacement": "const beveled =",
+          "variable": "beveled"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var m =",
+          "replacement": "const m =",
+          "variable": "m"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var star =",
+          "replacement": "const star =",
+          "variable": "star"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var expanded =",
+          "replacement": "const expanded =",
+          "variable": "expanded"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var temp =",
+          "replacement": "const temp =",
+          "variable": "temp"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        }
+      ]
+    },
+    {
+      "file": "snippets/frequently-used-functions.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/breaking.md",
+      "status": "modernized",
+      "code_blocks": 1,
+      "modernizations": 3,
+      "changes": [
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var arc2 =",
+          "replacement": "const arc2 =",
+          "variable": "arc2"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        }
+      ]
+    },
+    {
+      "file": "snippets/try-it-now.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/routes.md",
+      "status": "modernized",
+      "code_blocks": 5,
+      "modernizations": 13,
+      "changes": [
+        {
+          "type": "var_to_const",
+          "original": "var plate =",
+          "replacement": "const plate =",
+          "variable": "plate"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var plate2 =",
+          "replacement": "const plate2 =",
+          "variable": "plate2"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var route =",
+          "replacement": "const route =",
+          "variable": "route"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var parentRoute =",
+          "replacement": "const parentRoute =",
+          "variable": "parentRoute"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var bolts =",
+          "replacement": "const bolts =",
+          "variable": "bolts"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var plates =",
+          "replacement": "const plates =",
+          "variable": "plates"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var plate =",
+          "replacement": "const plate =",
+          "variable": "plate"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var plate2 =",
+          "replacement": "const plate2 =",
+          "variable": "plate2"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var route =",
+          "replacement": "const route =",
+          "variable": "route"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var plates =",
+          "replacement": "const plates =",
+          "variable": "plates"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var route =",
+          "replacement": "const route =",
+          "variable": "route"
+        }
+      ]
+    },
+    {
+      "file": "snippets/exporting-stl.md",
+      "status": "modernized",
+      "code_blocks": 2,
+      "modernizations": 2,
+      "changes": [
+        {
+          "type": "var_to_const",
+          "original": "var fs =",
+          "replacement": "const fs =",
+          "variable": "fs"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        }
+      ]
+    },
+    {
+      "file": "snippets/chain-links.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/layout-repeating.md",
+      "status": "modernized",
+      "code_blocks": 6,
+      "modernizations": 18,
+      "changes": [
+        {
+          "type": "var_to_const",
+          "original": "var m =",
+          "replacement": "const m =",
+          "variable": "m"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var rect =",
+          "replacement": "const rect =",
+          "variable": "rect"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var spinner =",
+          "replacement": "const spinner =",
+          "variable": "spinner"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var m =",
+          "replacement": "const m =",
+          "variable": "m"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var star =",
+          "replacement": "const star =",
+          "variable": "star"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var pattern =",
+          "replacement": "const pattern =",
+          "variable": "pattern"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var m =",
+          "replacement": "const m =",
+          "variable": "m"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var brick =",
+          "replacement": "const brick =",
+          "variable": "brick"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var wall =",
+          "replacement": "const wall =",
+          "variable": "wall"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var m =",
+          "replacement": "const m =",
+          "variable": "m"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var roundSquare =",
+          "replacement": "const roundSquare =",
+          "variable": "roundSquare"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var grid =",
+          "replacement": "const grid =",
+          "variable": "grid"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var m =",
+          "replacement": "const m =",
+          "variable": "m"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var oval =",
+          "replacement": "const oval =",
+          "variable": "oval"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var grill =",
+          "replacement": "const grill =",
+          "variable": "grill"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var m =",
+          "replacement": "const m =",
+          "variable": "m"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var dogbone =",
+          "replacement": "const dogbone =",
+          "variable": "dogbone"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var grooves =",
+          "replacement": "const grooves =",
+          "variable": "grooves"
+        }
+      ]
+    },
+    {
+      "file": "snippets/zeroing-and-centering.md",
+      "status": "modernized",
+      "code_blocks": 2,
+      "modernizations": 5,
+      "changes": [
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var shortcut =",
+          "replacement": "const shortcut =",
+          "variable": "shortcut"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        }
+      ]
+    },
+    {
+      "file": "snippets/chain-theory.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/originating.md",
+      "status": "modernized",
+      "code_blocks": 2,
+      "modernizations": 8,
+      "changes": [
+        {
+          "type": "var_to_const",
+          "original": "var box1 =",
+          "replacement": "const box1 =",
+          "variable": "box1"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var box2 =",
+          "replacement": "const box2 =",
+          "variable": "box2"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var box1 =",
+          "replacement": "const box1 =",
+          "variable": "box1"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var box2 =",
+          "replacement": "const box2 =",
+          "variable": "box2"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        }
+      ]
+    },
+    {
+      "file": "snippets/importing-svg-points.md",
+      "status": "modernized",
+      "code_blocks": 1,
+      "modernizations": 3,
+      "changes": [
+        {
+          "type": "var_to_const",
+          "original": "var points =",
+          "replacement": "const points =",
+          "variable": "points"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var closed =",
+          "replacement": "const closed =",
+          "variable": "closed"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        }
+      ]
+    },
+    {
+      "file": "snippets/bezier-curves.md",
+      "status": "modernized",
+      "code_blocks": 2,
+      "modernizations": 12,
+      "changes": [
+        {
+          "type": "var_to_const",
+          "original": "var m =",
+          "replacement": "const m =",
+          "variable": "m"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var points =",
+          "replacement": "const points =",
+          "variable": "points"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var curve1 =",
+          "replacement": "const curve1 =",
+          "variable": "curve1"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var curve2 =",
+          "replacement": "const curve2 =",
+          "variable": "curve2"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var m =",
+          "replacement": "const m =",
+          "variable": "m"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var points =",
+          "replacement": "const points =",
+          "variable": "points"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var curve1 =",
+          "replacement": "const curve1 =",
+          "variable": "curve1"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var curve2 =",
+          "replacement": "const curve2 =",
+          "variable": "curve2"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        }
+      ]
+    },
+    {
+      "file": "snippets/chain-order.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/modeling.md",
+      "status": "modernized",
+      "code_blocks": 4,
+      "modernizations": 21,
+      "changes": [
+        {
+          "type": "var_to_const",
+          "original": "var tx =",
+          "replacement": "const tx =",
+          "variable": "tx"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var ty =",
+          "replacement": "const ty =",
+          "variable": "ty"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var bolts =",
+          "replacement": "const bolts =",
+          "variable": "bolts"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var board =",
+          "replacement": "const board =",
+          "variable": "board"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var truck1 =",
+          "replacement": "const truck1 =",
+          "variable": "truck1"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var truck2 =",
+          "replacement": "const truck2 =",
+          "variable": "truck2"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var outer =",
+          "replacement": "const outer =",
+          "variable": "outer"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var inner =",
+          "replacement": "const inner =",
+          "variable": "inner"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var buttonhole =",
+          "replacement": "const buttonhole =",
+          "variable": "buttonhole"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var bolts =",
+          "replacement": "const bolts =",
+          "variable": "bolts"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var tabletFaceMount =",
+          "replacement": "const tabletFaceMount =",
+          "variable": "tabletFaceMount"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var points =",
+          "replacement": "const points =",
+          "variable": "points"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var house =",
+          "replacement": "const house =",
+          "variable": "house"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var window1 =",
+          "replacement": "const window1 =",
+          "variable": "window1"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var window2 =",
+          "replacement": "const window2 =",
+          "variable": "window2"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var houseWithWindows =",
+          "replacement": "const houseWithWindows =",
+          "variable": "houseWithWindows"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        }
+      ]
+    },
+    {
+      "file": "snippets/intersection.md",
+      "status": "modernized",
+      "code_blocks": 3,
+      "modernizations": 18,
+      "changes": [
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var int =",
+          "replacement": "const int =",
+          "variable": "int"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var id =",
+          "replacement": "const id =",
+          "variable": "id"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "function_to_arrow",
+          "original": "function(p, i) {\nconst id = JSON.stringify(makerjs.point.rounded(p, 0.01)) + ' arc1 at ' + makerjs.round(int.path2Angles[i], .01);\nmodel.paths[id] = new makerjs.paths.Circle(p, 1);\n}",
+          "replacement": "(p, i) => {\nconst id = JSON.stringify(makerjs.point.rounded(p, 0.01)) + ' arc1 at ' + makerjs.round(int.path2Angles[i], .01);\nmodel.paths[id] = new makerjs.paths.Circle(p, 1);\n}"
+        },
+        {
+          "type": "concat_to_template",
+          "original": "' arc1 at ' + makerjs",
+          "replacement": "` arc1 at ${makerjs}`"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var int =",
+          "replacement": "const int =",
+          "variable": "int"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var id =",
+          "replacement": "const id =",
+          "variable": "id"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "function_to_arrow",
+          "original": "function(p, i) {\nconst id = JSON.stringify(makerjs.point.rounded(p, 0.01)) + ' intersects circle1 at ' + makerjs.round(int.path1Angles[i], .01) + ' circle2 at ' + makerjs.round(int.path2Angles[i], .01);\nmodel.paths[id] = new makerjs.paths.Circle(p, 1);\n}",
+          "replacement": "(p, i) => {\nconst id = JSON.stringify(makerjs.point.rounded(p, 0.01)) + ' intersects circle1 at ' + makerjs.round(int.path1Angles[i], .01) + ' circle2 at ' + makerjs.round(int.path2Angles[i], .01);\nmodel.paths[id] = new makerjs.paths.Circle(p, 1);\n}"
+        },
+        {
+          "type": "concat_to_template",
+          "original": "' intersects circle1 at ' + makerjs",
+          "replacement": "` intersects circle1 at ${makerjs}`"
+        },
+        {
+          "type": "concat_to_template",
+          "original": "' circle2 at ' + makerjs",
+          "replacement": "` circle2 at ${makerjs}`"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var int =",
+          "replacement": "const int =",
+          "variable": "int"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var p =",
+          "replacement": "const p =",
+          "variable": "p"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var id =",
+          "replacement": "const id =",
+          "variable": "id"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        }
+      ]
+    },
+    {
+      "file": "snippets/layers.md",
+      "status": "modernized",
+      "code_blocks": 2,
+      "modernizations": 4,
+      "changes": [
+        {
+          "type": "var_to_const",
+          "original": "var roundRect =",
+          "replacement": "const roundRect =",
+          "variable": "roundRect"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var roundRect =",
+          "replacement": "const roundRect =",
+          "variable": "roundRect"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        }
+      ]
+    },
+    {
+      "file": "snippets/importing-svg-path-data.md",
+      "status": "modernized",
+      "code_blocks": 1,
+      "modernizations": 2,
+      "changes": [
+        {
+          "type": "var_to_const",
+          "original": "var pathData =",
+          "replacement": "const pathData =",
+          "variable": "pathData"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        }
+      ]
+    },
+    {
+      "file": "snippets/units.md",
+      "status": "modernized",
+      "code_blocks": 1,
+      "modernizations": 7,
+      "changes": [
+        {
+          "type": "var_to_const",
+          "original": "var tx =",
+          "replacement": "const tx =",
+          "variable": "tx"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var ty =",
+          "replacement": "const ty =",
+          "variable": "ty"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var bolts =",
+          "replacement": "const bolts =",
+          "variable": "bolts"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var board =",
+          "replacement": "const board =",
+          "variable": "board"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var truck1 =",
+          "replacement": "const truck1 =",
+          "variable": "truck1"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var truck2 =",
+          "replacement": "const truck2 =",
+          "variable": "truck2"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        }
+      ]
+    },
+    {
+      "file": "snippets/moving.md",
+      "status": "modernized",
+      "code_blocks": 3,
+      "modernizations": 6,
+      "changes": [
+        {
+          "type": "var_to_const",
+          "original": "var squares =",
+          "replacement": "const squares =",
+          "variable": "squares"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var squares =",
+          "replacement": "const squares =",
+          "variable": "squares"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var squares =",
+          "replacement": "const squares =",
+          "variable": "squares"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        }
+      ]
+    },
+    {
+      "file": "snippets/points.md",
+      "status": "modernized",
+      "code_blocks": 1,
+      "modernizations": 1,
+      "changes": [
+        {
+          "type": "var_to_const",
+          "original": "var p =",
+          "replacement": "const p =",
+          "variable": "p"
+        }
+      ]
+    },
+    {
+      "file": "snippets/chain-to-new-model.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/exporting-openjscad.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/paths.md",
+      "status": "modernized",
+      "code_blocks": 3,
+      "modernizations": 3,
+      "changes": [
+        {
+          "type": "var_to_const",
+          "original": "var arc =",
+          "replacement": "const arc =",
+          "variable": "arc"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var circle =",
+          "replacement": "const circle =",
+          "variable": "circle"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var line =",
+          "replacement": "const line =",
+          "variable": "line"
+        }
+      ]
+    },
+    {
+      "file": "snippets/open-vs-closed-geometry.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/models.md",
+      "status": "modernized",
+      "code_blocks": 4,
+      "modernizations": 21,
+      "changes": [
+        {
+          "type": "var_to_const",
+          "original": "var line =",
+          "replacement": "const line =",
+          "variable": "line"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var circle =",
+          "replacement": "const circle =",
+          "variable": "circle"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var pathObject =",
+          "replacement": "const pathObject =",
+          "variable": "pathObject"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var model1 =",
+          "replacement": "const model1 =",
+          "variable": "model1"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var model2 =",
+          "replacement": "const model2 =",
+          "variable": "model2"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var line =",
+          "replacement": "const line =",
+          "variable": "line"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var circle =",
+          "replacement": "const circle =",
+          "variable": "circle"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var pathObject =",
+          "replacement": "const pathObject =",
+          "variable": "pathObject"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var line =",
+          "replacement": "const line =",
+          "variable": "line"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var circle =",
+          "replacement": "const circle =",
+          "variable": "circle"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var pathObject =",
+          "replacement": "const pathObject =",
+          "variable": "pathObject"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var line =",
+          "replacement": "const line =",
+          "variable": "line"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var circle =",
+          "replacement": "const circle =",
+          "variable": "circle"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var pathObject =",
+          "replacement": "const pathObject =",
+          "variable": "pathObject"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        }
+      ]
+    },
+    {
+      "file": "snippets/wireframe.md",
+      "status": "modernized",
+      "code_blocks": 2,
+      "modernizations": 11,
+      "changes": [
+        {
+          "type": "var_to_const",
+          "original": "var m =",
+          "replacement": "const m =",
+          "variable": "m"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var angled =",
+          "replacement": "const angled =",
+          "variable": "angled"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var bracepoints =",
+          "replacement": "const bracepoints =",
+          "variable": "bracepoints"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var truss =",
+          "replacement": "const truss =",
+          "variable": "truss"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var expansion =",
+          "replacement": "const expansion =",
+          "variable": "expansion"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var m =",
+          "replacement": "const m =",
+          "variable": "m"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var angled =",
+          "replacement": "const angled =",
+          "variable": "angled"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var bracepoints =",
+          "replacement": "const bracepoints =",
+          "variable": "bracepoints"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var truss =",
+          "replacement": "const truss =",
+          "variable": "truss"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        }
+      ]
+    },
+    {
+      "file": "snippets/scaling.md",
+      "status": "modernized",
+      "code_blocks": 2,
+      "modernizations": 5,
+      "changes": [
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var arc1 =",
+          "replacement": "const arc1 =",
+          "variable": "arc1"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var arc2 =",
+          "replacement": "const arc2 =",
+          "variable": "arc2"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        }
+      ]
+    },
+    {
+      "file": "snippets/exporting-svg-path-data.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/modifying-models.md",
+      "status": "modernized",
+      "code_blocks": 7,
+      "modernizations": 23,
+      "changes": [
+        {
+          "type": "var_to_const",
+          "original": "var ovalH =",
+          "replacement": "const ovalH =",
+          "variable": "ovalH"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var ovalV =",
+          "replacement": "const ovalV =",
+          "variable": "ovalV"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var m =",
+          "replacement": "const m =",
+          "variable": "m"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var ovalH =",
+          "replacement": "const ovalH =",
+          "variable": "ovalH"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var ovalV =",
+          "replacement": "const ovalV =",
+          "variable": "ovalV"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var m =",
+          "replacement": "const m =",
+          "variable": "m"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var ovalH =",
+          "replacement": "const ovalH =",
+          "variable": "ovalH"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var ovalV =",
+          "replacement": "const ovalV =",
+          "variable": "ovalV"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var ovalH =",
+          "replacement": "const ovalH =",
+          "variable": "ovalH"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var ovalV =",
+          "replacement": "const ovalV =",
+          "variable": "ovalV"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var ovalH =",
+          "replacement": "const ovalH =",
+          "variable": "ovalH"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var ovalV =",
+          "replacement": "const ovalV =",
+          "variable": "ovalV"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var ovalH =",
+          "replacement": "const ovalH =",
+          "variable": "ovalH"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var ovalV =",
+          "replacement": "const ovalV =",
+          "variable": "ovalV"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var ovalH =",
+          "replacement": "const ovalH =",
+          "variable": "ovalH"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var ovalV =",
+          "replacement": "const ovalV =",
+          "variable": "ovalV"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        }
+      ]
+    },
+    {
+      "file": "snippets/chain-multiple.md",
+      "status": "modernized",
+      "code_blocks": 4,
+      "modernizations": 23,
+      "changes": [
+        {
+          "type": "var_to_const",
+          "original": "var c1 =",
+          "replacement": "const c1 =",
+          "variable": "c1"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var c2 =",
+          "replacement": "const c2 =",
+          "variable": "c2"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var chains =",
+          "replacement": "const chains =",
+          "variable": "chains"
+        },
+        {
+          "type": "concat_to_template",
+          "original": "'found ' + chains",
+          "replacement": "`found ${chains}`"
+        },
+        {
+          "type": "concat_to_template",
+          "original": "'found ' + chains",
+          "replacement": "`found ${chains}`"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var chains =",
+          "replacement": "const chains =",
+          "variable": "chains"
+        },
+        {
+          "type": "concat_to_template",
+          "original": "'found ' + chains",
+          "replacement": "`found ${chains}`"
+        },
+        {
+          "type": "concat_to_template",
+          "original": "'which contains ' + chains",
+          "replacement": "`which contains ${chains}`"
+        },
+        {
+          "type": "concat_to_template",
+          "original": "'outer is clockwise:' + makerjs",
+          "replacement": "`outer is clockwise:${makerjs}`"
+        },
+        {
+          "type": "concat_to_template",
+          "original": "'inner is clockwise:' + makerjs",
+          "replacement": "`inner is clockwise:${makerjs}`"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var chains =",
+          "replacement": "const chains =",
+          "variable": "chains"
+        },
+        {
+          "type": "concat_to_template",
+          "original": "'found ' + chains",
+          "replacement": "`found ${chains}`"
+        },
+        {
+          "type": "concat_to_template",
+          "original": "'which contains ' + chains",
+          "replacement": "`which contains ${chains}`"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var chains =",
+          "replacement": "const chains =",
+          "variable": "chains"
+        },
+        {
+          "type": "concat_to_template",
+          "original": "'found ' + chains",
+          "replacement": "`found ${chains}`"
+        }
+      ]
+    },
+    {
+      "file": "snippets/chains.md",
+      "status": "modernized",
+      "code_blocks": 1,
+      "modernizations": 7,
+      "changes": [
+        {
+          "type": "var_to_const",
+          "original": "var m =",
+          "replacement": "const m =",
+          "variable": "m"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var x =",
+          "replacement": "const x =",
+          "variable": "x"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "function_to_arrow",
+          "original": "function(chains, loose, layer) {\ndocument.write('found ' + chains.length + ' chain(s) and ' + loose.length + ' loose path(s) on layer ' + layer);\n}",
+          "replacement": "(chains, loose, layer) => {\ndocument.write('found ' + chains.length + ' chain(s) and ' + loose.length + ' loose path(s) on layer ' + layer);\n}"
+        },
+        {
+          "type": "concat_to_template",
+          "original": "'found ' + chains",
+          "replacement": "`found ${chains}`"
+        },
+        {
+          "type": "concat_to_template",
+          "original": "' chain(s) and ' + loose",
+          "replacement": "` chain(s) and ${loose}`"
+        },
+        {
+          "type": "concat_to_template",
+          "original": "' loose path(s) on layer ' + layer",
+          "replacement": "` loose path(s) on layer ${layer}`"
+        }
+      ]
+    },
+    {
+      "file": "snippets/chain-fillet.md",
+      "status": "modernized",
+      "code_blocks": 4,
+      "modernizations": 21,
+      "changes": [
+        {
+          "type": "var_to_const",
+          "original": "var m =",
+          "replacement": "const m =",
+          "variable": "m"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var angled =",
+          "replacement": "const angled =",
+          "variable": "angled"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var bracepoints =",
+          "replacement": "const bracepoints =",
+          "variable": "bracepoints"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var truss =",
+          "replacement": "const truss =",
+          "variable": "truss"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var expansion =",
+          "replacement": "const expansion =",
+          "variable": "expansion"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var chains =",
+          "replacement": "const chains =",
+          "variable": "chains"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var i =",
+          "replacement": "const i =",
+          "variable": "i"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "concat_to_template",
+          "original": "'fillets' + i",
+          "replacement": "`fillets${i}`"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var m =",
+          "replacement": "const m =",
+          "variable": "m"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var angled =",
+          "replacement": "const angled =",
+          "variable": "angled"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var bracepoints =",
+          "replacement": "const bracepoints =",
+          "variable": "bracepoints"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var truss =",
+          "replacement": "const truss =",
+          "variable": "truss"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var expansion =",
+          "replacement": "const expansion =",
+          "variable": "expansion"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var chain =",
+          "replacement": "const chain =",
+          "variable": "chain"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var filletsModel =",
+          "replacement": "const filletsModel =",
+          "variable": "filletsModel"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        }
+      ]
+    },
+    {
+      "file": "snippets/chain-single.md",
+      "status": "modernized",
+      "code_blocks": 2,
+      "modernizations": 10,
+      "changes": [
+        {
+          "type": "var_to_const",
+          "original": "var drawing =",
+          "replacement": "const drawing =",
+          "variable": "drawing"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var chain =",
+          "replacement": "const chain =",
+          "variable": "chain"
+        },
+        {
+          "type": "concat_to_template",
+          "original": "'found a chain with ' + chain",
+          "replacement": "`found a chain with ${chain}`"
+        },
+        {
+          "type": "concat_to_template",
+          "original": "' links and endless=' + chain",
+          "replacement": "` links and endless=${chain}`"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var chain =",
+          "replacement": "const chain =",
+          "variable": "chain"
+        },
+        {
+          "type": "concat_to_template",
+          "original": "'found a chain with ' + chain",
+          "replacement": "`found a chain with ${chain}`"
+        },
+        {
+          "type": "concat_to_template",
+          "original": "' links and endless=' + chain",
+          "replacement": "` links and endless=${chain}`"
+        }
+      ]
+    },
+    {
+      "file": "snippets/tree.md",
+      "status": "modernized",
+      "code_blocks": 2,
+      "modernizations": 4,
+      "changes": [
+        {
+          "type": "var_to_const",
+          "original": "var plate =",
+          "replacement": "const plate =",
+          "variable": "plate"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var plate =",
+          "replacement": "const plate =",
+          "variable": "plate"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        }
+      ]
+    },
+    {
+      "file": "snippets/order-of-operations.md",
+      "status": "modernized",
+      "code_blocks": 5,
+      "modernizations": 27,
+      "changes": [
+        {
+          "type": "var_to_const",
+          "original": "var star =",
+          "replacement": "const star =",
+          "variable": "star"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var plus =",
+          "replacement": "const plus =",
+          "variable": "plus"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var starplus =",
+          "replacement": "const starplus =",
+          "variable": "starplus"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var frame =",
+          "replacement": "const frame =",
+          "variable": "frame"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var star =",
+          "replacement": "const star =",
+          "variable": "star"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var plus =",
+          "replacement": "const plus =",
+          "variable": "plus"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var starplus =",
+          "replacement": "const starplus =",
+          "variable": "starplus"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var frame =",
+          "replacement": "const frame =",
+          "variable": "frame"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var star =",
+          "replacement": "const star =",
+          "variable": "star"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var plus =",
+          "replacement": "const plus =",
+          "variable": "plus"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var frame =",
+          "replacement": "const frame =",
+          "variable": "frame"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var star =",
+          "replacement": "const star =",
+          "variable": "star"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var plus =",
+          "replacement": "const plus =",
+          "variable": "plus"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var frame =",
+          "replacement": "const frame =",
+          "variable": "frame"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var star =",
+          "replacement": "const star =",
+          "variable": "star"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var plus =",
+          "replacement": "const plus =",
+          "variable": "plus"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var frame =",
+          "replacement": "const frame =",
+          "variable": "frame"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        }
+      ]
+    },
+    {
+      "file": "snippets/solvers.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/cloning.md",
+      "status": "modernized",
+      "code_blocks": 1,
+      "modernizations": 13,
+      "changes": [
+        {
+          "type": "var_to_const",
+          "original": "var a =",
+          "replacement": "const a =",
+          "variable": "a"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var a1 =",
+          "replacement": "const a1 =",
+          "variable": "a1"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var r2 =",
+          "replacement": "const r2 =",
+          "variable": "r2"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var p1 =",
+          "replacement": "const p1 =",
+          "variable": "p1"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var p2 =",
+          "replacement": "const p2 =",
+          "variable": "p2"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var p3 =",
+          "replacement": "const p3 =",
+          "variable": "p3"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var wheel =",
+          "replacement": "const wheel =",
+          "variable": "wheel"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var numTeeth =",
+          "replacement": "const numTeeth =",
+          "variable": "numTeeth"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var tooth =",
+          "replacement": "const tooth =",
+          "variable": "tooth"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var i =",
+          "replacement": "const i =",
+          "variable": "i"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var clone =",
+          "replacement": "const clone =",
+          "variable": "clone"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var a =",
+          "replacement": "const a =",
+          "variable": "a"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        }
+      ]
+    },
+    {
+      "file": "snippets/cascading-functions.md",
+      "status": "modernized",
+      "code_blocks": 1,
+      "modernizations": 3,
+      "changes": [
+        {
+          "type": "var_to_const",
+          "original": "var square =",
+          "replacement": "const square =",
+          "variable": "square"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var drawing =",
+          "replacement": "const drawing =",
+          "variable": "drawing"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        }
+      ]
+    },
+    {
+      "file": "snippets/exporting-pdf.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/getting-started-node.md",
+      "status": "no_changes",
+      "code_blocks": 1,
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/rotating.md",
+      "status": "modernized",
+      "code_blocks": 2,
+      "modernizations": 6,
+      "changes": [
+        {
+          "type": "var_to_const",
+          "original": "var rect1 =",
+          "replacement": "const rect1 =",
+          "variable": "rect1"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var line1 =",
+          "replacement": "const line1 =",
+          "variable": "line1"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var line2 =",
+          "replacement": "const line2 =",
+          "variable": "line2"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var paths =",
+          "replacement": "const paths =",
+          "variable": "paths"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        }
+      ]
+    },
+    {
+      "file": "snippets/path-independence.md",
+      "status": "modernized",
+      "code_blocks": 3,
+      "modernizations": 6,
+      "changes": [
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        }
+      ]
+    },
+    {
+      "file": "snippets/combining.md",
+      "status": "modernized",
+      "code_blocks": 2,
+      "modernizations": 6,
+      "changes": [
+        {
+          "type": "var_to_const",
+          "original": "var examples =",
+          "replacement": "const examples =",
+          "variable": "examples"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var x =",
+          "replacement": "const x =",
+          "variable": "x"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var examples =",
+          "replacement": "const examples =",
+          "variable": "examples"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var x =",
+          "replacement": "const x =",
+          "variable": "x"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        }
+      ]
+    },
+    {
+      "file": "snippets/mirroring.md",
+      "status": "modernized",
+      "code_blocks": 2,
+      "modernizations": 7,
+      "changes": [
+        {
+          "type": "var_to_const",
+          "original": "var ovalArc1 =",
+          "replacement": "const ovalArc1 =",
+          "variable": "ovalArc1"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var line1 =",
+          "replacement": "const line1 =",
+          "variable": "line1"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var line2 =",
+          "replacement": "const line2 =",
+          "variable": "line2"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var paths =",
+          "replacement": "const paths =",
+          "variable": "paths"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        }
+      ]
+    },
+    {
+      "file": "snippets/chain-to-key-points.md",
+      "status": "modernized",
+      "code_blocks": 1,
+      "modernizations": 5,
+      "changes": [
+        {
+          "type": "var_to_const",
+          "original": "var rect =",
+          "replacement": "const rect =",
+          "variable": "rect"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var chain =",
+          "replacement": "const chain =",
+          "variable": "chain"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var keyPoints =",
+          "replacement": "const keyPoints =",
+          "variable": "keyPoints"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        }
+      ]
+    },
+    {
+      "file": "snippets/converging.md",
+      "status": "modernized",
+      "code_blocks": 1,
+      "modernizations": 4,
+      "changes": [
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var clone1 =",
+          "replacement": "const clone1 =",
+          "variable": "clone1"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var clone2 =",
+          "replacement": "const clone2 =",
+          "variable": "clone2"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        }
+      ]
+    },
+    {
+      "file": "snippets/chain-dogbone.md",
+      "status": "modernized",
+      "code_blocks": 2,
+      "modernizations": 14,
+      "changes": [
+        {
+          "type": "var_to_const",
+          "original": "var plus1 =",
+          "replacement": "const plus1 =",
+          "variable": "plus1"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var plus2 =",
+          "replacement": "const plus2 =",
+          "variable": "plus2"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var square =",
+          "replacement": "const square =",
+          "variable": "square"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var chain1 =",
+          "replacement": "const chain1 =",
+          "variable": "chain1"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var chain2 =",
+          "replacement": "const chain2 =",
+          "variable": "chain2"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var dogbones1 =",
+          "replacement": "const dogbones1 =",
+          "variable": "dogbones1"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var dogbones2 =",
+          "replacement": "const dogbones2 =",
+          "variable": "dogbones2"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var plus =",
+          "replacement": "const plus =",
+          "variable": "plus"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var plus2 =",
+          "replacement": "const plus2 =",
+          "variable": "plus2"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var outer =",
+          "replacement": "const outer =",
+          "variable": "outer"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        }
+      ]
+    },
+    {
+      "file": "snippets/measuring.md",
+      "status": "modernized",
+      "code_blocks": 2,
+      "modernizations": 14,
+      "changes": [
+        {
+          "type": "var_to_const",
+          "original": "var oval =",
+          "replacement": "const oval =",
+          "variable": "oval"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var m =",
+          "replacement": "const m =",
+          "variable": "m"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var totalWidth =",
+          "replacement": "const totalWidth =",
+          "variable": "totalWidth"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var totalHeight =",
+          "replacement": "const totalHeight =",
+          "variable": "totalHeight"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var measureRect =",
+          "replacement": "const measureRect =",
+          "variable": "measureRect"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var arc =",
+          "replacement": "const arc =",
+          "variable": "arc"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var m =",
+          "replacement": "const m =",
+          "variable": "m"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var totalWidth =",
+          "replacement": "const totalWidth =",
+          "variable": "totalWidth"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var totalHeight =",
+          "replacement": "const totalHeight =",
+          "variable": "totalHeight"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var measureRect =",
+          "replacement": "const measureRect =",
+          "variable": "measureRect"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        }
+      ]
+    },
+    {
+      "file": "snippets/layout-on-chain.md",
+      "status": "modernized",
+      "code_blocks": 1,
+      "modernizations": 6,
+      "changes": [
+        {
+          "type": "var_to_const",
+          "original": "var square =",
+          "replacement": "const square =",
+          "variable": "square"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var row =",
+          "replacement": "const row =",
+          "variable": "row"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var curve =",
+          "replacement": "const curve =",
+          "variable": "curve"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var chain =",
+          "replacement": "const chain =",
+          "variable": "chain"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        }
+      ]
+    },
+    {
+      "file": "snippets/chain-to-points.md",
+      "status": "modernized",
+      "code_blocks": 2,
+      "modernizations": 14,
+      "changes": [
+        {
+          "type": "var_to_const",
+          "original": "var rect =",
+          "replacement": "const rect =",
+          "variable": "rect"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var chain =",
+          "replacement": "const chain =",
+          "variable": "chain"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var minimumSpacing =",
+          "replacement": "const minimumSpacing =",
+          "variable": "minimumSpacing"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var divisions =",
+          "replacement": "const divisions =",
+          "variable": "divisions"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var spacing =",
+          "replacement": "const spacing =",
+          "variable": "spacing"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var keyPoints =",
+          "replacement": "const keyPoints =",
+          "variable": "keyPoints"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var rect =",
+          "replacement": "const rect =",
+          "variable": "rect"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var chain =",
+          "replacement": "const chain =",
+          "variable": "chain"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var spacing =",
+          "replacement": "const spacing =",
+          "variable": "spacing"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var keyPoints =",
+          "replacement": "const keyPoints =",
+          "variable": "keyPoints"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        }
+      ]
+    },
+    {
+      "file": "snippets/just-json.md",
+      "status": "modernized",
+      "code_blocks": 3,
+      "modernizations": 15,
+      "changes": [
+        {
+          "type": "var_to_const",
+          "original": "var tabletFaceMount =",
+          "replacement": "const tabletFaceMount =",
+          "variable": "tabletFaceMount"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var outer =",
+          "replacement": "const outer =",
+          "variable": "outer"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var inner =",
+          "replacement": "const inner =",
+          "variable": "inner"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var buttonhole =",
+          "replacement": "const buttonhole =",
+          "variable": "buttonhole"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var bolts =",
+          "replacement": "const bolts =",
+          "variable": "bolts"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var tabletFaceMount =",
+          "replacement": "const tabletFaceMount =",
+          "variable": "tabletFaceMount"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var json =",
+          "replacement": "const json =",
+          "variable": "json"
+        },
+        {
+          "type": "concat_to_template",
+          "original": "'`' + json + '`\n\n---\n\n'",
+          "replacement": "``${json}`\n\n---\n\n`"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var outer =",
+          "replacement": "const outer =",
+          "variable": "outer"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var inner =",
+          "replacement": "const inner =",
+          "variable": "inner"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var buttonhole =",
+          "replacement": "const buttonhole =",
+          "variable": "buttonhole"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var bolts =",
+          "replacement": "const bolts =",
+          "variable": "bolts"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var tabletFaceMount =",
+          "replacement": "const tabletFaceMount =",
+          "variable": "tabletFaceMount"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        }
+      ]
+    },
+    {
+      "file": "snippets/walking.md",
+      "status": "modernized",
+      "code_blocks": 1,
+      "modernizations": 6,
+      "changes": [
+        {
+          "type": "var_to_const",
+          "original": "var chord =",
+          "replacement": "const chord =",
+          "variable": "chord"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var midPoint =",
+          "replacement": "const midPoint =",
+          "variable": "midPoint"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var shape =",
+          "replacement": "const shape =",
+          "variable": "shape"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var walkOptions =",
+          "replacement": "const walkOptions =",
+          "variable": "walkOptions"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "function_to_arrow",
+          "original": "function (wp) {\nif (wp.pathContext.type === 'arc') {\ninvertArc(wp.pathContext);\n}",
+          "replacement": "(wp) => {\nif (wp.pathContext.type === 'arc') {\ninvertArc(wp.pathContext);\n}"
+        }
+      ]
+    },
+    {
+      "file": "advanced-drawing/index.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "model-trees/index.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "exporting/index.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "getting-started/index.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/index.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/publishing/publishing.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/publishing/packaging.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/advanced-drawing/index.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/model-trees/index.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/node-apps/node server.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/browser-apps/embed.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/exporting/index.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/intermediate-drawing/index.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/getting-started/index.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/working-with-chains/index.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/index.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/hierarchy.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/types/core_boolean-utils.SegmentClassifier.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/core_paths.Arc.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/core_paths.Chord.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/models_Text.Text.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/models_Dome.Dome.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/core_xml.XmlTag.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/core_collect.PointGraph.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/models_Oval.Oval.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/models_BoltRectangle.BoltRectangle.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/models_Dogbone.Dogbone.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/models_ConnectTheDots.ConnectTheDots.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/models_RoundRectangle.RoundRectangle.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/models_OvalArc.OvalArc.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/models_Ellipse.Ellipse.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/models_SCurve.SCurve.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/models_BoltCircle.BoltCircle.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/core_paths.Parallel.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/core_paths.Line.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/models_Ellipse.EllipticArc.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/models_Slot.Slot.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/models_BezierCurve-esm.BezierCurve.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/models_Belt.Belt.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/models_Rectangle.Rectangle.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/types_jscad.export_.CAG.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/core_paths.Circle.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/models_Holes.Holes.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/core_collect.Collector.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/models_Polygon.Polygon.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/models_Star.Star.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/models_BezierCurve-esm.BezierSeed.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/models_Ring.Ring.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/types_jscad.export_.CSG.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/models_Square.Square.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/core_measure.Atlas.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/variables/core_maker.environmentTypes.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/variables/core_base.pathType.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/variables/core_maker.unitType.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/variables/core_base.environmentTypes.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/variables/core_base.version.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/variables/core_boolean-utils.DEFAULT_POINT_MATCHING_DISTANCE.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/variables/core_base.unitType.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/variables/core_maker.pathType.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/variables/core_svg-esm.svgUnit.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/variables/core_base.environment.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/variables/core_maker.environment.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/variables/core_maker.version.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/variables/core_exporter.colors.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_fillet-chain.chainFillet.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_maker.isFunction.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_model.moveRelative.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_simplify.simplify.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_measure.lineSlope.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_model.distort.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_path.mirror.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_maker.isModel.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_solvers.equilateralSide.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_maker.cloneObject.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_measure-minimal.pointDistance.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_model.scale.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/types_jscad.export_.CSG.Path2D.arc.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_maker.createRouteKey.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_maker.isPoint.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_measure-minimal.modelExtents.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_boolean-utils.isBetween.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_measure.pathExtents.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_path.addTo.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_model.clone.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_openjscad-esm.toJscadCAG.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_chain.toKeyPoints.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_model.addModel.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_measure.increase.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_path.zero.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_pdf-esm.toPDF.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_maker.isPathCircle.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_measure.modelExtents.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_base.splitDecimal.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_openjscad-esm.toJscadCSG.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_path.clone.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_model.addTo.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_path.copyProps.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_importer.parseNumericList.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_solvers.equilateralAltitude.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_layout.cloneToHoneycomb.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_measure.isBezierSeedLinear.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_path.toKeyPoints.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_layout.cloneToRadial.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_combine.isPathInsideModel.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_maker.splitDecimal.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_angle.ofLineInDegrees.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_path.scale.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_units.isValidUnit.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_measure.isArcConcaveTowardsPoint.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_expand.expand.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_openjscad-esm.toJscadScript.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_measure.isBetween.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_measure.isPointArrayClockwise.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_point.middle.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_base.cloneObject.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_measure-minimal.isBezierSeedLinear.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_base.extendObject.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_model.getSimilarModelId.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_maker.travel.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_angle.noRevolutions.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_point.fromArc.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_model.convertUnits.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_angle.ofArcMiddle.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_combine.combine.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_model.layer.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_model.walk.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_equal.isAngleEqual.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_angle.mirror.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_equal.isPointOnPath.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_path.moveRelative.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_angle.ofPointInRadians.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_measure.isPointInsideModel.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_deadend.removeDeadEnds.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_maker.extendObject.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_point.average.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_model.countChildModels.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_measure-minimal.augment.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_model.prefixPathIds.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_measure.modelPathLength.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_units.conversionScale.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_chain.cycle.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_point.rounded.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_angle.toRadians.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_path.layer.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_expand.outline.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_boolean-utils.isBetweenPoints.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_model.rotate.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_measure.isMeasurementOverlapping.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_combine.breakPathsAtIntersections.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_measure-minimal.pathLength.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_measure.isArcOverlapping.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_layout.cloneToBrick.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_point.mirror.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_measure.augment.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_path.center.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_model.addPath.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_model.getSimilarPathId.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_model.move.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_expand.expandPaths.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_kit.construct.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_point.closest.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_angle.ofChainLinkJoint.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_model.originate.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_equal.isSlopeParallel.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_measure.boundingHexagon.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_measure.isArcSpanOverlapping.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_maker.isPathArc.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_boolean-utils.isCircleOrArc.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_point.scale.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_boolean-utils.ensurePathLayer.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_solvers.circleTangentAngles.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_layout.cloneToColumn.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_point.rotate.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_svg-esm.toSVG.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_solvers.solveTriangleASA.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_combine.combineIntersection.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_measure.isChainClockwise.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_path.toPoints.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_svg-helpers.pathToSVGPathData.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_model.mirror.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_expand.straighten.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_boolean-utils.trackDeletedPath.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_point.clone.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_path.distort.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_point.zero.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_boolean-utils.pathBoundingBox.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_maker.isPathLine.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_chain.toPoints.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_intersect.intersection.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_point.fromSlopeIntersection.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_layout.cloneToGrid.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_model.findSingleChain.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_maker.isNumber.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_base.isPoint.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_combine.combineUnion.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_model.addCaption.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_svg-esm.toSVGPathData.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_model.zero.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_equal.isPointOnSlope.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_chain.toNewModel.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_chain.startAt.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_maker.isPathArcInBezierCurve.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_equal.isPointEqual.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_svg-esm.fromSVGPathData.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_base.isObject.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_point.distort.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_boolean-utils.isArcEnclosingAngle.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_fillet-chain.chainDogbone.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_boolean-utils.addPathToModel.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_solvers.solveTriangleSSS.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_measure.isBetweenArcAngles.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_fillet-path.pathFillet.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_boolean-utils.isZeroLength.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_measure-minimal.lineSlope.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_point.add.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_angle.ofArcSpan.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_equal.isPointOnCircle.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_measure.pointDistance.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_maker.isChain.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_base.round.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_measure-minimal.pathExtents.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_chain.findSingleChain.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_model.getAllCaptionsOffset.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_path.converge.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_base.isNumber.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_dxf.toDXF.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_boolean-utils.findPointsOnPath.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_angle.ofArcEnd.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_point.subtract.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_layout.cloneToRow.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_chain.findChains.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_angle.toDegrees.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_maker.isObject.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_fillet-path.pathDogbone.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_point.fromPolar.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_maker.isPath.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_openjscad-esm.toJscadSTL.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_point.fromPathEnds.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_boolean-utils.isBetweenArcAngles.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_kit.getParameterValues.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_layout.childrenOnChain.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_model.walkPaths.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_model.findChains.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_svg-helpers.chainToSVGPathData.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_angle.ofPointInDegrees.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_measure.isBetweenPoints.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_path.move.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_model.center.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_break.breakAtPoint.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_layout.childrenOnPath.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_point.fromAngleOnCircle.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_chain.reverse.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_measure.isLineOverlapping.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_base.isFunction.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_combine.combineSubtraction.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_measure.pathLength.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_equal.isPointDistinct.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_path.rotate.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_equal.isSlopeEqual.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_equal.isPathEqual.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_maker.round.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_path.moveTemporary.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_base.createRouteKey.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_path.alterLength.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_exporter.toJson.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_angle.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_chain.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/models_Dome.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_maker.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/models_RoundRectangle.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/models_Ring.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_expand.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_dxf.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/models_OvalArc.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/models_Ellipse.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_schema.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_path.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/types_jscad.export_.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_exporter-index.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_base.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/models_BezierCurve-esm.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_paths.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_svg-esm.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_intersect.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_fillet-core.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/models_Text.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_measure-minimal.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_units.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_equal.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/models_BoltRectangle.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_svg-helpers.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_layout.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/models_Square.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/index.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/models.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/models_Star.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/models_ConnectTheDots.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/models_Polygon.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_break.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/models_BoltCircle.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/models_Slot.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_solvers.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/types_jscad.export_.CSG.Path2D.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/models_Dogbone.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_exporter.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_kit.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/types_jscad.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/models_SCurve.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_collect.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_importer.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_openjscad-esm.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_cascades.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_measure.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_point.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/models_Oval.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_pdf-esm.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_deadend.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_model.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/models_Belt.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_xml.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/models_Holes.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_fillet-path.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_boolean-utils.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_simplify.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_cascades.MakerJs.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_fillet-chain.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/types_jscad.export_.CSG.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_combine.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/models_Rectangle.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_collect.ICollectionKeyComparer.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IWalkOptions.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_svg-esm.ISVGPathDataRenderOptions.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_schema.IPathArcInBezierCurve.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_schema.IPathArc.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_dxf.IDXFRenderOptions.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IMeasurePointInsideOptions.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_schema.IPathLine.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_schema.IPath.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_svg-esm.IFlowAnnotation.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_path.IWalkPath.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IWalkPathBooleanCallback.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IIsPointOnPathOptions.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/types_jscad.StlSerializer.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IRouteOffset.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_collect.IPointGraphIndexElement.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_collect.ICollection.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_svg-esm.IPathDataByLayerMap.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_svg-esm.ISVGElementRenderOptions.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_boolean-utils.SegmentClassification.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IMeasure.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_svg-esm.ISVGImportOptions.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_svg-esm.ISVGRenderOptions.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_xml.IXmlTagAttrs.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/types_jscad.export_.CSG.ICircleOptions.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_openjscad-esm.IJscadScriptOptions.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IWalkModel.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IMeasureMap.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IModelPathCallback.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_schema.IPathMap.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IChainLink.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IPointMatchOptions.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_schema.IPathIntersectionOptions.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IPathIntersectionBaseOptions.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_openjscad-esm.IJscadCsgOptions.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_openjscad-esm.IOpenJsCadOptionsMap.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_openjscad-esm.IJscadExtrudeOptions.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IFindLoopsOptions.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.ICombineOptions.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IWalkModelCallback.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_boolean-utils.DeletedPathInfo.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IPathRemoved.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_openjscad-esm.IStatusCallback.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_openjscad-esm.IOpenJsCadOptions.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_schema.IPathCircle.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_schema.IModelMap.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IPathIntersection.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IPathDirectional.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_dxf.IDXFLayerOptions.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_cascades.MakerJs.ICascade.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IKit.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IFindChainsOptions.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IPathIntersectionOptions.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IMetaParameter.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_path.IChain.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_cascades.MakerJs.ICascadePath.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.ISimplifyOptions.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IRefPathIdInModel.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IWalkModelCancellableCallback.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_schema.ICaption.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_exporter.IStatusCallback.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_pdf-esm.IPDFRenderOptions.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_svg-esm.SvgUnitConversion.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IWalkPathCallback.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_openjscad-esm.IJscadCagOptions.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IMeasureWithCenter.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_schema.IPathIntersection.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IChainsMap.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IContainChainsOptions.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_cascades.MakerJs.ICascadePoint.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.ICascade.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IWalkPath.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_cascades.MakerJs.ICascadeModel.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IRefModelInModel.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IChainCallback.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IChain.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/types_jscad.export_.CSG.IArcOptions.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_schema.IPoint.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_schema.IBezierRange.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_schema.IModel.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/types_jscad.export_.CSG.IEllpiticalArcOptions.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_angle.IChainLink.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_exporter.IJsonExportOptions.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_schema.IPathBezierSeed.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IBoundingHex.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.ISlope.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/importing/index.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/basic-drawing/index.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "api/index.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "external/text-encoding/LICENSE.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "migration/api-mapping.md",
+      "status": "modernized",
+      "code_blocks": 13,
+      "modernizations": 16,
+      "changes": [
+        {
+          "type": "var_to_const",
+          "original": "var models =",
+          "replacement": "const models =",
+          "variable": "models"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var exporter =",
+          "replacement": "const exporter =",
+          "variable": "exporter"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var message =",
+          "replacement": "const message =",
+          "variable": "message"
+        },
+        {
+          "type": "concat_to_template",
+          "original": "\"Rectangle size: \" + width + \" x \"",
+          "replacement": "`Rectangle size: ${width} x `"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var rect =",
+          "replacement": "const rect =",
+          "variable": "rect"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var chain =",
+          "replacement": "const chain =",
+          "variable": "chain"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var fillets =",
+          "replacement": "const fillets =",
+          "variable": "fillets"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var model =",
+          "replacement": "const model =",
+          "variable": "model"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var rect =",
+          "replacement": "const rect =",
+          "variable": "rect"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var json =",
+          "replacement": "const json =",
+          "variable": "json"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var rect =",
+          "replacement": "const rect =",
+          "variable": "rect"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var svg =",
+          "replacement": "const svg =",
+          "variable": "svg"
+        }
+      ]
+    },
+    {
+      "file": "demos/node_modules/makerjs-band-clamp/README.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/makerjs-band-clamp/node_modules/makerjs/README.md",
+      "status": "no_changes",
+      "code_blocks": 2,
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/makerjs-band-clamp/node_modules/makerjs/CONTRIBUTING.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/word-wrapper/README.md",
+      "status": "modernized",
+      "code_blocks": 3,
+      "modernizations": 10,
+      "changes": [
+        {
+          "type": "var_to_const",
+          "original": "var font =",
+          "replacement": "const font =",
+          "variable": "font"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var measure =",
+          "replacement": "const measure =",
+          "variable": "measure"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var charWidth =",
+          "replacement": "const charWidth =",
+          "variable": "charWidth"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var availableGlyphs =",
+          "replacement": "const availableGlyphs =",
+          "variable": "availableGlyphs"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var totalGlyphs =",
+          "replacement": "const totalGlyphs =",
+          "variable": "totalGlyphs"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var glyphs =",
+          "replacement": "const glyphs =",
+          "variable": "glyphs"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var lines =",
+          "replacement": "const lines =",
+          "variable": "lines"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var lines =",
+          "replacement": "const lines =",
+          "variable": "lines"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var text =",
+          "replacement": "const text =",
+          "variable": "text"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var text =",
+          "replacement": "const text =",
+          "variable": "text"
+        }
+      ]
+    },
+    {
+      "file": "demos/node_modules/@types/opentype.js/README.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/@types/acorn/README.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/@types/bezier-js/README.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/@types/marked/README.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/@types/pdfkit/README.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/@types/detective/README.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/@types/node/README.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/makerjs-ventgrid/README.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/makerjs-ventgrid/node_modules/makerjs/CONTRIBUTING.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/makerjs-spoke-wedge/README.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/makerjs-spoke-wedge/node_modules/makerjs/README.md",
+      "status": "no_changes",
+      "code_blocks": 2,
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/makerjs-spoke-wedge/node_modules/makerjs/CONTRIBUTING.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/opentype-layout/LICENSE.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/opentype-layout/METRICS.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/opentype.js/AUTHORS.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/opentype.js/RELEASES.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/opentype.js/README.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/opentype.js/CONTRIBUTING.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/opentype.js/examples/README.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/opentype.js/.github/PULL_REQUEST_TEMPLATE.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/opentype.js/.github/ISSUE_TEMPLATE.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/makerjs/README.md",
+      "status": "no_changes",
+      "code_blocks": 2,
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/makerjs/node_modules/@types/node/README.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/bezier-js/README.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/marked/LICENSE.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/marked/README.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/makerjs-spiral/README.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/makerjs-spiral/node_modules/makerjs/README.md",
+      "status": "no_changes",
+      "code_blocks": 2,
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/makerjs-spiral/node_modules/makerjs/CONTRIBUTING.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/makerjs-rimbox/README.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/makerjs-rimbox/node_modules/makerjs/CONTRIBUTING.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/makerjs-polygon-rimbox/README.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/makerjs-polygon-rimbox/node_modules/makerjs/README.md",
+      "status": "no_changes",
+      "code_blocks": 2,
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/makerjs-polygon-rimbox/node_modules/makerjs/CONTRIBUTING.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/undici-types/README.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/makerjs-smile/README.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/makerjs-smile/node_modules/makerjs/CONTRIBUTING.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/makerjs-ventgridcircle/README.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/makerjs-ventgridcircle/node_modules/makerjs/CONTRIBUTING.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/highlight.js/SUPPORTED_LANGUAGES.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/highlight.js/VERSION_11_UPGRADE.md",
+      "status": "modernized",
+      "code_blocks": 5,
+      "modernizations": 2,
+      "changes": [
+        {
+          "type": "var_to_const",
+          "original": "var a =",
+          "replacement": "const a =",
+          "variable": "a"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var a =",
+          "replacement": "const a =",
+          "variable": "a"
+        }
+      ]
+    },
+    {
+      "file": "demos/node_modules/highlight.js/README.md",
+      "status": "no_changes",
+      "code_blocks": 13,
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/highlight.js/CHANGES.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/highlight.js/VERSION_10_UPGRADE.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/highlight.js/SECURITY.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/makerjs-half-band-clamp/node_modules/makerjs/README.md",
+      "status": "no_changes",
+      "code_blocks": 2,
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/makerjs-half-band-clamp/node_modules/makerjs/CONTRIBUTING.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/makerjs-nameplate/README.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/makerjs-nameplate/node_modules/@types/opentype.js/README.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/makerjs-nameplate/node_modules/@types/node/README.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/makerjs-nameplate/node_modules/opentype.js/RELEASES.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/makerjs-nameplate/node_modules/opentype.js/README.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/makerjs-nameplate/node_modules/opentype.js/CONTRIBUTING.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/makerjs-nameplate/node_modules/opentype.js/examples/README.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/makerjs-nameplate/node_modules/makerjs/README.md",
+      "status": "no_changes",
+      "code_blocks": 2,
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/makerjs-monotext/README.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/makerjs-monotext/node_modules/makerjs/README.md",
+      "status": "no_changes",
+      "code_blocks": 2,
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/makerjs-monotext/node_modules/makerjs/CONTRIBUTING.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/object-assign/readme.md",
+      "status": "no_changes",
+      "code_blocks": 1,
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/makerjs-double-band-clamp/README.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/makerjs-double-band-clamp/node_modules/@types/opentype.js/README.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/makerjs-double-band-clamp/node_modules/@types/node/README.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/makerjs-double-band-clamp/node_modules/makerjs/README.md",
+      "status": "no_changes",
+      "code_blocks": 2,
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/makerjs-spokes-flared/README.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/makerjs-spokes-flared/node_modules/makerjs/README.md",
+      "status": "no_changes",
+      "code_blocks": 2,
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/makerjs-spokes-flared/node_modules/makerjs/CONTRIBUTING.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/makerjs-heart/README.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/makerjs-heart/node_modules/makerjs/README.md",
+      "status": "no_changes",
+      "code_blocks": 2,
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/makerjs-heart/node_modules/makerjs/CONTRIBUTING.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/kdbush/README.md",
+      "status": "modernized",
+      "code_blocks": 5,
+      "modernizations": 6,
+      "changes": [
+        {
+          "type": "var_to_const",
+          "original": "var results =",
+          "replacement": "const results =",
+          "variable": "results"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var results =",
+          "replacement": "const results =",
+          "variable": "results"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var index =",
+          "replacement": "const index =",
+          "variable": "index"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var index =",
+          "replacement": "const index =",
+          "variable": "index"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var ids1 =",
+          "replacement": "const ids1 =",
+          "variable": "ids1"
+        },
+        {
+          "type": "var_to_const",
+          "original": "var ids2 =",
+          "replacement": "const ids2 =",
+          "variable": "ids2"
+        }
+      ]
+    },
+    {
+      "file": "demos/node_modules/makerjs-raster/README.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/makerjs-raster/node_modules/@types/node/README.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/makerjs-raster/node_modules/makerjs/README.md",
+      "status": "no_changes",
+      "code_blocks": 2,
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/@danmarshall/jscad-typings/README.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/@danmarshall/makerjs-wrap-text/README.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/makerjs-spokes-straight/README.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/makerjs-spokes-straight/node_modules/makerjs/README.md",
+      "status": "no_changes",
+      "code_blocks": 2,
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/makerjs-spokes-straight/node_modules/makerjs/CONTRIBUTING.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/makerjs-logo/README.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/makerjs-logo/node_modules/makerjs/README.md",
+      "status": "no_changes",
+      "code_blocks": 2,
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/makerjs-logo/node_modules/makerjs/CONTRIBUTING.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "demos/node_modules/graham_scan/readme.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    },
+    {
+      "file": "basic-drawing/index.md",
+      "status": "no_js_code",
+      "modernizations": 0,
+      "changes": []
+    }
+  ]
+}

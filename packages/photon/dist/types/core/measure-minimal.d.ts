@@ -1,5 +1,5 @@
 import { IPoint, IPath, IPathLine, IPathBezierSeed, IModel } from './schema.js';
-import type { IMeasure, IMeasureWithCenter, ISlope } from './maker.js';
+import type { IMeasure, IMeasureWithCenter, ISlope } from './core.js';
 /** Measures the distance between two points. */
 export declare function pointDistance(a: IPoint, b: IPoint): number;
 /** Gets the slope of a line. */

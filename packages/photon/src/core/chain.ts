@@ -8,7 +8,7 @@ import {
     extendObject, isObject, round, cloneObject, pathType,
     IChain, IChainLink, IWalkPath, IWalkModel, IWalkOptions,
     IFindChainsOptions, IChainCallback, IChainsMap, IContainChainsOptions
-} from './maker.js';
+} from './core.js';
 import * as point from './point.js';
 import * as path from './path.js';
 import * as angle from './angle.js';

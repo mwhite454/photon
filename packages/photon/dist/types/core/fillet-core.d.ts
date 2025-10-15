@@ -1,5 +1,5 @@
 import { IPoint, IPath, IPathLine } from './schema.js';
-import type { IPointMatchOptions } from './maker.js';
+import type { IPointMatchOptions } from './core.js';
 /** @private */
 interface IPointProperty {
     point: IPoint;

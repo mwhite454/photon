@@ -1,5 +1,5 @@
 import { IModel, IPathMap } from '../core/schema.js';
-import type { IKit } from '../core/maker.js';
+import type { IKit } from '../core/core.js';
 import { RoundRectangle } from './RoundRectangle.js';
 
 export class Oval implements IModel {

@@ -1,6 +1,6 @@
 import { IModel, IPathMap, IModelMap, IPathArc } from '../core/schema.js';
-import { round } from '../core/maker.js';
-import type { IKit } from '../core/maker.js';
+import { round } from '../core/core.js';
+import type { IKit } from '../core/core.js';
 import * as angle from '../core/angle.js';
 import * as point from '../core/point.js';
 import * as paths from '../core/paths.js';

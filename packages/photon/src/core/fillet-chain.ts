@@ -1,5 +1,5 @@
 import type { IModel, IPathArc, IPathLine } from './schema.js';
-import { isObject, round, IChain } from './maker.js';
+import { isObject, round, IChain } from './core.js';
 import * as angle from './angle.js';
 import * as path from './path.js';
 import { pathFillet, pathDogbone } from './fillet-path.js';

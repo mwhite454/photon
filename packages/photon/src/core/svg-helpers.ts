@@ -1,5 +1,5 @@
 import type { IModel, IPath, IPathLine, IPathCircle, IPathArc, IPathBezierSeed, IPoint } from './schema.js';
-import { round, pathType, type IChain } from './maker.js';
+import { round, pathType, type IChain } from './core.js';
 import * as point from './point.js';
 import * as angle from './angle.js';
 import * as path from './path.js';

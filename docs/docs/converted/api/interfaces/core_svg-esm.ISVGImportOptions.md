@@ -1,0 +1,73 @@
+---
+ai_summary: ISVGImportOptions | Photon
+category: API Reference
+description: ISVGImportOptions | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- isvgimportoptions
+- javascript
+- photon
+- svg
+primary_topic: importing
+source: docs/docs/api/interfaces/core_svg-esm.ISVGImportOptions.html
+tags:
+- intermediate
+- api-reference
+- importing
+title: ISVGImportOptions | Photon
+---
+ISVGImportOptions | Photon
+
+[Photon](../index.md)
+
+
+
+
+Preparing search index...
+
+* [core/svg-esm](../modules/core_svg-esm.md)
+* ISVGImportOptions
+
+# Interface ISVGImportOptions
+
+interface ISVGImportOptions {
+    [bezierAccuracy](#bezieraccuracy)?: number;
+}
+
+* Defined in [core/svg-esm.ts:37](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/svg-esm.ts#L37)
+
+##### Index
+
+### Properties
+
+[bezierAccuracy?](#bezieraccuracy)
+
+## Properties
+
+### `Optional`bezierAccuracy
+
+bezierAccuracy?: number
+
+* Defined in [core/svg-esm.ts:38](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/svg-esm.ts#L38)
+
+### Settings
+
+Member Visibility
+
+* Protected
+* Inherited
+
+ThemeOSLightDark
+
+### On This Page
+
+Properties
+
+[bezierAccuracy](#bezieraccuracy)
+
+[Photon](../index.md)
+
+* Loading...
+
+Generated using [TypeDoc](https://typedoc.org/)

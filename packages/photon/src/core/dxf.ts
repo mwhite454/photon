@@ -11,7 +11,7 @@ import {
   type IChain,
   type IChainCallback,
   type IPointMatchOptions
-} from './maker.js';
+} from './core.js';
 import { tryGetModelUnits, colors, type IExportOptions } from './exporter.js';
 import * as point from './point.js';
 import * as angle from './angle.js';

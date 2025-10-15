@@ -1,0 +1,86 @@
+# Generated navigation structure for mkdocs.yml
+# Copy the 'nav:' section below into your mkdocs.yml file
+
+nav:
+- Photon Documentation: index.md
+- Getting Started:
+  - Try It Now: snippets/try-it-now.md
+  - Getting Started Browser: snippets/getting-started-browser.md
+  - Getting Started Node: snippets/getting-started-node.md
+  - $ Function: snippets/$-function.md
+  - Frequently Used Functions: snippets/frequently-used-functions.md
+- Basic Drawing:
+  - Paths: snippets/paths.md
+  - Models: snippets/models.md
+  - Modeling: snippets/modeling.md
+  - Built In Models: snippets/built-in-models.md
+  - Basic Rendering In Svg: snippets/basic-rendering-in-svg.md
+  - Just Json: snippets/just-json.md
+  - Units: snippets/units.md
+  - Points: snippets/points.md
+  - Path Constructors: snippets/path-constructors.md
+  - Path Independence: snippets/path-independence.md
+  - Open Vs Closed Geometry: snippets/open-vs-closed-geometry.md
+- Intermediate Drawing:
+  - Cloning: snippets/cloning.md
+  - Moving: snippets/moving.md
+  - Rotating: snippets/rotating.md
+  - Scaling: snippets/scaling.md
+  - Mirroring: snippets/mirroring.md
+  - Modifying Models: snippets/modifying-models.md
+  - Measuring: snippets/measuring.md
+  - Zeroing And Centering: snippets/zeroing-and-centering.md
+  - Originating: snippets/originating.md
+  - Intersection: snippets/intersection.md
+  - Simplifying: snippets/simplifying.md
+  - Converging: snippets/converging.md
+  - Distorting: snippets/distorting.md
+  - Wireframe: snippets/wireframe.md
+  - Order Of Operations: snippets/order-of-operations.md
+- Advanced Drawing:
+  - Fillets: snippets/fillets.md
+  - Chain Fillet: snippets/chain-fillet.md
+  - Dogbones: snippets/dogbones.md
+  - Chain Dogbone: snippets/chain-dogbone.md
+  - Combining: snippets/combining.md
+  - Expanding: snippets/expanding.md
+  - Outlining: snippets/outlining.md
+  - Layers: snippets/layers.md
+  - Captions: snippets/captions.md
+  - Fonts And Text: snippets/fonts-and-text.md
+  - Breaking: snippets/breaking.md
+  - Routes: snippets/routes.md
+- Working with Chains:
+  - Chains: snippets/chains.md
+  - Chain Theory: snippets/chain-theory.md
+  - Chain Single: snippets/chain-single.md
+  - Chain Multiple: snippets/chain-multiple.md
+  - Chain Links: snippets/chain-links.md
+  - Chain Order: snippets/chain-order.md
+  - Chain To Points: snippets/chain-to-points.md
+  - Chain To Key Points: snippets/chain-to-key-points.md
+  - Chain To New Model: snippets/chain-to-new-model.md
+- Model Trees:
+  - Tree: snippets/tree.md
+  - Walking: snippets/walking.md
+- Layout:
+  - Layout Repeating: snippets/layout-repeating.md
+  - Layout On Path: snippets/layout-on-path.md
+  - Layout On Chain: snippets/layout-on-chain.md
+- Exporting:
+  - Exporting Svg: snippets/exporting-svg.md
+  - Svg Styling: snippets/svg-styling.md
+  - Exporting Svg Path Data: snippets/exporting-svg-path-data.md
+  - Exporting Dxf: snippets/exporting-dxf.md
+  - Exporting Pdf: snippets/exporting-pdf.md
+  - Exporting Openjscad: snippets/exporting-openjscad.md
+  - Exporting Stl: snippets/exporting-stl.md
+- Importing:
+  - Importing Svg Path Data: snippets/importing-svg-path-data.md
+  - Importing Svg Points: snippets/importing-svg-points.md
+- Advanced Topics:
+  - Aliasing: snippets/aliasing.md
+  - Bezier Curves: snippets/bezier-curves.md
+  - Cascading Functions: snippets/cascading-functions.md
+  - Solvers: snippets/solvers.md
+- API Reference: api/index.md

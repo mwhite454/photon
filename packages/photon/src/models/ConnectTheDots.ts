@@ -1,6 +1,6 @@
 import { IModel, IPoint, IPathMap } from '../core/schema.js';
-import { isPoint } from '../core/maker.js';
-import type { IKit } from '../core/maker.js';
+import { isPoint } from '../core/core.js';
+import type { IKit } from '../core/core.js';
 import * as paths from '../core/paths.js';
 import * as measure from '../core/measure-minimal.js';
 

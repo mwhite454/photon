@@ -1,0 +1,144 @@
+---
+ai_summary: Paths can be expanded to produce a closed geometry model which surrounds
+  them perfectly.
+category: General
+description: Paths can be expanded to produce a closed geometry model which surrounds
+  them perfectly.
+difficulty: intermediate
+keywords:
+- expanding
+- export
+- general
+- geometry
+- javascript
+- models
+- paths
+- photon
+- photon/core
+- svg
+primary_topic: expanding
+source: docs/_snippets/expanding.html
+tags:
+- intermediate
+- expanding
+- general
+title: Expanding
+---
+
+!!! warning "Known Issue - API Not Yet Available"
+    This page documents `model.expandPaths()` which is **not yet available** in `@7syllable/photon-core@0.18.1`. 
+    
+    This function existed in the original maker.js but has not yet been ported to photon/core. 
+    
+    **Status**: See [GitHub Issue #3](https://github.com/mwhite454/photon/issues/3) for updates.
+    
+    The code examples on this page will not execute until this function is restored.
+
+Paths can be expanded to produce a closed geometry model which surrounds them perfectly.
+
+## Examples
+
+```javascript
+//show each path type
+import { exporter, model, path, paths } from '@7syllable/photon-core';
+const model = {
+paths: {
+p1: new paths.Line([0, 2], [10, 2]),
+p2: new paths.Arc([20, 0], 5, 0, 180),
+p3: new paths.Circle([35, 2], 5)
+}
+};
+const svg = exporter.toSVG(model);
+document.write(svg);
+```
+
+Pass a path and a distance to [path.expand](../api/modules/core_path.html#expand), this will return a new model:
+
+```javascript
+//expand around each path type
+import { exporter, model, path, paths } from '@7syllable/photon-core';
+const model = {
+paths: {
+p1: new paths.Line([0, 2], [10, 2]),
+p2: new paths.Arc([20, 0], 5, 0, 180),
+p3: new paths.Circle([35, 2], 5)
+}
+};
+model.models = {
+x1: path.expand(model.paths.p1, 2),
+x2: path.expand(model.paths.p2, 2),
+x3: path.expand(model.paths.p3, 2)
+};
+const svg = exporter.toSVG(model);
+document.write(svg);
+```
+```javascript
+//show only expansions
+import { exporter, model, path, paths } from '@7syllable/photon-core';
+const temp = {
+paths: {
+p1: new paths.Line([0, 2], [10, 2]),
+p2: new paths.Arc([20, 0], 5, 0, 180),
+p3: new paths.Circle([35, 2], 5)
+}
+};
+const model = {
+models: {
+x1: path.expand(temp.paths.p1, 2),
+x2: path.expand(temp.paths.p2, 2),
+x3: path.expand(temp.paths.p3, 2)
+}
+};
+const svg = exporter.toSVG(model);
+document.write(svg);
+```
+
+
+---
+
+You can also expand all the paths in a model by calling [model.expandPaths](../api/modules/core_model.html#expandpaths):
+
+```javascript
+import { exporter, model, models } from '@7syllable/photon-core';
+//expand a star model
+const star = model.rotate(new models.Star(5, 100), 18);
+const expanded = model.expandPaths(star, 10);
+const model = {
+models: {
+star: star,
+outline: expanded
+}
+};
+const svg = exporter.toSVG(model);
+document.write(svg);
+```
+
+
+---
+
+#### Beveling joints
+
+A third parameter can be passed to [model.expandPaths](../api/modules/core_model.html#expandpaths) to specify the number of corners to apply to each joint and end cap:
+
+* 0 (default) - no corners (rounded)
+* 1 - one corner (pointed)
+* 2 - two corners (beveled)
+
+```javascript
+import { exporter, model, models } from '@7syllable/photon-core';
+//expand and bevel
+const star = model.rotate(new models.Star(5, 100), 18);
+const rounded = model.expandPaths(star, 10, 0);
+const pointed = model.expandPaths(star, 10, 1);
+const beveled = model.expandPaths(star, 10, 2);
+const model = {
+models: {
+star: star,
+rounded: model.move(rounded, [240, 0]),
+pointed: model.move(pointed, [480, 0]),
+beveled: model.move(beveled, [720, 0])
+}
+};
+const svg = exporter.toSVG(model);
+document.write(svg);
+```

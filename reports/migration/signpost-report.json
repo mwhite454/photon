@@ -1,0 +1,3990 @@
+{
+  "summary": {
+    "total": 581,
+    "modified": 233,
+    "signposts": 259,
+    "errors": 0,
+    "mode": "write"
+  },
+  "results": [
+    {
+      "file": "index.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "snippets/distorting.md",
+      "signposts_added": [
+        "examples"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "snippets/simplifying.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "snippets/$-function.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "snippets/svg-styling.md",
+      "signposts_added": [
+        "examples"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "snippets/captions.md",
+      "signposts_added": [
+        "examples"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "snippets/template.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "snippets/aliasing.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "snippets/functional-composition.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "snippets/dogbones.md",
+      "signposts_added": [
+        "examples"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "snippets/path-constructors.md",
+      "signposts_added": [
+        "examples",
+        "related_topics"
+      ],
+      "count": 2,
+      "modified": true
+    },
+    {
+      "file": "snippets/exporting-dxf.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "snippets/basic-rendering-in-svg.md",
+      "signposts_added": [
+        "examples"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "snippets/outlining.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "snippets/layout-on-path.md",
+      "signposts_added": [
+        "examples",
+        "related_topics"
+      ],
+      "count": 2,
+      "modified": true
+    },
+    {
+      "file": "snippets/fillets.md",
+      "signposts_added": [
+        "examples",
+        "related_topics"
+      ],
+      "count": 2,
+      "modified": true
+    },
+    {
+      "file": "snippets/built-in-models.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "snippets/fonts-and-text.md",
+      "signposts_added": [
+        "examples"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "snippets/getting-started-browser.md",
+      "signposts_added": [
+        "examples"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "snippets/exporting-svg.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "snippets/expanding.md",
+      "signposts_added": [
+        "examples"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "snippets/frequently-used-functions.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "snippets/breaking.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "snippets/try-it-now.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "snippets/routes.md",
+      "signposts_added": [
+        "examples"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "snippets/exporting-stl.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "snippets/chain-links.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "snippets/layout-repeating.md",
+      "signposts_added": [
+        "examples",
+        "related_topics"
+      ],
+      "count": 2,
+      "modified": true
+    },
+    {
+      "file": "snippets/zeroing-and-centering.md",
+      "signposts_added": [
+        "examples"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "snippets/chain-theory.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "snippets/originating.md",
+      "signposts_added": [
+        "examples"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "snippets/importing-svg-points.md",
+      "signposts_added": [
+        "examples",
+        "related_topics"
+      ],
+      "count": 2,
+      "modified": true
+    },
+    {
+      "file": "snippets/bezier-curves.md",
+      "signposts_added": [
+        "examples"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "snippets/chain-order.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "snippets/modeling.md",
+      "signposts_added": [
+        "examples",
+        "related_topics"
+      ],
+      "count": 2,
+      "modified": true
+    },
+    {
+      "file": "snippets/intersection.md",
+      "signposts_added": [
+        "examples"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "snippets/layers.md",
+      "signposts_added": [
+        "examples"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "snippets/importing-svg-path-data.md",
+      "signposts_added": [
+        "examples",
+        "related_topics"
+      ],
+      "count": 2,
+      "modified": true
+    },
+    {
+      "file": "snippets/units.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "snippets/moving.md",
+      "signposts_added": [
+        "examples",
+        "related_topics"
+      ],
+      "count": 2,
+      "modified": true
+    },
+    {
+      "file": "snippets/points.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "snippets/chain-to-new-model.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "snippets/exporting-openjscad.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "snippets/paths.md",
+      "signposts_added": [
+        "examples",
+        "related_topics"
+      ],
+      "count": 2,
+      "modified": true
+    },
+    {
+      "file": "snippets/open-vs-closed-geometry.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "snippets/models.md",
+      "signposts_added": [
+        "examples",
+        "related_topics"
+      ],
+      "count": 2,
+      "modified": true
+    },
+    {
+      "file": "snippets/wireframe.md",
+      "signposts_added": [
+        "examples"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "snippets/scaling.md",
+      "signposts_added": [
+        "examples"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "snippets/exporting-svg-path-data.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "snippets/modifying-models.md",
+      "signposts_added": [
+        "examples",
+        "related_topics"
+      ],
+      "count": 2,
+      "modified": true
+    },
+    {
+      "file": "snippets/chain-multiple.md",
+      "signposts_added": [
+        "examples",
+        "related_topics"
+      ],
+      "count": 2,
+      "modified": true
+    },
+    {
+      "file": "snippets/chains.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "snippets/chain-fillet.md",
+      "signposts_added": [
+        "examples",
+        "related_topics"
+      ],
+      "count": 2,
+      "modified": true
+    },
+    {
+      "file": "snippets/chain-single.md",
+      "signposts_added": [
+        "examples",
+        "related_topics"
+      ],
+      "count": 2,
+      "modified": true
+    },
+    {
+      "file": "snippets/tree.md",
+      "signposts_added": [
+        "examples"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "snippets/order-of-operations.md",
+      "signposts_added": [
+        "examples"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "snippets/solvers.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "snippets/cloning.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "snippets/cascading-functions.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "snippets/exporting-pdf.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "snippets/getting-started-node.md",
+      "signposts_added": [
+        "examples"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "snippets/rotating.md",
+      "signposts_added": [
+        "examples"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "snippets/path-independence.md",
+      "signposts_added": [
+        "examples",
+        "related_topics"
+      ],
+      "count": 2,
+      "modified": true
+    },
+    {
+      "file": "snippets/combining.md",
+      "signposts_added": [
+        "examples"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "snippets/mirroring.md",
+      "signposts_added": [
+        "examples"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "snippets/chain-to-key-points.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "snippets/converging.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "snippets/chain-dogbone.md",
+      "signposts_added": [
+        "examples",
+        "related_topics"
+      ],
+      "count": 2,
+      "modified": true
+    },
+    {
+      "file": "snippets/measuring.md",
+      "signposts_added": [
+        "examples"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "snippets/layout-on-chain.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "snippets/chain-to-points.md",
+      "signposts_added": [
+        "examples",
+        "related_topics"
+      ],
+      "count": 2,
+      "modified": true
+    },
+    {
+      "file": "snippets/just-json.md",
+      "signposts_added": [
+        "examples"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "snippets/walking.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "advanced-drawing/index.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "model-trees/index.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "exporting/index.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "getting-started/index.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/index.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "api/index.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "migration/api-mapping.md",
+      "signposts_added": [
+        "examples"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "migration/migration-faq.md",
+      "signposts_added": [
+        "examples"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "basic-drawing/index.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "demos/node_modules/makerjs-band-clamp/README.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/word-wrapper/README.md",
+      "signposts_added": [
+        "examples"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "demos/node_modules/makerjs-ventgrid/README.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/makerjs-spoke-wedge/README.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/opentype-layout/LICENSE.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "demos/node_modules/opentype-layout/METRICS.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "demos/node_modules/opentype.js/AUTHORS.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/opentype.js/RELEASES.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/opentype.js/README.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/opentype.js/CONTRIBUTING.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/makerjs/README.md",
+      "signposts_added": [
+        "examples"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "demos/node_modules/bezier-js/README.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/marked/LICENSE.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/marked/README.md",
+      "signposts_added": [
+        "examples"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "demos/node_modules/makerjs-spiral/README.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/makerjs-rimbox/README.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/makerjs-polygon-rimbox/README.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/undici-types/README.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/makerjs-smile/README.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/makerjs-ventgridcircle/README.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/highlight.js/SUPPORTED_LANGUAGES.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/highlight.js/VERSION_11_UPGRADE.md",
+      "signposts_added": [
+        "examples"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "demos/node_modules/highlight.js/README.md",
+      "signposts_added": [
+        "examples"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "demos/node_modules/highlight.js/CHANGES.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/highlight.js/VERSION_10_UPGRADE.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/highlight.js/SECURITY.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/makerjs-nameplate/README.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/makerjs-monotext/README.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/object-assign/readme.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/makerjs-double-band-clamp/README.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/makerjs-spokes-flared/README.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/makerjs-heart/README.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/kdbush/README.md",
+      "signposts_added": [
+        "examples"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "demos/node_modules/makerjs-raster/README.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/makerjs-spokes-straight/README.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/makerjs-logo/README.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/graham_scan/readme.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/makerjs-logo/node_modules/makerjs/README.md",
+      "signposts_added": [
+        "examples"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "demos/node_modules/makerjs-logo/node_modules/makerjs/CONTRIBUTING.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/makerjs-spokes-straight/node_modules/makerjs/README.md",
+      "signposts_added": [
+        "examples"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "demos/node_modules/makerjs-spokes-straight/node_modules/makerjs/CONTRIBUTING.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/@danmarshall/jscad-typings/README.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/@danmarshall/makerjs-wrap-text/README.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/makerjs-raster/node_modules/makerjs/README.md",
+      "signposts_added": [
+        "examples"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "demos/node_modules/makerjs-raster/node_modules/@types/node/README.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/makerjs-heart/node_modules/makerjs/README.md",
+      "signposts_added": [
+        "examples"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "demos/node_modules/makerjs-heart/node_modules/makerjs/CONTRIBUTING.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/makerjs-spokes-flared/node_modules/makerjs/README.md",
+      "signposts_added": [
+        "examples"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "demos/node_modules/makerjs-spokes-flared/node_modules/makerjs/CONTRIBUTING.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/makerjs-double-band-clamp/node_modules/makerjs/README.md",
+      "signposts_added": [
+        "examples"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "demos/node_modules/makerjs-double-band-clamp/node_modules/@types/opentype.js/README.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/makerjs-double-band-clamp/node_modules/@types/node/README.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/makerjs-monotext/node_modules/makerjs/README.md",
+      "signposts_added": [
+        "examples"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "demos/node_modules/makerjs-monotext/node_modules/makerjs/CONTRIBUTING.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/makerjs-nameplate/node_modules/opentype.js/RELEASES.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/makerjs-nameplate/node_modules/opentype.js/README.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/makerjs-nameplate/node_modules/opentype.js/CONTRIBUTING.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/makerjs-nameplate/node_modules/makerjs/README.md",
+      "signposts_added": [
+        "examples"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "demos/node_modules/makerjs-nameplate/node_modules/opentype.js/examples/README.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/makerjs-nameplate/node_modules/@types/opentype.js/README.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/makerjs-nameplate/node_modules/@types/node/README.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/makerjs-half-band-clamp/node_modules/makerjs/README.md",
+      "signposts_added": [
+        "examples"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "demos/node_modules/makerjs-half-band-clamp/node_modules/makerjs/CONTRIBUTING.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/makerjs-ventgridcircle/node_modules/makerjs/CONTRIBUTING.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/makerjs-smile/node_modules/makerjs/CONTRIBUTING.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/makerjs-polygon-rimbox/node_modules/makerjs/README.md",
+      "signposts_added": [
+        "examples"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "demos/node_modules/makerjs-polygon-rimbox/node_modules/makerjs/CONTRIBUTING.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/makerjs-rimbox/node_modules/makerjs/CONTRIBUTING.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/makerjs-spiral/node_modules/makerjs/README.md",
+      "signposts_added": [
+        "examples"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "demos/node_modules/makerjs-spiral/node_modules/makerjs/CONTRIBUTING.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/makerjs/node_modules/@types/node/README.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/opentype.js/examples/README.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/opentype.js/.github/PULL_REQUEST_TEMPLATE.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/opentype.js/.github/ISSUE_TEMPLATE.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/makerjs-spoke-wedge/node_modules/makerjs/README.md",
+      "signposts_added": [
+        "examples"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "demos/node_modules/makerjs-spoke-wedge/node_modules/makerjs/CONTRIBUTING.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/makerjs-ventgrid/node_modules/makerjs/CONTRIBUTING.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/@types/opentype.js/README.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/@types/acorn/README.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/@types/bezier-js/README.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/@types/marked/README.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/@types/pdfkit/README.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/@types/detective/README.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/@types/node/README.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "demos/node_modules/makerjs-band-clamp/node_modules/makerjs/README.md",
+      "signposts_added": [
+        "examples"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "demos/node_modules/makerjs-band-clamp/node_modules/makerjs/CONTRIBUTING.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "external/text-encoding/LICENSE.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/publishing/publishing.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/publishing/packaging.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/advanced-drawing/index.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/model-trees/index.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/node-apps/node server.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/browser-apps/embed.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/exporting/index.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/intermediate-drawing/index.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/getting-started/index.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/working-with-chains/index.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/index.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/hierarchy.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/importing/index.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/basic-drawing/index.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/types/core_boolean-utils.SegmentClassifier.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/classes/core_paths.Arc.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/classes/core_paths.Chord.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/classes/models_Text.Text.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/classes/models_Dome.Dome.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/classes/core_xml.XmlTag.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/classes/core_collect.PointGraph.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/classes/models_Oval.Oval.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/classes/models_BoltRectangle.BoltRectangle.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/classes/models_Dogbone.Dogbone.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/classes/models_ConnectTheDots.ConnectTheDots.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/classes/models_RoundRectangle.RoundRectangle.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/classes/models_OvalArc.OvalArc.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/classes/models_Ellipse.Ellipse.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/classes/models_SCurve.SCurve.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/classes/models_BoltCircle.BoltCircle.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/classes/core_paths.Parallel.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/classes/core_paths.Line.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/classes/models_Ellipse.EllipticArc.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/classes/models_Slot.Slot.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/classes/models_BezierCurve-esm.BezierCurve.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/classes/models_Belt.Belt.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/classes/models_Rectangle.Rectangle.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/classes/types_jscad.export_.CAG.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/classes/core_paths.Circle.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/classes/models_Holes.Holes.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/classes/core_collect.Collector.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/classes/models_Polygon.Polygon.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/classes/models_Star.Star.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/classes/models_BezierCurve-esm.BezierSeed.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/classes/models_Ring.Ring.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/classes/types_jscad.export_.CSG.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/classes/models_Square.Square.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/classes/core_measure.Atlas.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/variables/core_maker.environmentTypes.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/variables/core_base.pathType.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/variables/core_maker.unitType.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/variables/core_base.environmentTypes.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/variables/core_base.version.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/variables/core_boolean-utils.DEFAULT_POINT_MATCHING_DISTANCE.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/variables/core_base.unitType.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/variables/core_maker.pathType.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/variables/core_svg-esm.svgUnit.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/variables/core_base.environment.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/variables/core_maker.environment.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/variables/core_maker.version.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/variables/core_exporter.colors.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_fillet-chain.chainFillet.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_maker.isFunction.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_model.moveRelative.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_simplify.simplify.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_measure.lineSlope.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_model.distort.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_path.mirror.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_maker.isModel.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_solvers.equilateralSide.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_maker.cloneObject.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_measure-minimal.pointDistance.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_model.scale.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/types_jscad.export_.CSG.Path2D.arc.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_maker.createRouteKey.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_maker.isPoint.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_measure-minimal.modelExtents.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_boolean-utils.isBetween.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_measure.pathExtents.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_path.addTo.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_model.clone.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_openjscad-esm.toJscadCAG.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_chain.toKeyPoints.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_model.addModel.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_measure.increase.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_path.zero.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_pdf-esm.toPDF.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_maker.isPathCircle.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_measure.modelExtents.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_base.splitDecimal.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_openjscad-esm.toJscadCSG.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_path.clone.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_model.addTo.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_path.copyProps.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_importer.parseNumericList.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_solvers.equilateralAltitude.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_layout.cloneToHoneycomb.md",
+      "signposts_added": [
+        "prerequisites",
+        "related_topics"
+      ],
+      "count": 2,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_measure.isBezierSeedLinear.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_path.toKeyPoints.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_layout.cloneToRadial.md",
+      "signposts_added": [
+        "prerequisites",
+        "related_topics"
+      ],
+      "count": 2,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_combine.isPathInsideModel.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_maker.splitDecimal.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_angle.ofLineInDegrees.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_path.scale.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_units.isValidUnit.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_measure.isArcConcaveTowardsPoint.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_expand.expand.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_openjscad-esm.toJscadScript.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_measure.isBetween.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_measure.isPointArrayClockwise.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_point.middle.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_base.cloneObject.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_measure-minimal.isBezierSeedLinear.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_base.extendObject.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_model.getSimilarModelId.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_maker.travel.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_angle.noRevolutions.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_point.fromArc.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_model.convertUnits.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_angle.ofArcMiddle.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_combine.combine.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_model.layer.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_model.walk.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_equal.isAngleEqual.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_angle.mirror.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_equal.isPointOnPath.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_path.moveRelative.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_angle.ofPointInRadians.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_measure.isPointInsideModel.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_deadend.removeDeadEnds.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_maker.extendObject.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_point.average.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_model.countChildModels.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_measure-minimal.augment.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_model.prefixPathIds.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_measure.modelPathLength.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_units.conversionScale.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_chain.cycle.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_point.rounded.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_angle.toRadians.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_path.layer.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_expand.outline.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_boolean-utils.isBetweenPoints.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_model.rotate.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_measure.isMeasurementOverlapping.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_combine.breakPathsAtIntersections.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_measure-minimal.pathLength.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_measure.isArcOverlapping.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_layout.cloneToBrick.md",
+      "signposts_added": [
+        "prerequisites",
+        "related_topics"
+      ],
+      "count": 2,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_point.mirror.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_measure.augment.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_path.center.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_model.addPath.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_model.getSimilarPathId.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_model.move.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_expand.expandPaths.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_kit.construct.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_point.closest.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_angle.ofChainLinkJoint.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_model.originate.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_equal.isSlopeParallel.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_measure.boundingHexagon.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_measure.isArcSpanOverlapping.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_maker.isPathArc.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_boolean-utils.isCircleOrArc.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_point.scale.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_boolean-utils.ensurePathLayer.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_solvers.circleTangentAngles.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_layout.cloneToColumn.md",
+      "signposts_added": [
+        "prerequisites",
+        "related_topics"
+      ],
+      "count": 2,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_point.rotate.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_svg-esm.toSVG.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_solvers.solveTriangleASA.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_combine.combineIntersection.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_measure.isChainClockwise.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_path.toPoints.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_svg-helpers.pathToSVGPathData.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_model.mirror.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_expand.straighten.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_boolean-utils.trackDeletedPath.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_point.clone.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_path.distort.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_point.zero.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_boolean-utils.pathBoundingBox.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_maker.isPathLine.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_chain.toPoints.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_intersect.intersection.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_point.fromSlopeIntersection.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_layout.cloneToGrid.md",
+      "signposts_added": [
+        "prerequisites",
+        "related_topics"
+      ],
+      "count": 2,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_model.findSingleChain.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_maker.isNumber.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_base.isPoint.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_combine.combineUnion.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_model.addCaption.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_svg-esm.toSVGPathData.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_model.zero.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_equal.isPointOnSlope.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_chain.toNewModel.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_chain.startAt.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_maker.isPathArcInBezierCurve.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_equal.isPointEqual.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_svg-esm.fromSVGPathData.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_base.isObject.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_point.distort.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_boolean-utils.isArcEnclosingAngle.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_fillet-chain.chainDogbone.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_boolean-utils.addPathToModel.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_solvers.solveTriangleSSS.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_measure.isBetweenArcAngles.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_fillet-path.pathFillet.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_boolean-utils.isZeroLength.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_measure-minimal.lineSlope.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_point.add.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_angle.ofArcSpan.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_equal.isPointOnCircle.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_measure.pointDistance.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_maker.isChain.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_base.round.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_measure-minimal.pathExtents.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_chain.findSingleChain.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_model.getAllCaptionsOffset.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_path.converge.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_base.isNumber.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_dxf.toDXF.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_boolean-utils.findPointsOnPath.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_angle.ofArcEnd.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_point.subtract.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_layout.cloneToRow.md",
+      "signposts_added": [
+        "prerequisites",
+        "related_topics"
+      ],
+      "count": 2,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_chain.findChains.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_angle.toDegrees.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_maker.isObject.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_fillet-path.pathDogbone.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_point.fromPolar.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_maker.isPath.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_openjscad-esm.toJscadSTL.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_point.fromPathEnds.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_boolean-utils.isBetweenArcAngles.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_kit.getParameterValues.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_layout.childrenOnChain.md",
+      "signposts_added": [
+        "prerequisites",
+        "related_topics"
+      ],
+      "count": 2,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_model.walkPaths.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_model.findChains.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_svg-helpers.chainToSVGPathData.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_angle.ofPointInDegrees.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_measure.isBetweenPoints.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_path.move.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_model.center.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_break.breakAtPoint.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_layout.childrenOnPath.md",
+      "signposts_added": [
+        "prerequisites",
+        "related_topics"
+      ],
+      "count": 2,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_point.fromAngleOnCircle.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_chain.reverse.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_measure.isLineOverlapping.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_base.isFunction.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_combine.combineSubtraction.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_measure.pathLength.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_equal.isPointDistinct.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_path.rotate.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_equal.isSlopeEqual.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_equal.isPathEqual.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_maker.round.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_path.moveTemporary.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/functions/core_base.createRouteKey.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_path.alterLength.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/functions/core_exporter.toJson.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/modules/core_angle.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/modules/core_chain.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/modules/models_Dome.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/modules/core_maker.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/modules/models_RoundRectangle.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/modules/models_Ring.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/modules/core_expand.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/modules/core_dxf.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/modules/models_OvalArc.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/modules/models_Ellipse.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/modules/core_schema.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/modules/core_path.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/modules/types_jscad.export_.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/modules/core_exporter-index.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/modules/core_base.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/modules/models_BezierCurve-esm.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/modules/core_paths.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/modules/core_svg-esm.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/modules/core_intersect.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/modules/core_fillet-core.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/modules/models_Text.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/modules/core_measure-minimal.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/modules/core_units.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/modules/core_equal.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/modules/models_BoltRectangle.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/modules/core_svg-helpers.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/modules/core_layout.md",
+      "signposts_added": [
+        "prerequisites",
+        "related_topics"
+      ],
+      "count": 2,
+      "modified": true
+    },
+    {
+      "file": "converted/api/modules/models_Square.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/modules/index.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/modules/models.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/modules/models_Star.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/modules/models_ConnectTheDots.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/modules/models_Polygon.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/modules/core_break.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/modules/models_BoltCircle.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/modules/models_Slot.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/modules/core_solvers.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/modules/types_jscad.export_.CSG.Path2D.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/modules/models_Dogbone.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/modules/core_exporter.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/modules/core_kit.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/modules/types_jscad.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/modules/models_SCurve.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/modules/core_collect.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/modules/core_importer.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/modules/core_openjscad-esm.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/modules/core_cascades.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/modules/core_measure.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/modules/core_point.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/modules/models_Oval.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/modules/core_pdf-esm.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/modules/core_deadend.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/modules/core_model.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/modules/models_Belt.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/modules/core_xml.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/modules/models_Holes.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/modules/core_fillet-path.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/modules/core_boolean-utils.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/modules/core_simplify.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/modules/core_cascades.MakerJs.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/modules/core_fillet-chain.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/modules/types_jscad.export_.CSG.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/modules/core_combine.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/modules/models_Rectangle.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/interfaces/core_collect.ICollectionKeyComparer.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IWalkOptions.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/interfaces/core_svg-esm.ISVGPathDataRenderOptions.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/interfaces/core_schema.IPathArcInBezierCurve.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/interfaces/core_schema.IPathArc.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/interfaces/core_dxf.IDXFRenderOptions.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IMeasurePointInsideOptions.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/interfaces/core_schema.IPathLine.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/interfaces/core_schema.IPath.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/interfaces/core_svg-esm.IFlowAnnotation.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/interfaces/core_path.IWalkPath.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IWalkPathBooleanCallback.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IIsPointOnPathOptions.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/interfaces/types_jscad.StlSerializer.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IRouteOffset.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/interfaces/core_collect.IPointGraphIndexElement.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/interfaces/core_collect.ICollection.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/interfaces/core_svg-esm.IPathDataByLayerMap.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/interfaces/core_svg-esm.ISVGElementRenderOptions.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/interfaces/core_boolean-utils.SegmentClassification.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IMeasure.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/interfaces/core_svg-esm.ISVGImportOptions.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/interfaces/core_svg-esm.ISVGRenderOptions.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/interfaces/core_xml.IXmlTagAttrs.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/interfaces/types_jscad.export_.CSG.ICircleOptions.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/interfaces/core_openjscad-esm.IJscadScriptOptions.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IWalkModel.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IMeasureMap.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IModelPathCallback.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/interfaces/core_schema.IPathMap.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IChainLink.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IPointMatchOptions.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/interfaces/core_schema.IPathIntersectionOptions.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IPathIntersectionBaseOptions.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/interfaces/core_openjscad-esm.IJscadCsgOptions.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/interfaces/core_openjscad-esm.IOpenJsCadOptionsMap.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/interfaces/core_openjscad-esm.IJscadExtrudeOptions.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IFindLoopsOptions.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.ICombineOptions.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IWalkModelCallback.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/interfaces/core_boolean-utils.DeletedPathInfo.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IPathRemoved.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/interfaces/core_openjscad-esm.IStatusCallback.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/interfaces/core_openjscad-esm.IOpenJsCadOptions.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/interfaces/core_schema.IPathCircle.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/interfaces/core_schema.IModelMap.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IPathIntersection.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IPathDirectional.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/interfaces/core_dxf.IDXFLayerOptions.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/interfaces/core_cascades.MakerJs.ICascade.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IKit.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IFindChainsOptions.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IPathIntersectionOptions.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IMetaParameter.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/interfaces/core_path.IChain.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/interfaces/core_cascades.MakerJs.ICascadePath.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.ISimplifyOptions.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IRefPathIdInModel.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IWalkModelCancellableCallback.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/interfaces/core_schema.ICaption.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/interfaces/core_exporter.IStatusCallback.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/interfaces/core_pdf-esm.IPDFRenderOptions.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/interfaces/core_svg-esm.SvgUnitConversion.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IWalkPathCallback.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/interfaces/core_openjscad-esm.IJscadCagOptions.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IMeasureWithCenter.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/interfaces/core_schema.IPathIntersection.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IChainsMap.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IContainChainsOptions.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/interfaces/core_cascades.MakerJs.ICascadePoint.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.ICascade.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IWalkPath.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/interfaces/core_cascades.MakerJs.ICascadeModel.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IRefModelInModel.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IChainCallback.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IChain.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/interfaces/types_jscad.export_.CSG.IArcOptions.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/interfaces/core_schema.IPoint.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/interfaces/core_schema.IBezierRange.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/interfaces/core_schema.IModel.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/interfaces/types_jscad.export_.CSG.IEllpiticalArcOptions.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/interfaces/core_angle.IChainLink.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/interfaces/core_exporter.IJsonExportOptions.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/interfaces/core_schema.IPathBezierSeed.md",
+      "signposts_added": [
+        "related_topics"
+      ],
+      "count": 1,
+      "modified": true
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IBoundingHex.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.ISlope.md",
+      "signposts_added": [],
+      "count": 0,
+      "modified": false
+    }
+  ],
+  "errors": []
+}

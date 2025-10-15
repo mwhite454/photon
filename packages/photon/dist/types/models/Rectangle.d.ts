@@ -1,5 +1,5 @@
 import { IModel, IPoint, IPathMap } from '../core/schema.js';
-import type { IMeasure } from '../core/maker.js';
+import type { IMeasure } from '../core/core.js';
 export declare class Rectangle implements IModel {
     paths: IPathMap;
     origin: IPoint;

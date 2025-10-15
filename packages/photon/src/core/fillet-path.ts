@@ -1,5 +1,5 @@
 import { IPoint, IPath, IPathLine, IPathArc } from './schema.js';
-import { round, isPathLine, extendObject } from './maker.js';
+import { round, isPathLine, extendObject } from './core.js';
 import * as point from './point.js';
 import * as angle from './angle.js';
 import { Arc, Line } from './paths.js';
@@ -12,7 +12,7 @@ import {
   getLineRatio,
   IMatchPointProperty,
 } from './fillet-core.js';
-import type { IPointMatchOptions } from './maker.js';
+import type { IPointMatchOptions } from './core.js';
 import { intersection } from './intersect.js';
 
 export function pathDogbone(lineA: IPathLine, lineB: IPathLine, filletRadius: number, options?: IPointMatchOptions): IPathArc | null {

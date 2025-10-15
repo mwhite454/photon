@@ -1,6 +1,6 @@
 import type { IModel, IModelMap, IPathMap, IPoint, IPath, IPathBezierSeed, IPathArc, IPathArcInBezierCurve, IBezierRange } from '../core/schema.js';
-import type { IChain, IWalkPath, IFindChainsOptions, IKit } from '../core/maker.js';
-import { pathType, round, isPoint } from '../core/maker.js';
+import type { IChain, IWalkPath, IFindChainsOptions, IKit } from '../core/core.js';
+import { pathType, round, isPoint } from '../core/core.js';
 import * as point from '../core/point.js';
 import * as path from '../core/path.js';
 import * as angle from '../core/angle.js';

@@ -1,6 +1,6 @@
 import type { IModel, IPoint, IPath, IPathCircle, IPathLine, IPathArc } from './schema.js';
-import type { IChain, IChainLink, IChainsMap, IFindChainsOptions, IPointMatchOptions, IFindLoopsOptions } from './maker.js';
-import { extendObject, isNumber, round, pathType } from './maker.js';
+import type { IChain, IChainLink, IChainsMap, IFindChainsOptions, IPointMatchOptions, IFindLoopsOptions } from './core.js';
+import { extendObject, isNumber, round, pathType } from './core.js';
 import * as point from './point.js';
 import * as angle from './angle.js';
 import * as paths from './paths.js';

@@ -1,0 +1,71 @@
+---
+ai_summary: isArcSpanOverlapping | Photon
+category: API Reference
+description: isArcSpanOverlapping | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- isarcspanoverlapping
+- photon
+primary_topic: arcs
+source: docs/docs/api/functions/core_measure.isArcSpanOverlapping.html
+tags:
+- intermediate
+- api-reference
+- arcs
+title: isArcSpanOverlapping | Photon
+---
+isArcSpanOverlapping | Photon
+
+[Photon](../index.md)
+
+
+
+
+Preparing search index...
+
+* [core/measure](../modules/core_measure.md)
+* isArcSpanOverlapping
+
+# Function isArcSpanOverlapping
+
+* isArcSpanOverlapping(
+      arcA: [IPathArc](../interfaces/core_schema.IPathArc.md),
+      arcB: [IPathArc](../interfaces/core_schema.IPathArc.md),
+      excludeTangents: boolean,
+  ): boolean
+
+  Check for arc overlapping another arc.
+
+  #### Parameters
+
+  + arcA: [IPathArc](../interfaces/core_schema.IPathArc.md)
+
+    The arc to test.
+  + arcB: [IPathArc](../interfaces/core_schema.IPathArc.md)
+
+    The arc to check for overlap.
+  + excludeTangents: boolean
+
+    Boolean to exclude exact endpoints and only look for deep overlaps.
+
+  #### Returns boolean
+
+  Boolean true if arcA is overlapped with arcB.
+
+  + Defined in [core/measure.ts:116](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure.ts#L116)
+
+### Settings
+
+Member Visibility
+
+* Protected
+* Inherited
+
+ThemeOSLightDark
+
+[Photon](../index.md)
+
+* Loading...
+
+Generated using [TypeDoc](https://typedoc.org/)

@@ -1,0 +1,4111 @@
+{
+  "timestamp": "2025-10-14T11:49:54.701805",
+  "migration_file": "migration-pages.json",
+  "total_files": 413,
+  "validated": 413,
+  "passed": 7,
+  "failed": 406,
+  "skipped": 0,
+  "issues": [
+    {
+      "source": "docs/docs/advanced-drawing/index.html",
+      "target": "docs-new/docs/converted/advanced-drawing/index.md",
+      "title": "Index",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 16.67%"
+      ],
+      "similarity": 0.1667
+    },
+    {
+      "source": "docs/docs/api/classes/core_collect.Collector.html",
+      "target": "docs-new/docs/converted/api/classes/core_collect.Collector.md",
+      "title": "Collector | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 34.46%"
+      ],
+      "similarity": 0.3446
+    },
+    {
+      "source": "docs/docs/api/classes/core_collect.PointGraph.html",
+      "target": "docs-new/docs/converted/api/classes/core_collect.PointGraph.md",
+      "title": "PointGraph | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 51.70%"
+      ],
+      "similarity": 0.517
+    },
+    {
+      "source": "docs/docs/api/classes/core_measure.Atlas.html",
+      "target": "docs-new/docs/converted/api/classes/core_measure.Atlas.md",
+      "title": "Atlas | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 56.45%"
+      ],
+      "similarity": 0.5645
+    },
+    {
+      "source": "docs/docs/api/classes/core_paths.Arc.html",
+      "target": "docs-new/docs/converted/api/classes/core_paths.Arc.md",
+      "title": "Arc | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 53.11%"
+      ],
+      "similarity": 0.5311
+    },
+    {
+      "source": "docs/docs/api/classes/core_paths.Chord.html",
+      "target": "docs-new/docs/converted/api/classes/core_paths.Chord.md",
+      "title": "Chord | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 59.20%"
+      ],
+      "similarity": 0.592
+    },
+    {
+      "source": "docs/docs/api/classes/core_paths.Circle.html",
+      "target": "docs-new/docs/converted/api/classes/core_paths.Circle.md",
+      "title": "Circle | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 44.24%"
+      ],
+      "similarity": 0.4424
+    },
+    {
+      "source": "docs/docs/api/classes/core_paths.Line.html",
+      "target": "docs-new/docs/converted/api/classes/core_paths.Line.md",
+      "title": "Line | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 51.26%"
+      ],
+      "similarity": 0.5126
+    },
+    {
+      "source": "docs/docs/api/classes/core_paths.Parallel.html",
+      "target": "docs-new/docs/converted/api/classes/core_paths.Parallel.md",
+      "title": "Parallel | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 58.14%"
+      ],
+      "similarity": 0.5814
+    },
+    {
+      "source": "docs/docs/api/classes/core_xml.XmlTag.html",
+      "target": "docs-new/docs/converted/api/classes/core_xml.XmlTag.md",
+      "title": "XmlTag | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 45.61%"
+      ],
+      "similarity": 0.4561
+    },
+    {
+      "source": "docs/docs/api/classes/models_Belt.Belt.html",
+      "target": "docs-new/docs/converted/api/classes/models_Belt.Belt.md",
+      "title": "Belt | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 53.12%"
+      ],
+      "similarity": 0.5312
+    },
+    {
+      "source": "docs/docs/api/classes/models_BezierCurve-esm.BezierCurve.html",
+      "target": "docs-new/docs/converted/api/classes/models_BezierCurve-esm.BezierCurve.md",
+      "title": "BezierCurve | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 31.86%"
+      ],
+      "similarity": 0.3186
+    },
+    {
+      "source": "docs/docs/api/classes/models_BezierCurve-esm.BezierSeed.html",
+      "target": "docs-new/docs/converted/api/classes/models_BezierCurve-esm.BezierSeed.md",
+      "title": "BezierSeed | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 54.04%"
+      ],
+      "similarity": 0.5404
+    },
+    {
+      "source": "docs/docs/api/classes/models_BoltCircle.BoltCircle.html",
+      "target": "docs-new/docs/converted/api/classes/models_BoltCircle.BoltCircle.md",
+      "title": "BoltCircle | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 51.49%"
+      ],
+      "similarity": 0.5149
+    },
+    {
+      "source": "docs/docs/api/classes/models_BoltRectangle.BoltRectangle.html",
+      "target": "docs-new/docs/converted/api/classes/models_BoltRectangle.BoltRectangle.md",
+      "title": "BoltRectangle | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 53.12%"
+      ],
+      "similarity": 0.5312
+    },
+    {
+      "source": "docs/docs/api/classes/models_ConnectTheDots.ConnectTheDots.html",
+      "target": "docs-new/docs/converted/api/classes/models_ConnectTheDots.ConnectTheDots.md",
+      "title": "ConnectTheDots | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 53.20%"
+      ],
+      "similarity": 0.532
+    },
+    {
+      "source": "docs/docs/api/classes/models_Dogbone.Dogbone.html",
+      "target": "docs-new/docs/converted/api/classes/models_Dogbone.Dogbone.md",
+      "title": "Dogbone | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 55.17%"
+      ],
+      "similarity": 0.5517
+    },
+    {
+      "source": "docs/docs/api/classes/models_Dome.Dome.html",
+      "target": "docs-new/docs/converted/api/classes/models_Dome.Dome.md",
+      "title": "Dome | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 50.49%"
+      ],
+      "similarity": 0.5049
+    },
+    {
+      "source": "docs/docs/api/classes/models_Ellipse.Ellipse.html",
+      "target": "docs-new/docs/converted/api/classes/models_Ellipse.Ellipse.md",
+      "title": "Ellipse | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 50.36%"
+      ],
+      "similarity": 0.5036
+    },
+    {
+      "source": "docs/docs/api/classes/models_Ellipse.EllipticArc.html",
+      "target": "docs-new/docs/converted/api/classes/models_Ellipse.EllipticArc.md",
+      "title": "EllipticArc | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 53.85%"
+      ],
+      "similarity": 0.5385
+    },
+    {
+      "source": "docs/docs/api/classes/models_Holes.Holes.html",
+      "target": "docs-new/docs/converted/api/classes/models_Holes.Holes.md",
+      "title": "Holes | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 53.51%"
+      ],
+      "similarity": 0.5351
+    },
+    {
+      "source": "docs/docs/api/classes/models_Oval.Oval.html",
+      "target": "docs-new/docs/converted/api/classes/models_Oval.Oval.md",
+      "title": "Oval | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 54.26%"
+      ],
+      "similarity": 0.5426
+    },
+    {
+      "source": "docs/docs/api/classes/models_OvalArc.OvalArc.html",
+      "target": "docs-new/docs/converted/api/classes/models_OvalArc.OvalArc.md",
+      "title": "OvalArc | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 46.15%"
+      ],
+      "similarity": 0.4615
+    },
+    {
+      "source": "docs/docs/api/classes/models_Polygon.Polygon.html",
+      "target": "docs-new/docs/converted/api/classes/models_Polygon.Polygon.md",
+      "title": "Polygon | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 42.31%"
+      ],
+      "similarity": 0.4231
+    },
+    {
+      "source": "docs/docs/api/classes/models_Rectangle.Rectangle.html",
+      "target": "docs-new/docs/converted/api/classes/models_Rectangle.Rectangle.md",
+      "title": "Rectangle | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 52.74%"
+      ],
+      "similarity": 0.5274
+    },
+    {
+      "source": "docs/docs/api/classes/models_Ring.Ring.html",
+      "target": "docs-new/docs/converted/api/classes/models_Ring.Ring.md",
+      "title": "Ring | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 53.12%"
+      ],
+      "similarity": 0.5312
+    },
+    {
+      "source": "docs/docs/api/classes/models_RoundRectangle.RoundRectangle.html",
+      "target": "docs-new/docs/converted/api/classes/models_RoundRectangle.RoundRectangle.md",
+      "title": "RoundRectangle | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 52.73%"
+      ],
+      "similarity": 0.5273
+    },
+    {
+      "source": "docs/docs/api/classes/models_SCurve.SCurve.html",
+      "target": "docs-new/docs/converted/api/classes/models_SCurve.SCurve.md",
+      "title": "SCurve | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 54.26%"
+      ],
+      "similarity": 0.5426
+    },
+    {
+      "source": "docs/docs/api/classes/models_Slot.Slot.html",
+      "target": "docs-new/docs/converted/api/classes/models_Slot.Slot.md",
+      "title": "Slot | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 46.67%"
+      ],
+      "similarity": 0.4667
+    },
+    {
+      "source": "docs/docs/api/classes/models_Square.Square.html",
+      "target": "docs-new/docs/converted/api/classes/models_Square.Square.md",
+      "title": "Square | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 56.67%"
+      ],
+      "similarity": 0.5667
+    },
+    {
+      "source": "docs/docs/api/classes/models_Star.Star.html",
+      "target": "docs-new/docs/converted/api/classes/models_Star.Star.md",
+      "title": "Star | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 46.49%"
+      ],
+      "similarity": 0.4649
+    },
+    {
+      "source": "docs/docs/api/classes/models_Text.Text.html",
+      "target": "docs-new/docs/converted/api/classes/models_Text.Text.md",
+      "title": "Text | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 57.58%"
+      ],
+      "similarity": 0.5758
+    },
+    {
+      "source": "docs/docs/api/classes/types_jscad.export_.CAG.html",
+      "target": "docs-new/docs/converted/api/classes/types_jscad.export_.CAG.md",
+      "title": "CAG | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 44.25%"
+      ],
+      "similarity": 0.4425
+    },
+    {
+      "source": "docs/docs/api/classes/types_jscad.export_.CSG.html",
+      "target": "docs-new/docs/converted/api/classes/types_jscad.export_.CSG.md",
+      "title": "CSG | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 44.19%"
+      ],
+      "similarity": 0.4419
+    },
+    {
+      "source": "docs/docs/api/functions/core_angle.mirror.html",
+      "target": "docs-new/docs/converted/api/functions/core_angle.mirror.md",
+      "title": "mirror | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 50.00%"
+      ],
+      "similarity": 0.5
+    },
+    {
+      "source": "docs/docs/api/functions/core_angle.noRevolutions.html",
+      "target": "docs-new/docs/converted/api/functions/core_angle.noRevolutions.md",
+      "title": "noRevolutions | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 53.85%"
+      ],
+      "similarity": 0.5385
+    },
+    {
+      "source": "docs/docs/api/functions/core_angle.ofArcEnd.html",
+      "target": "docs-new/docs/converted/api/functions/core_angle.ofArcEnd.md",
+      "title": "ofArcEnd | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 55.93%"
+      ],
+      "similarity": 0.5593
+    },
+    {
+      "source": "docs/docs/api/functions/core_angle.ofArcMiddle.html",
+      "target": "docs-new/docs/converted/api/functions/core_angle.ofArcMiddle.md",
+      "title": "ofArcMiddle | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 50.77%"
+      ],
+      "similarity": 0.5077
+    },
+    {
+      "source": "docs/docs/api/functions/core_angle.ofArcSpan.html",
+      "target": "docs-new/docs/converted/api/functions/core_angle.ofArcSpan.md",
+      "title": "ofArcSpan | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 55.36%"
+      ],
+      "similarity": 0.5536
+    },
+    {
+      "source": "docs/docs/api/functions/core_angle.ofChainLinkJoint.html",
+      "target": "docs-new/docs/converted/api/functions/core_angle.ofChainLinkJoint.md",
+      "title": "ofChainLinkJoint | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 50.00%"
+      ],
+      "similarity": 0.5
+    },
+    {
+      "source": "docs/docs/api/functions/core_angle.ofLineInDegrees.html",
+      "target": "docs-new/docs/converted/api/functions/core_angle.ofLineInDegrees.md",
+      "title": "ofLineInDegrees | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 50.00%"
+      ],
+      "similarity": 0.5
+    },
+    {
+      "source": "docs/docs/api/functions/core_angle.ofPointInDegrees.html",
+      "target": "docs-new/docs/converted/api/functions/core_angle.ofPointInDegrees.md",
+      "title": "ofPointInDegrees | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 47.37%"
+      ],
+      "similarity": 0.4737
+    },
+    {
+      "source": "docs/docs/api/functions/core_angle.ofPointInRadians.html",
+      "target": "docs-new/docs/converted/api/functions/core_angle.ofPointInRadians.md",
+      "title": "ofPointInRadians | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 47.37%"
+      ],
+      "similarity": 0.4737
+    },
+    {
+      "source": "docs/docs/api/functions/core_angle.toDegrees.html",
+      "target": "docs-new/docs/converted/api/functions/core_angle.toDegrees.md",
+      "title": "toDegrees | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 52.94%"
+      ],
+      "similarity": 0.5294
+    },
+    {
+      "source": "docs/docs/api/functions/core_angle.toRadians.html",
+      "target": "docs-new/docs/converted/api/functions/core_angle.toRadians.md",
+      "title": "toRadians | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 52.94%"
+      ],
+      "similarity": 0.5294
+    },
+    {
+      "source": "docs/docs/api/functions/core_base.cloneObject.html",
+      "target": "docs-new/docs/converted/api/functions/core_base.cloneObject.md",
+      "title": "cloneObject | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 44.68%"
+      ],
+      "similarity": 0.4468
+    },
+    {
+      "source": "docs/docs/api/functions/core_base.createRouteKey.html",
+      "target": "docs-new/docs/converted/api/functions/core_base.createRouteKey.md",
+      "title": "createRouteKey | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 43.48%"
+      ],
+      "similarity": 0.4348
+    },
+    {
+      "source": "docs/docs/api/functions/core_base.extendObject.html",
+      "target": "docs-new/docs/converted/api/functions/core_base.extendObject.md",
+      "title": "extendObject | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 39.22%"
+      ],
+      "similarity": 0.3922
+    },
+    {
+      "source": "docs/docs/api/functions/core_base.isFunction.html",
+      "target": "docs-new/docs/converted/api/functions/core_base.isFunction.md",
+      "title": "isFunction | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 48.89%"
+      ],
+      "similarity": 0.4889
+    },
+    {
+      "source": "docs/docs/api/functions/core_base.isNumber.html",
+      "target": "docs-new/docs/converted/api/functions/core_base.isNumber.md",
+      "title": "isNumber | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 50.00%"
+      ],
+      "similarity": 0.5
+    },
+    {
+      "source": "docs/docs/api/functions/core_base.isObject.html",
+      "target": "docs-new/docs/converted/api/functions/core_base.isObject.md",
+      "title": "isObject | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 50.00%"
+      ],
+      "similarity": 0.5
+    },
+    {
+      "source": "docs/docs/api/functions/core_base.isPoint.html",
+      "target": "docs-new/docs/converted/api/functions/core_base.isPoint.md",
+      "title": "isPoint | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 43.14%"
+      ],
+      "similarity": 0.4314
+    },
+    {
+      "source": "docs/docs/api/functions/core_base.round.html",
+      "target": "docs-new/docs/converted/api/functions/core_base.round.md",
+      "title": "round | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 42.31%"
+      ],
+      "similarity": 0.4231
+    },
+    {
+      "source": "docs/docs/api/functions/core_base.splitDecimal.html",
+      "target": "docs-new/docs/converted/api/functions/core_base.splitDecimal.md",
+      "title": "splitDecimal | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 42.55%"
+      ],
+      "similarity": 0.4255
+    },
+    {
+      "source": "docs/docs/api/functions/core_boolean-utils.addPathToModel.html",
+      "target": "docs-new/docs/converted/api/functions/core_boolean-utils.addPathToModel.md",
+      "title": "addPathToModel | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 37.50%"
+      ],
+      "similarity": 0.375
+    },
+    {
+      "source": "docs/docs/api/functions/core_boolean-utils.ensurePathLayer.html",
+      "target": "docs-new/docs/converted/api/functions/core_boolean-utils.ensurePathLayer.md",
+      "title": "ensurePathLayer | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 40.00%"
+      ],
+      "similarity": 0.4
+    },
+    {
+      "source": "docs/docs/api/functions/core_boolean-utils.findPointsOnPath.html",
+      "target": "docs-new/docs/converted/api/functions/core_boolean-utils.findPointsOnPath.md",
+      "title": "findPointsOnPath | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 33.87%"
+      ],
+      "similarity": 0.3387
+    },
+    {
+      "source": "docs/docs/api/functions/core_boolean-utils.isArcEnclosingAngle.html",
+      "target": "docs-new/docs/converted/api/functions/core_boolean-utils.isArcEnclosingAngle.md",
+      "title": "isArcEnclosingAngle | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 38.98%"
+      ],
+      "similarity": 0.3898
+    },
+    {
+      "source": "docs/docs/api/functions/core_boolean-utils.isBetween.html",
+      "target": "docs-new/docs/converted/api/functions/core_boolean-utils.isBetween.md",
+      "title": "isBetween | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 36.07%"
+      ],
+      "similarity": 0.3607
+    },
+    {
+      "source": "docs/docs/api/functions/core_boolean-utils.isBetweenArcAngles.html",
+      "target": "docs-new/docs/converted/api/functions/core_boolean-utils.isBetweenArcAngles.md",
+      "title": "isBetweenArcAngles | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 35.48%"
+      ],
+      "similarity": 0.3548
+    },
+    {
+      "source": "docs/docs/api/functions/core_boolean-utils.isBetweenPoints.html",
+      "target": "docs-new/docs/converted/api/functions/core_boolean-utils.isBetweenPoints.md",
+      "title": "isBetweenPoints | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 33.85%"
+      ],
+      "similarity": 0.3385
+    },
+    {
+      "source": "docs/docs/api/functions/core_boolean-utils.isCircleOrArc.html",
+      "target": "docs-new/docs/converted/api/functions/core_boolean-utils.isCircleOrArc.md",
+      "title": "isCircleOrArc | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 42.00%"
+      ],
+      "similarity": 0.42
+    },
+    {
+      "source": "docs/docs/api/functions/core_boolean-utils.isZeroLength.html",
+      "target": "docs-new/docs/converted/api/functions/core_boolean-utils.isZeroLength.md",
+      "title": "isZeroLength | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 41.82%"
+      ],
+      "similarity": 0.4182
+    },
+    {
+      "source": "docs/docs/api/functions/core_boolean-utils.pathBoundingBox.html",
+      "target": "docs-new/docs/converted/api/functions/core_boolean-utils.pathBoundingBox.md",
+      "title": "pathBoundingBox | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 33.93%"
+      ],
+      "similarity": 0.3393
+    },
+    {
+      "source": "docs/docs/api/functions/core_boolean-utils.trackDeletedPath.html",
+      "target": "docs-new/docs/converted/api/functions/core_boolean-utils.trackDeletedPath.md",
+      "title": "trackDeletedPath | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 32.39%"
+      ],
+      "similarity": 0.3239
+    },
+    {
+      "source": "docs/docs/api/functions/core_break.breakAtPoint.html",
+      "target": "docs-new/docs/converted/api/functions/core_break.breakAtPoint.md",
+      "title": "breakAtPoint | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 67.37%"
+      ],
+      "similarity": 0.6737
+    },
+    {
+      "source": "docs/docs/api/functions/core_chain.cycle.html",
+      "target": "docs-new/docs/converted/api/functions/core_chain.cycle.md",
+      "title": "cycle | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 58.11%"
+      ],
+      "similarity": 0.5811
+    },
+    {
+      "source": "docs/docs/api/functions/core_chain.findChains.html",
+      "target": "docs-new/docs/converted/api/functions/core_chain.findChains.md",
+      "title": "findChains | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 55.88%"
+      ],
+      "similarity": 0.5588
+    },
+    {
+      "source": "docs/docs/api/functions/core_chain.findSingleChain.html",
+      "target": "docs-new/docs/converted/api/functions/core_chain.findSingleChain.md",
+      "title": "findSingleChain | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 65.85%"
+      ],
+      "similarity": 0.6585
+    },
+    {
+      "source": "docs/docs/api/functions/core_chain.reverse.html",
+      "target": "docs-new/docs/converted/api/functions/core_chain.reverse.md",
+      "title": "reverse | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 54.55%"
+      ],
+      "similarity": 0.5455
+    },
+    {
+      "source": "docs/docs/api/functions/core_chain.startAt.html",
+      "target": "docs-new/docs/converted/api/functions/core_chain.startAt.md",
+      "title": "startAt | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 61.11%"
+      ],
+      "similarity": 0.6111
+    },
+    {
+      "source": "docs/docs/api/functions/core_chain.toKeyPoints.html",
+      "target": "docs-new/docs/converted/api/functions/core_chain.toKeyPoints.md",
+      "title": "toKeyPoints | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 56.63%"
+      ],
+      "similarity": 0.5663
+    },
+    {
+      "source": "docs/docs/api/functions/core_chain.toNewModel.html",
+      "target": "docs-new/docs/converted/api/functions/core_chain.toNewModel.md",
+      "title": "toNewModel | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 64.58%"
+      ],
+      "similarity": 0.6458
+    },
+    {
+      "source": "docs/docs/api/functions/core_chain.toPoints.html",
+      "target": "docs-new/docs/converted/api/functions/core_chain.toPoints.md",
+      "title": "toPoints | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 50.00%"
+      ],
+      "similarity": 0.5
+    },
+    {
+      "source": "docs/docs/api/functions/core_combine.breakPathsAtIntersections.html",
+      "target": "docs-new/docs/converted/api/functions/core_combine.breakPathsAtIntersections.md",
+      "title": "breakPathsAtIntersections | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 36.54%"
+      ],
+      "similarity": 0.3654
+    },
+    {
+      "source": "docs/docs/api/functions/core_combine.combine.html",
+      "target": "docs-new/docs/converted/api/functions/core_combine.combine.md",
+      "title": "combine | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 31.08%"
+      ],
+      "similarity": 0.3108
+    },
+    {
+      "source": "docs/docs/api/functions/core_combine.combineIntersection.html",
+      "target": "docs-new/docs/converted/api/functions/core_combine.combineIntersection.md",
+      "title": "combineIntersection | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 38.78%"
+      ],
+      "similarity": 0.3878
+    },
+    {
+      "source": "docs/docs/api/functions/core_combine.combineSubtraction.html",
+      "target": "docs-new/docs/converted/api/functions/core_combine.combineSubtraction.md",
+      "title": "combineSubtraction | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 38.78%"
+      ],
+      "similarity": 0.3878
+    },
+    {
+      "source": "docs/docs/api/functions/core_combine.combineUnion.html",
+      "target": "docs-new/docs/converted/api/functions/core_combine.combineUnion.md",
+      "title": "combineUnion | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 38.78%"
+      ],
+      "similarity": 0.3878
+    },
+    {
+      "source": "docs/docs/api/functions/core_combine.isPathInsideModel.html",
+      "target": "docs-new/docs/converted/api/functions/core_combine.isPathInsideModel.md",
+      "title": "isPathInsideModel | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 30.43%"
+      ],
+      "similarity": 0.3043
+    },
+    {
+      "source": "docs/docs/api/functions/core_deadend.removeDeadEnds.html",
+      "target": "docs-new/docs/converted/api/functions/core_deadend.removeDeadEnds.md",
+      "title": "removeDeadEnds | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 59.02%"
+      ],
+      "similarity": 0.5902
+    },
+    {
+      "source": "docs/docs/api/functions/core_dxf.toDXF.html",
+      "target": "docs-new/docs/converted/api/functions/core_dxf.toDXF.md",
+      "title": "toDXF | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 52.38%"
+      ],
+      "similarity": 0.5238
+    },
+    {
+      "source": "docs/docs/api/functions/core_equal.isAngleEqual.html",
+      "target": "docs-new/docs/converted/api/functions/core_equal.isAngleEqual.md",
+      "title": "isAngleEqual | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 48.39%"
+      ],
+      "similarity": 0.4839
+    },
+    {
+      "source": "docs/docs/api/functions/core_equal.isPathEqual.html",
+      "target": "docs-new/docs/converted/api/functions/core_equal.isPathEqual.md",
+      "title": "isPathEqual | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 38.36%"
+      ],
+      "similarity": 0.3836
+    },
+    {
+      "source": "docs/docs/api/functions/core_equal.isPointDistinct.html",
+      "target": "docs-new/docs/converted/api/functions/core_equal.isPointDistinct.md",
+      "title": "isPointDistinct | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 45.83%"
+      ],
+      "similarity": 0.4583
+    },
+    {
+      "source": "docs/docs/api/functions/core_equal.isPointEqual.html",
+      "target": "docs-new/docs/converted/api/functions/core_equal.isPointEqual.md",
+      "title": "isPointEqual | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 44.44%"
+      ],
+      "similarity": 0.4444
+    },
+    {
+      "source": "docs/docs/api/functions/core_equal.isPointOnCircle.html",
+      "target": "docs-new/docs/converted/api/functions/core_equal.isPointOnCircle.md",
+      "title": "isPointOnCircle | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 44.93%"
+      ],
+      "similarity": 0.4493
+    },
+    {
+      "source": "docs/docs/api/functions/core_equal.isPointOnPath.html",
+      "target": "docs-new/docs/converted/api/functions/core_equal.isPointOnPath.md",
+      "title": "isPointOnPath | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 39.24%"
+      ],
+      "similarity": 0.3924
+    },
+    {
+      "source": "docs/docs/api/functions/core_equal.isPointOnSlope.html",
+      "target": "docs-new/docs/converted/api/functions/core_equal.isPointOnSlope.md",
+      "title": "isPointOnSlope | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 45.59%"
+      ],
+      "similarity": 0.4559
+    },
+    {
+      "source": "docs/docs/api/functions/core_equal.isSlopeEqual.html",
+      "target": "docs-new/docs/converted/api/functions/core_equal.isSlopeEqual.md",
+      "title": "isSlopeEqual | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 44.44%"
+      ],
+      "similarity": 0.4444
+    },
+    {
+      "source": "docs/docs/api/functions/core_equal.isSlopeParallel.html",
+      "target": "docs-new/docs/converted/api/functions/core_equal.isSlopeParallel.md",
+      "title": "isSlopeParallel | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 44.44%"
+      ],
+      "similarity": 0.4444
+    },
+    {
+      "source": "docs/docs/api/functions/core_expand.expand.html",
+      "target": "docs-new/docs/converted/api/functions/core_expand.expand.md",
+      "title": "expand | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 38.33%"
+      ],
+      "similarity": 0.3833
+    },
+    {
+      "source": "docs/docs/api/functions/core_expand.expandPaths.html",
+      "target": "docs-new/docs/converted/api/functions/core_expand.expandPaths.md",
+      "title": "expandPaths | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 35.94%"
+      ],
+      "similarity": 0.3594
+    },
+    {
+      "source": "docs/docs/api/functions/core_expand.outline.html",
+      "target": "docs-new/docs/converted/api/functions/core_expand.outline.md",
+      "title": "outline | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 35.71%"
+      ],
+      "similarity": 0.3571
+    },
+    {
+      "source": "docs/docs/api/functions/core_expand.straighten.html",
+      "target": "docs-new/docs/converted/api/functions/core_expand.straighten.md",
+      "title": "straighten | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 32.81%"
+      ],
+      "similarity": 0.3281
+    },
+    {
+      "source": "docs/docs/api/functions/core_exporter.toJson.html",
+      "target": "docs-new/docs/converted/api/functions/core_exporter.toJson.md",
+      "title": "toJson | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 63.21%"
+      ],
+      "similarity": 0.6321
+    },
+    {
+      "source": "docs/docs/api/functions/core_fillet-chain.chainDogbone.html",
+      "target": "docs-new/docs/converted/api/functions/core_fillet-chain.chainDogbone.md",
+      "title": "chainDogbone | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 35.48%"
+      ],
+      "similarity": 0.3548
+    },
+    {
+      "source": "docs/docs/api/functions/core_fillet-chain.chainFillet.html",
+      "target": "docs-new/docs/converted/api/functions/core_fillet-chain.chainFillet.md",
+      "title": "chainFillet | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 35.48%"
+      ],
+      "similarity": 0.3548
+    },
+    {
+      "source": "docs/docs/api/functions/core_fillet-path.pathDogbone.html",
+      "target": "docs-new/docs/converted/api/functions/core_fillet-path.pathDogbone.md",
+      "title": "pathDogbone | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 31.75%"
+      ],
+      "similarity": 0.3175
+    },
+    {
+      "source": "docs/docs/api/functions/core_fillet-path.pathFillet.html",
+      "target": "docs-new/docs/converted/api/functions/core_fillet-path.pathFillet.md",
+      "title": "pathFillet | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 31.75%"
+      ],
+      "similarity": 0.3175
+    },
+    {
+      "source": "docs/docs/api/functions/core_importer.parseNumericList.html",
+      "target": "docs-new/docs/converted/api/functions/core_importer.parseNumericList.md",
+      "title": "parseNumericList | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 55.00%"
+      ],
+      "similarity": 0.55
+    },
+    {
+      "source": "docs/docs/api/functions/core_intersect.intersection.html",
+      "target": "docs-new/docs/converted/api/functions/core_intersect.intersection.md",
+      "title": "intersection | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 58.24%"
+      ],
+      "similarity": 0.5824
+    },
+    {
+      "source": "docs/docs/api/functions/core_kit.construct.html",
+      "target": "docs-new/docs/converted/api/functions/core_kit.construct.md",
+      "title": "construct | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 48.39%"
+      ],
+      "similarity": 0.4839
+    },
+    {
+      "source": "docs/docs/api/functions/core_kit.getParameterValues.html",
+      "target": "docs-new/docs/converted/api/functions/core_kit.getParameterValues.md",
+      "title": "getParameterValues | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 49.12%"
+      ],
+      "similarity": 0.4912
+    },
+    {
+      "source": "docs/docs/api/functions/core_layout.childrenOnChain.html",
+      "target": "docs-new/docs/converted/api/functions/core_layout.childrenOnChain.md",
+      "title": "childrenOnChain | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 65.93%"
+      ],
+      "similarity": 0.6593
+    },
+    {
+      "source": "docs/docs/api/functions/core_layout.childrenOnPath.html",
+      "target": "docs-new/docs/converted/api/functions/core_layout.childrenOnPath.md",
+      "title": "childrenOnPath | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 63.78%"
+      ],
+      "similarity": 0.6378
+    },
+    {
+      "source": "docs/docs/api/functions/core_layout.cloneToBrick.html",
+      "target": "docs-new/docs/converted/api/functions/core_layout.cloneToBrick.md",
+      "title": "cloneToBrick | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 47.77%"
+      ],
+      "similarity": 0.4777
+    },
+    {
+      "source": "docs/docs/api/functions/core_layout.cloneToColumn.html",
+      "target": "docs-new/docs/converted/api/functions/core_layout.cloneToColumn.md",
+      "title": "cloneToColumn | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 44.83%"
+      ],
+      "similarity": 0.4483
+    },
+    {
+      "source": "docs/docs/api/functions/core_layout.cloneToGrid.html",
+      "target": "docs-new/docs/converted/api/functions/core_layout.cloneToGrid.md",
+      "title": "cloneToGrid | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 51.97%"
+      ],
+      "similarity": 0.5197
+    },
+    {
+      "source": "docs/docs/api/functions/core_layout.cloneToHoneycomb.html",
+      "target": "docs-new/docs/converted/api/functions/core_layout.cloneToHoneycomb.md",
+      "title": "cloneToHoneycomb | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 47.58%"
+      ],
+      "similarity": 0.4758
+    },
+    {
+      "source": "docs/docs/api/functions/core_layout.cloneToRadial.html",
+      "target": "docs-new/docs/converted/api/functions/core_layout.cloneToRadial.md",
+      "title": "cloneToRadial | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 38.84%"
+      ],
+      "similarity": 0.3884
+    },
+    {
+      "source": "docs/docs/api/functions/core_layout.cloneToRow.html",
+      "target": "docs-new/docs/converted/api/functions/core_layout.cloneToRow.md",
+      "title": "cloneToRow | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 40.97%"
+      ],
+      "similarity": 0.4097
+    },
+    {
+      "source": "docs/docs/api/functions/core_maker.cloneObject.html",
+      "target": "docs-new/docs/converted/api/functions/core_maker.cloneObject.md",
+      "title": "cloneObject | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 48.00%"
+      ],
+      "similarity": 0.48
+    },
+    {
+      "source": "docs/docs/api/functions/core_maker.createRouteKey.html",
+      "target": "docs-new/docs/converted/api/functions/core_maker.createRouteKey.md",
+      "title": "createRouteKey | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 50.98%"
+      ],
+      "similarity": 0.5098
+    },
+    {
+      "source": "docs/docs/api/functions/core_maker.extendObject.html",
+      "target": "docs-new/docs/converted/api/functions/core_maker.extendObject.md",
+      "title": "extendObject | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 50.88%"
+      ],
+      "similarity": 0.5088
+    },
+    {
+      "source": "docs/docs/api/functions/core_maker.isChain.html",
+      "target": "docs-new/docs/converted/api/functions/core_maker.isChain.md",
+      "title": "isChain | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 61.02%"
+      ],
+      "similarity": 0.6102
+    },
+    {
+      "source": "docs/docs/api/functions/core_maker.isFunction.html",
+      "target": "docs-new/docs/converted/api/functions/core_maker.isFunction.md",
+      "title": "isFunction | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 54.72%"
+      ],
+      "similarity": 0.5472
+    },
+    {
+      "source": "docs/docs/api/functions/core_maker.isModel.html",
+      "target": "docs-new/docs/converted/api/functions/core_maker.isModel.md",
+      "title": "isModel | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 58.62%"
+      ],
+      "similarity": 0.5862
+    },
+    {
+      "source": "docs/docs/api/functions/core_maker.isNumber.html",
+      "target": "docs-new/docs/converted/api/functions/core_maker.isNumber.md",
+      "title": "isNumber | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 54.72%"
+      ],
+      "similarity": 0.5472
+    },
+    {
+      "source": "docs/docs/api/functions/core_maker.isObject.html",
+      "target": "docs-new/docs/converted/api/functions/core_maker.isObject.md",
+      "title": "isObject | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 55.56%"
+      ],
+      "similarity": 0.5556
+    },
+    {
+      "source": "docs/docs/api/functions/core_maker.isPath.html",
+      "target": "docs-new/docs/converted/api/functions/core_maker.isPath.md",
+      "title": "isPath | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 58.62%"
+      ],
+      "similarity": 0.5862
+    },
+    {
+      "source": "docs/docs/api/functions/core_maker.isPathArc.html",
+      "target": "docs-new/docs/converted/api/functions/core_maker.isPathArc.md",
+      "title": "isPathArc | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 57.89%"
+      ],
+      "similarity": 0.5789
+    },
+    {
+      "source": "docs/docs/api/functions/core_maker.isPathArcInBezierCurve.html",
+      "target": "docs-new/docs/converted/api/functions/core_maker.isPathArcInBezierCurve.md",
+      "title": "isPathArcInBezierCurve | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 60.00%"
+      ],
+      "similarity": 0.6
+    },
+    {
+      "source": "docs/docs/api/functions/core_maker.isPathCircle.html",
+      "target": "docs-new/docs/converted/api/functions/core_maker.isPathCircle.md",
+      "title": "isPathCircle | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 58.62%"
+      ],
+      "similarity": 0.5862
+    },
+    {
+      "source": "docs/docs/api/functions/core_maker.isPathLine.html",
+      "target": "docs-new/docs/converted/api/functions/core_maker.isPathLine.md",
+      "title": "isPathLine | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 58.62%"
+      ],
+      "similarity": 0.5862
+    },
+    {
+      "source": "docs/docs/api/functions/core_maker.isPoint.html",
+      "target": "docs-new/docs/converted/api/functions/core_maker.isPoint.md",
+      "title": "isPoint | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 58.62%"
+      ],
+      "similarity": 0.5862
+    },
+    {
+      "source": "docs/docs/api/functions/core_maker.round.html",
+      "target": "docs-new/docs/converted/api/functions/core_maker.round.md",
+      "title": "round | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 44.44%"
+      ],
+      "similarity": 0.4444
+    },
+    {
+      "source": "docs/docs/api/functions/core_maker.splitDecimal.html",
+      "target": "docs-new/docs/converted/api/functions/core_maker.splitDecimal.md",
+      "title": "splitDecimal | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 53.45%"
+      ],
+      "similarity": 0.5345
+    },
+    {
+      "source": "docs/docs/api/functions/core_maker.travel.html",
+      "target": "docs-new/docs/converted/api/functions/core_maker.travel.md",
+      "title": "travel | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 45.33%"
+      ],
+      "similarity": 0.4533
+    },
+    {
+      "source": "docs/docs/api/functions/core_measure-minimal.augment.html",
+      "target": "docs-new/docs/converted/api/functions/core_measure-minimal.augment.md",
+      "title": "augment | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 47.17%"
+      ],
+      "similarity": 0.4717
+    },
+    {
+      "source": "docs/docs/api/functions/core_measure-minimal.isBezierSeedLinear.html",
+      "target": "docs-new/docs/converted/api/functions/core_measure-minimal.isBezierSeedLinear.md",
+      "title": "isBezierSeedLinear | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 52.24%"
+      ],
+      "similarity": 0.5224
+    },
+    {
+      "source": "docs/docs/api/functions/core_measure-minimal.lineSlope.html",
+      "target": "docs-new/docs/converted/api/functions/core_measure-minimal.lineSlope.md",
+      "title": "lineSlope | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 47.17%"
+      ],
+      "similarity": 0.4717
+    },
+    {
+      "source": "docs/docs/api/functions/core_measure-minimal.modelExtents.html",
+      "target": "docs-new/docs/converted/api/functions/core_measure-minimal.modelExtents.md",
+      "title": "modelExtents | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 49.09%"
+      ],
+      "similarity": 0.4909
+    },
+    {
+      "source": "docs/docs/api/functions/core_measure-minimal.pathExtents.html",
+      "target": "docs-new/docs/converted/api/functions/core_measure-minimal.pathExtents.md",
+      "title": "pathExtents | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 42.19%"
+      ],
+      "similarity": 0.4219
+    },
+    {
+      "source": "docs/docs/api/functions/core_measure-minimal.pathLength.html",
+      "target": "docs-new/docs/converted/api/functions/core_measure-minimal.pathLength.md",
+      "title": "pathLength | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 50.00%"
+      ],
+      "similarity": 0.5
+    },
+    {
+      "source": "docs/docs/api/functions/core_measure-minimal.pointDistance.html",
+      "target": "docs-new/docs/converted/api/functions/core_measure-minimal.pointDistance.md",
+      "title": "pointDistance | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 46.43%"
+      ],
+      "similarity": 0.4643
+    },
+    {
+      "source": "docs/docs/api/functions/core_measure.augment.html",
+      "target": "docs-new/docs/converted/api/functions/core_measure.augment.md",
+      "title": "augment | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 58.21%"
+      ],
+      "similarity": 0.5821
+    },
+    {
+      "source": "docs/docs/api/functions/core_measure.boundingHexagon.html",
+      "target": "docs-new/docs/converted/api/functions/core_measure.boundingHexagon.md",
+      "title": "boundingHexagon | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 65.82%"
+      ],
+      "similarity": 0.6582
+    },
+    {
+      "source": "docs/docs/api/functions/core_measure.increase.html",
+      "target": "docs-new/docs/converted/api/functions/core_measure.increase.md",
+      "title": "increase | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 52.05%"
+      ],
+      "similarity": 0.5205
+    },
+    {
+      "source": "docs/docs/api/functions/core_measure.isArcConcaveTowardsPoint.html",
+      "target": "docs-new/docs/converted/api/functions/core_measure.isArcConcaveTowardsPoint.md",
+      "title": "isArcConcaveTowardsPoint | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 55.07%"
+      ],
+      "similarity": 0.5507
+    },
+    {
+      "source": "docs/docs/api/functions/core_measure.isArcOverlapping.html",
+      "target": "docs-new/docs/converted/api/functions/core_measure.isArcOverlapping.md",
+      "title": "isArcOverlapping | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 43.10%"
+      ],
+      "similarity": 0.431
+    },
+    {
+      "source": "docs/docs/api/functions/core_measure.isArcSpanOverlapping.html",
+      "target": "docs-new/docs/converted/api/functions/core_measure.isArcSpanOverlapping.md",
+      "title": "isArcSpanOverlapping | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 58.44%"
+      ],
+      "similarity": 0.5844
+    },
+    {
+      "source": "docs/docs/api/functions/core_measure.isBetween.html",
+      "target": "docs-new/docs/converted/api/functions/core_measure.isBetween.md",
+      "title": "isBetween | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 56.58%"
+      ],
+      "similarity": 0.5658
+    },
+    {
+      "source": "docs/docs/api/functions/core_measure.isBetweenArcAngles.html",
+      "target": "docs-new/docs/converted/api/functions/core_measure.isBetweenArcAngles.md",
+      "title": "isBetweenArcAngles | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 59.26%"
+      ],
+      "similarity": 0.5926
+    },
+    {
+      "source": "docs/docs/api/functions/core_measure.isBetweenPoints.html",
+      "target": "docs-new/docs/converted/api/functions/core_measure.isBetweenPoints.md",
+      "title": "isBetweenPoints | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 56.79%"
+      ],
+      "similarity": 0.5679
+    },
+    {
+      "source": "docs/docs/api/functions/core_measure.isBezierSeedLinear.html",
+      "target": "docs-new/docs/converted/api/functions/core_measure.isBezierSeedLinear.md",
+      "title": "isBezierSeedLinear | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 60.76%"
+      ],
+      "similarity": 0.6076
+    },
+    {
+      "source": "docs/docs/api/functions/core_measure.isChainClockwise.html",
+      "target": "docs-new/docs/converted/api/functions/core_measure.isChainClockwise.md",
+      "title": "isChainClockwise | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 54.35%"
+      ],
+      "similarity": 0.5435
+    },
+    {
+      "source": "docs/docs/api/functions/core_measure.isLineOverlapping.html",
+      "target": "docs-new/docs/converted/api/functions/core_measure.isLineOverlapping.md",
+      "title": "isLineOverlapping | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 58.44%"
+      ],
+      "similarity": 0.5844
+    },
+    {
+      "source": "docs/docs/api/functions/core_measure.isMeasurementOverlapping.html",
+      "target": "docs-new/docs/converted/api/functions/core_measure.isMeasurementOverlapping.md",
+      "title": "isMeasurementOverlapping | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 56.06%"
+      ],
+      "similarity": 0.5606
+    },
+    {
+      "source": "docs/docs/api/functions/core_measure.isPointArrayClockwise.html",
+      "target": "docs-new/docs/converted/api/functions/core_measure.isPointArrayClockwise.md",
+      "title": "isPointArrayClockwise | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 55.68%"
+      ],
+      "similarity": 0.5568
+    },
+    {
+      "source": "docs/docs/api/functions/core_measure.isPointInsideModel.html",
+      "target": "docs-new/docs/converted/api/functions/core_measure.isPointInsideModel.md",
+      "title": "isPointInsideModel | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 51.85%"
+      ],
+      "similarity": 0.5185
+    },
+    {
+      "source": "docs/docs/api/functions/core_measure.lineSlope.html",
+      "target": "docs-new/docs/converted/api/functions/core_measure.lineSlope.md",
+      "title": "lineSlope | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 47.17%"
+      ],
+      "similarity": 0.4717
+    },
+    {
+      "source": "docs/docs/api/functions/core_measure.modelExtents.html",
+      "target": "docs-new/docs/converted/api/functions/core_measure.modelExtents.md",
+      "title": "modelExtents | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 54.05%"
+      ],
+      "similarity": 0.5405
+    },
+    {
+      "source": "docs/docs/api/functions/core_measure.modelPathLength.html",
+      "target": "docs-new/docs/converted/api/functions/core_measure.modelPathLength.md",
+      "title": "modelPathLength | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 55.17%"
+      ],
+      "similarity": 0.5517
+    },
+    {
+      "source": "docs/docs/api/functions/core_measure.pathExtents.html",
+      "target": "docs-new/docs/converted/api/functions/core_measure.pathExtents.md",
+      "title": "pathExtents | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 49.32%"
+      ],
+      "similarity": 0.4932
+    },
+    {
+      "source": "docs/docs/api/functions/core_measure.pathLength.html",
+      "target": "docs-new/docs/converted/api/functions/core_measure.pathLength.md",
+      "title": "pathLength | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 52.73%"
+      ],
+      "similarity": 0.5273
+    },
+    {
+      "source": "docs/docs/api/functions/core_measure.pointDistance.html",
+      "target": "docs-new/docs/converted/api/functions/core_measure.pointDistance.md",
+      "title": "pointDistance | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 49.15%"
+      ],
+      "similarity": 0.4915
+    },
+    {
+      "source": "docs/docs/api/functions/core_model.addCaption.html",
+      "target": "docs-new/docs/converted/api/functions/core_model.addCaption.md",
+      "title": "addCaption | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 38.24%"
+      ],
+      "similarity": 0.3824
+    },
+    {
+      "source": "docs/docs/api/functions/core_model.addModel.html",
+      "target": "docs-new/docs/converted/api/functions/core_model.addModel.md",
+      "title": "addModel | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 59.82%"
+      ],
+      "similarity": 0.5982
+    },
+    {
+      "source": "docs/docs/api/functions/core_model.addPath.html",
+      "target": "docs-new/docs/converted/api/functions/core_model.addPath.md",
+      "title": "addPath | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 56.78%"
+      ],
+      "similarity": 0.5678
+    },
+    {
+      "source": "docs/docs/api/functions/core_model.addTo.html",
+      "target": "docs-new/docs/converted/api/functions/core_model.addTo.md",
+      "title": "addTo | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 59.82%"
+      ],
+      "similarity": 0.5982
+    },
+    {
+      "source": "docs/docs/api/functions/core_model.center.html",
+      "target": "docs-new/docs/converted/api/functions/core_model.center.md",
+      "title": "center | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 52.63%"
+      ],
+      "similarity": 0.5263
+    },
+    {
+      "source": "docs/docs/api/functions/core_model.clone.html",
+      "target": "docs-new/docs/converted/api/functions/core_model.clone.md",
+      "title": "clone | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 53.57%"
+      ],
+      "similarity": 0.5357
+    },
+    {
+      "source": "docs/docs/api/functions/core_model.convertUnits.html",
+      "target": "docs-new/docs/converted/api/functions/core_model.convertUnits.md",
+      "title": "convertUnits | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 52.38%"
+      ],
+      "similarity": 0.5238
+    },
+    {
+      "source": "docs/docs/api/functions/core_model.countChildModels.html",
+      "target": "docs-new/docs/converted/api/functions/core_model.countChildModels.md",
+      "title": "countChildModels | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 55.93%"
+      ],
+      "similarity": 0.5593
+    },
+    {
+      "source": "docs/docs/api/functions/core_model.distort.html",
+      "target": "docs-new/docs/converted/api/functions/core_model.distort.md",
+      "title": "distort | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 56.38%"
+      ],
+      "similarity": 0.5638
+    },
+    {
+      "source": "docs/docs/api/functions/core_model.findChains.html",
+      "target": "docs-new/docs/converted/api/functions/core_model.findChains.md",
+      "title": "findChains | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 29.23%"
+      ],
+      "similarity": 0.2923
+    },
+    {
+      "source": "docs/docs/api/functions/core_model.findSingleChain.html",
+      "target": "docs-new/docs/converted/api/functions/core_model.findSingleChain.md",
+      "title": "findSingleChain | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 40.43%"
+      ],
+      "similarity": 0.4043
+    },
+    {
+      "source": "docs/docs/api/functions/core_model.getAllCaptionsOffset.html",
+      "target": "docs-new/docs/converted/api/functions/core_model.getAllCaptionsOffset.md",
+      "title": "getAllCaptionsOffset | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 53.42%"
+      ],
+      "similarity": 0.5342
+    },
+    {
+      "source": "docs/docs/api/functions/core_model.getSimilarModelId.html",
+      "target": "docs-new/docs/converted/api/functions/core_model.getSimilarModelId.md",
+      "title": "getSimilarModelId | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 57.75%"
+      ],
+      "similarity": 0.5775
+    },
+    {
+      "source": "docs/docs/api/functions/core_model.getSimilarPathId.html",
+      "target": "docs-new/docs/converted/api/functions/core_model.getSimilarPathId.md",
+      "title": "getSimilarPathId | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 57.75%"
+      ],
+      "similarity": 0.5775
+    },
+    {
+      "source": "docs/docs/api/functions/core_model.layer.html",
+      "target": "docs-new/docs/converted/api/functions/core_model.layer.md",
+      "title": "layer | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 52.78%"
+      ],
+      "similarity": 0.5278
+    },
+    {
+      "source": "docs/docs/api/functions/core_model.mirror.html",
+      "target": "docs-new/docs/converted/api/functions/core_model.mirror.md",
+      "title": "mirror | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 54.79%"
+      ],
+      "similarity": 0.5479
+    },
+    {
+      "source": "docs/docs/api/functions/core_model.move.html",
+      "target": "docs-new/docs/converted/api/functions/core_model.move.md",
+      "title": "move | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 60.76%"
+      ],
+      "similarity": 0.6076
+    },
+    {
+      "source": "docs/docs/api/functions/core_model.moveRelative.html",
+      "target": "docs-new/docs/converted/api/functions/core_model.moveRelative.md",
+      "title": "moveRelative | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 55.56%"
+      ],
+      "similarity": 0.5556
+    },
+    {
+      "source": "docs/docs/api/functions/core_model.originate.html",
+      "target": "docs-new/docs/converted/api/functions/core_model.originate.md",
+      "title": "originate | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 60.00%"
+      ],
+      "similarity": 0.6
+    },
+    {
+      "source": "docs/docs/api/functions/core_model.prefixPathIds.html",
+      "target": "docs-new/docs/converted/api/functions/core_model.prefixPathIds.md",
+      "title": "prefixPathIds | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 55.38%"
+      ],
+      "similarity": 0.5538
+    },
+    {
+      "source": "docs/docs/api/functions/core_model.rotate.html",
+      "target": "docs-new/docs/converted/api/functions/core_model.rotate.md",
+      "title": "rotate | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 50.00%"
+      ],
+      "similarity": 0.5
+    },
+    {
+      "source": "docs/docs/api/functions/core_model.scale.html",
+      "target": "docs-new/docs/converted/api/functions/core_model.scale.md",
+      "title": "scale | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 53.95%"
+      ],
+      "similarity": 0.5395
+    },
+    {
+      "source": "docs/docs/api/functions/core_model.walk.html",
+      "target": "docs-new/docs/converted/api/functions/core_model.walk.md",
+      "title": "walk | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 55.56%"
+      ],
+      "similarity": 0.5556
+    },
+    {
+      "source": "docs/docs/api/functions/core_model.walkPaths.html",
+      "target": "docs-new/docs/converted/api/functions/core_model.walkPaths.md",
+      "title": "walkPaths | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 56.94%"
+      ],
+      "similarity": 0.5694
+    },
+    {
+      "source": "docs/docs/api/functions/core_model.zero.html",
+      "target": "docs-new/docs/converted/api/functions/core_model.zero.md",
+      "title": "zero | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 56.10%"
+      ],
+      "similarity": 0.561
+    },
+    {
+      "source": "docs/docs/api/functions/core_openjscad-esm.toJscadCAG.html",
+      "target": "docs-new/docs/converted/api/functions/core_openjscad-esm.toJscadCAG.md",
+      "title": "toJscadCAG | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 48.55%"
+      ],
+      "similarity": 0.4855
+    },
+    {
+      "source": "docs/docs/api/functions/core_openjscad-esm.toJscadCSG.html",
+      "target": "docs-new/docs/converted/api/functions/core_openjscad-esm.toJscadCSG.md",
+      "title": "toJscadCSG | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 55.71%"
+      ],
+      "similarity": 0.5571
+    },
+    {
+      "source": "docs/docs/api/functions/core_openjscad-esm.toJscadSTL.html",
+      "target": "docs-new/docs/converted/api/functions/core_openjscad-esm.toJscadSTL.md",
+      "title": "toJscadSTL | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 56.36%"
+      ],
+      "similarity": 0.5636
+    },
+    {
+      "source": "docs/docs/api/functions/core_openjscad-esm.toJscadScript.html",
+      "target": "docs-new/docs/converted/api/functions/core_openjscad-esm.toJscadScript.md",
+      "title": "toJscadScript | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 60.24%"
+      ],
+      "similarity": 0.6024
+    },
+    {
+      "source": "docs/docs/api/functions/core_path.addTo.html",
+      "target": "docs-new/docs/converted/api/functions/core_path.addTo.md",
+      "title": "addTo | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 40.58%"
+      ],
+      "similarity": 0.4058
+    },
+    {
+      "source": "docs/docs/api/functions/core_path.alterLength.html",
+      "target": "docs-new/docs/converted/api/functions/core_path.alterLength.md",
+      "title": "alterLength | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 46.97%"
+      ],
+      "similarity": 0.4697
+    },
+    {
+      "source": "docs/docs/api/functions/core_path.center.html",
+      "target": "docs-new/docs/converted/api/functions/core_path.center.md",
+      "title": "center | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 48.00%"
+      ],
+      "similarity": 0.48
+    },
+    {
+      "source": "docs/docs/api/functions/core_path.clone.html",
+      "target": "docs-new/docs/converted/api/functions/core_path.clone.md",
+      "title": "clone | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 44.44%"
+      ],
+      "similarity": 0.4444
+    },
+    {
+      "source": "docs/docs/api/functions/core_path.converge.html",
+      "target": "docs-new/docs/converted/api/functions/core_path.converge.md",
+      "title": "converge | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 40.58%"
+      ],
+      "similarity": 0.4058
+    },
+    {
+      "source": "docs/docs/api/functions/core_path.copyProps.html",
+      "target": "docs-new/docs/converted/api/functions/core_path.copyProps.md",
+      "title": "copyProps | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 48.28%"
+      ],
+      "similarity": 0.4828
+    },
+    {
+      "source": "docs/docs/api/functions/core_path.distort.html",
+      "target": "docs-new/docs/converted/api/functions/core_path.distort.md",
+      "title": "distort | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 44.44%"
+      ],
+      "similarity": 0.4444
+    },
+    {
+      "source": "docs/docs/api/functions/core_path.layer.html",
+      "target": "docs-new/docs/converted/api/functions/core_path.layer.md",
+      "title": "layer | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 46.30%"
+      ],
+      "similarity": 0.463
+    },
+    {
+      "source": "docs/docs/api/functions/core_path.mirror.html",
+      "target": "docs-new/docs/converted/api/functions/core_path.mirror.md",
+      "title": "mirror | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 50.75%"
+      ],
+      "similarity": 0.5075
+    },
+    {
+      "source": "docs/docs/api/functions/core_path.move.html",
+      "target": "docs-new/docs/converted/api/functions/core_path.move.md",
+      "title": "move | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 43.86%"
+      ],
+      "similarity": 0.4386
+    },
+    {
+      "source": "docs/docs/api/functions/core_path.moveRelative.html",
+      "target": "docs-new/docs/converted/api/functions/core_path.moveRelative.md",
+      "title": "moveRelative | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 41.54%"
+      ],
+      "similarity": 0.4154
+    },
+    {
+      "source": "docs/docs/api/functions/core_path.moveTemporary.html",
+      "target": "docs-new/docs/converted/api/functions/core_path.moveTemporary.md",
+      "title": "moveTemporary | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 46.97%"
+      ],
+      "similarity": 0.4697
+    },
+    {
+      "source": "docs/docs/api/functions/core_path.rotate.html",
+      "target": "docs-new/docs/converted/api/functions/core_path.rotate.md",
+      "title": "rotate | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 38.71%"
+      ],
+      "similarity": 0.3871
+    },
+    {
+      "source": "docs/docs/api/functions/core_path.scale.html",
+      "target": "docs-new/docs/converted/api/functions/core_path.scale.md",
+      "title": "scale | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 42.31%"
+      ],
+      "similarity": 0.4231
+    },
+    {
+      "source": "docs/docs/api/functions/core_path.toKeyPoints.html",
+      "target": "docs-new/docs/converted/api/functions/core_path.toKeyPoints.md",
+      "title": "toKeyPoints | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 45.45%"
+      ],
+      "similarity": 0.4545
+    },
+    {
+      "source": "docs/docs/api/functions/core_path.toPoints.html",
+      "target": "docs-new/docs/converted/api/functions/core_path.toPoints.md",
+      "title": "toPoints | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 43.10%"
+      ],
+      "similarity": 0.431
+    },
+    {
+      "source": "docs/docs/api/functions/core_path.zero.html",
+      "target": "docs-new/docs/converted/api/functions/core_path.zero.md",
+      "title": "zero | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 53.57%"
+      ],
+      "similarity": 0.5357
+    },
+    {
+      "source": "docs/docs/api/functions/core_pdf-esm.toPDF.html",
+      "target": "docs-new/docs/converted/api/functions/core_pdf-esm.toPDF.md",
+      "title": "toPDF | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 50.62%"
+      ],
+      "similarity": 0.5062
+    },
+    {
+      "source": "docs/docs/api/functions/core_point.add.html",
+      "target": "docs-new/docs/converted/api/functions/core_point.add.md",
+      "title": "add | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 48.48%"
+      ],
+      "similarity": 0.4848
+    },
+    {
+      "source": "docs/docs/api/functions/core_point.average.html",
+      "target": "docs-new/docs/converted/api/functions/core_point.average.md",
+      "title": "average | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 44.44%"
+      ],
+      "similarity": 0.4444
+    },
+    {
+      "source": "docs/docs/api/functions/core_point.clone.html",
+      "target": "docs-new/docs/converted/api/functions/core_point.clone.md",
+      "title": "clone | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 48.00%"
+      ],
+      "similarity": 0.48
+    },
+    {
+      "source": "docs/docs/api/functions/core_point.closest.html",
+      "target": "docs-new/docs/converted/api/functions/core_point.closest.md",
+      "title": "closest | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 50.00%"
+      ],
+      "similarity": 0.5
+    },
+    {
+      "source": "docs/docs/api/functions/core_point.distort.html",
+      "target": "docs-new/docs/converted/api/functions/core_point.distort.md",
+      "title": "distort | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 41.07%"
+      ],
+      "similarity": 0.4107
+    },
+    {
+      "source": "docs/docs/api/functions/core_point.fromAngleOnCircle.html",
+      "target": "docs-new/docs/converted/api/functions/core_point.fromAngleOnCircle.md",
+      "title": "fromAngleOnCircle | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 50.00%"
+      ],
+      "similarity": 0.5
+    },
+    {
+      "source": "docs/docs/api/functions/core_point.fromArc.html",
+      "target": "docs-new/docs/converted/api/functions/core_point.fromArc.md",
+      "title": "fromArc | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 50.00%"
+      ],
+      "similarity": 0.5
+    },
+    {
+      "source": "docs/docs/api/functions/core_point.fromPathEnds.html",
+      "target": "docs-new/docs/converted/api/functions/core_point.fromPathEnds.md",
+      "title": "fromPathEnds | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 42.19%"
+      ],
+      "similarity": 0.4219
+    },
+    {
+      "source": "docs/docs/api/functions/core_point.fromPolar.html",
+      "target": "docs-new/docs/converted/api/functions/core_point.fromPolar.md",
+      "title": "fromPolar | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 47.37%"
+      ],
+      "similarity": 0.4737
+    },
+    {
+      "source": "docs/docs/api/functions/core_point.fromSlopeIntersection.html",
+      "target": "docs-new/docs/converted/api/functions/core_point.fromSlopeIntersection.md",
+      "title": "fromSlopeIntersection | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 41.79%"
+      ],
+      "similarity": 0.4179
+    },
+    {
+      "source": "docs/docs/api/functions/core_point.middle.html",
+      "target": "docs-new/docs/converted/api/functions/core_point.middle.md",
+      "title": "middle | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 45.16%"
+      ],
+      "similarity": 0.4516
+    },
+    {
+      "source": "docs/docs/api/functions/core_point.mirror.html",
+      "target": "docs-new/docs/converted/api/functions/core_point.mirror.md",
+      "title": "mirror | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 50.75%"
+      ],
+      "similarity": 0.5075
+    },
+    {
+      "source": "docs/docs/api/functions/core_point.rotate.html",
+      "target": "docs-new/docs/converted/api/functions/core_point.rotate.md",
+      "title": "rotate | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 40.68%"
+      ],
+      "similarity": 0.4068
+    },
+    {
+      "source": "docs/docs/api/functions/core_point.rounded.html",
+      "target": "docs-new/docs/converted/api/functions/core_point.rounded.md",
+      "title": "rounded | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 44.07%"
+      ],
+      "similarity": 0.4407
+    },
+    {
+      "source": "docs/docs/api/functions/core_point.scale.html",
+      "target": "docs-new/docs/converted/api/functions/core_point.scale.md",
+      "title": "scale | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 43.40%"
+      ],
+      "similarity": 0.434
+    },
+    {
+      "source": "docs/docs/api/functions/core_point.subtract.html",
+      "target": "docs-new/docs/converted/api/functions/core_point.subtract.md",
+      "title": "subtract | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 51.67%"
+      ],
+      "similarity": 0.5167
+    },
+    {
+      "source": "docs/docs/api/functions/core_point.zero.html",
+      "target": "docs-new/docs/converted/api/functions/core_point.zero.md",
+      "title": "zero | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 51.11%"
+      ],
+      "similarity": 0.5111
+    },
+    {
+      "source": "docs/docs/api/functions/core_simplify.simplify.html",
+      "target": "docs-new/docs/converted/api/functions/core_simplify.simplify.md",
+      "title": "simplify | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 35.19%"
+      ],
+      "similarity": 0.3519
+    },
+    {
+      "source": "docs/docs/api/functions/core_solvers.circleTangentAngles.html",
+      "target": "docs-new/docs/converted/api/functions/core_solvers.circleTangentAngles.md",
+      "title": "circleTangentAngles | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 46.38%"
+      ],
+      "similarity": 0.4638
+    },
+    {
+      "source": "docs/docs/api/functions/core_solvers.equilateralAltitude.html",
+      "target": "docs-new/docs/converted/api/functions/core_solvers.equilateralAltitude.md",
+      "title": "equilateralAltitude | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 58.62%"
+      ],
+      "similarity": 0.5862
+    },
+    {
+      "source": "docs/docs/api/functions/core_solvers.equilateralSide.html",
+      "target": "docs-new/docs/converted/api/functions/core_solvers.equilateralSide.md",
+      "title": "equilateralSide | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 58.62%"
+      ],
+      "similarity": 0.5862
+    },
+    {
+      "source": "docs/docs/api/functions/core_solvers.solveTriangleASA.html",
+      "target": "docs-new/docs/converted/api/functions/core_solvers.solveTriangleASA.md",
+      "title": "solveTriangleASA | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 53.85%"
+      ],
+      "similarity": 0.5385
+    },
+    {
+      "source": "docs/docs/api/functions/core_solvers.solveTriangleSSS.html",
+      "target": "docs-new/docs/converted/api/functions/core_solvers.solveTriangleSSS.md",
+      "title": "solveTriangleSSS | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 52.38%"
+      ],
+      "similarity": 0.5238
+    },
+    {
+      "source": "docs/docs/api/functions/core_svg-esm.fromSVGPathData.html",
+      "target": "docs-new/docs/converted/api/functions/core_svg-esm.fromSVGPathData.md",
+      "title": "fromSVGPathData | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 39.29%"
+      ],
+      "similarity": 0.3929
+    },
+    {
+      "source": "docs/docs/api/functions/core_svg-esm.toSVG.html",
+      "target": "docs-new/docs/converted/api/functions/core_svg-esm.toSVG.md",
+      "title": "toSVG | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 41.82%"
+      ],
+      "similarity": 0.4182
+    },
+    {
+      "source": "docs/docs/api/functions/core_svg-esm.toSVGPathData.html",
+      "target": "docs-new/docs/converted/api/functions/core_svg-esm.toSVGPathData.md",
+      "title": "toSVGPathData | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 35.09%"
+      ],
+      "similarity": 0.3509
+    },
+    {
+      "source": "docs/docs/api/functions/core_svg-helpers.chainToSVGPathData.html",
+      "target": "docs-new/docs/converted/api/functions/core_svg-helpers.chainToSVGPathData.md",
+      "title": "chainToSVGPathData | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 45.45%"
+      ],
+      "similarity": 0.4545
+    },
+    {
+      "source": "docs/docs/api/functions/core_svg-helpers.pathToSVGPathData.html",
+      "target": "docs-new/docs/converted/api/functions/core_svg-helpers.pathToSVGPathData.md",
+      "title": "pathToSVGPathData | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 41.56%"
+      ],
+      "similarity": 0.4156
+    },
+    {
+      "source": "docs/docs/api/functions/core_units.conversionScale.html",
+      "target": "docs-new/docs/converted/api/functions/core_units.conversionScale.md",
+      "title": "conversionScale | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 52.54%"
+      ],
+      "similarity": 0.5254
+    },
+    {
+      "source": "docs/docs/api/functions/core_units.isValidUnit.html",
+      "target": "docs-new/docs/converted/api/functions/core_units.isValidUnit.md",
+      "title": "isValidUnit | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 57.14%"
+      ],
+      "similarity": 0.5714
+    },
+    {
+      "source": "docs/docs/api/functions/types_jscad.export_.CSG.Path2D.arc.html",
+      "target": "docs-new/docs/converted/api/functions/types_jscad.export_.CSG.Path2D.arc.md",
+      "title": "arc | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 41.82%"
+      ],
+      "similarity": 0.4182
+    },
+    {
+      "source": "docs/docs/api/hierarchy.html",
+      "target": "docs-new/docs/converted/api/hierarchy.md",
+      "title": "Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 8.97%"
+      ],
+      "similarity": 0.0897
+    },
+    {
+      "source": "docs/docs/api/index.html",
+      "target": "docs-new/docs/converted/api/index.md",
+      "title": "Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 8.51%"
+      ],
+      "similarity": 0.0851
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_angle.IChainLink.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_angle.IChainLink.md",
+      "title": "IChainLink | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 41.54%"
+      ],
+      "similarity": 0.4154
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_boolean-utils.DeletedPathInfo.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_boolean-utils.DeletedPathInfo.md",
+      "title": "DeletedPathInfo | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 46.88%"
+      ],
+      "similarity": 0.4688
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_boolean-utils.SegmentClassification.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_boolean-utils.SegmentClassification.md",
+      "title": "SegmentClassification | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 44.26%"
+      ],
+      "similarity": 0.4426
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_cascades.MakerJs.ICascade.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_cascades.MakerJs.ICascade.md",
+      "title": "ICascade | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 36.90%"
+      ],
+      "similarity": 0.369
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_cascades.MakerJs.ICascadeModel.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_cascades.MakerJs.ICascadeModel.md",
+      "title": "ICascadeModel | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 37.65%"
+      ],
+      "similarity": 0.3765
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_cascades.MakerJs.ICascadePath.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_cascades.MakerJs.ICascadePath.md",
+      "title": "ICascadePath | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 37.65%"
+      ],
+      "similarity": 0.3765
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_cascades.MakerJs.ICascadePoint.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_cascades.MakerJs.ICascadePoint.md",
+      "title": "ICascadePoint | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 37.65%"
+      ],
+      "similarity": 0.3765
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_collect.ICollection.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_collect.ICollection.md",
+      "title": "ICollection | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 49.37%"
+      ],
+      "similarity": 0.4937
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_collect.ICollectionKeyComparer.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_collect.ICollectionKeyComparer.md",
+      "title": "ICollectionKeyComparer | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 51.67%"
+      ],
+      "similarity": 0.5167
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_collect.IPointGraphIndexElement.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_collect.IPointGraphIndexElement.md",
+      "title": "IPointGraphIndexElement | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 44.14%"
+      ],
+      "similarity": 0.4414
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_dxf.IDXFLayerOptions.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_dxf.IDXFLayerOptions.md",
+      "title": "IDXFLayerOptions | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 47.89%"
+      ],
+      "similarity": 0.4789
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_dxf.IDXFRenderOptions.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_dxf.IDXFRenderOptions.md",
+      "title": "IDXFRenderOptions | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 41.82%"
+      ],
+      "similarity": 0.4182
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_exporter.IJsonExportOptions.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_exporter.IJsonExportOptions.md",
+      "title": "IJsonExportOptions | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 54.90%"
+      ],
+      "similarity": 0.549
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_exporter.IStatusCallback.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_exporter.IStatusCallback.md",
+      "title": "IStatusCallback | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 46.00%"
+      ],
+      "similarity": 0.46
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IBoundingHex.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IBoundingHex.md",
+      "title": "IBoundingHex | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 37.56%"
+      ],
+      "similarity": 0.3756
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.ICascade.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.ICascade.md",
+      "title": "ICascade | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 59.78%"
+      ],
+      "similarity": 0.5978
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IChain.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IChain.md",
+      "title": "IChain | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 51.79%"
+      ],
+      "similarity": 0.5179
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IChainCallback.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IChainCallback.md",
+      "title": "IChainCallback | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 43.84%"
+      ],
+      "similarity": 0.4384
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IChainLink.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IChainLink.md",
+      "title": "IChainLink | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 49.02%"
+      ],
+      "similarity": 0.4902
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IChainsMap.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IChainsMap.md",
+      "title": "IChainsMap | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 48.00%"
+      ],
+      "similarity": 0.48
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.ICombineOptions.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.ICombineOptions.md",
+      "title": "ICombineOptions | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 47.06%"
+      ],
+      "similarity": 0.4706
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IContainChainsOptions.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IContainChainsOptions.md",
+      "title": "IContainChainsOptions | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 54.55%"
+      ],
+      "similarity": 0.5455
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IFindChainsOptions.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IFindChainsOptions.md",
+      "title": "IFindChainsOptions | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 45.39%"
+      ],
+      "similarity": 0.4539
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IFindLoopsOptions.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IFindLoopsOptions.md",
+      "title": "IFindLoopsOptions | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 45.10%"
+      ],
+      "similarity": 0.451
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IIsPointOnPathOptions.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IIsPointOnPathOptions.md",
+      "title": "IIsPointOnPathOptions | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 55.26%"
+      ],
+      "similarity": 0.5526
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IKit.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IKit.md",
+      "title": "IKit | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 59.59%"
+      ],
+      "similarity": 0.5959
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IMeasure.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IMeasure.md",
+      "title": "IMeasure | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 44.16%"
+      ],
+      "similarity": 0.4416
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IMeasureMap.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IMeasureMap.md",
+      "title": "IMeasureMap | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 46.81%"
+      ],
+      "similarity": 0.4681
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IMeasurePointInsideOptions.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IMeasurePointInsideOptions.md",
+      "title": "IMeasurePointInsideOptions | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 32.95%"
+      ],
+      "similarity": 0.3295
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IMeasureWithCenter.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IMeasureWithCenter.md",
+      "title": "IMeasureWithCenter | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 38.00%"
+      ],
+      "similarity": 0.38
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IMetaParameter.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IMetaParameter.md",
+      "title": "IMetaParameter | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 47.41%"
+      ],
+      "similarity": 0.4741
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IModelPathCallback.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IModelPathCallback.md",
+      "title": "IModelPathCallback | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 40.98%"
+      ],
+      "similarity": 0.4098
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IPathDirectional.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IPathDirectional.md",
+      "title": "IPathDirectional | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 47.18%"
+      ],
+      "similarity": 0.4718
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IPathIntersection.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IPathIntersection.md",
+      "title": "IPathIntersection | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 56.03%"
+      ],
+      "similarity": 0.5603
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IPathIntersectionBaseOptions.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IPathIntersectionBaseOptions.md",
+      "title": "IPathIntersectionBaseOptions | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 36.14%"
+      ],
+      "similarity": 0.3614
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IPathIntersectionOptions.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IPathIntersectionOptions.md",
+      "title": "IPathIntersectionOptions | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 42.31%"
+      ],
+      "similarity": 0.4231
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IPathRemoved.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IPathRemoved.md",
+      "title": "IPathRemoved | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 46.03%"
+      ],
+      "similarity": 0.4603
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IPointMatchOptions.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IPointMatchOptions.md",
+      "title": "IPointMatchOptions | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 42.70%"
+      ],
+      "similarity": 0.427
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IRefModelInModel.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IRefModelInModel.md",
+      "title": "IRefModelInModel | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 40.23%"
+      ],
+      "similarity": 0.4023
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IRefPathIdInModel.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IRefPathIdInModel.md",
+      "title": "IRefPathIdInModel | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 43.21%"
+      ],
+      "similarity": 0.4321
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IRouteOffset.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IRouteOffset.md",
+      "title": "IRouteOffset | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 40.59%"
+      ],
+      "similarity": 0.4059
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.ISimplifyOptions.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.ISimplifyOptions.md",
+      "title": "ISimplifyOptions | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 43.96%"
+      ],
+      "similarity": 0.4396
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.ISlope.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.ISlope.md",
+      "title": "ISlope | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 38.20%"
+      ],
+      "similarity": 0.382
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IWalkModel.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IWalkModel.md",
+      "title": "IWalkModel | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 29.92%"
+      ],
+      "similarity": 0.2992
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IWalkModelCallback.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IWalkModelCallback.md",
+      "title": "IWalkModelCallback | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 48.00%"
+      ],
+      "similarity": 0.48
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IWalkModelCancellableCallback.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IWalkModelCancellableCallback.md",
+      "title": "IWalkModelCancellableCallback | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 55.93%"
+      ],
+      "similarity": 0.5593
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IWalkOptions.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IWalkOptions.md",
+      "title": "IWalkOptions | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 48.11%"
+      ],
+      "similarity": 0.4811
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IWalkPath.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IWalkPath.md",
+      "title": "IWalkPath | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 29.46%"
+      ],
+      "similarity": 0.2946
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IWalkPathBooleanCallback.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IWalkPathBooleanCallback.md",
+      "title": "IWalkPathBooleanCallback | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 50.94%"
+      ],
+      "similarity": 0.5094
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_maker.IWalkPathCallback.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_maker.IWalkPathCallback.md",
+      "title": "IWalkPathCallback | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 49.02%"
+      ],
+      "similarity": 0.4902
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_openjscad-esm.IJscadCagOptions.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_openjscad-esm.IJscadCagOptions.md",
+      "title": "IJscadCagOptions | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 44.97%"
+      ],
+      "similarity": 0.4497
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_openjscad-esm.IJscadCsgOptions.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_openjscad-esm.IJscadCsgOptions.md",
+      "title": "IJscadCsgOptions | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 37.67%"
+      ],
+      "similarity": 0.3767
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_openjscad-esm.IJscadExtrudeOptions.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_openjscad-esm.IJscadExtrudeOptions.md",
+      "title": "IJscadExtrudeOptions | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 42.68%"
+      ],
+      "similarity": 0.4268
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_openjscad-esm.IJscadScriptOptions.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_openjscad-esm.IJscadScriptOptions.md",
+      "title": "IJscadScriptOptions | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 37.39%"
+      ],
+      "similarity": 0.3739
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_openjscad-esm.IOpenJsCadOptions.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_openjscad-esm.IOpenJsCadOptions.md",
+      "title": "IOpenJsCadOptions | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 43.75%"
+      ],
+      "similarity": 0.4375
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_openjscad-esm.IOpenJsCadOptionsMap.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_openjscad-esm.IOpenJsCadOptionsMap.md",
+      "title": "IOpenJsCadOptionsMap | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 47.92%"
+      ],
+      "similarity": 0.4792
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_openjscad-esm.IStatusCallback.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_openjscad-esm.IStatusCallback.md",
+      "title": "IStatusCallback | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 46.94%"
+      ],
+      "similarity": 0.4694
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_path.IChain.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_path.IChain.md",
+      "title": "IChain | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 42.62%"
+      ],
+      "similarity": 0.4262
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_path.IWalkPath.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_path.IWalkPath.md",
+      "title": "IWalkPath | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 46.30%"
+      ],
+      "similarity": 0.463
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_pdf-esm.IPDFRenderOptions.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_pdf-esm.IPDFRenderOptions.md",
+      "title": "IPDFRenderOptions | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 44.60%"
+      ],
+      "similarity": 0.446
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_schema.IBezierRange.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_schema.IBezierRange.md",
+      "title": "IBezierRange | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 57.33%"
+      ],
+      "similarity": 0.5733
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_schema.ICaption.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_schema.ICaption.md",
+      "title": "ICaption | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 54.67%"
+      ],
+      "similarity": 0.5467
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_schema.IModel.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_schema.IModel.md",
+      "title": "IModel | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 32.91%"
+      ],
+      "similarity": 0.3291
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_schema.IModelMap.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_schema.IModelMap.md",
+      "title": "IModelMap | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 46.81%"
+      ],
+      "similarity": 0.4681
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_schema.IPath.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_schema.IPath.md",
+      "title": "IPath | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 47.90%"
+      ],
+      "similarity": 0.479
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_schema.IPathArc.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_schema.IPathArc.md",
+      "title": "IPathArc | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 47.92%"
+      ],
+      "similarity": 0.4792
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_schema.IPathArcInBezierCurve.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_schema.IPathArcInBezierCurve.md",
+      "title": "IPathArcInBezierCurve | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 46.72%"
+      ],
+      "similarity": 0.4672
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_schema.IPathBezierSeed.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_schema.IPathBezierSeed.md",
+      "title": "IPathBezierSeed | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 48.78%"
+      ],
+      "similarity": 0.4878
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_schema.IPathCircle.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_schema.IPathCircle.md",
+      "title": "IPathCircle | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 45.90%"
+      ],
+      "similarity": 0.459
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_schema.IPathIntersection.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_schema.IPathIntersection.md",
+      "title": "IPathIntersection | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 42.86%"
+      ],
+      "similarity": 0.4286
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_schema.IPathIntersectionOptions.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_schema.IPathIntersectionOptions.md",
+      "title": "IPathIntersectionOptions | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 46.96%"
+      ],
+      "similarity": 0.4696
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_schema.IPathLine.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_schema.IPathLine.md",
+      "title": "IPathLine | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 46.09%"
+      ],
+      "similarity": 0.4609
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_schema.IPathMap.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_schema.IPathMap.md",
+      "title": "IPathMap | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 41.51%"
+      ],
+      "similarity": 0.4151
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_schema.IPoint.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_schema.IPoint.md",
+      "title": "IPoint | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 63.33%"
+      ],
+      "similarity": 0.6333
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_svg-esm.IFlowAnnotation.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_svg-esm.IFlowAnnotation.md",
+      "title": "IFlowAnnotation | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 50.98%"
+      ],
+      "similarity": 0.5098
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_svg-esm.IPathDataByLayerMap.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_svg-esm.IPathDataByLayerMap.md",
+      "title": "IPathDataByLayerMap | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 46.34%"
+      ],
+      "similarity": 0.4634
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_svg-esm.ISVGElementRenderOptions.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_svg-esm.ISVGElementRenderOptions.md",
+      "title": "ISVGElementRenderOptions | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 25.24%"
+      ],
+      "similarity": 0.2524
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_svg-esm.ISVGImportOptions.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_svg-esm.ISVGImportOptions.md",
+      "title": "ISVGImportOptions | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 43.86%"
+      ],
+      "similarity": 0.4386
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_svg-esm.ISVGPathDataRenderOptions.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_svg-esm.ISVGPathDataRenderOptions.md",
+      "title": "ISVGPathDataRenderOptions | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 30.77%"
+      ],
+      "similarity": 0.3077
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_svg-esm.ISVGRenderOptions.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_svg-esm.ISVGRenderOptions.md",
+      "title": "ISVGRenderOptions | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 19.40%"
+      ],
+      "similarity": 0.194
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_svg-esm.SvgUnitConversion.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_svg-esm.SvgUnitConversion.md",
+      "title": "SvgUnitConversion | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 42.00%"
+      ],
+      "similarity": 0.42
+    },
+    {
+      "source": "docs/docs/api/interfaces/core_xml.IXmlTagAttrs.html",
+      "target": "docs-new/docs/converted/api/interfaces/core_xml.IXmlTagAttrs.md",
+      "title": "IXmlTagAttrs | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 51.06%"
+      ],
+      "similarity": 0.5106
+    },
+    {
+      "source": "docs/docs/api/interfaces/types_jscad.StlSerializer.html",
+      "target": "docs-new/docs/converted/api/interfaces/types_jscad.StlSerializer.md",
+      "title": "StlSerializer | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 38.37%"
+      ],
+      "similarity": 0.3837
+    },
+    {
+      "source": "docs/docs/api/interfaces/types_jscad.export_.CSG.IArcOptions.html",
+      "target": "docs-new/docs/converted/api/interfaces/types_jscad.export_.CSG.IArcOptions.md",
+      "title": "IArcOptions | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 36.96%"
+      ],
+      "similarity": 0.3696
+    },
+    {
+      "source": "docs/docs/api/interfaces/types_jscad.export_.CSG.ICircleOptions.html",
+      "target": "docs-new/docs/converted/api/interfaces/types_jscad.export_.CSG.ICircleOptions.md",
+      "title": "ICircleOptions | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 40.00%"
+      ],
+      "similarity": 0.4
+    },
+    {
+      "source": "docs/docs/api/interfaces/types_jscad.export_.CSG.IEllpiticalArcOptions.html",
+      "target": "docs-new/docs/converted/api/interfaces/types_jscad.export_.CSG.IEllpiticalArcOptions.md",
+      "title": "IEllpiticalArcOptions | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 40.70%"
+      ],
+      "similarity": 0.407
+    },
+    {
+      "source": "docs/docs/api/modules/core_angle.html",
+      "target": "docs-new/docs/converted/api/modules/core_angle.md",
+      "title": "core/angle | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 26.67%"
+      ],
+      "similarity": 0.2667
+    },
+    {
+      "source": "docs/docs/api/modules/core_base.html",
+      "target": "docs-new/docs/converted/api/modules/core_base.md",
+      "title": "core/base | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 25.64%"
+      ],
+      "similarity": 0.2564
+    },
+    {
+      "source": "docs/docs/api/modules/core_boolean-utils.html",
+      "target": "docs-new/docs/converted/api/modules/core_boolean-utils.md",
+      "title": "core/boolean-utils | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 23.23%"
+      ],
+      "similarity": 0.2323
+    },
+    {
+      "source": "docs/docs/api/modules/core_break.html",
+      "target": "docs-new/docs/converted/api/modules/core_break.md",
+      "title": "core/break | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 51.35%"
+      ],
+      "similarity": 0.5135
+    },
+    {
+      "source": "docs/docs/api/modules/core_cascades.MakerJs.html",
+      "target": "docs-new/docs/converted/api/modules/core_cascades.MakerJs.md",
+      "title": "MakerJs | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 40.43%"
+      ],
+      "similarity": 0.4043
+    },
+    {
+      "source": "docs/docs/api/modules/core_cascades.html",
+      "target": "docs-new/docs/converted/api/modules/core_cascades.md",
+      "title": "core/cascades | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 52.78%"
+      ],
+      "similarity": 0.5278
+    },
+    {
+      "source": "docs/docs/api/modules/core_chain.html",
+      "target": "docs-new/docs/converted/api/modules/core_chain.md",
+      "title": "core/chain | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 32.20%"
+      ],
+      "similarity": 0.322
+    },
+    {
+      "source": "docs/docs/api/modules/core_collect.html",
+      "target": "docs-new/docs/converted/api/modules/core_collect.md",
+      "title": "core/collect | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 38.46%"
+      ],
+      "similarity": 0.3846
+    },
+    {
+      "source": "docs/docs/api/modules/core_combine.html",
+      "target": "docs-new/docs/converted/api/modules/core_combine.md",
+      "title": "core/combine | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 34.55%"
+      ],
+      "similarity": 0.3455
+    },
+    {
+      "source": "docs/docs/api/modules/core_deadend.html",
+      "target": "docs-new/docs/converted/api/modules/core_deadend.md",
+      "title": "core/deadend | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 51.35%"
+      ],
+      "similarity": 0.5135
+    },
+    {
+      "source": "docs/docs/api/modules/core_dxf.html",
+      "target": "docs-new/docs/converted/api/modules/core_dxf.md",
+      "title": "core/dxf | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 43.48%"
+      ],
+      "similarity": 0.4348
+    },
+    {
+      "source": "docs/docs/api/modules/core_equal.html",
+      "target": "docs-new/docs/converted/api/modules/core_equal.md",
+      "title": "core/equal | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 32.20%"
+      ],
+      "similarity": 0.322
+    },
+    {
+      "source": "docs/docs/api/modules/core_expand.html",
+      "target": "docs-new/docs/converted/api/modules/core_expand.md",
+      "title": "core/expand | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 46.34%"
+      ],
+      "similarity": 0.4634
+    },
+    {
+      "source": "docs/docs/api/modules/core_exporter-index.html",
+      "target": "docs-new/docs/converted/api/modules/core_exporter-index.md",
+      "title": "core/exporter-index | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 47.27%"
+      ],
+      "similarity": 0.4727
+    },
+    {
+      "source": "docs/docs/api/modules/core_exporter.html",
+      "target": "docs-new/docs/converted/api/modules/core_exporter.md",
+      "title": "core/exporter | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 41.18%"
+      ],
+      "similarity": 0.4118
+    },
+    {
+      "source": "docs/docs/api/modules/core_fillet-chain.html",
+      "target": "docs-new/docs/converted/api/modules/core_fillet-chain.md",
+      "title": "core/fillet-chain | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 48.72%"
+      ],
+      "similarity": 0.4872
+    },
+    {
+      "source": "docs/docs/api/modules/core_fillet-core.html",
+      "target": "docs-new/docs/converted/api/modules/core_fillet-core.md",
+      "title": "core/fillet-core | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 57.69%"
+      ],
+      "similarity": 0.5769
+    },
+    {
+      "source": "docs/docs/api/modules/core_fillet-path.html",
+      "target": "docs-new/docs/converted/api/modules/core_fillet-path.md",
+      "title": "core/fillet-path | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 48.72%"
+      ],
+      "similarity": 0.4872
+    },
+    {
+      "source": "docs/docs/api/modules/core_importer.html",
+      "target": "docs-new/docs/converted/api/modules/core_importer.md",
+      "title": "core/importer | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 51.35%"
+      ],
+      "similarity": 0.5135
+    },
+    {
+      "source": "docs/docs/api/modules/core_intersect.html",
+      "target": "docs-new/docs/converted/api/modules/core_intersect.md",
+      "title": "core/intersect | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 55.88%"
+      ],
+      "similarity": 0.5588
+    },
+    {
+      "source": "docs/docs/api/modules/core_kit.html",
+      "target": "docs-new/docs/converted/api/modules/core_kit.md",
+      "title": "core/kit | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 48.72%"
+      ],
+      "similarity": 0.4872
+    },
+    {
+      "source": "docs/docs/api/modules/core_layout.html",
+      "target": "docs-new/docs/converted/api/modules/core_layout.md",
+      "title": "core/layout | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 32.20%"
+      ],
+      "similarity": 0.322
+    },
+    {
+      "source": "docs/docs/api/modules/core_maker.html",
+      "target": "docs-new/docs/converted/api/modules/core_maker.md",
+      "title": "core/maker | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 10.05%"
+      ],
+      "similarity": 0.1005
+    },
+    {
+      "source": "docs/docs/api/modules/core_measure-minimal.html",
+      "target": "docs-new/docs/converted/api/modules/core_measure-minimal.md",
+      "title": "core/measure-minimal | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 34.38%"
+      ],
+      "similarity": 0.3438
+    },
+    {
+      "source": "docs/docs/api/modules/core_measure.html",
+      "target": "docs-new/docs/converted/api/modules/core_measure.md",
+      "title": "core/measure | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 19.05%"
+      ],
+      "similarity": 0.1905
+    },
+    {
+      "source": "docs/docs/api/modules/core_model.html",
+      "target": "docs-new/docs/converted/api/modules/core_model.md",
+      "title": "core/model | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 17.92%"
+      ],
+      "similarity": 0.1792
+    },
+    {
+      "source": "docs/docs/api/modules/core_openjscad-esm.html",
+      "target": "docs-new/docs/converted/api/modules/core_openjscad-esm.md",
+      "title": "core/openjscad-esm | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 28.17%"
+      ],
+      "similarity": 0.2817
+    },
+    {
+      "source": "docs/docs/api/modules/core_path.html",
+      "target": "docs-new/docs/converted/api/modules/core_path.md",
+      "title": "core/path | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 23.26%"
+      ],
+      "similarity": 0.2326
+    },
+    {
+      "source": "docs/docs/api/modules/core_paths.html",
+      "target": "docs-new/docs/converted/api/modules/core_paths.md",
+      "title": "core/paths | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 45.24%"
+      ],
+      "similarity": 0.4524
+    },
+    {
+      "source": "docs/docs/api/modules/core_pdf-esm.html",
+      "target": "docs-new/docs/converted/api/modules/core_pdf-esm.md",
+      "title": "core/pdf-esm | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 46.51%"
+      ],
+      "similarity": 0.4651
+    },
+    {
+      "source": "docs/docs/api/modules/core_point.html",
+      "target": "docs-new/docs/converted/api/modules/core_point.md",
+      "title": "core/point | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 25.33%"
+      ],
+      "similarity": 0.2533
+    },
+    {
+      "source": "docs/docs/api/modules/core_schema.html",
+      "target": "docs-new/docs/converted/api/modules/core_schema.md",
+      "title": "core/schema | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 25.00%"
+      ],
+      "similarity": 0.25
+    },
+    {
+      "source": "docs/docs/api/modules/core_simplify.html",
+      "target": "docs-new/docs/converted/api/modules/core_simplify.md",
+      "title": "core/simplify | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 55.88%"
+      ],
+      "similarity": 0.5588
+    },
+    {
+      "source": "docs/docs/api/modules/core_solvers.html",
+      "target": "docs-new/docs/converted/api/modules/core_solvers.md",
+      "title": "core/solvers | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 36.54%"
+      ],
+      "similarity": 0.3654
+    },
+    {
+      "source": "docs/docs/api/modules/core_svg-esm.html",
+      "target": "docs-new/docs/converted/api/modules/core_svg-esm.md",
+      "title": "core/svg-esm | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 27.63%"
+      ],
+      "similarity": 0.2763
+    },
+    {
+      "source": "docs/docs/api/modules/core_svg-helpers.html",
+      "target": "docs-new/docs/converted/api/modules/core_svg-helpers.md",
+      "title": "core/svg-helpers | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 46.34%"
+      ],
+      "similarity": 0.4634
+    },
+    {
+      "source": "docs/docs/api/modules/core_units.html",
+      "target": "docs-new/docs/converted/api/modules/core_units.md",
+      "title": "core/units | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 46.34%"
+      ],
+      "similarity": 0.4634
+    },
+    {
+      "source": "docs/docs/api/modules/core_xml.html",
+      "target": "docs-new/docs/converted/api/modules/core_xml.md",
+      "title": "core/xml | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 47.62%"
+      ],
+      "similarity": 0.4762
+    },
+    {
+      "source": "docs/docs/api/modules/index.html",
+      "target": "docs-new/docs/converted/api/modules/index.md",
+      "title": "index | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 40.48%"
+      ],
+      "similarity": 0.4048
+    },
+    {
+      "source": "docs/docs/api/modules/models.html",
+      "target": "docs-new/docs/converted/api/modules/models.md",
+      "title": "models | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 47.19%"
+      ],
+      "similarity": 0.4719
+    },
+    {
+      "source": "docs/docs/api/modules/models_Belt.html",
+      "target": "docs-new/docs/converted/api/modules/models_Belt.md",
+      "title": "models/Belt | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 55.88%"
+      ],
+      "similarity": 0.5588
+    },
+    {
+      "source": "docs/docs/api/modules/models_BezierCurve-esm.html",
+      "target": "docs-new/docs/converted/api/modules/models_BezierCurve-esm.md",
+      "title": "models/BezierCurve-esm | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 48.72%"
+      ],
+      "similarity": 0.4872
+    },
+    {
+      "source": "docs/docs/api/modules/models_BoltCircle.html",
+      "target": "docs-new/docs/converted/api/modules/models_BoltCircle.md",
+      "title": "models/BoltCircle | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 52.78%"
+      ],
+      "similarity": 0.5278
+    },
+    {
+      "source": "docs/docs/api/modules/models_BoltRectangle.html",
+      "target": "docs-new/docs/converted/api/modules/models_BoltRectangle.md",
+      "title": "models/BoltRectangle | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 52.78%"
+      ],
+      "similarity": 0.5278
+    },
+    {
+      "source": "docs/docs/api/modules/models_ConnectTheDots.html",
+      "target": "docs-new/docs/converted/api/modules/models_ConnectTheDots.md",
+      "title": "models/ConnectTheDots | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 51.35%"
+      ],
+      "similarity": 0.5135
+    },
+    {
+      "source": "docs/docs/api/modules/models_Dogbone.html",
+      "target": "docs-new/docs/converted/api/modules/models_Dogbone.md",
+      "title": "models/Dogbone | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 55.88%"
+      ],
+      "similarity": 0.5588
+    },
+    {
+      "source": "docs/docs/api/modules/models_Dome.html",
+      "target": "docs-new/docs/converted/api/modules/models_Dome.md",
+      "title": "models/Dome | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 55.88%"
+      ],
+      "similarity": 0.5588
+    },
+    {
+      "source": "docs/docs/api/modules/models_Ellipse.html",
+      "target": "docs-new/docs/converted/api/modules/models_Ellipse.md",
+      "title": "models/Ellipse | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 50.00%"
+      ],
+      "similarity": 0.5
+    },
+    {
+      "source": "docs/docs/api/modules/models_Holes.html",
+      "target": "docs-new/docs/converted/api/modules/models_Holes.md",
+      "title": "models/Holes | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 55.88%"
+      ],
+      "similarity": 0.5588
+    },
+    {
+      "source": "docs/docs/api/modules/models_Oval.html",
+      "target": "docs-new/docs/converted/api/modules/models_Oval.md",
+      "title": "models/Oval | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 55.88%"
+      ],
+      "similarity": 0.5588
+    },
+    {
+      "source": "docs/docs/api/modules/models_OvalArc.html",
+      "target": "docs-new/docs/converted/api/modules/models_OvalArc.md",
+      "title": "models/OvalArc | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 52.78%"
+      ],
+      "similarity": 0.5278
+    },
+    {
+      "source": "docs/docs/api/modules/models_Polygon.html",
+      "target": "docs-new/docs/converted/api/modules/models_Polygon.md",
+      "title": "models/Polygon | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 55.88%"
+      ],
+      "similarity": 0.5588
+    },
+    {
+      "source": "docs/docs/api/modules/models_Rectangle.html",
+      "target": "docs-new/docs/converted/api/modules/models_Rectangle.md",
+      "title": "models/Rectangle | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 55.88%"
+      ],
+      "similarity": 0.5588
+    },
+    {
+      "source": "docs/docs/api/modules/models_Ring.html",
+      "target": "docs-new/docs/converted/api/modules/models_Ring.md",
+      "title": "models/Ring | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 55.88%"
+      ],
+      "similarity": 0.5588
+    },
+    {
+      "source": "docs/docs/api/modules/models_RoundRectangle.html",
+      "target": "docs-new/docs/converted/api/modules/models_RoundRectangle.md",
+      "title": "models/RoundRectangle | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 52.78%"
+      ],
+      "similarity": 0.5278
+    },
+    {
+      "source": "docs/docs/api/modules/models_SCurve.html",
+      "target": "docs-new/docs/converted/api/modules/models_SCurve.md",
+      "title": "models/SCurve | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 52.78%"
+      ],
+      "similarity": 0.5278
+    },
+    {
+      "source": "docs/docs/api/modules/models_Slot.html",
+      "target": "docs-new/docs/converted/api/modules/models_Slot.md",
+      "title": "models/Slot | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 55.88%"
+      ],
+      "similarity": 0.5588
+    },
+    {
+      "source": "docs/docs/api/modules/models_Square.html",
+      "target": "docs-new/docs/converted/api/modules/models_Square.md",
+      "title": "models/Square | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 55.88%"
+      ],
+      "similarity": 0.5588
+    },
+    {
+      "source": "docs/docs/api/modules/models_Star.html",
+      "target": "docs-new/docs/converted/api/modules/models_Star.md",
+      "title": "models/Star | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 55.88%"
+      ],
+      "similarity": 0.5588
+    },
+    {
+      "source": "docs/docs/api/modules/models_Text.html",
+      "target": "docs-new/docs/converted/api/modules/models_Text.md",
+      "title": "models/Text | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 55.88%"
+      ],
+      "similarity": 0.5588
+    },
+    {
+      "source": "docs/docs/api/modules/types_jscad.export_.CSG.Path2D.html",
+      "target": "docs-new/docs/converted/api/modules/types_jscad.export_.CSG.Path2D.md",
+      "title": "Path2D | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 53.33%"
+      ],
+      "similarity": 0.5333
+    },
+    {
+      "source": "docs/docs/api/modules/types_jscad.export_.CSG.html",
+      "target": "docs-new/docs/converted/api/modules/types_jscad.export_.CSG.md",
+      "title": "CSG | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 43.10%"
+      ],
+      "similarity": 0.431
+    },
+    {
+      "source": "docs/docs/api/modules/types_jscad.export_.html",
+      "target": "docs-new/docs/converted/api/modules/types_jscad.export_.md",
+      "title": "export= | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 63.77%"
+      ],
+      "similarity": 0.6377
+    },
+    {
+      "source": "docs/docs/api/modules/types_jscad.html",
+      "target": "docs-new/docs/converted/api/modules/types_jscad.md",
+      "title": "types/jscad | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 50.00%"
+      ],
+      "similarity": 0.5
+    },
+    {
+      "source": "docs/docs/api/types/core_boolean-utils.SegmentClassifier.html",
+      "target": "docs-new/docs/converted/api/types/core_boolean-utils.SegmentClassifier.md",
+      "title": "SegmentClassifier | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 41.51%"
+      ],
+      "similarity": 0.4151
+    },
+    {
+      "source": "docs/docs/api/variables/core_base.environment.html",
+      "target": "docs-new/docs/converted/api/variables/core_base.environment.md",
+      "title": "environment | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 54.76%"
+      ],
+      "similarity": 0.5476
+    },
+    {
+      "source": "docs/docs/api/variables/core_base.environmentTypes.html",
+      "target": "docs-new/docs/converted/api/variables/core_base.environmentTypes.md",
+      "title": "environmentTypes | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 40.91%"
+      ],
+      "similarity": 0.4091
+    },
+    {
+      "source": "docs/docs/api/variables/core_base.pathType.html",
+      "target": "docs-new/docs/converted/api/variables/core_base.pathType.md",
+      "title": "pathType | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 40.91%"
+      ],
+      "similarity": 0.4091
+    },
+    {
+      "source": "docs/docs/api/variables/core_base.unitType.html",
+      "target": "docs-new/docs/converted/api/variables/core_base.unitType.md",
+      "title": "unitType | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 39.44%"
+      ],
+      "similarity": 0.3944
+    },
+    {
+      "source": "docs/docs/api/variables/core_base.version.html",
+      "target": "docs-new/docs/converted/api/variables/core_base.version.md",
+      "title": "version | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 47.50%"
+      ],
+      "similarity": 0.475
+    },
+    {
+      "source": "docs/docs/api/variables/core_boolean-utils.DEFAULT_POINT_MATCHING_DISTANCE.html",
+      "target": "docs-new/docs/converted/api/variables/core_boolean-utils.DEFAULT_POINT_MATCHING_DISTANCE.md",
+      "title": "DEFAULT_POINT_MATCHING_DISTANCE | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 44.74%"
+      ],
+      "similarity": 0.4474
+    },
+    {
+      "source": "docs/docs/api/variables/core_exporter.colors.html",
+      "target": "docs-new/docs/converted/api/variables/core_exporter.colors.md",
+      "title": "colors | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 39.80%"
+      ],
+      "similarity": 0.398
+    },
+    {
+      "source": "docs/docs/api/variables/core_maker.environment.html",
+      "target": "docs-new/docs/converted/api/variables/core_maker.environment.md",
+      "title": "environment | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 62.00%"
+      ],
+      "similarity": 0.62
+    },
+    {
+      "source": "docs/docs/api/variables/core_maker.environmentTypes.html",
+      "target": "docs-new/docs/converted/api/variables/core_maker.environmentTypes.md",
+      "title": "environmentTypes | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 44.29%"
+      ],
+      "similarity": 0.4429
+    },
+    {
+      "source": "docs/docs/api/variables/core_maker.pathType.html",
+      "target": "docs-new/docs/converted/api/variables/core_maker.pathType.md",
+      "title": "pathType | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 45.83%"
+      ],
+      "similarity": 0.4583
+    },
+    {
+      "source": "docs/docs/api/variables/core_maker.unitType.html",
+      "target": "docs-new/docs/converted/api/variables/core_maker.unitType.md",
+      "title": "unitType | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 43.42%"
+      ],
+      "similarity": 0.4342
+    },
+    {
+      "source": "docs/docs/api/variables/core_maker.version.html",
+      "target": "docs-new/docs/converted/api/variables/core_maker.version.md",
+      "title": "version | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 48.78%"
+      ],
+      "similarity": 0.4878
+    },
+    {
+      "source": "docs/docs/api/variables/core_svg-esm.svgUnit.html",
+      "target": "docs-new/docs/converted/api/variables/core_svg-esm.svgUnit.md",
+      "title": "svgUnit | Photon",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 47.50%"
+      ],
+      "similarity": 0.475
+    },
+    {
+      "source": "docs/docs/basic-drawing/index.html",
+      "target": "docs-new/docs/converted/basic-drawing/index.md",
+      "title": "Index",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 44.44%"
+      ],
+      "similarity": 0.4444
+    },
+    {
+      "source": "docs/docs/browser-apps/embed.html",
+      "target": "docs-new/docs/converted/browser-apps/embed.md",
+      "title": "embed in page",
+      "status": "warning",
+      "issues": [
+        "Content similarity below 95%: 90.00%"
+      ],
+      "similarity": 0.9
+    },
+    {
+      "source": "docs/docs/getting-started/index.html",
+      "target": "docs-new/docs/converted/getting-started/index.md",
+      "title": "Index",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 58.33%"
+      ],
+      "similarity": 0.5833
+    },
+    {
+      "source": "docs/docs/index.html",
+      "target": "docs-new/docs/converted/index.md",
+      "title": "Index",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 11.94%"
+      ],
+      "similarity": 0.1194
+    },
+    {
+      "source": "docs/docs/intermediate-drawing/index.html",
+      "target": "docs-new/docs/converted/intermediate-drawing/index.md",
+      "title": "Index",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 44.44%"
+      ],
+      "similarity": 0.4444
+    },
+    {
+      "source": "docs/docs/model-trees/index.html",
+      "target": "docs-new/docs/converted/model-trees/index.md",
+      "title": "Index",
+      "status": "failed",
+      "issues": [
+        "Content similarity too low: 28.57%"
+      ],
+      "similarity": 0.2857
+    },
+    {
+      "source": "docs/docs/node-apps/node server.html",
+      "target": "docs-new/docs/converted/node-apps/node server.md",
+      "title": "command line to download",
+      "status": "warning",
+      "issues": [
+        "Content similarity below 95%: 80.00%"
+      ],
+      "similarity": 0.8
+    },
+    {
+      "source": "docs/docs/publishing/packaging.html",
+      "target": "docs-new/docs/converted/publishing/packaging.md",
+      "title": "npm install browserify",
+      "status": "warning",
+      "issues": [
+        "Content similarity below 95%: 94.51%"
+      ],
+      "similarity": 0.9451
+    },
+    {
+      "source": "docs/docs/publishing/publishing.html",
+      "target": "docs-new/docs/converted/publishing/publishing.md",
+      "title": "get node",
+      "status": "warning",
+      "issues": [
+        "Content similarity below 95%: 90.91%"
+      ],
+      "similarity": 0.9091
+    }
+  ]
+}

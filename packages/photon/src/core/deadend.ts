@@ -1,5 +1,5 @@
 import { IModel, IPoint } from './schema.js';
-import { IWalkPath, IWalkOptions, IWalkModel, IWalkPathBooleanCallback } from './maker.js';
+import { IWalkPath, IWalkOptions, IWalkModel, IWalkPathBooleanCallback } from './core.js';
 import * as point from './point.js';
 import * as model from './model.js';
 import { PointGraph, IPointGraphIndexElement } from './collect.js';

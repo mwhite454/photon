@@ -1,0 +1,131 @@
+---
+title: Layout On Path
+source: docs/_snippets/layout-on-path.html
+---
+
+---
+title: Layout on a path
+---
+You can use a path as a layout guide for a row of child models within a model.
+Call [makerjs.layout.childrenOnPath(parentModel: Model, onPath: Path)](/docs/api/modules/makerjs.layout.md#childrenonpath),
+the x-axis will be projected onto your onPath:
+```javascript
+//render a row of squares on a path
+var makerjs = require('makerjs');
+var square = new makerjs.models.Square(10);
+var row = makerjs.layout.cloneToRow(square, 10, 10);
+var arc = new makerjs.paths.Arc([0, 0], 150, 45, 135);
+makerjs.layout.childrenOnPath(row, arc);
+var svg = makerjs.exporter.toSVG(row);
+document.write(svg);
+```
+To better see how layout is performed, let's show the arc in red and add a triangle to the first square:
+```javascript
+//render a row of squares on a path
+var makerjs = require('makerjs');
+var square = new makerjs.models.Square(10);
+var row = makerjs.layout.cloneToRow(square, 10, 10);
+//add a triangle to the first model
+row.models[0].models = { triangle: new makerjs.models.ConnectTheDots(true, [ [5, 8], [2, 2], [8, 2] ]) };
+var arc = new makerjs.paths.Arc([0, 0], 150, 45, 135);
+makerjs.layout.childrenOnPath(row, arc);
+//show the arc in red
+arc.layer = "red";
+row.paths = { arc: arc };
+var svg = makerjs.exporter.toSVG(row);
+document.write(svg);
+```
+You may be surprised to see that the first model is upside down and on the right!
+This is because the x-axis of the row has been projected onto the arc. The arc starts at 45 degrees and ends at 135 degrees - increasing to the left. The x-axis increases to the right, therefore it appears upside down.
+Fortunately, there are additional optional parameters to this makerjs.layout.childrenOnPath which let you control this behavior:
+
+* **baseline**: number *[default: 0]*
+* **reversed**: boolean *[default: false]*
+* **contain**: boolean *[default: false]*
+* **rotate**: boolean *[default: true]*
+
+#### baseline
+
+This is a number, ususally between 0 and 1, to determine where to place each model "vertically" on the layout path. This is a ratio of the parentModel's total height above the x-axis.
+You may also use a negative number or greater than 1 for interesting effects. Use 0.5 to place a model at the y-center:
+```javascript
+//render a row of squares on a path
+var makerjs = require('makerjs');
+var square = new makerjs.models.Square(10);
+var row = makerjs.layout.cloneToRow(square, 10, 10);
+row.models[0].models = { triangle: new makerjs.models.ConnectTheDots(true, [ [5, 8], [2, 2], [8, 2] ]) };
+var arc = new makerjs.paths.Arc([0, 0], 150, 45, 135);
+//layout on the y-center
+makerjs.layout.childrenOnPath(row, arc, 0.5);
+arc.layer = "red";
+row.paths = { arc: arc };
+var svg = makerjs.exporter.toSVG(row);
+document.write(svg);
+```
+
+#### reversed
+
+This option will not work for a circle. Lines and arcs each have a concept of a directional flow:
+
+* line - a line flows from its origin to its end.
+* arc - an arc flows from its startAngle to its endAngle, in the polar (counter-clockwise) direction.
+
+If you want to plot the opposite direction, set **reversed** to true:
+```javascript
+//render a row of squares on a path
+var makerjs = require('makerjs');
+var square = new makerjs.models.Square(10);
+var row = makerjs.layout.cloneToRow(square, 10, 10);
+row.models[0].models = { triangle: new makerjs.models.ConnectTheDots(true, [ [5, 8], [2, 2], [8, 2] ]) };
+var arc = new makerjs.paths.Arc([0, 0], 150, 45, 135);
+//layout on the y-center, reversed
+makerjs.layout.childrenOnPath(row, arc, 0.5, true);
+arc.layer = "red";
+row.paths = { arc: arc };
+var svg = makerjs.exporter.toSVG(row);
+document.write(svg);
+```
+
+#### contain
+
+You may notice that the red arc's endpoints are in the x-center of the first and last children.
+To contain the children within the span, set **contain** to true:
+```javascript
+//render a row of squares on a path
+var makerjs = require('makerjs');
+var square = new makerjs.models.Square(10);
+var row = makerjs.layout.cloneToRow(square, 10, 10);
+row.models[0].models = { triangle: new makerjs.models.ConnectTheDots(true, [ [5, 8], [2, 2], [8, 2] ]) };
+var arc = new makerjs.paths.Arc([0, 0], 150, 45, 135);
+//layout on the y-center, reversed, contained
+makerjs.layout.childrenOnPath(row, arc, 0.5, true, true);
+arc.layer = "red";
+row.paths = { arc: arc };
+var svg = makerjs.exporter.toSVG(row);
+document.write(svg);
+```
+
+#### rotate
+
+If you wish each child to be placed on the path but **not** rotated, set **rotate** to false:
+```javascript
+//render a row of squares on a path
+var makerjs = require('makerjs');
+var square = new makerjs.models.Square(10);
+var row = makerjs.layout.cloneToRow(square, 10, 10);
+row.models[0].models = { triangle: new makerjs.models.ConnectTheDots(true, [ [5, 8], [2, 2], [8, 2] ]) };
+var arc = new makerjs.paths.Arc([0, 0], 150, 45, 135);
+//layout on the y-center, reversed, not contained, not rotated
+makerjs.layout.childrenOnPath(row, arc, 0.5, true, false, false);
+arc.layer = "red";
+row.paths = { arc: arc };
+var svg = makerjs.exporter.toSVG(row);
+document.write(svg);
+```
+
+
+---
+
+#### Laying out text
+
+Layout on a path works well with fonts and text. [See an example here](/playground/index.md?script=text-on-path).

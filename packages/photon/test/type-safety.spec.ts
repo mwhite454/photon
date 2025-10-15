@@ -228,22 +228,22 @@ describe('TypeScript Type Safety', function () {
   describe('Const and Enum Types', function () {
     
     it('should use pathType constants with correct types', async function () {
-      const { maker } = await import('../src/index.js');
+      const { core } = await import('../src/index.js');
       
       // pathType should be a constant object with string values
-      assert.equal(typeof maker.pathType.Line, 'string');
-      assert.equal(typeof maker.pathType.Circle, 'string');
-      assert.equal(typeof maker.pathType.Arc, 'string');
-      assert.equal(typeof maker.pathType.BezierSeed, 'string');
+      assert.equal(typeof core.pathType.Line, 'string');
+      assert.equal(typeof core.pathType.Circle, 'string');
+      assert.equal(typeof core.pathType.Arc, 'string');
+      assert.equal(typeof core.pathType.BezierSeed, 'string');
     });
 
     it('should use unitType constants with correct types', async function () {
-      const { maker } = await import('../src/index.js');
+      const { core } = await import('../src/index.js');
       
       // unitType should be a constant object with string values
-      assert.equal(typeof maker.unitType.Centimeter, 'string');
-      assert.equal(typeof maker.unitType.Inch, 'string');
-      assert.equal(typeof maker.unitType.Millimeter, 'string');
+      assert.equal(typeof core.unitType.Centimeter, 'string');
+      assert.equal(typeof core.unitType.Inch, 'string');
+      assert.equal(typeof core.unitType.Millimeter, 'string');
     });
   });
 

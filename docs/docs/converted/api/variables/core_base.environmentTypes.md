@@ -1,0 +1,61 @@
+---
+ai_summary: environmentTypes | Photon
+category: API Reference
+description: environmentTypes | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- environmenttypes
+- photon
+primary_topic: environmenttypes-|-photon
+source: docs/docs/api/variables/core_base.environmentTypes.html
+tags:
+- intermediate
+- api-reference
+- environmenttypes-|-photon
+title: environmentTypes | Photon
+---
+environmentTypes | Photon
+
+[Photon](../index.md)
+
+
+
+
+Preparing search index...
+
+* [core/base](../modules/core_base.md)
+* environmentTypes
+
+# Variable environmentTypes`Const`
+
+environmentTypes: {
+    BrowserUI: "browser";
+    NodeJs: "node";
+    Unknown: "unknown";
+    WebWorker: "worker";
+} = ...
+
+#### Type Declaration
+
+* ##### `Readonly`BrowserUI: "browser"
+* ##### `Readonly`NodeJs: "node"
+* ##### `Readonly`Unknown: "unknown"
+* ##### `Readonly`WebWorker: "worker"
+
+* Defined in [core/base.ts:5](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/base.ts#L5)
+
+### Settings
+
+Member Visibility
+
+* Protected
+* Inherited
+
+ThemeOSLightDark
+
+[Photon](../index.md)
+
+* Loading...
+
+Generated using [TypeDoc](https://typedoc.org/)

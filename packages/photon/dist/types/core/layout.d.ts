@@ -1,5 +1,5 @@
 import type { IPoint, IPath, IModel } from './schema.js';
-import type { IChain } from './maker.js';
+import type { IChain } from './core.js';
 /**
  * Layout the children of a model along a path.
  * The x-position of each child will be projected onto the path so that the proportion between children is maintained.

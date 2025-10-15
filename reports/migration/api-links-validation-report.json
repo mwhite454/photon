@@ -1,0 +1,1077 @@
+{
+  "summary": {
+    "total_links": 140,
+    "valid_links": 5,
+    "broken_links": 134,
+    "external_links": 0
+  },
+  "needs_update": [
+    {
+      "text": "**model** module",
+      "url": "/docs/api/modules/model.md",
+      "line": 59,
+      "file": "snippets/$-function.md",
+      "new_url": "../api/modules/core_model.html",
+      "status": "needs_update"
+    },
+    {
+      "text": "**path** module",
+      "url": "/docs/api/modules/path.md",
+      "line": 60,
+      "file": "snippets/$-function.md",
+      "new_url": "../api/modules/core_path.html",
+      "status": "needs_update"
+    },
+    {
+      "text": "**point** module",
+      "url": "/docs/api/modules/point.md",
+      "line": 61,
+      "file": "snippets/$-function.md",
+      "new_url": "../api/modules/core_point.html",
+      "status": "needs_update"
+    },
+    {
+      "text": "model API",
+      "url": "/docs/api/modules/makerjs.model.md",
+      "line": 24,
+      "file": "snippets/chain-to-new-model.md",
+      "new_url": "../api/modules/core_model.html",
+      "status": "needs_update"
+    },
+    {
+      "text": "makerjs.measure",
+      "url": "../api/modules/measure.md",
+      "line": 26,
+      "file": "snippets/measuring.md",
+      "new_url": "../api/modules/core_measure.html",
+      "status": "needs_update"
+    }
+  ],
+  "broken": [
+    {
+      "text": "point.distort",
+      "url": "../api/modules/point.md#distort",
+      "line": 24,
+      "file": "snippets/distorting.md",
+      "new_url": "../api/modules/core_point.html#distort",
+      "status": "broken"
+    },
+    {
+      "text": "path.distort",
+      "url": "../api/modules/path.md#distort",
+      "line": 27,
+      "file": "snippets/distorting.md",
+      "new_url": "../api/modules/core_path.html#distort",
+      "status": "broken"
+    },
+    {
+      "text": "model.distort",
+      "url": "../api/modules/model.md#distort",
+      "line": 67,
+      "file": "snippets/distorting.md",
+      "new_url": "../api/modules/core_model.html#distort",
+      "status": "broken"
+    },
+    {
+      "text": "makerjs.model.simplify",
+      "url": "/docs/api/modules/makerjs.model.md#simplify",
+      "line": 34,
+      "file": "snippets/simplifying.md",
+      "new_url": "../api/modules/core_model.html#simplify",
+      "status": "broken"
+    },
+    {
+      "text": "$(x)",
+      "url": "/docs/api/index.md#_",
+      "line": 37,
+      "file": "snippets/$-function.md",
+      "status": "unmapped"
+    },
+    {
+      "text": "*cascade-safe functions*",
+      "url": "/docs/api/interfaces/makerjs.icascademodel.md",
+      "line": 59,
+      "file": "snippets/$-function.md",
+      "status": "unmapped"
+    },
+    {
+      "text": "*cascade-safe functions*",
+      "url": "/docs/api/interfaces/makerjs.icascadepath.md",
+      "line": 60,
+      "file": "snippets/$-function.md",
+      "status": "unmapped"
+    },
+    {
+      "text": "*cascade-safe functions*",
+      "url": "/docs/api/interfaces/makerjs.icascadepoint.md",
+      "line": 61,
+      "file": "snippets/$-function.md",
+      "status": "unmapped"
+    },
+    {
+      "text": "add a path",
+      "url": "/docs/api/modules/path.md#addto",
+      "line": 94,
+      "file": "snippets/$-function.md",
+      "new_url": "../api/modules/core_path.html#addto",
+      "status": "broken"
+    },
+    {
+      "text": "add a model",
+      "url": "/docs/api/modules/model.md#addto",
+      "line": 94,
+      "file": "snippets/$-function.md",
+      "new_url": "../api/modules/core_model.html#addto",
+      "status": "broken"
+    },
+    {
+      "text": "path.dogbone",
+      "url": "/docs/api/modules/path.md#dogbone",
+      "line": 28,
+      "file": "snippets/dogbones.md",
+      "new_url": "../api/modules/core_path.html#dogbone",
+      "status": "broken"
+    },
+    {
+      "text": "paths.Line",
+      "url": "/docs/api/classes/paths.line.md#constructor",
+      "line": 71,
+      "file": "snippets/path-constructors.md",
+      "status": "unmapped"
+    },
+    {
+      "text": "paths.Circle",
+      "url": "/docs/api/classes/paths.circle.md#constructor",
+      "line": 72,
+      "file": "snippets/path-constructors.md",
+      "status": "unmapped"
+    },
+    {
+      "text": "paths.Arc",
+      "url": "/docs/api/classes/paths.arc.md#constructor",
+      "line": 73,
+      "file": "snippets/path-constructors.md",
+      "status": "unmapped"
+    },
+    {
+      "text": "units",
+      "url": "/docs/api/interfaces/makerjs.exporter.idxfrenderoptions.md#units",
+      "line": 47,
+      "file": "snippets/exporting-dxf.md",
+      "status": "unmapped"
+    },
+    {
+      "text": "Maker.js unit type",
+      "url": "/docs/api/index.md#unittype",
+      "line": 47,
+      "file": "snippets/exporting-dxf.md",
+      "status": "unmapped"
+    },
+    {
+      "text": "fontSize",
+      "url": "/docs/api/interfaces/makerjs.exporter.idxfrenderoptions.md#fontsize",
+      "line": 48,
+      "file": "snippets/exporting-dxf.md",
+      "status": "unmapped"
+    },
+    {
+      "text": "layerOptions",
+      "url": "/docs/api/interfaces/makerjs.exporter.idxfrenderoptions.md#layeroptions",
+      "line": 49,
+      "file": "snippets/exporting-dxf.md",
+      "status": "unmapped"
+    },
+    {
+      "text": "color",
+      "url": "/docs/api/interfaces/makerjs.exporter.idxflayeroptions.md#color",
+      "line": 49,
+      "file": "snippets/exporting-dxf.md",
+      "status": "unmapped"
+    },
+    {
+      "text": "Maker.js color",
+      "url": "/docs/api/modules/makerjs.exporter.md#colors",
+      "line": 49,
+      "file": "snippets/exporting-dxf.md",
+      "new_url": "../api/modules/core_exporter.html#colors",
+      "status": "broken"
+    },
+    {
+      "text": "fontSize",
+      "url": "/docs/api/interfaces/makerjs.exporter.idxflayeroptions.md#fontsize",
+      "line": 49,
+      "file": "snippets/exporting-dxf.md",
+      "status": "unmapped"
+    },
+    {
+      "text": "makerjs.model.outline",
+      "url": "/docs/api/modules/makerjs.model.md#outline",
+      "line": 34,
+      "file": "snippets/outlining.md",
+      "new_url": "../api/modules/core_model.html#outline",
+      "status": "broken"
+    },
+    {
+      "text": "layout.childrenOnPath(parentModel: Model, onPath: Path)",
+      "url": "/docs/api/modules/layout.md#childrenonpath",
+      "line": 34,
+      "file": "snippets/layout-on-path.md",
+      "new_url": "../api/modules/core_layout.html#childrenonpath",
+      "status": "broken"
+    },
+    {
+      "text": "path.fillet",
+      "url": "/docs/api/modules/path.md#fillet",
+      "line": 35,
+      "file": "snippets/fillets.md",
+      "new_url": "../api/modules/core_path.html#fillet",
+      "status": "broken"
+    },
+    {
+      "text": "Rectangle",
+      "url": "/docs/api/classes/makerjs.models.rectangle.md#constructor",
+      "line": 37,
+      "file": "snippets/built-in-models.md",
+      "status": "unmapped"
+    },
+    {
+      "text": "models.Text",
+      "url": "/docs/api/classes/models.text.md#constructor",
+      "line": 25,
+      "file": "snippets/fonts-and-text.md",
+      "status": "unmapped"
+    },
+    {
+      "text": "useSvgPathOnly",
+      "url": "/docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#usesvgpathonly",
+      "line": 60,
+      "file": "snippets/exporting-svg.md",
+      "status": "unmapped"
+    },
+    {
+      "text": "accuracy",
+      "url": "/docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#accuracy",
+      "line": 61,
+      "file": "snippets/exporting-svg.md",
+      "status": "unmapped"
+    },
+    {
+      "text": "annotate",
+      "url": "/docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#annotate",
+      "line": 62,
+      "file": "snippets/exporting-svg.md",
+      "status": "unmapped"
+    },
+    {
+      "text": "className",
+      "url": "/docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#className",
+      "line": 63,
+      "file": "snippets/exporting-svg.md",
+      "status": "unmapped"
+    },
+    {
+      "text": "cssStyle",
+      "url": "/docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#cssstyle",
+      "line": 64,
+      "file": "snippets/exporting-svg.md",
+      "status": "unmapped"
+    },
+    {
+      "text": "fill",
+      "url": "/docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#fill",
+      "line": 65,
+      "file": "snippets/exporting-svg.md",
+      "status": "unmapped"
+    },
+    {
+      "text": "fillRule",
+      "url": "/docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#fillrule",
+      "line": 66,
+      "file": "snippets/exporting-svg.md",
+      "status": "unmapped"
+    },
+    {
+      "text": "fontSize",
+      "url": "/docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#fontsize",
+      "line": 67,
+      "file": "snippets/exporting-svg.md",
+      "status": "unmapped"
+    },
+    {
+      "text": "layerOptions",
+      "url": "/docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#layeroptions",
+      "line": 68,
+      "file": "snippets/exporting-svg.md",
+      "status": "unmapped"
+    },
+    {
+      "text": "className",
+      "url": "/docs/api/interfaces/makerjs.exporter.isvgelementrenderoptions.md#className",
+      "line": 68,
+      "file": "snippets/exporting-svg.md",
+      "status": "unmapped"
+    },
+    {
+      "text": "cssStyle",
+      "url": "/docs/api/interfaces/makerjs.exporter.isvgelementrenderoptions.md#cssstyle",
+      "line": 68,
+      "file": "snippets/exporting-svg.md",
+      "status": "unmapped"
+    },
+    {
+      "text": "fill",
+      "url": "/docs/api/interfaces/makerjs.exporter.isvgelementrenderoptions.md#fill",
+      "line": 68,
+      "file": "snippets/exporting-svg.md",
+      "status": "unmapped"
+    },
+    {
+      "text": "stroke",
+      "url": "/docs/api/interfaces/makerjs.exporter.isvgelementrenderoptions.md#stroke",
+      "line": 68,
+      "file": "snippets/exporting-svg.md",
+      "status": "unmapped"
+    },
+    {
+      "text": "strokeWidth",
+      "url": "/docs/api/interfaces/makerjs.exporter.isvgelementrenderoptions.md#strokewidth",
+      "line": 68,
+      "file": "snippets/exporting-svg.md",
+      "status": "unmapped"
+    },
+    {
+      "text": "origin",
+      "url": "/docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#origin",
+      "line": 69,
+      "file": "snippets/exporting-svg.md",
+      "status": "unmapped"
+    },
+    {
+      "text": "scale",
+      "url": "/docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#scale",
+      "line": 70,
+      "file": "snippets/exporting-svg.md",
+      "status": "unmapped"
+    },
+    {
+      "text": "stroke",
+      "url": "/docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#stroke",
+      "line": 71,
+      "file": "snippets/exporting-svg.md",
+      "status": "unmapped"
+    },
+    {
+      "text": "strokeWidth",
+      "url": "/docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#strokewidth",
+      "line": 72,
+      "file": "snippets/exporting-svg.md",
+      "status": "unmapped"
+    },
+    {
+      "text": "svgAttrs",
+      "url": "/docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#svgattrs",
+      "line": 73,
+      "file": "snippets/exporting-svg.md",
+      "status": "unmapped"
+    },
+    {
+      "text": "units",
+      "url": "/docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#units",
+      "line": 74,
+      "file": "snippets/exporting-svg.md",
+      "status": "unmapped"
+    },
+    {
+      "text": "Maker.js unit type",
+      "url": "/docs/api/index.md#unittype",
+      "line": 74,
+      "file": "snippets/exporting-svg.md",
+      "status": "unmapped"
+    },
+    {
+      "text": "viewbox",
+      "url": "/docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#viewbox",
+      "line": 75,
+      "file": "snippets/exporting-svg.md",
+      "status": "unmapped"
+    },
+    {
+      "text": "path.expand",
+      "url": "/docs/api/modules/path.md#expand",
+      "line": 55,
+      "file": "snippets/expanding.md",
+      "new_url": "../api/modules/core_path.html#expand",
+      "status": "broken"
+    },
+    {
+      "text": "model.expandPaths",
+      "url": "/docs/api/modules/model.md#expandpaths",
+      "line": 99,
+      "file": "snippets/expanding.md",
+      "new_url": "../api/modules/core_model.html#expandpaths",
+      "status": "broken"
+    },
+    {
+      "text": "model.expandPaths",
+      "url": "/docs/api/modules/model.md#expandpaths",
+      "line": 121,
+      "file": "snippets/expanding.md",
+      "new_url": "../api/modules/core_model.html#expandpaths",
+      "status": "broken"
+    },
+    {
+      "text": "makerjs.point",
+      "url": "/docs/api/modules/makerjs.point.md#content",
+      "line": 24,
+      "file": "snippets/frequently-used-functions.md",
+      "new_url": "../api/modules/core_point.html#content",
+      "status": "broken"
+    },
+    {
+      "text": "point.add",
+      "url": "/docs/api/modules/makerjs.point.md#add",
+      "line": 26,
+      "file": "snippets/frequently-used-functions.md",
+      "new_url": "../api/modules/core_point.html#add",
+      "status": "broken"
+    },
+    {
+      "text": "point.subtract",
+      "url": "/docs/api/modules/makerjs.point.md#subtract",
+      "line": 29,
+      "file": "snippets/frequently-used-functions.md",
+      "new_url": "../api/modules/core_point.html#subtract",
+      "status": "broken"
+    },
+    {
+      "text": "point.average",
+      "url": "/docs/api/modules/makerjs.point.md#average",
+      "line": 32,
+      "file": "snippets/frequently-used-functions.md",
+      "new_url": "../api/modules/core_point.html#average",
+      "status": "broken"
+    },
+    {
+      "text": "point.fromPolar",
+      "url": "/docs/api/modules/makerjs.point.md#frompolar",
+      "line": 35,
+      "file": "snippets/frequently-used-functions.md",
+      "new_url": "../api/modules/core_point.html#frompolar",
+      "status": "broken"
+    },
+    {
+      "text": "point.closest",
+      "url": "/docs/api/modules/makerjs.point.md#closest",
+      "line": 38,
+      "file": "snippets/frequently-used-functions.md",
+      "new_url": "../api/modules/core_point.html#closest",
+      "status": "broken"
+    },
+    {
+      "text": "point.scale",
+      "url": "/docs/api/modules/makerjs.point.md#scale",
+      "line": 41,
+      "file": "snippets/frequently-used-functions.md",
+      "new_url": "../api/modules/core_point.html#scale",
+      "status": "broken"
+    },
+    {
+      "text": "point.distort",
+      "url": "/docs/api/modules/makerjs.point.md#distort",
+      "line": 44,
+      "file": "snippets/frequently-used-functions.md",
+      "new_url": "../api/modules/core_point.html#distort",
+      "status": "broken"
+    },
+    {
+      "text": "point.rotate",
+      "url": "/docs/api/modules/makerjs.point.md#rotate",
+      "line": 47,
+      "file": "snippets/frequently-used-functions.md",
+      "new_url": "../api/modules/core_point.html#rotate",
+      "status": "broken"
+    },
+    {
+      "text": "point.fromPathEnds",
+      "url": "/docs/api/modules/makerjs.point.md#frompathends",
+      "line": 50,
+      "file": "snippets/frequently-used-functions.md",
+      "new_url": "../api/modules/core_point.html#frompathends",
+      "status": "broken"
+    },
+    {
+      "text": "makerjs.angle",
+      "url": "/docs/api/modules/makerjs.angle.md#content",
+      "line": 54,
+      "file": "snippets/frequently-used-functions.md",
+      "new_url": "../api/modules/core_angle.html#content",
+      "status": "broken"
+    },
+    {
+      "text": "angle.toDegrees",
+      "url": "/docs/api/modules/makerjs.angle.md#todegrees",
+      "line": 56,
+      "file": "snippets/frequently-used-functions.md",
+      "new_url": "../api/modules/core_angle.html#todegrees",
+      "status": "broken"
+    },
+    {
+      "text": "angle.toRadians",
+      "url": "/docs/api/modules/makerjs.angle.md#toradians",
+      "line": 59,
+      "file": "snippets/frequently-used-functions.md",
+      "new_url": "../api/modules/core_angle.html#toradians",
+      "status": "broken"
+    },
+    {
+      "text": "angle.ofLineInDegrees",
+      "url": "/docs/api/modules/makerjs.angle.md#oflineindegrees",
+      "line": 62,
+      "file": "snippets/frequently-used-functions.md",
+      "new_url": "../api/modules/core_angle.html#oflineindegrees",
+      "status": "broken"
+    },
+    {
+      "text": "angle.ofPointInDegrees",
+      "url": "/docs/api/modules/makerjs.angle.md#ofpointindegrees",
+      "line": 65,
+      "file": "snippets/frequently-used-functions.md",
+      "new_url": "../api/modules/core_angle.html#ofpointindegrees",
+      "status": "broken"
+    },
+    {
+      "text": "angle.ofPointInRadians",
+      "url": "/docs/api/modules/makerjs.angle.md#ofpointinradians",
+      "line": 68,
+      "file": "snippets/frequently-used-functions.md",
+      "new_url": "../api/modules/core_angle.html#ofpointinradians",
+      "status": "broken"
+    },
+    {
+      "text": "angle.noRevolutions",
+      "url": "/docs/api/modules/makerjs.angle.md#norevolutions",
+      "line": 71,
+      "file": "snippets/frequently-used-functions.md",
+      "new_url": "../api/modules/core_angle.html#norevolutions",
+      "status": "broken"
+    },
+    {
+      "text": "angle.ofArcSpan",
+      "url": "/docs/api/modules/makerjs.angle.md#ofarcspan",
+      "line": 74,
+      "file": "snippets/frequently-used-functions.md",
+      "new_url": "../api/modules/core_angle.html#ofarcspan",
+      "status": "broken"
+    },
+    {
+      "text": "makerjs.measure",
+      "url": "/docs/api/modules/makerjs.measure.md#content",
+      "line": 78,
+      "file": "snippets/frequently-used-functions.md",
+      "new_url": "../api/modules/core_measure.html#content",
+      "status": "broken"
+    },
+    {
+      "text": "measure.pointDistance",
+      "url": "/docs/api/modules/makerjs.measure.md#pointdistance",
+      "line": 80,
+      "file": "snippets/frequently-used-functions.md",
+      "new_url": "../api/modules/core_measure.html#pointdistance",
+      "status": "broken"
+    },
+    {
+      "text": "measure.pathLength",
+      "url": "/docs/api/modules/makerjs.measure.md#pathlength",
+      "line": 83,
+      "file": "snippets/frequently-used-functions.md",
+      "new_url": "../api/modules/core_measure.html#pathlength",
+      "status": "broken"
+    },
+    {
+      "text": "measure.isPointEqual",
+      "url": "/docs/api/modules/makerjs.measure.md#ispointequal",
+      "line": 86,
+      "file": "snippets/frequently-used-functions.md",
+      "new_url": "../api/modules/core_measure.html#ispointequal",
+      "status": "broken"
+    },
+    {
+      "text": "measure.isMeasurementOverlapping",
+      "url": "/docs/api/modules/makerjs.measure.md#ismeasurementoverlapping",
+      "line": 89,
+      "file": "snippets/frequently-used-functions.md",
+      "new_url": "../api/modules/core_measure.html#ismeasurementoverlapping",
+      "status": "broken"
+    },
+    {
+      "text": "measure.isAngleEqual",
+      "url": "/docs/api/modules/makerjs.measure.md#isangleequal",
+      "line": 92,
+      "file": "snippets/frequently-used-functions.md",
+      "new_url": "../api/modules/core_measure.html#isangleequal",
+      "status": "broken"
+    },
+    {
+      "text": "path.breakAtPoint",
+      "url": "/docs/api/modules/path.md#breakatpoint",
+      "line": 25,
+      "file": "snippets/breaking.md",
+      "new_url": "../api/modules/core_path.html#breakatpoint",
+      "status": "broken"
+    },
+    {
+      "text": "travel(rootModel, route)",
+      "url": "/docs/api/index.md#travel",
+      "line": 51,
+      "file": "snippets/routes.md",
+      "status": "unmapped"
+    },
+    {
+      "text": "createRouteKey(route)",
+      "url": "/docs/api/index.md#createroutekey",
+      "line": 133,
+      "file": "snippets/routes.md",
+      "status": "unmapped"
+    },
+    {
+      "text": "API documentation for OpenJsCad export options",
+      "url": "/docs/api/interfaces/exporter.iopenjscadoptions.md#content",
+      "line": 84,
+      "file": "snippets/exporting-stl.md",
+      "status": "unmapped"
+    },
+    {
+      "text": "model.zero",
+      "url": "/docs/api/modules/model.md#zero",
+      "line": 27,
+      "file": "snippets/zeroing-and-centering.md",
+      "new_url": "../api/modules/core_model.html#zero",
+      "status": "broken"
+    },
+    {
+      "text": "model.center",
+      "url": "/docs/api/modules/model.md#center",
+      "line": 59,
+      "file": "snippets/zeroing-and-centering.md",
+      "new_url": "../api/modules/core_model.html#center",
+      "status": "broken"
+    },
+    {
+      "text": "makerjs.model.findSingleChain(model)",
+      "url": "/docs/api/modules/makerjs.model.md#findsinglechain",
+      "line": 48,
+      "file": "snippets/chain-theory.md",
+      "new_url": "../api/modules/core_model.html#findsinglechain",
+      "status": "broken"
+    },
+    {
+      "text": "makerjs.model.findChains(model)",
+      "url": "/docs/api/modules/makerjs.model.md#findchains",
+      "line": 49,
+      "file": "snippets/chain-theory.md",
+      "new_url": "../api/modules/core_model.html#findchains",
+      "status": "broken"
+    },
+    {
+      "text": "makerjs.model.findSingleChain(model)",
+      "url": "/docs/api/modules/makerjs.model.md#findsinglechain",
+      "line": 53,
+      "file": "snippets/chain-theory.md",
+      "new_url": "../api/modules/core_model.html#findsinglechain",
+      "status": "broken"
+    },
+    {
+      "text": "makerjs.model.findChains(model)",
+      "url": "/docs/api/modules/makerjs.model.md#findchains",
+      "line": 54,
+      "file": "snippets/chain-theory.md",
+      "new_url": "../api/modules/core_model.html#findchains",
+      "status": "broken"
+    },
+    {
+      "text": "model.originate",
+      "url": "../api/modules/model.md#originate",
+      "line": 60,
+      "file": "snippets/originating.md",
+      "new_url": "../api/modules/core_model.html#originate",
+      "status": "broken"
+    },
+    {
+      "text": "point.mirror",
+      "url": "/docs/api/modules/point.md#mirror",
+      "line": 28,
+      "file": "snippets/importing-svg-points.md",
+      "new_url": "../api/modules/core_point.html#mirror",
+      "status": "broken"
+    },
+    {
+      "text": "model.mirror",
+      "url": "/docs/api/modules/model.md#mirror",
+      "line": 29,
+      "file": "snippets/importing-svg-points.md",
+      "new_url": "../api/modules/core_model.html#mirror",
+      "status": "broken"
+    },
+    {
+      "text": "models.ConnectTheDots",
+      "url": "/docs/api/classes/models.connectthedots.md#constructor",
+      "line": 43,
+      "file": "snippets/importing-svg-points.md",
+      "status": "unmapped"
+    },
+    {
+      "text": "makerjs.models.BezierCurve",
+      "url": "/docs/api/classes/makerjs.models.beziercurve.md#content",
+      "line": 37,
+      "file": "snippets/bezier-curves.md",
+      "status": "unmapped"
+    },
+    {
+      "text": "makerjs.chain.reverse(chain)",
+      "url": "/docs/api/modules/makerjs.chain.md#reverse",
+      "line": 31,
+      "file": "snippets/chain-order.md",
+      "new_url": "../api/modules/core_chain.html#reverse",
+      "status": "broken"
+    },
+    {
+      "text": "makerjs.chain.cycle(chain, amount)",
+      "url": "/docs/api/modules/makerjs.chain.md#cycle",
+      "line": 38,
+      "file": "snippets/chain-order.md",
+      "new_url": "../api/modules/core_chain.html#cycle",
+      "status": "broken"
+    },
+    {
+      "text": "makerjs.chain.startAt(chain, routeKey)",
+      "url": "/docs/api/modules/makerjs.chain.md#startat",
+      "line": 39,
+      "file": "snippets/chain-order.md",
+      "new_url": "../api/modules/core_chain.html#startat",
+      "status": "broken"
+    },
+    {
+      "text": "makerjs.measure.isChainClockwise(chain)",
+      "url": "/docs/api/modules/makerjs.measure.md#ischainclockwise",
+      "line": 44,
+      "file": "snippets/chain-order.md",
+      "new_url": "../api/modules/core_measure.html#ischainclockwise",
+      "status": "broken"
+    },
+    {
+      "text": "path.intersection",
+      "url": "/docs/api/modules/path.md#intersection",
+      "line": 23,
+      "file": "snippets/intersection.md",
+      "new_url": "../api/modules/core_path.html#intersection",
+      "status": "broken"
+    },
+    {
+      "text": "object with a property named intersectionPoints",
+      "url": "/docs/api/interfaces/makerjs.ipathintersection.md#content",
+      "line": 24,
+      "file": "snippets/intersection.md",
+      "status": "unmapped"
+    },
+    {
+      "text": "importer.fromSVGPathData",
+      "url": "/docs/api/modules/importer.md#fromsvgpathdata",
+      "line": 48,
+      "file": "snippets/importing-svg-path-data.md",
+      "new_url": "../api/modules/core_importer.html#fromsvgpathdata",
+      "status": "broken"
+    },
+    {
+      "text": "model.move",
+      "url": "/docs/api/modules/model.md#move",
+      "line": 57,
+      "file": "snippets/moving.md",
+      "new_url": "../api/modules/core_model.html#move",
+      "status": "broken"
+    },
+    {
+      "text": "model.moveRelative",
+      "url": "/docs/api/modules/model.md#moverelative",
+      "line": 59,
+      "file": "snippets/moving.md",
+      "new_url": "../api/modules/core_model.html#moverelative",
+      "status": "broken"
+    },
+    {
+      "text": "path.move",
+      "url": "/docs/api/modules/path.md#move",
+      "line": 80,
+      "file": "snippets/moving.md",
+      "new_url": "../api/modules/core_path.html#move",
+      "status": "broken"
+    },
+    {
+      "text": "path.moveRelative",
+      "url": "/docs/api/modules/path.md#moverelative",
+      "line": 81,
+      "file": "snippets/moving.md",
+      "new_url": "../api/modules/core_path.html#moverelative",
+      "status": "broken"
+    },
+    {
+      "text": "makerjs.chain.toNewModel(chain, detachFromOldModel: boolean)",
+      "url": "/docs/api/modules/makerjs.chain.md#tonewmodel",
+      "line": 25,
+      "file": "snippets/chain-to-new-model.md",
+      "new_url": "../api/modules/core_chain.html#tonewmodel",
+      "status": "broken"
+    },
+    {
+      "text": "API documentation for OpenJsCad export options",
+      "url": "/docs/api/interfaces/makerjs.exporter.iopenjscadoptions.md#content",
+      "line": 35,
+      "file": "snippets/exporting-openjscad.md",
+      "status": "unmapped"
+    },
+    {
+      "text": "point.scale",
+      "url": "../api/modules/point.md#scale",
+      "line": 24,
+      "file": "snippets/scaling.md",
+      "new_url": "../api/modules/core_point.html#scale",
+      "status": "broken"
+    },
+    {
+      "text": "path.scale",
+      "url": "../api/modules/path.md#scale",
+      "line": 27,
+      "file": "snippets/scaling.md",
+      "new_url": "../api/modules/core_path.html#scale",
+      "status": "broken"
+    },
+    {
+      "text": "model.scale",
+      "url": "../api/modules/model.md#scale",
+      "line": 28,
+      "file": "snippets/scaling.md",
+      "new_url": "../api/modules/core_model.html#scale",
+      "status": "broken"
+    },
+    {
+      "text": "model.findChains(model)",
+      "url": "/docs/api/modules/model.md#findchains",
+      "line": 29,
+      "file": "snippets/chain-multiple.md",
+      "new_url": "../api/modules/core_model.html#findchains",
+      "status": "broken"
+    },
+    {
+      "text": "model.findChains(model, options)",
+      "url": "/docs/api/modules/model.md#findchains",
+      "line": 54,
+      "file": "snippets/chain-multiple.md",
+      "new_url": "../api/modules/core_model.html#findchains",
+      "status": "broken"
+    },
+    {
+      "text": "chain.fillet",
+      "url": "/docs/api/modules/chain.md#fillet",
+      "line": 30,
+      "file": "snippets/chain-fillet.md",
+      "new_url": "../api/modules/core_chain.html#fillet",
+      "status": "broken"
+    },
+    {
+      "text": "model.findSingleChain(model)",
+      "url": "/docs/api/modules/model.md#findsinglechain",
+      "line": 32,
+      "file": "snippets/chain-single.md",
+      "new_url": "../api/modules/core_model.html#findsinglechain",
+      "status": "broken"
+    },
+    {
+      "text": "solvers",
+      "url": "/docs/api/modules/makerjs.solvers.md#content",
+      "line": 17,
+      "file": "snippets/solvers.md",
+      "new_url": "../api/modules/core_solvers.html#content",
+      "status": "broken"
+    },
+    {
+      "text": "cloneObject",
+      "url": "/docs/api/index.md#cloneobject",
+      "line": 32,
+      "file": "snippets/cloning.md",
+      "status": "unmapped"
+    },
+    {
+      "text": "path.clone",
+      "url": "/docs/api/modules/path.md#clone",
+      "line": 33,
+      "file": "snippets/cloning.md",
+      "new_url": "../api/modules/core_path.html#clone",
+      "status": "broken"
+    },
+    {
+      "text": "point.clone",
+      "url": "/docs/api/modules/point.md#clone",
+      "line": 34,
+      "file": "snippets/cloning.md",
+      "new_url": "../api/modules/core_point.html#clone",
+      "status": "broken"
+    },
+    {
+      "text": "point.fromPolar",
+      "url": "../api/modules/point.md#frompolar",
+      "line": 24,
+      "file": "snippets/rotating.md",
+      "new_url": "../api/modules/core_point.html#frompolar",
+      "status": "broken"
+    },
+    {
+      "text": "point.rotate",
+      "url": "../api/modules/point.md#rotate",
+      "line": 25,
+      "file": "snippets/rotating.md",
+      "new_url": "../api/modules/core_point.html#rotate",
+      "status": "broken"
+    },
+    {
+      "text": "path.rotate",
+      "url": "../api/modules/path.md#rotate",
+      "line": 29,
+      "file": "snippets/rotating.md",
+      "new_url": "../api/modules/core_path.html#rotate",
+      "status": "broken"
+    },
+    {
+      "text": "model.rotate",
+      "url": "../api/modules/model.md#rotate",
+      "line": 30,
+      "file": "snippets/rotating.md",
+      "new_url": "../api/modules/core_model.html#rotate",
+      "status": "broken"
+    },
+    {
+      "text": "model.combine",
+      "url": "/docs/api/modules/model.md#combine",
+      "line": 27,
+      "file": "snippets/combining.md",
+      "new_url": "../api/modules/core_model.html#combine",
+      "status": "broken"
+    },
+    {
+      "text": "model.combineIntersection",
+      "url": "/docs/api/modules/model.md#combineintersection",
+      "line": 72,
+      "file": "snippets/combining.md",
+      "new_url": "../api/modules/core_model.html#combineintersection",
+      "status": "broken"
+    },
+    {
+      "text": "model.combineSubtraction",
+      "url": "/docs/api/modules/model.md#combinesubtraction",
+      "line": 73,
+      "file": "snippets/combining.md",
+      "new_url": "../api/modules/core_model.html#combinesubtraction",
+      "status": "broken"
+    },
+    {
+      "text": "model.combineUnion",
+      "url": "/docs/api/modules/model.md#combineunion",
+      "line": 74,
+      "file": "snippets/combining.md",
+      "new_url": "../api/modules/core_model.html#combineunion",
+      "status": "broken"
+    },
+    {
+      "text": "angle.mirror",
+      "url": "../api/modules/angle.md#mirror",
+      "line": 24,
+      "file": "snippets/mirroring.md",
+      "new_url": "../api/modules/core_angle.html#mirror",
+      "status": "broken"
+    },
+    {
+      "text": "point.mirror",
+      "url": "../api/modules/point.md#mirror",
+      "line": 25,
+      "file": "snippets/mirroring.md",
+      "new_url": "../api/modules/core_point.html#mirror",
+      "status": "broken"
+    },
+    {
+      "text": "path.mirror",
+      "url": "../api/modules/path.md#mirror",
+      "line": 30,
+      "file": "snippets/mirroring.md",
+      "new_url": "../api/modules/core_path.html#mirror",
+      "status": "broken"
+    },
+    {
+      "text": "model.mirror",
+      "url": "../api/modules/model.md#mirror",
+      "line": 31,
+      "file": "snippets/mirroring.md",
+      "new_url": "../api/modules/core_model.html#mirror",
+      "status": "broken"
+    },
+    {
+      "text": "path.converge",
+      "url": "/docs/api/modules/path.md#converge",
+      "line": 24,
+      "file": "snippets/converging.md",
+      "new_url": "../api/modules/core_path.html#converge",
+      "status": "broken"
+    },
+    {
+      "text": "chain.dogbone",
+      "url": "/docs/api/modules/chain.md#dogbone",
+      "line": 30,
+      "file": "snippets/chain-dogbone.md",
+      "new_url": "../api/modules/core_chain.html#dogbone",
+      "status": "broken"
+    },
+    {
+      "text": "layout.childrenOnChain(parentModel: Model, onChain: chain)",
+      "url": "/docs/api/modules/layout.md#childrenonchain",
+      "line": 34,
+      "file": "snippets/layout-on-chain.md",
+      "new_url": "../api/modules/core_layout.html#childrenonchain",
+      "status": "broken"
+    },
+    {
+      "text": "model.toPoints(chain, distance)",
+      "url": "/docs/api/modules/chain.md#topoints",
+      "line": 29,
+      "file": "snippets/chain-to-points.md",
+      "new_url": "../api/modules/core_chain.html#topoints",
+      "status": "broken"
+    },
+    {
+      "text": "model.walk",
+      "url": "/docs/api/modules/model.md#walk",
+      "line": 26,
+      "file": "snippets/walking.md",
+      "new_url": "../api/modules/core_model.html#walk",
+      "status": "broken"
+    },
+    {
+      "text": "walkPath",
+      "url": "/docs/api/interfaces/makerjs.iwalkpath.md#content",
+      "line": 30,
+      "file": "snippets/walking.md",
+      "status": "unmapped"
+    },
+    {
+      "text": "walkModel",
+      "url": "/docs/api/interfaces/makerjs.iwalkmodel.md#content",
+      "line": 31,
+      "file": "snippets/walking.md",
+      "status": "unmapped"
+    },
+    {
+      "text": "walkModel",
+      "url": "/docs/api/interfaces/makerjs.iwalkmodel.md#content",
+      "line": 32,
+      "file": "snippets/walking.md",
+      "status": "unmapped"
+    }
+  ],
+  "external": []
+}

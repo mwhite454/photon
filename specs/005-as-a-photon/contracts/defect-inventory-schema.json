@@ -1,0 +1,202 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://photon.js.org/schemas/defect-inventory.json",
+  "title": "Defect Inventory",
+  "description": "Schema for documentation site defect discovery and inventory",
+  "type": "object",
+  "required": ["timestamp", "sites", "summary", "defects", "pageInventory"],
+  "properties": {
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO-8601 timestamp when inventory was generated"
+    },
+    "sites": {
+      "type": "object",
+      "required": ["local", "production"],
+      "properties": {
+        "local": {
+          "type": "string",
+          "format": "uri",
+          "description": "Local development server URL"
+        },
+        "production": {
+          "type": "string",
+          "format": "uri",
+          "description": "Production site URL"
+        }
+      }
+    },
+    "summary": {
+      "type": "object",
+      "required": ["totalPages", "pagesWithDefects", "totalDefects", "bySeverity", "byType"],
+      "properties": {
+        "totalPages": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Total documentation pages discovered"
+        },
+        "pagesWithDefects": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Pages containing at least one defect"
+        },
+        "totalDefects": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Total defect count across all pages"
+        },
+        "bySeverity": {
+          "type": "object",
+          "required": ["critical", "high", "medium", "low"],
+          "properties": {
+            "critical": { "type": "integer", "minimum": 0 },
+            "high": { "type": "integer", "minimum": 0 },
+            "medium": { "type": "integer", "minimum": 0 },
+            "low": { "type": "integer", "minimum": 0 }
+          }
+        },
+        "byType": {
+          "type": "object",
+          "required": ["missingStyles", "brokenLinks", "consoleErrors", "missingContent", "renderingIssues"],
+          "properties": {
+            "missingStyles": { "type": "integer", "minimum": 0 },
+            "brokenLinks": { "type": "integer", "minimum": 0 },
+            "consoleErrors": { "type": "integer", "minimum": 0 },
+            "missingContent": { "type": "integer", "minimum": 0 },
+            "renderingIssues": { "type": "integer", "minimum": 0 }
+          }
+        }
+      }
+    },
+    "defects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "page", "type", "severity", "description", "expected", "actual", "consoleErrors", "reproduction"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^DEF-\\d{3,}$",
+            "description": "Unique defect identifier"
+          },
+          "page": {
+            "type": "string",
+            "description": "Page URL path where defect was found"
+          },
+          "type": {
+            "type": "string",
+            "enum": ["missingStyles", "brokenLinks", "consoleErrors", "missingContent", "renderingIssues", "resourceLoadFailure", "performanceIssue"],
+            "description": "Category of defect"
+          },
+          "severity": {
+            "type": "string",
+            "enum": ["critical", "high", "medium", "low"],
+            "description": "Impact level of defect"
+          },
+          "description": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Human-readable description of the defect"
+          },
+          "expected": {
+            "type": "string",
+            "minLength": 1,
+            "description": "What should happen"
+          },
+          "actual": {
+            "type": "string",
+            "minLength": 1,
+            "description": "What actually happens"
+          },
+          "screenshot": {
+            "type": "string",
+            "description": "Path to screenshot file (optional)"
+          },
+          "consoleErrors": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Related console error messages"
+          },
+          "reproduction": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Steps to reproduce the defect"
+          },
+          "comparisonData": {
+            "type": "object",
+            "properties": {
+              "productionStatus": {
+                "type": "string",
+                "description": "How production site handles this"
+              },
+              "isDifference": {
+                "type": "boolean",
+                "description": "Whether this differs from production"
+              }
+            }
+          }
+        }
+      }
+    },
+    "pageInventory": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["url", "path", "title", "status", "loadTime", "resourceCounts", "defectIds"],
+        "properties": {
+          "url": {
+            "type": "string",
+            "format": "uri",
+            "description": "Full URL of the page"
+          },
+          "path": {
+            "type": "string",
+            "pattern": "^/",
+            "description": "URL path"
+          },
+          "title": {
+            "type": "string",
+            "description": "Page title from HTML"
+          },
+          "status": {
+            "type": "string",
+            "enum": ["accessible", "error", "timeout", "redirected", "blocked"],
+            "description": "Accessibility status"
+          },
+          "loadTime": {
+            "type": "number",
+            "minimum": 0,
+            "description": "Page load time in milliseconds"
+          },
+          "resourceCounts": {
+            "type": "object",
+            "required": ["css", "js", "images", "fonts", "failed"],
+            "properties": {
+              "css": { "type": "integer", "minimum": 0 },
+              "js": { "type": "integer", "minimum": 0 },
+              "images": { "type": "integer", "minimum": 0 },
+              "fonts": { "type": "integer", "minimum": 0 },
+              "failed": { "type": "integer", "minimum": 0 }
+            }
+          },
+          "defectIds": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^DEF-\\d{3,}$"
+            },
+            "description": "IDs of defects found on this page"
+          },
+          "discoveredFrom": {
+            "type": "string",
+            "format": "uri",
+            "description": "URL of page that linked to this one (optional)"
+          }
+        }
+      }
+    }
+  }
+}

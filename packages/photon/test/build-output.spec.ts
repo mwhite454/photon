@@ -22,18 +22,18 @@ describe('Build Output Validation', function () {
   describe('File Existence', function () {
     
     it('should generate ES module output', function () {
-      const esPath = join(distDir, 'maker.es.js');
-      assert.ok(existsSync(esPath), 'maker.es.js should exist');
+      const esPath = join(distDir, 'photon.es.js');
+      assert.ok(existsSync(esPath), 'photon.es.js should exist');
     });
 
     it('should generate UMD bundle', function () {
-      const umdPath = join(distDir, 'maker.umd.js');
-      assert.ok(existsSync(umdPath), 'maker.umd.js should exist');
+      const umdPath = join(distDir, 'photon.umd.js');
+      assert.ok(existsSync(umdPath), 'photon.umd.js should exist');
     });
 
     it('should generate IIFE bundle', function () {
-      const iifePath = join(distDir, 'maker.iife.js');
-      assert.ok(existsSync(iifePath), 'maker.iife.js should exist');
+      const iifePath = join(distDir, 'photon.iife.js');
+      assert.ok(existsSync(iifePath), 'photon.iife.js should exist');
     });
 
     it('should generate type definitions', function () {
@@ -45,7 +45,7 @@ describe('Build Output Validation', function () {
   describe('File Sizes', function () {
     
     it('should have reasonable ES module size', function () {
-      const esPath = join(distDir, 'maker.es.js');
+      const esPath = join(distDir, 'photon.es.js');
       if (existsSync(esPath)) {
         const stats = statSync(esPath);
         const sizeKB = stats.size / 1024;
@@ -56,7 +56,7 @@ describe('Build Output Validation', function () {
     });
 
     it('should have reasonable UMD bundle size', function () {
-      const umdPath = join(distDir, 'maker.umd.js');
+      const umdPath = join(distDir, 'photon.umd.js');
       if (existsSync(umdPath)) {
         const stats = statSync(umdPath);
         const sizeKB = stats.size / 1024;
@@ -70,7 +70,7 @@ describe('Build Output Validation', function () {
   describe('ES Module Format', function () {
     
     it('should contain ES6 export statements', function () {
-      const esPath = join(distDir, 'maker.es.js');
+      const esPath = join(distDir, 'photon.es.js');
       if (existsSync(esPath)) {
         const content = readFileSync(esPath, 'utf-8');
         
@@ -79,7 +79,7 @@ describe('Build Output Validation', function () {
     });
 
     it('should not contain require() calls', function () {
-      const esPath = join(distDir, 'maker.es.js');
+      const esPath = join(distDir, 'photon.es.js');
       if (existsSync(esPath)) {
         const content = readFileSync(esPath, 'utf-8');
         
@@ -91,7 +91,7 @@ describe('Build Output Validation', function () {
     });
 
     it('should use modern JavaScript syntax', function () {
-      const esPath = join(distDir, 'maker.es.js');
+      const esPath = join(distDir, 'photon.es.js');
       if (existsSync(esPath)) {
         const content = readFileSync(esPath, 'utf-8');
         
@@ -105,18 +105,18 @@ describe('Build Output Validation', function () {
   describe('UMD Bundle Format', function () {
     
     it('should be loadable as CommonJS', function () {
-      const umdPath = join(distDir, 'maker.umd.js');
+      const umdPath = join(distDir, 'photon.umd.js');
       if (existsSync(umdPath)) {
         // Try to require it
         const makerjs = require(umdPath);
         
         assert.ok(makerjs, 'UMD bundle should be loadable via require');
-        assert.ok(makerjs.maker || makerjs.default, 'should export maker namespace');
+        assert.ok(makerjs.core || makerjs.default, 'should export core namespace');
       }
     });
 
     it('should contain UMD wrapper', function () {
-      const umdPath = join(distDir, 'maker.umd.js');
+      const umdPath = join(distDir, 'photon.umd.js');
       if (existsSync(umdPath)) {
         const content = readFileSync(umdPath, 'utf-8');
         
@@ -131,13 +131,13 @@ describe('Build Output Validation', function () {
     });
 
     it('should work with require() in tests', function () {
-      const umdPath = join(distDir, 'maker.umd.js');
+      const umdPath = join(distDir, 'photon.umd.js');
       if (existsSync(umdPath)) {
         const maker = require(umdPath);
         const makerjs = maker.default || maker;
         
         // Test basic functionality
-        assert.ok(makerjs.maker, 'should have maker namespace');
+        assert.ok(makerjs.core, 'should have core namespace');
         assert.ok(makerjs.paths, 'should have paths namespace');
         assert.ok(makerjs.models, 'should have models namespace');
         
@@ -185,7 +185,7 @@ describe('Build Output Validation', function () {
   describe('Tree-Shaking Support', function () {
     
     it('should use named exports for tree-shaking', function () {
-      const esPath = join(distDir, 'maker.es.js');
+      const esPath = join(distDir, 'photon.es.js');
       if (existsSync(esPath)) {
         const content = readFileSync(esPath, 'utf-8');
         
@@ -198,7 +198,7 @@ describe('Build Output Validation', function () {
     });
 
     it('should not have side effects in module code', function () {
-      const esPath = join(distDir, 'maker.es.js');
+      const esPath = join(distDir, 'photon.es.js');
       if (existsSync(esPath)) {
         const content = readFileSync(esPath, 'utf-8');
         
@@ -215,7 +215,7 @@ describe('Build Output Validation', function () {
   describe('Browser Compatibility', function () {
     
     it('should not use Node.js-specific APIs in browser bundle', function () {
-      const esPath = join(distDir, 'maker.es.js');
+      const esPath = join(distDir, 'photon.es.js');
       if (existsSync(esPath)) {
         const content = readFileSync(esPath, 'utf-8');
         
@@ -228,7 +228,7 @@ describe('Build Output Validation', function () {
     });
 
     it('should handle global namespace for IIFE', function () {
-      const iifePath = join(distDir, 'maker.iife.js');
+      const iifePath = join(distDir, 'photon.iife.js');
       if (existsSync(iifePath)) {
         const content = readFileSync(iifePath, 'utf-8');
         
@@ -244,7 +244,7 @@ describe('Build Output Validation', function () {
   describe('Source Maps', function () {
     
     it('should generate source maps for ES module', function () {
-      const mapPath = join(distDir, 'maker.es.js.map');
+      const mapPath = join(distDir, 'photon.es.js.map');
       // Source maps are optional but recommended
       if (existsSync(mapPath)) {
         const content = readFileSync(mapPath, 'utf-8');
@@ -298,7 +298,7 @@ describe('Build Output Validation', function () {
   describe('Functional Tests', function () {
     
     it('should create basic shapes from UMD bundle', function () {
-      const umdPath = join(distDir, 'maker.umd.js');
+      const umdPath = join(distDir, 'photon.umd.js');
       if (existsSync(umdPath)) {
         const maker = require(umdPath);
         const makerjs = maker.default || maker;
@@ -315,7 +315,7 @@ describe('Build Output Validation', function () {
     });
 
     it('should create model classes from UMD bundle', function () {
-      const umdPath = join(distDir, 'maker.umd.js');
+      const umdPath = join(distDir, 'photon.umd.js');
       if (existsSync(umdPath)) {
         const maker = require(umdPath);
         const makerjs = maker.default || maker;
@@ -332,7 +332,7 @@ describe('Build Output Validation', function () {
     });
 
     it('should perform model operations from UMD bundle', function () {
-      const umdPath = join(distDir, 'maker.umd.js');
+      const umdPath = join(distDir, 'photon.umd.js');
       if (existsSync(umdPath)) {
         const maker = require(umdPath);
         const makerjs = maker.default || maker;
@@ -349,7 +349,7 @@ describe('Build Output Validation', function () {
     });
 
     it('should export to SVG from UMD bundle', function () {
-      const umdPath = join(distDir, 'maker.umd.js');
+      const umdPath = join(distDir, 'photon.umd.js');
       if (existsSync(umdPath)) {
         const maker = require(umdPath);
         const makerjs = maker.default || maker;
@@ -367,7 +367,7 @@ describe('Build Output Validation', function () {
   describe('Performance', function () {
     
     it('should load UMD bundle quickly', function () {
-      const umdPath = join(distDir, 'maker.umd.js');
+      const umdPath = join(distDir, 'photon.umd.js');
       if (existsSync(umdPath)) {
         const start = Date.now();
         require(umdPath);
@@ -378,7 +378,7 @@ describe('Build Output Validation', function () {
     });
 
     it('should create shapes efficiently', function () {
-      const umdPath = join(distDir, 'maker.umd.js');
+      const umdPath = join(distDir, 'photon.umd.js');
       if (existsSync(umdPath)) {
         const maker = require(umdPath);
         const makerjs = maker.default || maker;

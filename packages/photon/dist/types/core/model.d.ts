@@ -1,5 +1,5 @@
 import { IModel, IPoint, IPath, ICaption } from './schema.js';
-import type { IWalkOptions, IModelPathCallback, IChain, IChainCallback, IFindChainsOptions, IChainsMap } from './maker.js';
+import type { IWalkOptions, IModelPathCallback, IChain, IChainCallback, IFindChainsOptions, IChainsMap } from './core.js';
 export declare function findChains(modelContext: IModel, callbackOrOptions?: IChainCallback | IFindChainsOptions, maybeOptions?: IFindChainsOptions): IChain[] | IChainsMap;
 export declare function findSingleChain(modelContext: IModel): IChain;
 /** Add a Caption object to a model. */

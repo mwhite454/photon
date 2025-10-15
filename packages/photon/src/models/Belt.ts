@@ -1,5 +1,5 @@
 import { IModel, IPathMap } from '../core/schema.js';
-import type { IKit } from '../core/maker.js';
+import type { IKit } from '../core/core.js';
 import * as point from '../core/point.js';
 import * as paths from '../core/paths.js';
 import * as solvers from '../core/solvers.js';

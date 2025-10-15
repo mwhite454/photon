@@ -11,7 +11,7 @@ import {
   type IContainChainsOptions,
   type IWalkPath,
   type IChain
-} from './maker.js';
+} from './core.js';
 import * as measure from './measure.js';
 import * as chain from './chain.js';
 import { XmlTag, type IXmlTagAttrs } from './xml.js';

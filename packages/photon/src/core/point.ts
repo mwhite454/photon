@@ -1,6 +1,6 @@
 import { IPoint, IPath, IPathLine, IPathCircle, IPathArc, IPathBezierSeed } from './schema.js';
-import { round, pathType } from './maker.js';
-import type { ISlope, IPathIntersectionBaseOptions } from './maker.js';
+import { round, pathType } from './core.js';
+import type { ISlope, IPathIntersectionBaseOptions } from './core.js';
 import * as angle from './angle.js';
 import * as measure from './measure.js';
 import * as equal from './equal.js';
@@ -199,4 +199,4 @@ export function zero(): IPoint {
 }
 
 /** Test to see if an object implements the required properties of a point. */
-export { isPoint } from './maker.js';
+export { isPoint } from './core.js';

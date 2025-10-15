@@ -1,0 +1,3206 @@
+{
+  "timestamp": "2025-10-14T12:35:26.620939",
+  "docs_directory": "docs-new/docs",
+  "dry_run": false,
+  "total_files_scanned": 494,
+  "files_modified": 4,
+  "total_replacements": 28,
+  "files": [
+    {
+      "file": "index.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/distorting.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/simplifying.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/$-function.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/svg-styling.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/captions.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/template.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/aliasing.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/dogbones.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/path-constructors.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/exporting-dxf.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/basic-rendering-in-svg.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/outlining.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/layout-on-path.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/fillets.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/built-in-models.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/fonts-and-text.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/getting-started-browser.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/exporting-svg.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/expanding.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/frequently-used-functions.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/breaking.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/try-it-now.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/routes.md",
+      "status": "modified",
+      "changes_count": 8,
+      "changes": [
+        {
+          "type": "namespace_to_named_import",
+          "original": "import * as makerjs from 'photon/core';",
+          "replacement": "import { cloneObject, createRouteKey, exporter, model, models, paths, travel } from 'photon/core';",
+          "namespaces": [
+            "paths",
+            "model",
+            "models",
+            "exporter"
+          ],
+          "root_methods": [
+            "cloneObject",
+            "createRouteKey",
+            "travel"
+          ]
+        },
+        {
+          "type": "namespace_reference",
+          "namespace": "paths",
+          "occurrences": 2,
+          "original": "makerjs.paths.",
+          "replacement": "paths."
+        },
+        {
+          "type": "namespace_reference",
+          "namespace": "model",
+          "occurrences": 4,
+          "original": "makerjs.model.",
+          "replacement": "model."
+        },
+        {
+          "type": "namespace_reference",
+          "namespace": "models",
+          "occurrences": 4,
+          "original": "makerjs.models.",
+          "replacement": "models."
+        },
+        {
+          "type": "namespace_reference",
+          "namespace": "exporter",
+          "occurrences": 2,
+          "original": "makerjs.exporter.",
+          "replacement": "exporter."
+        },
+        {
+          "type": "root_method_reference",
+          "method": "cloneObject",
+          "occurrences": 2,
+          "original": "makerjs.cloneObject",
+          "replacement": "cloneObject"
+        },
+        {
+          "type": "root_method_reference",
+          "method": "createRouteKey",
+          "occurrences": 1,
+          "original": "makerjs.createRouteKey",
+          "replacement": "createRouteKey"
+        },
+        {
+          "type": "root_method_reference",
+          "method": "travel",
+          "occurrences": 5,
+          "original": "makerjs.travel",
+          "replacement": "travel"
+        }
+      ]
+    },
+    {
+      "file": "snippets/exporting-stl.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/chain-links.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/layout-repeating.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/zeroing-and-centering.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/chain-theory.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/originating.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/importing-svg-points.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/bezier-curves.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/chain-order.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/modeling.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/intersection.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/layers.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/importing-svg-path-data.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/units.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/moving.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/points.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/chain-to-new-model.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/exporting-openjscad.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/paths.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/open-vs-closed-geometry.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/models.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/wireframe.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/scaling.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/exporting-svg-path-data.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/modifying-models.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/chain-multiple.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/chains.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/chain-fillet.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/chain-single.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/tree.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/order-of-operations.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/solvers.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/cloning.md",
+      "status": "modified",
+      "changes_count": 8,
+      "changes": [
+        {
+          "type": "namespace_to_named_import",
+          "original": "import * as makerjs from 'photon/core';",
+          "replacement": "import { angle, cloneObject, exporter, model, path, paths, point } from 'photon/core';",
+          "namespaces": [
+            "path",
+            "exporter",
+            "point",
+            "paths",
+            "model",
+            "angle"
+          ],
+          "root_methods": [
+            "cloneObject"
+          ]
+        },
+        {
+          "type": "namespace_reference",
+          "namespace": "path",
+          "occurrences": 2,
+          "original": "makerjs.path.",
+          "replacement": "path."
+        },
+        {
+          "type": "namespace_reference",
+          "namespace": "exporter",
+          "occurrences": 1,
+          "original": "makerjs.exporter.",
+          "replacement": "exporter."
+        },
+        {
+          "type": "namespace_reference",
+          "namespace": "point",
+          "occurrences": 4,
+          "original": "makerjs.point.",
+          "replacement": "point."
+        },
+        {
+          "type": "namespace_reference",
+          "namespace": "paths",
+          "occurrences": 2,
+          "original": "makerjs.paths.",
+          "replacement": "paths."
+        },
+        {
+          "type": "namespace_reference",
+          "namespace": "model",
+          "occurrences": 1,
+          "original": "makerjs.model.",
+          "replacement": "model."
+        },
+        {
+          "type": "namespace_reference",
+          "namespace": "angle",
+          "occurrences": 1,
+          "original": "makerjs.angle.",
+          "replacement": "angle."
+        },
+        {
+          "type": "root_method_reference",
+          "method": "cloneObject",
+          "occurrences": 2,
+          "original": "makerjs.cloneObject",
+          "replacement": "cloneObject"
+        }
+      ]
+    },
+    {
+      "file": "snippets/cascading-functions.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/exporting-pdf.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/getting-started-node.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/rotating.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/path-independence.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/combining.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/mirroring.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/chain-to-key-points.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/converging.md",
+      "status": "modified",
+      "changes_count": 5,
+      "changes": [
+        {
+          "type": "namespace_to_named_import",
+          "original": "import * as makerjs from 'photon/core';",
+          "replacement": "import { cloneObject, exporter, path, paths } from 'photon/core';",
+          "namespaces": [
+            "path",
+            "paths",
+            "exporter"
+          ],
+          "root_methods": [
+            "cloneObject"
+          ]
+        },
+        {
+          "type": "namespace_reference",
+          "namespace": "path",
+          "occurrences": 6,
+          "original": "makerjs.path.",
+          "replacement": "path."
+        },
+        {
+          "type": "namespace_reference",
+          "namespace": "paths",
+          "occurrences": 3,
+          "original": "makerjs.paths.",
+          "replacement": "paths."
+        },
+        {
+          "type": "namespace_reference",
+          "namespace": "exporter",
+          "occurrences": 1,
+          "original": "makerjs.exporter.",
+          "replacement": "exporter."
+        },
+        {
+          "type": "root_method_reference",
+          "method": "cloneObject",
+          "occurrences": 2,
+          "original": "makerjs.cloneObject",
+          "replacement": "cloneObject"
+        }
+      ]
+    },
+    {
+      "file": "snippets/chain-dogbone.md",
+      "status": "modified",
+      "changes_count": 7,
+      "changes": [
+        {
+          "type": "namespace_to_named_import",
+          "original": "import * as makerjs from 'photon/core';",
+          "replacement": "import { chain, cloneObject, exporter, measure, model, models } from 'photon/core';",
+          "namespaces": [
+            "exporter",
+            "models",
+            "measure",
+            "model",
+            "chain"
+          ],
+          "root_methods": [
+            "cloneObject"
+          ]
+        },
+        {
+          "type": "namespace_reference",
+          "namespace": "exporter",
+          "occurrences": 2,
+          "original": "makerjs.exporter.",
+          "replacement": "exporter."
+        },
+        {
+          "type": "namespace_reference",
+          "namespace": "models",
+          "occurrences": 6,
+          "original": "makerjs.models.",
+          "replacement": "models."
+        },
+        {
+          "type": "namespace_reference",
+          "namespace": "measure",
+          "occurrences": 1,
+          "original": "makerjs.measure.",
+          "replacement": "measure."
+        },
+        {
+          "type": "namespace_reference",
+          "namespace": "model",
+          "occurrences": 10,
+          "original": "makerjs.model.",
+          "replacement": "model."
+        },
+        {
+          "type": "namespace_reference",
+          "namespace": "chain",
+          "occurrences": 5,
+          "original": "makerjs.chain.",
+          "replacement": "chain."
+        },
+        {
+          "type": "root_method_reference",
+          "method": "cloneObject",
+          "occurrences": 2,
+          "original": "makerjs.cloneObject",
+          "replacement": "cloneObject"
+        }
+      ]
+    },
+    {
+      "file": "snippets/measuring.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/layout-on-chain.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/chain-to-points.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/just-json.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "snippets/walking.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "advanced-drawing/index.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "model-trees/index.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "exporting/index.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "getting-started/index.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/index.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/publishing/publishing.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/publishing/packaging.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/advanced-drawing/index.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/model-trees/index.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/node-apps/node server.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/browser-apps/embed.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/exporting/index.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/intermediate-drawing/index.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/getting-started/index.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/working-with-chains/index.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/index.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/hierarchy.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/types/core_boolean-utils.SegmentClassifier.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/core_paths.Arc.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/core_paths.Chord.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/models_Text.Text.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/models_Dome.Dome.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/core_xml.XmlTag.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/core_collect.PointGraph.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/models_Oval.Oval.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/models_BoltRectangle.BoltRectangle.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/models_Dogbone.Dogbone.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/models_ConnectTheDots.ConnectTheDots.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/models_RoundRectangle.RoundRectangle.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/models_OvalArc.OvalArc.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/models_Ellipse.Ellipse.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/models_SCurve.SCurve.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/models_BoltCircle.BoltCircle.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/core_paths.Parallel.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/core_paths.Line.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/models_Ellipse.EllipticArc.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/models_Slot.Slot.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/models_BezierCurve-esm.BezierCurve.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/models_Belt.Belt.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/models_Rectangle.Rectangle.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/types_jscad.export_.CAG.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/core_paths.Circle.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/models_Holes.Holes.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/core_collect.Collector.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/models_Polygon.Polygon.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/models_Star.Star.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/models_BezierCurve-esm.BezierSeed.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/models_Ring.Ring.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/types_jscad.export_.CSG.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/models_Square.Square.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/classes/core_measure.Atlas.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/variables/core_maker.environmentTypes.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/variables/core_base.pathType.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/variables/core_maker.unitType.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/variables/core_base.environmentTypes.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/variables/core_base.version.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/variables/core_boolean-utils.DEFAULT_POINT_MATCHING_DISTANCE.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/variables/core_base.unitType.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/variables/core_maker.pathType.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/variables/core_svg-esm.svgUnit.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/variables/core_base.environment.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/variables/core_maker.environment.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/variables/core_maker.version.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/variables/core_exporter.colors.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_fillet-chain.chainFillet.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_maker.isFunction.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_model.moveRelative.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_simplify.simplify.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_measure.lineSlope.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_model.distort.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_path.mirror.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_maker.isModel.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_solvers.equilateralSide.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_maker.cloneObject.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_measure-minimal.pointDistance.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_model.scale.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/types_jscad.export_.CSG.Path2D.arc.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_maker.createRouteKey.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_maker.isPoint.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_measure-minimal.modelExtents.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_boolean-utils.isBetween.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_measure.pathExtents.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_path.addTo.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_model.clone.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_openjscad-esm.toJscadCAG.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_chain.toKeyPoints.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_model.addModel.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_measure.increase.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_path.zero.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_pdf-esm.toPDF.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_maker.isPathCircle.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_measure.modelExtents.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_base.splitDecimal.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_openjscad-esm.toJscadCSG.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_path.clone.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_model.addTo.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_path.copyProps.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_importer.parseNumericList.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_solvers.equilateralAltitude.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_layout.cloneToHoneycomb.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_measure.isBezierSeedLinear.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_path.toKeyPoints.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_layout.cloneToRadial.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_combine.isPathInsideModel.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_maker.splitDecimal.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_angle.ofLineInDegrees.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_path.scale.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_units.isValidUnit.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_measure.isArcConcaveTowardsPoint.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_expand.expand.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_openjscad-esm.toJscadScript.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_measure.isBetween.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_measure.isPointArrayClockwise.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_point.middle.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_base.cloneObject.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_measure-minimal.isBezierSeedLinear.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_base.extendObject.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_model.getSimilarModelId.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_maker.travel.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_angle.noRevolutions.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_point.fromArc.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_model.convertUnits.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_angle.ofArcMiddle.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_combine.combine.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_model.layer.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_model.walk.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_equal.isAngleEqual.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_angle.mirror.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_equal.isPointOnPath.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_path.moveRelative.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_angle.ofPointInRadians.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_measure.isPointInsideModel.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_deadend.removeDeadEnds.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_maker.extendObject.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_point.average.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_model.countChildModels.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_measure-minimal.augment.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_model.prefixPathIds.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_measure.modelPathLength.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_units.conversionScale.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_chain.cycle.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_point.rounded.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_angle.toRadians.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_path.layer.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_expand.outline.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_boolean-utils.isBetweenPoints.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_model.rotate.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_measure.isMeasurementOverlapping.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_combine.breakPathsAtIntersections.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_measure-minimal.pathLength.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_measure.isArcOverlapping.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_layout.cloneToBrick.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_point.mirror.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_measure.augment.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_path.center.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_model.addPath.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_model.getSimilarPathId.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_model.move.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_expand.expandPaths.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_kit.construct.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_point.closest.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_angle.ofChainLinkJoint.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_model.originate.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_equal.isSlopeParallel.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_measure.boundingHexagon.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_measure.isArcSpanOverlapping.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_maker.isPathArc.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_boolean-utils.isCircleOrArc.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_point.scale.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_boolean-utils.ensurePathLayer.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_solvers.circleTangentAngles.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_layout.cloneToColumn.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_point.rotate.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_svg-esm.toSVG.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_solvers.solveTriangleASA.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_combine.combineIntersection.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_measure.isChainClockwise.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_path.toPoints.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_svg-helpers.pathToSVGPathData.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_model.mirror.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_expand.straighten.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_boolean-utils.trackDeletedPath.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_point.clone.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_path.distort.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_point.zero.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_boolean-utils.pathBoundingBox.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_maker.isPathLine.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_chain.toPoints.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_intersect.intersection.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_point.fromSlopeIntersection.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_layout.cloneToGrid.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_model.findSingleChain.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_maker.isNumber.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_base.isPoint.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_combine.combineUnion.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_model.addCaption.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_svg-esm.toSVGPathData.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_model.zero.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_equal.isPointOnSlope.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_chain.toNewModel.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_chain.startAt.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_maker.isPathArcInBezierCurve.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_equal.isPointEqual.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_svg-esm.fromSVGPathData.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_base.isObject.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_point.distort.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_boolean-utils.isArcEnclosingAngle.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_fillet-chain.chainDogbone.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_boolean-utils.addPathToModel.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_solvers.solveTriangleSSS.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_measure.isBetweenArcAngles.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_fillet-path.pathFillet.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_boolean-utils.isZeroLength.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_measure-minimal.lineSlope.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_point.add.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_angle.ofArcSpan.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_equal.isPointOnCircle.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_measure.pointDistance.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_maker.isChain.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_base.round.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_measure-minimal.pathExtents.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_chain.findSingleChain.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_model.getAllCaptionsOffset.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_path.converge.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_base.isNumber.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_dxf.toDXF.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_boolean-utils.findPointsOnPath.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_angle.ofArcEnd.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_point.subtract.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_layout.cloneToRow.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_chain.findChains.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_angle.toDegrees.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_maker.isObject.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_fillet-path.pathDogbone.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_point.fromPolar.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_maker.isPath.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_openjscad-esm.toJscadSTL.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_point.fromPathEnds.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_boolean-utils.isBetweenArcAngles.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_kit.getParameterValues.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_layout.childrenOnChain.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_model.walkPaths.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_model.findChains.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_svg-helpers.chainToSVGPathData.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_angle.ofPointInDegrees.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_measure.isBetweenPoints.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_path.move.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_model.center.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_break.breakAtPoint.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_layout.childrenOnPath.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_point.fromAngleOnCircle.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_chain.reverse.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_measure.isLineOverlapping.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_base.isFunction.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_combine.combineSubtraction.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_measure.pathLength.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_equal.isPointDistinct.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_path.rotate.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_equal.isSlopeEqual.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_equal.isPathEqual.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_maker.round.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_path.moveTemporary.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_base.createRouteKey.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_path.alterLength.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/functions/core_exporter.toJson.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_angle.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_chain.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/models_Dome.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_maker.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/models_RoundRectangle.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/models_Ring.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_expand.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_dxf.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/models_OvalArc.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/models_Ellipse.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_schema.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_path.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/types_jscad.export_.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_exporter-index.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_base.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/models_BezierCurve-esm.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_paths.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_svg-esm.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_intersect.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_fillet-core.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/models_Text.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_measure-minimal.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_units.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_equal.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/models_BoltRectangle.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_svg-helpers.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_layout.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/models_Square.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/index.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/models.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/models_Star.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/models_ConnectTheDots.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/models_Polygon.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_break.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/models_BoltCircle.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/models_Slot.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_solvers.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/types_jscad.export_.CSG.Path2D.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/models_Dogbone.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_exporter.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_kit.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/types_jscad.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/models_SCurve.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_collect.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_importer.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_openjscad-esm.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_cascades.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_measure.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_point.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/models_Oval.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_pdf-esm.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_deadend.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_model.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/models_Belt.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_xml.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/models_Holes.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_fillet-path.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_boolean-utils.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_simplify.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_cascades.MakerJs.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_fillet-chain.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/types_jscad.export_.CSG.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/core_combine.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/modules/models_Rectangle.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_collect.ICollectionKeyComparer.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IWalkOptions.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_svg-esm.ISVGPathDataRenderOptions.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_schema.IPathArcInBezierCurve.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_schema.IPathArc.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_dxf.IDXFRenderOptions.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IMeasurePointInsideOptions.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_schema.IPathLine.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_schema.IPath.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_svg-esm.IFlowAnnotation.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_path.IWalkPath.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IWalkPathBooleanCallback.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IIsPointOnPathOptions.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/types_jscad.StlSerializer.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IRouteOffset.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_collect.IPointGraphIndexElement.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_collect.ICollection.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_svg-esm.IPathDataByLayerMap.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_svg-esm.ISVGElementRenderOptions.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_boolean-utils.SegmentClassification.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IMeasure.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_svg-esm.ISVGImportOptions.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_svg-esm.ISVGRenderOptions.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_xml.IXmlTagAttrs.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/types_jscad.export_.CSG.ICircleOptions.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_openjscad-esm.IJscadScriptOptions.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IWalkModel.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IMeasureMap.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IModelPathCallback.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_schema.IPathMap.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IChainLink.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IPointMatchOptions.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_schema.IPathIntersectionOptions.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IPathIntersectionBaseOptions.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_openjscad-esm.IJscadCsgOptions.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_openjscad-esm.IOpenJsCadOptionsMap.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_openjscad-esm.IJscadExtrudeOptions.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IFindLoopsOptions.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.ICombineOptions.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IWalkModelCallback.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_boolean-utils.DeletedPathInfo.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IPathRemoved.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_openjscad-esm.IStatusCallback.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_openjscad-esm.IOpenJsCadOptions.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_schema.IPathCircle.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_schema.IModelMap.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IPathIntersection.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IPathDirectional.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_dxf.IDXFLayerOptions.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_cascades.MakerJs.ICascade.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IKit.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IFindChainsOptions.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IPathIntersectionOptions.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IMetaParameter.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_path.IChain.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_cascades.MakerJs.ICascadePath.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.ISimplifyOptions.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IRefPathIdInModel.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IWalkModelCancellableCallback.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_schema.ICaption.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_exporter.IStatusCallback.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_pdf-esm.IPDFRenderOptions.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_svg-esm.SvgUnitConversion.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IWalkPathCallback.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_openjscad-esm.IJscadCagOptions.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IMeasureWithCenter.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_schema.IPathIntersection.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IChainsMap.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IContainChainsOptions.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_cascades.MakerJs.ICascadePoint.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.ICascade.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IWalkPath.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_cascades.MakerJs.ICascadeModel.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IRefModelInModel.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IChainCallback.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IChain.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/types_jscad.export_.CSG.IArcOptions.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_schema.IPoint.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_schema.IBezierRange.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_schema.IModel.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/types_jscad.export_.CSG.IEllpiticalArcOptions.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_angle.IChainLink.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_exporter.IJsonExportOptions.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_schema.IPathBezierSeed.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.IBoundingHex.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/api/interfaces/core_maker.ISlope.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/importing/index.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "converted/basic-drawing/index.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "api/index.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "external/text-encoding/LICENSE.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "migration/api-mapping.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "migration/migration-faq.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    },
+    {
+      "file": "basic-drawing/index.md",
+      "status": "no_changes",
+      "changes_count": 0,
+      "changes": []
+    }
+  ]
+}

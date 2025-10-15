@@ -1,0 +1,75 @@
+---
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- isbetween
+- photon
+primary_topic: isbetween-|-photon
+source: docs/docs/api/functions/core_measure.isBetween.html
+tags:
+- intermediate
+- api-reference
+- isbetween-|-photon
+title: isBetween | Photon
+---
+isBetween | Photon
+
+[Photon](../index.md)
+
+
+
+
+Preparing search index...
+
+* [core/measure](../modules/core_measure.md)
+* isBetween
+
+# Function isBetween
+
+* isBetween(
+      valueInQuestion: number,
+      limitA: number,
+      limitB: number,
+      exclusive: boolean,
+  ): boolean
+
+  Check if a given number is between two given limits.
+
+  #### Parameters
+
+  + valueInQuestion: number
+
+    The number to test.
+  + limitA: number
+
+    First limit.
+  + limitB: number
+
+    Second limit.
+  + exclusive: boolean
+
+    Flag to exclude equaling the limits.
+
+  #### Returns boolean
+
+  Boolean true if value is between (or equal to) the limits.
+
+  + Defined in [core/measure.ts:140](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure.ts#L140)
+
+### Settings
+
+Member Visibility
+
+* Protected
+* Inherited
+
+ThemeOSLightDark
+
+[Photon](../index.md)
+
+* Loading...
+
+Generated using [TypeDoc](https://typedoc.org/)

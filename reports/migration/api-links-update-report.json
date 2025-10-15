@@ -1,0 +1,747 @@
+{
+  "mode": "APPLIED",
+  "summary": {
+    "files_changed": 39,
+    "total_changes": 132
+  },
+  "changes": {
+    "snippets/distorting.md": [
+      {
+        "text": "point.distort",
+        "old_url": "../api/modules/point.md#distort",
+        "new_url": "../api/modules/core_point.html#distort"
+      },
+      {
+        "text": "path.distort",
+        "old_url": "../api/modules/path.md#distort",
+        "new_url": "../api/modules/core_path.html#distort"
+      },
+      {
+        "text": "model.distort",
+        "old_url": "../api/modules/model.md#distort",
+        "new_url": "../api/modules/core_model.html#distort"
+      }
+    ],
+    "snippets/simplifying.md": [
+      {
+        "text": "makerjs.model.simplify",
+        "old_url": "/docs/api/modules/makerjs.model.md#simplify",
+        "new_url": "../api/modules/core_model.html#simplify"
+      }
+    ],
+    "snippets/$-function.md": [
+      {
+        "text": "$(x)",
+        "old_url": "/docs/api/index.md#_",
+        "new_url": "../api/index.html#_"
+      },
+      {
+        "text": "**model** module",
+        "old_url": "/docs/api/modules/model.md",
+        "new_url": "../api/modules/core_model.html"
+      },
+      {
+        "text": "*cascade-safe functions*",
+        "old_url": "/docs/api/interfaces/makerjs.icascademodel.md",
+        "new_url": "../api/interfaces/makerjs.icascademodel.html"
+      },
+      {
+        "text": "**path** module",
+        "old_url": "/docs/api/modules/path.md",
+        "new_url": "../api/modules/core_path.html"
+      },
+      {
+        "text": "*cascade-safe functions*",
+        "old_url": "/docs/api/interfaces/makerjs.icascadepath.md",
+        "new_url": "../api/interfaces/makerjs.icascadepath.html"
+      },
+      {
+        "text": "**point** module",
+        "old_url": "/docs/api/modules/point.md",
+        "new_url": "../api/modules/core_point.html"
+      },
+      {
+        "text": "*cascade-safe functions*",
+        "old_url": "/docs/api/interfaces/makerjs.icascadepoint.md",
+        "new_url": "../api/interfaces/makerjs.icascadepoint.html"
+      },
+      {
+        "text": "add a path",
+        "old_url": "/docs/api/modules/path.md#addto",
+        "new_url": "../api/modules/core_path.html#addto"
+      },
+      {
+        "text": "add a model",
+        "old_url": "/docs/api/modules/model.md#addto",
+        "new_url": "../api/modules/core_model.html#addto"
+      }
+    ],
+    "snippets/dogbones.md": [
+      {
+        "text": "path.dogbone",
+        "old_url": "/docs/api/modules/path.md#dogbone",
+        "new_url": "../api/modules/core_path.html#dogbone"
+      }
+    ],
+    "snippets/exporting-dxf.md": [
+      {
+        "text": "units",
+        "old_url": "/docs/api/interfaces/makerjs.exporter.idxfrenderoptions.md#units",
+        "new_url": "../api/interfaces/makerjs.exporter.idxfrenderoptions.html#units"
+      },
+      {
+        "text": "Maker.js unit type",
+        "old_url": "/docs/api/index.md#unittype",
+        "new_url": "../api/index.html#unittype"
+      },
+      {
+        "text": "fontSize",
+        "old_url": "/docs/api/interfaces/makerjs.exporter.idxfrenderoptions.md#fontsize",
+        "new_url": "../api/interfaces/makerjs.exporter.idxfrenderoptions.html#fontsize"
+      },
+      {
+        "text": "layerOptions",
+        "old_url": "/docs/api/interfaces/makerjs.exporter.idxfrenderoptions.md#layeroptions",
+        "new_url": "../api/interfaces/makerjs.exporter.idxfrenderoptions.html#layeroptions"
+      },
+      {
+        "text": "color",
+        "old_url": "/docs/api/interfaces/makerjs.exporter.idxflayeroptions.md#color",
+        "new_url": "../api/interfaces/makerjs.exporter.idxflayeroptions.html#color"
+      },
+      {
+        "text": "Maker.js color",
+        "old_url": "/docs/api/modules/makerjs.exporter.md#colors",
+        "new_url": "../api/modules/core_exporter.html#colors"
+      },
+      {
+        "text": "fontSize",
+        "old_url": "/docs/api/interfaces/makerjs.exporter.idxflayeroptions.md#fontsize",
+        "new_url": "../api/interfaces/makerjs.exporter.idxflayeroptions.html#fontsize"
+      }
+    ],
+    "snippets/outlining.md": [
+      {
+        "text": "makerjs.model.outline",
+        "old_url": "/docs/api/modules/makerjs.model.md#outline",
+        "new_url": "../api/modules/core_model.html#outline"
+      }
+    ],
+    "snippets/layout-on-path.md": [
+      {
+        "text": "layout.childrenOnPath(parentModel: Model, onPath: Path)",
+        "old_url": "/docs/api/modules/layout.md#childrenonpath",
+        "new_url": "../api/modules/core_layout.html#childrenonpath"
+      }
+    ],
+    "snippets/fillets.md": [
+      {
+        "text": "path.fillet",
+        "old_url": "/docs/api/modules/path.md#fillet",
+        "new_url": "../api/modules/core_path.html#fillet"
+      }
+    ],
+    "snippets/exporting-svg.md": [
+      {
+        "text": "useSvgPathOnly",
+        "old_url": "/docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#usesvgpathonly",
+        "new_url": "../api/interfaces/makerjs.exporter.isvgrenderoptions.html#usesvgpathonly"
+      },
+      {
+        "text": "accuracy",
+        "old_url": "/docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#accuracy",
+        "new_url": "../api/interfaces/makerjs.exporter.isvgrenderoptions.html#accuracy"
+      },
+      {
+        "text": "annotate",
+        "old_url": "/docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#annotate",
+        "new_url": "../api/interfaces/makerjs.exporter.isvgrenderoptions.html#annotate"
+      },
+      {
+        "text": "className",
+        "old_url": "/docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#className",
+        "new_url": "../api/interfaces/makerjs.exporter.isvgrenderoptions.html#className"
+      },
+      {
+        "text": "cssStyle",
+        "old_url": "/docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#cssstyle",
+        "new_url": "../api/interfaces/makerjs.exporter.isvgrenderoptions.html#cssstyle"
+      },
+      {
+        "text": "fill",
+        "old_url": "/docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#fill",
+        "new_url": "../api/interfaces/makerjs.exporter.isvgrenderoptions.html#fill"
+      },
+      {
+        "text": "fillRule",
+        "old_url": "/docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#fillrule",
+        "new_url": "../api/interfaces/makerjs.exporter.isvgrenderoptions.html#fillrule"
+      },
+      {
+        "text": "fontSize",
+        "old_url": "/docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#fontsize",
+        "new_url": "../api/interfaces/makerjs.exporter.isvgrenderoptions.html#fontsize"
+      },
+      {
+        "text": "layerOptions",
+        "old_url": "/docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#layeroptions",
+        "new_url": "../api/interfaces/makerjs.exporter.isvgrenderoptions.html#layeroptions"
+      },
+      {
+        "text": "className",
+        "old_url": "/docs/api/interfaces/makerjs.exporter.isvgelementrenderoptions.md#className",
+        "new_url": "../api/interfaces/makerjs.exporter.isvgelementrenderoptions.html#className"
+      },
+      {
+        "text": "cssStyle",
+        "old_url": "/docs/api/interfaces/makerjs.exporter.isvgelementrenderoptions.md#cssstyle",
+        "new_url": "../api/interfaces/makerjs.exporter.isvgelementrenderoptions.html#cssstyle"
+      },
+      {
+        "text": "fill",
+        "old_url": "/docs/api/interfaces/makerjs.exporter.isvgelementrenderoptions.md#fill",
+        "new_url": "../api/interfaces/makerjs.exporter.isvgelementrenderoptions.html#fill"
+      },
+      {
+        "text": "stroke",
+        "old_url": "/docs/api/interfaces/makerjs.exporter.isvgelementrenderoptions.md#stroke",
+        "new_url": "../api/interfaces/makerjs.exporter.isvgelementrenderoptions.html#stroke"
+      },
+      {
+        "text": "strokeWidth",
+        "old_url": "/docs/api/interfaces/makerjs.exporter.isvgelementrenderoptions.md#strokewidth",
+        "new_url": "../api/interfaces/makerjs.exporter.isvgelementrenderoptions.html#strokewidth"
+      },
+      {
+        "text": "origin",
+        "old_url": "/docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#origin",
+        "new_url": "../api/interfaces/makerjs.exporter.isvgrenderoptions.html#origin"
+      },
+      {
+        "text": "scale",
+        "old_url": "/docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#scale",
+        "new_url": "../api/interfaces/makerjs.exporter.isvgrenderoptions.html#scale"
+      },
+      {
+        "text": "stroke",
+        "old_url": "/docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#stroke",
+        "new_url": "../api/interfaces/makerjs.exporter.isvgrenderoptions.html#stroke"
+      },
+      {
+        "text": "strokeWidth",
+        "old_url": "/docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#strokewidth",
+        "new_url": "../api/interfaces/makerjs.exporter.isvgrenderoptions.html#strokewidth"
+      },
+      {
+        "text": "svgAttrs",
+        "old_url": "/docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#svgattrs",
+        "new_url": "../api/interfaces/makerjs.exporter.isvgrenderoptions.html#svgattrs"
+      },
+      {
+        "text": "units",
+        "old_url": "/docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#units",
+        "new_url": "../api/interfaces/makerjs.exporter.isvgrenderoptions.html#units"
+      },
+      {
+        "text": "Maker.js unit type",
+        "old_url": "/docs/api/index.md#unittype",
+        "new_url": "../api/index.html#unittype"
+      },
+      {
+        "text": "viewbox",
+        "old_url": "/docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#viewbox",
+        "new_url": "../api/interfaces/makerjs.exporter.isvgrenderoptions.html#viewbox"
+      }
+    ],
+    "snippets/expanding.md": [
+      {
+        "text": "path.expand",
+        "old_url": "/docs/api/modules/path.md#expand",
+        "new_url": "../api/modules/core_path.html#expand"
+      },
+      {
+        "text": "model.expandPaths",
+        "old_url": "/docs/api/modules/model.md#expandpaths",
+        "new_url": "../api/modules/core_model.html#expandpaths"
+      },
+      {
+        "text": "model.expandPaths",
+        "old_url": "/docs/api/modules/model.md#expandpaths",
+        "new_url": "../api/modules/core_model.html#expandpaths"
+      }
+    ],
+    "snippets/frequently-used-functions.md": [
+      {
+        "text": "makerjs.point",
+        "old_url": "/docs/api/modules/makerjs.point.md#content",
+        "new_url": "../api/modules/core_point.html#content"
+      },
+      {
+        "text": "point.add",
+        "old_url": "/docs/api/modules/makerjs.point.md#add",
+        "new_url": "../api/modules/core_point.html#add"
+      },
+      {
+        "text": "point.subtract",
+        "old_url": "/docs/api/modules/makerjs.point.md#subtract",
+        "new_url": "../api/modules/core_point.html#subtract"
+      },
+      {
+        "text": "point.average",
+        "old_url": "/docs/api/modules/makerjs.point.md#average",
+        "new_url": "../api/modules/core_point.html#average"
+      },
+      {
+        "text": "point.fromPolar",
+        "old_url": "/docs/api/modules/makerjs.point.md#frompolar",
+        "new_url": "../api/modules/core_point.html#frompolar"
+      },
+      {
+        "text": "point.closest",
+        "old_url": "/docs/api/modules/makerjs.point.md#closest",
+        "new_url": "../api/modules/core_point.html#closest"
+      },
+      {
+        "text": "point.scale",
+        "old_url": "/docs/api/modules/makerjs.point.md#scale",
+        "new_url": "../api/modules/core_point.html#scale"
+      },
+      {
+        "text": "point.distort",
+        "old_url": "/docs/api/modules/makerjs.point.md#distort",
+        "new_url": "../api/modules/core_point.html#distort"
+      },
+      {
+        "text": "point.rotate",
+        "old_url": "/docs/api/modules/makerjs.point.md#rotate",
+        "new_url": "../api/modules/core_point.html#rotate"
+      },
+      {
+        "text": "point.fromPathEnds",
+        "old_url": "/docs/api/modules/makerjs.point.md#frompathends",
+        "new_url": "../api/modules/core_point.html#frompathends"
+      },
+      {
+        "text": "makerjs.angle",
+        "old_url": "/docs/api/modules/makerjs.angle.md#content",
+        "new_url": "../api/modules/core_angle.html#content"
+      },
+      {
+        "text": "angle.toDegrees",
+        "old_url": "/docs/api/modules/makerjs.angle.md#todegrees",
+        "new_url": "../api/modules/core_angle.html#todegrees"
+      },
+      {
+        "text": "angle.toRadians",
+        "old_url": "/docs/api/modules/makerjs.angle.md#toradians",
+        "new_url": "../api/modules/core_angle.html#toradians"
+      },
+      {
+        "text": "angle.ofLineInDegrees",
+        "old_url": "/docs/api/modules/makerjs.angle.md#oflineindegrees",
+        "new_url": "../api/modules/core_angle.html#oflineindegrees"
+      },
+      {
+        "text": "angle.ofPointInDegrees",
+        "old_url": "/docs/api/modules/makerjs.angle.md#ofpointindegrees",
+        "new_url": "../api/modules/core_angle.html#ofpointindegrees"
+      },
+      {
+        "text": "angle.ofPointInRadians",
+        "old_url": "/docs/api/modules/makerjs.angle.md#ofpointinradians",
+        "new_url": "../api/modules/core_angle.html#ofpointinradians"
+      },
+      {
+        "text": "angle.noRevolutions",
+        "old_url": "/docs/api/modules/makerjs.angle.md#norevolutions",
+        "new_url": "../api/modules/core_angle.html#norevolutions"
+      },
+      {
+        "text": "angle.ofArcSpan",
+        "old_url": "/docs/api/modules/makerjs.angle.md#ofarcspan",
+        "new_url": "../api/modules/core_angle.html#ofarcspan"
+      },
+      {
+        "text": "makerjs.measure",
+        "old_url": "/docs/api/modules/makerjs.measure.md#content",
+        "new_url": "../api/modules/core_measure.html#content"
+      },
+      {
+        "text": "measure.pointDistance",
+        "old_url": "/docs/api/modules/makerjs.measure.md#pointdistance",
+        "new_url": "../api/modules/core_measure.html#pointdistance"
+      },
+      {
+        "text": "measure.pathLength",
+        "old_url": "/docs/api/modules/makerjs.measure.md#pathlength",
+        "new_url": "../api/modules/core_measure.html#pathlength"
+      },
+      {
+        "text": "measure.isPointEqual",
+        "old_url": "/docs/api/modules/makerjs.measure.md#ispointequal",
+        "new_url": "../api/modules/core_measure.html#ispointequal"
+      },
+      {
+        "text": "measure.isMeasurementOverlapping",
+        "old_url": "/docs/api/modules/makerjs.measure.md#ismeasurementoverlapping",
+        "new_url": "../api/modules/core_measure.html#ismeasurementoverlapping"
+      },
+      {
+        "text": "measure.isAngleEqual",
+        "old_url": "/docs/api/modules/makerjs.measure.md#isangleequal",
+        "new_url": "../api/modules/core_measure.html#isangleequal"
+      }
+    ],
+    "snippets/breaking.md": [
+      {
+        "text": "path.breakAtPoint",
+        "old_url": "/docs/api/modules/path.md#breakatpoint",
+        "new_url": "../api/modules/core_path.html#breakatpoint"
+      }
+    ],
+    "snippets/routes.md": [
+      {
+        "text": "travel(rootModel, route)",
+        "old_url": "/docs/api/index.md#travel",
+        "new_url": "../api/index.html#travel"
+      },
+      {
+        "text": "createRouteKey(route)",
+        "old_url": "/docs/api/index.md#createroutekey",
+        "new_url": "../api/index.html#createroutekey"
+      }
+    ],
+    "snippets/exporting-stl.md": [
+      {
+        "text": "API documentation for OpenJsCad export options",
+        "old_url": "/docs/api/interfaces/exporter.iopenjscadoptions.md#content",
+        "new_url": "../api/interfaces/exporter.iopenjscadoptions.html#content"
+      }
+    ],
+    "snippets/zeroing-and-centering.md": [
+      {
+        "text": "model.zero",
+        "old_url": "/docs/api/modules/model.md#zero",
+        "new_url": "../api/modules/core_model.html#zero"
+      },
+      {
+        "text": "model.center",
+        "old_url": "/docs/api/modules/model.md#center",
+        "new_url": "../api/modules/core_model.html#center"
+      }
+    ],
+    "snippets/chain-theory.md": [
+      {
+        "text": "makerjs.model.findSingleChain(model)",
+        "old_url": "/docs/api/modules/makerjs.model.md#findsinglechain",
+        "new_url": "../api/modules/core_model.html#findsinglechain"
+      },
+      {
+        "text": "makerjs.model.findChains(model)",
+        "old_url": "/docs/api/modules/makerjs.model.md#findchains",
+        "new_url": "../api/modules/core_model.html#findchains"
+      },
+      {
+        "text": "makerjs.model.findSingleChain(model)",
+        "old_url": "/docs/api/modules/makerjs.model.md#findsinglechain",
+        "new_url": "../api/modules/core_model.html#findsinglechain"
+      },
+      {
+        "text": "makerjs.model.findChains(model)",
+        "old_url": "/docs/api/modules/makerjs.model.md#findchains",
+        "new_url": "../api/modules/core_model.html#findchains"
+      }
+    ],
+    "snippets/originating.md": [
+      {
+        "text": "model.originate",
+        "old_url": "../api/modules/model.md#originate",
+        "new_url": "../api/modules/core_model.html#originate"
+      }
+    ],
+    "snippets/importing-svg-points.md": [
+      {
+        "text": "point.mirror",
+        "old_url": "/docs/api/modules/point.md#mirror",
+        "new_url": "../api/modules/core_point.html#mirror"
+      },
+      {
+        "text": "model.mirror",
+        "old_url": "/docs/api/modules/model.md#mirror",
+        "new_url": "../api/modules/core_model.html#mirror"
+      }
+    ],
+    "snippets/chain-order.md": [
+      {
+        "text": "makerjs.chain.reverse(chain)",
+        "old_url": "/docs/api/modules/makerjs.chain.md#reverse",
+        "new_url": "../api/modules/core_chain.html#reverse"
+      },
+      {
+        "text": "makerjs.chain.cycle(chain, amount)",
+        "old_url": "/docs/api/modules/makerjs.chain.md#cycle",
+        "new_url": "../api/modules/core_chain.html#cycle"
+      },
+      {
+        "text": "makerjs.chain.startAt(chain, routeKey)",
+        "old_url": "/docs/api/modules/makerjs.chain.md#startat",
+        "new_url": "../api/modules/core_chain.html#startat"
+      },
+      {
+        "text": "makerjs.measure.isChainClockwise(chain)",
+        "old_url": "/docs/api/modules/makerjs.measure.md#ischainclockwise",
+        "new_url": "../api/modules/core_measure.html#ischainclockwise"
+      }
+    ],
+    "snippets/intersection.md": [
+      {
+        "text": "path.intersection",
+        "old_url": "/docs/api/modules/path.md#intersection",
+        "new_url": "../api/modules/core_path.html#intersection"
+      },
+      {
+        "text": "object with a property named intersectionPoints",
+        "old_url": "/docs/api/interfaces/makerjs.ipathintersection.md#content",
+        "new_url": "../api/interfaces/makerjs.ipathintersection.html#content"
+      }
+    ],
+    "snippets/importing-svg-path-data.md": [
+      {
+        "text": "importer.fromSVGPathData",
+        "old_url": "/docs/api/modules/importer.md#fromsvgpathdata",
+        "new_url": "../api/modules/core_importer.html#fromsvgpathdata"
+      }
+    ],
+    "snippets/moving.md": [
+      {
+        "text": "model.move",
+        "old_url": "/docs/api/modules/model.md#move",
+        "new_url": "../api/modules/core_model.html#move"
+      },
+      {
+        "text": "model.moveRelative",
+        "old_url": "/docs/api/modules/model.md#moverelative",
+        "new_url": "../api/modules/core_model.html#moverelative"
+      },
+      {
+        "text": "path.move",
+        "old_url": "/docs/api/modules/path.md#move",
+        "new_url": "../api/modules/core_path.html#move"
+      },
+      {
+        "text": "path.moveRelative",
+        "old_url": "/docs/api/modules/path.md#moverelative",
+        "new_url": "../api/modules/core_path.html#moverelative"
+      }
+    ],
+    "snippets/chain-to-new-model.md": [
+      {
+        "text": "model API",
+        "old_url": "/docs/api/modules/makerjs.model.md",
+        "new_url": "../api/modules/core_model.html"
+      },
+      {
+        "text": "makerjs.chain.toNewModel(chain, detachFromOldModel: boolean)",
+        "old_url": "/docs/api/modules/makerjs.chain.md#tonewmodel",
+        "new_url": "../api/modules/core_chain.html#tonewmodel"
+      }
+    ],
+    "snippets/exporting-openjscad.md": [
+      {
+        "text": "API documentation for OpenJsCad export options",
+        "old_url": "/docs/api/interfaces/makerjs.exporter.iopenjscadoptions.md#content",
+        "new_url": "../api/interfaces/makerjs.exporter.iopenjscadoptions.html#content"
+      }
+    ],
+    "snippets/scaling.md": [
+      {
+        "text": "point.scale",
+        "old_url": "../api/modules/point.md#scale",
+        "new_url": "../api/modules/core_point.html#scale"
+      },
+      {
+        "text": "path.scale",
+        "old_url": "../api/modules/path.md#scale",
+        "new_url": "../api/modules/core_path.html#scale"
+      },
+      {
+        "text": "model.scale",
+        "old_url": "../api/modules/model.md#scale",
+        "new_url": "../api/modules/core_model.html#scale"
+      }
+    ],
+    "snippets/chain-multiple.md": [
+      {
+        "text": "model.findChains(model)",
+        "old_url": "/docs/api/modules/model.md#findchains",
+        "new_url": "../api/modules/core_model.html#findchains"
+      },
+      {
+        "text": "model.findChains(model, options)",
+        "old_url": "/docs/api/modules/model.md#findchains",
+        "new_url": "../api/modules/core_model.html#findchains"
+      }
+    ],
+    "snippets/chain-fillet.md": [
+      {
+        "text": "chain.fillet",
+        "old_url": "/docs/api/modules/chain.md#fillet",
+        "new_url": "../api/modules/core_chain.html#fillet"
+      }
+    ],
+    "snippets/chain-single.md": [
+      {
+        "text": "model.findSingleChain(model)",
+        "old_url": "/docs/api/modules/model.md#findsinglechain",
+        "new_url": "../api/modules/core_model.html#findsinglechain"
+      }
+    ],
+    "snippets/solvers.md": [
+      {
+        "text": "solvers",
+        "old_url": "/docs/api/modules/makerjs.solvers.md#content",
+        "new_url": "../api/modules/core_solvers.html#content"
+      }
+    ],
+    "snippets/cloning.md": [
+      {
+        "text": "cloneObject",
+        "old_url": "/docs/api/index.md#cloneobject",
+        "new_url": "../api/index.html#cloneobject"
+      },
+      {
+        "text": "path.clone",
+        "old_url": "/docs/api/modules/path.md#clone",
+        "new_url": "../api/modules/core_path.html#clone"
+      },
+      {
+        "text": "point.clone",
+        "old_url": "/docs/api/modules/point.md#clone",
+        "new_url": "../api/modules/core_point.html#clone"
+      }
+    ],
+    "snippets/rotating.md": [
+      {
+        "text": "point.fromPolar",
+        "old_url": "../api/modules/point.md#frompolar",
+        "new_url": "../api/modules/core_point.html#frompolar"
+      },
+      {
+        "text": "point.rotate",
+        "old_url": "../api/modules/point.md#rotate",
+        "new_url": "../api/modules/core_point.html#rotate"
+      },
+      {
+        "text": "path.rotate",
+        "old_url": "../api/modules/path.md#rotate",
+        "new_url": "../api/modules/core_path.html#rotate"
+      },
+      {
+        "text": "model.rotate",
+        "old_url": "../api/modules/model.md#rotate",
+        "new_url": "../api/modules/core_model.html#rotate"
+      }
+    ],
+    "snippets/combining.md": [
+      {
+        "text": "model.combine",
+        "old_url": "/docs/api/modules/model.md#combine",
+        "new_url": "../api/modules/core_model.html#combine"
+      },
+      {
+        "text": "model.combineIntersection",
+        "old_url": "/docs/api/modules/model.md#combineintersection",
+        "new_url": "../api/modules/core_model.html#combineintersection"
+      },
+      {
+        "text": "model.combineSubtraction",
+        "old_url": "/docs/api/modules/model.md#combinesubtraction",
+        "new_url": "../api/modules/core_model.html#combinesubtraction"
+      },
+      {
+        "text": "model.combineUnion",
+        "old_url": "/docs/api/modules/model.md#combineunion",
+        "new_url": "../api/modules/core_model.html#combineunion"
+      }
+    ],
+    "snippets/mirroring.md": [
+      {
+        "text": "angle.mirror",
+        "old_url": "../api/modules/angle.md#mirror",
+        "new_url": "../api/modules/core_angle.html#mirror"
+      },
+      {
+        "text": "point.mirror",
+        "old_url": "../api/modules/point.md#mirror",
+        "new_url": "../api/modules/core_point.html#mirror"
+      },
+      {
+        "text": "path.mirror",
+        "old_url": "../api/modules/path.md#mirror",
+        "new_url": "../api/modules/core_path.html#mirror"
+      },
+      {
+        "text": "model.mirror",
+        "old_url": "../api/modules/model.md#mirror",
+        "new_url": "../api/modules/core_model.html#mirror"
+      }
+    ],
+    "snippets/converging.md": [
+      {
+        "text": "path.converge",
+        "old_url": "/docs/api/modules/path.md#converge",
+        "new_url": "../api/modules/core_path.html#converge"
+      }
+    ],
+    "snippets/chain-dogbone.md": [
+      {
+        "text": "chain.dogbone",
+        "old_url": "/docs/api/modules/chain.md#dogbone",
+        "new_url": "../api/modules/core_chain.html#dogbone"
+      }
+    ],
+    "snippets/measuring.md": [
+      {
+        "text": "makerjs.measure",
+        "old_url": "../api/modules/measure.md",
+        "new_url": "../api/modules/core_measure.html"
+      }
+    ],
+    "snippets/layout-on-chain.md": [
+      {
+        "text": "layout.childrenOnChain(parentModel: Model, onChain: chain)",
+        "old_url": "/docs/api/modules/layout.md#childrenonchain",
+        "new_url": "../api/modules/core_layout.html#childrenonchain"
+      }
+    ],
+    "snippets/chain-to-points.md": [
+      {
+        "text": "model.toPoints(chain, distance)",
+        "old_url": "/docs/api/modules/chain.md#topoints",
+        "new_url": "../api/modules/core_chain.html#topoints"
+      }
+    ],
+    "snippets/walking.md": [
+      {
+        "text": "model.walk",
+        "old_url": "/docs/api/modules/model.md#walk",
+        "new_url": "../api/modules/core_model.html#walk"
+      },
+      {
+        "text": "walkPath",
+        "old_url": "/docs/api/interfaces/makerjs.iwalkpath.md#content",
+        "new_url": "../api/interfaces/makerjs.iwalkpath.html#content"
+      },
+      {
+        "text": "walkModel",
+        "old_url": "/docs/api/interfaces/makerjs.iwalkmodel.md#content",
+        "new_url": "../api/interfaces/makerjs.iwalkmodel.html#content"
+      },
+      {
+        "text": "walkModel",
+        "old_url": "/docs/api/interfaces/makerjs.iwalkmodel.md#content",
+        "new_url": "../api/interfaces/makerjs.iwalkmodel.html#content"
+      }
+    ]
+  }
+}

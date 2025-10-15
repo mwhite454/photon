@@ -1,6 +1,6 @@
 import { IPoint, IPath, IPathLine, IPathCircle, IPathArc } from './schema.js';
-import { round, pathType } from './maker.js';
-import type { ISlope, IIsPointOnPathOptions } from './maker.js';
+import { round, pathType } from './core.js';
+import type { ISlope, IIsPointOnPathOptions } from './core.js';
 import * as angle from './angle.js';
 import * as path from './path.js';
 

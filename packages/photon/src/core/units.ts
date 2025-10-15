@@ -1,4 +1,4 @@
-import { unitType } from './maker.js';
+import { unitType } from './core.js';
 
 /** The base type is arbitrary. Other conversions are then based off of this. */
 const base = unitType.Millimeter;

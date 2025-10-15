@@ -1,5 +1,5 @@
 import { IModel, IPoint, IPathMap } from '../core/schema.js';
-import type { IKit } from '../core/maker.js';
+import type { IKit } from '../core/core.js';
 import * as paths from '../core/paths.js';
 
 export class Holes implements IModel {

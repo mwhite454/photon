@@ -1,5 +1,5 @@
 import { IPoint, IPath, IPathLine, IPathCircle, IPathArc } from './schema.js';
-import type { IPathIntersectionBaseOptions } from './maker.js';
+import type { IPathIntersectionBaseOptions } from './core.js';
 /** Add two points together and return the result as a new point object. */
 export declare function add(a: IPoint, b: IPoint, subtract?: boolean): IPoint;
 /** Get the average of two points. */
@@ -35,4 +35,4 @@ export declare function subtract(a: IPoint, b: IPoint): IPoint;
 /** A point at 0,0 coordinates. */
 export declare function zero(): IPoint;
 /** Test to see if an object implements the required properties of a point. */
-export { isPoint } from './maker.js';
+export { isPoint } from './core.js';

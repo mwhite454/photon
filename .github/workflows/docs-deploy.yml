@@ -1,0 +1,105 @@
+name: Deploy Documentation
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'docs/**'
+      - '.github/workflows/docs-deploy.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    name: Build MkDocs Site
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Full history for git-revision-date-localized plugin
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+      
+      - name: Build MkDocs site
+        run: |
+          cd docs
+          mkdocs build --strict
+      
+      - name: Verify build output
+        run: |
+          echo "✅ Build complete"
+          echo "📁 Site size: $(du -sh docs/site | cut -f1)"
+          echo "📄 Total files: $(find docs/site -type f | wc -l)"
+      
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs/site
+
+  deploy:
+    name: Deploy to GitHub Pages
+    needs: build
+    runs-on: ubuntu-latest
+    
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+      
+      - name: Verify deployment
+        run: |
+          echo "✅ Deployed to: ${{ steps.deployment.outputs.page_url }}"
+
+  test-links:
+    name: Test Documentation Links
+    needs: build
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install pytest-check-links
+      
+      - name: Build site for testing
+        run: |
+          cd docs
+          mkdocs build
+      
+      - name: Check internal links
+        run: |
+          cd docs/site
+          pytest --check-links --check-links-ignore "^http" -v || true
+          echo "⚠️ Link checking completed (non-blocking)"

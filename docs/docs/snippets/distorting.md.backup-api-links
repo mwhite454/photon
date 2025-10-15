@@ -1,0 +1,87 @@
+---
+ai_summary: To disproportionately scale a simple point, use point.distort.
+category: General
+description: To disproportionately scale a simple point, use point.distort.
+difficulty: intermediate
+keywords:
+- distorting
+- export
+- general
+- javascript
+- models
+- paths
+- photon
+- photon/core
+- svg
+primary_topic: distorting
+source: docs/_snippets/distorting.html
+tags:
+- intermediate
+- general
+- distorting
+title: Distorting
+---
+To disproportionately scale a simple point, use [point.distort](../api/modules/point.md#distort).
+
+To disproportionately scale a path, use
+[path.distort](../api/modules/path.md#distort)(path: object, scaleX: number, scaleY: number)
+which returns a new object and does not modify the original.
+The type of returned object is dependent on the type of path being distorted:
+
+* A line will return a line *IPath* object, since the distortion can be represented with another line.
+* An arc will return a BezierCurve *IModel* object, since the distortion is not circular.
+* A circle will return an Ellipse *IModel* object, since the distortion is not circular.
+
+Distort path example:
+
+
+## Examples
+
+```javascript
+//render distorted paths
+import { exporter, model, models, path, paths, point } from '@7syllable/photon-core';
+const circle = new paths.Circle(50);
+const line = new paths.Line([-50,-50], [50, 50]);
+//a distorted line is a path, so it should be added to paths
+const distortedLine = path.distort(line, 4, 1.5);
+//a distorted circle is a model, so it should be added to models
+const ellipse = path.distort(circle, 4, 1.5);
+const model = {
+paths: {
+circle: circle,
+line: line,
+distortedLine: distortedLine
+},
+models: {
+ellipse: ellipse
+}
+};
+const svg = exporter.toSVG(model);
+document.write(svg);
+```
+
+
+---
+
+To disproportionately scale a model, use
+[model.distort](../api/modules/model.md#distort)(model: object, scaleX: number, scaleY: number)
+which returns a new *IModel* object and does not modify the original.
+
+Distort model example:
+
+```javascript
+//render a distorted star
+import { exporter, model, models, path, paths, point } from '@7syllable/photon-core';
+const star = new models.Star(5, 100);
+model.rotate(star, 18);
+//make the star 4 times wider, and 2 times taller
+const wideStar = model.distort(star, 4, 2);
+const model = {
+models: {
+star: star,
+wideStar: wideStar
+}
+};
+const svg = exporter.toSVG(model);
+document.write(svg);
+```

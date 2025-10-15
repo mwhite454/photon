@@ -211,8 +211,56 @@
     var x = item;
     return x && x.links && Array.isArray(x.links) && isNumber(x.pathLength);
   }
-  const maker = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+  class Cascade {
+    constructor(_module, $initial) {
+      this._module = _module;
+      this.$initial = $initial;
+      for (const methodName in this._module) this._shadow(methodName);
+      this.$result = cloneObject($initial);
+    }
+    _shadow(methodName) {
+      this[methodName] = (...args) => {
+        return this._apply(this._module[methodName], args);
+      };
+    }
+    _apply(fn, carriedArgs) {
+      const args = [this.$result, ...carriedArgs];
+      this.$result = fn(...args);
+      return this;
+    }
+    $reset() {
+      this.$result = this.$initial;
+      return this;
+    }
+  }
+  const _moduleRegistry = {};
+  function registerCascadeModules(model2, path, point) {
+    _moduleRegistry.model = model2;
+    _moduleRegistry.path = path;
+    _moduleRegistry.point = point;
+  }
+  function $(context) {
+    if (isModel(context)) {
+      if (!_moduleRegistry.model) {
+        throw new Error("Model module not registered for cascade. This is likely a build or import order issue.");
+      }
+      return new Cascade(_moduleRegistry.model, context);
+    } else if (isPath(context)) {
+      if (!_moduleRegistry.path) {
+        throw new Error("Path module not registered for cascade. This is likely a build or import order issue.");
+      }
+      return new Cascade(_moduleRegistry.path, context);
+    } else if (isPoint(context)) {
+      if (!_moduleRegistry.point) {
+        throw new Error("Point module not registered for cascade. This is likely a build or import order issue.");
+      }
+      return new Cascade(_moduleRegistry.point, context);
+    }
+    throw new Error("Invalid context for Photon cascade function. Expected Model, Path, or Point.");
+  }
+  const core = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
     __proto__: null,
+    $,
     cloneObject,
     createRouteKey,
     environment,
@@ -230,6 +278,7 @@
     isPathLine,
     isPoint,
     pathType,
+    registerCascadeModules,
     round,
     splitDecimal,
     travel,
@@ -345,350 +394,6 @@
     ofPointInRadians,
     toDegrees,
     toRadians
-  }, Symbol.toStringTag, { value: "Module" }));
-  function addTo$1(childPath, parentModel, pathId, overwrite = false) {
-    model.addPath(parentModel, childPath, pathId, overwrite);
-    return childPath;
-  }
-  function copyLayer(pathA, pathB) {
-    if (pathA && pathB && typeof pathA.layer !== "undefined") {
-      pathB.layer = pathA.layer;
-    }
-    if (pathA && pathB && "bezierData" in pathA) {
-      pathB.bezierData = pathA.bezierData;
-    }
-  }
-  const copyPropsMap = {};
-  copyPropsMap[pathType.Circle] = (srcCircle, destCircle, offset) => {
-    destCircle.radius = srcCircle.radius;
-  };
-  copyPropsMap[pathType.Arc] = (srcArc, destArc, offset) => {
-    copyPropsMap[pathType.Circle](srcArc, destArc, offset);
-    destArc.startAngle = srcArc.startAngle;
-    destArc.endAngle = srcArc.endAngle;
-  };
-  copyPropsMap[pathType.Line] = (srcLine, destLine, offset) => {
-    destLine.end = add(srcLine.end, offset);
-  };
-  copyPropsMap[pathType.BezierSeed] = (srcSeed, destSeed, offset) => {
-    copyPropsMap[pathType.Line](srcSeed, destSeed, offset);
-    destSeed.controls = srcSeed.controls.map((p) => add(p, offset));
-  };
-  function clone$2(pathToClone, offset) {
-    const result = { type: pathToClone.type, origin: add(pathToClone.origin, offset) };
-    const fn = copyPropsMap[pathToClone.type];
-    if (fn) {
-      fn(pathToClone, result, offset);
-    }
-    copyLayer(pathToClone, result);
-    return result;
-  }
-  function copyProps(srcPath, destPath) {
-    const fn = copyPropsMap[srcPath.type];
-    if (fn) {
-      destPath.origin = clone(srcPath.origin);
-      fn(srcPath, destPath);
-    }
-    copyLayer(srcPath, destPath);
-    return srcPath;
-  }
-  const mirrorMap = {};
-  mirrorMap[pathType.Line] = (line, origin, mirrorX, mirrorY) => {
-    return new Line(origin, mirror(line.end, mirrorX, mirrorY));
-  };
-  mirrorMap[pathType.Circle] = (circle, origin, mirrorX, mirrorY) => {
-    return new Circle(origin, circle.radius);
-  };
-  mirrorMap[pathType.Arc] = (arc, origin, mirrorX, mirrorY) => {
-    const startAngle = mirror$3(arc.startAngle, mirrorX, mirrorY);
-    const endAngle = mirror$3(ofArcEnd(arc), mirrorX, mirrorY);
-    const xor = mirrorX != mirrorY;
-    return new Arc(origin, arc.radius, xor ? endAngle : startAngle, xor ? startAngle : endAngle);
-  };
-  mirrorMap[pathType.BezierSeed] = (seed, origin, mirrorX, mirrorY) => {
-    const mirrored = mirrorMap[pathType.Line](seed, origin, mirrorX, mirrorY);
-    mirrored.type = pathType.BezierSeed;
-    mirrored.controls = seed.controls.map((c) => mirror(c, mirrorX, mirrorY));
-    return mirrored;
-  };
-  function layer$1(pathContext, layer2) {
-    pathContext.layer = layer2;
-    return pathContext;
-  }
-  function mirror$2(pathToMirror, mirrorX, mirrorY) {
-    let newPath = null;
-    if (pathToMirror) {
-      const origin = mirror(pathToMirror.origin, mirrorX, mirrorY);
-      const fn = mirrorMap[pathToMirror.type];
-      if (fn) {
-        newPath = fn(pathToMirror, origin, mirrorX, mirrorY);
-      }
-    }
-    copyLayer(pathToMirror, newPath);
-    return newPath;
-  }
-  const moveMap = {};
-  moveMap[pathType.Line] = (line, origin) => {
-    const delta = subtract(line.end, line.origin);
-    line.end = add(origin, delta);
-  };
-  function move$1(pathToMove, origin) {
-    if (pathToMove) {
-      const fn = moveMap[pathToMove.type];
-      if (fn) {
-        fn(pathToMove, origin);
-      }
-      pathToMove.origin = origin;
-    }
-    return pathToMove;
-  }
-  const moveRelativeMap = {};
-  moveRelativeMap[pathType.Line] = (line, delta, subtract2) => {
-    line.end = add(line.end, delta, subtract2);
-  };
-  moveRelativeMap[pathType.BezierSeed] = (seed, delta, subtract2) => {
-    moveRelativeMap[pathType.Line](seed, delta, subtract2);
-    seed.controls = seed.controls.map((c) => add(c, delta, subtract2));
-  };
-  function moveRelative$1(pathToMove, delta, subtract2) {
-    if (pathToMove && delta) {
-      pathToMove.origin = add(pathToMove.origin, delta, subtract2);
-      const fn = moveRelativeMap[pathToMove.type];
-      if (fn) {
-        fn(pathToMove, delta, subtract2);
-      }
-    }
-    return pathToMove;
-  }
-  function moveTemporary(pathsToMove, deltas, task) {
-    let subtract2 = false;
-    const moveFunc = (pathToOffset, i) => {
-      if (deltas[i]) {
-        moveRelative$1(pathToOffset, deltas[i], subtract2);
-      }
-    };
-    pathsToMove.map(moveFunc);
-    task();
-    subtract2 = true;
-    pathsToMove.map(moveFunc);
-  }
-  const rotateMap = {};
-  rotateMap[pathType.Line] = (line, angleInDegrees, rotationOrigin) => {
-    line.end = rotate(line.end, angleInDegrees, rotationOrigin);
-  };
-  rotateMap[pathType.Arc] = (arc, angleInDegrees, rotationOrigin) => {
-    arc.startAngle = noRevolutions(arc.startAngle + angleInDegrees);
-    arc.endAngle = noRevolutions(arc.endAngle + angleInDegrees);
-  };
-  rotateMap[pathType.BezierSeed] = (seed, angleInDegrees, rotationOrigin) => {
-    rotateMap[pathType.Line](seed, angleInDegrees, rotationOrigin);
-    seed.controls = seed.controls.map((c) => rotate(c, angleInDegrees, rotationOrigin));
-  };
-  function rotate$2(pathToRotate, angleInDegrees, rotationOrigin = [0, 0]) {
-    if (!pathToRotate || !angleInDegrees) return pathToRotate;
-    pathToRotate.origin = rotate(pathToRotate.origin, angleInDegrees, rotationOrigin);
-    const fn = rotateMap[pathToRotate.type];
-    if (fn) {
-      fn(pathToRotate, angleInDegrees, rotationOrigin);
-    }
-    return pathToRotate;
-  }
-  const scaleMap = {};
-  scaleMap[pathType.Line] = (line, scaleValue) => {
-    line.end = scale(line.end, scaleValue);
-  };
-  scaleMap[pathType.BezierSeed] = (seed, scaleValue) => {
-    scaleMap[pathType.Line](seed, scaleValue);
-    seed.controls = seed.controls.map((c) => scale(c, scaleValue));
-  };
-  scaleMap[pathType.Circle] = (circle, scaleValue) => {
-    circle.radius *= scaleValue;
-  };
-  scaleMap[pathType.Arc] = scaleMap[pathType.Circle];
-  function scale$2(pathToScale, scaleValue) {
-    if (!pathToScale || scaleValue === 1 || !scaleValue) return pathToScale;
-    pathToScale.origin = scale(pathToScale.origin, scaleValue);
-    const fn = scaleMap[pathToScale.type];
-    if (fn) {
-      fn(pathToScale, scaleValue);
-    }
-    return pathToScale;
-  }
-  const distortMap = {};
-  distortMap[pathType.Arc] = (arc, scaleX, scaleY) => {
-    return new models.EllipticArc(arc, scaleX, scaleY);
-  };
-  distortMap[pathType.Circle] = (circle, scaleX, scaleY) => {
-    const ellipse = new models.Ellipse(circle.radius * scaleX, circle.radius * scaleY);
-    ellipse.origin = distort(circle.origin, scaleX, scaleY);
-    return ellipse;
-  };
-  distortMap[pathType.Line] = (line, scaleX, scaleY) => {
-    return new Line([line.origin, line.end].map((p) => distort(p, scaleX, scaleY)));
-  };
-  distortMap[pathType.BezierSeed] = (seed, scaleX, scaleY) => {
-    const d = distort;
-    return {
-      type: pathType.BezierSeed,
-      origin: d(seed.origin, scaleX, scaleY),
-      controls: seed.controls.map((c) => d(c, scaleX, scaleY)),
-      end: d(seed.end, scaleX, scaleY)
-    };
-  };
-  function distort$2(pathToDistort, scaleX, scaleY) {
-    if (!pathToDistort || !scaleX || !scaleY) return null;
-    const fn = distortMap[pathToDistort.type];
-    if (fn) {
-      const distorted = fn(pathToDistort, scaleX, scaleY);
-      if (typeof pathToDistort.layer !== "undefined") {
-        distorted.layer = pathToDistort.layer;
-      }
-      return distorted;
-    }
-    return null;
-  }
-  function converge(lineA, lineB, useOriginA, useOriginB) {
-    const p = fromSlopeIntersection(lineA, lineB);
-    if (p) {
-      const lines = [lineA, lineB];
-      const useOrigin = [useOriginA, useOriginB];
-      if (arguments.length === 2) {
-        lines.forEach((line, i) => {
-          useOrigin[i] = closest(p, [line.origin, line.end]) === line.origin;
-        });
-      }
-      const setPoint = (line, useOrigin2) => {
-        const setP = useOrigin2 ? line.origin : line.end;
-        setP[0] = p[0];
-        setP[1] = p[1];
-      };
-      lines.forEach((line, i) => {
-        setPoint(line, useOrigin[i]);
-      });
-    }
-    return p;
-  }
-  const alterMap = {};
-  alterMap[pathType.Arc] = (arc, pathLength2, distance, useOrigin) => {
-    const span = ofArcSpan(arc);
-    const delta = (pathLength2 + distance) * span / pathLength2 - span;
-    if (useOrigin) {
-      arc.startAngle -= delta;
-    } else {
-      arc.endAngle += delta;
-    }
-  };
-  alterMap[pathType.Circle] = (circle, pathLength2, distance, useOrigin) => {
-    circle.radius *= (pathLength2 + distance) / pathLength2;
-  };
-  alterMap[pathType.Line] = (line, pathLength2, distance, useOrigin) => {
-    const delta = scale(subtract(line.end, line.origin), distance / pathLength2);
-    if (useOrigin) {
-      line.origin = subtract(line.origin, delta);
-    } else {
-      line.end = add(line.end, delta);
-    }
-  };
-  function alterLength(pathToAlter, distance, useOrigin = false) {
-    if (!pathToAlter || !distance) return null;
-    const fn = alterMap[pathToAlter.type];
-    if (fn) {
-      const pathLength2 = measure.pathLength(pathToAlter);
-      if (!pathLength2 || -distance >= pathLength2) return null;
-      fn(pathToAlter, pathLength2, distance, useOrigin);
-      return pathToAlter;
-    }
-    return null;
-  }
-  function toPoints$1(pathContext, numberOfPoints) {
-    if (numberOfPoints == 1) {
-      return [middle(pathContext)];
-    }
-    const points = [];
-    let base2 = numberOfPoints;
-    if (pathContext.type != pathType.Circle) base2--;
-    for (let i = 0; i < numberOfPoints; i++) {
-      points.push(middle(pathContext, i / base2));
-    }
-    return points;
-  }
-  const numberOfKeyPointsMap = {};
-  numberOfKeyPointsMap[pathType.Line] = (line) => 2;
-  numberOfKeyPointsMap[pathType.Circle] = (circle, maxPointDistance) => {
-    const len = measure.pathLength(circle);
-    if (!len) return 0;
-    maxPointDistance = maxPointDistance || len;
-    return Math.max(8, Math.ceil(len / (maxPointDistance || len)));
-  };
-  numberOfKeyPointsMap[pathType.Arc] = (arc, maxPointDistance) => {
-    const len = measure.pathLength(arc);
-    if (!len) return 0;
-    const minPoints = Math.ceil(ofArcSpan(arc) / 45) + 1;
-    return Math.max(minPoints, Math.ceil(len / (maxPointDistance || len)));
-  };
-  function toKeyPoints$1(pathContext, maxArcFacet) {
-    if (pathContext.type == pathType.BezierSeed) {
-      const curve = new models.BezierCurve(pathContext);
-      let curveKeyPoints;
-      model.findChains(curve, (chains, loose, layer2) => {
-        if (chains.length == 1) {
-          const c = chains[0];
-          switch (c.links[0].walkedPath.pathId) {
-            case "arc_0":
-            case "line_0":
-              break;
-            default:
-              chain.reverse(c);
-          }
-          curveKeyPoints = chain.toKeyPoints(c);
-        } else if (loose.length === 1) {
-          curveKeyPoints = toKeyPoints$1(loose[0].pathContext);
-        }
-      });
-      return curveKeyPoints;
-    } else {
-      const fn = numberOfKeyPointsMap[pathContext.type];
-      if (fn) {
-        const numberOfKeyPoints = fn(pathContext, maxArcFacet);
-        if (numberOfKeyPoints) {
-          return toPoints$1(pathContext, numberOfKeyPoints);
-        }
-      }
-    }
-    return [];
-  }
-  function center$1(pathToCenter) {
-    const m = measure.pathExtents(pathToCenter);
-    const c = average(m.high, m.low);
-    const o = subtract(pathToCenter.origin || [0, 0], c);
-    move$1(pathToCenter, o);
-    return pathToCenter;
-  }
-  function zero$2(pathToZero) {
-    const m = measure.pathExtents(pathToZero);
-    const z = subtract(pathToZero.origin || [0, 0], m.low);
-    move$1(pathToZero, z);
-    return pathToZero;
-  }
-  const path = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
-    __proto__: null,
-    addTo: addTo$1,
-    alterLength,
-    center: center$1,
-    clone: clone$2,
-    converge,
-    copyProps,
-    distort: distort$2,
-    layer: layer$1,
-    mirror: mirror$2,
-    move: move$1,
-    moveRelative: moveRelative$1,
-    moveTemporary,
-    rotate: rotate$2,
-    scale: scale$2,
-    toKeyPoints: toKeyPoints$1,
-    toPoints: toPoints$1,
-    zero: zero$2
   }, Symbol.toStringTag, { value: "Module" }));
   const base = unitType.Millimeter;
   let table;
@@ -824,7 +529,7 @@
   function isPointOnPath(pointToCheck, onPath, withinDistance = 0, pathOffset, options) {
     const fn = onPathMap$1[onPath.type];
     if (fn) {
-      const offsetPath = pathOffset ? clone$2(onPath, pathOffset) : onPath;
+      const offsetPath = pathOffset ? clone$1(onPath, pathOffset) : onPath;
       return fn(pointToCheck, offsetPath, withinDistance, options);
     }
     return false;
@@ -836,9 +541,9 @@
     }
     const slopes = [slopeA, slopeB];
     const angles = slopes.map((s) => toDegrees(Math.atan(s.slope)));
-    const lines = slopes.map((s) => clone$2(s.line));
+    const lines = slopes.map((s) => clone$1(s.line));
     const origin = lines[0].origin;
-    lines.forEach((l, i) => rotate$2(l, -angles[i], origin));
+    lines.forEach((l, i) => rotate$1(l, -angles[i], origin));
     const averageYs = lines.map((l) => (l.origin[1] + l.end[1]) / 2);
     return round(averageYs[0] - averageYs[1], 1e-5) == 0;
   }
@@ -980,7 +685,7 @@
   }
   function modelExtents$1(modelToMeasure) {
     let measure2 = { low: null, high: null };
-    model.walk(modelToMeasure, {
+    walk(modelToMeasure, {
       onPath: (walkedPath) => {
         const m = pathExtents$1(walkedPath.pathContext, walkedPath.offset);
         increase$1(measure2, m);
@@ -1113,8 +818,8 @@
         kEls.push(el);
       }
       this.kdbush = new KDBush(points.length);
-      for (const point2 of points) {
-        this.kdbush.add(point2[0], point2[1]);
+      for (const point of points) {
+        this.kdbush.add(point[0], point[1]);
       }
       this.kdbush.finish();
       for (let pointId in this.index) {
@@ -1429,7 +1134,7 @@
     allChains.forEach((chainContext, i1) => {
       if (!chainContext.endless) return;
       const wp = chainContext.links[0].walkedPath;
-      clone$2(wp.pathContext, wp.offset);
+      clone$1(wp.pathContext, wp.offset);
       allChains.forEach((otherChain, i2) => {
         if (chainContext === otherChain) return;
         if (!otherChain.endless) return;
@@ -1537,10 +1242,10 @@
           newPath = wp.pathContext;
           delete wp.modelContext.paths[wp.pathId];
         } else {
-          newPath = clone$2(wp.pathContext);
+          newPath = clone$1(wp.pathContext);
         }
         const pathId = getSimilarPathId(result, wp.pathId);
-        result.paths[pathId] = moveRelative$1(newPath, wp.offset);
+        result.paths[pathId] = moveRelative(newPath, wp.offset);
       }
     }
     return result;
@@ -1551,7 +1256,7 @@
       points.pop();
     }
   }
-  function toPoints(chainContext, distanceOrDistances, maxPoints) {
+  function toPoints$1(chainContext, distanceOrDistances, maxPoints) {
     const result = [];
     let di = 0;
     let t = 0;
@@ -1586,12 +1291,12 @@
     removeDuplicateEnds(chainContext.endless, result);
     return result;
   }
-  function toKeyPoints(chainContext, maxArcFacet) {
+  function toKeyPoints$1(chainContext, maxArcFacet) {
     const result = [];
     for (let i = 0; i < chainContext.links.length; i++) {
       const link = chainContext.links[i];
       const wp = link.walkedPath;
-      const keyPoints = toKeyPoints$1(wp.pathContext, maxArcFacet);
+      const keyPoints = toKeyPoints(wp.pathContext, maxArcFacet);
       if (keyPoints.length > 0) {
         if (link.reversed) {
           keyPoints.reverse();
@@ -1613,9 +1318,9 @@
     findSingleChain: findSingleChain$1,
     reverse,
     startAt,
-    toKeyPoints,
+    toKeyPoints: toKeyPoints$1,
     toNewModel,
-    toPoints
+    toPoints: toPoints$1
   }, Symbol.toStringTag, { value: "Module" }));
   function getScratch(seed) {
     const points = [seed.origin];
@@ -1893,7 +1598,7 @@
         if (!seedsByLayer[layer2]) {
           seedsByLayer[layer2] = [];
         }
-        seedsByLayer[layer2].push(clone2 ? clone$2(pathToAdd) : pathToAdd);
+        seedsByLayer[layer2].push(clone2 ? clone$1(pathToAdd) : pathToAdd);
       };
       findChains$1(
         curve,
@@ -2004,11 +1709,11 @@
     parentModel.models[id] = childModel;
     return parentModel;
   }
-  function addTo(childModel, parentModel, childModelId, overWrite = false) {
+  function addTo$1(childModel, parentModel, childModelId, overWrite = false) {
     addModel(parentModel, childModel, childModelId, overWrite);
     return childModel;
   }
-  function clone$1(modelToClone) {
+  function clone$2(modelToClone) {
     return cloneObject(modelToClone);
   }
   function countChildModels(modelContext) {
@@ -2024,7 +1729,7 @@
     const captions = [];
     function tryAddCaption(m, offset, layer2) {
       if (m.caption) {
-        captions.push({ text: m.caption.text, anchor: clone$2(m.caption.anchor, add(m.origin, offset)), layer: m.caption.anchor.layer || layer2 });
+        captions.push({ text: m.caption.text, anchor: clone$1(m.caption.anchor, add(m.origin, offset)), layer: m.caption.anchor.layer || layer2 });
       }
     }
     tryAddCaption(modelContext, modelContext.origin, modelContext.layer);
@@ -2049,7 +1754,7 @@
   function getSimilarPathId(modelContext, pathId) {
     return getSimilarId(modelContext.paths, pathId);
   }
-  function layer(modelContext, layer2) {
+  function layer$1(modelContext, layer2) {
     modelContext.layer = layer2;
     return modelContext;
   }
@@ -2058,11 +1763,11 @@
       if (!m) return;
       const newOrigin = add(m.origin, o);
       if (m.type === BezierCurve.typeName) {
-        moveRelative$1(m.seed, newOrigin);
+        moveRelative(m.seed, newOrigin);
       }
       if (m.paths) {
         for (let id in m.paths) {
-          moveRelative$1(m.paths[id], newOrigin);
+          moveRelative(m.paths[id], newOrigin);
         }
       }
       if (m.models) {
@@ -2071,7 +1776,7 @@
         }
       }
       if (m.caption) {
-        moveRelative$1(m.caption.anchor, newOrigin);
+        moveRelative(m.caption.anchor, newOrigin);
       }
       m.origin = zero();
     }
@@ -2081,7 +1786,7 @@
     }
     return modelToOriginate;
   }
-  function center(modelToCenter, centerX = true, centerY = true) {
+  function center$1(modelToCenter, centerX = true, centerY = true) {
     const m = modelExtents$1(modelToCenter);
     const o = modelToCenter.origin || [0, 0];
     if (centerX) o[0] -= m.center[0];
@@ -2089,7 +1794,7 @@
     modelToCenter.origin = o;
     return modelToCenter;
   }
-  function mirror$1(modelToMirror, mirrorX, mirrorY) {
+  function mirror$2(modelToMirror, mirrorX, mirrorY) {
     let newModel = {};
     if (!modelToMirror) return null;
     if (modelToMirror.origin) {
@@ -2106,14 +1811,14 @@
     }
     if (modelToMirror.type === BezierCurve.typeName) {
       newModel.type = BezierCurve.typeName;
-      newModel.seed = mirror$2(modelToMirror.seed, mirrorX, mirrorY);
+      newModel.seed = mirror$1(modelToMirror.seed, mirrorX, mirrorY);
     }
     if (modelToMirror.paths) {
       newModel.paths = {};
       for (let id in modelToMirror.paths) {
         const pathToMirror = modelToMirror.paths[id];
         if (!pathToMirror) continue;
-        const pathMirrored = mirror$2(pathToMirror, mirrorX, mirrorY);
+        const pathMirrored = mirror$1(pathToMirror, mirrorX, mirrorY);
         if (!pathMirrored) continue;
         newModel.paths[id] = pathMirrored;
       }
@@ -2123,22 +1828,22 @@
       for (let id in modelToMirror.models) {
         const childModelToMirror = modelToMirror.models[id];
         if (!childModelToMirror) continue;
-        const childModelMirrored = mirror$1(childModelToMirror, mirrorX, mirrorY);
+        const childModelMirrored = mirror$2(childModelToMirror, mirrorX, mirrorY);
         if (!childModelMirrored) continue;
         newModel.models[id] = childModelMirrored;
       }
     }
     if (modelToMirror.caption) {
       newModel.caption = cloneObject(modelToMirror.caption);
-      newModel.caption.anchor = mirror$2(modelToMirror.caption.anchor, mirrorX, mirrorY);
+      newModel.caption.anchor = mirror$1(modelToMirror.caption.anchor, mirrorX, mirrorY);
     }
     return newModel;
   }
-  function move(modelToMove, origin) {
+  function move$1(modelToMove, origin) {
     modelToMove.origin = clone(origin);
     return modelToMove;
   }
-  function moveRelative(modelToMove, delta) {
+  function moveRelative$1(modelToMove, delta) {
     if (modelToMove) {
       modelToMove.origin = add(modelToMove.origin || zero(), delta);
     }
@@ -2158,51 +1863,51 @@
     }
     return modelToPrefix;
   }
-  function rotate$1(modelToRotate, angleInDegrees, rotationOrigin = [0, 0]) {
+  function rotate$2(modelToRotate, angleInDegrees, rotationOrigin = [0, 0]) {
     if (!modelToRotate || !angleInDegrees) return modelToRotate;
     const offsetOrigin = subtract(rotationOrigin, modelToRotate.origin);
     if (modelToRotate.type === BezierCurve.typeName) {
-      rotate$2(modelToRotate.seed, angleInDegrees, offsetOrigin);
+      rotate$1(modelToRotate.seed, angleInDegrees, offsetOrigin);
     }
     if (modelToRotate.paths) {
       for (let id in modelToRotate.paths) {
-        rotate$2(modelToRotate.paths[id], angleInDegrees, offsetOrigin);
+        rotate$1(modelToRotate.paths[id], angleInDegrees, offsetOrigin);
       }
     }
     if (modelToRotate.models) {
       for (let id in modelToRotate.models) {
-        rotate$1(modelToRotate.models[id], angleInDegrees, offsetOrigin);
+        rotate$2(modelToRotate.models[id], angleInDegrees, offsetOrigin);
       }
     }
     if (modelToRotate.caption) {
-      rotate$2(modelToRotate.caption.anchor, angleInDegrees, offsetOrigin);
+      rotate$1(modelToRotate.caption.anchor, angleInDegrees, offsetOrigin);
     }
     return modelToRotate;
   }
-  function scale$1(modelToScale, scaleValue, scaleOrigin = false) {
+  function scale$2(modelToScale, scaleValue, scaleOrigin = false) {
     if (scaleOrigin && modelToScale.origin) {
       modelToScale.origin = scale(modelToScale.origin, scaleValue);
     }
     if (modelToScale.type === BezierCurve.typeName) {
-      scale$2(modelToScale.seed, scaleValue);
+      scale$1(modelToScale.seed, scaleValue);
     }
     if (modelToScale.paths) {
       for (let id in modelToScale.paths) {
-        scale$2(modelToScale.paths[id], scaleValue);
+        scale$1(modelToScale.paths[id], scaleValue);
       }
     }
     if (modelToScale.models) {
       for (let id in modelToScale.models) {
-        scale$1(modelToScale.models[id], scaleValue, true);
+        scale$2(modelToScale.models[id], scaleValue, true);
       }
     }
     if (modelToScale.caption) {
-      scale$2(modelToScale.caption.anchor, scaleValue);
+      scale$1(modelToScale.caption.anchor, scaleValue);
     }
     return modelToScale;
   }
   function addDistortedPath(parentModel, pathToDistort, pathId, layer2, scaleX, scaleY, bezierAccuracy) {
-    const distortedPath = distort$2(pathToDistort, scaleX, scaleY);
+    const distortedPath = distort$1(pathToDistort, scaleX, scaleY);
     layer2 = layer2 || pathToDistort.layer;
     if (layer2) {
       distortedPath.layer = layer2;
@@ -2218,7 +1923,7 @@
       addModel(parentModel, distortedPath, pathId);
     }
   }
-  function distort$1(modelToDistort, scaleX, scaleY, scaleOrigin = false, bezierAccuracy) {
+  function distort$2(modelToDistort, scaleX, scaleY, scaleOrigin = false, bezierAccuracy) {
     const distorted = {};
     if (modelToDistort.layer) {
       distorted.layer = modelToDistort.layer;
@@ -2244,13 +1949,13 @@
     if (modelToDistort.models) {
       for (let childId in modelToDistort.models) {
         let childModel = modelToDistort.models[childId];
-        let distortedChild = distort$1(childModel, scaleX, scaleY, true, bezierAccuracy);
+        let distortedChild = distort$2(childModel, scaleX, scaleY, true, bezierAccuracy);
         addModel(distorted, distortedChild, childId);
       }
     }
     if (modelToDistort.caption) {
       distorted.caption = cloneObject(modelToDistort.caption);
-      distorted.caption.anchor = distort$2(modelToDistort.caption.anchor, scaleX, scaleY);
+      distorted.caption.anchor = distort$1(modelToDistort.caption.anchor, scaleX, scaleY);
     }
     return distorted;
   }
@@ -2258,7 +1963,7 @@
     if (modeltoConvert.units && isValidUnit(modeltoConvert.units) && isValidUnit(destUnitType)) {
       const ratio = conversionScale(modeltoConvert.units, destUnitType);
       if (ratio != 1) {
-        scale$1(modeltoConvert, ratio);
+        scale$2(modeltoConvert, ratio);
         modeltoConvert.units = destUnitType;
       }
     }
@@ -2325,7 +2030,7 @@
     walkRecursive(modelContext, modelContext.layer, [0, 0], [], "");
     return modelContext;
   }
-  function zero$1(modelToZero, zeroX = true, zeroY = true) {
+  function zero$2(modelToZero, zeroX = true, zeroY = true) {
     const m = modelExtents$1(modelToZero);
     const z = modelToZero.origin || [0, 0];
     if (zeroX) z[0] -= m.low[0];
@@ -2333,32 +2038,376 @@
     modelToZero.origin = z;
     return modelToZero;
   }
-  const model$1 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+  const _model = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
     __proto__: null,
     addCaption,
     addModel,
     addPath,
-    addTo,
-    center,
-    clone: clone$1,
+    addTo: addTo$1,
+    center: center$1,
+    clone: clone$2,
     convertUnits,
     countChildModels,
-    distort: distort$1,
+    distort: distort$2,
     findChains,
     findSingleChain,
     getAllCaptionsOffset,
     getSimilarModelId,
     getSimilarPathId,
+    layer: layer$1,
+    mirror: mirror$2,
+    move: move$1,
+    moveRelative: moveRelative$1,
+    originate,
+    prefixPathIds,
+    rotate: rotate$2,
+    scale: scale$2,
+    walk,
+    walkPaths,
+    zero: zero$2
+  }, Symbol.toStringTag, { value: "Module" }));
+  function addTo(childPath, parentModel, pathId, overwrite = false) {
+    addPath(parentModel, childPath, pathId, overwrite);
+    return childPath;
+  }
+  function copyLayer(pathA, pathB) {
+    if (pathA && pathB && typeof pathA.layer !== "undefined") {
+      pathB.layer = pathA.layer;
+    }
+    if (pathA && pathB && "bezierData" in pathA) {
+      pathB.bezierData = pathA.bezierData;
+    }
+  }
+  const copyPropsMap = {};
+  copyPropsMap[pathType.Circle] = (srcCircle, destCircle, offset) => {
+    destCircle.radius = srcCircle.radius;
+  };
+  copyPropsMap[pathType.Arc] = (srcArc, destArc, offset) => {
+    copyPropsMap[pathType.Circle](srcArc, destArc, offset);
+    destArc.startAngle = srcArc.startAngle;
+    destArc.endAngle = srcArc.endAngle;
+  };
+  copyPropsMap[pathType.Line] = (srcLine, destLine, offset) => {
+    destLine.end = add(srcLine.end, offset);
+  };
+  copyPropsMap[pathType.BezierSeed] = (srcSeed, destSeed, offset) => {
+    copyPropsMap[pathType.Line](srcSeed, destSeed, offset);
+    destSeed.controls = srcSeed.controls.map((p) => add(p, offset));
+  };
+  function clone$1(pathToClone, offset) {
+    const result = { type: pathToClone.type, origin: add(pathToClone.origin, offset) };
+    const fn = copyPropsMap[pathToClone.type];
+    if (fn) {
+      fn(pathToClone, result, offset);
+    }
+    copyLayer(pathToClone, result);
+    return result;
+  }
+  function copyProps(srcPath, destPath) {
+    const fn = copyPropsMap[srcPath.type];
+    if (fn) {
+      destPath.origin = clone(srcPath.origin);
+      fn(srcPath, destPath);
+    }
+    copyLayer(srcPath, destPath);
+    return srcPath;
+  }
+  const mirrorMap = {};
+  mirrorMap[pathType.Line] = (line, origin, mirrorX, mirrorY) => {
+    return new Line(origin, mirror(line.end, mirrorX, mirrorY));
+  };
+  mirrorMap[pathType.Circle] = (circle, origin, mirrorX, mirrorY) => {
+    return new Circle(origin, circle.radius);
+  };
+  mirrorMap[pathType.Arc] = (arc, origin, mirrorX, mirrorY) => {
+    const startAngle = mirror$3(arc.startAngle, mirrorX, mirrorY);
+    const endAngle = mirror$3(ofArcEnd(arc), mirrorX, mirrorY);
+    const xor = mirrorX != mirrorY;
+    return new Arc(origin, arc.radius, xor ? endAngle : startAngle, xor ? startAngle : endAngle);
+  };
+  mirrorMap[pathType.BezierSeed] = (seed, origin, mirrorX, mirrorY) => {
+    const mirrored = mirrorMap[pathType.Line](seed, origin, mirrorX, mirrorY);
+    mirrored.type = pathType.BezierSeed;
+    mirrored.controls = seed.controls.map((c) => mirror(c, mirrorX, mirrorY));
+    return mirrored;
+  };
+  function layer(pathContext, layer2) {
+    pathContext.layer = layer2;
+    return pathContext;
+  }
+  function mirror$1(pathToMirror, mirrorX, mirrorY) {
+    let newPath = null;
+    if (pathToMirror) {
+      const origin = mirror(pathToMirror.origin, mirrorX, mirrorY);
+      const fn = mirrorMap[pathToMirror.type];
+      if (fn) {
+        newPath = fn(pathToMirror, origin, mirrorX, mirrorY);
+      }
+    }
+    copyLayer(pathToMirror, newPath);
+    return newPath;
+  }
+  const moveMap = {};
+  moveMap[pathType.Line] = (line, origin) => {
+    const delta = subtract(line.end, line.origin);
+    line.end = add(origin, delta);
+  };
+  function move(pathToMove, origin) {
+    if (pathToMove) {
+      const fn = moveMap[pathToMove.type];
+      if (fn) {
+        fn(pathToMove, origin);
+      }
+      pathToMove.origin = origin;
+    }
+    return pathToMove;
+  }
+  const moveRelativeMap = {};
+  moveRelativeMap[pathType.Line] = (line, delta, subtract2) => {
+    line.end = add(line.end, delta, subtract2);
+  };
+  moveRelativeMap[pathType.BezierSeed] = (seed, delta, subtract2) => {
+    moveRelativeMap[pathType.Line](seed, delta, subtract2);
+    seed.controls = seed.controls.map((c) => add(c, delta, subtract2));
+  };
+  function moveRelative(pathToMove, delta, subtract2) {
+    if (pathToMove && delta) {
+      pathToMove.origin = add(pathToMove.origin, delta, subtract2);
+      const fn = moveRelativeMap[pathToMove.type];
+      if (fn) {
+        fn(pathToMove, delta, subtract2);
+      }
+    }
+    return pathToMove;
+  }
+  function moveTemporary(pathsToMove, deltas, task) {
+    let subtract2 = false;
+    const moveFunc = (pathToOffset, i) => {
+      if (deltas[i]) {
+        moveRelative(pathToOffset, deltas[i], subtract2);
+      }
+    };
+    pathsToMove.map(moveFunc);
+    task();
+    subtract2 = true;
+    pathsToMove.map(moveFunc);
+  }
+  const rotateMap = {};
+  rotateMap[pathType.Line] = (line, angleInDegrees, rotationOrigin) => {
+    line.end = rotate(line.end, angleInDegrees, rotationOrigin);
+  };
+  rotateMap[pathType.Arc] = (arc, angleInDegrees, rotationOrigin) => {
+    arc.startAngle = noRevolutions(arc.startAngle + angleInDegrees);
+    arc.endAngle = noRevolutions(arc.endAngle + angleInDegrees);
+  };
+  rotateMap[pathType.BezierSeed] = (seed, angleInDegrees, rotationOrigin) => {
+    rotateMap[pathType.Line](seed, angleInDegrees, rotationOrigin);
+    seed.controls = seed.controls.map((c) => rotate(c, angleInDegrees, rotationOrigin));
+  };
+  function rotate$1(pathToRotate, angleInDegrees, rotationOrigin = [0, 0]) {
+    if (!pathToRotate || !angleInDegrees) return pathToRotate;
+    pathToRotate.origin = rotate(pathToRotate.origin, angleInDegrees, rotationOrigin);
+    const fn = rotateMap[pathToRotate.type];
+    if (fn) {
+      fn(pathToRotate, angleInDegrees, rotationOrigin);
+    }
+    return pathToRotate;
+  }
+  const scaleMap = {};
+  scaleMap[pathType.Line] = (line, scaleValue) => {
+    line.end = scale(line.end, scaleValue);
+  };
+  scaleMap[pathType.BezierSeed] = (seed, scaleValue) => {
+    scaleMap[pathType.Line](seed, scaleValue);
+    seed.controls = seed.controls.map((c) => scale(c, scaleValue));
+  };
+  scaleMap[pathType.Circle] = (circle, scaleValue) => {
+    circle.radius *= scaleValue;
+  };
+  scaleMap[pathType.Arc] = scaleMap[pathType.Circle];
+  function scale$1(pathToScale, scaleValue) {
+    if (!pathToScale || scaleValue === 1 || !scaleValue) return pathToScale;
+    pathToScale.origin = scale(pathToScale.origin, scaleValue);
+    const fn = scaleMap[pathToScale.type];
+    if (fn) {
+      fn(pathToScale, scaleValue);
+    }
+    return pathToScale;
+  }
+  const distortMap = {};
+  distortMap[pathType.Arc] = (arc, scaleX, scaleY) => {
+    return new models.EllipticArc(arc, scaleX, scaleY);
+  };
+  distortMap[pathType.Circle] = (circle, scaleX, scaleY) => {
+    const ellipse = new models.Ellipse(circle.radius * scaleX, circle.radius * scaleY);
+    ellipse.origin = distort(circle.origin, scaleX, scaleY);
+    return ellipse;
+  };
+  distortMap[pathType.Line] = (line, scaleX, scaleY) => {
+    return new Line([line.origin, line.end].map((p) => distort(p, scaleX, scaleY)));
+  };
+  distortMap[pathType.BezierSeed] = (seed, scaleX, scaleY) => {
+    const d = distort;
+    return {
+      type: pathType.BezierSeed,
+      origin: d(seed.origin, scaleX, scaleY),
+      controls: seed.controls.map((c) => d(c, scaleX, scaleY)),
+      end: d(seed.end, scaleX, scaleY)
+    };
+  };
+  function distort$1(pathToDistort, scaleX, scaleY) {
+    if (!pathToDistort || !scaleX || !scaleY) return null;
+    const fn = distortMap[pathToDistort.type];
+    if (fn) {
+      const distorted = fn(pathToDistort, scaleX, scaleY);
+      if (typeof pathToDistort.layer !== "undefined") {
+        distorted.layer = pathToDistort.layer;
+      }
+      return distorted;
+    }
+    return null;
+  }
+  function converge(lineA, lineB, useOriginA, useOriginB) {
+    const p = fromSlopeIntersection(lineA, lineB);
+    if (p) {
+      const lines = [lineA, lineB];
+      const useOrigin = [useOriginA, useOriginB];
+      if (arguments.length === 2) {
+        lines.forEach((line, i) => {
+          useOrigin[i] = closest(p, [line.origin, line.end]) === line.origin;
+        });
+      }
+      const setPoint = (line, useOrigin2) => {
+        const setP = useOrigin2 ? line.origin : line.end;
+        setP[0] = p[0];
+        setP[1] = p[1];
+      };
+      lines.forEach((line, i) => {
+        setPoint(line, useOrigin[i]);
+      });
+    }
+    return p;
+  }
+  const alterMap = {};
+  alterMap[pathType.Arc] = (arc, pathLength2, distance, useOrigin) => {
+    const span = ofArcSpan(arc);
+    const delta = (pathLength2 + distance) * span / pathLength2 - span;
+    if (useOrigin) {
+      arc.startAngle -= delta;
+    } else {
+      arc.endAngle += delta;
+    }
+  };
+  alterMap[pathType.Circle] = (circle, pathLength2, distance, useOrigin) => {
+    circle.radius *= (pathLength2 + distance) / pathLength2;
+  };
+  alterMap[pathType.Line] = (line, pathLength2, distance, useOrigin) => {
+    const delta = scale(subtract(line.end, line.origin), distance / pathLength2);
+    if (useOrigin) {
+      line.origin = subtract(line.origin, delta);
+    } else {
+      line.end = add(line.end, delta);
+    }
+  };
+  function alterLength(pathToAlter, distance, useOrigin = false) {
+    if (!pathToAlter || !distance) return null;
+    const fn = alterMap[pathToAlter.type];
+    if (fn) {
+      const pathLength2 = measure.pathLength(pathToAlter);
+      if (!pathLength2 || -distance >= pathLength2) return null;
+      fn(pathToAlter, pathLength2, distance, useOrigin);
+      return pathToAlter;
+    }
+    return null;
+  }
+  function toPoints(pathContext, numberOfPoints) {
+    if (numberOfPoints == 1) {
+      return [middle(pathContext)];
+    }
+    const points = [];
+    let base2 = numberOfPoints;
+    if (pathContext.type != pathType.Circle) base2--;
+    for (let i = 0; i < numberOfPoints; i++) {
+      points.push(middle(pathContext, i / base2));
+    }
+    return points;
+  }
+  const numberOfKeyPointsMap = {};
+  numberOfKeyPointsMap[pathType.Line] = (line) => 2;
+  numberOfKeyPointsMap[pathType.Circle] = (circle, maxPointDistance) => {
+    const len = measure.pathLength(circle);
+    if (!len) return 0;
+    maxPointDistance = maxPointDistance || len;
+    return Math.max(8, Math.ceil(len / (maxPointDistance || len)));
+  };
+  numberOfKeyPointsMap[pathType.Arc] = (arc, maxPointDistance) => {
+    const len = measure.pathLength(arc);
+    if (!len) return 0;
+    const minPoints = Math.ceil(ofArcSpan(arc) / 45) + 1;
+    return Math.max(minPoints, Math.ceil(len / (maxPointDistance || len)));
+  };
+  function toKeyPoints(pathContext, maxArcFacet) {
+    if (pathContext.type == pathType.BezierSeed) {
+      const curve = new models.BezierCurve(pathContext);
+      let curveKeyPoints;
+      findChains(curve, (chains, loose, layer2) => {
+        if (chains.length == 1) {
+          const c = chains[0];
+          switch (c.links[0].walkedPath.pathId) {
+            case "arc_0":
+            case "line_0":
+              break;
+            default:
+              chain.reverse(c);
+          }
+          curveKeyPoints = chain.toKeyPoints(c);
+        } else if (loose.length === 1) {
+          curveKeyPoints = toKeyPoints(loose[0].pathContext);
+        }
+      });
+      return curveKeyPoints;
+    } else {
+      const fn = numberOfKeyPointsMap[pathContext.type];
+      if (fn) {
+        const numberOfKeyPoints = fn(pathContext, maxArcFacet);
+        if (numberOfKeyPoints) {
+          return toPoints(pathContext, numberOfKeyPoints);
+        }
+      }
+    }
+    return [];
+  }
+  function center(pathToCenter) {
+    const m = measure.pathExtents(pathToCenter);
+    const c = average(m.high, m.low);
+    const o = subtract(pathToCenter.origin || [0, 0], c);
+    move(pathToCenter, o);
+    return pathToCenter;
+  }
+  function zero$1(pathToZero) {
+    const m = measure.pathExtents(pathToZero);
+    const z = subtract(pathToZero.origin || [0, 0], m.low);
+    move(pathToZero, z);
+    return pathToZero;
+  }
+  const _path = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+    __proto__: null,
+    addTo,
+    alterLength,
+    center,
+    clone: clone$1,
+    converge,
+    copyProps,
+    distort: distort$1,
     layer,
     mirror: mirror$1,
     move,
     moveRelative,
-    originate,
-    prefixPathIds,
+    moveTemporary,
     rotate: rotate$1,
     scale: scale$1,
-    walk,
-    walkPaths,
+    toKeyPoints,
+    toPoints,
     zero: zero$1
   }, Symbol.toStringTag, { value: "Module" }));
   const map = {};
@@ -2563,7 +2612,7 @@
     const clonedLine = new Line(subtract(line.origin, circle.origin), subtract(line.end, circle.origin));
     const lineAngleNormal = ofLineInDegrees(line);
     const lineAngle = lineAngleNormal >= 180 ? lineAngleNormal - 360 : lineAngleNormal;
-    rotate$2(clonedLine, -lineAngle, zero());
+    rotate$1(clonedLine, -lineAngle, zero());
     const unRotate = (resultAngle) => {
       const unrotated = resultAngle + lineAngle;
       return round(noRevolutions(unrotated));
@@ -2607,7 +2656,7 @@
     const c1 = new Circle(zero(), circle1.radius);
     const c2 = new Circle(subtract(circle2.origin, circle1.origin), circle2.radius);
     const c2Angle = ofPointInDegrees(zero(), c2.origin);
-    rotate$2(c2, -c2Angle, zero());
+    rotate$1(c2, -c2Angle, zero());
     const unRotate = (resultAngle) => {
       const unrotated = resultAngle + c2Angle;
       return noRevolutions(unrotated);
@@ -2771,7 +2820,7 @@
     if (!chainContext.endless || chainContext.links.length === 1) {
       return null;
     }
-    var keyPoints = toKeyPoints(chainContext);
+    var keyPoints = toKeyPoints$1(chainContext);
     return isPointArrayClockwise(keyPoints, out_result);
   }
   function isPointArrayClockwise(points, out_result) {
@@ -3010,7 +3059,7 @@
     return true;
   }
   function getAngledBounds(index, modelToMeasure, rotateModel, rotatePaths) {
-    rotate$1(modelToMeasure, rotateModel);
+    rotate$2(modelToMeasure, rotateModel);
     var m = modelExtents(modelToMeasure);
     var result = {
       index,
@@ -3023,7 +3072,7 @@
       middle: new Line([m.low[0], m.center[1]], [m.high[0], m.center[1]]),
       top: new Line(m.high, [m.low[0], m.high[1]])
     };
-    [result.top, result.middle, result.bottom].forEach((line) => rotate$2(line, rotatePaths));
+    [result.top, result.middle, result.bottom].forEach((line) => rotate$1(line, rotatePaths));
     return result;
   }
   function hexSolution(lines, bounds) {
@@ -3068,7 +3117,7 @@
     var originalMeasure = modelExtents(clone2);
     var bounds = [];
     var scratch = { paths: {} };
-    center(clone2);
+    center$1(clone2);
     function result(radius, origin, notes) {
       return {
         radius,
@@ -3105,7 +3154,7 @@
       if (i > 0) {
         perimeters.push(perimeters.shift());
         boundCopy.push(boundCopy.shift());
-        rotate$1(scratch, -60);
+        rotate$2(scratch, -60);
       }
       var s = hexSolution(perimeters, boundCopy);
       if (s) {
@@ -3339,7 +3388,7 @@
   function zero() {
     return [0, 0];
   }
-  const point = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+  const _point = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
     __proto__: null,
     add,
     average,
@@ -3470,7 +3519,7 @@
           var perpendiculars = [];
           for (var i = 2; i--; ) {
             var midpoint = middle(lines[i]);
-            perpendiculars.push(rotate$2(lines[i], 90, midpoint));
+            perpendiculars.push(rotate$1(lines[i], 90, midpoint));
           }
           var origin = fromSlopeIntersection(perpendiculars[0], perpendiculars[1]);
           if (origin) {
@@ -3522,7 +3571,7 @@
       }
       var newOrigins = [getNewOrigin(-90), getNewOrigin(90)];
       var newOrigin = newOrigins[0].nearness < newOrigins[1].nearness ? newOrigins[0].origin : newOrigins[1].origin;
-      move$1(this, newOrigin);
+      move(this, newOrigin);
     }
   }
   const paths$1 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
@@ -3916,7 +3965,7 @@
       }
       const curve = new Arc(arcOrigin, radius, startAngle, endAngle);
       this.paths["curve_start"] = curve;
-      this.paths["curve_end"] = moveRelative$1(mirror$2(curve, true, true), [width, height]);
+      this.paths["curve_end"] = moveRelative(mirror$1(curve, true, true), [width, height]);
     }
   }
   SCurve.metaParameters = [
@@ -4137,20 +4186,20 @@
           let seed = bezierSeedFromArc(arc);
           switch (numArgs) {
             case 1:
-              seed = scale$2(seed, args[0]);
+              seed = scale$1(seed, args[0]);
               break;
             case 2:
               if (isPointArgs0) {
-                seed = scale$2(seed, args[1]);
+                seed = scale$1(seed, args[1]);
               } else {
-                seed = distort$2(seed, args[0], args[1]);
+                seed = distort$1(seed, args[0], args[1]);
               }
               break;
             case 3:
-              seed = distort$2(seed, args[1], args[2]);
+              seed = distort$1(seed, args[1], args[2]);
               break;
             case 4:
-              seed = distort$2(seed, args[2], args[3]);
+              seed = distort$1(seed, args[2], args[3]);
               break;
           }
           this.models["Curve_" + (1 + i)] = new BezierCurve(seed, accuracy);
@@ -4210,12 +4259,12 @@
       const span = ofArcSpan(arc);
       const count = Math.ceil(span / maxBezierArcspan);
       const subSpan = span / count;
-      const subArc = clone$2(arc);
+      const subArc = clone$1(arc);
       for (let i = 0; i < count; i++) {
         subArc.startAngle = arc.startAngle + i * subSpan;
         subArc.endAngle = subArc.startAngle + subSpan;
         let seed = bezierSeedFromArc(subArc);
-        seed = distort$2(seed, distortX, distortY);
+        seed = distort$1(seed, distortX, distortY);
         this.models["Curve_" + (1 + i)] = new BezierCurve(seed, accuracy);
       }
     }
@@ -4314,7 +4363,7 @@
   function isZeroLength(pathContext, tolerance = DEFAULT_POINT_MATCHING_DISTANCE / 5) {
     return Math.abs(pathLength$1(pathContext)) < tolerance;
   }
-  const pathInternal = path;
+  const pathInternal = _path;
   function getNonZeroSegments(pathToSegment, breakPoint) {
     const segment1 = cloneObject(pathToSegment);
     if (!segment1) {
@@ -4398,7 +4447,7 @@
     const walkModelToBreakOptions = {
       onPath(outerWalkedPath) {
         const segment = {
-          absolutePath: clone$2(outerWalkedPath.pathContext, outerWalkedPath.offset),
+          absolutePath: clone$1(outerWalkedPath.pathContext, outerWalkedPath.offset),
           pathId: outerWalkedPath.pathId,
           overlapped: false,
           uniqueForeignIntersectionPoints: []
@@ -4455,7 +4504,7 @@
       segment.addedPath = cloneObject(crossedPath.pathContext);
       segment.addedPath.type = segment.absolutePath.type;
       copyProps(segment.absolutePath, segment.addedPath);
-      moveRelative$1(segment.addedPath, crossedPath.offset, true);
+      moveRelative(segment.addedPath, crossedPath.offset, true);
       modelContext.paths = modelContext.paths || {};
       modelContext.paths[id] = segment.addedPath;
       if (crossedPath.broken) {
@@ -4655,6 +4704,13 @@
     { title: "combine", type: "bool", value: false },
     { title: "center character origin", type: "bool", value: false }
   ];
+  function pipe(value2, ...fns) {
+    if (fns.length === 0) return value2;
+    return fns.reduce((acc, fn) => fn(acc), value2);
+  }
+  function compose(...fns) {
+    return (x) => fns.reduceRight((acc, fn) => fn(acc), x);
+  }
   const schema = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
     __proto__: null
   }, Symbol.toStringTag, { value: "Module" }));
@@ -4838,10 +4894,10 @@
   function pathToSVGPathData(pathToExport, pathOffset, exportOffset, accuracy = 1e-3, clockwiseCircle) {
     const fn = svgPathDataMap[pathToExport.type];
     if (!fn) return "";
-    let fixedPath = clone$2(pathToExport);
-    fixedPath = moveRelative$1(fixedPath, pathOffset);
-    fixedPath = mirror$2(fixedPath, false, true);
-    moveRelative$1(fixedPath, exportOffset);
+    let fixedPath = clone$1(pathToExport);
+    fixedPath = moveRelative(fixedPath, pathOffset);
+    fixedPath = mirror$1(fixedPath, false, true);
+    moveRelative(fixedPath, exportOffset);
     const d = fn(fixedPath, accuracy, clockwiseCircle);
     return d.join(" ");
   }
@@ -4873,10 +4929,10 @@
       const pathContext = link.walkedPath.pathContext;
       const fn = chainLinkToPathDataMap[pathContext.type];
       if (!fn) continue;
-      let fixedPath = clone$2(pathContext);
-      fixedPath = moveRelative$1(fixedPath, link.walkedPath.offset);
-      fixedPath = mirror$2(fixedPath, false, true);
-      moveRelative$1(fixedPath, offset);
+      let fixedPath = clone$1(pathContext);
+      fixedPath = moveRelative(fixedPath, link.walkedPath.offset);
+      fixedPath = mirror$1(fixedPath, false, true);
+      moveRelative(fixedPath, offset);
       fn(
         fixedPath,
         offsetPoint(svgCoords(link.endPoints[link.reversed ? 0 : 1])),
@@ -4987,7 +5043,7 @@
         elliptic = rx !== ry;
         xAxis = new Line(cmd.from, rotate(end, rotation, cmd.from));
         if (elliptic) {
-          xAxis = distort$2(xAxis, 1, rx / ry);
+          xAxis = distort$1(xAxis, 1, rx / ry);
         }
         arc = new Arc(xAxis.origin, xAxis.end, rx, large, decreasing);
         if (elliptic) {
@@ -4997,10 +5053,10 @@
             ry *= scaleUp;
           }
           e = new models$1.EllipticArc(arc, 1, ry / rx, options.bezierAccuracy);
-          rotate$1(e, -rotation, cmd.from);
+          rotate$2(e, -rotation, cmd.from);
           addModel2(e);
         } else {
-          rotate$2(arc, -rotation, cmd.from);
+          rotate$1(arc, -rotation, cmd.from);
           addPath2(arc);
         }
         cmd.from = end;
@@ -5324,9 +5380,9 @@
         return scale(mirrored, opts.scale ?? 1);
       };
       const fixPath = (p, origin) => {
-        const mirrorY = mirror$2(p, false, true);
-        const scaled = scale$2(mirrorY, opts.scale ?? 1);
-        return moveRelative$1(scaled, origin);
+        const mirrorY = mirror$1(p, false, true);
+        const scaled = scale$1(mirrorY, opts.scale ?? 1);
+        return moveRelative(scaled, origin);
       };
       const svgArcData2 = (d, radius, endPoint, accuracy = 1e-3, largeArc, increasing) => {
         const r = round(radius, accuracy);
@@ -5590,7 +5646,7 @@
     return true;
   }
   function cloneAndBreakPath(pathToShard, shardPoint) {
-    const shardStart = clone$2(pathToShard);
+    const shardStart = clone$1(pathToShard);
     const shardEnd = breakAtPoint(shardStart, shardPoint);
     return [shardStart, shardEnd];
   }
@@ -5630,8 +5686,8 @@
   filletResultMap[pathType.Line] = (line, propertyName, _filletRadius, filletCenter) => {
     const guideLine = new Line([0, 0], [0, 1]);
     const lineAngle = ofLineInDegrees(line);
-    rotate$2(guideLine, lineAngle, [0, 0]);
-    moveRelative$1(guideLine, filletCenter);
+    rotate$1(guideLine, lineAngle, [0, 0]);
+    moveRelative(guideLine, filletCenter);
     const intersectionPoint = fromSlopeIntersection(line, guideLine);
     if (!intersectionPoint) return null;
     return {
@@ -6345,7 +6401,7 @@
       scale2 = 1 / 100;
     }
     scale2 *= 72;
-    const scaledModel = scale$1(cloneObject(modelToExport), scale2);
+    const scaledModel = scale$2(cloneObject(modelToExport), scale2);
     const size = modelExtents(scaledModel);
     if (!size) return;
     const left = -size.low[0];
@@ -6367,9 +6423,9 @@
             if (walkedPath.pathContext.type === pathType.Circle) {
               let fixedPath = walkedPath.pathContext;
               moveTemporary([walkedPath.pathContext], [walkedPath.offset], function() {
-                fixedPath = mirror$2(walkedPath.pathContext, false, true);
+                fixedPath = mirror$1(walkedPath.pathContext, false, true);
               });
-              moveRelative$1(fixedPath, offset);
+              moveRelative(fixedPath, offset);
               doc.circle(fixedPath.origin[0], fixedPath.origin[1], walkedPath.pathContext.radius).stroke(opts.stroke);
             } else {
               single(walkedPath);
@@ -6383,8 +6439,8 @@
     doc.font(opts.fontName).fontSize(opts.fontSize);
     getAllCaptionsOffset(scaledModel).forEach((caption) => {
       const a = ofLineInDegrees(caption.anchor);
-      const anchor = mirror$2(caption.anchor, false, true);
-      moveRelative$1(anchor, offset);
+      const anchor = mirror$1(caption.anchor, false, true);
+      moveRelative(anchor, offset);
       const text = caption.text;
       const textCenter = [doc.widthOfString(text) / 2, doc.heightOfString(text) / 2];
       const center2 = middle(anchor);
@@ -6583,7 +6639,7 @@
   }
   function toJscadCAG(jscadCAG, modelToExport, jsCadCagOptions) {
     function chainToJscadCag(c, maxArcFacet) {
-      const keyPoints = toKeyPoints(c, maxArcFacet).map((pt) => [pt[0], pt[1]]);
+      const keyPoints = toKeyPoints$1(c, maxArcFacet).map((pt) => [pt[0], pt[1]]);
       if (keyPoints.length > 0) {
         keyPoints.push([keyPoints[0][0], keyPoints[0][1]]);
       }
@@ -6732,7 +6788,7 @@
     cpa.forEach((cp) => {
       const child = parentModel.models[cp.childId];
       child.origin = cp.origin;
-      if (rotate2) rotate$1(child, cp.angle, cp.origin);
+      if (rotate2) rotate$2(child, cp.angle, cp.origin);
     });
   }
   const onPathMap = {};
@@ -6751,7 +6807,7 @@
     if (contain && cpa.length > 1) {
       const onPathLength = pathLength(onPath);
       if (result.firstX + result.lastX < onPathLength) {
-        chosenPath = clone$2(onPath);
+        chosenPath = clone$1(onPath);
         alterLength(chosenPath, -result.firstX, true);
         alterLength(chosenPath, -result.lastX);
       }
@@ -6797,14 +6853,14 @@
       } else {
         relatives.shift();
       }
-      points = toPoints(onChain, relatives);
+      points = toPoints$1(onChain, relatives);
       if (points.length < cpa.length) {
         const endLink = onChain.links[onChain.links.length - 1];
         points.push(endLink.endPoints[endLink.reversed ? 0 : 1]);
       }
       if (contain) points.shift();
     } else {
-      points = toPoints(onChain, 0.5 * chainLength);
+      points = toPoints$1(onChain, 0.5 * chainLength);
       points.length = 2;
       points.push(onChain.links[onChain.links.length - 1].endPoints[onChain.links[onChain.links.length - 1].reversed ? 0 : 1]);
     }
@@ -6828,10 +6884,10 @@
     let rotateFn;
     if (isModel(itemToClone)) {
       add2 = result.models = {};
-      rotateFn = rotate$1;
+      rotateFn = rotate$2;
     } else {
       add2 = result.paths = {};
-      rotateFn = rotate$2;
+      rotateFn = rotate$1;
     }
     for (let i = 0; i < count; i++) {
       add2[i] = rotateFn(cloneObject(itemToClone), i * angleInDegrees, rotationOrigin);
@@ -6846,11 +6902,11 @@
     if (isModel(itemToClone)) {
       measureFn = modelExtents;
       add2 = result.models = {};
-      moveFn = move;
+      moveFn = move$1;
     } else {
       measureFn = pathExtents;
       add2 = result.paths = {};
-      moveFn = move$1;
+      moveFn = move;
     }
     const m = measureFn(itemToClone);
     const size = m.high[dimension] - m.low[dimension];
@@ -6889,7 +6945,7 @@
     const result = { models: {} };
     for (let i = 0; i < yCount; i++) {
       const i2 = i % 2;
-      result.models[i] = move(cloneToRow(itemToClone, xCount + i2, spacing.xMargin), [i2 * spacing.x, i * spacing.y]);
+      result.models[i] = move$1(cloneToRow(itemToClone, xCount + i2, spacing.xMargin), [i2 * spacing.x, i * spacing.y]);
     }
     return result;
   }
@@ -6923,6 +6979,8 @@
     cloneToRadial,
     cloneToRow
   }, Symbol.toStringTag, { value: "Module" }));
+  registerCascadeModules(_model, _path, _point);
+  exports.$ = $;
   exports.Belt = Belt;
   exports.BezierCurve = BezierCurve;
   exports.BezierSeed = BezierSeed;
@@ -6949,6 +7007,8 @@
   exports.angle = angle;
   exports.chain = chain$1;
   exports.collect = collect;
+  exports.compose = compose;
+  exports.core = core;
   exports.deadend = deadend;
   exports.dxf = dxf;
   exports.equal = equal;
@@ -6958,15 +7018,15 @@
   exports.importer = importer$1;
   exports.intersect = intersect;
   exports.layout = layout;
-  exports.maker = maker;
   exports.measure = measure$1;
-  exports.model = model$1;
+  exports.model = _model;
   exports.models = models$2;
   exports.openjscad = openjscadEsm;
-  exports.path = path;
+  exports.path = _path;
   exports.paths = paths$1;
   exports.pdf = pdfEsm;
-  exports.point = point;
+  exports.pipe = pipe;
+  exports.point = _point;
   exports.round = round;
   exports.schema = schema;
   exports.svg = svgEsm;

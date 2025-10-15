@@ -1,5 +1,5 @@
 import { IPoint, IPathLine, IPathCircle, IPathArc } from './schema.js';
-import { pathType, round, isNumber, isPoint } from './maker.js';
+import { pathType, round, isNumber, isPoint } from './core.js';
 import * as point from './point.js';
 import * as angle from './angle.js';
 import * as path from './path.js';

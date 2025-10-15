@@ -1,0 +1,46 @@
+---
+ai_summary: Added Captions to Intermediate drawing.
+category: General
+description: Added Captions to Intermediate drawing.
+difficulty: advanced
+keywords:
+- drawing
+- export
+- general
+- index
+- javascript
+layout: posts
+primary_topic: index
+source: docs/docs/index.html
+tags:
+- advanced
+- index
+- general
+title: Index
+---
+* [Getting started](getting-started/index.md#content)
+* [Basic drawing](basic-drawing/index.md#content)
+* [Intermediate drawing](intermediate-drawing/index.md#content)
+* [Advanced drawing](advanced-drawing/index.md#content)
+* [Model trees](model-trees/index.md#content)
+* [Working with chains](working-with-chains/index.md#content)
+* [Exporting](exporting/index.md#content)
+* [Importing](importing/index.md#content)
+
+* [Api documentation](api/index.md#content)
+
+### Changelog
+
+#### September 2018
+
+* Added [Captions](intermediate-drawing/index.md#Captions) to [Intermediate drawing](intermediate-drawing/index.md#content).
+
+#### August 2018
+
+* Added [Distorting](intermediate-drawing/index.md#Distorting) to [Intermediate drawing](intermediate-drawing/index.md#content).
+* Added [Dogbone Fillets](intermediate-drawing/index.md#Dogbone%20Fillets) to [Intermediate drawing](intermediate-drawing/index.md#content).
+* Added [Chain dogbone](working-with-chains/index.md#Chain%20dogbone) to [Working with chains](working-with-chains/index.md#content) page.
+
+#### August 2017
+
+* Added [Working with chains](working-with-chains/index.md#content) page.

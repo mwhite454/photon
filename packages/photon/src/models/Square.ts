@@ -1,5 +1,5 @@
 import { IModel, IPathMap } from '../core/schema.js';
-import type { IKit } from '../core/maker.js';
+import type { IKit } from '../core/core.js';
 import { Rectangle } from './Rectangle.js';
 
 export class Square implements IModel {

@@ -1,0 +1,222 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Playwright Test Specification",
+  "description": "Contract for Playwright visual verification tests",
+  "type": "object",
+  "required": ["test_suite", "test_cases"],
+  "properties": {
+    "test_suite": {
+      "type": "object",
+      "required": ["name", "base_url", "timeout"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Test suite name"
+        },
+        "base_url": {
+          "type": "string",
+          "format": "uri",
+          "description": "Base URL for the MkDocs site"
+        },
+        "timeout": {
+          "type": "number",
+          "description": "Test timeout in milliseconds",
+          "default": 30000
+        },
+        "screenshot_dir": {
+          "type": "string",
+          "description": "Directory for test screenshots"
+        }
+      }
+    },
+    "test_cases": {
+      "type": "array",
+      "description": "Individual test cases",
+      "items": {
+        "$ref": "#/definitions/TestCase"
+      }
+    }
+  },
+  "definitions": {
+    "TestCase": {
+      "type": "object",
+      "required": ["test_id", "name", "type", "assertions"],
+      "properties": {
+        "test_id": {
+          "type": "string",
+          "description": "Unique test identifier",
+          "pattern": "^test-[0-9]+$"
+        },
+        "name": {
+          "type": "string",
+          "description": "Test case name"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "visual_verification",
+            "navigation",
+            "content_rendering",
+            "search",
+            "accessibility"
+          ],
+          "description": "Type of test"
+        },
+        "page_url": {
+          "type": "string",
+          "description": "Page URL to test (relative to base_url)"
+        },
+        "assertions": {
+          "type": "array",
+          "description": "Test assertions",
+          "items": {
+            "$ref": "#/definitions/Assertion"
+          }
+        },
+        "setup": {
+          "type": "array",
+          "description": "Setup steps before assertions",
+          "items": {
+            "type": "object",
+            "properties": {
+              "action": {
+                "type": "string",
+                "enum": ["navigate", "click", "type", "wait", "screenshot"]
+              },
+              "selector": {
+                "type": "string"
+              },
+              "value": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Assertion": {
+      "type": "object",
+      "required": ["assertion_type", "expected"],
+      "properties": {
+        "assertion_type": {
+          "type": "string",
+          "enum": [
+            "element_visible",
+            "element_has_class",
+            "element_has_text",
+            "element_count",
+            "page_title",
+            "url_matches",
+            "screenshot_match",
+            "no_console_errors",
+            "accessibility_score"
+          ]
+        },
+        "selector": {
+          "type": "string",
+          "description": "CSS selector for element assertions"
+        },
+        "expected": {
+          "description": "Expected value (type varies by assertion_type)"
+        },
+        "message": {
+          "type": "string",
+          "description": "Custom assertion message"
+        }
+      }
+    }
+  },
+  "examples": [
+    {
+      "test_suite": {
+        "name": "MkDocs Migration Visual Tests",
+        "base_url": "http://localhost:8000",
+        "timeout": 30000,
+        "screenshot_dir": "tests/screenshots"
+      },
+      "test_cases": [
+        {
+          "test_id": "test-001",
+          "name": "Homepage loads with mkdocs-material theme",
+          "type": "visual_verification",
+          "page_url": "/",
+          "assertions": [
+            {
+              "assertion_type": "element_visible",
+              "selector": ".md-header",
+              "expected": true,
+              "message": "Material theme header should be visible"
+            },
+            {
+              "assertion_type": "element_has_class",
+              "selector": "body",
+              "expected": "md-theme",
+              "message": "Body should have Material theme class"
+            },
+            {
+              "assertion_type": "no_console_errors",
+              "expected": true,
+              "message": "No console errors on page load"
+            }
+          ]
+        },
+        {
+          "test_id": "test-002",
+          "name": "Navigation structure is present",
+          "type": "navigation",
+          "page_url": "/",
+          "assertions": [
+            {
+              "assertion_type": "element_visible",
+              "selector": ".md-nav",
+              "expected": true
+            },
+            {
+              "assertion_type": "element_count",
+              "selector": ".md-nav__item",
+              "expected": {
+                "min": 5
+              },
+              "message": "At least 5 navigation items should be present"
+            }
+          ]
+        },
+        {
+          "test_id": "test-003",
+          "name": "Search functionality works",
+          "type": "search",
+          "page_url": "/",
+          "setup": [
+            {
+              "action": "click",
+              "selector": ".md-search__button"
+            },
+            {
+              "action": "type",
+              "selector": ".md-search__input",
+              "value": "rectangle"
+            },
+            {
+              "action": "wait",
+              "value": "500"
+            }
+          ],
+          "assertions": [
+            {
+              "assertion_type": "element_visible",
+              "selector": ".md-search-result",
+              "expected": true
+            },
+            {
+              "assertion_type": "element_count",
+              "selector": ".md-search-result__item",
+              "expected": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+---
+ai_summary: Expanding a model's path will surround every path, which sometimes can
+  mean there is an inner and an outer surrounding chain. If you only want the ...
+category: General
+description: Expanding a model's path will surround every path, which sometimes can
+  mean there is an inner and an outer surrounding chain. If you only want the ...
+difficulty: intermediate
+keywords:
+- export
+- general
+- javascript
+- models
+- outlining
+- svg
+primary_topic: outlining
+source: docs/_snippets/outlining.html
+tags:
+- intermediate
+- general
+- outlining
+title: Outlining
+---
+
+!!! warning "Known Issue - API Not Yet Available"
+    This page documents `model.outline()` which is **not yet available** in `@7syllable/photon-core@0.18.1`. 
+    
+    This function existed in the original maker.js but has not yet been ported to photon/core. 
+    
+    **Status**: See [GitHub Issue #3](https://github.com/mwhite454/photon/issues/3) for updates.
+    
+    The code examples on this page will not execute until this function is restored.
+
+Expanding a model's path will surround every path, which sometimes can mean there is an inner and an outer surrounding chain. If you only want the outer surrounding chain, use
+[makerjs.model.outline](/docs/api/modules/makerjs.model.md#outline):
+
+```javascript
+import { exporter, model, models } from '@7syllable/photon-core';
+//outline a star model
+const star = model.rotate(new models.Star(5, 100), 18);
+const outline = model.outline(star, 10);
+const model = {
+models: {
+star: star,
+outline: outline
+}
+};
+const svg = exporter.toSVG(model);
+document.write(svg);
+```

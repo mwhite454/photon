@@ -1,6 +1,6 @@
-import type { IChain, ICombineOptions, IWalkOptions, IWalkPath } from './maker.js';
+import type { IChain, ICombineOptions, IWalkOptions, IWalkPath } from './core.js';
 import type { IModel, IModelMap, IPath, IPathArc, IPathCircle, IPathLine, IPoint } from './schema.js';
-import { pathType } from './maker.js';
+import { round, pathType } from './core.js';
 import * as angle from './angle.js';
 import * as point from './point.js';
 import * as pathUtils from './path.js';

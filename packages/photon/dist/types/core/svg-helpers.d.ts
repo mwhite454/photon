@@ -1,5 +1,5 @@
 import type { IPath, IPoint } from './schema.js';
-import { type IChain } from './maker.js';
+import { type IChain } from './core.js';
 /**
  * Export a single path to SVG path-data string.
  */

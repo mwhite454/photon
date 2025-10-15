@@ -1,0 +1,175 @@
+# Site information
+site_name: Photon
+site_description: A JavaScript library for creating and designing 2D vector graphics, drawings, and laser-cuttable models.
+site_author: Myka White
+site_url: http://localhost:3000/docs/  # For local dev - change to production URL for deployment
+
+# Repository
+repo_url: https://github.com/mwhite454/photon
+repo_name: mwhite454/photon
+edit_uri: edit/main/docs/
+
+# Copyright
+copyright: >
+  Copyright &copy; 2015 - 2025 Myka White.
+  Licensed under <a href="https://github.com/mwhite454/photon/blob/main/LICENSE">Apache-2.0</a> license.
+
+# Configuration
+use_directory_urls: true
+
+nav:
+  - Photon Documentation: index.md
+  - Getting Started:
+    - Try It Now: snippets/try-it-now.md
+    - For the Browser: snippets/getting-started-browser.md
+    - For Node.js: snippets/getting-started-node.md
+    - Using the $ Function: snippets/$-function.md
+    - Frequently Used Functions: snippets/frequently-used-functions.md
+  - Basic Drawing:
+    - Paths: snippets/paths.md
+    - Models: snippets/models.md
+    - Modeling: snippets/modeling.md
+    - Built-in Models: snippets/built-in-models.md
+    - Rendering in SVG: snippets/basic-rendering-in-svg.md
+    - It's Just JSON: snippets/just-json.md
+    - Units: snippets/units.md
+    - Points: snippets/points.md
+    - Path Constructors: snippets/path-constructors.md
+    - Path Independence: snippets/path-independence.md
+    - Open vs Closed Geometry: snippets/open-vs-closed-geometry.md
+  - Intermediate Drawing:
+    - Cloning: snippets/cloning.md
+    - Moving: snippets/moving.md
+    - Rotating: snippets/rotating.md
+    - Scaling: snippets/scaling.md
+    - Mirroring: snippets/mirroring.md
+    - Modifying Models: snippets/modifying-models.md
+    - Measuring: snippets/measuring.md
+    - Zeroing and Centering: snippets/zeroing-and-centering.md
+    - Originating: snippets/originating.md
+    - Intersection: snippets/intersection.md
+    - Simplifying: snippets/simplifying.md
+    - Converging: snippets/converging.md
+    - Distorting: snippets/distorting.md
+    - Wireframe: snippets/wireframe.md
+    - Order of Operations: snippets/order-of-operations.md
+  - Advanced Drawing:
+    - Fillets: snippets/fillets.md
+    - Chain Fillet: snippets/chain-fillet.md
+    - Dogbones: snippets/dogbones.md
+    - Chain Dogbone: snippets/chain-dogbone.md
+    - Combining: snippets/combining.md
+    - Expanding: snippets/expanding.md
+    - Outlining: snippets/outlining.md
+    - Layers: snippets/layers.md
+    - Captions: snippets/captions.md
+    - Fonts and Text: snippets/fonts-and-text.md
+    - Breaking: snippets/breaking.md
+    - Routes: snippets/routes.md
+  - Working with Chains:
+    - Chains: snippets/chains.md
+    - Chain Theory: snippets/chain-theory.md
+    - Single Chain: snippets/chain-single.md
+    - Multiple Chains: snippets/chain-multiple.md
+    - Chain Links: snippets/chain-links.md
+    - Chain Order: snippets/chain-order.md
+    - Chain to Points: snippets/chain-to-points.md
+    - Chain to Key Points: snippets/chain-to-key-points.md
+    - Chain to New Model: snippets/chain-to-new-model.md
+  - Model Trees:
+    - Model Tree Navigation: snippets/tree.md
+    - Walking a Model: snippets/walking.md
+  - Layout:
+    - Repeating Layouts: snippets/layout-repeating.md
+    - Layout on Path: snippets/layout-on-path.md
+    - Layout on Chain: snippets/layout-on-chain.md
+  - Exporting:
+    - Exporting SVG: snippets/exporting-svg.md
+    - SVG Styling: snippets/svg-styling.md
+    - SVG Path Data: snippets/exporting-svg-path-data.md
+    - Exporting DXF: snippets/exporting-dxf.md
+    - Exporting PDF: snippets/exporting-pdf.md
+    - Exporting to OpenJSCAD: snippets/exporting-openjscad.md
+    - Exporting STL: snippets/exporting-stl.md
+  - Importing:
+    - SVG Path Data: snippets/importing-svg-path-data.md
+    - SVG Points: snippets/importing-svg-points.md
+  - Advanced Topics:
+    - Aliasing: snippets/aliasing.md
+    - Bezier Curves: snippets/bezier-curves.md
+    - Cascading Functions: snippets/cascading-functions.md
+    - Solvers: snippets/solvers.md
+  - API Reference: api/index.md
+
+# Theme
+theme:
+  name: shadcn
+  language: en
+  show_title: true
+  show_stargazers: true
+  # custom_dir: overrides  # Temporarily disabled - shadcn uses different template structure
+  pygments_style:
+    light: shadcn-light
+    dark: github-dark
+  icon: heroicons:rocket-launch
+  topbar_sections: false
+  show_datetime: false
+  features:
+    - navigation.sections     # Render top-level sections as groups
+    - navigation.indexes      # Enable section index pages
+    - toc.integrate           # Integrate table of contents into navigation
+
+# Plugins
+plugins:
+  - search:
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - awesome-pages
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: timeago
+  - minify:
+      minify_html: true
+
+# Customization
+extra:
+  version:
+    provider: mike
+    default: latest
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - attr_list
+  - fenced_code
+  - footnotes
+  - md_in_html
+  - meta
+  - tables
+  - toc
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.blocks.details
+  - pymdownx.blocks.tab
+  - pymdownx.progressbar
+  - shadcn.extensions.iconify
+  - shadcn.extensions.codexec
+
+# CSS
+extra_css:
+  - stylesheets/extra.css
+
+# JavaScript
+extra_javascript:
+  - javascripts/extra.js

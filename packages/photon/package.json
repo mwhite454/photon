@@ -16,7 +16,6 @@
     "./dist/*": "./dist/*"
   },
   "scripts": {
-    "build-debug": "tsc",
     "build-model-schema": "typescript-json-schema \"src/core/schema.ts\" Photon.IModel > schemas/photon-model.json",
     "build-schemas": "npm run build-model-schema",
     "project": "typedoc ./src --json ./dist/project.json",

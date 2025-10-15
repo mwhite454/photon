@@ -152,7 +152,7 @@ Photon maintains API compatibility with Maker.js. To migrate:
 1. **Update package name**:
    ```bash
    npm uninstall makerjs
-   npm install @photon/core
+   npm install @7syllable/photon-core
    ```
 
 2. **Update imports**:
@@ -161,7 +161,7 @@ Photon maintains API compatibility with Maker.js. To migrate:
    import * as makerjs from 'makerjs';
    
    // New (Photon)
-   import * as photon from '@photon/core';
+   import * as photon from '@7syllable/photon-core';
    ```
 
 3. **Update variable names** (optional but recommended):

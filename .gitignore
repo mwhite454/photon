@@ -54,3 +54,7 @@ _site
 
 # Nx cache/workspace data
 .nx/
+
+# Python virtual environments
+venv/
+.venv/

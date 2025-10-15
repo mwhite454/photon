@@ -1,8 +1,26 @@
 ---
-title: pathToSVGPathData | Photon
+ai_summary: pathToSVGPathData | Photon
+category: API Reference
+description: pathToSVGPathData | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- export
+- pathtosvgpathdata
+- photon
+- svg
+primary_topic: paths
+related:
+- Path Independence
+- Models
+- Path Constructors
 source: docs/docs/api/functions/core_svg-helpers.pathToSVGPathData.html
+tags:
+- paths
+- api-reference
+- intermediate
+title: pathToSVGPathData | Photon
 ---
-
 pathToSVGPathData | Photon
 
 [Photon](../index.md)
@@ -53,3 +71,9 @@ ThemeOSLightDark
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Path Independence](../index.md)
+- [Models](../index.md)
+- [Path Constructors](../index.md)

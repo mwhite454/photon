@@ -1,8 +1,19 @@
 ---
-title: add | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- photon
+primary_topic: add-|-photon
 source: docs/docs/api/functions/core_point.add.html
+tags:
+- intermediate
+- api-reference
+- add-|-photon
+title: add | Photon
 ---
-
 add | Photon
 
 [Photon](../index.md)

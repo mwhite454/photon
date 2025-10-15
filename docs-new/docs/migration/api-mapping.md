@@ -1,13 +1,30 @@
 ---
+ai_summary: This guide provides a comprehensive mapping of photon/core APIs to their
+  photon/core equivalents. Use this reference when migrating existing code o...
+category: Migration Guide
+created: '2025-10-14'
+description: Complete mapping of photon/core APIs to photon/core equivalents with
+  migration examples
+difficulty: advanced
+keywords:
+- core
+- export
+- guide
+- javascript
+- migration
+- migration-guide
+- models
+- paths
+- photon
+- photon/core
+last_updated: '2025-10-14'
+primary_topic: api-migration-guide---photon/core-to-photon/core
+tags:
+- advanced
+- migration-guide
+- api-migration-guide---photon/core-to-photon/core
 title: API Migration Guide - photon/core to photon/core
-description: Complete mapping of photon/core APIs to photon/core equivalents with migration examples
-category: Migration
-tags: ["migration", "api", "breaking-changes"]
-difficulty: intermediate
-created: "2025-10-14"
-last_updated: "2025-10-14"
 ---
-
 # API Migration Guide: photon/core → photon/core
 
 This guide provides a comprehensive mapping of photon/core APIs to their photon/core equivalents. Use this reference when migrating existing code or updating documentation examples.
@@ -99,6 +116,9 @@ This guide provides a comprehensive mapping of photon/core APIs to their photon/
 ## Import Patterns
 
 ### Before (photon/core - CommonJS)
+
+
+## Examples
 
 ```javascript
 // Node.js / CommonJS

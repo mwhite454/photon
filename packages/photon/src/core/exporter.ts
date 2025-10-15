@@ -1,6 +1,6 @@
 // ES Module imports
 import type { IModel } from './schema.js';
-import { isNumber, isPoint, isModel, round } from './maker.js';
+import { isNumber, isPoint, isModel, round } from './core.js';
 import * as point from './point.js';
 
 /**

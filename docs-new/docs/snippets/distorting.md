@@ -1,8 +1,26 @@
 ---
-title: Distorting
+ai_summary: To disproportionately scale a simple point, use point.distort.
+category: General
+description: To disproportionately scale a simple point, use point.distort.
+difficulty: intermediate
+keywords:
+- distorting
+- export
+- general
+- javascript
+- models
+- paths
+- photon
+- photon/core
+- svg
+primary_topic: distorting
 source: docs/_snippets/distorting.html
+tags:
+- intermediate
+- general
+- distorting
+title: Distorting
 ---
-
 To disproportionately scale a simple point, use [point.distort](../api/modules/point.md#distort).
 
 To disproportionately scale a path, use
@@ -15,6 +33,9 @@ The type of returned object is dependent on the type of path being distorted:
 * A circle will return an Ellipse *IModel* object, since the distortion is not circular.
 
 Distort path example:
+
+
+## Examples
 
 ```javascript
 //render distorted paths

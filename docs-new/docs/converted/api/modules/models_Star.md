@@ -1,8 +1,25 @@
 ---
-title: models/Star | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- models
+- photon
+- star
+primary_topic: models
+related:
+- Modeling
+- Paths
+- Built-in Models
 source: docs/docs/api/modules/models_Star.html
+tags:
+- intermediate
+- api-reference
+- models
+title: models/Star | Photon
 ---
-
 models/Star | Photon
 
 [Photon](../index.md)
@@ -40,3 +57,9 @@ Classes
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Modeling](../index.md)
+- [Paths](../index.md)
+- [Built-in Models](../index.md)

@@ -1,8 +1,20 @@
 ---
-title: IDXFLayerOptions | Photon
+ai_summary: IDXFLayerOptions | Photon
+category: API Reference
+description: IDXFLayerOptions | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- idxflayeroptions
+- photon
+primary_topic: dxf
 source: docs/docs/api/interfaces/core_dxf.IDXFLayerOptions.html
+tags:
+- intermediate
+- api-reference
+- dxf
+title: IDXFLayerOptions | Photon
 ---
-
 IDXFLayerOptions | Photon
 
 [Photon](../index.md)

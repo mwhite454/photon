@@ -1,8 +1,20 @@
 ---
+ai_summary: ISimplifyOptions | Photon
+category: API Reference
+description: ISimplifyOptions | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- isimplifyoptions
+- photon
+primary_topic: simplification
+source: docs/docs/api/interfaces/core_core.ISimplifyOptions.html
+tags:
+- simplification
+- api-reference
+- intermediate
 title: ISimplifyOptions | Photon
-source: docs/docs/api/interfaces/core_maker.ISimplifyOptions.html
 ---
-
 ISimplifyOptions | Photon
 
 [Photon](../index.md)
@@ -12,7 +24,7 @@ ISimplifyOptions | Photon
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.md)
+* [core/maker](../modules/core_core.md)
 * ISimplifyOptions
 
 # Interface ISimplifyOptions
@@ -26,7 +38,7 @@ interface ISimplifyOptions {
 
 #### Hierarchy ([View Summary](../hierarchy.md#core/maker.ISimplifyOptions))
 
-* [IPointMatchOptions](core_maker.IPointMatchOptions.md)
+* [IPointMatchOptions](core_core.IPointMatchOptions.md)
   + ISimplifyOptions
 
 * Defined in [core/maker.ts:342](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L342)
@@ -46,7 +58,7 @@ pointMatchingDistance?: number
 
 Max distance to consider two points as the same.
 
-Inherited from [IPointMatchOptions](core_maker.IPointMatchOptions.md).[pointMatchingDistance](core_maker.IPointMatchOptions.md#pointmatchingdistance)
+Inherited from [IPointMatchOptions](core_core.IPointMatchOptions.md).[pointMatchingDistance](core_core.IPointMatchOptions.md#pointmatchingdistance)
 
 * Defined in [core/maker.ts:282](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L282)
 

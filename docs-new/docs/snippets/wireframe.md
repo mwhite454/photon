@@ -1,9 +1,30 @@
 ---
-title: Wireframe
+ai_summary: 'Creating a wireframe and using expansion may save you a lot of work.
+  We will demonstrate by creating a wireframe of a truss:'
+category: General
+description: 'Creating a wireframe and using expansion may save you a lot of work.
+  We will demonstrate by creating a wireframe of a truss:'
+difficulty: intermediate
+keywords:
+- export
+- general
+- javascript
+- models
+- paths
+- svg
+- wireframe
+primary_topic: wireframe
 source: docs/_snippets/wireframe.html
+tags:
+- intermediate
+- wireframe
+- general
+title: Wireframe
 ---
-
 Creating a wireframe and using expansion may save you a lot of work. We will demonstrate by creating a wireframe of a truss:
+
+
+## Examples
 
 ```javascript
 //create a simple truss

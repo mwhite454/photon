@@ -1,8 +1,20 @@
 ---
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- photon
+- version
+primary_topic: version-|-photon
+source: docs/docs/api/variables/core_core.version.html
+tags:
+- intermediate
+- api-reference
+- version-|-photon
 title: version | Photon
-source: docs/docs/api/variables/core_maker.version.html
 ---
-
 version | Photon
 
 [Photon](../index.md)
@@ -12,7 +24,7 @@ version | Photon
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.md)
+* [core/maker](../modules/core_core.md)
 * version
 
 # Variable version`Const`

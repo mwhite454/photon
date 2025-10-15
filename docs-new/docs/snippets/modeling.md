@@ -1,12 +1,39 @@
 ---
-title: Modeling
+ai_summary: Given the fundamental models and ability to move instances of them, we
+  can now start modeling.
+category: General
+description: Given the fundamental models and ability to move instances of them, we
+  can now start modeling.
+difficulty: intermediate
+keywords:
+- export
+- general
+- javascript
+- modeling
+- models
+- paths
+- photon
+- photon/core
+- svg
+primary_topic: models
+related:
+- Modeling
+- Paths
+- Built-in Models
 source: docs/_snippets/modeling.html
+tags:
+- intermediate
+- general
+- models
+title: Modeling
 ---
-
 Given the fundamental models and ability to move instances of them, we can now start modeling.
 Here are a few examples to illustrate how you might use these:
 
 House:
+
+
+## Examples
 
 ```javascript
 //render a simple house using ConnectTheDots and Square
@@ -86,3 +113,9 @@ this.models = { board: board, truck1: truck1, truck2: truck2 };
 const svg = exporter.toSVG(new deck(8, 32, 7));
 document.write(svg);
 ```
+
+## Related Topics
+
+- [Modeling](../index.md)
+- [Paths](../index.md)
+- [Built-in Models](../index.md)

@@ -1,8 +1,21 @@
 ---
-title: ICascade | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- cad
+- icascade
+- photon
+primary_topic: icascade-|-photon
 source: docs/docs/api/interfaces/core_cascades.MakerJs.ICascade.html
+tags:
+- icascade-|-photon
+- api-reference
+- intermediate
+title: ICascade | Photon
 ---
-
 ICascade | Photon
 
 [Photon](../index.md)

@@ -1,5 +1,5 @@
 import type { IModel, IPath } from './schema.js';
-import { type IPointMatchOptions } from './maker.js';
+import { type IPointMatchOptions } from './core.js';
 import { type IExportOptions } from './exporter.js';
 export declare function toDXF(modelToExport: IModel, options?: IDXFRenderOptions): string;
 export declare function toDXF(pathsToExport: IPath[], options?: IDXFRenderOptions): string;

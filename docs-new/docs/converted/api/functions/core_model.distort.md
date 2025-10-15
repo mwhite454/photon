@@ -1,8 +1,21 @@
 ---
-title: distort | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- cad
+- distort
+- photon
+primary_topic: distorting
 source: docs/docs/api/functions/core_model.distort.html
+tags:
+- intermediate
+- api-reference
+- distorting
+title: distort | Photon
 ---
-
 distort | Photon
 
 [Photon](../index.md)

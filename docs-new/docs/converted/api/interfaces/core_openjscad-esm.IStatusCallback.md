@@ -1,8 +1,21 @@
 ---
-title: IStatusCallback | Photon
+ai_summary: IStatusCallback | Photon
+category: API Reference
+description: IStatusCallback | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- cad
+- istatuscallback
+- photon
+primary_topic: istatuscallback-|-photon
 source: docs/docs/api/interfaces/core_openjscad-esm.IStatusCallback.html
+tags:
+- intermediate
+- api-reference
+- istatuscallback-|-photon
+title: IStatusCallback | Photon
 ---
-
 IStatusCallback | Photon
 
 [Photon](../index.md)

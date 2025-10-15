@@ -1,8 +1,20 @@
 ---
+ai_summary: IMeasurePointInsideOptions | Photon
+category: API Reference
+description: IMeasurePointInsideOptions | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- imeasurepointinsideoptions
+- photon
+primary_topic: measuring
+source: docs/docs/api/interfaces/core_core.IMeasurePointInsideOptions.html
+tags:
+- intermediate
+- api-reference
+- measuring
 title: IMeasurePointInsideOptions | Photon
-source: docs/docs/api/interfaces/core_maker.IMeasurePointInsideOptions.html
 ---
-
 IMeasurePointInsideOptions | Photon
 
 [Photon](../index.md)
@@ -12,7 +24,7 @@ IMeasurePointInsideOptions | Photon
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.md)
+* [core/maker](../modules/core_core.md)
 * IMeasurePointInsideOptions
 
 # Interface IMeasurePointInsideOptions

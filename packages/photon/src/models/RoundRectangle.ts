@@ -1,5 +1,5 @@
 import { IModel, IPoint, IPathMap } from '../core/schema.js';
-import type { IKit, IMeasure } from '../core/maker.js';
+import type { IKit, IMeasure } from '../core/core.js';
 import * as point from '../core/point.js';
 import * as paths from '../core/paths.js';
 import * as measure from '../core/measure-minimal.js';

@@ -1,8 +1,20 @@
 ---
-title: toKeyPoints | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- photon
+- tokeypoints
+primary_topic: tokeypoints-|-photon
 source: docs/docs/api/functions/core_path.toKeyPoints.html
+tags:
+- intermediate
+- api-reference
+- tokeypoints-|-photon
+title: toKeyPoints | Photon
 ---
-
 toKeyPoints | Photon
 
 [Photon](../index.md)

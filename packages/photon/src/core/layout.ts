@@ -1,7 +1,7 @@
 // ES Module imports
 import type { IPoint, IPath, IPathArc, IPathLine, IModel, IModelMap, IPathMap } from './schema.js';
-import { pathType, isModel, cloneObject } from './maker.js';
-import type { IChain, IWalkOptions, IWalkModel, IMeasure } from './maker.js';
+import { pathType, isModel, cloneObject } from './core.js';
+import type { IChain, IWalkOptions, IWalkModel, IMeasure } from './core.js';
 import * as angle from './angle.js';
 import * as point from './point.js';
 import * as path from './path.js';

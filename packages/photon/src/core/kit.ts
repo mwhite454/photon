@@ -1,5 +1,5 @@
 import { IModel } from './schema.js';
-import type { IKit } from './maker.js';
+import type { IKit } from './core.js';
 
 /** Helper function to use the JavaScript "apply" function in conjunction with the "new" keyword. */
 export function construct(ctor: IKit, args): IModel {

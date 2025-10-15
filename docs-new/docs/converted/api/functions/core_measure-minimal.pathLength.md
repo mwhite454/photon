@@ -1,8 +1,24 @@
 ---
-title: pathLength | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- pathlength
+- photon
+primary_topic: paths
+related:
+- Path Independence
+- Models
+- Path Constructors
 source: docs/docs/api/functions/core_measure-minimal.pathLength.html
+tags:
+- paths
+- api-reference
+- intermediate
+title: pathLength | Photon
 ---
-
 pathLength | Photon
 
 [Photon](../index.md)
@@ -43,3 +59,9 @@ ThemeOSLightDark
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Path Independence](../index.md)
+- [Models](../index.md)
+- [Path Constructors](../index.md)

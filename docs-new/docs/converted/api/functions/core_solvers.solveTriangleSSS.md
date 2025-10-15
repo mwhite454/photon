@@ -1,8 +1,20 @@
 ---
-title: solveTriangleSSS | Photon
+ai_summary: solveTriangleSSS | Photon
+category: API Reference
+description: solveTriangleSSS | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- photon
+- solvetrianglesss
+primary_topic: solvetrianglesss-|-photon
 source: docs/docs/api/functions/core_solvers.solveTriangleSSS.html
+tags:
+- intermediate
+- api-reference
+- solvetrianglesss-|-photon
+title: solveTriangleSSS | Photon
 ---
-
 solveTriangleSSS | Photon
 
 [Photon](../index.md)

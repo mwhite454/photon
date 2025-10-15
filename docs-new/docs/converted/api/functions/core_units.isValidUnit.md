@@ -1,8 +1,20 @@
 ---
-title: isValidUnit | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- isvalidunit
+- photon
+primary_topic: isvalidunit-|-photon
 source: docs/docs/api/functions/core_units.isValidUnit.html
+tags:
+- intermediate
+- api-reference
+- isvalidunit-|-photon
+title: isValidUnit | Photon
 ---
-
 isValidUnit | Photon
 
 [Photon](../index.md)

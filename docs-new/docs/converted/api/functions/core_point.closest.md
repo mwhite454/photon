@@ -1,8 +1,20 @@
 ---
-title: closest | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- closest
+- photon
+primary_topic: closest-|-photon
 source: docs/docs/api/functions/core_point.closest.html
+tags:
+- intermediate
+- api-reference
+- closest-|-photon
+title: closest | Photon
 ---
-
 closest | Photon
 
 [Photon](../index.md)

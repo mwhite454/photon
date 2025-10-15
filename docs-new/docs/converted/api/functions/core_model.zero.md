@@ -1,8 +1,21 @@
 ---
-title: zero | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- cad
+- photon
+- zero
+primary_topic: zero-|-photon
 source: docs/docs/api/functions/core_model.zero.html
+tags:
+- intermediate
+- api-reference
+- zero-|-photon
+title: zero | Photon
 ---
-
 zero | Photon
 
 [Photon](../index.md)

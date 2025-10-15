@@ -1,8 +1,27 @@
 ---
-title: Chain Theory
+ai_summary: When 2 or more paths connect end to end, we call this a chain.
+category: General
+description: When 2 or more paths connect end to end, we call this a chain.
+difficulty: intermediate
+keywords:
+- chain
+- drawing
+- general
+- geometry
+- paths
+- theory
+primary_topic: chains
+related:
+- Chain Theory
+- Breaking
+- Routes
 source: docs/_snippets/chain-theory.html
+tags:
+- intermediate
+- general
+- chains
+title: Chain Theory
 ---
-
 When 2 or more paths connect end to end, we call this a **chain**.
 Here are 3 lines that connect end to end, forming a chain with 3 links;
 each line path is considered a link in the chain:
@@ -33,3 +52,9 @@ Call one of these two functions to find chains, which will return one or more **
 
 * [makerjs.model.findSingleChain(model)](/docs/api/modules/makerjs.model.md#findsinglechain)
 * [makerjs.model.findChains(model)](/docs/api/modules/makerjs.model.md#findchains)
+
+## Related Topics
+
+- [Chain Theory](../index.md)
+- [Breaking](../index.md)
+- [Routes](../index.md)

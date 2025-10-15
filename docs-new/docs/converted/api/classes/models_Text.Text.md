@@ -1,8 +1,22 @@
 ---
-title: Text | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- models
+- paths
+- photon
+- text
+primary_topic: text
 source: docs/docs/api/classes/models_Text.Text.html
+tags:
+- intermediate
+- api-reference
+- text
+title: Text | Photon
 ---
-
 Text | Photon
 
 [Photon](../index.md)

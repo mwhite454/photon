@@ -1,8 +1,20 @@
 ---
+ai_summary: environmentTypes | Photon
+category: API Reference
+description: environmentTypes | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- environmenttypes
+- photon
+primary_topic: environmenttypes-|-photon
+source: docs/docs/api/variables/core_core.environmentTypes.html
+tags:
+- intermediate
+- api-reference
+- environmenttypes-|-photon
 title: environmentTypes | Photon
-source: docs/docs/api/variables/core_maker.environmentTypes.html
 ---
-
 environmentTypes | Photon
 
 [Photon](../index.md)
@@ -12,7 +24,7 @@ environmentTypes | Photon
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.md)
+* [core/maker](../modules/core_core.md)
 * environmentTypes
 
 # Variable environmentTypes`Const`

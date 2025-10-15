@@ -1,8 +1,22 @@
 ---
-title: IArcOptions | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- cad
+- export
+- iarcoptions
+- photon
+primary_topic: arcs
 source: docs/docs/api/interfaces/types_jscad.export_.CSG.IArcOptions.html
+tags:
+- intermediate
+- api-reference
+- arcs
+title: IArcOptions | Photon
 ---
-
 IArcOptions | Photon
 
 [Photon](../index.md)

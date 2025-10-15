@@ -1,8 +1,30 @@
 ---
-title: Chain To Key Points
+ai_summary: If you want a "low poly" representation of a chain, call
+category: General
+description: If you want a "low poly" representation of a chain, call
+difficulty: intermediate
+keywords:
+- chain
+- export
+- general
+- javascript
+- models
+- photon
+- photon/core
+- points
+- svg
+primary_topic: chains
+related:
+- Chain Theory
+- Breaking
+- Routes
 source: docs/_snippets/chain-to-key-points.html
+tags:
+- intermediate
+- general
+- chains
+title: Chain To Key Points
 ---
-
 If you want a "low poly" representation of a chain, call
 [model.toKeyPoints(chain, [optional] maxArcFacet)](/docs/api/modules/chain.html#tokeypoints)
 passing your chain, and the maximum length of facets on arcs & circles:
@@ -21,3 +43,9 @@ dots: new models.Holes(1, keyPoints)
 const svg = exporter.toSVG(model);
 document.write(svg);
 ```
+
+## Related Topics
+
+- [Chain Theory](../index.md)
+- [Breaking](../index.md)
+- [Routes](../index.md)

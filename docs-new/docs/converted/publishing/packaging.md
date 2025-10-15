@@ -1,9 +1,28 @@
 ---
-title: npm install browserify
-source: docs/docs/publishing/packaging.html
+ai_summary: 1. create a github repo named makerjs-DRAWING
+category: General
+description: 1. create a github repo named makerjs-DRAWING
+difficulty: intermediate
+keywords:
+- browserify
+- drawing
+- export
+- general
+- install
+- javascript
+- paths
+- photon
+- photon/core
+- svg
 layout: posts
+primary_topic: npm-install-browserify
+source: docs/docs/publishing/packaging.html
+tags:
+- intermediate
+- general
+- npm-install-browserify
+title: npm install browserify
 ---
-
 1. create a github repo named makerjs-DRAWING
 a. initialize with a README
 b. Add .gitignore: Node

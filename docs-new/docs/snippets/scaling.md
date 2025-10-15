@@ -1,8 +1,26 @@
 ---
-title: Scaling
+ai_summary: To proportionately scale a simple point, use point.scale.
+category: General
+description: To proportionately scale a simple point, use point.scale.
+difficulty: intermediate
+keywords:
+- export
+- general
+- javascript
+- models
+- paths
+- photon
+- photon/core
+- scaling
+- svg
+primary_topic: scaling
 source: docs/_snippets/scaling.html
+tags:
+- intermediate
+- general
+- scaling
+title: Scaling
 ---
-
 To proportionately scale a simple point, use [point.scale](../api/modules/point.md#scale).
 To proportionately scale paths and models, use these functions:
 
@@ -12,6 +30,9 @@ To proportionately scale paths and models, use these functions:
 Each of these functions return the original object, so that we can "chain" on the same line of code.
 
 Scale path example:
+
+
+## Examples
 
 ```javascript
 //render a scaled arc

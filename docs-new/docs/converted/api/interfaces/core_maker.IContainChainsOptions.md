@@ -1,8 +1,24 @@
 ---
+ai_summary: IContainChainsOptions | Photon
+category: API Reference
+description: IContainChainsOptions | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- icontainchainsoptions
+- photon
+primary_topic: chains
+related:
+- Chain Theory
+- Breaking
+- Routes
+source: docs/docs/api/interfaces/core_core.IContainChainsOptions.html
+tags:
+- intermediate
+- api-reference
+- chains
 title: IContainChainsOptions | Photon
-source: docs/docs/api/interfaces/core_maker.IContainChainsOptions.html
 ---
-
 IContainChainsOptions | Photon
 
 [Photon](../index.md)
@@ -12,7 +28,7 @@ IContainChainsOptions | Photon
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.md)
+* [core/maker](../modules/core_core.md)
 * IContainChainsOptions
 
 # Interface IContainChainsOptions
@@ -61,3 +77,9 @@ Properties
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Chain Theory](../index.md)
+- [Breaking](../index.md)
+- [Routes](../index.md)

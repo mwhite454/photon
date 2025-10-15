@@ -1,8 +1,20 @@
 ---
-title: solveTriangleASA | Photon
+ai_summary: solveTriangleASA | Photon
+category: API Reference
+description: solveTriangleASA | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- photon
+- solvetriangleasa
+primary_topic: solvetriangleasa-|-photon
 source: docs/docs/api/functions/core_solvers.solveTriangleASA.html
+tags:
+- intermediate
+- api-reference
+- solvetriangleasa-|-photon
+title: solveTriangleASA | Photon
 ---
-
 solveTriangleASA | Photon
 
 [Photon](../index.md)

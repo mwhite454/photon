@@ -1,8 +1,26 @@
 ---
-title: core/exporter | Photon
+ai_summary: core/exporter | Photon
+category: API Reference
+description: core/exporter | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- core
+- export
+- exporter
+- photon
+primary_topic: exporting
+related:
+- Exporting DXF
+- SVG Styling
+- Exporting PDF
 source: docs/docs/api/modules/core_exporter.html
+tags:
+- intermediate
+- api-reference
+- exporting
+title: core/exporter | Photon
 ---
-
 core/exporter | Photon
 
 [Photon](../index.md)
@@ -59,3 +77,9 @@ Functions
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Exporting DXF](../index.md)
+- [SVG Styling](../index.md)
+- [Exporting PDF](../index.md)

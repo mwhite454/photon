@@ -1,8 +1,21 @@
 ---
-title: core/simplify | Photon
+ai_summary: core/simplify | Photon
+category: API Reference
+description: core/simplify | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- core
+- photon
+- simplify
+primary_topic: simplification
 source: docs/docs/api/modules/core_simplify.html
+tags:
+- simplification
+- api-reference
+- intermediate
+title: core/simplify | Photon
 ---
-
 core/simplify | Photon
 
 [Photon](../index.md)

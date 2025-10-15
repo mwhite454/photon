@@ -1,8 +1,20 @@
 ---
-title: fromSlopeIntersection | Photon
+ai_summary: fromSlopeIntersection | Photon
+category: API Reference
+description: fromSlopeIntersection | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- fromslopeintersection
+- photon
+primary_topic: intersection
 source: docs/docs/api/functions/core_point.fromSlopeIntersection.html
+tags:
+- intermediate
+- api-reference
+- intersection
+title: fromSlopeIntersection | Photon
 ---
-
 fromSlopeIntersection | Photon
 
 [Photon](../index.md)
@@ -20,7 +32,7 @@ Preparing search index...
 * fromSlopeIntersection(
       lineA: [IPathLine](../interfaces/core_schema.IPathLine.md),
       lineB: [IPathLine](../interfaces/core_schema.IPathLine.md),
-      options?: [IPathIntersectionBaseOptions](../interfaces/core_maker.IPathIntersectionBaseOptions.md),
+      options?: [IPathIntersectionBaseOptions](../interfaces/core_core.IPathIntersectionBaseOptions.md),
   ): [IPoint](../interfaces/core_schema.IPoint.md)
 
   Calculates the intersection of slopes of two lines.
@@ -29,7 +41,7 @@ Preparing search index...
 
   + lineA: [IPathLine](../interfaces/core_schema.IPathLine.md)
   + lineB: [IPathLine](../interfaces/core_schema.IPathLine.md)
-  + options: [IPathIntersectionBaseOptions](../interfaces/core_maker.IPathIntersectionBaseOptions.md) = {}
+  + options: [IPathIntersectionBaseOptions](../interfaces/core_core.IPathIntersectionBaseOptions.md) = {}
 
   #### Returns [IPoint](../interfaces/core_schema.IPoint.md)
 

@@ -1,8 +1,20 @@
 ---
-title: equilateralAltitude | Photon
+ai_summary: equilateralAltitude | Photon
+category: API Reference
+description: equilateralAltitude | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- equilateralaltitude
+- photon
+primary_topic: equilateralaltitude-|-photon
 source: docs/docs/api/functions/core_solvers.equilateralAltitude.html
+tags:
+- equilateralaltitude-|-photon
+- api-reference
+- intermediate
+title: equilateralAltitude | Photon
 ---
-
 equilateralAltitude | Photon
 
 [Photon](../index.md)

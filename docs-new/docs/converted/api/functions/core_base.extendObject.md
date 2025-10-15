@@ -1,8 +1,20 @@
 ---
-title: extendObject | Photon
+ai_summary: extendObject | Photon
+category: API Reference
+description: extendObject | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- extendobject
+- photon
+primary_topic: extendobject-|-photon
 source: docs/docs/api/functions/core_base.extendObject.html
+tags:
+- intermediate
+- api-reference
+- extendobject-|-photon
+title: extendObject | Photon
 ---
-
 extendObject | Photon
 
 [Photon](../index.md)

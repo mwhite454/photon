@@ -1,3 +1,18 @@
+---
+ai_summary: The encoding indexes, algorithms, and many comments in the code
+category: General
+description: The encoding indexes, algorithms, and many comments in the code
+difficulty: advanced
+keywords:
+- general
+- license
+primary_topic: license
+tags:
+- advanced
+- license
+- general
+title: License
+---
 The encoding indexes, algorithms, and many comments in the code
 derive from the Encoding Standard https://encoding.spec.whatwg.org/
 

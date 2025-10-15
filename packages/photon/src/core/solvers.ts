@@ -1,5 +1,5 @@
 import { IPathCircle } from './schema.js';
-import { round } from './maker.js';
+import { round } from './core.js';
 import * as angle from './angle.js';
 import * as paths from './paths.js';
 import * as measure from './measure.js';

@@ -1,8 +1,23 @@
 ---
-title: originate | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- cad
+- models
+- originate
+- paths
+- photon
+primary_topic: originate-|-photon
 source: docs/docs/api/functions/core_model.originate.html
+tags:
+- intermediate
+- api-reference
+- originate-|-photon
+title: originate | Photon
 ---
-
 originate | Photon
 
 [Photon](../index.md)

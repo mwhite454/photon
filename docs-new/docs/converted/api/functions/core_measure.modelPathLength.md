@@ -1,8 +1,25 @@
 ---
-title: modelPathLength | Photon
+ai_summary: modelPathLength | Photon
+category: API Reference
+description: modelPathLength | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- modelpathlength
+- paths
+- photon
+primary_topic: paths
+related:
+- Path Independence
+- Models
+- Path Constructors
 source: docs/docs/api/functions/core_measure.modelPathLength.html
+tags:
+- paths
+- api-reference
+- intermediate
+title: modelPathLength | Photon
 ---
-
 modelPathLength | Photon
 
 [Photon](../index.md)
@@ -47,3 +64,9 @@ ThemeOSLightDark
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Path Independence](../index.md)
+- [Models](../index.md)
+- [Path Constructors](../index.md)

@@ -1,8 +1,22 @@
 ---
-title: OvalArc | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- models
+- ovalarc
+- paths
+- photon
+primary_topic: arcs
 source: docs/docs/api/classes/models_OvalArc.OvalArc.html
+tags:
+- intermediate
+- api-reference
+- arcs
+title: OvalArc | Photon
 ---
-
 OvalArc | Photon
 
 [Photon](../index.md)

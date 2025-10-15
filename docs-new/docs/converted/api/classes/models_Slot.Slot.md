@@ -1,8 +1,22 @@
 ---
-title: Slot | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- models
+- paths
+- photon
+- slot
+primary_topic: slot-|-photon
 source: docs/docs/api/classes/models_Slot.Slot.html
+tags:
+- slot-|-photon
+- api-reference
+- intermediate
+title: Slot | Photon
 ---
-
 Slot | Photon
 
 [Photon](../index.md)

@@ -1,6 +1,6 @@
 import { IModel, IPoint, IPath, ICaption, IPathLine, IPathBezierSeed } from './schema.js';
-import { cloneObject, isPath, pathType } from './maker.js';
-import type { IWalkOptions, IModelPathCallback, IWalkPath, IWalkModel, IChain, IChainCallback, IFindChainsOptions, IChainsMap } from './maker.js';
+import { cloneObject, isPath, pathType } from './core.js';
+import type { IWalkOptions, IModelPathCallback, IWalkPath, IWalkModel, IChain, IChainCallback, IFindChainsOptions, IChainsMap } from './core.js';
 import * as point from './point.js';
 import * as path from './path.js';
 import * as paths from './paths.js';

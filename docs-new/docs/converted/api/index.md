@@ -1,8 +1,25 @@
 ---
-title: Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- cad
+- export
+- javascript
+- models
+- paths
+- photon
+- svg
+primary_topic: photon
 source: docs/docs/api/index.html
+tags:
+- photon
+- api-reference
+- intermediate
+title: Photon
 ---
-
 Photon
 
 [Photon](index.md)
@@ -79,7 +96,7 @@ Preparing search index...
 [core/layout](modules/core_layout.md)
 
 
-[core/maker](modules/core_maker.md)
+[core/maker](modules/core_core.md)
 
 
 [core/measure](modules/core_measure.md)

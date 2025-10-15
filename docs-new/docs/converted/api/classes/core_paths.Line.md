@@ -1,8 +1,21 @@
 ---
-title: Line | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- line
+- paths
+- photon
+primary_topic: lines
 source: docs/docs/api/classes/core_paths.Line.html
+tags:
+- intermediate
+- api-reference
+- lines
+title: Line | Photon
 ---
-
 Line | Photon
 
 [Photon](../index.md)

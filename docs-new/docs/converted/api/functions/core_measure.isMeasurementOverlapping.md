@@ -1,8 +1,20 @@
 ---
-title: isMeasurementOverlapping | Photon
+ai_summary: isMeasurementOverlapping | Photon
+category: API Reference
+description: isMeasurementOverlapping | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- ismeasurementoverlapping
+- photon
+primary_topic: measuring
 source: docs/docs/api/functions/core_measure.isMeasurementOverlapping.html
+tags:
+- intermediate
+- api-reference
+- measuring
+title: isMeasurementOverlapping | Photon
 ---
-
 isMeasurementOverlapping | Photon
 
 [Photon](../index.md)
@@ -17,16 +29,16 @@ Preparing search index...
 
 # Function isMeasurementOverlapping
 
-* isMeasurementOverlapping(measureA: [IMeasure](../interfaces/core_maker.IMeasure.md), measureB: [IMeasure](../interfaces/core_maker.IMeasure.md)): boolean
+* isMeasurementOverlapping(measureA: [IMeasure](../interfaces/core_core.IMeasure.md), measureB: [IMeasure](../interfaces/core_core.IMeasure.md)): boolean
 
   Check for measurement overlapping another measurement.
 
   #### Parameters
 
-  + measureA: [IMeasure](../interfaces/core_maker.IMeasure.md)
+  + measureA: [IMeasure](../interfaces/core_core.IMeasure.md)
 
     The measurement to test.
-  + measureB: [IMeasure](../interfaces/core_maker.IMeasure.md)
+  + measureB: [IMeasure](../interfaces/core_core.IMeasure.md)
 
     The measurement to check for overlap.
 

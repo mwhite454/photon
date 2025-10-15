@@ -1,8 +1,22 @@
 ---
-title: core/svg-helpers | Photon
+ai_summary: core/svg-helpers | Photon
+category: API Reference
+description: core/svg-helpers | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- core
+- helpers
+- photon
+- svg
+primary_topic: svg
 source: docs/docs/api/modules/core_svg-helpers.html
+tags:
+- intermediate
+- api-reference
+- svg
+title: core/svg-helpers | Photon
 ---
-
 core/svg-helpers | Photon
 
 [Photon](../index.md)

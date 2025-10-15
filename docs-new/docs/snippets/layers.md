@@ -1,10 +1,33 @@
 ---
-title: Layers
+ai_summary: Layers are a way of logically grouping your paths or models as you see
+  fit. Simply add a layer property to any path or model object, with the name ...
+category: General
+description: Layers are a way of logically grouping your paths or models as you see
+  fit. Simply add a layer property to any path or model object, with the name ...
+difficulty: intermediate
+keywords:
+- export
+- general
+- javascript
+- layers
+- models
+- paths
+- photon
+- photon/core
+- svg
+primary_topic: layers
 source: docs/_snippets/layers.html
+tags:
+- intermediate
+- layers
+- general
+title: Layers
 ---
-
 Layers are a way of logically grouping your paths or models as you see fit. Simply add a `layer` property to any path or model object, with the name of the layer.
 Every path within a model will automatically inherit its parent model's layer, unless it has its own layer property. As you can see in this example, a layer can transcend the logical grouping boundaries of models:
+
+
+## Examples
 
 ```javascript
 //render a round rectangle with arcs in their own layer

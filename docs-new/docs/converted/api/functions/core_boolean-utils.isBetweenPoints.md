@@ -1,8 +1,20 @@
 ---
-title: isBetweenPoints | Photon
+ai_summary: isBetweenPoints | Photon
+category: API Reference
+description: isBetweenPoints | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- isbetweenpoints
+- photon
+primary_topic: isbetweenpoints-|-photon
 source: docs/docs/api/functions/core_boolean-utils.isBetweenPoints.html
+tags:
+- intermediate
+- api-reference
+- isbetweenpoints-|-photon
+title: isBetweenPoints | Photon
 ---
-
 isBetweenPoints | Photon
 
 [Photon](../index.md)

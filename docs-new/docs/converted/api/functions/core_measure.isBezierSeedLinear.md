@@ -1,8 +1,20 @@
 ---
-title: isBezierSeedLinear | Photon
+ai_summary: isBezierSeedLinear | Photon
+category: API Reference
+description: isBezierSeedLinear | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- isbezierseedlinear
+- photon
+primary_topic: lines
 source: docs/docs/api/functions/core_measure.isBezierSeedLinear.html
+tags:
+- intermediate
+- api-reference
+- lines
+title: isBezierSeedLinear | Photon
 ---
-
 isBezierSeedLinear | Photon
 
 [Photon](../index.md)

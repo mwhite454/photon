@@ -1,8 +1,24 @@
 ---
+ai_summary: IPathRemoved | Photon
+category: API Reference
+description: IPathRemoved | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- ipathremoved
+- photon
+primary_topic: paths
+related:
+- Path Independence
+- Models
+- Path Constructors
+source: docs/docs/api/interfaces/core_core.IPathRemoved.html
+tags:
+- paths
+- api-reference
+- intermediate
 title: IPathRemoved | Photon
-source: docs/docs/api/interfaces/core_maker.IPathRemoved.html
 ---
-
 IPathRemoved | Photon
 
 [Photon](../index.md)
@@ -12,7 +28,7 @@ IPathRemoved | Photon
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.md)
+* [core/maker](../modules/core_core.md)
 * IPathRemoved
 
 # Interface IPathRemoved
@@ -108,3 +124,9 @@ Properties
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Path Independence](../index.md)
+- [Models](../index.md)
+- [Path Constructors](../index.md)

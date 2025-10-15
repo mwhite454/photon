@@ -1,8 +1,20 @@
 ---
-title: unitType | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- photon
+- unittype
+primary_topic: unittype-|-photon
 source: docs/docs/api/variables/core_base.unitType.html
+tags:
+- intermediate
+- api-reference
+- unittype-|-photon
+title: unitType | Photon
 ---
-
 unitType | Photon
 
 [Photon](../index.md)

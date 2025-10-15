@@ -1,8 +1,20 @@
 ---
-title: isPointOnSlope | Photon
+ai_summary: isPointOnSlope | Photon
+category: API Reference
+description: isPointOnSlope | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- ispointonslope
+- photon
+primary_topic: ispointonslope-|-photon
 source: docs/docs/api/functions/core_equal.isPointOnSlope.html
+tags:
+- ispointonslope-|-photon
+- api-reference
+- intermediate
+title: isPointOnSlope | Photon
 ---
-
 isPointOnSlope | Photon
 
 [Photon](../index.md)
@@ -17,14 +29,14 @@ Preparing search index...
 
 # Function isPointOnSlope
 
-* isPointOnSlope(p: [IPoint](../interfaces/core_schema.IPoint.md), slope: [ISlope](../interfaces/core_maker.ISlope.md), withinDistance?: number): boolean
+* isPointOnSlope(p: [IPoint](../interfaces/core_schema.IPoint.md), slope: [ISlope](../interfaces/core_core.ISlope.md), withinDistance?: number): boolean
 
   Find out if point is on a slope.
 
   #### Parameters
 
   + p: [IPoint](../interfaces/core_schema.IPoint.md)
-  + slope: [ISlope](../interfaces/core_maker.ISlope.md)
+  + slope: [ISlope](../interfaces/core_core.ISlope.md)
   + withinDistance: number = 0
 
   #### Returns boolean

@@ -1,8 +1,21 @@
 ---
-title: core/angle | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- angle
+- api-reference
+- core
+- photon
+primary_topic: core/angle-|-photon
 source: docs/docs/api/modules/core_angle.html
+tags:
+- intermediate
+- api-reference
+- core/angle-|-photon
+title: core/angle | Photon
 ---
-
 core/angle | Photon
 
 [Photon](../index.md)

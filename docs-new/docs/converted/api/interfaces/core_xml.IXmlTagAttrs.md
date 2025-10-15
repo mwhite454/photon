@@ -1,8 +1,20 @@
 ---
-title: IXmlTagAttrs | Photon
+ai_summary: IXmlTagAttrs | Photon
+category: API Reference
+description: IXmlTagAttrs | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- ixmltagattrs
+- photon
+primary_topic: ixmltagattrs-|-photon
 source: docs/docs/api/interfaces/core_xml.IXmlTagAttrs.html
+tags:
+- intermediate
+- api-reference
+- ixmltagattrs-|-photon
+title: IXmlTagAttrs | Photon
 ---
-
 IXmlTagAttrs | Photon
 
 [Photon](../index.md)

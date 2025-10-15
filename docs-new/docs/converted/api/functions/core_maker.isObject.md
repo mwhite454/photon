@@ -1,8 +1,20 @@
 ---
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- isobject
+- photon
+primary_topic: isobject-|-photon
+source: docs/docs/api/functions/core_core.isObject.html
+tags:
+- intermediate
+- api-reference
+- isobject-|-photon
 title: isObject | Photon
-source: docs/docs/api/functions/core_maker.isObject.html
 ---
-
 isObject | Photon
 
 [Photon](../index.md)
@@ -12,7 +24,7 @@ isObject | Photon
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.md)
+* [core/maker](../modules/core_core.md)
 * isObject
 
 # Function isObject

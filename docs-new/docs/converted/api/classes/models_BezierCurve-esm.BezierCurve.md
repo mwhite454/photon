@@ -1,8 +1,22 @@
 ---
-title: BezierCurve | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- beziercurve
+- models
+- paths
+- photon
+primary_topic: bezier-curves
 source: docs/docs/api/classes/models_BezierCurve-esm.BezierCurve.html
+tags:
+- intermediate
+- api-reference
+- bezier-curves
+title: BezierCurve | Photon
 ---
-
 BezierCurve | Photon
 
 [Photon](../index.md)
@@ -216,13 +230,13 @@ typeName: string = 'BezierCurve'
 
 * getBezierSeeds(
       curve: BezierCurve,
-      options?: [IFindChainsOptions](../interfaces/core_maker.IFindChainsOptions.md),
+      options?: [IFindChainsOptions](../interfaces/core_core.IFindChainsOptions.md),
   ): [IPath](../interfaces/core_schema.IPath.md)[] | { [layer: string]: [IPath](../interfaces/core_schema.IPath.md)[] }
 
   #### Parameters
 
   + curve: BezierCurve
-  + options: [IFindChainsOptions](../interfaces/core_maker.IFindChainsOptions.md) = {}
+  + options: [IFindChainsOptions](../interfaces/core_core.IFindChainsOptions.md) = {}
 
   #### Returns [IPath](../interfaces/core_schema.IPath.md)[] | { [layer: string]: [IPath](../interfaces/core_schema.IPath.md)[] }
 

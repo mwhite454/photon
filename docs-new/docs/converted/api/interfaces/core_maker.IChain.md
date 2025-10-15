@@ -1,8 +1,25 @@
 ---
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- ichain
+- paths
+- photon
+primary_topic: chains
+related:
+- Chain Theory
+- Breaking
+- Routes
+source: docs/docs/api/interfaces/core_core.IChain.html
+tags:
+- intermediate
+- api-reference
+- chains
 title: IChain | Photon
-source: docs/docs/api/interfaces/core_maker.IChain.html
 ---
-
 IChain | Photon
 
 [Photon](../index.md)
@@ -12,7 +29,7 @@ IChain | Photon
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.md)
+* [core/maker](../modules/core_core.md)
 * IChain
 
 # Interface IChain
@@ -22,7 +39,7 @@ A chain of paths which connect end to end.
 interface IChain {
     [contains](#contains)?: IChain[];
     [endless](#endless): boolean;
-    [links](#links): [IChainLink](core_maker.IChainLink.md)[];
+    [links](#links): [IChainLink](core_core.IChainLink.md)[];
     [pathLength](#pathlength): number;
 }
 
@@ -57,7 +74,7 @@ Flag if this chain forms a loop end to end.
 
 ### links
 
-links: [IChainLink](core_maker.IChainLink.md)[]
+links: [IChainLink](core_core.IChainLink.md)[]
 
 The links in this chain.
 
@@ -91,3 +108,9 @@ Properties
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Chain Theory](../index.md)
+- [Breaking](../index.md)
+- [Routes](../index.md)

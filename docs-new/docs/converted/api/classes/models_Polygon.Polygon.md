@@ -1,8 +1,22 @@
 ---
-title: Polygon | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- models
+- paths
+- photon
+- polygon
+primary_topic: polygon-|-photon
 source: docs/docs/api/classes/models_Polygon.Polygon.html
+tags:
+- intermediate
+- api-reference
+- polygon-|-photon
+title: Polygon | Photon
 ---
-
 Polygon | Photon
 
 [Photon](../index.md)

@@ -1,8 +1,26 @@
 ---
-title: prefixPathIds | Photon
+ai_summary: prefixPathIds | Photon
+category: API Reference
+description: prefixPathIds | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- cad
+- paths
+- photon
+- prefixpathids
+primary_topic: paths
+related:
+- Path Independence
+- Models
+- Path Constructors
 source: docs/docs/api/functions/core_model.prefixPathIds.html
+tags:
+- paths
+- api-reference
+- intermediate
+title: prefixPathIds | Photon
 ---
-
 prefixPathIds | Photon
 
 [Photon](../index.md)
@@ -50,3 +68,9 @@ ThemeOSLightDark
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Path Independence](../index.md)
+- [Models](../index.md)
+- [Path Constructors](../index.md)

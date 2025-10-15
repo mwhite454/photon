@@ -1,8 +1,25 @@
 ---
-title: models/BoltCircle | Photon
+ai_summary: models/BoltCircle | Photon
+category: API Reference
+description: models/BoltCircle | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- boltcircle
+- models
+- photon
+primary_topic: models
+related:
+- Modeling
+- Paths
+- Built-in Models
 source: docs/docs/api/modules/models_BoltCircle.html
+tags:
+- intermediate
+- api-reference
+- models
+title: models/BoltCircle | Photon
 ---
-
 models/BoltCircle | Photon
 
 [Photon](../index.md)
@@ -40,3 +57,9 @@ Classes
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Modeling](../index.md)
+- [Paths](../index.md)
+- [Built-in Models](../index.md)

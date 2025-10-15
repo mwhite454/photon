@@ -1,8 +1,25 @@
 ---
+ai_summary: IModelPathCallback | Photon
+category: API Reference
+description: IModelPathCallback | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- imodelpathcallback
+- paths
+- photon
+primary_topic: paths
+related:
+- Path Independence
+- Models
+- Path Constructors
+source: docs/docs/api/interfaces/core_core.IModelPathCallback.html
+tags:
+- paths
+- api-reference
+- intermediate
 title: IModelPathCallback | Photon
-source: docs/docs/api/interfaces/core_maker.IModelPathCallback.html
 ---
-
 IModelPathCallback | Photon
 
 [Photon](../index.md)
@@ -12,7 +29,7 @@ IModelPathCallback | Photon
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.md)
+* [core/maker](../modules/core_core.md)
 * IModelPathCallback
 
 # Interface IModelPathCallback
@@ -49,3 +66,9 @@ ThemeOSLightDark
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Path Independence](../index.md)
+- [Models](../index.md)
+- [Path Constructors](../index.md)

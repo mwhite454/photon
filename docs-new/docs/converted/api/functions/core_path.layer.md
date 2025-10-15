@@ -1,8 +1,20 @@
 ---
-title: layer | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- layer
+- photon
+primary_topic: layers
 source: docs/docs/api/functions/core_path.layer.html
+tags:
+- intermediate
+- api-reference
+- layers
+title: layer | Photon
 ---
-
 layer | Photon
 
 [Photon](../index.md)

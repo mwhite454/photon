@@ -1,8 +1,24 @@
 ---
-title: Built In Models
+ai_summary: 'Maker.js provides these fundamental models:'
+category: General
+description: 'Maker.js provides these fundamental models:'
+difficulty: intermediate
+keywords:
+- built
+- general
+- models
+primary_topic: models
+related:
+- Modeling
+- Paths
+- Built-in Models
 source: docs/_snippets/built-in-models.html
+tags:
+- intermediate
+- general
+- models
+title: Built In Models
 ---
-
 Maker.js provides these fundamental models:
 
 * [Belt](/playground/index.md?script=Belt)
@@ -26,3 +42,9 @@ Maker.js provides these fundamental models:
 * [Square](/playground/index.md?script=Square)
 * [Star](/playground/index.md?script=Star)
 * [Text](/playground/index.md?script=Text)
+
+## Related Topics
+
+- [Modeling](../index.md)
+- [Paths](../index.md)
+- [Built-in Models](../index.md)

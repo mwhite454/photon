@@ -1,8 +1,20 @@
 ---
-title: isLineOverlapping | Photon
+ai_summary: isLineOverlapping | Photon
+category: API Reference
+description: isLineOverlapping | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- islineoverlapping
+- photon
+primary_topic: lines
 source: docs/docs/api/functions/core_measure.isLineOverlapping.html
+tags:
+- intermediate
+- api-reference
+- lines
+title: isLineOverlapping | Photon
 ---
-
 isLineOverlapping | Photon
 
 [Photon](../index.md)

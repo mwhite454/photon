@@ -1,8 +1,20 @@
 ---
-title: isPoint | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- ispoint
+- photon
+primary_topic: ispoint-|-photon
 source: docs/docs/api/functions/core_base.isPoint.html
+tags:
+- intermediate
+- api-reference
+- ispoint-|-photon
+title: isPoint | Photon
 ---
-
 isPoint | Photon
 
 [Photon](../index.md)

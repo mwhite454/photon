@@ -1,8 +1,22 @@
 ---
-title: toSVG | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- export
+- photon
+- svg
+- tosvg
+primary_topic: svg
 source: docs/docs/api/functions/core_svg-esm.toSVG.html
+tags:
+- intermediate
+- api-reference
+- svg
+title: toSVG | Photon
 ---
-
 toSVG | Photon
 
 [Photon](../index.md)

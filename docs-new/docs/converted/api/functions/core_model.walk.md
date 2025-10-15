@@ -1,8 +1,23 @@
 ---
-title: walk | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- cad
+- models
+- paths
+- photon
+- walk
+primary_topic: traversal
 source: docs/docs/api/functions/core_model.walk.html
+tags:
+- intermediate
+- api-reference
+- traversal
+title: walk | Photon
 ---
-
 walk | Photon
 
 [Photon](../index.md)
@@ -17,7 +32,7 @@ Preparing search index...
 
 # Function walk
 
-* walk(modelContext: [IModel](../interfaces/core_schema.IModel.md), options: [IWalkOptions](../interfaces/core_maker.IWalkOptions.md)): [IModel](../interfaces/core_schema.IModel.md)
+* walk(modelContext: [IModel](../interfaces/core_schema.IModel.md), options: [IWalkOptions](../interfaces/core_core.IWalkOptions.md)): [IModel](../interfaces/core_schema.IModel.md)
 
   Recursively walk through all child models and paths for a given model.
 
@@ -26,7 +41,7 @@ Preparing search index...
   + modelContext: [IModel](../interfaces/core_schema.IModel.md)
 
     The model to walk.
-  + options: [IWalkOptions](../interfaces/core_maker.IWalkOptions.md)
+  + options: [IWalkOptions](../interfaces/core_core.IWalkOptions.md)
 
     Object containing callbacks.
 

@@ -1,8 +1,26 @@
 ---
-title: addModel | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- addmodel
+- api-reference
+- cad
+- models
+- photon
+primary_topic: models
+related:
+- Modeling
+- Paths
+- Built-in Models
 source: docs/docs/api/functions/core_model.addModel.html
+tags:
+- intermediate
+- api-reference
+- models
+title: addModel | Photon
 ---
-
 addModel | Photon
 
 [Photon](../index.md)
@@ -68,3 +86,9 @@ ThemeOSLightDark
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Modeling](../index.md)
+- [Paths](../index.md)
+- [Built-in Models](../index.md)

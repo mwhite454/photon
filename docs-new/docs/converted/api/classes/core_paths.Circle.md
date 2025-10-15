@@ -1,8 +1,21 @@
 ---
-title: Circle | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- circle
+- paths
+- photon
+primary_topic: circles
 source: docs/docs/api/classes/core_paths.Circle.html
+tags:
+- intermediate
+- api-reference
+- circles
+title: Circle | Photon
 ---
-
 Circle | Photon
 
 [Photon](../index.md)

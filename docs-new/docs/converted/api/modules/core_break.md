@@ -1,8 +1,21 @@
 ---
-title: core/break | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- break
+- core
+- photon
+primary_topic: breaking
 source: docs/docs/api/modules/core_break.html
+tags:
+- intermediate
+- api-reference
+- breaking
+title: core/break | Photon
 ---
-
 core/break | Photon
 
 [Photon](../index.md)

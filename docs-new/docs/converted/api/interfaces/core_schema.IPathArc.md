@@ -1,8 +1,26 @@
 ---
-title: IPathArc | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- drawing
+- ipatharc
+- paths
+- photon
+primary_topic: paths
+related:
+- Path Independence
+- Models
+- Path Constructors
 source: docs/docs/api/interfaces/core_schema.IPathArc.html
+tags:
+- paths
+- api-reference
+- intermediate
+title: IPathArc | Photon
 ---
-
 IPathArc | Photon
 
 [Photon](../index.md)
@@ -128,3 +146,9 @@ Properties
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Path Independence](../index.md)
+- [Models](../index.md)
+- [Path Constructors](../index.md)

@@ -1,8 +1,22 @@
 ---
-title: CSG | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- 2d
+- api-reference
+- cad
+- export
+- photon
+primary_topic: csg-|-photon
 source: docs/docs/api/modules/types_jscad.export_.CSG.html
+tags:
+- intermediate
+- api-reference
+- csg-|-photon
+title: CSG | Photon
 ---
-
 CSG | Photon
 
 [Photon](../index.md)

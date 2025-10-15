@@ -1,8 +1,21 @@
 ---
-title: core/equal | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- core
+- equal
+- photon
+primary_topic: core/equal-|-photon
 source: docs/docs/api/modules/core_equal.html
+tags:
+- intermediate
+- api-reference
+- core/equal-|-photon
+title: core/equal | Photon
 ---
-
 core/equal | Photon
 
 [Photon](../index.md)

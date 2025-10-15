@@ -1,8 +1,32 @@
 ---
-title: Cloning
+ai_summary: Models and paths are simple JavaScript objects, so they are easy to clone
+  in a way that is standard to JavaScript. Maker.js provides a few function...
+category: General
+description: Models and paths are simple JavaScript objects, so they are easy to clone
+  in a way that is standard to JavaScript. Maker.js provides a few function...
+difficulty: intermediate
+keywords:
+- cloning
+- export
+- general
+- javascript
+- models
+- paths
+- photon
+- photon/core
+- svg
+primary_topic: cloning
+related:
+- Moving
+- Scaling
+- Rotating
 source: docs/_snippets/cloning.html
+tags:
+- intermediate
+- general
+- cloning
+title: Cloning
 ---
-
 Models and paths are simple JavaScript objects, so they are easy to clone in a way that is standard to JavaScript. Maker.js provides a few functions for cloning:
 
 * [cloneObject](/docs/api/index.md#cloneobject) - clones a model, or any other object.
@@ -38,3 +62,9 @@ wheel.models[i] = clone;
 const svg = exporter.toSVG(wheel);
 document.write(svg);
 ```
+
+## Related Topics
+
+- [Moving](../index.md)
+- [Scaling](../index.md)
+- [Rotating](../index.md)

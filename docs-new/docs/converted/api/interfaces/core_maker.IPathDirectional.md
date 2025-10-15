@@ -1,8 +1,24 @@
 ---
+ai_summary: IPathDirectional | Photon
+category: API Reference
+description: IPathDirectional | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- ipathdirectional
+- photon
+primary_topic: paths
+related:
+- Path Independence
+- Models
+- Path Constructors
+source: docs/docs/api/interfaces/core_core.IPathDirectional.html
+tags:
+- paths
+- api-reference
+- intermediate
 title: IPathDirectional | Photon
-source: docs/docs/api/interfaces/core_maker.IPathDirectional.html
 ---
-
 IPathDirectional | Photon
 
 [Photon](../index.md)
@@ -12,7 +28,7 @@ IPathDirectional | Photon
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.md)
+* [core/maker](../modules/core_core.md)
 * IPathDirectional
 
 # Interface IPathDirectional
@@ -112,3 +128,9 @@ Properties
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Path Independence](../index.md)
+- [Models](../index.md)
+- [Path Constructors](../index.md)

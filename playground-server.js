@@ -59,15 +59,25 @@ watcher
 
 // Middleware
 app.use(express.json());
-app.use(express.static('docs'));
+
+// Serve the NEW MkDocs site (built static files)
+app.use('/docs', express.static('docs-new/site'));
+
+// Serve playground at root
+app.use('/playground', express.static('docs/playground'));
+
+// Serve external dependencies for playground
+app.use('/external', express.static('docs/external'));
+
+// Serve fonts for playground
+app.use('/fonts', express.static('docs/fonts'));
 
 // Serve packages directory for accessing built files
 app.use('/packages', express.static('packages'));
 
-// Redirect old /docs/* paths to the new root-mounted paths
-app.get('/docs/*', (req, res) => {
-    const target = req.path.replace(/^\/docs\//, '');
-    res.redirect('/' + target);
+// Root redirect to new docs
+app.get('/', (req, res) => {
+    res.redirect('/docs/');
 });
 
 // API endpoint to list available models
@@ -107,8 +117,16 @@ app.get('/api/models/:filename', (req, res) => {
 
 // Start server
 app.listen(PORT, () => {
-    console.log(`PhotonPlayground server running on http://localhost:${PORT}`);
-    console.log(`Watching models directory: ${modelsPath}`);
+    console.log('\n========================================');
+    console.log('Photon Development Server Started');
+    console.log('========================================');
+    console.log(`📚 Documentation:  http://localhost:${PORT}/docs/`);
+    console.log(`🎮 Playground:     http://localhost:${PORT}/playground/`);
+    console.log(`📦 Packages:       http://localhost:${PORT}/packages/`);
+    console.log(`🔧 Models API:     http://localhost:${PORT}/api/models`);
+    console.log('========================================');
+    console.log(`👀 Watching models: ${modelsPath}`);
+    console.log('========================================\n');
 });
 
 // Graceful shutdown

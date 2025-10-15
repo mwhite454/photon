@@ -1,8 +1,20 @@
 ---
-title: pointDistance | Photon
+ai_summary: pointDistance | Photon
+category: API Reference
+description: pointDistance | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- photon
+- pointdistance
+primary_topic: pointdistance-|-photon
 source: docs/docs/api/functions/core_measure-minimal.pointDistance.html
+tags:
+- intermediate
+- api-reference
+- pointdistance-|-photon
+title: pointDistance | Photon
 ---
-
 pointDistance | Photon
 
 [Photon](../index.md)

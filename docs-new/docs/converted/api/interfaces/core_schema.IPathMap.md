@@ -1,8 +1,24 @@
 ---
-title: IPathMap | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- ipathmap
+- photon
+primary_topic: paths
+related:
+- Path Independence
+- Models
+- Path Constructors
 source: docs/docs/api/interfaces/core_schema.IPathMap.html
+tags:
+- paths
+- api-reference
+- intermediate
+title: IPathMap | Photon
 ---
-
 IPathMap | Photon
 
 [Photon](../index.md)
@@ -39,3 +55,9 @@ ThemeOSLightDark
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Path Independence](../index.md)
+- [Models](../index.md)
+- [Path Constructors](../index.md)

@@ -1,8 +1,25 @@
 ---
-title: ICascadeModel | Photon
+ai_summary: ICascadeModel | Photon
+category: API Reference
+description: ICascadeModel | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- cad
+- icascademodel
+- photon
+primary_topic: models
+related:
+- Modeling
+- Paths
+- Built-in Models
 source: docs/docs/api/interfaces/core_cascades.MakerJs.ICascadeModel.html
+tags:
+- intermediate
+- api-reference
+- models
+title: ICascadeModel | Photon
 ---
-
 ICascadeModel | Photon
 
 [Photon](../index.md)
@@ -85,3 +102,9 @@ Properties
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Modeling](../index.md)
+- [Paths](../index.md)
+- [Built-in Models](../index.md)

@@ -1,8 +1,22 @@
 ---
-title: core/combine | Photon
+ai_summary: core/combine | Photon
+category: API Reference
+description: core/combine | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- combine
+- core
+- paths
+- photon
+primary_topic: combining
 source: docs/docs/api/modules/core_combine.html
+tags:
+- intermediate
+- api-reference
+- combining
+title: core/combine | Photon
 ---
-
 core/combine | Photon
 
 [Photon](../index.md)

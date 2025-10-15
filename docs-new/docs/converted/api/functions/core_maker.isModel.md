@@ -1,8 +1,24 @@
 ---
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- ismodel
+- photon
+primary_topic: models
+related:
+- Modeling
+- Paths
+- Built-in Models
+source: docs/docs/api/functions/core_core.isModel.html
+tags:
+- intermediate
+- api-reference
+- models
 title: isModel | Photon
-source: docs/docs/api/functions/core_maker.isModel.html
 ---
-
 isModel | Photon
 
 [Photon](../index.md)
@@ -12,7 +28,7 @@ isModel | Photon
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.md)
+* [core/maker](../modules/core_core.md)
 * isModel
 
 # Function isModel
@@ -43,3 +59,9 @@ ThemeOSLightDark
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Modeling](../index.md)
+- [Paths](../index.md)
+- [Built-in Models](../index.md)

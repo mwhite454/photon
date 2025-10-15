@@ -6,7 +6,7 @@ import {
     type IWalkOptions,
     type ISimplifyOptions,
     type ISlope
-} from './maker.js';
+} from './core.js';
 import * as angle from './angle.js';
 import { Collector } from './collect.js';
 import { walk } from './model.js';

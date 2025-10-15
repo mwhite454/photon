@@ -1,8 +1,20 @@
 ---
-title: PointGraph | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- photon
+- pointgraph
+primary_topic: pointgraph-|-photon
 source: docs/docs/api/classes/core_collect.PointGraph.html
+tags:
+- intermediate
+- api-reference
+- pointgraph-|-photon
+title: PointGraph | Photon
 ---
-
 PointGraph | Photon
 
 [Photon](../index.md)

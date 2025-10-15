@@ -1,8 +1,21 @@
 ---
-title: core/schema | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- core
+- photon
+- schema
+primary_topic: core/schema-|-photon
 source: docs/docs/api/modules/core_schema.html
+tags:
+- intermediate
+- api-reference
+- core/schema-|-photon
+title: core/schema | Photon
 ---
-
 core/schema | Photon
 
 [Photon](../index.md)

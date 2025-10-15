@@ -1,8 +1,21 @@
 ---
-title: IJscadExtrudeOptions | Photon
+ai_summary: IJscadExtrudeOptions | Photon
+category: API Reference
+description: IJscadExtrudeOptions | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- cad
+- ijscadextrudeoptions
+- photon
+primary_topic: ijscadextrudeoptions-|-photon
 source: docs/docs/api/interfaces/core_openjscad-esm.IJscadExtrudeOptions.html
+tags:
+- ijscadextrudeoptions-|-photon
+- api-reference
+- intermediate
+title: IJscadExtrudeOptions | Photon
 ---
-
 IJscadExtrudeOptions | Photon
 
 [Photon](../index.md)

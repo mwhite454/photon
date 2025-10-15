@@ -1,8 +1,23 @@
 ---
-title: IPDFRenderOptions | Photon
+ai_summary: IPDFRenderOptions | Photon
+category: API Reference
+description: IPDFRenderOptions | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- export
+- ipdfrenderoptions
+- paths
+- photon
+- svg
+primary_topic: ipdfrenderoptions-|-photon
 source: docs/docs/api/interfaces/core_pdf-esm.IPDFRenderOptions.html
+tags:
+- intermediate
+- api-reference
+- ipdfrenderoptions-|-photon
+title: IPDFRenderOptions | Photon
 ---
-
 IPDFRenderOptions | Photon
 
 [Photon](../index.md)

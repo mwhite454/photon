@@ -1,8 +1,21 @@
 ---
-title: Parallel | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- parallel
+- paths
+- photon
+primary_topic: parallel-|-photon
 source: docs/docs/api/classes/core_paths.Parallel.html
+tags:
+- intermediate
+- api-reference
+- parallel-|-photon
+title: Parallel | Photon
 ---
-
 Parallel | Photon
 
 [Photon](../index.md)

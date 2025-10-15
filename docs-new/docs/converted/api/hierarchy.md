@@ -1,8 +1,23 @@
 ---
-title: Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- cad
+- models
+- paths
+- photon
+- svg
+primary_topic: photon
 source: docs/docs/api/hierarchy.html
+tags:
+- photon
+- api-reference
+- intermediate
+title: Photon
 ---
-
 Photon
 
 [Photon](index.md)
@@ -25,8 +40,8 @@ Preparing search index...
   + [IJscadCsgOptions](interfaces/core_openjscad-esm.IJscadCsgOptions.md)
     - [IJscadScriptOptions](interfaces/core_openjscad-esm.IJscadScriptOptions.md)
 
-* [IMeasure](interfaces/core_maker.IMeasure.md)
-  + [IMeasureWithCenter](interfaces/core_maker.IMeasureWithCenter.md)
+* [IMeasure](interfaces/core_core.IMeasure.md)
+  + [IMeasureWithCenter](interfaces/core_core.IMeasureWithCenter.md)
 
 * [IModel](interfaces/core_schema.IModel.md)
   + [Belt](classes/models_Belt.Belt.md)
@@ -50,12 +65,12 @@ Preparing search index...
   + [Square](classes/models_Square.Square.md)
   + [Star](classes/models_Star.Star.md)
   + [Text](classes/models_Text.Text.md)
-  + [IBoundingHex](interfaces/core_maker.IBoundingHex.md)
+  + [IBoundingHex](interfaces/core_core.IBoundingHex.md)
 
 * [IPath](interfaces/core_schema.IPath.md)
   + [DeletedPathInfo](interfaces/core_boolean-utils.DeletedPathInfo.md)
-  + [IPathRemoved](interfaces/core_maker.IPathRemoved.md)
-  + [IPathDirectional](interfaces/core_maker.IPathDirectional.md)
+  + [IPathRemoved](interfaces/core_core.IPathRemoved.md)
+  + [IPathDirectional](interfaces/core_core.IPathDirectional.md)
   + [IPathLine](interfaces/core_schema.IPathLine.md)
     - [Chord](classes/core_paths.Chord.md)
     - [Line](classes/core_paths.Line.md)
@@ -68,28 +83,28 @@ Preparing search index...
       * [Arc](classes/core_paths.Arc.md)
   + [IPathArcInBezierCurve](interfaces/core_schema.IPathArcInBezierCurve.md)
 
-* [IPathIntersectionBaseOptions](interfaces/core_maker.IPathIntersectionBaseOptions.md)
-  + [IPathIntersectionOptions](interfaces/core_maker.IPathIntersectionOptions.md)
+* [IPathIntersectionBaseOptions](interfaces/core_core.IPathIntersectionBaseOptions.md)
+  + [IPathIntersectionOptions](interfaces/core_core.IPathIntersectionOptions.md)
 
-* [IPointMatchOptions](interfaces/core_maker.IPointMatchOptions.md)
+* [IPointMatchOptions](interfaces/core_core.IPointMatchOptions.md)
   + [IDXFRenderOptions](interfaces/core_dxf.IDXFRenderOptions.md)
-  + [ICombineOptions](interfaces/core_maker.ICombineOptions.md)
-  + [IFindLoopsOptions](interfaces/core_maker.IFindLoopsOptions.md)
+  + [ICombineOptions](interfaces/core_core.ICombineOptions.md)
+  + [IFindLoopsOptions](interfaces/core_core.IFindLoopsOptions.md)
     - [IOpenJsCadOptions](interfaces/core_openjscad-esm.IOpenJsCadOptions.md)
-  + [ISimplifyOptions](interfaces/core_maker.ISimplifyOptions.md)
-  + [IFindChainsOptions](interfaces/core_maker.IFindChainsOptions.md)
+  + [ISimplifyOptions](interfaces/core_core.ISimplifyOptions.md)
+  + [IFindChainsOptions](interfaces/core_core.IFindChainsOptions.md)
   + [IJscadCagOptions](interfaces/core_openjscad-esm.IJscadCagOptions.md)
     - [IJscadCsgOptions](interfaces/core_openjscad-esm.IJscadCsgOptions.md)
 
-* [IRefModelInModel](interfaces/core_maker.IRefModelInModel.md)
-  + [IWalkModel](interfaces/core_maker.IWalkModel.md)
+* [IRefModelInModel](interfaces/core_core.IRefModelInModel.md)
+  + [IWalkModel](interfaces/core_core.IWalkModel.md)
 
-* [IRefPathIdInModel](interfaces/core_maker.IRefPathIdInModel.md)
-  + [IWalkPath](interfaces/core_maker.IWalkPath.md)
+* [IRefPathIdInModel](interfaces/core_core.IRefPathIdInModel.md)
+  + [IWalkPath](interfaces/core_core.IWalkPath.md)
 
-* [IRouteOffset](interfaces/core_maker.IRouteOffset.md)
-  + [IWalkPath](interfaces/core_maker.IWalkPath.md)
-  + [IWalkModel](interfaces/core_maker.IWalkModel.md)
+* [IRouteOffset](interfaces/core_core.IRouteOffset.md)
+  + [IWalkPath](interfaces/core_core.IWalkPath.md)
+  + [IWalkModel](interfaces/core_core.IWalkModel.md)
 
 * [ISVGElementRenderOptions](interfaces/core_svg-esm.ISVGElementRenderOptions.md)
   + [ISVGRenderOptions](interfaces/core_svg-esm.ISVGRenderOptions.md)

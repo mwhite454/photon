@@ -1,8 +1,21 @@
 ---
-title: BezierSeed | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- bezierseed
+- models
+- photon
+primary_topic: bezier-curves
 source: docs/docs/api/classes/models_BezierCurve-esm.BezierSeed.html
+tags:
+- intermediate
+- api-reference
+- bezier-curves
+title: BezierSeed | Photon
 ---
-
 BezierSeed | Photon
 
 [Photon](../index.md)

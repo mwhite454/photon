@@ -1,8 +1,20 @@
 ---
-title: round | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- photon
+- round
+primary_topic: round-|-photon
 source: docs/docs/api/functions/core_base.round.html
+tags:
+- intermediate
+- api-reference
+- round-|-photon
+title: round | Photon
 ---
-
 round | Photon
 
 [Photon](../index.md)

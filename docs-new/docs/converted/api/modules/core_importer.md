@@ -1,8 +1,22 @@
 ---
-title: core/importer | Photon
+ai_summary: core/importer | Photon
+category: API Reference
+description: core/importer | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- core
+- importer
+- javascript
+- photon
+primary_topic: importing
 source: docs/docs/api/modules/core_importer.html
+tags:
+- intermediate
+- api-reference
+- importing
+title: core/importer | Photon
 ---
-
 core/importer | Photon
 
 [Photon](../index.md)

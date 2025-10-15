@@ -1,8 +1,21 @@
 ---
-title: core/collect | Photon
+ai_summary: core/collect | Photon
+category: API Reference
+description: core/collect | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- collect
+- core
+- photon
+primary_topic: core/collect-|-photon
 source: docs/docs/api/modules/core_collect.html
+tags:
+- intermediate
+- api-reference
+- core/collect-|-photon
+title: core/collect | Photon
 ---
-
 core/collect | Photon
 
 [Photon](../index.md)

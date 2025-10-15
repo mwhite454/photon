@@ -1,8 +1,21 @@
 ---
-title: construct | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- construct
+- javascript
+- photon
+primary_topic: construct-|-photon
 source: docs/docs/api/functions/core_kit.construct.html
+tags:
+- intermediate
+- api-reference
+- construct-|-photon
+title: construct | Photon
 ---
-
 construct | Photon
 
 [Photon](../index.md)
@@ -17,13 +30,13 @@ Preparing search index...
 
 # Function construct
 
-* construct(ctor: [IKit](../interfaces/core_maker.IKit.md), args: any): [IModel](../interfaces/core_schema.IModel.md)
+* construct(ctor: [IKit](../interfaces/core_core.IKit.md), args: any): [IModel](../interfaces/core_schema.IModel.md)
 
   Helper function to use the JavaScript "apply" function in conjunction with the "new" keyword.
 
   #### Parameters
 
-  + ctor: [IKit](../interfaces/core_maker.IKit.md)
+  + ctor: [IKit](../interfaces/core_core.IKit.md)
   + args: any
 
   #### Returns [IModel](../interfaces/core_schema.IModel.md)

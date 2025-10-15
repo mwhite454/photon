@@ -1,8 +1,22 @@
 ---
-title: BoltRectangle | Photon
+ai_summary: BoltRectangle | Photon
+category: API Reference
+description: BoltRectangle | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- boltrectangle
+- models
+- paths
+- photon
+primary_topic: boltrectangle-|-photon
 source: docs/docs/api/classes/models_BoltRectangle.BoltRectangle.html
+tags:
+- intermediate
+- api-reference
+- boltrectangle-|-photon
+title: BoltRectangle | Photon
 ---
-
 BoltRectangle | Photon
 
 [Photon](../index.md)

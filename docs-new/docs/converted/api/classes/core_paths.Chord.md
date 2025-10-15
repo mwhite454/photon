@@ -1,8 +1,21 @@
 ---
-title: Chord | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- chord
+- paths
+- photon
+primary_topic: chord-|-photon
 source: docs/docs/api/classes/core_paths.Chord.html
+tags:
+- intermediate
+- api-reference
+- chord-|-photon
+title: Chord | Photon
 ---
-
 Chord | Photon
 
 [Photon](../index.md)

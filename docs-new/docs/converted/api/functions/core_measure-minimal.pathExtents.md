@@ -1,8 +1,24 @@
 ---
-title: pathExtents | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- pathextents
+- photon
+primary_topic: paths
+related:
+- Path Independence
+- Models
+- Path Constructors
 source: docs/docs/api/functions/core_measure-minimal.pathExtents.html
+tags:
+- paths
+- api-reference
+- intermediate
+title: pathExtents | Photon
 ---
-
 pathExtents | Photon
 
 [Photon](../index.md)
@@ -17,7 +33,7 @@ Preparing search index...
 
 # Function pathExtents
 
-* pathExtents(pathToMeasure: [IPath](../interfaces/core_schema.IPath.md), addOffset?: [IPoint](../interfaces/core_schema.IPoint.md)): [IMeasure](../interfaces/core_maker.IMeasure.md)
+* pathExtents(pathToMeasure: [IPath](../interfaces/core_schema.IPath.md), addOffset?: [IPoint](../interfaces/core_schema.IPoint.md)): [IMeasure](../interfaces/core_core.IMeasure.md)
 
   Calculates the smallest rectangle which contains a path.
 
@@ -26,7 +42,7 @@ Preparing search index...
   + pathToMeasure: [IPath](../interfaces/core_schema.IPath.md)
   + `Optional`addOffset: [IPoint](../interfaces/core_schema.IPoint.md)
 
-  #### Returns [IMeasure](../interfaces/core_maker.IMeasure.md)
+  #### Returns [IMeasure](../interfaces/core_core.IMeasure.md)
 
   + Defined in [core/measure-minimal.ts:167](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure-minimal.ts#L167)
 
@@ -44,3 +60,9 @@ ThemeOSLightDark
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Path Independence](../index.md)
+- [Models](../index.md)
+- [Path Constructors](../index.md)

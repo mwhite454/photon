@@ -1,8 +1,22 @@
 ---
+ai_summary: ICombineOptions | Photon
+category: API Reference
+description: ICombineOptions | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- icombineoptions
+- models
+- paths
+- photon
+primary_topic: combining
+source: docs/docs/api/interfaces/core_core.ICombineOptions.html
+tags:
+- intermediate
+- api-reference
+- combining
 title: ICombineOptions | Photon
-source: docs/docs/api/interfaces/core_maker.ICombineOptions.html
 ---
-
 ICombineOptions | Photon
 
 [Photon](../index.md)
@@ -12,7 +26,7 @@ ICombineOptions | Photon
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.md)
+* [core/maker](../modules/core_core.md)
 * ICombineOptions
 
 # Interface ICombineOptions
@@ -30,7 +44,7 @@ interface ICombineOptions {
 
 #### Hierarchy ([View Summary](../hierarchy.md#core/maker.ICombineOptions))
 
-* [IPointMatchOptions](core_maker.IPointMatchOptions.md)
+* [IPointMatchOptions](core_core.IPointMatchOptions.md)
   + ICombineOptions
 
 * Defined in [core/maker.ts:288](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L288)
@@ -87,7 +101,7 @@ pointMatchingDistance?: number
 
 Max distance to consider two points as the same.
 
-Inherited from [IPointMatchOptions](core_maker.IPointMatchOptions.md).[pointMatchingDistance](core_maker.IPointMatchOptions.md#pointmatchingdistance)
+Inherited from [IPointMatchOptions](core_core.IPointMatchOptions.md).[pointMatchingDistance](core_core.IPointMatchOptions.md#pointmatchingdistance)
 
 * Defined in [core/maker.ts:282](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L282)
 

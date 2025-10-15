@@ -1,5 +1,5 @@
 import { IModel, IPathMap } from '../core/schema.js';
-import type { IKit } from '../core/maker.js';
+import type { IKit } from '../core/core.js';
 import { Holes } from './Holes.js';
 
 export class BoltRectangle implements IModel {

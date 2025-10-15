@@ -1,8 +1,20 @@
 ---
+ai_summary: IMetaParameter | Photon
+category: API Reference
+description: IMetaParameter | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- imetaparameter
+- photon
+primary_topic: imetaparameter-|-photon
+source: docs/docs/api/interfaces/core_core.IMetaParameter.html
+tags:
+- intermediate
+- api-reference
+- imetaparameter-|-photon
 title: IMetaParameter | Photon
-source: docs/docs/api/interfaces/core_maker.IMetaParameter.html
 ---
-
 IMetaParameter | Photon
 
 [Photon](../index.md)
@@ -12,7 +24,7 @@ IMetaParameter | Photon
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.md)
+* [core/maker](../modules/core_core.md)
 * IMetaParameter
 
 # Interface IMetaParameter

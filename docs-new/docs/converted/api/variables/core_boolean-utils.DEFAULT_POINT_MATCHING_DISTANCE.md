@@ -1,8 +1,20 @@
 ---
-title: DEFAULT_POINT_MATCHING_DISTANCE | Photon
+ai_summary: DEFAULT\POINT\MATCHING\DISTANCE | Photon
+category: API Reference
+description: DEFAULT\POINT\MATCHING\DISTANCE | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- default_point_matching_distance
+- photon
+primary_topic: default_point_matching_distance-|-photon
 source: docs/docs/api/variables/core_boolean-utils.DEFAULT_POINT_MATCHING_DISTANCE.html
+tags:
+- intermediate
+- api-reference
+- default_point_matching_distance-|-photon
+title: DEFAULT_POINT_MATCHING_DISTANCE | Photon
 ---
-
 DEFAULT\_POINT\_MATCHING\_DISTANCE | Photon
 
 [Photon](../index.md)

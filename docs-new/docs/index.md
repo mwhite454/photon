@@ -1,9 +1,24 @@
 ---
+ai_summary: Photon (formerly Maker.js) is a JavaScript library for programmatically
+  creating 2D vector drawings and laser-cuttable models.
+category: General
+description: A JavaScript library for creating and designing 2D vector graphics, drawings,
+  and laser-cuttable models.
+difficulty: advanced
+keywords:
+- photon
+- photon/core
+- vector graphics
+- drawings
+- laser cutting
+- modeling
+primary_topic: photon-documentation
+tags:
+- advanced
+- photon-documentation
+- general
 title: Photon Documentation
-description: A JavaScript library for creating and designing 2D vector graphics, drawings, and laser-cuttable models.
-keywords: [photon, photon/core, vector graphics, drawings, laser cutting, modeling]
 ---
-
 # Welcome to Photon
 
 Photon (formerly Maker.js) is a JavaScript library for programmatically creating 2D vector drawings and laser-cuttable models.

@@ -1,8 +1,20 @@
 ---
-title: fromAngleOnCircle | Photon
+ai_summary: fromAngleOnCircle | Photon
+category: API Reference
+description: fromAngleOnCircle | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- fromangleoncircle
+- photon
+primary_topic: circles
 source: docs/docs/api/functions/core_point.fromAngleOnCircle.html
+tags:
+- intermediate
+- api-reference
+- circles
+title: fromAngleOnCircle | Photon
 ---
-
 fromAngleOnCircle | Photon
 
 [Photon](../index.md)

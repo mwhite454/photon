@@ -1,8 +1,21 @@
 ---
+ai_summary: IPointMatchOptions | Photon
+category: API Reference
+description: IPointMatchOptions | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- cad
+- ipointmatchoptions
+- photon
+primary_topic: ipointmatchoptions-|-photon
+source: docs/docs/api/interfaces/core_core.IPointMatchOptions.html
+tags:
+- ipointmatchoptions-|-photon
+- api-reference
+- intermediate
 title: IPointMatchOptions | Photon
-source: docs/docs/api/interfaces/core_maker.IPointMatchOptions.html
 ---
-
 IPointMatchOptions | Photon
 
 [Photon](../index.md)
@@ -12,7 +25,7 @@ IPointMatchOptions | Photon
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.md)
+* [core/maker](../modules/core_core.md)
 * IPointMatchOptions
 
 # Interface IPointMatchOptions
@@ -27,10 +40,10 @@ interface IPointMatchOptions {
 
 * IPointMatchOptions
   + [IDXFRenderOptions](core_dxf.IDXFRenderOptions.md)
-  + [ICombineOptions](core_maker.ICombineOptions.md)
-  + [IFindLoopsOptions](core_maker.IFindLoopsOptions.md)
-  + [ISimplifyOptions](core_maker.ISimplifyOptions.md)
-  + [IFindChainsOptions](core_maker.IFindChainsOptions.md)
+  + [ICombineOptions](core_core.ICombineOptions.md)
+  + [IFindLoopsOptions](core_core.IFindLoopsOptions.md)
+  + [ISimplifyOptions](core_core.ISimplifyOptions.md)
+  + [IFindChainsOptions](core_core.IFindChainsOptions.md)
   + [IJscadCagOptions](core_openjscad-esm.IJscadCagOptions.md)
 
 * Defined in [core/maker.ts:277](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L277)

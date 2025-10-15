@@ -1,8 +1,23 @@
 ---
-title: Points
+ai_summary: A point is represented by an array with 2 elements. The first element
+  is x, the second element is y.
+category: General
+description: A point is represented by an array with 2 elements. The first element
+  is x, the second element is y.
+difficulty: intermediate
+keywords:
+- general
+- javascript
+- points
+- svg
+primary_topic: points
 source: docs/_snippets/points.html
+tags:
+- intermediate
+- points
+- general
+title: Points
 ---
-
 A point is represented by an array with 2 elements. The first element is x, the second element is y.
 
 ```javascript

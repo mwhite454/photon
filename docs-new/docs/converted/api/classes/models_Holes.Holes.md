@@ -1,8 +1,22 @@
 ---
-title: Holes | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- holes
+- models
+- paths
+- photon
+primary_topic: holes-|-photon
 source: docs/docs/api/classes/models_Holes.Holes.html
+tags:
+- holes-|-photon
+- api-reference
+- intermediate
+title: Holes | Photon
 ---
-
 Holes | Photon
 
 [Photon](../index.md)

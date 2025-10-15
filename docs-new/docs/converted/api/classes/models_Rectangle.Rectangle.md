@@ -1,8 +1,26 @@
 ---
-title: Rectangle | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- export
+- javascript
+- models
+- paths
+- photon
+- photon/core
+- rectangle
+- svg
+primary_topic: rectangle-|-photon
 source: docs/docs/api/classes/models_Rectangle.Rectangle.html
+tags:
+- intermediate
+- api-reference
+- rectangle-|-photon
+title: Rectangle | Photon
 ---
-
 Rectangle | Photon
 
 [Photon](../index.md)
@@ -95,7 +113,7 @@ A model is a composite object which may contain a map of paths, or a map of mode
   #### Returns Rectangle
 
   + Defined in [models/Rectangle.ts:45](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Rectangle.ts#L45)
-* new Rectangle(measurement: [IMeasure](../interfaces/core_maker.IMeasure.md)): Rectangle
+* new Rectangle(measurement: [IMeasure](../interfaces/core_core.IMeasure.md)): Rectangle
 
   Create a rectangle from a measurement.
 
@@ -114,7 +132,7 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
   #### Parameters
 
-  + measurement: [IMeasure](../interfaces/core_maker.IMeasure.md)
+  + measurement: [IMeasure](../interfaces/core_core.IMeasure.md)
 
     IMeasure object. See <http:// photon/core.org/docs/api/modules/measure.html#pathextents> and <http:// photon/core.org/docs/api/modules/measure.html#modelextents> to get measurements of paths and models.
 

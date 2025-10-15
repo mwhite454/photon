@@ -3,7 +3,7 @@
  * Chains are paths that connect at endpoints
  */
 import { IModel, IPoint } from './schema.js';
-import { IChain, IFindChainsOptions, IChainCallback, IChainsMap } from './maker.js';
+import { IChain, IFindChainsOptions, IChainCallback, IChainsMap } from './core.js';
 /**
  * Find a single chain within a model, across all layers. Shorthand of findChains; useful when you know there is only one chain to find in your model.
  *

@@ -1,8 +1,20 @@
 ---
-title: core/dxf | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- core
+- photon
+primary_topic: dxf
 source: docs/docs/api/modules/core_dxf.html
+tags:
+- intermediate
+- api-reference
+- dxf
+title: core/dxf | Photon
 ---
-
 core/dxf | Photon
 
 [Photon](../index.md)

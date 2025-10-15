@@ -1,8 +1,20 @@
 ---
-title: isSlopeParallel | Photon
+ai_summary: isSlopeParallel | Photon
+category: API Reference
+description: isSlopeParallel | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- isslopeparallel
+- photon
+primary_topic: isslopeparallel-|-photon
 source: docs/docs/api/functions/core_equal.isSlopeParallel.html
+tags:
+- intermediate
+- api-reference
+- isslopeparallel-|-photon
+title: isSlopeParallel | Photon
 ---
-
 isSlopeParallel | Photon
 
 [Photon](../index.md)
@@ -17,14 +29,14 @@ Preparing search index...
 
 # Function isSlopeParallel
 
-* isSlopeParallel(slopeA: [ISlope](../interfaces/core_maker.ISlope.md), slopeB: [ISlope](../interfaces/core_maker.ISlope.md)): boolean
+* isSlopeParallel(slopeA: [ISlope](../interfaces/core_core.ISlope.md), slopeB: [ISlope](../interfaces/core_core.ISlope.md)): boolean
 
   Check for parallel slopes.
 
   #### Parameters
 
-  + slopeA: [ISlope](../interfaces/core_maker.ISlope.md)
-  + slopeB: [ISlope](../interfaces/core_maker.ISlope.md)
+  + slopeA: [ISlope](../interfaces/core_core.ISlope.md)
+  + slopeB: [ISlope](../interfaces/core_core.ISlope.md)
 
   #### Returns boolean
 

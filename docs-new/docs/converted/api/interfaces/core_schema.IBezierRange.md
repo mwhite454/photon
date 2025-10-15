@@ -1,8 +1,20 @@
 ---
-title: IBezierRange | Photon
+ai_summary: IBezierRange | Photon
+category: API Reference
+description: IBezierRange | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- ibezierrange
+- photon
+primary_topic: bezier-curves
 source: docs/docs/api/interfaces/core_schema.IBezierRange.html
+tags:
+- intermediate
+- api-reference
+- bezier-curves
+title: IBezierRange | Photon
 ---
-
 IBezierRange | Photon
 
 [Photon](../index.md)

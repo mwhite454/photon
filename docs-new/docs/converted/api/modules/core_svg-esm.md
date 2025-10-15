@@ -1,8 +1,22 @@
 ---
-title: core/svg-esm | Photon
+ai_summary: core/svg-esm | Photon
+category: API Reference
+description: core/svg-esm | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- core
+- javascript
+- photon
+- svg
+primary_topic: svg
 source: docs/docs/api/modules/core_svg-esm.html
+tags:
+- intermediate
+- api-reference
+- svg
+title: core/svg-esm | Photon
 ---
-
 core/svg-esm | Photon
 
 [Photon](../index.md)

@@ -1,10 +1,34 @@
 ---
-title: Zeroing And Centering
+ai_summary: To move a model so that its bottom and/or left edges are on the x & y
+  axes, use model.zero.
+category: General
+description: To move a model so that its bottom and/or left edges are on the x & y
+  axes, use model.zero.
+difficulty: intermediate
+keywords:
+- centering
+- export
+- general
+- javascript
+- models
+- paths
+- photon
+- photon/core
+- svg
+- zeroing
+primary_topic: zeroing-and-centering
 source: docs/_snippets/zeroing-and-centering.html
+tags:
+- intermediate
+- general
+- zeroing-and-centering
+title: Zeroing And Centering
 ---
-
 To move a model so that its bottom and/or left edges are on the x & y axes, use [model.zero](/docs/api/modules/model.md#zero).
 This function accepts 2 boolean parameters: zeroOnXAxis, zeroOnYAxis. If you do not pass any parameters, it will zero on both axes.
+
+
+## Examples
 
 ```javascript
 //zero a model

@@ -1,8 +1,20 @@
 ---
-title: breakAtPoint | Photon
+ai_summary: breakAtPoint | Photon
+category: API Reference
+description: breakAtPoint | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- breakatpoint
+- photon
+primary_topic: breaking
 source: docs/docs/api/functions/core_break.breakAtPoint.html
+tags:
+- intermediate
+- api-reference
+- breaking
+title: breakAtPoint | Photon
 ---
-
 breakAtPoint | Photon
 
 [Photon](../index.md)

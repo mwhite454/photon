@@ -1,8 +1,22 @@
 ---
-title: core/measure-minimal | Photon
+ai_summary: core/measure-minimal | Photon
+category: API Reference
+description: core/measure-minimal | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- core
+- measure
+- minimal
+- photon
+primary_topic: measuring
 source: docs/docs/api/modules/core_measure-minimal.html
+tags:
+- intermediate
+- api-reference
+- measuring
+title: core/measure-minimal | Photon
 ---
-
 core/measure-minimal | Photon
 
 [Photon](../index.md)

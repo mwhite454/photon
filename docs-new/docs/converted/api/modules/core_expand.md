@@ -1,8 +1,22 @@
 ---
-title: core/expand | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- core
+- expand
+- paths
+- photon
+primary_topic: expanding
 source: docs/docs/api/modules/core_expand.html
+tags:
+- intermediate
+- api-reference
+- expanding
+title: core/expand | Photon
 ---
-
 core/expand | Photon
 
 [Photon](../index.md)

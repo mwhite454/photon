@@ -31,16 +31,16 @@
   },
   "maintainers": [
     {
-      "name": "Dan Marshall",
-      "email": "danmar@microsoft.com"
+      "name": "Myka White",
+      "email": "mwhite454@gmail.com"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Microsoft/maker.js.git"
+    "url": "https://github.com/mwhite454/photon.git"
   },
   "keywords": [
-    "Maker",
+    "Photon",
     "CAD",
     "2D",
     "3D",
@@ -99,10 +99,10 @@
     "cutter",
     "water jet"
   ],
-  "author": "Dan Marshall / Microsoft Corporation",
-  "license": "Apache-2.0",
+      "author": "Myka White",
+      "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/Microsoft/maker.js/issues"
+    "url": "https://github.com/mwhite454/photon/issues"
   },
   "homepage": "https://github.com/mwhite454/photon",
   "devDependencies": {

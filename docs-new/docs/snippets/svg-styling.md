@@ -1,8 +1,27 @@
 ---
-title: Svg Styling
+ai_summary: It may be helpful to add visual styles to your drawing when debugging.
+category: General
+description: It may be helpful to add visual styles to your drawing when debugging.
+difficulty: intermediate
+keywords:
+- drawing
+- export
+- general
+- javascript
+- laser
+- models
+- paths
+- photon
+- photon/core
+- styling
+primary_topic: svg
 source: docs/_snippets/svg-styling.html
+tags:
+- intermediate
+- svg
+- general
+title: Svg Styling
 ---
-
 It may be helpful to add visual styles to your drawing when debugging.
 You can do this using CSS and referencing elements in your SVG.
 Of course this will only add style in the browser,
@@ -10,6 +29,9 @@ it will not affect SVG exported to a file for the laser cutter.
 
 The keys you use within your **paths** and **models** collections become an **id** attribute
 in the generated SVG. For Example:
+
+
+## Examples
 
 ```javascript
 import { exporter, models, paths } from 'photon/core';

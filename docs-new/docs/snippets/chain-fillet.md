@@ -1,8 +1,31 @@
 ---
-title: Chain Fillet
+ai_summary: A fillet can be added between all paths in a chain by calling
+category: General
+description: A fillet can be added between all paths in a chain by calling
+difficulty: advanced
+keywords:
+- chain
+- drawing
+- export
+- fillet
+- general
+- javascript
+- models
+- paths
+- photon
+- photon/core
+primary_topic: chains
+related:
+- Chain Theory
+- Breaking
+- Routes
 source: docs/_snippets/chain-fillet.html
+tags:
+- advanced
+- general
+- chains
+title: Chain Fillet
 ---
-
 A [fillet](/docs/intermediate-drawing/index.md#Fillets) can be added between all paths in a chain by calling
 [chain.fillet](/docs/api/modules/chain.md#fillet) with these parameters:
 
@@ -15,6 +38,9 @@ This new model should be added into your tree.
 ##### Basic example
 
 Let's draw a few lines that we know will form a chain:
+
+## Examples
+
 ```javascript
 //render a model with paths that form a chain
 import { chain, exporter, model, paths } from 'photon/core';
@@ -111,3 +137,9 @@ expansion.models[`fillets${i}`] = m.chain.fillet(chains[i], 2);
 const svg = m.exporter.toSVG(expansion);
 document.write(svg);
 ```
+
+## Related Topics
+
+- [Chain Theory](../index.md)
+- [Breaking](../index.md)
+- [Routes](../index.md)

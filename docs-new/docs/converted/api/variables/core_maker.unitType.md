@@ -1,8 +1,20 @@
 ---
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- photon
+- unittype
+primary_topic: unittype-|-photon
+source: docs/docs/api/variables/core_core.unitType.html
+tags:
+- intermediate
+- api-reference
+- unittype-|-photon
 title: unitType | Photon
-source: docs/docs/api/variables/core_maker.unitType.html
 ---
-
 unitType | Photon
 
 [Photon](../index.md)
@@ -12,7 +24,7 @@ unitType | Photon
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.md)
+* [core/maker](../modules/core_core.md)
 * unitType
 
 # Variable unitType`Const`

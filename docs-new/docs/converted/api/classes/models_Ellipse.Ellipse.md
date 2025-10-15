@@ -1,8 +1,22 @@
 ---
-title: Ellipse | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- ellipse
+- models
+- paths
+- photon
+primary_topic: ellipse-|-photon
 source: docs/docs/api/classes/models_Ellipse.Ellipse.html
+tags:
+- intermediate
+- api-reference
+- ellipse-|-photon
+title: Ellipse | Photon
 ---
-
 Ellipse | Photon
 
 [Photon](../index.md)

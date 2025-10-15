@@ -1,8 +1,20 @@
 ---
-title: copyProps | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- copyprops
+- photon
+primary_topic: copyprops-|-photon
 source: docs/docs/api/functions/core_path.copyProps.html
+tags:
+- intermediate
+- api-reference
+- copyprops-|-photon
+title: copyProps | Photon
 ---
-
 copyProps | Photon
 
 [Photon](../index.md)

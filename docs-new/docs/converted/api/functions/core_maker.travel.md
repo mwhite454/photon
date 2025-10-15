@@ -1,8 +1,20 @@
 ---
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- photon
+- travel
+primary_topic: travel-|-photon
+source: docs/docs/api/functions/core_core.travel.html
+tags:
+- intermediate
+- api-reference
+- travel-|-photon
 title: travel | Photon
-source: docs/docs/api/functions/core_maker.travel.html
 ---
-
 travel | Photon
 
 [Photon](../index.md)
@@ -12,7 +24,7 @@ travel | Photon
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.md)
+* [core/maker](../modules/core_core.md)
 * travel
 
 # Function travel

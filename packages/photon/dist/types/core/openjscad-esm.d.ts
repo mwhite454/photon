@@ -1,5 +1,5 @@
 import type { IModel } from './schema.js';
-import type { IPointMatchOptions, IFindLoopsOptions } from './maker.js';
+import type { IPointMatchOptions, IFindLoopsOptions } from './core.js';
 import type { IExportOptions } from './exporter.js';
 import type * as jscad from '../types/jscad.js';
 export interface IStatusCallback {

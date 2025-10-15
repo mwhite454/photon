@@ -1,8 +1,21 @@
 ---
-title: MakerJs | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- cad
+- makerjs
+- photon
+primary_topic: makerjs-|-photon
 source: docs/docs/api/modules/core_cascades.MakerJs.html
+tags:
+- intermediate
+- api-reference
+- makerjs-|-photon
+title: MakerJs | Photon
 ---
-
 MakerJs | Photon
 
 [Photon](../index.md)

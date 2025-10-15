@@ -1,8 +1,26 @@
 ---
-title: Simplifying
+ai_summary: If you Play the wireframe example above, and click on 'show path names'
+  you will see that many lines have been created as a result of the expansion.
+category: General
+description: If you Play the wireframe example above, and click on 'show path names'
+  you will see that many lines have been created as a result of the expansion.
+difficulty: intermediate
+keywords:
+- export
+- general
+- javascript
+- models
+- paths
+- simplifying
+- svg
+primary_topic: simplification
 source: docs/_snippets/simplifying.html
+tags:
+- simplification
+- general
+- intermediate
+title: Simplifying
 ---
-
 If you Play the wireframe example above, and click on 'show path names' you will see that many lines have been created as a result of the expansion.
 This is an artefact of all of the boolean operations with **combine**. The outmost chain for example, should be able to represented with only four lines.
 To remedy this, there is [makerjs.model.simplify](/docs/api/modules/makerjs.model.md#simplify) - however there is an important caveat:

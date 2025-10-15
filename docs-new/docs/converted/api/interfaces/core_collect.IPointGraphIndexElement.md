@@ -1,8 +1,20 @@
 ---
-title: IPointGraphIndexElement | Photon
+ai_summary: IPointGraphIndexElement | Photon
+category: API Reference
+description: IPointGraphIndexElement | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- ipointgraphindexelement
+- photon
+primary_topic: ipointgraphindexelement-|-photon
 source: docs/docs/api/interfaces/core_collect.IPointGraphIndexElement.html
+tags:
+- ipointgraphindexelement-|-photon
+- api-reference
+- intermediate
+title: IPointGraphIndexElement | Photon
 ---
-
 IPointGraphIndexElement | Photon
 
 [Photon](../index.md)

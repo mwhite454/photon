@@ -1,8 +1,24 @@
 ---
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- ischain
+- photon
+primary_topic: chains
+related:
+- Chain Theory
+- Breaking
+- Routes
+source: docs/docs/api/functions/core_core.isChain.html
+tags:
+- intermediate
+- api-reference
+- chains
 title: isChain | Photon
-source: docs/docs/api/functions/core_maker.isChain.html
 ---
-
 isChain | Photon
 
 [Photon](../index.md)
@@ -12,7 +28,7 @@ isChain | Photon
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.md)
+* [core/maker](../modules/core_core.md)
 * isChain
 
 # Function isChain
@@ -45,3 +61,9 @@ ThemeOSLightDark
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Chain Theory](../index.md)
+- [Breaking](../index.md)
+- [Routes](../index.md)

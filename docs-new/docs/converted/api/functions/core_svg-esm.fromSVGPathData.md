@@ -1,8 +1,26 @@
 ---
-title: fromSVGPathData | Photon
+ai_summary: fromSVGPathData | Photon
+category: API Reference
+description: fromSVGPathData | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- fromsvgpathdata
+- javascript
+- photon
+- svg
+primary_topic: paths
+related:
+- Path Independence
+- Models
+- Path Constructors
 source: docs/docs/api/functions/core_svg-esm.fromSVGPathData.html
+tags:
+- paths
+- api-reference
+- intermediate
+title: fromSVGPathData | Photon
 ---
-
 fromSVGPathData | Photon
 
 [Photon](../index.md)
@@ -42,3 +60,9 @@ ThemeOSLightDark
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Path Independence](../index.md)
+- [Models](../index.md)
+- [Path Constructors](../index.md)

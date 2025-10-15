@@ -1,8 +1,20 @@
 ---
-title: Collector | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- collector
+- photon
+primary_topic: collector-|-photon
 source: docs/docs/api/classes/core_collect.Collector.html
+tags:
+- intermediate
+- api-reference
+- collector-|-photon
+title: Collector | Photon
 ---
-
 Collector | Photon
 
 [Photon](../index.md)

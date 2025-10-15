@@ -1,8 +1,29 @@
 ---
-title: Combining
+ai_summary: 'You can combine models using the model.combine function, passing these
+  parameters:'
+category: General
+description: 'You can combine models using the model.combine function, passing these
+  parameters:'
+difficulty: intermediate
+keywords:
+- combining
+- export
+- general
+- geometry
+- javascript
+- models
+- paths
+- photon
+- photon/core
+- svg
+primary_topic: combining
 source: docs/_snippets/combining.html
+tags:
+- intermediate
+- combining
+- general
+title: Combining
 ---
-
 You can combine models using the [model.combine](/docs/api/modules/model.md#combine) function, passing these parameters:
 
 * first model to combine, we'll call it "modelA"
@@ -13,6 +34,9 @@ You can combine models using the [model.combine](/docs/api/modules/model.md#comb
 * boolean to include modelB's paths which are outside of modelA
 
 Each model must be a closed geometry, and should not be self-intersecting. The effect of the 4 boolean parameters is shown in these examples:
+
+## Examples
+
 ```javascript
 //combine a rectangle and an oval, several ways
 import { exporter, model, models } from 'photon/core';

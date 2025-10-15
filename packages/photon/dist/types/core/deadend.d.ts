@@ -1,5 +1,5 @@
 import { IModel } from './schema.js';
-import { IWalkPath, IWalkPathBooleanCallback } from './maker.js';
+import { IWalkPath, IWalkPathBooleanCallback } from './core.js';
 /**
  * Remove paths from a model which have endpoints that do not connect to other paths.
  *

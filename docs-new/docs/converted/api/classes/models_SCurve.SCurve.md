@@ -1,8 +1,22 @@
 ---
-title: SCurve | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- models
+- paths
+- photon
+- scurve
+primary_topic: scurve-|-photon
 source: docs/docs/api/classes/models_SCurve.SCurve.html
+tags:
+- intermediate
+- api-reference
+- scurve-|-photon
+title: SCurve | Photon
 ---
-
 SCurve | Photon
 
 [Photon](../index.md)

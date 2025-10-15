@@ -1,8 +1,20 @@
 ---
-title: subtract | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- photon
+- subtract
+primary_topic: subtract-|-photon
 source: docs/docs/api/functions/core_point.subtract.html
+tags:
+- intermediate
+- api-reference
+- subtract-|-photon
+title: subtract | Photon
 ---
-
 subtract | Photon
 
 [Photon](../index.md)

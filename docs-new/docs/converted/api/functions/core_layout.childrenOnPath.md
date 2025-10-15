@@ -1,8 +1,28 @@
 ---
-title: childrenOnPath | Photon
+ai_summary: childrenOnPath | Photon
+category: Layout
+description: childrenOnPath | Photon
+difficulty: intermediate
+keywords:
+- cad
+- childrenonpath
+- layout
+- photon
+prerequisites:
+- Intermediate Drawing
+primary_topic: paths
+related:
+- Path Independence
+- Models
+- Path Constructors
+- Intermediate Drawing
 source: docs/docs/api/functions/core_layout.childrenOnPath.html
+tags:
+- paths
+- layout
+- intermediate
+title: childrenOnPath | Photon
 ---
-
 childrenOnPath | Photon
 
 [Photon](../index.md)
@@ -16,6 +36,13 @@ Preparing search index...
 * childrenOnPath
 
 # Function childrenOnPath
+
+## Prerequisites
+
+Before working with this feature, you should be familiar with:
+
+- [Intermediate Drawing](../index.md)
+
 
 * childrenOnPath(
       parentModel: [IModel](../interfaces/core_schema.IModel.md),
@@ -71,3 +98,10 @@ ThemeOSLightDark
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Path Independence](../index.md)
+- [Models](../index.md)
+- [Path Constructors](../index.md)
+- [Intermediate Drawing](../index.md)

@@ -1,8 +1,21 @@
 ---
-title: svgUnit | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- photon
+- svg
+- svgunit
+primary_topic: svg
 source: docs/docs/api/variables/core_svg-esm.svgUnit.html
+tags:
+- intermediate
+- api-reference
+- svg
+title: svgUnit | Photon
 ---
-
 svgUnit | Photon
 
 [Photon](../index.md)

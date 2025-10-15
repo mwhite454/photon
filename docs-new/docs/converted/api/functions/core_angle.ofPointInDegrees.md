@@ -1,8 +1,20 @@
 ---
-title: ofPointInDegrees | Photon
+ai_summary: ofPointInDegrees | Photon
+category: API Reference
+description: ofPointInDegrees | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- ofpointindegrees
+- photon
+primary_topic: ofpointindegrees-|-photon
 source: docs/docs/api/functions/core_angle.ofPointInDegrees.html
+tags:
+- intermediate
+- api-reference
+- ofpointindegrees-|-photon
+title: ofPointInDegrees | Photon
 ---
-
 ofPointInDegrees | Photon
 
 [Photon](../index.md)

@@ -1,8 +1,20 @@
 ---
-title: createRouteKey | Photon
+ai_summary: createRouteKey | Photon
+category: API Reference
+description: createRouteKey | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- createroutekey
+- photon
+primary_topic: routes
 source: docs/docs/api/functions/core_base.createRouteKey.html
+tags:
+- intermediate
+- api-reference
+- routes
+title: createRouteKey | Photon
 ---
-
 createRouteKey | Photon
 
 [Photon](../index.md)

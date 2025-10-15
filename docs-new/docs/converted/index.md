@@ -1,9 +1,23 @@
 ---
-title: Index
-source: docs/docs/index.html
+ai_summary: Added Captions to Intermediate drawing.
+category: General
+description: Added Captions to Intermediate drawing.
+difficulty: advanced
+keywords:
+- drawing
+- export
+- general
+- index
+- javascript
 layout: posts
+primary_topic: index
+source: docs/docs/index.html
+tags:
+- advanced
+- index
+- general
+title: Index
 ---
-
 * [Getting started](getting-started/index.md#content)
 * [Basic drawing](basic-drawing/index.md#content)
 * [Intermediate drawing](intermediate-drawing/index.md#content)

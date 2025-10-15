@@ -1,8 +1,22 @@
 ---
-title: IEllpiticalArcOptions | Photon
+ai_summary: IEllpiticalArcOptions | Photon
+category: API Reference
+description: IEllpiticalArcOptions | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- cad
+- export
+- iellpiticalarcoptions
+- photon
+primary_topic: arcs
 source: docs/docs/api/interfaces/types_jscad.export_.CSG.IEllpiticalArcOptions.html
+tags:
+- intermediate
+- api-reference
+- arcs
+title: IEllpiticalArcOptions | Photon
 ---
-
 IEllpiticalArcOptions | Photon
 
 [Photon](../index.md)

@@ -1,8 +1,23 @@
 ---
+ai_summary: IBoundingHex | Photon
+category: API Reference
+description: IBoundingHex | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- export
+- iboundinghex
+- models
+- paths
+- photon
+primary_topic: iboundinghex-|-photon
+source: docs/docs/api/interfaces/core_core.IBoundingHex.html
+tags:
+- iboundinghex-|-photon
+- api-reference
+- intermediate
 title: IBoundingHex | Photon
-source: docs/docs/api/interfaces/core_maker.IBoundingHex.html
 ---
-
 IBoundingHex | Photon
 
 [Photon](../index.md)
@@ -12,7 +27,7 @@ IBoundingHex | Photon
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.md)
+* [core/maker](../modules/core_core.md)
 * IBoundingHex
 
 # Interface IBoundingHex

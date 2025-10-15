@@ -1,8 +1,31 @@
 ---
-title: Fillets
+ai_summary: 'Fillets are round corners where two paths meet. Maker.js provides two
+  types of fillets:'
+category: General
+description: 'Fillets are round corners where two paths meet. Maker.js provides two
+  types of fillets:'
+difficulty: intermediate
+keywords:
+- export
+- fillets
+- general
+- javascript
+- paths
+- photon
+- photon/core
+- svg
+primary_topic: fillets
+related:
+- Dogbones
+- Chains
+- Chain Fillet
 source: docs/_snippets/fillets.html
+tags:
+- intermediate
+- general
+- fillets
+title: Fillets
 ---
-
 Fillets are round corners where two paths meet. Maker.js provides two types of fillets:
 traditional fillets and [dogbone fillets](#Dogbone%20Fillets).
 
@@ -12,6 +35,9 @@ Rounding a corner can add strength to your part, as well as make it faster to pr
 Using [path.fillet](/docs/api/modules/path.md#fillet) you can round a corner at the junction between two lines, two arcs, or a line and an arc.
 This function will clip the two paths that you pass it, and will return a new arc path which fits between the clipped ends. The paths must meet at one point,
 this is how it determines which ends of the paths to clip. You also provide a radius of the fillet. If the fillet cannot be created this function will return null.
+
+
+## Examples
 
 ```javascript
 //fillet between lines
@@ -61,3 +87,9 @@ model.paths.arc2 = arc2;
 const svg = exporter.toSVG(model);
 document.write(svg);
 ```
+
+## Related Topics
+
+- [Dogbones](../index.md)
+- [Chains](../index.md)
+- [Chain Fillet](../index.md)

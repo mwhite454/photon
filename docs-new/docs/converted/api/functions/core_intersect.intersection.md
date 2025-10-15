@@ -1,8 +1,21 @@
 ---
-title: intersection | Photon
+ai_summary: intersection | Photon
+category: API Reference
+description: intersection | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- intersection
+- paths
+- photon
+primary_topic: intersection
 source: docs/docs/api/functions/core_intersect.intersection.html
+tags:
+- intermediate
+- api-reference
+- intersection
+title: intersection | Photon
 ---
-
 intersection | Photon
 
 [Photon](../index.md)

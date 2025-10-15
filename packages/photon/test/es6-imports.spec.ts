@@ -274,7 +274,7 @@ describe('ES6 Module Imports', function () {
     it('should import main index module', async function () {
       const makerjs = await import('../src/index.js');
       assert.ok(makerjs, 'main index should be imported');
-      assert.ok(makerjs.maker, 'maker namespace should exist');
+      assert.ok(makerjs.core, 'core namespace should exist');
       assert.ok(makerjs.angle, 'angle module should be exported');
       assert.ok(makerjs.chain, 'chain module should be exported');
       assert.ok(makerjs.model, 'model module should be exported');

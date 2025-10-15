@@ -1,8 +1,26 @@
 ---
-title: Converging
+ai_summary: To make lines meet at their slope intersection point, use path.converge.
+category: General
+description: To make lines meet at their slope intersection point, use path.converge.
+difficulty: intermediate
+keywords:
+- converging
+- export
+- general
+- javascript
+- models
+- paths
+- photon
+- photon/core
+- svg
+primary_topic: converging
 source: docs/_snippets/converging.html
+tags:
+- intermediate
+- general
+- converging
+title: Converging
 ---
-
 To make lines meet at their slope intersection point, use [path.converge](/docs/api/modules/path.md#converge).
 This function will only work with lines, it will not work with arcs.
 

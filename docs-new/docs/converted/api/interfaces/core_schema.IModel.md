@@ -1,8 +1,27 @@
 ---
-title: IModel | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- export
+- imodel
+- models
+- paths
+- photon
+primary_topic: models
+related:
+- Modeling
+- Paths
+- Built-in Models
 source: docs/docs/api/interfaces/core_schema.IModel.html
+tags:
+- intermediate
+- api-reference
+- models
+title: IModel | Photon
 ---
-
 IModel | Photon
 
 [Photon](../index.md)
@@ -34,7 +53,7 @@ interface IModel {
 #### Hierarchy ([View Summary](../hierarchy.md#core/schema.IModel))
 
 * IModel
-  + [IBoundingHex](core_maker.IBoundingHex.md)
+  + [IBoundingHex](core_core.IBoundingHex.md)
 
 #### Implemented by
 
@@ -170,3 +189,9 @@ Properties
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Modeling](../index.md)
+- [Paths](../index.md)
+- [Built-in Models](../index.md)

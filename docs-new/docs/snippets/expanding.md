@@ -1,9 +1,33 @@
 ---
-title: Expanding
+ai_summary: Paths can be expanded to produce a closed geometry model which surrounds
+  them perfectly.
+category: General
+description: Paths can be expanded to produce a closed geometry model which surrounds
+  them perfectly.
+difficulty: intermediate
+keywords:
+- expanding
+- export
+- general
+- geometry
+- javascript
+- models
+- paths
+- photon
+- photon/core
+- svg
+primary_topic: expanding
 source: docs/_snippets/expanding.html
+tags:
+- intermediate
+- expanding
+- general
+title: Expanding
 ---
-
 Paths can be expanded to produce a closed geometry model which surrounds them perfectly.
+
+
+## Examples
 
 ```javascript
 //show each path type

@@ -1,8 +1,22 @@
 ---
-title: core/openjscad-esm | Photon
+ai_summary: core/openjscad-esm | Photon
+category: API Reference
+description: core/openjscad-esm | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- cad
+- core
+- openjscad
+- photon
+primary_topic: core/openjscad-esm-|-photon
 source: docs/docs/api/modules/core_openjscad-esm.html
+tags:
+- intermediate
+- api-reference
+- core/openjscad-esm-|-photon
+title: core/openjscad-esm | Photon
 ---
-
 core/openjscad-esm | Photon
 
 [Photon](../index.md)

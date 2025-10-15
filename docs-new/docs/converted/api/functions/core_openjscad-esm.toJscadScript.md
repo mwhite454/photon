@@ -1,8 +1,24 @@
 ---
-title: toJscadScript | Photon
+ai_summary: toJscadScript | Photon
+category: API Reference
+description: toJscadScript | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- cad
+- export
+- javascript
+- photon
+- svg
+- tojscadscript
+primary_topic: tojscadscript-|-photon
 source: docs/docs/api/functions/core_openjscad-esm.toJscadScript.html
+tags:
+- tojscadscript-|-photon
+- api-reference
+- intermediate
+title: toJscadScript | Photon
 ---
-
 toJscadScript | Photon
 
 [Photon](../index.md)

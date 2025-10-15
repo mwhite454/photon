@@ -1,8 +1,24 @@
 ---
+ai_summary: isPathCircle | Photon
+category: API Reference
+description: isPathCircle | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- ispathcircle
+- photon
+primary_topic: paths
+related:
+- Path Independence
+- Models
+- Path Constructors
+source: docs/docs/api/functions/core_core.isPathCircle.html
+tags:
+- paths
+- api-reference
+- intermediate
 title: isPathCircle | Photon
-source: docs/docs/api/functions/core_maker.isPathCircle.html
 ---
-
 isPathCircle | Photon
 
 [Photon](../index.md)
@@ -12,7 +28,7 @@ isPathCircle | Photon
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.md)
+* [core/maker](../modules/core_core.md)
 * isPathCircle
 
 # Function isPathCircle
@@ -43,3 +59,9 @@ ThemeOSLightDark
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Path Independence](../index.md)
+- [Models](../index.md)
+- [Path Constructors](../index.md)

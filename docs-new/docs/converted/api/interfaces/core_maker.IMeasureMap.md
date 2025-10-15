@@ -1,8 +1,20 @@
 ---
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- imeasuremap
+- photon
+primary_topic: measuring
+source: docs/docs/api/interfaces/core_core.IMeasureMap.html
+tags:
+- intermediate
+- api-reference
+- measuring
 title: IMeasureMap | Photon
-source: docs/docs/api/interfaces/core_maker.IMeasureMap.html
 ---
-
 IMeasureMap | Photon
 
 [Photon](../index.md)
@@ -12,7 +24,7 @@ IMeasureMap | Photon
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.md)
+* [core/maker](../modules/core_core.md)
 * IMeasureMap
 
 # Interface IMeasureMap
@@ -21,7 +33,7 @@ A map of measurements.
 
 #### Indexable
 
-* [key: string]: [IMeasure](core_maker.IMeasure.md)
+* [key: string]: [IMeasure](core_core.IMeasure.md)
 
 * Defined in [core/maker.ts:169](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L169)
 

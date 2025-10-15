@@ -1,10 +1,34 @@
 ---
-title: Tree
+ai_summary: A model is a tree structure which may contain paths, and it may also contain
+  other models in a heirachy.
+category: General
+description: A model is a tree structure which may contain paths, and it may also
+  contain other models in a heirachy.
+difficulty: intermediate
+keywords:
+- drawing
+- export
+- general
+- javascript
+- models
+- paths
+- photon
+- photon/core
+- svg
+- tree
+primary_topic: model-trees
 source: docs/_snippets/tree.html
+tags:
+- model-trees
+- general
+- intermediate
+title: Tree
 ---
-
 A model is a tree structure which may contain paths, and it may also contain other models in a heirachy.
 Let's look at an example:
+
+
+## Examples
 
 ```javascript
 //mounting plate

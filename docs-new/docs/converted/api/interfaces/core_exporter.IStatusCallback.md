@@ -1,8 +1,21 @@
 ---
-title: IStatusCallback | Photon
+ai_summary: IStatusCallback | Photon
+category: API Reference
+description: IStatusCallback | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- export
+- istatuscallback
+- photon
+primary_topic: istatuscallback-|-photon
 source: docs/docs/api/interfaces/core_exporter.IStatusCallback.html
+tags:
+- intermediate
+- api-reference
+- istatuscallback-|-photon
+title: IStatusCallback | Photon
 ---
-
 IStatusCallback | Photon
 
 [Photon](../index.md)

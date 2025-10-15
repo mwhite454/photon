@@ -1,8 +1,25 @@
 ---
-title: moveRelative | Photon
+ai_summary: moveRelative | Photon
+category: API Reference
+description: moveRelative | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- cad
+- moverelative
+- photon
+primary_topic: moving
+related:
+- Originating
+- Scaling
+- Rotating
 source: docs/docs/api/functions/core_model.moveRelative.html
+tags:
+- intermediate
+- api-reference
+- moving
+title: moveRelative | Photon
 ---
-
 moveRelative | Photon
 
 [Photon](../index.md)
@@ -50,3 +67,9 @@ ThemeOSLightDark
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Originating](../index.md)
+- [Scaling](../index.md)
+- [Rotating](../index.md)

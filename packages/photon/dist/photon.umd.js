@@ -258,7 +258,7 @@
     }
     throw new Error("Invalid context for Photon cascade function. Expected Model, Path, or Point.");
   }
-  const maker = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+  const core = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
     __proto__: null,
     $,
     cloneObject,
@@ -7008,6 +7008,7 @@
   exports.chain = chain$1;
   exports.collect = collect;
   exports.compose = compose;
+  exports.core = core;
   exports.deadend = deadend;
   exports.dxf = dxf;
   exports.equal = equal;
@@ -7017,7 +7018,6 @@
   exports.importer = importer$1;
   exports.intersect = intersect;
   exports.layout = layout;
-  exports.maker = maker;
   exports.measure = measure$1;
   exports.model = _model;
   exports.models = models$2;

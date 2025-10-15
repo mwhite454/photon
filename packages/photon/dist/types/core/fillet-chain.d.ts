@@ -1,5 +1,5 @@
 import type { IModel } from './schema.js';
-import { IChain } from './maker.js';
+import { IChain } from './core.js';
 export declare function chainDogbone(chainToFillet: IChain, filletSpec: number | {
     left?: number;
     right?: number;

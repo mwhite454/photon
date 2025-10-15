@@ -1,8 +1,20 @@
 ---
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- imeasure
+- photon
+primary_topic: measuring
+source: docs/docs/api/interfaces/core_core.IMeasure.html
+tags:
+- intermediate
+- api-reference
+- measuring
 title: IMeasure | Photon
-source: docs/docs/api/interfaces/core_maker.IMeasure.html
 ---
-
 IMeasure | Photon
 
 [Photon](../index.md)
@@ -12,7 +24,7 @@ IMeasure | Photon
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.md)
+* [core/maker](../modules/core_core.md)
 * IMeasure
 
 # Interface IMeasure
@@ -27,7 +39,7 @@ interface IMeasure {
 #### Hierarchy ([View Summary](../hierarchy.md#core/maker.IMeasure))
 
 * IMeasure
-  + [IMeasureWithCenter](core_maker.IMeasureWithCenter.md)
+  + [IMeasureWithCenter](core_core.IMeasureWithCenter.md)
 
 * Defined in [core/maker.ts:156](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L156)
 

@@ -1,8 +1,33 @@
 ---
-title: Exporting Stl
+ai_summary: To use this functionality you will need the OpenJsCsg library which is
+  a fork of OpenJsCad without the GUI.
+category: Exporting
+description: To use this functionality you will need the OpenJsCsg library which is
+  a fork of OpenJsCad without the GUI.
+difficulty: advanced
+keywords:
+- cad
+- export
+- exporting
+- javascript
+- models
+- paths
+- photon
+- photon/core
+prerequisites:
+- Basic Drawing
+primary_topic: exporting
+related:
+- Exporting DXF
+- Basic Drawing
+- SVG Styling
+- Exporting PDF
 source: docs/_snippets/exporting-stl.html
+tags:
+- advanced
+- exporting
+title: Exporting Stl
 ---
-
 To use this functionality you will need the [OpenJsCsg](https://www.npmjs.com/package/openjscad-csg) library which is a fork of [OpenJsCad](https://github.com/joostn/OpenJsCad) without the GUI.
 
 #### For the browser
@@ -57,3 +82,10 @@ This function returns a string of STL.
 Call `exporter.toSTL(model, options)` passing your model and an options object.
 
 See the [API documentation for OpenJsCad export options](/docs/api/interfaces/exporter.iopenjscadoptions.md#content)
+
+## Related Topics
+
+- [Exporting DXF](../index.md)
+- [Basic Drawing](../index.md)
+- [SVG Styling](../index.md)
+- [Exporting PDF](../index.md)

@@ -1,8 +1,33 @@
 ---
-title: Path Independence
+ai_summary: All paths in a drawing are atomic elements of either line, arc, or circle.
+  Paths may happen to touch each other or they may not.
+category: General
+description: All paths in a drawing are atomic elements of either line, arc, or circle.
+  Paths may happen to touch each other or they may not.
+difficulty: intermediate
+keywords:
+- drawing
+- export
+- general
+- independence
+- javascript
+- path
+- paths
+- photon
+- photon/core
+- svg
+primary_topic: paths
+related:
+- Path Independence
+- Models
+- Path Constructors
 source: docs/_snippets/path-independence.html
+tags:
+- paths
+- general
+- intermediate
+title: Path Independence
 ---
-
 All paths in a drawing are atomic elements of either line, arc, or circle. Paths may happen to touch each other or they may not.
 When any two paths have the same endpoint, this is called a **chain**. A chain can continue with any number of paths that meet end to end.
 If the chain begins and ends at the same point, this is called an **endless chain**.
@@ -11,6 +36,9 @@ Chains are an important concept that we will build upon, yet they are not a thin
 Rather, chains are "found" by Maker.js when it processes your drawing model.
 Paths in your drawing model are independent elements which may be added, modified or deleted by you or another developer.
 As you work with paths, bear in mind that you are also implicitly working with chains.
+
+
+## Examples
 
 ```javascript
 //render a model that nas no chains
@@ -52,3 +80,9 @@ paths: {
 const svg = exporter.toSVG(model);
 document.write(svg);
 ```
+
+## Related Topics
+
+- [Path Independence](../index.md)
+- [Models](../index.md)
+- [Path Constructors](../index.md)

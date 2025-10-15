@@ -1,8 +1,25 @@
 ---
-title: IJsonExportOptions | Photon
+ai_summary: IJsonExportOptions | Photon
+category: API Reference
+description: IJsonExportOptions | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- export
+- ijsonexportoptions
+- photon
+primary_topic: exporting
+related:
+- Exporting DXF
+- SVG Styling
+- Exporting PDF
 source: docs/docs/api/interfaces/core_exporter.IJsonExportOptions.html
+tags:
+- intermediate
+- api-reference
+- exporting
+title: IJsonExportOptions | Photon
 ---
-
 IJsonExportOptions | Photon
 
 [Photon](../index.md)
@@ -85,3 +102,9 @@ Properties
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Exporting DXF](../index.md)
+- [SVG Styling](../index.md)
+- [Exporting PDF](../index.md)

@@ -1,8 +1,29 @@
 ---
-title: Order Of Operations
+ai_summary: Combining models with boolean operations is a powerful feature but it
+  can be challenging in some scenarios. Re-modeling your drawing may be necessa...
+category: General
+description: Combining models with boolean operations is a powerful feature but it
+  can be challenging in some scenarios. Re-modeling your drawing may be necessa...
+difficulty: intermediate
+keywords:
+- drawing
+- export
+- general
+- geometry
+- javascript
+- models
+- operations
+- order
+- photon
+- photon/core
+primary_topic: order-of-operations
 source: docs/_snippets/order-of-operations.html
+tags:
+- intermediate
+- order-of-operations
+- general
+title: Order Of Operations
 ---
-
 Combining models with boolean operations is a powerful feature but it can be challenging in some scenarios. Re-modeling your drawing may be necessary to acheive certain results.
 We will explore the order of operations concept with a sample project. Let's first take a look at our desired end goal:
 
@@ -11,6 +32,9 @@ We will explore the order of operations concept with a sample project. Let's fir
 ---
 
 We can start with all of the building blocks of our design: a star, a plus, and a frame:
+
+
+## Examples
 
 ```javascript
 //the basic skeleton of our project

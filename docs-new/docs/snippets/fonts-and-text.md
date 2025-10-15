@@ -1,8 +1,27 @@
 ---
-title: Fonts And Text
+ai_summary: To create models based on fonts, use models.Text with the new operator.
+category: General
+description: To create models based on fonts, use models.Text with the new operator.
+difficulty: intermediate
+keywords:
+- export
+- fonts
+- general
+- javascript
+- models
+- paths
+- photon
+- photon/core
+- svg
+- text
+primary_topic: fonts
 source: docs/_snippets/fonts-and-text.html
+tags:
+- fonts
+- general
+- intermediate
+title: Fonts And Text
 ---
-
 To create models based on fonts, use [models.Text](/docs/api/classes/models.text.md#constructor) with the **new** operator.
 Pass a font object, your text, and a font size. Each character of your text string will become a child model containing the paths for that character.
 
@@ -21,6 +40,9 @@ Previously, all of our examples ran synchronously and we could use `document.wri
 But now we will need to wait for a font file to download. You will have to take this in consideration in your application.
 [In the Maker.js Playground we can call playgroundRender()](/playground/index.md?script=Text).
 Here on this page we will insert our SVG into a `div` in this document:
+
+
+## Examples
 
 ```javascript
 import { exporter, models } from 'photon/core';

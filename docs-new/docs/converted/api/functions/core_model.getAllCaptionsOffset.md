@@ -1,8 +1,20 @@
 ---
-title: getAllCaptionsOffset | Photon
+ai_summary: getAllCaptionsOffset | Photon
+category: API Reference
+description: getAllCaptionsOffset | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- getallcaptionsoffset
+- photon
+primary_topic: getallcaptionsoffset-|-photon
 source: docs/docs/api/functions/core_model.getAllCaptionsOffset.html
+tags:
+- getallcaptionsoffset-|-photon
+- api-reference
+- intermediate
+title: getAllCaptionsOffset | Photon
 ---
-
 getAllCaptionsOffset | Photon
 
 [Photon](../index.md)

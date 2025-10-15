@@ -1,6 +1,6 @@
 import type { IModel, IPoint, IPath, IPathCircle, IPathLine } from './schema.js';
-import type { IChain, IWalkPath } from './maker.js';
-import { extendObject, cloneObject, unitType, pathType } from './maker.js';
+import type { IChain, IWalkPath } from './core.js';
+import { extendObject, cloneObject, unitType, pathType } from './core.js';
 import * as units from './units.js';
 import * as model from './model.js';
 import * as chain from './chain.js';

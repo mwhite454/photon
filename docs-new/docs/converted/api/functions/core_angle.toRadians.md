@@ -1,8 +1,20 @@
 ---
-title: toRadians | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- photon
+- toradians
+primary_topic: toradians-|-photon
 source: docs/docs/api/functions/core_angle.toRadians.html
+tags:
+- intermediate
+- api-reference
+- toradians-|-photon
+title: toRadians | Photon
 ---
-
 toRadians | Photon
 
 [Photon](../index.md)

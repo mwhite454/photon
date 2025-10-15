@@ -1,8 +1,22 @@
 ---
-title: toDXF | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- export
+- paths
+- photon
+- todxf
+primary_topic: dxf
 source: docs/docs/api/functions/core_dxf.toDXF.html
+tags:
+- intermediate
+- api-reference
+- dxf
+title: toDXF | Photon
 ---
-
 toDXF | Photon
 
 [Photon](../index.md)

@@ -1,8 +1,20 @@
 ---
-title: isAngleEqual | Photon
+ai_summary: isAngleEqual | Photon
+category: API Reference
+description: isAngleEqual | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- isangleequal
+- photon
+primary_topic: isangleequal-|-photon
 source: docs/docs/api/functions/core_equal.isAngleEqual.html
+tags:
+- intermediate
+- api-reference
+- isangleequal-|-photon
+title: isAngleEqual | Photon
 ---
-
 isAngleEqual | Photon
 
 [Photon](../index.md)

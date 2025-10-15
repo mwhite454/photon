@@ -1,8 +1,22 @@
 ---
-title: core/boolean-utils | Photon
+ai_summary: core/boolean-utils | Photon
+category: API Reference
+description: core/boolean-utils | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- boolean
+- core
+- photon
+- utils
+primary_topic: core/boolean-utils-|-photon
 source: docs/docs/api/modules/core_boolean-utils.html
+tags:
+- core/boolean-utils-|-photon
+- api-reference
+- intermediate
+title: core/boolean-utils | Photon
 ---
-
 core/boolean-utils | Photon
 
 [Photon](../index.md)

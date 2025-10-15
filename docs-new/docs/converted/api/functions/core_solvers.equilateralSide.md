@@ -1,8 +1,20 @@
 ---
-title: equilateralSide | Photon
+ai_summary: equilateralSide | Photon
+category: API Reference
+description: equilateralSide | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- equilateralside
+- photon
+primary_topic: equilateralside-|-photon
 source: docs/docs/api/functions/core_solvers.equilateralSide.html
+tags:
+- intermediate
+- api-reference
+- equilateralside-|-photon
+title: equilateralSide | Photon
 ---
-
 equilateralSide | Photon
 
 [Photon](../index.md)

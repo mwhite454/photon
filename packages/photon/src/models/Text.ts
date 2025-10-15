@@ -1,6 +1,6 @@
 // ES Module imports
 import type { IPoint, IPath, IModel, IModelMap } from '../core/schema.js';
-import type { IKit, ICombineOptions } from '../core/maker.js';
+import type { IKit, ICombineOptions } from '../core/core.js';
 import * as point from '../core/point.js';
 import * as paths from '../core/paths.js';
 import { isPointEqual } from '../core/equal.js';

@@ -1,8 +1,21 @@
 ---
-title: core/solvers | Photon
+ai_summary: core/solvers | Photon
+category: API Reference
+description: core/solvers | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- core
+- photon
+- solvers
+primary_topic: core/solvers-|-photon
 source: docs/docs/api/modules/core_solvers.html
+tags:
+- intermediate
+- api-reference
+- core/solvers-|-photon
+title: core/solvers | Photon
 ---
-
 core/solvers | Photon
 
 [Photon](../index.md)

@@ -1,8 +1,21 @@
 ---
-title: core/intersect | Photon
+ai_summary: core/intersect | Photon
+category: API Reference
+description: core/intersect | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- core
+- intersect
+- photon
+primary_topic: intersection
 source: docs/docs/api/modules/core_intersect.html
+tags:
+- intermediate
+- api-reference
+- intersection
+title: core/intersect | Photon
 ---
-
 core/intersect | Photon
 
 [Photon](../index.md)

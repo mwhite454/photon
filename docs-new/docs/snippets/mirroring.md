@@ -1,8 +1,26 @@
 ---
-title: Mirroring
+ai_summary: Use angle.mirror to get a mirror of an angle, and
+category: General
+description: Use angle.mirror to get a mirror of an angle, and
+difficulty: intermediate
+keywords:
+- export
+- general
+- javascript
+- mirroring
+- models
+- paths
+- photon
+- photon/core
+- svg
+primary_topic: mirroring
 source: docs/_snippets/mirroring.html
+tags:
+- mirroring
+- general
+- intermediate
+title: Mirroring
 ---
-
 Use [angle.mirror](../api/modules/angle.md#mirror) to get a mirror of an angle, and
 [point.mirror](../api/modules/point.md#mirror) to get a mirror of a simple point.
 
@@ -15,6 +33,9 @@ The mirroring can occur on the x axis, the y axis, or both.
 Each of these functions returns a new object and does not modify the original.
 
 Mirror path example:
+
+
+## Examples
 
 ```javascript
 //render a line mirrored in the x dimension

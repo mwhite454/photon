@@ -1,8 +1,22 @@
 ---
-title: ISVGImportOptions | Photon
+ai_summary: ISVGImportOptions | Photon
+category: API Reference
+description: ISVGImportOptions | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- isvgimportoptions
+- javascript
+- photon
+- svg
+primary_topic: importing
 source: docs/docs/api/interfaces/core_svg-esm.ISVGImportOptions.html
+tags:
+- intermediate
+- api-reference
+- importing
+title: ISVGImportOptions | Photon
 ---
-
 ISVGImportOptions | Photon
 
 [Photon](../index.md)

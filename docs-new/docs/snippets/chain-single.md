@@ -1,10 +1,38 @@
 ---
-title: Chain Single
+ai_summary: Let's start with a drawing of a rectangle. A rectangle is a model, but
+  we also implicitly know that a rectangle comprises a chain of 4 paths which ...
+category: General
+description: Let's start with a drawing of a rectangle. A rectangle is a model, but
+  we also implicitly know that a rectangle comprises a chain of 4 paths which ...
+difficulty: intermediate
+keywords:
+- chain
+- drawing
+- export
+- general
+- javascript
+- models
+- paths
+- photon
+- photon/core
+- single
+primary_topic: chains
+related:
+- Chain Theory
+- Breaking
+- Routes
 source: docs/_snippets/chain-single.html
+tags:
+- intermediate
+- general
+- chains
+title: Chain Single
 ---
-
 Let's start with a drawing of a rectangle. A rectangle is a model, but we also implicitly know that a rectangle comprises a chain of 4 paths which connect end to end.
 Let's find this chain now using [model.findSingleChain(model)](/docs/api/modules/model.md#findsinglechain):
+
+## Examples
+
 ```javascript
 //from a rectangle, find a single chain
 import { exporter, model, models } from 'photon/core';
@@ -33,3 +61,9 @@ document.write(svg);
 const chain = model.findSingleChain(drawing);
 document.write(`found a chain with ${chain}`.links.length + ` links and endless=${chain}`.endless);
 ```
+
+## Related Topics
+
+- [Chain Theory](../index.md)
+- [Breaking](../index.md)
+- [Routes](../index.md)

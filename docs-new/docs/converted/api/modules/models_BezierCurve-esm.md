@@ -1,8 +1,25 @@
 ---
-title: models/BezierCurve-esm | Photon
+ai_summary: models/BezierCurve-esm | Photon
+category: API Reference
+description: models/BezierCurve-esm | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- beziercurve
+- models
+- photon
+primary_topic: models
+related:
+- Modeling
+- Paths
+- Built-in Models
 source: docs/docs/api/modules/models_BezierCurve-esm.html
+tags:
+- intermediate
+- api-reference
+- models
+title: models/BezierCurve-esm | Photon
 ---
-
 models/BezierCurve-esm | Photon
 
 [Photon](../index.md)
@@ -43,3 +60,9 @@ Classes
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Modeling](../index.md)
+- [Paths](../index.md)
+- [Built-in Models](../index.md)

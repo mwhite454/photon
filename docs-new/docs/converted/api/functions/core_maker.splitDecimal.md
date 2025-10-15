@@ -1,8 +1,20 @@
 ---
+ai_summary: splitDecimal | Photon
+category: API Reference
+description: splitDecimal | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- photon
+- splitdecimal
+primary_topic: splitdecimal-|-photon
+source: docs/docs/api/functions/core_core.splitDecimal.html
+tags:
+- intermediate
+- api-reference
+- splitdecimal-|-photon
 title: splitDecimal | Photon
-source: docs/docs/api/functions/core_maker.splitDecimal.html
 ---
-
 splitDecimal | Photon
 
 [Photon](../index.md)
@@ -12,7 +24,7 @@ splitDecimal | Photon
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.md)
+* [core/maker](../modules/core_core.md)
 * splitDecimal
 
 # Function splitDecimal

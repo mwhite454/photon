@@ -1,13 +1,28 @@
 ---
-title: Migration FAQ - maker.js to photon/core
+ai_summary: Common questions and issues when migrating from maker.js to photon/core.
+category: Migration Guide
+created: '2025-10-14'
 description: Frequently asked questions about migrating from maker.js to photon/core
-category: Migration
-tags: ["migration", "faq", "troubleshooting"]
-difficulty: beginner
-created: "2025-10-14"
-last_updated: "2025-10-14"
+difficulty: advanced
+keywords:
+- core
+- export
+- javascript
+- maker
+- migration
+- migration-guide
+- models
+- paths
+- photon
+- photon/core
+last_updated: '2025-10-14'
+primary_topic: migration-faq---maker.js-to-photon/core
+tags:
+- advanced
+- migration-guide
+- migration-faq---maker.js-to-photon/core
+title: Migration FAQ - maker.js to photon/core
 ---
-
 # Migration FAQ: maker.js → photon/core
 
 Common questions and issues when migrating from maker.js to photon/core.
@@ -51,6 +66,9 @@ Choose one and stick with it. For new projects, use photon/core.
 ### Q: How do I install photon/core?
 
 **A:** Using npm or yarn:
+
+
+## Examples
 
 ```bash
 npm install photon/core

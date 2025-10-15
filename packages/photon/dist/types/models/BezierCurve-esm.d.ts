@@ -1,5 +1,5 @@
 import type { IModel, IModelMap, IPathMap, IPoint, IPath, IPathBezierSeed } from '../core/schema.js';
-import type { IFindChainsOptions } from '../core/maker.js';
+import type { IFindChainsOptions } from '../core/core.js';
 /**
  * Class for bezier seed.
  */

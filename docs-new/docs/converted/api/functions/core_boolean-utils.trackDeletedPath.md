@@ -1,8 +1,25 @@
 ---
-title: trackDeletedPath | Photon
+ai_summary: trackDeletedPath | Photon
+category: API Reference
+description: trackDeletedPath | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- paths
+- photon
+- trackdeletedpath
+primary_topic: paths
+related:
+- Path Independence
+- Models
+- Path Constructors
 source: docs/docs/api/functions/core_boolean-utils.trackDeletedPath.html
+tags:
+- paths
+- api-reference
+- intermediate
+title: trackDeletedPath | Photon
 ---
-
 trackDeletedPath | Photon
 
 [Photon](../index.md)
@@ -51,3 +68,9 @@ ThemeOSLightDark
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Path Independence](../index.md)
+- [Models](../index.md)
+- [Path Constructors](../index.md)

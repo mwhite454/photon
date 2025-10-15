@@ -1,8 +1,20 @@
 ---
-title: XmlTag | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- photon
+- xmltag
+primary_topic: xmltag-|-photon
 source: docs/docs/api/classes/core_xml.XmlTag.html
+tags:
+- intermediate
+- api-reference
+- xmltag-|-photon
+title: XmlTag | Photon
 ---
-
 XmlTag | Photon
 
 [Photon](../index.md)

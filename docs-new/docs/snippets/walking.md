@@ -1,8 +1,28 @@
 ---
-title: Walking
+ai_summary: 'You can traverse a model tree by calling model.walk with your model and
+  an object with these optional properties:'
+category: General
+description: 'You can traverse a model tree by calling model.walk with your model
+  and an object with these optional properties:'
+difficulty: intermediate
+keywords:
+- export
+- general
+- javascript
+- models
+- paths
+- photon
+- photon/core
+- svg
+- walking
+primary_topic: traversal
 source: docs/_snippets/walking.html
+tags:
+- intermediate
+- traversal
+- general
+title: Walking
 ---
-
 You can traverse a model tree by calling [model.walk](/docs/api/modules/model.md#walk) with your model and an object with these optional properties:
 
 | property name | property type | description |

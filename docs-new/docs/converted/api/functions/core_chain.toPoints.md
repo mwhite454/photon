@@ -1,8 +1,21 @@
 ---
-title: toPoints | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- paths
+- photon
+- topoints
+primary_topic: topoints-|-photon
 source: docs/docs/api/functions/core_chain.toPoints.html
+tags:
+- intermediate
+- api-reference
+- topoints-|-photon
+title: toPoints | Photon
 ---
-
 toPoints | Photon
 
 [Photon](../index.md)
@@ -18,7 +31,7 @@ Preparing search index...
 # Function toPoints
 
 * toPoints(
-      chainContext: [IChain](../interfaces/core_maker.IChain.md),
+      chainContext: [IChain](../interfaces/core_core.IChain.md),
       distanceOrDistances: number | number[],
       maxPoints?: number,
   ): [IPoint](../interfaces/core_schema.IPoint.md)[]
@@ -27,7 +40,7 @@ Preparing search index...
 
   #### Parameters
 
-  + chainContext: [IChain](../interfaces/core_maker.IChain.md)
+  + chainContext: [IChain](../interfaces/core_core.IChain.md)
 
     Chain of paths to get points from.
   + distanceOrDistances: number | number[]

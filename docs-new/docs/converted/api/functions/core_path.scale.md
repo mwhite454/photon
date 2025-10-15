@@ -1,8 +1,20 @@
 ---
-title: scale | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- photon
+- scale
+primary_topic: scaling
 source: docs/docs/api/functions/core_path.scale.html
+tags:
+- intermediate
+- api-reference
+- scaling
+title: scale | Photon
 ---
-
 scale | Photon
 
 [Photon](../index.md)

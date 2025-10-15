@@ -1,8 +1,24 @@
 ---
-title: Paths
+ai_summary: 'A path is represented by an object with these mandatory properties:'
+category: General
+description: 'A path is represented by an object with these mandatory properties:'
+difficulty: advanced
+keywords:
+- general
+- javascript
+- paths
+primary_topic: paths
+related:
+- Path Independence
+- Models
+- Path Constructors
 source: docs/_snippets/paths.html
+tags:
+- paths
+- general
+- advanced
+title: Paths
 ---
-
 A path is represented by an object with these mandatory properties:
 
 * type: string - "line", "circle", or "arc"
@@ -13,6 +29,9 @@ A path is represented by an object with these mandatory properties:
 A line is a path with the type **"line"** and this additional property:
 
 * end: point
+
+
+## Examples
 
 ```javascript
 const line = {
@@ -56,3 +75,9 @@ endAngle: 45
 };
 ```
 *(additional optional properties covered in advanced lessons)*
+
+## Related Topics
+
+- [Path Independence](../index.md)
+- [Models](../index.md)
+- [Path Constructors](../index.md)

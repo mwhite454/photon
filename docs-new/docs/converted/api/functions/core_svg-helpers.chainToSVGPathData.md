@@ -1,8 +1,25 @@
 ---
-title: chainToSVGPathData | Photon
+ai_summary: chainToSVGPathData | Photon
+category: API Reference
+description: chainToSVGPathData | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- chaintosvgpathdata
+- photon
+- svg
+primary_topic: paths
+related:
+- Path Independence
+- Models
+- Path Constructors
 source: docs/docs/api/functions/core_svg-helpers.chainToSVGPathData.html
+tags:
+- paths
+- api-reference
+- intermediate
+title: chainToSVGPathData | Photon
 ---
-
 chainToSVGPathData | Photon
 
 [Photon](../index.md)
@@ -17,13 +34,13 @@ Preparing search index...
 
 # Function chainToSVGPathData
 
-* chainToSVGPathData(chain: [IChain](../interfaces/core_maker.IChain.md), offset: [IPoint](../interfaces/core_schema.IPoint.md), accuracy?: number): string
+* chainToSVGPathData(chain: [IChain](../interfaces/core_core.IChain.md), offset: [IPoint](../interfaces/core_schema.IPoint.md), accuracy?: number): string
 
   Convert a chain to SVG path-data string.
 
   #### Parameters
 
-  + chain: [IChain](../interfaces/core_maker.IChain.md)
+  + chain: [IChain](../interfaces/core_core.IChain.md)
   + offset: [IPoint](../interfaces/core_schema.IPoint.md)
   + accuracy: number = 0.001
 
@@ -45,3 +62,9 @@ ThemeOSLightDark
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Path Independence](../index.md)
+- [Models](../index.md)
+- [Path Constructors](../index.md)

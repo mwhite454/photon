@@ -1,7 +1,26 @@
 ---
+ai_summary: Modern way to chain operations using pure functions.
+category: General
+description: Modern way to chain operations using pure functions.
+difficulty: advanced
+keywords:
+- cad
+- composition
+- drawing
+- export
+- functional
+- general
+- javascript
+- models
+- paths
+- photon
+primary_topic: functional-composition
+tags:
+- advanced
+- general
+- functional-composition
 title: Functional Composition
 ---
-
 # Functional Composition in Photon
 
 Modern way to chain operations using pure functions.

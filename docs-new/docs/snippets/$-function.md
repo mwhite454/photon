@@ -1,8 +1,27 @@
 ---
-title: $ Function
+ai_summary: '!!! note "Legacy API"'
+category: General
+description: '!!! note "Legacy API"'
+difficulty: intermediate
+keywords:
+- cad
+- drawing
+- export
+- function
+- general
+- javascript
+- models
+- paths
+- photon
+- photon/core
+primary_topic: $-function
 source: docs/_snippets/$-function.html
+tags:
+- intermediate
+- $-function
+- general
+title: $ Function
 ---
-
 !!! note "Legacy API"
     The cascade (`$`) function is a legacy API provided for backward compatibility with maker.js.
 

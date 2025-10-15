@@ -1,8 +1,20 @@
 ---
-title: ICollection | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- icollection
+- photon
+primary_topic: icollection-|-photon
 source: docs/docs/api/interfaces/core_collect.ICollection.html
+tags:
+- intermediate
+- api-reference
+- icollection-|-photon
+title: ICollection | Photon
 ---
-
 ICollection | Photon
 
 [Photon](../index.md)

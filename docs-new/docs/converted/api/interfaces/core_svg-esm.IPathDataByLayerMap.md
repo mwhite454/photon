@@ -1,8 +1,25 @@
 ---
-title: IPathDataByLayerMap | Photon
+ai_summary: IPathDataByLayerMap | Photon
+category: API Reference
+description: IPathDataByLayerMap | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- ipathdatabylayermap
+- photon
+- svg
+primary_topic: paths
+related:
+- Path Independence
+- Models
+- Path Constructors
 source: docs/docs/api/interfaces/core_svg-esm.IPathDataByLayerMap.html
+tags:
+- paths
+- api-reference
+- intermediate
+title: IPathDataByLayerMap | Photon
 ---
-
 IPathDataByLayerMap | Photon
 
 [Photon](../index.md)
@@ -37,3 +54,9 @@ ThemeOSLightDark
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Path Independence](../index.md)
+- [Models](../index.md)
+- [Path Constructors](../index.md)

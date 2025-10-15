@@ -1,8 +1,31 @@
 ---
-title: Chain Dogbone
+ai_summary: A dogbone fillet can be added between all line paths in a chain by calling
+category: General
+description: A dogbone fillet can be added between all line paths in a chain by calling
+difficulty: intermediate
+keywords:
+- chain
+- dogbone
+- drawing
+- export
+- general
+- javascript
+- models
+- paths
+- photon
+- photon/core
+primary_topic: chains
+related:
+- Chain Theory
+- Breaking
+- Routes
 source: docs/_snippets/chain-dogbone.html
+tags:
+- intermediate
+- general
+- chains
+title: Chain Dogbone
 ---
-
 A [dogbone fillet](/docs/intermediate-drawing/index.md#Dogbone%20Fillet) can be added between all line paths in a chain by calling
 [chain.dogbone](/docs/api/modules/chain.md#dogbone) with these parameters:
 
@@ -21,6 +44,9 @@ This new model should be added into your tree.
 The direction of turns are in context of which direction the chain is "flowing". An endless chain might flow either clockwise or counter-clockwise.
 Let's decide to make our chain clockwise. Now when we follow the chain's links in a clockwise direction, right turns will be on the "outside" corners of the shape,
 and left turns will be on the "inside" corners of the shape. Let's make a shape that is a cutout to represent both the inside and outside of a cut:
+
+## Examples
+
 ```javascript
 //make a plus that is cut out from a square
 import { chain, cloneObject, exporter, measure, model, models } from 'photon/core';
@@ -65,3 +91,9 @@ models: { plus1, plus2, square, dogbones1, dogbones2 }
 const svg = exporter.toSVG(model);
 document.write(svg);
 ```
+
+## Related Topics
+
+- [Chain Theory](../index.md)
+- [Breaking](../index.md)
+- [Routes](../index.md)

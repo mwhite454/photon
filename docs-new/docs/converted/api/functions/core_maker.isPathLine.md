@@ -1,8 +1,24 @@
 ---
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- ispathline
+- photon
+primary_topic: paths
+related:
+- Path Independence
+- Models
+- Path Constructors
+source: docs/docs/api/functions/core_core.isPathLine.html
+tags:
+- paths
+- api-reference
+- intermediate
 title: isPathLine | Photon
-source: docs/docs/api/functions/core_maker.isPathLine.html
 ---
-
 isPathLine | Photon
 
 [Photon](../index.md)
@@ -12,7 +28,7 @@ isPathLine | Photon
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.md)
+* [core/maker](../modules/core_core.md)
 * isPathLine
 
 # Function isPathLine
@@ -43,3 +59,9 @@ ThemeOSLightDark
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Path Independence](../index.md)
+- [Models](../index.md)
+- [Path Constructors](../index.md)

@@ -1,8 +1,26 @@
 ---
-title: index | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- cad
+- export
+- index
+- javascript
+- models
+- paths
+- photon
+- svg
+primary_topic: index-|-photon
 source: docs/docs/api/modules/index.html
+tags:
+- intermediate
+- api-reference
+- index-|-photon
+title: index | Photon
 ---
-
 index | Photon
 
 [Photon](../index.md)
@@ -90,7 +108,7 @@ IXmlTagAttrs → [IXmlTagAttrs](../interfaces/core_xml.IXmlTagAttrs.md)
 layout → [core/layout](core_layout.md)
 
 
-maker → [core/maker](core_maker.md)
+maker → [core/maker](core_core.md)
 
 
 measure → [core/measure](core_measure.md)

@@ -1,5 +1,5 @@
 import { IPoint, IPath, IPathCircle } from './schema.js';
-import type { ISlope, IIsPointOnPathOptions } from './maker.js';
+import type { ISlope, IIsPointOnPathOptions } from './core.js';
 /** Find out if two angles are equal. */
 export declare function isAngleEqual(angleA: number, angleB: number, accuracy?: number): boolean;
 /** Find out if two paths are equal. */

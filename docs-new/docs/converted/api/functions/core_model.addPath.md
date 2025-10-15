@@ -1,8 +1,26 @@
 ---
-title: addPath | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- addpath
+- api-reference
+- cad
+- paths
+- photon
+primary_topic: paths
+related:
+- Path Independence
+- Models
+- Path Constructors
 source: docs/docs/api/functions/core_model.addPath.html
+tags:
+- paths
+- api-reference
+- intermediate
+title: addPath | Photon
 ---
-
 addPath | Photon
 
 [Photon](../index.md)
@@ -68,3 +86,9 @@ ThemeOSLightDark
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Path Independence](../index.md)
+- [Models](../index.md)
+- [Path Constructors](../index.md)

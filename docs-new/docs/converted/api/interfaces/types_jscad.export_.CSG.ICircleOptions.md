@@ -1,8 +1,22 @@
 ---
-title: ICircleOptions | Photon
+ai_summary: ICircleOptions | Photon
+category: API Reference
+description: ICircleOptions | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- cad
+- export
+- icircleoptions
+- photon
+primary_topic: circles
 source: docs/docs/api/interfaces/types_jscad.export_.CSG.ICircleOptions.html
+tags:
+- intermediate
+- api-reference
+- circles
+title: ICircleOptions | Photon
 ---
-
 ICircleOptions | Photon
 
 [Photon](../index.md)

@@ -1,8 +1,26 @@
 ---
-title: removeDeadEnds | Photon
+ai_summary: removeDeadEnds | Photon
+category: API Reference
+description: removeDeadEnds | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- cad
+- paths
+- photon
+- removedeadends
+primary_topic: moving
+related:
+- Originating
+- Scaling
+- Rotating
 source: docs/docs/api/functions/core_deadend.removeDeadEnds.html
+tags:
+- intermediate
+- api-reference
+- moving
+title: removeDeadEnds | Photon
 ---
-
 removeDeadEnds | Photon
 
 [Photon](../index.md)
@@ -20,8 +38,8 @@ Preparing search index...
 * removeDeadEnds(
       modelContext: [IModel](../interfaces/core_schema.IModel.md),
       pointMatchingDistance?: number,
-      keep?: [IWalkPathBooleanCallback](../interfaces/core_maker.IWalkPathBooleanCallback.md),
-      trackDeleted?: (wp: [IWalkPath](../interfaces/core_maker.IWalkPath.md), reason: string) => void,
+      keep?: [IWalkPathBooleanCallback](../interfaces/core_core.IWalkPathBooleanCallback.md),
+      trackDeleted?: (wp: [IWalkPath](../interfaces/core_core.IWalkPath.md), reason: string) => void,
   ): [IModel](../interfaces/core_schema.IModel.md)
 
   Remove paths from a model which have endpoints that do not connect to other paths.
@@ -34,10 +52,10 @@ Preparing search index...
   + `Optional`pointMatchingDistance: number
 
     Optional max distance to consider two points as the same.
-  + `Optional`keep: [IWalkPathBooleanCallback](../interfaces/core_maker.IWalkPathBooleanCallback.md)
+  + `Optional`keep: [IWalkPathBooleanCallback](../interfaces/core_core.IWalkPathBooleanCallback.md)
 
     Optional callback function (which should return a boolean) to decide if a dead end path should be kept instead.
-  + `Optional`trackDeleted: (wp: [IWalkPath](../interfaces/core_maker.IWalkPath.md), reason: string) => void
+  + `Optional`trackDeleted: (wp: [IWalkPath](../interfaces/core_core.IWalkPath.md), reason: string) => void
 
     Optional callback function which will log discarded paths and the reason they were discarded.
 
@@ -61,3 +79,9 @@ ThemeOSLightDark
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Originating](../index.md)
+- [Scaling](../index.md)
+- [Rotating](../index.md)

@@ -1,8 +1,22 @@
 ---
-title: Oval | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- models
+- oval
+- paths
+- photon
+primary_topic: oval-|-photon
 source: docs/docs/api/classes/models_Oval.Oval.html
+tags:
+- intermediate
+- api-reference
+- oval-|-photon
+title: Oval | Photon
 ---
-
 Oval | Photon
 
 [Photon](../index.md)

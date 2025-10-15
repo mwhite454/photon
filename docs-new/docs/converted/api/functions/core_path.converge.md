@@ -1,8 +1,20 @@
 ---
-title: converge | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- converge
+- photon
+primary_topic: converging
 source: docs/docs/api/functions/core_path.converge.html
+tags:
+- intermediate
+- api-reference
+- converging
+title: converge | Photon
 ---
-
 converge | Photon
 
 [Photon](../index.md)

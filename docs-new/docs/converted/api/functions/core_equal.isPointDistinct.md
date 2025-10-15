@@ -1,8 +1,20 @@
 ---
-title: isPointDistinct | Photon
+ai_summary: isPointDistinct | Photon
+category: API Reference
+description: isPointDistinct | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- ispointdistinct
+- photon
+primary_topic: ispointdistinct-|-photon
 source: docs/docs/api/functions/core_equal.isPointDistinct.html
+tags:
+- intermediate
+- api-reference
+- ispointdistinct-|-photon
+title: isPointDistinct | Photon
 ---
-
 isPointDistinct | Photon
 
 [Photon](../index.md)

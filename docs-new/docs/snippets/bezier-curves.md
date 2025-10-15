@@ -1,8 +1,27 @@
 ---
-title: Bezier Curves
+ai_summary: Bezier curves are a fascinating and complex topic too large to cover here,
+  it is recommended that you visit A Primer on Bezier Curves by Mike Kamer...
+category: General
+description: Bezier curves are a fascinating and complex topic too large to cover
+  here, it is recommended that you visit A Primer on Bezier Curves by Mike Kamer...
+difficulty: advanced
+keywords:
+- bezier
+- curves
+- export
+- general
+- javascript
+- models
+- paths
+- svg
+primary_topic: bezier-curves
 source: docs/_snippets/bezier-curves.html
+tags:
+- advanced
+- general
+- bezier-curves
+title: Bezier Curves
 ---
-
 Bezier curves are a fascinating and complex topic too large to cover here, it is recommended that you visit [A Primer on Bezier Curves by Mike Kamermans (aka Pomax)](//pomax.github.io/bezierinfo/index.md).
 Maker.js depends on Pomax's [Bezier.js](//pomax.github.io/bezierjs/index.md) which is a vital site to visit for understanding Bezier curve functionality in depth.
 
@@ -22,6 +41,9 @@ The default accuracy coefficient in Maker.js will produce an accurate and visual
 ---
 
 Create a quadratic Bezier curve in by passing an array of three points - an origin point, a control point, and an end point:
+
+
+## Examples
 
 ```javascript
 //create a quadratic Bezier curve

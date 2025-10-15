@@ -1,8 +1,24 @@
 ---
-title: IPathArcInBezierCurve | Photon
+ai_summary: IPathArcInBezierCurve | Photon
+category: API Reference
+description: IPathArcInBezierCurve | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- ipatharcinbeziercurve
+- photon
+primary_topic: paths
+related:
+- Path Independence
+- Models
+- Path Constructors
 source: docs/docs/api/interfaces/core_schema.IPathArcInBezierCurve.html
+tags:
+- paths
+- api-reference
+- intermediate
+title: IPathArcInBezierCurve | Photon
 ---
-
 IPathArcInBezierCurve | Photon
 
 [Photon](../index.md)
@@ -100,3 +116,9 @@ Properties
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Path Independence](../index.md)
+- [Models](../index.md)
+- [Path Constructors](../index.md)

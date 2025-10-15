@@ -1,8 +1,27 @@
 ---
-title: Chain Order
+ai_summary: You may have already noticed that we have not specified the order of the
+  links array. For example,
+category: General
+description: You may have already noticed that we have not specified the order of
+  the links array. For example,
+difficulty: intermediate
+keywords:
+- chain
+- general
+- javascript
+- order
+primary_topic: chains
+related:
+- Chain Theory
+- Breaking
+- Routes
 source: docs/_snippets/chain-order.html
+tags:
+- intermediate
+- general
+- chains
+title: Chain Order
 ---
-
 You may have already noticed that we have not specified the order of the links array. For example,
 given a chain with 3 links A, B, C - the order may also be C, B, A. So, what is the order of the links in a chain?
 The answer is: it is quite arbitrary. There is no guarantee that the order will be the same each time across JavaScript runtime environments.
@@ -24,3 +43,9 @@ If you need to specify which link is at the beginning of an endless chain, you h
 If you have an endless chain, you also have the option to see if your links flow in a clockwise direction.
 Call [makerjs.measure.isChainClockwise(chain)](/docs/api/modules/makerjs.measure.md#ischainclockwise)
 which returns a boolean, unless your chain has one link which is a circle - in which case it will return null.
+
+## Related Topics
+
+- [Chain Theory](../index.md)
+- [Breaking](../index.md)
+- [Routes](../index.md)

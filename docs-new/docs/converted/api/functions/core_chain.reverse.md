@@ -1,8 +1,21 @@
 ---
-title: reverse | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- cad
+- photon
+- reverse
+primary_topic: reverse-|-photon
 source: docs/docs/api/functions/core_chain.reverse.html
+tags:
+- intermediate
+- api-reference
+- reverse-|-photon
+title: reverse | Photon
 ---
-
 reverse | Photon
 
 [Photon](../index.md)
@@ -17,17 +30,17 @@ Preparing search index...
 
 # Function reverse
 
-* reverse(chainContext: [IChain](../interfaces/core_maker.IChain.md)): [IChain](../interfaces/core_maker.IChain.md)
+* reverse(chainContext: [IChain](../interfaces/core_core.IChain.md)): [IChain](../interfaces/core_core.IChain.md)
 
   Reverse the links of a chain.
 
   #### Parameters
 
-  + chainContext: [IChain](../interfaces/core_maker.IChain.md)
+  + chainContext: [IChain](../interfaces/core_core.IChain.md)
 
     Chain to reverse.
 
-  #### Returns [IChain](../interfaces/core_maker.IChain.md)
+  #### Returns [IChain](../interfaces/core_core.IChain.md)
 
   The chainContext for cascading.
 

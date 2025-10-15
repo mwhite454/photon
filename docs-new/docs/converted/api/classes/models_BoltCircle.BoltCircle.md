@@ -1,8 +1,22 @@
 ---
-title: BoltCircle | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- boltcircle
+- models
+- paths
+- photon
+primary_topic: circles
 source: docs/docs/api/classes/models_BoltCircle.BoltCircle.html
+tags:
+- intermediate
+- api-reference
+- circles
+title: BoltCircle | Photon
 ---
-
 BoltCircle | Photon
 
 [Photon](../index.md)

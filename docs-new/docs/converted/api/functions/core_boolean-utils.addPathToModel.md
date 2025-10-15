@@ -1,8 +1,24 @@
 ---
-title: addPathToModel | Photon
+ai_summary: addPathToModel | Photon
+category: API Reference
+description: addPathToModel | Photon
+difficulty: intermediate
+keywords:
+- addpathtomodel
+- api-reference
+- photon
+primary_topic: paths
+related:
+- Path Independence
+- Models
+- Path Constructors
 source: docs/docs/api/functions/core_boolean-utils.addPathToModel.html
+tags:
+- paths
+- api-reference
+- intermediate
+title: addPathToModel | Photon
 ---
-
 addPathToModel | Photon
 
 [Photon](../index.md)
@@ -43,3 +59,9 @@ ThemeOSLightDark
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Path Independence](../index.md)
+- [Models](../index.md)
+- [Path Constructors](../index.md)

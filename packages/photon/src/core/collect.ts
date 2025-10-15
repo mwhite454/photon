@@ -1,5 +1,5 @@
 import { IPoint } from './schema.js';
-import { round } from './maker.js';
+import { round } from './core.js';
 import * as measure from './measure-minimal.js';
 import KDBush from 'kdbush';
 

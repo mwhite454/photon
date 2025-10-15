@@ -1,8 +1,21 @@
 ---
-title: ISVGElementRenderOptions | Photon
+ai_summary: ISVGElementRenderOptions | Photon
+category: API Reference
+description: ISVGElementRenderOptions | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- isvgelementrenderoptions
+- photon
+- svg
+primary_topic: svg
 source: docs/docs/api/interfaces/core_svg-esm.ISVGElementRenderOptions.html
+tags:
+- intermediate
+- api-reference
+- svg
+title: ISVGElementRenderOptions | Photon
 ---
-
 ISVGElementRenderOptions | Photon
 
 [Photon](../index.md)

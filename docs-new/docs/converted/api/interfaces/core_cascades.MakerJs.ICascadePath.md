@@ -1,8 +1,25 @@
 ---
-title: ICascadePath | Photon
+ai_summary: ICascadePath | Photon
+category: API Reference
+description: ICascadePath | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- cad
+- icascadepath
+- photon
+primary_topic: paths
+related:
+- Path Independence
+- Models
+- Path Constructors
 source: docs/docs/api/interfaces/core_cascades.MakerJs.ICascadePath.html
+tags:
+- paths
+- api-reference
+- intermediate
+title: ICascadePath | Photon
 ---
-
 ICascadePath | Photon
 
 [Photon](../index.md)
@@ -85,3 +102,9 @@ Properties
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Path Independence](../index.md)
+- [Models](../index.md)
+- [Path Constructors](../index.md)

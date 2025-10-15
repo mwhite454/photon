@@ -2,7 +2,7 @@
 site_name: Photon
 site_description: A JavaScript library for creating and designing 2D vector graphics, drawings, and laser-cuttable models.
 site_author: Myka White
-site_url: https://github.com/mwhite454/photon
+site_url: http://localhost:3000/docs/  # For local dev - change to production URL for deployment
 
 # Repository
 repo_url: https://github.com/mwhite454/photon
@@ -107,6 +107,7 @@ theme:
   language: en
   show_title: true
   show_stargazers: true
+  # custom_dir: overrides  # Temporarily disabled - shadcn uses different template structure
   pygments_style:
     light: shadcn-light
     dark: github-dark

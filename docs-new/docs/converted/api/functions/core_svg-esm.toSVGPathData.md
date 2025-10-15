@@ -1,8 +1,26 @@
 ---
-title: toSVGPathData | Photon
+ai_summary: toSVGPathData | Photon
+category: API Reference
+description: toSVGPathData | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- export
+- photon
+- svg
+- tosvgpathdata
+primary_topic: paths
+related:
+- Path Independence
+- Models
+- Path Constructors
 source: docs/docs/api/functions/core_svg-esm.toSVGPathData.html
+tags:
+- paths
+- api-reference
+- intermediate
+title: toSVGPathData | Photon
 ---
-
 toSVGPathData | Photon
 
 [Photon](../index.md)
@@ -45,3 +63,9 @@ ThemeOSLightDark
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Path Independence](../index.md)
+- [Models](../index.md)
+- [Path Constructors](../index.md)

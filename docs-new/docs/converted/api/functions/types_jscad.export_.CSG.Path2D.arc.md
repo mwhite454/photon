@@ -1,8 +1,22 @@
 ---
-title: arc | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- 2d
+- api-reference
+- cad
+- export
+- photon
+primary_topic: arcs
 source: docs/docs/api/functions/types_jscad.export_.CSG.Path2D.arc.html
+tags:
+- intermediate
+- api-reference
+- arcs
+title: arc | Photon
 ---
-
 arc | Photon
 
 [Photon](../index.md)

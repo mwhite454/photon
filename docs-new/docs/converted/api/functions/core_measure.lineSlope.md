@@ -1,8 +1,20 @@
 ---
-title: lineSlope | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- lineslope
+- photon
+primary_topic: lines
 source: docs/docs/api/functions/core_measure.lineSlope.html
+tags:
+- intermediate
+- api-reference
+- lines
+title: lineSlope | Photon
 ---
-
 lineSlope | Photon
 
 [Photon](../index.md)
@@ -17,7 +29,7 @@ Preparing search index...
 
 # Function lineSlope
 
-* lineSlope(line: [IPathLine](../interfaces/core_schema.IPathLine.md)): [ISlope](../interfaces/core_maker.ISlope.md)
+* lineSlope(line: [IPathLine](../interfaces/core_schema.IPathLine.md)): [ISlope](../interfaces/core_core.ISlope.md)
 
   Gets the slope of a line.
 
@@ -25,7 +37,7 @@ Preparing search index...
 
   + line: [IPathLine](../interfaces/core_schema.IPathLine.md)
 
-  #### Returns [ISlope](../interfaces/core_maker.ISlope.md)
+  #### Returns [ISlope](../interfaces/core_core.ISlope.md)
 
   + Defined in [core/measure.ts:328](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure.ts#L328)
 

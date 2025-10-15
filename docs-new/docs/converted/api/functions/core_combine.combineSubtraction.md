@@ -1,8 +1,20 @@
 ---
-title: combineSubtraction | Photon
+ai_summary: combineSubtraction | Photon
+category: API Reference
+description: combineSubtraction | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- combinesubtraction
+- photon
+primary_topic: combining
 source: docs/docs/api/functions/core_combine.combineSubtraction.html
+tags:
+- intermediate
+- api-reference
+- combining
+title: combineSubtraction | Photon
 ---
-
 combineSubtraction | Photon
 
 [Photon](../index.md)

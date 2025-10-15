@@ -1,8 +1,21 @@
 ---
-title: SvgUnitConversion | Photon
+ai_summary: SvgUnitConversion | Photon
+category: API Reference
+description: SvgUnitConversion | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- photon
+- svg
+- svgunitconversion
+primary_topic: svg
 source: docs/docs/api/interfaces/core_svg-esm.SvgUnitConversion.html
+tags:
+- intermediate
+- api-reference
+- svg
+title: SvgUnitConversion | Photon
 ---
-
 SvgUnitConversion | Photon
 
 [Photon](../index.md)

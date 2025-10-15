@@ -1,8 +1,20 @@
 ---
-title: rounded | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- photon
+- rounded
+primary_topic: rounded-|-photon
 source: docs/docs/api/functions/core_point.rounded.html
+tags:
+- rounded-|-photon
+- api-reference
+- intermediate
+title: rounded | Photon
 ---
-
 rounded | Photon
 
 [Photon](../index.md)

@@ -1,8 +1,29 @@
 ---
-title: Captions
+ai_summary: Captions are fragments of text that can be positioned anywhere in your
+  model,
+category: General
+description: Captions are fragments of text that can be positioned anywhere in your
+  model,
+difficulty: advanced
+keywords:
+- captions
+- drawing
+- export
+- general
+- javascript
+- models
+- paths
+- photon
+- photon/core
+- svg
+primary_topic: captions
 source: docs/_snippets/captions.html
+tags:
+- advanced
+- captions
+- general
+title: Captions
 ---
-
 Captions are fragments of text that can be positioned anywhere in your model,
 useful for adding documentation within your drawing.
 Captions are unlike the [Text model](/docs/advanced-drawing/index.md#Fonts%20and%20text), which is a line drawing of glyphs in a given font.
@@ -25,6 +46,9 @@ A caption is an object with these two properties:
 * anchor - Line object
 
 Add this to a model via the **caption** property:
+
+
+## Examples
 
 ```javascript
 //add a caption to a model

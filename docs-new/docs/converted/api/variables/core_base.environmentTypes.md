@@ -1,8 +1,20 @@
 ---
-title: environmentTypes | Photon
+ai_summary: environmentTypes | Photon
+category: API Reference
+description: environmentTypes | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- environmenttypes
+- photon
+primary_topic: environmenttypes-|-photon
 source: docs/docs/api/variables/core_base.environmentTypes.html
+tags:
+- intermediate
+- api-reference
+- environmenttypes-|-photon
+title: environmentTypes | Photon
 ---
-
 environmentTypes | Photon
 
 [Photon](../index.md)

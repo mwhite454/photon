@@ -1,8 +1,25 @@
 ---
-title: models/Dogbone | Photon
+ai_summary: models/Dogbone | Photon
+category: API Reference
+description: models/Dogbone | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- dogbone
+- models
+- photon
+primary_topic: models
+related:
+- Modeling
+- Paths
+- Built-in Models
 source: docs/docs/api/modules/models_Dogbone.html
+tags:
+- intermediate
+- api-reference
+- models
+title: models/Dogbone | Photon
 ---
-
 models/Dogbone | Photon
 
 [Photon](../index.md)
@@ -40,3 +57,9 @@ Classes
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Modeling](../index.md)
+- [Paths](../index.md)
+- [Built-in Models](../index.md)

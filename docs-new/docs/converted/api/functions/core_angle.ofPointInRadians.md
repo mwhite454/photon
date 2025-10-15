@@ -1,8 +1,20 @@
 ---
-title: ofPointInRadians | Photon
+ai_summary: ofPointInRadians | Photon
+category: API Reference
+description: ofPointInRadians | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- ofpointinradians
+- photon
+primary_topic: ofpointinradians-|-photon
 source: docs/docs/api/functions/core_angle.ofPointInRadians.html
+tags:
+- intermediate
+- api-reference
+- ofpointinradians-|-photon
+title: ofPointInRadians | Photon
 ---
-
 ofPointInRadians | Photon
 
 [Photon](../index.md)

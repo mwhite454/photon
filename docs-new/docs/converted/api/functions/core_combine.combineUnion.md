@@ -1,8 +1,20 @@
 ---
-title: combineUnion | Photon
+ai_summary: combineUnion | Photon
+category: API Reference
+description: combineUnion | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- combineunion
+- photon
+primary_topic: combining
 source: docs/docs/api/functions/core_combine.combineUnion.html
+tags:
+- intermediate
+- api-reference
+- combining
+title: combineUnion | Photon
 ---
-
 combineUnion | Photon
 
 [Photon](../index.md)

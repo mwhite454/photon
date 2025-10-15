@@ -1,8 +1,20 @@
 ---
-title: isCircleOrArc | Photon
+ai_summary: isCircleOrArc | Photon
+category: API Reference
+description: isCircleOrArc | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- iscircleorarc
+- photon
+primary_topic: circles
 source: docs/docs/api/functions/core_boolean-utils.isCircleOrArc.html
+tags:
+- intermediate
+- api-reference
+- circles
+title: isCircleOrArc | Photon
 ---
-
 isCircleOrArc | Photon
 
 [Photon](../index.md)

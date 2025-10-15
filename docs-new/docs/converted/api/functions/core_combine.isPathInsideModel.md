@@ -1,8 +1,24 @@
 ---
-title: isPathInsideModel | Photon
+ai_summary: isPathInsideModel | Photon
+category: API Reference
+description: isPathInsideModel | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- ispathinsidemodel
+- photon
+primary_topic: paths
+related:
+- Path Independence
+- Models
+- Path Constructors
 source: docs/docs/api/functions/core_combine.isPathInsideModel.html
+tags:
+- paths
+- api-reference
+- intermediate
+title: isPathInsideModel | Photon
 ---
-
 isPathInsideModel | Photon
 
 [Photon](../index.md)
@@ -51,3 +67,9 @@ ThemeOSLightDark
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Path Independence](../index.md)
+- [Models](../index.md)
+- [Path Constructors](../index.md)

@@ -1,8 +1,22 @@
 ---
-title: toPDF | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- drawing
+- export
+- photon
+- topdf
+primary_topic: topdf-|-photon
 source: docs/docs/api/functions/core_pdf-esm.toPDF.html
+tags:
+- intermediate
+- api-reference
+- topdf-|-photon
+title: toPDF | Photon
 ---
-
 toPDF | Photon
 
 [Photon](../index.md)

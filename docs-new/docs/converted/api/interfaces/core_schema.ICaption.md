@@ -1,8 +1,20 @@
 ---
-title: ICaption | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- icaption
+- photon
+primary_topic: icaption-|-photon
 source: docs/docs/api/interfaces/core_schema.ICaption.html
+tags:
+- intermediate
+- api-reference
+- icaption-|-photon
+title: ICaption | Photon
 ---
-
 ICaption | Photon
 
 [Photon](../index.md)

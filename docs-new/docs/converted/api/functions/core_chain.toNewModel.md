@@ -1,8 +1,25 @@
 ---
-title: toNewModel | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- paths
+- photon
+- tonewmodel
+primary_topic: models
+related:
+- Modeling
+- Paths
+- Built-in Models
 source: docs/docs/api/functions/core_chain.toNewModel.html
+tags:
+- intermediate
+- api-reference
+- models
+title: toNewModel | Photon
 ---
-
 toNewModel | Photon
 
 [Photon](../index.md)
@@ -17,13 +34,13 @@ Preparing search index...
 
 # Function toNewModel
 
-* toNewModel(chainContext: [IChain](../interfaces/core_maker.IChain.md), detachFromOldModel?: boolean): [IModel](../interfaces/core_schema.IModel.md)
+* toNewModel(chainContext: [IChain](../interfaces/core_core.IChain.md), detachFromOldModel?: boolean): [IModel](../interfaces/core_schema.IModel.md)
 
   Convert a chain to a new model, independent of any model from where the chain was found.
 
   #### Parameters
 
-  + chainContext: [IChain](../interfaces/core_maker.IChain.md)
+  + chainContext: [IChain](../interfaces/core_core.IChain.md)
 
     Chain to convert to a model.
   + detachFromOldModel: boolean = false
@@ -50,3 +67,9 @@ ThemeOSLightDark
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Modeling](../index.md)
+- [Paths](../index.md)
+- [Built-in Models](../index.md)

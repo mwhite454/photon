@@ -1,8 +1,20 @@
 ---
-title: isPointArrayClockwise | Photon
+ai_summary: isPointArrayClockwise | Photon
+category: API Reference
+description: isPointArrayClockwise | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- ispointarrayclockwise
+- photon
+primary_topic: ispointarrayclockwise-|-photon
 source: docs/docs/api/functions/core_measure.isPointArrayClockwise.html
+tags:
+- intermediate
+- api-reference
+- ispointarrayclockwise-|-photon
+title: isPointArrayClockwise | Photon
 ---
-
 isPointArrayClockwise | Photon
 
 [Photon](../index.md)

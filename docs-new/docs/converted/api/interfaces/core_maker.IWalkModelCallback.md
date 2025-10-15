@@ -1,8 +1,24 @@
 ---
+ai_summary: IWalkModelCallback | Photon
+category: API Reference
+description: IWalkModelCallback | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- iwalkmodelcallback
+- photon
+primary_topic: models
+related:
+- Modeling
+- Paths
+- Built-in Models
+source: docs/docs/api/interfaces/core_core.IWalkModelCallback.html
+tags:
+- intermediate
+- api-reference
+- models
 title: IWalkModelCallback | Photon
-source: docs/docs/api/interfaces/core_maker.IWalkModelCallback.html
 ---
-
 IWalkModelCallback | Photon
 
 [Photon](../index.md)
@@ -12,18 +28,18 @@ IWalkModelCallback | Photon
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.md)
+* [core/maker](../modules/core_core.md)
 * IWalkModelCallback
 
 # Interface IWalkModelCallback
 
 Callback signature for model.walk().
 
-* IWalkModelCallback(context: [IWalkModel](core_maker.IWalkModel.md)): void
+* IWalkModelCallback(context: [IWalkModel](core_core.IWalkModel.md)): void
 
   #### Parameters
 
-  + context: [IWalkModel](core_maker.IWalkModel.md)
+  + context: [IWalkModel](core_core.IWalkModel.md)
 
   #### Returns void
 
@@ -43,3 +59,9 @@ ThemeOSLightDark
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Modeling](../index.md)
+- [Paths](../index.md)
+- [Built-in Models](../index.md)

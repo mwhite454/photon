@@ -1,8 +1,24 @@
 ---
+ai_summary: IPathIntersectionBaseOptions | Photon
+category: API Reference
+description: IPathIntersectionBaseOptions | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- ipathintersectionbaseoptions
+- photon
+primary_topic: paths
+related:
+- Path Independence
+- Models
+- Path Constructors
+source: docs/docs/api/interfaces/core_core.IPathIntersectionBaseOptions.html
+tags:
+- paths
+- api-reference
+- intermediate
 title: IPathIntersectionBaseOptions | Photon
-source: docs/docs/api/interfaces/core_maker.IPathIntersectionBaseOptions.html
 ---
-
 IPathIntersectionBaseOptions | Photon
 
 [Photon](../index.md)
@@ -12,7 +28,7 @@ IPathIntersectionBaseOptions | Photon
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.md)
+* [core/maker](../modules/core_core.md)
 * IPathIntersectionBaseOptions
 
 # Interface IPathIntersectionBaseOptions
@@ -27,7 +43,7 @@ interface IPathIntersectionBaseOptions {
 #### Hierarchy ([View Summary](../hierarchy.md#core/maker.IPathIntersectionBaseOptions))
 
 * IPathIntersectionBaseOptions
-  + [IPathIntersectionOptions](core_maker.IPathIntersectionOptions.md)
+  + [IPathIntersectionOptions](core_core.IPathIntersectionOptions.md)
 
 * Defined in [core/maker.ts:228](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L228)
 
@@ -72,3 +88,9 @@ Properties
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Path Independence](../index.md)
+- [Models](../index.md)
+- [Path Constructors](../index.md)

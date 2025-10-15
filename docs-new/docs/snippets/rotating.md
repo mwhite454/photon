@@ -1,8 +1,26 @@
 ---
-title: Rotating
+ai_summary: To rotate a single point, see point.fromPolar
+category: General
+description: To rotate a single point, see point.fromPolar
+difficulty: intermediate
+keywords:
+- export
+- general
+- javascript
+- models
+- paths
+- photon
+- photon/core
+- rotating
+- svg
+primary_topic: rotating
 source: docs/_snippets/rotating.html
+tags:
+- intermediate
+- general
+- rotating
+title: Rotating
 ---
-
 To rotate a single point, see [point.fromPolar](../api/modules/point.md#frompolar)
 and [point.rotate](../api/modules/point.md#rotate) depending on what you are trying to achieve.
 
@@ -14,6 +32,9 @@ You can rotate paths and models with these functions:
 Each of these functions return the original object, so that we can "chain" on the same line of code.
 
 Rotate path example:
+
+
+## Examples
 
 ```javascript
 //render a rotated line

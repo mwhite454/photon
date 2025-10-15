@@ -1,8 +1,20 @@
 ---
+ai_summary: createRouteKey | Photon
+category: API Reference
+description: createRouteKey | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- createroutekey
+- photon
+primary_topic: routes
+source: docs/docs/api/functions/core_core.createRouteKey.html
+tags:
+- intermediate
+- api-reference
+- routes
 title: createRouteKey | Photon
-source: docs/docs/api/functions/core_maker.createRouteKey.html
 ---
-
 createRouteKey | Photon
 
 [Photon](../index.md)
@@ -12,7 +24,7 @@ createRouteKey | Photon
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.md)
+* [core/maker](../modules/core_core.md)
 * createRouteKey
 
 # Function createRouteKey

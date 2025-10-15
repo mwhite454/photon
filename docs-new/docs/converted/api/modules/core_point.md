@@ -1,8 +1,21 @@
 ---
-title: core/point | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- core
+- photon
+- point
+primary_topic: core/point-|-photon
 source: docs/docs/api/modules/core_point.html
+tags:
+- intermediate
+- api-reference
+- core/point-|-photon
+title: core/point | Photon
 ---
-
 core/point | Photon
 
 [Photon](../index.md)

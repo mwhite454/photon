@@ -1,8 +1,23 @@
 ---
-title: types/jscad | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- cad
+- export
+- jscad
+- photon
+- types
+primary_topic: types/jscad-|-photon
 source: docs/docs/api/modules/types_jscad.html
+tags:
+- types/jscad-|-photon
+- api-reference
+- intermediate
+title: types/jscad | Photon
 ---
-
 types/jscad | Photon
 
 [Photon](../index.md)

@@ -1,8 +1,21 @@
 ---
-title: colors | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- colors
+- export
+- photon
+primary_topic: colors-|-photon
 source: docs/docs/api/variables/core_exporter.colors.html
+tags:
+- intermediate
+- api-reference
+- colors-|-photon
+title: colors | Photon
 ---
-
 colors | Photon
 
 [Photon](../index.md)

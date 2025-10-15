@@ -1,8 +1,31 @@
 ---
-title: Exporting Svg
+ai_summary: Call makerjs.exporter.toSVG(model) passing your model. This function returns
+  a string of SVG.
+category: Exporting
+description: Call makerjs.exporter.toSVG(model) passing your model. This function
+  returns a string of SVG.
+difficulty: advanced
+keywords:
+- drawing
+- export
+- exporting
+- models
+- paths
+- svg
+prerequisites:
+- Basic Drawing
+primary_topic: exporting
+related:
+- Exporting DXF
+- Basic Drawing
+- SVG Styling
+- Exporting PDF
 source: docs/_snippets/exporting-svg.html
+tags:
+- advanced
+- exporting
+title: Exporting Svg
 ---
-
 #### Simple export
 
 Call `makerjs.exporter.toSVG(model)` passing your model. This function returns a string of SVG.
@@ -50,3 +73,10 @@ The options object has these properties:
 | [svgAttrs](/docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#svgattrs) | object map - attributes to add to the root svg tag | Both |
 | [units](/docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#units) | [Maker.js unit type](/docs/api/index.md#unittype) (default - extracted from drawing. If unit system is not in drawing or not passed, it will use SVG default of pixels) | Both |
 | [viewbox](/docs/api/interfaces/makerjs.exporter.isvgrenderoptions.md#viewbox) | * true (default) - use SVG viewbox, stretch drawing to fill the SVG element. * false - do not stretch drawing | Both |
+
+## Related Topics
+
+- [Exporting DXF](../index.md)
+- [Basic Drawing](../index.md)
+- [SVG Styling](../index.md)
+- [Exporting PDF](../index.md)

@@ -1,8 +1,21 @@
 ---
-title: core/measure | Photon
+ai_summary: core/measure | Photon
+category: API Reference
+description: core/measure | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- core
+- measure
+- photon
+primary_topic: measuring
 source: docs/docs/api/modules/core_measure.html
+tags:
+- intermediate
+- api-reference
+- measuring
+title: core/measure | Photon
 ---
-
 core/measure | Photon
 
 [Photon](../index.md)

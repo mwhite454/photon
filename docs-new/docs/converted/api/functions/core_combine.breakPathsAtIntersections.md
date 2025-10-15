@@ -1,8 +1,25 @@
 ---
-title: breakPathsAtIntersections | Photon
+ai_summary: breakPathsAtIntersections | Photon
+category: API Reference
+description: breakPathsAtIntersections | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- breakpathsatintersections
+- paths
+- photon
+primary_topic: paths
+related:
+- Path Independence
+- Models
+- Path Constructors
 source: docs/docs/api/functions/core_combine.breakPathsAtIntersections.html
+tags:
+- paths
+- api-reference
+- intermediate
+title: breakPathsAtIntersections | Photon
 ---
-
 breakPathsAtIntersections | Photon
 
 [Photon](../index.md)
@@ -45,3 +62,9 @@ ThemeOSLightDark
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Path Independence](../index.md)
+- [Models](../index.md)
+- [Path Constructors](../index.md)

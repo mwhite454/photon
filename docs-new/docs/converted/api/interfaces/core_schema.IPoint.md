@@ -1,8 +1,20 @@
 ---
-title: IPoint | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- ipoint
+- photon
+primary_topic: ipoint-|-photon
 source: docs/docs/api/interfaces/core_schema.IPoint.html
+tags:
+- intermediate
+- api-reference
+- ipoint-|-photon
+title: IPoint | Photon
 ---
-
 IPoint | Photon
 
 [Photon](../index.md)

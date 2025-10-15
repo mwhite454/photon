@@ -1,8 +1,21 @@
 ---
-title: convertUnits | Photon
+ai_summary: convertUnits | Photon
+category: API Reference
+description: convertUnits | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- cad
+- convertunits
+- photon
+primary_topic: convertunits-|-photon
 source: docs/docs/api/functions/core_model.convertUnits.html
+tags:
+- convertunits-|-photon
+- api-reference
+- intermediate
+title: convertUnits | Photon
 ---
-
 convertUnits | Photon
 
 [Photon](../index.md)

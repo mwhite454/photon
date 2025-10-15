@@ -1,8 +1,20 @@
 ---
-title: SegmentClassification | Photon
+ai_summary: SegmentClassification | Photon
+category: API Reference
+description: SegmentClassification | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- photon
+- segmentclassification
+primary_topic: segmentclassification-|-photon
 source: docs/docs/api/interfaces/core_boolean-utils.SegmentClassification.html
+tags:
+- segmentclassification-|-photon
+- api-reference
+- intermediate
+title: SegmentClassification | Photon
 ---
-
 SegmentClassification | Photon
 
 [Photon](../index.md)

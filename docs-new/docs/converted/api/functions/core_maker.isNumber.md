@@ -1,8 +1,20 @@
 ---
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- isnumber
+- photon
+primary_topic: isnumber-|-photon
+source: docs/docs/api/functions/core_core.isNumber.html
+tags:
+- intermediate
+- api-reference
+- isnumber-|-photon
 title: isNumber | Photon
-source: docs/docs/api/functions/core_maker.isNumber.html
 ---
-
 isNumber | Photon
 
 [Photon](../index.md)
@@ -12,7 +24,7 @@ isNumber | Photon
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.md)
+* [core/maker](../modules/core_core.md)
 * isNumber
 
 # Function isNumber

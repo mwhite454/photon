@@ -1,8 +1,23 @@
 ---
-title: IJscadCsgOptions | Photon
+ai_summary: IJscadCsgOptions | Photon
+category: API Reference
+description: IJscadCsgOptions | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- cad
+- export
+- ijscadcsgoptions
+- photon
+- svg
+primary_topic: ijscadcsgoptions-|-photon
 source: docs/docs/api/interfaces/core_openjscad-esm.IJscadCsgOptions.html
+tags:
+- intermediate
+- api-reference
+- ijscadcsgoptions-|-photon
+title: IJscadCsgOptions | Photon
 ---
-
 IJscadCsgOptions | Photon
 
 [Photon](../index.md)

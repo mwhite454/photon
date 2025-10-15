@@ -1,8 +1,24 @@
 ---
+ai_summary: IWalkPathBooleanCallback | Photon
+category: API Reference
+description: IWalkPathBooleanCallback | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- iwalkpathbooleancallback
+- photon
+primary_topic: paths
+related:
+- Path Independence
+- Models
+- Path Constructors
+source: docs/docs/api/interfaces/core_core.IWalkPathBooleanCallback.html
+tags:
+- paths
+- api-reference
+- intermediate
 title: IWalkPathBooleanCallback | Photon
-source: docs/docs/api/interfaces/core_maker.IWalkPathBooleanCallback.html
 ---
-
 IWalkPathBooleanCallback | Photon
 
 [Photon](../index.md)
@@ -12,18 +28,18 @@ IWalkPathBooleanCallback | Photon
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.md)
+* [core/maker](../modules/core_core.md)
 * IWalkPathBooleanCallback
 
 # Interface IWalkPathBooleanCallback
 
 Callback for returning a boolean from an IWalkPath.
 
-* IWalkPathBooleanCallback(context: [IWalkPath](core_maker.IWalkPath.md)): boolean
+* IWalkPathBooleanCallback(context: [IWalkPath](core_core.IWalkPath.md)): boolean
 
   #### Parameters
 
-  + context: [IWalkPath](core_maker.IWalkPath.md)
+  + context: [IWalkPath](core_core.IWalkPath.md)
 
   #### Returns boolean
 
@@ -43,3 +59,9 @@ ThemeOSLightDark
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Path Independence](../index.md)
+- [Models](../index.md)
+- [Path Constructors](../index.md)

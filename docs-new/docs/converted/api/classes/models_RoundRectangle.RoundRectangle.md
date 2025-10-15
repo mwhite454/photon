@@ -1,8 +1,22 @@
 ---
-title: RoundRectangle | Photon
+ai_summary: RoundRectangle | Photon
+category: API Reference
+description: RoundRectangle | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- models
+- paths
+- photon
+- roundrectangle
+primary_topic: roundrectangle-|-photon
 source: docs/docs/api/classes/models_RoundRectangle.RoundRectangle.html
+tags:
+- intermediate
+- api-reference
+- roundrectangle-|-photon
+title: RoundRectangle | Photon
 ---
-
 RoundRectangle | Photon
 
 [Photon](../index.md)

@@ -1,8 +1,25 @@
 ---
-title: IPathIntersection | Photon
+ai_summary: IPathIntersection | Photon
+category: API Reference
+description: IPathIntersection | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- ipathintersection
+- paths
+- photon
+primary_topic: paths
+related:
+- Path Independence
+- Models
+- Path Constructors
 source: docs/docs/api/interfaces/core_schema.IPathIntersection.html
+tags:
+- paths
+- api-reference
+- intermediate
+title: IPathIntersection | Photon
 ---
-
 IPathIntersection | Photon
 
 [Photon](../index.md)
@@ -81,3 +98,9 @@ Properties
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Path Independence](../index.md)
+- [Models](../index.md)
+- [Path Constructors](../index.md)

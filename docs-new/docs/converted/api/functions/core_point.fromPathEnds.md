@@ -1,8 +1,24 @@
 ---
-title: fromPathEnds | Photon
+ai_summary: fromPathEnds | Photon
+category: API Reference
+description: fromPathEnds | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- frompathends
+- photon
+primary_topic: paths
+related:
+- Path Independence
+- Models
+- Path Constructors
 source: docs/docs/api/functions/core_point.fromPathEnds.html
+tags:
+- paths
+- api-reference
+- intermediate
+title: fromPathEnds | Photon
 ---
-
 fromPathEnds | Photon
 
 [Photon](../index.md)
@@ -44,3 +60,9 @@ ThemeOSLightDark
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Path Independence](../index.md)
+- [Models](../index.md)
+- [Path Constructors](../index.md)

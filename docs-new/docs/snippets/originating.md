@@ -1,10 +1,33 @@
 ---
-title: Originating
+ai_summary: A path within a model is referenced relatively to its parent model. There
+  may be times when you want all objects to be within the same coordinate s...
+category: General
+description: A path within a model is referenced relatively to its parent model. There
+  may be times when you want all objects to be within the same coordinate s...
+difficulty: intermediate
+keywords:
+- export
+- general
+- javascript
+- models
+- originating
+- paths
+- photon
+- photon/core
+- svg
+primary_topic: originating
 source: docs/_snippets/originating.html
+tags:
+- intermediate
+- originating
+- general
+title: Originating
 ---
-
 A path within a model is referenced relatively to its parent model. There may be times when you want all objects to be within the same coordinate space.
 Let's create a simple demonstration model:
+
+
+## Examples
 
 ```javascript
 //render a couple boxes in their own coordinate space

@@ -1,13 +1,33 @@
 ---
-title: Intersection
+ai_summary: You can find the point(s) of intersection between two paths using path.intersection.
+category: General
+description: You can find the point(s) of intersection between two paths using path.intersection.
+difficulty: intermediate
+keywords:
+- export
+- general
+- intersection
+- javascript
+- paths
+- photon
+- photon/core
+- svg
+primary_topic: intersection
 source: docs/_snippets/intersection.html
+tags:
+- intermediate
+- intersection
+- general
+title: Intersection
 ---
-
 You can find the point(s) of intersection between two paths using [path.intersection](/docs/api/modules/path.md#intersection).
 If the paths do not intersect, this function will return null. Otherwise, it will return an [object with a property named intersectionPoints](/docs/api/interfaces/makerjs.ipathintersection.md#content) which is an array of points.
 Additionally, if either path was an arc or circle, this object will contain the angles at which an intersection occurred.
 
 Intersection examples:
+
+
+## Examples
 
 ```javascript
 //line-line intersection

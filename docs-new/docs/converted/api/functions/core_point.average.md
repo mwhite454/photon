@@ -1,8 +1,20 @@
 ---
-title: average | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- average
+- photon
+primary_topic: average-|-photon
 source: docs/docs/api/functions/core_point.average.html
+tags:
+- intermediate
+- api-reference
+- average-|-photon
+title: average | Photon
 ---
-
 average | Photon
 
 [Photon](../index.md)

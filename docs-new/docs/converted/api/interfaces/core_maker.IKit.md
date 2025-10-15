@@ -1,8 +1,20 @@
 ---
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- ikit
+- photon
+primary_topic: ikit-|-photon
+source: docs/docs/api/interfaces/core_core.IKit.html
+tags:
+- intermediate
+- api-reference
+- ikit-|-photon
 title: IKit | Photon
-source: docs/docs/api/interfaces/core_maker.IKit.html
 ---
-
 IKit | Photon
 
 [Photon](../index.md)
@@ -12,7 +24,7 @@ IKit | Photon
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.md)
+* [core/maker](../modules/core_core.md)
 * IKit
 
 # Interface IKit
@@ -21,7 +33,7 @@ An IKit is a model-producing class with some sample parameters. Think of it as a
 
 interface IKit {
     new [IKit](#constructorikit)(...args: any[]): [IModel](core_schema.IModel.md);
-    [metaParameters](#metaparameters)?: [IMetaParameter](core_maker.IMetaParameter.md)[];
+    [metaParameters](#metaparameters)?: [IMetaParameter](core_core.IMetaParameter.md)[];
     [notes](#notes)?: string;
 }
 
@@ -59,7 +71,7 @@ interface IKit {
 
 ### `Optional`metaParameters
 
-metaParameters?: [IMetaParameter](core_maker.IMetaParameter.md)[]
+metaParameters?: [IMetaParameter](core_core.IMetaParameter.md)[]
 
 Attached to the constructor is a property named metaParameters which is an array of IMetaParameter objects.
 Each element of the array corresponds to a parameter of the constructor, in order.

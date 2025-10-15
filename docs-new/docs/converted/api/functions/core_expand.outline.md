@@ -1,8 +1,20 @@
 ---
-title: outline | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- outline
+- photon
+primary_topic: lines
 source: docs/docs/api/functions/core_expand.outline.html
+tags:
+- intermediate
+- api-reference
+- lines
+title: outline | Photon
 ---
-
 outline | Photon
 
 [Photon](../index.md)
@@ -22,7 +34,7 @@ Preparing search index...
       distance: number,
       joints?: number,
       inside?: boolean,
-      options?: [ICombineOptions](../interfaces/core_maker.ICombineOptions.md),
+      options?: [ICombineOptions](../interfaces/core_core.ICombineOptions.md),
   ): [IModel](../interfaces/core_schema.IModel.md)
 
   #### Parameters
@@ -31,7 +43,7 @@ Preparing search index...
   + distance: number
   + joints: number = 0
   + inside: boolean = false
-  + options: [ICombineOptions](../interfaces/core_maker.ICombineOptions.md) = {}
+  + options: [ICombineOptions](../interfaces/core_core.ICombineOptions.md) = {}
 
   #### Returns [IModel](../interfaces/core_schema.IModel.md)
 

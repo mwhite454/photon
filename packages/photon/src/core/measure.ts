@@ -5,8 +5,8 @@ import type {
 import type {
     IMeasure, IMeasureWithCenter, IMeasureMap, ISlope, IBoundingHex,
     IPathIntersectionOptions, IMeasurePointInsideOptions, IWalkOptions, IWalkPath, IWalkModel, IChain
-} from './maker.js';
-import { pathType, cloneObject, createRouteKey, round } from './maker.js';
+} from './core.js';
+import { pathType, cloneObject, createRouteKey, round } from './core.js';
 import * as angle from './angle.js';
 import * as point from './point.js';
 import * as path from './path.js';

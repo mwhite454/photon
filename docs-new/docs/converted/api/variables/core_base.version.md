@@ -1,8 +1,20 @@
 ---
-title: version | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- photon
+- version
+primary_topic: version-|-photon
 source: docs/docs/api/variables/core_base.version.html
+tags:
+- intermediate
+- api-reference
+- version-|-photon
+title: version | Photon
 ---
-
 version | Photon
 
 [Photon](../index.md)

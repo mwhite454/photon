@@ -1,8 +1,28 @@
 ---
-title: childrenOnChain | Photon
+ai_summary: childrenOnChain | Photon
+category: Layout
+description: childrenOnChain | Photon
+difficulty: intermediate
+keywords:
+- cad
+- childrenonchain
+- layout
+- photon
+prerequisites:
+- Intermediate Drawing
+primary_topic: chains
+related:
+- Chain Theory
+- Routes
+- Breaking
+- Intermediate Drawing
 source: docs/docs/api/functions/core_layout.childrenOnChain.html
+tags:
+- intermediate
+- layout
+- chains
+title: childrenOnChain | Photon
 ---
-
 childrenOnChain | Photon
 
 [Photon](../index.md)
@@ -17,9 +37,16 @@ Preparing search index...
 
 # Function childrenOnChain
 
+## Prerequisites
+
+Before working with this feature, you should be familiar with:
+
+- [Intermediate Drawing](../index.md)
+
+
 * childrenOnChain(
       parentModel: [IModel](../interfaces/core_schema.IModel.md),
-      onChain: [IChain](../interfaces/core_maker.IChain.md),
+      onChain: [IChain](../interfaces/core_core.IChain.md),
       baseline?: number,
       reversed?: boolean,
       contain?: boolean,
@@ -36,7 +63,7 @@ Preparing search index...
   + parentModel: [IModel](../interfaces/core_schema.IModel.md)
 
     The model containing children to lay out.
-  + onChain: [IChain](../interfaces/core_maker.IChain.md)
+  + onChain: [IChain](../interfaces/core_core.IChain.md)
 
     The chain on which to lay out.
   + baseline: number = 0
@@ -70,3 +97,10 @@ ThemeOSLightDark
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Chain Theory](../index.md)
+- [Routes](../index.md)
+- [Breaking](../index.md)
+- [Intermediate Drawing](../index.md)

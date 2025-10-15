@@ -1,8 +1,22 @@
 ---
-title: IJscadCagOptions | Photon
+ai_summary: IJscadCagOptions | Photon
+category: API Reference
+description: IJscadCagOptions | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- cad
+- export
+- ijscadcagoptions
+- photon
+primary_topic: ijscadcagoptions-|-photon
 source: docs/docs/api/interfaces/core_openjscad-esm.IJscadCagOptions.html
+tags:
+- intermediate
+- api-reference
+- ijscadcagoptions-|-photon
+title: IJscadCagOptions | Photon
 ---
-
 IJscadCagOptions | Photon
 
 [Photon](../index.md)
@@ -30,7 +44,7 @@ interface IJscadCagOptions {
 
 #### Hierarchy ([View Summary](../hierarchy.md#core/openjscad-esm.IJscadCagOptions))
 
-* [IPointMatchOptions](core_maker.IPointMatchOptions.md)
+* [IPointMatchOptions](core_core.IPointMatchOptions.md)
   + IJscadCagOptions
     - [IJscadCsgOptions](core_openjscad-esm.IJscadCsgOptions.md)
 
@@ -81,7 +95,7 @@ pointMatchingDistance?: number
 
 Max distance to consider two points as the same.
 
-Inherited from [IPointMatchOptions](core_maker.IPointMatchOptions.md).[pointMatchingDistance](core_maker.IPointMatchOptions.md#pointmatchingdistance)
+Inherited from [IPointMatchOptions](core_core.IPointMatchOptions.md).[pointMatchingDistance](core_core.IPointMatchOptions.md#pointmatchingdistance)
 
 * Defined in [core/maker.ts:282](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L282)
 

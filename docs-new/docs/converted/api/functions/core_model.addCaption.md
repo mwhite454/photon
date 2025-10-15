@@ -1,8 +1,20 @@
 ---
-title: addCaption | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- addcaption
+- api-reference
+- photon
+primary_topic: addcaption-|-photon
 source: docs/docs/api/functions/core_model.addCaption.html
+tags:
+- intermediate
+- api-reference
+- addcaption-|-photon
+title: addCaption | Photon
 ---
-
 addCaption | Photon
 
 [Photon](../index.md)

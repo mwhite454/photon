@@ -1,8 +1,20 @@
 ---
-title: isArcEnclosingAngle | Photon
+ai_summary: isArcEnclosingAngle | Photon
+category: API Reference
+description: isArcEnclosingAngle | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- isarcenclosingangle
+- photon
+primary_topic: arcs
 source: docs/docs/api/functions/core_boolean-utils.isArcEnclosingAngle.html
+tags:
+- intermediate
+- api-reference
+- arcs
+title: isArcEnclosingAngle | Photon
 ---
-
 isArcEnclosingAngle | Photon
 
 [Photon](../index.md)

@@ -1,8 +1,22 @@
 ---
-title: Square | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- models
+- paths
+- photon
+- square
+primary_topic: square-|-photon
 source: docs/docs/api/classes/models_Square.Square.html
+tags:
+- intermediate
+- api-reference
+- square-|-photon
+title: Square | Photon
 ---
-
 Square | Photon
 
 [Photon](../index.md)

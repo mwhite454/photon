@@ -1,8 +1,20 @@
 ---
-title: isZeroLength | Photon
+ai_summary: isZeroLength | Photon
+category: API Reference
+description: isZeroLength | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- iszerolength
+- photon
+primary_topic: iszerolength-|-photon
 source: docs/docs/api/functions/core_boolean-utils.isZeroLength.html
+tags:
+- intermediate
+- api-reference
+- iszerolength-|-photon
+title: isZeroLength | Photon
 ---
-
 isZeroLength | Photon
 
 [Photon](../index.md)

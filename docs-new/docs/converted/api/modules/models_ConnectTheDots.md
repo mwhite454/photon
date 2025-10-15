@@ -1,8 +1,25 @@
 ---
-title: models/ConnectTheDots | Photon
+ai_summary: models/ConnectTheDots | Photon
+category: API Reference
+description: models/ConnectTheDots | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- connectthedots
+- models
+- photon
+primary_topic: models
+related:
+- Modeling
+- Paths
+- Built-in Models
 source: docs/docs/api/modules/models_ConnectTheDots.html
+tags:
+- intermediate
+- api-reference
+- models
+title: models/ConnectTheDots | Photon
 ---
-
 models/ConnectTheDots | Photon
 
 [Photon](../index.md)
@@ -40,3 +57,9 @@ Classes
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Modeling](../index.md)
+- [Paths](../index.md)
+- [Built-in Models](../index.md)

@@ -1,8 +1,25 @@
 ---
-title: Outlining
+ai_summary: Expanding a model's path will surround every path, which sometimes can
+  mean there is an inner and an outer surrounding chain. If you only want the ...
+category: General
+description: Expanding a model's path will surround every path, which sometimes can
+  mean there is an inner and an outer surrounding chain. If you only want the ...
+difficulty: intermediate
+keywords:
+- export
+- general
+- javascript
+- models
+- outlining
+- svg
+primary_topic: outlining
 source: docs/_snippets/outlining.html
+tags:
+- intermediate
+- general
+- outlining
+title: Outlining
 ---
-
 Expanding a model's path will surround every path, which sometimes can mean there is an inner and an outer surrounding chain. If you only want the outer surrounding chain, use
 [makerjs.model.outline](/docs/api/modules/makerjs.model.md#outline):
 

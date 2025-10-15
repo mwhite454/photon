@@ -1,8 +1,22 @@
 ---
-title: EllipticArc | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- ellipticarc
+- models
+- paths
+- photon
+primary_topic: arcs
 source: docs/docs/api/classes/models_Ellipse.EllipticArc.html
+tags:
+- intermediate
+- api-reference
+- arcs
+title: EllipticArc | Photon
 ---
-
 EllipticArc | Photon
 
 [Photon](../index.md)

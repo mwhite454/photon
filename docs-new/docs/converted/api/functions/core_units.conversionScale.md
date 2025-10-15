@@ -1,8 +1,20 @@
 ---
-title: conversionScale | Photon
+ai_summary: conversionScale | Photon
+category: API Reference
+description: conversionScale | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- conversionscale
+- photon
+primary_topic: scaling
 source: docs/docs/api/functions/core_units.conversionScale.html
+tags:
+- intermediate
+- api-reference
+- scaling
+title: conversionScale | Photon
 ---
-
 conversionScale | Photon
 
 [Photon](../index.md)

@@ -1,8 +1,22 @@
 ---
-title: toJson | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- export
+- paths
+- photon
+- tojson
+primary_topic: tojson-|-photon
 source: docs/docs/api/functions/core_exporter.toJson.html
+tags:
+- intermediate
+- api-reference
+- tojson-|-photon
+title: toJson | Photon
 ---
-
 toJson | Photon
 
 [Photon](../index.md)

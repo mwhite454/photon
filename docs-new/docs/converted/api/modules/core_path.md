@@ -1,8 +1,25 @@
 ---
-title: core/path | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- core
+- path
+- photon
+primary_topic: paths
+related:
+- Path Independence
+- Models
+- Path Constructors
 source: docs/docs/api/modules/core_path.html
+tags:
+- paths
+- api-reference
+- intermediate
+title: core/path | Photon
 ---
-
 core/path | Photon
 
 [Photon](../index.md)
@@ -99,3 +116,9 @@ Functions
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Path Independence](../index.md)
+- [Models](../index.md)
+- [Path Constructors](../index.md)

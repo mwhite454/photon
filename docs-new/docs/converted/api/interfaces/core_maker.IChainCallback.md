@@ -1,8 +1,25 @@
 ---
+ai_summary: IChainCallback | Photon
+category: API Reference
+description: IChainCallback | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- ichaincallback
+- paths
+- photon
+primary_topic: chains
+related:
+- Chain Theory
+- Breaking
+- Routes
+source: docs/docs/api/interfaces/core_core.IChainCallback.html
+tags:
+- intermediate
+- api-reference
+- chains
 title: IChainCallback | Photon
-source: docs/docs/api/interfaces/core_maker.IChainCallback.html
 ---
-
 IChainCallback | Photon
 
 [Photon](../index.md)
@@ -12,7 +29,7 @@ IChainCallback | Photon
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.md)
+* [core/maker](../modules/core_core.md)
 * IChainCallback
 
 # Interface IChainCallback
@@ -20,18 +37,18 @@ Preparing search index...
 Callback to model.findChains() with resulting array of chains and unchained paths.
 
 * IChainCallback(
-      chains: [IChain](core_maker.IChain.md)[],
-      loose: [IWalkPath](core_maker.IWalkPath.md)[],
+      chains: [IChain](core_core.IChain.md)[],
+      loose: [IWalkPath](core_core.IWalkPath.md)[],
       layer: string,
-      ignored?: [IWalkPath](core_maker.IWalkPath.md)[],
+      ignored?: [IWalkPath](core_core.IWalkPath.md)[],
   ): void
 
   #### Parameters
 
-  + chains: [IChain](core_maker.IChain.md)[]
-  + loose: [IWalkPath](core_maker.IWalkPath.md)[]
+  + chains: [IChain](core_core.IChain.md)[]
+  + loose: [IWalkPath](core_core.IWalkPath.md)[]
   + layer: string
-  + `Optional`ignored: [IWalkPath](core_maker.IWalkPath.md)[]
+  + `Optional`ignored: [IWalkPath](core_core.IWalkPath.md)[]
 
   #### Returns void
 
@@ -51,3 +68,9 @@ ThemeOSLightDark
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Chain Theory](../index.md)
+- [Breaking](../index.md)
+- [Routes](../index.md)

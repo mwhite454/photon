@@ -20,5 +20,5 @@ export interface DeletedPathInfo extends IPath {
 export declare function trackDeletedPath(container: {
     paths: Record<string, IPath>;
 }, deletedPath: IPath, pathId: string, reason: string, routeKey?: string): void;
-export declare function pathBoundingBox(pathContext: IPath, offset?: IPoint): import("./maker.js").IMeasure;
+export declare function pathBoundingBox(pathContext: IPath, offset?: IPoint): import("./core.js").IMeasure;
 export declare function findPointsOnPath(points: IPoint[], pathContext: IPath, tolerance?: number): IPoint[];

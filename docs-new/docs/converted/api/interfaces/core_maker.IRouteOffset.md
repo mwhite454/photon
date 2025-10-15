@@ -1,8 +1,20 @@
 ---
+ai_summary: IRouteOffset | Photon
+category: API Reference
+description: IRouteOffset | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- irouteoffset
+- photon
+primary_topic: routes
+source: docs/docs/api/interfaces/core_core.IRouteOffset.html
+tags:
+- intermediate
+- api-reference
+- routes
 title: IRouteOffset | Photon
-source: docs/docs/api/interfaces/core_maker.IRouteOffset.html
 ---
-
 IRouteOffset | Photon
 
 [Photon](../index.md)
@@ -12,7 +24,7 @@ IRouteOffset | Photon
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.md)
+* [core/maker](../modules/core_core.md)
 * IRouteOffset
 
 # Interface IRouteOffset
@@ -29,8 +41,8 @@ interface IRouteOffset {
 #### Hierarchy ([View Summary](../hierarchy.md#core/maker.IRouteOffset))
 
 * IRouteOffset
-  + [IWalkPath](core_maker.IWalkPath.md)
-  + [IWalkModel](core_maker.IWalkModel.md)
+  + [IWalkPath](core_core.IWalkPath.md)
+  + [IWalkModel](core_core.IWalkModel.md)
 
 * Defined in [core/maker.ts:394](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L394)
 

@@ -1,8 +1,21 @@
 ---
-title: Arc | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- drawing
+- paths
+- photon
+primary_topic: arcs
 source: docs/docs/api/classes/core_paths.Arc.html
+tags:
+- intermediate
+- api-reference
+- arcs
+title: Arc | Photon
 ---
-
 Arc | Photon
 
 [Photon](../index.md)

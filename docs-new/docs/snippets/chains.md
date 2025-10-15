@@ -1,8 +1,35 @@
 ---
-title: Chains
+ai_summary: You may also wish to find paths that are not part of a chain. This will
+  require you to pass a callback function
+category: Working with Chains
+description: You may also wish to find paths that are not part of a chain. This will
+  require you to pass a callback function
+difficulty: intermediate
+keywords:
+- chains
+- export
+- javascript
+- models
+- paths
+- svg
+- working-with-chains
+prerequisites:
+- Basic Drawing
+- Intermediate Drawing
+primary_topic: chains
+related:
+- Breaking
+- Routes
+- Basic Drawing
+- Intermediate Drawing
+- Chain Theory
 source: docs/_snippets/chains.html
+tags:
+- intermediate
+- working-with-chains
+- chains
+title: Chains
 ---
-
 You may also wish to find paths that are **not** part of a chain. This will require you to pass a callback function
 which will be passed these three parameters:
 
@@ -36,3 +63,11 @@ m.model.findChains(x, (chains, loose, layer) => {
 document.write(`found ${chains}`.length + ` chain(s) and ${loose}`.length + ` loose path(s) on layer ${layer}`);
 });
 ```
+
+## Related Topics
+
+- [Breaking](../index.md)
+- [Routes](../index.md)
+- [Basic Drawing](../index.md)
+- [Intermediate Drawing](../index.md)
+- [Chain Theory](../index.md)

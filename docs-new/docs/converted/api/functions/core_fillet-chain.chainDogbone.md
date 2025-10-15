@@ -1,8 +1,24 @@
 ---
-title: chainDogbone | Photon
+ai_summary: chainDogbone | Photon
+category: API Reference
+description: chainDogbone | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- chaindogbone
+- photon
+primary_topic: chains
+related:
+- Chain Theory
+- Breaking
+- Routes
 source: docs/docs/api/functions/core_fillet-chain.chainDogbone.html
+tags:
+- intermediate
+- api-reference
+- chains
+title: chainDogbone | Photon
 ---
-
 chainDogbone | Photon
 
 [Photon](../index.md)
@@ -18,13 +34,13 @@ Preparing search index...
 # Function chainDogbone
 
 * chainDogbone(
-      chainToFillet: [IChain](../interfaces/core_maker.IChain.md),
+      chainToFillet: [IChain](../interfaces/core_core.IChain.md),
       filletSpec: number | { left?: number; right?: number },
   ): [IModel](../interfaces/core_schema.IModel.md)
 
   #### Parameters
 
-  + chainToFillet: [IChain](../interfaces/core_maker.IChain.md)
+  + chainToFillet: [IChain](../interfaces/core_core.IChain.md)
   + filletSpec: number | { left?: number; right?: number }
 
   #### Returns [IModel](../interfaces/core_schema.IModel.md)
@@ -45,3 +61,9 @@ ThemeOSLightDark
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Chain Theory](../index.md)
+- [Breaking](../index.md)
+- [Routes](../index.md)

@@ -1,5 +1,5 @@
 import { IPoint, IPath, IPathLine, IPathCircle, IPathArc, IPathBezierSeed, IPathArcInBezierCurve, IModel } from './schema.js';
-import { pathType } from './maker.js';
+import { pathType } from './core.js';
 import * as point from './point.js';
 import * as angle from './angle.js';
 

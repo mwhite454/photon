@@ -1,8 +1,24 @@
 ---
-title: IChainLink | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- ichainlink
+- photon
+primary_topic: chains
+related:
+- Chain Theory
+- Breaking
+- Routes
 source: docs/docs/api/interfaces/core_angle.IChainLink.html
+tags:
+- intermediate
+- api-reference
+- chains
+title: IChainLink | Photon
 ---
-
 IChainLink | Photon
 
 [Photon](../index.md)
@@ -65,3 +81,9 @@ Properties
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Chain Theory](../index.md)
+- [Breaking](../index.md)
+- [Routes](../index.md)

@@ -1,8 +1,20 @@
 ---
-title: core/xml | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- core
+- photon
+primary_topic: core/xml-|-photon
 source: docs/docs/api/modules/core_xml.html
+tags:
+- intermediate
+- api-reference
+- core/xml-|-photon
+title: core/xml | Photon
 ---
-
 core/xml | Photon
 
 [Photon](../index.md)

@@ -1,8 +1,29 @@
 ---
-title: Cascading Functions
+ai_summary: When calling a function, you can pass its output directly into another
+  function. This is called cascading.
+category: General
+description: When calling a function, you can pass its output directly into another
+  function. This is called cascading.
+difficulty: intermediate
+keywords:
+- cad
+- cascading
+- drawing
+- export
+- functions
+- general
+- javascript
+- models
+- photon
+- photon/core
+primary_topic: cascading-functions
 source: docs/_snippets/cascading-functions.html
+tags:
+- cascading-functions
+- general
+- intermediate
+title: Cascading Functions
 ---
-
 When calling a function, you can pass its output directly into another function. This is called cascading.
 This lets you do multiple operations in one statement. Here we will center, rotate and move a square:
 ```javascript

@@ -1,8 +1,20 @@
 ---
-title: alterLength | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- alterlength
+- api-reference
+- photon
+primary_topic: alterlength-|-photon
 source: docs/docs/api/functions/core_path.alterLength.html
+tags:
+- intermediate
+- api-reference
+- alterlength-|-photon
+title: alterLength | Photon
 ---
-
 alterLength | Photon
 
 [Photon](../index.md)

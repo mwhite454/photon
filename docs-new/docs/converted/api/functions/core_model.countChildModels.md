@@ -1,8 +1,25 @@
 ---
-title: countChildModels | Photon
+ai_summary: countChildModels | Photon
+category: API Reference
+description: countChildModels | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- countchildmodels
+- models
+- photon
+primary_topic: models
+related:
+- Modeling
+- Paths
+- Built-in Models
 source: docs/docs/api/functions/core_model.countChildModels.html
+tags:
+- intermediate
+- api-reference
+- models
+title: countChildModels | Photon
 ---
-
 countChildModels | Photon
 
 [Photon](../index.md)
@@ -47,3 +64,9 @@ ThemeOSLightDark
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Modeling](../index.md)
+- [Paths](../index.md)
+- [Built-in Models](../index.md)

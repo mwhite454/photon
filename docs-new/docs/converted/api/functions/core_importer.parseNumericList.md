@@ -1,8 +1,21 @@
 ---
-title: parseNumericList | Photon
+ai_summary: parseNumericList | Photon
+category: API Reference
+description: parseNumericList | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- javascript
+- parsenumericlist
+- photon
+primary_topic: parsenumericlist-|-photon
 source: docs/docs/api/functions/core_importer.parseNumericList.html
+tags:
+- parsenumericlist-|-photon
+- api-reference
+- intermediate
+title: parseNumericList | Photon
 ---
-
 parseNumericList | Photon
 
 [Photon](../index.md)

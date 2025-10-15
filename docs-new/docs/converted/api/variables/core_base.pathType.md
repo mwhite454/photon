@@ -1,8 +1,24 @@
 ---
-title: pathType | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- pathtype
+- photon
+primary_topic: paths
+related:
+- Path Independence
+- Models
+- Path Constructors
 source: docs/docs/api/variables/core_base.pathType.html
+tags:
+- paths
+- api-reference
+- intermediate
+title: pathType | Photon
 ---
-
 pathType | Photon
 
 [Photon](../index.md)
@@ -47,3 +63,9 @@ ThemeOSLightDark
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Path Independence](../index.md)
+- [Models](../index.md)
+- [Path Constructors](../index.md)

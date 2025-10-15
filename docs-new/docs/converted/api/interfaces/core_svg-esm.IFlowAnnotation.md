@@ -1,8 +1,21 @@
 ---
-title: IFlowAnnotation | Photon
+ai_summary: IFlowAnnotation | Photon
+category: API Reference
+description: IFlowAnnotation | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- iflowannotation
+- photon
+- svg
+primary_topic: iflowannotation-|-photon
 source: docs/docs/api/interfaces/core_svg-esm.IFlowAnnotation.html
+tags:
+- intermediate
+- api-reference
+- iflowannotation-|-photon
+title: IFlowAnnotation | Photon
 ---
-
 IFlowAnnotation | Photon
 
 [Photon](../index.md)

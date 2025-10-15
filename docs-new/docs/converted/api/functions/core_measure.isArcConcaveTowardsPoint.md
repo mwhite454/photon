@@ -1,8 +1,20 @@
 ---
-title: isArcConcaveTowardsPoint | Photon
+ai_summary: isArcConcaveTowardsPoint | Photon
+category: API Reference
+description: isArcConcaveTowardsPoint | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- isarcconcavetowardspoint
+- photon
+primary_topic: arcs
 source: docs/docs/api/functions/core_measure.isArcConcaveTowardsPoint.html
+tags:
+- intermediate
+- api-reference
+- arcs
+title: isArcConcaveTowardsPoint | Photon
 ---
-
 isArcConcaveTowardsPoint | Photon
 
 [Photon](../index.md)

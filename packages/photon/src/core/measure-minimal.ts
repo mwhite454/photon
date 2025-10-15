@@ -3,8 +3,8 @@
 // Full measure.ts will be converted later with all functions
 
 import { IPoint, IPath, IPathLine, IPathCircle, IPathArc, IPathBezierSeed, IModel } from './schema.js';
-import { round, pathType } from './maker.js';
-import type { IMeasure, IMeasureWithCenter, ISlope } from './maker.js';
+import { round, pathType } from './core.js';
+import type { IMeasure, IMeasureWithCenter, ISlope } from './core.js';
 import * as angle from './angle.js';
 import * as point from './point.js';
 import * as path from './path.js';

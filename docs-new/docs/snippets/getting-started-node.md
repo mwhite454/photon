@@ -1,9 +1,31 @@
 ---
-title: Getting Started Node
+ai_summary: 'To depend on Maker.js, run this from the command line:'
+category: Getting Started
+description: 'To depend on Maker.js, run this from the command line:'
+difficulty: beginner
+keywords:
+- export
+- getting
+- getting-started
+- javascript
+- models
+- node
+- paths
+- photon
+- photon/core
+- started
+primary_topic: getting-started-node
 source: docs/_snippets/getting-started-node.html
+tags:
+- getting-started-node
+- getting-started
+- beginner
+title: Getting Started Node
 ---
-
 To depend on Maker.js, run this from the command line:
+
+
+## Examples
 
 ```bash
 npm install makerjs --save

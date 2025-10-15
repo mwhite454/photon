@@ -1,9 +1,39 @@
 ---
-title: Importing Svg Path Data
+ai_summary: 'SVG Path data is the value of the d attribute of a path element. For
+  example, given this SVG:'
+category: Importing
+description: 'SVG Path data is the value of the d attribute of a path element. For
+  example, given this SVG:'
+difficulty: advanced
+keywords:
+- data
+- drawing
+- importing
+- javascript
+- path
+- paths
+- photon
+- photon/core
+- svg
+prerequisites:
+- Basic Drawing
+primary_topic: paths
+related:
+- Path Independence
+- Models
+- Basic Drawing
+- Path Constructors
 source: docs/_snippets/importing-svg-path-data.html
+tags:
+- paths
+- advanced
+- importing
+title: Importing Svg Path Data
 ---
-
 SVG Path data is the value of the **d** attribute of a **path** element. For example, given this SVG:
+
+
+## Examples
 
 ```html
 
@@ -37,3 +67,10 @@ import { importer } from 'photon/core';
 const pathData = "M 95 35 L 59 35 L 48 0 L 36 35 L 0 35 L 29 56 L 18 90 L 48 69 L 77 90 L 66 56 Z";
 const model = importer.fromSVGPathData(pathData);
 ```
+
+## Related Topics
+
+- [Path Independence](../index.md)
+- [Models](../index.md)
+- [Basic Drawing](../index.md)
+- [Path Constructors](../index.md)

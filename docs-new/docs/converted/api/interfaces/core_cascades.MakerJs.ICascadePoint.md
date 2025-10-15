@@ -1,8 +1,21 @@
 ---
-title: ICascadePoint | Photon
+ai_summary: ICascadePoint | Photon
+category: API Reference
+description: ICascadePoint | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- cad
+- icascadepoint
+- photon
+primary_topic: icascadepoint-|-photon
 source: docs/docs/api/interfaces/core_cascades.MakerJs.ICascadePoint.html
+tags:
+- intermediate
+- api-reference
+- icascadepoint-|-photon
+title: ICascadePoint | Photon
 ---
-
 ICascadePoint | Photon
 
 [Photon](../index.md)

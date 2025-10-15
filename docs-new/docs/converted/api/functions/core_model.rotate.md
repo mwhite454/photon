@@ -1,8 +1,21 @@
 ---
-title: rotate | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- cad
+- photon
+- rotate
+primary_topic: rotating
 source: docs/docs/api/functions/core_model.rotate.html
+tags:
+- intermediate
+- api-reference
+- rotating
+title: rotate | Photon
 ---
-
 rotate | Photon
 
 [Photon](../index.md)

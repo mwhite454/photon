@@ -1,8 +1,20 @@
 ---
-title: mirror | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- mirror
+- photon
+primary_topic: mirroring
 source: docs/docs/api/functions/core_point.mirror.html
+tags:
+- mirroring
+- api-reference
+- intermediate
+title: mirror | Photon
 ---
-
 mirror | Photon
 
 [Photon](../index.md)

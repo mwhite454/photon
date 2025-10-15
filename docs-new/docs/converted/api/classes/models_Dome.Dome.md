@@ -1,8 +1,22 @@
 ---
-title: Dome | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- dome
+- models
+- paths
+- photon
+primary_topic: dome-|-photon
 source: docs/docs/api/classes/models_Dome.Dome.html
+tags:
+- intermediate
+- api-reference
+- dome-|-photon
+title: Dome | Photon
 ---
-
 Dome | Photon
 
 [Photon](../index.md)

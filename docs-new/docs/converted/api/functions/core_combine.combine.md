@@ -1,8 +1,20 @@
 ---
-title: combine | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- combine
+- photon
+primary_topic: combining
 source: docs/docs/api/functions/core_combine.combine.html
+tags:
+- intermediate
+- api-reference
+- combining
+title: combine | Photon
 ---
-
 combine | Photon
 
 [Photon](../index.md)
@@ -24,7 +36,7 @@ Preparing search index...
       includeAOutsideB?: boolean,
       includeBInsideA?: boolean,
       includeBOutsideA?: boolean,
-      options?: [ICombineOptions](../interfaces/core_maker.ICombineOptions.md),
+      options?: [ICombineOptions](../interfaces/core_core.ICombineOptions.md),
   ): [IModel](../interfaces/core_schema.IModel.md)
 
   #### Parameters
@@ -35,7 +47,7 @@ Preparing search index...
   + includeAOutsideB: boolean = true
   + includeBInsideA: boolean = false
   + includeBOutsideA: boolean = true
-  + `Optional`options: [ICombineOptions](../interfaces/core_maker.ICombineOptions.md)
+  + `Optional`options: [ICombineOptions](../interfaces/core_core.ICombineOptions.md)
 
   #### Returns [IModel](../interfaces/core_schema.IModel.md)
 

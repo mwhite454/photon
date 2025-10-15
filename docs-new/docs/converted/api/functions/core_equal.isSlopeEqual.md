@@ -1,8 +1,20 @@
 ---
-title: isSlopeEqual | Photon
+ai_summary: isSlopeEqual | Photon
+category: API Reference
+description: isSlopeEqual | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- isslopeequal
+- photon
+primary_topic: isslopeequal-|-photon
 source: docs/docs/api/functions/core_equal.isSlopeEqual.html
+tags:
+- intermediate
+- api-reference
+- isslopeequal-|-photon
+title: isSlopeEqual | Photon
 ---
-
 isSlopeEqual | Photon
 
 [Photon](../index.md)
@@ -17,14 +29,14 @@ Preparing search index...
 
 # Function isSlopeEqual
 
-* isSlopeEqual(slopeA: [ISlope](../interfaces/core_maker.ISlope.md), slopeB: [ISlope](../interfaces/core_maker.ISlope.md)): boolean
+* isSlopeEqual(slopeA: [ISlope](../interfaces/core_core.ISlope.md), slopeB: [ISlope](../interfaces/core_core.ISlope.md)): boolean
 
   Check for slope equality.
 
   #### Parameters
 
-  + slopeA: [ISlope](../interfaces/core_maker.ISlope.md)
-  + slopeB: [ISlope](../interfaces/core_maker.ISlope.md)
+  + slopeA: [ISlope](../interfaces/core_core.ISlope.md)
+  + slopeB: [ISlope](../interfaces/core_core.ISlope.md)
 
   #### Returns boolean
 

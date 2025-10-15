@@ -1,8 +1,20 @@
 ---
+ai_summary: IMeasureWithCenter | Photon
+category: API Reference
+description: IMeasureWithCenter | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- imeasurewithcenter
+- photon
+primary_topic: measuring
+source: docs/docs/api/interfaces/core_core.IMeasureWithCenter.html
+tags:
+- intermediate
+- api-reference
+- measuring
 title: IMeasureWithCenter | Photon
-source: docs/docs/api/interfaces/core_maker.IMeasureWithCenter.html
 ---
-
 IMeasureWithCenter | Photon
 
 [Photon](../index.md)
@@ -12,7 +24,7 @@ IMeasureWithCenter | Photon
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.md)
+* [core/maker](../modules/core_core.md)
 * IMeasureWithCenter
 
 # Interface IMeasureWithCenter
@@ -29,7 +41,7 @@ interface IMeasureWithCenter {
 
 #### Hierarchy ([View Summary](../hierarchy.md#core/maker.IMeasureWithCenter))
 
-* [IMeasure](core_maker.IMeasure.md)
+* [IMeasure](core_core.IMeasure.md)
   + IMeasureWithCenter
 
 * Defined in [core/maker.ts:162](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L162)
@@ -62,7 +74,7 @@ height: number
 
 high: [IPoint](core_schema.IPoint.md)
 
-Inherited from [IMeasure](core_maker.IMeasure.md).[high](core_maker.IMeasure.md#high)
+Inherited from [IMeasure](core_core.IMeasure.md).[high](core_core.IMeasure.md#high)
 
 * Defined in [core/maker.ts:158](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L158)
 
@@ -70,7 +82,7 @@ Inherited from [IMeasure](core_maker.IMeasure.md).[high](core_maker.IMeasure.md#
 
 low: [IPoint](core_schema.IPoint.md)
 
-Inherited from [IMeasure](core_maker.IMeasure.md).[low](core_maker.IMeasure.md#low)
+Inherited from [IMeasure](core_core.IMeasure.md).[low](core_core.IMeasure.md#low)
 
 * Defined in [core/maker.ts:157](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L157)
 

@@ -1,8 +1,20 @@
 ---
-title: addTo | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- addto
+- api-reference
+- photon
+primary_topic: addto-|-photon
 source: docs/docs/api/functions/core_path.addTo.html
+tags:
+- intermediate
+- api-reference
+- addto-|-photon
+title: addTo | Photon
 ---
-
 addTo | Photon
 
 [Photon](../index.md)

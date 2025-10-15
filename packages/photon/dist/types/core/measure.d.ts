@@ -1,5 +1,5 @@
 import type { IModel, IPath, IPathArc, IPathBezierSeed, IPathLine, IPoint } from './schema.js';
-import type { IMeasure, IMeasureWithCenter, IMeasureMap, ISlope, IBoundingHex, IMeasurePointInsideOptions, IChain } from './maker.js';
+import type { IMeasure, IMeasureWithCenter, IMeasureMap, ISlope, IBoundingHex, IMeasurePointInsideOptions, IChain } from './core.js';
 /**
  * Increase a measurement by an additional measurement.
  *

@@ -1,9 +1,30 @@
 ---
-title: Routes
+ai_summary: 'We know that we are able to refer to deep objects by using the dot notation:'
+category: General
+description: 'We know that we are able to refer to deep objects by using the dot notation:'
+difficulty: intermediate
+keywords:
+- export
+- general
+- javascript
+- models
+- paths
+- photon
+- photon/core
+- routes
+- svg
+primary_topic: routes
 source: docs/_snippets/routes.html
+tags:
+- intermediate
+- general
+- routes
+title: Routes
 ---
-
 We know that we are able to refer to deep objects by using the dot notation:
+
+
+## Examples
 
 ```javascript
 const bottomRight\_bolt = plate.models.bolts.paths.BottomRight\_bolt;

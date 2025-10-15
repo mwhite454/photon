@@ -1,8 +1,25 @@
 ---
-title: IPathBezierSeed | Photon
+ai_summary: IPathBezierSeed | Photon
+category: API Reference
+description: IPathBezierSeed | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- ipathbezierseed
+- models
+- photon
+primary_topic: paths
+related:
+- Path Independence
+- Models
+- Path Constructors
 source: docs/docs/api/interfaces/core_schema.IPathBezierSeed.html
+tags:
+- paths
+- api-reference
+- intermediate
+title: IPathBezierSeed | Photon
 ---
-
 IPathBezierSeed | Photon
 
 [Photon](../index.md)
@@ -128,3 +145,9 @@ Properties
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Path Independence](../index.md)
+- [Models](../index.md)
+- [Path Constructors](../index.md)

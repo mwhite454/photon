@@ -1,8 +1,21 @@
 ---
-title: center | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- cad
+- center
+- photon
+primary_topic: center-|-photon
 source: docs/docs/api/functions/core_model.center.html
+tags:
+- intermediate
+- api-reference
+- center-|-photon
+title: center | Photon
 ---
-
 center | Photon
 
 [Photon](../index.md)

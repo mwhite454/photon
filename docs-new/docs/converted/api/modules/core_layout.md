@@ -1,8 +1,27 @@
 ---
-title: core/layout | Photon
+ai_summary: Preparing search index...
+category: Layout
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- core
+- layout
+- photon
+prerequisites:
+- Intermediate Drawing
+primary_topic: layouts
+related:
+- Layout on Path
+- Layout on Chain
+- Repeating Layouts
+- Intermediate Drawing
 source: docs/docs/api/modules/core_layout.html
+tags:
+- intermediate
+- layout
+- layouts
+title: core/layout | Photon
 ---
-
 core/layout | Photon
 
 [Photon](../index.md)
@@ -15,6 +34,13 @@ Preparing search index...
 * core/layout
 
 # Module core/layout
+
+## Prerequisites
+
+Before working with this feature, you should be familiar with:
+
+- [Intermediate Drawing](../index.md)
+
 
 ## Functions
 
@@ -61,3 +87,10 @@ Functions
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Layout on Path](../index.md)
+- [Layout on Chain](../index.md)
+- [Repeating Layouts](../index.md)
+- [Intermediate Drawing](../index.md)

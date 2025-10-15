@@ -1,11 +1,41 @@
 ---
-title: Layout On Path
+ai_summary: You can use a path as a layout guide for a row of child models within
+  a model.
+category: Layout
+description: You can use a path as a layout guide for a row of child models within
+  a model.
+difficulty: intermediate
+keywords:
+- export
+- javascript
+- layout
+- models
+- path
+- paths
+- photon
+- photon/core
+- svg
+prerequisites:
+- Intermediate Drawing
+primary_topic: paths
+related:
+- Path Independence
+- Models
+- Path Constructors
+- Intermediate Drawing
 source: docs/_snippets/layout-on-path.html
+tags:
+- paths
+- layout
+- intermediate
+title: Layout On Path
 ---
-
 You can use a path as a layout guide for a row of child models within a model.
 Call [layout.childrenOnPath(parentModel: Model, onPath: Path)](/docs/api/modules/layout.md#childrenonpath),
 the x-axis will be projected onto your onPath:
+
+## Examples
+
 ```javascript
 //render a row of squares on a path
 import { exporter, layout, models, paths } from 'photon/core';
@@ -126,3 +156,10 @@ document.write(svg);
 #### Laying out text
 
 Layout on a path works well with fonts and text. [See an example here](/playground/index.md?script=text-on-path).
+
+## Related Topics
+
+- [Path Independence](../index.md)
+- [Models](../index.md)
+- [Path Constructors](../index.md)
+- [Intermediate Drawing](../index.md)

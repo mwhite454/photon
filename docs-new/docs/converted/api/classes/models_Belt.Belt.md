@@ -1,8 +1,22 @@
 ---
-title: Belt | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- belt
+- models
+- paths
+- photon
+primary_topic: belt-|-photon
 source: docs/docs/api/classes/models_Belt.Belt.html
+tags:
+- intermediate
+- api-reference
+- belt-|-photon
+title: Belt | Photon
 ---
-
 Belt | Photon
 
 [Photon](../index.md)

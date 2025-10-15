@@ -1,8 +1,23 @@
 ---
-title: ConnectTheDots | Photon
+ai_summary: ConnectTheDots | Photon
+category: API Reference
+description: ConnectTheDots | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- connectthedots
+- javascript
+- models
+- paths
+- photon
+primary_topic: connectthedots-|-photon
 source: docs/docs/api/classes/models_ConnectTheDots.ConnectTheDots.html
+tags:
+- intermediate
+- api-reference
+- connectthedots-|-photon
+title: ConnectTheDots | Photon
 ---
-
 ConnectTheDots | Photon
 
 [Photon](../index.md)

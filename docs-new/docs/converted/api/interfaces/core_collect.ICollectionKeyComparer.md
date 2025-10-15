@@ -1,8 +1,20 @@
 ---
-title: ICollectionKeyComparer | Photon
+ai_summary: ICollectionKeyComparer | Photon
+category: API Reference
+description: ICollectionKeyComparer | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- icollectionkeycomparer
+- photon
+primary_topic: icollectionkeycomparer-|-photon
 source: docs/docs/api/interfaces/core_collect.ICollectionKeyComparer.html
+tags:
+- intermediate
+- api-reference
+- icollectionkeycomparer-|-photon
+title: ICollectionKeyComparer | Photon
 ---
-
 ICollectionKeyComparer | Photon
 
 [Photon](../index.md)

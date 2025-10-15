@@ -1,8 +1,20 @@
 ---
-title: isBetweenArcAngles | Photon
+ai_summary: isBetweenArcAngles | Photon
+category: API Reference
+description: isBetweenArcAngles | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- isbetweenarcangles
+- photon
+primary_topic: arcs
 source: docs/docs/api/functions/core_measure.isBetweenArcAngles.html
+tags:
+- intermediate
+- api-reference
+- arcs
+title: isBetweenArcAngles | Photon
 ---
-
 isBetweenArcAngles | Photon
 
 [Photon](../index.md)

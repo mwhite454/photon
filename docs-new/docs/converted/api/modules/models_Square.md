@@ -1,8 +1,25 @@
 ---
-title: models/Square | Photon
+ai_summary: models/Square | Photon
+category: API Reference
+description: models/Square | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- models
+- photon
+- square
+primary_topic: models
+related:
+- Modeling
+- Paths
+- Built-in Models
 source: docs/docs/api/modules/models_Square.html
+tags:
+- intermediate
+- api-reference
+- models
+title: models/Square | Photon
 ---
-
 models/Square | Photon
 
 [Photon](../index.md)
@@ -40,3 +57,9 @@ Classes
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Modeling](../index.md)
+- [Paths](../index.md)
+- [Built-in Models](../index.md)

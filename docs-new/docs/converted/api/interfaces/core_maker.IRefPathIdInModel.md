@@ -1,8 +1,24 @@
 ---
+ai_summary: IRefPathIdInModel | Photon
+category: API Reference
+description: IRefPathIdInModel | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- irefpathidinmodel
+- photon
+primary_topic: paths
+related:
+- Path Independence
+- Models
+- Path Constructors
+source: docs/docs/api/interfaces/core_core.IRefPathIdInModel.html
+tags:
+- paths
+- api-reference
+- intermediate
 title: IRefPathIdInModel | Photon
-source: docs/docs/api/interfaces/core_maker.IRefPathIdInModel.html
 ---
-
 IRefPathIdInModel | Photon
 
 [Photon](../index.md)
@@ -12,7 +28,7 @@ IRefPathIdInModel | Photon
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.md)
+* [core/maker](../modules/core_core.md)
 * IRefPathIdInModel
 
 # Interface IRefPathIdInModel
@@ -27,7 +43,7 @@ interface IRefPathIdInModel {
 #### Hierarchy ([View Summary](../hierarchy.md#core/maker.IRefPathIdInModel))
 
 * IRefPathIdInModel
-  + [IWalkPath](core_maker.IWalkPath.md)
+  + [IWalkPath](core_core.IWalkPath.md)
 
 * Defined in [core/maker.ts:386](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L386)
 
@@ -72,3 +88,9 @@ Properties
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Path Independence](../index.md)
+- [Models](../index.md)
+- [Path Constructors](../index.md)

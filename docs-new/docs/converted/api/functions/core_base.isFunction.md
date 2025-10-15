@@ -1,8 +1,20 @@
 ---
-title: isFunction | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- isfunction
+- photon
+primary_topic: isfunction-|-photon
 source: docs/docs/api/functions/core_base.isFunction.html
+tags:
+- intermediate
+- api-reference
+- isfunction-|-photon
+title: isFunction | Photon
 ---
-
 isFunction | Photon
 
 [Photon](../index.md)

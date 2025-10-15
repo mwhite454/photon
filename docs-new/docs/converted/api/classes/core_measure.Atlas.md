@@ -1,8 +1,21 @@
 ---
-title: Atlas | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- atlas
+- models
+- photon
+primary_topic: atlas-|-photon
 source: docs/docs/api/classes/core_measure.Atlas.html
+tags:
+- intermediate
+- api-reference
+- atlas-|-photon
+title: Atlas | Photon
 ---
-
 Atlas | Photon
 
 [Photon](../index.md)
@@ -80,7 +93,7 @@ The model to measure.
 
 ### modelMap
 
-modelMap: [IMeasureMap](../interfaces/core_maker.IMeasureMap.md) = {}
+modelMap: [IMeasureMap](../interfaces/core_core.IMeasureMap.md) = {}
 
 Map of model measurements, mapped by routeKey.
 
@@ -96,7 +109,7 @@ Flag that models have been measured.
 
 ### pathMap
 
-pathMap: [IMeasureMap](../interfaces/core_maker.IMeasureMap.md) = {}
+pathMap: [IMeasureMap](../interfaces/core_core.IMeasureMap.md) = {}
 
 Map of path measurements, mapped by routeKey.
 

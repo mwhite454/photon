@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  <!-- Include structured data for AI agents and search engines -->
+  {% include "partials/structured-data.html" %}
+  
+  <!-- Open Graph meta tags for social sharing -->
+  {% if page and page.meta %}
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:description" content="{{ page.meta.description | default(page.meta.ai_summary, true) | default('', true) }}">
+  <meta property="og:url" content="{{ page.canonical_url }}">
+  {% if page.meta.keywords %}
+  <meta name="keywords" content="{{ page.meta.keywords | join(', ') }}">
+  {% endif %}
+  {% endif %}
+  
+  <!-- Additional meta tags for AI agents -->
+  {% if page and page.meta %}
+  {% if page.meta.primary_topic %}
+  <meta name="topic" content="{{ page.meta.primary_topic }}">
+  {% endif %}
+  {% if page.meta.difficulty %}
+  <meta name="difficulty" content="{{ page.meta.difficulty }}">
+  {% endif %}
+  {% if page.meta.category %}
+  <meta name="category" content="{{ page.meta.category }}">
+  {% endif %}
+  {% endif %}
+{% endblock %}

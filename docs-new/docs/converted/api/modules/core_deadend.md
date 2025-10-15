@@ -1,8 +1,21 @@
 ---
-title: core/deadend | Photon
+ai_summary: core/deadend | Photon
+category: API Reference
+description: core/deadend | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- core
+- deadend
+- photon
+primary_topic: core/deadend-|-photon
 source: docs/docs/api/modules/core_deadend.html
+tags:
+- core/deadend-|-photon
+- api-reference
+- intermediate
+title: core/deadend | Photon
 ---
-
 core/deadend | Photon
 
 [Photon](../index.md)

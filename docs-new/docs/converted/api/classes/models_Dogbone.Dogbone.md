@@ -1,8 +1,22 @@
 ---
-title: Dogbone | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- dogbone
+- models
+- paths
+- photon
+primary_topic: dogbones
 source: docs/docs/api/classes/models_Dogbone.Dogbone.html
+tags:
+- intermediate
+- api-reference
+- dogbones
+title: Dogbone | Photon
 ---
-
 Dogbone | Photon
 
 [Photon](../index.md)

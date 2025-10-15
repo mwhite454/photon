@@ -1,8 +1,31 @@
 ---
-title: Models
+ai_summary: 'Models are the heart of Maker.js. A model is represented by an object
+  with these optional properties:'
+category: General
+description: 'Models are the heart of Maker.js. A model is represented by an object
+  with these optional properties:'
+difficulty: advanced
+keywords:
+- export
+- general
+- javascript
+- models
+- paths
+- photon
+- photon/core
+- svg
+primary_topic: models
+related:
+- Modeling
+- Paths
+- Built-in Models
 source: docs/_snippets/models.html
+tags:
+- advanced
+- general
+- models
+title: Models
 ---
-
 Models are the heart of Maker.js. A model is represented by an object with these optional properties:
 
 * **origin**: point
@@ -10,6 +33,9 @@ Models are the heart of Maker.js. A model is represented by an object with these
 * **models**: object map of models
 
 Let's look at **paths** first, using the example above.
+
+
+## Examples
 
 ```javascript
 //render a line and circle in a model
@@ -118,3 +144,9 @@ const svg = exporter.toSVG(model);
 document.write(svg);
 ```
 *(additional optional properties covered in advanced lessons)*
+
+## Related Topics
+
+- [Modeling](../index.md)
+- [Paths](../index.md)
+- [Built-in Models](../index.md)

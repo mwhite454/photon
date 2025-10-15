@@ -1,8 +1,22 @@
 ---
-title: Star | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- models
+- paths
+- photon
+- star
+primary_topic: star-|-photon
 source: docs/docs/api/classes/models_Star.Star.html
+tags:
+- star-|-photon
+- api-reference
+- intermediate
+title: Star | Photon
 ---
-
 Star | Photon
 
 [Photon](../index.md)

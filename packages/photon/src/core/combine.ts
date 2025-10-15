@@ -13,7 +13,7 @@ import {
     IPathIntersectionOptions,
     IPathRemoved,
     IIsPointOnPathOptions
-} from './maker.js';
+} from './core.js';
 import * as path from './path.js';
 import * as point from './point.js';
 import { addPath, getSimilarPathId, walk } from './model.js';

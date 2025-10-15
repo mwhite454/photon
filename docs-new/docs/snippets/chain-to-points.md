@@ -1,11 +1,36 @@
 ---
-title: Chain To Points
+ai_summary: To get points consistently spaced along a chains, call
+category: General
+description: To get points consistently spaced along a chains, call
+difficulty: intermediate
+keywords:
+- chain
+- export
+- general
+- javascript
+- models
+- photon
+- photon/core
+- points
+- svg
+primary_topic: chains
+related:
+- Chain Theory
+- Breaking
+- Routes
 source: docs/_snippets/chain-to-points.html
+tags:
+- intermediate
+- general
+- chains
+title: Chain To Points
 ---
-
 To get points consistently spaced along a chains, call
 [model.toPoints(chain, distance)](/docs/api/modules/chain.md#topoints)
 passing your chain, and the distance between points:
+
+## Examples
+
 ```javascript
 //convert a round rectangle to points
 import { chain, exporter, model, models } from 'photon/core';
@@ -42,3 +67,9 @@ dots: new models.Holes(1, keyPoints)
 const svg = exporter.toSVG(model);
 document.write(svg);
 ```
+
+## Related Topics
+
+- [Chain Theory](../index.md)
+- [Breaking](../index.md)
+- [Routes](../index.md)

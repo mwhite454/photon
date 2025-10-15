@@ -1,8 +1,20 @@
 ---
-title: isPointEqual | Photon
+ai_summary: isPointEqual | Photon
+category: API Reference
+description: isPointEqual | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- ispointequal
+- photon
+primary_topic: ispointequal-|-photon
 source: docs/docs/api/functions/core_equal.isPointEqual.html
+tags:
+- intermediate
+- api-reference
+- ispointequal-|-photon
+title: isPointEqual | Photon
 ---
-
 isPointEqual | Photon
 
 [Photon](../index.md)

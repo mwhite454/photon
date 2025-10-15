@@ -1,8 +1,20 @@
 ---
-title: environment | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- environment
+- photon
+primary_topic: environment-|-photon
 source: docs/docs/api/variables/core_base.environment.html
+tags:
+- intermediate
+- api-reference
+- environment-|-photon
+title: environment | Photon
 ---
-
 environment | Photon
 
 [Photon](../index.md)

@@ -1,8 +1,22 @@
 ---
-title: core/cascades | Photon
+ai_summary: core/cascades | Photon
+category: API Reference
+description: core/cascades | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- cad
+- cascades
+- core
+- photon
+primary_topic: core/cascades-|-photon
 source: docs/docs/api/modules/core_cascades.html
+tags:
+- intermediate
+- api-reference
+- core/cascades-|-photon
+title: core/cascades | Photon
 ---
-
 core/cascades | Photon
 
 [Photon](../index.md)

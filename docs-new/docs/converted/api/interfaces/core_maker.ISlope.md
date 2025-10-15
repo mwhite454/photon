@@ -1,8 +1,20 @@
 ---
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- islope
+- photon
+primary_topic: islope-|-photon
+source: docs/docs/api/interfaces/core_core.ISlope.html
+tags:
+- intermediate
+- api-reference
+- islope-|-photon
 title: ISlope | Photon
-source: docs/docs/api/interfaces/core_maker.ISlope.html
 ---
-
 ISlope | Photon
 
 [Photon](../index.md)
@@ -12,7 +24,7 @@ ISlope | Photon
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.md)
+* [core/maker](../modules/core_core.md)
 * ISlope
 
 # Interface ISlope

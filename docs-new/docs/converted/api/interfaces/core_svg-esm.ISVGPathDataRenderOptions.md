@@ -1,8 +1,25 @@
 ---
-title: ISVGPathDataRenderOptions | Photon
+ai_summary: ISVGPathDataRenderOptions | Photon
+category: API Reference
+description: ISVGPathDataRenderOptions | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- isvgpathdatarenderoptions
+- photon
+- svg
+primary_topic: paths
+related:
+- Path Independence
+- Models
+- Path Constructors
 source: docs/docs/api/interfaces/core_svg-esm.ISVGPathDataRenderOptions.html
+tags:
+- paths
+- api-reference
+- intermediate
+title: ISVGPathDataRenderOptions | Photon
 ---
-
 ISVGPathDataRenderOptions | Photon
 
 [Photon](../index.md)
@@ -81,3 +98,9 @@ Properties
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Path Independence](../index.md)
+- [Models](../index.md)
+- [Path Constructors](../index.md)

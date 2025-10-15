@@ -1,8 +1,24 @@
 ---
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- cloneobject
+- photon
+primary_topic: cloning
+related:
+- Moving
+- Scaling
+- Rotating
+source: docs/docs/api/functions/core_core.cloneObject.html
+tags:
+- intermediate
+- api-reference
+- cloning
 title: cloneObject | Photon
-source: docs/docs/api/functions/core_maker.cloneObject.html
 ---
-
 cloneObject | Photon
 
 [Photon](../index.md)
@@ -12,7 +28,7 @@ cloneObject | Photon
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.md)
+* [core/maker](../modules/core_core.md)
 * cloneObject
 
 # Function cloneObject
@@ -47,3 +63,9 @@ ThemeOSLightDark
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Moving](../index.md)
+- [Scaling](../index.md)
+- [Rotating](../index.md)

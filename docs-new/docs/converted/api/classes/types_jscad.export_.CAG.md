@@ -1,8 +1,23 @@
 ---
-title: CAG | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- 2d
+- api-reference
+- cad
+- export
+- geometry
+- photon
+primary_topic: cag-|-photon
 source: docs/docs/api/classes/types_jscad.export_.CAG.html
+tags:
+- intermediate
+- api-reference
+- cag-|-photon
+title: CAG | Photon
 ---
-
 CAG | Photon
 
 [Photon](../index.md)

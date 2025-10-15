@@ -1,8 +1,25 @@
 ---
-title: moveTemporary | Photon
+ai_summary: moveTemporary | Photon
+category: API Reference
+description: moveTemporary | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- movetemporary
+- paths
+- photon
+primary_topic: moving
+related:
+- Originating
+- Scaling
+- Rotating
 source: docs/docs/api/functions/core_path.moveTemporary.html
+tags:
+- intermediate
+- api-reference
+- moving
+title: moveTemporary | Photon
 ---
-
 moveTemporary | Photon
 
 [Photon](../index.md)
@@ -45,3 +62,9 @@ ThemeOSLightDark
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Originating](../index.md)
+- [Scaling](../index.md)
+- [Rotating](../index.md)

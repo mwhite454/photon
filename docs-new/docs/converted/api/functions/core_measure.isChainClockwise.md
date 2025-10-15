@@ -1,8 +1,25 @@
 ---
-title: isChainClockwise | Photon
+ai_summary: isChainClockwise | Photon
+category: API Reference
+description: isChainClockwise | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- ischainclockwise
+- paths
+- photon
+primary_topic: chains
+related:
+- Chain Theory
+- Breaking
+- Routes
 source: docs/docs/api/functions/core_measure.isChainClockwise.html
+tags:
+- intermediate
+- api-reference
+- chains
+title: isChainClockwise | Photon
 ---
-
 isChainClockwise | Photon
 
 [Photon](../index.md)
@@ -18,7 +35,7 @@ Preparing search index...
 # Function isChainClockwise
 
 * isChainClockwise(
-      chainContext: [IChain](../interfaces/core_maker.IChain.md),
+      chainContext: [IChain](../interfaces/core_core.IChain.md),
       out\_result?: { hullPoints?: [IPoint](../interfaces/core_schema.IPoint.md)[]; keyPoints?: [IPoint](../interfaces/core_schema.IPoint.md)[] },
   ): boolean
 
@@ -26,7 +43,7 @@ Preparing search index...
 
   #### Parameters
 
-  + chainContext: [IChain](../interfaces/core_maker.IChain.md)
+  + chainContext: [IChain](../interfaces/core_core.IChain.md)
 
     The chain to test.
   + `Optional`out\_result: { hullPoints?: [IPoint](../interfaces/core_schema.IPoint.md)[]; keyPoints?: [IPoint](../interfaces/core_schema.IPoint.md)[] }
@@ -53,3 +70,9 @@ ThemeOSLightDark
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Chain Theory](../index.md)
+- [Breaking](../index.md)
+- [Routes](../index.md)

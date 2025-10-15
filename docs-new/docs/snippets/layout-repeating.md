@@ -1,14 +1,42 @@
 ---
-title: Layout Repeating
+ai_summary: Maker.js provides several functions which will clone your paths or models
+  and repeat them in various layouts.
+category: Layout
+description: Maker.js provides several functions which will clone your paths or models
+  and repeat them in various layouts.
+difficulty: intermediate
+keywords:
+- export
+- javascript
+- layout
+- models
+- paths
+- repeating
+- svg
+prerequisites:
+- Intermediate Drawing
+primary_topic: layouts
+related:
+- Layout on Path
+- Layout on Chain
+- Repeating Layouts
+- Intermediate Drawing
 source: docs/_snippets/layout-repeating.html
+tags:
+- intermediate
+- layout
+- layouts
+title: Layout Repeating
 ---
-
 Maker.js provides several functions which will clone your paths or models and repeat them in various layouts.
 
 #### Columns
 
 Call [makerjs.layout.cloneToColumn(path or model, count, [optional] margin)](/docs/api/modules/makerjs.layout.html#clonetocolumn) to repeatedly clone and layout in a column.
 The interval will be the height of the path's or model's bounding box. Extra vertical margin is optional.
+
+## Examples
+
 ```javascript
 //Grooves for a finger joint
 const m = require('makerjs');
@@ -75,3 +103,10 @@ const rect = m.model.move(new m.models.Rectangle(30, 10), [40, -5]);
 const spinner = m.layout.cloneToRadial(rect, 16, 22.5);
 document.write(m.exporter.toSVG(spinner));
 ```
+
+## Related Topics
+
+- [Layout on Path](../index.md)
+- [Layout on Chain](../index.md)
+- [Repeating Layouts](../index.md)
+- [Intermediate Drawing](../index.md)

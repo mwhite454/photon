@@ -1,8 +1,20 @@
 ---
-title: combineIntersection | Photon
+ai_summary: combineIntersection | Photon
+category: API Reference
+description: combineIntersection | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- combineintersection
+- photon
+primary_topic: combining
 source: docs/docs/api/functions/core_combine.combineIntersection.html
+tags:
+- intermediate
+- api-reference
+- combining
+title: combineIntersection | Photon
 ---
-
 combineIntersection | Photon
 
 [Photon](../index.md)

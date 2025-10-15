@@ -1,8 +1,28 @@
 ---
-title: Measuring
+ai_summary: Browse to the makerjs.measure module documentation to see all functions
+  related to measuring.
+category: General
+description: Browse to the makerjs.measure module documentation to see all functions
+  related to measuring.
+difficulty: intermediate
+keywords:
+- export
+- general
+- javascript
+- measuring
+- models
+- paths
+- photon
+- photon/core
+- svg
+primary_topic: measuring
 source: docs/_snippets/measuring.html
+tags:
+- intermediate
+- general
+- measuring
+title: Measuring
 ---
-
 Browse to the [makerjs.measure](../api/modules/measure.md) module documentation to see all functions related to measuring.
 
 To get the bounding rectangle of a path or a model, use:
@@ -13,6 +33,9 @@ To get the bounding rectangle of a path or a model, use:
 These functions return a measurement object with **high** and **low** points.
 
 Measure path example:
+
+
+## Examples
 
 ```javascript
 //render an arc, and a measurement reactangle around it

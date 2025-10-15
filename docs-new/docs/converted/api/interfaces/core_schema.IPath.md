@@ -1,8 +1,24 @@
 ---
-title: IPath | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- ipath
+- photon
+primary_topic: paths
+related:
+- Path Independence
+- Models
+- Path Constructors
 source: docs/docs/api/interfaces/core_schema.IPath.html
+tags:
+- paths
+- api-reference
+- intermediate
+title: IPath | Photon
 ---
-
 IPath | Photon
 
 [Photon](../index.md)
@@ -29,8 +45,8 @@ interface IPath {
 
 * IPath
   + [DeletedPathInfo](core_boolean-utils.DeletedPathInfo.md)
-  + [IPathRemoved](core_maker.IPathRemoved.md)
-  + [IPathDirectional](core_maker.IPathDirectional.md)
+  + [IPathRemoved](core_core.IPathRemoved.md)
+  + [IPathDirectional](core_core.IPathDirectional.md)
   + [IPathLine](core_schema.IPathLine.md)
   + [IPathCircle](core_schema.IPathCircle.md)
   + [IPathArcInBezierCurve](core_schema.IPathArcInBezierCurve.md)
@@ -91,3 +107,9 @@ Properties
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Path Independence](../index.md)
+- [Models](../index.md)
+- [Path Constructors](../index.md)

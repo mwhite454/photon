@@ -1,8 +1,22 @@
 ---
-title: IOpenJsCadOptionsMap | Photon
+ai_summary: IOpenJsCadOptionsMap | Photon
+category: API Reference
+description: IOpenJsCadOptionsMap | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- cad
+- export
+- iopenjscadoptionsmap
+- photon
+primary_topic: iopenjscadoptionsmap-|-photon
 source: docs/docs/api/interfaces/core_openjscad-esm.IOpenJsCadOptionsMap.html
+tags:
+- iopenjscadoptionsmap-|-photon
+- api-reference
+- intermediate
+title: IOpenJsCadOptionsMap | Photon
 ---
-
 IOpenJsCadOptionsMap | Photon
 
 [Photon](../index.md)

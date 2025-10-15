@@ -1,8 +1,24 @@
 ---
-title: DeletedPathInfo | Photon
+ai_summary: DeletedPathInfo | Photon
+category: API Reference
+description: DeletedPathInfo | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- deletedpathinfo
+- photon
+primary_topic: paths
+related:
+- Path Independence
+- Models
+- Path Constructors
 source: docs/docs/api/interfaces/core_boolean-utils.DeletedPathInfo.html
+tags:
+- paths
+- api-reference
+- intermediate
+title: DeletedPathInfo | Photon
 ---
-
 DeletedPathInfo | Photon
 
 [Photon](../index.md)
@@ -108,3 +124,9 @@ Properties
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Path Independence](../index.md)
+- [Models](../index.md)
+- [Path Constructors](../index.md)

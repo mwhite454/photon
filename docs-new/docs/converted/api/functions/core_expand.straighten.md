@@ -1,8 +1,20 @@
 ---
-title: straighten | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- photon
+- straighten
+primary_topic: straighten-|-photon
 source: docs/docs/api/functions/core_expand.straighten.html
+tags:
+- straighten-|-photon
+- api-reference
+- intermediate
+title: straighten | Photon
 ---
-
 straighten | Photon
 
 [Photon](../index.md)

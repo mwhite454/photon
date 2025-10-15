@@ -1,8 +1,20 @@
 ---
-title: circleTangentAngles | Photon
+ai_summary: circleTangentAngles | Photon
+category: API Reference
+description: circleTangentAngles | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- circletangentangles
+- photon
+primary_topic: circles
 source: docs/docs/api/functions/core_solvers.circleTangentAngles.html
+tags:
+- intermediate
+- api-reference
+- circles
+title: circleTangentAngles | Photon
 ---
-
 circleTangentAngles | Photon
 
 [Photon](../index.md)

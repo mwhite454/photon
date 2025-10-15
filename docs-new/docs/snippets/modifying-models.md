@@ -1,13 +1,41 @@
 ---
-title: Modifying Models
+ai_summary: We know that models are relatively simple objects with a well known recursive
+  structure.
+category: General
+description: We know that models are relatively simple objects with a well known recursive
+  structure.
+difficulty: intermediate
+keywords:
+- drawing
+- export
+- general
+- javascript
+- models
+- modifying
+- paths
+- photon
+- photon/core
+- svg
+primary_topic: models
+related:
+- Modeling
+- Paths
+- Built-in Models
 source: docs/_snippets/modifying-models.html
+tags:
+- intermediate
+- general
+- models
+title: Modifying Models
 ---
-
 We know that models are relatively simple objects with a well known recursive structure.
 This allows us to modify them for different purposes. Let's modify and combine two different models
 in one drawing.
 
 For this example we will use ovals to make an oval L shape. We begin by creating a model function that has two ovals:
+
+
+## Examples
 
 ```javascript
 //render two ovals which overlap
@@ -209,3 +237,9 @@ m.v.paths.Right.end =
 const svg = exporter.toSVG(new ovalC(100, 100, 37));
 document.write(svg);
 ```
+
+## Related Topics
+
+- [Modeling](../index.md)
+- [Paths](../index.md)
+- [Built-in Models](../index.md)

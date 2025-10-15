@@ -4,7 +4,7 @@
  */
 
 import { IPath, IPoint, IPathArc, IPathCircle, IPathLine } from './schema.js';
-import { cloneObject, pathType } from './maker.js';
+import { cloneObject, pathType } from './core.js';
 import * as angle from './angle.js';
 import { isAngleEqual } from './equal.js';
 

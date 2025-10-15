@@ -1,0 +1,113 @@
+<!-- JSON-LD Structured Data for SEO and AI Agents -->
+{% if page and page.meta %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SoftwareApplication",
+      "name": "Photon",
+      "applicationCategory": "DeveloperApplication",
+      "operatingSystem": "Cross-platform",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "programmingLanguage": {
+        "@type": "ComputerLanguage",
+        "name": "JavaScript",
+        "url": "https://www.javascript.com/"
+      },
+      "description": "A JavaScript library for creating and designing 2D vector graphics, drawings, and laser-cuttable models.",
+      "softwareVersion": "latest",
+      "url": "{{ config.site_url }}",
+      "codeRepository": "{{ config.repo_url }}",
+      "license": "https://www.apache.org/licenses/LICENSE-2.0"
+    },
+    {
+      "@type": "TechArticle",
+      "headline": "{{ page.title }}",
+      "description": "{{ page.meta.description | default(page.meta.ai_summary, true) | default('', true) }}",
+      "url": "{{ page.canonical_url }}",
+      "datePublished": "{{ page.meta.created | default(config.copyright, true) }}",
+      "dateModified": "{{ page.meta.last_updated | default(page.meta.created, true) | default('', true) }}",
+      "author": {
+        "@type": "Organization",
+        "name": "{{ config.site_author | default('Photon Project', true) }}"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "{{ config.site_author | default('Photon Project', true) }}",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "{{ config.site_url }}/assets/logo.png"
+        }
+      },
+      {% if page.meta.keywords %}
+      "keywords": "{{ page.meta.keywords | join(', ') }}",
+      {% endif %}
+      {% if page.meta.primary_topic %}
+      "about": {
+        "@type": "Thing",
+        "name": "{{ page.meta.primary_topic }}"
+      },
+      {% endif %}
+      {% if page.meta.difficulty %}
+      "proficiencyLevel": "{{ page.meta.difficulty | capitalize }}",
+      {% endif %}
+      "inLanguage": "en-US",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "{{ config.site_name }}",
+        "url": "{{ config.site_url }}"
+      },
+      "mainEntity": {
+        "@type": "SoftwareSourceCode",
+        "codeRepository": "{{ config.repo_url }}",
+        "programmingLanguage": "JavaScript",
+        "runtimePlatform": "Node.js, Browser"
+      }
+      {% if page.meta.prerequisites %}
+      ,
+      "dependencies": [
+        {% for prereq in page.meta.prerequisites %}
+        {
+          "@type": "TechArticle",
+          "headline": "{{ prereq }}"
+        }{% if not loop.last %},{% endif %}
+        {% endfor %}
+      ]
+      {% endif %}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "{{ config.site_url }}"
+        }
+        {% if page.meta.category %}
+        ,
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "{{ page.meta.category }}",
+          "item": "{{ config.site_url }}/{{ page.meta.category | lower | replace(' ', '-') }}/"
+        }
+        {% endif %}
+        ,
+        {
+          "@type": "ListItem",
+          "position": {% if page.meta.category %}3{% else %}2{% endif %},
+          "name": "{{ page.title }}",
+          "item": "{{ page.canonical_url }}"
+        }
+      ]
+    }
+  ]
+}
+</script>
+{% endif %}

@@ -1,8 +1,20 @@
 ---
-title: augment | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- augment
+- photon
+primary_topic: augment-|-photon
 source: docs/docs/api/functions/core_measure.augment.html
+tags:
+- intermediate
+- api-reference
+- augment-|-photon
+title: augment | Photon
 ---
-
 augment | Photon
 
 [Photon](../index.md)
@@ -17,17 +29,17 @@ Preparing search index...
 
 # Function augment
 
-* augment(measureToAugment: [IMeasure](../interfaces/core_maker.IMeasure.md)): [IMeasureWithCenter](../interfaces/core_maker.IMeasureWithCenter.md)
+* augment(measureToAugment: [IMeasure](../interfaces/core_core.IMeasure.md)): [IMeasureWithCenter](../interfaces/core_core.IMeasureWithCenter.md)
 
   Augment a measurement - add more properties such as center point, height and width.
 
   #### Parameters
 
-  + measureToAugment: [IMeasure](../interfaces/core_maker.IMeasure.md)
+  + measureToAugment: [IMeasure](../interfaces/core_core.IMeasure.md)
 
     The measurement to augment.
 
-  #### Returns [IMeasureWithCenter](../interfaces/core_maker.IMeasureWithCenter.md)
+  #### Returns [IMeasureWithCenter](../interfaces/core_core.IMeasureWithCenter.md)
 
   Measurement object with augmented properties.
 

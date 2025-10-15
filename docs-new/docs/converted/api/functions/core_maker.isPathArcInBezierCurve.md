@@ -1,8 +1,24 @@
 ---
+ai_summary: isPathArcInBezierCurve | Photon
+category: API Reference
+description: isPathArcInBezierCurve | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- ispatharcinbeziercurve
+- photon
+primary_topic: paths
+related:
+- Path Independence
+- Models
+- Path Constructors
+source: docs/docs/api/functions/core_core.isPathArcInBezierCurve.html
+tags:
+- paths
+- api-reference
+- intermediate
 title: isPathArcInBezierCurve | Photon
-source: docs/docs/api/functions/core_maker.isPathArcInBezierCurve.html
 ---
-
 isPathArcInBezierCurve | Photon
 
 [Photon](../index.md)
@@ -12,7 +28,7 @@ isPathArcInBezierCurve | Photon
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.md)
+* [core/maker](../modules/core_core.md)
 * isPathArcInBezierCurve
 
 # Function isPathArcInBezierCurve
@@ -43,3 +59,9 @@ ThemeOSLightDark
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Path Independence](../index.md)
+- [Models](../index.md)
+- [Path Constructors](../index.md)

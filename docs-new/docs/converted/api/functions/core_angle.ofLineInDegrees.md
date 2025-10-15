@@ -1,8 +1,20 @@
 ---
-title: ofLineInDegrees | Photon
+ai_summary: ofLineInDegrees | Photon
+category: API Reference
+description: ofLineInDegrees | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- oflineindegrees
+- photon
+primary_topic: lines
 source: docs/docs/api/functions/core_angle.ofLineInDegrees.html
+tags:
+- intermediate
+- api-reference
+- lines
+title: ofLineInDegrees | Photon
 ---
-
 ofLineInDegrees | Photon
 
 [Photon](../index.md)

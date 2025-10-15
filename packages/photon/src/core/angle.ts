@@ -1,5 +1,5 @@
 import { IPoint, IPathArc, IPathLine, IPath } from './schema.js';
-import { round, splitDecimal, pathType } from './maker.js';
+import { round, splitDecimal, pathType } from './core.js';
 import * as point from './point.js';
 
 // TEMP: These will be available after respective modules are converted

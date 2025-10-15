@@ -1,8 +1,20 @@
 ---
-title: ofArcEnd | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- ofarcend
+- photon
+primary_topic: arcs
 source: docs/docs/api/functions/core_angle.ofArcEnd.html
+tags:
+- intermediate
+- api-reference
+- arcs
+title: ofArcEnd | Photon
 ---
-
 ofArcEnd | Photon
 
 [Photon](../index.md)

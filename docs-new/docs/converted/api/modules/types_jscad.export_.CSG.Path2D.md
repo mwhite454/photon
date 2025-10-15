@@ -1,8 +1,28 @@
 ---
-title: Path2D | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- 2d
+- api-reference
+- cad
+- export
+- path2d
+- paths
+- photon
+primary_topic: paths
+related:
+- Path Independence
+- Models
+- Path Constructors
 source: docs/docs/api/modules/types_jscad.export_.CSG.Path2D.html
+tags:
+- paths
+- api-reference
+- intermediate
+title: Path2D | Photon
 ---
-
 Path2D | Photon
 
 [Photon](../index.md)
@@ -45,3 +65,9 @@ Functions
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Path Independence](../index.md)
+- [Models](../index.md)
+- [Path Constructors](../index.md)

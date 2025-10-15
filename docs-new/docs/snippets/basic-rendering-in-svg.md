@@ -1,9 +1,30 @@
 ---
-title: Basic Rendering In Svg
+ai_summary: 'Call the exporter.toSVG function and pass your path as a parameter:'
+category: General
+description: 'Call the exporter.toSVG function and pass your path as a parameter:'
+difficulty: intermediate
+keywords:
+- basic
+- export
+- general
+- javascript
+- paths
+- photon
+- photon/core
+- rendering
+- svg
+primary_topic: svg
 source: docs/_snippets/basic-rendering-in-svg.html
+tags:
+- intermediate
+- svg
+- general
+title: Basic Rendering In Svg
 ---
-
 Call the **exporter.toSVG** function and pass your path as a parameter:
+
+
+## Examples
 
 ```javascript
 //renders a line

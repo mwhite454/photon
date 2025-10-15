@@ -1,8 +1,25 @@
 ---
-title: expandPaths | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- expandpaths
+- paths
+- photon
+primary_topic: paths
+related:
+- Path Independence
+- Models
+- Path Constructors
 source: docs/docs/api/functions/core_expand.expandPaths.html
+tags:
+- paths
+- api-reference
+- intermediate
+title: expandPaths | Photon
 ---
-
 expandPaths | Photon
 
 [Photon](../index.md)
@@ -21,7 +38,7 @@ Preparing search index...
       modelToExpand: [IModel](../interfaces/core_schema.IModel.md),
       distance: number,
       joints?: number,
-      combineOptions?: [ICombineOptions](../interfaces/core_maker.ICombineOptions.md),
+      combineOptions?: [ICombineOptions](../interfaces/core_core.ICombineOptions.md),
   ): [IModel](../interfaces/core_schema.IModel.md)
 
   #### Parameters
@@ -29,7 +46,7 @@ Preparing search index...
   + modelToExpand: [IModel](../interfaces/core_schema.IModel.md)
   + distance: number
   + joints: number = 0
-  + combineOptions: [ICombineOptions](../interfaces/core_maker.ICombineOptions.md) = {}
+  + combineOptions: [ICombineOptions](../interfaces/core_core.ICombineOptions.md) = {}
 
   #### Returns [IModel](../interfaces/core_schema.IModel.md)
 
@@ -49,3 +66,9 @@ ThemeOSLightDark
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Path Independence](../index.md)
+- [Models](../index.md)
+- [Path Constructors](../index.md)

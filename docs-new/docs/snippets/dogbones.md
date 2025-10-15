@@ -1,12 +1,36 @@
 ---
-title: Dogbones
+ai_summary: Many CNC tools are not able to cut a sharp interior corner. The way to
+  clear the apex of an interior corner is by encompassing the corner with a ci...
+category: General
+description: Many CNC tools are not able to cut a sharp interior corner. The way to
+  clear the apex of an interior corner is by encompassing the corner with a ci...
+difficulty: intermediate
+keywords:
+- cnc
+- dogbones
+- export
+- general
+- javascript
+- models
+- paths
+- photon
+- photon/core
+- svg
+primary_topic: dogbones
 source: docs/_snippets/dogbones.html
+tags:
+- intermediate
+- general
+- dogbones
+title: Dogbones
 ---
-
 Many CNC tools are not able to cut a sharp interior corner. The way to clear the apex of an interior corner is by encompassing the corner with a circular cut known as a dogbone fillet.
 Use [path.dogbone](/docs/api/modules/path.md#dogbone) to round a corner at the junction between two lines.
 This function will only work for two lines which must meet at one point. It will clip the two lines that you pass it, and will return a new arc path which clears the corner where the lines meet.
 It will return null if a dogbone fillet cannot be created at the radius you specify.
+
+
+## Examples
 
 ```javascript
 //dogbone fillet between lines.

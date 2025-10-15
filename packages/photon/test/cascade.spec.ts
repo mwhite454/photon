@@ -214,7 +214,7 @@ describe('Cascade API', function () {
     
     it('TC-MOD-001: implementation uses const/let, not var', async function () {
       const fs = await import('fs');
-      const cascadeSource = fs.readFileSync('src/core/maker.ts', 'utf8');
+      const cascadeSource = fs.readFileSync('src/core/core.ts', 'utf8');
       
       // Extract Cascade class code
       const cascadeMatch = cascadeSource.match(/class Cascade[\s\S]*?^\s{4}\}/m);
@@ -231,13 +231,13 @@ describe('Cascade API', function () {
           'Cascade class should not use var declarations'
         );
       } else {
-        assert.fail('Could not find Cascade class in maker.ts');
+        assert.fail('Could not find Cascade class in core.ts');
       }
     });
     
     it('TC-MOD-002: implementation uses arrow functions', async function () {
       const fs = await import('fs');
-      const cascadeSource = fs.readFileSync('src/core/maker.ts', 'utf8');
+      const cascadeSource = fs.readFileSync('src/core/core.ts', 'utf8');
       
       // Extract _shadow method
       const shadowMatch = cascadeSource.match(/_shadow[\s\S]*?\n\s{8}\}/);
@@ -264,7 +264,7 @@ describe('Cascade API', function () {
     
     it('TC-MOD-003: implementation uses rest parameters', async function () {
       const fs = await import('fs');
-      const cascadeSource = fs.readFileSync('src/core/maker.ts', 'utf8');
+      const cascadeSource = fs.readFileSync('src/core/core.ts', 'utf8');
       
       // Extract _apply method
       const applyMatch = cascadeSource.match(/_apply[\s\S]*?\n\s{8}\}/);

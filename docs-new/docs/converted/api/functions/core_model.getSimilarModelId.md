@@ -1,8 +1,25 @@
 ---
-title: getSimilarModelId | Photon
+ai_summary: getSimilarModelId | Photon
+category: API Reference
+description: getSimilarModelId | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- getsimilarmodelid
+- models
+- photon
+primary_topic: models
+related:
+- Modeling
+- Paths
+- Built-in Models
 source: docs/docs/api/functions/core_model.getSimilarModelId.html
+tags:
+- intermediate
+- api-reference
+- models
+title: getSimilarModelId | Photon
 ---
-
 getSimilarModelId | Photon
 
 [Photon](../index.md)
@@ -48,3 +65,9 @@ ThemeOSLightDark
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Modeling](../index.md)
+- [Paths](../index.md)
+- [Built-in Models](../index.md)

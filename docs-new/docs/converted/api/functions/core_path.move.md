@@ -1,8 +1,24 @@
 ---
-title: move | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- move
+- photon
+primary_topic: moving
+related:
+- Originating
+- Scaling
+- Rotating
 source: docs/docs/api/functions/core_path.move.html
+tags:
+- intermediate
+- api-reference
+- moving
+title: move | Photon
 ---
-
 move | Photon
 
 [Photon](../index.md)
@@ -44,3 +60,9 @@ ThemeOSLightDark
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Originating](../index.md)
+- [Scaling](../index.md)
+- [Rotating](../index.md)

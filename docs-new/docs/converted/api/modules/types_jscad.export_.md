@@ -1,8 +1,25 @@
 ---
-title: export= | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- cad
+- export
+- photon
+primary_topic: exporting
+related:
+- Exporting DXF
+- SVG Styling
+- Exporting PDF
 source: docs/docs/api/modules/types_jscad.export_.html
+tags:
+- intermediate
+- api-reference
+- exporting
+title: export= | Photon
 ---
-
 export= | Photon
 
 [Photon](../index.md)
@@ -64,3 +81,9 @@ References
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Exporting DXF](../index.md)
+- [SVG Styling](../index.md)
+- [Exporting PDF](../index.md)

@@ -1,8 +1,22 @@
 ---
-title: Ring | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- models
+- paths
+- photon
+- ring
+primary_topic: ring-|-photon
 source: docs/docs/api/classes/models_Ring.Ring.html
+tags:
+- intermediate
+- api-reference
+- ring-|-photon
+title: Ring | Photon
 ---
-
 Ring | Photon
 
 [Photon](../index.md)

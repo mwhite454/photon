@@ -1,13 +1,37 @@
 ---
-title: Getting Started Browser
+ai_summary: 'Download the browser-based version of Maker.js, then upload it to your
+  website:'
+category: Getting Started
+description: 'Download the browser-based version of Maker.js, then upload it to your
+  website:'
+difficulty: beginner
+keywords:
+- browser
+- export
+- getting
+- getting-started
+- javascript
+- models
+- paths
+- photon
+- photon/core
+- started
+primary_topic: getting-started-browser
 source: docs/_snippets/getting-started-browser.html
+tags:
+- getting-started
+- getting-started-browser
+- beginner
+title: Getting Started Browser
 ---
-
 Download the browser-based version of Maker.js, then upload it to your website:
 
 <http:// photon/core.org/target/js/browser.photon/core>
 
 Or you can link to it:
+
+
+## Examples
 
 ```html
 

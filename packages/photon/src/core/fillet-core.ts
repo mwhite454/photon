@@ -1,5 +1,5 @@
 import { IPoint, IPath, IPathLine, IPathArc } from './schema.js';
-import { pathType, round, extendObject } from './maker.js';
+import { pathType, round, extendObject } from './core.js';
 import * as point from './point.js';
 import * as angle from './angle.js';
 import * as measure from './measure.js';
@@ -8,7 +8,7 @@ import { Line, Circle, Arc, Parallel } from './paths.js';
 import * as path from './path.js';
 import { intersection } from './intersect.js';
 import { breakAtPoint } from './break.js';
-import type { IPointMatchOptions } from './maker.js';
+import type { IPointMatchOptions } from './core.js';
 
 /** @private */
 interface IPointProperty {

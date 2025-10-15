@@ -1,8 +1,22 @@
 ---
-title: StlSerializer | Photon
+ai_summary: StlSerializer | Photon
+category: API Reference
+description: StlSerializer | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- cad
+- export
+- photon
+- stlserializer
+primary_topic: stlserializer-|-photon
 source: docs/docs/api/interfaces/types_jscad.StlSerializer.html
+tags:
+- stlserializer-|-photon
+- api-reference
+- intermediate
+title: StlSerializer | Photon
 ---
-
 StlSerializer | Photon
 
 [Photon](../index.md)

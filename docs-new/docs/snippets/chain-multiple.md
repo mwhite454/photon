@@ -1,11 +1,37 @@
 ---
-title: Chain Multiple
+ai_summary: You can find multiple chains by calling model.findChains(model),
+category: General
+description: You can find multiple chains by calling model.findChains(model),
+difficulty: intermediate
+keywords:
+- chain
+- drawing
+- export
+- general
+- javascript
+- models
+- multiple
+- paths
+- photon
+- photon/core
+primary_topic: chains
+related:
+- Chain Theory
+- Breaking
+- Routes
 source: docs/_snippets/chain-multiple.html
+tags:
+- intermediate
+- general
+- chains
+title: Chain Multiple
 ---
-
 You can find multiple chains by calling [model.findChains(model)](/docs/api/modules/model.md#findchains),
 which will return an array of chains, sorted by largest to smallest on the **pathLength** property.
 We can find 2 chains in this drawing with 2 rectangles:
+
+## Examples
+
 ```javascript
 //2 concentric rectangles
 import { exporter, model, models, paths } from 'photon/core';
@@ -93,3 +119,9 @@ document.write(`found ${chains}`['red'].length + ' chain(s) on red layer
 ');
 document.write(`found ${chains}`['blue'].length + ' chain(s) on blue layer');
 ```
+
+## Related Topics
+
+- [Chain Theory](../index.md)
+- [Breaking](../index.md)
+- [Routes](../index.md)

@@ -257,7 +257,7 @@ function $(context) {
   }
   throw new Error("Invalid context for Photon cascade function. Expected Model, Path, or Point.");
 }
-const maker = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+const core = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   $,
   cloneObject,
@@ -7008,6 +7008,7 @@ export {
   chain$1 as chain,
   collect,
   compose,
+  core,
   deadend,
   dxf,
   equal,
@@ -7017,7 +7018,6 @@ export {
   importer$1 as importer,
   intersect,
   layout,
-  maker,
   measure$1 as measure,
   _model as model,
   models$2 as models,

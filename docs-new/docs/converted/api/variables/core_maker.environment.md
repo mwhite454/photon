@@ -1,8 +1,20 @@
 ---
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- environment
+- photon
+primary_topic: environment-|-photon
+source: docs/docs/api/variables/core_core.environment.html
+tags:
+- intermediate
+- api-reference
+- environment-|-photon
 title: environment | Photon
-source: docs/docs/api/variables/core_maker.environment.html
 ---
-
 environment | Photon
 
 [Photon](../index.md)
@@ -12,7 +24,7 @@ environment | Photon
 
 Preparing search index...
 
-* [core/maker](../modules/core_maker.md)
+* [core/maker](../modules/core_core.md)
 * environment
 
 # Variable environment`Const`

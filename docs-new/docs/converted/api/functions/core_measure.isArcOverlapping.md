@@ -1,8 +1,20 @@
 ---
-title: isArcOverlapping | Photon
+ai_summary: isArcOverlapping | Photon
+category: API Reference
+description: isArcOverlapping | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- isarcoverlapping
+- photon
+primary_topic: arcs
 source: docs/docs/api/functions/core_measure.isArcOverlapping.html
+tags:
+- intermediate
+- api-reference
+- arcs
+title: isArcOverlapping | Photon
 ---
-
 isArcOverlapping | Photon
 
 [Photon](../index.md)

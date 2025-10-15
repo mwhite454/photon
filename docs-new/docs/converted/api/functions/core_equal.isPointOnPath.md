@@ -1,8 +1,24 @@
 ---
-title: isPointOnPath | Photon
+ai_summary: isPointOnPath | Photon
+category: API Reference
+description: isPointOnPath | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- ispointonpath
+- photon
+primary_topic: paths
+related:
+- Path Independence
+- Models
+- Path Constructors
 source: docs/docs/api/functions/core_equal.isPointOnPath.html
+tags:
+- paths
+- api-reference
+- intermediate
+title: isPointOnPath | Photon
 ---
-
 isPointOnPath | Photon
 
 [Photon](../index.md)
@@ -22,7 +38,7 @@ Preparing search index...
       onPath: [IPath](../interfaces/core_schema.IPath.md),
       withinDistance?: number,
       pathOffset?: [IPoint](../interfaces/core_schema.IPoint.md),
-      options?: [IIsPointOnPathOptions](../interfaces/core_maker.IIsPointOnPathOptions.md),
+      options?: [IIsPointOnPathOptions](../interfaces/core_core.IIsPointOnPathOptions.md),
   ): boolean
 
   Find out if a point lies on a path.
@@ -33,7 +49,7 @@ Preparing search index...
   + onPath: [IPath](../interfaces/core_schema.IPath.md)
   + withinDistance: number = 0
   + `Optional`pathOffset: [IPoint](../interfaces/core_schema.IPoint.md)
-  + `Optional`options: [IIsPointOnPathOptions](../interfaces/core_maker.IIsPointOnPathOptions.md)
+  + `Optional`options: [IIsPointOnPathOptions](../interfaces/core_core.IIsPointOnPathOptions.md)
 
   #### Returns boolean
 
@@ -53,3 +69,9 @@ ThemeOSLightDark
 * Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)
+
+## Related Topics
+
+- [Path Independence](../index.md)
+- [Models](../index.md)
+- [Path Constructors](../index.md)

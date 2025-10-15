@@ -1,8 +1,24 @@
 ---
-title: toJscadSTL | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- 2d
+- api-reference
+- cad
+- export
+- photon
+- svg
+- tojscadstl
+primary_topic: tojscadstl-|-photon
 source: docs/docs/api/functions/core_openjscad-esm.toJscadSTL.html
+tags:
+- tojscadstl-|-photon
+- api-reference
+- intermediate
+title: toJscadSTL | Photon
 ---
-
 toJscadSTL | Photon
 
 [Photon](../index.md)

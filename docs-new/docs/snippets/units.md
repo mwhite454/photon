@@ -1,8 +1,29 @@
 ---
-title: Units
+ai_summary: Paths and points are unitless. Models may also be unitless, or they may
+  specify a unit system. When it comes time to make your model
+category: General
+description: Paths and points are unitless. Models may also be unitless, or they may
+  specify a unit system. When it comes time to make your model
+difficulty: intermediate
+keywords:
+- export
+- general
+- javascript
+- laser
+- models
+- paths
+- photon
+- photon/core
+- svg
+- units
+primary_topic: units
 source: docs/_snippets/units.html
+tags:
+- intermediate
+- general
+- units
+title: Units
 ---
-
 Paths and points are unitless. Models may also be unitless, or they may specify a unit system. When it comes time to make your model
 on a laser cutter or waterjet etc., you will probably want to specify units. You can do this two different ways:
 

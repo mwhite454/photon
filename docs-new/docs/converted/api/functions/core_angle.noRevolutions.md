@@ -1,8 +1,20 @@
 ---
-title: noRevolutions | Photon
+ai_summary: noRevolutions | Photon
+category: API Reference
+description: noRevolutions | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- norevolutions
+- photon
+primary_topic: norevolutions-|-photon
 source: docs/docs/api/functions/core_angle.noRevolutions.html
+tags:
+- intermediate
+- api-reference
+- norevolutions-|-photon
+title: noRevolutions | Photon
 ---
-
 noRevolutions | Photon
 
 [Photon](../index.md)

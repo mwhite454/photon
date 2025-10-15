@@ -1,8 +1,20 @@
 ---
-title: simplify | Photon
+ai_summary: Preparing search index...
+category: API Reference
+description: Preparing search index...
+difficulty: intermediate
+keywords:
+- api-reference
+- photon
+- simplify
+primary_topic: simplification
 source: docs/docs/api/functions/core_simplify.simplify.html
+tags:
+- simplification
+- api-reference
+- intermediate
+title: simplify | Photon
 ---
-
 simplify | Photon
 
 [Photon](../index.md)
@@ -17,12 +29,12 @@ Preparing search index...
 
 # Function simplify
 
-* simplify(modelToSimplify: [IModel](../interfaces/core_schema.IModel.md), options?: [ISimplifyOptions](../interfaces/core_maker.ISimplifyOptions.md)): [IModel](../interfaces/core_schema.IModel.md)
+* simplify(modelToSimplify: [IModel](../interfaces/core_schema.IModel.md), options?: [ISimplifyOptions](../interfaces/core_core.ISimplifyOptions.md)): [IModel](../interfaces/core_schema.IModel.md)
 
   #### Parameters
 
   + modelToSimplify: [IModel](../interfaces/core_schema.IModel.md)
-  + `Optional`options: [ISimplifyOptions](../interfaces/core_maker.ISimplifyOptions.md)
+  + `Optional`options: [ISimplifyOptions](../interfaces/core_core.ISimplifyOptions.md)
 
   #### Returns [IModel](../interfaces/core_schema.IModel.md)
 

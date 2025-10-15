@@ -111,7 +111,7 @@ describe('Build Output Validation', function () {
         const makerjs = require(umdPath);
         
         assert.ok(makerjs, 'UMD bundle should be loadable via require');
-        assert.ok(makerjs.maker || makerjs.default, 'should export maker namespace');
+        assert.ok(makerjs.core || makerjs.default, 'should export core namespace');
       }
     });
 
@@ -137,7 +137,7 @@ describe('Build Output Validation', function () {
         const makerjs = maker.default || maker;
         
         // Test basic functionality
-        assert.ok(makerjs.maker, 'should have maker namespace');
+        assert.ok(makerjs.core, 'should have core namespace');
         assert.ok(makerjs.paths, 'should have paths namespace');
         assert.ok(makerjs.models, 'should have models namespace');
         

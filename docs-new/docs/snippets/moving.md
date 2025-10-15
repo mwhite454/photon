@@ -1,12 +1,39 @@
 ---
-title: Moving
+ai_summary: Models and paths can be moved to an absolute location, or moved by an
+  [x, y] amount relative to their current location.
+category: General
+description: Models and paths can be moved to an absolute location, or moved by an
+  [x, y] amount relative to their current location.
+difficulty: intermediate
+keywords:
+- export
+- general
+- javascript
+- models
+- moving
+- paths
+- photon
+- photon/core
+- svg
+primary_topic: moving
+related:
+- Originating
+- Scaling
+- Rotating
 source: docs/_snippets/moving.html
+tags:
+- intermediate
+- moving
+- general
+title: Moving
 ---
-
 Models and paths can be moved to an absolute location, or moved by an [x, y] amount relative to their current location.
 Keep in mind that since paths are contained within models, and models may be contained within models, that their coordinates will be relative to the containing model.
 
 To illustrate this, let's create a model that has a few squares:
+
+
+## Examples
 
 ```javascript
 //create some squares side by side
@@ -75,3 +102,9 @@ document.write(svg);
 
 Notice that the 2nd square had an origin of [120, 0] but we moved a line within the square to an absolute point [30, 20]. Since the line is contained within the square model, its
 coordinates are in terms of the square, which is why it appears to be at [150, 20].
+
+## Related Topics
+
+- [Originating](../index.md)
+- [Scaling](../index.md)
+- [Rotating](../index.md)

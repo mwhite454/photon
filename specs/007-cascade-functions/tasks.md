@@ -1186,12 +1186,13 @@ npm run lint
 
 ---
 
-### T025: [Polish] Rename maker.ts to core.ts for Better Semantics
+### T025: [Polish] Rename maker.ts to core.ts for Better Semantics ✅ COMPLETE
 
 **Priority**: P3  
 **Estimated Time**: 1 hour  
 **Dependencies**: T024 (all tests passing)  
-**Parallelizable**: No
+**Parallelizable**: No  
+**Status**: ✅ Complete (2025-10-14)
 
 **Description**: Rename `maker.ts` to `core.ts` to better reflect its role as the foundational core module for Photon, completing the Maker.js → Photon rebrand.
 

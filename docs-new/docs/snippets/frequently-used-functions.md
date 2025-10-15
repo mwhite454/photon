@@ -1,8 +1,24 @@
 ---
-title: Frequently Used Functions
+ai_summary: It's good to be aware of these functions which apply to many drawing scenarios.
+  Also, browse the APIs of each module for lesser used specialized fu...
+category: General
+description: It's good to be aware of these functions which apply to many drawing
+  scenarios. Also, browse the APIs of each module for lesser used specialized fu...
+difficulty: intermediate
+keywords:
+- drawing
+- frequently
+- functions
+- general
+- used
+primary_topic: frequently-used-functions
 source: docs/_snippets/frequently-used-functions.html
+tags:
+- intermediate
+- general
+- frequently-used-functions
+title: Frequently Used Functions
 ---
-
 It's good to be aware of these functions which apply to many drawing scenarios. Also, browse the APIs of each module for lesser used specialized functions.
 
 #### Functions for working with points in the [makerjs.point](/docs/api/modules/makerjs.point.md#content) module:

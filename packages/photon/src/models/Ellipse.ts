@@ -1,7 +1,7 @@
 // ES Module imports
 import type { IPoint, IPathArc, IPathBezierSeed, IModel, IModelMap } from '../core/schema.js';
-import { pathType, isPoint, isPathArc } from '../core/maker.js';
-import type { IKit } from '../core/maker.js';
+import { pathType, isPoint, isPathArc } from '../core/core.js';
+import type { IKit } from '../core/core.js';
 import * as angle from '../core/angle.js';
 import * as point from '../core/point.js';
 import * as path from '../core/path.js';

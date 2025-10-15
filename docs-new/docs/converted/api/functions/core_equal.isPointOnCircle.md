@@ -1,8 +1,20 @@
 ---
-title: isPointOnCircle | Photon
+ai_summary: isPointOnCircle | Photon
+category: API Reference
+description: isPointOnCircle | Photon
+difficulty: intermediate
+keywords:
+- api-reference
+- ispointoncircle
+- photon
+primary_topic: circles
 source: docs/docs/api/functions/core_equal.isPointOnCircle.html
+tags:
+- intermediate
+- api-reference
+- circles
+title: isPointOnCircle | Photon
 ---
-
 isPointOnCircle | Photon
 
 [Photon](../index.md)

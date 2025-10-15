@@ -29,6 +29,5 @@ Photon (formerly Maker.js) is a JavaScript library for programmatically creating
 
 Get started by exploring the sections in the navigation.
 
-**Last updated:** October 15, 2025 - Phase 3 Implementation
-**Version:** Live Site Verification Test
-
+**Last updated:** October 15, 2025 - Phase 4 Auto-Publish Test  
+**Version:** Testing Automatic Publication from Main Branch

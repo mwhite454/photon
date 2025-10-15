@@ -3,7 +3,7 @@
 {% block extrahead %}
   <!-- Include structured data for AI agents and search engines -->
   {% include "partials/structured-data.html" %}
-  
+
   <!-- Open Graph meta tags for social sharing -->
   {% if page and page.meta %}
   <meta property="og:type" content="article">
@@ -14,7 +14,7 @@
   <meta name="keywords" content="{{ page.meta.keywords | join(', ') }}">
   {% endif %}
   {% endif %}
-  
+
   <!-- Additional meta tags for AI agents -->
   {% if page and page.meta %}
   {% if page.meta.primary_topic %}
@@ -27,4 +27,13 @@
   <meta name="category" content="{{ page.meta.category }}">
   {% endif %}
   {% endif %}
+{% endblock %}
+
+{% block content %}
+  {% if page and page.title and page.title != "Photon Documentation" %}
+    <div class="revision-info">
+      <small>Last updated: {% if page.revision_date %}{{ page.revision_date }}{% else %}Recently{% endif %}</small>
+    </div>
+  {% endif %}
+  {{ super() }}
 {% endblock %}

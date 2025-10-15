@@ -60,19 +60,19 @@ description: "Task list for Publish and Verify Latest Photon Docs on GitHub Page
 
 **NOTE: Write these tests FIRST, ensure they FAIL before implementation**
 
-- [ ] T009 [P] [US1] Create Playwright test spec in `tests/docs-migration/live-site-verification.spec.js` to verify site loads
-- [ ] T010 [P] [US1] Add test assertion for page title "Photon" in header
-- [ ] T011 [P] [US1] Add test assertion for "Getting Started" in top navigation
-- [ ] T012 [P] [US1] Add test assertion for search input visibility
-- [ ] T013 [P] [US1] Add test assertion for repository link "mwhite454/photon" on page
+- [X] T009 [P] [US1] Create Playwright test spec in `tests/docs-migration/live-site-verification.spec.js` to verify site loads
+- [X] T010 [P] [US1] Add test assertion for page title "Photon" in header
+- [X] T011 [P] [US1] Add test assertion for "Getting Started" in top navigation
+- [X] T012 [P] [US1] Add test assertion for search input visibility
+- [X] T013 [P] [US1] Add test assertion for repository link "mwhite454/photon" on page
 
 ### Implementation for User Story 1
 
-- [ ] T014 [US1] Trigger manual workflow run of `.github/workflows/docs-deploy.yml` to build and publish docs
-- [ ] T015 [US1] Verify GitHub Pages deployment completes successfully (check Actions tab)
-- [ ] T016 [US1] Manually verify site at https://mwhite454.github.io/photon/ shows modern theme
-- [ ] T017 [US1] Run Playwright tests from T009-T013 and verify they pass
-- [ ] T018 [US1] Document site URL and verification steps in `specs/008-as-a-user/quickstart.md`
+- [X] T014 [US1] Trigger manual workflow run of `.github/workflows/docs-deploy.yml` to build and publish docs
+- [X] T015 [US1] Verify GitHub Pages deployment completes successfully (check Actions tab)
+- [X] T016 [US1] Manually verify site at https://mwhite454.github.io/photon/ shows modern theme
+- [X] T017 [US1] Run Playwright tests from T009-T013 and verify they pass
+- [X] T018 [US1] Document site URL and verification steps in `specs/008-as-a-user/quickstart.md`
 
 **Checkpoint**: At this point, User Story 1 should be fully functional and testable independently
 
@@ -86,14 +86,14 @@ description: "Task list for Publish and Verify Latest Photon Docs on GitHub Page
 
 ### Tests for User Story 2 ⚠️
 
-- [ ] T019 [P] [US2] Create test script in `tests/docs-migration/auto-publish-test.sh` to make a docs change and verify workflow triggers
-- [ ] T020 [P] [US2] Add GitHub Actions workflow validation test to verify workflow syntax and configuration
+- [X] T019 [P] [US2] Create test script in `tests/docs-migration/auto-publish-test.sh` to make a docs change and verify workflow triggers
+- [X] T020 [P] [US2] Add GitHub Actions workflow validation test to verify workflow syntax and configuration
 
 ### Implementation for User Story 2
 
-- [ ] T021 [US2] Verify workflow trigger configuration in `.github/workflows/docs-deploy.yml` includes `push` event on `main` branch
-- [ ] T022 [US2] Verify workflow path filter includes `docs/**` to trigger on docs changes
-- [ ] T023 [US2] Make a test documentation change in `docs/docs/index.md` (e.g., update timestamp or add test section)
+- [X] T021 [US2] Verify workflow trigger configuration in `.github/workflows/docs-deploy.yml` includes `push` event on `main` branch
+- [X] T022 [US2] Verify workflow path filter includes `docs/**` to trigger on docs changes
+- [X] T023 [US2] Make a test documentation change in `docs/docs/index.md` (e.g., update timestamp or add test section)
 - [ ] T024 [US2] Commit and push change to `main` branch
 - [ ] T025 [US2] Verify workflow automatically triggers in GitHub Actions
 - [ ] T026 [US2] Verify site updates at https://mwhite454.github.io/photon/ reflect the test change

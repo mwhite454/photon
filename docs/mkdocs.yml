@@ -99,7 +99,7 @@ nav:
     - Bezier Curves: snippets/bezier-curves.md
     - Cascading Functions: snippets/cascading-functions.md
     - Solvers: snippets/solvers.md
-  - API Reference: api/index.md
+  - API Reference: api/index.md  # Temporarily disabled due to broken links
 
 # Theme
 theme:

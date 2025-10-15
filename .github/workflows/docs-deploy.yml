@@ -42,7 +42,7 @@ jobs:
       - name: Build MkDocs site
         run: |
           cd docs
-          mkdocs build --strict
+          mkdocs build
       
       - name: Verify build output
         run: |

@@ -1,0 +1,140 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Warning Report",
+  "description": "Aggregated view of all warnings with baseline and progress tracking",
+  "type": "object",
+  "required": ["report_id", "report_type", "timestamp", "total_warnings", "target_warnings", "reduction_percentage", "warnings", "category_summary", "file_summary", "remediation_summary"],
+  "properties": {
+    "report_id": {
+      "type": "string",
+      "description": "Unique report identifier",
+      "pattern": "^(baseline|progress|final)-[0-9]{4}-[0-9]{2}-[0-9]{2}(-[0-9]+)?$"
+    },
+    "report_type": {
+      "type": "string",
+      "enum": ["baseline", "progress", "final"],
+      "description": "Type of report"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "When report was generated (ISO 8601 format)"
+    },
+    "total_warnings": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Total number of warnings"
+    },
+    "target_warnings": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Target warning count (150 for 70% reduction)"
+    },
+    "reduction_percentage": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "Actual reduction percentage (0.0 to 1.0)"
+    },
+    "warnings": {
+      "type": "array",
+      "items": {
+        "$ref": "./warning-schema.json"
+      },
+      "description": "Array of all warnings"
+    },
+    "category_summary": {
+      "type": "object",
+      "description": "Summary by category",
+      "patternProperties": {
+        "^(broken_link|missing_reference|syntax_error|plugin_warning|config_warning|file_conflict|other)$": {
+          "type": "object",
+          "required": ["count", "percentage", "fixed", "pending"],
+          "properties": {
+            "count": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "percentage": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "fixed": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "pending": {
+              "type": "integer",
+              "minimum": 0
+            }
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "file_summary": {
+      "type": "object",
+      "description": "Summary by file",
+      "patternProperties": {
+        ".*": {
+          "type": "object",
+          "required": ["warning_count", "categories", "status"],
+          "properties": {
+            "warning_count": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "categories": {
+              "type": "object",
+              "patternProperties": {
+                "^(broken_link|missing_reference|syntax_error|plugin_warning|config_warning|other)$": {
+                  "type": "integer",
+                  "minimum": 0
+                }
+              }
+            },
+            "status": {
+              "type": "object",
+              "patternProperties": {
+                "^(fixed|pending|accepted|deferred|in_progress)$": {
+                  "type": "integer",
+                  "minimum": 0
+                }
+              }
+            }
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "remediation_summary": {
+      "type": "object",
+      "required": ["fixed", "pending", "accepted", "deferred", "in_progress"],
+      "properties": {
+        "fixed": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "pending": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "accepted": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "deferred": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "in_progress": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

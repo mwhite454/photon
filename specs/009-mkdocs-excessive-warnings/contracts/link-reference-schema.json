@@ -1,0 +1,66 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/mwhite454/photon/schemas/link-reference.json",
+  "title": "Link Reference",
+  "description": "A link found in documentation with validation status",
+  "type": "object",
+  "required": ["link_id", "source_file", "link_text", "link_target", "link_type", "is_valid", "status"],
+  "properties": {
+    "link_id": {
+      "type": "string",
+      "description": "Unique link identifier",
+      "pattern": "^link-[0-9]{3,}$"
+    },
+    "source_file": {
+      "type": "string",
+      "description": "File containing the link",
+      "pattern": "^docs/"
+    },
+    "source_line": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Line number of link"
+    },
+    "link_text": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Display text of link"
+    },
+    "link_target": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Target path or URL"
+    },
+    "link_type": {
+      "type": "string",
+      "enum": ["internal", "external", "anchor"],
+      "description": "Type of link"
+    },
+    "is_valid": {
+      "type": "boolean",
+      "description": "Whether link target exists"
+    },
+    "validation_error": {
+      "type": "string",
+      "description": "Error message if invalid"
+    },
+    "suggested_fix": {
+      "type": "string",
+      "description": "Suggested correction if invalid"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["valid", "broken", "fixed", "ignored"],
+      "description": "Link validation status"
+    }
+  },
+  "if": {
+    "properties": {
+      "is_valid": {"const": false}
+    }
+  },
+  "then": {
+    "required": ["validation_error"]
+  },
+  "additionalProperties": false
+}

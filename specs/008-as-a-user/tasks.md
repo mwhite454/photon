@@ -94,7 +94,7 @@ description: "Task list for Publish and Verify Latest Photon Docs on GitHub Page
 - [X] T021 [US2] Verify workflow trigger configuration in `.github/workflows/docs-deploy.yml` includes `push` event on `main` branch
 - [X] T022 [US2] Verify workflow path filter includes `docs/**` to trigger on docs changes
 - [X] T023 [US2] Make a test documentation change in `docs/docs/index.md` (e.g., update timestamp or add test section)
-- [ ] T024 [US2] Commit and push change to `main` branch
+- [X] T024 [US2] Commit and push change to `main` branch
 - [ ] T025 [US2] Verify workflow automatically triggers in GitHub Actions
 - [ ] T026 [US2] Verify site updates at https://mwhite454.github.io/photon/ reflect the test change
 - [ ] T027 [US2] Revert test change or keep if useful

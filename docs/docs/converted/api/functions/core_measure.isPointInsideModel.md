@@ -36,7 +36,7 @@ Preparing search index...
 * isPointInsideModel(
       pointToCheck: [IPoint](../interfaces/core_schema.IPoint.md),
       modelContext: [IModel](../interfaces/core_schema.IModel.md),
-      options?: [IMeasurePointInsideOptions](../interfaces/core_core.IMeasurePointInsideOptions.md),
+      options?: [IMeasurePointInsideOptions](../interfaces/core_maker.IMeasurePointInsideOptions.md),
   ): boolean
 
   Check to see if a point is inside of a model.
@@ -49,7 +49,7 @@ Preparing search index...
   + modelContext: [IModel](../interfaces/core_schema.IModel.md)
 
     The model to check against.
-  + options: [IMeasurePointInsideOptions](../interfaces/core_core.IMeasurePointInsideOptions.md) = {}
+  + options: [IMeasurePointInsideOptions](../interfaces/core_maker.IMeasurePointInsideOptions.md) = {}
 
     Optional IMeasurePointInsideOptions object.
 

@@ -108,7 +108,7 @@ IXmlTagAttrs → [IXmlTagAttrs](../interfaces/core_xml.IXmlTagAttrs.md)
 layout → [core/layout](core_layout.md)
 
 
-maker → [core/maker](core_core.md)
+maker → [core/maker](core_maker.md)
 
 
 measure → [core/measure](core_measure.md)

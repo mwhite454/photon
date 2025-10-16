@@ -29,7 +29,7 @@ Preparing search index...
 
 # Function lineSlope
 
-* lineSlope(line: [IPathLine](../interfaces/core_schema.IPathLine.md)): [ISlope](../interfaces/core_core.ISlope.md)
+* lineSlope(line: [IPathLine](../interfaces/core_schema.IPathLine.md)): [ISlope](../interfaces/core_maker.ISlope.md)
 
   Gets the slope of a line.
 
@@ -37,7 +37,7 @@ Preparing search index...
 
   + line: [IPathLine](../interfaces/core_schema.IPathLine.md)
 
-  #### Returns [ISlope](../interfaces/core_core.ISlope.md)
+  #### Returns [ISlope](../interfaces/core_maker.ISlope.md)
 
   + Defined in [core/measure-minimal.ts:25](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure-minimal.ts#L25)
 

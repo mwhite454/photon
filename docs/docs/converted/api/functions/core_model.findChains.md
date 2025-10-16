@@ -35,17 +35,17 @@ Preparing search index...
 
 * findChains(
       modelContext: [IModel](../interfaces/core_schema.IModel.md),
-      callbackOrOptions?: [IChainCallback](../interfaces/core_core.IChainCallback.md) | [IFindChainsOptions](../interfaces/core_core.IFindChainsOptions.md),
-      maybeOptions?: [IFindChainsOptions](../interfaces/core_core.IFindChainsOptions.md),
-  ): [IChain](../interfaces/core_core.IChain.md)[] | [IChainsMap](../interfaces/core_core.IChainsMap.md)
+      callbackOrOptions?: [IChainCallback](../interfaces/core_maker.IChainCallback.md) | [IFindChainsOptions](../interfaces/core_maker.IFindChainsOptions.md),
+      maybeOptions?: [IFindChainsOptions](../interfaces/core_maker.IFindChainsOptions.md),
+  ): [IChain](../interfaces/core_maker.IChain.md)[] | [IChainsMap](../interfaces/core_maker.IChainsMap.md)
 
   #### Parameters
 
   + modelContext: [IModel](../interfaces/core_schema.IModel.md)
-  + `Optional`callbackOrOptions: [IChainCallback](../interfaces/core_core.IChainCallback.md) | [IFindChainsOptions](../interfaces/core_core.IFindChainsOptions.md)
-  + `Optional`maybeOptions: [IFindChainsOptions](../interfaces/core_core.IFindChainsOptions.md)
+  + `Optional`callbackOrOptions: [IChainCallback](../interfaces/core_maker.IChainCallback.md) | [IFindChainsOptions](../interfaces/core_maker.IFindChainsOptions.md)
+  + `Optional`maybeOptions: [IFindChainsOptions](../interfaces/core_maker.IFindChainsOptions.md)
 
-  #### Returns [IChain](../interfaces/core_core.IChain.md)[] | [IChainsMap](../interfaces/core_core.IChainsMap.md)
+  #### Returns [IChain](../interfaces/core_maker.IChain.md)[] | [IChainsMap](../interfaces/core_maker.IChainsMap.md)
 
   + Defined in [core/model.ts:12](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/model.ts#L12)
 

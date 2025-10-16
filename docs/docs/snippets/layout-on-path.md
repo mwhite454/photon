@@ -155,7 +155,7 @@ document.write(svg);
 
 #### Laying out text
 
-Layout on a path works well with fonts and text. [See an example here](/playground/index.md?script=text-on-path).
+Layout on a path works well with fonts and text. [See an example here](/docs../../playground/index.html?script=text-on-path).
 
 ## Related Topics
 

@@ -35,7 +35,7 @@ aqua, black, blue, fuchsia, green, gray, lime, maroon, navy, olive, orange, purp
 
 #### Captions
 
-A [caption](/docs/intermediate-drawing/index.md#Captions) will inherit the `layerOptions` that are applied to its model's layer name unless overridden by the anchor layer.
+A [caption](/docs/intermediate-drawing/index.md#captions) will inherit the `layerOptions` that are applied to its model's layer name unless overridden by the anchor layer.
 
 #### Advanced options
 
@@ -44,9 +44,9 @@ The options object has these properties:
 
 | property | values / effects |
 | --- | --- |
-| [units](../api/interfaces/makerjs.exporter.idxfrenderoptions.html#units) | [Maker.js unit type](../api/index.html#unittype) - unit system (default: extracted from drawing. If unit system is not in drawing or not passed, it will use DXF default of inches) |
-| [fontSize](../api/interfaces/makerjs.exporter.idxfrenderoptions.html#fontsize) | number - font size of captions (default: 9). The font size is in the same unit system as the `units` property. |
-| [layerOptions](../api/interfaces/makerjs.exporter.idxfrenderoptions.html#layeroptions) | object map - keys are the layer names, values are an object with these properties:  | property | values | | --- | --- | | [color](../api/interfaces/makerjs.exporter.idxflayeroptions.html#color) | number - [Maker.js color](../api/modules/core_exporter.html#colors) | | [fontSize](../api/interfaces/makerjs.exporter.idxflayeroptions.html#fontsize) | number - font size of captions. The font size is in the same unit system as the `units` property. | |
+| [units](../converted/api/interfaces/core_exporter.idxfrenderoptions.md#units) | [Maker.js unit type](../api/index.html#unittype) - unit system (default: extracted from drawing. If unit system is not in drawing or not passed, it will use DXF default of inches) |
+| [fontSize](../converted/api/interfaces/core_exporter.idxfrenderoptions.md#fontsize) | number - font size of captions (default: 9). The font size is in the same unit system as the `units` property. |
+| [layerOptions](../converted/api/interfaces/core_exporter.idxfrenderoptions.md#layeroptions) | object map - keys are the layer names, values are an object with these properties:  | property | values | | --- | --- | | [color](../converted/api/interfaces/core_exporter.idxflayeroptions.md#color) | number - [Maker.js color](../api/modules/core_exporter.html#colors) | | [fontSize](../converted/api/interfaces/core_exporter.idxflayeroptions.md#fontsize) | number - font size of captions. The font size is in the same unit system as the `units` property. | |
 
 ## Related Topics
 

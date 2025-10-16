@@ -49,7 +49,7 @@ Call [importer.fromSVGPathData](../api/modules/core_importer.html#fromsvgpathdat
 This will return a new model.
 
 If your SVG path data contains [Curve commands](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths#Curve_commands),
-these will become [Bezier curves](/docs/advanced-drawing/index.md#Bezier curves) in your model.
+these will become [Bezier curves](/docs/advanced-drawing/index.md#bezier curves) in your model.
 
 #### Advanced options
 

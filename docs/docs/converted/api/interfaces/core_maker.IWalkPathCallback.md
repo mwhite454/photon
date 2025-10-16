@@ -28,18 +28,18 @@ IWalkPathCallback | Photon
 
 Preparing search index...
 
-* [core/maker](../modules/core_core.md)
+* [core/maker](../modules/core_maker.md)
 * IWalkPathCallback
 
 # Interface IWalkPathCallback
 
 Callback signature for path in model.walk().
 
-* IWalkPathCallback(context: [IWalkPath](core_core.IWalkPath.md)): void
+* IWalkPathCallback(context: [IWalkPath](core_maker.IWalkPath.md)): void
 
   #### Parameters
 
-  + context: [IWalkPath](core_core.IWalkPath.md)
+  + context: [IWalkPath](core_maker.IWalkPath.md)
 
   #### Returns void
 

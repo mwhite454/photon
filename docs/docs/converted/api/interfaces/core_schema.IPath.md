@@ -45,8 +45,8 @@ interface IPath {
 
 * IPath
   + [DeletedPathInfo](core_boolean-utils.DeletedPathInfo.md)
-  + [IPathRemoved](core_core.IPathRemoved.md)
-  + [IPathDirectional](core_core.IPathDirectional.md)
+  + [IPathRemoved](core_maker.IPathRemoved.md)
+  + [IPathDirectional](core_maker.IPathDirectional.md)
   + [IPathLine](core_schema.IPathLine.md)
   + [IPathCircle](core_schema.IPathCircle.md)
   + [IPathArcInBezierCurve](core_schema.IPathArcInBezierCurve.md)

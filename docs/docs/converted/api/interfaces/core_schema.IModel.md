@@ -53,7 +53,7 @@ interface IModel {
 #### Hierarchy ([View Summary](../hierarchy.md#core/schema.IModel))
 
 * IModel
-  + [IBoundingHex](core_core.IBoundingHex.md)
+  + [IBoundingHex](core_maker.IBoundingHex.md)
 
 #### Implemented by
 

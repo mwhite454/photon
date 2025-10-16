@@ -29,17 +29,17 @@ Preparing search index...
 
 # Function augment
 
-* augment(measureToAugment: [IMeasure](../interfaces/core_core.IMeasure.md)): [IMeasureWithCenter](../interfaces/core_core.IMeasureWithCenter.md)
+* augment(measureToAugment: [IMeasure](../interfaces/core_maker.IMeasure.md)): [IMeasureWithCenter](../interfaces/core_maker.IMeasureWithCenter.md)
 
   Augment a measurement - add more properties such as center point, height and width.
 
   #### Parameters
 
-  + measureToAugment: [IMeasure](../interfaces/core_core.IMeasure.md)
+  + measureToAugment: [IMeasure](../interfaces/core_maker.IMeasure.md)
 
     The measurement to augment.
 
-  #### Returns [IMeasureWithCenter](../interfaces/core_core.IMeasureWithCenter.md)
+  #### Returns [IMeasureWithCenter](../interfaces/core_maker.IMeasureWithCenter.md)
 
   Measurement object with augmented properties.
 

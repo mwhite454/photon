@@ -30,20 +30,20 @@ Preparing search index...
 
 # Function cycle
 
-* cycle(chainContext: [IChain](../interfaces/core_core.IChain.md), amount?: number): [IChain](../interfaces/core_core.IChain.md)
+* cycle(chainContext: [IChain](../interfaces/core_maker.IChain.md), amount?: number): [IChain](../interfaces/core_maker.IChain.md)
 
   Shift the links of an endless chain.
 
   #### Parameters
 
-  + chainContext: [IChain](../interfaces/core_core.IChain.md)
+  + chainContext: [IChain](../interfaces/core_maker.IChain.md)
 
     Chain to cycle through. Must be endless.
   + amount: number = 1
 
     Optional number of links to shift. May be negative to cycle backwards.
 
-  #### Returns [IChain](../interfaces/core_core.IChain.md)
+  #### Returns [IChain](../interfaces/core_maker.IChain.md)
 
   The chainContext for cascading.
 

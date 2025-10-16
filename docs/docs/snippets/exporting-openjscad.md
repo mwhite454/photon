@@ -32,7 +32,7 @@ This function returns a string of JavaScript code executable within [an OpenJsCa
 
 Call `makerjs.exporter.toOpenJsCad(model, options)` passing your model and an options object.
 
-See the [API documentation for OpenJsCad export options](../api/interfaces/makerjs.exporter.iopenjscadoptions.html#content)
+See the [API documentation for OpenJsCad export options](../converted/api/interfaces/core_exporter.iopenjscadoptions.md#content)
 
 ## Related Topics
 

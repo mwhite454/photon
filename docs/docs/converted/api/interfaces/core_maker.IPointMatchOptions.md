@@ -25,7 +25,7 @@ IPointMatchOptions | Photon
 
 Preparing search index...
 
-* [core/maker](../modules/core_core.md)
+* [core/maker](../modules/core_maker.md)
 * IPointMatchOptions
 
 # Interface IPointMatchOptions
@@ -40,10 +40,10 @@ interface IPointMatchOptions {
 
 * IPointMatchOptions
   + [IDXFRenderOptions](core_dxf.IDXFRenderOptions.md)
-  + [ICombineOptions](core_core.ICombineOptions.md)
-  + [IFindLoopsOptions](core_core.IFindLoopsOptions.md)
-  + [ISimplifyOptions](core_core.ISimplifyOptions.md)
-  + [IFindChainsOptions](core_core.IFindChainsOptions.md)
+  + [ICombineOptions](core_maker.ICombineOptions.md)
+  + [IFindLoopsOptions](core_maker.IFindLoopsOptions.md)
+  + [ISimplifyOptions](core_maker.ISimplifyOptions.md)
+  + [IFindChainsOptions](core_maker.IFindChainsOptions.md)
   + [IJscadCagOptions](core_openjscad-esm.IJscadCagOptions.md)
 
 * Defined in [core/maker.ts:277](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L277)

@@ -29,16 +29,16 @@ Preparing search index...
 
 # Function isMeasurementOverlapping
 
-* isMeasurementOverlapping(measureA: [IMeasure](../interfaces/core_core.IMeasure.md), measureB: [IMeasure](../interfaces/core_core.IMeasure.md)): boolean
+* isMeasurementOverlapping(measureA: [IMeasure](../interfaces/core_maker.IMeasure.md), measureB: [IMeasure](../interfaces/core_maker.IMeasure.md)): boolean
 
   Check for measurement overlapping another measurement.
 
   #### Parameters
 
-  + measureA: [IMeasure](../interfaces/core_core.IMeasure.md)
+  + measureA: [IMeasure](../interfaces/core_maker.IMeasure.md)
 
     The measurement to test.
-  + measureB: [IMeasure](../interfaces/core_core.IMeasure.md)
+  + measureB: [IMeasure](../interfaces/core_maker.IMeasure.md)
 
     The measurement to check for overlap.
 

@@ -30,13 +30,13 @@ Preparing search index...
 
 # Function construct
 
-* construct(ctor: [IKit](../interfaces/core_core.IKit.md), args: any): [IModel](../interfaces/core_schema.IModel.md)
+* construct(ctor: [IKit](../interfaces/core_maker.IKit.md), args: any): [IModel](../interfaces/core_schema.IModel.md)
 
   Helper function to use the JavaScript "apply" function in conjunction with the "new" keyword.
 
   #### Parameters
 
-  + ctor: [IKit](../interfaces/core_core.IKit.md)
+  + ctor: [IKit](../interfaces/core_maker.IKit.md)
   + args: any
 
   #### Returns [IModel](../interfaces/core_schema.IModel.md)

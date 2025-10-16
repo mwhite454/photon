@@ -38,7 +38,7 @@ Preparing search index...
       onPath: [IPath](../interfaces/core_schema.IPath.md),
       withinDistance?: number,
       pathOffset?: [IPoint](../interfaces/core_schema.IPoint.md),
-      options?: [IIsPointOnPathOptions](../interfaces/core_core.IIsPointOnPathOptions.md),
+      options?: [IIsPointOnPathOptions](../interfaces/core_maker.IIsPointOnPathOptions.md),
   ): boolean
 
   Find out if a point lies on a path.
@@ -49,7 +49,7 @@ Preparing search index...
   + onPath: [IPath](../interfaces/core_schema.IPath.md)
   + withinDistance: number = 0
   + `Optional`pathOffset: [IPoint](../interfaces/core_schema.IPoint.md)
-  + `Optional`options: [IIsPointOnPathOptions](../interfaces/core_core.IIsPointOnPathOptions.md)
+  + `Optional`options: [IIsPointOnPathOptions](../interfaces/core_maker.IIsPointOnPathOptions.md)
 
   #### Returns boolean
 

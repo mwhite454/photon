@@ -77,7 +77,7 @@ const svg = exporter.toSVG(dogbones);
 document.write(svg);
 ```
 
-Making them bottomless is useful for creating [tongue-and-groove shapes](/playground/index.md?script=tongue-and-groove):
+Making them bottomless is useful for creating [tongue-and-groove shapes](/docs../../playground/index.html?script=tongue-and-groove):
 
 ```javascript
 //bottomless dogbones.

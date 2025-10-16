@@ -113,7 +113,7 @@ A model is a composite object which may contain a map of paths, or a map of mode
   #### Returns Rectangle
 
   + Defined in [models/Rectangle.ts:45](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Rectangle.ts#L45)
-* new Rectangle(measurement: [IMeasure](../interfaces/core_core.IMeasure.md)): Rectangle
+* new Rectangle(measurement: [IMeasure](../interfaces/core_maker.IMeasure.md)): Rectangle
 
   Create a rectangle from a measurement.
 
@@ -132,7 +132,7 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
   #### Parameters
 
-  + measurement: [IMeasure](../interfaces/core_core.IMeasure.md)
+  + measurement: [IMeasure](../interfaces/core_maker.IMeasure.md)
 
     IMeasure object. See <http:// photon/core.org/docs/api/modules/measure.html#pathextents> and <http:// photon/core.org/docs/api/modules/measure.html#modelextents> to get measurements of paths and models.
 

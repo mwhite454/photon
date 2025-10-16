@@ -34,13 +34,13 @@ Preparing search index...
 # Function chainFillet
 
 * chainFillet(
-      chainToFillet: [IChain](../interfaces/core_core.IChain.md),
+      chainToFillet: [IChain](../interfaces/core_maker.IChain.md),
       filletSpec: number | { left?: number; right?: number },
   ): [IModel](../interfaces/core_schema.IModel.md)
 
   #### Parameters
 
-  + chainToFillet: [IChain](../interfaces/core_core.IChain.md)
+  + chainToFillet: [IChain](../interfaces/core_maker.IChain.md)
   + filletSpec: number | { left?: number; right?: number }
 
   #### Returns [IModel](../interfaces/core_schema.IModel.md)

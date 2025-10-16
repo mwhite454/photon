@@ -29,7 +29,7 @@ IChainCallback | Photon
 
 Preparing search index...
 
-* [core/maker](../modules/core_core.md)
+* [core/maker](../modules/core_maker.md)
 * IChainCallback
 
 # Interface IChainCallback
@@ -37,18 +37,18 @@ Preparing search index...
 Callback to model.findChains() with resulting array of chains and unchained paths.
 
 * IChainCallback(
-      chains: [IChain](core_core.IChain.md)[],
-      loose: [IWalkPath](core_core.IWalkPath.md)[],
+      chains: [IChain](core_maker.IChain.md)[],
+      loose: [IWalkPath](core_maker.IWalkPath.md)[],
       layer: string,
-      ignored?: [IWalkPath](core_core.IWalkPath.md)[],
+      ignored?: [IWalkPath](core_maker.IWalkPath.md)[],
   ): void
 
   #### Parameters
 
-  + chains: [IChain](core_core.IChain.md)[]
-  + loose: [IWalkPath](core_core.IWalkPath.md)[]
+  + chains: [IChain](core_maker.IChain.md)[]
+  + loose: [IWalkPath](core_maker.IWalkPath.md)[]
   + layer: string
-  + `Optional`ignored: [IWalkPath](core_core.IWalkPath.md)[]
+  + `Optional`ignored: [IWalkPath](core_maker.IWalkPath.md)[]
 
   #### Returns void
 

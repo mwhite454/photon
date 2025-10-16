@@ -28,7 +28,7 @@ IPathIntersectionBaseOptions | Photon
 
 Preparing search index...
 
-* [core/maker](../modules/core_core.md)
+* [core/maker](../modules/core_maker.md)
 * IPathIntersectionBaseOptions
 
 # Interface IPathIntersectionBaseOptions
@@ -43,7 +43,7 @@ interface IPathIntersectionBaseOptions {
 #### Hierarchy ([View Summary](../hierarchy.md#core/maker.IPathIntersectionBaseOptions))
 
 * IPathIntersectionBaseOptions
-  + [IPathIntersectionOptions](core_core.IPathIntersectionOptions.md)
+  + [IPathIntersectionOptions](core_maker.IPathIntersectionOptions.md)
 
 * Defined in [core/maker.ts:228](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L228)
 

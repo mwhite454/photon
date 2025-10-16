@@ -33,7 +33,7 @@ Preparing search index...
 
 # Function pathExtents
 
-* pathExtents(pathToMeasure: [IPath](../interfaces/core_schema.IPath.md), addOffset?: [IPoint](../interfaces/core_schema.IPoint.md)): [IMeasure](../interfaces/core_core.IMeasure.md)
+* pathExtents(pathToMeasure: [IPath](../interfaces/core_schema.IPath.md), addOffset?: [IPoint](../interfaces/core_schema.IPoint.md)): [IMeasure](../interfaces/core_maker.IMeasure.md)
 
   Calculates the smallest rectangle which contains a path.
 
@@ -44,7 +44,7 @@ Preparing search index...
     The path to measure.
   + `Optional`addOffset: [IPoint](../interfaces/core_schema.IPoint.md)
 
-  #### Returns [IMeasure](../interfaces/core_core.IMeasure.md)
+  #### Returns [IMeasure](../interfaces/core_maker.IMeasure.md)
 
   object with low and high points.
 

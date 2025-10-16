@@ -230,13 +230,13 @@ typeName: string = 'BezierCurve'
 
 * getBezierSeeds(
       curve: BezierCurve,
-      options?: [IFindChainsOptions](../interfaces/core_core.IFindChainsOptions.md),
+      options?: [IFindChainsOptions](../interfaces/core_maker.IFindChainsOptions.md),
   ): [IPath](../interfaces/core_schema.IPath.md)[] | { [layer: string]: [IPath](../interfaces/core_schema.IPath.md)[] }
 
   #### Parameters
 
   + curve: BezierCurve
-  + options: [IFindChainsOptions](../interfaces/core_core.IFindChainsOptions.md) = {}
+  + options: [IFindChainsOptions](../interfaces/core_maker.IFindChainsOptions.md) = {}
 
   #### Returns [IPath](../interfaces/core_schema.IPath.md)[] | { [layer: string]: [IPath](../interfaces/core_schema.IPath.md)[] }
 

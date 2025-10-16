@@ -24,7 +24,7 @@ IKit | Photon
 
 Preparing search index...
 
-* [core/maker](../modules/core_core.md)
+* [core/maker](../modules/core_maker.md)
 * IKit
 
 # Interface IKit
@@ -33,7 +33,7 @@ An IKit is a model-producing class with some sample parameters. Think of it as a
 
 interface IKit {
     new [IKit](#constructorikit)(...args: any[]): [IModel](core_schema.IModel.md);
-    [metaParameters](#metaparameters)?: [IMetaParameter](core_core.IMetaParameter.md)[];
+    [metaParameters](#metaparameters)?: [IMetaParameter](core_maker.IMetaParameter.md)[];
     [notes](#notes)?: string;
 }
 
@@ -71,7 +71,7 @@ interface IKit {
 
 ### `Optional`metaParameters
 
-metaParameters?: [IMetaParameter](core_core.IMetaParameter.md)[]
+metaParameters?: [IMetaParameter](core_maker.IMetaParameter.md)[]
 
 Attached to the constructor is a property named metaParameters which is an array of IMetaParameter objects.
 Each element of the array corresponds to a parameter of the constructor, in order.

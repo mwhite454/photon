@@ -34,7 +34,7 @@ Preparing search index...
 
 # Function walkPaths
 
-* walkPaths(modelContext: [IModel](../interfaces/core_schema.IModel.md), callback: [IModelPathCallback](../interfaces/core_core.IModelPathCallback.md)): void
+* walkPaths(modelContext: [IModel](../interfaces/core_schema.IModel.md), callback: [IModelPathCallback](../interfaces/core_maker.IModelPathCallback.md)): void
 
   DEPRECATED - use model.walk instead.
   Recursively walk through all paths for a given model.
@@ -44,7 +44,7 @@ Preparing search index...
   + modelContext: [IModel](../interfaces/core_schema.IModel.md)
 
     The model to walk.
-  + callback: [IModelPathCallback](../interfaces/core_core.IModelPathCallback.md)
+  + callback: [IModelPathCallback](../interfaces/core_maker.IModelPathCallback.md)
 
     Callback for each path.
 

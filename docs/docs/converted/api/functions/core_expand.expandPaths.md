@@ -38,7 +38,7 @@ Preparing search index...
       modelToExpand: [IModel](../interfaces/core_schema.IModel.md),
       distance: number,
       joints?: number,
-      combineOptions?: [ICombineOptions](../interfaces/core_core.ICombineOptions.md),
+      combineOptions?: [ICombineOptions](../interfaces/core_maker.ICombineOptions.md),
   ): [IModel](../interfaces/core_schema.IModel.md)
 
   #### Parameters
@@ -46,7 +46,7 @@ Preparing search index...
   + modelToExpand: [IModel](../interfaces/core_schema.IModel.md)
   + distance: number
   + joints: number = 0
-  + combineOptions: [ICombineOptions](../interfaces/core_core.ICombineOptions.md) = {}
+  + combineOptions: [ICombineOptions](../interfaces/core_maker.ICombineOptions.md) = {}
 
   #### Returns [IModel](../interfaces/core_schema.IModel.md)
 

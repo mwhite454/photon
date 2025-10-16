@@ -30,20 +30,20 @@ Preparing search index...
 
 # Function startAt
 
-* startAt(chainContext: [IChain](../interfaces/core_core.IChain.md), routeKey: string): [IChain](../interfaces/core_core.IChain.md)
+* startAt(chainContext: [IChain](../interfaces/core_maker.IChain.md), routeKey: string): [IChain](../interfaces/core_maker.IChain.md)
 
   Set the beginning of an endless chain to a known routeKey of a path.
 
   #### Parameters
 
-  + chainContext: [IChain](../interfaces/core_core.IChain.md)
+  + chainContext: [IChain](../interfaces/core_maker.IChain.md)
 
     Chain to cycle through. Must be endless.
   + routeKey: string
 
     RouteKey of the desired path to start the chain with.
 
-  #### Returns [IChain](../interfaces/core_core.IChain.md)
+  #### Returns [IChain](../interfaces/core_maker.IChain.md)
 
   The chainContext for cascading.
 

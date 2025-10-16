@@ -24,8 +24,8 @@ The overwhelming majority of warnings are related to broken links, making this t
 
 Based on this analysis, the remediation strategy will be as follows:
 
-1.  **Priority 1: Broken Links**: Address all 420 `broken_link` warnings to immediately improve documentation usability.
-2.  **Priority 2: Plugin Warnings**: Investigate the 81 `plugin_warning` issues to ensure our build process is stable and future-proof.
-3.  **Priority 3: File & Config**: Resolve the remaining `file_conflict` and `config_warning` issues.
+1. **Priority 1: Broken Links**: Address all 420 `broken_link` warnings to immediately improve documentation usability.
+2. **Priority 2: Plugin Warnings**: Investigate the 81 `plugin_warning` issues to ensure our build process is stable and future-proof.
+3. **Priority 3: File & Config**: Resolve the remaining `file_conflict` and `config_warning` issues.
 
 This phased approach ensures we tackle the most critical user-facing issues first.

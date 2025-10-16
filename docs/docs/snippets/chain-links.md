@@ -31,7 +31,7 @@ If the chain is endless, then the last array element is connected to the first, 
 
  
 The path itself can be found in the **walkedPath** property which is a *WalkPath* object,
-the same type of object used in [walking a model tree](/docs/model-trees/index.md#Walking a model tree).
+the same type of object used in [walking a model tree](/docs/model-trees/index.md#walking a model tree).
 
 #### Natural path flow
 

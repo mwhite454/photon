@@ -56,9 +56,9 @@ These are prefixed with $:
 
 Depending on the type of x, a cascade container will provide all of the functions from one of the corresponding modules.
 
-* [**model** module](../api/modules/core_model.html) / [*cascade-safe functions*](../api/interfaces/makerjs.icascademodel.html)
-* [**path** module](../api/modules/core_path.html) / [*cascade-safe functions*](../api/interfaces/makerjs.icascadepath.html)
-* [**point** module](../api/modules/core_point.html) / [*cascade-safe functions*](../api/interfaces/makerjs.icascadepoint.html)
+* [**model** module](../converted/api/modules/core_model.md) / [*cascade-safe functions*](../converted/api/interfaces/core_cascades.MakerJs.ICascadeModel.md)
+* [**path** module](../converted/api/modules/core_path.md) / [*cascade-safe functions*](../converted/api/interfaces/core_cascades.MakerJs.ICascadePath.md)
+* [**point** module](../converted/api/modules/core_point.md) / [*cascade-safe functions*](../converted/api/interfaces/core_cascades.MakerJs.ICascadePoint.md)
 
 These are the same functions that we've covered in previous lessons. One difference is that you do not need to provide the first parameter,
 since it will either be x or the cascaded result of the previous function call.
@@ -85,13 +85,14 @@ square: square
 const svg = exporter.toSVG(drawing);
 document.write(svg);
 ```
+
 This has saved us some typing - we didnt need to use *model...* to access any functions.
 The order of operations makes more sense too: the first operation (*center()*) is at the top,
 the final operation (*moveRelative([0, 15])*) is at the bottom, and the function parameters are together with their call.
 
 #### Using addTo() instead of .$result
 
-In some cases, you can avoid using **.$result** and just [add a path](../api/modules/core_path.html#addto) or [add a model](../api/modules/core_model.html#addto) to a parent model by calling **addTo(model, id)**.
+In some cases, you can avoid using **.$result** and just [add a path](../converted/api/modules/core_path.md#addto) or [add a model](../converted/api/modules/core_model.md#addto) to a parent model by calling **addTo(model, id)**.
 This is particularly useful prior to a call that creates a clone (such as **mirror**):
 
 ```javascript

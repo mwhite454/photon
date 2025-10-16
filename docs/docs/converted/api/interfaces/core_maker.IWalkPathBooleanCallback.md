@@ -28,18 +28,18 @@ IWalkPathBooleanCallback | Photon
 
 Preparing search index...
 
-* [core/maker](../modules/core_core.md)
+* [core/maker](../modules/core_maker.md)
 * IWalkPathBooleanCallback
 
 # Interface IWalkPathBooleanCallback
 
 Callback for returning a boolean from an IWalkPath.
 
-* IWalkPathBooleanCallback(context: [IWalkPath](core_core.IWalkPath.md)): boolean
+* IWalkPathBooleanCallback(context: [IWalkPath](core_maker.IWalkPath.md)): boolean
 
   #### Parameters
 
-  + context: [IWalkPath](core_core.IWalkPath.md)
+  + context: [IWalkPath](core_maker.IWalkPath.md)
 
   #### Returns boolean
 

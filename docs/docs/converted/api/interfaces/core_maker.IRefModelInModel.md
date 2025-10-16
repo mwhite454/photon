@@ -28,7 +28,7 @@ IRefModelInModel | Photon
 
 Preparing search index...
 
-* [core/maker](../modules/core_core.md)
+* [core/maker](../modules/core_maker.md)
 * IRefModelInModel
 
 # Interface IRefModelInModel
@@ -44,7 +44,7 @@ interface IRefModelInModel {
 #### Hierarchy ([View Summary](../hierarchy.md#core/maker.IRefModelInModel))
 
 * IRefModelInModel
-  + [IWalkModel](core_core.IWalkModel.md)
+  + [IWalkModel](core_maker.IWalkModel.md)
 
 * Defined in [core/maker.ts:538](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L538)
 

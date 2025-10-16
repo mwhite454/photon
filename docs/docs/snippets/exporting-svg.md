@@ -37,7 +37,7 @@ aqua, black, blue, fuchsia, green, gray, lime, maroon, navy, olive, orange, purp
 
 #### Captions
 
-[Captions](/docs/intermediate-drawing/index.md#Captions) are added to an SVG group with a layer name of "captions".
+[Captions](../intermediate-drawing/index.md#captions) are added to an SVG group with a layer name of "captions".
 This layer name may be used to apply `layerOptions` that are common to all captions.
 In addition, a caption will inherit the `layerOptions` that are applied to its model's layer name unless overridden by the anchor layer.
 
@@ -57,26 +57,34 @@ The options object has these properties:
 
 | property | values / effects | mode avalability |
 | --- | --- | --- |
-| [useSvgPathOnly](../api/interfaces/makerjs.exporter.isvgrenderoptions.html#usesvgpathonly) | * true (default) - Path-only mode * false - Separate mode |  |
-| [accuracy](../api/interfaces/makerjs.exporter.isvgrenderoptions.html#accuracy) | number - Exemplar number of decimal digits (default: .001) | Both |
-| [annotate](../api/interfaces/makerjs.exporter.isvgrenderoptions.html#annotate) | * true - Adds SVG `<text>` elements with the path id * false (default) | Separate |
-| [className](../api/interfaces/makerjs.exporter.isvgrenderoptions.html#className) | string - Class name | Both |
-| [cssStyle](../api/interfaces/makerjs.exporter.isvgrenderoptions.html#cssstyle) | string - CSS style | Both |
-| [fill](../api/interfaces/makerjs.exporter.isvgrenderoptions.html#fill) | string - CSS color (default: none) | Path-only |
-| [fillRule](../api/interfaces/makerjs.exporter.isvgrenderoptions.html#fillrule) | string - [SVG fill-rule](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/fill-rule) (default: "evenodd")  * "evenodd" - Uses the [even-odd rule](https://en.wikipedia.org/wiki/Even%E2%80%93odd_rule) * "nonzero" - Uses the [non-zero rule](https://en.wikipedia.org/wiki/Nonzero-rule) (requires more computation) | Path-only |
-| [fontSize](../api/interfaces/makerjs.exporter.isvgrenderoptions.html#fontsize) | string - CSS font size + units (default: 9pt). For annotations and captions. | Both |
-| [layerOptions](../api/interfaces/makerjs.exporter.isvgrenderoptions.html#layeroptions) | object map - keys are the layer names, values are an object with these properties:  | property | values | | --- | --- | | [className](../api/interfaces/makerjs.exporter.isvgelementrenderoptions.html#className) | string - Class name | | [cssStyle](../api/interfaces/makerjs.exporter.isvgelementrenderoptions.html#cssstyle) | string - CSS style | | [fill](../api/interfaces/makerjs.exporter.isvgelementrenderoptions.html#fill) | string - CSS color (default: none) | | [stroke](../api/interfaces/makerjs.exporter.isvgelementrenderoptions.html#stroke) | string - CSS color (default: black) | | [strokeWidth](../api/interfaces/makerjs.exporter.isvgelementrenderoptions.html#strokewidth) | string - SVG width + units (default: 0.25mm) | | Both |
-| [origin](../api/interfaces/makerjs.exporter.isvgrenderoptions.html#origin) | point - offset your drawing in the SVG coordinate space (default: null) | Separate |
-| [scale](../api/interfaces/makerjs.exporter.isvgrenderoptions.html#scale) | number - scale your drawing (default: 1) | Separate |
-| [stroke](../api/interfaces/makerjs.exporter.isvgrenderoptions.html#stroke) | string - CSS color (default: black) | Both |
-| [strokeWidth](../api/interfaces/makerjs.exporter.isvgrenderoptions.html#strokewidth) | string - SVG width + units (default: 0.25mm) | Both |
-| [svgAttrs](../api/interfaces/makerjs.exporter.isvgrenderoptions.html#svgattrs) | object map - attributes to add to the root svg tag | Both |
-| [units](../api/interfaces/makerjs.exporter.isvgrenderoptions.html#units) | [Maker.js unit type](../api/index.html#unittype) (default - extracted from drawing. If unit system is not in drawing or not passed, it will use SVG default of pixels) | Both |
-| [viewbox](../api/interfaces/makerjs.exporter.isvgrenderoptions.html#viewbox) | * true (default) - use SVG viewbox, stretch drawing to fill the SVG element. * false - do not stretch drawing | Both |
+| [useSvgPathOnly](../converted/api/interfaces/core_exporter.isvgrenderoptions.md#usesvgpathonly) | *true (default)* - Path-only mode <br/> *false* - Separate mode |  |
+| [accuracy](../converted/api/interfaces/core_exporter.isvgrenderoptions.md#accuracy) | number - Exemplar number of decimal digits (default: .001) | Both |
+| [annotate](../converted/api/interfaces/core_exporter.isvgrenderoptions.md#annotate) | *true* - Adds SVG `<text>` elements with the path id <br/> *false (default)* | Separate |
+| [className](../converted/api/interfaces/core_exporter.isvgrenderoptions.md#classname) | string - Class name | Both |
+| [cssStyle](../converted/api/interfaces/core_exporter.isvgrenderoptions.md#cssstyle) | string - CSS style | Both |
+| [fill](../converted/api/interfaces/core_exporter.isvgrenderoptions.md#fill) | string - CSS color (default: none) | Path-only |
+| [fillRule](../converted/api/interfaces/core_exporter.isvgrenderoptions.md#fillrule) | string - [SVG fill-rule](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/fill-rule) (default: "evenodd")<br/>- "evenodd" - Uses the [even-odd rule](https://en.wikipedia.org/wiki/Even%E2%80%93odd_rule)<br/>- "nonzero" - Uses the [non-zero rule](https://en.wikipedia.org/wiki/Nonzero-rule) (requires more computation) | Path-only |
+| [fontSize](../converted/api/interfaces/core_exporter.isvgrenderoptions.md#fontsize) | string - CSS font size + units (default: 9pt). For annotations and captions. | Both |
+| [layerOptions](../converted/api/interfaces/core_exporter.isvgrenderoptions.md#layeroptions) | object map - keys are layer names, values are an object with properties described below. | Both |
+| [origin](../converted/api/interfaces/core_exporter.isvgrenderoptions.md#origin) | point - offset your drawing in the SVG coordinate space (default: null) | Separate |
+| [scale](../converted/api/interfaces/core_exporter.isvgrenderoptions.md#scale) | number - scale your drawing (default: 1) | Separate |
+| [stroke](../converted/api/interfaces/core_exporter.isvgrenderoptions.md#stroke) | string - CSS color (default: black) | Both |
+| [strokeWidth](../converted/api/interfaces/core_exporter.isvgrenderoptions.md#strokewidth) | string - SVG width + units (default: 0.25mm) | Both |
+| [svgAttrs](../converted/api/interfaces/core_exporter.isvgrenderoptions.md#svgattrs) | object map - attributes to add to the root svg tag | Both |
+| [units](../converted/api/index.md#unittype) | [Maker.js unit type](../converted/api/index.md#unittype) (default - extracted from drawing. If unit system is not in drawing or not passed, it will use SVG default of pixels) | Both |
+| [viewbox](../converted/api/interfaces/core_exporter.isvgrenderoptions.md#viewbox) | *true (default)* - use SVG viewbox, stretch drawing to fill the SVG element. <br/> *false* - do not stretch drawing | Both |
+
+The `layerOptions` object value has the following properties:
+
+* **[className](../converted/api/interfaces/core_exporter.isvgelementrenderoptions.md#classname)**: string - Class name
+* **[cssStyle](../converted/api/interfaces/core_exporter.isvgelementrenderoptions.md#cssstyle)**: string - CSS style
+* **[fill](../converted/api/interfaces/core_exporter.isvgelementrenderoptions.md#fill)**: string - CSS color (default: none)
+* **[stroke](../converted/api/interfaces/core_exporter.isvgelementrenderoptions.md#stroke)**: string - CSS color (default: black)
+* **[strokeWidth](../converted/api/interfaces/core_exporter.isvgelementrenderoptions.md#strokewidth)**: string - SVG width + units (default: 0.25mm)
 
 ## Related Topics
 
-- [Exporting DXF](../index.md)
-- [Basic Drawing](../index.md)
-- [SVG Styling](../index.md)
-- [Exporting PDF](../index.md)
+* [Exporting DXF](../index.md)
+* [Basic Drawing](../index.md)
+* [SVG Styling](../index.md)
+* [Exporting PDF](../index.md)

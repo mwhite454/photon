@@ -32,7 +32,7 @@ Preparing search index...
 
 # Function walk
 
-* walk(modelContext: [IModel](../interfaces/core_schema.IModel.md), options: [IWalkOptions](../interfaces/core_core.IWalkOptions.md)): [IModel](../interfaces/core_schema.IModel.md)
+* walk(modelContext: [IModel](../interfaces/core_schema.IModel.md), options: [IWalkOptions](../interfaces/core_maker.IWalkOptions.md)): [IModel](../interfaces/core_schema.IModel.md)
 
   Recursively walk through all child models and paths for a given model.
 
@@ -41,7 +41,7 @@ Preparing search index...
   + modelContext: [IModel](../interfaces/core_schema.IModel.md)
 
     The model to walk.
-  + options: [IWalkOptions](../interfaces/core_core.IWalkOptions.md)
+  + options: [IWalkOptions](../interfaces/core_maker.IWalkOptions.md)
 
     Object containing callbacks.
 

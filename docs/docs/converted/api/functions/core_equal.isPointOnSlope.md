@@ -29,14 +29,14 @@ Preparing search index...
 
 # Function isPointOnSlope
 
-* isPointOnSlope(p: [IPoint](../interfaces/core_schema.IPoint.md), slope: [ISlope](../interfaces/core_core.ISlope.md), withinDistance?: number): boolean
+* isPointOnSlope(p: [IPoint](../interfaces/core_schema.IPoint.md), slope: [ISlope](../interfaces/core_maker.ISlope.md), withinDistance?: number): boolean
 
   Find out if point is on a slope.
 
   #### Parameters
 
   + p: [IPoint](../interfaces/core_schema.IPoint.md)
-  + slope: [ISlope](../interfaces/core_core.ISlope.md)
+  + slope: [ISlope](../interfaces/core_maker.ISlope.md)
   + withinDistance: number = 0
 
   #### Returns boolean

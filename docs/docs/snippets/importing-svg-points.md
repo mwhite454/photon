@@ -24,7 +24,7 @@ tags:
 title: Importing Svg Points
 ---
 You may wish to import the points from an SVG [Polyline](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Basic_Shapes#Polyline) or [Polygon](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Basic_Shapes#Polygon) element.
-It is important to note the difference of coordinates between SVG and [Maker.js points](/docs/basic-drawing/index.md#Points): The Y component is opposite.
+It is important to note the difference of coordinates between SVG and [Maker.js points](/docs/basic-drawing/index.md#points): The Y component is opposite.
 The remedy for this is simple - use the Y-axis **mirror** functions of [point.mirror](../api/modules/core_point.html#mirror) on every point,
 or call [model.mirror](../api/modules/core_model.html#mirror) on your entire model.
 

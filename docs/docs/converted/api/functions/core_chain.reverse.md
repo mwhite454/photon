@@ -30,17 +30,17 @@ Preparing search index...
 
 # Function reverse
 
-* reverse(chainContext: [IChain](../interfaces/core_core.IChain.md)): [IChain](../interfaces/core_core.IChain.md)
+* reverse(chainContext: [IChain](../interfaces/core_maker.IChain.md)): [IChain](../interfaces/core_maker.IChain.md)
 
   Reverse the links of a chain.
 
   #### Parameters
 
-  + chainContext: [IChain](../interfaces/core_core.IChain.md)
+  + chainContext: [IChain](../interfaces/core_maker.IChain.md)
 
     Chain to reverse.
 
-  #### Returns [IChain](../interfaces/core_core.IChain.md)
+  #### Returns [IChain](../interfaces/core_maker.IChain.md)
 
   The chainContext for cascading.
 

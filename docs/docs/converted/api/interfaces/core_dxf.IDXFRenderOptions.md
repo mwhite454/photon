@@ -43,7 +43,7 @@ interface IDXFRenderOptions {
 
 #### Hierarchy ([View Summary](../hierarchy.md#core/dxf.IDXFRenderOptions))
 
-* [IPointMatchOptions](core_core.IPointMatchOptions.md)
+* [IPointMatchOptions](core_maker.IPointMatchOptions.md)
   + IDXFRenderOptions
 
 * Defined in [core/dxf.ts:550](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/dxf.ts#L550)
@@ -93,7 +93,7 @@ pointMatchingDistance?: number
 
 Max distance to consider two points as the same.
 
-Inherited from [IPointMatchOptions](core_core.IPointMatchOptions.md).[pointMatchingDistance](core_core.IPointMatchOptions.md#pointmatchingdistance)
+Inherited from [IPointMatchOptions](core_maker.IPointMatchOptions.md).[pointMatchingDistance](core_maker.IPointMatchOptions.md#pointmatchingdistance)
 
 * Defined in [core/maker.ts:282](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L282)
 

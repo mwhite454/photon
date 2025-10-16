@@ -29,14 +29,14 @@ Preparing search index...
 
 # Function isSlopeEqual
 
-* isSlopeEqual(slopeA: [ISlope](../interfaces/core_core.ISlope.md), slopeB: [ISlope](../interfaces/core_core.ISlope.md)): boolean
+* isSlopeEqual(slopeA: [ISlope](../interfaces/core_maker.ISlope.md), slopeB: [ISlope](../interfaces/core_maker.ISlope.md)): boolean
 
   Check for slope equality.
 
   #### Parameters
 
-  + slopeA: [ISlope](../interfaces/core_core.ISlope.md)
-  + slopeB: [ISlope](../interfaces/core_core.ISlope.md)
+  + slopeA: [ISlope](../interfaces/core_maker.ISlope.md)
+  + slopeB: [ISlope](../interfaces/core_maker.ISlope.md)
 
   #### Returns boolean
 

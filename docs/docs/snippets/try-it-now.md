@@ -14,6 +14,6 @@ tags:
 - try-it-now
 title: Try It Now
 ---
-Visit the [Maker.js Playground](/playground/index.md) to edit and run JavaScript from your browser.
+Visit the [Maker.js Playground](/docs../../playground/index.html) to edit and run JavaScript from your browser.
 
 Each of the [demos](/demos/index.md#content) will also open in the playground so that you can explore and modify their code.

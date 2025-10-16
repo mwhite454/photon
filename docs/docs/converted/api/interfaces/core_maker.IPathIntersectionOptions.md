@@ -29,7 +29,7 @@ IPathIntersectionOptions | Photon
 
 Preparing search index...
 
-* [core/maker](../modules/core_core.md)
+* [core/maker](../modules/core_maker.md)
 * IPathIntersectionOptions
 
 # Interface IPathIntersectionOptions
@@ -45,7 +45,7 @@ interface IPathIntersectionOptions {
 
 #### Hierarchy ([View Summary](../hierarchy.md#core/maker.IPathIntersectionOptions))
 
-* [IPathIntersectionBaseOptions](core_core.IPathIntersectionBaseOptions.md)
+* [IPathIntersectionBaseOptions](core_maker.IPathIntersectionBaseOptions.md)
   + IPathIntersectionOptions
 
 * Defined in [core/maker.ts:236](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L236)
@@ -65,7 +65,7 @@ interface IPathIntersectionOptions {
 
 excludeTangents?: boolean
 
-Inherited from [IPathIntersectionBaseOptions](core_core.IPathIntersectionBaseOptions.md).[excludeTangents](core_core.IPathIntersectionBaseOptions.md#excludetangents)
+Inherited from [IPathIntersectionBaseOptions](core_maker.IPathIntersectionBaseOptions.md).[excludeTangents](core_maker.IPathIntersectionBaseOptions.md#excludetangents)
 
 * Defined in [core/maker.ts:229](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L229)
 
@@ -73,7 +73,7 @@ Inherited from [IPathIntersectionBaseOptions](core_core.IPathIntersectionBaseOpt
 
 out\_AreOverlapped?: boolean
 
-Inherited from [IPathIntersectionBaseOptions](core_core.IPathIntersectionBaseOptions.md).[out\_AreOverlapped](core_core.IPathIntersectionBaseOptions.md#out_areoverlapped)
+Inherited from [IPathIntersectionBaseOptions](core_maker.IPathIntersectionBaseOptions.md).[out\_AreOverlapped](core_maker.IPathIntersectionBaseOptions.md#out_areoverlapped)
 
 * Defined in [core/maker.ts:230](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L230)
 

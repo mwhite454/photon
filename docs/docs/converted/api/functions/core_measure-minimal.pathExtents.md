@@ -33,7 +33,7 @@ Preparing search index...
 
 # Function pathExtents
 
-* pathExtents(pathToMeasure: [IPath](../interfaces/core_schema.IPath.md), addOffset?: [IPoint](../interfaces/core_schema.IPoint.md)): [IMeasure](../interfaces/core_core.IMeasure.md)
+* pathExtents(pathToMeasure: [IPath](../interfaces/core_schema.IPath.md), addOffset?: [IPoint](../interfaces/core_schema.IPoint.md)): [IMeasure](../interfaces/core_maker.IMeasure.md)
 
   Calculates the smallest rectangle which contains a path.
 
@@ -42,7 +42,7 @@ Preparing search index...
   + pathToMeasure: [IPath](../interfaces/core_schema.IPath.md)
   + `Optional`addOffset: [IPoint](../interfaces/core_schema.IPoint.md)
 
-  #### Returns [IMeasure](../interfaces/core_core.IMeasure.md)
+  #### Returns [IMeasure](../interfaces/core_maker.IMeasure.md)
 
   + Defined in [core/measure-minimal.ts:167](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure-minimal.ts#L167)
 

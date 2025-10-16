@@ -28,7 +28,7 @@ IChainLink | Photon
 
 Preparing search index...
 
-* [core/maker](../modules/core_core.md)
+* [core/maker](../modules/core_maker.md)
 * IChainLink
 
 # Interface IChainLink
@@ -39,7 +39,7 @@ interface IChainLink {
     [endPoints](#endpoints): [IPoint](core_schema.IPoint.md)[];
     [pathLength](#pathlength): number;
     [reversed](#reversed): boolean;
-    [walkedPath](#walkedpath): [IWalkPath](core_core.IWalkPath.md);
+    [walkedPath](#walkedpath): [IWalkPath](core_maker.IWalkPath.md);
 }
 
 * Defined in [core/maker.ts:425](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L425)
@@ -81,7 +81,7 @@ Path flows forwards or reverse.
 
 ### walkedPath
 
-walkedPath: [IWalkPath](core_core.IWalkPath.md)
+walkedPath: [IWalkPath](core_maker.IWalkPath.md)
 
 Reference to the path.
 

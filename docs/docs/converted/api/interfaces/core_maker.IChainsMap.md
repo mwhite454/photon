@@ -28,7 +28,7 @@ IChainsMap | Photon
 
 Preparing search index...
 
-* [core/maker](../modules/core_core.md)
+* [core/maker](../modules/core_maker.md)
 * IChainsMap
 
 # Interface IChainsMap
@@ -37,7 +37,7 @@ A map of chains by layer.
 
 #### Indexable
 
-* [layer: string]: [IChain](core_core.IChain.md)[]
+* [layer: string]: [IChain](core_maker.IChain.md)[]
 
 * Defined in [core/maker.ts:477](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L477)
 

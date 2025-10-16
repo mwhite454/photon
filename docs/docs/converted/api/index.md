@@ -96,7 +96,7 @@ Preparing search index...
 [core/layout](modules/core_layout.md)
 
 
-[core/maker](modules/core_core.md)
+[core/maker](modules/core_maker.md)
 
 
 [core/measure](modules/core_measure.md)

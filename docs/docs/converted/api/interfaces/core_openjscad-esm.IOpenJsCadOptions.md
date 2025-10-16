@@ -48,7 +48,7 @@ interface IOpenJsCadOptions {
 
 #### Hierarchy ([View Summary](../hierarchy.md#core/openjscad-esm.IOpenJsCadOptions))
 
-* [IFindLoopsOptions](core_core.IFindLoopsOptions.md)
+* [IFindLoopsOptions](core_maker.IFindLoopsOptions.md)
   + IOpenJsCadOptions
 
 * Defined in [core/openjscad-esm.ts:477](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/openjscad-esm.ts#L477)
@@ -116,7 +116,7 @@ pointMatchingDistance?: number
 
 Max distance to consider two points as the same.
 
-Inherited from [IFindLoopsOptions](core_core.IFindLoopsOptions.md).[pointMatchingDistance](core_core.IFindLoopsOptions.md#pointmatchingdistance)
+Inherited from [IFindLoopsOptions](core_maker.IFindLoopsOptions.md).[pointMatchingDistance](core_maker.IFindLoopsOptions.md#pointmatchingdistance)
 
 * Defined in [core/maker.ts:282](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L282)
 
@@ -126,7 +126,7 @@ removeFromOriginal?: boolean
 
 Flag to remove looped paths from the original model.
 
-Inherited from [IFindLoopsOptions](core_core.IFindLoopsOptions.md).[removeFromOriginal](core_core.IFindLoopsOptions.md#removefromoriginal)
+Inherited from [IFindLoopsOptions](core_maker.IFindLoopsOptions.md).[removeFromOriginal](core_maker.IFindLoopsOptions.md#removefromoriginal)
 
 * Defined in [core/maker.ts:336](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L336)
 

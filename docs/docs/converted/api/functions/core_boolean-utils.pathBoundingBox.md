@@ -33,14 +33,14 @@ Preparing search index...
 
 # Function pathBoundingBox
 
-* pathBoundingBox(pathContext: [IPath](../interfaces/core_schema.IPath.md), offset?: [IPoint](../interfaces/core_schema.IPoint.md)): [IMeasure](../interfaces/core_core.IMeasure.md)
+* pathBoundingBox(pathContext: [IPath](../interfaces/core_schema.IPath.md), offset?: [IPoint](../interfaces/core_schema.IPoint.md)): [IMeasure](../interfaces/core_maker.IMeasure.md)
 
   #### Parameters
 
   + pathContext: [IPath](../interfaces/core_schema.IPath.md)
   + `Optional`offset: [IPoint](../interfaces/core_schema.IPoint.md)
 
-  #### Returns [IMeasure](../interfaces/core_core.IMeasure.md)
+  #### Returns [IMeasure](../interfaces/core_maker.IMeasure.md)
 
   + Defined in [core/boolean-utils.ts:105](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/boolean-utils.ts#L105)
 

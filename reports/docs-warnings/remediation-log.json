@@ -1,0 +1,380 @@
+[
+  {
+    "timestamp": "2025-10-16T14:02:36.414930Z",
+    "source_file": "docs/docs/snippets/captions.md",
+    "line": 29,
+    "original": "Captions are unlike the [Text model](/docs/advanced-drawing/index.md#Fonts%20and%20text), which is a line drawing of glyphs in a given font.",
+    "updated": "Captions are unlike the [Text model](/docs/advanced-drawing/index.md#fonts%20and%20text), which is a line drawing of glyphs in a given font."
+  },
+  {
+    "timestamp": "2025-10-16T14:02:36.415409Z",
+    "source_file": "docs/docs/snippets/captions.md",
+    "line": 38,
+    "original": "A caption can be put on a different [layer](/docs/intermediate-drawing/index.md#Layers) from it's model by setting the layer of it's anchor.",
+    "updated": "A caption can be put on a different [layer](/docs/intermediate-drawing/index.md#layers) from it's model by setting the layer of it's anchor."
+  },
+  {
+    "timestamp": "2025-10-16T14:02:36.415626Z",
+    "source_file": "docs/docs/snippets/dogbones.md",
+    "line": 80,
+    "original": "Making them bottomless is useful for creating [tongue-and-groove shapes](/docs/playground/index.md?script=tongue-and-groove):",
+    "updated": "Making them bottomless is useful for creating [tongue-and-groove shapes](/docs../../playground/index.html?script=tongue-and-groove):"
+  },
+  {
+    "timestamp": "2025-10-16T14:02:36.415862Z",
+    "source_file": "docs/docs/snippets/exporting-dxf.md",
+    "line": 38,
+    "original": "A [caption](/docs/intermediate-drawing/index.md#Captions) will inherit the `layerOptions` that are applied to its model's layer name unless overridden by the anchor layer.",
+    "updated": "A [caption](/docs/intermediate-drawing/index.md#captions) will inherit the `layerOptions` that are applied to its model's layer name unless overridden by the anchor layer."
+  },
+  {
+    "timestamp": "2025-10-16T14:02:36.416246Z",
+    "source_file": "docs/docs/snippets/layout-on-path.md",
+    "line": 158,
+    "original": "Layout on a path works well with fonts and text. [See an example here](/docs/playground/index.md?script=text-on-path).",
+    "updated": "Layout on a path works well with fonts and text. [See an example here](/docs../../playground/index.html?script=text-on-path)."
+  },
+  {
+    "timestamp": "2025-10-16T14:02:36.416363Z",
+    "source_file": "docs/docs/snippets/built-in-models.md",
+    "line": 24,
+    "original": "* [Belt](/docs/playground/index.md?script=Belt)",
+    "updated": "* [Belt](/docs../../playground/index.html?script=Belt)"
+  },
+  {
+    "timestamp": "2025-10-16T14:02:36.416449Z",
+    "source_file": "docs/docs/snippets/built-in-models.md",
+    "line": 25,
+    "original": "* [Bezier Curve](/docs/playground/index.md?script=BezierCurve)",
+    "updated": "* [Bezier Curve](/docs../../playground/index.html?script=BezierCurve)"
+  },
+  {
+    "timestamp": "2025-10-16T14:02:36.416539Z",
+    "source_file": "docs/docs/snippets/built-in-models.md",
+    "line": 26,
+    "original": "* [Bolt Circle](/docs/playground/index.md?script=BoltCircle)",
+    "updated": "* [Bolt Circle](/docs../../playground/index.html?script=BoltCircle)"
+  },
+  {
+    "timestamp": "2025-10-16T14:02:36.416717Z",
+    "source_file": "docs/docs/snippets/built-in-models.md",
+    "line": 27,
+    "original": "* [Bolt Rectangle](/docs/playground/index.md?script=BoltRectangle)",
+    "updated": "* [Bolt Rectangle](/docs../../playground/index.html?script=BoltRectangle)"
+  },
+  {
+    "timestamp": "2025-10-16T14:02:36.417069Z",
+    "source_file": "docs/docs/snippets/built-in-models.md",
+    "line": 28,
+    "original": "* [Connect the dots](/docs/playground/index.md?script=ConnectTheDots)",
+    "updated": "* [Connect the dots](/docs../../playground/index.html?script=ConnectTheDots)"
+  },
+  {
+    "timestamp": "2025-10-16T14:02:36.417597Z",
+    "source_file": "docs/docs/snippets/built-in-models.md",
+    "line": 29,
+    "original": "* [Dogbone](/docs/playground/index.md?script=Dogbone)",
+    "updated": "* [Dogbone](/docs../../playground/index.html?script=Dogbone)"
+  },
+  {
+    "timestamp": "2025-10-16T14:02:36.417807Z",
+    "source_file": "docs/docs/snippets/built-in-models.md",
+    "line": 30,
+    "original": "* [Dome](/docs/playground/index.md?script=Dome)",
+    "updated": "* [Dome](/docs../../playground/index.html?script=Dome)"
+  },
+  {
+    "timestamp": "2025-10-16T14:02:36.417901Z",
+    "source_file": "docs/docs/snippets/built-in-models.md",
+    "line": 31,
+    "original": "* [Ellipse](/docs/playground/index.md?script=Ellipse)",
+    "updated": "* [Ellipse](/docs../../playground/index.html?script=Ellipse)"
+  },
+  {
+    "timestamp": "2025-10-16T14:02:36.417986Z",
+    "source_file": "docs/docs/snippets/built-in-models.md",
+    "line": 32,
+    "original": "* [Elliptic Arc](/docs/playground/index.md?script=EllipticArc)",
+    "updated": "* [Elliptic Arc](/docs../../playground/index.html?script=EllipticArc)"
+  },
+  {
+    "timestamp": "2025-10-16T14:02:36.418081Z",
+    "source_file": "docs/docs/snippets/built-in-models.md",
+    "line": 33,
+    "original": "* [Holes](/docs/playground/index.md?script=Holes)",
+    "updated": "* [Holes](/docs../../playground/index.html?script=Holes)"
+  },
+  {
+    "timestamp": "2025-10-16T14:02:36.418160Z",
+    "source_file": "docs/docs/snippets/built-in-models.md",
+    "line": 34,
+    "original": "* [Oval](/docs/playground/index.md?script=Oval)",
+    "updated": "* [Oval](/docs../../playground/index.html?script=Oval)"
+  },
+  {
+    "timestamp": "2025-10-16T14:02:36.418238Z",
+    "source_file": "docs/docs/snippets/built-in-models.md",
+    "line": 35,
+    "original": "* [OvalArc](/docs/playground/index.md?script=OvalArc)",
+    "updated": "* [OvalArc](/docs../../playground/index.html?script=OvalArc)"
+  },
+  {
+    "timestamp": "2025-10-16T14:02:36.418313Z",
+    "source_file": "docs/docs/snippets/built-in-models.md",
+    "line": 36,
+    "original": "* [Polygon](/docs/playground/index.md?script=Polygon)",
+    "updated": "* [Polygon](/docs../../playground/index.html?script=Polygon)"
+  },
+  {
+    "timestamp": "2025-10-16T14:02:36.418414Z",
+    "source_file": "docs/docs/snippets/built-in-models.md",
+    "line": 38,
+    "original": "* [Ring](/docs/playground/index.md?script=Ring)",
+    "updated": "* [Ring](/docs../../playground/index.html?script=Ring)"
+  },
+  {
+    "timestamp": "2025-10-16T14:02:36.418486Z",
+    "source_file": "docs/docs/snippets/built-in-models.md",
+    "line": 39,
+    "original": "* [RoundRectangle](/docs/playground/index.md?script=RoundRectangle)",
+    "updated": "* [RoundRectangle](/docs../../playground/index.html?script=RoundRectangle)"
+  },
+  {
+    "timestamp": "2025-10-16T14:02:36.418561Z",
+    "source_file": "docs/docs/snippets/built-in-models.md",
+    "line": 40,
+    "original": "* [S curve](/docs/playground/index.md?script=SCurve)",
+    "updated": "* [S curve](/docs../../playground/index.html?script=SCurve)"
+  },
+  {
+    "timestamp": "2025-10-16T14:02:36.418632Z",
+    "source_file": "docs/docs/snippets/built-in-models.md",
+    "line": 41,
+    "original": "* [Slot](/docs/playground/index.md?script=Slot)",
+    "updated": "* [Slot](/docs../../playground/index.html?script=Slot)"
+  },
+  {
+    "timestamp": "2025-10-16T14:02:36.418702Z",
+    "source_file": "docs/docs/snippets/built-in-models.md",
+    "line": 42,
+    "original": "* [Square](/docs/playground/index.md?script=Square)",
+    "updated": "* [Square](/docs../../playground/index.html?script=Square)"
+  },
+  {
+    "timestamp": "2025-10-16T14:02:36.418774Z",
+    "source_file": "docs/docs/snippets/built-in-models.md",
+    "line": 43,
+    "original": "* [Star](/docs/playground/index.md?script=Star)",
+    "updated": "* [Star](/docs../../playground/index.html?script=Star)"
+  },
+  {
+    "timestamp": "2025-10-16T14:02:36.418849Z",
+    "source_file": "docs/docs/snippets/built-in-models.md",
+    "line": 44,
+    "original": "* [Text](/docs/playground/index.md?script=Text)",
+    "updated": "* [Text](/docs../../playground/index.html?script=Text)"
+  },
+  {
+    "timestamp": "2025-10-16T14:02:36.419070Z",
+    "source_file": "docs/docs/snippets/exporting-svg.md",
+    "line": 60,
+    "original": "| [useSvgPathOnly](../converted/api/interfaces/core_exporter.ISvgRenderOptions.md#usesvgpathonly) | *true (default)* - Path-only mode <br/> *false* - Separate mode |  |",
+    "updated": "| [useSvgPathOnly](../converted/api/interfaces/core_exporter.isvgrenderoptions.md#usesvgpathonly) | *true (default)* - Path-only mode <br/> *false* - Separate mode |  |"
+  },
+  {
+    "timestamp": "2025-10-16T14:02:36.419169Z",
+    "source_file": "docs/docs/snippets/exporting-svg.md",
+    "line": 61,
+    "original": "| [accuracy](../converted/api/interfaces/core_exporter.ISvgRenderOptions.md#accuracy) | number - Exemplar number of decimal digits (default: .001) | Both |",
+    "updated": "| [accuracy](../converted/api/interfaces/core_exporter.isvgrenderoptions.md#accuracy) | number - Exemplar number of decimal digits (default: .001) | Both |"
+  },
+  {
+    "timestamp": "2025-10-16T14:02:36.419259Z",
+    "source_file": "docs/docs/snippets/exporting-svg.md",
+    "line": 62,
+    "original": "| [annotate](../converted/api/interfaces/core_exporter.ISvgRenderOptions.md#annotate) | *true* - Adds SVG `<text>` elements with the path id <br/> *false (default)* | Separate |",
+    "updated": "| [annotate](../converted/api/interfaces/core_exporter.isvgrenderoptions.md#annotate) | *true* - Adds SVG `<text>` elements with the path id <br/> *false (default)* | Separate |"
+  },
+  {
+    "timestamp": "2025-10-16T14:02:36.419358Z",
+    "source_file": "docs/docs/snippets/exporting-svg.md",
+    "line": 63,
+    "original": "| [className](../converted/api/interfaces/core_exporter.ISvgRenderOptions.md#className) | string - Class name | Both |",
+    "updated": "| [className](../converted/api/interfaces/core_exporter.isvgrenderoptions.md#classname) | string - Class name | Both |"
+  },
+  {
+    "timestamp": "2025-10-16T14:02:36.419447Z",
+    "source_file": "docs/docs/snippets/exporting-svg.md",
+    "line": 64,
+    "original": "| [cssStyle](../converted/api/interfaces/core_exporter.ISvgRenderOptions.md#cssstyle) | string - CSS style | Both |",
+    "updated": "| [cssStyle](../converted/api/interfaces/core_exporter.isvgrenderoptions.md#cssstyle) | string - CSS style | Both |"
+  },
+  {
+    "timestamp": "2025-10-16T14:02:36.419534Z",
+    "source_file": "docs/docs/snippets/exporting-svg.md",
+    "line": 65,
+    "original": "| [fill](../converted/api/interfaces/core_exporter.ISvgRenderOptions.md#fill) | string - CSS color (default: none) | Path-only |",
+    "updated": "| [fill](../converted/api/interfaces/core_exporter.isvgrenderoptions.md#fill) | string - CSS color (default: none) | Path-only |"
+  },
+  {
+    "timestamp": "2025-10-16T14:02:36.419622Z",
+    "source_file": "docs/docs/snippets/exporting-svg.md",
+    "line": 66,
+    "original": "| [fillRule](../converted/api/interfaces/core_exporter.ISvgRenderOptions.md#fillrule) | string - [SVG fill-rule](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/fill-rule) (default: \"evenodd\")<br/>- \"evenodd\" - Uses the [even-odd rule](https://en.wikipedia.org/wiki/Even%E2%80%93odd_rule)<br/>- \"nonzero\" - Uses the [non-zero rule](https://en.wikipedia.org/wiki/Nonzero-rule) (requires more computation) | Path-only |",
+    "updated": "| [fillRule](../converted/api/interfaces/core_exporter.isvgrenderoptions.md#fillrule) | string - [SVG fill-rule](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/fill-rule) (default: \"evenodd\")<br/>- \"evenodd\" - Uses the [even-odd rule](https://en.wikipedia.org/wiki/Even%E2%80%93odd_rule)<br/>- \"nonzero\" - Uses the [non-zero rule](https://en.wikipedia.org/wiki/Nonzero-rule) (requires more computation) | Path-only |"
+  },
+  {
+    "timestamp": "2025-10-16T14:02:36.419709Z",
+    "source_file": "docs/docs/snippets/exporting-svg.md",
+    "line": 67,
+    "original": "| [fontSize](../converted/api/interfaces/core_exporter.ISvgRenderOptions.md#fontsize) | string - CSS font size + units (default: 9pt). For annotations and captions. | Both |",
+    "updated": "| [fontSize](../converted/api/interfaces/core_exporter.isvgrenderoptions.md#fontsize) | string - CSS font size + units (default: 9pt). For annotations and captions. | Both |"
+  },
+  {
+    "timestamp": "2025-10-16T14:02:36.419799Z",
+    "source_file": "docs/docs/snippets/exporting-svg.md",
+    "line": 68,
+    "original": "| [layerOptions](../converted/api/interfaces/core_exporter.ISvgRenderOptions.md#layeroptions) | object map - keys are layer names, values are an object with properties described below. | Both |",
+    "updated": "| [layerOptions](../converted/api/interfaces/core_exporter.isvgrenderoptions.md#layeroptions) | object map - keys are layer names, values are an object with properties described below. | Both |"
+  },
+  {
+    "timestamp": "2025-10-16T14:02:36.419888Z",
+    "source_file": "docs/docs/snippets/exporting-svg.md",
+    "line": 69,
+    "original": "| [origin](../converted/api/interfaces/core_exporter.ISvgRenderOptions.md#origin) | point - offset your drawing in the SVG coordinate space (default: null) | Separate |",
+    "updated": "| [origin](../converted/api/interfaces/core_exporter.isvgrenderoptions.md#origin) | point - offset your drawing in the SVG coordinate space (default: null) | Separate |"
+  },
+  {
+    "timestamp": "2025-10-16T14:02:36.419973Z",
+    "source_file": "docs/docs/snippets/exporting-svg.md",
+    "line": 70,
+    "original": "| [scale](../converted/api/interfaces/core_exporter.ISvgRenderOptions.md#scale) | number - scale your drawing (default: 1) | Separate |",
+    "updated": "| [scale](../converted/api/interfaces/core_exporter.isvgrenderoptions.md#scale) | number - scale your drawing (default: 1) | Separate |"
+  },
+  {
+    "timestamp": "2025-10-16T14:02:36.420065Z",
+    "source_file": "docs/docs/snippets/exporting-svg.md",
+    "line": 71,
+    "original": "| [stroke](../converted/api/interfaces/core_exporter.ISvgRenderOptions.md#stroke) | string - CSS color (default: black) | Both |",
+    "updated": "| [stroke](../converted/api/interfaces/core_exporter.isvgrenderoptions.md#stroke) | string - CSS color (default: black) | Both |"
+  },
+  {
+    "timestamp": "2025-10-16T14:02:36.420155Z",
+    "source_file": "docs/docs/snippets/exporting-svg.md",
+    "line": 72,
+    "original": "| [strokeWidth](../converted/api/interfaces/core_exporter.ISvgRenderOptions.md#strokewidth) | string - SVG width + units (default: 0.25mm) | Both |",
+    "updated": "| [strokeWidth](../converted/api/interfaces/core_exporter.isvgrenderoptions.md#strokewidth) | string - SVG width + units (default: 0.25mm) | Both |"
+  },
+  {
+    "timestamp": "2025-10-16T14:02:36.420242Z",
+    "source_file": "docs/docs/snippets/exporting-svg.md",
+    "line": 73,
+    "original": "| [svgAttrs](../converted/api/interfaces/core_exporter.ISvgRenderOptions.md#svgattrs) | object map - attributes to add to the root svg tag | Both |",
+    "updated": "| [svgAttrs](../converted/api/interfaces/core_exporter.isvgrenderoptions.md#svgattrs) | object map - attributes to add to the root svg tag | Both |"
+  },
+  {
+    "timestamp": "2025-10-16T14:02:36.420330Z",
+    "source_file": "docs/docs/snippets/exporting-svg.md",
+    "line": 75,
+    "original": "| [viewbox](../converted/api/interfaces/core_exporter.ISvgRenderOptions.md#viewbox) | *true (default)* - use SVG viewbox, stretch drawing to fill the SVG element. <br/> *false* - do not stretch drawing | Both |",
+    "updated": "| [viewbox](../converted/api/interfaces/core_exporter.isvgrenderoptions.md#viewbox) | *true (default)* - use SVG viewbox, stretch drawing to fill the SVG element. <br/> *false* - do not stretch drawing | Both |"
+  },
+  {
+    "timestamp": "2025-10-16T14:02:36.420415Z",
+    "source_file": "docs/docs/snippets/exporting-svg.md",
+    "line": 79,
+    "original": "* **[className](../converted/api/interfaces/core_exporter.ISvgElementRenderOptions.md#className)**: string - Class name",
+    "updated": "* **[className](../converted/api/interfaces/core_exporter.isvgelementrenderoptions.md#classname)**: string - Class name"
+  },
+  {
+    "timestamp": "2025-10-16T14:02:36.420504Z",
+    "source_file": "docs/docs/snippets/exporting-svg.md",
+    "line": 80,
+    "original": "* **[cssStyle](../converted/api/interfaces/core_exporter.ISvgElementRenderOptions.md#cssstyle)**: string - CSS style",
+    "updated": "* **[cssStyle](../converted/api/interfaces/core_exporter.isvgelementrenderoptions.md#cssstyle)**: string - CSS style"
+  },
+  {
+    "timestamp": "2025-10-16T14:02:36.420591Z",
+    "source_file": "docs/docs/snippets/exporting-svg.md",
+    "line": 81,
+    "original": "* **[fill](../converted/api/interfaces/core_exporter.ISvgElementRenderOptions.md#fill)**: string - CSS color (default: none)",
+    "updated": "* **[fill](../converted/api/interfaces/core_exporter.isvgelementrenderoptions.md#fill)**: string - CSS color (default: none)"
+  },
+  {
+    "timestamp": "2025-10-16T14:02:36.420677Z",
+    "source_file": "docs/docs/snippets/exporting-svg.md",
+    "line": 82,
+    "original": "* **[stroke](../converted/api/interfaces/core_exporter.ISvgElementRenderOptions.md#stroke)**: string - CSS color (default: black)",
+    "updated": "* **[stroke](../converted/api/interfaces/core_exporter.isvgelementrenderoptions.md#stroke)**: string - CSS color (default: black)"
+  },
+  {
+    "timestamp": "2025-10-16T14:02:36.420761Z",
+    "source_file": "docs/docs/snippets/exporting-svg.md",
+    "line": 83,
+    "original": "* **[strokeWidth](../converted/api/interfaces/core_exporter.ISvgElementRenderOptions.md#strokewidth)**: string - SVG width + units (default: 0.25mm)",
+    "updated": "* **[strokeWidth](../converted/api/interfaces/core_exporter.isvgelementrenderoptions.md#strokewidth)**: string - SVG width + units (default: 0.25mm)"
+  },
+  {
+    "timestamp": "2025-10-16T14:02:36.420849Z",
+    "source_file": "docs/docs/snippets/try-it-now.md",
+    "line": 17,
+    "original": "Visit the [Maker.js Playground](/docs/playground/index.md) to edit and run JavaScript from your browser.",
+    "updated": "Visit the [Maker.js Playground](/docs../../playground/index.html) to edit and run JavaScript from your browser."
+  },
+  {
+    "timestamp": "2025-10-16T14:02:36.421008Z",
+    "source_file": "docs/docs/snippets/chain-links.md",
+    "line": 34,
+    "original": "the same type of object used in [walking a model tree](/docs/model-trees/index.md#Walking a model tree).",
+    "updated": "the same type of object used in [walking a model tree](/docs/model-trees/index.md#walking a model tree)."
+  },
+  {
+    "timestamp": "2025-10-16T14:02:36.421114Z",
+    "source_file": "docs/docs/snippets/importing-svg-points.md",
+    "line": 27,
+    "original": "It is important to note the difference of coordinates between SVG and [Maker.js points](/docs/basic-drawing/index.md#Points): The Y component is opposite.",
+    "updated": "It is important to note the difference of coordinates between SVG and [Maker.js points](/docs/basic-drawing/index.md#points): The Y component is opposite."
+  },
+  {
+    "timestamp": "2025-10-16T14:02:36.421379Z",
+    "source_file": "docs/docs/snippets/importing-svg-path-data.md",
+    "line": 52,
+    "original": "these will become [Bezier curves](/docs/advanced-drawing/index.md#Bezier curves) in your model.",
+    "updated": "these will become [Bezier curves](/docs/advanced-drawing/index.md#bezier curves) in your model."
+  },
+  {
+    "timestamp": "2025-10-16T14:02:36.421577Z",
+    "source_file": "docs/docs/snippets/chain-fillet.md",
+    "line": 29,
+    "original": "A [fillet](/docs/intermediate-drawing/index.md#Fillets) can be added between all paths in a chain by calling",
+    "updated": "A [fillet](/docs/intermediate-drawing/index.md#fillets) can be added between all paths in a chain by calling"
+  },
+  {
+    "timestamp": "2025-10-16T14:02:36.421672Z",
+    "source_file": "docs/docs/snippets/chain-dogbone.md",
+    "line": 29,
+    "original": "A [dogbone fillet](/docs/intermediate-drawing/index.md#Dogbone%20Fillet) can be added between all line paths in a chain by calling",
+    "updated": "A [dogbone fillet](/docs/intermediate-drawing/index.md#dogbone%20fillet) can be added between all line paths in a chain by calling"
+  },
+  {
+    "timestamp": "2025-10-16T14:02:36.421760Z",
+    "source_file": "docs/docs/snippets/layout-on-chain.md",
+    "line": 33,
+    "original": "Similar to [layout on a path](/docs/advanced-drawing/index.md#Layout on a path), you can use a chain as a layout guide for a row of child models within a model.",
+    "updated": "Similar to [layout on a path](/docs/advanced-drawing/index.md#layout on a path), you can use a chain as a layout guide for a row of child models within a model."
+  },
+  {
+    "timestamp": "2025-10-16T14:02:36.421835Z",
+    "source_file": "docs/docs/snippets/layout-on-chain.md",
+    "line": 62,
+    "original": "See [layout on a path](/docs/advanced-drawing/index.md#Layout on a path) for explanation.",
+    "updated": "See [layout on a path](/docs/advanced-drawing/index.md#layout on a path) for explanation."
+  },
+  {
+    "timestamp": "2025-10-16T14:02:36.421909Z",
+    "source_file": "docs/docs/snippets/layout-on-chain.md",
+    "line": 68,
+    "original": "Layout on a chain works well with fonts and text. [See an example here](/docs/playground/index.md?script=text-on-chain).",
+    "updated": "Layout on a chain works well with fonts and text. [See an example here](/docs../../playground/index.html?script=text-on-chain)."
+  }
+]

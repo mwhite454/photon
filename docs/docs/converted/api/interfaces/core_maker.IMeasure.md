@@ -24,7 +24,7 @@ IMeasure | Photon
 
 Preparing search index...
 
-* [core/maker](../modules/core_core.md)
+* [core/maker](../modules/core_maker.md)
 * IMeasure
 
 # Interface IMeasure
@@ -39,7 +39,7 @@ interface IMeasure {
 #### Hierarchy ([View Summary](../hierarchy.md#core/maker.IMeasure))
 
 * IMeasure
-  + [IMeasureWithCenter](core_core.IMeasureWithCenter.md)
+  + [IMeasureWithCenter](core_maker.IMeasureWithCenter.md)
 
 * Defined in [core/maker.ts:156](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L156)
 

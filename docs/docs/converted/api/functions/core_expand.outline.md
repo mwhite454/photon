@@ -34,7 +34,7 @@ Preparing search index...
       distance: number,
       joints?: number,
       inside?: boolean,
-      options?: [ICombineOptions](../interfaces/core_core.ICombineOptions.md),
+      options?: [ICombineOptions](../interfaces/core_maker.ICombineOptions.md),
   ): [IModel](../interfaces/core_schema.IModel.md)
 
   #### Parameters
@@ -43,7 +43,7 @@ Preparing search index...
   + distance: number
   + joints: number = 0
   + inside: boolean = false
-  + options: [ICombineOptions](../interfaces/core_core.ICombineOptions.md) = {}
+  + options: [ICombineOptions](../interfaces/core_maker.ICombineOptions.md) = {}
 
   #### Returns [IModel](../interfaces/core_schema.IModel.md)
 

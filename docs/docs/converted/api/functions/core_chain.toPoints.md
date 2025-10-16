@@ -31,7 +31,7 @@ Preparing search index...
 # Function toPoints
 
 * toPoints(
-      chainContext: [IChain](../interfaces/core_core.IChain.md),
+      chainContext: [IChain](../interfaces/core_maker.IChain.md),
       distanceOrDistances: number | number[],
       maxPoints?: number,
   ): [IPoint](../interfaces/core_schema.IPoint.md)[]
@@ -40,7 +40,7 @@ Preparing search index...
 
   #### Parameters
 
-  + chainContext: [IChain](../interfaces/core_core.IChain.md)
+  + chainContext: [IChain](../interfaces/core_maker.IChain.md)
 
     Chain of paths to get points from.
   + distanceOrDistances: number | number[]

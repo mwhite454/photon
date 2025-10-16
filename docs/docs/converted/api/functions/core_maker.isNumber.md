@@ -24,7 +24,7 @@ isNumber | Photon
 
 Preparing search index...
 
-* [core/maker](../modules/core_core.md)
+* [core/maker](../modules/core_maker.md)
 * isNumber
 
 # Function isNumber

@@ -65,22 +65,22 @@ First we will leave the code as is, and return the **model** variable.
 //render a model created by a function
 import { exporter } from '@7syllable/photon-core';
 function myModel() {
-const line = {
-type: 'line',
-origin: [0, 0],
-end: [50, 50]
-};
-const circle = {
-type: 'circle',
-origin: [0, 0],
-radius: 50
-};
-const pathObject = { myLine: line, myCircle: circle };
-const model = { paths: pathObject };
-return model;
-}
-const svg = exporter.toSVG(myModel());
-document.write(svg);
+  const line = {
+  type: 'line',
+  origin: [0, 0],
+  end: [50, 50]
+  };
+  const circle = {
+  type: 'circle',
+  origin: [0, 0],
+  radius: 50
+  };
+  const pathObject = { myLine: line, myCircle: circle };
+  const model = { paths: pathObject };
+  return model;
+  }
+  const svg = exporter.toSVG(myModel());
+  document.write(svg);
 ```
 
 Alternatively, we can change our function to be usable with the **new** operator,

@@ -28,7 +28,7 @@ IRefPathIdInModel | Photon
 
 Preparing search index...
 
-* [core/maker](../modules/core_core.md)
+* [core/maker](../modules/core_maker.md)
 * IRefPathIdInModel
 
 # Interface IRefPathIdInModel
@@ -43,7 +43,7 @@ interface IRefPathIdInModel {
 #### Hierarchy ([View Summary](../hierarchy.md#core/maker.IRefPathIdInModel))
 
 * IRefPathIdInModel
-  + [IWalkPath](core_core.IWalkPath.md)
+  + [IWalkPath](core_maker.IWalkPath.md)
 
 * Defined in [core/maker.ts:386](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L386)
 

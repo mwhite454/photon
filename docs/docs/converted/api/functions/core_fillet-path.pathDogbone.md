@@ -37,7 +37,7 @@ Preparing search index...
       lineA: [IPathLine](../interfaces/core_schema.IPathLine.md),
       lineB: [IPathLine](../interfaces/core_schema.IPathLine.md),
       filletRadius: number,
-      options?: [IPointMatchOptions](../interfaces/core_core.IPointMatchOptions.md),
+      options?: [IPointMatchOptions](../interfaces/core_maker.IPointMatchOptions.md),
   ): [IPathArc](../interfaces/core_schema.IPathArc.md)
 
   #### Parameters
@@ -45,7 +45,7 @@ Preparing search index...
   + lineA: [IPathLine](../interfaces/core_schema.IPathLine.md)
   + lineB: [IPathLine](../interfaces/core_schema.IPathLine.md)
   + filletRadius: number
-  + `Optional`options: [IPointMatchOptions](../interfaces/core_core.IPointMatchOptions.md)
+  + `Optional`options: [IPointMatchOptions](../interfaces/core_maker.IPointMatchOptions.md)
 
   #### Returns [IPathArc](../interfaces/core_schema.IPathArc.md)
 

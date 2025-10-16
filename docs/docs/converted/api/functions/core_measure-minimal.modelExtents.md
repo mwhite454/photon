@@ -33,7 +33,7 @@ Preparing search index...
 
 # Function modelExtents
 
-* modelExtents(modelToMeasure: [IModel](../interfaces/core_schema.IModel.md)): [IMeasureWithCenter](../interfaces/core_core.IMeasureWithCenter.md)
+* modelExtents(modelToMeasure: [IModel](../interfaces/core_schema.IModel.md)): [IMeasureWithCenter](../interfaces/core_maker.IMeasureWithCenter.md)
 
   Measures the smallest rectangle which contains a model.
 
@@ -41,7 +41,7 @@ Preparing search index...
 
   + modelToMeasure: [IModel](../interfaces/core_schema.IModel.md)
 
-  #### Returns [IMeasureWithCenter](../interfaces/core_core.IMeasureWithCenter.md)
+  #### Returns [IMeasureWithCenter](../interfaces/core_maker.IMeasureWithCenter.md)
 
   + Defined in [core/measure-minimal.ts:251](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure-minimal.ts#L251)
 

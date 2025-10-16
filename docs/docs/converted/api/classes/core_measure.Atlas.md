@@ -93,7 +93,7 @@ The model to measure.
 
 ### modelMap
 
-modelMap: [IMeasureMap](../interfaces/core_core.IMeasureMap.md) = {}
+modelMap: [IMeasureMap](../interfaces/core_maker.IMeasureMap.md) = {}
 
 Map of model measurements, mapped by routeKey.
 
@@ -109,7 +109,7 @@ Flag that models have been measured.
 
 ### pathMap
 
-pathMap: [IMeasureMap](../interfaces/core_core.IMeasureMap.md) = {}
+pathMap: [IMeasureMap](../interfaces/core_maker.IMeasureMap.md) = {}
 
 Map of path measurements, mapped by routeKey.
 

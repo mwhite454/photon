@@ -28,7 +28,7 @@ IWalkPath | Photon
 
 Preparing search index...
 
-* [core/maker](../modules/core_core.md)
+* [core/maker](../modules/core_maker.md)
 * IWalkPath
 
 # Interface IWalkPath
@@ -47,8 +47,8 @@ interface IWalkPath {
 
 #### Hierarchy ([View Summary](../hierarchy.md#core/maker.IWalkPath))
 
-* [IRefPathIdInModel](core_core.IRefPathIdInModel.md)
-* [IRouteOffset](core_core.IRouteOffset.md)
+* [IRefPathIdInModel](core_maker.IRefPathIdInModel.md)
+* [IRouteOffset](core_maker.IRouteOffset.md)
   + IWalkPath
 
 * Defined in [core/maker.ts:404](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L404)
@@ -71,7 +71,7 @@ interface IWalkPath {
 
 layer: string
 
-Inherited from [IRouteOffset](core_core.IRouteOffset.md).[layer](core_core.IRouteOffset.md#layer)
+Inherited from [IRouteOffset](core_maker.IRouteOffset.md).[layer](core_maker.IRouteOffset.md#layer)
 
 * Defined in [core/maker.ts:395](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L395)
 
@@ -79,7 +79,7 @@ Inherited from [IRouteOffset](core_core.IRouteOffset.md).[layer](core_core.IRout
 
 modelContext: [IModel](core_schema.IModel.md)
 
-Inherited from [IRefPathIdInModel](core_core.IRefPathIdInModel.md).[modelContext](core_core.IRefPathIdInModel.md#modelcontext)
+Inherited from [IRefPathIdInModel](core_maker.IRefPathIdInModel.md).[modelContext](core_maker.IRefPathIdInModel.md#modelcontext)
 
 * Defined in [core/maker.ts:387](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L387)
 
@@ -87,7 +87,7 @@ Inherited from [IRefPathIdInModel](core_core.IRefPathIdInModel.md).[modelContext
 
 offset: [IPoint](core_schema.IPoint.md)
 
-Inherited from [IRouteOffset](core_core.IRouteOffset.md).[offset](core_core.IRouteOffset.md#offset)
+Inherited from [IRouteOffset](core_maker.IRouteOffset.md).[offset](core_maker.IRouteOffset.md#offset)
 
 * Defined in [core/maker.ts:396](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L396)
 
@@ -101,7 +101,7 @@ pathContext: [IPath](core_schema.IPath.md)
 
 pathId: string
 
-Inherited from [IRefPathIdInModel](core_core.IRefPathIdInModel.md).[pathId](core_core.IRefPathIdInModel.md#pathid)
+Inherited from [IRefPathIdInModel](core_maker.IRefPathIdInModel.md).[pathId](core_maker.IRefPathIdInModel.md#pathid)
 
 * Defined in [core/maker.ts:388](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L388)
 
@@ -109,7 +109,7 @@ Inherited from [IRefPathIdInModel](core_core.IRefPathIdInModel.md).[pathId](core
 
 route: string[]
 
-Inherited from [IRouteOffset](core_core.IRouteOffset.md).[route](core_core.IRouteOffset.md#route)
+Inherited from [IRouteOffset](core_maker.IRouteOffset.md).[route](core_maker.IRouteOffset.md#route)
 
 * Defined in [core/maker.ts:397](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L397)
 
@@ -117,7 +117,7 @@ Inherited from [IRouteOffset](core_core.IRouteOffset.md).[route](core_core.IRout
 
 routeKey: string
 
-Inherited from [IRouteOffset](core_core.IRouteOffset.md).[routeKey](core_core.IRouteOffset.md#routekey)
+Inherited from [IRouteOffset](core_maker.IRouteOffset.md).[routeKey](core_maker.IRouteOffset.md#routekey)
 
 * Defined in [core/maker.ts:398](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L398)
 

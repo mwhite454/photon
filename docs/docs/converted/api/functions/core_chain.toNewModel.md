@@ -34,13 +34,13 @@ Preparing search index...
 
 # Function toNewModel
 
-* toNewModel(chainContext: [IChain](../interfaces/core_core.IChain.md), detachFromOldModel?: boolean): [IModel](../interfaces/core_schema.IModel.md)
+* toNewModel(chainContext: [IChain](../interfaces/core_maker.IChain.md), detachFromOldModel?: boolean): [IModel](../interfaces/core_schema.IModel.md)
 
   Convert a chain to a new model, independent of any model from where the chain was found.
 
   #### Parameters
 
-  + chainContext: [IChain](../interfaces/core_core.IChain.md)
+  + chainContext: [IChain](../interfaces/core_maker.IChain.md)
 
     Chain to convert to a model.
   + detachFromOldModel: boolean = false

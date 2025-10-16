@@ -33,7 +33,7 @@ Preparing search index...
 
 # Function modelExtents
 
-* modelExtents(modelToMeasure: [IModel](../interfaces/core_schema.IModel.md), atlas?: [Atlas](../classes/core_measure.Atlas.md)): [IMeasureWithCenter](../interfaces/core_core.IMeasureWithCenter.md)
+* modelExtents(modelToMeasure: [IModel](../interfaces/core_schema.IModel.md), atlas?: [Atlas](../classes/core_measure.Atlas.md)): [IMeasureWithCenter](../interfaces/core_maker.IMeasureWithCenter.md)
 
   Measures the smallest rectangle which contains a model.
 
@@ -46,7 +46,7 @@ Preparing search index...
 
     Optional atlas to save measurements.
 
-  #### Returns [IMeasureWithCenter](../interfaces/core_core.IMeasureWithCenter.md)
+  #### Returns [IMeasureWithCenter](../interfaces/core_maker.IMeasureWithCenter.md)
 
   object with low and high points.
 

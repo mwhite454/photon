@@ -29,13 +29,13 @@ Preparing search index...
 
 # Function getParameterValues
 
-* getParameterValues(ctor: [IKit](../interfaces/core_core.IKit.md)): any[]
+* getParameterValues(ctor: [IKit](../interfaces/core_maker.IKit.md)): any[]
 
   Extract just the initial sample values from a kit.
 
   #### Parameters
 
-  + ctor: [IKit](../interfaces/core_core.IKit.md)
+  + ctor: [IKit](../interfaces/core_maker.IKit.md)
 
   #### Returns any[]
 

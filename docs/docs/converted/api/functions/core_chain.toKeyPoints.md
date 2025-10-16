@@ -30,13 +30,13 @@ Preparing search index...
 
 # Function toKeyPoints
 
-* toKeyPoints(chainContext: [IChain](../interfaces/core_core.IChain.md), maxArcFacet?: number): [IPoint](../interfaces/core_schema.IPoint.md)[]
+* toKeyPoints(chainContext: [IChain](../interfaces/core_maker.IChain.md), maxArcFacet?: number): [IPoint](../interfaces/core_schema.IPoint.md)[]
 
   Get key points (a minimal a number of points) along a chain of paths.
 
   #### Parameters
 
-  + chainContext: [IChain](../interfaces/core_core.IChain.md)
+  + chainContext: [IChain](../interfaces/core_maker.IChain.md)
 
     Chain of paths to get points from.
   + `Optional`maxArcFacet: number

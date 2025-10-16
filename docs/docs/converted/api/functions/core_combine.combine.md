@@ -36,7 +36,7 @@ Preparing search index...
       includeAOutsideB?: boolean,
       includeBInsideA?: boolean,
       includeBOutsideA?: boolean,
-      options?: [ICombineOptions](../interfaces/core_core.ICombineOptions.md),
+      options?: [ICombineOptions](../interfaces/core_maker.ICombineOptions.md),
   ): [IModel](../interfaces/core_schema.IModel.md)
 
   #### Parameters
@@ -47,7 +47,7 @@ Preparing search index...
   + includeAOutsideB: boolean = true
   + includeBInsideA: boolean = false
   + includeBOutsideA: boolean = true
-  + `Optional`options: [ICombineOptions](../interfaces/core_core.ICombineOptions.md)
+  + `Optional`options: [ICombineOptions](../interfaces/core_maker.ICombineOptions.md)
 
   #### Returns [IModel](../interfaces/core_schema.IModel.md)
 

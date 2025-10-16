@@ -34,13 +34,13 @@ Preparing search index...
 
 # Function chainToSVGPathData
 
-* chainToSVGPathData(chain: [IChain](../interfaces/core_core.IChain.md), offset: [IPoint](../interfaces/core_schema.IPoint.md), accuracy?: number): string
+* chainToSVGPathData(chain: [IChain](../interfaces/core_maker.IChain.md), offset: [IPoint](../interfaces/core_schema.IPoint.md), accuracy?: number): string
 
   Convert a chain to SVG path-data string.
 
   #### Parameters
 
-  + chain: [IChain](../interfaces/core_core.IChain.md)
+  + chain: [IChain](../interfaces/core_maker.IChain.md)
   + offset: [IPoint](../interfaces/core_schema.IPoint.md)
   + accuracy: number = 0.001
 

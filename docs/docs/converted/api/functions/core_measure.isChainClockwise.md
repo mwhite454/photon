@@ -35,7 +35,7 @@ Preparing search index...
 # Function isChainClockwise
 
 * isChainClockwise(
-      chainContext: [IChain](../interfaces/core_core.IChain.md),
+      chainContext: [IChain](../interfaces/core_maker.IChain.md),
       out\_result?: { hullPoints?: [IPoint](../interfaces/core_schema.IPoint.md)[]; keyPoints?: [IPoint](../interfaces/core_schema.IPoint.md)[] },
   ): boolean
 
@@ -43,7 +43,7 @@ Preparing search index...
 
   #### Parameters
 
-  + chainContext: [IChain](../interfaces/core_core.IChain.md)
+  + chainContext: [IChain](../interfaces/core_maker.IChain.md)
 
     The chain to test.
   + `Optional`out\_result: { hullPoints?: [IPoint](../interfaces/core_schema.IPoint.md)[]; keyPoints?: [IPoint](../interfaces/core_schema.IPoint.md)[] }

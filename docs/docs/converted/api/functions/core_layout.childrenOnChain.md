@@ -46,7 +46,7 @@ Before working with this feature, you should be familiar with:
 
 * childrenOnChain(
       parentModel: [IModel](../interfaces/core_schema.IModel.md),
-      onChain: [IChain](../interfaces/core_core.IChain.md),
+      onChain: [IChain](../interfaces/core_maker.IChain.md),
       baseline?: number,
       reversed?: boolean,
       contain?: boolean,
@@ -63,7 +63,7 @@ Before working with this feature, you should be familiar with:
   + parentModel: [IModel](../interfaces/core_schema.IModel.md)
 
     The model containing children to lay out.
-  + onChain: [IChain](../interfaces/core_core.IChain.md)
+  + onChain: [IChain](../interfaces/core_maker.IChain.md)
 
     The chain on which to lay out.
   + baseline: number = 0

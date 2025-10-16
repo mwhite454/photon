@@ -29,7 +29,7 @@ Preparing search index...
 
 # Function boundingHexagon
 
-* boundingHexagon(modelToMeasure: [IModel](../interfaces/core_schema.IModel.md)): [IBoundingHex](../interfaces/core_core.IBoundingHex.md)
+* boundingHexagon(modelToMeasure: [IModel](../interfaces/core_schema.IModel.md)): [IBoundingHex](../interfaces/core_maker.IBoundingHex.md)
 
   Measures the minimum bounding hexagon surrounding a model. The hexagon is oriented such that the right and left sides are vertical, and the top and bottom are pointed.
 
@@ -39,7 +39,7 @@ Preparing search index...
 
     The model to measure.
 
-  #### Returns [IBoundingHex](../interfaces/core_core.IBoundingHex.md)
+  #### Returns [IBoundingHex](../interfaces/core_maker.IBoundingHex.md)
 
   IBoundingHex object which is a hexagon model, with an additional radius property.
 

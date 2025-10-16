@@ -29,14 +29,14 @@ Preparing search index...
 
 # Function isSlopeParallel
 
-* isSlopeParallel(slopeA: [ISlope](../interfaces/core_core.ISlope.md), slopeB: [ISlope](../interfaces/core_core.ISlope.md)): boolean
+* isSlopeParallel(slopeA: [ISlope](../interfaces/core_maker.ISlope.md), slopeB: [ISlope](../interfaces/core_maker.ISlope.md)): boolean
 
   Check for parallel slopes.
 
   #### Parameters
 
-  + slopeA: [ISlope](../interfaces/core_core.ISlope.md)
-  + slopeB: [ISlope](../interfaces/core_core.ISlope.md)
+  + slopeA: [ISlope](../interfaces/core_maker.ISlope.md)
+  + slopeB: [ISlope](../interfaces/core_maker.ISlope.md)
 
   #### Returns boolean
 

@@ -29,12 +29,12 @@ Preparing search index...
 
 # Function simplify
 
-* simplify(modelToSimplify: [IModel](../interfaces/core_schema.IModel.md), options?: [ISimplifyOptions](../interfaces/core_core.ISimplifyOptions.md)): [IModel](../interfaces/core_schema.IModel.md)
+* simplify(modelToSimplify: [IModel](../interfaces/core_schema.IModel.md), options?: [ISimplifyOptions](../interfaces/core_maker.ISimplifyOptions.md)): [IModel](../interfaces/core_schema.IModel.md)
 
   #### Parameters
 
   + modelToSimplify: [IModel](../interfaces/core_schema.IModel.md)
-  + `Optional`options: [ISimplifyOptions](../interfaces/core_core.ISimplifyOptions.md)
+  + `Optional`options: [ISimplifyOptions](../interfaces/core_maker.ISimplifyOptions.md)
 
   #### Returns [IModel](../interfaces/core_schema.IModel.md)
 

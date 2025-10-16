@@ -24,7 +24,7 @@ IMeasureMap | Photon
 
 Preparing search index...
 
-* [core/maker](../modules/core_core.md)
+* [core/maker](../modules/core_maker.md)
 * IMeasureMap
 
 # Interface IMeasureMap
@@ -33,7 +33,7 @@ A map of measurements.
 
 #### Indexable
 
-* [key: string]: [IMeasure](core_core.IMeasure.md)
+* [key: string]: [IMeasure](core_maker.IMeasure.md)
 
 * Defined in [core/maker.ts:169](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L169)
 

@@ -47,7 +47,7 @@ description: "Task list for MkDocs Warning Remediation feature"
 - [x] T007 Run baseline capture and generate reports/baselines/warning-baseline.json
 - [x] T008 [P] Create progress report generation script in scripts/docs-warnings/analyze-warnings.py
 - [x] T009 [P] Create content audit script in scripts/docs-warnings/audit-content.py for tracking word counts, heading counts, link counts
-- [ ] T010 Commit baseline report and scripts with message "feat: capture baseline of MkDocs warnings"
+- [x] T010 Commit baseline report and scripts with message "feat: capture baseline of MkDocs warnings"
 
 **Checkpoint**: Baseline established - warning remediation can now begin in parallel by category
 

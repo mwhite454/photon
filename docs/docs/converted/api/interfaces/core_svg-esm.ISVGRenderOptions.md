@@ -32,24 +32,24 @@ Preparing search index...
 # Interface ISVGRenderOptions
 
 interface ISVGRenderOptions {
-    [accuracy](#accuracy)?: number;
-    [annotate](#annotate)?: boolean;
-    [className](#classname)?: string;
-    [cssStyle](#cssstyle)?: string;
-    [fill](#fill)?: string;
-    [fillRule](#fillrule)?: "evenodd" | "nonzero";
-    [flow](#flow)?: [IFlowAnnotation](core_svg-esm.IFlowAnnotation.md);
-    [fontSize](#fontsize)?: string;
-    [layerOptions](#layeroptions)?: Record<string, [ISVGElementRenderOptions](core_svg-esm.ISVGElementRenderOptions.md)>;
-    [origin](#origin)?: [IPoint](core_schema.IPoint.md);
-    [scale](#scale)?: number;
-    [scalingStroke](#scalingstroke)?: boolean;
-    [stroke](#stroke)?: string;
-    [strokeWidth](#strokewidth)?: string;
-    [svgAttrs](#svgattrs)?: [IXmlTagAttrs](core_xml.IXmlTagAttrs.md);
-    [units](#units)?: string;
-    [useSvgPathOnly](#usesvgpathonly)?: boolean;
-    [viewBox](#viewbox)?: boolean;
+    [accuracy](#optionalaccuracy)?: number;
+    [annotate](#optionalannotate)?: boolean;
+    [className](#optionalclassname)?: string;
+    [cssStyle](#optionalcssstyle)?: string;
+    [fill](#optionalfill)?: string;
+    [fillRule](#optionalfillrule)?: "evenodd" | "nonzero";
+    [flow](#optionalflow)?: [IFlowAnnotation](core_svg-esm.IFlowAnnotation.md);
+    [fontSize](#optionalfontsize)?: string;
+    [layerOptions](#optionallayeroptions)?: Record<string, [ISVGElementRenderOptions](core_svg-esm.ISVGElementRenderOptions.md)>;
+    [origin](#optionalorigin)?: [IPoint](core_schema.IPoint.md);
+    [scale](#optionalscale)?: number;
+    [scalingStroke](#optionalscalingstroke)?: boolean;
+    [stroke](#optionalstroke)?: string;
+    [strokeWidth](#optionalstrokewidth)?: string;
+    [svgAttrs](#optionalsvgattrs)?: [IXmlTagAttrs](core_xml.IXmlTagAttrs.md);
+    [units](#optionalunits)?: string;
+    [useSvgPathOnly](#optionalusesvgpathonly)?: boolean;
+    [viewBox](#optionalviewbox)?: boolean;
 }
 
 #### Hierarchy ([View Summary](../hierarchy.md#core/svg-esm.ISVGRenderOptions))
@@ -63,24 +63,24 @@ interface ISVGRenderOptions {
 
 ### Properties
 
-[accuracy?](#accuracy)
-[annotate?](#annotate)
-[className?](#classname)
-[cssStyle?](#cssstyle)
-[fill?](#fill)
-[fillRule?](#fillrule)
-[flow?](#flow)
-[fontSize?](#fontsize)
-[layerOptions?](#layeroptions)
-[origin?](#origin)
-[scale?](#scale)
-[scalingStroke?](#scalingstroke)
-[stroke?](#stroke)
-[strokeWidth?](#strokewidth)
-[svgAttrs?](#svgattrs)
-[units?](#units)
-[useSvgPathOnly?](#usesvgpathonly)
-[viewBox?](#viewbox)
+[accuracy?](#optionalaccuracy)
+[annotate?](#optionalannotate)
+[className?](#optionalclassname)
+[cssStyle?](#optionalcssstyle)
+[fill?](#optionalfill)
+[fillRule?](#optionalfillrule)
+[flow?](#optionalflow)
+[fontSize?](#optionalfontsize)
+[layerOptions?](#optionallayeroptions)
+[origin?](#optionalorigin)
+[scale?](#optionalscale)
+[scalingStroke?](#optionalscalingstroke)
+[stroke?](#optionalstroke)
+[strokeWidth?](#optionalstrokewidth)
+[svgAttrs?](#optionalsvgattrs)
+[units?](#optionalunits)
+[useSvgPathOnly?](#optionalusesvgpathonly)
+[viewBox?](#optionalviewbox)
 
 ## Properties
 

@@ -35,7 +35,7 @@ aqua, black, blue, fuchsia, green, gray, lime, maroon, navy, olive, orange, purp
 
 #### Captions
 
-A [caption](/docs/intermediate-drawing/index.md#captions) will inherit the `layerOptions` that are applied to its model's layer name unless overridden by the anchor layer.
+A [caption](../snippets/captions.md) will inherit the `layerOptions` that are applied to its model's layer name unless overridden by the anchor layer.
 
 #### Advanced options
 
@@ -44,9 +44,16 @@ The options object has these properties:
 
 | property | values / effects |
 | --- | --- |
-| [units](../converted/api/interfaces/core_exporter.idxfrenderoptions.md#units) | [Maker.js unit type](../api/index.html#unittype) - unit system (default: extracted from drawing. If unit system is not in drawing or not passed, it will use DXF default of inches) |
-| [fontSize](../converted/api/interfaces/core_exporter.idxfrenderoptions.md#fontsize) | number - font size of captions (default: 9). The font size is in the same unit system as the `units` property. |
-| [layerOptions](../converted/api/interfaces/core_exporter.idxfrenderoptions.md#layeroptions) | object map - keys are the layer names, values are an object with these properties:  | property | values | | --- | --- | | [color](../converted/api/interfaces/core_exporter.idxflayeroptions.md#color) | number - [Maker.js color](../api/modules/core_exporter.html#colors) | | [fontSize](../converted/api/interfaces/core_exporter.idxflayeroptions.md#fontsize) | number - font size of captions. The font size is in the same unit system as the `units` property. | |
+| [units](../converted/api/interfaces/core_dxf.IDXFRenderOptions.md#optionalunits) | DXF export unit system (defaults to inches when not specified). |
+| [fontSize](../converted/api/interfaces/core_dxf.IDXFRenderOptions.md#optionalfontsize) | Number - font size of captions (default: 9). Uses the same unit system as `units`. |
+| [layerOptions](../converted/api/interfaces/core_dxf.IDXFRenderOptions.md#optionallayeroptions) | Object map keyed by layer name with values described below. |
+
+Layer option values:
+
+| property | values |
+| --- | --- |
+| [color](../converted/api/interfaces/core_dxf.IDXFLayerOptions.md#color) | Number - see [Maker.js color map](../converted/api/variables/core_exporter.colors.md). |
+| [fontSize](../converted/api/interfaces/core_dxf.IDXFLayerOptions.md#optionalfontsize) | Number - caption font size in the same unit system as `units`. |
 
 ## Related Topics
 

@@ -61,12 +61,12 @@ description: "Task list for MkDocs Warning Remediation feature"
 
 ### Implementation for User Story 1
 
-- [ ] T011 [US1] Verify baseline report structure matches warning-report-schema.json from contracts/
-- [ ] T012 [US1] Generate category summary showing count and percentage for each warning type
-- [ ] T013 [US1] Generate file summary showing which files have most warnings
-- [ ] T014 [US1] Create visualization or summary output showing top warning categories and affected files
-- [ ] T015 [US1] Document baseline findings in reports/docs-warnings/baseline-analysis.md
-- [ ] T016 [US1] Commit analysis with message "docs: document baseline warning analysis and categorization"
+- [x] T011 [US1] Verify baseline report structure matches warning-report-schema.json from contracts/
+- [x] T012 [US1] Generate category summary showing count and percentage for each warning type
+- [x] T013 [US1] Generate file summary showing which files have most warnings
+- [x] T014 [US1] Create visualization or summary output showing top warning categories and affected files
+- [x] T015 [US1] Document baseline findings in reports/docs-warnings/baseline-analysis.md
+- [x] T016 [US1] Commit analysis with message "docs: document baseline warning analysis and categorization"
 
 **Checkpoint**: At this point, we have complete understanding of warning landscape and can prioritize remediation efforts
 
@@ -90,7 +90,11 @@ description: "Task list for MkDocs Warning Remediation feature"
 - [ ] T024 [US2] Fix broken cross-references in docs/docs/basic-drawing/**/*.md files
 - [ ] T025 [US2] Fix broken cross-references in docs/docs/advanced-drawing/**/*.md files
 - [ ] T026 [US2] Fix missing snippet includes and references in docs/docs/**/*.md
+  - Progress 2025-10-16: Updated `docs/docs/snippets/exporting-svg.md` links to current `core_svg-esm.ISVGRenderOptions` anchors and `../snippets/captions.md`.
+  - Progress 2025-10-16: Updated `docs/docs/snippets/exporting-dxf.md` links to `core_dxf.IDXFRenderOptions`, `core_dxf.IDXFLayerOptions`, and Maker.js color map; reran `validate-links.py` (1266 broken links remain, concentrated in `docs/docs/converted/api/**`).
 - [ ] T027 [US2] Create missing anchor targets where content exists but anchor is missing
+  - Progress 2025-10-16: Updated `docs/docs/converted/api/interfaces/core_svg-esm.ISVGRenderOptions.md` to align internal anchor fragments with generated `optional*` headings.
+  - Progress 2025-10-16: Updated `core_maker` interface/module docs and `core_openjscad-esm.IJscadScriptOptions.md` to use valid `optional*` anchor fragments and structured navigation.
 - [ ] T028 [US2] Validate fixes by running MkDocs build and checking warning reduction
 - [ ] T029 [US2] Generate progress report showing broken_link and missing_reference warnings reduced by 50%+
 - [ ] T030 [US2] Commit link fixes with message "fix(docs): resolve broken links and missing references"

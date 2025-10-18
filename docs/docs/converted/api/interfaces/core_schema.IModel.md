@@ -39,15 +39,15 @@ Preparing search index...
 A model is a composite object which may contain a map of paths, or a map of models recursively.
 
 interface IModel {
-    [caption](#caption)?: [ICaption](core_schema.ICaption.md);
-    [exporterOptions](#exporteroptions)?: { [exporterName: string]: any };
-    [layer](#layer)?: string;
-    [models](#models)?: [IModelMap](core_schema.IModelMap.md);
-    [notes](#notes)?: string;
-    [origin](#origin)?: [IPoint](core_schema.IPoint.md);
-    [paths](#paths)?: [IPathMap](core_schema.IPathMap.md);
-    [type](#type)?: string;
-    [units](#units)?: string;
+    [caption](#optionalcaption)?: [ICaption](core_schema.ICaption.md);
+    [exporterOptions](#optionalexporteroptions)?: { [exporterName: string]: any };
+    [layer](#optionallayer)?: string;
+    [models](#optionalmodels)?: [IModelMap](core_schema.IModelMap.md);
+    [notes](#optionalnotes)?: string;
+    [origin](#optionalorigin)?: [IPoint](core_schema.IPoint.md);
+    [paths](#optionalpaths)?: [IPathMap](core_schema.IPathMap.md);
+    [type](#optionaltype)?: string;
+    [units](#optionalunits)?: string;
 }
 
 #### Hierarchy ([View Summary](../hierarchy.md#core/schema.IModel))
@@ -85,15 +85,15 @@ interface IModel {
 
 ### Properties
 
-[caption?](#caption)
-[exporterOptions?](#exporteroptions)
-[layer?](#layer)
-[models?](#models)
-[notes?](#notes)
-[origin?](#origin)
-[paths?](#paths)
-[type?](#type)
-[units?](#units)
+[caption?](#optionalcaption)
+[exporterOptions?](#optionalexporteroptions)
+[layer?](#optionallayer)
+[models?](#optionalmodels)
+[notes?](#optionalnotes)
+[origin?](#optionalorigin)
+[paths?](#optionalpaths)
+[type?](#optionaltype)
+[units?](#optionalunits)
 
 ## Properties
 
@@ -180,9 +180,16 @@ ThemeOSLightDark
 
 ### On This Page
 
-Properties
-
-[caption](#caption)[exporterOptions](#exporteroptions)[layer](#layer)[models](#models)[notes](#notes)[origin](#origin)[paths](#paths)[type](#type)[units](#units)
+* **Properties**
+  * [caption](#optionalcaption)
+  * [exporterOptions](#optionalexporteroptions)
+  * [layer](#optionallayer)
+  * [models](#optionalmodels)
+  * [notes](#optionalnotes)
+  * [origin](#optionalorigin)
+  * [paths](#optionalpaths)
+  * [type](#optionaltype)
+  * [units](#optionalunits)
 
 [Photon](../index.md)
 

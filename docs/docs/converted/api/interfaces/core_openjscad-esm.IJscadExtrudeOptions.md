@@ -33,8 +33,8 @@ Preparing search index...
 Jscad CAG extrusion options.
 
 interface IJscadExtrudeOptions {
-    [extrude](#extrude)?: number;
-    [z](#z)?: number;
+    [extrude](#optionalextrude)?: number;
+    [z](#optionalz)?: number;
 }
 
 #### Hierarchy ([View Summary](../hierarchy.md#core/openjscad-esm.IJscadExtrudeOptions))
@@ -48,8 +48,8 @@ interface IJscadExtrudeOptions {
 
 ### Properties
 
-[extrude?](#extrude)
-[z?](#z)
+[extrude?](#optionalextrude)
+[z?](#optionalz)
 
 ## Properties
 
@@ -80,9 +80,9 @@ ThemeOSLightDark
 
 ### On This Page
 
-Properties
-
-[extrude](#extrude)[z](#z)
+* **Properties**
+  * [extrude](#optionalextrude)
+  * [z](#optionalz)
 
 [Photon](../index.md)
 

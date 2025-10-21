@@ -17,6 +17,20 @@ const __dirname = dirname(__filename);
 const distDir = join(__dirname, '../dist');
 const require = createRequire(import.meta.url);
 
+const topLevelCallPattern = /^[A-Za-z_$][\w$]*(?:\.[A-Za-z_$][\w$]*)*\s*\([^;]*\);\s*$/gm;
+const allowedTopLevelCallPatterns: RegExp[] = [
+  /^registerCascadeModules\(/,
+];
+
+function getTopLevelCallStatements(source: string): string[] {
+  return source.match(topLevelCallPattern)?.map(call => call.trim()) ?? [];
+}
+
+function getDisallowedTopLevelCalls(source: string): string[] {
+  const calls = getTopLevelCallStatements(source);
+  return calls.filter(call => !allowedTopLevelCallPatterns.some(pattern => pattern.test(call)));
+}
+
 describe('Build Output Validation', function () {
   
   describe('File Existence', function () {
@@ -201,14 +215,27 @@ describe('Build Output Validation', function () {
       const esPath = join(distDir, 'photon.es.js');
       if (existsSync(esPath)) {
         const content = readFileSync(esPath, 'utf-8');
-        
-        // Check for common side effects that prevent tree-shaking
-        const hasTopLevelCalls = /^(?!.*\/\/).*\w+\s*\([^)]*\)\s*;/m.test(content);
-        
-        // Some top-level calls are okay (like Object.freeze), but excessive ones are not
-        // This is a basic check - in practice, we'd need more sophisticated analysis
-        assert.ok(true, 'module structure allows tree-shaking');
+
+        const disallowedTopLevelCalls = getDisallowedTopLevelCalls(content);
+        const hasTopLevelCalls = disallowedTopLevelCalls.length > 0;
+
+        assert.ok(!hasTopLevelCalls,
+          disallowedTopLevelCalls.length
+            ? `ES module should not contain disallowed top-level calls. Found: ${disallowedTopLevelCalls.join(', ')}`
+            : 'ES module should not contain disallowed top-level calls');
       }
+    });
+
+    it('should detect side effects in tree-shaking fixtures', function () {
+      const fixturesDir = join(__dirname, 'fixtures', 'tree-shaking');
+      const pureFixture = readFileSync(join(fixturesDir, 'side-effect-free.js'), 'utf-8');
+      const impureFixture = readFileSync(join(fixturesDir, 'with-side-effect.js'), 'utf-8');
+
+      const pureCalls = getDisallowedTopLevelCalls(pureFixture);
+      const impureCalls = getDisallowedTopLevelCalls(impureFixture);
+
+      assert.deepStrictEqual(pureCalls, [], 'side-effect-free fixture should not have disallowed top-level calls');
+      assert.ok(impureCalls.length > 0, 'side-effect fixture should contain disallowed top-level calls');
     });
   });
 

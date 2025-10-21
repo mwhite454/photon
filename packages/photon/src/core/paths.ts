@@ -38,13 +38,15 @@ export class Arc implements IPathArc {
         constructor(origin: IPoint, radius: number, startAngle: number, endAngle: number);
 
         /**
-         * Class for arc path, created from 2 points, radius, large Arc flag, and clockwise flag.
-         * 
+         * Class for arc path, created from 2 points, radius, large arc flag, and clockwise flag.
+         *
          * @param pointA First end point of the arc.
          * @param pointB Second end point of the arc.
          * @param radius The radius of the arc.
-         * @param largeArc Boolean flag to indicate clockwise direction.
-         * @param clockwise Boolean flag to indicate clockwise direction.
+         * @param largeArc Boolean flag that selects the larger of the two possible arc sweeps between
+         * the end points when true.
+         * @param clockwise Boolean flag that sets the direction of the arc sweep to clockwise when
+         * true and counter-clockwise when false.
          */
         constructor(pointA: IPoint, pointB: IPoint, radius: number, largeArc: boolean, clockwise: boolean);
 

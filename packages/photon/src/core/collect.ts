@@ -22,7 +22,10 @@ export interface ICollection<K, T> {
 export class Collector<K, T> {
         public collections: ICollection<K, T>[] = [];
 
-        constructor(private comparer?: ICollectionKeyComparer<K>) {
+        private comparer: ICollectionKeyComparer<K>;
+
+        constructor(comparer?: ICollectionKeyComparer<K>) {
+            this.comparer = comparer ?? ((a: K, b: K) => a === b);
         }
 
         public addItemToCollection(key: K, item: T) {

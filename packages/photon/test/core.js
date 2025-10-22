@@ -106,4 +106,28 @@ describe('Core', function () {
     });
   });
 
+  describe('Collector', function () {
+
+    it('should default to strict equality when comparer not provided', function () {
+      var collector = new makerjs.collect.Collector();
+
+      collector.addItemToCollection('alpha', 1);
+      collector.addItemToCollection('alpha', 2);
+
+      assert.deepEqual(collector.findCollection('alpha'), [1, 2]);
+      assert.equal(collector.findCollection('beta'), null);
+    });
+
+    it('should treat different object references as different keys by default', function () {
+      var collector = new makerjs.collect.Collector();
+      var key1 = { id: 1 };
+      var key2 = { id: 1 };
+
+      collector.addItemToCollection(key1, 'first');
+      collector.addItemToCollection(key2, 'second');
+
+      assert.equal(collector.collections.length, 2);
+    });
+  });
+
 });

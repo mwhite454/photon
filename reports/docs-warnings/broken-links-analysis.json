@@ -1,0 +1,650 @@
+{
+  "summary": {
+    "total_links": 5718,
+    "valid_links": 4796,
+    "broken_links": 922,
+    "success_rate": 83.8754809373907
+  },
+  "error_types": {
+    "missing_anchors": 863,
+    "other_errors": 20,
+    "missing_files": 39
+  },
+  "target_patterns": {
+    "other_broken_patterns": 134,
+    "converted_api_links": 8,
+    "absolute_docs_paths": 12,
+    "playground_references": 25,
+    "self_anchor_links": 743
+  },
+  "anchor_patterns": {
+    "simple_function_anchors": 741,
+    "complex_anchors": 89,
+    "standard_page_anchors": 24,
+    "optional_property_anchors": 9
+  },
+  "most_problematic_files": {
+    "docs/docs/converted/api/classes/core_collect.Collector.md": 28,
+    "docs/docs/converted/api/interfaces/core_openjscad-esm.IOpenJsCadOptions.md": 27,
+    "docs/docs/converted/api/modules/core_model.md": 25,
+    "docs/docs/converted/api/interfaces/core_svg-esm.ISVGRenderOptions.md": 24,
+    "docs/docs/converted/api/modules/models.md": 22,
+    "docs/docs/converted/api/modules/core_measure.md": 22,
+    "docs/docs/snippets/built-in-models.md": 21,
+    "docs/docs/converted/api/interfaces/core_dxf.IDXFRenderOptions.md": 20,
+    "docs/docs/converted/api/interfaces/core_maker.ICombineOptions.md": 20,
+    "docs/docs/converted/api/interfaces/core_openjscad-esm.IJscadCagOptions.md": 20,
+    "docs/docs/converted/api/modules/core_path.md": 19,
+    "docs/docs/converted/index.md": 18,
+    "docs/docs/converted/api/interfaces/core_pdf-esm.IPDFRenderOptions.md": 18,
+    "docs/docs/converted/api/modules/core_point.md": 17,
+    "docs/docs/converted/api/interfaces/core_maker.IFindChainsOptions.md": 17,
+    "docs/docs/converted/api/interfaces/core_svg-esm.ISVGElementRenderOptions.md": 16,
+    "docs/docs/converted/api/modules/core_boolean-utils.md": 15,
+    "docs/docs/converted/api/interfaces/core_maker.IPathIntersectionOptions.md": 15,
+    "docs/docs/converted/api/modules/core_schema.md": 14,
+    "docs/docs/converted/api/modules/core_base.md": 14
+  },
+  "missing_anchor_details": [
+    {
+      "source": "docs/docs/snippets/simplifying.md",
+      "target_file": "../api/modules/core_model.html",
+      "anchor": "simplify",
+      "full_target": "../api/modules/core_model.html#simplify"
+    },
+    {
+      "source": "docs/docs/snippets/$-function.md",
+      "target_file": "../api/index.html",
+      "anchor": "_",
+      "full_target": "../api/index.html#_"
+    },
+    {
+      "source": "docs/docs/snippets/$-function.md",
+      "target_file": "../converted/api/modules/core_path.md",
+      "anchor": "addto",
+      "full_target": "../converted/api/modules/core_path.md#addto"
+    },
+    {
+      "source": "docs/docs/snippets/$-function.md",
+      "target_file": "../converted/api/modules/core_model.md",
+      "anchor": "addto",
+      "full_target": "../converted/api/modules/core_model.md#addto"
+    },
+    {
+      "source": "docs/docs/snippets/dogbones.md",
+      "target_file": "../api/modules/core_path.html",
+      "anchor": "dogbone",
+      "full_target": "../api/modules/core_path.html#dogbone"
+    },
+    {
+      "source": "docs/docs/snippets/outlining.md",
+      "target_file": "../api/modules/core_model.html",
+      "anchor": "outline",
+      "full_target": "../api/modules/core_model.html#outline"
+    },
+    {
+      "source": "docs/docs/snippets/fillets.md",
+      "target_file": "",
+      "anchor": "Dogbone%20Fillets",
+      "full_target": "#Dogbone%20Fillets"
+    },
+    {
+      "source": "docs/docs/snippets/fillets.md",
+      "target_file": "../api/modules/core_path.html",
+      "anchor": "fillet",
+      "full_target": "../api/modules/core_path.html#fillet"
+    },
+    {
+      "source": "docs/docs/snippets/expanding.md",
+      "target_file": "../api/modules/core_path.html",
+      "anchor": "expand",
+      "full_target": "../api/modules/core_path.html#expand"
+    },
+    {
+      "source": "docs/docs/snippets/expanding.md",
+      "target_file": "../api/modules/core_model.html",
+      "anchor": "expandpaths",
+      "full_target": "../api/modules/core_model.html#expandpaths"
+    },
+    {
+      "source": "docs/docs/snippets/expanding.md",
+      "target_file": "../api/modules/core_model.html",
+      "anchor": "expandpaths",
+      "full_target": "../api/modules/core_model.html#expandpaths"
+    },
+    {
+      "source": "docs/docs/snippets/frequently-used-functions.md",
+      "target_file": "../api/modules/core_point.html",
+      "anchor": "content",
+      "full_target": "../api/modules/core_point.html#content"
+    },
+    {
+      "source": "docs/docs/snippets/frequently-used-functions.md",
+      "target_file": "../api/modules/core_angle.html",
+      "anchor": "content",
+      "full_target": "../api/modules/core_angle.html#content"
+    },
+    {
+      "source": "docs/docs/snippets/frequently-used-functions.md",
+      "target_file": "../api/modules/core_measure.html",
+      "anchor": "content",
+      "full_target": "../api/modules/core_measure.html#content"
+    },
+    {
+      "source": "docs/docs/snippets/frequently-used-functions.md",
+      "target_file": "../api/modules/core_measure.html",
+      "anchor": "isangleequal",
+      "full_target": "../api/modules/core_measure.html#isangleequal"
+    },
+    {
+      "source": "docs/docs/snippets/breaking.md",
+      "target_file": "../api/modules/core_path.html",
+      "anchor": "breakatpoint",
+      "full_target": "../api/modules/core_path.html#breakatpoint"
+    },
+    {
+      "source": "docs/docs/snippets/routes.md",
+      "target_file": "../api/index.html",
+      "anchor": "travel",
+      "full_target": "../api/index.html#travel"
+    },
+    {
+      "source": "docs/docs/snippets/routes.md",
+      "target_file": "../api/index.html",
+      "anchor": "createroutekey",
+      "full_target": "../api/index.html#createroutekey"
+    },
+    {
+      "source": "docs/docs/snippets/chain-links.md",
+      "target_file": "/docs/model-trees/index.md",
+      "anchor": "walking a model tree",
+      "full_target": "/docs/model-trees/index.md#walking a model tree"
+    },
+    {
+      "source": "docs/docs/snippets/importing-svg-points.md",
+      "target_file": "/docs/basic-drawing/index.md",
+      "anchor": "points",
+      "full_target": "/docs/basic-drawing/index.md#points"
+    },
+    {
+      "source": "docs/docs/snippets/intersection.md",
+      "target_file": "../api/modules/core_path.html",
+      "anchor": "intersection",
+      "full_target": "../api/modules/core_path.html#intersection"
+    },
+    {
+      "source": "docs/docs/snippets/importing-svg-path-data.md",
+      "target_file": "../api/modules/core_importer.html",
+      "anchor": "fromsvgpathdata",
+      "full_target": "../api/modules/core_importer.html#fromsvgpathdata"
+    },
+    {
+      "source": "docs/docs/snippets/units.md",
+      "target_file": "/docs/exporting/index.md",
+      "anchor": "content",
+      "full_target": "/docs/exporting/index.md#content"
+    },
+    {
+      "source": "docs/docs/snippets/chain-fillet.md",
+      "target_file": "../api/modules/core_chain.html",
+      "anchor": "fillet",
+      "full_target": "../api/modules/core_chain.html#fillet"
+    },
+    {
+      "source": "docs/docs/snippets/solvers.md",
+      "target_file": "../api/modules/core_solvers.html",
+      "anchor": "content",
+      "full_target": "../api/modules/core_solvers.html#content"
+    },
+    {
+      "source": "docs/docs/snippets/cloning.md",
+      "target_file": "../api/index.html",
+      "anchor": "cloneobject",
+      "full_target": "../api/index.html#cloneobject"
+    },
+    {
+      "source": "docs/docs/snippets/combining.md",
+      "target_file": "../api/modules/core_model.html",
+      "anchor": "combine",
+      "full_target": "../api/modules/core_model.html#combine"
+    },
+    {
+      "source": "docs/docs/snippets/combining.md",
+      "target_file": "../api/modules/core_model.html",
+      "anchor": "combineintersection",
+      "full_target": "../api/modules/core_model.html#combineintersection"
+    },
+    {
+      "source": "docs/docs/snippets/combining.md",
+      "target_file": "../api/modules/core_model.html",
+      "anchor": "combinesubtraction",
+      "full_target": "../api/modules/core_model.html#combinesubtraction"
+    },
+    {
+      "source": "docs/docs/snippets/combining.md",
+      "target_file": "../api/modules/core_model.html",
+      "anchor": "combineunion",
+      "full_target": "../api/modules/core_model.html#combineunion"
+    },
+    {
+      "source": "docs/docs/snippets/chain-dogbone.md",
+      "target_file": "../api/modules/core_chain.html",
+      "anchor": "dogbone",
+      "full_target": "../api/modules/core_chain.html#dogbone"
+    },
+    {
+      "source": "docs/docs/converted/index.md",
+      "target_file": "getting-started/index.md",
+      "anchor": "content",
+      "full_target": "getting-started/index.md#content"
+    },
+    {
+      "source": "docs/docs/converted/index.md",
+      "target_file": "basic-drawing/index.md",
+      "anchor": "content",
+      "full_target": "basic-drawing/index.md#content"
+    },
+    {
+      "source": "docs/docs/converted/index.md",
+      "target_file": "intermediate-drawing/index.md",
+      "anchor": "content",
+      "full_target": "intermediate-drawing/index.md#content"
+    },
+    {
+      "source": "docs/docs/converted/index.md",
+      "target_file": "advanced-drawing/index.md",
+      "anchor": "content",
+      "full_target": "advanced-drawing/index.md#content"
+    },
+    {
+      "source": "docs/docs/converted/index.md",
+      "target_file": "model-trees/index.md",
+      "anchor": "content",
+      "full_target": "model-trees/index.md#content"
+    },
+    {
+      "source": "docs/docs/converted/index.md",
+      "target_file": "working-with-chains/index.md",
+      "anchor": "content",
+      "full_target": "working-with-chains/index.md#content"
+    },
+    {
+      "source": "docs/docs/converted/index.md",
+      "target_file": "exporting/index.md",
+      "anchor": "content",
+      "full_target": "exporting/index.md#content"
+    },
+    {
+      "source": "docs/docs/converted/index.md",
+      "target_file": "importing/index.md",
+      "anchor": "content",
+      "full_target": "importing/index.md#content"
+    },
+    {
+      "source": "docs/docs/converted/index.md",
+      "target_file": "api/index.md",
+      "anchor": "content",
+      "full_target": "api/index.md#content"
+    },
+    {
+      "source": "docs/docs/converted/index.md",
+      "target_file": "intermediate-drawing/index.md",
+      "anchor": "Captions",
+      "full_target": "intermediate-drawing/index.md#Captions"
+    },
+    {
+      "source": "docs/docs/converted/index.md",
+      "target_file": "intermediate-drawing/index.md",
+      "anchor": "content",
+      "full_target": "intermediate-drawing/index.md#content"
+    },
+    {
+      "source": "docs/docs/converted/index.md",
+      "target_file": "intermediate-drawing/index.md",
+      "anchor": "Distorting",
+      "full_target": "intermediate-drawing/index.md#Distorting"
+    },
+    {
+      "source": "docs/docs/converted/index.md",
+      "target_file": "intermediate-drawing/index.md",
+      "anchor": "content",
+      "full_target": "intermediate-drawing/index.md#content"
+    },
+    {
+      "source": "docs/docs/converted/index.md",
+      "target_file": "intermediate-drawing/index.md",
+      "anchor": "Dogbone%20Fillets",
+      "full_target": "intermediate-drawing/index.md#Dogbone%20Fillets"
+    },
+    {
+      "source": "docs/docs/converted/index.md",
+      "target_file": "intermediate-drawing/index.md",
+      "anchor": "content",
+      "full_target": "intermediate-drawing/index.md#content"
+    },
+    {
+      "source": "docs/docs/converted/index.md",
+      "target_file": "working-with-chains/index.md",
+      "anchor": "Chain%20dogbone",
+      "full_target": "working-with-chains/index.md#Chain%20dogbone"
+    },
+    {
+      "source": "docs/docs/converted/index.md",
+      "target_file": "working-with-chains/index.md",
+      "anchor": "content",
+      "full_target": "working-with-chains/index.md#content"
+    },
+    {
+      "source": "docs/docs/converted/index.md",
+      "target_file": "working-with-chains/index.md",
+      "anchor": "content",
+      "full_target": "working-with-chains/index.md#content"
+    },
+    {
+      "source": "docs/docs/demos/node_modules/highlight.js/README.md",
+      "target_file": "",
+      "anchor": "cdnjs-link",
+      "full_target": "#cdnjs-link"
+    },
+    {
+      "source": "docs/docs/demos/node_modules/highlight.js/README.md",
+      "target_file": "",
+      "anchor": "jsdelivr-link",
+      "full_target": "#jsdelivr-link"
+    },
+    {
+      "source": "docs/docs/demos/node_modules/highlight.js/README.md",
+      "target_file": "",
+      "anchor": "unpkg-link",
+      "full_target": "#unpkg-link"
+    },
+    {
+      "source": "docs/docs/converted/advanced-drawing/index.md",
+      "target_file": "../model-trees/index.md",
+      "anchor": "content",
+      "full_target": "../model-trees/index.md#content"
+    },
+    {
+      "source": "docs/docs/converted/model-trees/index.md",
+      "target_file": "../working-with-chains/index.md",
+      "anchor": "content",
+      "full_target": "../working-with-chains/index.md#content"
+    },
+    {
+      "source": "docs/docs/converted/intermediate-drawing/index.md",
+      "target_file": "../advanced-drawing/index.md",
+      "anchor": "content",
+      "full_target": "../advanced-drawing/index.md#content"
+    },
+    {
+      "source": "docs/docs/converted/getting-started/index.md",
+      "target_file": "../basic-drawing/index.md",
+      "anchor": "content",
+      "full_target": "../basic-drawing/index.md#content"
+    },
+    {
+      "source": "docs/docs/converted/basic-drawing/index.md",
+      "target_file": "../intermediate-drawing/index.md",
+      "anchor": "content",
+      "full_target": "../intermediate-drawing/index.md#content"
+    },
+    {
+      "source": "docs/docs/converted/api/classes/models_Text.Text.md",
+      "target_file": "",
+      "anchor": "glyphtomodel",
+      "full_target": "#glyphtomodel"
+    },
+    {
+      "source": "docs/docs/converted/api/classes/models_Text.Text.md",
+      "target_file": "../interfaces/core_schema.IModel.md",
+      "anchor": "models",
+      "full_target": "../interfaces/core_schema.IModel.md#models"
+    },
+    {
+      "source": "docs/docs/converted/api/classes/models_Text.Text.md",
+      "target_file": "",
+      "anchor": "glyphtomodel",
+      "full_target": "#glyphtomodel"
+    },
+    {
+      "source": "docs/docs/converted/api/classes/models_Dome.Dome.md",
+      "target_file": "../interfaces/core_schema.IModel.md",
+      "anchor": "paths",
+      "full_target": "../interfaces/core_schema.IModel.md#paths"
+    },
+    {
+      "source": "docs/docs/converted/api/classes/core_xml.XmlTag.md",
+      "target_file": "",
+      "anchor": "attrs",
+      "full_target": "#attrs"
+    },
+    {
+      "source": "docs/docs/converted/api/classes/core_xml.XmlTag.md",
+      "target_file": "",
+      "anchor": "closingtags",
+      "full_target": "#closingtags"
+    },
+    {
+      "source": "docs/docs/converted/api/classes/core_xml.XmlTag.md",
+      "target_file": "",
+      "anchor": "escapestring",
+      "full_target": "#escapestring"
+    },
+    {
+      "source": "docs/docs/converted/api/classes/core_xml.XmlTag.md",
+      "target_file": "",
+      "anchor": "attrs",
+      "full_target": "#attrs"
+    },
+    {
+      "source": "docs/docs/converted/api/classes/core_xml.XmlTag.md",
+      "target_file": "",
+      "anchor": "closingtags",
+      "full_target": "#closingtags"
+    },
+    {
+      "source": "docs/docs/converted/api/classes/core_xml.XmlTag.md",
+      "target_file": "",
+      "anchor": "escapestring",
+      "full_target": "#escapestring"
+    },
+    {
+      "source": "docs/docs/converted/api/classes/core_collect.PointGraph.md",
+      "target_file": "",
+      "anchor": "constructorpointgrapht",
+      "full_target": "#constructorpointgrapht"
+    },
+    {
+      "source": "docs/docs/converted/api/classes/core_collect.PointGraph.md",
+      "target_file": "",
+      "anchor": "constructorpointgrapht",
+      "full_target": "#constructorpointgrapht"
+    },
+    {
+      "source": "docs/docs/converted/api/classes/core_collect.PointGraph.md",
+      "target_file": "",
+      "anchor": "constructorpointgrapht",
+      "full_target": "#constructorpointgrapht"
+    },
+    {
+      "source": "docs/docs/converted/api/classes/core_collect.PointGraph.md",
+      "target_file": "",
+      "anchor": "constructorpointgrapht",
+      "full_target": "#constructorpointgrapht"
+    },
+    {
+      "source": "docs/docs/converted/api/classes/core_collect.PointGraph.md",
+      "target_file": "",
+      "anchor": "constructorpointgrapht",
+      "full_target": "#constructorpointgrapht"
+    },
+    {
+      "source": "docs/docs/converted/api/classes/core_collect.PointGraph.md",
+      "target_file": "",
+      "anchor": "constructorpointgrapht",
+      "full_target": "#constructorpointgrapht"
+    },
+    {
+      "source": "docs/docs/converted/api/classes/core_collect.PointGraph.md",
+      "target_file": "",
+      "anchor": "constructorpointgrapht",
+      "full_target": "#constructorpointgrapht"
+    },
+    {
+      "source": "docs/docs/converted/api/classes/core_collect.PointGraph.md",
+      "target_file": "",
+      "anchor": "constructorpointgrapht",
+      "full_target": "#constructorpointgrapht"
+    },
+    {
+      "source": "docs/docs/converted/api/classes/models_Oval.Oval.md",
+      "target_file": "../interfaces/core_schema.IModel.md",
+      "anchor": "paths",
+      "full_target": "../interfaces/core_schema.IModel.md#paths"
+    },
+    {
+      "source": "docs/docs/converted/api/classes/models_BoltRectangle.BoltRectangle.md",
+      "target_file": "../interfaces/core_schema.IModel.md",
+      "anchor": "paths",
+      "full_target": "../interfaces/core_schema.IModel.md#paths"
+    },
+    {
+      "source": "docs/docs/converted/api/classes/models_Dogbone.Dogbone.md",
+      "target_file": "../interfaces/core_schema.IModel.md",
+      "anchor": "paths",
+      "full_target": "../interfaces/core_schema.IModel.md#paths"
+    },
+    {
+      "source": "docs/docs/converted/api/classes/models_ConnectTheDots.ConnectTheDots.md",
+      "target_file": "../interfaces/core_schema.IModel.md",
+      "anchor": "paths",
+      "full_target": "../interfaces/core_schema.IModel.md#paths"
+    },
+    {
+      "source": "docs/docs/converted/api/classes/models_RoundRectangle.RoundRectangle.md",
+      "target_file": "../interfaces/core_schema.IModel.md",
+      "anchor": "origin",
+      "full_target": "../interfaces/core_schema.IModel.md#origin"
+    },
+    {
+      "source": "docs/docs/converted/api/classes/models_RoundRectangle.RoundRectangle.md",
+      "target_file": "../interfaces/core_schema.IModel.md",
+      "anchor": "paths",
+      "full_target": "../interfaces/core_schema.IModel.md#paths"
+    },
+    {
+      "source": "docs/docs/converted/api/classes/models_OvalArc.OvalArc.md",
+      "target_file": "../interfaces/core_schema.IModel.md",
+      "anchor": "models",
+      "full_target": "../interfaces/core_schema.IModel.md#models"
+    },
+    {
+      "source": "docs/docs/converted/api/classes/models_OvalArc.OvalArc.md",
+      "target_file": "../interfaces/core_schema.IModel.md",
+      "anchor": "paths",
+      "full_target": "../interfaces/core_schema.IModel.md#paths"
+    },
+    {
+      "source": "docs/docs/converted/api/classes/models_Ellipse.Ellipse.md",
+      "target_file": "../interfaces/core_schema.IModel.md",
+      "anchor": "models",
+      "full_target": "../interfaces/core_schema.IModel.md#models"
+    },
+    {
+      "source": "docs/docs/converted/api/classes/models_Ellipse.Ellipse.md",
+      "target_file": "../interfaces/core_schema.IModel.md",
+      "anchor": "origin",
+      "full_target": "../interfaces/core_schema.IModel.md#origin"
+    },
+    {
+      "source": "docs/docs/converted/api/classes/models_SCurve.SCurve.md",
+      "target_file": "../interfaces/core_schema.IModel.md",
+      "anchor": "paths",
+      "full_target": "../interfaces/core_schema.IModel.md#paths"
+    },
+    {
+      "source": "docs/docs/converted/api/classes/models_BoltCircle.BoltCircle.md",
+      "target_file": "../interfaces/core_schema.IModel.md",
+      "anchor": "paths",
+      "full_target": "../interfaces/core_schema.IModel.md#paths"
+    },
+    {
+      "source": "docs/docs/converted/api/classes/models_Ellipse.EllipticArc.md",
+      "target_file": "../interfaces/core_schema.IModel.md",
+      "anchor": "models",
+      "full_target": "../interfaces/core_schema.IModel.md#models"
+    },
+    {
+      "source": "docs/docs/converted/api/classes/models_Slot.Slot.md",
+      "target_file": "../interfaces/core_schema.IModel.md",
+      "anchor": "models",
+      "full_target": "../interfaces/core_schema.IModel.md#models"
+    },
+    {
+      "source": "docs/docs/converted/api/classes/models_Slot.Slot.md",
+      "target_file": "../interfaces/core_schema.IModel.md",
+      "anchor": "origin",
+      "full_target": "../interfaces/core_schema.IModel.md#origin"
+    },
+    {
+      "source": "docs/docs/converted/api/classes/models_Slot.Slot.md",
+      "target_file": "../interfaces/core_schema.IModel.md",
+      "anchor": "paths",
+      "full_target": "../interfaces/core_schema.IModel.md#paths"
+    },
+    {
+      "source": "docs/docs/converted/api/classes/models_BezierCurve-esm.BezierCurve.md",
+      "target_file": "",
+      "anchor": "typename",
+      "full_target": "#typename"
+    },
+    {
+      "source": "docs/docs/converted/api/classes/models_BezierCurve-esm.BezierCurve.md",
+      "target_file": "",
+      "anchor": "computelength",
+      "full_target": "#computelength"
+    },
+    {
+      "source": "docs/docs/converted/api/classes/models_BezierCurve-esm.BezierCurve.md",
+      "target_file": "",
+      "anchor": "computepoint",
+      "full_target": "#computepoint"
+    },
+    {
+      "source": "docs/docs/converted/api/classes/models_BezierCurve-esm.BezierCurve.md",
+      "target_file": "",
+      "anchor": "getbezierseeds",
+      "full_target": "#getbezierseeds"
+    },
+    {
+      "source": "docs/docs/converted/api/classes/models_BezierCurve-esm.BezierCurve.md",
+      "target_file": "../interfaces/core_schema.IModel.md",
+      "anchor": "models",
+      "full_target": "../interfaces/core_schema.IModel.md#models"
+    },
+    {
+      "source": "docs/docs/converted/api/classes/models_BezierCurve-esm.BezierCurve.md",
+      "target_file": "../interfaces/core_schema.IModel.md",
+      "anchor": "origin",
+      "full_target": "../interfaces/core_schema.IModel.md#origin"
+    },
+    {
+      "source": "docs/docs/converted/api/classes/models_BezierCurve-esm.BezierCurve.md",
+      "target_file": "../interfaces/core_schema.IModel.md",
+      "anchor": "paths",
+      "full_target": "../interfaces/core_schema.IModel.md#paths"
+    },
+    {
+      "source": "docs/docs/converted/api/classes/models_BezierCurve-esm.BezierCurve.md",
+      "target_file": "../interfaces/core_schema.IModel.md",
+      "anchor": "type",
+      "full_target": "../interfaces/core_schema.IModel.md#type"
+    },
+    {
+      "source": "docs/docs/converted/api/classes/models_BezierCurve-esm.BezierCurve.md",
+      "target_file": "",
+      "anchor": "typename",
+      "full_target": "#typename"
+    }
+  ]
+}

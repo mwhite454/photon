@@ -356,7 +356,7 @@ Use this checklist when migrating code:
 ## Related Topics
 
 - [Getting Started with photon/core](../getting-started/index.md)
-- [API Reference](../api/index.md)
+- [API Reference](../converted/api/index.md)
 - [Migration FAQs](./migration-faq.md)
 
 ## Support
@@ -364,5 +364,5 @@ Use this checklist when migrating code:
 If you encounter issues during migration:
 
 1. Check this mapping document for API equivalents
-2. Review the [photon/core API reference](../api/index.md)
+2. Review the [photon/core API reference](../converted/api/index.md)
 3. Open an issue on [GitHub](https://github.com/phenomnomnominal/photon) with migration questions

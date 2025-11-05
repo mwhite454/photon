@@ -34,7 +34,7 @@ title: $ Function
 As an alternative to cascading functions, photon/core offers a handy way to modify your drawing in an object-oriented style,
 inspired by the [jQuery](http://www.jquery.com) library.
 
-Call [$(x)](../api/index.html#_) from photon/core to get a **cascade container** object returned.
+Call `$(x)` from photon/core to get a **cascade container** object returned.
 You can then invoke a series of cascading functions upon x. The output of each function becomes the input of the next.
 A cascade container will only work with functions that output the same type of object that they input as their first parameter,
 which must be one of these types:
@@ -92,7 +92,7 @@ the final operation (*moveRelative([0, 15])*) is at the bottom, and the function
 
 #### Using addTo() instead of .$result
 
-In some cases, you can avoid using **.$result** and just [add a path](../converted/api/modules/core_path.md#addto) or [add a model](../converted/api/modules/core_model.md#addto) to a parent model by calling **addTo(model, id)**.
+In some cases, you can avoid using **.$result** and just [add a path](../functions/core_path.addTo.md) or [add a model](../functions/core_model.addTo.md) to a parent model by calling **addTo(model, id)**.
 This is particularly useful prior to a call that creates a clone (such as **mirror**):
 
 ```javascript

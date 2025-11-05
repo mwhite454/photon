@@ -35,7 +35,7 @@ The text and anchor line do not need to be the same length, the anchor line is o
 The anchor line may be rotated to angle the caption text.
 Anchor lines are moved, originated, scaled, distorted and rotated accoordingly within a model.
 The font size of caption text is determined when you export your model.
-A caption can be put on a different [layer](/docs/intermediate-drawing/index.md#layers) from it's model by setting the layer of it's anchor.
+A caption can be put on a different layer from it's model by setting the layer of it's anchor.
 Note: In the Playground, caption text does not scale when you zoom in or out.
 
 #### Creating a caption object

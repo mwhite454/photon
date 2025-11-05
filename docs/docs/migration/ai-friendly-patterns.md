@@ -116,7 +116,7 @@ Appears at the end of the page:
 ## Related Topics
 
 - [Advanced Shapes](../advanced-drawing/shapes.md)
-- [Exporting SVG](../exporting/svg.md)
+- [Exporting SVG](../exporting/index.md)
 ```
 
 ## Structured Data (JSON-LD)

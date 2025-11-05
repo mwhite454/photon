@@ -31,7 +31,7 @@ tags:
 title: Layout On Path
 ---
 You can use a path as a layout guide for a row of child models within a model.
-Call [layout.childrenOnPath(parentModel: Model, onPath: Path)](../api/modules/core_layout.html#childrenonpath),
+Call [layout.childrenOnPath(parentModel: Model, onPath: Path)](../functions/core_layout.childrenOnPath.md),
 the x-axis will be projected onto your onPath:
 
 ## Examples

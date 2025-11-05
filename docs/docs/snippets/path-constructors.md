@@ -68,9 +68,9 @@ Instead, these should be passed as parameters.
 
 Since this is a common scenario, Maker.js provides constructors for all primitive paths: line, circle and arc:
 
-* [paths.Line](/docs/api/classes/paths.line.md#constructor)
-* [paths.Circle](/docs/api/classes/paths.circle.md#constructor)
-* [paths.Arc](/docs/api/classes/paths.arc.md#constructor)
+* [paths.Line](../converted/api/classes/core_paths.Line.md#constructor)
+* [paths.Circle](../converted/api/classes/core_paths.Circle.md#constructor)
+* [paths.Arc](../converted/api/classes/core_paths.Arc.md#constructor)
 
 ```javascript
 //render the basic paths

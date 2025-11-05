@@ -25,7 +25,7 @@ tags:
 title: Dogbones
 ---
 Many CNC tools are not able to cut a sharp interior corner. The way to clear the apex of an interior corner is by encompassing the corner with a circular cut known as a dogbone fillet.
-Use [path.dogbone](../api/modules/core_path.html#dogbone) to round a corner at the junction between two lines.
+Use [path.dogbone](../functions/core_fillet-path.pathDogbone.md) to round a corner at the junction between two lines.
 This function will only work for two lines which must meet at one point. It will clip the two lines that you pass it, and will return a new arc path which clears the corner where the lines meet.
 It will return null if a dogbone fillet cannot be created at the radius you specify.
 
@@ -52,7 +52,7 @@ document.write(svg);
 #### Dogbone models
 
 If you need a rectangle with dogbones at each corner, you can use
-[models.Dogbone(width, height, radius*, optional style, optional bottomless*)](api/classes/models.dogbone.md#constructor).
+[models.Dogbone(width, height, radius*, optional style, optional bottomless*)](../converted/api/classes/models_Dogbone.Dogbone.md#constructor).
 There are a 3 styles of a Dogbone model:
 
 * 0 : (default) rounded
@@ -77,7 +77,7 @@ const svg = exporter.toSVG(dogbones);
 document.write(svg);
 ```
 
-Making them bottomless is useful for creating [tongue-and-groove shapes](/docs../../playground/index.html?script=tongue-and-groove):
+Making them bottomless is useful for creating [tongue-and-groove shapes](../playground/index.html?script=tongue-and-groove):
 
 ```javascript
 //bottomless dogbones.

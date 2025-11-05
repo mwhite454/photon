@@ -21,7 +21,28 @@ tags:
 - advanced-drawing
 title: Advanced Drawing
 ---
+
+# Advanced Drawing {#content}
+
 Complex shapes, boolean operations, and advanced techniques.
+
+## Fonts and Text {#fonts-and-text}
+
+Working with text and font rendering in Photon.
+
+{% include "snippets/fonts-and-text.md" %}
+
+## Bezier Curves {#bezier-curves}
+
+Creating smooth curves using Bezier mathematics.
+
+{% include "snippets/bezier-curves.md" %}
+
+## Layout on a Path {#layout-on-a-path}
+
+Positioning elements along curved paths.
+
+{% include "snippets/layout-on-path.md" %}
 
 ## Related Topics
 

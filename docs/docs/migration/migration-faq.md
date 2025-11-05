@@ -288,8 +288,8 @@ const fillets = chainOps.fillet(chain, 10);
 **A:** Check these resources:
 
 - [Getting Started Guide](../getting-started/index.md)
-- [API Reference](../api/index.md)
-- [Code Examples](../examples/index.md)
+- [API Reference](../converted/api/index.md)
+- [Code Examples](../demos/index.md)
 - [API Migration Guide](./api-mapping.md)
 
 ### Q: I found a bug, where do I report it?
@@ -310,11 +310,11 @@ const fillets = chainOps.fillet(chain, 10);
 3. Make your changes with tests
 4. Submit a pull request
 
-See [Contributing Guide](../../CONTRIBUTING.md) for details.
+See [Contributing Guide](../../../CONTRIBUTING.md) for details.
 
 ## Related Resources
 
 - [API Migration Guide](./api-mapping.md) - Complete API mapping reference
 - [Getting Started](../getting-started/index.md) - Quick start guide
-- [API Documentation](../api/index.md) - Full API reference
-- [Examples](../examples/index.md) - Code examples and tutorials
+- [API Documentation](../converted/api/index.md) - Full API reference
+- [Examples](../demos/index.md) - Code examples and tutorials

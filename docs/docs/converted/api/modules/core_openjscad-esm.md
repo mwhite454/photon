@@ -74,16 +74,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Interfaces
-
-[IJscadCagOptions](#ijscadcagoptions)[IJscadCsgOptions](#ijscadcsgoptions)[IJscadExtrudeOptions](#ijscadextrudeoptions)[IJscadScriptOptions](#ijscadscriptoptions)[IOpenJsCadOptions](#iopenjscadoptions)[IOpenJsCadOptionsMap](#iopenjscadoptionsmap)[IStatusCallback](#istatuscallback)
-
-Functions
-
-[toJscadCAG](#tojscadcag)[toJscadCSG](#tojscadcsg)[toJscadScript](#tojscadscript)[toJscadSTL](#tojscadstl)
-
 [Photon](../index.md)
 
 * Loading...

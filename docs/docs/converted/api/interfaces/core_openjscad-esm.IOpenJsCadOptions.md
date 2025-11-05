@@ -53,19 +53,6 @@ interface IOpenJsCadOptions {
 
 * Defined in [core/openjscad-esm.ts:477](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/openjscad-esm.ts#L477)
 
-##### Index
-
-### Properties
-
-accuracy?
-extrusion?
-facetSize?
-functionName?
-modelMap?
-pointMatchingDistance?
-removeFromOriginal?
-units?
-
 ## Properties
 
 ### `Optional`accuracy

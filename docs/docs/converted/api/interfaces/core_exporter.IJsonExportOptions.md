@@ -44,14 +44,6 @@ interface IJsonExportOptions {
 
 * Defined in [core/exporter.ts:25](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/exporter.ts#L25)
 
-##### Index
-
-### Properties
-
-[accuracy?](#accuracy)
-[indentation?](#indentation)
-[units?](#units)
-
 ## Properties
 
 ### `Optional`accuracy
@@ -90,12 +82,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[accuracy](#accuracy)[indentation](#indentation)[units](#units)
 
 [Photon](../index.md)
 

@@ -45,12 +45,6 @@ interface StlSerializer {
 
 * Defined in [types/jscad.d.ts:96](https://github.com/mwhite454/photon/blob/main/packages/photon/src/types/jscad.d.ts#L96)
 
-##### Index
-
-### Methods
-
-[serialize](#serialize)
-
 ## Methods
 
 ### serialize
@@ -80,12 +74,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Methods
-
-[serialize](#serialize)
 
 [Photon](../index.md)
 

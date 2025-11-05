@@ -53,18 +53,6 @@ interface IWalkModel {
 
 * Defined in [core/maker.ts:547](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L547)
 
-##### Index
-
-### Properties
-
-[childId](#childid)
-[childModel](#childmodel)
-[layer](#layer)
-[offset](#offset)
-[parentModel](#parentmodel)
-[route](#route)
-[routeKey](#routekey)
-
 ## Properties
 
 ### childId
@@ -131,12 +119,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[childId](#childid)[childModel](#childmodel)[layer](#layer)[offset](#offset)[parentModel](#parentmodel)[route](#route)[routeKey](#routekey)
 
 [Photon](../index.md)
 

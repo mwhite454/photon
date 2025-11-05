@@ -54,21 +54,6 @@ interface IBoundingHex {
 
 * Defined in [core/maker.ts:588](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L588)
 
-##### Index
-
-### Properties
-
-[caption?](#optionalcaption)
-[exporterOptions?](#optionalexporteroptions)
-[layer?](#optionallayer)
-[models?](#optionalmodels)
-[notes?](#optionalnotes)
-[origin?](#optionalorigin)
-[paths?](#optionalpaths)
-[radius](#radius)
-[type?](#optionaltype)
-[units?](#optionalunits)
-
 ## Properties
 
 ### `Optional`caption
@@ -177,20 +162,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-* **Properties**
-  * [caption](#optionalcaption)
-  * [exporterOptions](#optionalexporteroptions)
-  * [layer](#optionallayer)
-  * [models](#optionalmodels)
-  * [notes](#optionalnotes)
-  * [origin](#optionalorigin)
-  * [paths](#optionalpaths)
-  * [radius](#radius)
-  * [type](#optionaltype)
-  * [units](#optionalunits)
 
 [Photon](../index.md)
 

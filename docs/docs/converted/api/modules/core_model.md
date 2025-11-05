@@ -120,12 +120,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Functions
-
-[addCaption](#addcaption)[addModel](#addmodel)[addPath](#addpath)[addTo](#addto)[center](#center)[clone](#clone)[convertUnits](#convertunits)[countChildModels](#countchildmodels)[distort](#distort)[findChains](#findchains)[findSingleChain](#findsinglechain)[getAllCaptionsOffset](#getallcaptionsoffset)[getSimilarModelId](#getsimilarmodelid)[getSimilarPathId](#getsimilarpathid)[layer](#layer)[mirror](#mirror)[move](#move)[moveRelative](#moverelative)[originate](#originate)[prefixPathIds](#prefixpathids)[rotate](#rotate)[scale](#scale)[walk](#walk)[walkPaths](#walkpaths)[zero](#zero)
-
 [Photon](../index.md)
 
 * Loading...

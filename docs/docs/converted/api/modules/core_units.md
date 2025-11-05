@@ -45,12 +45,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Functions
-
-[conversionScale](#conversionscale)[isValidUnit](#isvalidunit)
-
 [Photon](../index.md)
 
 * Loading...

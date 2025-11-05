@@ -50,18 +50,6 @@ Any point to determine which side of the line to place the parallel.
 
 * Defined in [core/paths.ts:372](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/paths.ts#L372)
 
-##### Index
-
-### Constructors
-
-[constructor](#constructor)
-
-### Properties
-
-[end](#end)
-[origin](#origin)
-[type](#type)
-
 ## Constructors
 
 ### constructor
@@ -118,16 +106,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Constructors
-
-[constructor](#constructor)
-
-Properties
-
-[end](#end)[origin](#origin)[type](#type)
 
 [Photon](../index.md)
 

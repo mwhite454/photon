@@ -47,13 +47,6 @@ interface IRefPathIdInModel {
 
 * Defined in [core/maker.ts:386](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L386)
 
-##### Index
-
-### Properties
-
-[modelContext](#modelcontext)
-[pathId](#pathid)
-
 ## Properties
 
 ### modelContext
@@ -76,12 +69,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[modelContext](#modelcontext)[pathId](#pathid)
 
 [Photon](../index.md)
 

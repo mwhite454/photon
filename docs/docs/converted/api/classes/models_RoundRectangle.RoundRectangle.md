@@ -39,17 +39,6 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
 * Defined in [models/RoundRectangle.ts:7](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/RoundRectangle.ts#L7)
 
-##### Index
-
-### Constructors
-
-[constructor](#constructor)
-
-### Properties
-
-[origin](#origin)
-[paths](#paths)
-
 ## Constructors
 
 ### constructor
@@ -139,16 +128,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Constructors
-
-[constructor](#constructor)
-
-Properties
-
-[origin](#origin)[paths](#paths)
 
 [Photon](../index.md)
 

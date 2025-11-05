@@ -39,12 +39,6 @@ interface IChain {
 
 * Defined in [core/path.ts:16](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/path.ts#L16)
 
-##### Index
-
-### Properties
-
-[links](#links)
-
 ## Properties
 
 ### links
@@ -61,12 +55,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[links](#links)
 
 [Photon](../index.md)
 

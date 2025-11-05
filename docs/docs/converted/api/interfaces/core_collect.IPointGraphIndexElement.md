@@ -37,16 +37,6 @@ interface IPointGraphIndexElement {
 [valueIds](#valueids): number[];
 }\* Defined in [core/collect.ts:95](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/collect.ts#L95)
 
-##### Index
-
-### Properties
-
-[kdId?](#kdid)
-[merged?](#merged)
-[point](#point)
-[pointId](#pointid)
-[valueIds](#valueids)
-
 ## Properties
 
 ### `Optional`kdId

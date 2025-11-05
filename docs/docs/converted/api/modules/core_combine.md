@@ -58,12 +58,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Functions
-
-[breakPathsAtIntersections](#breakpathsatintersections)[combine](#combine)[combineIntersection](#combineintersection)[combineSubtraction](#combinesubtraction)[combineUnion](#combineunion)[isPathInsideModel](#ispathinsidemodel)
-
 [Photon](../index.md)
 
 * Loading...

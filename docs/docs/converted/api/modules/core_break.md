@@ -42,12 +42,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Functions
-
-[breakAtPoint](#breakatpoint)
-
 [Photon](../index.md)
 
 * Loading...

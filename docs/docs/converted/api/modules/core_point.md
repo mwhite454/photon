@@ -90,12 +90,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Functions
-
-[add](#add)[average](#average)[clone](#clone)[closest](#closest)[distort](#distort)[fromAngleOnCircle](#fromangleoncircle)[fromArc](#fromarc)[fromPathEnds](#frompathends)[fromPolar](#frompolar)[fromSlopeIntersection](#fromslopeintersection)[middle](#middle)[mirror](#mirror)[rotate](#rotate)[rounded](#rounded)[scale](#scale)[subtract](#subtract)[zero](#zero)
-
 [Photon](../index.md)
 
 * Loading...

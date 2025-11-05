@@ -46,12 +46,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Classes
-
-[OvalArc](#ovalarc)
-
 [Photon](../index.md)
 
 * Loading...

@@ -43,15 +43,6 @@ interface ISVGPathDataRenderOptions {
 
 * Defined in [core/svg-esm.ts:267](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/svg-esm.ts#L267)
 
-##### Index
-
-### Properties
-
-[accuracy?](#accuracy)
-[byLayers?](#bylayers)
-[fillRule?](#fillrule)
-[origin?](#origin)
-
 ## Properties
 
 ### `Optional`accuracy
@@ -86,12 +77,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[accuracy](#accuracy)[byLayers](#bylayers)[fillRule](#fillrule)[origin](#origin)
 
 [Photon](../index.md)
 

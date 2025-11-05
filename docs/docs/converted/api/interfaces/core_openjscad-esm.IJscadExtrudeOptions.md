@@ -44,13 +44,6 @@ interface IJscadExtrudeOptions {
 
 * Defined in [core/openjscad-esm.ts:529](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/openjscad-esm.ts#L529)
 
-##### Index
-
-### Properties
-
-[extrude?](#optionalextrude)
-[z?](#optionalz)
-
 ## Properties
 
 ### `Optional`extrude
@@ -77,12 +70,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-* **Properties**
-  * [extrude](#optionalextrude)
-  * [z](#optionalz)
 
 [Photon](../index.md)
 

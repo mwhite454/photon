@@ -50,12 +50,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Functions
-
-[chainDogbone](#chaindogbone)[chainFillet](#chainfillet)
-
 [Photon](../index.md)
 
 * Loading...

@@ -39,13 +39,6 @@ interface ICollection<K, T> {
 
 - Defined in [core/collect.ts:14](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/collect.ts#L14)
 
-##### Index
-
-### Properties
-
-[items](#items)
-[key](#key)
-
 ## Properties
 
 ### items

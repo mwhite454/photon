@@ -48,14 +48,6 @@ interface IRefModelInModel {
 
 * Defined in [core/maker.ts:538](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L538)
 
-##### Index
-
-### Properties
-
-[childId](#childid)
-[childModel](#childmodel)
-[parentModel](#parentmodel)
-
 ## Properties
 
 ### childId
@@ -84,12 +76,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[childId](#childid)[childModel](#childmodel)[parentModel](#parentmodel)
 
 [Photon](../index.md)
 

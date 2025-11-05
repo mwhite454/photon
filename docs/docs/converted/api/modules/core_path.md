@@ -101,16 +101,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Interfaces
-
-[IChain](#ichain)[IWalkPath](#iwalkpath)
-
-Functions
-
-[addTo](#addto)[alterLength](#alterlength)[center](#center)[clone](#clone)[converge](#converge)[copyProps](#copyprops)[distort](#distort)[layer](#layer)[mirror](#mirror)[move](#move)[moveRelative](#moverelative)[moveTemporary](#movetemporary)[rotate](#rotate)[scale](#scale)[toKeyPoints](#tokeypoints)[toPoints](#topoints)[zero](#zero)
-
 [Photon](../index.md)
 
 * Loading...

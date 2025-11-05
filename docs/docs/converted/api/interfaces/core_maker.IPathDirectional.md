@@ -50,16 +50,6 @@ interface IPathDirectional {
 
 * Defined in [core/maker.ts:354](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L354)
 
-##### Index
-
-### Properties
-
-[endPoints](#endpoints)
-[layer?](#layer)
-[origin](#origin)
-[reversed?](#reversed)
-[type](#type)
-
 ## Properties
 
 ### endPoints
@@ -116,12 +106,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[endPoints](#endpoints)[layer](#layer)[origin](#origin)[reversed](#reversed)[type](#type)
 
 [Photon](../index.md)
 

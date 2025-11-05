@@ -38,13 +38,6 @@ interface IBezierRange {
 
 * Defined in [core/schema.ts:56](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/schema.ts#L56)
 
-##### Index
-
-### Properties
-
-[endT](#endt)
-[startT](#startt)
-
 ## Properties
 
 ### endT
@@ -71,12 +64,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[endT](#endt)[startT](#startt)
 
 [Photon](../index.md)
 

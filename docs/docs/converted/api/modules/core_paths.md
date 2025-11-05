@@ -58,12 +58,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Classes
-
-[Arc](#arc)[Chord](#chord)[Circle](#circle)[Line](#line)[Parallel](#parallel)
-
 [Photon](../index.md)
 
 * Loading...

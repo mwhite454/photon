@@ -45,16 +45,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Classes
-
-[XmlTag](#xmltag)
-
-Interfaces
-
-[IXmlTagAttrs](#ixmltagattrs)
-
 [Photon](../index.md)
 
 * Loading...

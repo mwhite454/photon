@@ -46,12 +46,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Classes
-
-[Belt](#belt)
-
 [Photon](../index.md)
 
 * Loading...

@@ -46,12 +46,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Classes
-
-[Oval](#oval)
-
 [Photon](../index.md)
 
 * Loading...

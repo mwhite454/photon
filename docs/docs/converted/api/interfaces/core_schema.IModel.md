@@ -81,20 +81,6 @@ interface IModel {
 
 * Defined in [core/schema.ts:91](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/schema.ts#L91)
 
-##### Index
-
-### Properties
-
-[caption?](#optionalcaption)
-[exporterOptions?](#optionalexporteroptions)
-[layer?](#optionallayer)
-[models?](#optionalmodels)
-[notes?](#optionalnotes)
-[origin?](#optionalorigin)
-[paths?](#optionalpaths)
-[type?](#optionaltype)
-[units?](#optionalunits)
-
 ## Properties
 
 ### `Optional`caption
@@ -177,19 +163,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-* **Properties**
-  * [caption](#optionalcaption)
-  * [exporterOptions](#optionalexporteroptions)
-  * [layer](#optionallayer)
-  * [models](#optionalmodels)
-  * [notes](#optionalnotes)
-  * [origin](#optionalorigin)
-  * [paths](#optionalpaths)
-  * [type](#optionaltype)
-  * [units](#optionalunits)
 
 [Photon](../index.md)
 

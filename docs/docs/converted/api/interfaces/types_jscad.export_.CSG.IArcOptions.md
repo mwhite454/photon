@@ -45,16 +45,6 @@ interface IArcOptions {
 
 * Defined in [types/jscad.d.ts:64](https://github.com/mwhite454/photon/blob/main/packages/photon/src/types/jscad.d.ts#L64)
 
-##### Index
-
-### Properties
-
-[center](#center)
-[endangle](#endangle)
-[radius](#radius)
-[resolution?](#resolution)
-[startangle](#startangle)
-
 ## Properties
 
 ### center
@@ -95,12 +85,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[center](#center)[endangle](#endangle)[radius](#radius)[resolution](#resolution)[startangle](#startangle)
 
 [Photon](../index.md)
 

@@ -45,15 +45,6 @@ interface IChain {
 
 * Defined in [core/maker.ts:451](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L451)
 
-##### Index
-
-### Properties
-
-[contains?](#contains)
-[endless](#endless)
-[links](#links)
-[pathLength](#pathlength)
-
 ## Properties
 
 ### `Optional`contains
@@ -96,12 +87,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[contains](#contains)[endless](#endless)[links](#links)[pathLength](#pathlength)
 
 [Photon](../index.md)
 

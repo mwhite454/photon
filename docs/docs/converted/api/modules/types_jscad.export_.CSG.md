@@ -57,16 +57,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Namespaces
-
-[Path2D](#path2d)
-
-Interfaces
-
-[IArcOptions](#iarcoptions)[ICircleOptions](#icircleoptions)[IEllpiticalArcOptions](#iellpiticalarcoptions)
-
 [Photon](../index.md)
 
 * Loading...

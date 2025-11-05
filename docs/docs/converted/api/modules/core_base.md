@@ -82,16 +82,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Variables
-
-[environment](#environment)[environmentTypes](#environmenttypes)[pathType](#pathtype)[unitType](#unittype)[version](#version)
-
-Functions
-
-[cloneObject](#cloneobject)[createRouteKey](#createroutekey)[extendObject](#extendobject)[isFunction](#isfunction)[isNumber](#isnumber)[isObject](#isobject)[isPoint](#ispoint)[round](#round)[splitDecimal](#splitdecimal)
-
 [Photon](../index.md)
 
 * Loading...

@@ -40,14 +40,6 @@ interface ICascade {
 
 * Defined in [core/maker.ts:661](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L661)
 
-##### Index
-
-### Properties
-
-[$initial](#initial)
-[$reset](#reset)
-[$result](#result)
-
 ## Properties
 
 ### $initial
@@ -82,12 +74,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[$initial](#initial)[$reset](#reset)[$result](#result)
 
 [Photon](../index.md)
 

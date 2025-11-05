@@ -45,16 +45,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Interfaces
-
-[IPDFRenderOptions](#ipdfrenderoptions)
-
-Functions
-
-[toPDF](#topdf)
-
 [Photon](../index.md)
 
 * Loading...

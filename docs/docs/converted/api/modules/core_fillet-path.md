@@ -50,12 +50,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Functions
-
-[pathDogbone](#pathdogbone)[pathFillet](#pathfillet)
-
 [Photon](../index.md)
 
 * Loading...

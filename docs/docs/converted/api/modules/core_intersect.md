@@ -42,12 +42,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Functions
-
-[intersection](#intersection)
-
 [Photon](../index.md)
 
 * Loading...

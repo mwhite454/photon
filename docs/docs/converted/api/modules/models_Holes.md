@@ -46,12 +46,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Classes
-
-[Holes](#holes)
-
 [Photon](../index.md)
 
 * Loading...

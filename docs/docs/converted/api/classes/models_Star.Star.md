@@ -39,20 +39,6 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
 * Defined in [models/Star.ts:6](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Star.ts#L6)
 
-##### Index
-
-### Constructors
-
-[constructor](#constructor)
-
-### Properties
-
-[paths](#paths)
-
-### Methods
-
-[InnerRadiusRatio](#innerradiusratio)
-
 ## Constructors
 
 ### constructor
@@ -110,20 +96,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Constructors
-
-[constructor](#constructor)
-
-Properties
-
-[paths](#paths)
-
-Methods
-
-[InnerRadiusRatio](#innerradiusratio)
 
 [Photon](../index.md)
 

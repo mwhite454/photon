@@ -46,12 +46,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Classes
-
-[RoundRectangle](#roundrectangle)
-
 [Photon](../index.md)
 
 * Loading...

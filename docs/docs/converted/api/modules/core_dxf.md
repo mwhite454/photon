@@ -48,16 +48,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Interfaces
-
-[IDXFLayerOptions](#idxflayeroptions)[IDXFRenderOptions](#idxfrenderoptions)
-
-Functions
-
-[toDXF](#todxf)
-
 [Photon](../index.md)
 
 * Loading...

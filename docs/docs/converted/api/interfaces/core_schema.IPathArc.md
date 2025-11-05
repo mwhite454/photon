@@ -57,17 +57,6 @@ interface IPathArc {
 
 * Defined in [core/schema.ts:40](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/schema.ts#L40)
 
-##### Index
-
-### Properties
-
-[endAngle](#endangle)
-[layer?](#layer)
-[origin](#origin)
-[radius](#radius)
-[startAngle](#startangle)
-[type](#type)
-
 ## Properties
 
 ### endAngle
@@ -134,12 +123,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[endAngle](#endangle)[layer](#layer)[origin](#origin)[radius](#radius)[startAngle](#startangle)[type](#type)
 
 [Photon](../index.md)
 

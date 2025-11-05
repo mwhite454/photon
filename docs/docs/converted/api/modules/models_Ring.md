@@ -46,12 +46,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Classes
-
-[Ring](#ring)
-
 [Photon](../index.md)
 
 * Loading...

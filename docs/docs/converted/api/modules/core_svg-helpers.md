@@ -46,12 +46,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Functions
-
-[chainToSVGPathData](#chaintosvgpathdata)[pathToSVGPathData](#pathtosvgpathdata)
-
 [Photon](../index.md)
 
 * Loading...

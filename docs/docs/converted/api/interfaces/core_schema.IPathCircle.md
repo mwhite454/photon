@@ -55,15 +55,6 @@ interface IPathCircle {
 
 * Defined in [core/schema.ts:34](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/schema.ts#L34)
 
-##### Index
-
-### Properties
-
-[layer?](#layer)
-[origin](#origin)
-[radius](#radius)
-[type](#type)
-
 ## Properties
 
 ### `Optional`layer
@@ -112,12 +103,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[layer](#layer)[origin](#origin)[radius](#radius)[type](#type)
 
 [Photon](../index.md)
 

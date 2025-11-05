@@ -49,12 +49,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Classes
-
-[Ellipse](#ellipse)[EllipticArc](#ellipticarc)
-
 [Photon](../index.md)
 
 * Loading...

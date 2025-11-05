@@ -38,19 +38,6 @@ Class for bezier seed.
 
 * Defined in [models/BezierCurve-esm.ts:296](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/BezierCurve-esm.ts#L296)
 
-##### Index
-
-### Constructors
-
-[constructor](#constructor)
-
-### Properties
-
-[controls](#controls)
-[end](#end)
-[origin](#origin)
-[type](#type)
-
 ## Constructors
 
 ### constructor
@@ -184,16 +171,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Constructors
-
-[constructor](#constructor)
-
-Properties
-
-[controls](#controls)[end](#end)[origin](#origin)[type](#type)
 
 [Photon](../index.md)
 

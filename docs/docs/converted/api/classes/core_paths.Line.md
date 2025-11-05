@@ -38,18 +38,6 @@ Class for line path.
 
 * Defined in [core/paths.ts:307](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/paths.ts#L307)
 
-##### Index
-
-### Constructors
-
-[constructor](#constructor)
-
-### Properties
-
-[end](#end)
-[origin](#origin)
-[type](#type)
-
 ## Constructors
 
 ### constructor
@@ -124,16 +112,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Constructors
-
-[constructor](#constructor)
-
-Properties
-
-[end](#end)[origin](#origin)[type](#type)
 
 [Photon](../index.md)
 

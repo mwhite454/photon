@@ -81,12 +81,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Interfaces
-
-[IBezierRange](#ibezierrange)[ICaption](#icaption)[IModel](#imodel)[IModelMap](#imodelmap)[IPath](#ipath)[IPathArc](#ipatharc)[IPathArcInBezierCurve](#ipatharcinbeziercurve)[IPathBezierSeed](#ipathbezierseed)[IPathCircle](#ipathcircle)[IPathIntersection](#ipathintersection)[IPathIntersectionOptions](#ipathintersectionoptions)[IPathLine](#ipathline)[IPathMap](#ipathmap)[IPoint](#ipoint)
-
 [Photon](../index.md)
 
 * Loading...

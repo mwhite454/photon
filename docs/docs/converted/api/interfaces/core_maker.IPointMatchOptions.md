@@ -47,11 +47,6 @@ interface IPointMatchOptions {
 
 * Defined in [core/maker.ts:277](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L277)
 
-##### Index
-
-### Properties
-
-
 ## Properties
 
 ### `Optional`pointMatchingDistance

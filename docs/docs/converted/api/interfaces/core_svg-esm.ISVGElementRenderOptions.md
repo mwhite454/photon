@@ -45,16 +45,6 @@ interface ISVGElementRenderOptions {
 
 * Defined in [core/svg-esm.ts:352](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/svg-esm.ts#L352)
 
-##### Index
-
-### Properties
-
-[className?](#classname)
-[cssStyle?](#cssstyle)
-[fill?](#fill)
-[stroke?](#stroke)
-[strokeWidth?](#strokewidth)
-
 ## Properties
 
 ### `Optional`className
@@ -95,12 +85,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[className](#classname)[cssStyle](#cssstyle)[fill](#fill)[stroke](#stroke)[strokeWidth](#strokewidth)
 
 [Photon](../index.md)
 

@@ -46,12 +46,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Classes
-
-[Polygon](#polygon)
-
 [Photon](../index.md)
 
 * Loading...

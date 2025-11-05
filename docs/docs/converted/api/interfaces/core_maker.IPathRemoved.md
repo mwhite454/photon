@@ -50,16 +50,6 @@ interface IPathRemoved {
 
 * Defined in [core/maker.ts:174](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L174)
 
-##### Index
-
-### Properties
-
-[layer?](#layer)
-[origin](#origin)
-[reason](#reason)
-[routeKey](#routekey)
-[type](#type)
-
 ## Properties
 
 ### `Optional`layer
@@ -112,12 +102,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[layer](#layer)[origin](#origin)[reason](#reason)[routeKey](#routekey)[type](#type)
 
 [Photon](../index.md)
 

@@ -39,16 +39,6 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
 * Defined in [models/Square.ts:5](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Square.ts#L5)
 
-##### Index
-
-### Constructors
-
-[constructor](#constructor)
-
-### Properties
-
-[paths](#paths)
-
 ## Constructors
 
 ### constructor
@@ -83,16 +73,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Constructors
-
-[constructor](#constructor)
-
-Properties
-
-[paths](#paths)
 
 [Photon](../index.md)
 

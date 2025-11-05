@@ -54,12 +54,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Functions
-
-[circleTangentAngles](#circletangentangles)[equilateralAltitude](#equilateralaltitude)[equilateralSide](#equilateralside)[solveTriangleASA](#solvetriangleasa)[solveTriangleSSS](#solvetrianglesss)
-
 [Photon](../index.md)
 
 * Loading...

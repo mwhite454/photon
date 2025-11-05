@@ -37,12 +37,6 @@ interface ISVGImportOptions {
 
 * Defined in [core/svg-esm.ts:37](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/svg-esm.ts#L37)
 
-##### Index
-
-### Properties
-
-[bezierAccuracy?](#bezieraccuracy)
-
 ## Properties
 
 ### `Optional`bezierAccuracy
@@ -59,12 +53,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[bezierAccuracy](#bezieraccuracy)
 
 [Photon](../index.md)
 

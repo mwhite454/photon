@@ -55,22 +55,6 @@ interface IJscadScriptOptions {
 
 * Defined in [core/openjscad-esm.ts:554](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/openjscad-esm.ts#L554)
 
-##### Index
-
-### Properties
-
-[accuracy?](#optionalaccuracy)
-[byLayers?](#optionalbylayers)
-[extrude?](#optionalextrude)
-[functionName?](#optionalfunctionname)
-[indent?](#optionalindent)
-[layerOptions?](#optionallayeroptions)
-[maxArcFacet?](#optionalmaxarcfacet)
-[pointMatchingDistance?](#optionalpointmatchingdistance)
-[statusCallback?](#optionalstatuscallback)
-[units?](#optionalunits)
-[z?](#optionalz)
-
 ## Properties
 
 ### `Optional`accuracy
@@ -187,21 +171,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-* **Properties**
-  * [accuracy](#optionalaccuracy)
-  * [byLayers](#optionalbylayers)
-  * [extrude](#optionalextrude)
-  * [functionName](#optionalfunctionname)
-  * [indent](#optionalindent)
-  * [layerOptions](#optionallayeroptions)
-  * [maxArcFacet](#optionalmaxarcfacet)
-  * [pointMatchingDistance](#optionalpointmatchingdistance)
-  * [statusCallback](#optionalstatuscallback)
-  * [units](#optionalunits)
-  * [z](#optionalz)
 
 [Photon](../index.md)
 

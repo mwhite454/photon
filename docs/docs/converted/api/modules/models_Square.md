@@ -46,12 +46,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Classes
-
-[Square](#square)
-
 [Photon](../index.md)
 
 * Loading...

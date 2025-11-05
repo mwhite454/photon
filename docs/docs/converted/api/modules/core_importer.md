@@ -43,12 +43,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Functions
-
-[parseNumericList](#parsenumericlist)
-
 [Photon](../index.md)
 
 * Loading...

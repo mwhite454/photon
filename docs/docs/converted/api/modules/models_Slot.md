@@ -46,12 +46,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Classes
-
-[Slot](#slot)
-
 [Photon](../index.md)
 
 * Loading...

@@ -57,15 +57,6 @@ interface IPathLine {
 
 * Defined in [core/schema.ts:28](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/schema.ts#L28)
 
-##### Index
-
-### Properties
-
-[end](#end)
-[layer?](#layer)
-[origin](#origin)
-[type](#type)
-
 ## Properties
 
 ### end
@@ -114,12 +105,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[end](#end)[layer](#layer)[origin](#origin)[type](#type)
 
 [Photon](../index.md)
 

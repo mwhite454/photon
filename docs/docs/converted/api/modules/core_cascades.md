@@ -43,12 +43,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Namespaces
-
-[MakerJs](#makerjs)
-
 [Photon](../index.md)
 
 * Loading...

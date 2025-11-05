@@ -38,18 +38,6 @@ Class for circle path.
 
 * Defined in [core/paths.ts:191](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/paths.ts#L191)
 
-##### Index
-
-### Constructors
-
-[constructor](#constructor)
-
-### Properties
-
-[origin](#origin)
-[radius](#radius)
-[type](#type)
-
 ## Constructors
 
 ### constructor
@@ -187,16 +175,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Constructors
-
-[constructor](#constructor)
-
-Properties
-
-[origin](#origin)[radius](#radius)[type](#type)
 
 [Photon](../index.md)
 

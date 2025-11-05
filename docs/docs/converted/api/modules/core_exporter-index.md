@@ -64,12 +64,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-References
-
-[colors](#colors)[IJsonExportOptions](#ijsonexportoptions)[IStatusCallback](#istatuscallback)[toJson](#tojson)[toSVG](#tosvg)[toSVGPathData](#tosvgpathdata)
-
 [Photon](../index.md)
 
 * Loading...

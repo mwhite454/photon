@@ -49,12 +49,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Classes
-
-[BezierCurve](#beziercurve)[BezierSeed](#bezierseed)
-
 [Photon](../index.md)
 
 * Loading...

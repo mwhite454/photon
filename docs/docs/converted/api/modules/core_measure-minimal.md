@@ -65,16 +65,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Functions
-
-[augment](#augment)[isBezierSeedLinear](#isbezierseedlinear)[lineSlope](#lineslope)[modelExtents](#modelextents)[pathExtents](#pathextents)[pathLength](#pathlength)[pointDistance](#pointdistance)
-
-References
-
-[isPointEqual](#ispointequal)
-
 [Photon](../index.md)
 
 * Loading...

@@ -76,12 +76,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Functions
-
-[childrenOnChain](#childrenonchain)[childrenOnPath](#childrenonpath)[cloneToBrick](#clonetobrick)[cloneToColumn](#clonetocolumn)[cloneToGrid](#clonetogrid)[cloneToHoneycomb](#clonetohoneycomb)[cloneToRadial](#clonetoradial)[cloneToRow](#clonetorow)
-
 [Photon](../index.md)
 
 * Loading...

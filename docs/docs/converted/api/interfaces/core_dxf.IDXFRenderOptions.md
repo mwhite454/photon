@@ -48,11 +48,6 @@ interface IDXFRenderOptions {
 
 * Defined in [core/dxf.ts:550](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/dxf.ts#L550)
 
-##### Index
-
-### Properties
-
-
 ## Properties
 
 ### `Optional`accuracy

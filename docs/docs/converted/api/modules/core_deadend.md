@@ -42,12 +42,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Functions
-
-[removeDeadEnds](#removedeadends)
-
 [Photon](../index.md)
 
 * Loading...

@@ -75,20 +75,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Interfaces
-
-[IFlowAnnotation](#iflowannotation)[IPathDataByLayerMap](#ipathdatabylayermap)[ISVGElementRenderOptions](#isvgelementrenderoptions)[ISVGImportOptions](#isvgimportoptions)[ISVGPathDataRenderOptions](#isvgpathdatarenderoptions)[ISVGRenderOptions](#isvgrenderoptions)[SvgUnitConversion](#svgunitconversion)
-
-Variables
-
-[svgUnit](#svgunit)
-
-Functions
-
-[fromSVGPathData](#fromsvgpathdata)[toSVG](#tosvg)[toSVGPathData](#tosvgpathdata)
-
 [Photon](../index.md)
 
 * Loading...

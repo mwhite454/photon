@@ -33,28 +33,6 @@ Class for an XML tag.
 
 * Defined in [core/xml.ts:7](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/xml.ts#L7)
 
-##### Index
-
-### Constructors
-
-[constructor](#constructor)
-
-### Properties
-
-[attrs?](#optional-attrs)
-[closingTags?](#optional-closingtags)
-[innerText](#innertext)
-[innerTextEscaped](#innertextescaped)
-[name](#name)
-
-### Methods
-
-[getClosingTag](#getclosingtag)
-[getInnerText](#getinnertext)
-[getOpeningTag](#getopeningtag)
-[toString](#tostring)
-[escapeString](#escapestring)
-
 ## Constructors
 
 ### constructor
@@ -176,20 +154,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Constructors
-
-[constructor](#constructor)
-
-Properties
-
-[attrs](#optional-attrs)[closingTags](#optional-closingtags)[innerText](#innertext)[innerTextEscaped](#innertextescaped)[name](#name)
-
-Methods
-
-[getClosingTag](#getclosingtag)[getInnerText](#getinnertext)[getOpeningTag](#getopeningtag)[toString](#tostring)[escapeString](#static-escapestring)
 
 [Photon](../index.md)
 

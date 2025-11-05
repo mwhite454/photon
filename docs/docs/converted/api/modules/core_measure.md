@@ -97,27 +97,17 @@ Preparing search index...
 
 [pointDistance](../functions/core_measure.pointDistance.md)
 
-### Settings
-
-Member Visibility
-
-* Protected
-* Inherited
-
-ThemeOSLightDark
-
-### On This Page
-
-Classes
-
-[Atlas](#atlas)
-
-Functions
-
-[augment](#augment)[boundingHexagon](#boundinghexagon)[increase](#increase)[isArcConcaveTowardsPoint](#isarcconcavetowardspoint)[isArcOverlapping](#isarcoverlapping)[isArcSpanOverlapping](#isarcspanoverlapping)[isBetween](#isbetween)[isBetweenArcAngles](#isbetweenarcangles)[isBetweenPoints](#isbetweenpoints)[isBezierSeedLinear](#isbezierseedlinear)[isChainClockwise](#ischainclockwise)[isLineOverlapping](#islineoverlapping)[isMeasurementOverlapping](#ismeasurementoverlapping)[isPointArrayClockwise](#ispointarrayclockwise)[isPointInsideModel](#ispointinsidemodel)[lineSlope](#lineslope)[modelExtents](#modelextents)[modelPathLength](#modelpathlength)[pathExtents](#pathextents)[pathLength](#pathlength)[pointDistance](#pointdistance)
-
-[Photon](../index.md)
-
-* Loading...
-
-Generated using [TypeDoc](https://typedoc.org/)
+  ### Settings
+  
+  Member Visibility
+  
+  * Protected
+  * Inherited
+  
+  ThemeOSLightDark
+  
+  [Photon](../index.md)
+  
+  * Loading...
+  
+  Generated using [TypeDoc](https://typedoc.org/)

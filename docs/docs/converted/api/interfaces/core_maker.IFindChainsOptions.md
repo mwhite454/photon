@@ -44,10 +44,6 @@ interface IFindChainsOptions {
 
 * Defined in [core/maker.ts:501](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L501)
 
-##### Index
-
-### Properties
-
 ## Properties
 
 ### `Optional`byLayers

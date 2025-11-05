@@ -42,12 +42,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Functions
-
-[simplify](#simplify)
-
 [Photon](../index.md)
 
 * Loading...

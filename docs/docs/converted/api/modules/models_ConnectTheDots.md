@@ -46,12 +46,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Classes
-
-[ConnectTheDots](#connectthedots)
-
 [Photon](../index.md)
 
 * Loading...

@@ -45,17 +45,6 @@ interface IPDFRenderOptions {
 
 * Defined in [core/pdf-esm.ts:17](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/pdf-esm.ts#L17)
 
-##### Index
-
-### Properties
-
-[accuracy?](#accuracy)
-[fontName?](#fontname)
-[fontSize?](#fontsize)
-[origin?](#origin)
-[stroke?](#stroke)
-[units?](#units)
-
 ## Properties
 
 ### `Optional`accuracy
@@ -118,12 +107,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[accuracy](#accuracy)[fontName](#fontname)[fontSize](#fontsize)[origin](#origin)[stroke](#stroke)[units](#units)
 
 [Photon](../index.md)
 

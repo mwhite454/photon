@@ -49,15 +49,6 @@ interface IPathArcInBezierCurve {
 
 * Defined in [core/schema.ts:64](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/schema.ts#L64)
 
-##### Index
-
-### Properties
-
-[bezierData](#bezierdata)
-[layer?](#layer)
-[origin](#origin)
-[type](#type)
-
 ## Properties
 
 ### bezierData
@@ -104,12 +95,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[bezierData](#bezierdata)[layer](#layer)[origin](#origin)[type](#type)
 
 [Photon](../index.md)
 

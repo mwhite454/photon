@@ -62,20 +62,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Namespaces
-
-[CSG](#csg)
-
-Classes
-
-[CAG](#cag)[CSG](#csg-1)
-
-References
-
-[StlSerializer](#stlserializer)
-
 [Photon](../index.md)
 
 * Loading...

@@ -39,17 +39,6 @@ interface IKit {
 
 * Defined in [core/maker.ts:637](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L637)
 
-##### Index
-
-### Constructors
-
-[constructor](#constructor)
-
-### Properties
-
-[metaParameters?](#metaparameters)
-[notes?](#notes)
-
 ## Constructors
 
 ### constructor
@@ -94,16 +83,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Constructors
-
-[constructor](#constructor)
-
-Properties
-
-[metaParameters](#metaparameters)[notes](#notes)
 
 [Photon](../index.md)
 

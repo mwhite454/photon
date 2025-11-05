@@ -99,25 +99,6 @@ Star → [Star](../classes/models_Star.Star.md)
 
 Text → [Text](../classes/models_Text.Text.md)
 
-### Settings
-
-Member Visibility
-
-* Protected
-* Inherited
-
-ThemeOSLightDark
-
-### On This Page
-
-References
-
-[Belt](#belt)[BezierCurve](#beziercurve)[BezierSeed](#bezierseed)[BoltCircle](#boltcircle)[BoltRectangle](#boltrectangle)[ConnectTheDots](#connectthedots)[Dogbone](#dogbone)[Dome](#dome)[Ellipse](#ellipse)[EllipticArc](#ellipticarc)[Holes](#holes)[Oval](#oval)[OvalArc](#ovalarc)[Polygon](#polygon)[Rectangle](#rectangle)[Ring](#ring)[RoundRectangle](#roundrectangle)[SCurve](#scurve)[Slot](#slot)[Square](#square)[Star](#star)[Text](#text)
-
-[Photon](../index.md)
-
-* Loading...
-
 Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics

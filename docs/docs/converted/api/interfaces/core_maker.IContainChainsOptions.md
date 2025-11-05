@@ -41,12 +41,6 @@ interface IContainChainsOptions {
 
 * Defined in [core/maker.ts:527](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L527)
 
-##### Index
-
-### Properties
-
-[alternateDirection?](#alternatedirection)
-
 ## Properties
 
 ### `Optional`alternateDirection
@@ -65,12 +59,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[alternateDirection](#alternatedirection)
 
 [Photon](../index.md)
 

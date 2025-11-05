@@ -52,12 +52,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Interfaces
-
-[ICascade](#icascade)[ICascadeModel](#icascademodel)[ICascadePath](#icascadepath)[ICascadePoint](#icascadepoint)
-
 [Photon](../index.md)
 
 * Loading...

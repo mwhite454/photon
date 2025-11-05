@@ -43,13 +43,6 @@ interface IMeasure {
 
 * Defined in [core/maker.ts:156](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L156)
 
-##### Index
-
-### Properties
-
-[high](#high)
-[low](#low)
-
 ## Properties
 
 ### high
@@ -72,12 +65,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[high](#high)[low](#low)
 
 [Photon](../index.md)
 

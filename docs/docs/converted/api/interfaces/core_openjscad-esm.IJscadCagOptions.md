@@ -50,17 +50,6 @@ interface IJscadCagOptions {
 
 * Defined in [core/openjscad-esm.ts:509](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/openjscad-esm.ts#L509)
 
-##### Index
-
-### Properties
-
-[accuracy?](#optional-accuracy)
-[byLayers?](#optional-bylayers)
-[maxArcFacet?](#optional-maxarcfacet)
-[pointMatchingDistance?](#optional-pointmatchingdistance)
-[statusCallback?](#optional-statuscallback)
-[units?](#optional-units)
-
 ## Properties
 
 ### `Optional`accuracy {#optional-accuracy}
@@ -125,12 +114,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[accuracy](#optional-accuracy)[byLayers](#optional-bylayers)[maxArcFacet](#optional-maxarcfacet)[pointMatchingDistance](#optional-pointmatchingdistance)[statusCallback](#optional-statuscallback)[units](#optional-units)
 
 [Photon](../index.md)
 

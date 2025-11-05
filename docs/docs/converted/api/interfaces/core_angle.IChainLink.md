@@ -40,13 +40,6 @@ interface IChainLink {
 
 * Defined in [core/angle.ts:9](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/angle.ts#L9)
 
-##### Index
-
-### Properties
-
-[reversed](#reversed)
-[walkedPath](#walkedpath)
-
 ## Properties
 
 ### reversed
@@ -69,12 +62,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[reversed](#reversed)[walkedPath](#walkedpath)
 
 [Photon](../index.md)
 

@@ -39,20 +39,6 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
 * Defined in [models/Text.ts:12](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Text.ts#L12)
 
-##### Index
-
-### Constructors
-
-[constructor](#constructor)
-
-### Properties
-
-[models](#models)
-
-### Methods
-
-[glyphToModel](#glyphtomodel)
-
 ## Constructors
 
 ### constructor
@@ -145,20 +131,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Constructors
-
-[constructor](#constructor)
-
-Properties
-
-[models](#models)
-
-Methods
-
-[glyphToModel](#glyphtomodel)
 
 [Photon](../index.md)
 

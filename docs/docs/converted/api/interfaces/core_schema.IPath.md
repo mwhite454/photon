@@ -53,14 +53,6 @@ interface IPath {
 
 * Defined in [core/schema.ts:18](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/schema.ts#L18)
 
-##### Index
-
-### Properties
-
-[layer?](#layer)
-[origin](#origin)
-[type](#type)
-
 ## Properties
 
 ### `Optional`layer
@@ -95,12 +87,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[layer](#layer)[origin](#origin)[type](#type)
 
 [Photon](../index.md)
 

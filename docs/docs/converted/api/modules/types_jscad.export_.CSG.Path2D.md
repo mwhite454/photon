@@ -54,12 +54,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Functions
-
-[arc](#arc)
-
 [Photon](../index.md)
 
 * Loading...

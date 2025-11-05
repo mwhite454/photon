@@ -53,18 +53,6 @@ interface IWalkPath {
 
 * Defined in [core/maker.ts:404](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L404)
 
-##### Index
-
-### Properties
-
-[layer](#layer)
-[modelContext](#modelcontext)
-[offset](#offset)
-[pathContext](#pathcontext)
-[pathId](#pathid)
-[route](#route)
-[routeKey](#routekey)
-
 ## Properties
 
 ### layer
@@ -129,12 +117,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[layer](#layer)[modelContext](#modelcontext)[offset](#offset)[pathContext](#pathcontext)[pathId](#pathid)[route](#route)[routeKey](#routekey)
 
 [Photon](../index.md)
 

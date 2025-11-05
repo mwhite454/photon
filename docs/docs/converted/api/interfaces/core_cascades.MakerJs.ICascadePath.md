@@ -48,14 +48,6 @@ interface ICascadePath {
 
 * Defined in [core/cascades.ts:15](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/cascades.ts#L15)
 
-##### Index
-
-### Properties
-
-[$initial](#initial)
-[$reset](#reset)
-[$result](#result)
-
 ## Properties
 
 ### $initial
@@ -90,12 +82,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[$initial](#initial)[$reset](#reset)[$result](#result)
 
 [Photon](../index.md)
 

@@ -59,29 +59,6 @@ interface ISVGRenderOptions {
 
 * Defined in [core/svg-esm.ts:364](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/svg-esm.ts#L364)
 
-##### Index
-
-### Properties
-
-[accuracy?](#optionalaccuracy)
-[annotate?](#optionalannotate)
-[className?](#optionalclassname)
-[cssStyle?](#optionalcssstyle)
-[fill?](#optionalfill)
-[fillRule?](#optionalfillrule)
-[flow?](#optionalflow)
-[fontSize?](#optionalfontsize)
-[layerOptions?](#optionallayeroptions)
-[origin?](#optionalorigin)
-[scale?](#optionalscale)
-[scalingStroke?](#optionalscalingstroke)
-[stroke?](#optionalstroke)
-[strokeWidth?](#optionalstrokewidth)
-[svgAttrs?](#optionalsvgattrs)
-[units?](#optionalunits)
-[useSvgPathOnly?](#optionalusesvgpathonly)
-[viewBox?](#optionalviewbox)
-
 ## Properties
 
 ### `Optional`accuracy

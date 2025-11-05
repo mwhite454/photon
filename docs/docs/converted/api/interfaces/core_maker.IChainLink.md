@@ -44,15 +44,6 @@ interface IChainLink {
 
 * Defined in [core/maker.ts:425](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L425)
 
-##### Index
-
-### Properties
-
-[endPoints](#endpoints)
-[pathLength](#pathlength)
-[reversed](#reversed)
-[walkedPath](#walkedpath)
-
 ## Properties
 
 ### endPoints
@@ -95,12 +86,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[endPoints](#endpoints)[pathLength](#pathlength)[reversed](#reversed)[walkedPath](#walkedpath)
 
 [Photon](../index.md)
 

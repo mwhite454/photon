@@ -45,15 +45,6 @@ interface IPathIntersectionOptions {
 
 * Defined in [core/maker.ts:236](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L236)
 
-##### Index
-
-### Properties
-
-[excludeTangents?](#excludetangents)
-[out\_AreOverlapped?](#out_areoverlapped)
-[path1Offset?](#path1offset)
-[path2Offset?](#path2offset)
-
 ## Properties
 
 ### `Optional`excludeTangents

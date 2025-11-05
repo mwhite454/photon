@@ -46,12 +46,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Classes
-
-[Dogbone](#dogbone)
-
 [Photon](../index.md)
 
 * Loading...

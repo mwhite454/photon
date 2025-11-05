@@ -46,23 +46,6 @@ object with low and high points.
 
 * Defined in [core/measure.ts:595](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure.ts#L595)
 
-##### Index
-
-### Constructors
-
-[constructor](#constructor)
-
-### Properties
-
-[modelContext](#modelcontext)
-[modelMap](#modelmap)
-[modelsMeasured](#modelsmeasured)
-[pathMap](#pathmap)
-
-### Methods
-
-[measureModels](#measuremodels)
-
 ## Constructors
 
 ### constructor
@@ -133,20 +116,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Constructors
-
-[constructor](#constructor)
-
-Properties
-
-[modelContext](#modelcontext)[modelMap](#modelmap)[modelsMeasured](#modelsmeasured)[pathMap](#pathmap)
-
-Methods
-
-[measureModels](#measuremodels)
 
 [Photon](../index.md)
 

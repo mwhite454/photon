@@ -40,15 +40,6 @@ interface ISlope {
 
 * Defined in [core/maker.ts:220](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L220)
 
-##### Index
-
-### Properties
-
-[hasSlope](#hasslope)
-[line](#line)
-[slope?](#slope)
-[yIntercept?](#yintercept)
-
 ## Properties
 
 ### hasSlope
@@ -83,12 +74,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[hasSlope](#hasslope)[line](#line)[slope](#slope)[yIntercept](#yintercept)
 
 [Photon](../index.md)
 

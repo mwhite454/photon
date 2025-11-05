@@ -46,12 +46,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Classes
-
-[Text](#text)
-
 [Photon](../index.md)
 
 * Loading...

@@ -44,12 +44,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Functions
-
-[construct](#construct)[getParameterValues](#getparametervalues)
-
 [Photon](../index.md)
 
 * Loading...

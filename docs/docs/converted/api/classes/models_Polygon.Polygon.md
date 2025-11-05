@@ -39,21 +39,6 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
 * Defined in [models/Polygon.ts:7](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Polygon.ts#L7)
 
-##### Index
-
-### Constructors
-
-[constructor](#constructor)
-
-### Properties
-
-[paths](#paths)
-
-### Methods
-
-[circumscribedRadius](#static-circumscribedradius)
-[getPoints](#static-getpoints)
-
 ## Constructors
 
 ### constructor
@@ -131,20 +116,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Constructors
-
-[constructor](#constructor)
-
-Properties
-
-[paths](#paths)
-
-Methods
-
-[circumscribedRadius](#static-circumscribedradius)[getPoints](#static-getpoints)
 
 [Photon](../index.md)
 

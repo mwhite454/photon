@@ -35,31 +35,6 @@ A graph of items which may be located on the same points.
 
 - Defined in [core/collect.ts:126](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/collect.ts#L126)
 
-##### Index
-
-### Constructors
-
-[constructor](#constructor)
-
-### Properties
-
-[graph](#graph)
-[index](#index)
-[insertedCount](#insertedcount)
-[merged](#merged)
-[values](#values)
-
-### Methods
-
-[forEachPoint](#foreachpoint)
-[getElementAtPoint](#getelementatpoint)
-[getIdOfPoint](#getidofpoint)
-[insertValue](#insertvalue)
-[insertValueIdAtPoint](#insertvalueidatpoint)
-[mergeNearestSinglePoints](#mergenearestsinglepoints)
-[mergePoints](#mergepoints)
-[reset](#reset)
-
 ## Constructors
 
 ### constructor

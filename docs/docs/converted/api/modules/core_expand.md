@@ -52,12 +52,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Functions
-
-[expand](#expand)[expandPaths](#expandpaths)[outline](#outline)[straighten](#straighten)
-
 [Photon](../index.md)
 
 * Loading...

@@ -67,12 +67,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Functions
-
-[cycle](#cycle)[findChains](#findchains)[findSingleChain](#findsinglechain)[reverse](#reverse)[startAt](#startat)[toKeyPoints](#tokeypoints)[toNewModel](#tonewmodel)[toPoints](#topoints)
-
 [Photon](../index.md)
 
 * Loading...

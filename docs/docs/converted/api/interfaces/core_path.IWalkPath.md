@@ -39,12 +39,6 @@ interface IWalkPath {
 
 * Defined in [core/path.ts:19](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/path.ts#L19)
 
-##### Index
-
-### Properties
-
-[pathContext](#pathcontext)
-
 ## Properties
 
 ### pathContext
@@ -61,12 +55,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[pathContext](#pathcontext)
 
 [Photon](../index.md)
 

@@ -38,20 +38,6 @@ Class for arc path.
 
 * Defined in [core/paths.ts:23](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/paths.ts#L23)
 
-##### Index
-
-### Constructors
-
-[constructor](#constructor)
-
-### Properties
-
-[endAngle](#endangle)
-[origin](#origin)
-[radius](#radius)
-[startAngle](#startangle)
-[type](#type)
-
 ## Constructors
 
 ### constructor
@@ -213,16 +199,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Constructors
-
-[constructor](#constructor)
-
-Properties
-
-[endAngle](#endangle)[origin](#origin)[radius](#radius)[startAngle](#startangle)[type](#type)
 
 [Photon](../index.md)
 

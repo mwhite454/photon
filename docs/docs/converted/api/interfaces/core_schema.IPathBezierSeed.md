@@ -56,17 +56,6 @@ interface IPathBezierSeed {
 
 * Defined in [core/schema.ts:48](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/schema.ts#L48)
 
-##### Index
-
-### Properties
-
-[controls](#controls)
-[end](#end)
-[layer?](#layer)
-[origin](#origin)
-[parentRange?](#parentrange)
-[type](#type)
-
 ## Properties
 
 ### controls
@@ -133,12 +122,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[controls](#controls)[end](#end)[layer](#layer)[origin](#origin)[parentRange](#parentrange)[type](#type)
 
 [Photon](../index.md)
 

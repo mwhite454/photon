@@ -45,10 +45,6 @@ interface IFindLoopsOptions {
 
 * Defined in [core/maker.ts:331](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L331)
 
-##### Index
-
-### Properties
-
 ## Properties
 
 ### `Optional`pointMatchingDistance

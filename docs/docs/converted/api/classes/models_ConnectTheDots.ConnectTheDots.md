@@ -40,16 +40,6 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
 * Defined in [models/ConnectTheDots.ts:30](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/ConnectTheDots.ts#L30)
 
-##### Index
-
-### Constructors
-
-[constructor](#constructor)
-
-### Properties
-
-[paths](#paths)
-
 ## Constructors
 
 ### constructor
@@ -184,16 +174,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Constructors
-
-[constructor](#constructor)
-
-Properties
-
-[paths](#paths)
 
 [Photon](../index.md)
 

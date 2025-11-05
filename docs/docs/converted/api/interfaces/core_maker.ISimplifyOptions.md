@@ -41,10 +41,6 @@ interface ISimplifyOptions {
 
 * Defined in [core/maker.ts:342](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L342)
 
-##### Index
-
-### Properties
-
 ## Properties
 
 ### `Optional`pointMatchingDistance

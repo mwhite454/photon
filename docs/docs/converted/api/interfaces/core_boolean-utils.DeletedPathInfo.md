@@ -50,16 +50,6 @@ interface DeletedPathInfo {
 
 * Defined in [core/boolean-utils.ts:91](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/boolean-utils.ts#L91)
 
-##### Index
-
-### Properties
-
-[layer?](#layer)
-[origin](#origin)
-[reason](#reason)
-[routeKey](#routekey)
-[type](#type)
-
 ## Properties
 
 ### `Optional`layer
@@ -112,12 +102,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[layer](#layer)[origin](#origin)[reason](#reason)[routeKey](#routekey)[type](#type)
 
 [Photon](../index.md)
 

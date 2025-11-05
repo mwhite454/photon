@@ -44,14 +44,6 @@ interface IPathIntersection {
 
 * Defined in [core/maker.ts:252](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L252)
 
-##### Index
-
-### Properties
-
-[intersectionPoints](#intersectionpoints)
-[path1Angles?](#path1angles)
-[path2Angles?](#path2angles)
-
 ## Properties
 
 ### intersectionPoints
@@ -90,12 +82,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[intersectionPoints](#intersectionpoints)[path1Angles](#path1angles)[path2Angles](#path2angles)
 
 [Photon](../index.md)
 

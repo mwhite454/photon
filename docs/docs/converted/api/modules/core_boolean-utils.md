@@ -88,24 +88,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Interfaces
-
-[DeletedPathInfo](#deletedpathinfo)[SegmentClassification](#segmentclassification)
-
-Type Aliases
-
-[SegmentClassifier](#segmentclassifier)
-
-Variables
-
-[DEFAULT\_POINT\_MATCHING\_DISTANCE](#default_point_matching_distance)
-
-Functions
-
-[addPathToModel](#addpathtomodel)[ensurePathLayer](#ensurepathlayer)[findPointsOnPath](#findpointsonpath)[isArcEnclosingAngle](#isarcenclosingangle)[isBetween](#isbetween)[isBetweenArcAngles](#isbetweenarcangles)[isBetweenPoints](#isbetweenpoints)[isCircleOrArc](#iscircleorarc)[isZeroLength](#iszerolength)[pathBoundingBox](#pathboundingbox)[trackDeletedPath](#trackdeletedpath)
-
 [Photon](../index.md)
 
 * Loading...

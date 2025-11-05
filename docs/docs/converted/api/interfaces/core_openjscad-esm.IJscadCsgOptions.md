@@ -55,20 +55,6 @@ interface IJscadCsgOptions {
 
 * Defined in [core/openjscad-esm.ts:544](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/openjscad-esm.ts#L544)
 
-##### Index
-
-### Properties
-
-[accuracy?](#optionalaccuracy)
-[byLayers?](#optionalbylayers)
-[extrude?](#optionalextrude)
-[layerOptions?](#optionallayeroptions)
-[maxArcFacet?](#optionalmaxarcfacet)
-[pointMatchingDistance?](#optionalpointmatchingdistance)
-[statusCallback?](#optionalstatuscallback)
-[units?](#optionalunits)
-[z?](#optionalz)
-
 ## Properties
 
 ### `Optional`accuracy
@@ -167,19 +153,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-* **Properties**
-  * [accuracy](#optionalaccuracy)
-  * [byLayers](#optionalbylayers)
-  * [extrude](#optionalextrude)
-  * [layerOptions](#optionallayeroptions)
-  * [maxArcFacet](#optionalmaxarcfacet)
-  * [pointMatchingDistance](#optionalpointmatchingdistance)
-  * [statusCallback](#optionalstatuscallback)
-  * [units](#optionalunits)
-  * [z](#optionalz)
 
 [Photon](../index.md)
 

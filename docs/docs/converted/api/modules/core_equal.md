@@ -66,12 +66,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Functions
-
-[isAngleEqual](#isangleequal)[isPathEqual](#ispathequal)[isPointDistinct](#ispointdistinct)[isPointEqual](#ispointequal)[isPointOnCircle](#ispointoncircle)[isPointOnPath](#ispointonpath)[isPointOnSlope](#ispointonslope)[isSlopeEqual](#isslopeequal)[isSlopeParallel](#isslopeparallel)
-
 [Photon](../index.md)
 
 * Loading...

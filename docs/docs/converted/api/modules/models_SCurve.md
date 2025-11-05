@@ -46,12 +46,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Classes
-
-[SCurve](#scurve)
-
 [Photon](../index.md)
 
 * Loading...

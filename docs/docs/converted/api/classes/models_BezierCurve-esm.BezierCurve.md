@@ -39,28 +39,6 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
 * Defined in [models/BezierCurve-esm.ts:376](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/BezierCurve-esm.ts#L376)
 
-##### Index
-
-### Constructors
-
-[constructor](#constructor)
-
-### Properties
-
-[accuracy](#accuracy)
-[models](#models)
-[origin](#origin)
-[paths](#paths)
-[seed](#seed)
-[type](#type)
-[typeName](#static-typename)
-
-### Methods
-
-[computeLength](#computeLength)
-[computePoint](#computePoint)
-[getBezierSeeds](#getBezierSeeds)
-
 ## Constructors
 
 ### constructor
@@ -250,20 +228,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Constructors
-
-[constructor](#constructor)
-
-Properties
-
-[accuracy](#accuracy)[models](#models)[origin](#origin)[paths](#paths)[seed](#seed)[type](#type)[typeName](#static-typename)
-
-Methods
-
-[computeLength](#static-computelength)[computePoint](#static-computepoint)[getBezierSeeds](#static-getbezierseeds)
 
 [Photon](../index.md)
 

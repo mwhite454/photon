@@ -37,17 +37,6 @@ CSG (3D Constructive Solid Geometry) class
 * Defined in [types/jscad.d.ts:36](https://github.com/mwhite454/photon/blob/main/packages/photon/src/types/jscad.d.ts#L36)
 * Defined in [types/jscad.d.ts:51](https://github.com/mwhite454/photon/blob/main/packages/photon/src/types/jscad.d.ts#L51)
 
-##### Index
-
-### Constructors
-
-[constructor](#constructor)
-
-### Methods
-
-[translate](#translate)
-[union](#union)
-
 ## Constructors
 
 ### constructor
@@ -94,16 +83,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Constructors
-
-[constructor](#constructor)
-
-Methods
-
-[translate](#translate)[union](#union)
 
 [Photon](../index.md)
 

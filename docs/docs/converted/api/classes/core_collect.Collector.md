@@ -36,24 +36,6 @@ Collects items that share a common key.
 
 - Defined in [core/collect.ts:22](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/collect.ts#L22)
 
-##### Index
-
-### Constructors
-
-[constructor](#constructor)
-
-### Properties
-
-[collections](#collections)
-
-### Methods
-
-[addItemToCollection](#additemtocollection)
-[findCollection](#findcollection)
-[getCollectionsOfMultiple](#getcollectionsofmultiple)
-[removeCollection](#removecollection)
-[removeItemFromCollection](#removeitemfromcollection)
-
 ## Constructors
 
 ### constructor

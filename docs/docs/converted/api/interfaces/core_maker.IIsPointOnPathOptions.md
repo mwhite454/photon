@@ -41,12 +41,6 @@ interface IIsPointOnPathOptions {
 
 * Defined in [core/maker.ts:320](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L320)
 
-##### Index
-
-### Properties
-
-[cachedLineSlope?](#cachedlineslope)
-
 ## Properties
 
 ### `Optional`cachedLineSlope
@@ -65,12 +59,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[cachedLineSlope](#cachedlineslope)
 
 [Photon](../index.md)
 

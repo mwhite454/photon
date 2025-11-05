@@ -47,13 +47,6 @@ interface IPathIntersectionBaseOptions {
 
 * Defined in [core/maker.ts:228](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L228)
 
-##### Index
-
-### Properties
-
-[excludeTangents?](#excludetangents)
-[out\_AreOverlapped?](#out_areoverlapped)
-
 ## Properties
 
 ### `Optional`excludeTangents
@@ -76,12 +69,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[excludeTangents](#excludetangents)[out\_AreOverlapped](#out_areoverlapped)
 
 [Photon](../index.md)
 

@@ -46,16 +46,6 @@ interface IMeasureWithCenter {
 
 * Defined in [core/maker.ts:162](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L162)
 
-##### Index
-
-### Properties
-
-[center](#center)
-[height](#height)
-[high](#high)
-[low](#low)
-[width](#width)
-
 ## Properties
 
 ### center
@@ -100,12 +90,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[center](#center)[height](#height)[high](#high)[low](#low)[width](#width)
 
 [Photon](../index.md)
 

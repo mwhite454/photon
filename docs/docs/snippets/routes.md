@@ -48,7 +48,7 @@ const route = ["models", "bolts", "paths", "BottomRight\_bolt"];
 
 #### Travel a route
 
-Use [travel(rootModel, route)](../api/index.html#travel) to get to a child object in rootModel via a route.
+Use [travel(rootModel, route)](../api/index.html) to get to a child object in rootModel via a route.
 This function will return an object with these 2 properties:
 
 * **result**: model or path - the object referenced by the route
@@ -130,6 +130,6 @@ document.write(svg);
 #### Route Keys
 
 Additionally, we can "flatten" a route array into a string, known as a **route key**, by calling
-[createRouteKey(route)](../api/index.html#createroutekey) and passing a route.
+[createRouteKey(route)](../api/index.html) and passing a route.
 Every route key is of course unique in the scope of the root object.
 It may used as a unique id of a child path or model.

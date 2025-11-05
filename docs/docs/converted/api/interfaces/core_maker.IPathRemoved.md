@@ -43,7 +43,7 @@ interface IPathRemoved {
     [type](#type): string;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.md#core/maker.IPathRemoved))
+#### Hierarchy ([View Summary](../hierarchy.md))
 
 * [IPath](core_schema.IPath.md)
   + IPathRemoved

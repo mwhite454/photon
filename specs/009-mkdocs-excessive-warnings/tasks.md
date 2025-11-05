@@ -126,11 +126,11 @@ Verification: Removed broken "On This Page" navigation sections, reducing total 
 - [x] T036 [US2] Fix converted/api/ broken links batch 10: remaining low-priority files (50 links)
 - [x] T037 [US2] Fix converted/api/ broken links batch 11: final cleanup (remaining links in converted/api/)
 Verification: Removed Index sections from 33 class files and 66 interface files, fixing 72 additional broken links. Total fixed: 174 broken links in converted/api/ directory.
-- [ ] T038 [US2] Fix broken links in snippets/ directory (77 links, focus on built-in-models.md with 21 links)
-- [ ] T039 [US2] Fix broken links in converted-other/ directory (20 links)
-- [ ] T040 [US2] Fix broken links in migration/ directory (8 links)
-- [ ] T041 [US2] Fix broken links in other directories (8 remaining links)
-- [ ] T042 [US2] Generate final validation report showing zero broken internal links
+- [x] T038 [US2] Fix broken links in snippets/ directory (77 links, focus on built-in-models.md with 21 links)
+- [x] T039 [US2] Fix broken links in converted-other/ directory (20 links)
+- [x] T040 [US2] Fix broken links in migration/ directory (8 links)
+- [x] T041 [US2] Fix broken links in other directories (8 remaining links)
+- [x] T042 [US2] Generate final validation report showing zero broken internal links
 - [ ] T043 [US2] Commit all link fixes with message "fix(docs): resolve all broken internal links and cross-references"
 
 **Checkpoint**: At this point, documentation navigation should work correctly with all internal links functional

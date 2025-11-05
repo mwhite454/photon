@@ -7,7 +7,7 @@ import re
 from collections import Counter
 from pathlib import Path
 from typing import Dict, Iterable, Set
-from urllib.parse import unquote
+from urllib.parse import unquote, urlsplit
 
 
 DOCS_DIR = Path('docs/docs')
@@ -29,7 +29,8 @@ def find_all_links(docs_dir: Path):
                 link_text = match.group(1).strip()
                 link_target = match.group(2).strip()
 
-                if link_target.startswith(('http://', 'https://', 'mailto:', 'tel:')):
+                # External links: skip
+                if link_target.startswith(('http://', 'https://', 'mailto:', 'tel:', '//')):
                     continue
 
                 if link_target.startswith('#'):
@@ -77,6 +78,15 @@ def anchor_variants(anchor: str) -> Set[str]:
         candidates.add(raw.replace(' ', '-').lower())
         candidates.add(slugify(raw))
 
+    # Support both optional-foo and optionalfoo forms
+    extra = set()
+    for c in candidates:
+        if c.startswith('optional-') and len(c) > 9:
+            extra.add('optional' + c[9:])
+        if c.startswith('optional') and not c.startswith('optional-') and len(c) > 8:
+            extra.add('optional-' + c[8:])
+    candidates.update(extra)
+
     return {candidate for candidate in candidates if candidate}
 
 
@@ -99,7 +109,14 @@ def extract_anchors(md_path: Path) -> Set[str]:
     anchors.update(re.findall(r'\{#([^}]+)\}', content))
 
     for heading in re.finditer(r'^(#+)\s+(.+)$', content, re.MULTILINE):
-        anchors.add(slugify(heading.group(2)))
+        text = heading.group(2)
+        anchors.add(slugify(text))
+        # If heading is Optional property style, add alias without 'Optional '
+        m = re.match(r'`?Optional`?\s*(.+)$', text)
+        if m:
+            prop = m.group(1).strip()
+            if prop:
+                anchors.add(slugify(prop))
 
     anchors_lower = {a.lower() for a in anchors}
     anchors.update(anchors_lower)
@@ -109,22 +126,19 @@ def extract_anchors(md_path: Path) -> Set[str]:
 
 
 def resolve_target(source_file: Path, raw_target: str):
-    anchor = None
-    target = raw_target
+    parts = urlsplit(raw_target)
+    path = parts.path
+    anchor = parts.fragment if parts.fragment else None
 
-    if target.startswith('#'):
-        anchor = target[1:]
-        return source_file, anchor
+    if not path or path.startswith('#'):
+        if anchor:
+            return source_file, anchor
+        return source_file, None
 
-    if '#' in target:
-        target, anchor = target.split('#', 1)
-
-    if target.startswith('/'):
-        candidate = SITE_ROOT / target.lstrip('/')
-    elif target.startswith('../') or target.startswith('./'):
-        candidate = (source_file.parent / target).resolve()
+    if path.startswith('/'):
+        candidate = SITE_ROOT / path.lstrip('/')
     else:
-        candidate = (source_file.parent / target).resolve()
+        candidate = (source_file.parent / path).resolve()
 
     return candidate, anchor
 

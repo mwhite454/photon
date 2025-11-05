@@ -38,7 +38,7 @@ interface IPathIntersectionOptions {
      path2Offset?: [IPoint](core_schema.IPoint.md);
 }
 
-#### Hierarchy ([View Summary](../hierarchy.md#core/maker.IPathIntersectionOptions))
+#### Hierarchy ([View Summary](../hierarchy.md))
 
 * [IPathIntersectionBaseOptions](core_maker.IPathIntersectionBaseOptions.md)
   + IPathIntersectionOptions

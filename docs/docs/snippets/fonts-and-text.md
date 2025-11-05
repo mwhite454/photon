@@ -22,7 +22,7 @@ tags:
 - intermediate
 title: Fonts And Text
 ---
-To create models based on fonts, use [models.Text](../../converted/api/classes/core_models.Text.md#constructor) with the **new** operator.
+To create models based on fonts, use [models.Text](../converted/api/classes/models_Text.Text.md#constructor) with the **new** operator.
 Pass a font object, your text, and a font size. Each character of your text string will become a child model containing the paths for that character.
 
 Maker.js uses [Opentype.js](http://opentype.js.org/) by Frederik De Bleser to read TrueType and OpenType fonts.
@@ -38,7 +38,7 @@ The callback gets `(err, font)` where `font` is a `Font` object. Check if the `e
 
 Previously, all of our examples ran synchronously and we could use `document.write` to output a result.
 But now we will need to wait for a font file to download. You will have to take this in consideration in your application.
-[In the Maker.js Playground we can call playgroundRender()](../../playground/index.html?script=Text).
+[In the Maker.js Playground we can call playgroundRender()](../playground/index.html?script=Text).
 Here on this page we will insert our SVG into a `div` in this document:
 
 ## Examples

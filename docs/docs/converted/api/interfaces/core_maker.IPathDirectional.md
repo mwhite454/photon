@@ -43,7 +43,7 @@ interface IPathDirectional {
     [type](#type): string;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.md#core/maker.IPathDirectional))
+#### Hierarchy ([View Summary](../hierarchy.md))
 
 * [IPath](core_schema.IPath.md)
   + IPathDirectional

@@ -33,7 +33,7 @@ Preparing search index...
 
 # Function cloneObject
 
-* cloneObject<[T](#cloneobjectt)>(objectToClone: [T](#cloneobjectt)): [T](#cloneobjectt)
+* cloneObject<T>(objectToClone: T): T
 
   Clone an object.
 
@@ -43,9 +43,9 @@ Preparing search index...
 
   #### Parameters
 
-  + objectToClone: [T](#cloneobjectt)
+  + objectToClone: T
 
-  #### Returns [T](#cloneobjectt)
+  #### Returns T
 
   + Defined in [core/maker.ts:115](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L115)
 

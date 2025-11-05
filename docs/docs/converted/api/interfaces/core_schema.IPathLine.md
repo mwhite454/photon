@@ -43,7 +43,7 @@ interface IPathLine {
     [type](#type): string;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.md#core/schema.IPathLine))
+#### Hierarchy ([View Summary](../hierarchy.md))
 
 * [IPath](core_schema.IPath.md)
   + IPathLine

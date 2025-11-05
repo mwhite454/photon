@@ -34,7 +34,7 @@ Prior to generating the arcs, the curve is broken down into a series of sub-curv
 The sub-curves are also broken at their rectangular "boundary box" points so that we are guaranteed that the boundary box tangent points are truly points on the curve and not approximations.
 In the Bezier.js terminology, these breaking points are known as [extrema](//pomax.github.io/bezierjs/index.md#extrema).
 
-Now we are at the beginning of the process, where you call [makerjs.models.BezierCurve](/docs/api/classes/makerjs.models.beziercurve.md#content) with the **new** operator.
+Now we are at the beginning of the process, where you call [makerjs.models.BezierCurve](../converted/api/classes/models_BezierCurve-esm.BezierCurve.md#constructor) with the **new** operator.
 You can create both quadratic and cubic Bezier curves. For either type, you may optionally pass the accuracy - the maximum distance between the true curve and the arc approximations.
 The default accuracy coefficient in Maker.js will produce an accurate and visually smooth curve in a reasonable calculation timeframe.
 

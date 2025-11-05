@@ -42,7 +42,7 @@ interface IPathArcInBezierCurve {
     [type](#type): string;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.md#core/schema.IPathArcInBezierCurve))
+#### Hierarchy ([View Summary](../hierarchy.md))
 
 * [IPath](core_schema.IPath.md)
   + IPathArcInBezierCurve

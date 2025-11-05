@@ -23,7 +23,7 @@ tags:
 - model-trees
 title: Index
 ---
-Next: [Working with chains](../working-with-chains/index.md#content).
+Next: [Working with chains](../working-with-chains/index.md).
 
 ## Related Topics
 

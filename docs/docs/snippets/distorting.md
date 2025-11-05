@@ -21,10 +21,10 @@ tags:
 - distorting
 title: Distorting
 ---
-To disproportionately scale a simple point, use [point.distort](../api/modules/core_point.html#distort).
+To disproportionately scale a simple point, use [point.distort](../converted/api/functions/core_point.distort.md).
 
 To disproportionately scale a path, use
-[path.distort](../api/modules/core_path.html#distort)(path: object, scaleX: number, scaleY: number)
+[path.distort](../converted/api/functions/core_path.distort.md)(path: object, scaleX: number, scaleY: number)
 which returns a new object and does not modify the original.
 The type of returned object is dependent on the type of path being distorted:
 
@@ -64,7 +64,7 @@ document.write(svg);
 ---
 
 To disproportionately scale a model, use
-[model.distort](../api/modules/core_model.html#distort)(model: object, scaleX: number, scaleY: number)
+[model.distort](../converted/api/functions/core_model.distort.md)(model: object, scaleX: number, scaleY: number)
 which returns a new *IModel* object and does not modify the original.
 
 Distort model example:

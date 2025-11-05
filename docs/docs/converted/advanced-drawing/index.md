@@ -35,7 +35,7 @@ tags:
 - advanced-drawing
 title: Index
 ---
-Next: [Model trees](../model-trees/index.md#content).
+Next: [Model trees](../model-trees/index.md).
 
 ## Related Topics
 

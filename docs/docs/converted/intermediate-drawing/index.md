@@ -41,7 +41,7 @@ tags:
 - intermediate-drawing
 title: Index
 ---
-Next: learn more in [Advanced drawing](../advanced-drawing/index.md#content).
+Next: learn more in [Advanced drawing](../advanced-drawing/index.md).
 
 ## Related Topics
 

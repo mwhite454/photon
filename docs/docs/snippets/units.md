@@ -27,7 +27,7 @@ title: Units
 Paths and points are unitless. Models may also be unitless, or they may specify a unit system. When it comes time to make your model
 on a laser cutter or waterjet etc., you will probably want to specify units. You can do this two different ways:
 
-1. Specify units during export. [[See exporting for details per format.](/docs/exporting/index.md#content)]
+1. Specify units during export. [[See exporting for details per format.](../exporting/index.md)]
 2. Specify units on your model.
 
 To specify units on your model, add a `units` property to it with a value from the **makerjs.unitType** object:

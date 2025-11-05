@@ -31,7 +31,7 @@ title: Outlining
     The code examples on this page will not execute until this function is restored.
 
 Expanding a model's path will surround every path, which sometimes can mean there is an inner and an outer surrounding chain. If you only want the outer surrounding chain, use
-[makerjs.model.outline](../api/modules/core_model.html#outline):
+[makerjs.model.outline](../converted/api/modules/core_model.md):
 
 ```javascript
 import { exporter, model, models } from '@7syllable/photon-core';

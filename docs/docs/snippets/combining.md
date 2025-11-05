@@ -24,7 +24,7 @@ tags:
 - general
 title: Combining
 ---
-You can combine models using the [model.combine](../api/modules/core_model.html#combine) function, passing these parameters:
+You can combine models using the [model.combine](../converted/api/modules/core_model.md) function, passing these parameters:
 
 * first model to combine, we'll call it "modelA"
 * second model to combine, we'll call it "modelB"
@@ -69,9 +69,9 @@ document.write(svg);
 
 Instead of remembering the boolean flag combinations, shortcuts are provided for:
 
-* [model.combineIntersection](../api/modules/core_model.html#combineintersection)
-* [model.combineSubtraction](../api/modules/core_model.html#combinesubtraction)
-* [model.combineUnion](../api/modules/core_model.html#combineunion)
+* [model.combineIntersection](../converted/api/modules/core_model.md)
+* [model.combineSubtraction](../converted/api/modules/core_model.md)
+* [model.combineUnion](../converted/api/modules/core_model.md)
 
 ```javascript
 //combine a rectangle and an oval, several ways

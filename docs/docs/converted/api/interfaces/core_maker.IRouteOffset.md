@@ -38,7 +38,7 @@ interface IRouteOffset {
     [routeKey](#routekey): string;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.md#core/maker.IRouteOffset))
+#### Hierarchy ([View Summary](../hierarchy.md))
 
 * IRouteOffset
   + [IWalkPath](core_maker.IWalkPath.md)

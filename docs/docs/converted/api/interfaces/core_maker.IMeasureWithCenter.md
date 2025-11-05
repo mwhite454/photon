@@ -39,7 +39,7 @@ interface IMeasureWithCenter {
     [width](#width): number;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.md#core/maker.IMeasureWithCenter))
+#### Hierarchy ([View Summary](../hierarchy.md))
 
 * [IMeasure](core_maker.IMeasure.md)
   + IMeasureWithCenter

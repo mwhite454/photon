@@ -45,7 +45,7 @@ interface IWalkModel {
     [routeKey](#routekey): string;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.md#core/maker.IWalkModel))
+#### Hierarchy ([View Summary](../hierarchy.md))
 
 * [IRefModelInModel](core_maker.IRefModelInModel.md)
 * [IRouteOffset](core_maker.IRouteOffset.md)

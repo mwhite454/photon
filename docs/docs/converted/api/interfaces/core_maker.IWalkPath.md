@@ -45,7 +45,7 @@ interface IWalkPath {
     [routeKey](#routekey): string;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.md#core/maker.IWalkPath))
+#### Hierarchy ([View Summary](../hierarchy.md))
 
 * [IRefPathIdInModel](core_maker.IRefPathIdInModel.md)
 * [IRouteOffset](core_maker.IRouteOffset.md)

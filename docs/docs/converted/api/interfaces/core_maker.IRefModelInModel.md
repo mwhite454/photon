@@ -41,7 +41,7 @@ interface IRefModelInModel {
     [parentModel](#parentmodel): [IModel](core_schema.IModel.md);
 }
 
-#### Hierarchy ([View Summary](../hierarchy.md#core/maker.IRefModelInModel))
+#### Hierarchy ([View Summary](../hierarchy.md))
 
 * IRefModelInModel
   + [IWalkModel](core_maker.IWalkModel.md)

@@ -32,27 +32,27 @@ Preparing search index...
 # Interface ISVGRenderOptions
 
 interface ISVGRenderOptions {
-    [accuracy](#optionalaccuracy)?: number;
-    [annotate](#optionalannotate)?: boolean;
-    [className](#optionalclassname)?: string;
-    [cssStyle](#optionalcssstyle)?: string;
-    [fill](#optionalfill)?: string;
-    [fillRule](#optionalfillrule)?: "evenodd" | "nonzero";
-    [flow](#optionalflow)?: [IFlowAnnotation](core_svg-esm.IFlowAnnotation.md);
-    [fontSize](#optionalfontsize)?: string;
-    [layerOptions](#optionallayeroptions)?: Record<string, [ISVGElementRenderOptions](core_svg-esm.ISVGElementRenderOptions.md)>;
-    [origin](#optionalorigin)?: [IPoint](core_schema.IPoint.md);
-    [scale](#optionalscale)?: number;
-    [scalingStroke](#optionalscalingstroke)?: boolean;
-    [stroke](#optionalstroke)?: string;
-    [strokeWidth](#optionalstrokewidth)?: string;
-    [svgAttrs](#optionalsvgattrs)?: [IXmlTagAttrs](core_xml.IXmlTagAttrs.md);
-    [units](#optionalunits)?: string;
-    [useSvgPathOnly](#optionalusesvgpathonly)?: boolean;
-    [viewBox](#optionalviewbox)?: boolean;
+    [accuracy](#optional-accuracy)?: number;
+    [annotate](#optional-annotate)?: boolean;
+    [className](#optional-classname)?: string;
+    [cssStyle](#optional-cssstyle)?: string;
+    [fill](#optional-fill)?: string;
+    [fillRule](#optional-fillrule)?: "evenodd" | "nonzero";
+    [flow](#optional-flow)?: [IFlowAnnotation](core_svg-esm.IFlowAnnotation.md);
+    [fontSize](#optional-fontsize)?: string;
+    [layerOptions](#optional-layeroptions)?: Record<string, [ISVGElementRenderOptions](core_svg-esm.ISVGElementRenderOptions.md)>;
+    [origin](#optional-origin)?: [IPoint](core_schema.IPoint.md);
+    [scale](#optional-scale)?: number;
+    [scalingStroke](#optional-scalingstroke)?: boolean;
+    [stroke](#optional-stroke)?: string;
+    [strokeWidth](#optional-strokewidth)?: string;
+    [svgAttrs](#optional-svgattrs)?: [IXmlTagAttrs](core_xml.IXmlTagAttrs.md);
+    [units](#optional-units)?: string;
+    [useSvgPathOnly](#optional-usesvgpathonly)?: boolean;
+    [viewBox](#optional-viewbox)?: boolean;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.md#core/svg-esm.ISVGRenderOptions))
+#### Hierarchy ([View Summary](../hierarchy.md))
 
 * [ISVGElementRenderOptions](core_svg-esm.ISVGElementRenderOptions.md)
   + ISVGRenderOptions

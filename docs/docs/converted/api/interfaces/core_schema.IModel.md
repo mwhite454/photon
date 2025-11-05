@@ -39,18 +39,18 @@ Preparing search index...
 A model is a composite object which may contain a map of paths, or a map of models recursively.
 
 interface IModel {
-    [caption](#optionalcaption)?: [ICaption](core_schema.ICaption.md);
-    [exporterOptions](#optionalexporteroptions)?: { [exporterName: string]: any };
-    [layer](#optionallayer)?: string;
-    [models](#optionalmodels)?: [IModelMap](core_schema.IModelMap.md);
-    [notes](#optionalnotes)?: string;
-    [origin](#optionalorigin)?: [IPoint](core_schema.IPoint.md);
-    [paths](#optionalpaths)?: [IPathMap](core_schema.IPathMap.md);
-    [type](#optionaltype)?: string;
-    [units](#optionalunits)?: string;
+    [caption](#optional-caption)?: [ICaption](core_schema.ICaption.md);
+    [exporterOptions](#optional-exporteroptions)?: { [exporterName: string]: any };
+    [layer](#optional-layer)?: string;
+    [models](#optional-models)?: [IModelMap](core_schema.IModelMap.md);
+    [notes](#optional-notes)?: string;
+    [origin](#optional-origin)?: [IPoint](core_schema.IPoint.md);
+    [paths](#optional-paths)?: [IPathMap](core_schema.IPathMap.md);
+    [type](#optional-type)?: string;
+    [units](#optional-units)?: string;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.md#core/schema.IModel))
+#### Hierarchy ([View Summary](../hierarchy.md))
 
 * IModel
   + [IBoundingHex](core_maker.IBoundingHex.md)

@@ -40,7 +40,7 @@ interface IRefPathIdInModel {
     [pathId](#pathid): string;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.md#core/maker.IRefPathIdInModel))
+#### Hierarchy ([View Summary](../hierarchy.md))
 
 * IRefPathIdInModel
   + [IWalkPath](core_maker.IWalkPath.md)

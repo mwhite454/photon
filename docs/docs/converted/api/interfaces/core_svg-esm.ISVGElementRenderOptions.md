@@ -38,7 +38,7 @@ interface ISVGElementRenderOptions {
     [strokeWidth](#strokewidth)?: string;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.md#core/svg-esm.ISVGElementRenderOptions))
+#### Hierarchy ([View Summary](../hierarchy.md))
 
 * ISVGElementRenderOptions
   + [ISVGRenderOptions](core_svg-esm.ISVGRenderOptions.md)

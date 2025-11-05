@@ -54,9 +54,9 @@ document.write(svg);
 ```
 
 The way to move a model to an absolute position is to set its **origin** property.
-The [model.move](../api/modules/core_model.html#move) function does just that, but it also lets you do more operations on one line of code.
+The [model.move](../converted/api/functions/core_model.move.md) function does just that, but it also lets you do more operations on one line of code.
 
-To move a model by a relative amount, use [model.moveRelative](../api/modules/core_model.html#moverelative):
+To move a model by a relative amount, use [model.moveRelative](../converted/api/functions/core_model.moveRelative.md):
 
 ```javascript
 //move some squares by a relative distance
@@ -77,8 +77,8 @@ const svg = exporter.toSVG(squares);
 document.write(svg);
 ```
 
-Likewise, paths can be moved absolutely with [path.move](../api/modules/core_path.html#move)
-or relatively with [path.moveRelative](../api/modules/core_path.html#moverelative):
+Likewise, paths can be moved absolutely with [path.move](../converted/api/functions/core_path.move.md)
+or relatively with [path.moveRelative](../converted/api/functions/core_path.moveRelative.md):
 
 ```javascript
 //move some paths within the squares

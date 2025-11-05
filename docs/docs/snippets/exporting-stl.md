@@ -81,7 +81,7 @@ This function returns a string of STL.
 
 Call `exporter.toSTL(model, options)` passing your model and an options object.
 
-See the [API documentation for OpenJsCad export options](../converted/api/interfaces/exporter.iopenjscadoptions.md#content)
+See the [API documentation for OpenJsCad export options](../converted/api/interfaces/core_openjscad-esm.IOpenJsCadOptions.md)
 
 ## Related Topics
 

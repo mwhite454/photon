@@ -33,13 +33,13 @@ title: Index
 
 #### September 2018
 
-* Added [Captions](intermediate-drawing/index.md#Captions) to [Intermediate drawing](intermediate-drawing/index.md).
+* Added [Captions](intermediate-drawing/index.md) to [Intermediate drawing](intermediate-drawing/index.md).
 
 #### August 2018
 
-* Added [Distorting](intermediate-drawing/index.md#Distorting) to [Intermediate drawing](intermediate-drawing/index.md).
-* Added [Dogbone Fillets](intermediate-drawing/index.md#Dogbone%20Fillets) to [Intermediate drawing](intermediate-drawing/index.md).
-* Added [Chain dogbone](working-with-chains/index.md#Chain%20dogbone) to [Working with chains](working-with-chains/index.md).
+* Added [Distorting](intermediate-drawing/index.md) to [Intermediate drawing](intermediate-drawing/index.md).
+* Added [Dogbone Fillets](intermediate-drawing/index.md) to [Intermediate drawing](intermediate-drawing/index.md).
+* Added [Chain dogbone](working-with-chains/index.md) to [Working with chains](working-with-chains/index.md).
 
 #### August 2017
 

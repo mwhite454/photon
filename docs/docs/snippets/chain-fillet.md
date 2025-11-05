@@ -26,8 +26,8 @@ tags:
 - chains
 title: Chain Fillet
 ---
-A [fillet](/docs/intermediate-drawing/index.md#fillets) can be added between all paths in a chain by calling
-[chain.fillet](../api/modules/core_chain.html#fillet) with these parameters:
+A [fillet](../converted/intermediate-drawing/index.md) can be added between all paths in a chain by calling
+[chain.fillet](../converted/api/modules/core_chain.md) with these parameters:
 
 * chainToFillet: the chain containing paths which will be modified to have fillets at their joints.
 * filletRadius: radius of the fillets.

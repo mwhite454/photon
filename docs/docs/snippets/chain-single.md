@@ -29,7 +29,7 @@ tags:
 title: Chain Single
 ---
 Let's start with a drawing of a rectangle. A rectangle is a model, but we also implicitly know that a rectangle comprises a chain of 4 paths which connect end to end.
-Let's find this chain now using [model.findSingleChain(model)](../api/modules/core_model.html#findsinglechain):
+Let's find this chain now using [model.findSingleChain(model)](../converted/api/functions/core_model.findSingleChain.md):
 
 ## Examples
 

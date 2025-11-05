@@ -14,5 +14,5 @@ tags:
 - solvers
 title: Solvers
 ---
-Maker.js provides a [solvers](../api/modules/core_solvers.html#content) module
+Maker.js provides a [solvers](../converted/api/modules/core_solvers.md) module
 for common trigonometry equations, such as solving triangles.

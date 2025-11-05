@@ -46,7 +46,7 @@ interface IPathArc {
     [type](#type): string;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.md#core/schema.IPathArc))
+#### Hierarchy ([View Summary](../hierarchy.md))
 
 * [IPathCircle](core_schema.IPathCircle.md)
   + IPathArc

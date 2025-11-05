@@ -36,7 +36,7 @@ interface IMeasure {
     [low](#low): [IPoint](core_schema.IPoint.md);
 }
 
-#### Hierarchy ([View Summary](../hierarchy.md#core/maker.IMeasure))
+#### Hierarchy ([View Summary](../hierarchy.md))
 
 * IMeasure
   + [IMeasureWithCenter](core_maker.IMeasureWithCenter.md)

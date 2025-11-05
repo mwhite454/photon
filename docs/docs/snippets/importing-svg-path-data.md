@@ -45,7 +45,7 @@ The path data is:
 M 0 100 L 100 100 L 100 0 L 0 0 L 0 100 Z
 ```
 
-Call [importer.fromSVGPathData](../api/modules/core_importer.html#fromsvgpathdata)(pathData) passing your path data string.
+Call [importer.fromSVGPathData](../converted/api/modules/core_importer.md)(pathData) passing your path data string.
 This will return a new model.
 
 If your SVG path data contains [Curve commands](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths#Curve_commands),

@@ -35,19 +35,19 @@ Preparing search index...
 A hexagon which surrounds a model.
 
 interface IBoundingHex {
-    [caption](#optionalcaption)?: [ICaption](core_schema.ICaption.md);
-    [exporterOptions](#optionalexporteroptions)?: { [exporterName: string]: any };
-    [layer](#optionallayer)?: string;
-    [models](#optionalmodels)?: [IModelMap](core_schema.IModelMap.md);
-    [notes](#optionalnotes)?: string;
-    [origin](#optionalorigin)?: [IPoint](core_schema.IPoint.md);
-    [paths](#optionalpaths)?: [IPathMap](core_schema.IPathMap.md);
+    [caption](#optional-caption)?: [ICaption](core_schema.ICaption.md);
+    [exporterOptions](#optional-exporteroptions)?: { [exporterName: string]: any };
+    [layer](#optional-layer)?: string;
+    [models](#optional-models)?: [IModelMap](core_schema.IModelMap.md);
+    [notes](#optional-notes)?: string;
+    [origin](#optional-origin)?: [IPoint](core_schema.IPoint.md);
+    [paths](#optional-paths)?: [IPathMap](core_schema.IPathMap.md);
     [radius](#radius): number;
-    [type](#optionaltype)?: string;
-    [units](#optionalunits)?: string;
+    [type](#optional-type)?: string;
+    [units](#optional-units)?: string;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.md#core/maker.IBoundingHex))
+#### Hierarchy ([View Summary](../hierarchy.md))
 
 * [IModel](core_schema.IModel.md)
   + IBoundingHex

@@ -20,4 +20,4 @@ tags:
 - beginner
 title: Index
 ---
-Next: look at how to do some [Basic drawing](../basic-drawing/index.md#content).
+Next: look at how to do some [Basic drawing](../basic-drawing/index.md).

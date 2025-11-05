@@ -52,7 +52,7 @@ const svg = exporter.toSVG(model);
 document.write(svg);
 ```
 
-Pass a path and a distance to [path.expand](../api/modules/core_path.html#expand), this will return a new model:
+Pass a path and a distance to [path.expand](../converted/api/modules/core_path.md), this will return a new model:
 
 ```javascript
 //expand around each path type
@@ -96,7 +96,7 @@ document.write(svg);
 
 ---
 
-You can also expand all the paths in a model by calling [model.expandPaths](../api/modules/core_model.html#expandpaths):
+You can also expand all the paths in a model by calling [model.expandPaths](../converted/api/modules/core_model.md):
 
 ```javascript
 import { exporter, model, models } from '@7syllable/photon-core';
@@ -118,7 +118,7 @@ document.write(svg);
 
 #### Beveling joints
 
-A third parameter can be passed to [model.expandPaths](../api/modules/core_model.html#expandpaths) to specify the number of corners to apply to each joint and end cap:
+A third parameter can be passed to [model.expandPaths](../converted/api/modules/core_model.md) to specify the number of corners to apply to each joint and end cap:
 
 * 0 (default) - no corners (rounded)
 * 1 - one corner (pointed)

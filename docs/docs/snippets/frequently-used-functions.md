@@ -21,74 +21,74 @@ title: Frequently Used Functions
 ---
 It's good to be aware of these functions which apply to many drawing scenarios. Also, browse the APIs of each module for lesser used specialized functions.
 
-#### Functions for working with points in the [makerjs.point](../api/modules/core_point.html#content) module:
+#### Functions for working with points in the [makerjs.point](../converted/api/modules/core_point.md) module:
 
-* [point.add](../api/modules/core_point.html#add)
+* [point.add](../converted/api/functions/core_point.add.md)
 
   Add two points together and return the result as a new point.
-* [point.subtract](../api/modules/core_point.html#subtract)
+* [point.subtract](../converted/api/functions/core_point.subtract.md)
 
   Subtract a point from another point and return the result as a new point.
-* [point.average](../api/modules/core_point.html#average)
+* [point.average](../converted/api/functions/core_point.average.md)
 
   Get the average of two points and return the result as a new point.
-* [point.fromPolar](../api/modules/core_point.html#frompolar)
+* [point.fromPolar](../converted/api/functions/core_point.fromPolar.md)
 
   Get a point from its polar coordinates: angle (in radians) and radius.
-* [point.closest](../api/modules/core_point.html#closest)
+* [point.closest](../converted/api/functions/core_point.closest.md)
 
   Given a reference point and an array of points, find the closest point in the array to the reference point.
-* [point.scale](../api/modules/core_point.html#scale)
+* [point.scale](../converted/api/functions/core_point.scale.md)
 
   Proportionately scale a point and return the result as a new point.
-* [point.distort](../api/modules/core_point.html#distort)
+* [point.distort](../converted/api/functions/core_point.distort.md)
 
   Disproportionately scale a point and return the result as a new point.
-* [point.rotate](../api/modules/core_point.html#rotate)
+* [point.rotate](../converted/api/functions/core_point.rotate.md)
 
   Rotate a point and return the result as a new point.
-* [point.fromPathEnds](../api/modules/core_point.html#frompathends)
+* [point.fromPathEnds](../converted/api/functions/core_point.fromPathEnds.md)
 
   Return the two end points of a given path (null if path is a circle).
 
-#### Functions for working with angles in the [makerjs.angle](../api/modules/core_angle.html#content) module:
+#### Functions for working with angles in the [makerjs.angle](../converted/api/modules/core_angle.md) module:
 
-* [angle.toDegrees](../api/modules/core_angle.html#todegrees)
+* [angle.toDegrees](../converted/api/functions/core_angle.toDegrees.md)
 
   Convert an angle from radians to degrees.
-* [angle.toRadians](../api/modules/core_angle.html#toradians)
+* [angle.toRadians](../converted/api/functions/core_angle.toRadians.md)
 
   Convert an angle from degrees to radians.
-* [angle.ofLineInDegrees](../api/modules/core_angle.html#oflineindegrees)
+* [angle.ofLineInDegrees](../converted/api/functions/core_angle.ofLineInDegrees.md)
 
   Given a line, returns its angle in degrees.
-* [angle.ofPointInDegrees](../api/modules/core_angle.html#ofpointindegrees)
+* [angle.ofPointInDegrees](../converted/api/functions/core_angle.ofPointInDegrees.md)
 
   Given two points, returns the angle of the line through them, in degrees.
-* [angle.ofPointInRadians](../api/modules/core_angle.html#ofpointinradians)
+* [angle.ofPointInRadians](../converted/api/functions/core_angle.ofPointInRadians.md)
 
   Given two points, returns the angle of the line through them, in radians.
-* [angle.noRevolutions](../api/modules/core_angle.html#norevolutions)
+* [angle.noRevolutions](../converted/api/functions/core_angle.noRevolutions.md)
 
   Given a polar angle in degrees, returns the same angle cast between -360 and 360. For example, 725 degrees = 5 degrees.
-* [angle.ofArcSpan](../api/modules/core_angle.html#ofarcspan)
+* [angle.ofArcSpan](../converted/api/functions/core_angle.ofArcSpan.md)
 
   Given an arc, returns total angle span between its start and end angles.
 
-#### Functions for working with measurements in the [makerjs.measure](../api/modules/core_measure.html#content) module:
+#### Functions for working with measurements in the [makerjs.measure](../converted/api/modules/core_measure.md) module:
 
-* [measure.pointDistance](../api/modules/core_measure.html#pointdistance)
+* [measure.pointDistance](../converted/api/functions/core_measure.pointDistance.md)
 
   Calculates the distance between two points using the Pythagorean theorem.
-* [measure.pathLength](../api/modules/core_measure.html#pathlength)
+* [measure.pathLength](../converted/api/functions/core_measure.pathLength.md)
 
   Measures the length of a path.
-* [measure.isPointEqual](../api/modules/core_measure.html#ispointequal)
+* [measure.isPointEqual](../converted/api/modules/core_measure.md)
 
   Given two points, determine if they are equal within a distance of accuracy.
-* [measure.isMeasurementOverlapping](../api/modules/core_measure.html#ismeasurementoverlapping)
+* [measure.isMeasurementOverlapping](../converted/api/functions/core_measure.isMeasurementOverlapping.md)
 
   Given two measurements, determine if they are overlapping. Also known as "bounding box overlap".
-* [measure.isAngleEqual](../api/modules/core_measure.html#isangleequal)
+* [measure.isAngleEqual](../converted/api/modules/core_measure.md)
 
   Given two angles, determine if they are equal within a margin of accuracy.

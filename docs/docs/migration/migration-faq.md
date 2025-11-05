@@ -289,7 +289,7 @@ const fillets = chainOps.fillet(chain, 10);
 
 - [Getting Started Guide](../getting-started/index.md)
 - [API Reference](../converted/api/index.md)
-- [Code Examples](../demos/index.md)
+- [Code Examples](../demos/index.html)
 - [API Migration Guide](./api-mapping.md)
 
 ### Q: I found a bug, where do I report it?
@@ -317,4 +317,4 @@ See [Contributing Guide](../../../CONTRIBUTING.md) for details.
 - [API Migration Guide](./api-mapping.md) - Complete API mapping reference
 - [Getting Started](../getting-started/index.md) - Quick start guide
 - [API Documentation](../converted/api/index.md) - Full API reference
-- [Examples](../demos/index.md) - Code examples and tutorials
+- [Examples](../demos/index.html) - Code examples and tutorials

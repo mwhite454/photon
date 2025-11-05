@@ -24,9 +24,9 @@ tags:
 title: Importing Svg Points
 ---
 You may wish to import the points from an SVG [Polyline](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Basic_Shapes#Polyline) or [Polygon](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Basic_Shapes#Polygon) element.
-It is important to note the difference of coordinates between SVG and [Maker.js points](/docs/basic-drawing/index.md#points): The Y component is opposite.
-The remedy for this is simple - use the Y-axis **mirror** functions of [point.mirror](../api/modules/core_point.html#mirror) on every point,
-or call [model.mirror](../api/modules/core_model.html#mirror) on your entire model.
+It is important to note the difference of coordinates between SVG and [Maker.js points](../basic-drawing/index.md): The Y component is opposite.
+The remedy for this is simple - use the Y-axis **mirror** functions of [point.mirror](../converted/api/functions/core_point.mirror.md) on every point,
+or call [model.mirror](../converted/api/functions/core_model.mirror.md) on your entire model.
 
 SVG points can be extracted from the value of the **points** attribute of either **polyline** or **polygon** elements:
 
@@ -40,7 +40,7 @@ SVG points can be extracted from the value of the **points** attribute of either
 
 ```
 
-Either of these SVG elements map nicely to the [models.ConnectTheDots](/docs/api/classes/models.connectthedots.md#constructor) model.
+Either of these SVG elements map nicely to the [models.ConnectTheDots](../converted/api/classes/models_ConnectTheDots.ConnectTheDots.md#constructor) model.
 ConnectTheDots accepts an **isClosed** parameter - set this to **false** for SVG polylines and **true** for SVG polygons.
 
 Example:

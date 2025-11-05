@@ -33,11 +33,11 @@ Preparing search index...
 Jscad CAG extrusion options.
 
 interface IJscadExtrudeOptions {
-    [extrude](#optionalextrude)?: number;
-    [z](#optionalz)?: number;
+    [extrude](#optional-extrude)?: number;
+    [z](#optional-z)?: number;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.md#core/openjscad-esm.IJscadExtrudeOptions))
+#### Hierarchy ([View Summary](../hierarchy.md))
 
 * IJscadExtrudeOptions
   + [IJscadCsgOptions](core_openjscad-esm.IJscadCsgOptions.md)

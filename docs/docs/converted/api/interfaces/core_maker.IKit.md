@@ -32,7 +32,7 @@ Preparing search index...
 An IKit is a model-producing class with some sample parameters. Think of it as a packaged model with instructions on how to best use it.
 
 interface IKit {
-    new [IKit](#constructorikit)(...args: any[]): [IModel](core_schema.IModel.md);
+    new IKit(...args: any[]): [IModel](core_schema.IModel.md);
     [metaParameters](#metaparameters)?: [IMetaParameter](core_maker.IMetaParameter.md)[];
     [notes](#notes)?: string;
 }

@@ -35,20 +35,20 @@ Preparing search index...
 Jscad Script export options.
 
 interface IJscadScriptOptions {
-    [accuracy](#optionalaccuracy)?: number;
-    [byLayers](#optionalbylayers)?: boolean;
-    [extrude](#optionalextrude)?: number;
-    [functionName](#optionalfunctionname)?: string;
-    [indent](#optionalindent)?: number;
-    [layerOptions](#optionallayeroptions)?: { [layerId: string]: [IJscadExtrudeOptions](core_openjscad-esm.IJscadExtrudeOptions.md) };
-    [maxArcFacet](#optionalmaxarcfacet)?: number;
-    [pointMatchingDistance](#optionalpointmatchingdistance)?: number;
-    [statusCallback](#optionalstatuscallback)?: [IStatusCallback](core_openjscad-esm.IStatusCallback.md);
-    [units](#optionalunits)?: string;
-    [z](#optionalz)?: number;
+    [accuracy](#optional-accuracy)?: number;
+    [byLayers](#optional-bylayers)?: boolean;
+    [extrude](#optional-extrude)?: number;
+    [functionName](#optional-functionname)?: string;
+    [indent](#optional-indent)?: number;
+    [layerOptions](#optional-layeroptions)?: { [layerId: string]: [IJscadExtrudeOptions](core_openjscad-esm.IJscadExtrudeOptions.md) };
+    [maxArcFacet](#optional-maxarcfacet)?: number;
+    [pointMatchingDistance](#optional-pointmatchingdistance)?: number;
+    [statusCallback](#optional-statuscallback)?: [IStatusCallback](core_openjscad-esm.IStatusCallback.md);
+    [units](#optional-units)?: string;
+    [z](#optional-z)?: number;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.md#core/openjscad-esm.IJscadScriptOptions))
+#### Hierarchy ([View Summary](../hierarchy.md))
 
 * [IJscadCsgOptions](core_openjscad-esm.IJscadCsgOptions.md)
   + IJscadScriptOptions

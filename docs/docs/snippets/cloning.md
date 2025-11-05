@@ -29,9 +29,9 @@ title: Cloning
 ---
 Models and paths are simple JavaScript objects, so they are easy to clone in a way that is standard to JavaScript. Maker.js provides a few functions for cloning:
 
-* [cloneObject](../api/index.html#cloneobject) - clones a model, or any other object.
-* [path.clone](../api/modules/core_path.html#clone) - clones a path (quicker than cloneObject)
-* [point.clone](../api/modules/core_point.html#clone) - clones a point (quicker than cloneObject)
+* [cloneObject](../api/index.html) - clones a model, or any other object.
+* [path.clone](../converted/api/functions/core_path.clone.md) - clones a path (quicker than cloneObject)
+* [point.clone](../converted/api/functions/core_point.clone.md) - clones a point (quicker than cloneObject)
 
 Cloning is useful in many situations. For example, if you need many copies of a model for rotation:
 

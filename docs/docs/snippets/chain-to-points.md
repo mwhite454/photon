@@ -26,7 +26,7 @@ tags:
 title: Chain To Points
 ---
 To get points consistently spaced along a chains, call
-[model.toPoints(chain, distance)](../api/modules/core_chain.html#topoints)
+[model.toPoints(chain, distance)](../converted/api/functions/core_chain.toPoints.md)
 passing your chain, and the distance between points:
 
 ## Examples

@@ -57,7 +57,7 @@ console.log(box2.paths.inner.origin);
 
 In this example, both `box1.paths.inner.origin` and `box2.paths.inner.origin` have an origin of `[50, 50]`
 even though they are not in the same place, because they are located relative to the model that contains them. To make all models and paths occupy a singular coordinate space,
-we can use [model.originate](../api/modules/core_model.html#originate):
+we can use [model.originate](../converted/api/functions/core_model.originate.md):
 
 ```javascript
 //render a couple boxes in the same coordinate space

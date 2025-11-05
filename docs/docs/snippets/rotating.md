@@ -21,13 +21,13 @@ tags:
 - rotating
 title: Rotating
 ---
-To rotate a single point, see [point.fromPolar](../api/modules/core_point.html#frompolar)
-and [point.rotate](../api/modules/core_point.html#rotate) depending on what you are trying to achieve.
+To rotate a single point, see [point.fromPolar](../converted/api/functions/core_point.fromPolar.md)
+and [point.rotate](../converted/api/functions/core_point.rotate.md) depending on what you are trying to achieve.
 
 You can rotate paths and models with these functions:
 
-* [path.rotate](../api/modules/core_path.html#rotate)(path: object, angleInDegrees: number, rotationOrigin: point)
-* [model.rotate](../api/modules/core_model.html#rotate)(model: object, angleInDegrees: number, rotationOrigin: point)
+* [path.rotate](../converted/api/functions/core_path.rotate.md)(path: object, angleInDegrees: number, rotationOrigin: point)
+* [model.rotate](../converted/api/functions/core_model.rotate.md)(model: object, angleInDegrees: number, rotationOrigin: point)
 
 Each of these functions return the original object, so that we can "chain" on the same line of code.
 

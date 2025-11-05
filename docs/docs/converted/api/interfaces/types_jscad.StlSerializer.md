@@ -34,7 +34,7 @@ Preparing search index...
 STL serializer interface
 
 interface StlSerializer {
-    [serialize](#serialize-1)(
+    serialize(
         csg: [export=](../modules/types_jscad.export_.md).[CSG](../classes/types_jscad.export_.CSG.md),
         options: {
             binary: boolean;

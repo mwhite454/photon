@@ -26,7 +26,7 @@ tags:
 - chains
 title: Chain Multiple
 ---
-You can find multiple chains by calling [model.findChains(model)](../api/modules/core_model.html#findchains),
+You can find multiple chains by calling [model.findChains(model)](../converted/api/functions/core_model.findChains.md),
 which will return an array of chains, sorted by largest to smallest on the **pathLength** property.
 We can find 2 chains in this drawing with 2 rectangles:
 
@@ -51,7 +51,7 @@ document.write(`found ${chains}`.length + ' chains');
 #### Containment
 
 Instead of a "flat" array, we can see the containment of chains by also passing an `{ contain: true }` object to
-[model.findChains(model, options)](../api/modules/core_model.html#findchains):
+[model.findChains(model, options)](../converted/api/functions/core_model.findChains.md):
 ```javascript
 //2 concentric rectangles
 import { exporter, model, models, paths } from '@7syllable/photon-core';

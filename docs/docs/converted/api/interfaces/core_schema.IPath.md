@@ -41,7 +41,7 @@ interface IPath {
     [type](#type): string;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.md#core/schema.IPath))
+#### Hierarchy ([View Summary](../hierarchy.md))
 
 * IPath
   + [DeletedPathInfo](core_boolean-utils.DeletedPathInfo.md)

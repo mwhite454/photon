@@ -22,7 +22,7 @@ tags:
 - general
 title: Breaking
 ---
-You can break paths into two pieces if you have a point that lies on the path (from an intersection, for example) by using [path.breakAtPoint](../api/modules/core_path.html#breakatpoint).
+You can break paths into two pieces if you have a point that lies on the path (from an intersection, for example) by using [path.breakAtPoint](../converted/api/modules/core_path.md).
 This function will change the path that you pass it, so that it is broken at that point, and it will return a new path object which is the other broken piece:
 ```javascript
 //break a path in two

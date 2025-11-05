@@ -35,18 +35,18 @@ Preparing search index...
 Jscad CSG export options.
 
 interface IJscadCsgOptions {
-    [accuracy](#optionalaccuracy)?: number;
-    [byLayers](#optionalbylayers)?: boolean;
-    [extrude](#optionalextrude)?: number;
-    [layerOptions](#optionallayeroptions)?: { [layerId: string]: [IJscadExtrudeOptions](core_openjscad-esm.IJscadExtrudeOptions.md) };
-    [maxArcFacet](#optionalmaxarcfacet)?: number;
-    [pointMatchingDistance](#optionalpointmatchingdistance)?: number;
-    [statusCallback](#optionalstatuscallback)?: [IStatusCallback](core_openjscad-esm.IStatusCallback.md);
-    [units](#optionalunits)?: string;
-    [z](#optionalz)?: number;
+    [accuracy](#optional-accuracy)?: number;
+    [byLayers](#optional-bylayers)?: boolean;
+    [extrude](#optional-extrude)?: number;
+    [layerOptions](#optional-layeroptions)?: { [layerId: string]: [IJscadExtrudeOptions](core_openjscad-esm.IJscadExtrudeOptions.md) };
+    [maxArcFacet](#optional-maxarcfacet)?: number;
+    [pointMatchingDistance](#optional-pointmatchingdistance)?: number;
+    [statusCallback](#optional-statuscallback)?: [IStatusCallback](core_openjscad-esm.IStatusCallback.md);
+    [units](#optional-units)?: string;
+    [z](#optional-z)?: number;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.md#core/openjscad-esm.IJscadCsgOptions))
+#### Hierarchy ([View Summary](../hierarchy.md))
 
 * [IJscadCagOptions](core_openjscad-esm.IJscadCagOptions.md)
 * [IJscadExtrudeOptions](core_openjscad-esm.IJscadExtrudeOptions.md)

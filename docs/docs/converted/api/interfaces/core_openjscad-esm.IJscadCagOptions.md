@@ -35,14 +35,14 @@ Jscad CAG export options.
 
 interface IJscadCagOptions {
     [accuracy](#optional-accuracy)?: number;
-    [byLayers](#bylayers)?: boolean;
-    [maxArcFacet](#maxarcfacet)?: number;
-    [pointMatchingDistance](#pointmatchingdistance)?: number;
-    [statusCallback](#statuscallback)?: [IStatusCallback](core_openjscad-esm.IStatusCallback.md);
-    [units](#units)?: string;
+    byLayers?: boolean;
+    maxArcFacet?: number;
+    pointMatchingDistance?: number;
+    statusCallback?: [IStatusCallback](core_openjscad-esm.IStatusCallback.md);
+    units?: string;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.md#core/openjscad-esm.IJscadCagOptions))
+#### Hierarchy ([View Summary](../hierarchy.md))
 
 * [IPointMatchOptions](core_maker.IPointMatchOptions.md)
   + IJscadCagOptions

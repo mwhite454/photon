@@ -40,7 +40,7 @@ interface IPathIntersectionBaseOptions {
     [out\_AreOverlapped](#out_areoverlapped)?: boolean;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.md#core/maker.IPathIntersectionBaseOptions))
+#### Hierarchy ([View Summary](../hierarchy.md))
 
 * IPathIntersectionBaseOptions
   + [IPathIntersectionOptions](core_maker.IPathIntersectionOptions.md)

@@ -45,7 +45,7 @@ interface IPathBezierSeed {
     [type](#type): string;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.md#core/schema.IPathBezierSeed))
+#### Hierarchy ([View Summary](../hierarchy.md))
 
 * [IPathLine](core_schema.IPathLine.md)
   + IPathBezierSeed

@@ -31,7 +31,7 @@ tags:
 title: Layout On Path
 ---
 You can use a path as a layout guide for a row of child models within a model.
-Call [layout.childrenOnPath(parentModel: Model, onPath: Path)](../functions/core_layout.childrenOnPath.md),
+Call [layout.childrenOnPath(parentModel: Model, onPath: Path)](../converted/api/functions/core_layout.childrenOnPath.md),
 the x-axis will be projected onto your onPath:
 
 ## Examples
@@ -155,7 +155,7 @@ document.write(svg);
 
 #### Laying out text
 
-Layout on a path works well with fonts and text. [See an example here](/docs../../playground/index.html?script=text-on-path).
+Layout on a path works well with fonts and text. [See an example here](../playground/index.html?script=text-on-path).
 
 ## Related Topics
 

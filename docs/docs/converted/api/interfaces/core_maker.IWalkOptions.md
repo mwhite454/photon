@@ -30,16 +30,16 @@ Preparing search index...
 Options to pass to model.walk().
 
 interface IWalkOptions {
-    [afterChildWalk](#optionalafterchildwalk)?: [IWalkModelCallback](core_maker.IWalkModelCallback.md);
-    [beforeChildWalk](#optionalbeforechildwalk)?: [IWalkModelCancellableCallback](core_maker.IWalkModelCancellableCallback.md);
-    [onPath](#optionalonpath)?: [IWalkPathCallback](core_maker.IWalkPathCallback.md);
+    [afterChildWalk](#optional-afterchildwalk)?: [IWalkModelCallback](core_maker.IWalkModelCallback.md);
+    [beforeChildWalk](#optional-beforechildwalk)?: [IWalkModelCancellableCallback](core_maker.IWalkModelCancellableCallback.md);
+    [onPath](#optional-onpath)?: [IWalkPathCallback](core_maker.IWalkPathCallback.md);
 }
 
 * Defined in [core/maker.ts:567](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L567)
 
-* [afterChildWalk?](#optionalafterchildwalk)
-* [beforeChildWalk?](#optionalbeforechildwalk)
-* [onPath?](#optionalonpath)
+* [afterChildWalk?](#optional-afterchildwalk)
+* [beforeChildWalk?](#optional-beforechildwalk)
+* [onPath?](#optional-onpath)
 
 ### `Optional`afterChildWalk
 
@@ -65,9 +65,9 @@ Callback for every path in every model.
 
 * Defined in [core/maker.ts:572](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L572)
 
-[afterChildWalk](#optionalafterchildwalk)
-[beforeChildWalk](#optionalbeforechildwalk)
-[onPath](#optionalonpath)
+[afterChildWalk](#optional-afterchildwalk)
+[beforeChildWalk](#optional-beforechildwalk)
+[onPath](#optional-onpath)
 
 [Photon](../index.md)
 

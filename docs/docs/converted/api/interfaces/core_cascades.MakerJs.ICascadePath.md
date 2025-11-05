@@ -41,7 +41,7 @@ interface ICascadePath {
     [$result](#result): any;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.md#core/cascades.MakerJs.ICascadePath))
+#### Hierarchy ([View Summary](../hierarchy.md))
 
 * [MakerJs](../modules/core_cascades.MakerJs.md).[ICascade](core_cascades.MakerJs.ICascade.md)
   + ICascadePath

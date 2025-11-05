@@ -43,7 +43,7 @@ interface DeletedPathInfo {
     [type](#type): string;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.md#core/boolean-utils.DeletedPathInfo))
+#### Hierarchy ([View Summary](../hierarchy.md))
 
 * [IPath](core_schema.IPath.md)
   + DeletedPathInfo

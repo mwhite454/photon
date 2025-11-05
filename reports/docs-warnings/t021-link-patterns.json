@@ -1,60 +1,52 @@
 {
   "summary": {
-    "total_broken_links": 1035,
+    "total_broken_links": 159,
     "by_pattern": {
-      "other_api": 40,
-      "absolute": 14,
-      "other": 48,
-      "playground": 25,
-      "self_anchor": 825,
-      "md_api": 4,
-      "relative": 79
+      "relative": 37,
+      "playground": 4,
+      "other_api": 12,
+      "absolute": 9,
+      "other": 21,
+      "self_anchor": 76
     },
     "by_error_type": {
-      "missing_anchors": 975,
-      "other_errors": 20,
-      "missing_playground": 25,
-      "missing_files": 11,
-      "missing_api_files": 4
+      "missing_files": 9,
+      "missing_playground": 4,
+      "other_errors": 13,
+      "missing_anchors": 133
     },
     "top_problem_files": {
-      "docs/docs/converted/api/index.md": 60,
-      "docs/docs/converted/api/modules/index.md": 48,
-      "docs/docs/converted/api/classes/core_collect.Collector.md": 28,
-      "docs/docs/converted/api/interfaces/core_openjscad-esm.IOpenJsCadOptions.md": 27,
-      "docs/docs/converted/api/modules/core_model.md": 25,
-      "docs/docs/converted/api/interfaces/core_svg-esm.ISVGRenderOptions.md": 24,
-      "docs/docs/converted/api/modules/models.md": 22,
-      "docs/docs/converted/api/modules/core_measure.md": 22,
-      "docs/docs/snippets/built-in-models.md": 21,
-      "docs/docs/converted/api/interfaces/core_dxf.IDXFRenderOptions.md": 20
+      "docs/docs/converted/api/interfaces/core_pdf-esm.IPDFRenderOptions.md": 6,
+      "docs/docs/converted/api/interfaces/core_openjscad-esm.IJscadCagOptions.md": 6,
+      "docs/docs/converted/api/functions/core_maker.cloneObject.md": 5,
+      "docs/docs/converted/api/functions/core_base.cloneObject.md": 5,
+      "docs/docs/converted/api/interfaces/core_svg-esm.ISVGElementRenderOptions.md": 5,
+      "docs/docs/converted/api/interfaces/core_svg-esm.ISVGRenderOptions.md": 5,
+      "docs/docs/snippets/bezier-curves.md": 4,
+      "docs/docs/converted/index.md": 4,
+      "docs/docs/converted/api/interfaces/core_svg-esm.ISVGPathDataRenderOptions.md": 4,
+      "docs/docs/converted/api/interfaces/core_schema.IPathIntersectionOptions.md": 4
     }
   },
   "patterns": {
     "api_links": [],
     "playground_links": [
-      "/docs../../playground/index.html?script=tongue-and-groove",
       "/docs../../playground/index.html?script=text-on-path",
-      "/docs../../playground/index.html?script=Belt",
-      "/docs../../playground/index.html?script=BezierCurve",
-      "/docs../../playground/index.html?script=BoltCircle",
-      "/docs../../playground/index.html?script=BoltRectangle",
-      "/docs../../playground/index.html?script=ConnectTheDots",
-      "/docs../../playground/index.html?script=Dogbone",
-      "/docs../../playground/index.html?script=Dome",
-      "/docs../../playground/index.html?script=Ellipse"
+      "../../playground/index.html?script=Text",
+      "/docs../../playground/index.html",
+      "/docs../../playground/index.html?script=text-on-chain"
     ],
     "missing_anchors": [
-      "../api/modules/core_model.html#simplify",
-      "../api/index.html#_",
-      "../converted/api/modules/core_path.md#addto",
-      "../converted/api/modules/core_model.md#addto",
-      "/docs/advanced-drawing/index.md#fonts%20and%20text",
-      "../api/modules/core_path.html#dogbone",
-      "../api/modules/core_model.html#outline",
-      "#Dogbone%20Fillets",
-      "../api/modules/core_path.html#fillet",
-      "../api/modules/core_path.html#expand"
+      "../api/index.html#travel",
+      "../api/index.html#createroutekey",
+      "/docs/model-trees/index.md#walking a model tree",
+      "/docs/basic-drawing/index.md#points",
+      "/docs/exporting/index.md#content",
+      "../api/index.html#cloneobject",
+      "intermediate-drawing/index.md#Captions",
+      "intermediate-drawing/index.md#Distorting",
+      "intermediate-drawing/index.md#Dogbone%20Fillets",
+      "working-with-chains/index.md#Chain%20dogbone"
     ]
   }
 }

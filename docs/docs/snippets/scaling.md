@@ -21,11 +21,11 @@ tags:
 - scaling
 title: Scaling
 ---
-To proportionately scale a simple point, use [point.scale](../api/modules/core_point.html#scale).
+To proportionately scale a simple point, use [point.scale](../converted/api/functions/core_point.scale.md).
 To proportionately scale paths and models, use these functions:
 
-* [path.scale](../api/modules/core_path.html#scale)(path: object, scaleValue: number)
-* [model.scale](../api/modules/core_model.html#scale)(model: object, scaleValue: number)
+* [path.scale](../converted/api/functions/core_path.scale.md)(path: object, scaleValue: number)
+* [model.scale](../converted/api/functions/core_model.scale.md)(model: object, scaleValue: number)
 
 Each of these functions return the original object, so that we can "chain" on the same line of code.
 

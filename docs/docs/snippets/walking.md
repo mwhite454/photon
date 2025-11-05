@@ -23,13 +23,13 @@ tags:
 - general
 title: Walking
 ---
-You can traverse a model tree by calling [model.walk](../api/modules/core_model.html#walk) with your model and an object with these optional properties:
+You can traverse a model tree by calling [model.walk](../converted/api/functions/core_model.walk.md) with your model and an object with these optional properties:
 
 | property name | property type | description |
 | --- | --- | --- |
-| onPath | function([walkPath](../converted/api/interfaces/core_iwalkpath.md#content) object) | called for every path (in every model) in your tree. |
-| beforeChildWalk | function([walkModel](../converted/api/interfaces/core_iwalkmodel.md#content)) | called for every model in your tree, prior to diving deeper down the tree. **Return false if you wish to not dive deeper.** |
-| afterChildWalk | function([walkModel](../converted/api/interfaces/core_iwalkmodel.md#content)) | called for every model in your tree, after returning from a deep dive down the tree. |
+| onPath | function([walkPath](../converted/api/interfaces/core_maker.IWalkPath.md) object) | called for every path (in every model) in your tree. |
+| beforeChildWalk | function([walkModel](../converted/api/interfaces/core_maker.IWalkModel.md)) | called for every model in your tree, prior to diving deeper down the tree. **Return false if you wish to not dive deeper.** |
+| afterChildWalk | function([walkModel](../converted/api/interfaces/core_maker.IWalkModel.md)) | called for every model in your tree, after returning from a deep dive down the tree. |
 
 #### walkPath object
 

@@ -26,8 +26,8 @@ tags:
 - chains
 title: Chain Dogbone
 ---
-A [dogbone fillet](/docs/intermediate-drawing/index.md#dogbone%20fillet) can be added between all line paths in a chain by calling
-[chain.dogbone](../api/modules/core_chain.html#dogbone) with these parameters:
+A [dogbone fillet](../converted/intermediate-drawing/index.md) can be added between all line paths in a chain by calling
+[chain.dogbone](../converted/api/modules/core_chain.md) with these parameters:
 
 * chainToFillet: the chain containing paths which will be modified to have dogbone fillets at their joints.
 * filletRadiusOrFilletRadii: Either of:

@@ -53,13 +53,13 @@ A model is a composite object which may contain a map of paths, or a map of mode
 [paths](#paths)
 [seed](#seed)
 [type](#type)
-[typeName](#typename)
+[typeName](#static-typename)
 
 ### Methods
 
-[computeLength](#computelength)
-[computePoint](#computepoint)
-[getBezierSeeds](#getbezierseeds)
+[computeLength](#computeLength)
+[computePoint](#computePoint)
+[getBezierSeeds](#getBezierSeeds)
 
 ## Constructors
 
@@ -153,7 +153,7 @@ models: [IModelMap](../interfaces/core_schema.IModelMap.md)
 
 Optional map of models within this model.
 
-Implementation of [IModel](../interfaces/core_schema.IModel.md).[models](../interfaces/core_schema.IModel.md#models)
+Implementation of [IModel](../interfaces/core_schema.IModel.md).[models](../interfaces/core_schema.IModel.md#optionalmodels)
 
 * Defined in [models/BezierCurve-esm.ts:377](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/BezierCurve-esm.ts#L377)
 
@@ -163,7 +163,7 @@ origin: [IPoint](../interfaces/core_schema.IPoint.md)
 
 Optional origin location of this model.
 
-Implementation of [IModel](../interfaces/core_schema.IModel.md).[origin](../interfaces/core_schema.IModel.md#origin)
+Implementation of [IModel](../interfaces/core_schema.IModel.md).[origin](../interfaces/core_schema.IModel.md#optionalorigin)
 
 * Defined in [models/BezierCurve-esm.ts:379](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/BezierCurve-esm.ts#L379)
 
@@ -173,7 +173,7 @@ paths: [IPathMap](../interfaces/core_schema.IPathMap.md)
 
 Optional map of path objects in this model.
 
-Implementation of [IModel](../interfaces/core_schema.IModel.md).[paths](../interfaces/core_schema.IModel.md#paths)
+Implementation of [IModel](../interfaces/core_schema.IModel.md).[paths](../interfaces/core_schema.IModel.md#optionalpaths)
 
 * Defined in [models/BezierCurve-esm.ts:378](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/BezierCurve-esm.ts#L378)
 
@@ -189,11 +189,11 @@ type: string = BezierCurve.typeName
 
 A model may want to specify its type, but this value is not employed yet.
 
-Implementation of [IModel](../interfaces/core_schema.IModel.md).[type](../interfaces/core_schema.IModel.md#type)
+Implementation of [IModel](../interfaces/core_schema.IModel.md).[type](../interfaces/core_schema.IModel.md#optionaltype)
 
 * Defined in [models/BezierCurve-esm.ts:380](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/BezierCurve-esm.ts#L380)
 
-### `Static`typeName
+### `Static`typeName {#static-typename}
 
 typeName: string = 'BezierCurve'
 
@@ -201,7 +201,7 @@ typeName: string = 'BezierCurve'
 
 ## Methods
 
-### `Static`computeLength
+### `Static`computeLength {#static-computelength}
 
 * computeLength(seed: [IPathBezierSeed](../interfaces/core_schema.IPathBezierSeed.md)): number
 
@@ -213,7 +213,7 @@ typeName: string = 'BezierCurve'
 
   + Defined in [models/BezierCurve-esm.ts:537](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/BezierCurve-esm.ts#L537)
 
-### `Static`computePoint
+### `Static`computePoint {#static-computepoint}
 
 * computePoint(seed: [IPathBezierSeed](../interfaces/core_schema.IPathBezierSeed.md), t: number): [IPoint](../interfaces/core_schema.IPoint.md)
 
@@ -226,7 +226,7 @@ typeName: string = 'BezierCurve'
 
   + Defined in [models/BezierCurve-esm.ts:542](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/BezierCurve-esm.ts#L542)
 
-### `Static`getBezierSeeds
+### `Static`getBezierSeeds {#static-getbezierseeds}
 
 * getBezierSeeds(
       curve: BezierCurve,
@@ -259,11 +259,11 @@ Constructors
 
 Properties
 
-[accuracy](#accuracy)[models](#models)[origin](#origin)[paths](#paths)[seed](#seed)[type](#type)[typeName](#typename)
+[accuracy](#accuracy)[models](#models)[origin](#origin)[paths](#paths)[seed](#seed)[type](#type)[typeName](#static-typename)
 
 Methods
 
-[computeLength](#computelength)[computePoint](#computepoint)[getBezierSeeds](#getbezierseeds)
+[computeLength](#static-computelength)[computePoint](#static-computepoint)[getBezierSeeds](#static-getbezierseeds)
 
 [Photon](../index.md)
 

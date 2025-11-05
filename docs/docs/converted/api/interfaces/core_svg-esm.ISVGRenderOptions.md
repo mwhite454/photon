@@ -210,23 +210,4 @@ viewBox?: boolean
 
 * Defined in [core/svg-esm.ts:373](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/svg-esm.ts#L373)
 
-### Settings
-
-Member Visibility
-
-* Protected
-* Inherited
-
-ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[accuracy](#accuracy)[annotate](#annotate)[className](#classname)[cssStyle](#cssstyle)[fill](#fill)[fillRule](#fillrule)[flow](#flow)[fontSize](#fontsize)[layerOptions](#layeroptions)[origin](#origin)[scale](#scale)[scalingStroke](#scalingstroke)[stroke](#stroke)[strokeWidth](#strokewidth)[svgAttrs](#svgattrs)[units](#units)[useSvgPathOnly](#usesvgpathonly)[viewBox](#viewbox)
-
-[Photon](../index.md)
-
-* Loading...
-
 Generated using [TypeDoc](https://typedoc.org/)

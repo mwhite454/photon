@@ -34,7 +34,7 @@ Preparing search index...
 Jscad CAG export options.
 
 interface IJscadCagOptions {
-    [accuracy](#accuracy)?: number;
+    [accuracy](#optional-accuracy)?: number;
     [byLayers](#bylayers)?: boolean;
     [maxArcFacet](#maxarcfacet)?: number;
     [pointMatchingDistance](#pointmatchingdistance)?: number;
@@ -54,16 +54,16 @@ interface IJscadCagOptions {
 
 ### Properties
 
-[accuracy?](#accuracy)
-[byLayers?](#bylayers)
-[maxArcFacet?](#maxarcfacet)
-[pointMatchingDistance?](#pointmatchingdistance)
-[statusCallback?](#statuscallback)
-[units?](#units)
+[accuracy?](#optional-accuracy)
+[byLayers?](#optional-bylayers)
+[maxArcFacet?](#optional-maxarcfacet)
+[pointMatchingDistance?](#optional-pointmatchingdistance)
+[statusCallback?](#optional-statuscallback)
+[units?](#optional-units)
 
 ## Properties
 
-### `Optional`accuracy
+### `Optional`accuracy {#optional-accuracy}
 
 accuracy?: number
 
@@ -73,7 +73,7 @@ Inherited from IExportOptions.accuracy
 
 * Defined in [core/exporter.ts:14](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/exporter.ts#L14)
 
-### `Optional`byLayers
+### `Optional`byLayers {#optional-bylayers}
 
 byLayers?: boolean
 
@@ -81,7 +81,7 @@ Flag to separate chains by layers.
 
 * Defined in [core/openjscad-esm.ts:513](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/openjscad-esm.ts#L513)
 
-### `Optional`maxArcFacet
+### `Optional`maxArcFacet {#optional-maxarcfacet}
 
 maxArcFacet?: number
 
@@ -89,7 +89,7 @@ The maximum length between points on an arc or circle.
 
 * Defined in [core/openjscad-esm.ts:518](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/openjscad-esm.ts#L518)
 
-### `Optional`pointMatchingDistance
+### `Optional`pointMatchingDistance {#optional-pointmatchingdistance}
 
 pointMatchingDistance?: number
 
@@ -99,7 +99,7 @@ Inherited from [IPointMatchOptions](core_maker.IPointMatchOptions.md).[pointMatc
 
 * Defined in [core/maker.ts:282](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L282)
 
-### `Optional`statusCallback
+### `Optional`statusCallback {#optional-statuscallback}
 
 statusCallback?: [IStatusCallback](core_openjscad-esm.IStatusCallback.md)
 
@@ -107,7 +107,7 @@ Optional callback to get status during the export.
 
 * Defined in [core/openjscad-esm.ts:523](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/openjscad-esm.ts#L523)
 
-### `Optional`units
+### `Optional`units {#optional-units}
 
 units?: string
 
@@ -130,7 +130,7 @@ ThemeOSLightDark
 
 Properties
 
-[accuracy](#accuracy)[byLayers](#bylayers)[maxArcFacet](#maxarcfacet)[pointMatchingDistance](#pointmatchingdistance)[statusCallback](#statuscallback)[units](#units)
+[accuracy](#optional-accuracy)[byLayers](#optional-bylayers)[maxArcFacet](#optional-maxarcfacet)[pointMatchingDistance](#optional-pointmatchingdistance)[statusCallback](#optional-statuscallback)[units](#optional-units)
 
 [Photon](../index.md)
 

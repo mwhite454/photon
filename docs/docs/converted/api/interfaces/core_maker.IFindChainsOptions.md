@@ -23,13 +23,6 @@ title: IFindChainsOptions | Photon
 ---
 IFindChainsOptions | Photon
 
-[Photon](../index.md)
-
-
-
-
-Preparing search index...
-
 * [core/maker](../modules/core_maker.md)
 * IFindChainsOptions
 
@@ -38,29 +31,22 @@ Preparing search index...
 Options to pass to model.findChains.
 
 interface IFindChainsOptions {
-    [byLayers](#bylayers)?: boolean;
-    [contain](#contain)?: boolean | [IContainChainsOptions](core_maker.IContainChainsOptions.md);
-    [pointMatchingDistance](#pointmatchingdistance)?: number;
-    [shallow](#shallow)?: boolean;
-    [unifyBeziers](#unifybeziers)?: boolean;
+    byLayers?: boolean;
+    contain?: boolean | [IContainChainsOptions](core_maker.IContainChainsOptions.md);
+    pointMatchingDistance?: number;
+    shallow?: boolean;
+    unifyBeziers?: boolean;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.md#core/maker.IFindChainsOptions))
+#### Hierarchy
 
 * [IPointMatchOptions](core_maker.IPointMatchOptions.md)
-  + IFindChainsOptions
 
 * Defined in [core/maker.ts:501](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L501)
 
 ##### Index
 
 ### Properties
-
-[byLayers?](#bylayers)
-[contain?](#contain)
-[pointMatchingDistance?](#pointmatchingdistance)
-[shallow?](#shallow)
-[unifyBeziers?](#unifybeziers)
 
 ## Properties
 
@@ -86,7 +72,7 @@ pointMatchingDistance?: number
 
 Max distance to consider two points as the same.
 
-Inherited from [IPointMatchOptions](core_maker.IPointMatchOptions.md).[pointMatchingDistance](core_maker.IPointMatchOptions.md#pointmatchingdistance)
+Inherited from [IPointMatchOptions](core_maker.IPointMatchOptions.md). pointMatchingDistance
 
 * Defined in [core/maker.ts:282](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L282)
 
@@ -105,30 +91,3 @@ unifyBeziers?: boolean
 Flag to flatten BezierCurve arc segments into IPathBezierSeeds.
 
 * Defined in [core/maker.ts:521](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L521)
-
-### Settings
-
-Member Visibility
-
-* Protected
-* Inherited
-
-ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[byLayers](#bylayers)[contain](#contain)[pointMatchingDistance](#pointmatchingdistance)[shallow](#shallow)[unifyBeziers](#unifybeziers)
-
-[Photon](../index.md)
-
-* Loading...
-
-Generated using [TypeDoc](https://typedoc.org/)
-
-## Related Topics
-
-- [Chain Theory](../index.md)
-- [Breaking](../index.md)
-- [Routes](../index.md)

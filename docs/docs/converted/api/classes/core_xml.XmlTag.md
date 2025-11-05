@@ -41,8 +41,8 @@ Class for an XML tag.
 
 ### Properties
 
-[attrs?](#attrs)
-[closingTags?](#closingtags)
+[attrs?](#optional-attrs)
+[closingTags?](#optional-closingtags)
 [innerText](#innertext)
 [innerTextEscaped](#innertextescaped)
 [name](#name)
@@ -72,13 +72,13 @@ Class for an XML tag.
 
 ## Properties
 
-### `Optional`attrs
+### `Optional`attrs {#optional-attrs}
 
 attrs?: [IXmlTagAttrs](../interfaces/core_xml.IXmlTagAttrs.md)
 
 * Defined in [core/xml.ts:34](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/xml.ts#L34)
 
-### `Optional`closingTags
+### `Optional`closingTags {#optional-closingtags}
 
 closingTags?: boolean
 
@@ -154,7 +154,7 @@ name: string
 
   + Defined in [core/xml.ts:77](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/xml.ts#L77)
 
-### `Static`escapeString
+### `Static`escapeString {#static-escapestring}
 
 * escapeString(value: string): string
 
@@ -185,11 +185,11 @@ Constructors
 
 Properties
 
-[attrs](#attrs)[closingTags](#closingtags)[innerText](#innertext)[innerTextEscaped](#innertextescaped)[name](#name)
+[attrs](#optional-attrs)[closingTags](#optional-closingtags)[innerText](#innertext)[innerTextEscaped](#innertextescaped)[name](#name)
 
 Methods
 
-[getClosingTag](#getclosingtag)[getInnerText](#getinnertext)[getOpeningTag](#getopeningtag)[toString](#tostring)[escapeString](#escapestring)
+[getClosingTag](#getclosingtag)[getInnerText](#getinnertext)[getOpeningTag](#getopeningtag)[toString](#tostring)[escapeString](#static-escapestring)
 
 [Photon](../index.md)
 

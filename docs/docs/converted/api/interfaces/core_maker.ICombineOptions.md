@@ -21,11 +21,6 @@ ICombineOptions | Photon
 
 [Photon](../index.md)
 
-
-
-
-Preparing search index...
-
 * [core/maker](../modules/core_maker.md)
 * ICombineOptions
 
@@ -34,31 +29,20 @@ Preparing search index...
 Options to pass to model.combine.
 
 interface ICombineOptions {
-    [farPoint](#farpoint)?: [IPoint](core_schema.IPoint.md);
-    [measureA](#measurea)?: any;
-    [measureB](#measureb)?: any;
-    [out\_deleted](#out_deleted)?: [IModel](core_schema.IModel.md)[];
-    [pointMatchingDistance](#pointmatchingdistance)?: number;
-    [trimDeadEnds](#trimdeadends)?: boolean;
+    farPoint?: [IPoint](core_schema.IPoint.md);
+    measureA?: any;
+    measureB?: any;
+    out_deleted?: [IModel](core_schema.IModel.md)[];
+    pointMatchingDistance?: number;
+    trimDeadEnds?: boolean;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.md#core/maker.ICombineOptions))
+#### Hierarchy
 
 * [IPointMatchOptions](core_maker.IPointMatchOptions.md)
   + ICombineOptions
 
 * Defined in [core/maker.ts:288](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L288)
-
-##### Index
-
-### Properties
-
-[farPoint?](#farpoint)
-[measureA?](#measurea)
-[measureB?](#measureb)
-[out\_deleted?](#out_deleted)
-[pointMatchingDistance?](#pointmatchingdistance)
-[trimDeadEnds?](#trimdeadends)
 
 ## Properties
 
@@ -86,9 +70,9 @@ Cached measurements for model B.
 
 * Defined in [core/maker.ts:308](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L308)
 
-### `Optional`out\_deleted
+### `Optional`out_deleted
 
-out\_deleted?: [IModel](core_schema.IModel.md)[]
+out_deleted?: [IModel](core_schema.IModel.md)[]
 
 Output array of 2 models (corresponding to the input models) containing paths that were deleted in the combination.
 Each path will be of type IPathRemoved, which has a .reason property describing why it was removed.
@@ -101,7 +85,7 @@ pointMatchingDistance?: number
 
 Max distance to consider two points as the same.
 
-Inherited from [IPointMatchOptions](core_maker.IPointMatchOptions.md).[pointMatchingDistance](core_maker.IPointMatchOptions.md#pointmatchingdistance)
+Inherited from [IPointMatchOptions](core_maker.IPointMatchOptions.md). pointMatchingDistance
 
 * Defined in [core/maker.ts:282](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L282)
 
@@ -112,24 +96,3 @@ trimDeadEnds?: boolean
 Flag to remove paths which are not part of a loop.
 
 * Defined in [core/maker.ts:293](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L293)
-
-### Settings
-
-Member Visibility
-
-* Protected
-* Inherited
-
-ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[farPoint](#farpoint)[measureA](#measurea)[measureB](#measureb)[out\_deleted](#out_deleted)[pointMatchingDistance](#pointmatchingdistance)[trimDeadEnds](#trimdeadends)
-
-[Photon](../index.md)
-
-* Loading...
-
-Generated using [TypeDoc](https://typedoc.org/)

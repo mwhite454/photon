@@ -34,14 +34,13 @@ Preparing search index...
 Options to pass to model.findLoops.
 
 interface IFindLoopsOptions {
-    [pointMatchingDistance](#pointmatchingdistance)?: number;
-    [removeFromOriginal](#removefromoriginal)?: boolean;
+    pointMatchingDistance?: number;
+    removeFromOriginal?: boolean;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.md#core/maker.IFindLoopsOptions))
+#### Hierarchy
 
 * [IPointMatchOptions](core_maker.IPointMatchOptions.md)
-  + IFindLoopsOptions
     - [IOpenJsCadOptions](core_openjscad-esm.IOpenJsCadOptions.md)
 
 * Defined in [core/maker.ts:331](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L331)
@@ -49,9 +48,6 @@ interface IFindLoopsOptions {
 ##### Index
 
 ### Properties
-
-[pointMatchingDistance?](#pointmatchingdistance)
-[removeFromOriginal?](#removefromoriginal)
 
 ## Properties
 
@@ -61,7 +57,7 @@ pointMatchingDistance?: number
 
 Max distance to consider two points as the same.
 
-Inherited from [IPointMatchOptions](core_maker.IPointMatchOptions.md).[pointMatchingDistance](core_maker.IPointMatchOptions.md#pointmatchingdistance)
+Inherited from [IPointMatchOptions](core_maker.IPointMatchOptions.md). pointMatchingDistance
 
 * Defined in [core/maker.ts:282](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L282)
 
@@ -81,12 +77,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[pointMatchingDistance](#pointmatchingdistance)[removeFromOriginal](#removefromoriginal)
 
 [Photon](../index.md)
 

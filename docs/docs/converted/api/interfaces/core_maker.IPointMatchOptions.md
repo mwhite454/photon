@@ -33,13 +33,12 @@ Preparing search index...
 Options when matching points
 
 interface IPointMatchOptions {
-    [pointMatchingDistance](#pointmatchingdistance)?: number;
+    pointMatchingDistance?: number;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.md#core/maker.IPointMatchOptions))
+#### Hierarchy
 
 * IPointMatchOptions
-  + [IDXFRenderOptions](core_dxf.IDXFRenderOptions.md)
   + [ICombineOptions](core_maker.ICombineOptions.md)
   + [IFindLoopsOptions](core_maker.IFindLoopsOptions.md)
   + [ISimplifyOptions](core_maker.ISimplifyOptions.md)
@@ -52,7 +51,6 @@ interface IPointMatchOptions {
 
 ### Properties
 
-[pointMatchingDistance?](#pointmatchingdistance)
 
 ## Properties
 
@@ -72,12 +70,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[pointMatchingDistance](#pointmatchingdistance)
 
 [Photon](../index.md)
 

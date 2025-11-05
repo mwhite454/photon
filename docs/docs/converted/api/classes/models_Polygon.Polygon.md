@@ -51,8 +51,8 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
 ### Methods
 
-[circumscribedRadius](#circumscribedradius)
-[getPoints](#getpoints)
+[circumscribedRadius](#static-circumscribedradius)
+[getPoints](#static-getpoints)
 
 ## Constructors
 
@@ -84,13 +84,13 @@ paths: [IPathMap](../interfaces/core_schema.IPathMap.md) = {}
 
 Optional map of path objects in this model.
 
-Implementation of [IModel](../interfaces/core_schema.IModel.md).[paths](../interfaces/core_schema.IModel.md#paths)
+Implementation of [IModel](../interfaces/core_schema.IModel.md).[paths](../interfaces/core_schema.IModel.md#optionalpaths)
 
 * Defined in [models/Polygon.ts:8](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Polygon.ts#L8)
 
 ## Methods
 
-### `Static`circumscribedRadius
+### `Static`circumscribedRadius {#static-circumscribedradius}
 
 * circumscribedRadius(radius: number, angleInRadians: number): number
 
@@ -103,7 +103,7 @@ Implementation of [IModel](../interfaces/core_schema.IModel.md).[paths](../inter
 
   + Defined in [models/Polygon.ts:14](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Polygon.ts#L14)
 
-### `Static`getPoints
+### `Static`getPoints {#static-getpoints}
 
 * getPoints(
       numberOfSides: number,
@@ -144,7 +144,7 @@ Properties
 
 Methods
 
-[circumscribedRadius](#circumscribedradius)[getPoints](#getpoints)
+[circumscribedRadius](#static-circumscribedradius)[getPoints](#static-getpoints)
 
 [Photon](../index.md)
 

@@ -33,15 +33,15 @@ Preparing search index...
 DXF rendering options.
 
 interface IDXFRenderOptions {
-    [accuracy](#accuracy)?: number;
-    [fontSize](#fontsize)?: number;
-    [layerOptions](#layeroptions)?: { [layerId: string]: [IDXFLayerOptions](core_dxf.IDXFLayerOptions.md) };
-    [pointMatchingDistance](#pointmatchingdistance)?: number;
-    [units](#units)?: string;
-    [usePOLYLINE](#usepolyline)?: boolean;
+    accuracy?: number;
+    fontSize?: number;
+    layerOptions?: { [layerId: string]: [IDXFLayerOptions](core_dxf.IDXFLayerOptions.md) };
+    pointMatchingDistance?: number;
+    units?: string;
+    usePOLYLINE?: boolean;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.md#core/dxf.IDXFRenderOptions))
+#### Hierarchy
 
 * [IPointMatchOptions](core_maker.IPointMatchOptions.md)
   + IDXFRenderOptions
@@ -52,12 +52,6 @@ interface IDXFRenderOptions {
 
 ### Properties
 
-[accuracy?](#accuracy)
-[fontSize?](#fontsize)
-[layerOptions?](#layeroptions)
-[pointMatchingDistance?](#pointmatchingdistance)
-[units?](#units)
-[usePOLYLINE?](#usepolyline)
 
 ## Properties
 
@@ -123,12 +117,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[accuracy](#accuracy)[fontSize](#fontsize)[layerOptions](#layeroptions)[pointMatchingDistance](#pointmatchingdistance)[units](#units)[usePOLYLINE](#usepolyline)
 
 [Photon](../index.md)
 

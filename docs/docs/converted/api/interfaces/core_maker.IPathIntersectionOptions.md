@@ -24,11 +24,6 @@ IPathIntersectionOptions | Photon
 
 [Photon](../index.md)
 
-
-
-
-Preparing search index...
-
 * [core/maker](../modules/core_maker.md)
 * IPathIntersectionOptions
 
@@ -37,10 +32,10 @@ Preparing search index...
 Options to pass to path.intersection()
 
 interface IPathIntersectionOptions {
-    [excludeTangents](#excludetangents)?: boolean;
-    [out\_AreOverlapped](#out_areoverlapped)?: boolean;
-    [path1Offset](#path1offset)?: [IPoint](core_schema.IPoint.md);
-    [path2Offset](#path2offset)?: [IPoint](core_schema.IPoint.md);
+     excludeTangents?: boolean;
+     out_AreOverlapped?: boolean;
+     path1Offset?: [IPoint](core_schema.IPoint.md);
+     path2Offset?: [IPoint](core_schema.IPoint.md);
 }
 
 #### Hierarchy ([View Summary](../hierarchy.md#core/maker.IPathIntersectionOptions))
@@ -92,27 +87,6 @@ path2Offset?: [IPoint](core_schema.IPoint.md)
 Optional output variable which will be set to true if the paths are overlapped.
 
 * Defined in [core/maker.ts:246](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L246)
-
-### Settings
-
-Member Visibility
-
-* Protected
-* Inherited
-
-ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[excludeTangents](#excludetangents)[out\_AreOverlapped](#out_areoverlapped)[path1Offset](#path1offset)[path2Offset](#path2offset)
-
-[Photon](../index.md)
-
-* Loading...
-
-Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 

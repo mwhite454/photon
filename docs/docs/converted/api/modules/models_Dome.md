@@ -23,10 +23,6 @@ title: models/Dome | Photon
 models/Dome | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * models/Dome

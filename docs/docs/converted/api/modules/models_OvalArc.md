@@ -23,10 +23,6 @@ title: models/OvalArc | Photon
 models/OvalArc | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * models/OvalArc

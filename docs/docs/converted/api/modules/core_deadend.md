@@ -19,10 +19,6 @@ title: core/deadend | Photon
 core/deadend | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * core/deadend

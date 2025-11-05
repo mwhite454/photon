@@ -23,10 +23,6 @@ title: models/ConnectTheDots | Photon
 models/ConnectTheDots | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * models/ConnectTheDots

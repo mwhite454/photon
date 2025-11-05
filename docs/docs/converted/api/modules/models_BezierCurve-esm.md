@@ -23,10 +23,6 @@ title: models/BezierCurve-esm | Photon
 models/BezierCurve-esm | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * models/BezierCurve-esm
@@ -36,8 +32,6 @@ Preparing search index...
 ## Classes
 
 [BezierCurve](../classes/models_BezierCurve-esm.BezierCurve.md)
-
-
 [BezierSeed](../classes/models_BezierCurve-esm.BezierSeed.md)
 
 ### Settings

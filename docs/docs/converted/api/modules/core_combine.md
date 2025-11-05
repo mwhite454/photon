@@ -20,10 +20,6 @@ title: core/combine | Photon
 core/combine | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * core/combine
@@ -33,20 +29,10 @@ Preparing search index...
 ## Functions
 
 [breakPathsAtIntersections](../functions/core_combine.breakPathsAtIntersections.md)
-
-
 [combine](../functions/core_combine.combine.md)
-
-
 [combineIntersection](../functions/core_combine.combineIntersection.md)
-
-
 [combineSubtraction](../functions/core_combine.combineSubtraction.md)
-
-
 [combineUnion](../functions/core_combine.combineUnion.md)
-
-
 [isPathInsideModel](../functions/core_combine.isPathInsideModel.md)
 
 ### Settings

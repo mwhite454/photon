@@ -23,10 +23,6 @@ title: core/fillet-core | Photon
 core/fillet-core | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * core/fillet-core

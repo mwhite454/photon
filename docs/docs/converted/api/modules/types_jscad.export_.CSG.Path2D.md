@@ -26,10 +26,6 @@ title: Path2D | Photon
 Path2D | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * [types/jscad](types_jscad.md)

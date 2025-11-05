@@ -23,10 +23,6 @@ title: models/Slot | Photon
 models/Slot | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * models/Slot

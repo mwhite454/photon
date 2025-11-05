@@ -23,10 +23,6 @@ title: models/Belt | Photon
 models/Belt | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * models/Belt

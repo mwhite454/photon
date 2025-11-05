@@ -20,10 +20,6 @@ title: core/svg-esm | Photon
 core/svg-esm | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * core/svg-esm
@@ -33,23 +29,11 @@ Preparing search index...
 ## Interfaces
 
 [IFlowAnnotation](../interfaces/core_svg-esm.IFlowAnnotation.md)
-
-
 [IPathDataByLayerMap](../interfaces/core_svg-esm.IPathDataByLayerMap.md)
-
-
 [ISVGElementRenderOptions](../interfaces/core_svg-esm.ISVGElementRenderOptions.md)
-
-
 [ISVGImportOptions](../interfaces/core_svg-esm.ISVGImportOptions.md)
-
-
 [ISVGPathDataRenderOptions](../interfaces/core_svg-esm.ISVGPathDataRenderOptions.md)
-
-
 [ISVGRenderOptions](../interfaces/core_svg-esm.ISVGRenderOptions.md)
-
-
 [SvgUnitConversion](../interfaces/core_svg-esm.SvgUnitConversion.md)
 
 ## Variables
@@ -59,11 +43,7 @@ Preparing search index...
 ## Functions
 
 [fromSVGPathData](../functions/core_svg-esm.fromSVGPathData.md)
-
-
 [toSVG](../functions/core_svg-esm.toSVG.md)
-
-
 [toSVGPathData](../functions/core_svg-esm.toSVGPathData.md)
 
 ### Settings

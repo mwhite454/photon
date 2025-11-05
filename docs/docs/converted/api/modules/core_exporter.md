@@ -24,10 +24,6 @@ title: core/exporter | Photon
 core/exporter | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * core/exporter
@@ -37,8 +33,6 @@ Preparing search index...
 ## Interfaces
 
 [IJsonExportOptions](../interfaces/core_exporter.IJsonExportOptions.md)
-
-
 [IStatusCallback](../interfaces/core_exporter.IStatusCallback.md)
 
 ## Variables

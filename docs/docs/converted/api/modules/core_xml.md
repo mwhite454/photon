@@ -18,10 +18,6 @@ title: core/xml | Photon
 core/xml | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * core/xml

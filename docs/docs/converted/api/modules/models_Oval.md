@@ -23,10 +23,6 @@ title: models/Oval | Photon
 models/Oval | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * models/Oval

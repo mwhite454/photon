@@ -23,10 +23,6 @@ title: export= | Photon
 export= | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * [types/jscad](types_jscad.md)
@@ -45,8 +41,6 @@ without requiring the actual library at compile time.
 ## Classes
 
 [CAG](../classes/types_jscad.export_.CAG.md)
-
-
 [CSG](../classes/types_jscad.export_.CSG.md)
 
 ## References

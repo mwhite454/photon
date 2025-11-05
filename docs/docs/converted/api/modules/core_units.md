@@ -19,10 +19,6 @@ title: core/units | Photon
 core/units | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * core/units
@@ -32,8 +28,6 @@ Preparing search index...
 ## Functions
 
 [conversionScale](../functions/core_units.conversionScale.md)
-
-
 [isValidUnit](../functions/core_units.isValidUnit.md)
 
 ### Settings

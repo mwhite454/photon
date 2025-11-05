@@ -19,10 +19,6 @@ title: core/break | Photon
 core/break | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * core/break

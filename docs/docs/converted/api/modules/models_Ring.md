@@ -23,10 +23,6 @@ title: models/Ring | Photon
 models/Ring | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * models/Ring

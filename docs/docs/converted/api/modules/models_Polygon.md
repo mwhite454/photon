@@ -23,10 +23,6 @@ title: models/Polygon | Photon
 models/Polygon | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * models/Polygon

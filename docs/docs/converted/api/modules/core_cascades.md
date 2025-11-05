@@ -20,10 +20,6 @@ title: core/cascades | Photon
 core/cascades | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * core/cascades

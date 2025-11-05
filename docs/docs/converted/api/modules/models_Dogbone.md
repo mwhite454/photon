@@ -23,10 +23,6 @@ title: models/Dogbone | Photon
 models/Dogbone | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * models/Dogbone

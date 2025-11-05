@@ -23,10 +23,6 @@ title: models/Text | Photon
 models/Text | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * models/Text

@@ -23,10 +23,6 @@ title: models/Square | Photon
 models/Square | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * models/Square

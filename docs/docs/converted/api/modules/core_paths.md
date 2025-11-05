@@ -23,10 +23,6 @@ title: core/paths | Photon
 core/paths | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * core/paths
@@ -36,17 +32,9 @@ Preparing search index...
 ## Classes
 
 [Arc](../classes/core_paths.Arc.md)
-
-
 [Chord](../classes/core_paths.Chord.md)
-
-
 [Circle](../classes/core_paths.Circle.md)
-
-
 [Line](../classes/core_paths.Line.md)
-
-
 [Parallel](../classes/core_paths.Parallel.md)
 
 ### Settings

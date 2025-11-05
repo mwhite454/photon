@@ -23,10 +23,6 @@ title: models/Star | Photon
 models/Star | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * models/Star

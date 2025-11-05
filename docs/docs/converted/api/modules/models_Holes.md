@@ -23,10 +23,6 @@ title: models/Holes | Photon
 models/Holes | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * models/Holes

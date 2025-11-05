@@ -23,10 +23,6 @@ title: core/chain | Photon
 core/chain | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * core/chain
@@ -36,26 +32,12 @@ Preparing search index...
 ## Functions
 
 [cycle](../functions/core_chain.cycle.md)
-
-
 [findChains](../functions/core_chain.findChains.md)
-
-
 [findSingleChain](../functions/core_chain.findSingleChain.md)
-
-
 [reverse](../functions/core_chain.reverse.md)
-
-
 [startAt](../functions/core_chain.startAt.md)
-
-
 [toKeyPoints](../functions/core_chain.toKeyPoints.md)
-
-
 [toNewModel](../functions/core_chain.toNewModel.md)
-
-
 [toPoints](../functions/core_chain.toPoints.md)
 
 ### Settings

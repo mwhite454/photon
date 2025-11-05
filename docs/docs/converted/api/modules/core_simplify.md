@@ -19,10 +19,6 @@ title: core/simplify | Photon
 core/simplify | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * core/simplify

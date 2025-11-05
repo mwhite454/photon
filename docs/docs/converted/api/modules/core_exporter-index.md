@@ -26,10 +26,6 @@ title: core/exporter-index | Photon
 core/exporter-index | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * core/exporter-index
@@ -39,20 +35,10 @@ Preparing search index...
 ## References
 
 colors → [colors](../variables/core_exporter.colors.md)
-
-
 IJsonExportOptions → [IJsonExportOptions](../interfaces/core_exporter.IJsonExportOptions.md)
-
-
 IStatusCallback → [IStatusCallback](../interfaces/core_exporter.IStatusCallback.md)
-
-
 toJson → [toJson](../functions/core_exporter.toJson.md)
-
-
 toSVG → [toSVG](../functions/core_svg-esm.toSVG.md)
-
-
 toSVGPathData → [toSVGPathData](../functions/core_svg-esm.toSVGPathData.md)
 
 ### Settings

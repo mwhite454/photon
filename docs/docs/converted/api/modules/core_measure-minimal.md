@@ -20,10 +20,6 @@ title: core/measure-minimal | Photon
 core/measure-minimal | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * core/measure-minimal
@@ -33,23 +29,11 @@ Preparing search index...
 ## Functions
 
 [augment](../functions/core_measure-minimal.augment.md)
-
-
 [isBezierSeedLinear](../functions/core_measure-minimal.isBezierSeedLinear.md)
-
-
 [lineSlope](../functions/core_measure-minimal.lineSlope.md)
-
-
 [modelExtents](../functions/core_measure-minimal.modelExtents.md)
-
-
 [pathExtents](../functions/core_measure-minimal.pathExtents.md)
-
-
 [pathLength](../functions/core_measure-minimal.pathLength.md)
-
-
 [pointDistance](../functions/core_measure-minimal.pointDistance.md)
 
 ## References

@@ -19,10 +19,6 @@ title: MakerJs | Photon
 MakerJs | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * [core/cascades](core_cascades.md)
@@ -33,14 +29,8 @@ Preparing search index...
 ## Interfaces
 
 [ICascade](../interfaces/core_cascades.MakerJs.ICascade.md)
-
-
 [ICascadeModel](../interfaces/core_cascades.MakerJs.ICascadeModel.md)
-
-
 [ICascadePath](../interfaces/core_cascades.MakerJs.ICascadePath.md)
-
-
 [ICascadePoint](../interfaces/core_cascades.MakerJs.ICascadePoint.md)
 
 ### Settings

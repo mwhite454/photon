@@ -24,10 +24,6 @@ title: core/fillet-chain | Photon
 core/fillet-chain | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * core/fillet-chain
@@ -37,8 +33,6 @@ Preparing search index...
 ## Functions
 
 [chainDogbone](../functions/core_fillet-chain.chainDogbone.md)
-
-
 [chainFillet](../functions/core_fillet-chain.chainFillet.md)
 
 ### Settings

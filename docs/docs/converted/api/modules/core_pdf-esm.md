@@ -18,10 +18,6 @@ title: core/pdf-esm | Photon
 core/pdf-esm | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * core/pdf-esm

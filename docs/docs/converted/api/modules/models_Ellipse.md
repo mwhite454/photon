@@ -23,10 +23,6 @@ title: models/Ellipse | Photon
 models/Ellipse | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * models/Ellipse
@@ -36,8 +32,6 @@ Preparing search index...
 ## Classes
 
 [Ellipse](../classes/models_Ellipse.Ellipse.md)
-
-
 [EllipticArc](../classes/models_Ellipse.EllipticArc.md)
 
 ### Settings

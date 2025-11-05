@@ -19,10 +19,6 @@ title: core/angle | Photon
 core/angle | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * core/angle
@@ -36,35 +32,15 @@ Preparing search index...
 ## Functions
 
 [mirror](../functions/core_angle.mirror.md)
-
-
 [noRevolutions](../functions/core_angle.noRevolutions.md)
-
-
 [ofArcEnd](../functions/core_angle.ofArcEnd.md)
-
-
 [ofArcMiddle](../functions/core_angle.ofArcMiddle.md)
-
-
 [ofArcSpan](../functions/core_angle.ofArcSpan.md)
-
-
 [ofChainLinkJoint](../functions/core_angle.ofChainLinkJoint.md)
-
-
 [ofLineInDegrees](../functions/core_angle.ofLineInDegrees.md)
-
-
 [ofPointInDegrees](../functions/core_angle.ofPointInDegrees.md)
-
-
 [ofPointInRadians](../functions/core_angle.ofPointInRadians.md)
-
-
 [toDegrees](../functions/core_angle.toDegrees.md)
-
-
 [toRadians](../functions/core_angle.toRadians.md)
 
 ### Settings

@@ -23,10 +23,6 @@ title: models/SCurve | Photon
 models/SCurve | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * models/SCurve

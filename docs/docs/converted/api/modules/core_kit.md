@@ -18,10 +18,6 @@ title: core/kit | Photon
 core/kit | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * core/kit
@@ -31,8 +27,6 @@ Preparing search index...
 ## Functions
 
 [construct](../functions/core_kit.construct.md)
-
-
 [getParameterValues](../functions/core_kit.getParameterValues.md)
 
 ### Settings

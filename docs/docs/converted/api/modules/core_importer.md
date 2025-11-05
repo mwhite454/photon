@@ -20,10 +20,6 @@ title: core/importer | Photon
 core/importer | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * core/importer

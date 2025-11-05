@@ -23,10 +23,6 @@ title: models/BoltCircle | Photon
 models/BoltCircle | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * models/BoltCircle

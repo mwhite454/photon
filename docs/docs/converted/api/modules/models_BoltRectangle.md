@@ -23,10 +23,6 @@ title: models/BoltRectangle | Photon
 models/BoltRectangle | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * models/BoltRectangle

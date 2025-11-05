@@ -24,10 +24,6 @@ title: core/fillet-path | Photon
 core/fillet-path | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * core/fillet-path
@@ -37,8 +33,6 @@ Preparing search index...
 ## Functions
 
 [pathDogbone](../functions/core_fillet-path.pathDogbone.md)
-
-
 [pathFillet](../functions/core_fillet-path.pathFillet.md)
 
 ### Settings

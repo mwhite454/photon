@@ -18,10 +18,6 @@ title: core/dxf | Photon
 core/dxf | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * core/dxf
@@ -31,8 +27,6 @@ Preparing search index...
 ## Interfaces
 
 [IDXFLayerOptions](../interfaces/core_dxf.IDXFLayerOptions.md)
-
-
 [IDXFRenderOptions](../interfaces/core_dxf.IDXFRenderOptions.md)
 
 ## Functions

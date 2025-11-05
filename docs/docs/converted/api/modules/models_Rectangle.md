@@ -23,10 +23,6 @@ title: models/Rectangle | Photon
 models/Rectangle | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * models/Rectangle

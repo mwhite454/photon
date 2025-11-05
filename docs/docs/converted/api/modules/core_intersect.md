@@ -19,10 +19,6 @@ title: core/intersect | Photon
 core/intersect | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * core/intersect

@@ -20,9 +20,6 @@ Parallel | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/paths](../modules/core_paths.md)
@@ -58,13 +55,13 @@ Any point to determine which side of the line to place the parallel.
 
   #### Parameters
 
-  + toLine: [IPathLine](../interfaces/core_schema.IPathLine.md)
-  + distance: number
-  + nearPoint: [IPoint](../interfaces/core_schema.IPoint.md)
+  * toLine: [IPathLine](../interfaces/core_schema.IPathLine.md)
+  * distance: number
+  * nearPoint: [IPoint](../interfaces/core_schema.IPoint.md)
 
   #### Returns Parallel
 
-  + Defined in [core/paths.ts:377](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/paths.ts#L377)
+  * Defined in [core/paths.ts:377](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/paths.ts#L377)
 
 ## Properties
 

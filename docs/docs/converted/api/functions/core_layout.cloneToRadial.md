@@ -31,9 +31,6 @@ cloneToRadial | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/layout](../modules/core_layout.md)
@@ -45,8 +42,7 @@ Preparing search index...
 
 Before working with this feature, you should be familiar with:
 
-- [Intermediate Drawing](../index.md)
-
+* [Intermediate Drawing](../index.md)
 
 * cloneToRadial(
       itemToClone: [IPath](../interfaces/core_schema.IPath.md) | [IModel](../interfaces/core_schema.IModel.md),
@@ -75,20 +71,20 @@ Before working with this feature, you should be familiar with:
 
   #### Parameters
 
-  + itemToClone: [IPath](../interfaces/core_schema.IPath.md) | [IModel](../interfaces/core_schema.IModel.md)
-  + count: number
+  * itemToClone: [IPath](../interfaces/core_schema.IPath.md) | [IModel](../interfaces/core_schema.IModel.md)
+  * count: number
 
     Number of clones in the radial result.
-  + angleInDegrees: number
+  * angleInDegrees: number
 
     angle of rotation between clones..
-  + `Optional`rotationOrigin: [IPoint](../interfaces/core_schema.IPoint.md)
+  * `Optional`rotationOrigin: [IPoint](../interfaces/core_schema.IPoint.md)
 
   #### Returns [IModel](../interfaces/core_schema.IModel.md)
 
   A new model with clones in a radial format.
 
-  + Defined in [core/layout.ts:281](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/layout.ts#L281)
+  * Defined in [core/layout.ts:281](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/layout.ts#L281)
 
 ### Settings
 
@@ -107,7 +103,7 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Moving](../index.md)
-- [Scaling](../index.md)
-- [Rotating](../index.md)
-- [Intermediate Drawing](../index.md)
+* [Moving](../index.md)
+* [Scaling](../index.md)
+* [Rotating](../index.md)
+* [Intermediate Drawing](../index.md)

@@ -24,9 +24,6 @@ toJscadCAG | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/openjscad-esm](../modules/core_openjscad-esm.md)
@@ -55,19 +52,19 @@ Preparing search index...
 
   #### Parameters
 
-  + jscadCAG: typeof [CAG](../classes/types_jscad.export_.CAG.md)
+  * jscadCAG: typeof [CAG](../classes/types_jscad.export_.CAG.md)
 
     @jscad/csg CAG engine, see <https://www.npmjs.com/package/@jscad/csg>
-  + modelToExport: [IModel](../interfaces/core_schema.IModel.md)
+  * modelToExport: [IModel](../interfaces/core_schema.IModel.md)
 
     Model object to export.
-  + `Optional`jsCadCagOptions: [IJscadCagOptions](../interfaces/core_openjscad-esm.IJscadCagOptions.md)
+  * `Optional`jsCadCagOptions: [IJscadCagOptions](../interfaces/core_openjscad-esm.IJscadCagOptions.md)
 
   #### Returns [CAG](../classes/types_jscad.export_.CAG.md) | { [layerId: string]: [CAG](../classes/types_jscad.export_.CAG.md) }
 
   jscad CAG object in 2D, or a map (keyed by layer id) of jscad CAG objects - if options.byLayers is true.
 
-  + Defined in [core/openjscad-esm.ts:275](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/openjscad-esm.ts#L275)
+  * Defined in [core/openjscad-esm.ts:275](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/openjscad-esm.ts#L275)
 
 ### Settings
 

@@ -21,9 +21,6 @@ Belt | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [models/Belt](../modules/models_Belt.md)
@@ -47,13 +44,13 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
   #### Parameters
 
-  + leftRadius: number
-  + distance: number
-  + rightRadius: number
+  * leftRadius: number
+  * distance: number
+  * rightRadius: number
 
   #### Returns Belt
 
-  + Defined in [models/Belt.ts:10](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Belt.ts#L10)
+  * Defined in [models/Belt.ts:10](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Belt.ts#L10)
 
 ## Properties
 

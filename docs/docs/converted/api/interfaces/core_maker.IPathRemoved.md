@@ -23,9 +23,6 @@ IPathRemoved | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/maker](../modules/core_maker.md)
@@ -46,7 +43,7 @@ interface IPathRemoved {
 #### Hierarchy ([View Summary](../hierarchy.md))
 
 * [IPath](core_schema.IPath.md)
-  + IPathRemoved
+  * IPathRemoved
 
 * Defined in [core/maker.ts:174](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L174)
 
@@ -111,6 +108,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Path Independence](../index.md)
-- [Models](../index.md)
-- [Path Constructors](../index.md)
+* [Path Independence](../index.md)
+* [Models](../index.md)
+* [Path Constructors](../index.md)

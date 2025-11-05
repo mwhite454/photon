@@ -43,8 +43,10 @@ document.write(svg);
 const chain = model.findSingleChain(model);
 document.write(`found a chain with ${chain}`.links.length + ` links and endless=${chain}`.endless);
 ```
+
 Now, let's combine two rectangle models in a union.
 Notice that a chain will continue unconstrained by the fact that the two rectangle models are independent:
+
 ```javascript
 //combine 2 rectangles
 import { exporter, model, models } from '@7syllable/photon-core';

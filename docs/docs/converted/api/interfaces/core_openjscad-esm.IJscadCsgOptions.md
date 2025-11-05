@@ -22,9 +22,6 @@ IJscadCsgOptions | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/openjscad-esm](../modules/core_openjscad-esm.md)
@@ -50,8 +47,8 @@ interface IJscadCsgOptions {
 
 * [IJscadCagOptions](core_openjscad-esm.IJscadCagOptions.md)
 * [IJscadExtrudeOptions](core_openjscad-esm.IJscadExtrudeOptions.md)
-  + IJscadCsgOptions
-    - [IJscadScriptOptions](core_openjscad-esm.IJscadScriptOptions.md)
+  * IJscadCsgOptions
+    * [IJscadScriptOptions](core_openjscad-esm.IJscadScriptOptions.md)
 
 * Defined in [core/openjscad-esm.ts:544](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/openjscad-esm.ts#L544)
 

@@ -26,7 +26,6 @@ title: Originating
 A path within a model is referenced relatively to its parent model. There may be times when you want all objects to be within the same coordinate space.
 Let's create a simple demonstration model:
 
-
 ## Examples
 
 ```javascript

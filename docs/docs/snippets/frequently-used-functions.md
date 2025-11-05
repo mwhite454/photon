@@ -21,7 +21,7 @@ title: Frequently Used Functions
 ---
 It's good to be aware of these functions which apply to many drawing scenarios. Also, browse the APIs of each module for lesser used specialized functions.
 
-#### Functions for working with points in the [makerjs.point](../converted/api/modules/core_point.md) module:
+#### Functions for working with points in the [makerjs.point](../converted/api/modules/core_point.md) module
 
 * [point.add](../converted/api/functions/core_point.add.md)
 
@@ -51,7 +51,7 @@ It's good to be aware of these functions which apply to many drawing scenarios. 
 
   Return the two end points of a given path (null if path is a circle).
 
-#### Functions for working with angles in the [makerjs.angle](../converted/api/modules/core_angle.md) module:
+#### Functions for working with angles in the [makerjs.angle](../converted/api/modules/core_angle.md) module
 
 * [angle.toDegrees](../converted/api/functions/core_angle.toDegrees.md)
 
@@ -75,7 +75,7 @@ It's good to be aware of these functions which apply to many drawing scenarios. 
 
   Given an arc, returns total angle span between its start and end angles.
 
-#### Functions for working with measurements in the [makerjs.measure](../converted/api/modules/core_measure.md) module:
+#### Functions for working with measurements in the [makerjs.measure](../converted/api/modules/core_measure.md) module
 
 * [measure.pointDistance](../converted/api/functions/core_measure.pointDistance.md)
 

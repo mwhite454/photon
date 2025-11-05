@@ -21,9 +21,6 @@ IJscadCagOptions | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/openjscad-esm](../modules/core_openjscad-esm.md)
@@ -45,8 +42,8 @@ interface IJscadCagOptions {
 #### Hierarchy ([View Summary](../hierarchy.md))
 
 * [IPointMatchOptions](core_maker.IPointMatchOptions.md)
-  + IJscadCagOptions
-    - [IJscadCsgOptions](core_openjscad-esm.IJscadCsgOptions.md)
+  * IJscadCagOptions
+    * [IJscadCsgOptions](core_openjscad-esm.IJscadCsgOptions.md)
 
 * Defined in [core/openjscad-esm.ts:509](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/openjscad-esm.ts#L509)
 

@@ -24,9 +24,6 @@ IModelPathCallback | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/maker](../modules/core_maker.md)
@@ -44,13 +41,13 @@ Callback signature for model.walkPaths().
 
   #### Parameters
 
-  + modelContext: [IModel](core_schema.IModel.md)
-  + pathId: string
-  + pathContext: [IPath](core_schema.IPath.md)
+  * modelContext: [IModel](core_schema.IModel.md)
+  * pathId: string
+  * pathContext: [IPath](core_schema.IPath.md)
 
   #### Returns void
 
-  + Defined in [core/maker.ts:373](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L373)
+  * Defined in [core/maker.ts:373](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L373)
 
 ### Settings
 
@@ -69,6 +66,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Path Independence](../index.md)
-- [Models](../index.md)
-- [Path Constructors](../index.md)
+* [Path Independence](../index.md)
+* [Models](../index.md)
+* [Path Constructors](../index.md)

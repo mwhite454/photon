@@ -20,9 +20,6 @@ distort | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/model](../modules/core_model.md)
@@ -42,19 +39,19 @@ Preparing search index...
 
   #### Parameters
 
-  + modelToDistort: [IModel](../interfaces/core_schema.IModel.md)
+  * modelToDistort: [IModel](../interfaces/core_schema.IModel.md)
 
     The model to distort.
-  + scaleX: number
+  * scaleX: number
 
     The amount of x scaling.
-  + scaleY: number
+  * scaleY: number
 
     The amount of y scaling.
-  + scaleOrigin: boolean = false
+  * scaleOrigin: boolean = false
 
     Optional boolean to scale the origin point. Typically false for the root model.
-  + `Optional`bezierAccuracy: number
+  * `Optional`bezierAccuracy: number
 
     Optional accuracy of Bezier curves.
 
@@ -62,7 +59,7 @@ Preparing search index...
 
   New model (for cascading).
 
-  + Defined in [core/model.ts:479](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/model.ts#L479)
+  * Defined in [core/model.ts:479](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/model.ts#L479)
 
 ### Settings
 

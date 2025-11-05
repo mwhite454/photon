@@ -19,9 +19,6 @@ scale | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/point](../modules/core_point.md)
@@ -35,12 +32,12 @@ Preparing search index...
 
   #### Parameters
 
-  + pointToScale: [IPoint](../interfaces/core_schema.IPoint.md)
-  + scaleValue: number
+  * pointToScale: [IPoint](../interfaces/core_schema.IPoint.md)
+  * scaleValue: number
 
   #### Returns [IPoint](../interfaces/core_schema.IPoint.md)
 
-  + Defined in [core/point.ts:178](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/point.ts#L178)
+  * Defined in [core/point.ts:178](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/point.ts#L178)
 
 ### Settings
 

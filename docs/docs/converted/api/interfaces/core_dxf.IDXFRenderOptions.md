@@ -20,9 +20,6 @@ IDXFRenderOptions | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/dxf](../modules/core_dxf.md)
@@ -44,7 +41,7 @@ interface IDXFRenderOptions {
 #### Hierarchy
 
 * [IPointMatchOptions](core_maker.IPointMatchOptions.md)
-  + IDXFRenderOptions
+  * IDXFRenderOptions
 
 * Defined in [core/dxf.ts:550](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/dxf.ts#L550)
 

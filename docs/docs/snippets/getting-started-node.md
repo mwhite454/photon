@@ -24,7 +24,6 @@ title: Getting Started Node
 ---
 To depend on Maker.js, run this from the command line:
 
-
 ## Examples
 
 ```bash

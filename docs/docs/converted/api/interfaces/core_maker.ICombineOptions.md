@@ -40,7 +40,7 @@ interface ICombineOptions {
 #### Hierarchy
 
 * [IPointMatchOptions](core_maker.IPointMatchOptions.md)
-  + ICombineOptions
+  * ICombineOptions
 
 * Defined in [core/maker.ts:288](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L288)
 

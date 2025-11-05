@@ -19,9 +19,6 @@ isArcConcaveTowardsPoint | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/measure](../modules/core_measure.md)
@@ -35,10 +32,10 @@ Preparing search index...
 
   #### Parameters
 
-  + arc: [IPathArc](../interfaces/core_schema.IPathArc.md)
+  * arc: [IPathArc](../interfaces/core_schema.IPathArc.md)
 
     The arc to test.
-  + towardsPoint: [IPoint](../interfaces/core_schema.IPoint.md)
+  * towardsPoint: [IPoint](../interfaces/core_schema.IPoint.md)
 
     The point to test.
 
@@ -46,7 +43,7 @@ Preparing search index...
 
   Boolean true if arc is concave towards point.
 
-  + Defined in [core/measure.ts:84](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure.ts#L84)
+  * Defined in [core/measure.ts:84](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure.ts#L84)
 
 ### Settings
 

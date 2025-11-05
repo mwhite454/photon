@@ -19,9 +19,6 @@ solveTriangleSSS | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/solvers](../modules/core_solvers.md)
@@ -35,13 +32,13 @@ Preparing search index...
 
   #### Parameters
 
-  + lengthA: number
-  + lengthB: number
-  + lengthC: number
+  * lengthA: number
+  * lengthB: number
+  * lengthC: number
 
   #### Returns number
 
-  + Defined in [core/solvers.ts:21](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/solvers.ts#L21)
+  * Defined in [core/solvers.ts:21](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/solvers.ts#L21)
 
 ### Settings
 

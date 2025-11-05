@@ -19,9 +19,6 @@ boundingHexagon | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/measure](../modules/core_measure.md)
@@ -35,7 +32,7 @@ Preparing search index...
 
   #### Parameters
 
-  + modelToMeasure: [IModel](../interfaces/core_schema.IModel.md)
+  * modelToMeasure: [IModel](../interfaces/core_schema.IModel.md)
 
     The model to measure.
 
@@ -43,7 +40,7 @@ Preparing search index...
 
   IBoundingHex object which is a hexagon model, with an additional radius property.
 
-  + Defined in [core/measure.ts:774](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure.ts#L774)
+  * Defined in [core/measure.ts:774](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure.ts#L774)
 
 ### Settings
 

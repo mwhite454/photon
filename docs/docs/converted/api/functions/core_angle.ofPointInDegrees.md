@@ -19,9 +19,6 @@ ofPointInDegrees | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/angle](../modules/core_angle.md)
@@ -35,12 +32,12 @@ Preparing search index...
 
   #### Parameters
 
-  + origin: [IPoint](../interfaces/core_schema.IPoint.md)
-  + pointToFindAngle: [IPoint](../interfaces/core_schema.IPoint.md)
+  * origin: [IPoint](../interfaces/core_schema.IPoint.md)
+  * pointToFindAngle: [IPoint](../interfaces/core_schema.IPoint.md)
 
   #### Returns number
 
-  + Defined in [core/angle.ts:85](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/angle.ts#L85)
+  * Defined in [core/angle.ts:85](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/angle.ts#L85)
 
 ### Settings
 

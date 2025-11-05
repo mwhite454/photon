@@ -18,9 +18,6 @@ add | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/point](../modules/core_point.md)
@@ -34,13 +31,13 @@ Preparing search index...
 
   #### Parameters
 
-  + a: [IPoint](../interfaces/core_schema.IPoint.md)
-  + b: [IPoint](../interfaces/core_schema.IPoint.md)
-  + `Optional`subtract: boolean
+  * a: [IPoint](../interfaces/core_schema.IPoint.md)
+  * b: [IPoint](../interfaces/core_schema.IPoint.md)
+  * `Optional`subtract: boolean
 
   #### Returns [IPoint](../interfaces/core_schema.IPoint.md)
 
-  + Defined in [core/point.ts:12](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/point.ts#L12)
+  * Defined in [core/point.ts:12](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/point.ts#L12)
 
 ### Settings
 

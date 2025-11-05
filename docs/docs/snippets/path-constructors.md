@@ -37,7 +37,6 @@ We also illustrated 3 ways of defining an object: using a var, using a function 
 and using a constructor function (for use by the **new** keyword). Let's revisit our simple line path example,
 and convert it to a constructor function.
 
-
 ## Examples
 
 ```javascript
@@ -51,6 +50,7 @@ end: [50, 50]
 const svg = exporter.toSVG(line);
 document.write(svg);
 ```
+
 ```javascript
 //render a line created by a function
 import { exporter, paths } from '@7syllable/photon-core';
@@ -84,6 +84,6 @@ document.write(svg);
 
 ## Related Topics
 
-- [Path Independence](../index.md)
-- [Models](../index.md)
-- [Path Constructors](../index.md)
+* [Path Independence](../index.md)
+* [Models](../index.md)
+* [Path Constructors](../index.md)

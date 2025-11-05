@@ -20,9 +20,6 @@ construct | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/kit](../modules/core_kit.md)
@@ -36,12 +33,12 @@ Preparing search index...
 
   #### Parameters
 
-  + ctor: [IKit](../interfaces/core_maker.IKit.md)
-  + args: any
+  * ctor: [IKit](../interfaces/core_maker.IKit.md)
+  * args: any
 
   #### Returns [IModel](../interfaces/core_schema.IModel.md)
 
-  + Defined in [core/kit.ts:5](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/kit.ts#L5)
+  * Defined in [core/kit.ts:5](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/kit.ts#L5)
 
 ### Settings
 

@@ -23,9 +23,6 @@ DeletedPathInfo | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/boolean-utils](../modules/core_boolean-utils.md)
@@ -46,7 +43,7 @@ interface DeletedPathInfo {
 #### Hierarchy ([View Summary](../hierarchy.md))
 
 * [IPath](core_schema.IPath.md)
-  + DeletedPathInfo
+  * DeletedPathInfo
 
 * Defined in [core/boolean-utils.ts:91](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/boolean-utils.ts#L91)
 
@@ -111,6 +108,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Path Independence](../index.md)
-- [Models](../index.md)
-- [Path Constructors](../index.md)
+* [Path Independence](../index.md)
+* [Models](../index.md)
+* [Path Constructors](../index.md)

@@ -21,9 +21,6 @@ toDXF | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/dxf](../modules/core_dxf.md)
@@ -53,32 +50,32 @@ String of DXF content.
 
   #### Parameters
 
-  + modelToExport: [IModel](../interfaces/core_schema.IModel.md)
-  + `Optional`options: [IDXFRenderOptions](../interfaces/core_dxf.IDXFRenderOptions.md)
+  * modelToExport: [IModel](../interfaces/core_schema.IModel.md)
+  * `Optional`options: [IDXFRenderOptions](../interfaces/core_dxf.IDXFRenderOptions.md)
 
   #### Returns string
 
-  + Defined in [core/dxf.ts:22](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/dxf.ts#L22)
+  * Defined in [core/dxf.ts:22](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/dxf.ts#L22)
 * toDXF(pathsToExport: [IPath](../interfaces/core_schema.IPath.md)[], options?: [IDXFRenderOptions](../interfaces/core_dxf.IDXFRenderOptions.md)): string
 
   #### Parameters
 
-  + pathsToExport: [IPath](../interfaces/core_schema.IPath.md)[]
-  + `Optional`options: [IDXFRenderOptions](../interfaces/core_dxf.IDXFRenderOptions.md)
+  * pathsToExport: [IPath](../interfaces/core_schema.IPath.md)[]
+  * `Optional`options: [IDXFRenderOptions](../interfaces/core_dxf.IDXFRenderOptions.md)
 
   #### Returns string
 
-  + Defined in [core/dxf.ts:23](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/dxf.ts#L23)
+  * Defined in [core/dxf.ts:23](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/dxf.ts#L23)
 * toDXF(pathToExport: [IPath](../interfaces/core_schema.IPath.md), options?: [IDXFRenderOptions](../interfaces/core_dxf.IDXFRenderOptions.md)): string
 
   #### Parameters
 
-  + pathToExport: [IPath](../interfaces/core_schema.IPath.md)
-  + `Optional`options: [IDXFRenderOptions](../interfaces/core_dxf.IDXFRenderOptions.md)
+  * pathToExport: [IPath](../interfaces/core_schema.IPath.md)
+  * `Optional`options: [IDXFRenderOptions](../interfaces/core_dxf.IDXFRenderOptions.md)
 
   #### Returns string
 
-  + Defined in [core/dxf.ts:24](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/dxf.ts#L24)
+  * Defined in [core/dxf.ts:24](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/dxf.ts#L24)
 
 ### Settings
 

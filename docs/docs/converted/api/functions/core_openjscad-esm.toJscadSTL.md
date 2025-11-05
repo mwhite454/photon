@@ -23,9 +23,6 @@ toJscadSTL | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/openjscad-esm](../modules/core_openjscad-esm.md)
@@ -44,44 +41,52 @@ Preparing search index...
 
   #### Parameters
 
-  + CAG: typeof [CAG](../classes/types_jscad.export_.CAG.md)
-  + stlSerializer: [StlSerializer](../interfaces/types_jscad.StlSerializer.md)
+  * CAG: typeof [CAG](../classes/types_jscad.export_.CAG.md)
+  * stlSerializer: [StlSerializer](../interfaces/types_jscad.StlSerializer.md)
 
     @jscad/stl-serializer, see <https://www.npmjs.com/package/@jscad/stl-serializer>
-  + modelToExport: [IModel](../interfaces/core_schema.IModel.md)
+  * modelToExport: [IModel](../interfaces/core_schema.IModel.md)
 
     Model object to export.
-  + options: [IJscadCsgOptions](../interfaces/core_openjscad-esm.IJscadCsgOptions.md) = {}
+  * options: [IJscadCsgOptions](../interfaces/core_openjscad-esm.IJscadCsgOptions.md) = {}
 
     Optional options object.
 
     Jscad CSG export options.
 
-    - ##### `Optional`accuracy?: number
+    * ##### `Optional`accuracy?: number
 
       Optional exemplar of number of decimal places.
-    - ##### `Optional`byLayers?: boolean
+
+    * ##### `Optional`byLayers?: boolean
 
       Flag to separate chains by layers.
-    - ##### `Optional`extrude?: number
+
+    * ##### `Optional`extrude?: number
 
       Optional depth of 3D extrusion.
-    - ##### `Optional`layerOptions?: { [layerId: string]: [IJscadExtrudeOptions](../interfaces/core_openjscad-esm.IJscadExtrudeOptions.md) }
+
+    * ##### `Optional`layerOptions?: { [layerId: string]: [IJscadExtrudeOptions](../interfaces/core_openjscad-esm.IJscadExtrudeOptions.md) }
 
       SVG options per layer.
-    - ##### `Optional`maxArcFacet?: number
+
+    * ##### `Optional`maxArcFacet?: number
 
       The maximum length between points on an arc or circle.
-    - ##### `Optional`pointMatchingDistance?: number
+
+    * ##### `Optional`pointMatchingDistance?: number
 
       Max distance to consider two points as the same.
-    - ##### `Optional`statusCallback?: [IStatusCallback](../interfaces/core_openjscad-esm.IStatusCallback.md)
+
+    * ##### `Optional`statusCallback?: [IStatusCallback](../interfaces/core_openjscad-esm.IStatusCallback.md)
 
       Optional callback to get status during the export.
-    - ##### `Optional`units?: string
+
+    * ##### `Optional`units?: string
 
       Optional unit system to embed in exported file, if the export format allows alternate unit systems.
-    - ##### `Optional`z?: number
+
+    * ##### `Optional`z?: number
 
       Optional depth of 3D extrusion.
 
@@ -89,7 +94,7 @@ Preparing search index...
 
   String in STL ASCII format.
 
-  + Defined in [core/openjscad-esm.ts:462](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/openjscad-esm.ts#L462)
+  * Defined in [core/openjscad-esm.ts:462](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/openjscad-esm.ts#L462)
 
 ### Settings
 

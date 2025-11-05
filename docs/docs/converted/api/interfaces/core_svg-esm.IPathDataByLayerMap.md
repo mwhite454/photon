@@ -24,9 +24,6 @@ IPathDataByLayerMap | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/svg-esm](../modules/core_svg-esm.md)
@@ -36,7 +33,6 @@ Preparing search index...
 
 #### Indexable
 
-* [layer: string]: string
 
 * Defined in [core/svg-esm.ts:31](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/svg-esm.ts#L31)
 
@@ -57,6 +53,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Path Independence](../index.md)
-- [Models](../index.md)
-- [Path Constructors](../index.md)
+* [Path Independence](../index.md)
+* [Models](../index.md)
+* [Path Constructors](../index.md)

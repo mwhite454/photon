@@ -19,9 +19,6 @@ isBetweenPoints | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/boolean-utils](../modules/core_boolean-utils.md)
@@ -38,14 +35,14 @@ Preparing search index...
 
   #### Parameters
 
-  + pointInQuestion: [IPoint](../interfaces/core_schema.IPoint.md)
-  + line: [IPathLine](../interfaces/core_schema.IPathLine.md)
-  + exclusive: boolean
-  + tolerance: number = DEFAULT\_POINT\_MATCHING\_DISTANCE
+  * pointInQuestion: [IPoint](../interfaces/core_schema.IPoint.md)
+  * line: [IPathLine](../interfaces/core_schema.IPathLine.md)
+  * exclusive: boolean
+  * tolerance: number = DEFAULT\_POINT\_MATCHING\_DISTANCE
 
   #### Returns boolean
 
-  + Defined in [core/boolean-utils.ts:66](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/boolean-utils.ts#L66)
+  * Defined in [core/boolean-utils.ts:66](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/boolean-utils.ts#L66)
 
 ### Settings
 

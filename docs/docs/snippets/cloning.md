@@ -65,6 +65,6 @@ document.write(svg);
 
 ## Related Topics
 
-- [Moving](../index.md)
-- [Scaling](../index.md)
-- [Rotating](../index.md)
+* [Moving](../index.md)
+* [Scaling](../index.md)
+* [Rotating](../index.md)

@@ -20,9 +20,6 @@ convertUnits | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/model](../modules/core_model.md)
@@ -36,10 +33,10 @@ Preparing search index...
 
   #### Parameters
 
-  + modeltoConvert: [IModel](../interfaces/core_schema.IModel.md)
+  * modeltoConvert: [IModel](../interfaces/core_schema.IModel.md)
 
     The model to convert.
-  + destUnitType: string
+  * destUnitType: string
 
     The unit system.
 
@@ -47,7 +44,7 @@ Preparing search index...
 
   The scaled model (for cascading).
 
-  + Defined in [core/model.ts:528](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/model.ts#L528)
+  * Defined in [core/model.ts:528](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/model.ts#L528)
 
 ### Settings
 

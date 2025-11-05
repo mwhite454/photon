@@ -23,9 +23,6 @@ clone | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/path](../modules/core_path.md)
@@ -39,12 +36,12 @@ Preparing search index...
 
   #### Parameters
 
-  + pathToClone: [IPath](../interfaces/core_schema.IPath.md)
-  + `Optional`offset: [IPoint](../interfaces/core_schema.IPoint.md)
+  * pathToClone: [IPath](../interfaces/core_schema.IPath.md)
+  * `Optional`offset: [IPoint](../interfaces/core_schema.IPoint.md)
 
   #### Returns [IPath](../interfaces/core_schema.IPath.md)
 
-  + Defined in [core/path.ts:60](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/path.ts#L60)
+  * Defined in [core/path.ts:60](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/path.ts#L60)
 
 ### Settings
 
@@ -63,6 +60,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Moving](../index.md)
-- [Scaling](../index.md)
-- [Rotating](../index.md)
+* [Moving](../index.md)
+* [Scaling](../index.md)
+* [Rotating](../index.md)

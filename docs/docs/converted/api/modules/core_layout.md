@@ -35,7 +35,8 @@ Preparing search index...
 
 Before working with this feature, you should be familiar with:
 
-- [Intermediate Drawing](../index.md)
+* [Intermediate Drawing](../index.md)
+
 ## Functions
 
 [childrenOnChain](../functions/core_layout.childrenOnChain.md)
@@ -64,7 +65,7 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Layout on Path](../index.md)
-- [Layout on Chain](../index.md)
-- [Repeating Layouts](../index.md)
-- [Intermediate Drawing](../index.md)
+* [Layout on Path](../index.md)
+* [Layout on Chain](../index.md)
+* [Repeating Layouts](../index.md)
+* [Intermediate Drawing](../index.md)

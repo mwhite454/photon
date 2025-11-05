@@ -19,9 +19,6 @@ DEFAULT\_POINT\_MATCHING\_DISTANCE | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/boolean-utils](../modules/core_boolean-utils.md)

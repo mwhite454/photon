@@ -46,6 +46,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Dogbones](../index.md)
-- [Chains](../index.md)
-- [Chain Fillet](../index.md)
+* [Dogbones](../index.md)
+* [Chains](../index.md)
+* [Chain Fillet](../index.md)

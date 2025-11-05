@@ -19,9 +19,6 @@ conversionScale | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/units](../modules/core_units.md)
@@ -35,12 +32,12 @@ Preparing search index...
 
   #### Parameters
 
-  + srcUnitType: string
-  + destUnitType: string
+  * srcUnitType: string
+  * destUnitType: string
 
   #### Returns number
 
-  + Defined in [core/units.ts:36](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/units.ts#L36)
+  * Defined in [core/units.ts:36](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/units.ts#L36)
 
 ### Settings
 

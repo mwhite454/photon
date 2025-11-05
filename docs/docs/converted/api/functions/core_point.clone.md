@@ -23,9 +23,6 @@ clone | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/point](../modules/core_point.md)
@@ -39,11 +36,11 @@ Preparing search index...
 
   #### Parameters
 
-  + pointToClone: [IPoint](../interfaces/core_schema.IPoint.md)
+  * pointToClone: [IPoint](../interfaces/core_schema.IPoint.md)
 
   #### Returns [IPoint](../interfaces/core_schema.IPoint.md)
 
-  + Defined in [core/point.ts:32](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/point.ts#L32)
+  * Defined in [core/point.ts:32](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/point.ts#L32)
 
 ### Settings
 
@@ -62,6 +59,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Moving](../index.md)
-- [Scaling](../index.md)
-- [Rotating](../index.md)
+* [Moving](../index.md)
+* [Scaling](../index.md)
+* [Rotating](../index.md)

@@ -20,9 +20,6 @@ IStatusCallback | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/exporter](../modules/core_exporter.md)
@@ -34,11 +31,11 @@ Preparing search index...
 
   #### Parameters
 
-  + status: { progress?: number }
+  * status: { progress?: number }
 
   #### Returns void
 
-  + Defined in [core/exporter.ts:92](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/exporter.ts#L92)
+  * Defined in [core/exporter.ts:92](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/exporter.ts#L92)
 
 ### Settings
 

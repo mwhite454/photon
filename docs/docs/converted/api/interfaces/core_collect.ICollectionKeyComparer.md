@@ -33,7 +33,7 @@ Compare keys to see if they are equal.
 
 - K
 
-* ICollectionKeyComparer(a: K, b: K): boolean
+- ICollectionKeyComparer(a: K, b: K): boolean
 
   #### Parameters
 

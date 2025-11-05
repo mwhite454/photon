@@ -19,9 +19,6 @@ mirror | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/point](../modules/core_point.md)
@@ -35,13 +32,13 @@ Preparing search index...
 
   #### Parameters
 
-  + pointToMirror: [IPoint](../interfaces/core_schema.IPoint.md)
-  + mirrorX: boolean
-  + mirrorY: boolean
+  * pointToMirror: [IPoint](../interfaces/core_schema.IPoint.md)
+  * mirrorX: boolean
+  * mirrorY: boolean
 
   #### Returns [IPoint](../interfaces/core_schema.IPoint.md)
 
-  + Defined in [core/point.ts:157](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/point.ts#L157)
+  * Defined in [core/point.ts:157](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/point.ts#L157)
 
 ### Settings
 

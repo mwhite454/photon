@@ -21,9 +21,6 @@ ISVGRenderOptions | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/svg-esm](../modules/core_svg-esm.md)
@@ -55,7 +52,7 @@ interface ISVGRenderOptions {
 #### Hierarchy ([View Summary](../hierarchy.md))
 
 * [ISVGElementRenderOptions](core_svg-esm.ISVGElementRenderOptions.md)
-  + ISVGRenderOptions
+  * ISVGRenderOptions
 
 * Defined in [core/svg-esm.ts:364](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/svg-esm.ts#L364)
 

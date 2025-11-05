@@ -54,8 +54,10 @@ paths: {
 const svg = exporter.toSVG(model);
 document.write(svg);
 ```
+
 Next we will find all of the chains in our model. We are expecting that there will only be one chain, so we will just take `chains[0]`.
 Then we will add fillets to that chain:
+
 ```javascript
 //render a model with paths that form a chain
 import { chain, exporter, model, paths } from '@7syllable/photon-core';
@@ -81,6 +83,7 @@ document.write(svg);
 ##### Advanced example
 
 We can improve upon the design of the truss example by adding fillets to the interior shapes. Let's review the truss design:
+
 ```javascript
 import { chain, exporter, model, models, point } from '@7syllable/photon-core';
 //expand a truss wireframe
@@ -105,8 +108,10 @@ model.simplify(expansion);
 const svg = exporter.toSVG(expansion);
 document.write(svg);
 ```
+
 We know that there are 5 chains in this drawing. When we find chains, the array of found chains will be sorted by pathLength (the total length of all paths in each chain),
 so we know that the first chain represents the outermost perimeter of the drawing. Therefore we will ignore `chains[0]` and create a for...loop beginning at `chains[1]`:
+
 ```javascript
 import { chain, exporter, model, models, point } from '@7syllable/photon-core';
 //fillet all interior chains in the truss
@@ -140,6 +145,6 @@ document.write(svg);
 
 ## Related Topics
 
-- [Chain Theory](../index.md)
-- [Breaking](../index.md)
-- [Routes](../index.md)
+* [Chain Theory](../index.md)
+* [Breaking](../index.md)
+* [Routes](../index.md)

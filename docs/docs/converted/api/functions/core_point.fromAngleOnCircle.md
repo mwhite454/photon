@@ -19,9 +19,6 @@ fromAngleOnCircle | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/point](../modules/core_point.md)
@@ -35,12 +32,12 @@ Preparing search index...
 
   #### Parameters
 
-  + angleInDegrees: number
-  + circle: [IPathCircle](../interfaces/core_schema.IPathCircle.md)
+  * angleInDegrees: number
+  * circle: [IPathCircle](../interfaces/core_schema.IPathCircle.md)
 
   #### Returns [IPoint](../interfaces/core_schema.IPoint.md)
 
-  + Defined in [core/point.ts:67](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/point.ts#L67)
+  * Defined in [core/point.ts:67](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/point.ts#L67)
 
 ### Settings
 

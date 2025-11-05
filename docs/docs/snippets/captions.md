@@ -47,7 +47,6 @@ A caption is an object with these two properties:
 
 Add this to a model via the **caption** property:
 
-
 ## Examples
 
 ```javascript

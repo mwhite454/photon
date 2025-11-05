@@ -19,9 +19,6 @@ environmentTypes | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/base](../modules/core_base.md)
@@ -39,8 +36,11 @@ environmentTypes: {
 #### Type Declaration
 
 * ##### `Readonly`BrowserUI: "browser"
+
 * ##### `Readonly`NodeJs: "node"
+
 * ##### `Readonly`Unknown: "unknown"
+
 * ##### `Readonly`WebWorker: "worker"
 
 * Defined in [core/base.ts:5](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/base.ts#L5)

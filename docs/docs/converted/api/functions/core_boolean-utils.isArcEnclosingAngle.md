@@ -19,9 +19,6 @@ isArcEnclosingAngle | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/boolean-utils](../modules/core_boolean-utils.md)
@@ -37,13 +34,13 @@ Preparing search index...
 
   #### Parameters
 
-  + arc: [IPathArc](../interfaces/core_schema.IPathArc.md)
-  + angleInQuestion: number
-  + exclusive: boolean = false
+  * arc: [IPathArc](../interfaces/core_schema.IPathArc.md)
+  * angleInQuestion: number
+  * exclusive: boolean = false
 
   #### Returns boolean
 
-  + Defined in [core/boolean-utils.ts:26](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/boolean-utils.ts#L26)
+  * Defined in [core/boolean-utils.ts:26](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/boolean-utils.ts#L26)
 
 ### Settings
 

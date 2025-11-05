@@ -20,9 +20,6 @@ startAt | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/chain](../modules/core_chain.md)
@@ -36,10 +33,10 @@ Preparing search index...
 
   #### Parameters
 
-  + chainContext: [IChain](../interfaces/core_maker.IChain.md)
+  * chainContext: [IChain](../interfaces/core_maker.IChain.md)
 
     Chain to cycle through. Must be endless.
-  + routeKey: string
+  * routeKey: string
 
     RouteKey of the desired path to start the chain with.
 
@@ -47,7 +44,7 @@ Preparing search index...
 
   The chainContext for cascading.
 
-  + Defined in [core/chain.ts:499](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/chain.ts#L499)
+  * Defined in [core/chain.ts:499](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/chain.ts#L499)
 
 ### Settings
 

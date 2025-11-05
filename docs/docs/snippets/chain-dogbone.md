@@ -31,10 +31,10 @@ A [dogbone fillet](../converted/intermediate-drawing/index.md) can be added betw
 
 * chainToFillet: the chain containing paths which will be modified to have dogbone fillets at their joints.
 * filletRadiusOrFilletRadii: Either of:
-  + a number, specifying the radius of the dogbone fillets at every link junction.
-  + an object, with these optional properties:
-    - left: radius of the dogbone fillets at every left-turning link junction.
-    - right: radius of the dogbone fillets at every right-turning link junction.
+  * a number, specifying the radius of the dogbone fillets at every link junction.
+  * an object, with these optional properties:
+    * left: radius of the dogbone fillets at every left-turning link junction.
+    * right: radius of the dogbone fillets at every right-turning link junction.
 
 This will modify all of the chain's line paths to accomodate an arc between each other, and it will return a new model containing all of the dogbone fillets which fit.
 This new model should be added into your tree.
@@ -63,8 +63,10 @@ models: { plus, plus2, outer } //using Shorthand property names :)
 const svg = exporter.toSVG(model);
 document.write(svg);
 ```
+
 Next, lets find the chains for each plus, and ensure they are clockwise. Then we can add dogbones to the "outside" corners of the plus that is contained within the square,
 and to the "inside" corners of the plus that is apart:
+
 ```javascript
 //make a plus that is cut out from a square
 import { chain, cloneObject, exporter, measure, model, models } from '@7syllable/photon-core';
@@ -94,6 +96,6 @@ document.write(svg);
 
 ## Related Topics
 
-- [Chain Theory](../index.md)
-- [Breaking](../index.md)
-- [Routes](../index.md)
+* [Chain Theory](../index.md)
+* [Breaking](../index.md)
+* [Routes](../index.md)

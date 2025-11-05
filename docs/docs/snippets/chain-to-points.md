@@ -47,7 +47,9 @@ dots: new models.Holes(1, keyPoints)
 const svg = exporter.toSVG(model);
 document.write(svg);
 ```
+
 Hint: you can use the **pathLength** property of the chain to make sure your distance divides equally on the entire chain:
+
 ```javascript
 //convert a round rectangle to points
 import { chain, exporter, model, models } from '@7syllable/photon-core';

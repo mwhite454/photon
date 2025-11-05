@@ -23,9 +23,6 @@ IWalkModel | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/maker](../modules/core_maker.md)
@@ -49,7 +46,7 @@ interface IWalkModel {
 
 * [IRefModelInModel](core_maker.IRefModelInModel.md)
 * [IRouteOffset](core_maker.IRouteOffset.md)
-  + IWalkModel
+  * IWalkModel
 
 * Defined in [core/maker.ts:547](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L547)
 
@@ -128,6 +125,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Modeling](../index.md)
-- [Paths](../index.md)
-- [Built-in Models](../index.md)
+* [Modeling](../index.md)
+* [Paths](../index.md)
+* [Built-in Models](../index.md)

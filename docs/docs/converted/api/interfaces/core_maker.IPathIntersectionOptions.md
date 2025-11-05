@@ -41,7 +41,7 @@ interface IPathIntersectionOptions {
 #### Hierarchy ([View Summary](../hierarchy.md))
 
 * [IPathIntersectionBaseOptions](core_maker.IPathIntersectionBaseOptions.md)
-  + IPathIntersectionOptions
+  * IPathIntersectionOptions
 
 * Defined in [core/maker.ts:236](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L236)
 
@@ -81,6 +81,6 @@ Optional output variable which will be set to true if the paths are overlapped.
 
 ## Related Topics
 
-- [Path Independence](../index.md)
-- [Models](../index.md)
-- [Path Constructors](../index.md)
+* [Path Independence](../index.md)
+* [Models](../index.md)
+* [Path Constructors](../index.md)

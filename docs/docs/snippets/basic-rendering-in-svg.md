@@ -23,7 +23,6 @@ title: Basic Rendering In Svg
 ---
 Call the **exporter.toSVG** function and pass your path as a parameter:
 
-
 ## Examples
 
 ```javascript

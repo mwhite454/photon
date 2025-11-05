@@ -26,9 +26,6 @@ IModel | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/schema](../modules/core_schema.md)
@@ -53,7 +50,7 @@ interface IModel {
 #### Hierarchy ([View Summary](../hierarchy.md))
 
 * IModel
-  + [IBoundingHex](core_maker.IBoundingHex.md)
+  * [IBoundingHex](core_maker.IBoundingHex.md)
 
 #### Implemented by
 
@@ -172,6 +169,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Modeling](../index.md)
-- [Paths](../index.md)
-- [Built-in Models](../index.md)
+* [Modeling](../index.md)
+* [Paths](../index.md)
+* [Built-in Models](../index.md)

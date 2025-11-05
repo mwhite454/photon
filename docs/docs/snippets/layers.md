@@ -26,7 +26,6 @@ title: Layers
 Layers are a way of logically grouping your paths or models as you see fit. Simply add a `layer` property to any path or model object, with the name of the layer.
 Every path within a model will automatically inherit its parent model's layer, unless it has its own layer property. As you can see in this example, a layer can transcend the logical grouping boundaries of models:
 
-
 ## Examples
 
 ```javascript
@@ -41,6 +40,7 @@ roundRect.paths.TopLeft.layer = "layer2";
 const svg = exporter.toSVG(roundRect);
 document.write(svg);
 ```
+
 *Layers are not visible in this example but they logically exist to separate arcs from straight lines.*
 
 A layer name can be any string. Furthermore, you can use a reserved color name from this list to get an automatic stroke color when your model is exported in DXF or SVG:
@@ -59,7 +59,6 @@ roundRect.paths.TopLeft.layer = "blue";
 const svg = exporter.toSVG(roundRect);
 document.write(svg);
 ```
-
 
 ---
 

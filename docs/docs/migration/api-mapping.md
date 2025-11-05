@@ -117,7 +117,6 @@ This guide provides a comprehensive mapping of photon/core APIs to their photon/
 
 ### Before (photon/core - CommonJS)
 
-
 ## Examples
 
 ```javascript
@@ -189,6 +188,7 @@ document.body.innerHTML = svg;
 **Impact**: All imports must be updated
 
 **Migration**:
+
 ```javascript
 // Before
 const makerjs = require('@7syllable/photon-core');
@@ -204,6 +204,7 @@ import { models, paths, exporter } from '@7syllable/photon-core';
 **Impact**: Browser scripts must use `<script type="module">`
 
 **Migration**:
+
 ```html
 <!-- Before -->
 <script src="browser.maker.js"></script>
@@ -225,6 +226,7 @@ import { models, paths, exporter } from '@7syllable/photon-core';
 **Impact**: Use native JSON methods instead
 
 **Migration**:
+
 ```javascript
 // Before
 const json = makerjs.exporter.toJSON(model);

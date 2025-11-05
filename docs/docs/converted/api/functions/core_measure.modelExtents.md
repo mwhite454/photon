@@ -23,9 +23,6 @@ modelExtents | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/measure](../modules/core_measure.md)
@@ -39,10 +36,10 @@ Preparing search index...
 
   #### Parameters
 
-  + modelToMeasure: [IModel](../interfaces/core_schema.IModel.md)
+  * modelToMeasure: [IModel](../interfaces/core_schema.IModel.md)
 
     The model to measure.
-  + `Optional`atlas: [Atlas](../classes/core_measure.Atlas.md)
+  * `Optional`atlas: [Atlas](../classes/core_measure.Atlas.md)
 
     Optional atlas to save measurements.
 
@@ -50,7 +47,7 @@ Preparing search index...
 
   object with low and high points.
 
-  + Defined in [core/measure.ts:521](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure.ts#L521)
+  * Defined in [core/measure.ts:521](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure.ts#L521)
 
 ### Settings
 
@@ -69,6 +66,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Modeling](../index.md)
-- [Paths](../index.md)
-- [Built-in Models](../index.md)
+* [Modeling](../index.md)
+* [Paths](../index.md)
+* [Built-in Models](../index.md)

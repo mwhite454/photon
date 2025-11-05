@@ -21,9 +21,6 @@ Polygon | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [models/Polygon](../modules/models_Polygon.md)
@@ -52,14 +49,14 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
   #### Parameters
 
-  + numberOfSides: number
-  + radius: number
-  + `Optional`firstCornerAngleInDegrees: number
-  + `Optional`circumscribed: boolean
+  * numberOfSides: number
+  * radius: number
+  * `Optional`firstCornerAngleInDegrees: number
+  * `Optional`circumscribed: boolean
 
   #### Returns Polygon
 
-  + Defined in [models/Polygon.ts:10](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Polygon.ts#L10)
+  * Defined in [models/Polygon.ts:10](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Polygon.ts#L10)
 
 ## Properties
 
@@ -81,12 +78,12 @@ Implementation of [IModel](../interfaces/core_schema.IModel.md).[paths](../inter
 
   #### Parameters
 
-  + radius: number
-  + angleInRadians: number
+  * radius: number
+  * angleInRadians: number
 
   #### Returns number
 
-  + Defined in [models/Polygon.ts:14](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Polygon.ts#L14)
+  * Defined in [models/Polygon.ts:14](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Polygon.ts#L14)
 
 ### `Static`getPoints {#static-getpoints}
 
@@ -99,14 +96,14 @@ Implementation of [IModel](../interfaces/core_schema.IModel.md).[paths](../inter
 
   #### Parameters
 
-  + numberOfSides: number
-  + radius: number
-  + firstCornerAngleInDegrees: number = 0
-  + circumscribed: boolean = false
+  * numberOfSides: number
+  * radius: number
+  * firstCornerAngleInDegrees: number = 0
+  * circumscribed: boolean = false
 
   #### Returns [IPoint](../interfaces/core_schema.IPoint.md)[]
 
-  + Defined in [models/Polygon.ts:18](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Polygon.ts#L18)
+  * Defined in [models/Polygon.ts:18](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Polygon.ts#L18)
 
 ### Settings
 

@@ -32,7 +32,6 @@ Here are a few examples to illustrate how you might use these:
 
 House:
 
-
 ## Examples
 
 ```javascript

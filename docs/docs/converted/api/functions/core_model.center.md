@@ -20,9 +20,6 @@ center | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/model](../modules/core_model.md)
@@ -36,13 +33,13 @@ Preparing search index...
 
   #### Parameters
 
-  + modelToCenter: [IModel](../interfaces/core_schema.IModel.md)
+  * modelToCenter: [IModel](../interfaces/core_schema.IModel.md)
 
     The model to center.
-  + centerX: boolean = true
+  * centerX: boolean = true
 
     Boolean to center on the x axis. Default is true.
-  + centerY: boolean = true
+  * centerY: boolean = true
 
     Boolean to center on the y axis. Default is true.
 
@@ -50,7 +47,7 @@ Preparing search index...
 
   The original model (for cascading).
 
-  + Defined in [core/model.ts:246](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/model.ts#L246)
+  * Defined in [core/model.ts:246](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/model.ts#L246)
 
 ### Settings
 

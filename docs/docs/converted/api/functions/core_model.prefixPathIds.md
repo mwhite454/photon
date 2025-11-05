@@ -25,9 +25,6 @@ prefixPathIds | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/model](../modules/core_model.md)
@@ -41,10 +38,10 @@ Preparing search index...
 
   #### Parameters
 
-  + modelToPrefix: [IModel](../interfaces/core_schema.IModel.md)
+  * modelToPrefix: [IModel](../interfaces/core_schema.IModel.md)
 
     The model to prefix.
-  + prefix: string
+  * prefix: string
 
     The prefix to prepend on paths ids.
 
@@ -52,7 +49,7 @@ Preparing search index...
 
   The original model (for cascading).
 
-  + Defined in [core/model.ts:354](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/model.ts#L354)
+  * Defined in [core/model.ts:354](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/model.ts#L354)
 
 ### Settings
 
@@ -71,6 +68,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Path Independence](../index.md)
-- [Models](../index.md)
-- [Path Constructors](../index.md)
+* [Path Independence](../index.md)
+* [Models](../index.md)
+* [Path Constructors](../index.md)

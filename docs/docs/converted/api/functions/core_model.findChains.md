@@ -23,9 +23,6 @@ findChains | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/model](../modules/core_model.md)
@@ -41,13 +38,13 @@ Preparing search index...
 
   #### Parameters
 
-  + modelContext: [IModel](../interfaces/core_schema.IModel.md)
-  + `Optional`callbackOrOptions: [IChainCallback](../interfaces/core_maker.IChainCallback.md) | [IFindChainsOptions](../interfaces/core_maker.IFindChainsOptions.md)
-  + `Optional`maybeOptions: [IFindChainsOptions](../interfaces/core_maker.IFindChainsOptions.md)
+  * modelContext: [IModel](../interfaces/core_schema.IModel.md)
+  * `Optional`callbackOrOptions: [IChainCallback](../interfaces/core_maker.IChainCallback.md) | [IFindChainsOptions](../interfaces/core_maker.IFindChainsOptions.md)
+  * `Optional`maybeOptions: [IFindChainsOptions](../interfaces/core_maker.IFindChainsOptions.md)
 
   #### Returns [IChain](../interfaces/core_maker.IChain.md)[] | [IChainsMap](../interfaces/core_maker.IChainsMap.md)
 
-  + Defined in [core/model.ts:12](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/model.ts#L12)
+  * Defined in [core/model.ts:12](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/model.ts#L12)
 
 ### Settings
 
@@ -66,6 +63,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Chain Theory](../index.md)
-- [Breaking](../index.md)
-- [Routes](../index.md)
+* [Chain Theory](../index.md)
+* [Breaking](../index.md)
+* [Routes](../index.md)

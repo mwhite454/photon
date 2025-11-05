@@ -21,9 +21,6 @@ StlSerializer | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [types/jscad](../modules/types_jscad.md)
@@ -59,12 +56,12 @@ interface StlSerializer {
 
   #### Parameters
 
-  + csg: [export=](../modules/types_jscad.export_.md).[CSG](../classes/types_jscad.export_.CSG.md)
-  + options: { binary: boolean; statusCallback?: (status: { progress: number }) => void }
+  * csg: [export=](../modules/types_jscad.export_.md).[CSG](../classes/types_jscad.export_.CSG.md)
+  * options: { binary: boolean; statusCallback?: (status: { progress: number }) => void }
 
   #### Returns string
 
-  + Defined in [types/jscad.d.ts:97](https://github.com/mwhite454/photon/blob/main/packages/photon/src/types/jscad.d.ts#L97)
+  * Defined in [types/jscad.d.ts:97](https://github.com/mwhite454/photon/blob/main/packages/photon/src/types/jscad.d.ts#L97)
 
 ### Settings
 

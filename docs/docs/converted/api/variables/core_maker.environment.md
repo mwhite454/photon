@@ -19,9 +19,6 @@ environment | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/maker](../modules/core_maker.md)

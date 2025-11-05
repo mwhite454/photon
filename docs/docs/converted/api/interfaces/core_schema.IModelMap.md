@@ -23,9 +23,6 @@ IModelMap | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/schema](../modules/core_schema.md)
@@ -37,7 +34,6 @@ Model objects by id.
 
 #### Indexable
 
-* [id: string]: [IModel](core_schema.IModel.md)
 
 * Defined in [core/schema.ts:86](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/schema.ts#L86)
 
@@ -58,6 +54,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Modeling](../index.md)
-- [Paths](../index.md)
-- [Built-in Models](../index.md)
+* [Modeling](../index.md)
+* [Paths](../index.md)
+* [Built-in Models](../index.md)

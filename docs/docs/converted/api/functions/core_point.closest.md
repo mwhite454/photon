@@ -19,9 +19,6 @@ closest | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/point](../modules/core_point.md)
@@ -35,12 +32,12 @@ Preparing search index...
 
   #### Parameters
 
-  + referencePoint: [IPoint](../interfaces/core_schema.IPoint.md)
-  + pointOptions: [IPoint](../interfaces/core_schema.IPoint.md)[]
+  * referencePoint: [IPoint](../interfaces/core_schema.IPoint.md)
+  * pointOptions: [IPoint](../interfaces/core_schema.IPoint.md)[]
 
   #### Returns [IPoint](../interfaces/core_schema.IPoint.md)
 
-  + Defined in [core/point.ts:38](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/point.ts#L38)
+  * Defined in [core/point.ts:38](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/point.ts#L38)
 
 ### Settings
 

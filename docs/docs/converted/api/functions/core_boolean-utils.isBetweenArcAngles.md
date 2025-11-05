@@ -19,9 +19,6 @@ isBetweenArcAngles | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/boolean-utils](../modules/core_boolean-utils.md)
@@ -38,14 +35,14 @@ Preparing search index...
 
   #### Parameters
 
-  + angleInQuestion: number
-  + arc: [IPathArc](../interfaces/core_schema.IPathArc.md)
-  + exclusive: boolean
-  + tolerance: number = DEFAULT\_POINT\_MATCHING\_DISTANCE
+  * angleInQuestion: number
+  * arc: [IPathArc](../interfaces/core_schema.IPathArc.md)
+  * exclusive: boolean
+  * tolerance: number = DEFAULT\_POINT\_MATCHING\_DISTANCE
 
   #### Returns boolean
 
-  + Defined in [core/boolean-utils.ts:55](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/boolean-utils.ts#L55)
+  * Defined in [core/boolean-utils.ts:55](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/boolean-utils.ts#L55)
 
 ### Settings
 

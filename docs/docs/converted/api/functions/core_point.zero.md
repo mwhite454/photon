@@ -19,9 +19,6 @@ zero | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/point](../modules/core_point.md)
@@ -35,7 +32,7 @@ Preparing search index...
 
   #### Returns [IPoint](../interfaces/core_schema.IPoint.md)
 
-  + Defined in [core/point.ts:197](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/point.ts#L197)
+  * Defined in [core/point.ts:197](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/point.ts#L197)
 
 ### Settings
 

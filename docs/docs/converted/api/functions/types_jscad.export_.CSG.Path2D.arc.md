@@ -21,9 +21,6 @@ arc | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [types/jscad](../modules/types_jscad.md)
@@ -40,11 +37,11 @@ Preparing search index...
 
   #### Parameters
 
-  + options: [IArcOptions](../interfaces/types_jscad.export_.CSG.IArcOptions.md)
+  * options: [IArcOptions](../interfaces/types_jscad.export_.CSG.IArcOptions.md)
 
   #### Returns any
 
-  + Defined in [types/jscad.d.ts:89](https://github.com/mwhite454/photon/blob/main/packages/photon/src/types/jscad.d.ts#L89)
+  * Defined in [types/jscad.d.ts:89](https://github.com/mwhite454/photon/blob/main/packages/photon/src/types/jscad.d.ts#L89)
 
 ### Settings
 

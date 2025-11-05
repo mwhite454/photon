@@ -19,9 +19,6 @@ augment | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/measure-minimal](../modules/core_measure-minimal.md)
@@ -35,11 +32,11 @@ Preparing search index...
 
   #### Parameters
 
-  + measureToAugment: [IMeasure](../interfaces/core_maker.IMeasure.md)
+  * measureToAugment: [IMeasure](../interfaces/core_maker.IMeasure.md)
 
   #### Returns [IMeasureWithCenter](../interfaces/core_maker.IMeasureWithCenter.md)
 
-  + Defined in [core/measure-minimal.ts:240](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure-minimal.ts#L240)
+  * Defined in [core/measure-minimal.ts:240](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure-minimal.ts#L240)
 
 ### Settings
 

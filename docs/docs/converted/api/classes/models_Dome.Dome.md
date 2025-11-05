@@ -21,9 +21,6 @@ Dome | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [models/Dome](../modules/models_Dome.md)
@@ -52,14 +49,14 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
   #### Parameters
 
-  + width: number
-  + height: number
-  + `Optional`radius: number
-  + `Optional`bottomless: boolean
+  * width: number
+  * height: number
+  * `Optional`radius: number
+  * `Optional`bottomless: boolean
 
   #### Returns Dome
 
-  + Defined in [models/Dome.ts:8](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Dome.ts#L8)
+  * Defined in [models/Dome.ts:8](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Dome.ts#L8)
 
 ## Properties
 

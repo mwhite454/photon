@@ -23,9 +23,6 @@ IWalkPath | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/maker](../modules/core_maker.md)
@@ -49,7 +46,7 @@ interface IWalkPath {
 
 * [IRefPathIdInModel](core_maker.IRefPathIdInModel.md)
 * [IRouteOffset](core_maker.IRouteOffset.md)
-  + IWalkPath
+  * IWalkPath
 
 * Defined in [core/maker.ts:404](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L404)
 
@@ -126,6 +123,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Path Independence](../index.md)
-- [Models](../index.md)
-- [Path Constructors](../index.md)
+* [Path Independence](../index.md)
+* [Models](../index.md)
+* [Path Constructors](../index.md)

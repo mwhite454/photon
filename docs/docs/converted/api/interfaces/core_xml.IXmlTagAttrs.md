@@ -19,9 +19,6 @@ IXmlTagAttrs | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/xml](../modules/core_xml.md)
@@ -33,7 +30,6 @@ Attributes for an XML tag.
 
 #### Indexable
 
-* [name: string]: any
 
 * Defined in [core/xml.ts:2](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/xml.ts#L2)
 

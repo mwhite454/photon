@@ -37,7 +37,6 @@ Rather, chains are "found" by Maker.js when it processes your drawing model.
 Paths in your drawing model are independent elements which may be added, modified or deleted by you or another developer.
 As you work with paths, bear in mind that you are also implicitly working with chains.
 
-
 ## Examples
 
 ```javascript
@@ -54,6 +53,7 @@ paths: {
 const svg = exporter.toSVG(model);
 document.write(svg);
 ```
+
 ```javascript
 //render a model with paths that form a chain
 import { exporter, paths } from '@7syllable/photon-core';
@@ -67,6 +67,7 @@ paths: {
 const svg = exporter.toSVG(model);
 document.write(svg);
 ```
+
 ```javascript
 //render a model with paths that form an endless chain
 import { exporter, paths } from '@7syllable/photon-core';

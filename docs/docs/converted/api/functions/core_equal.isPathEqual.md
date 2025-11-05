@@ -24,9 +24,6 @@ isPathEqual | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/equal](../modules/core_equal.md)
@@ -46,15 +43,15 @@ Preparing search index...
 
   #### Parameters
 
-  + pathA: [IPath](../interfaces/core_schema.IPath.md)
-  + pathB: [IPath](../interfaces/core_schema.IPath.md)
-  + `Optional`withinPointDistance: number
-  + `Optional`pathAOffset: [IPoint](../interfaces/core_schema.IPoint.md)
-  + `Optional`pathBOffset: [IPoint](../interfaces/core_schema.IPoint.md)
+  * pathA: [IPath](../interfaces/core_schema.IPath.md)
+  * pathB: [IPath](../interfaces/core_schema.IPath.md)
+  * `Optional`withinPointDistance: number
+  * `Optional`pathAOffset: [IPoint](../interfaces/core_schema.IPoint.md)
+  * `Optional`pathBOffset: [IPoint](../interfaces/core_schema.IPoint.md)
 
   #### Returns boolean
 
-  + Defined in [core/equal.ts:38](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/equal.ts#L38)
+  * Defined in [core/equal.ts:38](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/equal.ts#L38)
 
 ### Settings
 
@@ -73,6 +70,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Path Independence](../index.md)
-- [Models](../index.md)
-- [Path Constructors](../index.md)
+* [Path Independence](../index.md)
+* [Models](../index.md)
+* [Path Constructors](../index.md)

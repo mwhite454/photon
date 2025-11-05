@@ -22,8 +22,8 @@ title: Outlining
 ---
 
 !!! warning "Known Issue - API Not Yet Available"
-    This page documents `model.outline()` which is **not yet available** in `@7syllable/photon-core@0.18.1`. 
-    
+    This page documents `model.outline()` which is **not yet available** in `@7syllable/photon-core@0.18.1`.
+
     This function existed in the original maker.js but has not yet been ported to photon/core. 
     
     **Status**: See [GitHub Issue #3](https://github.com/mwhite454/photon/issues/3) for updates.

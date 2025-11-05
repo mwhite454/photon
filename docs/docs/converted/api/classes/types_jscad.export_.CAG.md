@@ -22,9 +22,6 @@ CAG | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [types/jscad](../modules/types_jscad.md)
@@ -55,11 +52,11 @@ CAG (2D Constructive Area Geometry) class
 
   #### Parameters
 
-  + options: { offset: number[] }
+  * options: { offset: number[] }
 
   #### Returns [export=](../modules/types_jscad.export_.md).[CSG](types_jscad.export_.CSG.md)
 
-  + Defined in [types/jscad.d.ts:30](https://github.com/mwhite454/photon/blob/main/packages/photon/src/types/jscad.d.ts#L30)
+  * Defined in [types/jscad.d.ts:30](https://github.com/mwhite454/photon/blob/main/packages/photon/src/types/jscad.d.ts#L30)
 
 ### subtract
 
@@ -69,11 +66,11 @@ CAG (2D Constructive Area Geometry) class
 
   #### Parameters
 
-  + other: CAG
+  * other: CAG
 
   #### Returns CAG
 
-  + Defined in [types/jscad.d.ts:25](https://github.com/mwhite454/photon/blob/main/packages/photon/src/types/jscad.d.ts#L25)
+  * Defined in [types/jscad.d.ts:25](https://github.com/mwhite454/photon/blob/main/packages/photon/src/types/jscad.d.ts#L25)
 
 ### union
 
@@ -83,11 +80,11 @@ CAG (2D Constructive Area Geometry) class
 
   #### Parameters
 
-  + other: CAG
+  * other: CAG
 
   #### Returns CAG
 
-  + Defined in [types/jscad.d.ts:20](https://github.com/mwhite454/photon/blob/main/packages/photon/src/types/jscad.d.ts#L20)
+  * Defined in [types/jscad.d.ts:20](https://github.com/mwhite454/photon/blob/main/packages/photon/src/types/jscad.d.ts#L20)
 
 ### `Static`fromPoints
 
@@ -97,11 +94,11 @@ CAG (2D Constructive Area Geometry) class
 
   #### Parameters
 
-  + points: number[][]
+  * points: number[][]
 
   #### Returns CAG
 
-  + Defined in [types/jscad.d.ts:15](https://github.com/mwhite454/photon/blob/main/packages/photon/src/types/jscad.d.ts#L15)
+  * Defined in [types/jscad.d.ts:15](https://github.com/mwhite454/photon/blob/main/packages/photon/src/types/jscad.d.ts#L15)
 
 ### Settings
 

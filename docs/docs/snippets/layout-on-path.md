@@ -46,7 +46,9 @@ layout.childrenOnPath(row, arc);
 const svg = exporter.toSVG(row);
 document.write(svg);
 ```
+
 To better see how layout is performed, let's show the arc in red and add a triangle to the first square:
+
 ```javascript
 //render a row of squares on a path
 import { exporter, layout, models, paths } from '@7syllable/photon-core';
@@ -62,6 +64,7 @@ row.paths = { arc: arc };
 const svg = exporter.toSVG(row);
 document.write(svg);
 ```
+
 You may be surprised to see that the first model is upside down and on the right!
 This is because the x-axis of the row has been projected onto the arc. The arc starts at 45 degrees and ends at 135 degrees - increasing to the left. The x-axis increases to the right, therefore it appears upside down.
 Fortunately, there are additional optional parameters to this layout.childrenOnPath which let you control this behavior:
@@ -75,6 +78,7 @@ Fortunately, there are additional optional parameters to this layout.childrenOnP
 
 This is a number, ususally between 0 and 1, to determine where to place each model "vertically" on the layout path. This is a ratio of the parentModel's total height above the x-axis.
 You may also use a negative number or greater than 1 for interesting effects. Use 0.5 to place a model at the y-center:
+
 ```javascript
 //render a row of squares on a path
 import { exporter, layout, models, paths } from '@7syllable/photon-core';
@@ -98,6 +102,7 @@ This option will not work for a circle. Lines and arcs each have a concept of a 
 * arc - an arc flows from its startAngle to its endAngle, in the polar (counter-clockwise) direction.
 
 If you want to plot the opposite direction, set **reversed** to true:
+
 ```javascript
 //render a row of squares on a path
 import { exporter, layout, models, paths } from '@7syllable/photon-core';
@@ -117,6 +122,7 @@ document.write(svg);
 
 You may notice that the red arc's endpoints are in the x-center of the first and last children.
 To contain the children within the span, set **contain** to true:
+
 ```javascript
 //render a row of squares on a path
 import { exporter, layout, models, paths } from '@7syllable/photon-core';
@@ -135,6 +141,7 @@ document.write(svg);
 #### rotate
 
 If you wish each child to be placed on the path but **not** rotated, set **rotate** to false:
+
 ```javascript
 //render a row of squares on a path
 import { exporter, layout, models, paths } from '@7syllable/photon-core';
@@ -150,7 +157,6 @@ const svg = exporter.toSVG(row);
 document.write(svg);
 ```
 
-
 ---
 
 #### Laying out text
@@ -159,7 +165,7 @@ Layout on a path works well with fonts and text. [See an example here](../playgr
 
 ## Related Topics
 
-- [Path Independence](../index.md)
-- [Models](../index.md)
-- [Path Constructors](../index.md)
-- [Intermediate Drawing](../index.md)
+* [Path Independence](../index.md)
+* [Models](../index.md)
+* [Path Constructors](../index.md)
+* [Intermediate Drawing](../index.md)

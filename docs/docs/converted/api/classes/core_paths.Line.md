@@ -20,9 +20,6 @@ Line | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/paths](../modules/core_paths.md)
@@ -48,29 +45,29 @@ Class for line path.
 
   #### Parameters
 
-  + points: [IPoint](../interfaces/core_schema.IPoint.md)[]
+  * points: [IPoint](../interfaces/core_schema.IPoint.md)[]
 
     Array of 2 points.
 
   #### Returns Line
 
-  + Defined in [core/paths.ts:317](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/paths.ts#L317)
+  * Defined in [core/paths.ts:317](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/paths.ts#L317)
 * new Line(origin: [IPoint](../interfaces/core_schema.IPoint.md), end: [IPoint](../interfaces/core_schema.IPoint.md)): Line
 
   Class for line path, constructed from 2 points.
 
   #### Parameters
 
-  + origin: [IPoint](../interfaces/core_schema.IPoint.md)
+  * origin: [IPoint](../interfaces/core_schema.IPoint.md)
 
     The origin point of the line.
-  + end: [IPoint](../interfaces/core_schema.IPoint.md)
+  * end: [IPoint](../interfaces/core_schema.IPoint.md)
 
     The end point of the line.
 
   #### Returns Line
 
-  + Defined in [core/paths.ts:325](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/paths.ts#L325)
+  * Defined in [core/paths.ts:325](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/paths.ts#L325)
 
 ## Properties
 

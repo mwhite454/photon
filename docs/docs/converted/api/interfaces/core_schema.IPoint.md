@@ -19,9 +19,6 @@ IPoint | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/schema](../modules/core_schema.md)
@@ -34,7 +31,6 @@ Implemented as an array with 2 elements. The first element is x, the second elem
 
 #### Indexable
 
-* [index: number]: number
 
 * Defined in [core/schema.ts:11](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/schema.ts#L11)
 

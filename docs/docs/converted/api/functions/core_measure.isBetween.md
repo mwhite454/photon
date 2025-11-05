@@ -19,9 +19,6 @@ isBetween | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/measure](../modules/core_measure.md)
@@ -40,16 +37,16 @@ Preparing search index...
 
   #### Parameters
 
-  + valueInQuestion: number
+  * valueInQuestion: number
 
     The number to test.
-  + limitA: number
+  * limitA: number
 
     First limit.
-  + limitB: number
+  * limitB: number
 
     Second limit.
-  + exclusive: boolean
+  * exclusive: boolean
 
     Flag to exclude equaling the limits.
 
@@ -57,7 +54,7 @@ Preparing search index...
 
   Boolean true if value is between (or equal to) the limits.
 
-  + Defined in [core/measure.ts:140](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure.ts#L140)
+  * Defined in [core/measure.ts:140](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure.ts#L140)
 
 ### Settings
 

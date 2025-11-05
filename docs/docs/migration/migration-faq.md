@@ -46,17 +46,20 @@ The core API remains largely the same - most breaking changes are in how you imp
 **A:** Yes. A few functions from maker.js have not yet been ported to photon/core:
 
 **Missing Functions** (as of v0.18.1):
+
 - `model.expandPaths()` - Expand paths with stroke thickness
 - `model.outline()` - Create outline around model
 
 **Partially Working**:
+
 - `model.simplify()` - Function exists but some examples fail due to missing dependencies
 
 **Status**: See [GitHub Issue #3](https://github.com/mwhite454/photon/issues/3) for updates and workarounds.
 
 **Affected Documentation**: Pages documenting these functions include warning banners. Examples will not execute until these functions are restored.
 
-**Workarounds**: 
+**Workarounds**:
+
 - For `expandPaths()`: Use path-level expansion where possible
 - For `outline()`: Manually create outline paths
 - Watch GitHub issue for restoration timeline
@@ -86,7 +89,6 @@ Choose one and stick with it. For new projects, use photon/core.
 ### Q: How do I install photon/core?
 
 **A:** Using npm or yarn:
-
 
 ## Examples
 

@@ -27,7 +27,6 @@ title: Zeroing And Centering
 To move a model so that its bottom and/or left edges are on the x & y axes, use [model.zero](../converted/api/functions/core_model.zero.md).
 This function accepts 2 boolean parameters: zeroOnXAxis, zeroOnYAxis. If you do not pass any parameters, it will zero on both axes.
 
-
 ## Examples
 
 ```javascript

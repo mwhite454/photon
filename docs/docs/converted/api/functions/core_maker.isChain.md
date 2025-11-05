@@ -23,9 +23,6 @@ isChain | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/maker](../modules/core_maker.md)
@@ -39,13 +36,13 @@ Preparing search index...
 
   #### Parameters
 
-  + item: any
+  * item: any
 
     The item to test.
 
   #### Returns boolean
 
-  + Defined in [core/maker.ts:486](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L486)
+  * Defined in [core/maker.ts:486](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L486)
 
 ### Settings
 
@@ -64,6 +61,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Chain Theory](../index.md)
-- [Breaking](../index.md)
-- [Routes](../index.md)
+* [Chain Theory](../index.md)
+* [Breaking](../index.md)
+* [Routes](../index.md)

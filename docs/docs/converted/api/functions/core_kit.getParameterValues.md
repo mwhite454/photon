@@ -19,9 +19,6 @@ getParameterValues | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/kit](../modules/core_kit.md)
@@ -35,11 +32,11 @@ Preparing search index...
 
   #### Parameters
 
-  + ctor: [IKit](../interfaces/core_maker.IKit.md)
+  * ctor: [IKit](../interfaces/core_maker.IKit.md)
 
   #### Returns any[]
 
-  + Defined in [core/kit.ts:14](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/kit.ts#L14)
+  * Defined in [core/kit.ts:14](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/kit.ts#L14)
 
 ### Settings
 

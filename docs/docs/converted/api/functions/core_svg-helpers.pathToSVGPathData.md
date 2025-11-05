@@ -25,9 +25,6 @@ pathToSVGPathData | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/svg-helpers](../modules/core_svg-helpers.md)
@@ -47,15 +44,15 @@ Preparing search index...
 
   #### Parameters
 
-  + pathToExport: [IPath](../interfaces/core_schema.IPath.md)
-  + pathOffset: [IPoint](../interfaces/core_schema.IPoint.md)
-  + exportOffset: [IPoint](../interfaces/core_schema.IPoint.md)
-  + accuracy: number = 0.001
-  + `Optional`clockwiseCircle: boolean
+  * pathToExport: [IPath](../interfaces/core_schema.IPath.md)
+  * pathOffset: [IPoint](../interfaces/core_schema.IPoint.md)
+  * exportOffset: [IPoint](../interfaces/core_schema.IPoint.md)
+  * accuracy: number = 0.001
+  * `Optional`clockwiseCircle: boolean
 
   #### Returns string
 
-  + Defined in [core/svg-helpers.ts:110](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/svg-helpers.ts#L110)
+  * Defined in [core/svg-helpers.ts:110](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/svg-helpers.ts#L110)
 
 ### Settings
 
@@ -74,6 +71,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Path Independence](../index.md)
-- [Models](../index.md)
-- [Path Constructors](../index.md)
+* [Path Independence](../index.md)
+* [Models](../index.md)
+* [Path Constructors](../index.md)

@@ -19,9 +19,6 @@ isBezierSeedLinear | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/measure-minimal](../modules/core_measure-minimal.md)
@@ -35,12 +32,12 @@ Preparing search index...
 
   #### Parameters
 
-  + seed: [IPathBezierSeed](../interfaces/core_schema.IPathBezierSeed.md)
-  + `Optional`exclusive: boolean
+  * seed: [IPathBezierSeed](../interfaces/core_schema.IPathBezierSeed.md)
+  * `Optional`exclusive: boolean
 
   #### Returns boolean
 
-  + Defined in [core/measure-minimal.ts:46](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure-minimal.ts#L46)
+  * Defined in [core/measure-minimal.ts:46](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure-minimal.ts#L46)
 
 ### Settings
 

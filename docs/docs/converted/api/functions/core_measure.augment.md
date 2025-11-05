@@ -19,9 +19,6 @@ augment | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/measure](../modules/core_measure.md)
@@ -35,7 +32,7 @@ Preparing search index...
 
   #### Parameters
 
-  + measureToAugment: [IMeasure](../interfaces/core_maker.IMeasure.md)
+  * measureToAugment: [IMeasure](../interfaces/core_maker.IMeasure.md)
 
     The measurement to augment.
 
@@ -43,7 +40,7 @@ Preparing search index...
 
   Measurement object with augmented properties.
 
-  + Defined in [core/measure.ts:577](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure.ts#L577)
+  * Defined in [core/measure.ts:577](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure.ts#L577)
 
 ### Settings
 

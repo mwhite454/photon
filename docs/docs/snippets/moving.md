@@ -32,7 +32,6 @@ Keep in mind that since paths are contained within models, and models may be con
 
 To illustrate this, let's create a model that has a few squares:
 
-
 ## Examples
 
 ```javascript

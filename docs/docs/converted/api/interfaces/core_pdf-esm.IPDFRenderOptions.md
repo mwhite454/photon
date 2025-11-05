@@ -22,9 +22,6 @@ IPDFRenderOptions | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/pdf-esm](../modules/core_pdf-esm.md)

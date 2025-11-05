@@ -64,6 +64,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Exporting DXF](../index.md)
-- [SVG Styling](../index.md)
-- [Exporting PDF](../index.md)
+* [Exporting DXF](../index.md)
+* [SVG Styling](../index.md)
+* [Exporting PDF](../index.md)

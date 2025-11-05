@@ -20,9 +20,6 @@ ICascadePoint | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/cascades](../modules/core_cascades.md)
@@ -40,7 +37,7 @@ interface ICascadePoint {
 #### Hierarchy ([View Summary](../hierarchy.md))
 
 * [MakerJs](../modules/core_cascades.MakerJs.md).[ICascade](core_cascades.MakerJs.ICascade.md)
-  + ICascadePoint
+  * ICascadePoint
 
 * Defined in [core/cascades.ts:19](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/cascades.ts#L19)
 

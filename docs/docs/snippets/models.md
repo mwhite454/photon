@@ -34,7 +34,6 @@ Models are the heart of Maker.js. A model is represented by an object with these
 
 Let's look at **paths** first, using the example above.
 
-
 ## Examples
 
 ```javascript
@@ -143,10 +142,11 @@ models: { "myModel1": model1, "myModel2": model2 }
 const svg = exporter.toSVG(model);
 document.write(svg);
 ```
+
 *(additional optional properties covered in advanced lessons)*
 
 ## Related Topics
 
-- [Modeling](../index.md)
-- [Paths](../index.md)
-- [Built-in Models](../index.md)
+* [Modeling](../index.md)
+* [Paths](../index.md)
+* [Built-in Models](../index.md)

@@ -21,9 +21,6 @@ Square | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [models/Square](../modules/models_Square.md)
@@ -47,11 +44,11 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
   #### Parameters
 
-  + side: number
+  * side: number
 
   #### Returns Square
 
-  + Defined in [models/Square.ts:8](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Square.ts#L8)
+  * Defined in [models/Square.ts:8](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Square.ts#L8)
 
 ## Properties
 

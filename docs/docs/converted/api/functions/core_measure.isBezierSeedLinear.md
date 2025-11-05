@@ -19,9 +19,6 @@ isBezierSeedLinear | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/measure](../modules/core_measure.md)
@@ -35,10 +32,10 @@ Preparing search index...
 
   #### Parameters
 
-  + seed: [IPathBezierSeed](../interfaces/core_schema.IPathBezierSeed.md)
+  * seed: [IPathBezierSeed](../interfaces/core_schema.IPathBezierSeed.md)
 
     The bezier seed to test.
-  + `Optional`exclusive: boolean
+  * `Optional`exclusive: boolean
 
     Optional boolean to test only within the boundary of the endpoints.
 
@@ -46,7 +43,7 @@ Preparing search index...
 
   Boolean true if bezier seed has control points on the line slope and between the line endpoints.
 
-  + Defined in [core/measure.ts:198](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure.ts#L198)
+  * Defined in [core/measure.ts:198](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure.ts#L198)
 
 ### Settings
 

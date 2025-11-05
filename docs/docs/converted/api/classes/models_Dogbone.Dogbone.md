@@ -21,9 +21,6 @@ Dogbone | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [models/Dogbone](../modules/models_Dogbone.md)
@@ -55,15 +52,15 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
   #### Parameters
 
-  + width: number
-  + height: number
-  + radius: number
-  + style: number = 0
-  + bottomless: boolean = false
+  * width: number
+  * height: number
+  * radius: number
+  * style: number = 0
+  * bottomless: boolean = false
 
   #### Returns Dogbone
 
-  + Defined in [models/Dogbone.ts:9](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Dogbone.ts#L9)
+  * Defined in [models/Dogbone.ts:9](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Dogbone.ts#L9)
 
 ## Properties
 

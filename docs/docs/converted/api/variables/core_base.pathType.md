@@ -23,9 +23,6 @@ pathType | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/base](../modules/core_base.md)
@@ -43,8 +40,11 @@ pathType: {
 #### Type Declaration
 
 * ##### `Readonly`Arc: "arc"
+
 * ##### `Readonly`BezierSeed: "bezier-seed"
+
 * ##### `Readonly`Circle: "circle"
+
 * ##### `Readonly`Line: "line"
 
 * Defined in [core/base.ts:42](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/base.ts#L42)
@@ -66,6 +66,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Path Independence](../index.md)
-- [Models](../index.md)
-- [Path Constructors](../index.md)
+* [Path Independence](../index.md)
+* [Models](../index.md)
+* [Path Constructors](../index.md)

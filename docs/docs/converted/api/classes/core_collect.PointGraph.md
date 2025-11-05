@@ -42,6 +42,7 @@ A graph of items which may be located on the same points.
 - new PointGraph<T>(): PointGraph<T>
 
   <a id="constructorpointgrapht"></a>
+
   #### Type Parameters
 
   - T
@@ -113,7 +114,7 @@ List of values inserted at points.
 
     Callback for each point in the index. #### Returns void
 
-  * Defined in [core/collect.ts:302](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/collect.ts#L302)
+  - Defined in [core/collect.ts:302](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/collect.ts#L302)
 
 ### getElementAtPoint
 

@@ -24,9 +24,6 @@ toNewModel | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/chain](../modules/core_chain.md)
@@ -40,10 +37,10 @@ Preparing search index...
 
   #### Parameters
 
-  + chainContext: [IChain](../interfaces/core_maker.IChain.md)
+  * chainContext: [IChain](../interfaces/core_maker.IChain.md)
 
     Chain to convert to a model.
-  + detachFromOldModel: boolean = false
+  * detachFromOldModel: boolean = false
 
     Flag to remove the chain's paths from their current parent model. If false, each path will be cloned. If true, the original path will be re-parented into the resulting new model. Default is false.
 
@@ -51,7 +48,7 @@ Preparing search index...
 
   A new model containing paths from the chain.
 
-  + Defined in [core/chain.ts:522](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/chain.ts#L522)
+  * Defined in [core/chain.ts:522](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/chain.ts#L522)
 
 ### Settings
 
@@ -70,6 +67,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Modeling](../index.md)
-- [Paths](../index.md)
-- [Built-in Models](../index.md)
+* [Modeling](../index.md)
+* [Paths](../index.md)
+* [Built-in Models](../index.md)

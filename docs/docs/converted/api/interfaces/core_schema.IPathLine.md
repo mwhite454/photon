@@ -24,9 +24,6 @@ IPathLine | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/schema](../modules/core_schema.md)
@@ -46,8 +43,8 @@ interface IPathLine {
 #### Hierarchy ([View Summary](../hierarchy.md))
 
 * [IPath](core_schema.IPath.md)
-  + IPathLine
-    - [IPathBezierSeed](core_schema.IPathBezierSeed.md)
+  * IPathLine
+    * [IPathBezierSeed](core_schema.IPathBezierSeed.md)
 
 #### Implemented by
 
@@ -114,6 +111,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Path Independence](../index.md)
-- [Models](../index.md)
-- [Path Constructors](../index.md)
+* [Path Independence](../index.md)
+* [Models](../index.md)
+* [Path Constructors](../index.md)

@@ -20,9 +20,6 @@ IJscadExtrudeOptions | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/openjscad-esm](../modules/core_openjscad-esm.md)
@@ -40,7 +37,7 @@ interface IJscadExtrudeOptions {
 #### Hierarchy ([View Summary](../hierarchy.md))
 
 * IJscadExtrudeOptions
-  + [IJscadCsgOptions](core_openjscad-esm.IJscadCsgOptions.md)
+  * [IJscadCsgOptions](core_openjscad-esm.IJscadCsgOptions.md)
 
 * Defined in [core/openjscad-esm.ts:529](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/openjscad-esm.ts#L529)
 

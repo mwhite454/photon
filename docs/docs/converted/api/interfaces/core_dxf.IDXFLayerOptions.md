@@ -19,9 +19,6 @@ IDXFLayerOptions | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/dxf](../modules/core_dxf.md)

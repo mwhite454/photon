@@ -19,9 +19,6 @@ isObject | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/maker](../modules/core_maker.md)
@@ -35,11 +32,11 @@ Preparing search index...
 
   #### Parameters
 
-  + value: any
+  * value: any
 
   #### Returns boolean
 
-  + Defined in [core/maker.ts:146](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L146)
+  * Defined in [core/maker.ts:146](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L146)
 
 ### Settings
 

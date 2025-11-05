@@ -25,9 +25,6 @@ Rectangle | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [models/Rectangle](../modules/models_Rectangle.md)
@@ -64,16 +61,16 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
   #### Parameters
 
-  + width: number
+  * width: number
 
     Width of the rectangle.
-  + height: number
+  * height: number
 
     Height of the rectangle.
 
   #### Returns Rectangle
 
-  + Defined in [models/Rectangle.ts:27](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Rectangle.ts#L27)
+  * Defined in [models/Rectangle.ts:27](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Rectangle.ts#L27)
 * new Rectangle(modelToSurround: [IModel](../interfaces/core_schema.IModel.md), margin?: number): Rectangle
 
   Create a rectangle which will surround a model.
@@ -92,16 +89,16 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
   #### Parameters
 
-  + modelToSurround: [IModel](../interfaces/core_schema.IModel.md)
+  * modelToSurround: [IModel](../interfaces/core_schema.IModel.md)
 
     IModel object.
-  + `Optional`margin: number
+  * `Optional`margin: number
 
     Optional distance from the model.
 
   #### Returns Rectangle
 
-  + Defined in [models/Rectangle.ts:45](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Rectangle.ts#L45)
+  * Defined in [models/Rectangle.ts:45](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Rectangle.ts#L45)
 * new Rectangle(measurement: [IMeasure](../interfaces/core_maker.IMeasure.md)): Rectangle
 
   Create a rectangle from a measurement.
@@ -121,13 +118,13 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
   #### Parameters
 
-  + measurement: [IMeasure](../interfaces/core_maker.IMeasure.md)
+  * measurement: [IMeasure](../interfaces/core_maker.IMeasure.md)
 
     IMeasure object. See <http:// photon/core.org/docs/api/modules/measure.html#pathextents> and <http:// photon/core.org/docs/api/modules/measure.html#modelextents> to get measurements of paths and models.
 
   #### Returns Rectangle
 
-  + Defined in [models/Rectangle.ts:63](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Rectangle.ts#L63)
+  * Defined in [models/Rectangle.ts:63](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Rectangle.ts#L63)
 
 ## Properties
 

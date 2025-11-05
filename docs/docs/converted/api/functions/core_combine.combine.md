@@ -19,9 +19,6 @@ combine | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/combine](../modules/core_combine.md)
@@ -41,17 +38,17 @@ Preparing search index...
 
   #### Parameters
 
-  + modelA: [IModel](../interfaces/core_schema.IModel.md)
-  + modelB: [IModel](../interfaces/core_schema.IModel.md)
-  + includeAInsideB: boolean = false
-  + includeAOutsideB: boolean = true
-  + includeBInsideA: boolean = false
-  + includeBOutsideA: boolean = true
-  + `Optional`options: [ICombineOptions](../interfaces/core_maker.ICombineOptions.md)
+  * modelA: [IModel](../interfaces/core_schema.IModel.md)
+  * modelB: [IModel](../interfaces/core_schema.IModel.md)
+  * includeAInsideB: boolean = false
+  * includeAOutsideB: boolean = true
+  * includeBInsideA: boolean = false
+  * includeBOutsideA: boolean = true
+  * `Optional`options: [ICombineOptions](../interfaces/core_maker.ICombineOptions.md)
 
   #### Returns [IModel](../interfaces/core_schema.IModel.md)
 
-  + Defined in [core/combine.ts:313](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/combine.ts#L313)
+  * Defined in [core/combine.ts:313](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/combine.ts#L313)
 
 ### Settings
 

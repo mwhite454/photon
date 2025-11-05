@@ -19,9 +19,6 @@ simplify | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/simplify](../modules/core_simplify.md)
@@ -33,12 +30,12 @@ Preparing search index...
 
   #### Parameters
 
-  + modelToSimplify: [IModel](../interfaces/core_schema.IModel.md)
-  + `Optional`options: [ISimplifyOptions](../interfaces/core_maker.ISimplifyOptions.md)
+  * modelToSimplify: [IModel](../interfaces/core_schema.IModel.md)
+  * `Optional`options: [ISimplifyOptions](../interfaces/core_maker.ISimplifyOptions.md)
 
   #### Returns [IModel](../interfaces/core_schema.IModel.md)
 
-  + Defined in [core/simplify.ts:53](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/simplify.ts#L53)
+  * Defined in [core/simplify.ts:53](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/simplify.ts#L53)
 
 ### Settings
 

@@ -19,9 +19,6 @@ travel | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/maker](../modules/core_maker.md)
@@ -38,12 +35,12 @@ Preparing search index...
 
   #### Parameters
 
-  + modelContext: [IModel](../interfaces/core_schema.IModel.md)
-  + route: string | string[]
+  * modelContext: [IModel](../interfaces/core_schema.IModel.md)
+  * route: string | string[]
 
   #### Returns { offset: [IPoint](../interfaces/core_schema.IPoint.md); result: [IPath](../interfaces/core_schema.IPath.md) | [IModel](../interfaces/core_schema.IModel.md) }
 
-  + Defined in [core/maker.ts:93](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L93)
+  * Defined in [core/maker.ts:93](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L93)
 
 ### Settings
 

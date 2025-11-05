@@ -44,6 +44,7 @@ Collects items that share a common key.
 
 <a id="constructorcollectork"></a>
 <a id="constructorcollectort"></a>
+
 #### Type Parameters
 
 - K

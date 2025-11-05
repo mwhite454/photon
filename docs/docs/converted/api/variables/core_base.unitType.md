@@ -19,9 +19,6 @@ unitType | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/base](../modules/core_base.md)
@@ -40,9 +37,13 @@ unitType: {
 #### Type Declaration
 
 * ##### `Readonly`Centimeter: "cm"
+
 * ##### `Readonly`Foot: "foot"
+
 * ##### `Readonly`Inch: "inch"
+
 * ##### `Readonly`Meter: "m"
+
 * ##### `Readonly`Millimeter: "mm"
 
 * Defined in [core/base.ts:33](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/base.ts#L33)

@@ -19,9 +19,6 @@ fromPolar | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/point](../modules/core_point.md)
@@ -35,12 +32,12 @@ Preparing search index...
 
   #### Parameters
 
-  + angleInRadians: number
-  + radius: number
+  * angleInRadians: number
+  * radius: number
 
   #### Returns [IPoint](../interfaces/core_schema.IPoint.md)
 
-  + Defined in [core/point.ts:59](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/point.ts#L59)
+  * Defined in [core/point.ts:59](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/point.ts#L59)
 
 ### Settings
 

@@ -19,9 +19,6 @@ pointDistance | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/measure](../modules/core_measure.md)
@@ -35,10 +32,10 @@ Preparing search index...
 
   #### Parameters
 
-  + a: [IPoint](../interfaces/core_schema.IPoint.md)
+  * a: [IPoint](../interfaces/core_schema.IPoint.md)
 
     First point.
-  + b: [IPoint](../interfaces/core_schema.IPoint.md)
+  * b: [IPoint](../interfaces/core_schema.IPoint.md)
 
     Second point.
 
@@ -46,7 +43,7 @@ Preparing search index...
 
   Distance between points.
 
-  + Defined in [core/measure.ts:357](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure.ts#L357)
+  * Defined in [core/measure.ts:357](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure.ts#L357)
 
 ### Settings
 

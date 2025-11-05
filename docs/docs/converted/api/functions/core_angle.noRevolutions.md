@@ -19,9 +19,6 @@ noRevolutions | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/angle](../modules/core_angle.md)
@@ -35,11 +32,11 @@ Preparing search index...
 
   #### Parameters
 
-  + angleInDegrees: number
+  * angleInDegrees: number
 
   #### Returns number
 
-  + Defined in [core/angle.ts:34](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/angle.ts#L34)
+  * Defined in [core/angle.ts:34](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/angle.ts#L34)
 
 ### Settings
 

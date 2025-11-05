@@ -24,9 +24,6 @@ IChainCallback | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/maker](../modules/core_maker.md)
@@ -45,14 +42,14 @@ Callback to model.findChains() with resulting array of chains and unchained path
 
   #### Parameters
 
-  + chains: [IChain](core_maker.IChain.md)[]
-  + loose: [IWalkPath](core_maker.IWalkPath.md)[]
-  + layer: string
-  + `Optional`ignored: [IWalkPath](core_maker.IWalkPath.md)[]
+  * chains: [IChain](core_maker.IChain.md)[]
+  * loose: [IWalkPath](core_maker.IWalkPath.md)[]
+  * layer: string
+  * `Optional`ignored: [IWalkPath](core_maker.IWalkPath.md)[]
 
   #### Returns void
 
-  + Defined in [core/maker.ts:495](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L495)
+  * Defined in [core/maker.ts:495](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L495)
 
 ### Settings
 
@@ -71,6 +68,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Chain Theory](../index.md)
-- [Breaking](../index.md)
-- [Routes](../index.md)
+* [Chain Theory](../index.md)
+* [Breaking](../index.md)
+* [Routes](../index.md)

@@ -21,9 +21,6 @@ BoltCircle | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [models/BoltCircle](../modules/models_BoltCircle.md)
@@ -52,14 +49,14 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
   #### Parameters
 
-  + boltRadius: number
-  + holeRadius: number
-  + boltCount: number
-  + firstBoltAngleInDegrees: number = 0
+  * boltRadius: number
+  * holeRadius: number
+  * boltCount: number
+  * firstBoltAngleInDegrees: number = 0
 
   #### Returns BoltCircle
 
-  + Defined in [models/BoltCircle.ts:9](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/BoltCircle.ts#L9)
+  * Defined in [models/BoltCircle.ts:9](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/BoltCircle.ts#L9)
 
 ## Properties
 

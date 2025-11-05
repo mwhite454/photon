@@ -19,9 +19,6 @@ lineSlope | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/measure-minimal](../modules/core_measure-minimal.md)
@@ -35,11 +32,11 @@ Preparing search index...
 
   #### Parameters
 
-  + line: [IPathLine](../interfaces/core_schema.IPathLine.md)
+  * line: [IPathLine](../interfaces/core_schema.IPathLine.md)
 
   #### Returns [ISlope](../interfaces/core_maker.ISlope.md)
 
-  + Defined in [core/measure-minimal.ts:25](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure-minimal.ts#L25)
+  * Defined in [core/measure-minimal.ts:25](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure-minimal.ts#L25)
 
 ### Settings
 

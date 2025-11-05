@@ -22,9 +22,6 @@ IJscadScriptOptions | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/openjscad-esm](../modules/core_openjscad-esm.md)
@@ -51,7 +48,7 @@ interface IJscadScriptOptions {
 #### Hierarchy ([View Summary](../hierarchy.md))
 
 * [IJscadCsgOptions](core_openjscad-esm.IJscadCsgOptions.md)
-  + IJscadScriptOptions
+  * IJscadScriptOptions
 
 * Defined in [core/openjscad-esm.ts:554](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/openjscad-esm.ts#L554)
 

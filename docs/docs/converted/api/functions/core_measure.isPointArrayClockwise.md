@@ -19,9 +19,6 @@ isPointArrayClockwise | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/measure](../modules/core_measure.md)
@@ -38,10 +35,10 @@ Preparing search index...
 
   #### Parameters
 
-  + points: [IPoint](../interfaces/core_schema.IPoint.md)[]
+  * points: [IPoint](../interfaces/core_schema.IPoint.md)[]
 
     The array of points to test.
-  + `Optional`out\_result: { hullPoints?: [IPoint](../interfaces/core_schema.IPoint.md)[]; keyPoints?: [IPoint](../interfaces/core_schema.IPoint.md)[] }
+  * `Optional`out\_result: { hullPoints?: [IPoint](../interfaces/core_schema.IPoint.md)[]; keyPoints?: [IPoint](../interfaces/core_schema.IPoint.md)[] }
 
     Optional output object, if provided, will be populated with convex hull results.
 
@@ -49,7 +46,7 @@ Preparing search index...
 
   Boolean true if points flow clockwise.
 
-  + Defined in [core/measure.ts:247](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure.ts#L247)
+  * Defined in [core/measure.ts:247](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure.ts#L247)
 
 ### Settings
 

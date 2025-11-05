@@ -19,13 +19,11 @@ ISimplifyOptions | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/maker](../modules/core_maker.md)
 * ISimplifyOptions
+
 # Interface ISimplifyOptions
 
 Options to pass to model.simplify()

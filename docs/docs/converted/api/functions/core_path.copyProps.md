@@ -19,9 +19,6 @@ copyProps | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/path](../modules/core_path.md)
@@ -35,12 +32,12 @@ Preparing search index...
 
   #### Parameters
 
-  + srcPath: [IPath](../interfaces/core_schema.IPath.md)
-  + destPath: [IPath](../interfaces/core_schema.IPath.md)
+  * srcPath: [IPath](../interfaces/core_schema.IPath.md)
+  * destPath: [IPath](../interfaces/core_schema.IPath.md)
 
   #### Returns [IPath](../interfaces/core_schema.IPath.md)
 
-  + Defined in [core/path.ts:71](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/path.ts#L71)
+  * Defined in [core/path.ts:71](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/path.ts#L71)
 
 ### Settings
 

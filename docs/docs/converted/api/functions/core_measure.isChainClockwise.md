@@ -24,9 +24,6 @@ isChainClockwise | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/measure](../modules/core_measure.md)
@@ -43,10 +40,10 @@ Preparing search index...
 
   #### Parameters
 
-  + chainContext: [IChain](../interfaces/core_maker.IChain.md)
+  * chainContext: [IChain](../interfaces/core_maker.IChain.md)
 
     The chain to test.
-  + `Optional`out\_result: { hullPoints?: [IPoint](../interfaces/core_schema.IPoint.md)[]; keyPoints?: [IPoint](../interfaces/core_schema.IPoint.md)[] }
+  * `Optional`out\_result: { hullPoints?: [IPoint](../interfaces/core_schema.IPoint.md)[]; keyPoints?: [IPoint](../interfaces/core_schema.IPoint.md)[] }
 
     Optional output object, if provided, will be populated with convex hull results.
 
@@ -54,7 +51,7 @@ Preparing search index...
 
   Boolean true if paths in the chain flow clockwise.
 
-  + Defined in [core/measure.ts:228](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure.ts#L228)
+  * Defined in [core/measure.ts:228](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure.ts#L228)
 
 ### Settings
 
@@ -73,6 +70,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Chain Theory](../index.md)
-- [Breaking](../index.md)
-- [Routes](../index.md)
+* [Chain Theory](../index.md)
+* [Breaking](../index.md)
+* [Routes](../index.md)

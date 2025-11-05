@@ -20,9 +20,6 @@ parseNumericList | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/importer](../modules/core_importer.md)
@@ -43,7 +40,7 @@ Preparing search index...
 
   #### Parameters
 
-  + s: string
+  * s: string
 
     The string of numbers.
 
@@ -51,7 +48,7 @@ Preparing search index...
 
   Array of numbers.
 
-  + Defined in [core/importer.ts:12](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/importer.ts#L12)
+  * Defined in [core/importer.ts:12](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/importer.ts#L12)
 
 ### Settings
 

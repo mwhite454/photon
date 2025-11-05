@@ -19,9 +19,6 @@ SegmentClassifier | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/boolean-utils](../modules/core_boolean-utils.md)
@@ -33,10 +30,11 @@ SegmentClassifier: (segmentPath: [IPath](../interfaces/core_schema.IPath.md)) =>
 
 #### Type Declaration
 
-* + (segmentPath: [IPath](../interfaces/core_schema.IPath.md)): [SegmentClassification](../interfaces/core_boolean-utils.SegmentClassification.md)
-  + #### Parameters
+* * (segmentPath: [IPath](../interfaces/core_schema.IPath.md)): [SegmentClassification](../interfaces/core_boolean-utils.SegmentClassification.md)
 
-    - segmentPath: [IPath](../interfaces/core_schema.IPath.md)
+  * #### Parameters
+
+    * segmentPath: [IPath](../interfaces/core_schema.IPath.md)
 
     #### Returns [SegmentClassification](../interfaces/core_boolean-utils.SegmentClassification.md)
 

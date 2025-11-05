@@ -19,9 +19,6 @@ ofArcEnd | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/angle](../modules/core_angle.md)
@@ -35,11 +32,11 @@ Preparing search index...
 
   #### Parameters
 
-  + arc: [IPathArc](../interfaces/core_schema.IPathArc.md)
+  * arc: [IPathArc](../interfaces/core_schema.IPathArc.md)
 
   #### Returns number
 
-  + Defined in [core/angle.ts:52](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/angle.ts#L52)
+  * Defined in [core/angle.ts:52](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/angle.ts#L52)
 
 ### Settings
 

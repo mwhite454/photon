@@ -23,9 +23,6 @@ isPointOnPath | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/equal](../modules/core_equal.md)
@@ -45,15 +42,15 @@ Preparing search index...
 
   #### Parameters
 
-  + pointToCheck: [IPoint](../interfaces/core_schema.IPoint.md)
-  + onPath: [IPath](../interfaces/core_schema.IPath.md)
-  + withinDistance: number = 0
-  + `Optional`pathOffset: [IPoint](../interfaces/core_schema.IPoint.md)
-  + `Optional`options: [IIsPointOnPathOptions](../interfaces/core_maker.IIsPointOnPathOptions.md)
+  * pointToCheck: [IPoint](../interfaces/core_schema.IPoint.md)
+  * onPath: [IPath](../interfaces/core_schema.IPath.md)
+  * withinDistance: number = 0
+  * `Optional`pathOffset: [IPoint](../interfaces/core_schema.IPoint.md)
+  * `Optional`options: [IIsPointOnPathOptions](../interfaces/core_maker.IIsPointOnPathOptions.md)
 
   #### Returns boolean
 
-  + Defined in [core/equal.ts:127](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/equal.ts#L127)
+  * Defined in [core/equal.ts:127](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/equal.ts#L127)
 
 ### Settings
 
@@ -72,6 +69,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Path Independence](../index.md)
-- [Models](../index.md)
-- [Path Constructors](../index.md)
+* [Path Independence](../index.md)
+* [Models](../index.md)
+* [Path Constructors](../index.md)

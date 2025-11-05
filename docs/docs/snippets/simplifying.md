@@ -23,8 +23,8 @@ title: Simplifying
 ---
 
 !!! warning "Known Issue - API Not Yet Available"
-    This page uses `model.expandPaths()` which is **not yet available** in `@7syllable/photon-core@0.18.1`. 
-    
+    This page uses `model.expandPaths()` which is **not yet available** in `@7syllable/photon-core@0.18.1`.
+
     While `model.simplify()` exists in the package, the example on this page cannot execute because it depends on `expandPaths()`. 
     
     **Status**: See [GitHub Issue #3](https://github.com/mwhite454/photon/issues/3) for updates.

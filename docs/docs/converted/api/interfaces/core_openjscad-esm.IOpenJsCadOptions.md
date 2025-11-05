@@ -23,9 +23,6 @@ IOpenJsCadOptions | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/openjscad-esm](../modules/core_openjscad-esm.md)
@@ -49,7 +46,7 @@ interface IOpenJsCadOptions {
 #### Hierarchy ([View Summary](../hierarchy.md))
 
 * [IFindLoopsOptions](core_maker.IFindLoopsOptions.md)
-  + IOpenJsCadOptions
+  * IOpenJsCadOptions
 
 * Defined in [core/openjscad-esm.ts:477](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/openjscad-esm.ts#L477)
 

@@ -19,9 +19,6 @@ isPointEqual | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/equal](../modules/core_equal.md)
@@ -35,13 +32,13 @@ Preparing search index...
 
   #### Parameters
 
-  + a: [IPoint](../interfaces/core_schema.IPoint.md)
-  + b: [IPoint](../interfaces/core_schema.IPoint.md)
-  + `Optional`withinDistance: number
+  * a: [IPoint](../interfaces/core_schema.IPoint.md)
+  * b: [IPoint](../interfaces/core_schema.IPoint.md)
+  * `Optional`withinDistance: number
 
   #### Returns boolean
 
-  + Defined in [core/equal.ts:60](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/equal.ts#L60)
+  * Defined in [core/equal.ts:60](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/equal.ts#L60)
 
 ### Settings
 

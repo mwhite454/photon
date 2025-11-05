@@ -35,7 +35,6 @@ Using [path.fillet](../converted/api/functions/core_fillet-path.pathFillet.md) y
 This function will clip the two paths that you pass it, and will return a new arc path which fits between the clipped ends. The paths must meet at one point,
 this is how it determines which ends of the paths to clip. You also provide a radius of the fillet. If the fillet cannot be created this function will return null.
 
-
 ## Examples
 
 ```javascript
@@ -54,6 +53,7 @@ model.paths.arc = arc;
 const svg = exporter.toSVG(model);
 document.write(svg);
 ```
+
 ```javascript
 //fillet between arcs
 import { exporter, path, paths } from '@7syllable/photon-core';
@@ -70,6 +70,7 @@ model.paths.arc = arc;
 const svg = exporter.toSVG(model);
 document.write(svg);
 ```
+
 ```javascript
 //fillet between line and arc (or arc and line!)
 import { exporter, path, paths } from '@7syllable/photon-core';

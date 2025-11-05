@@ -19,9 +19,6 @@ splitDecimal | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/base](../modules/core_base.md)
@@ -33,11 +30,11 @@ Preparing search index...
 
   #### Parameters
 
-  + n: number
+  * n: number
 
   #### Returns string[]
 
-  + Defined in [core/base.ts:56](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/base.ts#L56)
+  * Defined in [core/base.ts:56](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/base.ts#L56)
 
 ### Settings
 

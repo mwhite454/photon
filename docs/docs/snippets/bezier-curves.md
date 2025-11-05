@@ -42,7 +42,6 @@ The default accuracy coefficient in Maker.js will produce an accurate and visual
 
 Create a quadratic Bezier curve in by passing an array of three points - an origin point, a control point, and an end point:
 
-
 ## Examples
 
 ```javascript
@@ -61,7 +60,6 @@ c1: curve1, c2: curve2
 const svg = exporter.toSVG(model);
 document.write(svg);
 ```
-
 
 ---
 
@@ -83,7 +81,6 @@ c1: curve1, c2: curve2
 const svg = exporter.toSVG(model);
 document.write(svg);
 ```
-
 
 ---
 

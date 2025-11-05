@@ -20,9 +20,6 @@ BezierSeed | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [models/BezierCurve-esm](../modules/models_BezierCurve-esm.md)
@@ -48,51 +45,51 @@ Class for bezier seed.
 
   #### Parameters
 
-  + points: [IPoint](../interfaces/core_schema.IPoint.md)[]
+  * points: [IPoint](../interfaces/core_schema.IPoint.md)[]
 
     Array of points, with the first being the origin, and the last being the end, and points between used as control points.
 
   #### Returns BezierSeed
 
-  + Defined in [models/BezierCurve-esm.ts:307](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/BezierCurve-esm.ts#L307)
+  * Defined in [models/BezierCurve-esm.ts:307](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/BezierCurve-esm.ts#L307)
 * new BezierSeed(origin: [IPoint](../interfaces/core_schema.IPoint.md), control: [IPoint](../interfaces/core_schema.IPoint.md), end: [IPoint](../interfaces/core_schema.IPoint.md)): BezierSeed
 
   Class for quadratic bezier seed.
 
   #### Parameters
 
-  + origin: [IPoint](../interfaces/core_schema.IPoint.md)
+  * origin: [IPoint](../interfaces/core_schema.IPoint.md)
 
     The origin point of the curve.
-  + control: [IPoint](../interfaces/core_schema.IPoint.md)
+  * control: [IPoint](../interfaces/core_schema.IPoint.md)
 
     The control point of the curve.
-  + end: [IPoint](../interfaces/core_schema.IPoint.md)
+  * end: [IPoint](../interfaces/core_schema.IPoint.md)
 
     The end point of the curve.
 
   #### Returns BezierSeed
 
-  + Defined in [models/BezierCurve-esm.ts:316](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/BezierCurve-esm.ts#L316)
+  * Defined in [models/BezierCurve-esm.ts:316](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/BezierCurve-esm.ts#L316)
 * new BezierSeed(origin: [IPoint](../interfaces/core_schema.IPoint.md), controls: [IPoint](../interfaces/core_schema.IPoint.md)[], end: [IPoint](../interfaces/core_schema.IPoint.md)): BezierSeed
 
   Class for cubic bezier seed.
 
   #### Parameters
 
-  + origin: [IPoint](../interfaces/core_schema.IPoint.md)
+  * origin: [IPoint](../interfaces/core_schema.IPoint.md)
 
     The origin point of the curve.
-  + controls: [IPoint](../interfaces/core_schema.IPoint.md)[]
+  * controls: [IPoint](../interfaces/core_schema.IPoint.md)[]
 
     The control points of the curve.
-  + end: [IPoint](../interfaces/core_schema.IPoint.md)
+  * end: [IPoint](../interfaces/core_schema.IPoint.md)
 
     The end point of the curve.
 
   #### Returns BezierSeed
 
-  + Defined in [models/BezierCurve-esm.ts:325](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/BezierCurve-esm.ts#L325)
+  * Defined in [models/BezierCurve-esm.ts:325](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/BezierCurve-esm.ts#L325)
 * new BezierSeed(
       origin: [IPoint](../interfaces/core_schema.IPoint.md),
       control1: [IPoint](../interfaces/core_schema.IPoint.md),
@@ -104,22 +101,22 @@ Class for bezier seed.
 
   #### Parameters
 
-  + origin: [IPoint](../interfaces/core_schema.IPoint.md)
+  * origin: [IPoint](../interfaces/core_schema.IPoint.md)
 
     The origin point of the curve.
-  + control1: [IPoint](../interfaces/core_schema.IPoint.md)
+  * control1: [IPoint](../interfaces/core_schema.IPoint.md)
 
     The control point of the curve origin.
-  + control2: [IPoint](../interfaces/core_schema.IPoint.md)
+  * control2: [IPoint](../interfaces/core_schema.IPoint.md)
 
     The control point of the curve end.
-  + end: [IPoint](../interfaces/core_schema.IPoint.md)
+  * end: [IPoint](../interfaces/core_schema.IPoint.md)
 
     The end point of the curve.
 
   #### Returns BezierSeed
 
-  + Defined in [models/BezierCurve-esm.ts:335](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/BezierCurve-esm.ts#L335)
+  * Defined in [models/BezierCurve-esm.ts:335](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/BezierCurve-esm.ts#L335)
 
 ## Properties
 

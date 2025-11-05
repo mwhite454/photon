@@ -52,6 +52,7 @@ document.write(`found ${chains}`.length + ' chains');
 
 Instead of a "flat" array, we can see the containment of chains by also passing an `{ contain: true }` object to
 [model.findChains(model, options)](../converted/api/functions/core_model.findChains.md):
+
 ```javascript
 //2 concentric rectangles
 import { exporter, model, models, paths } from '@7syllable/photon-core';
@@ -75,6 +76,7 @@ There are scenarios where you may need contained chains to flow in the opposite 
 *This will require extra computation on each chain to test its direction.*
 If you need this, use `{ contain: { alternateDirection: true } }` in your options. In the returned chains array,
 the outmost chains will flow clockwise:
+
 ```javascript
 //2 concentric rectangles
 import { exporter, model, models, paths } from '@7syllable/photon-core';
@@ -102,6 +104,7 @@ document.write(`inner is clockwise:${makerjs}`.measure.isChainClockwise(chains[0
 You can find chains within layers by passing `{ byLayers: true }` in your options.
 This will not return an array, but it will return an object map with keys being the layer names, and values being the
 array of chains for that layer:
+
 ```javascript
 //find chains on layers
 import { exporter, model, models, paths } from '@7syllable/photon-core';

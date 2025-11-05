@@ -20,9 +20,6 @@ reverse | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/chain](../modules/core_chain.md)
@@ -36,7 +33,7 @@ Preparing search index...
 
   #### Parameters
 
-  + chainContext: [IChain](../interfaces/core_maker.IChain.md)
+  * chainContext: [IChain](../interfaces/core_maker.IChain.md)
 
     Chain to reverse.
 
@@ -44,7 +41,7 @@ Preparing search index...
 
   The chainContext for cascading.
 
-  + Defined in [core/chain.ts:486](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/chain.ts#L486)
+  * Defined in [core/chain.ts:486](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/chain.ts#L486)
 
 ### Settings
 

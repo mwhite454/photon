@@ -19,9 +19,6 @@ round | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/maker](../modules/core_maker.md)
@@ -35,12 +32,12 @@ Preparing search index...
 
   #### Parameters
 
-  + n: number
-  + accuracy: number = .0000001
+  * n: number
+  * accuracy: number = .0000001
 
   #### Returns number
 
-  + Defined in [core/maker.ts:75](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L75)
+  * Defined in [core/maker.ts:75](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L75)
 
 ### Settings
 

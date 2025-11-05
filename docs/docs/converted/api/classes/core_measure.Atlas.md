@@ -20,9 +20,6 @@ Atlas | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/measure](../modules/core_measure.md)
@@ -56,13 +53,13 @@ object with low and high points.
 
   #### Parameters
 
-  + modelContext: [IModel](../interfaces/core_schema.IModel.md)
+  * modelContext: [IModel](../interfaces/core_schema.IModel.md)
 
     The model to measure.
 
   #### Returns Atlas
 
-  + Defined in [core/measure.ts:616](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure.ts#L616)
+  * Defined in [core/measure.ts:616](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure.ts#L616)
 
 ## Properties
 
@@ -106,7 +103,7 @@ Map of path measurements, mapped by routeKey.
 
   #### Returns void
 
-  + Defined in [core/measure.ts:619](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure.ts#L619)
+  * Defined in [core/measure.ts:619](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure.ts#L619)
 
 ### Settings
 

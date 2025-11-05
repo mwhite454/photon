@@ -23,7 +23,6 @@ title: Routes
 ---
 We know that we are able to refer to deep objects by using the dot notation:
 
-
 ## Examples
 
 ```javascript

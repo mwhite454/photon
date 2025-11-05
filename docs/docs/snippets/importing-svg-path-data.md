@@ -32,7 +32,6 @@ title: Importing Svg Path Data
 ---
 SVG Path data is the value of the **d** attribute of a **path** element. For example, given this SVG:
 
-
 ## Examples
 
 ```html

@@ -41,6 +41,7 @@ const square = pipe(
 ```
 
 **How it works:**
+
 1. Start with a value (the Square)
 2. Apply each function in order, left to right
 3. Each function receives the result of the previous one
@@ -88,6 +89,7 @@ const circle = centerAndRotate(new models.Ellipse(50, 50));
 ```
 
 **How it works:**
+
 1. Define transformations in **right-to-left** order
 2. `compose` returns a new function
 3. Call that function with any compatible value
@@ -145,7 +147,9 @@ const result = pipe(
 ## Why Use Pipe/Compose?
 
 ### Pure Functions
+
 No side effects, predictable behavior:
+
 ```javascript
 const original = new models.Square(100);
 const transformed = pipe(original, model.center, model.rotate(45));
@@ -156,7 +160,9 @@ console.log(transformed.origin); // [-50, -50]
 ```
 
 ### Immutable
+
 Original objects are never modified:
+
 ```javascript
 const square = new models.Square(100);
 
@@ -170,7 +176,9 @@ console.log(centered !== rotated); // true
 ```
 
 ### Type-Safe
+
 Full TypeScript inference:
+
 ```typescript
 import { pipe, model, models } from '@7syllable/photon-core';
 import type { IModel } from '@7syllable/photon-core';
@@ -184,7 +192,9 @@ const result: IModel = pipe(
 ```
 
 ### Performance
+
 Zero overhead - compiles to direct function calls:
+
 ```javascript
 // This pipe call:
 pipe(value, fn1, fn2, fn3)
@@ -198,6 +208,7 @@ fn3(fn2(fn1(value)))
 If you're using the legacy cascade (`$`) API, here's how to migrate:
 
 ### Basic Chain
+
 ```javascript
 // Old (cascade)
 const result = $(model)
@@ -210,6 +221,7 @@ const result = pipe(model, model.center, model.rotate(45));
 ```
 
 ### Reusable Transformations
+
 ```javascript
 // Old (cascade with wrapper function)
 function centerAndRotate(m) {
@@ -224,6 +236,7 @@ const centerAndRotate = compose(
 ```
 
 ### Complex Chains
+
 ```javascript
 import { pipe, $, model, models } from '@7syllable/photon-core';
 
@@ -270,6 +283,7 @@ function pipe<T, A, B>(value: T, fn1: (x: T) => A, fn2: (x: A) => B): B;
 ```
 
 **Parameters:**
+
 - `value` - Initial value to transform
 - `...fns` - Functions to apply in left-to-right order
 
@@ -289,6 +303,7 @@ function compose<A, B, C>(
 ```
 
 **Parameters:**
+
 - `...fns` - Functions to compose in right-to-left order
 
 **Returns:** Composed function that applies all transformations
@@ -296,6 +311,7 @@ function compose<A, B, C>(
 ## Examples
 
 ### Creating a Drawing
+
 ```javascript
 import { pipe, compose, model, models, exporter } from '@7syllable/photon-core';
 
@@ -329,6 +345,7 @@ const svg = exporter.toSVG({ models: shapes });
 ```
 
 ### Path Manipulation
+
 ```javascript
 import { pipe, path, paths } from '@7syllable/photon-core';
 
@@ -341,6 +358,7 @@ const transformedPath = pipe(
 ```
 
 ### Point Transformations
+
 ```javascript
 import { pipe, point } from '@7syllable/photon-core';
 

@@ -19,9 +19,6 @@ isArcOverlapping | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/measure](../modules/core_measure.md)
@@ -39,13 +36,13 @@ Preparing search index...
 
   #### Parameters
 
-  + arcA: [IPathArc](../interfaces/core_schema.IPathArc.md)
-  + arcB: [IPathArc](../interfaces/core_schema.IPathArc.md)
-  + excludeTangents: boolean
+  * arcA: [IPathArc](../interfaces/core_schema.IPathArc.md)
+  * arcB: [IPathArc](../interfaces/core_schema.IPathArc.md)
+  * excludeTangents: boolean
 
   #### Returns boolean
 
-  + Defined in [core/measure.ts:104](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure.ts#L104)
+  * Defined in [core/measure.ts:104](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure.ts#L104)
 
 ### Settings
 

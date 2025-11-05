@@ -19,9 +19,6 @@ equilateralSide | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/solvers](../modules/core_solvers.md)
@@ -35,11 +32,11 @@ Preparing search index...
 
   #### Parameters
 
-  + altitude: number
+  * altitude: number
 
   #### Returns number
 
-  + Defined in [core/solvers.ts:16](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/solvers.ts#L16)
+  * Defined in [core/solvers.ts:16](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/solvers.ts#L16)
 
 ### Settings
 

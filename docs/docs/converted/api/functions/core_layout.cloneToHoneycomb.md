@@ -31,9 +31,6 @@ cloneToHoneycomb | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/layout](../modules/core_layout.md)
@@ -45,8 +42,7 @@ Preparing search index...
 
 Before working with this feature, you should be familiar with:
 
-- [Intermediate Drawing](../index.md)
-
+* [Intermediate Drawing](../index.md)
 
 * cloneToHoneycomb(
       itemToClone: [IPath](../interfaces/core_schema.IPath.md) | [IModel](../interfaces/core_schema.IModel.md),
@@ -70,14 +66,14 @@ Before working with this feature, you should be familiar with:
 
   #### Parameters
 
-  + itemToClone: [IPath](../interfaces/core_schema.IPath.md) | [IModel](../interfaces/core_schema.IModel.md)
-  + xCount: number
+  * itemToClone: [IPath](../interfaces/core_schema.IPath.md) | [IModel](../interfaces/core_schema.IModel.md)
+  * xCount: number
 
     Number of columns in the honeycomb grid.
-  + yCount: number
+  * yCount: number
 
     Number of rows in the honeycomb grid.
-  + margin: number = 0
+  * margin: number = 0
 
     Optional distance between each clone.
 
@@ -85,7 +81,7 @@ Before working with this feature, you should be familiar with:
 
   A new model with clones in a honeycomb layout.
 
-  + Defined in [core/layout.ts:508](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/layout.ts#L508)
+  * Defined in [core/layout.ts:508](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/layout.ts#L508)
 
 ### Settings
 
@@ -104,7 +100,7 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Moving](../index.md)
-- [Scaling](../index.md)
-- [Rotating](../index.md)
-- [Intermediate Drawing](../index.md)
+* [Moving](../index.md)
+* [Scaling](../index.md)
+* [Rotating](../index.md)
+* [Intermediate Drawing](../index.md)

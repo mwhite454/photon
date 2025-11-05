@@ -24,9 +24,6 @@ moveTemporary | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/path](../modules/core_path.md)
@@ -40,13 +37,13 @@ Preparing search index...
 
   #### Parameters
 
-  + pathsToMove: [IPath](../interfaces/core_schema.IPath.md)[]
-  + deltas: [IPoint](../interfaces/core_schema.IPoint.md)[]
-  + task: Function
+  * pathsToMove: [IPath](../interfaces/core_schema.IPath.md)[]
+  * deltas: [IPoint](../interfaces/core_schema.IPoint.md)[]
+  * task: Function
 
   #### Returns void
 
-  + Defined in [core/path.ts:168](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/path.ts#L168)
+  * Defined in [core/path.ts:168](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/path.ts#L168)
 
 ### Settings
 
@@ -65,6 +62,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Originating](../index.md)
-- [Scaling](../index.md)
-- [Rotating](../index.md)
+* [Originating](../index.md)
+* [Scaling](../index.md)
+* [Rotating](../index.md)

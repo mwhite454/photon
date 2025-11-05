@@ -30,12 +30,12 @@ or call [model.mirror](../converted/api/functions/core_model.mirror.md) on your 
 
 SVG points can be extracted from the value of the **points** attribute of either **polyline** or **polygon** elements:
 
-
 ## Examples
 
 ```html
 
 ```
+
 ```html
 
 ```

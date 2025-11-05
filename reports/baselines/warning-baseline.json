@@ -1,14 +1,14 @@
 {
-  "report_id": "baseline-2025-10-16",
+  "report_id": "baseline-2025-11-05",
   "report_type": "baseline",
-  "timestamp": "2025-10-16T14:10:03.667732Z",
-  "total_warnings": 130,
+  "timestamp": "2025-11-05T20:00:47.023983Z",
+  "total_warnings": 86,
   "target_warnings": 150,
   "reduction_percentage": 0.0,
   "warnings": [
     {
       "id": "3fa255dc",
-      "timestamp": "2025-10-16T14:10:03.665872Z",
+      "timestamp": "2025-11-05T20:00:47.022369Z",
       "file_path": "demos/node_modules/bezier-js/README.md",
       "line_number": null,
       "category": "file_conflict",
@@ -19,7 +19,7 @@
     },
     {
       "id": "a0671f2f",
-      "timestamp": "2025-10-16T14:10:03.666135Z",
+      "timestamp": "2025-11-05T20:00:47.022646Z",
       "file_path": "demos/node_modules/makerjs-heart/README.md",
       "line_number": null,
       "category": "file_conflict",
@@ -30,7 +30,7 @@
     },
     {
       "id": "0b66e626",
-      "timestamp": "2025-10-16T14:10:03.666154Z",
+      "timestamp": "2025-11-05T20:00:47.022662Z",
       "file_path": "demos/node_modules/makerjs-spiral/README.md",
       "line_number": null,
       "category": "file_conflict",
@@ -41,7 +41,7 @@
     },
     {
       "id": "0372f772",
-      "timestamp": "2025-10-16T14:10:03.666204Z",
+      "timestamp": "2025-11-05T20:00:47.022708Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "config_warning",
@@ -52,7 +52,7 @@
     },
     {
       "id": "f6ed9cc2",
-      "timestamp": "2025-10-16T14:10:03.666218Z",
+      "timestamp": "2025-11-05T20:00:47.022721Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -63,7 +63,7 @@
     },
     {
       "id": "086fcf71",
-      "timestamp": "2025-10-16T14:10:03.666234Z",
+      "timestamp": "2025-11-05T20:00:47.022736Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -74,7 +74,7 @@
     },
     {
       "id": "aaf0389a",
-      "timestamp": "2025-10-16T14:10:03.666247Z",
+      "timestamp": "2025-11-05T20:00:47.022749Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -85,7 +85,7 @@
     },
     {
       "id": "b2941a3f",
-      "timestamp": "2025-10-16T14:10:03.666259Z",
+      "timestamp": "2025-11-05T20:00:47.022761Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -96,7 +96,7 @@
     },
     {
       "id": "1dbd1ab5",
-      "timestamp": "2025-10-16T14:10:03.666272Z",
+      "timestamp": "2025-11-05T20:00:47.022773Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -107,7 +107,7 @@
     },
     {
       "id": "91176c8e",
-      "timestamp": "2025-10-16T14:10:03.666285Z",
+      "timestamp": "2025-11-05T20:00:47.022785Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -118,7 +118,7 @@
     },
     {
       "id": "fbd2d39b",
-      "timestamp": "2025-10-16T14:10:03.666299Z",
+      "timestamp": "2025-11-05T20:00:47.022796Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -129,7 +129,7 @@
     },
     {
       "id": "c78f8130",
-      "timestamp": "2025-10-16T14:10:03.666312Z",
+      "timestamp": "2025-11-05T20:00:47.022808Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -140,7 +140,7 @@
     },
     {
       "id": "5fb1d8a3",
-      "timestamp": "2025-10-16T14:10:03.666324Z",
+      "timestamp": "2025-11-05T20:00:47.022820Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -151,7 +151,7 @@
     },
     {
       "id": "90134058",
-      "timestamp": "2025-10-16T14:10:03.666337Z",
+      "timestamp": "2025-11-05T20:00:47.022837Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -162,7 +162,7 @@
     },
     {
       "id": "0ab75046",
-      "timestamp": "2025-10-16T14:10:03.666349Z",
+      "timestamp": "2025-11-05T20:00:47.022850Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -173,7 +173,7 @@
     },
     {
       "id": "f2deaba1",
-      "timestamp": "2025-10-16T14:10:03.666362Z",
+      "timestamp": "2025-11-05T20:00:47.022862Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -183,19 +183,8 @@
       "status": "pending"
     },
     {
-      "id": "92a98aa3",
-      "timestamp": "2025-10-16T14:10:03.666370Z",
-      "file_path": "demos/node_modules/highlight.js/CHANGES.md",
-      "line_number": null,
-      "category": "broken_link",
-      "severity": "warning",
-      "message": "WARNING -  Doc file 'demos/node_modules/highlight.js/CHANGES.md' contains a link 'docs/building-testing.rst#building-a-bundle-from-the-command-line', but the target 'demos/node_modules/highlight.js/docs/building-testing.rst' is not found among documentation files.",
-      "raw_output": "WARNING -  Doc file 'demos/node_modules/highlight.js/CHANGES.md' contains a link 'docs/building-testing.rst#building-a-bundle-from-the-command-line', but the target 'demos/node_modules/highlight.js/docs/building-testing.rst' is not found among documentation files.",
-      "status": "pending"
-    },
-    {
       "id": "895a0daa",
-      "timestamp": "2025-10-16T14:10:03.666383Z",
+      "timestamp": "2025-11-05T20:00:47.022877Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -206,7 +195,7 @@
     },
     {
       "id": "a7e42281",
-      "timestamp": "2025-10-16T14:10:03.666396Z",
+      "timestamp": "2025-11-05T20:00:47.022908Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -217,7 +206,7 @@
     },
     {
       "id": "aca61f47",
-      "timestamp": "2025-10-16T14:10:03.666409Z",
+      "timestamp": "2025-11-05T20:00:47.022930Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -228,7 +217,7 @@
     },
     {
       "id": "dccb990c",
-      "timestamp": "2025-10-16T14:10:03.666422Z",
+      "timestamp": "2025-11-05T20:00:47.022945Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -239,7 +228,7 @@
     },
     {
       "id": "48712d4a",
-      "timestamp": "2025-10-16T14:10:03.666434Z",
+      "timestamp": "2025-11-05T20:00:47.022960Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -250,7 +239,7 @@
     },
     {
       "id": "12f1601f",
-      "timestamp": "2025-10-16T14:10:03.666446Z",
+      "timestamp": "2025-11-05T20:00:47.022972Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -261,7 +250,7 @@
     },
     {
       "id": "224ab366",
-      "timestamp": "2025-10-16T14:10:03.666460Z",
+      "timestamp": "2025-11-05T20:00:47.022985Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -272,7 +261,7 @@
     },
     {
       "id": "50089a6e",
-      "timestamp": "2025-10-16T14:10:03.666474Z",
+      "timestamp": "2025-11-05T20:00:47.022998Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -283,7 +272,7 @@
     },
     {
       "id": "afa1c9c7",
-      "timestamp": "2025-10-16T14:10:03.666490Z",
+      "timestamp": "2025-11-05T20:00:47.023012Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -294,7 +283,7 @@
     },
     {
       "id": "9635d8f8",
-      "timestamp": "2025-10-16T14:10:03.666506Z",
+      "timestamp": "2025-11-05T20:00:47.023025Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -305,7 +294,7 @@
     },
     {
       "id": "9937a199",
-      "timestamp": "2025-10-16T14:10:03.666519Z",
+      "timestamp": "2025-11-05T20:00:47.023039Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -316,7 +305,7 @@
     },
     {
       "id": "66e4025f",
-      "timestamp": "2025-10-16T14:10:03.666533Z",
+      "timestamp": "2025-11-05T20:00:47.023053Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -327,7 +316,7 @@
     },
     {
       "id": "44d84b2e",
-      "timestamp": "2025-10-16T14:10:03.666548Z",
+      "timestamp": "2025-11-05T20:00:47.023067Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -338,7 +327,7 @@
     },
     {
       "id": "bfa64878",
-      "timestamp": "2025-10-16T14:10:03.666562Z",
+      "timestamp": "2025-11-05T20:00:47.023081Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -349,7 +338,7 @@
     },
     {
       "id": "08ec3522",
-      "timestamp": "2025-10-16T14:10:03.666575Z",
+      "timestamp": "2025-11-05T20:00:47.023124Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -360,7 +349,7 @@
     },
     {
       "id": "3601a913",
-      "timestamp": "2025-10-16T14:10:03.666590Z",
+      "timestamp": "2025-11-05T20:00:47.023165Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -371,7 +360,7 @@
     },
     {
       "id": "e26a2ff0",
-      "timestamp": "2025-10-16T14:10:03.666606Z",
+      "timestamp": "2025-11-05T20:00:47.023180Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -382,7 +371,7 @@
     },
     {
       "id": "18bd1de4",
-      "timestamp": "2025-10-16T14:10:03.666621Z",
+      "timestamp": "2025-11-05T20:00:47.023193Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -393,7 +382,7 @@
     },
     {
       "id": "bb6dea4a",
-      "timestamp": "2025-10-16T14:10:03.666633Z",
+      "timestamp": "2025-11-05T20:00:47.023205Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -404,7 +393,7 @@
     },
     {
       "id": "6f4cd1cb",
-      "timestamp": "2025-10-16T14:10:03.666646Z",
+      "timestamp": "2025-11-05T20:00:47.023224Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -415,7 +404,7 @@
     },
     {
       "id": "25ef7a50",
-      "timestamp": "2025-10-16T14:10:03.666660Z",
+      "timestamp": "2025-11-05T20:00:47.023237Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -426,7 +415,7 @@
     },
     {
       "id": "da5d3a7d",
-      "timestamp": "2025-10-16T14:10:03.666673Z",
+      "timestamp": "2025-11-05T20:00:47.023248Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -437,7 +426,7 @@
     },
     {
       "id": "5ee47e02",
-      "timestamp": "2025-10-16T14:10:03.666687Z",
+      "timestamp": "2025-11-05T20:00:47.023261Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -448,7 +437,7 @@
     },
     {
       "id": "19b715f2",
-      "timestamp": "2025-10-16T14:10:03.666700Z",
+      "timestamp": "2025-11-05T20:00:47.023274Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -459,7 +448,7 @@
     },
     {
       "id": "04abc60f",
-      "timestamp": "2025-10-16T14:10:03.666713Z",
+      "timestamp": "2025-11-05T20:00:47.023289Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -469,19 +458,8 @@
       "status": "pending"
     },
     {
-      "id": "e68bad12",
-      "timestamp": "2025-10-16T14:10:03.666718Z",
-      "file_path": "demos/node_modules/makerjs-nameplate/README.md",
-      "line_number": null,
-      "category": "broken_link",
-      "severity": "warning",
-      "message": "WARNING -  Doc file 'demos/node_modules/makerjs-nameplate/README.md' contains a link 'hello-world.png', but the target 'demos/node_modules/makerjs-nameplate/hello-world.png' is not found among documentation files.",
-      "raw_output": "WARNING -  Doc file 'demos/node_modules/makerjs-nameplate/README.md' contains a link 'hello-world.png', but the target 'demos/node_modules/makerjs-nameplate/hello-world.png' is not found among documentation files.",
-      "status": "pending"
-    },
-    {
       "id": "669cd703",
-      "timestamp": "2025-10-16T14:10:03.666732Z",
+      "timestamp": "2025-11-05T20:00:47.023305Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -492,7 +470,7 @@
     },
     {
       "id": "e3d53fd3",
-      "timestamp": "2025-10-16T14:10:03.666746Z",
+      "timestamp": "2025-11-05T20:00:47.023319Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -503,7 +481,7 @@
     },
     {
       "id": "d751ad41",
-      "timestamp": "2025-10-16T14:10:03.666759Z",
+      "timestamp": "2025-11-05T20:00:47.023331Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -514,7 +492,7 @@
     },
     {
       "id": "f910d887",
-      "timestamp": "2025-10-16T14:10:03.666773Z",
+      "timestamp": "2025-11-05T20:00:47.023343Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -525,7 +503,7 @@
     },
     {
       "id": "9115b524",
-      "timestamp": "2025-10-16T14:10:03.666787Z",
+      "timestamp": "2025-11-05T20:00:47.023356Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -536,7 +514,7 @@
     },
     {
       "id": "439a2ba5",
-      "timestamp": "2025-10-16T14:10:03.666801Z",
+      "timestamp": "2025-11-05T20:00:47.023369Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -547,7 +525,7 @@
     },
     {
       "id": "4dec0d83",
-      "timestamp": "2025-10-16T14:10:03.666815Z",
+      "timestamp": "2025-11-05T20:00:47.023382Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -558,7 +536,7 @@
     },
     {
       "id": "e0deb5ca",
-      "timestamp": "2025-10-16T14:10:03.666828Z",
+      "timestamp": "2025-11-05T20:00:47.023394Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -569,7 +547,7 @@
     },
     {
       "id": "a4e7ca15",
-      "timestamp": "2025-10-16T14:10:03.666842Z",
+      "timestamp": "2025-11-05T20:00:47.023406Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -580,7 +558,7 @@
     },
     {
       "id": "e7dc5264",
-      "timestamp": "2025-10-16T14:10:03.666856Z",
+      "timestamp": "2025-11-05T20:00:47.023419Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -591,7 +569,7 @@
     },
     {
       "id": "e7440829",
-      "timestamp": "2025-10-16T14:10:03.666868Z",
+      "timestamp": "2025-11-05T20:00:47.023430Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -602,7 +580,7 @@
     },
     {
       "id": "f5148a28",
-      "timestamp": "2025-10-16T14:10:03.666882Z",
+      "timestamp": "2025-11-05T20:00:47.023443Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -613,7 +591,7 @@
     },
     {
       "id": "2ee37061",
-      "timestamp": "2025-10-16T14:10:03.666895Z",
+      "timestamp": "2025-11-05T20:00:47.023455Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -624,7 +602,7 @@
     },
     {
       "id": "4b4f88d9",
-      "timestamp": "2025-10-16T14:10:03.666908Z",
+      "timestamp": "2025-11-05T20:00:47.023467Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -634,19 +612,8 @@
       "status": "pending"
     },
     {
-      "id": "8c30b35c",
-      "timestamp": "2025-10-16T14:10:03.666913Z",
-      "file_path": "demos/node_modules/makerjs-rimbox/README.md",
-      "line_number": null,
-      "category": "broken_link",
-      "severity": "warning",
-      "message": "WARNING -  Doc file 'demos/node_modules/makerjs-rimbox/README.md' contains a link 'sample.png', but the target 'demos/node_modules/makerjs-rimbox/sample.png' is not found among documentation files.",
-      "raw_output": "WARNING -  Doc file 'demos/node_modules/makerjs-rimbox/README.md' contains a link 'sample.png', but the target 'demos/node_modules/makerjs-rimbox/sample.png' is not found among documentation files.",
-      "status": "pending"
-    },
-    {
       "id": "b3bd6055",
-      "timestamp": "2025-10-16T14:10:03.666927Z",
+      "timestamp": "2025-11-05T20:00:47.023479Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -657,7 +624,7 @@
     },
     {
       "id": "cd4eaa62",
-      "timestamp": "2025-10-16T14:10:03.666939Z",
+      "timestamp": "2025-11-05T20:00:47.023491Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -668,7 +635,7 @@
     },
     {
       "id": "1f4008ca",
-      "timestamp": "2025-10-16T14:10:03.666953Z",
+      "timestamp": "2025-11-05T20:00:47.023504Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -679,7 +646,7 @@
     },
     {
       "id": "a053140f",
-      "timestamp": "2025-10-16T14:10:03.666966Z",
+      "timestamp": "2025-11-05T20:00:47.023516Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -690,7 +657,7 @@
     },
     {
       "id": "fa3f53cd",
-      "timestamp": "2025-10-16T14:10:03.666980Z",
+      "timestamp": "2025-11-05T20:00:47.023529Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -701,7 +668,7 @@
     },
     {
       "id": "53b79530",
-      "timestamp": "2025-10-16T14:10:03.666992Z",
+      "timestamp": "2025-11-05T20:00:47.023540Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -712,7 +679,7 @@
     },
     {
       "id": "27c29a83",
-      "timestamp": "2025-10-16T14:10:03.667006Z",
+      "timestamp": "2025-11-05T20:00:47.023553Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -723,7 +690,7 @@
     },
     {
       "id": "911f0fa0",
-      "timestamp": "2025-10-16T14:10:03.667019Z",
+      "timestamp": "2025-11-05T20:00:47.023565Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -734,7 +701,7 @@
     },
     {
       "id": "eadcc9aa",
-      "timestamp": "2025-10-16T14:10:03.667032Z",
+      "timestamp": "2025-11-05T20:00:47.023577Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -745,7 +712,7 @@
     },
     {
       "id": "2de75e34",
-      "timestamp": "2025-10-16T14:10:03.667046Z",
+      "timestamp": "2025-11-05T20:00:47.023590Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -756,7 +723,7 @@
     },
     {
       "id": "0b5c2966",
-      "timestamp": "2025-10-16T14:10:03.667059Z",
+      "timestamp": "2025-11-05T20:00:47.023603Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -767,7 +734,7 @@
     },
     {
       "id": "f1347e18",
-      "timestamp": "2025-10-16T14:10:03.667072Z",
+      "timestamp": "2025-11-05T20:00:47.023615Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -778,7 +745,7 @@
     },
     {
       "id": "603f48a1",
-      "timestamp": "2025-10-16T14:10:03.667085Z",
+      "timestamp": "2025-11-05T20:00:47.023627Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -789,7 +756,7 @@
     },
     {
       "id": "7bfc314f",
-      "timestamp": "2025-10-16T14:10:03.667099Z",
+      "timestamp": "2025-11-05T20:00:47.023640Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -800,7 +767,7 @@
     },
     {
       "id": "4e1c0608",
-      "timestamp": "2025-10-16T14:10:03.667112Z",
+      "timestamp": "2025-11-05T20:00:47.023651Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -811,7 +778,7 @@
     },
     {
       "id": "2d0a29a5",
-      "timestamp": "2025-10-16T14:10:03.667125Z",
+      "timestamp": "2025-11-05T20:00:47.023664Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -822,7 +789,7 @@
     },
     {
       "id": "d5c93a82",
-      "timestamp": "2025-10-16T14:10:03.667138Z",
+      "timestamp": "2025-11-05T20:00:47.023676Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -833,7 +800,7 @@
     },
     {
       "id": "250a737f",
-      "timestamp": "2025-10-16T14:10:03.667152Z",
+      "timestamp": "2025-11-05T20:00:47.023689Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -844,7 +811,7 @@
     },
     {
       "id": "d47b4028",
-      "timestamp": "2025-10-16T14:10:03.667164Z",
+      "timestamp": "2025-11-05T20:00:47.023700Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -855,7 +822,7 @@
     },
     {
       "id": "bc63b8b0",
-      "timestamp": "2025-10-16T14:10:03.667177Z",
+      "timestamp": "2025-11-05T20:00:47.023712Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -866,7 +833,7 @@
     },
     {
       "id": "9643e892",
-      "timestamp": "2025-10-16T14:10:03.667191Z",
+      "timestamp": "2025-11-05T20:00:47.023723Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -877,7 +844,7 @@
     },
     {
       "id": "19386ea7",
-      "timestamp": "2025-10-16T14:10:03.667204Z",
+      "timestamp": "2025-11-05T20:00:47.023735Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -887,19 +854,8 @@
       "status": "pending"
     },
     {
-      "id": "c8a4619b",
-      "timestamp": "2025-10-16T14:10:03.667209Z",
-      "file_path": "demos/node_modules/opentype-layout/LICENSE.md",
-      "line_number": null,
-      "category": "broken_link",
-      "severity": "warning",
-      "message": "WARNING -  Doc file 'demos/node_modules/opentype-layout/LICENSE.md' contains a link '../index.md', but the target 'demos/node_modules/index.md' is not found among documentation files.",
-      "raw_output": "WARNING -  Doc file 'demos/node_modules/opentype-layout/LICENSE.md' contains a link '../index.md', but the target 'demos/node_modules/index.md' is not found among documentation files.",
-      "status": "pending"
-    },
-    {
       "id": "e6dff977",
-      "timestamp": "2025-10-16T14:10:03.667222Z",
+      "timestamp": "2025-11-05T20:00:47.023748Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -909,19 +865,8 @@
       "status": "pending"
     },
     {
-      "id": "677394bd",
-      "timestamp": "2025-10-16T14:10:03.667227Z",
-      "file_path": "demos/node_modules/opentype-layout/METRICS.md",
-      "line_number": null,
-      "category": "broken_link",
-      "severity": "warning",
-      "message": "WARNING -  Doc file 'demos/node_modules/opentype-layout/METRICS.md' contains a link '../index.md', but the target 'demos/node_modules/index.md' is not found among documentation files.",
-      "raw_output": "WARNING -  Doc file 'demos/node_modules/opentype-layout/METRICS.md' contains a link '../index.md', but the target 'demos/node_modules/index.md' is not found among documentation files.",
-      "status": "pending"
-    },
-    {
       "id": "1a91db64",
-      "timestamp": "2025-10-16T14:10:03.667240Z",
+      "timestamp": "2025-11-05T20:00:47.023759Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -932,7 +877,7 @@
     },
     {
       "id": "e857159a",
-      "timestamp": "2025-10-16T14:10:03.667252Z",
+      "timestamp": "2025-11-05T20:00:47.023771Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -943,7 +888,7 @@
     },
     {
       "id": "2f16d4e9",
-      "timestamp": "2025-10-16T14:10:03.667265Z",
+      "timestamp": "2025-11-05T20:00:47.023782Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -954,7 +899,7 @@
     },
     {
       "id": "63ae2a60",
-      "timestamp": "2025-10-16T14:10:03.667277Z",
+      "timestamp": "2025-11-05T20:00:47.023794Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -965,7 +910,7 @@
     },
     {
       "id": "4944a332",
-      "timestamp": "2025-10-16T14:10:03.667290Z",
+      "timestamp": "2025-11-05T20:00:47.023805Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -976,7 +921,7 @@
     },
     {
       "id": "b421308c",
-      "timestamp": "2025-10-16T14:10:03.667303Z",
+      "timestamp": "2025-11-05T20:00:47.023817Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -987,7 +932,7 @@
     },
     {
       "id": "a9dc8dff",
-      "timestamp": "2025-10-16T14:10:03.667316Z",
+      "timestamp": "2025-11-05T20:00:47.023829Z",
       "file_path": "unknown",
       "line_number": null,
       "category": "plugin_warning",
@@ -997,470 +942,41 @@
       "status": "pending"
     },
     {
-      "id": "a115970d",
-      "timestamp": "2025-10-16T14:10:03.667322Z",
-      "file_path": "migration/api-mapping.md",
-      "line_number": null,
-      "category": "broken_link",
-      "severity": "warning",
-      "message": "WARNING -  Doc file 'migration/api-mapping.md' contains a link '../api/index.md', but the target 'api/index.md' is not found among documentation files.",
-      "raw_output": "WARNING -  Doc file 'migration/api-mapping.md' contains a link '../api/index.md', but the target 'api/index.md' is not found among documentation files.",
-      "status": "pending"
-    },
-    {
-      "id": "a115970d",
-      "timestamp": "2025-10-16T14:10:03.667327Z",
-      "file_path": "migration/api-mapping.md",
-      "line_number": null,
-      "category": "broken_link",
-      "severity": "warning",
-      "message": "WARNING -  Doc file 'migration/api-mapping.md' contains a link '../api/index.md', but the target 'api/index.md' is not found among documentation files.",
-      "raw_output": "WARNING -  Doc file 'migration/api-mapping.md' contains a link '../api/index.md', but the target 'api/index.md' is not found among documentation files.",
-      "status": "pending"
-    },
-    {
-      "id": "b1c82a1c",
-      "timestamp": "2025-10-16T14:10:03.667331Z",
+      "id": "bc3a51ab",
+      "timestamp": "2025-11-05T20:00:47.023837Z",
       "file_path": "migration/migration-faq.md",
       "line_number": null,
       "category": "broken_link",
       "severity": "warning",
-      "message": "WARNING -  Doc file 'migration/migration-faq.md' contains a link '../api/index.md', but the target 'api/index.md' is not found among documentation files.",
-      "raw_output": "WARNING -  Doc file 'migration/migration-faq.md' contains a link '../api/index.md', but the target 'api/index.md' is not found among documentation files.",
-      "status": "pending"
-    },
-    {
-      "id": "f763c0c3",
-      "timestamp": "2025-10-16T14:10:03.667336Z",
-      "file_path": "migration/migration-faq.md",
-      "line_number": null,
-      "category": "broken_link",
-      "severity": "warning",
-      "message": "WARNING -  Doc file 'migration/migration-faq.md' contains a link '../examples/index.md', but the target 'examples/index.md' is not found among documentation files.",
-      "raw_output": "WARNING -  Doc file 'migration/migration-faq.md' contains a link '../examples/index.md', but the target 'examples/index.md' is not found among documentation files.",
-      "status": "pending"
-    },
-    {
-      "id": "ec80163b",
-      "timestamp": "2025-10-16T14:10:03.667341Z",
-      "file_path": "migration/migration-faq.md",
-      "line_number": null,
-      "category": "broken_link",
-      "severity": "warning",
-      "message": "WARNING -  Doc file 'migration/migration-faq.md' contains a link '../../CONTRIBUTING.md', but the target '../CONTRIBUTING.md' is not found among documentation files.",
-      "raw_output": "WARNING -  Doc file 'migration/migration-faq.md' contains a link '../../CONTRIBUTING.md', but the target '../CONTRIBUTING.md' is not found among documentation files.",
-      "status": "pending"
-    },
-    {
-      "id": "b1c82a1c",
-      "timestamp": "2025-10-16T14:10:03.667345Z",
-      "file_path": "migration/migration-faq.md",
-      "line_number": null,
-      "category": "broken_link",
-      "severity": "warning",
-      "message": "WARNING -  Doc file 'migration/migration-faq.md' contains a link '../api/index.md', but the target 'api/index.md' is not found among documentation files.",
-      "raw_output": "WARNING -  Doc file 'migration/migration-faq.md' contains a link '../api/index.md', but the target 'api/index.md' is not found among documentation files.",
-      "status": "pending"
-    },
-    {
-      "id": "f763c0c3",
-      "timestamp": "2025-10-16T14:10:03.667350Z",
-      "file_path": "migration/migration-faq.md",
-      "line_number": null,
-      "category": "broken_link",
-      "severity": "warning",
-      "message": "WARNING -  Doc file 'migration/migration-faq.md' contains a link '../examples/index.md', but the target 'examples/index.md' is not found among documentation files.",
-      "raw_output": "WARNING -  Doc file 'migration/migration-faq.md' contains a link '../examples/index.md', but the target 'examples/index.md' is not found among documentation files.",
-      "status": "pending"
-    },
-    {
-      "id": "3b0dd4db",
-      "timestamp": "2025-10-16T14:10:03.667358Z",
-      "file_path": "snippets/dogbones.md",
-      "line_number": null,
-      "category": "broken_link",
-      "severity": "warning",
-      "message": "WARNING -  Doc file 'snippets/dogbones.md' contains a link 'api/classes/models.dogbone.md#constructor', but the target 'snippets/api/classes/models.dogbone.md' is not found among documentation files.",
-      "raw_output": "WARNING -  Doc file 'snippets/dogbones.md' contains a link 'api/classes/models.dogbone.md#constructor', but the target 'snippets/api/classes/models.dogbone.md' is not found among documentation files.",
-      "status": "pending"
-    },
-    {
-      "id": "ec1ff82e",
-      "timestamp": "2025-10-16T14:10:03.667363Z",
-      "file_path": "snippets/exporting-dxf.md",
-      "line_number": null,
-      "category": "broken_link",
-      "severity": "warning",
-      "message": "WARNING -  Doc file 'snippets/exporting-dxf.md' contains a link '../converted/api/interfaces/core_exporter.idxfrenderoptions.md#units', but the target 'converted/api/interfaces/core_exporter.idxfrenderoptions.md' is not found among documentation files.",
-      "raw_output": "WARNING -  Doc file 'snippets/exporting-dxf.md' contains a link '../converted/api/interfaces/core_exporter.idxfrenderoptions.md#units', but the target 'converted/api/interfaces/core_exporter.idxfrenderoptions.md' is not found among documentation files.",
-      "status": "pending"
-    },
-    {
-      "id": "ab0d84cb",
-      "timestamp": "2025-10-16T14:10:03.667368Z",
-      "file_path": "snippets/exporting-dxf.md",
-      "line_number": null,
-      "category": "broken_link",
-      "severity": "warning",
-      "message": "WARNING -  Doc file 'snippets/exporting-dxf.md' contains a link '../converted/api/interfaces/core_exporter.idxfrenderoptions.md#fontsize', but the target 'converted/api/interfaces/core_exporter.idxfrenderoptions.md' is not found among documentation files.",
-      "raw_output": "WARNING -  Doc file 'snippets/exporting-dxf.md' contains a link '../converted/api/interfaces/core_exporter.idxfrenderoptions.md#fontsize', but the target 'converted/api/interfaces/core_exporter.idxfrenderoptions.md' is not found among documentation files.",
-      "status": "pending"
-    },
-    {
-      "id": "ce8c2a79",
-      "timestamp": "2025-10-16T14:10:03.667373Z",
-      "file_path": "snippets/exporting-dxf.md",
-      "line_number": null,
-      "category": "broken_link",
-      "severity": "warning",
-      "message": "WARNING -  Doc file 'snippets/exporting-dxf.md' contains a link '../converted/api/interfaces/core_exporter.idxfrenderoptions.md#layeroptions', but the target 'converted/api/interfaces/core_exporter.idxfrenderoptions.md' is not found among documentation files.",
-      "raw_output": "WARNING -  Doc file 'snippets/exporting-dxf.md' contains a link '../converted/api/interfaces/core_exporter.idxfrenderoptions.md#layeroptions', but the target 'converted/api/interfaces/core_exporter.idxfrenderoptions.md' is not found among documentation files.",
-      "status": "pending"
-    },
-    {
-      "id": "dd1142e0",
-      "timestamp": "2025-10-16T14:10:03.667378Z",
-      "file_path": "snippets/exporting-openjscad.md",
-      "line_number": null,
-      "category": "broken_link",
-      "severity": "warning",
-      "message": "WARNING -  Doc file 'snippets/exporting-openjscad.md' contains a link '../converted/api/interfaces/core_exporter.iopenjscadoptions.md#content', but the target 'converted/api/interfaces/core_exporter.iopenjscadoptions.md' is not found among documentation files.",
-      "raw_output": "WARNING -  Doc file 'snippets/exporting-openjscad.md' contains a link '../converted/api/interfaces/core_exporter.iopenjscadoptions.md#content', but the target 'converted/api/interfaces/core_exporter.iopenjscadoptions.md' is not found among documentation files.",
-      "status": "pending"
-    },
-    {
-      "id": "1f576258",
-      "timestamp": "2025-10-16T14:10:03.667383Z",
-      "file_path": "snippets/exporting-stl.md",
-      "line_number": null,
-      "category": "broken_link",
-      "severity": "warning",
-      "message": "WARNING -  Doc file 'snippets/exporting-stl.md' contains a link '../converted/api/interfaces/exporter.iopenjscadoptions.md#content', but the target 'converted/api/interfaces/exporter.iopenjscadoptions.md' is not found among documentation files.",
-      "raw_output": "WARNING -  Doc file 'snippets/exporting-stl.md' contains a link '../converted/api/interfaces/exporter.iopenjscadoptions.md#content', but the target 'converted/api/interfaces/exporter.iopenjscadoptions.md' is not found among documentation files.",
-      "status": "pending"
-    },
-    {
-      "id": "709a7d45",
-      "timestamp": "2025-10-16T14:10:03.667388Z",
-      "file_path": "snippets/exporting-svg.md",
-      "line_number": null,
-      "category": "broken_link",
-      "severity": "warning",
-      "message": "WARNING -  Doc file 'snippets/exporting-svg.md' contains a link '../intermediate-drawing/index.md#captions', but the target 'intermediate-drawing/index.md' is not found among documentation files.",
-      "raw_output": "WARNING -  Doc file 'snippets/exporting-svg.md' contains a link '../intermediate-drawing/index.md#captions', but the target 'intermediate-drawing/index.md' is not found among documentation files.",
-      "status": "pending"
-    },
-    {
-      "id": "ca600489",
-      "timestamp": "2025-10-16T14:10:03.667392Z",
-      "file_path": "snippets/exporting-svg.md",
-      "line_number": null,
-      "category": "broken_link",
-      "severity": "warning",
-      "message": "WARNING -  Doc file 'snippets/exporting-svg.md' contains a link '../converted/api/interfaces/core_exporter.isvgrenderoptions.md#usesvgpathonly', but the target 'converted/api/interfaces/core_exporter.isvgrenderoptions.md' is not found among documentation files.",
-      "raw_output": "WARNING -  Doc file 'snippets/exporting-svg.md' contains a link '../converted/api/interfaces/core_exporter.isvgrenderoptions.md#usesvgpathonly', but the target 'converted/api/interfaces/core_exporter.isvgrenderoptions.md' is not found among documentation files.",
-      "status": "pending"
-    },
-    {
-      "id": "aa611882",
-      "timestamp": "2025-10-16T14:10:03.667397Z",
-      "file_path": "snippets/exporting-svg.md",
-      "line_number": null,
-      "category": "broken_link",
-      "severity": "warning",
-      "message": "WARNING -  Doc file 'snippets/exporting-svg.md' contains a link '../converted/api/interfaces/core_exporter.isvgrenderoptions.md#accuracy', but the target 'converted/api/interfaces/core_exporter.isvgrenderoptions.md' is not found among documentation files.",
-      "raw_output": "WARNING -  Doc file 'snippets/exporting-svg.md' contains a link '../converted/api/interfaces/core_exporter.isvgrenderoptions.md#accuracy', but the target 'converted/api/interfaces/core_exporter.isvgrenderoptions.md' is not found among documentation files.",
-      "status": "pending"
-    },
-    {
-      "id": "10f18804",
-      "timestamp": "2025-10-16T14:10:03.667402Z",
-      "file_path": "snippets/exporting-svg.md",
-      "line_number": null,
-      "category": "broken_link",
-      "severity": "warning",
-      "message": "WARNING -  Doc file 'snippets/exporting-svg.md' contains a link '../converted/api/interfaces/core_exporter.isvgrenderoptions.md#annotate', but the target 'converted/api/interfaces/core_exporter.isvgrenderoptions.md' is not found among documentation files.",
-      "raw_output": "WARNING -  Doc file 'snippets/exporting-svg.md' contains a link '../converted/api/interfaces/core_exporter.isvgrenderoptions.md#annotate', but the target 'converted/api/interfaces/core_exporter.isvgrenderoptions.md' is not found among documentation files.",
-      "status": "pending"
-    },
-    {
-      "id": "1d2971d7",
-      "timestamp": "2025-10-16T14:10:03.667407Z",
-      "file_path": "snippets/exporting-svg.md",
-      "line_number": null,
-      "category": "broken_link",
-      "severity": "warning",
-      "message": "WARNING -  Doc file 'snippets/exporting-svg.md' contains a link '../converted/api/interfaces/core_exporter.isvgrenderoptions.md#classname', but the target 'converted/api/interfaces/core_exporter.isvgrenderoptions.md' is not found among documentation files.",
-      "raw_output": "WARNING -  Doc file 'snippets/exporting-svg.md' contains a link '../converted/api/interfaces/core_exporter.isvgrenderoptions.md#classname', but the target 'converted/api/interfaces/core_exporter.isvgrenderoptions.md' is not found among documentation files.",
-      "status": "pending"
-    },
-    {
-      "id": "f5e24fe9",
-      "timestamp": "2025-10-16T14:10:03.667412Z",
-      "file_path": "snippets/exporting-svg.md",
-      "line_number": null,
-      "category": "broken_link",
-      "severity": "warning",
-      "message": "WARNING -  Doc file 'snippets/exporting-svg.md' contains a link '../converted/api/interfaces/core_exporter.isvgrenderoptions.md#cssstyle', but the target 'converted/api/interfaces/core_exporter.isvgrenderoptions.md' is not found among documentation files.",
-      "raw_output": "WARNING -  Doc file 'snippets/exporting-svg.md' contains a link '../converted/api/interfaces/core_exporter.isvgrenderoptions.md#cssstyle', but the target 'converted/api/interfaces/core_exporter.isvgrenderoptions.md' is not found among documentation files.",
-      "status": "pending"
-    },
-    {
-      "id": "85b9224a",
-      "timestamp": "2025-10-16T14:10:03.667417Z",
-      "file_path": "snippets/exporting-svg.md",
-      "line_number": null,
-      "category": "broken_link",
-      "severity": "warning",
-      "message": "WARNING -  Doc file 'snippets/exporting-svg.md' contains a link '../converted/api/interfaces/core_exporter.isvgrenderoptions.md#fill', but the target 'converted/api/interfaces/core_exporter.isvgrenderoptions.md' is not found among documentation files.",
-      "raw_output": "WARNING -  Doc file 'snippets/exporting-svg.md' contains a link '../converted/api/interfaces/core_exporter.isvgrenderoptions.md#fill', but the target 'converted/api/interfaces/core_exporter.isvgrenderoptions.md' is not found among documentation files.",
-      "status": "pending"
-    },
-    {
-      "id": "5f0ffaec",
-      "timestamp": "2025-10-16T14:10:03.667422Z",
-      "file_path": "snippets/exporting-svg.md",
-      "line_number": null,
-      "category": "broken_link",
-      "severity": "warning",
-      "message": "WARNING -  Doc file 'snippets/exporting-svg.md' contains a link '../converted/api/interfaces/core_exporter.isvgrenderoptions.md#fillrule', but the target 'converted/api/interfaces/core_exporter.isvgrenderoptions.md' is not found among documentation files.",
-      "raw_output": "WARNING -  Doc file 'snippets/exporting-svg.md' contains a link '../converted/api/interfaces/core_exporter.isvgrenderoptions.md#fillrule', but the target 'converted/api/interfaces/core_exporter.isvgrenderoptions.md' is not found among documentation files.",
-      "status": "pending"
-    },
-    {
-      "id": "3e567b7e",
-      "timestamp": "2025-10-16T14:10:03.667427Z",
-      "file_path": "snippets/exporting-svg.md",
-      "line_number": null,
-      "category": "broken_link",
-      "severity": "warning",
-      "message": "WARNING -  Doc file 'snippets/exporting-svg.md' contains a link '../converted/api/interfaces/core_exporter.isvgrenderoptions.md#fontsize', but the target 'converted/api/interfaces/core_exporter.isvgrenderoptions.md' is not found among documentation files.",
-      "raw_output": "WARNING -  Doc file 'snippets/exporting-svg.md' contains a link '../converted/api/interfaces/core_exporter.isvgrenderoptions.md#fontsize', but the target 'converted/api/interfaces/core_exporter.isvgrenderoptions.md' is not found among documentation files.",
-      "status": "pending"
-    },
-    {
-      "id": "a2015d46",
-      "timestamp": "2025-10-16T14:10:03.667431Z",
-      "file_path": "snippets/exporting-svg.md",
-      "line_number": null,
-      "category": "broken_link",
-      "severity": "warning",
-      "message": "WARNING -  Doc file 'snippets/exporting-svg.md' contains a link '../converted/api/interfaces/core_exporter.isvgrenderoptions.md#layeroptions', but the target 'converted/api/interfaces/core_exporter.isvgrenderoptions.md' is not found among documentation files.",
-      "raw_output": "WARNING -  Doc file 'snippets/exporting-svg.md' contains a link '../converted/api/interfaces/core_exporter.isvgrenderoptions.md#layeroptions', but the target 'converted/api/interfaces/core_exporter.isvgrenderoptions.md' is not found among documentation files.",
-      "status": "pending"
-    },
-    {
-      "id": "192140e8",
-      "timestamp": "2025-10-16T14:10:03.667436Z",
-      "file_path": "snippets/exporting-svg.md",
-      "line_number": null,
-      "category": "broken_link",
-      "severity": "warning",
-      "message": "WARNING -  Doc file 'snippets/exporting-svg.md' contains a link '../converted/api/interfaces/core_exporter.isvgrenderoptions.md#origin', but the target 'converted/api/interfaces/core_exporter.isvgrenderoptions.md' is not found among documentation files.",
-      "raw_output": "WARNING -  Doc file 'snippets/exporting-svg.md' contains a link '../converted/api/interfaces/core_exporter.isvgrenderoptions.md#origin', but the target 'converted/api/interfaces/core_exporter.isvgrenderoptions.md' is not found among documentation files.",
-      "status": "pending"
-    },
-    {
-      "id": "1c08dfe4",
-      "timestamp": "2025-10-16T14:10:03.667441Z",
-      "file_path": "snippets/exporting-svg.md",
-      "line_number": null,
-      "category": "broken_link",
-      "severity": "warning",
-      "message": "WARNING -  Doc file 'snippets/exporting-svg.md' contains a link '../converted/api/interfaces/core_exporter.isvgrenderoptions.md#scale', but the target 'converted/api/interfaces/core_exporter.isvgrenderoptions.md' is not found among documentation files.",
-      "raw_output": "WARNING -  Doc file 'snippets/exporting-svg.md' contains a link '../converted/api/interfaces/core_exporter.isvgrenderoptions.md#scale', but the target 'converted/api/interfaces/core_exporter.isvgrenderoptions.md' is not found among documentation files.",
-      "status": "pending"
-    },
-    {
-      "id": "db44c727",
-      "timestamp": "2025-10-16T14:10:03.667446Z",
-      "file_path": "snippets/exporting-svg.md",
-      "line_number": null,
-      "category": "broken_link",
-      "severity": "warning",
-      "message": "WARNING -  Doc file 'snippets/exporting-svg.md' contains a link '../converted/api/interfaces/core_exporter.isvgrenderoptions.md#stroke', but the target 'converted/api/interfaces/core_exporter.isvgrenderoptions.md' is not found among documentation files.",
-      "raw_output": "WARNING -  Doc file 'snippets/exporting-svg.md' contains a link '../converted/api/interfaces/core_exporter.isvgrenderoptions.md#stroke', but the target 'converted/api/interfaces/core_exporter.isvgrenderoptions.md' is not found among documentation files.",
-      "status": "pending"
-    },
-    {
-      "id": "03c7c6af",
-      "timestamp": "2025-10-16T14:10:03.667451Z",
-      "file_path": "snippets/exporting-svg.md",
-      "line_number": null,
-      "category": "broken_link",
-      "severity": "warning",
-      "message": "WARNING -  Doc file 'snippets/exporting-svg.md' contains a link '../converted/api/interfaces/core_exporter.isvgrenderoptions.md#strokewidth', but the target 'converted/api/interfaces/core_exporter.isvgrenderoptions.md' is not found among documentation files.",
-      "raw_output": "WARNING -  Doc file 'snippets/exporting-svg.md' contains a link '../converted/api/interfaces/core_exporter.isvgrenderoptions.md#strokewidth', but the target 'converted/api/interfaces/core_exporter.isvgrenderoptions.md' is not found among documentation files.",
-      "status": "pending"
-    },
-    {
-      "id": "ae6011bc",
-      "timestamp": "2025-10-16T14:10:03.667456Z",
-      "file_path": "snippets/exporting-svg.md",
-      "line_number": null,
-      "category": "broken_link",
-      "severity": "warning",
-      "message": "WARNING -  Doc file 'snippets/exporting-svg.md' contains a link '../converted/api/interfaces/core_exporter.isvgrenderoptions.md#svgattrs', but the target 'converted/api/interfaces/core_exporter.isvgrenderoptions.md' is not found among documentation files.",
-      "raw_output": "WARNING -  Doc file 'snippets/exporting-svg.md' contains a link '../converted/api/interfaces/core_exporter.isvgrenderoptions.md#svgattrs', but the target 'converted/api/interfaces/core_exporter.isvgrenderoptions.md' is not found among documentation files.",
-      "status": "pending"
-    },
-    {
-      "id": "7a662b5a",
-      "timestamp": "2025-10-16T14:10:03.667460Z",
-      "file_path": "snippets/exporting-svg.md",
-      "line_number": null,
-      "category": "broken_link",
-      "severity": "warning",
-      "message": "WARNING -  Doc file 'snippets/exporting-svg.md' contains a link '../converted/api/interfaces/core_exporter.isvgrenderoptions.md#viewbox', but the target 'converted/api/interfaces/core_exporter.isvgrenderoptions.md' is not found among documentation files.",
-      "raw_output": "WARNING -  Doc file 'snippets/exporting-svg.md' contains a link '../converted/api/interfaces/core_exporter.isvgrenderoptions.md#viewbox', but the target 'converted/api/interfaces/core_exporter.isvgrenderoptions.md' is not found among documentation files.",
-      "status": "pending"
-    },
-    {
-      "id": "137e5f0e",
-      "timestamp": "2025-10-16T14:10:03.667465Z",
-      "file_path": "snippets/exporting-svg.md",
-      "line_number": null,
-      "category": "broken_link",
-      "severity": "warning",
-      "message": "WARNING -  Doc file 'snippets/exporting-svg.md' contains a link '../converted/api/interfaces/core_exporter.isvgelementrenderoptions.md#classname', but the target 'converted/api/interfaces/core_exporter.isvgelementrenderoptions.md' is not found among documentation files.",
-      "raw_output": "WARNING -  Doc file 'snippets/exporting-svg.md' contains a link '../converted/api/interfaces/core_exporter.isvgelementrenderoptions.md#classname', but the target 'converted/api/interfaces/core_exporter.isvgelementrenderoptions.md' is not found among documentation files.",
-      "status": "pending"
-    },
-    {
-      "id": "c20dd0e4",
-      "timestamp": "2025-10-16T14:10:03.667470Z",
-      "file_path": "snippets/exporting-svg.md",
-      "line_number": null,
-      "category": "broken_link",
-      "severity": "warning",
-      "message": "WARNING -  Doc file 'snippets/exporting-svg.md' contains a link '../converted/api/interfaces/core_exporter.isvgelementrenderoptions.md#cssstyle', but the target 'converted/api/interfaces/core_exporter.isvgelementrenderoptions.md' is not found among documentation files.",
-      "raw_output": "WARNING -  Doc file 'snippets/exporting-svg.md' contains a link '../converted/api/interfaces/core_exporter.isvgelementrenderoptions.md#cssstyle', but the target 'converted/api/interfaces/core_exporter.isvgelementrenderoptions.md' is not found among documentation files.",
-      "status": "pending"
-    },
-    {
-      "id": "00abd10e",
-      "timestamp": "2025-10-16T14:10:03.667475Z",
-      "file_path": "snippets/exporting-svg.md",
-      "line_number": null,
-      "category": "broken_link",
-      "severity": "warning",
-      "message": "WARNING -  Doc file 'snippets/exporting-svg.md' contains a link '../converted/api/interfaces/core_exporter.isvgelementrenderoptions.md#fill', but the target 'converted/api/interfaces/core_exporter.isvgelementrenderoptions.md' is not found among documentation files.",
-      "raw_output": "WARNING -  Doc file 'snippets/exporting-svg.md' contains a link '../converted/api/interfaces/core_exporter.isvgelementrenderoptions.md#fill', but the target 'converted/api/interfaces/core_exporter.isvgelementrenderoptions.md' is not found among documentation files.",
-      "status": "pending"
-    },
-    {
-      "id": "f3af9119",
-      "timestamp": "2025-10-16T14:10:03.667480Z",
-      "file_path": "snippets/exporting-svg.md",
-      "line_number": null,
-      "category": "broken_link",
-      "severity": "warning",
-      "message": "WARNING -  Doc file 'snippets/exporting-svg.md' contains a link '../converted/api/interfaces/core_exporter.isvgelementrenderoptions.md#stroke', but the target 'converted/api/interfaces/core_exporter.isvgelementrenderoptions.md' is not found among documentation files.",
-      "raw_output": "WARNING -  Doc file 'snippets/exporting-svg.md' contains a link '../converted/api/interfaces/core_exporter.isvgelementrenderoptions.md#stroke', but the target 'converted/api/interfaces/core_exporter.isvgelementrenderoptions.md' is not found among documentation files.",
-      "status": "pending"
-    },
-    {
-      "id": "ca759b7d",
-      "timestamp": "2025-10-16T14:10:03.667486Z",
-      "file_path": "snippets/exporting-svg.md",
-      "line_number": null,
-      "category": "broken_link",
-      "severity": "warning",
-      "message": "WARNING -  Doc file 'snippets/exporting-svg.md' contains a link '../converted/api/interfaces/core_exporter.isvgelementrenderoptions.md#strokewidth', but the target 'converted/api/interfaces/core_exporter.isvgelementrenderoptions.md' is not found among documentation files.",
-      "raw_output": "WARNING -  Doc file 'snippets/exporting-svg.md' contains a link '../converted/api/interfaces/core_exporter.isvgelementrenderoptions.md#strokewidth', but the target 'converted/api/interfaces/core_exporter.isvgelementrenderoptions.md' is not found among documentation files.",
-      "status": "pending"
-    },
-    {
-      "id": "ff3e6b6a",
-      "timestamp": "2025-10-16T14:10:03.667491Z",
-      "file_path": "snippets/fonts-and-text.md",
-      "line_number": null,
-      "category": "broken_link",
-      "severity": "warning",
-      "message": "WARNING -  Doc file 'snippets/fonts-and-text.md' contains a link '../../converted/api/classes/core_models.Text.md#constructor', but the target '../converted/api/classes/core_models.Text.md' is not found among documentation files.",
-      "raw_output": "WARNING -  Doc file 'snippets/fonts-and-text.md' contains a link '../../converted/api/classes/core_models.Text.md#constructor', but the target '../converted/api/classes/core_models.Text.md' is not found among documentation files.",
-      "status": "pending"
-    },
-    {
-      "id": "632085c0",
-      "timestamp": "2025-10-16T14:10:03.667496Z",
-      "file_path": "snippets/fonts-and-text.md",
-      "line_number": null,
-      "category": "broken_link",
-      "severity": "warning",
-      "message": "WARNING -  Doc file 'snippets/fonts-and-text.md' contains a link '../../playground/index.html?script=Text', but the target '../playground/index.html' is not found among documentation files. Did you mean '../playground/index.html?script=Text'?",
-      "raw_output": "WARNING -  Doc file 'snippets/fonts-and-text.md' contains a link '../../playground/index.html?script=Text', but the target '../playground/index.html' is not found among documentation files. Did you mean '../playground/index.html?script=Text'?",
-      "status": "pending"
-    },
-    {
-      "id": "16f0c22a",
-      "timestamp": "2025-10-16T14:10:03.667501Z",
-      "file_path": "snippets/intersection.md",
-      "line_number": null,
-      "category": "broken_link",
-      "severity": "warning",
-      "message": "WARNING -  Doc file 'snippets/intersection.md' contains a link '../converted/api/interfaces/core_ipathintersection.md#content', but the target 'converted/api/interfaces/core_ipathintersection.md' is not found among documentation files.",
-      "raw_output": "WARNING -  Doc file 'snippets/intersection.md' contains a link '../converted/api/interfaces/core_ipathintersection.md#content', but the target 'converted/api/interfaces/core_ipathintersection.md' is not found among documentation files.",
-      "status": "pending"
-    },
-    {
-      "id": "cd6d250c",
-      "timestamp": "2025-10-16T14:10:03.667507Z",
-      "file_path": "snippets/walking.md",
-      "line_number": null,
-      "category": "broken_link",
-      "severity": "warning",
-      "message": "WARNING -  Doc file 'snippets/walking.md' contains a link '../converted/api/interfaces/core_iwalkpath.md#content', but the target 'converted/api/interfaces/core_iwalkpath.md' is not found among documentation files.",
-      "raw_output": "WARNING -  Doc file 'snippets/walking.md' contains a link '../converted/api/interfaces/core_iwalkpath.md#content', but the target 'converted/api/interfaces/core_iwalkpath.md' is not found among documentation files.",
-      "status": "pending"
-    },
-    {
-      "id": "4dc766eb",
-      "timestamp": "2025-10-16T14:10:03.667512Z",
-      "file_path": "snippets/walking.md",
-      "line_number": null,
-      "category": "broken_link",
-      "severity": "warning",
-      "message": "WARNING -  Doc file 'snippets/walking.md' contains a link '../converted/api/interfaces/core_iwalkmodel.md#content', but the target 'converted/api/interfaces/core_iwalkmodel.md' is not found among documentation files.",
-      "raw_output": "WARNING -  Doc file 'snippets/walking.md' contains a link '../converted/api/interfaces/core_iwalkmodel.md#content', but the target 'converted/api/interfaces/core_iwalkmodel.md' is not found among documentation files.",
-      "status": "pending"
-    },
-    {
-      "id": "4dc766eb",
-      "timestamp": "2025-10-16T14:10:03.667517Z",
-      "file_path": "snippets/walking.md",
-      "line_number": null,
-      "category": "broken_link",
-      "severity": "warning",
-      "message": "WARNING -  Doc file 'snippets/walking.md' contains a link '../converted/api/interfaces/core_iwalkmodel.md#content', but the target 'converted/api/interfaces/core_iwalkmodel.md' is not found among documentation files.",
-      "raw_output": "WARNING -  Doc file 'snippets/walking.md' contains a link '../converted/api/interfaces/core_iwalkmodel.md#content', but the target 'converted/api/interfaces/core_iwalkmodel.md' is not found among documentation files.",
+      "message": "WARNING -  Doc file 'migration/migration-faq.md' contains a link '../../../CONTRIBUTING.md', but the target '../../CONTRIBUTING.md' is not found among documentation files.",
+      "raw_output": "WARNING -  Doc file 'migration/migration-faq.md' contains a link '../../../CONTRIBUTING.md', but the target '../../CONTRIBUTING.md' is not found among documentation files.",
       "status": "pending"
     }
   ],
   "category_summary": {
     "file_conflict": {
       "count": 3,
-      "percentage": 2.3,
+      "percentage": 3.5,
       "fixed": 0,
       "pending": 3
     },
     "config_warning": {
       "count": 1,
-      "percentage": 0.8,
+      "percentage": 1.2,
       "fixed": 0,
       "pending": 1
     },
     "plugin_warning": {
       "count": 81,
-      "percentage": 62.3,
+      "percentage": 94.2,
       "fixed": 0,
       "pending": 81
     },
     "broken_link": {
-      "count": 45,
-      "percentage": 34.6,
+      "count": 1,
+      "percentage": 1.2,
       "fixed": 0,
-      "pending": 45
+      "pending": 1
     }
   },
   "file_summary": {
@@ -1501,145 +1017,19 @@
         "pending": 82
       }
     },
-    "demos/node_modules/highlight.js/CHANGES.md": {
-      "warning_count": 1,
-      "categories": {
-        "broken_link": 1
-      },
-      "status": {
-        "pending": 1
-      }
-    },
-    "demos/node_modules/makerjs-nameplate/README.md": {
-      "warning_count": 1,
-      "categories": {
-        "broken_link": 1
-      },
-      "status": {
-        "pending": 1
-      }
-    },
-    "demos/node_modules/makerjs-rimbox/README.md": {
-      "warning_count": 1,
-      "categories": {
-        "broken_link": 1
-      },
-      "status": {
-        "pending": 1
-      }
-    },
-    "demos/node_modules/opentype-layout/LICENSE.md": {
-      "warning_count": 1,
-      "categories": {
-        "broken_link": 1
-      },
-      "status": {
-        "pending": 1
-      }
-    },
-    "demos/node_modules/opentype-layout/METRICS.md": {
-      "warning_count": 1,
-      "categories": {
-        "broken_link": 1
-      },
-      "status": {
-        "pending": 1
-      }
-    },
-    "migration/api-mapping.md": {
-      "warning_count": 2,
-      "categories": {
-        "broken_link": 2
-      },
-      "status": {
-        "pending": 2
-      }
-    },
     "migration/migration-faq.md": {
-      "warning_count": 5,
-      "categories": {
-        "broken_link": 5
-      },
-      "status": {
-        "pending": 5
-      }
-    },
-    "snippets/dogbones.md": {
       "warning_count": 1,
       "categories": {
         "broken_link": 1
       },
       "status": {
         "pending": 1
-      }
-    },
-    "snippets/exporting-dxf.md": {
-      "warning_count": 3,
-      "categories": {
-        "broken_link": 3
-      },
-      "status": {
-        "pending": 3
-      }
-    },
-    "snippets/exporting-openjscad.md": {
-      "warning_count": 1,
-      "categories": {
-        "broken_link": 1
-      },
-      "status": {
-        "pending": 1
-      }
-    },
-    "snippets/exporting-stl.md": {
-      "warning_count": 1,
-      "categories": {
-        "broken_link": 1
-      },
-      "status": {
-        "pending": 1
-      }
-    },
-    "snippets/exporting-svg.md": {
-      "warning_count": 21,
-      "categories": {
-        "broken_link": 21
-      },
-      "status": {
-        "pending": 21
-      }
-    },
-    "snippets/fonts-and-text.md": {
-      "warning_count": 2,
-      "categories": {
-        "broken_link": 2
-      },
-      "status": {
-        "pending": 2
-      }
-    },
-    "snippets/intersection.md": {
-      "warning_count": 1,
-      "categories": {
-        "broken_link": 1
-      },
-      "status": {
-        "pending": 1
-      }
-    },
-    "snippets/walking.md": {
-      "warning_count": 3,
-      "categories": {
-        "broken_link": 3
-      },
-      "status": {
-        "pending": 3
       }
     }
   },
   "remediation_summary": {
     "fixed": 0,
-    "pending": 130,
+    "pending": 86,
     "accepted": 0,
     "deferred": 0,
     "in_progress": 0

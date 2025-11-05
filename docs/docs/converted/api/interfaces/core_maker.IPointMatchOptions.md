@@ -20,9 +20,6 @@ IPointMatchOptions | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/maker](../modules/core_maker.md)
@@ -39,11 +36,11 @@ interface IPointMatchOptions {
 #### Hierarchy
 
 * IPointMatchOptions
-  + [ICombineOptions](core_maker.ICombineOptions.md)
-  + [IFindLoopsOptions](core_maker.IFindLoopsOptions.md)
-  + [ISimplifyOptions](core_maker.ISimplifyOptions.md)
-  + [IFindChainsOptions](core_maker.IFindChainsOptions.md)
-  + [IJscadCagOptions](core_openjscad-esm.IJscadCagOptions.md)
+  * [ICombineOptions](core_maker.ICombineOptions.md)
+  * [IFindLoopsOptions](core_maker.IFindLoopsOptions.md)
+  * [ISimplifyOptions](core_maker.ISimplifyOptions.md)
+  * [IFindChainsOptions](core_maker.IFindChainsOptions.md)
+  * [IJscadCagOptions](core_openjscad-esm.IJscadCagOptions.md)
 
 * Defined in [core/maker.ts:277](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L277)
 

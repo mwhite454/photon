@@ -19,9 +19,6 @@ alterLength | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/path](../modules/core_path.md)
@@ -35,13 +32,13 @@ Preparing search index...
 
   #### Parameters
 
-  + pathToAlter: [IPath](../interfaces/core_schema.IPath.md)
-  + distance: number
-  + useOrigin: boolean = false
+  * pathToAlter: [IPath](../interfaces/core_schema.IPath.md)
+  * distance: number
+  * useOrigin: boolean = false
 
   #### Returns [IPath](../interfaces/core_schema.IPath.md)
 
-  + Defined in [core/path.ts:325](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/path.ts#L325)
+  * Defined in [core/path.ts:325](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/path.ts#L325)
 
 ### Settings
 

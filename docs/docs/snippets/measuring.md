@@ -34,7 +34,6 @@ These functions return a measurement object with **high** and **low** points.
 
 Measure path example:
 
-
 ## Examples
 
 ```javascript

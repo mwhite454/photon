@@ -19,9 +19,6 @@ isAngleEqual | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/equal](../modules/core_equal.md)
@@ -35,13 +32,13 @@ Preparing search index...
 
   #### Parameters
 
-  + angleA: number
-  + angleB: number
-  + accuracy: number = .0001
+  * angleA: number
+  * angleB: number
+  * accuracy: number = .0001
 
   #### Returns boolean
 
-  + Defined in [core/equal.ts:11](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/equal.ts#L11)
+  * Defined in [core/equal.ts:11](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/equal.ts#L11)
 
 ### Settings
 

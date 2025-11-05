@@ -21,9 +21,6 @@ Oval | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [models/Oval](../modules/models_Oval.md)
@@ -47,12 +44,12 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
   #### Parameters
 
-  + width: number
-  + height: number
+  * width: number
+  * height: number
 
   #### Returns Oval
 
-  + Defined in [models/Oval.ts:8](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Oval.ts#L8)
+  * Defined in [models/Oval.ts:8](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Oval.ts#L8)
 
 ## Properties
 

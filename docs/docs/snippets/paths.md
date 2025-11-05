@@ -30,7 +30,6 @@ A line is a path with the type **"line"** and this additional property:
 
 * end: point
 
-
 ## Examples
 
 ```javascript
@@ -74,10 +73,11 @@ startAngle: 0,
 endAngle: 45
 };
 ```
+
 *(additional optional properties covered in advanced lessons)*
 
 ## Related Topics
 
-- [Path Independence](../index.md)
-- [Models](../index.md)
-- [Path Constructors](../index.md)
+* [Path Independence](../index.md)
+* [Models](../index.md)
+* [Path Constructors](../index.md)

@@ -21,9 +21,6 @@ toPDF | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/pdf-esm](../modules/core_pdf-esm.md)
@@ -41,13 +38,13 @@ Preparing search index...
 
   #### Parameters
 
-  + doc: PDFDocument
+  * doc: PDFDocument
 
     PDFKit.PDFDocument object. See <https://pdfkit.org/>
-  + modelToExport: [IModel](../interfaces/core_schema.IModel.md)
+  * modelToExport: [IModel](../interfaces/core_schema.IModel.md)
 
     Model object to export.
-  + `Optional`options: [IPDFRenderOptions](../interfaces/core_pdf-esm.IPDFRenderOptions.md)
+  * `Optional`options: [IPDFRenderOptions](../interfaces/core_pdf-esm.IPDFRenderOptions.md)
 
     Export options object.
 
@@ -55,7 +52,7 @@ Preparing search index...
 
   String of PDF file contents.
 
-  + Defined in [core/pdf-esm.ts:47](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/pdf-esm.ts#L47)
+  * Defined in [core/pdf-esm.ts:47](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/pdf-esm.ts#L47)
 
 ### Settings
 

@@ -19,9 +19,6 @@ isZeroLength | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/boolean-utils](../modules/core_boolean-utils.md)
@@ -33,12 +30,12 @@ Preparing search index...
 
   #### Parameters
 
-  + pathContext: [IPath](../interfaces/core_schema.IPath.md)
-  + tolerance: number = ...
+  * pathContext: [IPath](../interfaces/core_schema.IPath.md)
+  * tolerance: number = ...
 
   #### Returns boolean
 
-  + Defined in [core/boolean-utils.ts:18](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/boolean-utils.ts#L18)
+  * Defined in [core/boolean-utils.ts:18](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/boolean-utils.ts#L18)
 
 ### Settings
 

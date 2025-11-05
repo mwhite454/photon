@@ -19,9 +19,6 @@ XmlTag | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/xml](../modules/core_xml.md)
@@ -41,12 +38,12 @@ Class for an XML tag.
 
   #### Parameters
 
-  + name: string
-  + `Optional`attrs: [IXmlTagAttrs](../interfaces/core_xml.IXmlTagAttrs.md)
+  * name: string
+  * `Optional`attrs: [IXmlTagAttrs](../interfaces/core_xml.IXmlTagAttrs.md)
 
   #### Returns XmlTag
 
-  + Defined in [core/xml.ts:34](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/xml.ts#L34)
+  * Defined in [core/xml.ts:34](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/xml.ts#L34)
 
 ## Properties
 
@@ -96,7 +93,7 @@ name: string
 
   #### Returns string
 
-  + Defined in [core/xml.ts:72](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/xml.ts#L72)
+  * Defined in [core/xml.ts:72](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/xml.ts#L72)
 
 ### getInnerText
 
@@ -106,7 +103,7 @@ name: string
 
   #### Returns string
 
-  + Defined in [core/xml.ts:63](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/xml.ts#L63)
+  * Defined in [core/xml.ts:63](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/xml.ts#L63)
 
 ### getOpeningTag
 
@@ -116,11 +113,11 @@ name: string
 
   #### Parameters
 
-  + selfClose: boolean
+  * selfClose: boolean
 
   #### Returns string
 
-  + Defined in [core/xml.ts:38](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/xml.ts#L38)
+  * Defined in [core/xml.ts:38](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/xml.ts#L38)
 
 ### toString
 
@@ -130,7 +127,7 @@ name: string
 
   #### Returns string
 
-  + Defined in [core/xml.ts:77](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/xml.ts#L77)
+  * Defined in [core/xml.ts:77](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/xml.ts#L77)
 
 ### `Static`escapeString {#static-escapestring}
 
@@ -140,11 +137,11 @@ name: string
 
   #### Parameters
 
-  + value: string
+  * value: string
 
   #### Returns string
 
-  + Defined in [core/xml.ts:18](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/xml.ts#L18)
+  * Defined in [core/xml.ts:18](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/xml.ts#L18)
 
 ### Settings
 

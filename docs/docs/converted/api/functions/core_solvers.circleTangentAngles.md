@@ -19,9 +19,6 @@ circleTangentAngles | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/solvers](../modules/core_solvers.md)
@@ -35,13 +32,13 @@ Preparing search index...
 
   #### Parameters
 
-  + a: [IPathCircle](../interfaces/core_schema.IPathCircle.md)
-  + b: [IPathCircle](../interfaces/core_schema.IPathCircle.md)
-  + inner: boolean = false
+  * a: [IPathCircle](../interfaces/core_schema.IPathCircle.md)
+  * b: [IPathCircle](../interfaces/core_schema.IPathCircle.md)
+  * inner: boolean = false
 
   #### Returns number[]
 
-  + Defined in [core/solvers.ts:32](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/solvers.ts#L32)
+  * Defined in [core/solvers.ts:32](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/solvers.ts#L32)
 
 ### Settings
 

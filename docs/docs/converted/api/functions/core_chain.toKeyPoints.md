@@ -20,9 +20,6 @@ toKeyPoints | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/chain](../modules/core_chain.md)
@@ -36,10 +33,10 @@ Preparing search index...
 
   #### Parameters
 
-  + chainContext: [IChain](../interfaces/core_maker.IChain.md)
+  * chainContext: [IChain](../interfaces/core_maker.IChain.md)
 
     Chain of paths to get points from.
-  + `Optional`maxArcFacet: number
+  * `Optional`maxArcFacet: number
 
     The maximum length between points on an arc or circle.
 
@@ -47,7 +44,7 @@ Preparing search index...
 
   Array of points which are on the chain.
 
-  + Defined in [core/chain.ts:631](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/chain.ts#L631)
+  * Defined in [core/chain.ts:631](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/chain.ts#L631)
 
 ### Settings
 

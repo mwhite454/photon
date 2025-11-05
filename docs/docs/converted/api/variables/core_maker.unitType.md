@@ -19,9 +19,6 @@ unitType | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/maker](../modules/core_maker.md)
@@ -42,9 +39,13 @@ String-based enumeration of unit types.
 #### Type Declaration
 
 * ##### `Readonly`Centimeter: "cm"
+
 * ##### `Readonly`Foot: "foot"
+
 * ##### `Readonly`Inch: "inch"
+
 * ##### `Readonly`Meter: "m"
+
 * ##### `Readonly`Millimeter: "mm"
 
 * Defined in [core/maker.ts:46](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L46)

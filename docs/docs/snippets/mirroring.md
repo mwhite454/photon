@@ -34,7 +34,6 @@ Each of these functions returns a new object and does not modify the original.
 
 Mirror path example:
 
-
 ## Examples
 
 ```javascript

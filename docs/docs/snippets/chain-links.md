@@ -29,7 +29,6 @@ If the chain is endless, then the last array element is connected to the first, 
 
 #### ChainLink object
 
- 
 The path itself can be found in the **walkedPath** property which is a *WalkPath* object,
 the same type of object used in [walking a model tree](../model-trees/index.md).
 
@@ -47,6 +46,6 @@ to connect to its neighboring links.
 
 ## Related Topics
 
-- [Chain Theory](../index.md)
-- [Breaking](../index.md)
-- [Routes](../index.md)
+* [Chain Theory](../index.md)
+* [Breaking](../index.md)
+* [Routes](../index.md)

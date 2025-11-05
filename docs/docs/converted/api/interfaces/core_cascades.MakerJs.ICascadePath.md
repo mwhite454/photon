@@ -24,9 +24,6 @@ ICascadePath | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/cascades](../modules/core_cascades.md)
@@ -44,7 +41,7 @@ interface ICascadePath {
 #### Hierarchy ([View Summary](../hierarchy.md))
 
 * [MakerJs](../modules/core_cascades.MakerJs.md).[ICascade](core_cascades.MakerJs.ICascade.md)
-  + ICascadePath
+  * ICascadePath
 
 * Defined in [core/cascades.ts:15](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/cascades.ts#L15)
 
@@ -91,6 +88,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Path Independence](../index.md)
-- [Models](../index.md)
-- [Path Constructors](../index.md)
+* [Path Independence](../index.md)
+* [Models](../index.md)
+* [Path Constructors](../index.md)

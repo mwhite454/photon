@@ -24,9 +24,6 @@ modelPathLength | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/measure](../modules/core_measure.md)
@@ -40,7 +37,7 @@ Preparing search index...
 
   #### Parameters
 
-  + modelToMeasure: [IModel](../interfaces/core_schema.IModel.md)
+  * modelToMeasure: [IModel](../interfaces/core_schema.IModel.md)
 
     The model containing paths to measure.
 
@@ -48,7 +45,7 @@ Preparing search index...
 
   Length of all paths in the model.
 
-  + Defined in [core/measure.ts:492](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure.ts#L492)
+  * Defined in [core/measure.ts:492](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure.ts#L492)
 
 ### Settings
 
@@ -67,6 +64,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Path Independence](../index.md)
-- [Models](../index.md)
-- [Path Constructors](../index.md)
+* [Path Independence](../index.md)
+* [Models](../index.md)
+* [Path Constructors](../index.md)

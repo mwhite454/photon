@@ -19,9 +19,6 @@ isFunction | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/base](../modules/core_base.md)
@@ -33,11 +30,11 @@ Preparing search index...
 
   #### Parameters
 
-  + value: any
+  * value: any
 
   #### Returns value is Function
 
-  + Defined in [core/base.ts:102](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/base.ts#L102)
+  * Defined in [core/base.ts:102](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/base.ts#L102)
 
 ### Settings
 

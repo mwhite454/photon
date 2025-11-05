@@ -33,6 +33,7 @@ title: Layout On Chain
 Similar to [layout on a path](/docs/advanced-drawing/index.md#layout on a path), you can use a chain as a layout guide for a row of child models within a model.
 Call [layout.childrenOnChain(parentModel: Model, onChain: chain)](../converted/api/functions/core_layout.childrenOnChain.md),
 the x-axis will be projected onto your onChain:
+
 ```javascript
 //render a row of squares on a chain
 import { exporter, layout, model, models } from '@7syllable/photon-core';
@@ -51,6 +52,7 @@ curve.layer = "red";
 const svg = exporter.toSVG(model);
 document.write(svg);
 ```
+
 There are additional optional parameters to this layout.childrenOnChain:
 
 * **baseline**: number *[default: 0]*
@@ -69,7 +71,7 @@ Layout on a chain works well with fonts and text. [See an example here](../playg
 
 ## Related Topics
 
-- [Chain Theory](../index.md)
-- [Routes](../index.md)
-- [Breaking](../index.md)
-- [Intermediate Drawing](../index.md)
+* [Chain Theory](../index.md)
+* [Routes](../index.md)
+* [Breaking](../index.md)
+* [Intermediate Drawing](../index.md)

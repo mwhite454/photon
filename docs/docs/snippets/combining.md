@@ -64,7 +64,6 @@ const svg = exporter.toSVG(examples);
 document.write(svg);
 ```
 
-
 ---
 
 Instead of remembering the boolean flag combinations, shortcuts are provided for:
@@ -99,6 +98,7 @@ model.combineIntersection(x.x4.models.rect, x.x4.models.oval);
 const svg = exporter.toSVG(examples);
 document.write(svg);
 ```
+
 Now it is apparent why we need a closed geometry - because we need to know what is considered the inside of a model.
 
 #### Return value

@@ -32,9 +32,6 @@ cloneToBrick | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/layout](../modules/core_layout.md)
@@ -46,8 +43,7 @@ Preparing search index...
 
 Before working with this feature, you should be familiar with:
 
-- [Intermediate Drawing](../index.md)
-
+* [Intermediate Drawing](../index.md)
 
 * cloneToBrick(
       itemToClone: [IPath](../interfaces/core_schema.IPath.md) | [IModel](../interfaces/core_schema.IModel.md),
@@ -80,14 +76,14 @@ Before working with this feature, you should be familiar with:
 
   #### Parameters
 
-  + itemToClone: [IPath](../interfaces/core_schema.IPath.md) | [IModel](../interfaces/core_schema.IModel.md)
-  + xCount: number
+  * itemToClone: [IPath](../interfaces/core_schema.IPath.md) | [IModel](../interfaces/core_schema.IModel.md)
+  * xCount: number
 
     Number of columns in the brick grid.
-  + yCount: number
+  * yCount: number
 
     Number of rows in the brick grid.
-  + `Optional`margin: number | [IPoint](../interfaces/core_schema.IPoint.md)
+  * `Optional`margin: number | [IPoint](../interfaces/core_schema.IPoint.md)
 
     Optional numeric distance between each clone. Can also be a 2 dimensional array of numbers, to specify distances in x and y dimensions.
 
@@ -95,7 +91,7 @@ Before working with this feature, you should be familiar with:
 
   A new model with clones in a brick layout.
 
-  + Defined in [core/layout.ts:476](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/layout.ts#L476)
+  * Defined in [core/layout.ts:476](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/layout.ts#L476)
 
 ### Settings
 
@@ -114,7 +110,7 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Moving](../index.md)
-- [Scaling](../index.md)
-- [Rotating](../index.md)
-- [Intermediate Drawing](../index.md)
+* [Moving](../index.md)
+* [Scaling](../index.md)
+* [Rotating](../index.md)
+* [Intermediate Drawing](../index.md)

@@ -34,7 +34,6 @@ The type of returned object is dependent on the type of path being distorted:
 
 Distort path example:
 
-
 ## Examples
 
 ```javascript
@@ -59,7 +58,6 @@ ellipse: ellipse
 const svg = exporter.toSVG(model);
 document.write(svg);
 ```
-
 
 ---
 

@@ -26,7 +26,6 @@ Additionally, if either path was an arc or circle, this object will contain the 
 
 Intersection examples:
 
-
 ## Examples
 
 ```javascript
@@ -47,6 +46,7 @@ model.paths[id] = new paths.Circle(p, 1);
 const svg = exporter.toSVG(model);
 document.write(svg);
 ```
+
 ```javascript
 //circle-circle intersection
 import { exporter, path, paths, point } from '@7syllable/photon-core';
@@ -68,6 +68,7 @@ model.paths[id] = new paths.Circle(p, 1);
 const svg = exporter.toSVG(model);
 document.write(svg);
 ```
+
 ```javascript
 //line-arc intersection
 import { exporter, path, paths, point } from '@7syllable/photon-core';

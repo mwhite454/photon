@@ -22,9 +22,6 @@ walk | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/model](../modules/core_model.md)
@@ -38,10 +35,10 @@ Preparing search index...
 
   #### Parameters
 
-  + modelContext: [IModel](../interfaces/core_schema.IModel.md)
+  * modelContext: [IModel](../interfaces/core_schema.IModel.md)
 
     The model to walk.
-  + options: [IWalkOptions](../interfaces/core_maker.IWalkOptions.md)
+  * options: [IWalkOptions](../interfaces/core_maker.IWalkOptions.md)
 
     Object containing callbacks.
 
@@ -49,7 +46,7 @@ Preparing search index...
 
   The original model (for cascading).
 
-  + Defined in [core/model.ts:575](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/model.ts#L575)
+  * Defined in [core/model.ts:575](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/model.ts#L575)
 
 ### Settings
 

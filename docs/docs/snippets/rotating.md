@@ -33,7 +33,6 @@ Each of these functions return the original object, so that we can "chain" on th
 
 Rotate path example:
 
-
 ## Examples
 
 ```javascript

@@ -53,17 +53,17 @@ Preparing search index...
 [pathLength](../functions/core_measure.pathLength.md)
 [pointDistance](../functions/core_measure.pointDistance.md)
 
-  ### Settings
+### Settings
   
   Member Visibility
   
-  * Protected
-  * Inherited
+* Protected
+* Inherited
   
   ThemeOSLightDark
   
   [Photon](../index.md)
   
-  * Loading...
+* Loading...
   
   Generated using [TypeDoc](https://typedoc.org/)

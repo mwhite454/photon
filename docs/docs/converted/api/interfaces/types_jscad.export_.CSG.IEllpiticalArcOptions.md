@@ -21,9 +21,6 @@ IEllpiticalArcOptions | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [types/jscad](../modules/types_jscad.md)

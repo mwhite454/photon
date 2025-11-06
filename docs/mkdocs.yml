@@ -128,6 +128,9 @@ plugins:
   - git-revision-date-localized:
       enable_creation_date: true
       type: timeago
+      enable_git_follow: false
+      exclude:
+        - demos/node_modules/**/*
   - minify:
       minify_html: true
 
@@ -141,9 +144,10 @@ extra:
 markdown_extensions:
   - admonition
   - attr_list
-  - codehilite:
-      guess_lang: false
+  - pymdownx.highlight:
       linenums: true
+      use_pygments: true
+  - pymdownx.superfences
   - footnotes
   - md_in_html
   - meta

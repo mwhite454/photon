@@ -17,20 +17,22 @@ def count_links(text):
 
 def main():
     print(" auditing content...")
-    docs_dir = Path('docs/docs')
+    # Get the repository root (parent of scripts directory)
+    repo_root = Path(__file__).parent.parent.parent
+    docs_dir = repo_root / 'docs' / 'docs'
     file_metrics = {}
 
     for md_file in docs_dir.rglob('*.md'):
         with open(md_file, 'r', encoding='utf-8') as f:
             content = f.read()
-            file_path = str(md_file.relative_to(Path.cwd()))
+            file_path = str(md_file.relative_to(repo_root))
             file_metrics[file_path] = {
                 'word_count': count_words(content),
                 'heading_count': count_headings(content),
                 'link_count': count_links(content)
             }
 
-    output_path = Path('reports/tests/content-audit-baseline.json')
+    output_path = repo_root / 'reports' / 'tests' / 'content-audit-baseline.json'
     output_path.parent.mkdir(parents=True, exist_ok=True)
     with open(output_path, 'w') as f:
         json.dump(file_metrics, f, indent=2)

@@ -74,7 +74,7 @@ Class for arc path.
       clockwise: boolean,
   ): Arc
 
-  Class for arc path, created from 2 points, radius, large Arc flag, and clockwise flag.
+  Class for arc path, created from 2 points, radius, large arc flag, and clockwise flag.
 
   #### Parameters
 
@@ -92,7 +92,7 @@ Class for arc path.
     Boolean flag to indicate clockwise direction.
   * clockwise: boolean
 
-    Boolean flag to indicate clockwise direction.
+    Boolean flag that sets the direction of the arc sweep to clockwise when true and counter-clockwise when false.
 
   #### Returns Arc
 
@@ -111,7 +111,7 @@ Class for arc path.
     Second end point of the arc.
   * `Optional`clockwise: boolean
 
-    Boolean flag to indicate clockwise direction.
+    Boolean flag that sets the direction of the arc sweep to clockwise when true and counter-clockwise when false.
 
   #### Returns Arc
 

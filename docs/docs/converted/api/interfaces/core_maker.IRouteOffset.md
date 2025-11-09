@@ -19,12 +19,9 @@ IRouteOffset | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
-* [core/maker](../modules/core_core.md)
+* [core/maker](../modules/core_maker.md)
 * IRouteOffset
 
 # Interface IRouteOffset
@@ -38,22 +35,13 @@ interface IRouteOffset {
     [routeKey](#routekey): string;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.md#core/maker.IRouteOffset))
+#### Hierarchy ([View Summary](../hierarchy.md))
 
 * IRouteOffset
-  + [IWalkPath](core_core.IWalkPath.md)
-  + [IWalkModel](core_core.IWalkModel.md)
+  * [IWalkPath](core_maker.IWalkPath.md)
+  * [IWalkModel](core_maker.IWalkModel.md)
 
 * Defined in [core/maker.ts:394](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L394)
-
-##### Index
-
-### Properties
-
-[layer](#layer)
-[offset](#offset)
-[route](#route)
-[routeKey](#routekey)
 
 ## Properties
 
@@ -89,12 +77,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[layer](#layer)[offset](#offset)[route](#route)[routeKey](#routekey)
 
 [Photon](../index.md)
 

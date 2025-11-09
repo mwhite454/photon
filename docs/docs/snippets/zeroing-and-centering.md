@@ -24,9 +24,8 @@ tags:
 - zeroing-and-centering
 title: Zeroing And Centering
 ---
-To move a model so that its bottom and/or left edges are on the x & y axes, use [model.zero](../api/modules/core_model.html#zero).
+To move a model so that its bottom and/or left edges are on the x & y axes, use [model.zero](../converted/api/functions/core_model.zero.md).
 This function accepts 2 boolean parameters: zeroOnXAxis, zeroOnYAxis. If you do not pass any parameters, it will zero on both axes.
-
 
 ## Examples
 
@@ -56,7 +55,7 @@ const svg = exporter.toSVG(model);
 document.write(svg);
 ```
 
-To move a model so that it is centered on on the x & y axes, use [model.center](../api/modules/core_model.html#center).
+To move a model so that it is centered on on the x & y axes, use [model.center](../converted/api/functions/core_model.center.md).
 This function accepts 2 boolean parameters: centerOnXAxis, centerOnYAxis. If you do not pass any parameters, it will center on both axes.
 
 ```javascript

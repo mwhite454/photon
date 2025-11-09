@@ -19,12 +19,9 @@ IMeasure | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
-* [core/maker](../modules/core_core.md)
+* [core/maker](../modules/core_maker.md)
 * IMeasure
 
 # Interface IMeasure
@@ -36,19 +33,12 @@ interface IMeasure {
     [low](#low): [IPoint](core_schema.IPoint.md);
 }
 
-#### Hierarchy ([View Summary](../hierarchy.md#core/maker.IMeasure))
+#### Hierarchy ([View Summary](../hierarchy.md))
 
 * IMeasure
-  + [IMeasureWithCenter](core_core.IMeasureWithCenter.md)
+  * [IMeasureWithCenter](core_maker.IMeasureWithCenter.md)
 
 * Defined in [core/maker.ts:156](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L156)
-
-##### Index
-
-### Properties
-
-[high](#high)
-[low](#low)
 
 ## Properties
 
@@ -72,12 +62,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[high](#high)[low](#low)
 
 [Photon](../index.md)
 

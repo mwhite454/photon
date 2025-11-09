@@ -1,0 +1,52 @@
+{
+  "summary": {
+    "total_broken_links": 159,
+    "by_pattern": {
+      "relative": 37,
+      "playground": 4,
+      "other_api": 12,
+      "absolute": 9,
+      "other": 21,
+      "self_anchor": 76
+    },
+    "by_error_type": {
+      "missing_files": 9,
+      "missing_playground": 4,
+      "other_errors": 13,
+      "missing_anchors": 133
+    },
+    "top_problem_files": {
+      "docs/docs/converted/api/interfaces/core_pdf-esm.IPDFRenderOptions.md": 6,
+      "docs/docs/converted/api/interfaces/core_openjscad-esm.IJscadCagOptions.md": 6,
+      "docs/docs/converted/api/functions/core_maker.cloneObject.md": 5,
+      "docs/docs/converted/api/functions/core_base.cloneObject.md": 5,
+      "docs/docs/converted/api/interfaces/core_svg-esm.ISVGElementRenderOptions.md": 5,
+      "docs/docs/converted/api/interfaces/core_svg-esm.ISVGRenderOptions.md": 5,
+      "docs/docs/snippets/bezier-curves.md": 4,
+      "docs/docs/converted/index.md": 4,
+      "docs/docs/converted/api/interfaces/core_svg-esm.ISVGPathDataRenderOptions.md": 4,
+      "docs/docs/converted/api/interfaces/core_schema.IPathIntersectionOptions.md": 4
+    }
+  },
+  "patterns": {
+    "api_links": [],
+    "playground_links": [
+      "/docs../../playground/index.html?script=text-on-path",
+      "../../playground/index.html?script=Text",
+      "/docs../../playground/index.html",
+      "/docs../../playground/index.html?script=text-on-chain"
+    ],
+    "missing_anchors": [
+      "../api/index.html#travel",
+      "../api/index.html#createroutekey",
+      "/docs/model-trees/index.md#walking a model tree",
+      "/docs/basic-drawing/index.md#points",
+      "/docs/exporting/index.md#content",
+      "../api/index.html#cloneobject",
+      "intermediate-drawing/index.md#Captions",
+      "intermediate-drawing/index.md#Distorting",
+      "intermediate-drawing/index.md#Dogbone%20Fillets",
+      "working-with-chains/index.md#Chain%20dogbone"
+    ]
+  }
+}

@@ -19,9 +19,6 @@ combineUnion | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/combine](../modules/core_combine.md)
@@ -33,12 +30,12 @@ Preparing search index...
 
   #### Parameters
 
-  + modelA: [IModel](../interfaces/core_schema.IModel.md)
-  + modelB: [IModel](../interfaces/core_schema.IModel.md)
+  * modelA: [IModel](../interfaces/core_schema.IModel.md)
+  * modelB: [IModel](../interfaces/core_schema.IModel.md)
 
   #### Returns [IModel](../interfaces/core_schema.IModel.md)
 
-  + Defined in [core/combine.ts:393](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/combine.ts#L393)
+  * Defined in [core/combine.ts:393](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/combine.ts#L393)
 
 ### Settings
 

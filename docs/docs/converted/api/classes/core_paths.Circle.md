@@ -20,9 +20,6 @@ Circle | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/paths](../modules/core_paths.md)
@@ -37,18 +34,6 @@ Class for circle path.
 * [IPathCircle](../interfaces/core_schema.IPathCircle.md)
 
 * Defined in [core/paths.ts:191](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/paths.ts#L191)
-
-##### Index
-
-### Constructors
-
-[constructor](#constructor)
-
-### Properties
-
-[origin](#origin)
-[radius](#radius)
-[type](#type)
 
 ## Constructors
 
@@ -67,13 +52,13 @@ Class for circle path.
 
   #### Parameters
 
-  + radius: number
+  * radius: number
 
     The radius of the circle.
 
   #### Returns Circle
 
-  + Defined in [core/paths.ts:206](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/paths.ts#L206)
+  * Defined in [core/paths.ts:206](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/paths.ts#L206)
 * new Circle(origin: [IPoint](../interfaces/core_schema.IPoint.md), radius: number): Circle
 
   Class for circle path, created from origin point and radius.
@@ -87,16 +72,16 @@ Class for circle path.
 
   #### Parameters
 
-  + origin: [IPoint](../interfaces/core_schema.IPoint.md)
+  * origin: [IPoint](../interfaces/core_schema.IPoint.md)
 
     The center point of the circle.
-  + radius: number
+  * radius: number
 
     The radius of the circle.
 
   #### Returns Circle
 
-  + Defined in [core/paths.ts:219](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/paths.ts#L219)
+  * Defined in [core/paths.ts:219](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/paths.ts#L219)
 * new Circle(pointA: [IPoint](../interfaces/core_schema.IPoint.md), pointB: [IPoint](../interfaces/core_schema.IPoint.md)): Circle
 
   Class for circle path, created from 2 points.
@@ -110,16 +95,16 @@ Class for circle path.
 
   #### Parameters
 
-  + pointA: [IPoint](../interfaces/core_schema.IPoint.md)
+  * pointA: [IPoint](../interfaces/core_schema.IPoint.md)
 
     First point on the circle.
-  + pointB: [IPoint](../interfaces/core_schema.IPoint.md)
+  * pointB: [IPoint](../interfaces/core_schema.IPoint.md)
 
     Second point on the circle.
 
   #### Returns Circle
 
-  + Defined in [core/paths.ts:232](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/paths.ts#L232)
+  * Defined in [core/paths.ts:232](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/paths.ts#L232)
 * new Circle(pointA: [IPoint](../interfaces/core_schema.IPoint.md), pointB: [IPoint](../interfaces/core_schema.IPoint.md), pointC: [IPoint](../interfaces/core_schema.IPoint.md)): Circle
 
   Class for circle path, created from 3 points.
@@ -133,19 +118,19 @@ Class for circle path.
 
   #### Parameters
 
-  + pointA: [IPoint](../interfaces/core_schema.IPoint.md)
+  * pointA: [IPoint](../interfaces/core_schema.IPoint.md)
 
     First point on the circle.
-  + pointB: [IPoint](../interfaces/core_schema.IPoint.md)
+  * pointB: [IPoint](../interfaces/core_schema.IPoint.md)
 
     Second point on the circle.
-  + pointC: [IPoint](../interfaces/core_schema.IPoint.md)
+  * pointC: [IPoint](../interfaces/core_schema.IPoint.md)
 
     Third point on the circle.
 
   #### Returns Circle
 
-  + Defined in [core/paths.ts:246](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/paths.ts#L246)
+  * Defined in [core/paths.ts:246](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/paths.ts#L246)
 
 ## Properties
 
@@ -187,16 +172,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Constructors
-
-[constructor](#constructor)
-
-Properties
-
-[origin](#origin)[radius](#radius)[type](#type)
 
 [Photon](../index.md)
 

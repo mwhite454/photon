@@ -19,9 +19,6 @@ XmlTag | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/xml](../modules/core_xml.md)
@@ -33,28 +30,6 @@ Class for an XML tag.
 
 * Defined in [core/xml.ts:7](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/xml.ts#L7)
 
-##### Index
-
-### Constructors
-
-[constructor](#constructor)
-
-### Properties
-
-[attrs?](#attrs)
-[closingTags?](#closingtags)
-[innerText](#innertext)
-[innerTextEscaped](#innertextescaped)
-[name](#name)
-
-### Methods
-
-[getClosingTag](#getclosingtag)
-[getInnerText](#getinnertext)
-[getOpeningTag](#getopeningtag)
-[toString](#tostring)
-[escapeString](#escapestring)
-
 ## Constructors
 
 ### constructor
@@ -63,22 +38,22 @@ Class for an XML tag.
 
   #### Parameters
 
-  + name: string
-  + `Optional`attrs: [IXmlTagAttrs](../interfaces/core_xml.IXmlTagAttrs.md)
+  * name: string
+  * `Optional`attrs: [IXmlTagAttrs](../interfaces/core_xml.IXmlTagAttrs.md)
 
   #### Returns XmlTag
 
-  + Defined in [core/xml.ts:34](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/xml.ts#L34)
+  * Defined in [core/xml.ts:34](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/xml.ts#L34)
 
 ## Properties
 
-### `Optional`attrs
+### `Optional`attrs {#optional-attrs}
 
 attrs?: [IXmlTagAttrs](../interfaces/core_xml.IXmlTagAttrs.md)
 
 * Defined in [core/xml.ts:34](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/xml.ts#L34)
 
-### `Optional`closingTags
+### `Optional`closingTags {#optional-closingtags}
 
 closingTags?: boolean
 
@@ -118,7 +93,7 @@ name: string
 
   #### Returns string
 
-  + Defined in [core/xml.ts:72](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/xml.ts#L72)
+  * Defined in [core/xml.ts:72](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/xml.ts#L72)
 
 ### getInnerText
 
@@ -128,7 +103,7 @@ name: string
 
   #### Returns string
 
-  + Defined in [core/xml.ts:63](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/xml.ts#L63)
+  * Defined in [core/xml.ts:63](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/xml.ts#L63)
 
 ### getOpeningTag
 
@@ -138,11 +113,11 @@ name: string
 
   #### Parameters
 
-  + selfClose: boolean
+  * selfClose: boolean
 
   #### Returns string
 
-  + Defined in [core/xml.ts:38](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/xml.ts#L38)
+  * Defined in [core/xml.ts:38](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/xml.ts#L38)
 
 ### toString
 
@@ -152,9 +127,9 @@ name: string
 
   #### Returns string
 
-  + Defined in [core/xml.ts:77](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/xml.ts#L77)
+  * Defined in [core/xml.ts:77](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/xml.ts#L77)
 
-### `Static`escapeString
+### `Static`escapeString {#static-escapestring}
 
 * escapeString(value: string): string
 
@@ -162,11 +137,11 @@ name: string
 
   #### Parameters
 
-  + value: string
+  * value: string
 
   #### Returns string
 
-  + Defined in [core/xml.ts:18](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/xml.ts#L18)
+  * Defined in [core/xml.ts:18](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/xml.ts#L18)
 
 ### Settings
 
@@ -176,20 +151,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Constructors
-
-[constructor](#constructor)
-
-Properties
-
-[attrs](#attrs)[closingTags](#closingtags)[innerText](#innertext)[innerTextEscaped](#innertextescaped)[name](#name)
-
-Methods
-
-[getClosingTag](#getclosingtag)[getInnerText](#getinnertext)[getOpeningTag](#getopeningtag)[toString](#tostring)[escapeString](#escapestring)
 
 [Photon](../index.md)
 

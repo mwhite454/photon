@@ -19,12 +19,9 @@ IMeasureWithCenter | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
-* [core/maker](../modules/core_core.md)
+* [core/maker](../modules/core_maker.md)
 * IMeasureWithCenter
 
 # Interface IMeasureWithCenter
@@ -39,22 +36,12 @@ interface IMeasureWithCenter {
     [width](#width): number;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.md#core/maker.IMeasureWithCenter))
+#### Hierarchy ([View Summary](../hierarchy.md))
 
-* [IMeasure](core_core.IMeasure.md)
-  + IMeasureWithCenter
+* [IMeasure](core_maker.IMeasure.md)
+  * IMeasureWithCenter
 
 * Defined in [core/maker.ts:162](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L162)
-
-##### Index
-
-### Properties
-
-[center](#center)
-[height](#height)
-[high](#high)
-[low](#low)
-[width](#width)
 
 ## Properties
 
@@ -74,7 +61,7 @@ height: number
 
 high: [IPoint](core_schema.IPoint.md)
 
-Inherited from [IMeasure](core_core.IMeasure.md).[high](core_core.IMeasure.md#high)
+Inherited from [IMeasure](core_maker.IMeasure.md).[high](core_maker.IMeasure.md#high)
 
 * Defined in [core/maker.ts:158](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L158)
 
@@ -82,7 +69,7 @@ Inherited from [IMeasure](core_core.IMeasure.md).[high](core_core.IMeasure.md#hi
 
 low: [IPoint](core_schema.IPoint.md)
 
-Inherited from [IMeasure](core_core.IMeasure.md).[low](core_core.IMeasure.md#low)
+Inherited from [IMeasure](core_maker.IMeasure.md).[low](core_maker.IMeasure.md#low)
 
 * Defined in [core/maker.ts:157](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L157)
 
@@ -100,12 +87,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[center](#center)[height](#height)[high](#high)[low](#low)[width](#width)
 
 [Photon](../index.md)
 

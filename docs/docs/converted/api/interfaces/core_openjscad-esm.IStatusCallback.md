@@ -20,9 +20,6 @@ IStatusCallback | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/openjscad-esm](../modules/core_openjscad-esm.md)
@@ -34,11 +31,11 @@ Preparing search index...
 
   #### Parameters
 
-  + status: { progress: number }
+  * status: { progress: number }
 
   #### Returns void
 
-  + Defined in [core/openjscad-esm.ts:14](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/openjscad-esm.ts#L14)
+  * Defined in [core/openjscad-esm.ts:14](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/openjscad-esm.ts#L14)
 
 ### Settings
 

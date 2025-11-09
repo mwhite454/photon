@@ -38,6 +38,7 @@ which will be passed these three parameters:
 * layer: the layer name containing the above.
 
 This function will get called once for each logical layer. Since our example has no layers (logically it's all one "null" layer), our function will only get called once.
+
 ```javascript
 import { exporter, model, models, paths } from '@7syllable/photon-core';
 //combine a rectangle and an oval, add some other paths
@@ -66,8 +67,8 @@ document.write(`found ${chains}`.length + ` chain(s) and ${loose}`.length + ` lo
 
 ## Related Topics
 
-- [Breaking](../index.md)
-- [Routes](../index.md)
-- [Basic Drawing](../index.md)
-- [Intermediate Drawing](../index.md)
-- [Chain Theory](../index.md)
+* [Breaking](../index.md)
+* [Routes](../index.md)
+* [Basic Drawing](../index.md)
+* [Intermediate Drawing](../index.md)
+* [Chain Theory](../index.md)

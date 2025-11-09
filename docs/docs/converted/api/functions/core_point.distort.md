@@ -19,9 +19,6 @@ distort | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/point](../modules/core_point.md)
@@ -35,13 +32,13 @@ Preparing search index...
 
   #### Parameters
 
-  + pointToDistort: [IPoint](../interfaces/core_schema.IPoint.md)
-  + scaleX: number
-  + scaleY: number
+  * pointToDistort: [IPoint](../interfaces/core_schema.IPoint.md)
+  * scaleX: number
+  * scaleY: number
 
   #### Returns [IPoint](../interfaces/core_schema.IPoint.md)
 
-  + Defined in [core/point.ts:187](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/point.ts#L187)
+  * Defined in [core/point.ts:187](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/point.ts#L187)
 
 ### Settings
 

@@ -23,12 +23,9 @@ IPathDirectional | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
-* [core/maker](../modules/core_core.md)
+* [core/maker](../modules/core_maker.md)
 * IPathDirectional
 
 # Interface IPathDirectional
@@ -43,22 +40,12 @@ interface IPathDirectional {
     [type](#type): string;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.md#core/maker.IPathDirectional))
+#### Hierarchy ([View Summary](../hierarchy.md))
 
 * [IPath](core_schema.IPath.md)
-  + IPathDirectional
+  * IPathDirectional
 
 * Defined in [core/maker.ts:354](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L354)
-
-##### Index
-
-### Properties
-
-[endPoints](#endpoints)
-[layer?](#layer)
-[origin](#origin)
-[reversed?](#reversed)
-[type](#type)
 
 ## Properties
 
@@ -117,12 +104,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Properties
-
-[endPoints](#endpoints)[layer](#layer)[origin](#origin)[reversed](#reversed)[type](#type)
-
 [Photon](../index.md)
 
 * Loading...
@@ -131,6 +112,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Path Independence](../index.md)
-- [Models](../index.md)
-- [Path Constructors](../index.md)
+* [Path Independence](../index.md)
+* [Models](../index.md)
+* [Path Constructors](../index.md)

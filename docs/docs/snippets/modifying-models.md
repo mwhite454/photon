@@ -34,7 +34,6 @@ in one drawing.
 
 For this example we will use ovals to make an oval L shape. We begin by creating a model function that has two ovals:
 
-
 ## Examples
 
 ```javascript
@@ -132,7 +131,6 @@ h: ovalH, v: ovalV
 const svg = exporter.toSVG(new ovalL(100, 100, 37));
 document.write(svg);
 ```
-
 
 ---
 
@@ -240,6 +238,6 @@ document.write(svg);
 
 ## Related Topics
 
-- [Modeling](../index.md)
-- [Paths](../index.md)
-- [Built-in Models](../index.md)
+* [Modeling](../index.md)
+* [Paths](../index.md)
+* [Built-in Models](../index.md)

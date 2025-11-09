@@ -19,12 +19,9 @@ isFunction | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
-* [core/maker](../modules/core_core.md)
+* [core/maker](../modules/core_maker.md)
 * isFunction
 
 # Function isFunction
@@ -35,11 +32,11 @@ Preparing search index...
 
   #### Parameters
 
-  + value: any
+  * value: any
 
   #### Returns boolean
 
-  + Defined in [core/maker.ts:136](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L136)
+  * Defined in [core/maker.ts:136](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L136)
 
 ### Settings
 

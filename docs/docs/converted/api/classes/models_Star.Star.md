@@ -21,9 +21,6 @@ Star | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [models/Star](../modules/models_Star.md)
@@ -39,20 +36,6 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
 * Defined in [models/Star.ts:6](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Star.ts#L6)
 
-##### Index
-
-### Constructors
-
-[constructor](#constructor)
-
-### Properties
-
-[paths](#paths)
-
-### Methods
-
-[InnerRadiusRatio](#innerradiusratio)
-
 ## Constructors
 
 ### constructor
@@ -66,14 +49,14 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
   #### Parameters
 
-  + numberOfPoints: number
-  + outerRadius: number
-  + `Optional`innerRadius: number
-  + skipPoints: number = 2
+  * numberOfPoints: number
+  * outerRadius: number
+  * `Optional`innerRadius: number
+  * skipPoints: number = 2
 
   #### Returns Star
 
-  + Defined in [models/Star.ts:9](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Star.ts#L9)
+  * Defined in [models/Star.ts:9](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Star.ts#L9)
 
 ## Properties
 
@@ -95,12 +78,12 @@ Implementation of [IModel](../interfaces/core_schema.IModel.md).[paths](../inter
 
   #### Parameters
 
-  + numberOfPoints: number
-  + skipPoints: number
+  * numberOfPoints: number
+  * skipPoints: number
 
   #### Returns number
 
-  + Defined in [models/Star.ts:29](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Star.ts#L29)
+  * Defined in [models/Star.ts:29](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Star.ts#L29)
 
 ### Settings
 
@@ -110,20 +93,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Constructors
-
-[constructor](#constructor)
-
-Properties
-
-[paths](#paths)
-
-Methods
-
-[InnerRadiusRatio](#innerradiusratio)
 
 [Photon](../index.md)
 

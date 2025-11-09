@@ -22,9 +22,6 @@ IPDFRenderOptions | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/pdf-esm](../modules/core_pdf-esm.md)
@@ -44,17 +41,6 @@ interface IPDFRenderOptions {
 }
 
 * Defined in [core/pdf-esm.ts:17](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/pdf-esm.ts#L17)
-
-##### Index
-
-### Properties
-
-[accuracy?](#accuracy)
-[fontName?](#fontname)
-[fontSize?](#fontsize)
-[origin?](#origin)
-[stroke?](#stroke)
-[units?](#units)
 
 ## Properties
 
@@ -118,12 +104,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[accuracy](#accuracy)[fontName](#fontname)[fontSize](#fontsize)[origin](#origin)[stroke](#stroke)[units](#units)
 
 [Photon](../index.md)
 

@@ -19,9 +19,6 @@ solveTriangleASA | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/solvers](../modules/core_solvers.md)
@@ -39,13 +36,13 @@ Preparing search index...
 
   #### Parameters
 
-  + oppositeAngleInDegrees: number
-  + lengthOfSideBetweenAngles: number
-  + otherAngleInDegrees: number
+  * oppositeAngleInDegrees: number
+  * lengthOfSideBetweenAngles: number
+  * otherAngleInDegrees: number
 
   #### Returns number
 
-  + Defined in [core/solvers.ts:26](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/solvers.ts#L26)
+  * Defined in [core/solvers.ts:26](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/solvers.ts#L26)
 
 ### Settings
 

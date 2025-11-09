@@ -19,9 +19,6 @@ IDXFLayerOptions | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/dxf](../modules/core_dxf.md)
@@ -37,13 +34,6 @@ interface IDXFLayerOptions {
 }
 
 * Defined in [core/dxf.ts:534](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/dxf.ts#L534)
-
-##### Index
-
-### Properties
-
-[color](#color)
-[fontSize?](#fontsize)
 
 ## Properties
 
@@ -71,12 +61,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[color](#color)[fontSize](#fontsize)
 
 [Photon](../index.md)
 

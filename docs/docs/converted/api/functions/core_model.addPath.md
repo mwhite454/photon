@@ -25,9 +25,6 @@ addPath | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/model](../modules/core_model.md)
@@ -53,16 +50,16 @@ Preparing search index...
 
   #### Parameters
 
-  + modelContext: [IModel](../interfaces/core_schema.IModel.md)
+  * modelContext: [IModel](../interfaces/core_schema.IModel.md)
 
     The model to add to.
-  + pathContext: [IPath](../interfaces/core_schema.IPath.md)
+  * pathContext: [IPath](../interfaces/core_schema.IPath.md)
 
     The path to add.
-  + pathId: string
+  * pathId: string
 
     The id of the path.
-  + overWrite: boolean = false
+  * overWrite: boolean = false
 
     Optional flag to overwrite any path referenced by pathId. Default is false, which will create an id similar to pathId.
 
@@ -70,7 +67,7 @@ Preparing search index...
 
   The original model (for cascading).
 
-  + Defined in [core/model.ts:48](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/model.ts#L48)
+  * Defined in [core/model.ts:48](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/model.ts#L48)
 
 ### Settings
 
@@ -89,6 +86,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Path Independence](../index.md)
-- [Models](../index.md)
-- [Path Constructors](../index.md)
+* [Path Independence](../index.md)
+* [Models](../index.md)
+* [Path Constructors](../index.md)

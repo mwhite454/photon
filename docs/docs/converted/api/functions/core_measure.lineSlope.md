@@ -19,9 +19,6 @@ lineSlope | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/measure](../modules/core_measure.md)
@@ -29,17 +26,17 @@ Preparing search index...
 
 # Function lineSlope
 
-* lineSlope(line: [IPathLine](../interfaces/core_schema.IPathLine.md)): [ISlope](../interfaces/core_core.ISlope.md)
+* lineSlope(line: [IPathLine](../interfaces/core_schema.IPathLine.md)): [ISlope](../interfaces/core_maker.ISlope.md)
 
   Gets the slope of a line.
 
   #### Parameters
 
-  + line: [IPathLine](../interfaces/core_schema.IPathLine.md)
+  * line: [IPathLine](../interfaces/core_schema.IPathLine.md)
 
-  #### Returns [ISlope](../interfaces/core_core.ISlope.md)
+  #### Returns [ISlope](../interfaces/core_maker.ISlope.md)
 
-  + Defined in [core/measure.ts:328](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure.ts#L328)
+  * Defined in [core/measure.ts:328](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure.ts#L328)
 
 ### Settings
 

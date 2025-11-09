@@ -23,9 +23,6 @@ cloneObject | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/base](../modules/core_base.md)
@@ -33,19 +30,19 @@ Preparing search index...
 
 # Function cloneObject
 
-* cloneObject<[T](#cloneobjectt)>(objectToClone: [T](#cloneobjectt)): [T](#cloneobjectt)
+* cloneObject<T>(objectToClone: T): T
 
   #### Type Parameters
 
-  + T
+  * T
 
   #### Parameters
 
-  + objectToClone: [T](#cloneobjectt)
+  * objectToClone: T
 
-  #### Returns [T](#cloneobjectt)
+  #### Returns T
 
-  + Defined in [core/base.ts:82](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/base.ts#L82)
+  * Defined in [core/base.ts:82](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/base.ts#L82)
 
 ### Settings
 
@@ -64,6 +61,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Moving](../index.md)
-- [Scaling](../index.md)
-- [Rotating](../index.md)
+* [Moving](../index.md)
+* [Scaling](../index.md)
+* [Rotating](../index.md)

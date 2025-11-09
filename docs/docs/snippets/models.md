@@ -34,7 +34,6 @@ Models are the heart of Maker.js. A model is represented by an object with these
 
 Let's look at **paths** first, using the example above.
 
-
 ## Examples
 
 ```javascript
@@ -65,22 +64,22 @@ First we will leave the code as is, and return the **model** variable.
 //render a model created by a function
 import { exporter } from '@7syllable/photon-core';
 function myModel() {
-const line = {
-type: 'line',
-origin: [0, 0],
-end: [50, 50]
-};
-const circle = {
-type: 'circle',
-origin: [0, 0],
-radius: 50
-};
-const pathObject = { myLine: line, myCircle: circle };
-const model = { paths: pathObject };
-return model;
-}
-const svg = exporter.toSVG(myModel());
-document.write(svg);
+  const line = {
+  type: 'line',
+  origin: [0, 0],
+  end: [50, 50]
+  };
+  const circle = {
+  type: 'circle',
+  origin: [0, 0],
+  radius: 50
+  };
+  const pathObject = { myLine: line, myCircle: circle };
+  const model = { paths: pathObject };
+  return model;
+  }
+  const svg = exporter.toSVG(myModel());
+  document.write(svg);
 ```
 
 Alternatively, we can change our function to be usable with the **new** operator,
@@ -143,10 +142,11 @@ models: { "myModel1": model1, "myModel2": model2 }
 const svg = exporter.toSVG(model);
 document.write(svg);
 ```
+
 *(additional optional properties covered in advanced lessons)*
 
 ## Related Topics
 
-- [Modeling](../index.md)
-- [Paths](../index.md)
-- [Built-in Models](../index.md)
+* [Modeling](../index.md)
+* [Paths](../index.md)
+* [Built-in Models](../index.md)

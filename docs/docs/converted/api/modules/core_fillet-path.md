@@ -24,10 +24,6 @@ title: core/fillet-path | Photon
 core/fillet-path | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * core/fillet-path
@@ -37,8 +33,6 @@ Preparing search index...
 ## Functions
 
 [pathDogbone](../functions/core_fillet-path.pathDogbone.md)
-
-
 [pathFillet](../functions/core_fillet-path.pathFillet.md)
 
 ### Settings
@@ -50,12 +44,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Functions
-
-[pathDogbone](#pathdogbone)[pathFillet](#pathfillet)
-
 [Photon](../index.md)
 
 * Loading...
@@ -64,6 +52,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Path Independence](../index.md)
-- [Models](../index.md)
-- [Path Constructors](../index.md)
+* [Path Independence](../index.md)
+* [Models](../index.md)
+* [Path Constructors](../index.md)

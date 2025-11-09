@@ -24,9 +24,6 @@ IJsonExportOptions | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/exporter](../modules/core_exporter.md)
@@ -43,14 +40,6 @@ interface IJsonExportOptions {
 }
 
 * Defined in [core/exporter.ts:25](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/exporter.ts#L25)
-
-##### Index
-
-### Properties
-
-[accuracy?](#accuracy)
-[indentation?](#indentation)
-[units?](#units)
 
 ## Properties
 
@@ -91,12 +80,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Properties
-
-[accuracy](#accuracy)[indentation](#indentation)[units](#units)
-
 [Photon](../index.md)
 
 * Loading...
@@ -105,6 +88,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Exporting DXF](../index.md)
-- [SVG Styling](../index.md)
-- [Exporting PDF](../index.md)
+* [Exporting DXF](../index.md)
+* [SVG Styling](../index.md)
+* [Exporting PDF](../index.md)

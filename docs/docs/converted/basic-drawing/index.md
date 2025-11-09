@@ -34,7 +34,7 @@ tags:
 - beginner
 title: Index
 ---
-Next: learn more in [Intermediate drawing](../intermediate-drawing/index.md#content).
+Next: learn more in [Intermediate drawing](../intermediate-drawing/index.md).
 
 ## Related Topics
 

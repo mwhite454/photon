@@ -21,9 +21,6 @@ StlSerializer | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [types/jscad](../modules/types_jscad.md)
@@ -34,7 +31,7 @@ Preparing search index...
 STL serializer interface
 
 interface StlSerializer {
-    [serialize](#serialize-1)(
+    serialize(
         csg: [export=](../modules/types_jscad.export_.md).[CSG](../classes/types_jscad.export_.CSG.md),
         options: {
             binary: boolean;
@@ -44,12 +41,6 @@ interface StlSerializer {
 }
 
 * Defined in [types/jscad.d.ts:96](https://github.com/mwhite454/photon/blob/main/packages/photon/src/types/jscad.d.ts#L96)
-
-##### Index
-
-### Methods
-
-[serialize](#serialize)
 
 ## Methods
 
@@ -65,12 +56,12 @@ interface StlSerializer {
 
   #### Parameters
 
-  + csg: [export=](../modules/types_jscad.export_.md).[CSG](../classes/types_jscad.export_.CSG.md)
-  + options: { binary: boolean; statusCallback?: (status: { progress: number }) => void }
+  * csg: [export=](../modules/types_jscad.export_.md).[CSG](../classes/types_jscad.export_.CSG.md)
+  * options: { binary: boolean; statusCallback?: (status: { progress: number }) => void }
 
   #### Returns string
 
-  + Defined in [types/jscad.d.ts:97](https://github.com/mwhite454/photon/blob/main/packages/photon/src/types/jscad.d.ts#L97)
+  * Defined in [types/jscad.d.ts:97](https://github.com/mwhite454/photon/blob/main/packages/photon/src/types/jscad.d.ts#L97)
 
 ### Settings
 
@@ -80,12 +71,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Methods
-
-[serialize](#serialize)
 
 [Photon](../index.md)
 

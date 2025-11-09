@@ -19,9 +19,6 @@ isMeasurementOverlapping | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/measure](../modules/core_measure.md)
@@ -29,16 +26,16 @@ Preparing search index...
 
 # Function isMeasurementOverlapping
 
-* isMeasurementOverlapping(measureA: [IMeasure](../interfaces/core_core.IMeasure.md), measureB: [IMeasure](../interfaces/core_core.IMeasure.md)): boolean
+* isMeasurementOverlapping(measureA: [IMeasure](../interfaces/core_maker.IMeasure.md), measureB: [IMeasure](../interfaces/core_maker.IMeasure.md)): boolean
 
   Check for measurement overlapping another measurement.
 
   #### Parameters
 
-  + measureA: [IMeasure](../interfaces/core_core.IMeasure.md)
+  * measureA: [IMeasure](../interfaces/core_maker.IMeasure.md)
 
     The measurement to test.
-  + measureB: [IMeasure](../interfaces/core_core.IMeasure.md)
+  * measureB: [IMeasure](../interfaces/core_maker.IMeasure.md)
 
     The measurement to check for overlap.
 
@@ -46,7 +43,7 @@ Preparing search index...
 
   Boolean true if measureA is overlapped with measureB.
 
-  + Defined in [core/measure.ts:317](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure.ts#L317)
+  * Defined in [core/measure.ts:317](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure.ts#L317)
 
 ### Settings
 

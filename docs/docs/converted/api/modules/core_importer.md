@@ -20,10 +20,6 @@ title: core/importer | Photon
 core/importer | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * core/importer
@@ -42,12 +38,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Functions
-
-[parseNumericList](#parsenumericlist)
 
 [Photon](../index.md)
 

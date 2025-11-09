@@ -19,12 +19,9 @@ createRouteKey | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
-* [core/maker](../modules/core_core.md)
+* [core/maker](../modules/core_maker.md)
 * createRouteKey
 
 # Function createRouteKey
@@ -35,11 +32,11 @@ Preparing search index...
 
   #### Parameters
 
-  + route: string[]
+  * route: string[]
 
   #### Returns string
 
-  + Defined in [core/maker.ts:82](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L82)
+  * Defined in [core/maker.ts:82](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L82)
 
 ### Settings
 

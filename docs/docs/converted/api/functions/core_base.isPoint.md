@@ -19,9 +19,6 @@ isPoint | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/base](../modules/core_base.md)
@@ -33,11 +30,11 @@ Preparing search index...
 
   #### Parameters
 
-  + item: any
+  * item: any
 
   #### Returns item is [number, number]
 
-  + Defined in [core/base.ts:105](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/base.ts#L105)
+  * Defined in [core/base.ts:105](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/base.ts#L105)
 
 ### Settings
 

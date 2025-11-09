@@ -19,9 +19,6 @@ toPoints | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/path](../modules/core_path.md)
@@ -35,12 +32,12 @@ Preparing search index...
 
   #### Parameters
 
-  + pathContext: [IPath](../interfaces/core_schema.IPath.md)
-  + numberOfPoints: number
+  * pathContext: [IPath](../interfaces/core_schema.IPath.md)
+  * numberOfPoints: number
 
   #### Returns [IPoint](../interfaces/core_schema.IPoint.md)[]
 
-  + Defined in [core/path.ts:338](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/path.ts#L338)
+  * Defined in [core/path.ts:338](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/path.ts#L338)
 
 ### Settings
 

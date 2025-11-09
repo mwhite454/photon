@@ -20,9 +20,6 @@ scale | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/model](../modules/core_model.md)
@@ -36,13 +33,13 @@ Preparing search index...
 
   #### Parameters
 
-  + modelToScale: [IModel](../interfaces/core_schema.IModel.md)
+  * modelToScale: [IModel](../interfaces/core_schema.IModel.md)
 
     The model to scale.
-  + scaleValue: number
+  * scaleValue: number
 
     The amount of scaling.
-  + scaleOrigin: boolean = false
+  * scaleOrigin: boolean = false
 
     Optional boolean to scale the origin point. Typically false for the root model.
 
@@ -50,7 +47,7 @@ Preparing search index...
 
   The original model (for cascading).
 
-  + Defined in [core/model.ts:419](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/model.ts#L419)
+  * Defined in [core/model.ts:419](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/model.ts#L419)
 
 ### Settings
 

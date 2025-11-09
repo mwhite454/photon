@@ -19,9 +19,6 @@ isValidUnit | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/units](../modules/core_units.md)
@@ -35,11 +32,11 @@ Preparing search index...
 
   #### Parameters
 
-  + tryUnit: string
+  * tryUnit: string
 
   #### Returns boolean
 
-  + Defined in [core/units.ts:57](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/units.ts#L57)
+  * Defined in [core/units.ts:57](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/units.ts#L57)
 
 ### Settings
 

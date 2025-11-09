@@ -20,9 +20,6 @@ ISVGElementRenderOptions | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/svg-esm](../modules/core_svg-esm.md)
@@ -38,22 +35,12 @@ interface ISVGElementRenderOptions {
     [strokeWidth](#strokewidth)?: string;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.md#core/svg-esm.ISVGElementRenderOptions))
+#### Hierarchy ([View Summary](../hierarchy.md))
 
 * ISVGElementRenderOptions
-  + [ISVGRenderOptions](core_svg-esm.ISVGRenderOptions.md)
+  * [ISVGRenderOptions](core_svg-esm.ISVGRenderOptions.md)
 
 * Defined in [core/svg-esm.ts:352](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/svg-esm.ts#L352)
-
-##### Index
-
-### Properties
-
-[className?](#classname)
-[cssStyle?](#cssstyle)
-[fill?](#fill)
-[stroke?](#stroke)
-[strokeWidth?](#strokewidth)
 
 ## Properties
 
@@ -95,12 +82,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[className](#classname)[cssStyle](#cssstyle)[fill](#fill)[stroke](#stroke)[strokeWidth](#strokewidth)
 
 [Photon](../index.md)
 

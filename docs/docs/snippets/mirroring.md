@@ -21,19 +21,18 @@ tags:
 - intermediate
 title: Mirroring
 ---
-Use [angle.mirror](../api/modules/core_angle.html#mirror) to get a mirror of an angle, and
-[point.mirror](../api/modules/core_point.html#mirror) to get a mirror of a simple point.
+Use [angle.mirror](../converted/api/functions/core_angle.mirror.md) to get a mirror of an angle, and
+[point.mirror](../converted/api/functions/core_point.mirror.md) to get a mirror of a simple point.
 
 You can create a mirrored copy of paths and models with the following functions.
 The mirroring can occur on the x axis, the y axis, or both.
 
-* [path.mirror](../api/modules/core_path.html#mirror)(path: object, mirrorX: boolean, mirrorY: boolean)
-* [model.mirror](../api/modules/core_model.html#mirror)(model: object, mirrorX: boolean, mirrorY: boolean)
+* [path.mirror](../converted/api/functions/core_path.mirror.md)(path: object, mirrorX: boolean, mirrorY: boolean)
+* [model.mirror](../converted/api/functions/core_model.mirror.md)(model: object, mirrorX: boolean, mirrorY: boolean)
 
 Each of these functions returns a new object and does not modify the original.
 
 Mirror path example:
-
 
 ## Examples
 

@@ -23,9 +23,6 @@ pathFillet | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/fillet-path](../modules/core_fillet-path.md)
@@ -37,19 +34,19 @@ Preparing search index...
       pathA: [IPath](../interfaces/core_schema.IPath.md),
       pathB: [IPath](../interfaces/core_schema.IPath.md),
       filletRadius: number,
-      options?: [IPointMatchOptions](../interfaces/core_core.IPointMatchOptions.md),
+      options?: [IPointMatchOptions](../interfaces/core_maker.IPointMatchOptions.md),
   ): [IPathArc](../interfaces/core_schema.IPathArc.md)
 
   #### Parameters
 
-  + pathA: [IPath](../interfaces/core_schema.IPath.md)
-  + pathB: [IPath](../interfaces/core_schema.IPath.md)
-  + filletRadius: number
-  + `Optional`options: [IPointMatchOptions](../interfaces/core_core.IPointMatchOptions.md)
+  * pathA: [IPath](../interfaces/core_schema.IPath.md)
+  * pathB: [IPath](../interfaces/core_schema.IPath.md)
+  * filletRadius: number
+  * `Optional`options: [IPointMatchOptions](../interfaces/core_maker.IPointMatchOptions.md)
 
   #### Returns [IPathArc](../interfaces/core_schema.IPathArc.md)
 
-  + Defined in [core/fillet-path.ts:55](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/fillet-path.ts#L55)
+  * Defined in [core/fillet-path.ts:55](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/fillet-path.ts#L55)
 
 ### Settings
 
@@ -68,6 +65,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Path Independence](../index.md)
-- [Models](../index.md)
-- [Path Constructors](../index.md)
+* [Path Independence](../index.md)
+* [Models](../index.md)
+* [Path Constructors](../index.md)

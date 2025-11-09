@@ -23,9 +23,6 @@ findSingleChain | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/chain](../modules/core_chain.md)
@@ -33,21 +30,21 @@ Preparing search index...
 
 # Function findSingleChain
 
-* findSingleChain(modelContext: [IModel](../interfaces/core_schema.IModel.md)): [IChain](../interfaces/core_core.IChain.md)
+* findSingleChain(modelContext: [IModel](../interfaces/core_schema.IModel.md)): [IChain](../interfaces/core_maker.IChain.md)
 
   Find a single chain within a model, across all layers. Shorthand of findChains; useful when you know there is only one chain to find in your model.
 
   #### Parameters
 
-  + modelContext: [IModel](../interfaces/core_schema.IModel.md)
+  * modelContext: [IModel](../interfaces/core_schema.IModel.md)
 
     The model to search for a chain.
 
-  #### Returns [IChain](../interfaces/core_core.IChain.md)
+  #### Returns [IChain](../interfaces/core_maker.IChain.md)
 
   A chain object or null if chains were not found.
 
-  + Defined in [core/chain.ts:132](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/chain.ts#L132)
+  * Defined in [core/chain.ts:132](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/chain.ts#L132)
 
 ### Settings
 
@@ -66,6 +63,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Chain Theory](../index.md)
-- [Breaking](../index.md)
-- [Routes](../index.md)
+* [Chain Theory](../index.md)
+* [Breaking](../index.md)
+* [Routes](../index.md)

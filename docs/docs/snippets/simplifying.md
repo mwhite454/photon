@@ -23,15 +23,15 @@ title: Simplifying
 ---
 
 !!! warning "Known Issue - API Not Yet Available"
-    This page uses `model.expandPaths()` which is **not yet available** in `@7syllable/photon-core@0.18.1`. 
-    
+    This page uses `model.expandPaths()` which is **not yet available** in `@7syllable/photon-core@0.18.1`.
+
     While `model.simplify()` exists in the package, the example on this page cannot execute because it depends on `expandPaths()`. 
     
     **Status**: See [GitHub Issue #3](https://github.com/mwhite454/photon/issues/3) for updates.
 
 If you Play the wireframe example above, and click on 'show path names' you will see that many lines have been created as a result of the expansion.
 This is an artefact of all of the boolean operations with **combine**. The outmost chain for example, should be able to represented with only four lines.
-To remedy this, there is [makerjs.model.simplify](../api/modules/core_model.html#simplify) - however there is an important caveat:
+To remedy this, there is [makerjs.model.simplify](../converted/api/modules/core_model.md) - however there is an important caveat:
 **your model must be originated before you can call the simplify function.**
 This is to make sure that all of the segmented paths share the same coordinate space.
 

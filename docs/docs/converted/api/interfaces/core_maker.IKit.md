@@ -19,12 +19,9 @@ IKit | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
-* [core/maker](../modules/core_core.md)
+* [core/maker](../modules/core_maker.md)
 * IKit
 
 # Interface IKit
@@ -32,23 +29,12 @@ Preparing search index...
 An IKit is a model-producing class with some sample parameters. Think of it as a packaged model with instructions on how to best use it.
 
 interface IKit {
-    new [IKit](#constructorikit)(...args: any[]): [IModel](core_schema.IModel.md);
-    [metaParameters](#metaparameters)?: [IMetaParameter](core_core.IMetaParameter.md)[];
+    new IKit(...args: any[]): [IModel](core_schema.IModel.md);
+    [metaParameters](#metaparameters)?: [IMetaParameter](core_maker.IMetaParameter.md)[];
     [notes](#notes)?: string;
 }
 
 * Defined in [core/maker.ts:637](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L637)
-
-##### Index
-
-### Constructors
-
-[constructor](#constructor)
-
-### Properties
-
-[metaParameters?](#metaparameters)
-[notes?](#notes)
 
 ## Constructors
 
@@ -61,17 +47,17 @@ interface IKit {
 
   #### Parameters
 
-  + ...args: any[]
+  * ...args: any[]
 
   #### Returns [IModel](core_schema.IModel.md)
 
-  + Defined in [core/maker.ts:643](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L643)
+  * Defined in [core/maker.ts:643](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L643)
 
 ## Properties
 
 ### `Optional`metaParameters
 
-metaParameters?: [IMetaParameter](core_core.IMetaParameter.md)[]
+metaParameters?: [IMetaParameter](core_maker.IMetaParameter.md)[]
 
 Attached to the constructor is a property named metaParameters which is an array of IMetaParameter objects.
 Each element of the array corresponds to a parameter of the constructor, in order.
@@ -94,16 +80,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Constructors
-
-[constructor](#constructor)
-
-Properties
-
-[metaParameters](#metaparameters)[notes](#notes)
 
 [Photon](../index.md)
 

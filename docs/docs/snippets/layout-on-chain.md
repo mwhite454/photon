@@ -30,9 +30,10 @@ tags:
 - chains
 title: Layout On Chain
 ---
-Similar to [layout on a path](/docs/advanced-drawing/index.md#Layout on a path), you can use a chain as a layout guide for a row of child models within a model.
-Call [layout.childrenOnChain(parentModel: Model, onChain: chain)](../api/modules/core_layout.html#childrenonchain),
+Similar to [layout on a path](/docs/advanced-drawing/index.md#layout on a path), you can use a chain as a layout guide for a row of child models within a model.
+Call [layout.childrenOnChain(parentModel: Model, onChain: chain)](../converted/api/functions/core_layout.childrenOnChain.md),
 the x-axis will be projected onto your onChain:
+
 ```javascript
 //render a row of squares on a chain
 import { exporter, layout, model, models } from '@7syllable/photon-core';
@@ -51,6 +52,7 @@ curve.layer = "red";
 const svg = exporter.toSVG(model);
 document.write(svg);
 ```
+
 There are additional optional parameters to this layout.childrenOnChain:
 
 * **baseline**: number *[default: 0]*
@@ -59,17 +61,17 @@ There are additional optional parameters to this layout.childrenOnChain:
 * **rotate**: boolean *[default: true]*
 
 These behave the same as when laying out on a path.
-See [layout on a path](/docs/advanced-drawing/index.md#Layout on a path) for explanation.
+See [layout on a path](/docs/advanced-drawing/index.md#layout on a path) for explanation.
 
 ---
 
 #### Laying out text
 
-Layout on a chain works well with fonts and text. [See an example here](/playground/index.md?script=text-on-chain).
+Layout on a chain works well with fonts and text. [See an example here](../playground/index.html?script=text-on-chain).
 
 ## Related Topics
 
-- [Chain Theory](../index.md)
-- [Routes](../index.md)
-- [Breaking](../index.md)
-- [Intermediate Drawing](../index.md)
+* [Chain Theory](../index.md)
+* [Routes](../index.md)
+* [Breaking](../index.md)
+* [Intermediate Drawing](../index.md)

@@ -28,24 +28,24 @@ The answer is: it is quite arbitrary. There is no guarantee that the order will 
 
 #### Reverse a chain
 
-If you have deduced that your chain needs to be reversed, you can call [makerjs.chain.reverse(chain)](../api/modules/core_chain.html#reverse).
+If you have deduced that your chain needs to be reversed, you can call [makerjs.chain.reverse(chain)](../converted/api/functions/core_chain.reverse.md).
 
 #### Beginning of a chain
 
 Another issue with endless chains is, which link is at the beginning of the links array? The answer once again, is that it is unpredictable.
 If you need to specify which link is at the beginning of an endless chain, you have 2 functions at your disposal:
 
-* [makerjs.chain.cycle(chain, amount)](../api/modules/core_chain.html#cycle) - Shift the links of an endless chain.
-* [makerjs.chain.startAt(chain, routeKey)](../api/modules/core_chain.html#startat) - Set the beginning of an endless chain to a known routeKey of a path.
+* [makerjs.chain.cycle(chain, amount)](../converted/api/functions/core_chain.cycle.md) - Shift the links of an endless chain.
+* [makerjs.chain.startAt(chain, routeKey)](../converted/api/functions/core_chain.startAt.md) - Set the beginning of an endless chain to a known routeKey of a path.
 
 #### Clockwise
 
 If you have an endless chain, you also have the option to see if your links flow in a clockwise direction.
-Call [makerjs.measure.isChainClockwise(chain)](../api/modules/core_measure.html#ischainclockwise)
+Call [makerjs.measure.isChainClockwise(chain)](../converted/api/functions/core_measure.isChainClockwise.md)
 which returns a boolean, unless your chain has one link which is a circle - in which case it will return null.
 
 ## Related Topics
 
-- [Chain Theory](../index.md)
-- [Breaking](../index.md)
-- [Routes](../index.md)
+* [Chain Theory](../index.md)
+* [Breaking](../index.md)
+* [Routes](../index.md)

@@ -23,9 +23,6 @@ modelExtents | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/measure-minimal](../modules/core_measure-minimal.md)
@@ -33,17 +30,17 @@ Preparing search index...
 
 # Function modelExtents
 
-* modelExtents(modelToMeasure: [IModel](../interfaces/core_schema.IModel.md)): [IMeasureWithCenter](../interfaces/core_core.IMeasureWithCenter.md)
+* modelExtents(modelToMeasure: [IModel](../interfaces/core_schema.IModel.md)): [IMeasureWithCenter](../interfaces/core_maker.IMeasureWithCenter.md)
 
   Measures the smallest rectangle which contains a model.
 
   #### Parameters
 
-  + modelToMeasure: [IModel](../interfaces/core_schema.IModel.md)
+  * modelToMeasure: [IModel](../interfaces/core_schema.IModel.md)
 
-  #### Returns [IMeasureWithCenter](../interfaces/core_core.IMeasureWithCenter.md)
+  #### Returns [IMeasureWithCenter](../interfaces/core_maker.IMeasureWithCenter.md)
 
-  + Defined in [core/measure-minimal.ts:251](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure-minimal.ts#L251)
+  * Defined in [core/measure-minimal.ts:251](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure-minimal.ts#L251)
 
 ### Settings
 
@@ -62,6 +59,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Modeling](../index.md)
-- [Paths](../index.md)
-- [Built-in Models](../index.md)
+* [Modeling](../index.md)
+* [Paths](../index.md)
+* [Built-in Models](../index.md)

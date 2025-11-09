@@ -21,10 +21,6 @@ title: types/jscad | Photon
 types/jscad | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * types/jscad
@@ -47,16 +43,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Namespaces
-
-[export=](#export)
-
-Interfaces
-
-[StlSerializer](#stlserializer)
 
 [Photon](../index.md)
 

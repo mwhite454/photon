@@ -21,9 +21,6 @@ SCurve | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [models/SCurve](../modules/models_SCurve.md)
@@ -39,16 +36,6 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
 * Defined in [models/SCurve.ts:7](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/SCurve.ts#L7)
 
-##### Index
-
-### Constructors
-
-[constructor](#constructor)
-
-### Properties
-
-[paths](#paths)
-
 ## Constructors
 
 ### constructor
@@ -57,12 +44,12 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
   #### Parameters
 
-  + width: number
-  + height: number
+  * width: number
+  * height: number
 
   #### Returns SCurve
 
-  + Defined in [models/SCurve.ts:10](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/SCurve.ts#L10)
+  * Defined in [models/SCurve.ts:10](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/SCurve.ts#L10)
 
 ## Properties
 
@@ -84,16 +71,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Constructors
-
-[constructor](#constructor)
-
-Properties
-
-[paths](#paths)
 
 [Photon](../index.md)
 

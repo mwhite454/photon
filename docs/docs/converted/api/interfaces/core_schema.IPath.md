@@ -23,9 +23,6 @@ IPath | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/schema](../modules/core_schema.md)
@@ -41,25 +38,17 @@ interface IPath {
     [type](#type): string;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.md#core/schema.IPath))
+#### Hierarchy ([View Summary](../hierarchy.md))
 
 * IPath
-  + [DeletedPathInfo](core_boolean-utils.DeletedPathInfo.md)
-  + [IPathRemoved](core_core.IPathRemoved.md)
-  + [IPathDirectional](core_core.IPathDirectional.md)
-  + [IPathLine](core_schema.IPathLine.md)
-  + [IPathCircle](core_schema.IPathCircle.md)
-  + [IPathArcInBezierCurve](core_schema.IPathArcInBezierCurve.md)
+  * [DeletedPathInfo](core_boolean-utils.DeletedPathInfo.md)
+  * [IPathRemoved](core_maker.IPathRemoved.md)
+  * [IPathDirectional](core_maker.IPathDirectional.md)
+  * [IPathLine](core_schema.IPathLine.md)
+  * [IPathCircle](core_schema.IPathCircle.md)
+  * [IPathArcInBezierCurve](core_schema.IPathArcInBezierCurve.md)
 
 * Defined in [core/schema.ts:18](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/schema.ts#L18)
-
-##### Index
-
-### Properties
-
-[layer?](#layer)
-[origin](#origin)
-[type](#type)
 
 ## Properties
 
@@ -96,12 +85,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Properties
-
-[layer](#layer)[origin](#origin)[type](#type)
-
 [Photon](../index.md)
 
 * Loading...
@@ -110,6 +93,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Path Independence](../index.md)
-- [Models](../index.md)
-- [Path Constructors](../index.md)
+* [Path Independence](../index.md)
+* [Models](../index.md)
+* [Path Constructors](../index.md)

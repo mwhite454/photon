@@ -24,9 +24,6 @@ move | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/model](../modules/core_model.md)
@@ -40,10 +37,10 @@ Preparing search index...
 
   #### Parameters
 
-  + modelToMove: [IModel](../interfaces/core_schema.IModel.md)
+  * modelToMove: [IModel](../interfaces/core_schema.IModel.md)
 
     The model to move.
-  + origin: [IPoint](../interfaces/core_schema.IPoint.md)
+  * origin: [IPoint](../interfaces/core_schema.IPoint.md)
 
     The new position of the model.
 
@@ -51,7 +48,7 @@ Preparing search index...
 
   The original model (for cascading).
 
-  + Defined in [core/model.ts:326](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/model.ts#L326)
+  * Defined in [core/model.ts:326](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/model.ts#L326)
 
 ### Settings
 
@@ -70,6 +67,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Originating](../index.md)
-- [Scaling](../index.md)
-- [Rotating](../index.md)
+* [Originating](../index.md)
+* [Scaling](../index.md)
+* [Rotating](../index.md)

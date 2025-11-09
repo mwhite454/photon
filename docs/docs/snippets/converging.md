@@ -21,7 +21,7 @@ tags:
 - converging
 title: Converging
 ---
-To make lines meet at their slope intersection point, use [path.converge](../api/modules/core_path.html#converge).
+To make lines meet at their slope intersection point, use [path.converge](../converted/api/functions/core_path.converge.md).
 This function will only work with lines, it will not work with arcs.
 
 The converge function will try to use the end of the line that is closest to the convergence point. If you need to specify which ends of your lines should be converged,

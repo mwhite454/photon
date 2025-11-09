@@ -23,12 +23,9 @@ IRefPathIdInModel | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
-* [core/maker](../modules/core_core.md)
+* [core/maker](../modules/core_maker.md)
 * IRefPathIdInModel
 
 # Interface IRefPathIdInModel
@@ -40,19 +37,12 @@ interface IRefPathIdInModel {
     [pathId](#pathid): string;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.md#core/maker.IRefPathIdInModel))
+#### Hierarchy ([View Summary](../hierarchy.md))
 
 * IRefPathIdInModel
-  + [IWalkPath](core_core.IWalkPath.md)
+  * [IWalkPath](core_maker.IWalkPath.md)
 
 * Defined in [core/maker.ts:386](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L386)
-
-##### Index
-
-### Properties
-
-[modelContext](#modelcontext)
-[pathId](#pathid)
 
 ## Properties
 
@@ -77,12 +67,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Properties
-
-[modelContext](#modelcontext)[pathId](#pathid)
-
 [Photon](../index.md)
 
 * Loading...
@@ -91,6 +75,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Path Independence](../index.md)
-- [Models](../index.md)
-- [Path Constructors](../index.md)
+* [Path Independence](../index.md)
+* [Models](../index.md)
+* [Path Constructors](../index.md)

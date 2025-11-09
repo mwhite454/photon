@@ -21,9 +21,6 @@ RoundRectangle | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [models/RoundRectangle](../modules/models_RoundRectangle.md)
@@ -38,17 +35,6 @@ A model is a composite object which may contain a map of paths, or a map of mode
 * [IModel](../interfaces/core_schema.IModel.md)
 
 * Defined in [models/RoundRectangle.ts:7](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/RoundRectangle.ts#L7)
-
-##### Index
-
-### Constructors
-
-[constructor](#constructor)
-
-### Properties
-
-[origin](#origin)
-[paths](#paths)
 
 ## Constructors
 
@@ -71,19 +57,19 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
   #### Parameters
 
-  + width: number
+  * width: number
 
     Width of the rectangle.
-  + height: number
+  * height: number
 
     Height of the rectangle.
-  + radius: number
+  * radius: number
 
     Corner radius.
 
   #### Returns RoundRectangle
 
-  + Defined in [models/RoundRectangle.ts:23](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/RoundRectangle.ts#L23)
+  * Defined in [models/RoundRectangle.ts:23](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/RoundRectangle.ts#L23)
 * new RoundRectangle(modelToSurround: [IModel](../interfaces/core_schema.IModel.md), margin: number): RoundRectangle
 
   Create a round rectangle which will surround a model.
@@ -98,16 +84,16 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
   #### Parameters
 
-  + modelToSurround: [IModel](../interfaces/core_schema.IModel.md)
+  * modelToSurround: [IModel](../interfaces/core_schema.IModel.md)
 
     IModel object.
-  + margin: number
+  * margin: number
 
     Distance from the model. This will also become the corner radius.
 
   #### Returns RoundRectangle
 
-  + Defined in [models/RoundRectangle.ts:37](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/RoundRectangle.ts#L37)
+  * Defined in [models/RoundRectangle.ts:37](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/RoundRectangle.ts#L37)
 
 ## Properties
 
@@ -139,16 +125,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Constructors
-
-[constructor](#constructor)
-
-Properties
-
-[origin](#origin)[paths](#paths)
 
 [Photon](../index.md)
 

@@ -23,9 +23,6 @@ isPathInsideModel | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/combine](../modules/core_combine.md)
@@ -43,15 +40,15 @@ Preparing search index...
 
   #### Parameters
 
-  + pathContext: [IPath](../interfaces/core_schema.IPath.md)
-  + modelContext: [IModel](../interfaces/core_schema.IModel.md)
-  + `Optional`pathOffset: [IPoint](../interfaces/core_schema.IPoint.md)
-  + `Optional`farPoint: [IPoint](../interfaces/core_schema.IPoint.md)
-  + `Optional`measureAtlas: any
+  * pathContext: [IPath](../interfaces/core_schema.IPath.md)
+  * modelContext: [IModel](../interfaces/core_schema.IModel.md)
+  * `Optional`pathOffset: [IPoint](../interfaces/core_schema.IPoint.md)
+  * `Optional`farPoint: [IPoint](../interfaces/core_schema.IPoint.md)
+  * `Optional`measureAtlas: any
 
   #### Returns boolean
 
-  + Defined in [core/combine.ts:143](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/combine.ts#L143)
+  * Defined in [core/combine.ts:143](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/combine.ts#L143)
 
 ### Settings
 
@@ -70,6 +67,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Path Independence](../index.md)
-- [Models](../index.md)
-- [Path Constructors](../index.md)
+* [Path Independence](../index.md)
+* [Models](../index.md)
+* [Path Constructors](../index.md)

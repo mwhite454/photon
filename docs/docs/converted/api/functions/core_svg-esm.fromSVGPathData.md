@@ -25,9 +25,6 @@ fromSVGPathData | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/svg-esm](../modules/core_svg-esm.md)
@@ -39,12 +36,12 @@ Preparing search index...
 
   #### Parameters
 
-  + pathData: string
-  + options: [ISVGImportOptions](../interfaces/core_svg-esm.ISVGImportOptions.md) = {}
+  * pathData: string
+  * options: [ISVGImportOptions](../interfaces/core_svg-esm.ISVGImportOptions.md) = {}
 
   #### Returns [IModel](../interfaces/core_schema.IModel.md)
 
-  + Defined in [core/svg-esm.ts:49](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/svg-esm.ts#L49)
+  * Defined in [core/svg-esm.ts:49](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/svg-esm.ts#L49)
 
 ### Settings
 
@@ -63,6 +60,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Path Independence](../index.md)
-- [Models](../index.md)
-- [Path Constructors](../index.md)
+* [Path Independence](../index.md)
+* [Models](../index.md)
+* [Path Constructors](../index.md)

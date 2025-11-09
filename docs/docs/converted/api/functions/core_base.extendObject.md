@@ -19,9 +19,6 @@ extendObject | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/base](../modules/core_base.md)
@@ -36,12 +33,12 @@ Preparing search index...
 
   #### Parameters
 
-  + target: Record<string, any>
-  + other: Record<string, any>
+  * target: Record<string, any>
+  * other: Record<string, any>
 
   #### Returns Record<string, any>
 
-  + Defined in [core/base.ts:91](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/base.ts#L91)
+  * Defined in [core/base.ts:91](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/base.ts#L91)
 
 ### Settings
 

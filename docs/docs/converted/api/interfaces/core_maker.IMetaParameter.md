@@ -19,12 +19,9 @@ IMetaParameter | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
-* [core/maker](../modules/core_core.md)
+* [core/maker](../modules/core_maker.md)
 * IMetaParameter
 
 # Interface IMetaParameter
@@ -41,17 +38,6 @@ interface IMetaParameter {
 }
 
 * Defined in [core/maker.ts:601](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L601)
-
-##### Index
-
-### Properties
-
-[max?](#max)
-[min?](#min)
-[step?](#step)
-[title](#title)
-[type](#type)
-[value](#value)
 
 ## Properties
 
@@ -111,12 +97,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[max](#max)[min](#min)[step](#step)[title](#title)[type](#type)[value](#value)
 
 [Photon](../index.md)
 

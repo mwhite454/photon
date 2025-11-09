@@ -20,10 +20,6 @@ title: core/svg-helpers | Photon
 core/svg-helpers | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * core/svg-helpers
@@ -33,8 +29,6 @@ Preparing search index...
 ## Functions
 
 [chainToSVGPathData](../functions/core_svg-helpers.chainToSVGPathData.md)
-
-
 [pathToSVGPathData](../functions/core_svg-helpers.pathToSVGPathData.md)
 
 ### Settings
@@ -45,12 +39,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Functions
-
-[chainToSVGPathData](#chaintosvgpathdata)[pathToSVGPathData](#pathtosvgpathdata)
 
 [Photon](../index.md)
 

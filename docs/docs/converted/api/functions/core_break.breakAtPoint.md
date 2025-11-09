@@ -19,9 +19,6 @@ breakAtPoint | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/break](../modules/core_break.md)
@@ -37,10 +34,10 @@ Preparing search index...
 
   #### Parameters
 
-  + pathToBreak: [IPath](../interfaces/core_schema.IPath.md)
+  * pathToBreak: [IPath](../interfaces/core_schema.IPath.md)
 
     The path to break.
-  + pointOfBreak: [IPoint](../interfaces/core_schema.IPoint.md)
+  * pointOfBreak: [IPoint](../interfaces/core_schema.IPoint.md)
 
     The point at which to break the path.
 
@@ -48,7 +45,7 @@ Preparing search index...
 
   A new path of the same type, when path type is line or arc. Returns null for circle.
 
-  + Defined in [core/break.ts:143](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/break.ts#L143)
+  * Defined in [core/break.ts:143](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/break.ts#L143)
 
 ### Settings
 

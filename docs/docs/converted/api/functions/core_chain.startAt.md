@@ -20,9 +20,6 @@ startAt | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/chain](../modules/core_chain.md)
@@ -30,24 +27,24 @@ Preparing search index...
 
 # Function startAt
 
-* startAt(chainContext: [IChain](../interfaces/core_core.IChain.md), routeKey: string): [IChain](../interfaces/core_core.IChain.md)
+* startAt(chainContext: [IChain](../interfaces/core_maker.IChain.md), routeKey: string): [IChain](../interfaces/core_maker.IChain.md)
 
   Set the beginning of an endless chain to a known routeKey of a path.
 
   #### Parameters
 
-  + chainContext: [IChain](../interfaces/core_core.IChain.md)
+  * chainContext: [IChain](../interfaces/core_maker.IChain.md)
 
     Chain to cycle through. Must be endless.
-  + routeKey: string
+  * routeKey: string
 
     RouteKey of the desired path to start the chain with.
 
-  #### Returns [IChain](../interfaces/core_core.IChain.md)
+  #### Returns [IChain](../interfaces/core_maker.IChain.md)
 
   The chainContext for cascading.
 
-  + Defined in [core/chain.ts:499](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/chain.ts#L499)
+  * Defined in [core/chain.ts:499](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/chain.ts#L499)
 
 ### Settings
 

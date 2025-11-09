@@ -20,9 +20,6 @@ ICascade | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/cascades](../modules/core_cascades.md)
@@ -37,22 +34,14 @@ interface ICascade {
     [$result](#result): any;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.md#core/cascades.MakerJs.ICascade))
+#### Hierarchy ([View Summary](../hierarchy.md))
 
 * ICascade
-  + [ICascadeModel](core_cascades.MakerJs.ICascadeModel.md)
-  + [ICascadePath](core_cascades.MakerJs.ICascadePath.md)
-  + [ICascadePoint](core_cascades.MakerJs.ICascadePoint.md)
+  * [ICascadeModel](core_cascades.MakerJs.ICascadeModel.md)
+  * [ICascadePath](core_cascades.MakerJs.ICascadePath.md)
+  * [ICascadePoint](core_cascades.MakerJs.ICascadePoint.md)
 
 * Defined in [core/cascades.ts:5](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/cascades.ts#L5)
-
-##### Index
-
-### Properties
-
-[$initial](#initial)
-[$reset](#reset)
-[$result](#result)
 
 ## Properties
 
@@ -82,12 +71,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[$initial](#initial)[$reset](#reset)[$result](#result)
 
 [Photon](../index.md)
 

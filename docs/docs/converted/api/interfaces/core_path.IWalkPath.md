@@ -23,9 +23,6 @@ IWalkPath | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/path](../modules/core_path.md)
@@ -38,12 +35,6 @@ interface IWalkPath {
 }
 
 * Defined in [core/path.ts:19](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/path.ts#L19)
-
-##### Index
-
-### Properties
-
-[pathContext](#pathcontext)
 
 ## Properties
 
@@ -62,12 +53,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Properties
-
-[pathContext](#pathcontext)
-
 [Photon](../index.md)
 
 * Loading...
@@ -76,6 +61,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Path Independence](../index.md)
-- [Models](../index.md)
-- [Path Constructors](../index.md)
+* [Path Independence](../index.md)
+* [Models](../index.md)
+* [Path Constructors](../index.md)

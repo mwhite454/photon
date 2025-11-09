@@ -20,9 +20,6 @@ intersection | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/intersect](../modules/core_intersect.md)
@@ -40,13 +37,13 @@ Preparing search index...
 
   #### Parameters
 
-  + path1: [IPath](../interfaces/core_schema.IPath.md)
+  * path1: [IPath](../interfaces/core_schema.IPath.md)
 
     First path to find intersection.
-  + path2: [IPath](../interfaces/core_schema.IPath.md)
+  * path2: [IPath](../interfaces/core_schema.IPath.md)
 
     Second path to find intersection.
-  + options: [IPathIntersectionOptions](../interfaces/core_schema.IPathIntersectionOptions.md) = {}
+  * options: [IPathIntersectionOptions](../interfaces/core_schema.IPathIntersectionOptions.md) = {}
 
     Optional IPathIntersectionOptions.
 
@@ -54,7 +51,7 @@ Preparing search index...
 
   IPathIntersection object, with points(s) of intersection (and angles, when a path is an arc or circle); or null if the paths did not intersect.
 
-  + Defined in [core/intersect.ts:248](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/intersect.ts#L248)
+  * Defined in [core/intersect.ts:248](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/intersect.ts#L248)
 
 ### Settings
 

@@ -20,9 +20,6 @@ cycle | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/chain](../modules/core_chain.md)
@@ -30,24 +27,24 @@ Preparing search index...
 
 # Function cycle
 
-* cycle(chainContext: [IChain](../interfaces/core_core.IChain.md), amount?: number): [IChain](../interfaces/core_core.IChain.md)
+* cycle(chainContext: [IChain](../interfaces/core_maker.IChain.md), amount?: number): [IChain](../interfaces/core_maker.IChain.md)
 
   Shift the links of an endless chain.
 
   #### Parameters
 
-  + chainContext: [IChain](../interfaces/core_core.IChain.md)
+  * chainContext: [IChain](../interfaces/core_maker.IChain.md)
 
     Chain to cycle through. Must be endless.
-  + amount: number = 1
+  * amount: number = 1
 
     Optional number of links to shift. May be negative to cycle backwards.
 
-  #### Returns [IChain](../interfaces/core_core.IChain.md)
+  #### Returns [IChain](../interfaces/core_maker.IChain.md)
 
   The chainContext for cascading.
 
-  + Defined in [core/chain.ts:456](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/chain.ts#L456)
+  * Defined in [core/chain.ts:456](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/chain.ts#L456)
 
 ### Settings
 

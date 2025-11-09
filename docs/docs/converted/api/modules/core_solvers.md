@@ -19,10 +19,6 @@ title: core/solvers | Photon
 core/solvers | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * core/solvers
@@ -32,17 +28,9 @@ Preparing search index...
 ## Functions
 
 [circleTangentAngles](../functions/core_solvers.circleTangentAngles.md)
-
-
 [equilateralAltitude](../functions/core_solvers.equilateralAltitude.md)
-
-
 [equilateralSide](../functions/core_solvers.equilateralSide.md)
-
-
 [solveTriangleASA](../functions/core_solvers.solveTriangleASA.md)
-
-
 [solveTriangleSSS](../functions/core_solvers.solveTriangleSSS.md)
 
 ### Settings
@@ -53,12 +41,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Functions
-
-[circleTangentAngles](#circletangentangles)[equilateralAltitude](#equilateralaltitude)[equilateralSide](#equilateralside)[solveTriangleASA](#solvetriangleasa)[solveTriangleSSS](#solvetrianglesss)
 
 [Photon](../index.md)
 

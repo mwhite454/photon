@@ -21,9 +21,6 @@ EllipticArc | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [models/Ellipse](../modules/models_Ellipse.md)
@@ -38,16 +35,6 @@ A model is a composite object which may contain a map of paths, or a map of mode
 * [IModel](../interfaces/core_schema.IModel.md)
 
 * Defined in [models/Ellipse.ts:208](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Ellipse.ts#L208)
-
-##### Index
-
-### Constructors
-
-[constructor](#constructor)
-
-### Properties
-
-[models](#models)
 
 ## Constructors
 
@@ -65,21 +52,21 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
   #### Parameters
 
-  + startAngle: number
-  + endAngle: number
-  + radiusX: number
+  * startAngle: number
+  * endAngle: number
+  * radiusX: number
 
     The x radius of the ellipse.
-  + radiusY: number
+  * radiusY: number
 
     The y radius of the ellipse.
-  + `Optional`accuracy: number
+  * `Optional`accuracy: number
 
     Optional accuracy of the underlying BezierCurve.
 
   #### Returns EllipticArc
 
-  + Defined in [models/Ellipse.ts:219](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Ellipse.ts#L219)
+  * Defined in [models/Ellipse.ts:219](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Ellipse.ts#L219)
 * new EllipticArc(
       arc: [IPathArc](../interfaces/core_schema.IPathArc.md),
       distortX: number,
@@ -91,22 +78,22 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
   #### Parameters
 
-  + arc: [IPathArc](../interfaces/core_schema.IPathArc.md)
+  * arc: [IPathArc](../interfaces/core_schema.IPathArc.md)
 
     The circular arc to use as the basis of the elliptic arc.
-  + distortX: number
+  * distortX: number
 
     The x scale of the ellipse.
-  + distortY: number
+  * distortY: number
 
     The y scale of the ellipse.
-  + `Optional`accuracy: number
+  * `Optional`accuracy: number
 
     Optional accuracy of the underlying BezierCurve.
 
   #### Returns EllipticArc
 
-  + Defined in [models/Ellipse.ts:229](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Ellipse.ts#L229)
+  * Defined in [models/Ellipse.ts:229](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Ellipse.ts#L229)
 
 ## Properties
 
@@ -128,16 +115,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Constructors
-
-[constructor](#constructor)
-
-Properties
-
-[models](#models)
 
 [Photon](../index.md)
 

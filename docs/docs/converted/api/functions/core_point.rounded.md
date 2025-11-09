@@ -19,9 +19,6 @@ rounded | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/point](../modules/core_point.md)
@@ -35,12 +32,12 @@ Preparing search index...
 
   #### Parameters
 
-  + pointContext: [IPoint](../interfaces/core_schema.IPoint.md)
-  + `Optional`accuracy: number
+  * pointContext: [IPoint](../interfaces/core_schema.IPoint.md)
+  * `Optional`accuracy: number
 
   #### Returns [IPoint](../interfaces/core_schema.IPoint.md)
 
-  + Defined in [core/point.ts:165](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/point.ts#L165)
+  * Defined in [core/point.ts:165](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/point.ts#L165)
 
 ### Settings
 

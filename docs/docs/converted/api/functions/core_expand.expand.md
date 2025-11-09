@@ -19,9 +19,6 @@ expand | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/expand](../modules/core_expand.md)
@@ -33,13 +30,13 @@ Preparing search index...
 
   #### Parameters
 
-  + pathToExpand: [IPath](../interfaces/core_schema.IPath.md)
-  + expansion: number
-  + isolateCaps: boolean = false
+  * pathToExpand: [IPath](../interfaces/core_schema.IPath.md)
+  * expansion: number
+  * isolateCaps: boolean = false
 
   #### Returns [IModel](../interfaces/core_schema.IModel.md)
 
-  + Defined in [core/expand.ts:36](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/expand.ts#L36)
+  * Defined in [core/expand.ts:36](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/expand.ts#L36)
 
 ### Settings
 

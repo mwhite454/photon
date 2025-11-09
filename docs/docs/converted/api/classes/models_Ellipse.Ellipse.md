@@ -21,9 +21,6 @@ Ellipse | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [models/Ellipse](../modules/models_Ellipse.md)
@@ -39,17 +36,6 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
 * Defined in [models/Ellipse.ts:65](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Ellipse.ts#L65)
 
-##### Index
-
-### Constructors
-
-[constructor](#constructor)
-
-### Properties
-
-[models](#models)
-[origin](#origin)
-
 ## Constructors
 
 ### constructor
@@ -60,19 +46,19 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
   #### Parameters
 
-  + radiusX: number
+  * radiusX: number
 
     The x radius of the ellipse.
-  + radiusY: number
+  * radiusY: number
 
     The y radius of the ellipse.
-  + `Optional`accuracy: number
+  * `Optional`accuracy: number
 
     Optional accuracy of the underlying BezierCurve.
 
   #### Returns Ellipse
 
-  + Defined in [models/Ellipse.ts:77](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Ellipse.ts#L77)
+  * Defined in [models/Ellipse.ts:77](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Ellipse.ts#L77)
 * new Ellipse(
       origin: [IPoint](../interfaces/core_schema.IPoint.md),
       radiusX: number,
@@ -84,22 +70,22 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
   #### Parameters
 
-  + origin: [IPoint](../interfaces/core_schema.IPoint.md)
+  * origin: [IPoint](../interfaces/core_schema.IPoint.md)
 
     The center of the ellipse.
-  + radiusX: number
+  * radiusX: number
 
     The x radius of the ellipse.
-  + radiusY: number
+  * radiusY: number
 
     The y radius of the ellipse.
-  + `Optional`accuracy: number
+  * `Optional`accuracy: number
 
     Optional accuracy of the underlying BezierCurve.
 
   #### Returns Ellipse
 
-  + Defined in [models/Ellipse.ts:87](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Ellipse.ts#L87)
+  * Defined in [models/Ellipse.ts:87](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Ellipse.ts#L87)
 * new Ellipse(
       cx: number,
       cy: number,
@@ -112,21 +98,21 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
   #### Parameters
 
-  + cx: number
+  * cx: number
 
     The x coordinate of the center of the ellipse.
-  + cy: number
+  * cy: number
 
     The y coordinate of the center of the ellipse.
-  + rx: number
-  + ry: number
-  + `Optional`accuracy: number
+  * rx: number
+  * ry: number
+  * `Optional`accuracy: number
 
     Optional accuracy of the underlying BezierCurve.
 
   #### Returns Ellipse
 
-  + Defined in [models/Ellipse.ts:98](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Ellipse.ts#L98)
+  * Defined in [models/Ellipse.ts:98](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Ellipse.ts#L98)
 
 ## Properties
 
@@ -158,16 +144,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Constructors
-
-[constructor](#constructor)
-
-Properties
-
-[models](#models)[origin](#origin)
 
 [Photon](../index.md)
 

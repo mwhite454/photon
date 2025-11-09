@@ -20,12 +20,9 @@ ICascade | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
-* [core/maker](../modules/core_core.md)
+* [core/maker](../modules/core_maker.md)
 * ICascade
 
 # Interface ICascade
@@ -39,14 +36,6 @@ interface ICascade {
 }
 
 * Defined in [core/maker.ts:661](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L661)
-
-##### Index
-
-### Properties
-
-[$initial](#initial)
-[$reset](#reset)
-[$result](#result)
 
 ## Properties
 
@@ -82,12 +71,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[$initial](#initial)[$reset](#reset)[$result](#result)
 
 [Photon](../index.md)
 

@@ -21,9 +21,6 @@ OvalArc | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [models/OvalArc](../modules/models_OvalArc.md)
@@ -38,17 +35,6 @@ A model is a composite object which may contain a map of paths, or a map of mode
 * [IModel](../interfaces/core_schema.IModel.md)
 
 * Defined in [models/OvalArc.ts:10](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/OvalArc.ts#L10)
-
-##### Index
-
-### Constructors
-
-[constructor](#constructor)
-
-### Properties
-
-[models](#models)
-[paths](#paths)
 
 ## Constructors
 
@@ -65,16 +51,16 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
   #### Parameters
 
-  + startAngle: number
-  + endAngle: number
-  + sweepRadius: number
-  + slotRadius: number
-  + selfIntersect: boolean = false
-  + isolateCaps: boolean = false
+  * startAngle: number
+  * endAngle: number
+  * sweepRadius: number
+  * slotRadius: number
+  * selfIntersect: boolean = false
+  * isolateCaps: boolean = false
 
   #### Returns OvalArc
 
-  + Defined in [models/OvalArc.ts:14](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/OvalArc.ts#L14)
+  * Defined in [models/OvalArc.ts:14](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/OvalArc.ts#L14)
 
 ## Properties
 
@@ -106,16 +92,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Constructors
-
-[constructor](#constructor)
-
-Properties
-
-[models](#models)[paths](#paths)
 
 [Photon](../index.md)
 

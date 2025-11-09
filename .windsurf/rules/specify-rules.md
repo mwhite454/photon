@@ -14,6 +14,8 @@ Auto-generated from all feature plans. Last updated: 2025-10-11
 - File-based (markdown defect reports, JSON structured data) (005-as-a-photon)
 - Python 3.8+ (for MkDocs), JavaScript/Node.js (for migration scripts and Playwright tests) (006-migration-from-jekyll)
 - File-based (markdown files, static assets) (006-migration-from-jekyll)
+- Python 3.x (MkDocs tooling), Markdown (documentation content) + MkDocs, MkDocs plugins (Material theme, etc.), Python scripts for automation (009-mkdocs-excessive-warnings)
+- File-based (Markdown files in `docs/` directory) (009-mkdocs-excessive-warnings)
 
 ## Project Structure
 ```
@@ -28,9 +30,9 @@ npm test [ONLY COMMANDS FOR ACTIVE TECHNOLOGIES][ONLY COMMANDS FOR ACTIVE TECHNO
 TypeScript 5.6.3 / JavaScript ES2020+: Follow standard conventions
 
 ## Recent Changes
+- 009-mkdocs-excessive-warnings: Added Python 3.x (MkDocs tooling), Markdown (documentation content) + MkDocs, MkDocs plugins (Material theme, etc.), Python scripts for automation
 - 006-migration-from-jekyll: Added [if applicable, e.g., PostgreSQL, CoreData, files or N/A]
 - 006-migration-from-jekyll: Added Python 3.8+ (for MkDocs), JavaScript/Node.js (for migration scripts and Playwright tests)
-- 005-as-a-photon: Added Node.js (current LTS), Ruby (for Jekyll)
 
 <!-- MANUAL ADDITIONS START -->
 <!-- MANUAL ADDITIONS END -->

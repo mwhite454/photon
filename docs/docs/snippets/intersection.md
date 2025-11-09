@@ -20,12 +20,11 @@ tags:
 - general
 title: Intersection
 ---
-You can find the point(s) of intersection between two paths using [path.intersection](../api/modules/core_path.html#intersection).
-If the paths do not intersect, this function will return null. Otherwise, it will return an [object with a property named intersectionPoints](../api/interfaces/makerjs.ipathintersection.html#content) which is an array of points.
+You can find the point(s) of intersection between two paths using [path.intersection](../converted/api/modules/core_path.md).
+If the paths do not intersect, this function will return null. Otherwise, it will return an [object with a property named intersectionPoints](../converted/api/interfaces/core_maker.IPathIntersection.md) which is an array of points.
 Additionally, if either path was an arc or circle, this object will contain the angles at which an intersection occurred.
 
 Intersection examples:
-
 
 ## Examples
 
@@ -47,6 +46,7 @@ model.paths[id] = new paths.Circle(p, 1);
 const svg = exporter.toSVG(model);
 document.write(svg);
 ```
+
 ```javascript
 //circle-circle intersection
 import { exporter, path, paths, point } from '@7syllable/photon-core';
@@ -68,6 +68,7 @@ model.paths[id] = new paths.Circle(p, 1);
 const svg = exporter.toSVG(model);
 document.write(svg);
 ```
+
 ```javascript
 //line-arc intersection
 import { exporter, path, paths, point } from '@7syllable/photon-core';

@@ -19,9 +19,6 @@ straighten | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/expand](../modules/core_expand.md)
@@ -38,14 +35,14 @@ Preparing search index...
 
   #### Parameters
 
-  + arc: [IPathArc](../interfaces/core_schema.IPathArc.md)
-  + `Optional`bevel: boolean
-  + `Optional`prefix: string
-  + `Optional`close: boolean
+  * arc: [IPathArc](../interfaces/core_schema.IPathArc.md)
+  * `Optional`bevel: boolean
+  * `Optional`prefix: string
+  * `Optional`close: boolean
 
   #### Returns [IModel](../interfaces/core_schema.IModel.md)
 
-  + Defined in [core/expand.ts:46](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/expand.ts#L46)
+  * Defined in [core/expand.ts:46](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/expand.ts#L46)
 
 ### Settings
 

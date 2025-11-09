@@ -19,9 +19,6 @@ mirror | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/model](../modules/core_model.md)
@@ -35,13 +32,13 @@ Preparing search index...
 
   #### Parameters
 
-  + modelToMirror: [IModel](../interfaces/core_schema.IModel.md)
+  * modelToMirror: [IModel](../interfaces/core_schema.IModel.md)
 
     The model to mirror.
-  + mirrorX: boolean
+  * mirrorX: boolean
 
     Boolean to mirror on the x axis.
-  + mirrorY: boolean
+  * mirrorY: boolean
 
     Boolean to mirror on the y axis.
 
@@ -49,7 +46,7 @@ Preparing search index...
 
   Mirrored model.
 
-  + Defined in [core/model.ts:263](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/model.ts#L263)
+  * Defined in [core/model.ts:263](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/model.ts#L263)
 
 ### Settings
 

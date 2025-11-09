@@ -21,9 +21,6 @@ CSG | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [types/jscad](../modules/types_jscad.md)
@@ -36,17 +33,6 @@ CSG (3D Constructive Solid Geometry) class
 
 * Defined in [types/jscad.d.ts:36](https://github.com/mwhite454/photon/blob/main/packages/photon/src/types/jscad.d.ts#L36)
 * Defined in [types/jscad.d.ts:51](https://github.com/mwhite454/photon/blob/main/packages/photon/src/types/jscad.d.ts#L51)
-
-##### Index
-
-### Constructors
-
-[constructor](#constructor)
-
-### Methods
-
-[translate](#translate)
-[union](#union)
 
 ## Constructors
 
@@ -66,11 +52,11 @@ CSG (3D Constructive Solid Geometry) class
 
   #### Parameters
 
-  + offset: number[]
+  * offset: number[]
 
   #### Returns [export=](../modules/types_jscad.export_.md).CSG
 
-  + Defined in [types/jscad.d.ts:45](https://github.com/mwhite454/photon/blob/main/packages/photon/src/types/jscad.d.ts#L45)
+  * Defined in [types/jscad.d.ts:45](https://github.com/mwhite454/photon/blob/main/packages/photon/src/types/jscad.d.ts#L45)
 
 ### union
 
@@ -80,11 +66,11 @@ CSG (3D Constructive Solid Geometry) class
 
   #### Parameters
 
-  + other: [export=](../modules/types_jscad.export_.md).CSG
+  * other: [export=](../modules/types_jscad.export_.md).CSG
 
   #### Returns [export=](../modules/types_jscad.export_.md).CSG
 
-  + Defined in [types/jscad.d.ts:40](https://github.com/mwhite454/photon/blob/main/packages/photon/src/types/jscad.d.ts#L40)
+  * Defined in [types/jscad.d.ts:40](https://github.com/mwhite454/photon/blob/main/packages/photon/src/types/jscad.d.ts#L40)
 
 ### Settings
 
@@ -94,16 +80,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Constructors
-
-[constructor](#constructor)
-
-Methods
-
-[translate](#translate)[union](#union)
 
 [Photon](../index.md)
 

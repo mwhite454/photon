@@ -45,16 +45,16 @@ You do not explicitly define chains in your drawing, chains are something that M
 
 Call one of these two functions to find chains, which will return one or more **Chain** objects:
 
-* [makerjs.model.findSingleChain(model)](../api/modules/core_model.html#findsinglechain)
-* [makerjs.model.findChains(model)](../api/modules/core_model.html#findchains)
+* [makerjs.model.findSingleChain(model)](../converted/api/functions/core_model.findSingleChain.md)
+* [makerjs.model.findChains(model)](../converted/api/functions/core_model.findChains.md)
 
 #### Chain object type
 
-* [makerjs.model.findSingleChain(model)](../api/modules/core_model.html#findsinglechain)
-* [makerjs.model.findChains(model)](../api/modules/core_model.html#findchains)
+* [makerjs.model.findSingleChain(model)](../converted/api/functions/core_model.findSingleChain.md)
+* [makerjs.model.findChains(model)](../converted/api/functions/core_model.findChains.md)
 
 ## Related Topics
 
-- [Chain Theory](../index.md)
-- [Breaking](../index.md)
-- [Routes](../index.md)
+* [Chain Theory](../index.md)
+* [Breaking](../index.md)
+* [Routes](../index.md)

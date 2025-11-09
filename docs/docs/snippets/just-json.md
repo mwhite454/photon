@@ -27,7 +27,6 @@ title: Just Json
 Remember that your models are plain old JavaScript objects. This is also true for the basic models included with Maker.js we've seen above.
 To illustrate this, we will export a model using JSON.stringify. Let's use the Tablet Mount again as our example:
 
-
 ## Examples
 
 ```javascript

@@ -19,9 +19,6 @@ addCaption | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/model](../modules/core_model.md)
@@ -40,14 +37,14 @@ Preparing search index...
 
   #### Parameters
 
-  + modelContext: [IModel](../interfaces/core_schema.IModel.md)
-  + text: string
-  + `Optional`leftAnchorPoint: [IPoint](../interfaces/core_schema.IPoint.md)
-  + `Optional`rightAnchorPoint: [IPoint](../interfaces/core_schema.IPoint.md)
+  * modelContext: [IModel](../interfaces/core_schema.IModel.md)
+  * text: string
+  * `Optional`leftAnchorPoint: [IPoint](../interfaces/core_schema.IPoint.md)
+  * `Optional`rightAnchorPoint: [IPoint](../interfaces/core_schema.IPoint.md)
 
   #### Returns [IModel](../interfaces/core_schema.IModel.md)
 
-  + Defined in [core/model.ts:24](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/model.ts#L24)
+  * Defined in [core/model.ts:24](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/model.ts#L24)
 
 ### Settings
 

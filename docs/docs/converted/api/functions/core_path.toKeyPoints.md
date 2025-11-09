@@ -19,9 +19,6 @@ toKeyPoints | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/path](../modules/core_path.md)
@@ -35,12 +32,12 @@ Preparing search index...
 
   #### Parameters
 
-  + pathContext: [IPath](../interfaces/core_schema.IPath.md)
-  + `Optional`maxArcFacet: number
+  * pathContext: [IPath](../interfaces/core_schema.IPath.md)
+  * `Optional`maxArcFacet: number
 
   #### Returns [IPoint](../interfaces/core_schema.IPoint.md)[]
 
-  + Defined in [core/path.ts:370](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/path.ts#L370)
+  * Defined in [core/path.ts:370](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/path.ts#L370)
 
 ### Settings
 

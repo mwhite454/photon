@@ -1,0 +1,2932 @@
+{
+  "docs/docs/migration-guide.md": {
+    "word_count": 349,
+    "heading_count": 14,
+    "link_count": 0
+  },
+  "docs/docs/quickstart.md": {
+    "word_count": 197,
+    "heading_count": 13,
+    "link_count": 0
+  },
+  "docs/docs/MIGRATION.md": {
+    "word_count": 258,
+    "heading_count": 8,
+    "link_count": 0
+  },
+  "docs/docs/index.md": {
+    "word_count": 124,
+    "heading_count": 1,
+    "link_count": 0
+  },
+  "docs/docs/ai-friendly-docs.md": {
+    "word_count": 329,
+    "heading_count": 11,
+    "link_count": 0
+  },
+  "docs/docs/snippets/distorting.md": {
+    "word_count": 343,
+    "heading_count": 1,
+    "link_count": 3
+  },
+  "docs/docs/snippets/simplifying.md": {
+    "word_count": 349,
+    "heading_count": 0,
+    "link_count": 2
+  },
+  "docs/docs/snippets/$-function.md": {
+    "word_count": 584,
+    "heading_count": 4,
+    "link_count": 11
+  },
+  "docs/docs/snippets/svg-styling.md": {
+    "word_count": 231,
+    "heading_count": 1,
+    "link_count": 0
+  },
+  "docs/docs/snippets/captions.md": {
+    "word_count": 467,
+    "heading_count": 2,
+    "link_count": 1
+  },
+  "docs/docs/snippets/template.md": {
+    "word_count": 75,
+    "heading_count": 0,
+    "link_count": 1
+  },
+  "docs/docs/snippets/aliasing.md": {
+    "word_count": 36,
+    "heading_count": 0,
+    "link_count": 0
+  },
+  "docs/docs/snippets/functional-composition.md": {
+    "word_count": 1001,
+    "heading_count": 23,
+    "link_count": 0
+  },
+  "docs/docs/snippets/dogbones.md": {
+    "word_count": 459,
+    "heading_count": 2,
+    "link_count": 3
+  },
+  "docs/docs/snippets/path-constructors.md": {
+    "word_count": 393,
+    "heading_count": 2,
+    "link_count": 6
+  },
+  "docs/docs/snippets/exporting-dxf.md": {
+    "word_count": 300,
+    "heading_count": 4,
+    "link_count": 11
+  },
+  "docs/docs/snippets/basic-rendering-in-svg.md": {
+    "word_count": 159,
+    "heading_count": 1,
+    "link_count": 0
+  },
+  "docs/docs/snippets/outlining.md": {
+    "word_count": 232,
+    "heading_count": 0,
+    "link_count": 2
+  },
+  "docs/docs/snippets/layout-on-path.md": {
+    "word_count": 928,
+    "heading_count": 7,
+    "link_count": 6
+  },
+  "docs/docs/snippets/fillets.md": {
+    "word_count": 398,
+    "heading_count": 3,
+    "link_count": 4
+  },
+  "docs/docs/snippets/built-in-models.md": {
+    "word_count": 199,
+    "heading_count": 1,
+    "link_count": 24
+  },
+  "docs/docs/snippets/fonts-and-text.md": {
+    "word_count": 461,
+    "heading_count": 3,
+    "link_count": 4
+  },
+  "docs/docs/snippets/getting-started-browser.md": {
+    "word_count": 273,
+    "heading_count": 2,
+    "link_count": 4
+  },
+  "docs/docs/snippets/exporting-svg.md": {
+    "word_count": 825,
+    "heading_count": 4,
+    "link_count": 30
+  },
+  "docs/docs/snippets/expanding.md": {
+    "word_count": 537,
+    "heading_count": 2,
+    "link_count": 4
+  },
+  "docs/docs/snippets/frequently-used-functions.md": {
+    "word_count": 585,
+    "heading_count": 3,
+    "link_count": 24
+  },
+  "docs/docs/snippets/breaking.md": {
+    "word_count": 214,
+    "heading_count": 0,
+    "link_count": 1
+  },
+  "docs/docs/snippets/try-it-now.md": {
+    "word_count": 94,
+    "heading_count": 0,
+    "link_count": 2
+  },
+  "docs/docs/snippets/routes.md": {
+    "word_count": 636,
+    "heading_count": 4,
+    "link_count": 3
+  },
+  "docs/docs/snippets/exporting-stl.md": {
+    "word_count": 289,
+    "heading_count": 7,
+    "link_count": 7
+  },
+  "docs/docs/snippets/chain-links.md": {
+    "word_count": 288,
+    "heading_count": 3,
+    "link_count": 4
+  },
+  "docs/docs/snippets/layout-repeating.md": {
+    "word_count": 577,
+    "heading_count": 8,
+    "link_count": 4
+  },
+  "docs/docs/snippets/zeroing-and-centering.md": {
+    "word_count": 308,
+    "heading_count": 1,
+    "link_count": 2
+  },
+  "docs/docs/snippets/chain-theory.md": {
+    "word_count": 311,
+    "heading_count": 4,
+    "link_count": 7
+  },
+  "docs/docs/snippets/originating.md": {
+    "word_count": 376,
+    "heading_count": 1,
+    "link_count": 1
+  },
+  "docs/docs/snippets/importing-svg-points.md": {
+    "word_count": 283,
+    "heading_count": 2,
+    "link_count": 7
+  },
+  "docs/docs/snippets/bezier-curves.md": {
+    "word_count": 586,
+    "heading_count": 1,
+    "link_count": 4
+  },
+  "docs/docs/snippets/chain-order.md": {
+    "word_count": 324,
+    "heading_count": 4,
+    "link_count": 7
+  },
+  "docs/docs/snippets/modeling.md": {
+    "word_count": 426,
+    "heading_count": 2,
+    "link_count": 3
+  },
+  "docs/docs/snippets/intersection.md": {
+    "word_count": 379,
+    "heading_count": 1,
+    "link_count": 2
+  },
+  "docs/docs/snippets/layers.md": {
+    "word_count": 374,
+    "heading_count": 1,
+    "link_count": 0
+  },
+  "docs/docs/snippets/importing-svg-path-data.md": {
+    "word_count": 335,
+    "heading_count": 3,
+    "link_count": 7
+  },
+  "docs/docs/snippets/units.md": {
+    "word_count": 363,
+    "heading_count": 0,
+    "link_count": 1
+  },
+  "docs/docs/snippets/moving.md": {
+    "word_count": 536,
+    "heading_count": 2,
+    "link_count": 7
+  },
+  "docs/docs/snippets/points.md": {
+    "word_count": 154,
+    "heading_count": 1,
+    "link_count": 0
+  },
+  "docs/docs/snippets/chain-to-new-model.md": {
+    "word_count": 141,
+    "heading_count": 1,
+    "link_count": 5
+  },
+  "docs/docs/snippets/exporting-openjscad.md": {
+    "word_count": 130,
+    "heading_count": 3,
+    "link_count": 6
+  },
+  "docs/docs/snippets/paths.md": {
+    "word_count": 184,
+    "heading_count": 5,
+    "link_count": 3
+  },
+  "docs/docs/snippets/open-vs-closed-geometry.md": {
+    "word_count": 174,
+    "heading_count": 0,
+    "link_count": 0
+  },
+  "docs/docs/snippets/models.md": {
+    "word_count": 518,
+    "heading_count": 2,
+    "link_count": 3
+  },
+  "docs/docs/snippets/wireframe.md": {
+    "word_count": 333,
+    "heading_count": 1,
+    "link_count": 1
+  },
+  "docs/docs/snippets/scaling.md": {
+    "word_count": 218,
+    "heading_count": 1,
+    "link_count": 3
+  },
+  "docs/docs/snippets/exporting-svg-path-data.md": {
+    "word_count": 77,
+    "heading_count": 1,
+    "link_count": 4
+  },
+  "docs/docs/snippets/modifying-models.md": {
+    "word_count": 1221,
+    "heading_count": 2,
+    "link_count": 5
+  },
+  "docs/docs/snippets/chain-multiple.md": {
+    "word_count": 551,
+    "heading_count": 5,
+    "link_count": 5
+  },
+  "docs/docs/snippets/chains.md": {
+    "word_count": 330,
+    "heading_count": 1,
+    "link_count": 5
+  },
+  "docs/docs/snippets/chain-fillet.md": {
+    "word_count": 681,
+    "heading_count": 4,
+    "link_count": 5
+  },
+  "docs/docs/snippets/chain-single.md": {
+    "word_count": 309,
+    "heading_count": 2,
+    "link_count": 4
+  },
+  "docs/docs/snippets/tree.md": {
+    "word_count": 372,
+    "heading_count": 1,
+    "link_count": 0
+  },
+  "docs/docs/snippets/order-of-operations.md": {
+    "word_count": 789,
+    "heading_count": 1,
+    "link_count": 0
+  },
+  "docs/docs/snippets/solvers.md": {
+    "word_count": 53,
+    "heading_count": 0,
+    "link_count": 1
+  },
+  "docs/docs/snippets/cloning.md": {
+    "word_count": 310,
+    "heading_count": 1,
+    "link_count": 6
+  },
+  "docs/docs/snippets/cascading-functions.md": {
+    "word_count": 199,
+    "heading_count": 0,
+    "link_count": 0
+  },
+  "docs/docs/snippets/exporting-pdf.md": {
+    "word_count": 68,
+    "heading_count": 1,
+    "link_count": 4
+  },
+  "docs/docs/snippets/getting-started-node.md": {
+    "word_count": 115,
+    "heading_count": 1,
+    "link_count": 0
+  },
+  "docs/docs/snippets/rotating.md": {
+    "word_count": 228,
+    "heading_count": 1,
+    "link_count": 4
+  },
+  "docs/docs/snippets/path-independence.md": {
+    "word_count": 406,
+    "heading_count": 2,
+    "link_count": 3
+  },
+  "docs/docs/snippets/combining.md": {
+    "word_count": 474,
+    "heading_count": 2,
+    "link_count": 4
+  },
+  "docs/docs/snippets/mirroring.md": {
+    "word_count": 281,
+    "heading_count": 1,
+    "link_count": 4
+  },
+  "docs/docs/snippets/chain-to-key-points.md": {
+    "word_count": 164,
+    "heading_count": 1,
+    "link_count": 3
+  },
+  "docs/docs/snippets/converging.md": {
+    "word_count": 248,
+    "heading_count": 0,
+    "link_count": 1
+  },
+  "docs/docs/snippets/chain-dogbone.md": {
+    "word_count": 548,
+    "heading_count": 3,
+    "link_count": 5
+  },
+  "docs/docs/snippets/measuring.md": {
+    "word_count": 287,
+    "heading_count": 1,
+    "link_count": 1
+  },
+  "docs/docs/snippets/layout-on-chain.md": {
+    "word_count": 314,
+    "heading_count": 2,
+    "link_count": 8
+  },
+  "docs/docs/snippets/chain-to-points.md": {
+    "word_count": 247,
+    "heading_count": 2,
+    "link_count": 4
+  },
+  "docs/docs/snippets/just-json.md": {
+    "word_count": 584,
+    "heading_count": 1,
+    "link_count": 0
+  },
+  "docs/docs/snippets/walking.md": {
+    "word_count": 457,
+    "heading_count": 3,
+    "link_count": 4
+  },
+  "docs/docs/advanced-drawing/shapes.md": {
+    "word_count": 113,
+    "heading_count": 5,
+    "link_count": 3
+  },
+  "docs/docs/advanced-drawing/index.md": {
+    "word_count": 128,
+    "heading_count": 5,
+    "link_count": 3
+  },
+  "docs/docs/model-trees/index.md": {
+    "word_count": 72,
+    "heading_count": 1,
+    "link_count": 4
+  },
+  "docs/docs/exporting/index.md": {
+    "word_count": 85,
+    "heading_count": 1,
+    "link_count": 4
+  },
+  "docs/docs/getting-started/index.md": {
+    "word_count": 72,
+    "heading_count": 0,
+    "link_count": 0
+  },
+  "docs/docs/converted/index.md": {
+    "word_count": 162,
+    "heading_count": 4,
+    "link_count": 18
+  },
+  "docs/docs/migration/api-mapping.md": {
+    "word_count": 1318,
+    "heading_count": 34,
+    "link_count": 5
+  },
+  "docs/docs/migration/ai-friendly-patterns.md": {
+    "word_count": 831,
+    "heading_count": 27,
+    "link_count": 5
+  },
+  "docs/docs/migration/migration-faq.md": {
+    "word_count": 1132,
+    "heading_count": 35,
+    "link_count": 11
+  },
+  "docs/docs/basic-drawing/index.md": {
+    "word_count": 56,
+    "heading_count": 1,
+    "link_count": 1
+  },
+  "docs/docs/demos/node_modules/makerjs-band-clamp/README.md": {
+    "word_count": 47,
+    "heading_count": 1,
+    "link_count": 0
+  },
+  "docs/docs/demos/node_modules/word-wrapper/README.md": {
+    "word_count": 701,
+    "heading_count": 7,
+    "link_count": 11
+  },
+  "docs/docs/demos/node_modules/makerjs-ventgrid/README.md": {
+    "word_count": 40,
+    "heading_count": 1,
+    "link_count": 0
+  },
+  "docs/docs/demos/node_modules/makerjs-spoke-wedge/README.md": {
+    "word_count": 65,
+    "heading_count": 1,
+    "link_count": 0
+  },
+  "docs/docs/demos/node_modules/opentype-layout/LICENSE.md": {
+    "word_count": 210,
+    "heading_count": 1,
+    "link_count": 1
+  },
+  "docs/docs/demos/node_modules/opentype-layout/METRICS.md": {
+    "word_count": 195,
+    "heading_count": 4,
+    "link_count": 1
+  },
+  "docs/docs/demos/node_modules/opentype.js/AUTHORS.md": {
+    "word_count": 124,
+    "heading_count": 0,
+    "link_count": 0
+  },
+  "docs/docs/demos/node_modules/opentype.js/RELEASES.md": {
+    "word_count": 965,
+    "heading_count": 0,
+    "link_count": 1
+  },
+  "docs/docs/demos/node_modules/opentype.js/README.md": {
+    "word_count": 2330,
+    "heading_count": 28,
+    "link_count": 23
+  },
+  "docs/docs/demos/node_modules/opentype.js/CONTRIBUTING.md": {
+    "word_count": 407,
+    "heading_count": 5,
+    "link_count": 4
+  },
+  "docs/docs/demos/node_modules/makerjs/README.md": {
+    "word_count": 1473,
+    "heading_count": 13,
+    "link_count": 89
+  },
+  "docs/docs/demos/node_modules/bezier-js/README.md": {
+    "word_count": 195,
+    "heading_count": 7,
+    "link_count": 2
+  },
+  "docs/docs/demos/node_modules/marked/LICENSE.md": {
+    "word_count": 485,
+    "heading_count": 4,
+    "link_count": 0
+  },
+  "docs/docs/demos/node_modules/marked/README.md": {
+    "word_count": 425,
+    "heading_count": 11,
+    "link_count": 15
+  },
+  "docs/docs/demos/node_modules/makerjs-spiral/README.md": {
+    "word_count": 57,
+    "heading_count": 1,
+    "link_count": 1
+  },
+  "docs/docs/demos/node_modules/makerjs-rimbox/README.md": {
+    "word_count": 131,
+    "heading_count": 1,
+    "link_count": 2
+  },
+  "docs/docs/demos/node_modules/makerjs-polygon-rimbox/README.md": {
+    "word_count": 80,
+    "heading_count": 1,
+    "link_count": 1
+  },
+  "docs/docs/demos/node_modules/undici-types/README.md": {
+    "word_count": 139,
+    "heading_count": 1,
+    "link_count": 3
+  },
+  "docs/docs/demos/node_modules/makerjs-smile/README.md": {
+    "word_count": 37,
+    "heading_count": 1,
+    "link_count": 0
+  },
+  "docs/docs/demos/node_modules/makerjs-ventgridcircle/README.md": {
+    "word_count": 55,
+    "heading_count": 1,
+    "link_count": 0
+  },
+  "docs/docs/demos/node_modules/highlight.js/SUPPORTED_LANGUAGES.md": {
+    "word_count": 1342,
+    "heading_count": 2,
+    "link_count": 48
+  },
+  "docs/docs/demos/node_modules/highlight.js/VERSION_11_UPGRADE.md": {
+    "word_count": 1353,
+    "heading_count": 14,
+    "link_count": 25
+  },
+  "docs/docs/demos/node_modules/highlight.js/README.md": {
+    "word_count": 2717,
+    "heading_count": 36,
+    "link_count": 61
+  },
+  "docs/docs/demos/node_modules/highlight.js/CHANGES.md": {
+    "word_count": 16979,
+    "heading_count": 113,
+    "link_count": 10
+  },
+  "docs/docs/demos/node_modules/highlight.js/VERSION_10_UPGRADE.md": {
+    "word_count": 613,
+    "heading_count": 9,
+    "link_count": 3
+  },
+  "docs/docs/demos/node_modules/highlight.js/SECURITY.md": {
+    "word_count": 238,
+    "heading_count": 3,
+    "link_count": 4
+  },
+  "docs/docs/demos/node_modules/makerjs-nameplate/README.md": {
+    "word_count": 39,
+    "heading_count": 1,
+    "link_count": 1
+  },
+  "docs/docs/demos/node_modules/makerjs-monotext/README.md": {
+    "word_count": 53,
+    "heading_count": 1,
+    "link_count": 0
+  },
+  "docs/docs/demos/node_modules/object-assign/readme.md": {
+    "word_count": 231,
+    "heading_count": 9,
+    "link_count": 6
+  },
+  "docs/docs/demos/node_modules/makerjs-double-band-clamp/README.md": {
+    "word_count": 51,
+    "heading_count": 1,
+    "link_count": 0
+  },
+  "docs/docs/demos/node_modules/makerjs-spokes-flared/README.md": {
+    "word_count": 64,
+    "heading_count": 1,
+    "link_count": 1
+  },
+  "docs/docs/demos/node_modules/makerjs-heart/README.md": {
+    "word_count": 57,
+    "heading_count": 1,
+    "link_count": 1
+  },
+  "docs/docs/demos/node_modules/kdbush/README.md": {
+    "word_count": 385,
+    "heading_count": 7,
+    "link_count": 3
+  },
+  "docs/docs/demos/node_modules/makerjs-raster/README.md": {
+    "word_count": 31,
+    "heading_count": 1,
+    "link_count": 0
+  },
+  "docs/docs/demos/node_modules/makerjs-spokes-straight/README.md": {
+    "word_count": 64,
+    "heading_count": 1,
+    "link_count": 1
+  },
+  "docs/docs/demos/node_modules/makerjs-logo/README.md": {
+    "word_count": 37,
+    "heading_count": 1,
+    "link_count": 0
+  },
+  "docs/docs/demos/node_modules/graham_scan/readme.md": {
+    "word_count": 380,
+    "heading_count": 7,
+    "link_count": 5
+  },
+  "docs/docs/demos/node_modules/makerjs-logo/node_modules/makerjs/README.md": {
+    "word_count": 955,
+    "heading_count": 12,
+    "link_count": 45
+  },
+  "docs/docs/demos/node_modules/makerjs-logo/node_modules/makerjs/CONTRIBUTING.md": {
+    "word_count": 287,
+    "heading_count": 4,
+    "link_count": 4
+  },
+  "docs/docs/demos/node_modules/makerjs-spokes-straight/node_modules/makerjs/README.md": {
+    "word_count": 862,
+    "heading_count": 10,
+    "link_count": 41
+  },
+  "docs/docs/demos/node_modules/makerjs-spokes-straight/node_modules/makerjs/CONTRIBUTING.md": {
+    "word_count": 287,
+    "heading_count": 4,
+    "link_count": 4
+  },
+  "docs/docs/demos/node_modules/@danmarshall/jscad-typings/README.md": {
+    "word_count": 32,
+    "heading_count": 1,
+    "link_count": 0
+  },
+  "docs/docs/demos/node_modules/@danmarshall/makerjs-wrap-text/README.md": {
+    "word_count": 35,
+    "heading_count": 1,
+    "link_count": 0
+  },
+  "docs/docs/demos/node_modules/makerjs-raster/node_modules/makerjs/README.md": {
+    "word_count": 1422,
+    "heading_count": 13,
+    "link_count": 84
+  },
+  "docs/docs/demos/node_modules/makerjs-raster/node_modules/@types/node/README.md": {
+    "word_count": 159,
+    "heading_count": 4,
+    "link_count": 0
+  },
+  "docs/docs/demos/node_modules/makerjs-heart/node_modules/makerjs/README.md": {
+    "word_count": 862,
+    "heading_count": 10,
+    "link_count": 41
+  },
+  "docs/docs/demos/node_modules/makerjs-heart/node_modules/makerjs/CONTRIBUTING.md": {
+    "word_count": 287,
+    "heading_count": 4,
+    "link_count": 4
+  },
+  "docs/docs/demos/node_modules/makerjs-spokes-flared/node_modules/makerjs/README.md": {
+    "word_count": 862,
+    "heading_count": 10,
+    "link_count": 41
+  },
+  "docs/docs/demos/node_modules/makerjs-spokes-flared/node_modules/makerjs/CONTRIBUTING.md": {
+    "word_count": 287,
+    "heading_count": 4,
+    "link_count": 4
+  },
+  "docs/docs/demos/node_modules/makerjs-double-band-clamp/node_modules/makerjs/README.md": {
+    "word_count": 1455,
+    "heading_count": 13,
+    "link_count": 87
+  },
+  "docs/docs/demos/node_modules/makerjs-double-band-clamp/node_modules/@types/opentype.js/README.md": {
+    "word_count": 105,
+    "heading_count": 4,
+    "link_count": 0
+  },
+  "docs/docs/demos/node_modules/makerjs-double-band-clamp/node_modules/@types/node/README.md": {
+    "word_count": 159,
+    "heading_count": 4,
+    "link_count": 0
+  },
+  "docs/docs/demos/node_modules/makerjs-monotext/node_modules/makerjs/README.md": {
+    "word_count": 308,
+    "heading_count": 5,
+    "link_count": 8
+  },
+  "docs/docs/demos/node_modules/makerjs-monotext/node_modules/makerjs/CONTRIBUTING.md": {
+    "word_count": 287,
+    "heading_count": 4,
+    "link_count": 4
+  },
+  "docs/docs/demos/node_modules/makerjs-nameplate/node_modules/opentype.js/RELEASES.md": {
+    "word_count": 599,
+    "heading_count": 0,
+    "link_count": 1
+  },
+  "docs/docs/demos/node_modules/makerjs-nameplate/node_modules/opentype.js/README.md": {
+    "word_count": 2153,
+    "heading_count": 26,
+    "link_count": 23
+  },
+  "docs/docs/demos/node_modules/makerjs-nameplate/node_modules/opentype.js/CONTRIBUTING.md": {
+    "word_count": 433,
+    "heading_count": 5,
+    "link_count": 4
+  },
+  "docs/docs/demos/node_modules/makerjs-nameplate/node_modules/makerjs/README.md": {
+    "word_count": 1455,
+    "heading_count": 13,
+    "link_count": 87
+  },
+  "docs/docs/demos/node_modules/makerjs-nameplate/node_modules/opentype.js/examples/README.md": {
+    "word_count": 120,
+    "heading_count": 0,
+    "link_count": 0
+  },
+  "docs/docs/demos/node_modules/makerjs-nameplate/node_modules/@types/opentype.js/README.md": {
+    "word_count": 105,
+    "heading_count": 4,
+    "link_count": 0
+  },
+  "docs/docs/demos/node_modules/makerjs-nameplate/node_modules/@types/node/README.md": {
+    "word_count": 159,
+    "heading_count": 4,
+    "link_count": 0
+  },
+  "docs/docs/demos/node_modules/makerjs-half-band-clamp/node_modules/makerjs/README.md": {
+    "word_count": 862,
+    "heading_count": 10,
+    "link_count": 41
+  },
+  "docs/docs/demos/node_modules/makerjs-half-band-clamp/node_modules/makerjs/CONTRIBUTING.md": {
+    "word_count": 287,
+    "heading_count": 4,
+    "link_count": 4
+  },
+  "docs/docs/demos/node_modules/makerjs-ventgridcircle/node_modules/makerjs/CONTRIBUTING.md": {
+    "word_count": 287,
+    "heading_count": 4,
+    "link_count": 4
+  },
+  "docs/docs/demos/node_modules/makerjs-smile/node_modules/makerjs/CONTRIBUTING.md": {
+    "word_count": 287,
+    "heading_count": 4,
+    "link_count": 4
+  },
+  "docs/docs/demos/node_modules/makerjs-polygon-rimbox/node_modules/makerjs/README.md": {
+    "word_count": 862,
+    "heading_count": 10,
+    "link_count": 41
+  },
+  "docs/docs/demos/node_modules/makerjs-polygon-rimbox/node_modules/makerjs/CONTRIBUTING.md": {
+    "word_count": 287,
+    "heading_count": 4,
+    "link_count": 4
+  },
+  "docs/docs/demos/node_modules/makerjs-rimbox/node_modules/makerjs/CONTRIBUTING.md": {
+    "word_count": 287,
+    "heading_count": 4,
+    "link_count": 4
+  },
+  "docs/docs/demos/node_modules/makerjs-spiral/node_modules/makerjs/README.md": {
+    "word_count": 862,
+    "heading_count": 10,
+    "link_count": 41
+  },
+  "docs/docs/demos/node_modules/makerjs-spiral/node_modules/makerjs/CONTRIBUTING.md": {
+    "word_count": 287,
+    "heading_count": 4,
+    "link_count": 4
+  },
+  "docs/docs/demos/node_modules/makerjs/node_modules/@types/node/README.md": {
+    "word_count": 151,
+    "heading_count": 5,
+    "link_count": 8
+  },
+  "docs/docs/demos/node_modules/opentype.js/examples/README.md": {
+    "word_count": 120,
+    "heading_count": 0,
+    "link_count": 0
+  },
+  "docs/docs/demos/node_modules/opentype.js/.github/PULL_REQUEST_TEMPLATE.md": {
+    "word_count": 247,
+    "heading_count": 6,
+    "link_count": 0
+  },
+  "docs/docs/demos/node_modules/opentype.js/.github/ISSUE_TEMPLATE.md": {
+    "word_count": 219,
+    "heading_count": 6,
+    "link_count": 0
+  },
+  "docs/docs/demos/node_modules/makerjs-spoke-wedge/node_modules/makerjs/README.md": {
+    "word_count": 862,
+    "heading_count": 10,
+    "link_count": 41
+  },
+  "docs/docs/demos/node_modules/makerjs-spoke-wedge/node_modules/makerjs/CONTRIBUTING.md": {
+    "word_count": 287,
+    "heading_count": 4,
+    "link_count": 4
+  },
+  "docs/docs/demos/node_modules/makerjs-ventgrid/node_modules/makerjs/CONTRIBUTING.md": {
+    "word_count": 287,
+    "heading_count": 4,
+    "link_count": 4
+  },
+  "docs/docs/demos/node_modules/@types/opentype.js/README.md": {
+    "word_count": 102,
+    "heading_count": 4,
+    "link_count": 0
+  },
+  "docs/docs/demos/node_modules/@types/acorn/README.md": {
+    "word_count": 104,
+    "heading_count": 5,
+    "link_count": 3
+  },
+  "docs/docs/demos/node_modules/@types/bezier-js/README.md": {
+    "word_count": 95,
+    "heading_count": 4,
+    "link_count": 0
+  },
+  "docs/docs/demos/node_modules/@types/marked/README.md": {
+    "word_count": 157,
+    "heading_count": 5,
+    "link_count": 12
+  },
+  "docs/docs/demos/node_modules/@types/pdfkit/README.md": {
+    "word_count": 89,
+    "heading_count": 4,
+    "link_count": 0
+  },
+  "docs/docs/demos/node_modules/@types/detective/README.md": {
+    "word_count": 96,
+    "heading_count": 5,
+    "link_count": 2
+  },
+  "docs/docs/demos/node_modules/@types/node/README.md": {
+    "word_count": 220,
+    "heading_count": 5,
+    "link_count": 23
+  },
+  "docs/docs/demos/node_modules/makerjs-band-clamp/node_modules/makerjs/README.md": {
+    "word_count": 862,
+    "heading_count": 10,
+    "link_count": 41
+  },
+  "docs/docs/demos/node_modules/makerjs-band-clamp/node_modules/makerjs/CONTRIBUTING.md": {
+    "word_count": 287,
+    "heading_count": 4,
+    "link_count": 4
+  },
+  "docs/docs/external/text-encoding/LICENSE.md": {
+    "word_count": 258,
+    "heading_count": 0,
+    "link_count": 0
+  },
+  "docs/docs/converted/publishing/publishing.md": {
+    "word_count": 57,
+    "heading_count": 5,
+    "link_count": 0
+  },
+  "docs/docs/converted/publishing/packaging.md": {
+    "word_count": 202,
+    "heading_count": 2,
+    "link_count": 0
+  },
+  "docs/docs/converted/advanced-drawing/index.md": {
+    "word_count": 113,
+    "heading_count": 1,
+    "link_count": 4
+  },
+  "docs/docs/converted/model-trees/index.md": {
+    "word_count": 68,
+    "heading_count": 1,
+    "link_count": 2
+  },
+  "docs/docs/converted/node-apps/node server.md": {
+    "word_count": 56,
+    "heading_count": 1,
+    "link_count": 0
+  },
+  "docs/docs/converted/browser-apps/embed.md": {
+    "word_count": 63,
+    "heading_count": 3,
+    "link_count": 0
+  },
+  "docs/docs/converted/exporting/index.md": {
+    "word_count": 56,
+    "heading_count": 1,
+    "link_count": 1
+  },
+  "docs/docs/converted/intermediate-drawing/index.md": {
+    "word_count": 101,
+    "heading_count": 1,
+    "link_count": 3
+  },
+  "docs/docs/converted/getting-started/index.md": {
+    "word_count": 72,
+    "heading_count": 0,
+    "link_count": 1
+  },
+  "docs/docs/converted/working-with-chains/index.md": {
+    "word_count": 110,
+    "heading_count": 1,
+    "link_count": 2
+  },
+  "docs/docs/converted/api/index.md": {
+    "word_count": 374,
+    "heading_count": 2,
+    "link_count": 62
+  },
+  "docs/docs/converted/api/hierarchy.md": {
+    "word_count": 412,
+    "heading_count": 3,
+    "link_count": 70
+  },
+  "docs/docs/converted/importing/index.md": {
+    "word_count": 58,
+    "heading_count": 1,
+    "link_count": 1
+  },
+  "docs/docs/converted/basic-drawing/index.md": {
+    "word_count": 94,
+    "heading_count": 1,
+    "link_count": 2
+  },
+  "docs/docs/converted/api/types/core_boolean-utils.SegmentClassifier.md": {
+    "word_count": 135,
+    "heading_count": 3,
+    "link_count": 11
+  },
+  "docs/docs/converted/api/classes/core_paths.Arc.md": {
+    "word_count": 711,
+    "heading_count": 11,
+    "link_count": 42
+  },
+  "docs/docs/converted/api/classes/core_paths.Chord.md": {
+    "word_count": 318,
+    "heading_count": 10,
+    "link_count": 20
+  },
+  "docs/docs/converted/api/classes/models_Text.Text.md": {
+    "word_count": 361,
+    "heading_count": 9,
+    "link_count": 14
+  },
+  "docs/docs/converted/api/classes/models_Dome.Dome.md": {
+    "word_count": 212,
+    "heading_count": 7,
+    "link_count": 11
+  },
+  "docs/docs/converted/api/classes/core_xml.XmlTag.md": {
+    "word_count": 463,
+    "heading_count": 16,
+    "link_count": 19
+  },
+  "docs/docs/converted/api/classes/core_collect.PointGraph.md": {
+    "word_count": 742,
+    "heading_count": 19,
+    "link_count": 31
+  },
+  "docs/docs/converted/api/classes/models_Oval.Oval.md": {
+    "word_count": 202,
+    "heading_count": 7,
+    "link_count": 11
+  },
+  "docs/docs/converted/api/classes/models_BoltRectangle.BoltRectangle.md": {
+    "word_count": 204,
+    "heading_count": 7,
+    "link_count": 11
+  },
+  "docs/docs/converted/api/classes/models_Dogbone.Dogbone.md": {
+    "word_count": 226,
+    "heading_count": 7,
+    "link_count": 11
+  },
+  "docs/docs/converted/api/classes/models_ConnectTheDots.ConnectTheDots.md": {
+    "word_count": 663,
+    "heading_count": 7,
+    "link_count": 19
+  },
+  "docs/docs/converted/api/classes/models_RoundRectangle.RoundRectangle.md": {
+    "word_count": 377,
+    "heading_count": 8,
+    "link_count": 18
+  },
+  "docs/docs/converted/api/classes/models_OvalArc.OvalArc.md": {
+    "word_count": 265,
+    "heading_count": 8,
+    "link_count": 15
+  },
+  "docs/docs/converted/api/classes/models_Ellipse.Ellipse.md": {
+    "word_count": 445,
+    "heading_count": 8,
+    "link_count": 19
+  },
+  "docs/docs/converted/api/classes/models_SCurve.SCurve.md": {
+    "word_count": 202,
+    "heading_count": 7,
+    "link_count": 11
+  },
+  "docs/docs/converted/api/classes/models_BoltCircle.BoltCircle.md": {
+    "word_count": 209,
+    "heading_count": 7,
+    "link_count": 11
+  },
+  "docs/docs/converted/api/classes/core_paths.Parallel.md": {
+    "word_count": 344,
+    "heading_count": 12,
+    "link_count": 22
+  },
+  "docs/docs/converted/api/classes/core_paths.Line.md": {
+    "word_count": 377,
+    "heading_count": 9,
+    "link_count": 25
+  },
+  "docs/docs/converted/api/classes/models_Ellipse.EllipticArc.md": {
+    "word_count": 331,
+    "heading_count": 7,
+    "link_count": 14
+  },
+  "docs/docs/converted/api/classes/models_Slot.Slot.md": {
+    "word_count": 320,
+    "heading_count": 9,
+    "link_count": 23
+  },
+  "docs/docs/converted/api/classes/models_BezierCurve-esm.BezierCurve.md": {
+    "word_count": 887,
+    "heading_count": 17,
+    "link_count": 69
+  },
+  "docs/docs/converted/api/classes/models_Belt.Belt.md": {
+    "word_count": 206,
+    "heading_count": 7,
+    "link_count": 11
+  },
+  "docs/docs/converted/api/classes/models_Rectangle.Rectangle.md": {
+    "word_count": 555,
+    "heading_count": 8,
+    "link_count": 21
+  },
+  "docs/docs/converted/api/classes/types_jscad.export_.CAG.md": {
+    "word_count": 291,
+    "heading_count": 9,
+    "link_count": 14
+  },
+  "docs/docs/converted/api/classes/core_paths.Circle.md": {
+    "word_count": 553,
+    "heading_count": 9,
+    "link_count": 32
+  },
+  "docs/docs/converted/api/classes/models_Holes.Holes.md": {
+    "word_count": 230,
+    "heading_count": 7,
+    "link_count": 13
+  },
+  "docs/docs/converted/api/classes/core_collect.Collector.md": {
+    "word_count": 361,
+    "heading_count": 15,
+    "link_count": 14
+  },
+  "docs/docs/converted/api/classes/models_Polygon.Polygon.md": {
+    "word_count": 305,
+    "heading_count": 10,
+    "link_count": 15
+  },
+  "docs/docs/converted/api/classes/models_Star.Star.md": {
+    "word_count": 248,
+    "heading_count": 9,
+    "link_count": 12
+  },
+  "docs/docs/converted/api/classes/models_BezierCurve-esm.BezierSeed.md": {
+    "word_count": 673,
+    "heading_count": 10,
+    "link_count": 47
+  },
+  "docs/docs/converted/api/classes/models_Ring.Ring.md": {
+    "word_count": 203,
+    "heading_count": 7,
+    "link_count": 11
+  },
+  "docs/docs/converted/api/classes/types_jscad.export_.CSG.md": {
+    "word_count": 251,
+    "heading_count": 7,
+    "link_count": 17
+  },
+  "docs/docs/converted/api/classes/models_Square.Square.md": {
+    "word_count": 198,
+    "heading_count": 7,
+    "link_count": 11
+  },
+  "docs/docs/converted/api/classes/core_measure.Atlas.md": {
+    "word_count": 318,
+    "heading_count": 14,
+    "link_count": 16
+  },
+  "docs/docs/converted/api/variables/core_maker.environmentTypes.md": {
+    "word_count": 116,
+    "heading_count": 3,
+    "link_count": 5
+  },
+  "docs/docs/converted/api/variables/core_base.pathType.md": {
+    "word_count": 133,
+    "heading_count": 4,
+    "link_count": 8
+  },
+  "docs/docs/converted/api/variables/core_maker.unitType.md": {
+    "word_count": 125,
+    "heading_count": 3,
+    "link_count": 5
+  },
+  "docs/docs/converted/api/variables/core_base.environmentTypes.md": {
+    "word_count": 112,
+    "heading_count": 3,
+    "link_count": 5
+  },
+  "docs/docs/converted/api/variables/core_base.version.md": {
+    "word_count": 94,
+    "heading_count": 2,
+    "link_count": 5
+  },
+  "docs/docs/converted/api/variables/core_boolean-utils.DEFAULT_POINT_MATCHING_DISTANCE.md": {
+    "word_count": 115,
+    "heading_count": 2,
+    "link_count": 5
+  },
+  "docs/docs/converted/api/variables/core_base.unitType.md": {
+    "word_count": 119,
+    "heading_count": 3,
+    "link_count": 5
+  },
+  "docs/docs/converted/api/variables/core_maker.pathType.md": {
+    "word_count": 141,
+    "heading_count": 4,
+    "link_count": 8
+  },
+  "docs/docs/converted/api/variables/core_svg-esm.svgUnit.md": {
+    "word_count": 102,
+    "heading_count": 2,
+    "link_count": 6
+  },
+  "docs/docs/converted/api/variables/core_base.environment.md": {
+    "word_count": 96,
+    "heading_count": 2,
+    "link_count": 5
+  },
+  "docs/docs/converted/api/variables/core_maker.environment.md": {
+    "word_count": 105,
+    "heading_count": 2,
+    "link_count": 5
+  },
+  "docs/docs/converted/api/variables/core_maker.version.md": {
+    "word_count": 96,
+    "heading_count": 2,
+    "link_count": 5
+  },
+  "docs/docs/converted/api/variables/core_exporter.colors.md": {
+    "word_count": 191,
+    "heading_count": 3,
+    "link_count": 5
+  },
+  "docs/docs/converted/api/functions/core_fillet-chain.chainFillet.md": {
+    "word_count": 147,
+    "heading_count": 3,
+    "link_count": 12
+  },
+  "docs/docs/converted/api/functions/core_maker.isFunction.md": {
+    "word_count": 108,
+    "heading_count": 2,
+    "link_count": 5
+  },
+  "docs/docs/converted/api/functions/core_model.moveRelative.md": {
+    "word_count": 165,
+    "heading_count": 3,
+    "link_count": 14
+  },
+  "docs/docs/converted/api/functions/core_simplify.simplify.md": {
+    "word_count": 126,
+    "heading_count": 2,
+    "link_count": 11
+  },
+  "docs/docs/converted/api/functions/core_measure.lineSlope.md": {
+    "word_count": 119,
+    "heading_count": 2,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/functions/core_model.distort.md": {
+    "word_count": 180,
+    "heading_count": 2,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/functions/core_path.mirror.md": {
+    "word_count": 136,
+    "heading_count": 2,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/functions/core_maker.isModel.md": {
+    "word_count": 129,
+    "heading_count": 3,
+    "link_count": 8
+  },
+  "docs/docs/converted/api/functions/core_solvers.equilateralSide.md": {
+    "word_count": 111,
+    "heading_count": 2,
+    "link_count": 5
+  },
+  "docs/docs/converted/api/functions/core_maker.cloneObject.md": {
+    "word_count": 119,
+    "heading_count": 3,
+    "link_count": 8
+  },
+  "docs/docs/converted/api/functions/core_measure-minimal.pointDistance.md": {
+    "word_count": 128,
+    "heading_count": 2,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/functions/core_model.scale.md": {
+    "word_count": 152,
+    "heading_count": 2,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/functions/types_jscad.export_.CSG.Path2D.arc.md": {
+    "word_count": 138,
+    "heading_count": 2,
+    "link_count": 10
+  },
+  "docs/docs/converted/api/functions/core_maker.createRouteKey.md": {
+    "word_count": 103,
+    "heading_count": 2,
+    "link_count": 5
+  },
+  "docs/docs/converted/api/functions/core_maker.isPoint.md": {
+    "word_count": 112,
+    "heading_count": 2,
+    "link_count": 5
+  },
+  "docs/docs/converted/api/functions/core_measure-minimal.modelExtents.md": {
+    "word_count": 143,
+    "heading_count": 3,
+    "link_count": 12
+  },
+  "docs/docs/converted/api/functions/core_boolean-utils.isBetween.md": {
+    "word_count": 124,
+    "heading_count": 2,
+    "link_count": 5
+  },
+  "docs/docs/converted/api/functions/core_measure.pathExtents.md": {
+    "word_count": 163,
+    "heading_count": 3,
+    "link_count": 14
+  },
+  "docs/docs/converted/api/functions/core_path.addTo.md": {
+    "word_count": 142,
+    "heading_count": 2,
+    "link_count": 11
+  },
+  "docs/docs/converted/api/functions/core_model.clone.md": {
+    "word_count": 147,
+    "heading_count": 3,
+    "link_count": 12
+  },
+  "docs/docs/converted/api/functions/core_openjscad-esm.toJscadCAG.md": {
+    "word_count": 276,
+    "heading_count": 2,
+    "link_count": 15
+  },
+  "docs/docs/converted/api/functions/core_chain.toKeyPoints.md": {
+    "word_count": 160,
+    "heading_count": 2,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/functions/core_model.addModel.md": {
+    "word_count": 220,
+    "heading_count": 3,
+    "link_count": 14
+  },
+  "docs/docs/converted/api/functions/core_measure.increase.md": {
+    "word_count": 162,
+    "heading_count": 2,
+    "link_count": 11
+  },
+  "docs/docs/converted/api/functions/core_path.zero.md": {
+    "word_count": 126,
+    "heading_count": 2,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/functions/core_pdf-esm.toPDF.md": {
+    "word_count": 158,
+    "heading_count": 2,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/functions/core_maker.isPathCircle.md": {
+    "word_count": 127,
+    "heading_count": 3,
+    "link_count": 8
+  },
+  "docs/docs/converted/api/functions/core_measure.modelExtents.md": {
+    "word_count": 166,
+    "heading_count": 3,
+    "link_count": 14
+  },
+  "docs/docs/converted/api/functions/core_base.splitDecimal.md": {
+    "word_count": 97,
+    "heading_count": 2,
+    "link_count": 5
+  },
+  "docs/docs/converted/api/functions/core_openjscad-esm.toJscadCSG.md": {
+    "word_count": 380,
+    "heading_count": 2,
+    "link_count": 17
+  },
+  "docs/docs/converted/api/functions/core_path.clone.md": {
+    "word_count": 152,
+    "heading_count": 3,
+    "link_count": 14
+  },
+  "docs/docs/converted/api/functions/core_model.addTo.md": {
+    "word_count": 206,
+    "heading_count": 2,
+    "link_count": 11
+  },
+  "docs/docs/converted/api/functions/core_path.copyProps.md": {
+    "word_count": 136,
+    "heading_count": 2,
+    "link_count": 11
+  },
+  "docs/docs/converted/api/functions/core_importer.parseNumericList.md": {
+    "word_count": 139,
+    "heading_count": 2,
+    "link_count": 5
+  },
+  "docs/docs/converted/api/functions/core_solvers.equilateralAltitude.md": {
+    "word_count": 111,
+    "heading_count": 2,
+    "link_count": 5
+  },
+  "docs/docs/converted/api/functions/core_layout.cloneToHoneycomb.md": {
+    "word_count": 252,
+    "heading_count": 4,
+    "link_count": 16
+  },
+  "docs/docs/converted/api/functions/core_measure.isBezierSeedLinear.md": {
+    "word_count": 154,
+    "heading_count": 2,
+    "link_count": 7
+  },
+  "docs/docs/converted/api/functions/core_path.toKeyPoints.md": {
+    "word_count": 132,
+    "heading_count": 2,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/functions/core_layout.cloneToRadial.md": {
+    "word_count": 249,
+    "heading_count": 4,
+    "link_count": 18
+  },
+  "docs/docs/converted/api/functions/core_combine.isPathInsideModel.md": {
+    "word_count": 165,
+    "heading_count": 3,
+    "link_count": 16
+  },
+  "docs/docs/converted/api/functions/core_maker.splitDecimal.md": {
+    "word_count": 108,
+    "heading_count": 2,
+    "link_count": 5
+  },
+  "docs/docs/converted/api/functions/core_angle.ofLineInDegrees.md": {
+    "word_count": 108,
+    "heading_count": 2,
+    "link_count": 7
+  },
+  "docs/docs/converted/api/functions/core_path.scale.md": {
+    "word_count": 120,
+    "heading_count": 2,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/functions/core_units.isValidUnit.md": {
+    "word_count": 111,
+    "heading_count": 2,
+    "link_count": 5
+  },
+  "docs/docs/converted/api/functions/core_measure.isArcConcaveTowardsPoint.md": {
+    "word_count": 142,
+    "heading_count": 2,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/functions/core_expand.expand.md": {
+    "word_count": 122,
+    "heading_count": 2,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/functions/core_openjscad-esm.toJscadScript.md": {
+    "word_count": 289,
+    "heading_count": 2,
+    "link_count": 11
+  },
+  "docs/docs/converted/api/functions/core_measure.isBetween.md": {
+    "word_count": 146,
+    "heading_count": 2,
+    "link_count": 5
+  },
+  "docs/docs/converted/api/functions/core_measure.isPointArrayClockwise.md": {
+    "word_count": 167,
+    "heading_count": 2,
+    "link_count": 11
+  },
+  "docs/docs/converted/api/functions/core_point.middle.md": {
+    "word_count": 127,
+    "heading_count": 2,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/functions/core_base.cloneObject.md": {
+    "word_count": 116,
+    "heading_count": 3,
+    "link_count": 8
+  },
+  "docs/docs/converted/api/functions/core_measure-minimal.isBezierSeedLinear.md": {
+    "word_count": 130,
+    "heading_count": 2,
+    "link_count": 7
+  },
+  "docs/docs/converted/api/functions/core_base.extendObject.md": {
+    "word_count": 113,
+    "heading_count": 2,
+    "link_count": 5
+  },
+  "docs/docs/converted/api/functions/core_model.getSimilarModelId.md": {
+    "word_count": 156,
+    "heading_count": 3,
+    "link_count": 10
+  },
+  "docs/docs/converted/api/functions/core_maker.travel.md": {
+    "word_count": 161,
+    "heading_count": 2,
+    "link_count": 13
+  },
+  "docs/docs/converted/api/functions/core_angle.noRevolutions.md": {
+    "word_count": 105,
+    "heading_count": 2,
+    "link_count": 5
+  },
+  "docs/docs/converted/api/functions/core_point.fromArc.md": {
+    "word_count": 122,
+    "heading_count": 2,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/functions/core_model.convertUnits.md": {
+    "word_count": 139,
+    "heading_count": 2,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/functions/core_angle.ofArcMiddle.md": {
+    "word_count": 124,
+    "heading_count": 2,
+    "link_count": 7
+  },
+  "docs/docs/converted/api/functions/core_combine.combine.md": {
+    "word_count": 158,
+    "heading_count": 2,
+    "link_count": 13
+  },
+  "docs/docs/converted/api/functions/core_model.layer.md": {
+    "word_count": 146,
+    "heading_count": 2,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/functions/core_model.walk.md": {
+    "word_count": 152,
+    "heading_count": 2,
+    "link_count": 11
+  },
+  "docs/docs/converted/api/functions/core_equal.isAngleEqual.md": {
+    "word_count": 113,
+    "heading_count": 2,
+    "link_count": 5
+  },
+  "docs/docs/converted/api/functions/core_angle.mirror.md": {
+    "word_count": 116,
+    "heading_count": 2,
+    "link_count": 5
+  },
+  "docs/docs/converted/api/functions/core_equal.isPointOnPath.md": {
+    "word_count": 174,
+    "heading_count": 3,
+    "link_count": 16
+  },
+  "docs/docs/converted/api/functions/core_path.moveRelative.md": {
+    "word_count": 152,
+    "heading_count": 3,
+    "link_count": 14
+  },
+  "docs/docs/converted/api/functions/core_angle.ofPointInRadians.md": {
+    "word_count": 126,
+    "heading_count": 2,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/functions/core_measure.isPointInsideModel.md": {
+    "word_count": 179,
+    "heading_count": 3,
+    "link_count": 14
+  },
+  "docs/docs/converted/api/functions/core_deadend.removeDeadEnds.md": {
+    "word_count": 237,
+    "heading_count": 3,
+    "link_count": 16
+  },
+  "docs/docs/converted/api/functions/core_maker.extendObject.md": {
+    "word_count": 110,
+    "heading_count": 2,
+    "link_count": 5
+  },
+  "docs/docs/converted/api/functions/core_point.average.md": {
+    "word_count": 133,
+    "heading_count": 2,
+    "link_count": 11
+  },
+  "docs/docs/converted/api/functions/core_model.countChildModels.md": {
+    "word_count": 142,
+    "heading_count": 3,
+    "link_count": 10
+  },
+  "docs/docs/converted/api/functions/core_measure-minimal.augment.md": {
+    "word_count": 128,
+    "heading_count": 2,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/functions/core_model.prefixPathIds.md": {
+    "word_count": 160,
+    "heading_count": 3,
+    "link_count": 12
+  },
+  "docs/docs/converted/api/functions/core_measure.modelPathLength.md": {
+    "word_count": 145,
+    "heading_count": 3,
+    "link_count": 10
+  },
+  "docs/docs/converted/api/functions/core_units.conversionScale.md": {
+    "word_count": 111,
+    "heading_count": 2,
+    "link_count": 5
+  },
+  "docs/docs/converted/api/functions/core_chain.cycle.md": {
+    "word_count": 151,
+    "heading_count": 2,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/functions/core_point.rounded.md": {
+    "word_count": 126,
+    "heading_count": 2,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/functions/core_angle.toRadians.md": {
+    "word_count": 106,
+    "heading_count": 2,
+    "link_count": 5
+  },
+  "docs/docs/converted/api/functions/core_path.layer.md": {
+    "word_count": 123,
+    "heading_count": 2,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/functions/core_expand.outline.md": {
+    "word_count": 139,
+    "heading_count": 2,
+    "link_count": 11
+  },
+  "docs/docs/converted/api/functions/core_boolean-utils.isBetweenPoints.md": {
+    "word_count": 134,
+    "heading_count": 2,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/functions/core_model.rotate.md": {
+    "word_count": 153,
+    "heading_count": 2,
+    "link_count": 11
+  },
+  "docs/docs/converted/api/functions/core_measure.isMeasurementOverlapping.md": {
+    "word_count": 139,
+    "heading_count": 2,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/functions/core_combine.breakPathsAtIntersections.md": {
+    "word_count": 144,
+    "heading_count": 3,
+    "link_count": 14
+  },
+  "docs/docs/converted/api/functions/core_measure-minimal.pathLength.md": {
+    "word_count": 135,
+    "heading_count": 3,
+    "link_count": 10
+  },
+  "docs/docs/converted/api/functions/core_measure.isArcOverlapping.md": {
+    "word_count": 123,
+    "heading_count": 2,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/functions/core_layout.cloneToBrick.md": {
+    "word_count": 317,
+    "heading_count": 4,
+    "link_count": 18
+  },
+  "docs/docs/converted/api/functions/core_point.mirror.md": {
+    "word_count": 136,
+    "heading_count": 2,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/functions/core_measure.augment.md": {
+    "word_count": 137,
+    "heading_count": 2,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/functions/core_path.center.md": {
+    "word_count": 121,
+    "heading_count": 2,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/functions/core_model.addPath.md": {
+    "word_count": 219,
+    "heading_count": 3,
+    "link_count": 14
+  },
+  "docs/docs/converted/api/functions/core_model.getSimilarPathId.md": {
+    "word_count": 156,
+    "heading_count": 3,
+    "link_count": 10
+  },
+  "docs/docs/converted/api/functions/core_model.move.md": {
+    "word_count": 180,
+    "heading_count": 3,
+    "link_count": 14
+  },
+  "docs/docs/converted/api/functions/core_expand.expandPaths.md": {
+    "word_count": 154,
+    "heading_count": 3,
+    "link_count": 14
+  },
+  "docs/docs/converted/api/functions/core_kit.construct.md": {
+    "word_count": 134,
+    "heading_count": 2,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/functions/core_point.closest.md": {
+    "word_count": 141,
+    "heading_count": 2,
+    "link_count": 11
+  },
+  "docs/docs/converted/api/functions/core_angle.ofChainLinkJoint.md": {
+    "word_count": 142,
+    "heading_count": 3,
+    "link_count": 12
+  },
+  "docs/docs/converted/api/functions/core_model.originate.md": {
+    "word_count": 173,
+    "heading_count": 2,
+    "link_count": 11
+  },
+  "docs/docs/converted/api/functions/core_equal.isSlopeParallel.md": {
+    "word_count": 121,
+    "heading_count": 2,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/functions/core_measure.boundingHexagon.md": {
+    "word_count": 157,
+    "heading_count": 2,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/functions/core_measure.isArcSpanOverlapping.md": {
+    "word_count": 154,
+    "heading_count": 2,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/functions/core_maker.isPathArc.md": {
+    "word_count": 129,
+    "heading_count": 3,
+    "link_count": 8
+  },
+  "docs/docs/converted/api/functions/core_boolean-utils.isCircleOrArc.md": {
+    "word_count": 130,
+    "heading_count": 2,
+    "link_count": 11
+  },
+  "docs/docs/converted/api/functions/core_point.scale.md": {
+    "word_count": 122,
+    "heading_count": 2,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/functions/core_boolean-utils.ensurePathLayer.md": {
+    "word_count": 139,
+    "heading_count": 3,
+    "link_count": 12
+  },
+  "docs/docs/converted/api/functions/core_solvers.circleTangentAngles.md": {
+    "word_count": 131,
+    "heading_count": 2,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/functions/core_layout.cloneToColumn.md": {
+    "word_count": 234,
+    "heading_count": 4,
+    "link_count": 16
+  },
+  "docs/docs/converted/api/functions/core_point.rotate.md": {
+    "word_count": 132,
+    "heading_count": 2,
+    "link_count": 11
+  },
+  "docs/docs/converted/api/functions/core_svg-esm.toSVG.md": {
+    "word_count": 118,
+    "heading_count": 2,
+    "link_count": 7
+  },
+  "docs/docs/converted/api/functions/core_solvers.solveTriangleASA.md": {
+    "word_count": 125,
+    "heading_count": 2,
+    "link_count": 5
+  },
+  "docs/docs/converted/api/functions/core_combine.combineIntersection.md": {
+    "word_count": 123,
+    "heading_count": 2,
+    "link_count": 11
+  },
+  "docs/docs/converted/api/functions/core_measure.isChainClockwise.md": {
+    "word_count": 187,
+    "heading_count": 3,
+    "link_count": 14
+  },
+  "docs/docs/converted/api/functions/core_path.toPoints.md": {
+    "word_count": 124,
+    "heading_count": 2,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/functions/core_svg-helpers.pathToSVGPathData.md": {
+    "word_count": 173,
+    "heading_count": 3,
+    "link_count": 14
+  },
+  "docs/docs/converted/api/functions/core_model.mirror.md": {
+    "word_count": 156,
+    "heading_count": 2,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/functions/core_expand.straighten.md": {
+    "word_count": 130,
+    "heading_count": 2,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/functions/core_boolean-utils.trackDeletedPath.md": {
+    "word_count": 159,
+    "heading_count": 3,
+    "link_count": 12
+  },
+  "docs/docs/converted/api/functions/core_point.clone.md": {
+    "word_count": 135,
+    "heading_count": 3,
+    "link_count": 12
+  },
+  "docs/docs/converted/api/functions/core_path.distort.md": {
+    "word_count": 139,
+    "heading_count": 2,
+    "link_count": 11
+  },
+  "docs/docs/converted/api/functions/core_point.zero.md": {
+    "word_count": 108,
+    "heading_count": 2,
+    "link_count": 7
+  },
+  "docs/docs/converted/api/functions/core_boolean-utils.pathBoundingBox.md": {
+    "word_count": 148,
+    "heading_count": 3,
+    "link_count": 14
+  },
+  "docs/docs/converted/api/functions/core_maker.isPathLine.md": {
+    "word_count": 129,
+    "heading_count": 3,
+    "link_count": 8
+  },
+  "docs/docs/converted/api/functions/core_chain.toPoints.md": {
+    "word_count": 160,
+    "heading_count": 2,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/functions/core_intersect.intersection.md": {
+    "word_count": 181,
+    "heading_count": 2,
+    "link_count": 13
+  },
+  "docs/docs/converted/api/functions/core_point.fromSlopeIntersection.md": {
+    "word_count": 143,
+    "heading_count": 2,
+    "link_count": 13
+  },
+  "docs/docs/converted/api/functions/core_layout.cloneToGrid.md": {
+    "word_count": 270,
+    "heading_count": 4,
+    "link_count": 18
+  },
+  "docs/docs/converted/api/functions/core_model.findSingleChain.md": {
+    "word_count": 128,
+    "heading_count": 3,
+    "link_count": 12
+  },
+  "docs/docs/converted/api/functions/core_maker.isNumber.md": {
+    "word_count": 108,
+    "heading_count": 2,
+    "link_count": 5
+  },
+  "docs/docs/converted/api/functions/core_base.isPoint.md": {
+    "word_count": 105,
+    "heading_count": 2,
+    "link_count": 5
+  },
+  "docs/docs/converted/api/functions/core_combine.combineUnion.md": {
+    "word_count": 123,
+    "heading_count": 2,
+    "link_count": 11
+  },
+  "docs/docs/converted/api/functions/core_model.addCaption.md": {
+    "word_count": 152,
+    "heading_count": 2,
+    "link_count": 13
+  },
+  "docs/docs/converted/api/functions/core_svg-esm.toSVGPathData.md": {
+    "word_count": 145,
+    "heading_count": 3,
+    "link_count": 12
+  },
+  "docs/docs/converted/api/functions/core_model.zero.md": {
+    "word_count": 166,
+    "heading_count": 2,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/functions/core_equal.isPointOnSlope.md": {
+    "word_count": 130,
+    "heading_count": 2,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/functions/core_chain.toNewModel.md": {
+    "word_count": 205,
+    "heading_count": 3,
+    "link_count": 12
+  },
+  "docs/docs/converted/api/functions/core_chain.startAt.md": {
+    "word_count": 155,
+    "heading_count": 2,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/functions/core_maker.isPathArcInBezierCurve.md": {
+    "word_count": 131,
+    "heading_count": 3,
+    "link_count": 8
+  },
+  "docs/docs/converted/api/functions/core_equal.isPointEqual.md": {
+    "word_count": 129,
+    "heading_count": 2,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/functions/core_svg-esm.fromSVGPathData.md": {
+    "word_count": 143,
+    "heading_count": 3,
+    "link_count": 12
+  },
+  "docs/docs/converted/api/functions/core_base.isObject.md": {
+    "word_count": 103,
+    "heading_count": 2,
+    "link_count": 5
+  },
+  "docs/docs/converted/api/functions/core_point.distort.md": {
+    "word_count": 126,
+    "heading_count": 2,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/functions/core_boolean-utils.isArcEnclosingAngle.md": {
+    "word_count": 117,
+    "heading_count": 2,
+    "link_count": 7
+  },
+  "docs/docs/converted/api/functions/core_fillet-chain.chainDogbone.md": {
+    "word_count": 145,
+    "heading_count": 3,
+    "link_count": 12
+  },
+  "docs/docs/converted/api/functions/core_boolean-utils.addPathToModel.md": {
+    "word_count": 143,
+    "heading_count": 3,
+    "link_count": 12
+  },
+  "docs/docs/converted/api/functions/core_solvers.solveTriangleSSS.md": {
+    "word_count": 119,
+    "heading_count": 2,
+    "link_count": 5
+  },
+  "docs/docs/converted/api/functions/core_measure.isBetweenArcAngles.md": {
+    "word_count": 158,
+    "heading_count": 2,
+    "link_count": 7
+  },
+  "docs/docs/converted/api/functions/core_fillet-path.pathFillet.md": {
+    "word_count": 166,
+    "heading_count": 3,
+    "link_count": 16
+  },
+  "docs/docs/converted/api/functions/core_boolean-utils.isZeroLength.md": {
+    "word_count": 114,
+    "heading_count": 2,
+    "link_count": 7
+  },
+  "docs/docs/converted/api/functions/core_measure-minimal.lineSlope.md": {
+    "word_count": 124,
+    "heading_count": 2,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/functions/core_point.add.md": {
+    "word_count": 144,
+    "heading_count": 2,
+    "link_count": 11
+  },
+  "docs/docs/converted/api/functions/core_angle.ofArcSpan.md": {
+    "word_count": 116,
+    "heading_count": 2,
+    "link_count": 7
+  },
+  "docs/docs/converted/api/functions/core_equal.isPointOnCircle.md": {
+    "word_count": 128,
+    "heading_count": 2,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/functions/core_measure.pointDistance.md": {
+    "word_count": 130,
+    "heading_count": 2,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/functions/core_maker.isChain.md": {
+    "word_count": 131,
+    "heading_count": 3,
+    "link_count": 8
+  },
+  "docs/docs/converted/api/functions/core_base.round.md": {
+    "word_count": 105,
+    "heading_count": 2,
+    "link_count": 5
+  },
+  "docs/docs/converted/api/functions/core_measure-minimal.pathExtents.md": {
+    "word_count": 158,
+    "heading_count": 3,
+    "link_count": 14
+  },
+  "docs/docs/converted/api/functions/core_chain.findSingleChain.md": {
+    "word_count": 172,
+    "heading_count": 3,
+    "link_count": 12
+  },
+  "docs/docs/converted/api/functions/core_model.getAllCaptionsOffset.md": {
+    "word_count": 141,
+    "heading_count": 2,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/functions/core_path.converge.md": {
+    "word_count": 143,
+    "heading_count": 2,
+    "link_count": 11
+  },
+  "docs/docs/converted/api/functions/core_base.isNumber.md": {
+    "word_count": 103,
+    "heading_count": 2,
+    "link_count": 5
+  },
+  "docs/docs/converted/api/functions/core_dxf.toDXF.md": {
+    "word_count": 272,
+    "heading_count": 6,
+    "link_count": 19
+  },
+  "docs/docs/converted/api/functions/core_boolean-utils.findPointsOnPath.md": {
+    "word_count": 155,
+    "heading_count": 3,
+    "link_count": 14
+  },
+  "docs/docs/converted/api/functions/core_angle.ofArcEnd.md": {
+    "word_count": 119,
+    "heading_count": 2,
+    "link_count": 7
+  },
+  "docs/docs/converted/api/functions/core_point.subtract.md": {
+    "word_count": 141,
+    "heading_count": 2,
+    "link_count": 11
+  },
+  "docs/docs/converted/api/functions/core_layout.cloneToRow.md": {
+    "word_count": 271,
+    "heading_count": 4,
+    "link_count": 16
+  },
+  "docs/docs/converted/api/functions/core_chain.findChains.md": {
+    "word_count": 316,
+    "heading_count": 3,
+    "link_count": 27
+  },
+  "docs/docs/converted/api/functions/core_angle.toDegrees.md": {
+    "word_count": 106,
+    "heading_count": 2,
+    "link_count": 5
+  },
+  "docs/docs/converted/api/functions/core_maker.isObject.md": {
+    "word_count": 108,
+    "heading_count": 2,
+    "link_count": 5
+  },
+  "docs/docs/converted/api/functions/core_fillet-path.pathDogbone.md": {
+    "word_count": 166,
+    "heading_count": 3,
+    "link_count": 16
+  },
+  "docs/docs/converted/api/functions/core_point.fromPolar.md": {
+    "word_count": 118,
+    "heading_count": 2,
+    "link_count": 7
+  },
+  "docs/docs/converted/api/functions/core_maker.isPath.md": {
+    "word_count": 129,
+    "heading_count": 3,
+    "link_count": 8
+  },
+  "docs/docs/converted/api/functions/core_openjscad-esm.toJscadSTL.md": {
+    "word_count": 304,
+    "heading_count": 2,
+    "link_count": 15
+  },
+  "docs/docs/converted/api/functions/core_point.fromPathEnds.md": {
+    "word_count": 151,
+    "heading_count": 3,
+    "link_count": 14
+  },
+  "docs/docs/converted/api/functions/core_boolean-utils.isBetweenArcAngles.md": {
+    "word_count": 124,
+    "heading_count": 2,
+    "link_count": 7
+  },
+  "docs/docs/converted/api/functions/core_kit.getParameterValues.md": {
+    "word_count": 114,
+    "heading_count": 2,
+    "link_count": 7
+  },
+  "docs/docs/converted/api/functions/core_layout.childrenOnChain.md": {
+    "word_count": 305,
+    "heading_count": 4,
+    "link_count": 16
+  },
+  "docs/docs/converted/api/functions/core_model.walkPaths.md": {
+    "word_count": 159,
+    "heading_count": 3,
+    "link_count": 12
+  },
+  "docs/docs/converted/api/functions/core_model.findChains.md": {
+    "word_count": 176,
+    "heading_count": 3,
+    "link_count": 20
+  },
+  "docs/docs/converted/api/functions/core_svg-helpers.chainToSVGPathData.md": {
+    "word_count": 154,
+    "heading_count": 3,
+    "link_count": 12
+  },
+  "docs/docs/converted/api/functions/core_angle.ofPointInDegrees.md": {
+    "word_count": 126,
+    "heading_count": 2,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/functions/core_measure.isBetweenPoints.md": {
+    "word_count": 166,
+    "heading_count": 2,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/functions/core_path.move.md": {
+    "word_count": 147,
+    "heading_count": 3,
+    "link_count": 14
+  },
+  "docs/docs/converted/api/functions/core_model.center.md": {
+    "word_count": 161,
+    "heading_count": 2,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/functions/core_break.breakAtPoint.md": {
+    "word_count": 204,
+    "heading_count": 2,
+    "link_count": 11
+  },
+  "docs/docs/converted/api/functions/core_layout.childrenOnPath.md": {
+    "word_count": 299,
+    "heading_count": 4,
+    "link_count": 16
+  },
+  "docs/docs/converted/api/functions/core_point.fromAngleOnCircle.md": {
+    "word_count": 128,
+    "heading_count": 2,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/functions/core_chain.reverse.md": {
+    "word_count": 129,
+    "heading_count": 2,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/functions/core_measure.isLineOverlapping.md": {
+    "word_count": 154,
+    "heading_count": 2,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/functions/core_base.isFunction.md": {
+    "word_count": 103,
+    "heading_count": 2,
+    "link_count": 5
+  },
+  "docs/docs/converted/api/functions/core_combine.combineSubtraction.md": {
+    "word_count": 123,
+    "heading_count": 2,
+    "link_count": 11
+  },
+  "docs/docs/converted/api/functions/core_measure.pathLength.md": {
+    "word_count": 138,
+    "heading_count": 3,
+    "link_count": 10
+  },
+  "docs/docs/converted/api/functions/core_equal.isPointDistinct.md": {
+    "word_count": 134,
+    "heading_count": 2,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/functions/core_path.rotate.md": {
+    "word_count": 132,
+    "heading_count": 2,
+    "link_count": 11
+  },
+  "docs/docs/converted/api/functions/core_equal.isSlopeEqual.md": {
+    "word_count": 121,
+    "heading_count": 2,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/functions/core_equal.isPathEqual.md": {
+    "word_count": 175,
+    "heading_count": 3,
+    "link_count": 16
+  },
+  "docs/docs/converted/api/functions/core_maker.round.md": {
+    "word_count": 106,
+    "heading_count": 2,
+    "link_count": 5
+  },
+  "docs/docs/converted/api/functions/core_path.moveTemporary.md": {
+    "word_count": 146,
+    "heading_count": 3,
+    "link_count": 12
+  },
+  "docs/docs/converted/api/functions/core_base.createRouteKey.md": {
+    "word_count": 95,
+    "heading_count": 2,
+    "link_count": 5
+  },
+  "docs/docs/converted/api/functions/core_path.alterLength.md": {
+    "word_count": 132,
+    "heading_count": 2,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/functions/core_exporter.toJson.md": {
+    "word_count": 185,
+    "heading_count": 2,
+    "link_count": 7
+  },
+  "docs/docs/converted/api/modules/core_angle.md": {
+    "word_count": 133,
+    "heading_count": 4,
+    "link_count": 15
+  },
+  "docs/docs/converted/api/modules/core_chain.md": {
+    "word_count": 125,
+    "heading_count": 4,
+    "link_count": 14
+  },
+  "docs/docs/converted/api/modules/models_Dome.md": {
+    "word_count": 92,
+    "heading_count": 4,
+    "link_count": 7
+  },
+  "docs/docs/converted/api/modules/core_maker.md": {
+    "word_count": 365,
+    "heading_count": 5,
+    "link_count": 61
+  },
+  "docs/docs/converted/api/modules/models_RoundRectangle.md": {
+    "word_count": 92,
+    "heading_count": 4,
+    "link_count": 7
+  },
+  "docs/docs/converted/api/modules/models_Ring.md": {
+    "word_count": 92,
+    "heading_count": 4,
+    "link_count": 7
+  },
+  "docs/docs/converted/api/modules/core_expand.md": {
+    "word_count": 89,
+    "heading_count": 3,
+    "link_count": 7
+  },
+  "docs/docs/converted/api/modules/core_dxf.md": {
+    "word_count": 83,
+    "heading_count": 4,
+    "link_count": 6
+  },
+  "docs/docs/converted/api/modules/models_OvalArc.md": {
+    "word_count": 92,
+    "heading_count": 4,
+    "link_count": 7
+  },
+  "docs/docs/converted/api/modules/models_Ellipse.md": {
+    "word_count": 97,
+    "heading_count": 4,
+    "link_count": 8
+  },
+  "docs/docs/converted/api/modules/core_schema.md": {
+    "word_count": 142,
+    "heading_count": 3,
+    "link_count": 17
+  },
+  "docs/docs/converted/api/modules/core_path.md": {
+    "word_count": 183,
+    "heading_count": 5,
+    "link_count": 25
+  },
+  "docs/docs/converted/api/modules/types_jscad.export_.md": {
+    "word_count": 139,
+    "heading_count": 6,
+    "link_count": 11
+  },
+  "docs/docs/converted/api/modules/core_exporter-index.md": {
+    "word_count": 137,
+    "heading_count": 4,
+    "link_count": 12
+  },
+  "docs/docs/converted/api/modules/core_base.md": {
+    "word_count": 143,
+    "heading_count": 4,
+    "link_count": 17
+  },
+  "docs/docs/converted/api/modules/models_BezierCurve-esm.md": {
+    "word_count": 106,
+    "heading_count": 4,
+    "link_count": 8
+  },
+  "docs/docs/converted/api/modules/core_paths.md": {
+    "word_count": 112,
+    "heading_count": 4,
+    "link_count": 11
+  },
+  "docs/docs/converted/api/modules/core_svg-esm.md": {
+    "word_count": 144,
+    "heading_count": 5,
+    "link_count": 14
+  },
+  "docs/docs/converted/api/modules/core_intersect.md": {
+    "word_count": 73,
+    "heading_count": 3,
+    "link_count": 4
+  },
+  "docs/docs/converted/api/modules/core_fillet-core.md": {
+    "word_count": 91,
+    "heading_count": 3,
+    "link_count": 6
+  },
+  "docs/docs/converted/api/modules/models_Text.md": {
+    "word_count": 92,
+    "heading_count": 4,
+    "link_count": 7
+  },
+  "docs/docs/converted/api/modules/core_measure-minimal.md": {
+    "word_count": 125,
+    "heading_count": 4,
+    "link_count": 11
+  },
+  "docs/docs/converted/api/modules/core_units.md": {
+    "word_count": 82,
+    "heading_count": 3,
+    "link_count": 5
+  },
+  "docs/docs/converted/api/modules/core_equal.md": {
+    "word_count": 117,
+    "heading_count": 3,
+    "link_count": 12
+  },
+  "docs/docs/converted/api/modules/models_BoltRectangle.md": {
+    "word_count": 92,
+    "heading_count": 4,
+    "link_count": 7
+  },
+  "docs/docs/converted/api/modules/core_svg-helpers.md": {
+    "word_count": 88,
+    "heading_count": 3,
+    "link_count": 5
+  },
+  "docs/docs/converted/api/modules/core_layout.md": {
+    "word_count": 153,
+    "heading_count": 5,
+    "link_count": 16
+  },
+  "docs/docs/converted/api/modules/models_Square.md": {
+    "word_count": 92,
+    "heading_count": 4,
+    "link_count": 7
+  },
+  "docs/docs/converted/api/modules/index.md": {
+    "word_count": 339,
+    "heading_count": 2,
+    "link_count": 50
+  },
+  "docs/docs/converted/api/modules/models.md": {
+    "word_count": 206,
+    "heading_count": 3,
+    "link_count": 27
+  },
+  "docs/docs/converted/api/modules/models_Star.md": {
+    "word_count": 92,
+    "heading_count": 4,
+    "link_count": 7
+  },
+  "docs/docs/converted/api/modules/models_ConnectTheDots.md": {
+    "word_count": 92,
+    "heading_count": 4,
+    "link_count": 7
+  },
+  "docs/docs/converted/api/modules/models_Polygon.md": {
+    "word_count": 92,
+    "heading_count": 4,
+    "link_count": 7
+  },
+  "docs/docs/converted/api/modules/core_break.md": {
+    "word_count": 73,
+    "heading_count": 3,
+    "link_count": 4
+  },
+  "docs/docs/converted/api/modules/models_BoltCircle.md": {
+    "word_count": 92,
+    "heading_count": 4,
+    "link_count": 7
+  },
+  "docs/docs/converted/api/modules/models_Slot.md": {
+    "word_count": 92,
+    "heading_count": 4,
+    "link_count": 7
+  },
+  "docs/docs/converted/api/modules/core_solvers.md": {
+    "word_count": 97,
+    "heading_count": 3,
+    "link_count": 8
+  },
+  "docs/docs/converted/api/modules/types_jscad.export_.CSG.Path2D.md": {
+    "word_count": 116,
+    "heading_count": 4,
+    "link_count": 10
+  },
+  "docs/docs/converted/api/modules/models_Dogbone.md": {
+    "word_count": 92,
+    "heading_count": 4,
+    "link_count": 7
+  },
+  "docs/docs/converted/api/modules/core_exporter.md": {
+    "word_count": 112,
+    "heading_count": 6,
+    "link_count": 10
+  },
+  "docs/docs/converted/api/modules/core_kit.md": {
+    "word_count": 81,
+    "heading_count": 3,
+    "link_count": 5
+  },
+  "docs/docs/converted/api/modules/types_jscad.md": {
+    "word_count": 84,
+    "heading_count": 4,
+    "link_count": 5
+  },
+  "docs/docs/converted/api/modules/models_SCurve.md": {
+    "word_count": 92,
+    "heading_count": 4,
+    "link_count": 7
+  },
+  "docs/docs/converted/api/modules/core_collect.md": {
+    "word_count": 89,
+    "heading_count": 3,
+    "link_count": 7
+  },
+  "docs/docs/converted/api/modules/core_importer.md": {
+    "word_count": 74,
+    "heading_count": 3,
+    "link_count": 4
+  },
+  "docs/docs/converted/api/modules/core_openjscad-esm.md": {
+    "word_count": 149,
+    "heading_count": 4,
+    "link_count": 14
+  },
+  "docs/docs/converted/api/modules/core_cascades.md": {
+    "word_count": 77,
+    "heading_count": 3,
+    "link_count": 4
+  },
+  "docs/docs/converted/api/modules/core_measure.md": {
+    "word_count": 179,
+    "heading_count": 4,
+    "link_count": 25
+  },
+  "docs/docs/converted/api/modules/core_point.md": {
+    "word_count": 157,
+    "heading_count": 3,
+    "link_count": 20
+  },
+  "docs/docs/converted/api/modules/models_Oval.md": {
+    "word_count": 92,
+    "heading_count": 4,
+    "link_count": 7
+  },
+  "docs/docs/converted/api/modules/core_pdf-esm.md": {
+    "word_count": 93,
+    "heading_count": 4,
+    "link_count": 5
+  },
+  "docs/docs/converted/api/modules/core_deadend.md": {
+    "word_count": 77,
+    "heading_count": 3,
+    "link_count": 4
+  },
+  "docs/docs/converted/api/modules/core_model.md": {
+    "word_count": 214,
+    "heading_count": 4,
+    "link_count": 31
+  },
+  "docs/docs/converted/api/modules/models_Belt.md": {
+    "word_count": 92,
+    "heading_count": 4,
+    "link_count": 7
+  },
+  "docs/docs/converted/api/modules/core_xml.md": {
+    "word_count": 82,
+    "heading_count": 4,
+    "link_count": 5
+  },
+  "docs/docs/converted/api/modules/models_Holes.md": {
+    "word_count": 92,
+    "heading_count": 4,
+    "link_count": 7
+  },
+  "docs/docs/converted/api/modules/core_fillet-path.md": {
+    "word_count": 107,
+    "heading_count": 4,
+    "link_count": 8
+  },
+  "docs/docs/converted/api/modules/core_boolean-utils.md": {
+    "word_count": 179,
+    "heading_count": 6,
+    "link_count": 18
+  },
+  "docs/docs/converted/api/modules/core_simplify.md": {
+    "word_count": 73,
+    "heading_count": 3,
+    "link_count": 4
+  },
+  "docs/docs/converted/api/modules/core_cascades.MakerJs.md": {
+    "word_count": 95,
+    "heading_count": 3,
+    "link_count": 8
+  },
+  "docs/docs/converted/api/modules/core_fillet-chain.md": {
+    "word_count": 105,
+    "heading_count": 4,
+    "link_count": 8
+  },
+  "docs/docs/converted/api/modules/types_jscad.export_.CSG.md": {
+    "word_count": 112,
+    "heading_count": 4,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/modules/core_combine.md": {
+    "word_count": 99,
+    "heading_count": 3,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/modules/models_Rectangle.md": {
+    "word_count": 92,
+    "heading_count": 4,
+    "link_count": 7
+  },
+  "docs/docs/converted/api/interfaces/core_collect.ICollectionKeyComparer.md": {
+    "word_count": 104,
+    "heading_count": 2,
+    "link_count": 4
+  },
+  "docs/docs/converted/api/interfaces/core_maker.IWalkOptions.md": {
+    "word_count": 247,
+    "heading_count": 4,
+    "link_count": 23
+  },
+  "docs/docs/converted/api/interfaces/core_svg-esm.ISVGPathDataRenderOptions.md": {
+    "word_count": 238,
+    "heading_count": 8,
+    "link_count": 18
+  },
+  "docs/docs/converted/api/interfaces/core_schema.IPathArcInBezierCurve.md": {
+    "word_count": 306,
+    "heading_count": 9,
+    "link_count": 28
+  },
+  "docs/docs/converted/api/interfaces/core_schema.IPathArc.md": {
+    "word_count": 402,
+    "heading_count": 12,
+    "link_count": 33
+  },
+  "docs/docs/converted/api/interfaces/core_dxf.IDXFRenderOptions.md": {
+    "word_count": 329,
+    "heading_count": 10,
+    "link_count": 16
+  },
+  "docs/docs/converted/api/interfaces/core_maker.IMeasurePointInsideOptions.md": {
+    "word_count": 191,
+    "heading_count": 6,
+    "link_count": 15
+  },
+  "docs/docs/converted/api/interfaces/core_schema.IPathLine.md": {
+    "word_count": 337,
+    "heading_count": 10,
+    "link_count": 32
+  },
+  "docs/docs/converted/api/interfaces/core_schema.IPath.md": {
+    "word_count": 266,
+    "heading_count": 8,
+    "link_count": 23
+  },
+  "docs/docs/converted/api/interfaces/core_svg-esm.IFlowAnnotation.md": {
+    "word_count": 125,
+    "heading_count": 4,
+    "link_count": 7
+  },
+  "docs/docs/converted/api/interfaces/core_path.IWalkPath.md": {
+    "word_count": 142,
+    "heading_count": 5,
+    "link_count": 12
+  },
+  "docs/docs/converted/api/interfaces/core_maker.IWalkPathBooleanCallback.md": {
+    "word_count": 128,
+    "heading_count": 3,
+    "link_count": 10
+  },
+  "docs/docs/converted/api/interfaces/core_maker.IIsPointOnPathOptions.md": {
+    "word_count": 167,
+    "heading_count": 5,
+    "link_count": 12
+  },
+  "docs/docs/converted/api/interfaces/types_jscad.StlSerializer.md": {
+    "word_count": 188,
+    "heading_count": 4,
+    "link_count": 12
+  },
+  "docs/docs/converted/api/interfaces/core_maker.IRouteOffset.md": {
+    "word_count": 228,
+    "heading_count": 8,
+    "link_count": 18
+  },
+  "docs/docs/converted/api/interfaces/core_collect.IPointGraphIndexElement.md": {
+    "word_count": 264,
+    "heading_count": 7,
+    "link_count": 16
+  },
+  "docs/docs/converted/api/interfaces/core_collect.ICollection.md": {
+    "word_count": 153,
+    "heading_count": 4,
+    "link_count": 8
+  },
+  "docs/docs/converted/api/interfaces/core_svg-esm.IPathDataByLayerMap.md": {
+    "word_count": 112,
+    "heading_count": 4,
+    "link_count": 8
+  },
+  "docs/docs/converted/api/interfaces/core_svg-esm.ISVGElementRenderOptions.md": {
+    "word_count": 251,
+    "heading_count": 9,
+    "link_count": 17
+  },
+  "docs/docs/converted/api/interfaces/core_boolean-utils.SegmentClassification.md": {
+    "word_count": 152,
+    "heading_count": 5,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/interfaces/core_maker.IMeasure.md": {
+    "word_count": 174,
+    "heading_count": 6,
+    "link_count": 15
+  },
+  "docs/docs/converted/api/interfaces/core_svg-esm.ISVGImportOptions.md": {
+    "word_count": 125,
+    "heading_count": 4,
+    "link_count": 7
+  },
+  "docs/docs/converted/api/interfaces/core_svg-esm.ISVGRenderOptions.md": {
+    "word_count": 764,
+    "heading_count": 21,
+    "link_count": 60
+  },
+  "docs/docs/converted/api/interfaces/core_xml.IXmlTagAttrs.md": {
+    "word_count": 94,
+    "heading_count": 3,
+    "link_count": 5
+  },
+  "docs/docs/converted/api/interfaces/types_jscad.export_.CSG.ICircleOptions.md": {
+    "word_count": 196,
+    "heading_count": 6,
+    "link_count": 13
+  },
+  "docs/docs/converted/api/interfaces/core_openjscad-esm.IJscadScriptOptions.md": {
+    "word_count": 659,
+    "heading_count": 15,
+    "link_count": 51
+  },
+  "docs/docs/converted/api/interfaces/core_maker.IWalkModel.md": {
+    "word_count": 407,
+    "heading_count": 12,
+    "link_count": 45
+  },
+  "docs/docs/converted/api/interfaces/core_maker.IMeasureMap.md": {
+    "word_count": 93,
+    "heading_count": 3,
+    "link_count": 5
+  },
+  "docs/docs/converted/api/interfaces/core_maker.IModelPathCallback.md": {
+    "word_count": 140,
+    "heading_count": 3,
+    "link_count": 12
+  },
+  "docs/docs/converted/api/interfaces/core_schema.IPathMap.md": {
+    "word_count": 130,
+    "heading_count": 4,
+    "link_count": 12
+  },
+  "docs/docs/converted/api/interfaces/core_maker.IChainLink.md": {
+    "word_count": 254,
+    "heading_count": 8,
+    "link_count": 20
+  },
+  "docs/docs/converted/api/interfaces/core_maker.IPointMatchOptions.md": {
+    "word_count": 154,
+    "heading_count": 5,
+    "link_count": 11
+  },
+  "docs/docs/converted/api/interfaces/core_schema.IPathIntersectionOptions.md": {
+    "word_count": 271,
+    "heading_count": 8,
+    "link_count": 20
+  },
+  "docs/docs/converted/api/interfaces/core_maker.IPathIntersectionBaseOptions.md": {
+    "word_count": 181,
+    "heading_count": 7,
+    "link_count": 14
+  },
+  "docs/docs/converted/api/interfaces/core_openjscad-esm.IJscadCsgOptions.md": {
+    "word_count": 583,
+    "heading_count": 13,
+    "link_count": 47
+  },
+  "docs/docs/converted/api/interfaces/core_openjscad-esm.IOpenJsCadOptionsMap.md": {
+    "word_count": 101,
+    "heading_count": 3,
+    "link_count": 5
+  },
+  "docs/docs/converted/api/interfaces/core_openjscad-esm.IJscadExtrudeOptions.md": {
+    "word_count": 182,
+    "heading_count": 6,
+    "link_count": 11
+  },
+  "docs/docs/converted/api/interfaces/core_maker.IFindLoopsOptions.md": {
+    "word_count": 186,
+    "heading_count": 6,
+    "link_count": 10
+  },
+  "docs/docs/converted/api/interfaces/core_maker.ICombineOptions.md": {
+    "word_count": 334,
+    "heading_count": 9,
+    "link_count": 15
+  },
+  "docs/docs/converted/api/interfaces/core_maker.IWalkModelCallback.md": {
+    "word_count": 125,
+    "heading_count": 3,
+    "link_count": 10
+  },
+  "docs/docs/converted/api/interfaces/core_boolean-utils.DeletedPathInfo.md": {
+    "word_count": 337,
+    "heading_count": 10,
+    "link_count": 28
+  },
+  "docs/docs/converted/api/interfaces/core_maker.IPathRemoved.md": {
+    "word_count": 327,
+    "heading_count": 10,
+    "link_count": 28
+  },
+  "docs/docs/converted/api/interfaces/core_openjscad-esm.IStatusCallback.md": {
+    "word_count": 105,
+    "heading_count": 2,
+    "link_count": 5
+  },
+  "docs/docs/converted/api/interfaces/core_openjscad-esm.IOpenJsCadOptions.md": {
+    "word_count": 428,
+    "heading_count": 11,
+    "link_count": 19
+  },
+  "docs/docs/converted/api/interfaces/core_schema.IPathCircle.md": {
+    "word_count": 314,
+    "heading_count": 10,
+    "link_count": 28
+  },
+  "docs/docs/converted/api/interfaces/core_schema.IModelMap.md": {
+    "word_count": 112,
+    "heading_count": 4,
+    "link_count": 8
+  },
+  "docs/docs/converted/api/interfaces/core_maker.IPathIntersection.md": {
+    "word_count": 308,
+    "heading_count": 7,
+    "link_count": 16
+  },
+  "docs/docs/converted/api/interfaces/core_maker.IPathDirectional.md": {
+    "word_count": 349,
+    "heading_count": 10,
+    "link_count": 30
+  },
+  "docs/docs/converted/api/interfaces/core_dxf.IDXFLayerOptions.md": {
+    "word_count": 153,
+    "heading_count": 5,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/interfaces/core_cascades.MakerJs.ICascade.md": {
+    "word_count": 199,
+    "heading_count": 7,
+    "link_count": 16
+  },
+  "docs/docs/converted/api/interfaces/core_maker.IKit.md": {
+    "word_count": 289,
+    "heading_count": 7,
+    "link_count": 15
+  },
+  "docs/docs/converted/api/interfaces/core_maker.IFindChainsOptions.md": {
+    "word_count": 280,
+    "heading_count": 8,
+    "link_count": 11
+  },
+  "docs/docs/converted/api/interfaces/core_maker.IPathIntersectionOptions.md": {
+    "word_count": 277,
+    "heading_count": 8,
+    "link_count": 20
+  },
+  "docs/docs/converted/api/interfaces/core_maker.IMetaParameter.md": {
+    "word_count": 293,
+    "heading_count": 9,
+    "link_count": 17
+  },
+  "docs/docs/converted/api/interfaces/core_path.IChain.md": {
+    "word_count": 148,
+    "heading_count": 5,
+    "link_count": 12
+  },
+  "docs/docs/converted/api/interfaces/core_cascades.MakerJs.ICascadePath.md": {
+    "word_count": 248,
+    "heading_count": 8,
+    "link_count": 24
+  },
+  "docs/docs/converted/api/interfaces/core_maker.ISimplifyOptions.md": {
+    "word_count": 169,
+    "heading_count": 6,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/interfaces/core_maker.IRefPathIdInModel.md": {
+    "word_count": 184,
+    "heading_count": 7,
+    "link_count": 16
+  },
+  "docs/docs/converted/api/interfaces/core_maker.IWalkModelCancellableCallback.md": {
+    "word_count": 134,
+    "heading_count": 3,
+    "link_count": 10
+  },
+  "docs/docs/converted/api/interfaces/core_schema.ICaption.md": {
+    "word_count": 169,
+    "heading_count": 5,
+    "link_count": 11
+  },
+  "docs/docs/converted/api/interfaces/core_exporter.IStatusCallback.md": {
+    "word_count": 100,
+    "heading_count": 2,
+    "link_count": 5
+  },
+  "docs/docs/converted/api/interfaces/core_pdf-esm.IPDFRenderOptions.md": {
+    "word_count": 337,
+    "heading_count": 9,
+    "link_count": 19
+  },
+  "docs/docs/converted/api/interfaces/core_svg-esm.SvgUnitConversion.md": {
+    "word_count": 99,
+    "heading_count": 3,
+    "link_count": 5
+  },
+  "docs/docs/converted/api/interfaces/core_maker.IWalkPathCallback.md": {
+    "word_count": 127,
+    "heading_count": 3,
+    "link_count": 10
+  },
+  "docs/docs/converted/api/interfaces/core_openjscad-esm.IJscadCagOptions.md": {
+    "word_count": 376,
+    "heading_count": 10,
+    "link_count": 19
+  },
+  "docs/docs/converted/api/interfaces/core_maker.IMeasureWithCenter.md": {
+    "word_count": 277,
+    "heading_count": 9,
+    "link_count": 27
+  },
+  "docs/docs/converted/api/interfaces/core_schema.IPathIntersection.md": {
+    "word_count": 226,
+    "heading_count": 7,
+    "link_count": 16
+  },
+  "docs/docs/converted/api/interfaces/core_maker.IChainsMap.md": {
+    "word_count": 112,
+    "heading_count": 4,
+    "link_count": 8
+  },
+  "docs/docs/converted/api/interfaces/core_maker.IContainChainsOptions.md": {
+    "word_count": 149,
+    "heading_count": 5,
+    "link_count": 10
+  },
+  "docs/docs/converted/api/interfaces/core_cascades.MakerJs.ICascadePoint.md": {
+    "word_count": 231,
+    "heading_count": 7,
+    "link_count": 21
+  },
+  "docs/docs/converted/api/interfaces/core_maker.ICascade.md": {
+    "word_count": 206,
+    "heading_count": 6,
+    "link_count": 11
+  },
+  "docs/docs/converted/api/interfaces/core_maker.IWalkPath.md": {
+    "word_count": 396,
+    "heading_count": 12,
+    "link_count": 43
+  },
+  "docs/docs/converted/api/interfaces/core_cascades.MakerJs.ICascadeModel.md": {
+    "word_count": 248,
+    "heading_count": 8,
+    "link_count": 24
+  },
+  "docs/docs/converted/api/interfaces/core_maker.IRefModelInModel.md": {
+    "word_count": 215,
+    "heading_count": 8,
+    "link_count": 20
+  },
+  "docs/docs/converted/api/interfaces/core_maker.IChainCallback.md": {
+    "word_count": 156,
+    "heading_count": 3,
+    "link_count": 14
+  },
+  "docs/docs/converted/api/interfaces/core_maker.IChain.md": {
+    "word_count": 268,
+    "heading_count": 8,
+    "link_count": 18
+  },
+  "docs/docs/converted/api/interfaces/types_jscad.export_.CSG.IArcOptions.md": {
+    "word_count": 254,
+    "heading_count": 8,
+    "link_count": 17
+  },
+  "docs/docs/converted/api/interfaces/core_schema.IPoint.md": {
+    "word_count": 117,
+    "heading_count": 3,
+    "link_count": 5
+  },
+  "docs/docs/converted/api/interfaces/core_schema.IBezierRange.md": {
+    "word_count": 171,
+    "heading_count": 5,
+    "link_count": 9
+  },
+  "docs/docs/converted/api/interfaces/core_schema.IModel.md": {
+    "word_count": 602,
+    "heading_count": 15,
+    "link_count": 57
+  },
+  "docs/docs/converted/api/interfaces/types_jscad.export_.CSG.IEllpiticalArcOptions.md": {
+    "word_count": 225,
+    "heading_count": 7,
+    "link_count": 15
+  },
+  "docs/docs/converted/api/interfaces/core_angle.IChainLink.md": {
+    "word_count": 168,
+    "heading_count": 6,
+    "link_count": 14
+  },
+  "docs/docs/converted/api/interfaces/core_exporter.IJsonExportOptions.md": {
+    "word_count": 236,
+    "heading_count": 7,
+    "link_count": 14
+  },
+  "docs/docs/converted/api/interfaces/core_schema.IPathBezierSeed.md": {
+    "word_count": 434,
+    "heading_count": 12,
+    "link_count": 39
+  },
+  "docs/docs/converted/api/interfaces/core_maker.IBoundingHex.md": {
+    "word_count": 599,
+    "heading_count": 14,
+    "link_count": 53
+  },
+  "docs/docs/converted/api/interfaces/core_maker.ISlope.md": {
+    "word_count": 212,
+    "heading_count": 7,
+    "link_count": 15
+  }
+}

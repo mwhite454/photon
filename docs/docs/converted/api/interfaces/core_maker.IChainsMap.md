@@ -23,12 +23,9 @@ IChainsMap | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
-* [core/maker](../modules/core_core.md)
+* [core/maker](../modules/core_maker.md)
 * IChainsMap
 
 # Interface IChainsMap
@@ -37,7 +34,6 @@ A map of chains by layer.
 
 #### Indexable
 
-* [layer: string]: [IChain](core_core.IChain.md)[]
 
 * Defined in [core/maker.ts:477](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L477)
 
@@ -58,6 +54,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Chain Theory](../index.md)
-- [Breaking](../index.md)
-- [Routes](../index.md)
+* [Chain Theory](../index.md)
+* [Breaking](../index.md)
+* [Routes](../index.md)

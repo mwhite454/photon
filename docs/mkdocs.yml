@@ -124,9 +124,13 @@ plugins:
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - awesome-pages
+  - excalidraw
   - git-revision-date-localized:
       enable_creation_date: true
       type: timeago
+      enable_git_follow: false
+      exclude:
+        - demos/node_modules/**/*
   - minify:
       minify_html: true
 
@@ -140,12 +144,16 @@ extra:
 markdown_extensions:
   - admonition
   - attr_list
-  - fenced_code
+  - pymdownx.highlight:
+      linenums: true
+      use_pygments: true
+  - pymdownx.superfences
   - footnotes
   - md_in_html
   - meta
   - tables
-  - toc
+  - toc:
+      permalink: true
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.details
@@ -154,7 +162,6 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.snippets:
       check_paths: true
-  - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.tasklist:
@@ -162,9 +169,11 @@ markdown_extensions:
   - pymdownx.tilde
   - pymdownx.blocks.details
   - pymdownx.blocks.tab
+  - pymdownx.blocks.caption
   - pymdownx.progressbar
   - shadcn.extensions.iconify
   - shadcn.extensions.codexec
+  - shadcn.extensions.echarts.alpha
 
 # CSS
 extra_css:

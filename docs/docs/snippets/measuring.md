@@ -23,7 +23,7 @@ tags:
 - measuring
 title: Measuring
 ---
-Browse to the [makerjs.measure](../api/modules/core_measure.html) module documentation to see all functions related to measuring.
+Browse to the [makerjs.measure](../converted/api/modules/core_measure.md) module documentation to see all functions related to measuring.
 
 To get the bounding rectangle of a path or a model, use:
 
@@ -33,7 +33,6 @@ To get the bounding rectangle of a path or a model, use:
 These functions return a measurement object with **high** and **low** points.
 
 Measure path example:
-
 
 ## Examples
 

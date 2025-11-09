@@ -19,9 +19,6 @@ layer | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/path](../modules/core_path.md)
@@ -35,12 +32,12 @@ Preparing search index...
 
   #### Parameters
 
-  + pathContext: [IPath](../interfaces/core_schema.IPath.md)
-  + layer: string
+  * pathContext: [IPath](../interfaces/core_schema.IPath.md)
+  * layer: string
 
   #### Returns [IPath](../interfaces/core_schema.IPath.md)
 
-  + Defined in [core/path.ts:106](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/path.ts#L106)
+  * Defined in [core/path.ts:106](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/path.ts#L106)
 
 ### Settings
 

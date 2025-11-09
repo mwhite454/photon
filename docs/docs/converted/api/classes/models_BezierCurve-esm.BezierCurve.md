@@ -21,9 +21,6 @@ BezierCurve | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [models/BezierCurve-esm](../modules/models_BezierCurve-esm.md)
@@ -39,28 +36,6 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
 * Defined in [models/BezierCurve-esm.ts:376](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/BezierCurve-esm.ts#L376)
 
-##### Index
-
-### Constructors
-
-[constructor](#constructor)
-
-### Properties
-
-[accuracy](#accuracy)
-[models](#models)
-[origin](#origin)
-[paths](#paths)
-[seed](#seed)
-[type](#type)
-[typeName](#typename)
-
-### Methods
-
-[computeLength](#computelength)
-[computePoint](#computepoint)
-[getBezierSeeds](#getbezierseeds)
-
 ## Constructors
 
 ### constructor
@@ -69,22 +44,22 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
   #### Parameters
 
-  + points: [IPoint](../interfaces/core_schema.IPoint.md)[]
-  + `Optional`accuracy: number
+  * points: [IPoint](../interfaces/core_schema.IPoint.md)[]
+  * `Optional`accuracy: number
 
   #### Returns BezierCurve
 
-  + Defined in [models/BezierCurve-esm.ts:384](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/BezierCurve-esm.ts#L384)
+  * Defined in [models/BezierCurve-esm.ts:384](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/BezierCurve-esm.ts#L384)
 * new BezierCurve(seed: [IPathBezierSeed](../interfaces/core_schema.IPathBezierSeed.md), accuracy?: number): BezierCurve
 
   #### Parameters
 
-  + seed: [IPathBezierSeed](../interfaces/core_schema.IPathBezierSeed.md)
-  + `Optional`accuracy: number
+  * seed: [IPathBezierSeed](../interfaces/core_schema.IPathBezierSeed.md)
+  * `Optional`accuracy: number
 
   #### Returns BezierCurve
 
-  + Defined in [models/BezierCurve-esm.ts:385](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/BezierCurve-esm.ts#L385)
+  * Defined in [models/BezierCurve-esm.ts:385](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/BezierCurve-esm.ts#L385)
 * new BezierCurve(
       origin: [IPoint](../interfaces/core_schema.IPoint.md),
       control: [IPoint](../interfaces/core_schema.IPoint.md),
@@ -94,14 +69,14 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
   #### Parameters
 
-  + origin: [IPoint](../interfaces/core_schema.IPoint.md)
-  + control: [IPoint](../interfaces/core_schema.IPoint.md)
-  + end: [IPoint](../interfaces/core_schema.IPoint.md)
-  + `Optional`accuracy: number
+  * origin: [IPoint](../interfaces/core_schema.IPoint.md)
+  * control: [IPoint](../interfaces/core_schema.IPoint.md)
+  * end: [IPoint](../interfaces/core_schema.IPoint.md)
+  * `Optional`accuracy: number
 
   #### Returns BezierCurve
 
-  + Defined in [models/BezierCurve-esm.ts:386](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/BezierCurve-esm.ts#L386)
+  * Defined in [models/BezierCurve-esm.ts:386](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/BezierCurve-esm.ts#L386)
 * new BezierCurve(
       origin: [IPoint](../interfaces/core_schema.IPoint.md),
       controls: [IPoint](../interfaces/core_schema.IPoint.md)[],
@@ -111,14 +86,14 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
   #### Parameters
 
-  + origin: [IPoint](../interfaces/core_schema.IPoint.md)
-  + controls: [IPoint](../interfaces/core_schema.IPoint.md)[]
-  + end: [IPoint](../interfaces/core_schema.IPoint.md)
-  + `Optional`accuracy: number
+  * origin: [IPoint](../interfaces/core_schema.IPoint.md)
+  * controls: [IPoint](../interfaces/core_schema.IPoint.md)[]
+  * end: [IPoint](../interfaces/core_schema.IPoint.md)
+  * `Optional`accuracy: number
 
   #### Returns BezierCurve
 
-  + Defined in [models/BezierCurve-esm.ts:387](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/BezierCurve-esm.ts#L387)
+  * Defined in [models/BezierCurve-esm.ts:387](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/BezierCurve-esm.ts#L387)
 * new BezierCurve(
       origin: [IPoint](../interfaces/core_schema.IPoint.md),
       control1: [IPoint](../interfaces/core_schema.IPoint.md),
@@ -129,15 +104,15 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
   #### Parameters
 
-  + origin: [IPoint](../interfaces/core_schema.IPoint.md)
-  + control1: [IPoint](../interfaces/core_schema.IPoint.md)
-  + control2: [IPoint](../interfaces/core_schema.IPoint.md)
-  + end: [IPoint](../interfaces/core_schema.IPoint.md)
-  + `Optional`accuracy: number
+  * origin: [IPoint](../interfaces/core_schema.IPoint.md)
+  * control1: [IPoint](../interfaces/core_schema.IPoint.md)
+  * control2: [IPoint](../interfaces/core_schema.IPoint.md)
+  * end: [IPoint](../interfaces/core_schema.IPoint.md)
+  * `Optional`accuracy: number
 
   #### Returns BezierCurve
 
-  + Defined in [models/BezierCurve-esm.ts:388](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/BezierCurve-esm.ts#L388)
+  * Defined in [models/BezierCurve-esm.ts:388](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/BezierCurve-esm.ts#L388)
 
 ## Properties
 
@@ -153,7 +128,7 @@ models: [IModelMap](../interfaces/core_schema.IModelMap.md)
 
 Optional map of models within this model.
 
-Implementation of [IModel](../interfaces/core_schema.IModel.md).[models](../interfaces/core_schema.IModel.md#models)
+Implementation of [IModel](../interfaces/core_schema.IModel.md).[models](../interfaces/core_schema.IModel.md#optionalmodels)
 
 * Defined in [models/BezierCurve-esm.ts:377](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/BezierCurve-esm.ts#L377)
 
@@ -163,7 +138,7 @@ origin: [IPoint](../interfaces/core_schema.IPoint.md)
 
 Optional origin location of this model.
 
-Implementation of [IModel](../interfaces/core_schema.IModel.md).[origin](../interfaces/core_schema.IModel.md#origin)
+Implementation of [IModel](../interfaces/core_schema.IModel.md).[origin](../interfaces/core_schema.IModel.md#optionalorigin)
 
 * Defined in [models/BezierCurve-esm.ts:379](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/BezierCurve-esm.ts#L379)
 
@@ -173,7 +148,7 @@ paths: [IPathMap](../interfaces/core_schema.IPathMap.md)
 
 Optional map of path objects in this model.
 
-Implementation of [IModel](../interfaces/core_schema.IModel.md).[paths](../interfaces/core_schema.IModel.md#paths)
+Implementation of [IModel](../interfaces/core_schema.IModel.md).[paths](../interfaces/core_schema.IModel.md#optionalpaths)
 
 * Defined in [models/BezierCurve-esm.ts:378](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/BezierCurve-esm.ts#L378)
 
@@ -189,11 +164,11 @@ type: string = BezierCurve.typeName
 
 A model may want to specify its type, but this value is not employed yet.
 
-Implementation of [IModel](../interfaces/core_schema.IModel.md).[type](../interfaces/core_schema.IModel.md#type)
+Implementation of [IModel](../interfaces/core_schema.IModel.md).[type](../interfaces/core_schema.IModel.md#optionaltype)
 
 * Defined in [models/BezierCurve-esm.ts:380](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/BezierCurve-esm.ts#L380)
 
-### `Static`typeName
+### `Static`typeName {#static-typename}
 
 typeName: string = 'BezierCurve'
 
@@ -201,46 +176,46 @@ typeName: string = 'BezierCurve'
 
 ## Methods
 
-### `Static`computeLength
+### `Static`computeLength {#static-computelength}
 
 * computeLength(seed: [IPathBezierSeed](../interfaces/core_schema.IPathBezierSeed.md)): number
 
   #### Parameters
 
-  + seed: [IPathBezierSeed](../interfaces/core_schema.IPathBezierSeed.md)
+  * seed: [IPathBezierSeed](../interfaces/core_schema.IPathBezierSeed.md)
 
   #### Returns number
 
-  + Defined in [models/BezierCurve-esm.ts:537](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/BezierCurve-esm.ts#L537)
+  * Defined in [models/BezierCurve-esm.ts:537](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/BezierCurve-esm.ts#L537)
 
-### `Static`computePoint
+### `Static`computePoint {#static-computepoint}
 
 * computePoint(seed: [IPathBezierSeed](../interfaces/core_schema.IPathBezierSeed.md), t: number): [IPoint](../interfaces/core_schema.IPoint.md)
 
   #### Parameters
 
-  + seed: [IPathBezierSeed](../interfaces/core_schema.IPathBezierSeed.md)
-  + t: number
+  * seed: [IPathBezierSeed](../interfaces/core_schema.IPathBezierSeed.md)
+  * t: number
 
   #### Returns [IPoint](../interfaces/core_schema.IPoint.md)
 
-  + Defined in [models/BezierCurve-esm.ts:542](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/BezierCurve-esm.ts#L542)
+  * Defined in [models/BezierCurve-esm.ts:542](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/BezierCurve-esm.ts#L542)
 
-### `Static`getBezierSeeds
+### `Static`getBezierSeeds {#static-getbezierseeds}
 
 * getBezierSeeds(
       curve: BezierCurve,
-      options?: [IFindChainsOptions](../interfaces/core_core.IFindChainsOptions.md),
+      options?: [IFindChainsOptions](../interfaces/core_maker.IFindChainsOptions.md),
   ): [IPath](../interfaces/core_schema.IPath.md)[] | { [layer: string]: [IPath](../interfaces/core_schema.IPath.md)[] }
 
   #### Parameters
 
-  + curve: BezierCurve
-  + options: [IFindChainsOptions](../interfaces/core_core.IFindChainsOptions.md) = {}
+  * curve: BezierCurve
+  * options: [IFindChainsOptions](../interfaces/core_maker.IFindChainsOptions.md) = {}
 
   #### Returns [IPath](../interfaces/core_schema.IPath.md)[] | { [layer: string]: [IPath](../interfaces/core_schema.IPath.md)[] }
 
-  + Defined in [models/BezierCurve-esm.ts:479](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/BezierCurve-esm.ts#L479)
+  * Defined in [models/BezierCurve-esm.ts:479](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/BezierCurve-esm.ts#L479)
 
 ### Settings
 
@@ -250,20 +225,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Constructors
-
-[constructor](#constructor)
-
-Properties
-
-[accuracy](#accuracy)[models](#models)[origin](#origin)[paths](#paths)[seed](#seed)[type](#type)[typeName](#typename)
-
-Methods
-
-[computeLength](#computelength)[computePoint](#computepoint)[getBezierSeeds](#getbezierseeds)
 
 [Photon](../index.md)
 

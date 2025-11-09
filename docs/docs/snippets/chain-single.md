@@ -29,7 +29,7 @@ tags:
 title: Chain Single
 ---
 Let's start with a drawing of a rectangle. A rectangle is a model, but we also implicitly know that a rectangle comprises a chain of 4 paths which connect end to end.
-Let's find this chain now using [model.findSingleChain(model)](../api/modules/core_model.html#findsinglechain):
+Let's find this chain now using [model.findSingleChain(model)](../converted/api/functions/core_model.findSingleChain.md):
 
 ## Examples
 
@@ -43,8 +43,10 @@ document.write(svg);
 const chain = model.findSingleChain(model);
 document.write(`found a chain with ${chain}`.links.length + ` links and endless=${chain}`.endless);
 ```
+
 Now, let's combine two rectangle models in a union.
 Notice that a chain will continue unconstrained by the fact that the two rectangle models are independent:
+
 ```javascript
 //combine 2 rectangles
 import { exporter, model, models } from '@7syllable/photon-core';

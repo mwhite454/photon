@@ -27,9 +27,6 @@ childrenOnChain | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/layout](../modules/core_layout.md)
@@ -41,12 +38,11 @@ Preparing search index...
 
 Before working with this feature, you should be familiar with:
 
-- [Intermediate Drawing](../index.md)
-
+* [Intermediate Drawing](../index.md)
 
 * childrenOnChain(
       parentModel: [IModel](../interfaces/core_schema.IModel.md),
-      onChain: [IChain](../interfaces/core_core.IChain.md),
+      onChain: [IChain](../interfaces/core_maker.IChain.md),
       baseline?: number,
       reversed?: boolean,
       contain?: boolean,
@@ -60,28 +56,28 @@ Before working with this feature, you should be familiar with:
 
   #### Parameters
 
-  + parentModel: [IModel](../interfaces/core_schema.IModel.md)
+  * parentModel: [IModel](../interfaces/core_schema.IModel.md)
 
     The model containing children to lay out.
-  + onChain: [IChain](../interfaces/core_core.IChain.md)
+  * onChain: [IChain](../interfaces/core_maker.IChain.md)
 
     The chain on which to lay out.
-  + baseline: number = 0
+  * baseline: number = 0
 
     Numeric percentage value of vertical displacement from the chain. Default is zero.
-  + reversed: boolean = false
+  * reversed: boolean = false
 
     Flag to travel along the chain in reverse. Default is false.
-  + contain: boolean = false
+  * contain: boolean = false
 
     Flag to contain the children layout within the length of the chain. Default is false.
-  + rotated: boolean = true
+  * rotated: boolean = true
 
   #### Returns [IModel](../interfaces/core_schema.IModel.md)
 
   The parentModel, for cascading.
 
-  + Defined in [core/layout.ts:197](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/layout.ts#L197)
+  * Defined in [core/layout.ts:197](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/layout.ts#L197)
 
 ### Settings
 
@@ -100,7 +96,7 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Chain Theory](../index.md)
-- [Routes](../index.md)
-- [Breaking](../index.md)
-- [Intermediate Drawing](../index.md)
+* [Chain Theory](../index.md)
+* [Routes](../index.md)
+* [Breaking](../index.md)
+* [Intermediate Drawing](../index.md)

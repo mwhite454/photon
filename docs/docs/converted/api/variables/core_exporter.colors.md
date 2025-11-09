@@ -20,9 +20,6 @@ colors | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/exporter](../modules/core_exporter.md)
@@ -56,21 +53,37 @@ Named colors, safe for CSS and DXF
 #### Type Declaration
 
 * ##### aqua: number
+
 * ##### black: number
+
 * ##### blue: number
+
 * ##### fuchsia: number
+
 * ##### gray: number
+
 * ##### green: number
+
 * ##### lime: number
+
 * ##### maroon: number
+
 * ##### navy: number
+
 * ##### olive: number
+
 * ##### orange: number
+
 * ##### purple: number
+
 * ##### red: number
+
 * ##### silver: number
+
 * ##### teal: number
+
 * ##### white: number
+
 * ##### yellow: number
 
 * Defined in [core/exporter.ts:71](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/exporter.ts#L71)

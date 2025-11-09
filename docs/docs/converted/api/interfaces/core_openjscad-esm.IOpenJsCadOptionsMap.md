@@ -21,9 +21,6 @@ IOpenJsCadOptionsMap | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/openjscad-esm](../modules/core_openjscad-esm.md)
@@ -35,7 +32,6 @@ Map of OpenJsCad export options.
 
 #### Indexable
 
-* [modelId: string]: [IOpenJsCadOptions](core_openjscad-esm.IOpenJsCadOptions.md)
 
 * Defined in [core/openjscad-esm.ts:502](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/openjscad-esm.ts#L502)
 

@@ -19,9 +19,6 @@ isSlopeEqual | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/equal](../modules/core_equal.md)
@@ -29,18 +26,18 @@ Preparing search index...
 
 # Function isSlopeEqual
 
-* isSlopeEqual(slopeA: [ISlope](../interfaces/core_core.ISlope.md), slopeB: [ISlope](../interfaces/core_core.ISlope.md)): boolean
+* isSlopeEqual(slopeA: [ISlope](../interfaces/core_maker.ISlope.md), slopeB: [ISlope](../interfaces/core_maker.ISlope.md)): boolean
 
   Check for slope equality.
 
   #### Parameters
 
-  + slopeA: [ISlope](../interfaces/core_core.ISlope.md)
-  + slopeB: [ISlope](../interfaces/core_core.ISlope.md)
+  * slopeA: [ISlope](../interfaces/core_maker.ISlope.md)
+  * slopeB: [ISlope](../interfaces/core_maker.ISlope.md)
 
   #### Returns boolean
 
-  + Defined in [core/equal.ts:137](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/equal.ts#L137)
+  * Defined in [core/equal.ts:137](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/equal.ts#L137)
 
 ### Settings
 

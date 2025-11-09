@@ -19,9 +19,6 @@ getAllCaptionsOffset | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/model](../modules/core_model.md)
@@ -35,7 +32,7 @@ Preparing search index...
 
   #### Parameters
 
-  + modelContext: [IModel](../interfaces/core_schema.IModel.md)
+  * modelContext: [IModel](../interfaces/core_schema.IModel.md)
 
     The model to search for Caption objects.
 
@@ -43,7 +40,7 @@ Preparing search index...
 
   Array of Caption objects.
 
-  + Defined in [core/model.ts:126](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/model.ts#L126)
+  * Defined in [core/model.ts:126](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/model.ts#L126)
 
 ### Settings
 

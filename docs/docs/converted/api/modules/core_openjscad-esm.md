@@ -20,10 +20,6 @@ title: core/openjscad-esm | Photon
 core/openjscad-esm | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * core/openjscad-esm
@@ -33,36 +29,18 @@ Preparing search index...
 ## Interfaces
 
 [IJscadCagOptions](../interfaces/core_openjscad-esm.IJscadCagOptions.md)
-
-
 [IJscadCsgOptions](../interfaces/core_openjscad-esm.IJscadCsgOptions.md)
-
-
 [IJscadExtrudeOptions](../interfaces/core_openjscad-esm.IJscadExtrudeOptions.md)
-
-
 [IJscadScriptOptions](../interfaces/core_openjscad-esm.IJscadScriptOptions.md)
-
-
 [IOpenJsCadOptions](../interfaces/core_openjscad-esm.IOpenJsCadOptions.md)
-
-
 [IOpenJsCadOptionsMap](../interfaces/core_openjscad-esm.IOpenJsCadOptionsMap.md)
-
-
 [IStatusCallback](../interfaces/core_openjscad-esm.IStatusCallback.md)
 
 ## Functions
 
 [toJscadCAG](../functions/core_openjscad-esm.toJscadCAG.md)
-
-
 [toJscadCSG](../functions/core_openjscad-esm.toJscadCSG.md)
-
-
 [toJscadScript](../functions/core_openjscad-esm.toJscadScript.md)
-
-
 [toJscadSTL](../functions/core_openjscad-esm.toJscadSTL.md)
 
 ### Settings
@@ -73,16 +51,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Interfaces
-
-[IJscadCagOptions](#ijscadcagoptions)[IJscadCsgOptions](#ijscadcsgoptions)[IJscadExtrudeOptions](#ijscadextrudeoptions)[IJscadScriptOptions](#ijscadscriptoptions)[IOpenJsCadOptions](#iopenjscadoptions)[IOpenJsCadOptionsMap](#iopenjscadoptionsmap)[IStatusCallback](#istatuscallback)
-
-Functions
-
-[toJscadCAG](#tojscadcag)[toJscadCSG](#tojscadcsg)[toJscadScript](#tojscadscript)[toJscadSTL](#tojscadstl)
 
 [Photon](../index.md)
 

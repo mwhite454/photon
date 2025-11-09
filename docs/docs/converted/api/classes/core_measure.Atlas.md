@@ -20,9 +20,6 @@ Atlas | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/measure](../modules/core_measure.md)
@@ -46,23 +43,6 @@ object with low and high points.
 
 * Defined in [core/measure.ts:595](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure.ts#L595)
 
-##### Index
-
-### Constructors
-
-[constructor](#constructor)
-
-### Properties
-
-[modelContext](#modelcontext)
-[modelMap](#modelmap)
-[modelsMeasured](#modelsmeasured)
-[pathMap](#pathmap)
-
-### Methods
-
-[measureModels](#measuremodels)
-
 ## Constructors
 
 ### constructor
@@ -73,13 +53,13 @@ object with low and high points.
 
   #### Parameters
 
-  + modelContext: [IModel](../interfaces/core_schema.IModel.md)
+  * modelContext: [IModel](../interfaces/core_schema.IModel.md)
 
     The model to measure.
 
   #### Returns Atlas
 
-  + Defined in [core/measure.ts:616](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure.ts#L616)
+  * Defined in [core/measure.ts:616](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure.ts#L616)
 
 ## Properties
 
@@ -93,7 +73,7 @@ The model to measure.
 
 ### modelMap
 
-modelMap: [IMeasureMap](../interfaces/core_core.IMeasureMap.md) = {}
+modelMap: [IMeasureMap](../interfaces/core_maker.IMeasureMap.md) = {}
 
 Map of model measurements, mapped by routeKey.
 
@@ -109,7 +89,7 @@ Flag that models have been measured.
 
 ### pathMap
 
-pathMap: [IMeasureMap](../interfaces/core_core.IMeasureMap.md) = {}
+pathMap: [IMeasureMap](../interfaces/core_maker.IMeasureMap.md) = {}
 
 Map of path measurements, mapped by routeKey.
 
@@ -123,7 +103,7 @@ Map of path measurements, mapped by routeKey.
 
   #### Returns void
 
-  + Defined in [core/measure.ts:619](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure.ts#L619)
+  * Defined in [core/measure.ts:619](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure.ts#L619)
 
 ### Settings
 
@@ -133,20 +113,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Constructors
-
-[constructor](#constructor)
-
-Properties
-
-[modelContext](#modelcontext)[modelMap](#modelmap)[modelsMeasured](#modelsmeasured)[pathMap](#pathmap)
-
-Methods
-
-[measureModels](#measuremodels)
 
 [Photon](../index.md)
 

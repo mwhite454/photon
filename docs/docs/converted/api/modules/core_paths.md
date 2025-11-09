@@ -23,10 +23,6 @@ title: core/paths | Photon
 core/paths | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * core/paths
@@ -36,17 +32,9 @@ Preparing search index...
 ## Classes
 
 [Arc](../classes/core_paths.Arc.md)
-
-
 [Chord](../classes/core_paths.Chord.md)
-
-
 [Circle](../classes/core_paths.Circle.md)
-
-
 [Line](../classes/core_paths.Line.md)
-
-
 [Parallel](../classes/core_paths.Parallel.md)
 
 ### Settings
@@ -58,12 +46,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Classes
-
-[Arc](#arc)[Chord](#chord)[Circle](#circle)[Line](#line)[Parallel](#parallel)
-
 [Photon](../index.md)
 
 * Loading...
@@ -72,6 +54,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Path Independence](../index.md)
-- [Models](../index.md)
-- [Path Constructors](../index.md)
+* [Path Independence](../index.md)
+* [Models](../index.md)
+* [Path Constructors](../index.md)

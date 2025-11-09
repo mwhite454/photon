@@ -117,7 +117,6 @@ This guide provides a comprehensive mapping of photon/core APIs to their photon/
 
 ### Before (photon/core - CommonJS)
 
-
 ## Examples
 
 ```javascript
@@ -189,6 +188,7 @@ document.body.innerHTML = svg;
 **Impact**: All imports must be updated
 
 **Migration**:
+
 ```javascript
 // Before
 const makerjs = require('@7syllable/photon-core');
@@ -204,6 +204,7 @@ import { models, paths, exporter } from '@7syllable/photon-core';
 **Impact**: Browser scripts must use `<script type="module">`
 
 **Migration**:
+
 ```html
 <!-- Before -->
 <script src="browser.maker.js"></script>
@@ -225,6 +226,7 @@ import { models, paths, exporter } from '@7syllable/photon-core';
 **Impact**: Use native JSON methods instead
 
 **Migration**:
+
 ```javascript
 // Before
 const json = makerjs.exporter.toJSON(model);
@@ -356,7 +358,7 @@ Use this checklist when migrating code:
 ## Related Topics
 
 - [Getting Started with photon/core](../getting-started/index.md)
-- [API Reference](../api/index.md)
+- [API Reference](../converted/api/index.md)
 - [Migration FAQs](./migration-faq.md)
 
 ## Support
@@ -364,5 +366,5 @@ Use this checklist when migrating code:
 If you encounter issues during migration:
 
 1. Check this mapping document for API equivalents
-2. Review the [photon/core API reference](../api/index.md)
+2. Review the [photon/core API reference](../converted/api/index.md)
 3. Open an issue on [GitHub](https://github.com/phenomnomnominal/photon) with migration questions

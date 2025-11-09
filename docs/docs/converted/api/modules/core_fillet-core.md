@@ -23,10 +23,6 @@ title: core/fillet-core | Photon
 core/fillet-core | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * core/fillet-core
@@ -50,6 +46,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Dogbones](../index.md)
-- [Chains](../index.md)
-- [Chain Fillet](../index.md)
+* [Dogbones](../index.md)
+* [Chains](../index.md)
+* [Chain Fillet](../index.md)

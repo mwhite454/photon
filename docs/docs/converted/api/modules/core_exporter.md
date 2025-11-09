@@ -24,10 +24,6 @@ title: core/exporter | Photon
 core/exporter | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * core/exporter
@@ -37,8 +33,6 @@ Preparing search index...
 ## Interfaces
 
 [IJsonExportOptions](../interfaces/core_exporter.IJsonExportOptions.md)
-
-
 [IStatusCallback](../interfaces/core_exporter.IStatusCallback.md)
 
 ## Variables
@@ -58,20 +52,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Interfaces
-
-[IJsonExportOptions](#ijsonexportoptions)[IStatusCallback](#istatuscallback)
-
-Variables
-
-[colors](#colors)
-
-Functions
-
-[toJson](#tojson)
-
 [Photon](../index.md)
 
 * Loading...
@@ -80,6 +60,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Exporting DXF](../index.md)
-- [SVG Styling](../index.md)
-- [Exporting PDF](../index.md)
+* [Exporting DXF](../index.md)
+* [SVG Styling](../index.md)
+* [Exporting PDF](../index.md)

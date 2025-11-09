@@ -19,9 +19,6 @@ distort | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/path](../modules/core_path.md)
@@ -35,13 +32,13 @@ Preparing search index...
 
   #### Parameters
 
-  + pathToDistort: [IPath](../interfaces/core_schema.IPath.md)
-  + scaleX: number
-  + scaleY: number
+  * pathToDistort: [IPath](../interfaces/core_schema.IPath.md)
+  * scaleX: number
+  * scaleY: number
 
   #### Returns [IPath](../interfaces/core_schema.IPath.md) | [IModel](../interfaces/core_schema.IModel.md)
 
-  + Defined in [core/path.ts:263](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/path.ts#L263)
+  * Defined in [core/path.ts:263](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/path.ts#L263)
 
 ### Settings
 

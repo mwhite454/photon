@@ -20,9 +20,6 @@ IFlowAnnotation | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/svg-esm](../modules/core_svg-esm.md)
@@ -35,12 +32,6 @@ interface IFlowAnnotation {
 }
 
 * Defined in [core/svg-esm.ts:360](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/svg-esm.ts#L360)
-
-##### Index
-
-### Properties
-
-[size](#size)
 
 ## Properties
 
@@ -58,12 +49,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[size](#size)
 
 [Photon](../index.md)
 

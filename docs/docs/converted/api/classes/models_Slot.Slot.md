@@ -21,9 +21,6 @@ Slot | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [models/Slot](../modules/models_Slot.md)
@@ -39,18 +36,6 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
 * Defined in [models/Slot.ts:10](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Slot.ts#L10)
 
-##### Index
-
-### Constructors
-
-[constructor](#constructor)
-
-### Properties
-
-[models](#models)
-[origin](#origin)
-[paths](#paths)
-
 ## Constructors
 
 ### constructor
@@ -64,14 +49,14 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
   #### Parameters
 
-  + origin: [IPoint](../interfaces/core_schema.IPoint.md)
-  + endPoint: [IPoint](../interfaces/core_schema.IPoint.md)
-  + radius: number
-  + isolateCaps: boolean = false
+  * origin: [IPoint](../interfaces/core_schema.IPoint.md)
+  * endPoint: [IPoint](../interfaces/core_schema.IPoint.md)
+  * radius: number
+  * isolateCaps: boolean = false
 
   #### Returns Slot
 
-  + Defined in [models/Slot.ts:15](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Slot.ts#L15)
+  * Defined in [models/Slot.ts:15](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Slot.ts#L15)
 
 ## Properties
 
@@ -113,16 +98,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Constructors
-
-[constructor](#constructor)
-
-Properties
-
-[models](#models)[origin](#origin)[paths](#paths)
 
 [Photon](../index.md)
 

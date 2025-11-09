@@ -22,9 +22,6 @@ originate | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/model](../modules/core_model.md)
@@ -38,10 +35,10 @@ Preparing search index...
 
   #### Parameters
 
-  + modelToOriginate: [IModel](../interfaces/core_schema.IModel.md)
+  * modelToOriginate: [IModel](../interfaces/core_schema.IModel.md)
 
     The model to originate.
-  + `Optional`origin: [IPoint](../interfaces/core_schema.IPoint.md)
+  * `Optional`origin: [IPoint](../interfaces/core_schema.IPoint.md)
 
     Optional offset reference point.
 
@@ -49,7 +46,7 @@ Preparing search index...
 
   The original model (for cascading).
 
-  + Defined in [core/model.ts:199](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/model.ts#L199)
+  * Defined in [core/model.ts:199](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/model.ts#L199)
 
 ### Settings
 

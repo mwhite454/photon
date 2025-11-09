@@ -19,9 +19,6 @@ mirror | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/path](../modules/core_path.md)
@@ -35,13 +32,13 @@ Preparing search index...
 
   #### Parameters
 
-  + pathToMirror: [IPath](../interfaces/core_schema.IPath.md)
-  + mirrorX: boolean
-  + mirrorY: boolean
+  * pathToMirror: [IPath](../interfaces/core_schema.IPath.md)
+  * mirrorX: boolean
+  * mirrorY: boolean
 
   #### Returns [IPath](../interfaces/core_schema.IPath.md)
 
-  + Defined in [core/path.ts:112](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/path.ts#L112)
+  * Defined in [core/path.ts:112](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/path.ts#L112)
 
 ### Settings
 

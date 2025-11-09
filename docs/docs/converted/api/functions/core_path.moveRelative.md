@@ -23,9 +23,6 @@ moveRelative | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/path](../modules/core_path.md)
@@ -39,13 +36,13 @@ Preparing search index...
 
   #### Parameters
 
-  + pathToMove: [IPath](../interfaces/core_schema.IPath.md)
-  + delta: [IPoint](../interfaces/core_schema.IPoint.md)
-  + `Optional`subtract: boolean
+  * pathToMove: [IPath](../interfaces/core_schema.IPath.md)
+  * delta: [IPoint](../interfaces/core_schema.IPoint.md)
+  * `Optional`subtract: boolean
 
   #### Returns [IPath](../interfaces/core_schema.IPath.md)
 
-  + Defined in [core/path.ts:156](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/path.ts#L156)
+  * Defined in [core/path.ts:156](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/path.ts#L156)
 
 ### Settings
 
@@ -64,6 +61,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Originating](../index.md)
-- [Scaling](../index.md)
-- [Rotating](../index.md)
+* [Originating](../index.md)
+* [Scaling](../index.md)
+* [Rotating](../index.md)

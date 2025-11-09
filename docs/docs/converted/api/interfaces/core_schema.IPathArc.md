@@ -25,9 +25,6 @@ IPathArc | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/schema](../modules/core_schema.md)
@@ -46,27 +43,16 @@ interface IPathArc {
     [type](#type): string;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.md#core/schema.IPathArc))
+#### Hierarchy ([View Summary](../hierarchy.md))
 
 * [IPathCircle](core_schema.IPathCircle.md)
-  + IPathArc
+  * IPathArc
 
 #### Implemented by
 
 * [Arc](../classes/core_paths.Arc.md)
 
 * Defined in [core/schema.ts:40](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/schema.ts#L40)
-
-##### Index
-
-### Properties
-
-[endAngle](#endangle)
-[layer?](#layer)
-[origin](#origin)
-[radius](#radius)
-[startAngle](#startangle)
-[type](#type)
 
 ## Properties
 
@@ -135,12 +121,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Properties
-
-[endAngle](#endangle)[layer](#layer)[origin](#origin)[radius](#radius)[startAngle](#startangle)[type](#type)
-
 [Photon](../index.md)
 
 * Loading...
@@ -149,6 +129,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Path Independence](../index.md)
-- [Models](../index.md)
-- [Path Constructors](../index.md)
+* [Path Independence](../index.md)
+* [Models](../index.md)
+* [Path Constructors](../index.md)

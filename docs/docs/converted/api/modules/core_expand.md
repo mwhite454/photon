@@ -20,10 +20,6 @@ title: core/expand | Photon
 core/expand | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * core/expand
@@ -33,14 +29,8 @@ Preparing search index...
 ## Functions
 
 [expand](../functions/core_expand.expand.md)
-
-
 [expandPaths](../functions/core_expand.expandPaths.md)
-
-
 [outline](../functions/core_expand.outline.md)
-
-
 [straighten](../functions/core_expand.straighten.md)
 
 ### Settings
@@ -51,12 +41,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Functions
-
-[expand](#expand)[expandPaths](#expandpaths)[outline](#outline)[straighten](#straighten)
 
 [Photon](../index.md)
 

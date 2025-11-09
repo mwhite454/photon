@@ -19,9 +19,6 @@ fromSlopeIntersection | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/point](../modules/core_point.md)
@@ -32,20 +29,20 @@ Preparing search index...
 * fromSlopeIntersection(
       lineA: [IPathLine](../interfaces/core_schema.IPathLine.md),
       lineB: [IPathLine](../interfaces/core_schema.IPathLine.md),
-      options?: [IPathIntersectionBaseOptions](../interfaces/core_core.IPathIntersectionBaseOptions.md),
+      options?: [IPathIntersectionBaseOptions](../interfaces/core_maker.IPathIntersectionBaseOptions.md),
   ): [IPoint](../interfaces/core_schema.IPoint.md)
 
   Calculates the intersection of slopes of two lines.
 
   #### Parameters
 
-  + lineA: [IPathLine](../interfaces/core_schema.IPathLine.md)
-  + lineB: [IPathLine](../interfaces/core_schema.IPathLine.md)
-  + options: [IPathIntersectionBaseOptions](../interfaces/core_core.IPathIntersectionBaseOptions.md) = {}
+  * lineA: [IPathLine](../interfaces/core_schema.IPathLine.md)
+  * lineB: [IPathLine](../interfaces/core_schema.IPathLine.md)
+  * options: [IPathIntersectionBaseOptions](../interfaces/core_maker.IPathIntersectionBaseOptions.md) = {}
 
   #### Returns [IPoint](../interfaces/core_schema.IPoint.md)
 
-  + Defined in [core/point.ts:102](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/point.ts#L102)
+  * Defined in [core/point.ts:102](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/point.ts#L102)
 
 ### Settings
 

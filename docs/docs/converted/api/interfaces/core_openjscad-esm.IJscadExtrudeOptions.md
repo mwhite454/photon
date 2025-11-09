@@ -20,9 +20,6 @@ IJscadExtrudeOptions | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/openjscad-esm](../modules/core_openjscad-esm.md)
@@ -33,23 +30,16 @@ Preparing search index...
 Jscad CAG extrusion options.
 
 interface IJscadExtrudeOptions {
-    [extrude](#extrude)?: number;
-    [z](#z)?: number;
+    [extrude](#optional-extrude)?: number;
+    [z](#optional-z)?: number;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.md#core/openjscad-esm.IJscadExtrudeOptions))
+#### Hierarchy ([View Summary](../hierarchy.md))
 
 * IJscadExtrudeOptions
-  + [IJscadCsgOptions](core_openjscad-esm.IJscadCsgOptions.md)
+  * [IJscadCsgOptions](core_openjscad-esm.IJscadCsgOptions.md)
 
 * Defined in [core/openjscad-esm.ts:529](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/openjscad-esm.ts#L529)
-
-##### Index
-
-### Properties
-
-[extrude?](#extrude)
-[z?](#z)
 
 ## Properties
 
@@ -77,12 +67,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[extrude](#extrude)[z](#z)
 
 [Photon](../index.md)
 

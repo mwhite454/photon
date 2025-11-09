@@ -19,10 +19,6 @@ title: core/intersect | Photon
 core/intersect | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * core/intersect
@@ -41,12 +37,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Functions
-
-[intersection](#intersection)
 
 [Photon](../index.md)
 

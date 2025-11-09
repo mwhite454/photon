@@ -24,9 +24,6 @@ breakPathsAtIntersections | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/combine](../modules/core_combine.md)
@@ -41,12 +38,12 @@ Preparing search index...
 
   #### Parameters
 
-  + modelToBreak: [IModel](../interfaces/core_schema.IModel.md)
-  + `Optional`modelToIntersect: [IModel](../interfaces/core_schema.IModel.md)
+  * modelToBreak: [IModel](../interfaces/core_schema.IModel.md)
+  * `Optional`modelToIntersect: [IModel](../interfaces/core_schema.IModel.md)
 
   #### Returns [IModel](../interfaces/core_schema.IModel.md)
 
-  + Defined in [core/combine.ts:294](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/combine.ts#L294)
+  * Defined in [core/combine.ts:294](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/combine.ts#L294)
 
 ### Settings
 
@@ -65,6 +62,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Path Independence](../index.md)
-- [Models](../index.md)
-- [Path Constructors](../index.md)
+* [Path Independence](../index.md)
+* [Models](../index.md)
+* [Path Constructors](../index.md)

@@ -20,9 +20,6 @@ layer | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/model](../modules/core_model.md)
@@ -41,10 +38,10 @@ Preparing search index...
 
   #### Parameters
 
-  + modelContext: [IModel](../interfaces/core_schema.IModel.md)
+  * modelContext: [IModel](../interfaces/core_schema.IModel.md)
 
     The model to set the layer.
-  + layer: string
+  * layer: string
 
     The layer name.
 
@@ -52,7 +49,7 @@ Preparing search index...
 
   The original model (for cascading).
 
-  + Defined in [core/model.ts:187](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/model.ts#L187)
+  * Defined in [core/model.ts:187](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/model.ts#L187)
 
 ### Settings
 

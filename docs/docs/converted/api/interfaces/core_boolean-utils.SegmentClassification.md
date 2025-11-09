@@ -19,9 +19,6 @@ SegmentClassification | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/boolean-utils](../modules/core_boolean-utils.md)
@@ -35,13 +32,6 @@ interface SegmentClassification {
 }
 
 * Defined in [core/boolean-utils.ts:11](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/boolean-utils.ts#L11)
-
-##### Index
-
-### Properties
-
-[isDuplicate](#isduplicate)
-[isInside](#isinside)
 
 ## Properties
 
@@ -65,12 +55,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[isDuplicate](#isduplicate)[isInside](#isinside)
 
 [Photon](../index.md)
 

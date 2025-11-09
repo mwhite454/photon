@@ -19,9 +19,6 @@ isLineOverlapping | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/measure](../modules/core_measure.md)
@@ -39,13 +36,13 @@ Preparing search index...
 
   #### Parameters
 
-  + lineA: [IPathLine](../interfaces/core_schema.IPathLine.md)
+  * lineA: [IPathLine](../interfaces/core_schema.IPathLine.md)
 
     The line to test.
-  + lineB: [IPathLine](../interfaces/core_schema.IPathLine.md)
+  * lineB: [IPathLine](../interfaces/core_schema.IPathLine.md)
 
     The line to check for overlap.
-  + excludeTangents: boolean
+  * excludeTangents: boolean
 
     Boolean to exclude exact endpoints and only look for deep overlaps.
 
@@ -53,7 +50,7 @@ Preparing search index...
 
   Boolean true if lineA is overlapped with lineB.
 
-  + Defined in [core/measure.ts:295](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure.ts#L295)
+  * Defined in [core/measure.ts:295](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure.ts#L295)
 
 ### Settings
 

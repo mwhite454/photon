@@ -19,9 +19,6 @@ mirror | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/angle](../modules/core_angle.md)
@@ -35,13 +32,13 @@ Preparing search index...
 
   #### Parameters
 
-  + angleInDegrees: number
-  + mirrorX: boolean
-  + mirrorY: boolean
+  * angleInDegrees: number
+  * mirrorX: boolean
+  * mirrorY: boolean
 
   #### Returns number
 
-  + Defined in [core/angle.ts:98](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/angle.ts#L98)
+  * Defined in [core/angle.ts:98](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/angle.ts#L98)
 
 ### Settings
 

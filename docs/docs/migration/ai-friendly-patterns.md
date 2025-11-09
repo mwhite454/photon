@@ -106,6 +106,7 @@ const rectangle = new models.Rectangle(100, 50);
 ```
 
 **Expected Output**: A rectangle model with 100x50 dimensions.
+
 ```
 
 ### Related Topics Section
@@ -116,7 +117,7 @@ Appears at the end of the page:
 ## Related Topics
 
 - [Advanced Shapes](../advanced-drawing/shapes.md)
-- [Exporting SVG](../exporting/svg.md)
+- [Exporting SVG](../exporting/index.md)
 ```
 
 ## Structured Data (JSON-LD)
@@ -160,6 +161,7 @@ import { models } from '@7syllable/photon-core';
 
 const circle = new models.Circle(50);
 ```
+
 ```
 
 ### Language Tags

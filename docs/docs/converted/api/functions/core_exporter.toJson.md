@@ -21,9 +21,6 @@ toJson | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/exporter](../modules/core_exporter.md)
@@ -37,22 +34,24 @@ Preparing search index...
 
   #### Parameters
 
-  + itemToExport: any
+  * itemToExport: any
 
     Item to render: may be a path, an array of paths, or a model object.
-  + options: [IJsonExportOptions](../interfaces/core_exporter.IJsonExportOptions.md) = {}
+  * options: [IJsonExportOptions](../interfaces/core_exporter.IJsonExportOptions.md) = {}
 
     Rendering options object.
 
     Options for JSON export.
 
-    - ##### `Optional`accuracy?: number
+    * ##### `Optional`accuracy?: number
 
       Optional exemplar of number of decimal places.
-    - ##### `Optional`indentation?: number
+
+    * ##### `Optional`indentation?: number
 
       Optional number of characters to indent after a newline.
-    - ##### `Optional`units?: string
+
+    * ##### `Optional`units?: string
 
       Optional unit system to embed in exported file, if the export format allows alternate unit systems.
 
@@ -60,7 +59,7 @@ Preparing search index...
 
   String of DXF content.
 
-  + Defined in [core/exporter.ts:42](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/exporter.ts#L42)
+  * Defined in [core/exporter.ts:42](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/exporter.ts#L42)
 
 ### Settings
 

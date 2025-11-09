@@ -21,9 +21,6 @@ Text | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [models/Text](../modules/models_Text.md)
@@ -38,20 +35,6 @@ A model is a composite object which may contain a map of paths, or a map of mode
 * [IModel](../interfaces/core_schema.IModel.md)
 
 * Defined in [models/Text.ts:12](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Text.ts#L12)
-
-##### Index
-
-### Constructors
-
-[constructor](#constructor)
-
-### Properties
-
-[models](#models)
-
-### Methods
-
-[glyphToModel](#glyphtomodel)
 
 ## Constructors
 
@@ -71,25 +54,25 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
   #### Parameters
 
-  + font: Font
+  * font: Font
 
     OpenType.Font object.
-  + text: string
+  * text: string
 
     String of text to render.
-  + fontSize: number
+  * fontSize: number
 
     Font size.
-  + combine: boolean = false
+  * combine: boolean = false
 
     Flag (default false) to perform a combineUnion upon each character with characters to the left and right.
-  + centerCharacterOrigin: boolean = false
+  * centerCharacterOrigin: boolean = false
 
     Flag (default false) to move the x origin of each character to the center. Useful for rotating text characters.
-  + `Optional`bezierAccuracy: number
+  * `Optional`bezierAccuracy: number
 
     Optional accuracy of Bezier curves.
-  + `Optional`opentypeOptions: RenderOptions
+  * `Optional`opentypeOptions: RenderOptions
 
     Optional opentype.RenderOptions object.
 
@@ -97,7 +80,7 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
   Model of the text.
 
-  + Defined in [models/Text.ts:26](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Text.ts#L26)
+  * Defined in [models/Text.ts:26](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Text.ts#L26)
 
 ## Properties
 
@@ -121,13 +104,13 @@ Implementation of [IModel](../interfaces/core_schema.IModel.md).[models](../inte
 
   #### Parameters
 
-  + glyph: Glyph
+  * glyph: Glyph
 
     Opentype.Glyph object.
-  + fontSize: number
+  * fontSize: number
 
     Font size.
-  + `Optional`bezierAccuracy: number
+  * `Optional`bezierAccuracy: number
 
     Optional accuracy of Bezier curves.
 
@@ -135,7 +118,7 @@ Implementation of [IModel](../interfaces/core_schema.IModel.md).[models](../inte
 
   Model of the glyph.
 
-  + Defined in [models/Text.ts:81](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Text.ts#L81)
+  * Defined in [models/Text.ts:81](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Text.ts#L81)
 
 ### Settings
 
@@ -145,20 +128,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Constructors
-
-[constructor](#constructor)
-
-Properties
-
-[models](#models)
-
-Methods
-
-[glyphToModel](#glyphtomodel)
 
 [Photon](../index.md)
 

@@ -22,9 +22,6 @@ ConnectTheDots | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [models/ConnectTheDots](../modules/models_ConnectTheDots.md)
@@ -39,16 +36,6 @@ A model is a composite object which may contain a map of paths, or a map of mode
 * [IModel](../interfaces/core_schema.IModel.md)
 
 * Defined in [models/ConnectTheDots.ts:30](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/ConnectTheDots.ts#L30)
-
-##### Index
-
-### Constructors
-
-[constructor](#constructor)
-
-### Properties
-
-[paths](#paths)
 
 ## Constructors
 
@@ -67,13 +54,13 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
   #### Parameters
 
-  + numericList: string
+  * numericList: string
 
     String containing a list of numbers which can be delimited by spaces, commas, or anything non-numeric (Note: [exponential notation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toExponential) is allowed).
 
   #### Returns ConnectTheDots
 
-  + Defined in [models/ConnectTheDots.ts:43](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/ConnectTheDots.ts#L43)
+  * Defined in [models/ConnectTheDots.ts:43](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/ConnectTheDots.ts#L43)
 * new ConnectTheDots(isClosed: boolean, numericList: string): ConnectTheDots
 
   Create a model by connecting points designated in a string. The model may be closed, or left open.
@@ -87,16 +74,16 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
   #### Parameters
 
-  + isClosed: boolean
+  * isClosed: boolean
 
     Flag to specify if last point should connect to the first point.
-  + numericList: string
+  * numericList: string
 
     String containing a list of numbers which can be delimited by spaces, commas, or anything non-numeric (Note: [exponential notation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toExponential) is allowed).
 
   #### Returns ConnectTheDots
 
-  + Defined in [models/ConnectTheDots.ts:56](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/ConnectTheDots.ts#L56)
+  * Defined in [models/ConnectTheDots.ts:56](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/ConnectTheDots.ts#L56)
 * new ConnectTheDots(coords: number[]): ConnectTheDots
 
   Create a model by connecting points designated in a numeric array. The model will be 'closed' - i.e. the last point will connect to the first point.
@@ -110,13 +97,13 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
   #### Parameters
 
-  + coords: number[]
+  * coords: number[]
 
     Array of coordinates.
 
   #### Returns ConnectTheDots
 
-  + Defined in [models/ConnectTheDots.ts:68](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/ConnectTheDots.ts#L68)
+  * Defined in [models/ConnectTheDots.ts:68](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/ConnectTheDots.ts#L68)
 * new ConnectTheDots(isClosed: boolean, coords: number[]): ConnectTheDots
 
   Create a model by connecting points designated in a numeric array. The model may be closed, or left open.
@@ -130,16 +117,16 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
   #### Parameters
 
-  + isClosed: boolean
+  * isClosed: boolean
 
     Flag to specify if last point should connect to the first point.
-  + coords: number[]
+  * coords: number[]
 
     Array of coordinates.
 
   #### Returns ConnectTheDots
 
-  + Defined in [models/ConnectTheDots.ts:81](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/ConnectTheDots.ts#L81)
+  * Defined in [models/ConnectTheDots.ts:81](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/ConnectTheDots.ts#L81)
 * new ConnectTheDots(isClosed: boolean, points: [IPoint](../interfaces/core_schema.IPoint.md)[]): ConnectTheDots
 
   Create a model by connecting points designated in an array of points. The model may be closed, or left open.
@@ -153,16 +140,16 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
   #### Parameters
 
-  + isClosed: boolean
+  * isClosed: boolean
 
     Flag to specify if last point should connect to the first point.
-  + points: [IPoint](../interfaces/core_schema.IPoint.md)[]
+  * points: [IPoint](../interfaces/core_schema.IPoint.md)[]
 
     Array of IPoints.
 
   #### Returns ConnectTheDots
 
-  + Defined in [models/ConnectTheDots.ts:94](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/ConnectTheDots.ts#L94)
+  * Defined in [models/ConnectTheDots.ts:94](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/ConnectTheDots.ts#L94)
 
 ## Properties
 
@@ -184,16 +171,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Constructors
-
-[constructor](#constructor)
-
-Properties
-
-[paths](#paths)
 
 [Photon](../index.md)
 

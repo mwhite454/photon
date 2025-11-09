@@ -21,9 +21,6 @@ addTo | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/model](../modules/core_model.md)
@@ -49,16 +46,16 @@ Preparing search index...
 
   #### Parameters
 
-  + childModel: [IModel](../interfaces/core_schema.IModel.md)
+  * childModel: [IModel](../interfaces/core_schema.IModel.md)
 
     The model to add.
-  + parentModel: [IModel](../interfaces/core_schema.IModel.md)
+  * parentModel: [IModel](../interfaces/core_schema.IModel.md)
 
     The model to add to.
-  + childModelId: string
+  * childModelId: string
 
     The id of the child model.
-  + overWrite: boolean = false
+  * overWrite: boolean = false
 
     Optional flag to overwrite any model referenced by childModelId. Default is false, which will create an id similar to childModelId.
 
@@ -66,7 +63,7 @@ Preparing search index...
 
   The original model (for cascading).
 
-  + Defined in [core/model.ts:88](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/model.ts#L88)
+  * Defined in [core/model.ts:88](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/model.ts#L88)
 
 ### Settings
 

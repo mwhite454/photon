@@ -20,9 +20,6 @@ rotate | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/model](../modules/core_model.md)
@@ -40,13 +37,13 @@ Preparing search index...
 
   #### Parameters
 
-  + modelToRotate: [IModel](../interfaces/core_schema.IModel.md)
+  * modelToRotate: [IModel](../interfaces/core_schema.IModel.md)
 
     The model to rotate.
-  + angleInDegrees: number
+  * angleInDegrees: number
 
     The amount of rotation, in degrees.
-  + rotationOrigin: [IPoint](../interfaces/core_schema.IPoint.md) = ...
+  * rotationOrigin: [IPoint](../interfaces/core_schema.IPoint.md) = ...
 
     The center point of rotation.
 
@@ -54,7 +51,7 @@ Preparing search index...
 
   The original model (for cascading).
 
-  + Defined in [core/model.ts:383](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/model.ts#L383)
+  * Defined in [core/model.ts:383](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/model.ts#L383)
 
 ### Settings
 

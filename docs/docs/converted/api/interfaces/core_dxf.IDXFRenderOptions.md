@@ -20,9 +20,6 @@ IDXFRenderOptions | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/dxf](../modules/core_dxf.md)
@@ -33,31 +30,20 @@ Preparing search index...
 DXF rendering options.
 
 interface IDXFRenderOptions {
-    [accuracy](#accuracy)?: number;
-    [fontSize](#fontsize)?: number;
-    [layerOptions](#layeroptions)?: { [layerId: string]: [IDXFLayerOptions](core_dxf.IDXFLayerOptions.md) };
-    [pointMatchingDistance](#pointmatchingdistance)?: number;
-    [units](#units)?: string;
-    [usePOLYLINE](#usepolyline)?: boolean;
+    accuracy?: number;
+    fontSize?: number;
+    layerOptions?: { [layerId: string]: [IDXFLayerOptions](core_dxf.IDXFLayerOptions.md) };
+    pointMatchingDistance?: number;
+    units?: string;
+    usePOLYLINE?: boolean;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.md#core/dxf.IDXFRenderOptions))
+#### Hierarchy
 
-* [IPointMatchOptions](core_core.IPointMatchOptions.md)
-  + IDXFRenderOptions
+* [IPointMatchOptions](core_maker.IPointMatchOptions.md)
+  * IDXFRenderOptions
 
 * Defined in [core/dxf.ts:550](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/dxf.ts#L550)
-
-##### Index
-
-### Properties
-
-[accuracy?](#accuracy)
-[fontSize?](#fontsize)
-[layerOptions?](#layeroptions)
-[pointMatchingDistance?](#pointmatchingdistance)
-[units?](#units)
-[usePOLYLINE?](#usepolyline)
 
 ## Properties
 
@@ -93,7 +79,7 @@ pointMatchingDistance?: number
 
 Max distance to consider two points as the same.
 
-Inherited from [IPointMatchOptions](core_core.IPointMatchOptions.md).[pointMatchingDistance](core_core.IPointMatchOptions.md#pointmatchingdistance)
+Inherited from [IPointMatchOptions](core_maker.IPointMatchOptions.md).[pointMatchingDistance](core_maker.IPointMatchOptions.md#pointmatchingdistance)
 
 * Defined in [core/maker.ts:282](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L282)
 
@@ -123,12 +109,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[accuracy](#accuracy)[fontSize](#fontsize)[layerOptions](#layeroptions)[pointMatchingDistance](#pointmatchingdistance)[units](#units)[usePOLYLINE](#usepolyline)
 
 [Photon](../index.md)
 

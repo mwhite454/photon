@@ -21,9 +21,6 @@ toSVG | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/svg-esm](../modules/core_svg-esm.md)
@@ -35,12 +32,12 @@ Preparing search index...
 
   #### Parameters
 
-  + itemToExport: any
-  + options: [ISVGRenderOptions](../interfaces/core_svg-esm.ISVGRenderOptions.md) = {}
+  * itemToExport: any
+  * options: [ISVGRenderOptions](../interfaces/core_svg-esm.ISVGRenderOptions.md) = {}
 
   #### Returns string
 
-  + Defined in [core/svg-esm.ts:421](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/svg-esm.ts#L421)
+  * Defined in [core/svg-esm.ts:421](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/svg-esm.ts#L421)
 
 ### Settings
 

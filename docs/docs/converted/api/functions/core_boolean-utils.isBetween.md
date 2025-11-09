@@ -19,9 +19,6 @@ isBetween | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/boolean-utils](../modules/core_boolean-utils.md)
@@ -39,15 +36,15 @@ Preparing search index...
 
   #### Parameters
 
-  + valueInQuestion: number
-  + limitA: number
-  + limitB: number
-  + exclusive: boolean
-  + tolerance: number = DEFAULT\_POINT\_MATCHING\_DISTANCE
+  * valueInQuestion: number
+  * limitA: number
+  * limitB: number
+  * exclusive: boolean
+  * tolerance: number = DEFAULT\_POINT\_MATCHING\_DISTANCE
 
   #### Returns boolean
 
-  + Defined in [core/boolean-utils.ts:46](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/boolean-utils.ts#L46)
+  * Defined in [core/boolean-utils.ts:46](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/boolean-utils.ts#L46)
 
 ### Settings
 

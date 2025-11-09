@@ -23,9 +23,6 @@ IChainLink | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/angle](../modules/core_angle.md)
@@ -39,13 +36,6 @@ interface IChainLink {
 }
 
 * Defined in [core/angle.ts:9](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/angle.ts#L9)
-
-##### Index
-
-### Properties
-
-[reversed](#reversed)
-[walkedPath](#walkedpath)
 
 ## Properties
 
@@ -70,12 +60,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Properties
-
-[reversed](#reversed)[walkedPath](#walkedpath)
-
 [Photon](../index.md)
 
 * Loading...
@@ -84,6 +68,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Chain Theory](../index.md)
-- [Breaking](../index.md)
-- [Routes](../index.md)
+* [Chain Theory](../index.md)
+* [Breaking](../index.md)
+* [Routes](../index.md)

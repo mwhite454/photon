@@ -20,9 +20,6 @@ Chord | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/paths](../modules/core_paths.md)
@@ -42,18 +39,6 @@ Arc to use as the basic for the chord.
 
 * Defined in [core/paths.ts:351](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/paths.ts#L351)
 
-##### Index
-
-### Constructors
-
-[constructor](#constructor)
-
-### Properties
-
-[end](#end)
-[origin](#origin)
-[type](#type)
-
 ## Constructors
 
 ### constructor
@@ -62,11 +47,11 @@ Arc to use as the basic for the chord.
 
   #### Parameters
 
-  + arc: [IPathArc](../interfaces/core_schema.IPathArc.md)
+  * arc: [IPathArc](../interfaces/core_schema.IPathArc.md)
 
   #### Returns Chord
 
-  + Defined in [core/paths.ts:356](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/paths.ts#L356)
+  * Defined in [core/paths.ts:356](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/paths.ts#L356)
 
 ## Properties
 
@@ -108,16 +93,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Constructors
-
-[constructor](#constructor)
-
-Properties
-
-[end](#end)[origin](#origin)[type](#type)
 
 [Photon](../index.md)
 

@@ -18,10 +18,6 @@ title: core/dxf | Photon
 core/dxf | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * core/dxf
@@ -31,8 +27,6 @@ Preparing search index...
 ## Interfaces
 
 [IDXFLayerOptions](../interfaces/core_dxf.IDXFLayerOptions.md)
-
-
 [IDXFRenderOptions](../interfaces/core_dxf.IDXFRenderOptions.md)
 
 ## Functions
@@ -47,16 +41,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Interfaces
-
-[IDXFLayerOptions](#idxflayeroptions)[IDXFRenderOptions](#idxfrenderoptions)
-
-Functions
-
-[toDXF](#todxf)
 
 [Photon](../index.md)
 

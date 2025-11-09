@@ -26,6 +26,7 @@ title: Cascading Functions
 ---
 When calling a function, you can pass its output directly into another function. This is called cascading.
 This lets you do multiple operations in one statement. Here we will center, rotate and move a square:
+
 ```javascript
 //cascade functions
 import { exporter, model, models } from '@7syllable/photon-core';
@@ -48,5 +49,6 @@ square: square
 const svg = exporter.toSVG(drawing);
 document.write(svg);
 ```
+
 This is convenient, but it also has the drawback of making the code less readable. As more function calls are added,
 the parameters associated with the call are separated outward. Also notice that the final operation (moveRelative) appears at the beginning of the statement.

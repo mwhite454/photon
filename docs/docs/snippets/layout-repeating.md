@@ -49,6 +49,7 @@ document.write(exporter.toSVG(grooves));
 
 Call [makerjs.layout.cloneToRow(path or model, count, [optional] margin)](/docs/api/modules/makerjs.layout.html#clonetorow) to repeatedly clone and layout in a row.
 The interval will be the width of the path's or model's bounding box. Extra horizontal margin is optional.
+
 ```javascript
 import { exporter, layout, model, models } from '@7syllable/photon-core';
 //grill of ovals
@@ -61,6 +62,7 @@ document.write(exporter.toSVG(grill));
 
 Call [makerjs.layout.cloneToGrid(path or model, xcount, ycount, [optional] margin)](/docs/api/modules/makerjs.layout.html#clonetogrid) to repeatedly clone and layout in a grid.
 The interval will be the path's or model's bounding box. Extra margin is optional.
+
 ```javascript
 import { exporter, layout, model, models } from '@7syllable/photon-core';
 //grill of rounded squares
@@ -73,6 +75,7 @@ document.write(exporter.toSVG(grid));
 
 Call [makerjs.layout.cloneToBrick(path or model, xcount, ycount, [optional] margin)](/docs/api/modules/makerjs.layout.html#clonetobrick) to repeatedly clone and layout in a brick wall format.
 The interval will be the path's or model's bounding box. Extra margin is optional.
+
 ```javascript
 import { exporter, layout, model, models } from '@7syllable/photon-core';
 //brick wall
@@ -85,6 +88,7 @@ document.write(exporter.toSVG(wall));
 
 Call [makerjs.layout.cloneToHoneycomb(path or model, xcount, ycount, [optional] margin)](/docs/api/modules/makerjs.layout.html#clonetohoneycomb) to repeatedly clone and layout in a honeycomb format.
 The interval will be the path's or model's bounding hexagon. Extra margin is optional.
+
 ```javascript
 import { exporter, layout, model, models } from '@7syllable/photon-core';
 //Honeycomb
@@ -96,6 +100,7 @@ document.write(exporter.toSVG(pattern));
 #### Radial
 
 Call [makerjs.layout.cloneToRadial(path or model, count, angleInDegrees, [optional] rotationOrigin)](/docs/api/modules/makerjs.layout.html#clonetoradial) to repeatedly clone and layout in a radial format.
+
 ```javascript
 import { exporter, layout, model, models } from '@7syllable/photon-core';
 //spinner

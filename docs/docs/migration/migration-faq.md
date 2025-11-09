@@ -46,17 +46,20 @@ The core API remains largely the same - most breaking changes are in how you imp
 **A:** Yes. A few functions from maker.js have not yet been ported to photon/core:
 
 **Missing Functions** (as of v0.18.1):
+
 - `model.expandPaths()` - Expand paths with stroke thickness
 - `model.outline()` - Create outline around model
 
 **Partially Working**:
+
 - `model.simplify()` - Function exists but some examples fail due to missing dependencies
 
 **Status**: See [GitHub Issue #3](https://github.com/mwhite454/photon/issues/3) for updates and workarounds.
 
 **Affected Documentation**: Pages documenting these functions include warning banners. Examples will not execute until these functions are restored.
 
-**Workarounds**: 
+**Workarounds**:
+
 - For `expandPaths()`: Use path-level expansion where possible
 - For `outline()`: Manually create outline paths
 - Watch GitHub issue for restoration timeline
@@ -86,7 +89,6 @@ Choose one and stick with it. For new projects, use photon/core.
 ### Q: How do I install photon/core?
 
 **A:** Using npm or yarn:
-
 
 ## Examples
 
@@ -288,8 +290,8 @@ const fillets = chainOps.fillet(chain, 10);
 **A:** Check these resources:
 
 - [Getting Started Guide](../getting-started/index.md)
-- [API Reference](../api/index.md)
-- [Code Examples](../examples/index.md)
+- [API Reference](../converted/api/index.md)
+- [Code Examples](../demos/index.html)
 - [API Migration Guide](./api-mapping.md)
 
 ### Q: I found a bug, where do I report it?
@@ -310,11 +312,11 @@ const fillets = chainOps.fillet(chain, 10);
 3. Make your changes with tests
 4. Submit a pull request
 
-See [Contributing Guide](../../CONTRIBUTING.md) for details.
+See [Contributing Guide](../../../CONTRIBUTING.md) for details.
 
 ## Related Resources
 
 - [API Migration Guide](./api-mapping.md) - Complete API mapping reference
 - [Getting Started](../getting-started/index.md) - Quick start guide
-- [API Documentation](../api/index.md) - Full API reference
-- [Examples](../examples/index.md) - Code examples and tutorials
+- [API Documentation](../converted/api/index.md) - Full API reference
+- [Examples](../demos/index.html) - Code examples and tutorials

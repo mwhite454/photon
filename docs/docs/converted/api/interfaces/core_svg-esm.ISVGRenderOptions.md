@@ -21,9 +21,6 @@ ISVGRenderOptions | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/svg-esm](../modules/core_svg-esm.md)
@@ -32,55 +29,32 @@ Preparing search index...
 # Interface ISVGRenderOptions
 
 interface ISVGRenderOptions {
-    [accuracy](#accuracy)?: number;
-    [annotate](#annotate)?: boolean;
-    [className](#classname)?: string;
-    [cssStyle](#cssstyle)?: string;
-    [fill](#fill)?: string;
-    [fillRule](#fillrule)?: "evenodd" | "nonzero";
-    [flow](#flow)?: [IFlowAnnotation](core_svg-esm.IFlowAnnotation.md);
-    [fontSize](#fontsize)?: string;
-    [layerOptions](#layeroptions)?: Record<string, [ISVGElementRenderOptions](core_svg-esm.ISVGElementRenderOptions.md)>;
-    [origin](#origin)?: [IPoint](core_schema.IPoint.md);
-    [scale](#scale)?: number;
-    [scalingStroke](#scalingstroke)?: boolean;
-    [stroke](#stroke)?: string;
-    [strokeWidth](#strokewidth)?: string;
-    [svgAttrs](#svgattrs)?: [IXmlTagAttrs](core_xml.IXmlTagAttrs.md);
-    [units](#units)?: string;
-    [useSvgPathOnly](#usesvgpathonly)?: boolean;
-    [viewBox](#viewbox)?: boolean;
+    [accuracy](#optional-accuracy)?: number;
+    [annotate](#optional-annotate)?: boolean;
+    [className](#optional-classname)?: string;
+    [cssStyle](#optional-cssstyle)?: string;
+    [fill](#optional-fill)?: string;
+    [fillRule](#optional-fillrule)?: "evenodd" | "nonzero";
+    [flow](#optional-flow)?: [IFlowAnnotation](core_svg-esm.IFlowAnnotation.md);
+    [fontSize](#optional-fontsize)?: string;
+    [layerOptions](#optional-layeroptions)?: Record<string, [ISVGElementRenderOptions](core_svg-esm.ISVGElementRenderOptions.md)>;
+    [origin](#optional-origin)?: [IPoint](core_schema.IPoint.md);
+    [scale](#optional-scale)?: number;
+    [scalingStroke](#optional-scalingstroke)?: boolean;
+    [stroke](#optional-stroke)?: string;
+    [strokeWidth](#optional-strokewidth)?: string;
+    [svgAttrs](#optional-svgattrs)?: [IXmlTagAttrs](core_xml.IXmlTagAttrs.md);
+    [units](#optional-units)?: string;
+    [useSvgPathOnly](#optional-usesvgpathonly)?: boolean;
+    [viewBox](#optional-viewbox)?: boolean;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.md#core/svg-esm.ISVGRenderOptions))
+#### Hierarchy ([View Summary](../hierarchy.md))
 
 * [ISVGElementRenderOptions](core_svg-esm.ISVGElementRenderOptions.md)
-  + ISVGRenderOptions
+  * ISVGRenderOptions
 
 * Defined in [core/svg-esm.ts:364](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/svg-esm.ts#L364)
-
-##### Index
-
-### Properties
-
-[accuracy?](#accuracy)
-[annotate?](#annotate)
-[className?](#classname)
-[cssStyle?](#cssstyle)
-[fill?](#fill)
-[fillRule?](#fillrule)
-[flow?](#flow)
-[fontSize?](#fontsize)
-[layerOptions?](#layeroptions)
-[origin?](#origin)
-[scale?](#scale)
-[scalingStroke?](#scalingstroke)
-[stroke?](#stroke)
-[strokeWidth?](#strokewidth)
-[svgAttrs?](#svgattrs)
-[units?](#units)
-[useSvgPathOnly?](#usesvgpathonly)
-[viewBox?](#viewbox)
 
 ## Properties
 
@@ -209,24 +183,5 @@ useSvgPathOnly?: boolean
 viewBox?: boolean
 
 * Defined in [core/svg-esm.ts:373](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/svg-esm.ts#L373)
-
-### Settings
-
-Member Visibility
-
-* Protected
-* Inherited
-
-ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[accuracy](#accuracy)[annotate](#annotate)[className](#classname)[cssStyle](#cssstyle)[fill](#fill)[fillRule](#fillrule)[flow](#flow)[fontSize](#fontsize)[layerOptions](#layeroptions)[origin](#origin)[scale](#scale)[scalingStroke](#scalingstroke)[stroke](#stroke)[strokeWidth](#strokewidth)[svgAttrs](#svgattrs)[units](#units)[useSvgPathOnly](#usesvgpathonly)[viewBox](#viewbox)
-
-[Photon](../index.md)
-
-* Loading...
 
 Generated using [TypeDoc](https://typedoc.org/)

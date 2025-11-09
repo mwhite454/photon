@@ -14,7 +14,7 @@ tags:
 title: License
 ---
 The encoding indexes, algorithms, and many comments in the code
-derive from the Encoding Standard https://encoding.spec.whatwg.org/
+derive from the Encoding Standard <https://encoding.spec.whatwg.org/>
 
 Otherwise...
 

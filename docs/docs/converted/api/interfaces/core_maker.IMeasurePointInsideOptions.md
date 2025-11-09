@@ -19,12 +19,9 @@ IMeasurePointInsideOptions | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
-* [core/maker](../modules/core_core.md)
+* [core/maker](../modules/core_maker.md)
 * IMeasurePointInsideOptions
 
 # Interface IMeasurePointInsideOptions
@@ -38,14 +35,6 @@ interface IMeasurePointInsideOptions {
 }
 
 * Defined in [core/maker.ts:180](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L180)
-
-##### Index
-
-### Properties
-
-[farPoint?](#farpoint)
-[measureAtlas?](#measureatlas)
-[out\_intersectionPoints?](#out_intersectionpoints)
 
 ## Properties
 
@@ -75,12 +64,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[farPoint](#farpoint)[measureAtlas](#measureatlas)[out\_intersectionPoints](#out_intersectionpoints)
 
 [Photon](../index.md)
 

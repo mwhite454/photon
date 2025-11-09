@@ -23,9 +23,6 @@ ofChainLinkJoint | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/angle](../modules/core_angle.md)
@@ -39,12 +36,12 @@ Preparing search index...
 
   #### Parameters
 
-  + linkA: [IChainLink](../interfaces/core_angle.IChainLink.md)
-  + linkB: [IChainLink](../interfaces/core_angle.IChainLink.md)
+  * linkA: [IChainLink](../interfaces/core_angle.IChainLink.md)
+  * linkB: [IChainLink](../interfaces/core_angle.IChainLink.md)
 
   #### Returns number
 
-  + Defined in [core/angle.ts:136](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/angle.ts#L136)
+  * Defined in [core/angle.ts:136](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/angle.ts#L136)
 
 ### Settings
 
@@ -63,6 +60,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Chain Theory](../index.md)
-- [Breaking](../index.md)
-- [Routes](../index.md)
+* [Chain Theory](../index.md)
+* [Breaking](../index.md)
+* [Routes](../index.md)

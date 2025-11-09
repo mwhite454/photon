@@ -19,9 +19,6 @@ round | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/base](../modules/core_base.md)
@@ -33,12 +30,12 @@ Preparing search index...
 
   #### Parameters
 
-  + n: number
-  + accuracy: number = 0.0000001
+  * n: number
+  * accuracy: number = 0.0000001
 
   #### Returns number
 
-  + Defined in [core/base.ts:66](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/base.ts#L66)
+  * Defined in [core/base.ts:66](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/base.ts#L66)
 
 ### Settings
 

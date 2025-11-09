@@ -19,12 +19,9 @@ environmentTypes | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
-* [core/maker](../modules/core_core.md)
+* [core/maker](../modules/core_maker.md)
 * environmentTypes
 
 # Variable environmentTypes`Const`
@@ -41,8 +38,11 @@ Enumeration of environment types.
 #### Type Declaration
 
 * ##### `Readonly`BrowserUI: "browser"
+
 * ##### `Readonly`NodeJs: "node"
+
 * ##### `Readonly`Unknown: "unknown"
+
 * ##### `Readonly`WebWorker: "worker"
 
 * Defined in [core/maker.ts:10](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L10)

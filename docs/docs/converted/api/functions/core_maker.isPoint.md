@@ -19,12 +19,9 @@ isPoint | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
-* [core/maker](../modules/core_core.md)
+* [core/maker](../modules/core_maker.md)
 * isPoint
 
 # Function isPoint
@@ -35,11 +32,11 @@ Preparing search index...
 
   #### Parameters
 
-  + item: any
+  * item: any
 
   #### Returns boolean
 
-  + Defined in [core/maker.ts:151](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L151)
+  * Defined in [core/maker.ts:151](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L151)
 
 ### Settings
 

@@ -1,0 +1,139 @@
+{
+  "report_id": "baseline-2025-11-06",
+  "report_type": "baseline",
+  "timestamp": "2025-11-06T13:57:54.438819Z",
+  "total_warnings": 5,
+  "target_warnings": 150,
+  "reduction_percentage": 0.0,
+  "warnings": [
+    {
+      "id": "3fa255dc",
+      "timestamp": "2025-11-06T13:57:54.438195Z",
+      "file_path": "demos/node_modules/bezier-js/README.md",
+      "line_number": null,
+      "category": "file_conflict",
+      "severity": "warning",
+      "message": "WARNING -  Excluding 'demos/node_modules/bezier-js/README.md' from the site because it conflicts with 'demos/node_modules/bezier-js/index.html'.",
+      "raw_output": "WARNING -  Excluding 'demos/node_modules/bezier-js/README.md' from the site because it conflicts with 'demos/node_modules/bezier-js/index.html'.",
+      "status": "pending"
+    },
+    {
+      "id": "a0671f2f",
+      "timestamp": "2025-11-06T13:57:54.438666Z",
+      "file_path": "demos/node_modules/makerjs-heart/README.md",
+      "line_number": null,
+      "category": "file_conflict",
+      "severity": "warning",
+      "message": "WARNING -  Excluding 'demos/node_modules/makerjs-heart/README.md' from the site because it conflicts with 'demos/node_modules/makerjs-heart/index.html'.",
+      "raw_output": "WARNING -  Excluding 'demos/node_modules/makerjs-heart/README.md' from the site because it conflicts with 'demos/node_modules/makerjs-heart/index.html'.",
+      "status": "pending"
+    },
+    {
+      "id": "0b66e626",
+      "timestamp": "2025-11-06T13:57:54.438682Z",
+      "file_path": "demos/node_modules/makerjs-spiral/README.md",
+      "line_number": null,
+      "category": "file_conflict",
+      "severity": "warning",
+      "message": "WARNING -  Excluding 'demos/node_modules/makerjs-spiral/README.md' from the site because it conflicts with 'demos/node_modules/makerjs-spiral/index.html'.",
+      "raw_output": "WARNING -  Excluding 'demos/node_modules/makerjs-spiral/README.md' from the site because it conflicts with 'demos/node_modules/makerjs-spiral/index.html'.",
+      "status": "pending"
+    },
+    {
+      "id": "0372f772",
+      "timestamp": "2025-11-06T13:57:54.438713Z",
+      "file_path": "unknown",
+      "line_number": null,
+      "category": "config_warning",
+      "severity": "warning",
+      "message": "WARNING -  A reference to 'api/index.md' is included in the 'nav' configuration, which is not found in the documentation files.",
+      "raw_output": "WARNING -  A reference to 'api/index.md' is included in the 'nav' configuration, which is not found in the documentation files.",
+      "status": "pending"
+    },
+    {
+      "id": "bc3a51ab",
+      "timestamp": "2025-11-06T13:57:54.438718Z",
+      "file_path": "migration/migration-faq.md",
+      "line_number": null,
+      "category": "broken_link",
+      "severity": "warning",
+      "message": "WARNING -  Doc file 'migration/migration-faq.md' contains a link '../../../CONTRIBUTING.md', but the target '../../CONTRIBUTING.md' is not found among documentation files.",
+      "raw_output": "WARNING -  Doc file 'migration/migration-faq.md' contains a link '../../../CONTRIBUTING.md', but the target '../../CONTRIBUTING.md' is not found among documentation files.",
+      "status": "pending"
+    }
+  ],
+  "category_summary": {
+    "file_conflict": {
+      "count": 3,
+      "percentage": 60.0,
+      "fixed": 0,
+      "pending": 3
+    },
+    "config_warning": {
+      "count": 1,
+      "percentage": 20.0,
+      "fixed": 0,
+      "pending": 1
+    },
+    "broken_link": {
+      "count": 1,
+      "percentage": 20.0,
+      "fixed": 0,
+      "pending": 1
+    }
+  },
+  "file_summary": {
+    "demos/node_modules/bezier-js/README.md": {
+      "warning_count": 1,
+      "categories": {
+        "file_conflict": 1
+      },
+      "status": {
+        "pending": 1
+      }
+    },
+    "demos/node_modules/makerjs-heart/README.md": {
+      "warning_count": 1,
+      "categories": {
+        "file_conflict": 1
+      },
+      "status": {
+        "pending": 1
+      }
+    },
+    "demos/node_modules/makerjs-spiral/README.md": {
+      "warning_count": 1,
+      "categories": {
+        "file_conflict": 1
+      },
+      "status": {
+        "pending": 1
+      }
+    },
+    "unknown": {
+      "warning_count": 1,
+      "categories": {
+        "config_warning": 1
+      },
+      "status": {
+        "pending": 1
+      }
+    },
+    "migration/migration-faq.md": {
+      "warning_count": 1,
+      "categories": {
+        "broken_link": 1
+      },
+      "status": {
+        "pending": 1
+      }
+    }
+  },
+  "remediation_summary": {
+    "fixed": 0,
+    "pending": 5,
+    "accepted": 0,
+    "deferred": 0,
+    "in_progress": 0
+  }
+}

@@ -26,10 +26,6 @@ title: Path2D | Photon
 Path2D | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * [types/jscad](types_jscad.md)
@@ -54,12 +50,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Functions
-
-[arc](#arc)
-
 [Photon](../index.md)
 
 * Loading...
@@ -68,6 +58,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Path Independence](../index.md)
-- [Models](../index.md)
-- [Path Constructors](../index.md)
+* [Path Independence](../index.md)
+* [Models](../index.md)
+* [Path Constructors](../index.md)

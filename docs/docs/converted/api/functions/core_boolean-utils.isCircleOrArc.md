@@ -19,9 +19,6 @@ isCircleOrArc | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/boolean-utils](../modules/core_boolean-utils.md)
@@ -33,11 +30,11 @@ Preparing search index...
 
   #### Parameters
 
-  + pathContext: [IPath](../interfaces/core_schema.IPath.md)
+  * pathContext: [IPath](../interfaces/core_schema.IPath.md)
 
   #### Returns pathContext is [IPathCircle](../interfaces/core_schema.IPathCircle.md) | [IPathArc](../interfaces/core_schema.IPathArc.md)
 
-  + Defined in [core/boolean-utils.ts:22](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/boolean-utils.ts#L22)
+  * Defined in [core/boolean-utils.ts:22](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/boolean-utils.ts#L22)
 
 ### Settings
 

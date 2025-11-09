@@ -23,10 +23,6 @@ title: models/ConnectTheDots | Photon
 models/ConnectTheDots | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * models/ConnectTheDots
@@ -46,12 +42,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Classes
-
-[ConnectTheDots](#connectthedots)
-
 [Photon](../index.md)
 
 * Loading...
@@ -60,6 +50,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Modeling](../index.md)
-- [Paths](../index.md)
-- [Built-in Models](../index.md)
+* [Modeling](../index.md)
+* [Paths](../index.md)
+* [Built-in Models](../index.md)

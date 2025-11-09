@@ -19,9 +19,6 @@ addTo | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/path](../modules/core_path.md)
@@ -40,14 +37,14 @@ Preparing search index...
 
   #### Parameters
 
-  + childPath: [IPath](../interfaces/core_schema.IPath.md)
-  + parentModel: [IModel](../interfaces/core_schema.IModel.md)
-  + pathId: string
-  + overwrite: boolean = false
+  * childPath: [IPath](../interfaces/core_schema.IPath.md)
+  * parentModel: [IModel](../interfaces/core_schema.IModel.md)
+  * pathId: string
+  * overwrite: boolean = false
 
   #### Returns [IPath](../interfaces/core_schema.IPath.md)
 
-  + Defined in [core/path.ts:24](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/path.ts#L24)
+  * Defined in [core/path.ts:24](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/path.ts#L24)
 
 ### Settings
 

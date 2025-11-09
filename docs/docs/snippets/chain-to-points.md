@@ -26,7 +26,7 @@ tags:
 title: Chain To Points
 ---
 To get points consistently spaced along a chains, call
-[model.toPoints(chain, distance)](../api/modules/core_chain.html#topoints)
+[model.toPoints(chain, distance)](../converted/api/functions/core_chain.toPoints.md)
 passing your chain, and the distance between points:
 
 ## Examples
@@ -47,7 +47,9 @@ dots: new models.Holes(1, keyPoints)
 const svg = exporter.toSVG(model);
 document.write(svg);
 ```
+
 Hint: you can use the **pathLength** property of the chain to make sure your distance divides equally on the entire chain:
+
 ```javascript
 //convert a round rectangle to points
 import { chain, exporter, model, models } from '@7syllable/photon-core';

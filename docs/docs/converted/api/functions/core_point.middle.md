@@ -19,9 +19,6 @@ middle | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/point](../modules/core_point.md)
@@ -35,12 +32,12 @@ Preparing search index...
 
   #### Parameters
 
-  + pathContext: [IPath](../interfaces/core_schema.IPath.md)
-  + ratio: number = .5
+  * pathContext: [IPath](../interfaces/core_schema.IPath.md)
+  * ratio: number = .5
 
   #### Returns [IPoint](../interfaces/core_schema.IPoint.md)
 
-  + Defined in [core/point.ts:147](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/point.ts#L147)
+  * Defined in [core/point.ts:147](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/point.ts#L147)
 
 ### Settings
 

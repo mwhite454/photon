@@ -23,12 +23,9 @@ IWalkModel | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
-* [core/maker](../modules/core_core.md)
+* [core/maker](../modules/core_maker.md)
 * IWalkModel
 
 # Interface IWalkModel
@@ -45,25 +42,13 @@ interface IWalkModel {
     [routeKey](#routekey): string;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.md#core/maker.IWalkModel))
+#### Hierarchy ([View Summary](../hierarchy.md))
 
-* [IRefModelInModel](core_core.IRefModelInModel.md)
-* [IRouteOffset](core_core.IRouteOffset.md)
-  + IWalkModel
+* [IRefModelInModel](core_maker.IRefModelInModel.md)
+* [IRouteOffset](core_maker.IRouteOffset.md)
+  * IWalkModel
 
 * Defined in [core/maker.ts:547](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L547)
-
-##### Index
-
-### Properties
-
-[childId](#childid)
-[childModel](#childmodel)
-[layer](#layer)
-[offset](#offset)
-[parentModel](#parentmodel)
-[route](#route)
-[routeKey](#routekey)
 
 ## Properties
 
@@ -71,7 +56,7 @@ interface IWalkModel {
 
 childId: string
 
-Inherited from [IRefModelInModel](core_core.IRefModelInModel.md).[childId](core_core.IRefModelInModel.md#childid)
+Inherited from [IRefModelInModel](core_maker.IRefModelInModel.md).[childId](core_maker.IRefModelInModel.md#childid)
 
 * Defined in [core/maker.ts:540](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L540)
 
@@ -79,7 +64,7 @@ Inherited from [IRefModelInModel](core_core.IRefModelInModel.md).[childId](core_
 
 childModel: [IModel](core_schema.IModel.md)
 
-Inherited from [IRefModelInModel](core_core.IRefModelInModel.md).[childModel](core_core.IRefModelInModel.md#childmodel)
+Inherited from [IRefModelInModel](core_maker.IRefModelInModel.md).[childModel](core_maker.IRefModelInModel.md#childmodel)
 
 * Defined in [core/maker.ts:541](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L541)
 
@@ -87,7 +72,7 @@ Inherited from [IRefModelInModel](core_core.IRefModelInModel.md).[childModel](co
 
 layer: string
 
-Inherited from [IRouteOffset](core_core.IRouteOffset.md).[layer](core_core.IRouteOffset.md#layer)
+Inherited from [IRouteOffset](core_maker.IRouteOffset.md).[layer](core_maker.IRouteOffset.md#layer)
 
 * Defined in [core/maker.ts:395](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L395)
 
@@ -95,7 +80,7 @@ Inherited from [IRouteOffset](core_core.IRouteOffset.md).[layer](core_core.IRout
 
 offset: [IPoint](core_schema.IPoint.md)
 
-Inherited from [IRouteOffset](core_core.IRouteOffset.md).[offset](core_core.IRouteOffset.md#offset)
+Inherited from [IRouteOffset](core_maker.IRouteOffset.md).[offset](core_maker.IRouteOffset.md#offset)
 
 * Defined in [core/maker.ts:396](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L396)
 
@@ -103,7 +88,7 @@ Inherited from [IRouteOffset](core_core.IRouteOffset.md).[offset](core_core.IRou
 
 parentModel: [IModel](core_schema.IModel.md)
 
-Inherited from [IRefModelInModel](core_core.IRefModelInModel.md).[parentModel](core_core.IRefModelInModel.md#parentmodel)
+Inherited from [IRefModelInModel](core_maker.IRefModelInModel.md).[parentModel](core_maker.IRefModelInModel.md#parentmodel)
 
 * Defined in [core/maker.ts:539](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L539)
 
@@ -111,7 +96,7 @@ Inherited from [IRefModelInModel](core_core.IRefModelInModel.md).[parentModel](c
 
 route: string[]
 
-Inherited from [IRouteOffset](core_core.IRouteOffset.md).[route](core_core.IRouteOffset.md#route)
+Inherited from [IRouteOffset](core_maker.IRouteOffset.md).[route](core_maker.IRouteOffset.md#route)
 
 * Defined in [core/maker.ts:397](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L397)
 
@@ -119,7 +104,7 @@ Inherited from [IRouteOffset](core_core.IRouteOffset.md).[route](core_core.IRout
 
 routeKey: string
 
-Inherited from [IRouteOffset](core_core.IRouteOffset.md).[routeKey](core_core.IRouteOffset.md#routekey)
+Inherited from [IRouteOffset](core_maker.IRouteOffset.md).[routeKey](core_maker.IRouteOffset.md#routekey)
 
 * Defined in [core/maker.ts:398](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L398)
 
@@ -132,12 +117,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Properties
-
-[childId](#childid)[childModel](#childmodel)[layer](#layer)[offset](#offset)[parentModel](#parentmodel)[route](#route)[routeKey](#routekey)
-
 [Photon](../index.md)
 
 * Loading...
@@ -146,6 +125,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Modeling](../index.md)
-- [Paths](../index.md)
-- [Built-in Models](../index.md)
+* [Modeling](../index.md)
+* [Paths](../index.md)
+* [Built-in Models](../index.md)

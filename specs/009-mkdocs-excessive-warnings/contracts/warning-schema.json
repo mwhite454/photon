@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/mwhite454/photon/schemas/warning.json",
+  "title": "Warning",
+  "description": "A single warning emitted by MkDocs during the build process",
+  "type": "object",
+  "required": ["id", "timestamp", "file_path", "category", "severity", "message", "raw_output", "status"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier (hash of file + line + message)",
+      "pattern": "^[a-f0-9]{8,}$"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "When warning was captured (ISO 8601 format)"
+    },
+    "file_path": {
+      "type": "string",
+      "description": "Relative path to source file"
+    },
+    "line_number": {
+      "type": ["integer", "null"],
+      "minimum": 1,
+      "description": "Line number where warning occurs (if available)"
+    },
+    "category": {
+      "type": "string",
+      "enum": ["broken_link", "missing_reference", "syntax_error", "plugin_warning", "config_warning", "file_conflict", "other"],
+      "description": "Warning category"
+    },
+    "severity": {
+      "type": "string",
+      "enum": ["error", "warning", "info"],
+      "description": "Warning severity level"
+    },
+    "message": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Full warning message from MkDocs"
+    },
+    "raw_output": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Raw stderr line from MkDocs"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["pending", "in_progress", "fixed", "accepted", "deferred"],
+      "description": "Remediation status"
+    },
+    "fix_applied": {
+      "type": "string",
+      "description": "Description of fix applied (required if status = fixed)"
+    },
+    "notes": {
+      "type": "string",
+      "description": "Additional context or justification"
+    }
+  },
+  "if": {
+    "properties": {
+      "status": {"const": "fixed"}
+    }
+  },
+  "then": {
+    "required": ["fix_applied"]
+  },
+  "additionalProperties": false
+}

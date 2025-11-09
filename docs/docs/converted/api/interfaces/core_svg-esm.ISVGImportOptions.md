@@ -21,9 +21,6 @@ ISVGImportOptions | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/svg-esm](../modules/core_svg-esm.md)
@@ -36,12 +33,6 @@ interface ISVGImportOptions {
 }
 
 * Defined in [core/svg-esm.ts:37](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/svg-esm.ts#L37)
-
-##### Index
-
-### Properties
-
-[bezierAccuracy?](#bezieraccuracy)
 
 ## Properties
 
@@ -59,12 +50,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[bezierAccuracy](#bezieraccuracy)
 
 [Photon](../index.md)
 

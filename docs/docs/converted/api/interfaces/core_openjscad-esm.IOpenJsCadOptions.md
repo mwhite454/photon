@@ -23,9 +23,6 @@ IOpenJsCadOptions | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/openjscad-esm](../modules/core_openjscad-esm.md)
@@ -36,35 +33,22 @@ Preparing search index...
 OpenJsCad export options.
 
 interface IOpenJsCadOptions {
-    [accuracy](#accuracy)?: number;
-    [extrusion](#extrusion)?: number;
-    [facetSize](#facetsize)?: number;
-    [functionName](#functionname)?: string;
-    [modelMap](#modelmap)?: [IOpenJsCadOptionsMap](core_openjscad-esm.IOpenJsCadOptionsMap.md);
-    [pointMatchingDistance](#pointmatchingdistance)?: number;
-    [removeFromOriginal](#removefromoriginal)?: boolean;
-    [units](#units)?: string;
+  accuracy?: number;
+  extrusion?: number;
+  facetSize?: number;
+  functionName?: string;
+  modelMap?: [IOpenJsCadOptionsMap](core_openjscad-esm.IOpenJsCadOptionsMap.md);
+  pointMatchingDistance?: number;
+  removeFromOriginal?: boolean;
+  units?: string;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.md#core/openjscad-esm.IOpenJsCadOptions))
+#### Hierarchy ([View Summary](../hierarchy.md))
 
-* [IFindLoopsOptions](core_core.IFindLoopsOptions.md)
-  + IOpenJsCadOptions
+* [IFindLoopsOptions](core_maker.IFindLoopsOptions.md)
+  * IOpenJsCadOptions
 
 * Defined in [core/openjscad-esm.ts:477](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/openjscad-esm.ts#L477)
-
-##### Index
-
-### Properties
-
-[accuracy?](#accuracy)
-[extrusion?](#extrusion)
-[facetSize?](#facetsize)
-[functionName?](#functionname)
-[modelMap?](#modelmap)
-[pointMatchingDistance?](#pointmatchingdistance)
-[removeFromOriginal?](#removefromoriginal)
-[units?](#units)
 
 ## Properties
 
@@ -116,7 +100,7 @@ pointMatchingDistance?: number
 
 Max distance to consider two points as the same.
 
-Inherited from [IFindLoopsOptions](core_core.IFindLoopsOptions.md).[pointMatchingDistance](core_core.IFindLoopsOptions.md#pointmatchingdistance)
+Inherited from [IFindLoopsOptions](core_maker.IFindLoopsOptions.md). pointMatchingDistance
 
 * Defined in [core/maker.ts:282](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L282)
 
@@ -126,7 +110,7 @@ removeFromOriginal?: boolean
 
 Flag to remove looped paths from the original model.
 
-Inherited from [IFindLoopsOptions](core_core.IFindLoopsOptions.md).[removeFromOriginal](core_core.IFindLoopsOptions.md#removefromoriginal)
+Inherited from [IFindLoopsOptions](core_maker.IFindLoopsOptions.md). removeFromOriginal
 
 * Defined in [core/maker.ts:336](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L336)
 
@@ -140,20 +124,12 @@ Inherited from IExportOptions.units
 
 * Defined in [core/exporter.ts:19](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/exporter.ts#L19)
 
-### Settings
-
 Member Visibility
 
 * Protected
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[accuracy](#accuracy)[extrusion](#extrusion)[facetSize](#facetsize)[functionName](#functionname)[modelMap](#modelmap)[pointMatchingDistance](#pointmatchingdistance)[removeFromOriginal](#removefromoriginal)[units](#units)
 
 [Photon](../index.md)
 

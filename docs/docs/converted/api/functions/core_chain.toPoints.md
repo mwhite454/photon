@@ -20,9 +20,6 @@ toPoints | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/chain](../modules/core_chain.md)
@@ -31,7 +28,7 @@ Preparing search index...
 # Function toPoints
 
 * toPoints(
-      chainContext: [IChain](../interfaces/core_core.IChain.md),
+      chainContext: [IChain](../interfaces/core_maker.IChain.md),
       distanceOrDistances: number | number[],
       maxPoints?: number,
   ): [IPoint](../interfaces/core_schema.IPoint.md)[]
@@ -40,11 +37,11 @@ Preparing search index...
 
   #### Parameters
 
-  + chainContext: [IChain](../interfaces/core_core.IChain.md)
+  * chainContext: [IChain](../interfaces/core_maker.IChain.md)
 
     Chain of paths to get points from.
-  + distanceOrDistances: number | number[]
-  + `Optional`maxPoints: number
+  * distanceOrDistances: number | number[]
+  * `Optional`maxPoints: number
 
     Maximum number of points to retrieve.
 
@@ -52,7 +49,7 @@ Preparing search index...
 
   Array of points which are on the chain spread at a uniform interval.
 
-  + Defined in [core/chain.ts:577](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/chain.ts#L577)
+  * Defined in [core/chain.ts:577](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/chain.ts#L577)
 
 ### Settings
 

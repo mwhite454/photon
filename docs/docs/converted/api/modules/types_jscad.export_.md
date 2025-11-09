@@ -23,10 +23,6 @@ title: export= | Photon
 export= | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * [types/jscad](types_jscad.md)
@@ -45,8 +41,6 @@ without requiring the actual library at compile time.
 ## Classes
 
 [CAG](../classes/types_jscad.export_.CAG.md)
-
-
 [CSG](../classes/types_jscad.export_.CSG.md)
 
 ## References
@@ -62,20 +56,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Namespaces
-
-[CSG](#csg)
-
-Classes
-
-[CAG](#cag)[CSG](#csg-1)
-
-References
-
-[StlSerializer](#stlserializer)
-
 [Photon](../index.md)
 
 * Loading...
@@ -84,6 +64,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Exporting DXF](../index.md)
-- [SVG Styling](../index.md)
-- [Exporting PDF](../index.md)
+* [Exporting DXF](../index.md)
+* [SVG Styling](../index.md)
+* [Exporting PDF](../index.md)

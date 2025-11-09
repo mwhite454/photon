@@ -19,9 +19,6 @@ ofLineInDegrees | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/angle](../modules/core_angle.md)
@@ -35,11 +32,11 @@ Preparing search index...
 
   #### Parameters
 
-  + line: [IPathLine](../interfaces/core_schema.IPathLine.md)
+  * line: [IPathLine](../interfaces/core_schema.IPathLine.md)
 
   #### Returns number
 
-  + Defined in [core/angle.ts:80](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/angle.ts#L80)
+  * Defined in [core/angle.ts:80](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/angle.ts#L80)
 
 ### Settings
 

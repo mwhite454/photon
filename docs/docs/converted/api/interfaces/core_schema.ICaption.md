@@ -19,9 +19,6 @@ ICaption | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/schema](../modules/core_schema.md)
@@ -37,13 +34,6 @@ interface ICaption {
 }
 
 * Defined in [core/schema.ts:71](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/schema.ts#L71)
-
-##### Index
-
-### Properties
-
-[anchor](#anchor)
-[text](#text)
 
 ## Properties
 
@@ -71,12 +61,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[anchor](#anchor)[text](#text)
 
 [Photon](../index.md)
 

@@ -24,7 +24,7 @@ tags:
 - general
 title: Combining
 ---
-You can combine models using the [model.combine](../api/modules/core_model.html#combine) function, passing these parameters:
+You can combine models using the [model.combine](../converted/api/modules/core_model.md) function, passing these parameters:
 
 * first model to combine, we'll call it "modelA"
 * second model to combine, we'll call it "modelB"
@@ -64,14 +64,13 @@ const svg = exporter.toSVG(examples);
 document.write(svg);
 ```
 
-
 ---
 
 Instead of remembering the boolean flag combinations, shortcuts are provided for:
 
-* [model.combineIntersection](../api/modules/core_model.html#combineintersection)
-* [model.combineSubtraction](../api/modules/core_model.html#combinesubtraction)
-* [model.combineUnion](../api/modules/core_model.html#combineunion)
+* [model.combineIntersection](../converted/api/modules/core_model.md)
+* [model.combineSubtraction](../converted/api/modules/core_model.md)
+* [model.combineUnion](../converted/api/modules/core_model.md)
 
 ```javascript
 //combine a rectangle and an oval, several ways
@@ -99,6 +98,7 @@ model.combineIntersection(x.x4.models.rect, x.x4.models.oval);
 const svg = exporter.toSVG(examples);
 document.write(svg);
 ```
+
 Now it is apparent why we need a closed geometry - because we need to know what is considered the inside of a model.
 
 #### Return value

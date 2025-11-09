@@ -25,9 +25,6 @@ removeDeadEnds | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/deadend](../modules/core_deadend.md)
@@ -38,24 +35,24 @@ Preparing search index...
 * removeDeadEnds(
       modelContext: [IModel](../interfaces/core_schema.IModel.md),
       pointMatchingDistance?: number,
-      keep?: [IWalkPathBooleanCallback](../interfaces/core_core.IWalkPathBooleanCallback.md),
-      trackDeleted?: (wp: [IWalkPath](../interfaces/core_core.IWalkPath.md), reason: string) => void,
+      keep?: [IWalkPathBooleanCallback](../interfaces/core_maker.IWalkPathBooleanCallback.md),
+      trackDeleted?: (wp: [IWalkPath](../interfaces/core_maker.IWalkPath.md), reason: string) => void,
   ): [IModel](../interfaces/core_schema.IModel.md)
 
   Remove paths from a model which have endpoints that do not connect to other paths.
 
   #### Parameters
 
-  + modelContext: [IModel](../interfaces/core_schema.IModel.md)
+  * modelContext: [IModel](../interfaces/core_schema.IModel.md)
 
     The model to search for dead ends.
-  + `Optional`pointMatchingDistance: number
+  * `Optional`pointMatchingDistance: number
 
     Optional max distance to consider two points as the same.
-  + `Optional`keep: [IWalkPathBooleanCallback](../interfaces/core_core.IWalkPathBooleanCallback.md)
+  * `Optional`keep: [IWalkPathBooleanCallback](../interfaces/core_maker.IWalkPathBooleanCallback.md)
 
     Optional callback function (which should return a boolean) to decide if a dead end path should be kept instead.
-  + `Optional`trackDeleted: (wp: [IWalkPath](../interfaces/core_core.IWalkPath.md), reason: string) => void
+  * `Optional`trackDeleted: (wp: [IWalkPath](../interfaces/core_maker.IWalkPath.md), reason: string) => void
 
     Optional callback function which will log discarded paths and the reason they were discarded.
 
@@ -63,7 +60,7 @@ Preparing search index...
 
   The input model (for cascading).
 
-  + Defined in [core/deadend.ts:141](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/deadend.ts#L141)
+  * Defined in [core/deadend.ts:141](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/deadend.ts#L141)
 
 ### Settings
 
@@ -82,6 +79,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Originating](../index.md)
-- [Scaling](../index.md)
-- [Rotating](../index.md)
+* [Originating](../index.md)
+* [Scaling](../index.md)
+* [Rotating](../index.md)

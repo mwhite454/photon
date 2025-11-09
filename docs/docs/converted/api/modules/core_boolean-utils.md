@@ -20,10 +20,6 @@ title: core/boolean-utils | Photon
 core/boolean-utils | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * core/boolean-utils
@@ -33,8 +29,6 @@ Preparing search index...
 ## Interfaces
 
 [DeletedPathInfo](../interfaces/core_boolean-utils.DeletedPathInfo.md)
-
-
 [SegmentClassification](../interfaces/core_boolean-utils.SegmentClassification.md)
 
 ## Type Aliases
@@ -48,35 +42,15 @@ Preparing search index...
 ## Functions
 
 [addPathToModel](../functions/core_boolean-utils.addPathToModel.md)
-
-
 [ensurePathLayer](../functions/core_boolean-utils.ensurePathLayer.md)
-
-
 [findPointsOnPath](../functions/core_boolean-utils.findPointsOnPath.md)
-
-
 [isArcEnclosingAngle](../functions/core_boolean-utils.isArcEnclosingAngle.md)
-
-
 [isBetween](../functions/core_boolean-utils.isBetween.md)
-
-
 [isBetweenArcAngles](../functions/core_boolean-utils.isBetweenArcAngles.md)
-
-
 [isBetweenPoints](../functions/core_boolean-utils.isBetweenPoints.md)
-
-
 [isCircleOrArc](../functions/core_boolean-utils.isCircleOrArc.md)
-
-
 [isZeroLength](../functions/core_boolean-utils.isZeroLength.md)
-
-
 [pathBoundingBox](../functions/core_boolean-utils.pathBoundingBox.md)
-
-
 [trackDeletedPath](../functions/core_boolean-utils.trackDeletedPath.md)
 
 ### Settings
@@ -87,24 +61,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Interfaces
-
-[DeletedPathInfo](#deletedpathinfo)[SegmentClassification](#segmentclassification)
-
-Type Aliases
-
-[SegmentClassifier](#segmentclassifier)
-
-Variables
-
-[DEFAULT\_POINT\_MATCHING\_DISTANCE](#default_point_matching_distance)
-
-Functions
-
-[addPathToModel](#addpathtomodel)[ensurePathLayer](#ensurepathlayer)[findPointsOnPath](#findpointsonpath)[isArcEnclosingAngle](#isarcenclosingangle)[isBetween](#isbetween)[isBetweenArcAngles](#isbetweenarcangles)[isBetweenPoints](#isbetweenpoints)[isCircleOrArc](#iscircleorarc)[isZeroLength](#iszerolength)[pathBoundingBox](#pathboundingbox)[trackDeletedPath](#trackdeletedpath)
 
 [Photon](../index.md)
 

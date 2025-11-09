@@ -20,10 +20,6 @@ title: CSG | Photon
 CSG | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * [types/jscad](types_jscad.md)
@@ -41,11 +37,7 @@ CSG namespace containing nested types and utilities
 ## Interfaces
 
 [IArcOptions](../interfaces/types_jscad.export_.CSG.IArcOptions.md)
-
-
 [ICircleOptions](../interfaces/types_jscad.export_.CSG.ICircleOptions.md)
-
-
 [IEllpiticalArcOptions](../interfaces/types_jscad.export_.CSG.IEllpiticalArcOptions.md)
 
 ### Settings
@@ -56,16 +48,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Namespaces
-
-[Path2D](#path2d)
-
-Interfaces
-
-[IArcOptions](#iarcoptions)[ICircleOptions](#icircleoptions)[IEllpiticalArcOptions](#iellpiticalarcoptions)
 
 [Photon](../index.md)
 

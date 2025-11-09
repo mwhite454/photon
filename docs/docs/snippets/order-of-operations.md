@@ -27,12 +27,9 @@ title: Order Of Operations
 Combining models with boolean operations is a powerful feature but it can be challenging in some scenarios. Re-modeling your drawing may be necessary to acheive certain results.
 We will explore the order of operations concept with a sample project. Let's first take a look at our desired end goal:
 
-
-
 ---
 
 We can start with all of the building blocks of our design: a star, a plus, and a frame:
-
 
 ## Examples
 
@@ -62,7 +59,6 @@ frame: frame
 const svg = exporter.toSVG(model);
 document.write(svg);
 ```
-
 
 ---
 
@@ -97,7 +93,6 @@ const svg = exporter.toSVG(model);
 document.write(svg);
 ```
 
-
 ---
 
 Next we will combine the star and the plus:
@@ -131,7 +126,6 @@ frame: frame
 const svg = exporter.toSVG(model);
 document.write(svg);
 ```
-
 
 ---
 
@@ -177,7 +171,6 @@ frame: frame
 const svg = exporter.toSVG(model);
 document.write(svg);
 ```
-
 
 ---
 

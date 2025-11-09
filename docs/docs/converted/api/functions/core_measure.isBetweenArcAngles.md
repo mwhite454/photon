@@ -19,9 +19,6 @@ isBetweenArcAngles | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/measure](../modules/core_measure.md)
@@ -39,13 +36,13 @@ Preparing search index...
 
   #### Parameters
 
-  + angleInQuestion: number
+  * angleInQuestion: number
 
     The angle to test.
-  + arc: [IPathArc](../interfaces/core_schema.IPathArc.md)
+  * arc: [IPathArc](../interfaces/core_schema.IPathArc.md)
 
     Arc to test against.
-  + exclusive: boolean
+  * exclusive: boolean
 
     Flag to exclude equaling the start or end angles.
 
@@ -53,7 +50,7 @@ Preparing search index...
 
   Boolean true if angle is between (or equal to) the arc's start and end angles.
 
-  + Defined in [core/measure.ts:156](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure.ts#L156)
+  * Defined in [core/measure.ts:156](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure.ts#L156)
 
 ### Settings
 

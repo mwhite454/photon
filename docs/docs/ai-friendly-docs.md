@@ -16,7 +16,7 @@ Add these keys to each page:
 ai_summary: Short, factual summary of the page (<= 160 chars)
 primary_topic: One main concept (e.g., "fillets", "exporting-svg")
 keywords: ["photon", "2D CAD", "SVG", "paths", "models", "fillet"]
-``` 
+```
 
 ## Section Signposting
 
@@ -53,6 +53,7 @@ document.write(exporter.toSVG(model));
 ## Structured Data
 
 Templates in `docs/overrides/` provide JSON-LD for:
+
 - SoftwareApplication
 - TechArticle
 

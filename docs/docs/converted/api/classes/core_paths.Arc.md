@@ -20,9 +20,6 @@ Arc | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/paths](../modules/core_paths.md)
@@ -37,20 +34,6 @@ Class for arc path.
 * [IPathArc](../interfaces/core_schema.IPathArc.md)
 
 * Defined in [core/paths.ts:23](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/paths.ts#L23)
-
-##### Index
-
-### Constructors
-
-[constructor](#constructor)
-
-### Properties
-
-[endAngle](#endangle)
-[origin](#origin)
-[radius](#radius)
-[startAngle](#startangle)
-[type](#type)
 
 ## Constructors
 
@@ -67,22 +50,22 @@ Class for arc path.
 
   #### Parameters
 
-  + origin: [IPoint](../interfaces/core_schema.IPoint.md)
+  * origin: [IPoint](../interfaces/core_schema.IPoint.md)
 
     The center point of the arc.
-  + radius: number
+  * radius: number
 
     The radius of the arc.
-  + startAngle: number
+  * startAngle: number
 
     The start angle of the arc.
-  + endAngle: number
+  * endAngle: number
 
     The end angle of the arc.
 
   #### Returns Arc
 
-  + Defined in [core/paths.ts:38](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/paths.ts#L38)
+  * Defined in [core/paths.ts:38](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/paths.ts#L38)
 * new Arc(
       pointA: [IPoint](../interfaces/core_schema.IPoint.md),
       pointB: [IPoint](../interfaces/core_schema.IPoint.md),
@@ -95,63 +78,63 @@ Class for arc path.
 
   #### Parameters
 
-  + pointA: [IPoint](../interfaces/core_schema.IPoint.md)
+  * pointA: [IPoint](../interfaces/core_schema.IPoint.md)
 
     First end point of the arc.
-  + pointB: [IPoint](../interfaces/core_schema.IPoint.md)
+  * pointB: [IPoint](../interfaces/core_schema.IPoint.md)
 
     Second end point of the arc.
-  + radius: number
+  * radius: number
 
     The radius of the arc.
-  + largeArc: boolean
+  * largeArc: boolean
 
-    Boolean flag that selects the larger of the two possible arc sweeps between the end points when true.
-  + clockwise: boolean
+    Boolean flag to indicate clockwise direction.
+  * clockwise: boolean
 
     Boolean flag that sets the direction of the arc sweep to clockwise when true and counter-clockwise when false.
 
   #### Returns Arc
 
-  + Defined in [core/paths.ts:49](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/paths.ts#L49)
+  * Defined in [core/paths.ts:49](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/paths.ts#L49)
 * new Arc(pointA: [IPoint](../interfaces/core_schema.IPoint.md), pointB: [IPoint](../interfaces/core_schema.IPoint.md), clockwise?: boolean): Arc
 
   Class for arc path, created from 2 points and optional boolean flag indicating clockwise.
 
   #### Parameters
 
-  + pointA: [IPoint](../interfaces/core_schema.IPoint.md)
+  * pointA: [IPoint](../interfaces/core_schema.IPoint.md)
 
     First end point of the arc.
-  + pointB: [IPoint](../interfaces/core_schema.IPoint.md)
+  * pointB: [IPoint](../interfaces/core_schema.IPoint.md)
 
     Second end point of the arc.
-  + `Optional`clockwise: boolean
+  * `Optional`clockwise: boolean
 
     Boolean flag that sets the direction of the arc sweep to clockwise when true and counter-clockwise when false.
 
   #### Returns Arc
 
-  + Defined in [core/paths.ts:58](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/paths.ts#L58)
+  * Defined in [core/paths.ts:58](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/paths.ts#L58)
 * new Arc(pointA: [IPoint](../interfaces/core_schema.IPoint.md), pointB: [IPoint](../interfaces/core_schema.IPoint.md), pointC: [IPoint](../interfaces/core_schema.IPoint.md)): Arc
 
   Class for arc path, created from 3 points.
 
   #### Parameters
 
-  + pointA: [IPoint](../interfaces/core_schema.IPoint.md)
+  * pointA: [IPoint](../interfaces/core_schema.IPoint.md)
 
     First end point of the arc.
-  + pointB: [IPoint](../interfaces/core_schema.IPoint.md)
+  * pointB: [IPoint](../interfaces/core_schema.IPoint.md)
 
     Middle point on the arc.
-  + pointC: [IPoint](../interfaces/core_schema.IPoint.md)
+  * pointC: [IPoint](../interfaces/core_schema.IPoint.md)
 
     Second end point of the arc.
 
   #### Returns Arc
 
-  + Defined in [core/paths.ts:67](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/paths.ts#L67)
+  * Defined in [core/paths.ts:67](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/paths.ts#L67)
 
 ## Properties
 
@@ -213,16 +196,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Constructors
-
-[constructor](#constructor)
-
-Properties
-
-[endAngle](#endangle)[origin](#origin)[radius](#radius)[startAngle](#startangle)[type](#type)
 
 [Photon](../index.md)
 

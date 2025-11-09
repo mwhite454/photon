@@ -21,9 +21,6 @@ IEllpiticalArcOptions | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [types/jscad](../modules/types_jscad.md)
@@ -43,15 +40,6 @@ interface IEllpiticalArcOptions {
 }
 
 * Defined in [types/jscad.d.ts:75](https://github.com/mwhite454/photon/blob/main/packages/photon/src/types/jscad.d.ts#L75)
-
-##### Index
-
-### Properties
-
-[clockwise](#clockwise)
-[large](#large)
-[radius](#radius)
-[resolution?](#resolution)
 
 ## Properties
 
@@ -87,12 +75,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[clockwise](#clockwise)[large](#large)[radius](#radius)[resolution](#resolution)
 
 [Photon](../index.md)
 

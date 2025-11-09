@@ -21,8 +21,8 @@ tags:
 - models
 title: Chain To New Model
 ---
-Once you have a chain, you can also convert it to a model, so that you can return to using the familiar [model API](../api/modules/core_model.html)
-with your shapes. Call [makerjs.chain.toNewModel(chain, detachFromOldModel: boolean)](../api/modules/core_chain.html#tonewmodel).
+Once you have a chain, you can also convert it to a model, so that you can return to using the familiar [model API](../converted/api/modules/core_model.md)
+with your shapes. Call [makerjs.chain.toNewModel(chain, detachFromOldModel: boolean)](../converted/api/functions/core_chain.toNewModel.md).
 
 ## Related Topics
 

@@ -4,52 +4,38 @@ category: API Reference
 description: IPointGraphIndexElement | Photon
 difficulty: intermediate
 keywords:
-- api-reference
-- ipointgraphindexelement
-- photon
+  - api-reference
+  - ipointgraphindexelement
+  - photon
 primary_topic: ipointgraphindexelement-|-photon
 source: docs/docs/api/interfaces/core_collect.IPointGraphIndexElement.html
 tags:
-- ipointgraphindexelement-|-photon
-- api-reference
-- intermediate
+  - ipointgraphindexelement-|-photon
+  - api-reference
+  - intermediate
 title: IPointGraphIndexElement | Photon
 ---
+
 IPointGraphIndexElement | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
-* [core/collect](../modules/core_collect.md)
-* IPointGraphIndexElement
+- [core/collect](../modules/core_collect.md)
+- IPointGraphIndexElement
 
 # Interface IPointGraphIndexElement
 
 The element type stored in the index of a PointGraph.
 
 interface IPointGraphIndexElement {
-    [kdId](#kdid)?: number;
-    [merged](#merged)?: number[];
-    [point](#point): [IPoint](core_schema.IPoint.md);
-    [pointId](#pointid): number;
-    [valueIds](#valueids): number[];
-}
-
-* Defined in [core/collect.ts:95](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/collect.ts#L95)
-
-##### Index
-
-### Properties
-
-[kdId?](#kdid)
-[merged?](#merged)
-[point](#point)
-[pointId](#pointid)
-[valueIds](#valueids)
+[kdId](#kdid)?: number;
+[merged](#merged)?: number[];
+[point](#point): [IPoint](../interfaces/core_schema.IPoint.md);
+[pointId](#pointid): number;
+[valueIds](#valueids): number[];
+}\* Defined in [core/collect.ts:95](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/collect.ts#L95)
 
 ## Properties
 
@@ -59,7 +45,7 @@ kdId?: number
 
 This point's ordinal position in the kd-tree.
 
-* Defined in [core/collect.ts:120](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/collect.ts#L120)
+- Defined in [core/collect.ts:120](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/collect.ts#L120)
 
 ### `Optional`merged
 
@@ -67,15 +53,15 @@ merged?: number[]
 
 Array of other pointId's merged with this one.
 
-* Defined in [core/collect.ts:110](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/collect.ts#L110)
+- Defined in [core/collect.ts:110](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/collect.ts#L110)
 
 ### point
 
-point: [IPoint](core_schema.IPoint.md)
+point: [IPoint](../interfaces/core_schema.IPoint.md)
 
 The point.
 
-* Defined in [core/collect.ts:100](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/collect.ts#L100)
+- Defined in [core/collect.ts:100](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/collect.ts#L100)
 
 ### pointId
 
@@ -83,7 +69,7 @@ pointId: number
 
 The id of this point.
 
-* Defined in [core/collect.ts:105](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/collect.ts#L105)
+- Defined in [core/collect.ts:105](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/collect.ts#L105)
 
 ### valueIds
 
@@ -91,25 +77,8 @@ valueIds: number[]
 
 Array of valueId's for this point.
 
-* Defined in [core/collect.ts:115](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/collect.ts#L115)
+- Defined in [core/collect.ts:115](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/collect.ts#L115)
 
-### Settings
+---
 
-Member Visibility
-
-* Protected
-* Inherited
-
-ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[kdId](#kdid)[merged](#merged)[point](#point)[pointId](#pointid)[valueIds](#valueids)
-
-[Photon](../index.md)
-
-* Loading...
-
-Generated using [TypeDoc](https://typedoc.org/)
+_Generated using [TypeDoc](https://typedoc.org/)_

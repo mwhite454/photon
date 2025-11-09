@@ -20,9 +20,6 @@ reverse | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/chain](../modules/core_chain.md)
@@ -30,21 +27,21 @@ Preparing search index...
 
 # Function reverse
 
-* reverse(chainContext: [IChain](../interfaces/core_core.IChain.md)): [IChain](../interfaces/core_core.IChain.md)
+* reverse(chainContext: [IChain](../interfaces/core_maker.IChain.md)): [IChain](../interfaces/core_maker.IChain.md)
 
   Reverse the links of a chain.
 
   #### Parameters
 
-  + chainContext: [IChain](../interfaces/core_core.IChain.md)
+  * chainContext: [IChain](../interfaces/core_maker.IChain.md)
 
     Chain to reverse.
 
-  #### Returns [IChain](../interfaces/core_core.IChain.md)
+  #### Returns [IChain](../interfaces/core_maker.IChain.md)
 
   The chainContext for cascading.
 
-  + Defined in [core/chain.ts:486](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/chain.ts#L486)
+  * Defined in [core/chain.ts:486](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/chain.ts#L486)
 
 ### Settings
 

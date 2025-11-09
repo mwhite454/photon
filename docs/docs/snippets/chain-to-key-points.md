@@ -28,6 +28,7 @@ title: Chain To Key Points
 If you want a "low poly" representation of a chain, call
 [model.toKeyPoints(chain, [optional] maxArcFacet)](/docs/api/modules/chain.html#tokeypoints)
 passing your chain, and the maximum length of facets on arcs & circles:
+
 ```javascript
 //convert a round rectangle to key points
 import { chain, exporter, model, models } from '@7syllable/photon-core';

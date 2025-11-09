@@ -30,7 +30,6 @@ it will not affect SVG exported to a file for the laser cutter.
 The keys you use within your **paths** and **models** collections become an **id** attribute
 in the generated SVG. For Example:
 
-
 ## Examples
 
 ```javascript
@@ -56,8 +55,8 @@ document.write(svg.replace(/
 
 ');
 ```
-try it in JsFiddle ⇗
 
+try it in JsFiddle ⇗
 
 We see that circle1 was a key within our paths collection and was translated into an id
 in an SVG element. We also see that the model bigOvalArc has geen translated to an SVG group with that id.

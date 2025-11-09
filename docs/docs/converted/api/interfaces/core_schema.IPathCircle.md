@@ -24,9 +24,6 @@ IPathCircle | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/schema](../modules/core_schema.md)
@@ -43,26 +40,17 @@ interface IPathCircle {
     [type](#type): string;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.md#core/schema.IPathCircle))
+#### Hierarchy ([View Summary](../hierarchy.md))
 
 * [IPath](core_schema.IPath.md)
-  + IPathCircle
-    - [IPathArc](core_schema.IPathArc.md)
+  * IPathCircle
+    * [IPathArc](core_schema.IPathArc.md)
 
 #### Implemented by
 
 * [Circle](../classes/core_paths.Circle.md)
 
 * Defined in [core/schema.ts:34](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/schema.ts#L34)
-
-##### Index
-
-### Properties
-
-[layer?](#layer)
-[origin](#origin)
-[radius](#radius)
-[type](#type)
 
 ## Properties
 
@@ -113,12 +101,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Properties
-
-[layer](#layer)[origin](#origin)[radius](#radius)[type](#type)
-
 [Photon](../index.md)
 
 * Loading...
@@ -127,6 +109,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Path Independence](../index.md)
-- [Models](../index.md)
-- [Path Constructors](../index.md)
+* [Path Independence](../index.md)
+* [Models](../index.md)
+* [Path Constructors](../index.md)

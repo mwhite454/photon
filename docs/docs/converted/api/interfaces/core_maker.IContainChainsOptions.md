@@ -23,12 +23,9 @@ IContainChainsOptions | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
-* [core/maker](../modules/core_core.md)
+* [core/maker](../modules/core_maker.md)
 * IContainChainsOptions
 
 # Interface IContainChainsOptions
@@ -40,12 +37,6 @@ interface IContainChainsOptions {
 }
 
 * Defined in [core/maker.ts:527](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L527)
-
-##### Index
-
-### Properties
-
-[alternateDirection?](#alternatedirection)
 
 ## Properties
 
@@ -66,12 +57,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Properties
-
-[alternateDirection](#alternatedirection)
-
 [Photon](../index.md)
 
 * Loading...
@@ -80,6 +65,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Chain Theory](../index.md)
-- [Breaking](../index.md)
-- [Routes](../index.md)
+* [Chain Theory](../index.md)
+* [Breaking](../index.md)
+* [Routes](../index.md)

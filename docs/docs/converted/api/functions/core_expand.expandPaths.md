@@ -24,9 +24,6 @@ expandPaths | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/expand](../modules/core_expand.md)
@@ -38,19 +35,19 @@ Preparing search index...
       modelToExpand: [IModel](../interfaces/core_schema.IModel.md),
       distance: number,
       joints?: number,
-      combineOptions?: [ICombineOptions](../interfaces/core_core.ICombineOptions.md),
+      combineOptions?: [ICombineOptions](../interfaces/core_maker.ICombineOptions.md),
   ): [IModel](../interfaces/core_schema.IModel.md)
 
   #### Parameters
 
-  + modelToExpand: [IModel](../interfaces/core_schema.IModel.md)
-  + distance: number
-  + joints: number = 0
-  + combineOptions: [ICombineOptions](../interfaces/core_core.ICombineOptions.md) = {}
+  * modelToExpand: [IModel](../interfaces/core_schema.IModel.md)
+  * distance: number
+  * joints: number = 0
+  * combineOptions: [ICombineOptions](../interfaces/core_maker.ICombineOptions.md) = {}
 
   #### Returns [IModel](../interfaces/core_schema.IModel.md)
 
-  + Defined in [core/expand.ts:81](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/expand.ts#L81)
+  * Defined in [core/expand.ts:81](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/expand.ts#L81)
 
 ### Settings
 
@@ -69,6 +66,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Path Independence](../index.md)
-- [Models](../index.md)
-- [Path Constructors](../index.md)
+* [Path Independence](../index.md)
+* [Models](../index.md)
+* [Path Constructors](../index.md)

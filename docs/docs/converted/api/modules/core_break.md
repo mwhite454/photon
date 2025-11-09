@@ -19,10 +19,6 @@ title: core/break | Photon
 core/break | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * core/break
@@ -41,12 +37,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Functions
-
-[breakAtPoint](#breakatpoint)
 
 [Photon](../index.md)
 

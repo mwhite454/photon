@@ -19,9 +19,6 @@ fromArc | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/point](../modules/core_point.md)
@@ -35,11 +32,11 @@ Preparing search index...
 
   #### Parameters
 
-  + arc: [IPathArc](../interfaces/core_schema.IPathArc.md)
+  * arc: [IPathArc](../interfaces/core_schema.IPathArc.md)
 
   #### Returns [IPoint](../interfaces/core_schema.IPoint.md)[]
 
-  + Defined in [core/point.ts:72](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/point.ts#L72)
+  * Defined in [core/point.ts:72](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/point.ts#L72)
 
 ### Settings
 

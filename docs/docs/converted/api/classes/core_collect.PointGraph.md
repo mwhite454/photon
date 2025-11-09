@@ -4,28 +4,26 @@ category: API Reference
 description: Preparing search index...
 difficulty: intermediate
 keywords:
-- api-reference
-- photon
-- pointgraph
+  - api-reference
+  - photon
+  - pointgraph
 primary_topic: pointgraph-|-photon
 source: docs/docs/api/classes/core_collect.PointGraph.html
 tags:
-- intermediate
-- api-reference
-- pointgraph-|-photon
+  - intermediate
+  - api-reference
+  - pointgraph-|-photon
 title: PointGraph | Photon
 ---
+
 PointGraph | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
-* [core/collect](../modules/core_collect.md)
-* PointGraph
+- [core/collect](../modules/core_collect.md)
+- PointGraph
 
 # Class PointGraph<T>
 
@@ -33,48 +31,25 @@ A graph of items which may be located on the same points.
 
 #### Type Parameters
 
-* T
+- T
 
-* Defined in [core/collect.ts:126](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/collect.ts#L126)
-
-##### Index
-
-### Constructors
-
-[constructor](#constructor)
-
-### Properties
-
-[graph](#graph)
-[index](#index)
-[insertedCount](#insertedcount)
-[merged](#merged)
-[values](#values)
-
-### Methods
-
-[forEachPoint](#foreachpoint)
-[getElementAtPoint](#getelementatpoint)
-[getIdOfPoint](#getidofpoint)
-[insertValue](#insertvalue)
-[insertValueIdAtPoint](#insertvalueidatpoint)
-[mergeNearestSinglePoints](#mergenearestsinglepoints)
-[mergePoints](#mergepoints)
-[reset](#reset)
+- Defined in [core/collect.ts:126](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/collect.ts#L126)
 
 ## Constructors
 
 ### constructor
 
-* new PointGraph<[T](#constructorpointgrapht)>(): PointGraph<[T](#constructorpointgrapht)>
+- new PointGraph<T>(): PointGraph<T>
+
+  <a id="constructorpointgrapht"></a>
 
   #### Type Parameters
 
-  + T
+  - T
 
-  #### Returns PointGraph<[T](#constructorpointgrapht)>
+  #### Returns PointGraph<T>
 
-  + Defined in [core/collect.ts:158](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/collect.ts#L158)
+  - Defined in [core/collect.ts:158](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/collect.ts#L158)
 
 ## Properties
 
@@ -84,7 +59,7 @@ graph: { [x: number]: { [y: number]: number } }
 
 Map of unique points by x, then y, to a point id. This will remain intact even after merging.
 
-* Defined in [core/collect.ts:136](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/collect.ts#L136)
+- Defined in [core/collect.ts:136](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/collect.ts#L136)
 
 ### index
 
@@ -92,7 +67,7 @@ index: { [pointId: number]: [IPointGraphIndexElement](../interfaces/core_collect
 
 Index of points by id.
 
-* Defined in [core/collect.ts:141](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/collect.ts#L141)
+- Defined in [core/collect.ts:141](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/collect.ts#L141)
 
 ### insertedCount
 
@@ -100,7 +75,7 @@ insertedCount: number
 
 Number of points inserted
 
-* Defined in [core/collect.ts:131](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/collect.ts#L131)
+- Defined in [core/collect.ts:131](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/collect.ts#L131)
 
 ### merged
 
@@ -108,82 +83,80 @@ merged: { [pointId: number]: number }
 
 Map of point ids which once existed but have been merged into another id due to close proximity.
 
-* Defined in [core/collect.ts:146](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/collect.ts#L146)
+- Defined in [core/collect.ts:146](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/collect.ts#L146)
 
 ### values
 
-values: [T](#constructorpointgrapht)[]
+values: T[]
 
 List of values inserted at points.
 
-* Defined in [core/collect.ts:151](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/collect.ts#L151)
+- Defined in [core/collect.ts:151](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/collect.ts#L151)
 
 ## Methods
 
 ### forEachPoint
 
-* forEachPoint(
-      cb: (
-          p: [IPoint](../interfaces/core_schema.IPoint.md),
-          values: [T](#constructorpointgrapht)[],
-          pointId?: number,
-          el?: [IPointGraphIndexElement](../interfaces/core_collect.IPointGraphIndexElement.md),
-      ) => void,
+- forEachPoint(
+  cb: (
+  p: [IPoint](../interfaces/core_schema.IPoint.md),
+  values: T[],
+  pointId?: number,
+  el?: [IPointGraphIndexElement](../interfaces/core_collect.IPointGraphIndexElement.md),
+  ) => void,
   ): void
 
   Iterate over points in the index.
 
   #### Parameters
 
-  + cb: (p: [IPoint](../interfaces/core_schema.IPoint.md), values: [T](#constructorpointgrapht)[], pointId?: number, el?: [IPointGraphIndexElement](../interfaces/core_collect.IPointGraphIndexElement.md)) => void
+  - cb: (p: [IPoint](../interfaces/core_schema.IPoint.md), values: T[], pointId?: number, el?: [IPointGraphIndexElement](../interfaces/core_collect.IPointGraphIndexElement.md)) => void
 
-    Callback for each point in the index.
+    Callback for each point in the index. #### Returns void
 
-  #### Returns void
-
-  + Defined in [core/collect.ts:302](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/collect.ts#L302)
+  - Defined in [core/collect.ts:302](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/collect.ts#L302)
 
 ### getElementAtPoint
 
-* getElementAtPoint(p: [IPoint](../interfaces/core_schema.IPoint.md)): [IPointGraphIndexElement](../interfaces/core_collect.IPointGraphIndexElement.md)
+- getElementAtPoint(p: [IPoint](../interfaces/core_schema.IPoint.md)): [IPointGraphIndexElement](../interfaces/core_collect.IPointGraphIndexElement.md)
 
   Get the index element of a point, after merging.
 
   #### Parameters
 
-  + p: [IPoint](../interfaces/core_schema.IPoint.md)
+  - p: [IPoint](../interfaces/core_schema.IPoint.md)
 
     Point to look up index element.
 
   #### Returns [IPointGraphIndexElement](../interfaces/core_collect.IPointGraphIndexElement.md)
 
-  + Defined in [core/collect.ts:335](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/collect.ts#L335)
+  - Defined in [core/collect.ts:335](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/collect.ts#L335)
 
 ### getIdOfPoint
 
-* getIdOfPoint(p: [IPoint](../interfaces/core_schema.IPoint.md)): number
+- getIdOfPoint(p: [IPoint](../interfaces/core_schema.IPoint.md)): number
 
   Gets the id of a point, after merging.
 
   #### Parameters
 
-  + p: [IPoint](../interfaces/core_schema.IPoint.md)
+  - p: [IPoint](../interfaces/core_schema.IPoint.md)
 
     Point to look up id.
 
   #### Returns number
 
-  + Defined in [core/collect.ts:317](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/collect.ts#L317)
+  - Defined in [core/collect.ts:317](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/collect.ts#L317)
 
 ### insertValue
 
-* insertValue(value: [T](#constructorpointgrapht)): number
+- insertValue(value: T): number
 
   Insert a value.
 
   #### Parameters
 
-  + value: [T](#constructorpointgrapht)
+  - value: T
 
     Value associated with this point.
 
@@ -191,11 +164,11 @@ List of values inserted at points.
 
   valueId of the inserted value.
 
-  + Defined in [core/collect.ts:178](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/collect.ts#L178)
+  - Defined in [core/collect.ts:178](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/collect.ts#L178)
 
 ### insertValueIdAtPoint
 
-* insertValueIdAtPoint(
+- insertValueIdAtPoint(
       valueId: number,
       p: [IPoint](../interfaces/core_schema.IPoint.md),
   ): { existed: boolean; pointId: number }
@@ -204,83 +177,58 @@ List of values inserted at points.
 
   #### Parameters
 
-  + valueId: number
-  + p: [IPoint](../interfaces/core_schema.IPoint.md)
+  - valueId: number
+  - p: [IPoint](../interfaces/core_schema.IPoint.md)
 
     Point.
 
   #### Returns { existed: boolean; pointId: number }
 
-  + Defined in [core/collect.ts:188](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/collect.ts#L188)
+  - Defined in [core/collect.ts:188](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/collect.ts#L188)
 
 ### mergeNearestSinglePoints
 
-* mergeNearestSinglePoints(withinDistance: number): void
+- mergeNearestSinglePoints(withinDistance: number): void
 
   Finds all points which have only one value associated. Then, merge to the nearest other point within this set.
   Call this after inserting values.
 
   #### Parameters
 
-  + withinDistance: number
+  - withinDistance: number
 
     Distance to consider points equal.
 
   #### Returns void
 
-  + Defined in [core/collect.ts:252](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/collect.ts#L252)
+  - Defined in [core/collect.ts:252](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/collect.ts#L252)
 
 ### mergePoints
 
-* mergePoints(withinDistance: number): void
+- mergePoints(withinDistance: number): void
 
   Merge points within a given distance from each other. Call this after inserting values.
 
   #### Parameters
 
-  + withinDistance: number
+  - withinDistance: number
 
     Distance to consider points equal.
 
   #### Returns void
 
-  + Defined in [core/collect.ts:220](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/collect.ts#L220)
+  - Defined in [core/collect.ts:220](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/collect.ts#L220)
 
 ### reset
 
-* reset(): void
+- reset(): void
 
   Reset the stored points, graphs, lists, to initial state.
 
   #### Returns void
 
-  + Defined in [core/collect.ts:165](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/collect.ts#L165)
+  - Defined in [core/collect.ts:165](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/collect.ts#L165)
 
-### Settings
+---
 
-Member Visibility
-
-* Protected
-* Inherited
-
-ThemeOSLightDark
-
-### On This Page
-
-Constructors
-
-[constructor](#constructor)
-
-Properties
-
-[graph](#graph)[index](#index)[insertedCount](#insertedcount)[merged](#merged)[values](#values)
-
-Methods
-
-[forEachPoint](#foreachpoint)[getElementAtPoint](#getelementatpoint)[getIdOfPoint](#getidofpoint)[insertValue](#insertvalue)[insertValueIdAtPoint](#insertvalueidatpoint)[mergeNearestSinglePoints](#mergenearestsinglepoints)[mergePoints](#mergepoints)[reset](#reset)
-
-[Photon](../index.md)
-
-* Loading...
-
-Generated using [TypeDoc](https://typedoc.org/)
+_Generated using [TypeDoc](https://typedoc.org/)_

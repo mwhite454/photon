@@ -18,10 +18,6 @@ title: core/xml | Photon
 core/xml | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * core/xml
@@ -44,16 +40,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Classes
-
-[XmlTag](#xmltag)
-
-Interfaces
-
-[IXmlTagAttrs](#ixmltagattrs)
 
 [Photon](../index.md)
 

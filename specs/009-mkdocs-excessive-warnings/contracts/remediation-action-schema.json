@@ -1,0 +1,65 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/mwhite454/photon/schemas/remediation-action.json",
+  "title": "Remediation Action",
+  "description": "A fix applied to address one or more warnings",
+  "type": "object",
+  "required": ["action_id", "timestamp", "action_type", "file_path", "warnings_addressed", "description", "verified"],
+  "properties": {
+    "action_id": {
+      "type": "string",
+      "description": "Unique action identifier",
+      "pattern": "^fix-[0-9]{3,}$"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "When action was taken (ISO 8601 format)"
+    },
+    "action_type": {
+      "type": "string",
+      "enum": ["link_update", "link_creation", "syntax_fix", "config_update", "plugin_update", "content_restructure", "accepted_as_is"],
+      "description": "Type of fix applied"
+    },
+    "file_path": {
+      "type": "string",
+      "description": "File that was modified"
+    },
+    "warnings_addressed": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-f0-9]{8,}$"
+      },
+      "minItems": 1,
+      "description": "Array of warning IDs addressed by this action"
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Human-readable description of fix"
+    },
+    "before": {
+      "type": "string",
+      "description": "Content before fix (for rollback)"
+    },
+    "after": {
+      "type": "string",
+      "description": "Content after fix (for verification)"
+    },
+    "git_commit": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{7,40}$",
+      "description": "Git commit SHA if committed"
+    },
+    "verified": {
+      "type": "boolean",
+      "description": "Whether fix was verified to work"
+    },
+    "verification_notes": {
+      "type": "string",
+      "description": "Notes from verification process"
+    }
+  },
+  "additionalProperties": false
+}

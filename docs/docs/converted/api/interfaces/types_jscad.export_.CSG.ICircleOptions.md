@@ -21,9 +21,6 @@ ICircleOptions | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [types/jscad](../modules/types_jscad.md)
@@ -42,14 +39,6 @@ interface ICircleOptions {
 }
 
 * Defined in [types/jscad.d.ts:55](https://github.com/mwhite454/photon/blob/main/packages/photon/src/types/jscad.d.ts#L55)
-
-##### Index
-
-### Properties
-
-[center](#center)
-[radius](#radius)
-[resolution?](#resolution)
 
 ## Properties
 
@@ -79,12 +68,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Properties
-
-[center](#center)[radius](#radius)[resolution](#resolution)
 
 [Photon](../index.md)
 

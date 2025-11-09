@@ -19,9 +19,6 @@ isArcSpanOverlapping | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/measure](../modules/core_measure.md)
@@ -39,13 +36,13 @@ Preparing search index...
 
   #### Parameters
 
-  + arcA: [IPathArc](../interfaces/core_schema.IPathArc.md)
+  * arcA: [IPathArc](../interfaces/core_schema.IPathArc.md)
 
     The arc to test.
-  + arcB: [IPathArc](../interfaces/core_schema.IPathArc.md)
+  * arcB: [IPathArc](../interfaces/core_schema.IPathArc.md)
 
     The arc to check for overlap.
-  + excludeTangents: boolean
+  * excludeTangents: boolean
 
     Boolean to exclude exact endpoints and only look for deep overlaps.
 
@@ -53,7 +50,7 @@ Preparing search index...
 
   Boolean true if arcA is overlapped with arcB.
 
-  + Defined in [core/measure.ts:116](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure.ts#L116)
+  * Defined in [core/measure.ts:116](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/measure.ts#L116)
 
 ### Settings
 

@@ -22,8 +22,8 @@ title: Outlining
 ---
 
 !!! warning "Known Issue - API Not Yet Available"
-    This page documents `model.outline()` which is **not yet available** in `@7syllable/photon-core@0.18.1`. 
-    
+    This page documents `model.outline()` which is **not yet available** in `@7syllable/photon-core@0.18.1`.
+
     This function existed in the original maker.js but has not yet been ported to photon/core. 
     
     **Status**: See [GitHub Issue #3](https://github.com/mwhite454/photon/issues/3) for updates.
@@ -31,7 +31,7 @@ title: Outlining
     The code examples on this page will not execute until this function is restored.
 
 Expanding a model's path will surround every path, which sometimes can mean there is an inner and an outer surrounding chain. If you only want the outer surrounding chain, use
-[makerjs.model.outline](../api/modules/core_model.html#outline):
+[makerjs.model.outline](../converted/api/modules/core_model.md):
 
 ```javascript
 import { exporter, model, models } from '@7syllable/photon-core';

@@ -29,4 +29,5 @@ import { models, paths, exporter } from '@7syllable/photon-core';
 const svg = exporter.toSVG(yourModel);
 document.write(svg);
 ```
+
 [try it in JsFiddle ⇗](https://jsfiddle.net/danmarshall//)

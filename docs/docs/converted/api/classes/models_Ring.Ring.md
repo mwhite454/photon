@@ -21,9 +21,6 @@ Ring | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [models/Ring](../modules/models_Ring.md)
@@ -39,16 +36,6 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
 * Defined in [models/Ring.ts:6](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Ring.ts#L6)
 
-##### Index
-
-### Constructors
-
-[constructor](#constructor)
-
-### Properties
-
-[paths](#paths)
-
 ## Constructors
 
 ### constructor
@@ -57,12 +44,12 @@ A model is a composite object which may contain a map of paths, or a map of mode
 
   #### Parameters
 
-  + outerRadius: number
-  + `Optional`innerRadius: number
+  * outerRadius: number
+  * `Optional`innerRadius: number
 
   #### Returns Ring
 
-  + Defined in [models/Ring.ts:9](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Ring.ts#L9)
+  * Defined in [models/Ring.ts:9](https://github.com/mwhite454/photon/blob/main/packages/photon/src/models/Ring.ts#L9)
 
 ## Properties
 
@@ -84,16 +71,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Constructors
-
-[constructor](#constructor)
-
-Properties
-
-[paths](#paths)
 
 [Photon](../index.md)
 

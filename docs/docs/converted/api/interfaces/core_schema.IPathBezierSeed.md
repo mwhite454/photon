@@ -24,9 +24,6 @@ IPathBezierSeed | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/schema](../modules/core_schema.md)
@@ -45,27 +42,16 @@ interface IPathBezierSeed {
     [type](#type): string;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.md#core/schema.IPathBezierSeed))
+#### Hierarchy ([View Summary](../hierarchy.md))
 
 * [IPathLine](core_schema.IPathLine.md)
-  + IPathBezierSeed
+  * IPathBezierSeed
 
 #### Implemented by
 
 * [BezierSeed](../classes/models_BezierCurve-esm.BezierSeed.md)
 
 * Defined in [core/schema.ts:48](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/schema.ts#L48)
-
-##### Index
-
-### Properties
-
-[controls](#controls)
-[end](#end)
-[layer?](#layer)
-[origin](#origin)
-[parentRange?](#parentrange)
-[type](#type)
 
 ## Properties
 
@@ -134,12 +120,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Properties
-
-[controls](#controls)[end](#end)[layer](#layer)[origin](#origin)[parentRange](#parentrange)[type](#type)
-
 [Photon](../index.md)
 
 * Loading...
@@ -148,6 +128,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Path Independence](../index.md)
-- [Models](../index.md)
-- [Path Constructors](../index.md)
+* [Path Independence](../index.md)
+* [Models](../index.md)
+* [Path Constructors](../index.md)

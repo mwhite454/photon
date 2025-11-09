@@ -23,10 +23,6 @@ title: models/BezierCurve-esm | Photon
 models/BezierCurve-esm | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * models/BezierCurve-esm
@@ -36,8 +32,6 @@ Preparing search index...
 ## Classes
 
 [BezierCurve](../classes/models_BezierCurve-esm.BezierCurve.md)
-
-
 [BezierSeed](../classes/models_BezierCurve-esm.BezierSeed.md)
 
 ### Settings
@@ -49,12 +43,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Classes
-
-[BezierCurve](#beziercurve)[BezierSeed](#bezierseed)
-
 [Photon](../index.md)
 
 * Loading...
@@ -63,6 +51,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Modeling](../index.md)
-- [Paths](../index.md)
-- [Built-in Models](../index.md)
+* [Modeling](../index.md)
+* [Paths](../index.md)
+* [Built-in Models](../index.md)

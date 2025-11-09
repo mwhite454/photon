@@ -23,10 +23,6 @@ title: models/Ellipse | Photon
 models/Ellipse | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * models/Ellipse
@@ -36,8 +32,6 @@ Preparing search index...
 ## Classes
 
 [Ellipse](../classes/models_Ellipse.Ellipse.md)
-
-
 [EllipticArc](../classes/models_Ellipse.EllipticArc.md)
 
 ### Settings
@@ -49,12 +43,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Classes
-
-[Ellipse](#ellipse)[EllipticArc](#ellipticarc)
-
 [Photon](../index.md)
 
 * Loading...
@@ -63,6 +51,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Modeling](../index.md)
-- [Paths](../index.md)
-- [Built-in Models](../index.md)
+* [Modeling](../index.md)
+* [Paths](../index.md)
+* [Built-in Models](../index.md)

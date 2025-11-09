@@ -19,9 +19,6 @@ ofArcMiddle | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/angle](../modules/core_angle.md)
@@ -35,12 +32,12 @@ Preparing search index...
 
   #### Parameters
 
-  + arc: [IPathArc](../interfaces/core_schema.IPathArc.md)
-  + ratio: number = .5
+  * arc: [IPathArc](../interfaces/core_schema.IPathArc.md)
+  * ratio: number = .5
 
   #### Returns number
 
-  + Defined in [core/angle.ts:64](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/angle.ts#L64)
+  * Defined in [core/angle.ts:64](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/angle.ts#L64)
 
 ### Settings
 

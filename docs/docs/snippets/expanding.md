@@ -26,8 +26,8 @@ title: Expanding
 ---
 
 !!! warning "Known Issue - API Not Yet Available"
-    This page documents `model.expandPaths()` which is **not yet available** in `@7syllable/photon-core@0.18.1`. 
-    
+    This page documents `model.expandPaths()` which is **not yet available** in `@7syllable/photon-core@0.18.1`.
+
     This function existed in the original maker.js but has not yet been ported to photon/core. 
     
     **Status**: See [GitHub Issue #3](https://github.com/mwhite454/photon/issues/3) for updates.
@@ -52,7 +52,7 @@ const svg = exporter.toSVG(model);
 document.write(svg);
 ```
 
-Pass a path and a distance to [path.expand](../api/modules/core_path.html#expand), this will return a new model:
+Pass a path and a distance to [path.expand](../converted/api/modules/core_path.md), this will return a new model:
 
 ```javascript
 //expand around each path type
@@ -72,6 +72,7 @@ x3: path.expand(model.paths.p3, 2)
 const svg = exporter.toSVG(model);
 document.write(svg);
 ```
+
 ```javascript
 //show only expansions
 import { exporter, model, path, paths } from '@7syllable/photon-core';
@@ -93,10 +94,9 @@ const svg = exporter.toSVG(model);
 document.write(svg);
 ```
 
-
 ---
 
-You can also expand all the paths in a model by calling [model.expandPaths](../api/modules/core_model.html#expandpaths):
+You can also expand all the paths in a model by calling [model.expandPaths](../converted/api/modules/core_model.md):
 
 ```javascript
 import { exporter, model, models } from '@7syllable/photon-core';
@@ -113,12 +113,11 @@ const svg = exporter.toSVG(model);
 document.write(svg);
 ```
 
-
 ---
 
-#### Beveling joints
+### Beveling joints
 
-A third parameter can be passed to [model.expandPaths](../api/modules/core_model.html#expandpaths) to specify the number of corners to apply to each joint and end cap:
+A third parameter can be passed to [model.expandPaths](../converted/api/modules/core_model.md) to specify the number of corners to apply to each joint and end cap:
 
 * 0 (default) - no corners (rounded)
 * 1 - one corner (pointed)

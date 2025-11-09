@@ -19,10 +19,6 @@ title: core/deadend | Photon
 core/deadend | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * core/deadend
@@ -41,12 +37,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Functions
-
-[removeDeadEnds](#removedeadends)
 
 [Photon](../index.md)
 

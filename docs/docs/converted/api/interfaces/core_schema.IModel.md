@@ -26,9 +26,6 @@ IModel | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/schema](../modules/core_schema.md)
@@ -39,21 +36,21 @@ Preparing search index...
 A model is a composite object which may contain a map of paths, or a map of models recursively.
 
 interface IModel {
-    [caption](#caption)?: [ICaption](core_schema.ICaption.md);
-    [exporterOptions](#exporteroptions)?: { [exporterName: string]: any };
-    [layer](#layer)?: string;
-    [models](#models)?: [IModelMap](core_schema.IModelMap.md);
-    [notes](#notes)?: string;
-    [origin](#origin)?: [IPoint](core_schema.IPoint.md);
-    [paths](#paths)?: [IPathMap](core_schema.IPathMap.md);
-    [type](#type)?: string;
-    [units](#units)?: string;
+    [caption](#optional-caption)?: [ICaption](core_schema.ICaption.md);
+    [exporterOptions](#optional-exporteroptions)?: { [exporterName: string]: any };
+    [layer](#optional-layer)?: string;
+    [models](#optional-models)?: [IModelMap](core_schema.IModelMap.md);
+    [notes](#optional-notes)?: string;
+    [origin](#optional-origin)?: [IPoint](core_schema.IPoint.md);
+    [paths](#optional-paths)?: [IPathMap](core_schema.IPathMap.md);
+    [type](#optional-type)?: string;
+    [units](#optional-units)?: string;
 }
 
-#### Hierarchy ([View Summary](../hierarchy.md#core/schema.IModel))
+#### Hierarchy ([View Summary](../hierarchy.md))
 
 * IModel
-  + [IBoundingHex](core_core.IBoundingHex.md)
+  * [IBoundingHex](core_maker.IBoundingHex.md)
 
 #### Implemented by
 
@@ -80,20 +77,6 @@ interface IModel {
 * [Text](../classes/models_Text.Text.md)
 
 * Defined in [core/schema.ts:91](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/schema.ts#L91)
-
-##### Index
-
-### Properties
-
-[caption?](#caption)
-[exporterOptions?](#exporteroptions)
-[layer?](#layer)
-[models?](#models)
-[notes?](#notes)
-[origin?](#origin)
-[paths?](#paths)
-[type?](#type)
-[units?](#units)
 
 ## Properties
 
@@ -178,12 +161,6 @@ Member Visibility
 
 ThemeOSLightDark
 
-### On This Page
-
-Properties
-
-[caption](#caption)[exporterOptions](#exporteroptions)[layer](#layer)[models](#models)[notes](#notes)[origin](#origin)[paths](#paths)[type](#type)[units](#units)
-
 [Photon](../index.md)
 
 * Loading...
@@ -192,6 +169,6 @@ Generated using [TypeDoc](https://typedoc.org/)
 
 ## Related Topics
 
-- [Modeling](../index.md)
-- [Paths](../index.md)
-- [Built-in Models](../index.md)
+* [Modeling](../index.md)
+* [Paths](../index.md)
+* [Built-in Models](../index.md)

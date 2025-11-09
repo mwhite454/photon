@@ -18,10 +18,6 @@ title: core/pdf-esm | Photon
 core/pdf-esm | Photon
 
 [Photon](../index.md)
-
-
-
-
 Preparing search index...
 
 * core/pdf-esm
@@ -44,16 +40,6 @@ Member Visibility
 * Inherited
 
 ThemeOSLightDark
-
-### On This Page
-
-Interfaces
-
-[IPDFRenderOptions](#ipdfrenderoptions)
-
-Functions
-
-[toPDF](#topdf)
 
 [Photon](../index.md)
 

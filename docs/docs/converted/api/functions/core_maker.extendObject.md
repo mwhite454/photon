@@ -19,12 +19,9 @@ extendObject | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
-* [core/maker](../modules/core_core.md)
+* [core/maker](../modules/core_maker.md)
 * extendObject
 
 # Function extendObject
@@ -35,12 +32,12 @@ Preparing search index...
 
   #### Parameters
 
-  + target: any
-  + other: any
+  * target: any
+  * other: any
 
   #### Returns any
 
-  + Defined in [core/maker.ts:124](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L124)
+  * Defined in [core/maker.ts:124](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/maker.ts#L124)
 
 ### Settings
 

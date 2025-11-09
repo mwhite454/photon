@@ -19,9 +19,6 @@ isPointOnCircle | Photon
 
 [Photon](../index.md)
 
-
-
-
 Preparing search index...
 
 * [core/equal](../modules/core_equal.md)
@@ -39,13 +36,13 @@ Preparing search index...
 
   #### Parameters
 
-  + p: [IPoint](../interfaces/core_schema.IPoint.md)
-  + circle: [IPathCircle](../interfaces/core_schema.IPathCircle.md)
-  + withinDistance: number = 0
+  * p: [IPoint](../interfaces/core_schema.IPoint.md)
+  * circle: [IPathCircle](../interfaces/core_schema.IPathCircle.md)
+  * withinDistance: number = 0
 
   #### Returns boolean
 
-  + Defined in [core/equal.ts:99](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/equal.ts#L99)
+  * Defined in [core/equal.ts:99](https://github.com/mwhite454/photon/blob/main/packages/photon/src/core/equal.ts#L99)
 
 ### Settings
 
